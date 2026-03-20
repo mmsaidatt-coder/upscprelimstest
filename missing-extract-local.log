@@ -1,0 +1,21 @@
+[dotenv@17.3.1] injecting env (6) from .env.local -- tip: ⚙️  enable debug logging with { debug: true }
+🚀 Starting Targeted Extractor for Missing Questions from ALternate Source...
+
+================================
+📄 Scanning CSP-17-GS_PAPER-1-C.txt (Year 2017) for 6 missing questions: 32, 33, 34, 35, 36, 37
+-> Asking Gemini to extract EXACTLY these questions...
+✅ Extracted 0 missing questions for 2017!
+
+================================
+📄 Scanning QP-CSP-18-GS-I-C.txt (Year 2018) for 7 missing questions: 60, 61, 62, 93, 94, 95, 96
+-> Asking Gemini to extract EXACTLY these questions...
+✅ Extracted 0 missing questions for 2018!
+
+================================
+📄 Scanning csp-p1.txt (Year 2019) for 21 missing questions: 11, 12, 13, 14, 15, 21, 22, 23, 24, 25, 26, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80
+-> Asking Gemini to extract EXACTLY these questions...
+✅ Extracted 0 missing questions for 2019!
+
+================================
+📄 Scanning CSP_2020_GS_Paper-1.txt (Year 2020) for 6 missing questions: 31, 32, 33, 34, 35, 36
+-> Asking Gemini to extract EXACTLY these questions...

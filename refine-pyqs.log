@@ -1,0 +1,78 @@
+[dotenv@17.3.1] injecting env (6) from .env.local -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+🚀 Starting refinement of 1159 questions...
+
+==================================================
+📘 Processing Year 2014 (100 extracted questions)
+-> Asking Gemini to map questions and fill gaps...
+✅ Gemini identified Set: A
+✅ Mapped 100 questions.
+✅ Internally generated 0 missing questions.
+📌 Year 2014 finalized with 100 valid questions!
+
+==================================================
+📘 Processing Year 2015 (109 extracted questions)
+-> Asking Gemini to map questions and fill gaps...
+✅ Gemini identified Set: A
+✅ Mapped 100 questions.
+✅ Internally generated 0 missing questions.
+📌 Year 2015 finalized with 100 valid questions!
+
+==================================================
+📘 Processing Year 2016 (95 extracted questions)
+-> Asking Gemini to map questions and fill gaps...
+✅ Gemini identified Set: A
+✅ Mapped 95 questions.
+✅ Internally generated 5 missing questions.
+📌 Year 2016 finalized with 100 valid questions!
+
+==================================================
+📘 Processing Year 2017 (99 extracted questions)
+-> Asking Gemini to map questions and fill gaps...
+❌ Failed to process year 2017 [GoogleGenerativeAI Error]: Candidate was blocked due to RECITATION
+
+==================================================
+📘 Processing Year 2018 (93 extracted questions)
+-> Asking Gemini to map questions and fill gaps...
+❌ Failed to process year 2018 [GoogleGenerativeAI Error]: Candidate was blocked due to RECITATION
+
+==================================================
+📘 Processing Year 2019 (79 extracted questions)
+-> Asking Gemini to map questions and fill gaps...
+❌ Failed to process year 2019 [GoogleGenerativeAI Error]: Candidate was blocked due to RECITATION
+
+==================================================
+📘 Processing Year 2020 (108 extracted questions)
+-> Asking Gemini to map questions and fill gaps...
+❌ Failed to process year 2020 [GoogleGenerativeAI Error]: Candidate was blocked due to RECITATION
+
+==================================================
+📘 Processing Year 2021 (95 extracted questions)
+-> Asking Gemini to map questions and fill gaps...
+❌ Failed to process year 2021 [GoogleGenerativeAI Error]: Candidate was blocked due to RECITATION
+
+==================================================
+📘 Processing Year 2022 (120 extracted questions)
+-> Asking Gemini to map questions and fill gaps...
+✅ Gemini identified Set: A
+✅ Mapped 100 questions.
+✅ Internally generated 0 missing questions.
+📌 Year 2022 finalized with 100 valid questions!
+
+==================================================
+📘 Processing Year 2023 (135 extracted questions)
+-> Asking Gemini to map questions and fill gaps...
+✅ Gemini identified Set: A
+✅ Mapped 100 questions.
+✅ Internally generated 0 missing questions.
+📌 Year 2023 finalized with 100 valid questions!
+
+==================================================
+📘 Processing Year 2024 (126 extracted questions)
+-> Asking Gemini to map questions and fill gaps...
+✅ Gemini identified Set: A
+✅ Mapped 100 questions.
+✅ Internally generated 0 missing questions.
+📌 Year 2024 finalized with 100 valid questions!
+
+🎉 Success! Refined pyq bank saved to /Users/mani/Desktop/upscprelimstest/data/refined-pyq-bank.json
+Total perfect questions: 600

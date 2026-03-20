@@ -1,0 +1,569 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║           PYQ DATABASE QUALITY AUDIT — GEMINI 2.5 FLASH            ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+Total Audited: 976 questions
+✅ GOOD (no issues):          770 (79%)
+⚠️  MINOR ISSUES (1-2 small): 113 (12%)
+❌ NEEDS FIX (wrong topic/type): 93 (10%)
+
+═══ QUESTIONS NEEDING FIX ═══
+
+• [Polity] 2014 | Planning in India → Economic Planning in India
+  Sub-topic: Institutions involved in Planning → Institutions involved in Planning
+  Issues: Subject should be 'Economy' as the core concept is economic planning, not just constitutional bodies.; Topic 'Planning in India' is correct but needs to be under 'Economy' subject.
+  Q: Which of the following are associated with 'Planning' in India?
+1. The Finance C...
+
+• [History] 2014 | Indian Culture / Ancient & Medieval History → Buddhist Sites and Architecture
+  Sub-topic: Buddhist Monasteries and Sites → Buddhist Monasteries and Sites
+  Issues: Topic is too broad; 'Indian Culture / Ancient & Medieval History' is a subject-level classification, not a specific topic.
+  Q: With reference to Buddhist history, tradition and culture in India, consider the...
+
+• [History] 2014 | Ancient Indian History / Indian Polity → National Symbols of India
+  Sub-topic: Upanishads and National Symbols → Upanishads and National Symbols
+  Issues: Subject is a combined category, not a single one from the allowed list.; Topic is too broad and redundant with subject.
+  Q: The national motto of India, 'Satyameva Jayate' inscribed below the Emblem of In...
+
+• [History] 2017 | Art & Culture → Performing Arts
+  Sub-topic: Manipuri Sankirtana → Manipuri Sankirtana
+  Issues: Subject is incorrectly classified as History; it should be Art & Culture.; Topic 'Art & Culture' is too broad for a topic under History, and should be the main subject. A more specific topic under Art & Culture would be 'Performing Arts'.
+  Q: With reference to Manipuri Sankirtana, consider the following statements :
+1. It...
+
+• [History] 2017 | Art & Culture → Indian Festivals and Traditions
+  Sub-topic: Indian Festivals & Communities → Major Festivals and Associated Communities
+  Issues: Subject is incorrectly classified as History; it should be Art & Culture.; Topic 'Art & Culture' is too broad for a topic under History, and should be the main subject. A more specific topic under Art & Culture would be 'Indian Festivals and Traditions'.
+  Q: Consider the following pairs :
+Traditions    Communities
+1. Chaliha Sahib Festiv...
+
+• [History] 2017 | Art & Culture → Indian Temple Architecture
+  Sub-topic: Sun Temples in India → Sun Temples
+  Issues: Subject is incorrectly classified as History; it should be Art & Culture.; Topic 'Art & Culture' is too broad for a topic under History, and should be the main subject. A more specific topic under Art & Culture would be 'Indian Temple Architecture'.
+  Q: Which of the following is/are famous for Sun temples ?
+1. Arasavalli
+2. Amarakan...
+
+• [History] 2017 | Ancient Indian Art & Culture → Ancient Indian Paintings
+  Sub-topic: Cave Paintings → Cave Paintings (Ajanta, Ellora, Bagh)
+  Issues: Subject is incorrectly classified as History; it should be Art & Culture.; Topic 'Ancient Indian Art & Culture' is too broad for a topic under History, and should be the main subject. A more specific topic under Art & Culture would be 'Ancient Indian Paintings'.
+  Q: The painting of Bodhisattva Padmapani is one of the most famous and oft-illustra...
+
+• [History] 2018 | Indian Music and Saints → Indian Classical Music
+  Sub-topic: Carnatic Music Composers → Carnatic Music Composers and their Works
+  Issues: Subject is incorrectly classified as History; it should be Art & Culture.; Topic 'Indian Music and Saints' is too broad for a topic under History, and should be a topic under Art & Culture. A more specific topic under Art & Culture would be 'Indian Classical Music'.
+  Q: With reference to cultural history of India, consider the following statements :...
+
+• [History] 2018 | Modern Indian History → Modern Indian History
+  Sub-topic: Development of English Education → Development of English Education
+  Issues: Question Type is 'Identify' but it is a 'Statement-Based' question as it asks to select correct statements from a given list.
+  Q: Which of the following led to the introduction of English Education in India ?
+1...
+
+• [Economy] 2014 | Economy → Monetary Policy
+  Sub-topic: Monetary Policy / Interest Rates → Impact of Interest Rates on Economy
+  Issues: Topic 'Economy' is too broad; 'Monetary Policy' is more specific.; Keywords could include 'RBI' and 'monetary policy' for better context.
+  Q: If the interest rate is decreased in an economy, it will...
+
+• [Economy] 2014 | Economy / Indian Polity → Public Finance / Taxation System
+  Sub-topic: Taxation System / Fiscal Federalism → Taxation System / Fiscal Federalism
+  Issues: Topic 'Economy / Indian Polity' is too broad; 'Public Finance / Taxation System' is more specific.; Question Type 'Factual / Conceptual' is ambiguous; 'Factual' is more precise for this question.; Keywords could include 'GST' for historical context, as sales tax was replaced by it.
+  Q: The sales tax you pay while purchasing a toothpaste is a...
+
+• [Economy] 2014 | Economy → Financial Markets / Entrepreneurship Funding
+  Sub-topic: Financial Markets / Entrepreneurship Funding → Venture Capital and Start-up Funding
+  Issues: Topic 'Economy' is too broad; 'Financial Markets / Entrepreneurship Funding' is more specific.; Sub-Topic 'Financial Markets / Entrepreneurship Funding' is also too broad; 'Venture Capital and Start-up Funding' is more precise.
+  Q: What does venture capital mean?...
+
+• [Economy] 2015 | Indian Economy → Government Schemes / Financial Inclusion
+  Sub-topic: Government Schemes (Financial Inclusion) → Government Schemes (Financial Inclusion)
+  Issues: Topic 'Indian Economy' is too broad; 'Government Schemes / Financial Inclusion' is more specific.; Keywords could be more comprehensive by including the acronym 'PMJDY' and specific features like 'no-frills account' or 'basic savings bank deposit account'.
+  Q: 'Pradhan Mantri Jan-Dhan Yojana' has been launched for...
+
+• [Economy] 2015 | Indian Economy → Foreign Exchange Market
+  Sub-topic: Foreign Exchange Market (Rupee Convertibility) → Foreign Exchange Market (Rupee Convertibility)
+  Issues: Topic 'Indian Economy' is too broad; 'Foreign Exchange Market' is more specific.; Keywords could be more comprehensive by including types of convertibility (Current Account, Capital Account) and relevant committees (Tarapore Committee).
+  Q: Convertibility of rupee implies...
+
+• [Economy] 2015 | Indian Polity & Governance → Public Finance
+  Sub-topic: Centre-State Financial Relations → Centre-State Financial Relations
+  Issues: Topic 'Indian Polity & Governance' is inconsistent with Subject 'Economy'.
+  Q: With reference to the Fourteenth Finance Commission, which of the following stat...
+
+• [Economy] 2023 | Economy → Agriculture / Agricultural Economy
+  Sub-topic: Agricultural Models and Practices → Agricultural Models and Practices
+  Issues: Topic is too broad.
+  Q: Which one of the following best describes the concept of 'Small Farmer Large Fie...
+
+• [Economy] 2023 | Economy → Financial Markets (Money Market vs. Capital Market)
+  Sub-topic: Financial Markets (Money Market vs. Capital Market) → Money and Capital Market Instruments / Classification of Financial Instruments
+  Issues: Subject is too broad.; Sub-Topic is redundant and not precise enough.
+  Q: Consider the following markets :
+1. Government Bond Market
+2. Call Money Market
+...
+
+• [Economy] 2023 | Economy → Digital Economy / Financial Technology
+  Sub-topic: Digital Currency and Financial Technology → Digital Currency and Financial Technology
+  Issues: Topic is too broad.
+  Q: With reference to Central Bank digital currencies, consider the following statem...
+
+• [Economy] 2023 | Economy → Agricultural Crops / Agricultural Practices
+  Sub-topic: Agricultural Crops and Government Support → Agricultural Crops and Government Support
+  Issues: Topic is too broad.
+  Q: Consider the following statements :
+1. The Government of India provides Minimum ...
+
+• [Economy] 2023 | Economy → Industrial Policy / MSME Sector
+  Sub-topic: Micro, Small and Medium Enterprises (MSME) and Banking Sector → Micro, Small and Medium Enterprises (MSME) and Banking Sector
+  Issues: Topic is too broad.
+  Q: Consider the following statements with reference to India :
+1. According to the ...
+
+• [Economy] 2023 | Economy → Monetary Policy Tools of RBI
+  Sub-topic: Monetary Policy Tools of RBI → Sterilization / Open Market Operations (OMOs)
+  Issues: Subject is too broad.; Sub-Topic is redundant and not precise enough.
+  Q: Which one of the following activities of the Reserve Bank of India is considered...
+
+• [Geography] 2017 | Geography → Physical Geography / Oceanography
+  Sub-topic: Coastal Geography, Tidal Phenomena → Coastal Geography, Tidal Phenomena
+  Issues: Topic 'Geography' is too broad; it is a subject, not a specific topic.
+  Q: At one of the places in India, if you stand on the seashore and watch the sea, y...
+
+• [Geography] 2017 | Geography → Indian Geography / Physiography
+  Sub-topic: Physiography of India, States, Lakes → Physiography of India, States, Lakes
+  Issues: Topic 'Geography' is too broad; it is a subject, not a specific topic.
+  Q: Consider the following statements :
+1. In India, the Himalayas are spread over f...
+
+• [Geography] 2017 | Geography → World Geography / Political Geography
+  Sub-topic: World Geography, Political Map, Mediterranean Sea → World Geography, Political Map, Mediterranean Sea
+  Issues: Topic 'Geography' is too broad; it is a subject, not a specific topic.
+  Q: Mediterranean Sea is a border of which of the following countries ?
+1. Jordan
+2....
+
+• [Geography] 2017 | Geography → Indian Geography / Political Geography
+  Sub-topic: Indian States, Political Map of India → Indian States, Political Map of India
+  Issues: Topic 'Geography' is too broad; it is a subject, not a specific topic.
+  Q: If you travel by road from Kohima to Kottayam, what is the minimum number of Sta...
+
+• [Geography] 2017 | Geography → Physical Geography / Climatology
+  Sub-topic: Climatology, Oceanography, Indian Monsoon → Climatology, Oceanography, Indian Monsoon
+  Issues: Topic 'Geography' is too broad; it is a subject, not a specific topic.
+  Q: With reference to 'Indian Ocean Dipole (IOD)' sometimes mentioned in the news wh...
+
+• [Geography] 2019 | Indian Economy / Governance → Minor Mineral Policy and Management
+  Sub-topic: Minor Mineral Policy and Management → Minor Mineral Policy and Management
+  Issues: The provided 'Subject: Geography' is incorrect. The question is about legal and policy aspects of mineral management, which falls under 'Polity' or 'Economy'.
+  Q: With reference to the management of minor minerals in India, consider the follow...
+
+• [Geography] 2021 | Indian Rivers → Indian Rivers
+  Sub-topic: Indus River System → Indus River System
+  Issues: Question type is more Factual/Identify than Conceptual.
+  Q: With reference to the Indus river system, of the following four rivers, three of...
+
+• [Geography] 2023 | Indian Geography → Energy Resources & Infrastructure in India
+  Sub-topic: Thermal Power Plants Characteristics → Thermal Power Plants Characteristics
+  Issues: Topic 'Indian Geography' is too broad; 'Energy Resources & Infrastructure in India' or 'Industrial Geography (Power Sector)' would be more specific.; Question Type 'Negative (EXCEPT/NOT)' is incorrect; it is a 'Statement-Based (How Many)' question.
+  Q: With reference to coal-based thermal power plants in India, consider the followi...
+
+• [Environment] 2014 | Biology / Animal Physiology → Biology / Animal Physiology
+  Sub-topic: Hibernation → Hibernation
+  Issues: Subject is incorrectly classified as 'Environment'; it should be 'Science (Biology)' as it pertains to animal physiology.
+  Q: Consider the following :
+1. Bats
+2. Bears
+3. Rodents
+The phenomenon of hibernati...
+
+• [Environment] 2015 | Environment → Climate Change Finance
+  Sub-topic: Green Climate Fund (GCF) → Green Climate Fund (GCF)
+  Issues: Topic is too broad.
+  Q: Which of the following statements regarding 'Green Climate Fund' is/are correct?...
+
+• [Environment] 2015 | Environment → International Environmental Conferences
+  Sub-topic: International Environmental Conferences → International Environmental Conferences
+  Issues: Topic is too broad.
+  Q: What is Rio+20 Conference, often mentioned in the news?...
+
+• [Environment] 2015 | Environment → Environmental Pollution
+  Sub-topic: Fly Ash Properties & Uses → Fly Ash Properties & Uses
+  Issues: Topic is too broad.
+  Q: With reference to 'fly ash' produced by the power plants using coal as fuel, whi...
+
+• [Environment] 2015 | Environment → International Environmental Funds
+  Sub-topic: International Organizations & Funds → International Organizations & Funds
+  Issues: Topic is too broad.
+  Q: 'BioCarbon Fund Initiative for Sustainable Forest Landscapes' is managed by the...
+
+• [Environment] 2015 | Environment → International Environmental Protocols
+  Sub-topic: Ozone Depletion Protocols → Ozone Depletion Protocols
+  Issues: Topic is too broad.
+  Q: Which one of the following is associated with the issue of control and phasing o...
+
+• [Environment] 2016 | Environment & International Relations → International Environmental Organizations
+  Sub-topic: International Organizations, Renewable Energy → International Organizations, Renewable Energy
+  Issues: Topic is a bit mixed and broad.
+  Q: Consider the following statements :
+1. The International Solar Alliance was laun...
+
+• [Environment] 2016 | Environment → Environment - Government Schemes & Climate Change Mitigation
+  Sub-topic: Government Schemes & Initiatives, Climate Change Mitigation → Government Schemes & Initiatives, Climate Change Mitigation
+  Issues: Topic 'Environment' is too broad; should be more specific given the sub-topic.; Question Type is 'Statement-Based' due to the numbered statements and code selection.
+  Q: Which of the following best describes/describe the aim of 'Green India Mission' ...
+
+• [Environment] 2016 | Environment & Governance → Environment - River Conservation & Management
+  Sub-topic: River Conservation, Government Bodies → River Conservation, Government Bodies
+  Issues: Topic 'Environment & Governance' is too broad; should be more specific given the sub-topic.
+  Q: Which of the following are the key features of 'National Ganga River Basin Autho...
+
+• [Environment] 2016 | Environment & Ecology → Environment - Energy Efficiency & Conservation
+  Sub-topic: Energy Conservation & Efficiency → Energy Conservation & Efficiency
+  Issues: Topic 'Environment & Ecology' is too broad; should be more specific given the sub-topic.
+  Q: On which of the following can you find the Bureau of Energy Efficiency Star Labe...
+
+• [Environment] 2016 | Environment & Agriculture → Environment - Sustainable Agriculture & International Initiatives
+  Sub-topic: International Initiatives, Sustainable Agriculture → International Initiatives, Sustainable Agriculture
+  Issues: Topic 'Environment & Agriculture' is too broad; should be more specific given the sub-topic.
+  Q: The FAO accords the status of 'Globally Important Agricultural Heritage System (...
+
+• [Environment] 2016 | Environment & International Relations → Environment - International Climate Agreements
+  Sub-topic: Climate Change Conventions, International Agreements → Climate Change Conventions, International Agreements
+  Issues: Topic 'Environment & International Relations' is too broad; should be more specific given the sub-topic.
+  Q: With reference to the Agreement at the UNFCCC Meeting in Paris in 2015, which of...
+
+• [Environment] 2016 | Environment & International Relations → Environment - International Conventions & Protocols
+  Sub-topic: International Environmental Conventions, Climate Change Mechanisms → International Environmental Conventions, Climate Change Mechanisms
+  Issues: Topic 'Environment & International Relations' is too broad; should be more specific given the sub-topic.
+  Q: Consider the following pairs :
+Terms sometimes seen in the news : Their origin
+1...
+
+• [Environment] 2016 | Environment → Environment - Environmental Committees & Reports
+  Sub-topic: Environmental Governance, Regional Ecology → Environmental Governance, Regional Ecology
+  Issues: Topic 'Environment' is too broad; should be more specific given the sub-topic.
+  Q: 'Gadgil Committee Report' and 'Kasturirangan Committee Report', sometimes seen i...
+
+• [Environment] 2016 | Environment & International Relations → Environment - Sustainable Development & International Conferences
+  Sub-topic: Sustainable Development, International Conferences → Sustainable Development, International Conferences
+  Issues: Topic 'Environment & International Relations' is too broad; should be more specific given the sub-topic.
+  Q: With reference to 'Agenda 21', sometimes seen in the news, consider the followin...
+
+• [Environment] 2018 | Environment → Climate Change
+  Sub-topic: Climate Change Impacts → Climate Change Impacts
+  Issues: Topic 'Environment' is too broad.
+  Q: Which of the following statements best describes "carbon fertilization" ?...
+
+• [Environment] 2018 | Environment → Environmental Degradation & Resource Management
+  Sub-topic: Impacts of Sand Mining → Impacts of Sand Mining
+  Issues: Topic 'Environment' is too broad.
+  Q: Which of the following is/are the possible consequence/s of heavy sand mining in...
+
+• [Environment] 2018 | Economy / Environment → Renewable Energy & Energy Policy
+  Sub-topic: Solar Power Production in India → Solar Power Production in India
+  Issues: Topic 'Economy / Environment' is too broad.
+  Q: With reference to solar power production in India, consider the following statem...
+
+• [Environment] 2018 | Environment → Environmental Governance & Forest Rights
+  Sub-topic: Forest Rights Act, 2006 and Habitat Rights → Forest Rights Act, 2006 and Habitat Rights
+  Issues: Topic 'Environment' is too broad.
+  Q: Consider the following statements :
+1. The definition of "Critical Wildlife Habi...
+
+• [Environment] 2018 | Environment → International Environmental Conventions & Initiatives
+  Sub-topic: International Climate Change Organizations and Programs → International Climate Change Organizations and Programs
+  Issues: Topic 'Environment' is too broad.
+  Q: "Momentum for Change : Climate Neutral Now" is an initiative launched by...
+
+• [Environment] 2018 | Environment → International Environmental Conventions & Initiatives
+  Sub-topic: International Environmental Conferences → International Environmental Conferences
+  Issues: Topic 'Environment' is too broad.
+  Q: The Partnership for Action on Green Economy (PAGE), a UN mechanism to assist cou...
+
+• [Environment] 2018 | Environment → Ecology & Basic Biology
+  Sub-topic: Vectors of Plant Diseases → Vectors of Plant Diseases
+  Issues: Topic 'Environment' is too broad.
+  Q: Consider the following :
+1. Birds
+2. Dust blowing
+3. Rain
+4. Wind blowing
+Which ...
+
+• [Environment] 2018 | Environment → Ecology & Biogeography
+  Sub-topic: Plant Adaptations → Plant Adaptations
+  Issues: Topic 'Environment' is too broad.
+  Q: Which of the following leaf modifications occur(s) in the desert areas to inhibi...
+
+• [Environment] 2019 | Climate Change → Climate Change
+  Sub-topic: Methane Hydrates → Methane Hydrates
+  Issues: Subject is incorrectly classified as 'Climate Change' which is a Topic. Should be 'Environment'.
+  Q: Which of the following statements are correct about the deposits of 'methane hyd...
+
+• [Environment] 2019 | Environmental Pollution → Environmental Pollution
+  Sub-topic: Microbeads → Microbeads
+  Issues: Subject is incorrectly classified as 'Environmental Pollution' which is a Topic. Should be 'Environment'.
+  Q: Why is there a great concern about the 'microbeads' that are released into envir...
+
+• [Environment] 2019 | Biodiversity → Biodiversity
+  Sub-topic: Endemic/Specific Habitat Species → Endemic/Specific Habitat Species
+  Issues: Subject is incorrectly classified as 'Biodiversity' which is a Topic. Should be 'Environment'.
+  Q: Consider the following pairs :
+Wildlife Naturally found in
+1. Blue-finned Mahsee...
+
+• [Environment] 2019 | Biodiversity → Biodiversity
+  Sub-topic: Biosphere Reserves & Wildlife Sanctuaries → Biosphere Reserves & Wildlife Sanctuaries
+  Issues: Subject is incorrectly classified as 'Biodiversity' which is a Topic. Should be 'Environment'.
+  Q: Which of the following are in Agasthyamala Biosphere Reserve?...
+
+• [Environment] 2019 | Forest Rights → Forest Rights
+  Sub-topic: Indian Forest Act, 1927 & Forest Rights Act, 2006 (FRA) → Indian Forest Act, 1927 & Forest Rights Act, 2006 (FRA)
+  Issues: Subject is incorrectly classified as 'Forest Rights' which is a Topic. Should be 'Environment / Governance'.
+  Q: Consider the following statements :
+1. As per recent amendment to the Indian For...
+
+• [Environment] 2019 | Environmental Governance → Environmental Governance
+  Sub-topic: Solid Waste Management Rules, 2016 → Solid Waste Management Rules, 2016
+  Issues: Subject is incorrectly classified as 'Environmental Governance' which is a Topic. Should be 'Environment'.
+  Q: As per the Solid Waste Management Rules, 2016 in India, which one of the followi...
+
+• [Environment] 2021 | Animal Feeding Mechanisms → Animal Biology
+  Sub-topic: Filter Feeders → Filter Feeders
+  Issues: Subject 'Animal Feeding Mechanisms' is incorrect; it should be 'Science' or 'Biology'.; Topic 'Animal Feeding Mechanisms' is incorrect; it should be 'Animal Biology' or 'Ecology'.
+  Q: Which one of the following is a filter feeder?...
+
+• [Environment] 2023 | Environment → Climate Change Mitigation
+  Sub-topic: Carbon Markets → Carbon Markets
+  Issues: Topic is too broad. 'Environment' is a subject, not a specific topic for this level of detail.
+  Q: Consider the following statements :
+Statement-I :
+Carbon markets are likely to b...
+
+• [Science] 2020 | Information Technology → Financial Services & Cybersecurity
+  Sub-topic: Cyber Security and Insurance → Cyber Insurance for Individuals
+  Issues: Subject 'Science' is incorrect; it should be 'Economy' or 'Current Affairs' as the question focuses on an insurance product.; Topic 'Information Technology' is too broad and doesn't capture the essence of 'insurance'.
+  Q: In India, under cyber insurance for individuals, which of the following benefits...
+
+• [Science] 2023 | Energy → Energy
+  Sub-topic: India's Energy Mix & Nuclear Energy → India's Energy Mix & Nuclear Energy
+  Issues: Subject 'Science' is too narrow; 'Economy' or 'Geography' (Economic Geography/Resources) would be more appropriate given the focus on India's energy mix and resource dependence.
+  Q: Consider the following statements :
+Statement-I :
+India, despite having uranium ...
+
+• [Current Affairs] 2017 | Modern Indian History → Modern Indian History
+  Sub-topic: Pre-Congress Political Associations & Founders → Pre-Congress Political Associations & Founders
+  Issues: Subject is incorrect. It should be 'History' as it pertains to static historical facts, not current events.
+  Q: 8%; pts ne rs RARE
+« Siahpiang ney
+< wo He First President of the British Indian...
+
+• [Current Affairs] 2017 | Environment & Biodiversity → Environment & Biodiversity
+  Sub-topic: Wildlife Protection Act, 1972 & Scheduled Animals → Wildlife Protection Act, 1972 & Scheduled Animals
+  Issues: Subject is incorrect. It should be 'Environment' as it tests knowledge of a core environmental act and species, not a current event.
+  Q: According to the Wildlife (Protection) Act,
+1972, which of the following animals...
+
+• [Current Affairs] 2017 | Indian Polity → Indian Polity
+  Sub-topic: Fundamental Duties → Fundamental Duties
+  Issues: Subject is incorrect. It should be 'Polity' as it tests core constitutional knowledge, not a current event.
+  Q: Which of the following statements is/are true
+of the Fundamental Duties of an In...
+
+• [Current Affairs] 2018 | Space Technology → Space Technology
+  Sub-topic: Launch Vehicles (PSLV) → Launch Vehicles (PSLV)
+  Issues: Subject is incorrect. It should be 'Science & Technology' as it tests static knowledge about launch vehicles, not a specific current event.
+  Q: UNG * WE HIRE HE art aE + awed
+1, frefafaa se w foam Fife
+1. PSLV @ 4 sme wim fw...
+
+• [Current Affairs] 2018 | Information Technology → Information Technology
+  Sub-topic: Public Key Infrastructure (PKI) & Digital Signatures → Public Key Infrastructure (PKI) & Digital Signatures
+  Issues: Subject is incorrect. It should be 'Science & Technology' (specifically IT) as it tests static knowledge of a technological concept, not a current event.
+  Q: Wi if wf 83 % FH F GAH FH de
+1, Fr=feriaa semi w fomm Aifse
+1. fod ov § Ya TR gu...
+
+• [Current Affairs] 2018 | Environment & Ecology → Environment & Ecology
+  Sub-topic: Mass Extinction, Biodiversity Loss → Mass Extinction, Biodiversity Loss
+  Issues: Subject is incorrect. It should be 'Environment' as it pertains to a core ecological concept, even if discussed in news.
+  Q: The term “sixth mass extinction/sixth extinction” is often mentioned in the news...
+
+• [Current Affairs] 2018 | Science & Technology → Science & Technology
+  Sub-topic: Albert Einstein's General Theory of Relativity → Albert Einstein's General Theory of Relativity
+  Issues: Subject is incorrect. It should be 'Science & Technology' (specifically Physics) as it tests knowledge of a fundamental scientific theory, not a current event.
+  Q: Consider the following phenomena :
+1 Light is affected by gravity.
+2. The Univer...
+
+• [Current Affairs] 2019 | Indian Geography → Indian Geography
+  Sub-topic: Rivers and Associated Places → Rivers and Associated Places
+  Issues: Subject 'Current Affairs' is incorrect; it should be 'Geography' as it tests static geographical knowledge.
+  Q: Consider the following pairs :
+Famous place River
+1. Pandharpur : Chandrabhaga
+....
+
+• [Current Affairs] 2019 | World History / Economic Geography → World History / Economic Geography
+  Sub-topic: Columbian Exchange / Crop Diffusion → Columbian Exchange / Crop Diffusion
+  Issues: Subject 'Current Affairs' is incorrect; it should be 'History' or 'Geography' as it tests static historical/geographical knowledge.
+  Q: Which one of the following groups of
+plants was domesticated in the New
+World” a...
+
+• [Current Affairs] 2019 | Modern Indian History → Modern Indian History
+  Sub-topic: Mahatma Gandhi and Indian National Movement → Mahatma Gandhi and Indian National Movement
+  Issues: Subject 'Current Affairs' is incorrect; it should be 'History' as it tests static Modern Indian History.
+  Q: With reference to the British colonial
+rule in India, consider the following
+sta...
+
+• [Current Affairs] 2019 | Indian Economy / Sociology → Indian Economy / Sociology
+  Sub-topic: Economic Development Indicators / Social Indicators → Economic Development Indicators / Social Indicators
+  Issues: Subject 'Current Affairs' is incorrect; it should be 'Economy' or 'Sociology' as it tests a fundamental conceptual understanding.
+  Q: In the context of any country, which one
+of the following would be considered as...
+
+• [Current Affairs] 2019 | Medieval Indian History → Medieval Indian History
+  Sub-topic: South Indian Temple Architecture (Vijayanagara) → South Indian Temple Architecture (Vijayanagara)
+  Issues: Subject is incorrectly classified as Current Affairs; it is Medieval Indian History.
+  Q: Building ‘Kalyaana Mandapas’ was. a
+notable feature in the temple
+construction i...
+
+• [Current Affairs] 2019 | Medieval Indian History → Medieval Indian History
+  Sub-topic: Delhi Sultanate Administration → Delhi Sultanate Administration
+  Issues: Subject is incorrectly classified as Current Affairs; it is Medieval Indian History.
+  Q: Consider the following statements :
+1, In the revenue administration of
+. Delhi ...
+
+• [Current Affairs] 2019 | Medieval Indian History → Medieval Indian History
+  Sub-topic: Bhakti and Sufi Movements (Chronology and Influences) → Bhakti and Sufi Movements (Chronology and Influences)
+  Issues: Subject is incorrectly classified as Current Affairs; it is Medieval Indian History.
+  Q: Consider the following statements :
+1. Saint Nimbarka was a contem-
+. porary of ...
+
+• [Current Affairs] 2019 | Modern Indian History → Modern Indian History
+  Sub-topic: Personalities and Organizations in Indian National Movement → Personalities and Organizations in Indian National Movement
+  Issues: Subject is incorrectly classified as Current Affairs; it is Modern Indian History.
+  Q: With reference to Indian National
+Movement, consider the following pairs :
+Perso...
+
+• [Current Affairs] 2020 | Indian History → Indian History
+  Sub-topic: Tribal Revolts in Colonial India → Tribal Revolts in Colonial India
+  Issues: Subject is incorrectly classified as Current Affairs; it is Modern Indian History.
+  Q: With reference to the history of India,
+“Ulgulan” or the Great Tumult is the g
+d...
+
+• [Current Affairs] 2020 | Indian History → Indian History
+  Sub-topic: Agrarian Economy and Colonial Exploitation → Agrarian Economy and Colonial Exploitation
+  Issues: Subject is incorrectly classified as Current Affairs; it is Modern Indian History.
+  Q: Indigo cultivation in Tndia declined by the
+> beginning of the 20% century becau...
+
+• [Current Affairs] 2020 | Ancient Indian History → Ancient Indian History
+  Sub-topic: Buddhist Terminology → Buddhist Terminology
+  Issues: Subject is incorrectly classified as Current Affairs; it is Ancient Indian History.
+  Q: With reference to the cultural history of India, which one of the following is t...
+
+• [Current Affairs] 2020 | Indian History → Indian History
+  Sub-topic: British Administration and Education Policy → British Administration and Education Policy
+  Issues: Subject is incorrectly classified as Current Affairs; it is Modern Indian History.
+  Q: Wellesley cstablished the Fort William H College at Calcutta because 8...
+
+• [Current Affairs] 2020 | Ancient Indian History → Ancient Indian History
+  Sub-topic: Ancient Scholars and their Patrons/Periods → Ancient Scholars and their Patrons/Periods
+  Issues: Subject is incorrectly classified as Current Affairs; it is Ancient Indian History.
+  Q: With reference to the scholars/litterateurs of
+ancient India, consider the follo...
+
+• [Current Affairs] 2020 | Indian History → Indian History
+  Sub-topic: 19th Century Social Legislation & Women's Rights → 19th Century Social Legislation & Women's Rights
+  Issues: Subject is incorrectly classified as Current Affairs; it is Modern Indian History.
+  Q: In the context of Indian history, the
+Rakhmabai case of 1884 revolved around
+{ 1...
+
+• [Current Affairs] 2021 | Environment / Geography → Environment / Geography
+  Sub-topic: Terrestrial Biomes, Tropical Rainforest → Terrestrial Biomes, Tropical Rainforest
+  Issues: Subject is incorrectly classified as Current Affairs; it is a core Environment/Geography concept.
+  Q: “Leaf litter decomposes faster than in any other biome and as a result the soil ...
+
+• [Current Affairs] 2021 | Culture / History / International Days → Culture / History / International Days
+  Sub-topic: International Mother Language Day, Language Movement → International Mother Language Day, Language Movement
+  Issues: Subject is too broad as 'Current Affairs' for a question with significant historical and cultural static content. Should be History/Culture primarily.; Keywords are inadequate; 'UNESCO' is a critical term for the first statement's accuracy and should be included.
+  Q: Consider the following statements :
+1. 21st February is declared to be the Inter...
+
+• [Current Affairs] 2021 | Agriculture & Water Management → Agriculture & Water Management
+  Sub-topic: Water-Efficient Crops → Water-Efficient Crops
+  Issues: Subject is too broad as 'Current Affairs'. This is a core Agriculture/Environment/Geography topic.
+  Q: Among the following, which one is the least water-efficient crop?...
+
+• [Current Affairs] 2021 | Agriculture & Environment → Agriculture & Environment
+  Sub-topic: Climate-Smart Agriculture & International Organizations → Climate-Smart Agriculture & International Organizations
+  Issues: Subject is too broad as 'Current Affairs'. This is a core Environment/Agriculture/International Relations topic.
+  Q: In the context of India’s preparation for Climate-Smart Agriculture, consider th...
+
+• [Current Affairs] 2021 | Oceanography & Climatology → Oceanography & Climatology
+  Sub-topic: Ocean Currents & Wind Influence → Ocean Currents & Wind Influence
+  Issues: Subject is incorrect. This is a fundamental Physical Geography question, not 'Current Affairs'.
+  Q: Consider the following statements : 1. In the tropical zone, the western section...
+
+• [Current Affairs] 2021 | Indian Polity → Indian Polity
+  Sub-topic: Federalism in India → Federalism in India
+  Issues: Subject is incorrect. This is a fundamental Indian Polity question, not 'Current Affairs'.
+  Q: Which one of the following in Indian polity is an essential feature - that indic...
+
+• [Current Affairs] 2021 | Indian Judiciary → Indian Judiciary
+  Sub-topic: Supreme Court & High Court Powers → Supreme Court & High Court Powers
+  Issues: Subject is incorrect. This is a fundamental Indian Polity question, not 'Current Affairs'.
+  Q: With reference to Indian judiciary, consider the following statements : 1. Any r...
+
+• [Current Affairs] 2021 | Indian Polity → Indian Polity
+  Sub-topic: Citizenship in India → Citizenship in India
+  Issues: Subject is incorrect. This is a fundamental Indian Polity question, not 'Current Affairs'.
+  Q: With reference to India, consider the following statements : 1. There is only on...
+
+• [Current Affairs] 2021 | Political Science → Political Science
+  Sub-topic: Definition of State → Definition of State
+  Issues: Subject is incorrect. This is a fundamental Political Science/Polity question, not 'Current Affairs'.
+  Q: hiss iy a oe following best defines citagn Se...
+
+• [Current Affairs] 2021 | Indian Polity → Indian Polity
+  Sub-topic: Principles of Liberty and Governance → Principles of Liberty and Governance
+  Issues: Subject is incorrect. This is a fundamental Indian Polity/Political Theory question, not 'Current Affairs'.
+  Q: Which one of the following factors constitutes the best safeguard of liberty in ...
+
+═══ QUESTIONS WITH MINOR ISSUES ═══
+Total: 113
+• [Polity] 2014 | Executive: Topic 'Executive' is too broad; 'Union Executive' is more precise.
+• [Polity] 2015 | Indian Polity: Topic 'Indian Polity' is too broad; 'Parliament' or 'Legislative Procedures' is more specific.
+• [Polity] 2015 | Indian Polity: Topic 'Indian Polity' is too broad; 'Directive Principles of State Policy (DPSP)' is the actual topic.
+• [Polity] 2015 | Indian Constitution: Topic 'Indian Constitution' is too broad; 'Directive Principles of State Policy (DPSP)' or 'Constitutional Philosophy' is more specific.
+• [Polity] 2015 | Indian Constitution: Topic 'Indian Constitution' is too broad; 'Supreme Court' or 'Judicial Review' is more specific.
+• [Polity] 2015 | Indian Constitution: Topic 'Indian Constitution' is too broad; 'Fundamental Duties' is the actual topic.
+• [Polity] 2015 | Indian Polity: Topic is too broad.; Keywords are inadequate (missing specific article).
+• [Polity] 2015 | Indian Polity: Topic is too broad.; Keywords are inadequate (missing specific articles, correct department for budget preparation).
+• [Polity] 2015 | Indian Polity: Topic is too broad.; Keywords are inadequate (missing specific article, correct chairman of Civil Services Board).
+• [Polity] 2017 | Legislation: Topic is too broad.; Keywords are inadequate (missing reference to the 2016 amendment and related authorities).
+• [Polity] 2018 | Indian Polity: Topic 'Indian Polity' is too broad for this specific question.
+• [Polity] 2018 | Indian Polity: Topic 'Indian Polity' is too broad for this specific question.
+• [Polity] 2018 | Indian Polity: Topic 'Indian Polity' is too broad for this specific question.
+• [Polity] 2018 | Indian Polity: Topic 'Indian Polity' is too broad; 'Emergency Provisions' is more specific.
+• [Polity] 2018 | Indian Polity: Topic 'Indian Polity' is too broad; 'Constitutional Bodies' or 'State Executive' is more specific.
+• [Polity] 2018 | Indian Polity: Topic 'Indian Polity' is too broad; 'Basic Features of the Constitution' or 'Constitutionalism' is more specific.
+• [Polity] 2019 | Indian Polity: Topic 'Indian Polity' is too broad; 'Constitutional Amendments & Judiciary' is more specific.
+• [Polity] 2019 | Indian Polity: Topic 'Indian Polity' is too broad; 'State Legislature & Executive' is more specific.
+• [Polity] 2019 | International Organizations & Conventions: Subject 'Polity' is too broad; 'International Relations' or 'Current Affairs' would be more appropriate.
+• [Polity] 2019 | Indian Polity: Topic 'Indian Polity' is too broad; 'Centre-State Relations' or 'Constitutional Bodies' is more specific.
+
+...and 93 more. See pyq-audit-report.json for full details.
