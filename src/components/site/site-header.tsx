@@ -8,6 +8,7 @@ const navigation = [
   { href: "/flt", label: "FLT" },
   { href: "/subject-wise", label: "Subject wise" },
   { href: "/current-affairs", label: "Current affairs" },
+  { href: "/design-paper", label: "Design Paper" },
   { href: "/analytics", label: "Analytics" },
 ];
 
