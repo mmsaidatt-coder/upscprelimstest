@@ -2,6 +2,7 @@
 
 import { usePathname } from "next/navigation";
 import { AppSidebar } from "@/components/site/app-sidebar";
+import { AppTopBar } from "@/components/site/app-top-bar";
 import { Footer } from "@/components/site/footer";
 import { MinimalHeader } from "@/components/site/minimal-header";
 import { SiteHeader } from "@/components/site/site-header";
@@ -22,6 +23,9 @@ export function Shell({ children }: { children: React.ReactNode }) {
       <div className="flex min-h-screen bg-[var(--background)] flex-col lg:flex-row">
         <AppSidebar />
         <div className="flex-1 flex flex-col min-w-0">
+          {/* Desktop top bar — only for /app routes, not the landing page */}
+          {isAppRoute && <AppTopBar />}
+          {/* Landing page uses the marketing header */}
           {pathname === "/" && <SiteHeader />}
           <main className="flex-1">{children}</main>
           {pathname === "/" && <Footer />}

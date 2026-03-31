@@ -3,17 +3,75 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
+import { 
+  Target, 
+  BookOpenText, 
+  FileEdit, 
+  FolderOpen, 
+  PencilRuler, 
+  Newspaper, 
+  LineChart, 
+  Bookmark, 
+  ChevronRight,
+  User
+} from "lucide-react";
 
-const mainNavigation = [
-  { href: "/app", label: "Dashboard", icon: "📊", exact: true },
-  { href: "/app/analytics/all", label: "Analytics", icon: "📈", matchPrefix: "/app/analytics" },
-  { href: "/app/pyq", label: "PYQ", icon: "📚", exact: false },
-  { href: "/app/notebook", label: "Notebook", icon: "📓", exact: false },
+// ── Navigation structure ──────────────────────────────────────────────────────
+
+type NavItem = {
+  href: string;
+  label: string;
+  icon: React.ReactNode;
+  exact?: boolean;
+  matchPrefix?: string;
+};
+
+type NavGroup = {
+  label: string;
+  icon: React.ReactNode;
+  matchPrefix: string;
+  children: NavItem[];
+};
+
+type NavEntry = NavItem | NavGroup;
+
+function isGroup(entry: NavEntry): entry is NavGroup {
+  return "children" in entry;
+}
+
+const mainNavigation: NavEntry[] = [
+  {
+    label: "Practice",
+    icon: <Target className="w-5 h-5 flex-shrink-0" strokeWidth={2.2} />,
+    matchPrefix: "/app/practice",
+    children: [
+      { href: "/app/pyq", label: "PYQ", icon: <BookOpenText className="w-4 h-4" strokeWidth={2} />, matchPrefix: "/app/pyq" },
+      { href: "/app/flt", label: "FLT", icon: <FileEdit className="w-4 h-4" strokeWidth={2} />, matchPrefix: "/app/flt" },
+      { href: "/app/subject-wise", label: "Subject Wise", icon: <FolderOpen className="w-4 h-4" strokeWidth={2} />, matchPrefix: "/app/subject-wise" },
+      { href: "/app/design-paper", label: "Design Paper", icon: <PencilRuler className="w-4 h-4" strokeWidth={2} />, matchPrefix: "/app/design-paper" },
+    ],
+  },
+  {
+    href: "/app/current-affairs",
+    label: "Current Affairs",
+    icon: <Newspaper className="w-5 h-5 flex-shrink-0" strokeWidth={2.2} />,
+    matchPrefix: "/app/current-affairs",
+  } as NavItem,
+  {
+    href: "/app/analytics/all",
+    label: "Analytics",
+    icon: <LineChart className="w-5 h-5 flex-shrink-0" strokeWidth={2.2} />,
+    matchPrefix: "/app/analytics",
+  } as NavItem,
+  {
+    href: "/app/bookmarks",
+    label: "Bookmarks",
+    icon: <Bookmark className="w-5 h-5 flex-shrink-0" strokeWidth={2.2} />,
+    matchPrefix: "/app/bookmarks",
+  } as NavItem,
 ];
 
-const bottomNavigation = [
-  { href: "/app/settings", label: "Profile / Settings", icon: "⚙️" },
-];
+// ── Helpers ───────────────────────────────────────────────────────────────────
 
 function HamburgerIcon({ open }: { open: boolean }) {
   return (
@@ -37,13 +95,159 @@ function HamburgerIcon({ open }: { open: boolean }) {
   );
 }
 
-export function AppSidebar() {
+
+
+// ── NavLinks component (shared between desktop & mobile) ──────────────────────
+
+function NavLinks({
+  collapsed,
+  onClick,
+}: {
+  collapsed: boolean;
+  onClick?: () => void;
+}) {
   const pathname = usePathname();
+
+  function isItemActive(item: NavItem): boolean {
+    if (item.exact) return pathname === item.href;
+    if (item.matchPrefix) return pathname === item.href || pathname.startsWith(item.matchPrefix);
+    return pathname === item.href || pathname.startsWith(item.href + "/");
+  }
+
+  function isGroupActive(group: NavGroup): boolean {
+    return group.children.some((child) => isItemActive(child));
+  }
+
+  // Track which groups are expanded
+  const [expandedGroups, setExpandedGroups] = useState<Record<string, boolean>>({});
+
+  // Auto-expand a group if a child route is active
+  useEffect(() => {
+    const autoExpand: Record<string, boolean> = {};
+    mainNavigation.forEach((entry) => {
+      if (isGroup(entry) && isGroupActive(entry)) {
+        autoExpand[entry.label] = true;
+      }
+    });
+    setExpandedGroups((prev) => ({ ...prev, ...autoExpand }));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [pathname]);
+
+  function toggleGroup(label: string) {
+    setExpandedGroups((prev) => ({ ...prev, [label]: !prev[label] }));
+  }
+
+  return (
+    <div className="flex-1 overflow-y-auto py-5">
+      <nav className="space-y-1.5 px-3">
+        {mainNavigation.map((entry) => {
+          if (isGroup(entry)) {
+            const active = isGroupActive(entry);
+            const open = expandedGroups[entry.label] ?? false;
+
+            return (
+              <div key={entry.label}>
+                {/* Group header button */}
+                <button
+                  onClick={() => toggleGroup(entry.label)}
+                  title={collapsed ? entry.label : undefined}
+                  className={`group flex w-full items-center gap-3.5 rounded-xl px-3.5 py-3 text-[15px] font-semibold transition-all ${
+                    active
+                      ? "text-[var(--accent)]"
+                      : "text-[var(--muted)] hover:bg-[var(--background-secondary)] hover:text-[var(--foreground)]"
+                  } ${collapsed ? "justify-center px-2" : ""}`}
+                >
+                  <span className={`shrink-0 flex items-center justify-center transition-transform ${active && !collapsed ? 'scale-110' : ''}`}>{entry.icon}</span>
+                  {!collapsed && (
+                    <>
+                      <span className="flex-1 truncate text-left">{entry.label}</span>
+                      <ChevronRight className={`w-4 h-4 shrink-0 transition-transform duration-200 ${open ? "rotate-90 text-[var(--foreground)]" : "text-[var(--muted)]"}`} />
+                    </>
+                  )}
+                </button>
+
+                {/* Children */}
+                {!collapsed && open && (
+                  <div className="ml-5 mt-1 space-y-1 border-l-2 border-[#262626] pl-3 py-1">
+                    {entry.children.map((child) => {
+                      const childActive = isItemActive(child);
+                      return (
+                        <Link
+                          key={child.href}
+                          href={child.href}
+                          onClick={onClick}
+                          className={`flex items-center gap-3 rounded-lg px-3 py-2.5 text-[14px] font-medium transition-all ${
+                            childActive
+                              ? "bg-[var(--accent)]/10 text-[var(--accent)] shadow-sm"
+                              : "text-[var(--muted)] hover:bg-[var(--background-secondary)] hover:text-[var(--foreground)]"
+                          }`}
+                        >
+                          <span className={`shrink-0 flex items-center justify-center transition-transform ${childActive ? 'scale-110' : ''}`}>{child.icon}</span>
+                          <span className="truncate">{child.label}</span>
+                        </Link>
+                      );
+                    })}
+                  </div>
+                )}
+
+                {/* Collapsed tooltip-style children visible on hover — show icons only */}
+                {collapsed && open && (
+                  <div className="mt-1 space-y-1">
+                    {entry.children.map((child) => {
+                      const childActive = isItemActive(child);
+                      return (
+                        <Link
+                          key={child.href}
+                          href={child.href}
+                          onClick={onClick}
+                          title={child.label}
+                          className={`flex justify-center items-center rounded-lg px-2 py-2 text-sm font-medium transition-all ${
+                            childActive
+                              ? "bg-[var(--accent)]/10 text-[var(--accent)] shadow-sm"
+                              : "text-[var(--muted)] hover:bg-[var(--background-secondary)] hover:text-[var(--foreground)]"
+                          }`}
+                        >
+                          <span className="flex items-center justify-center">{child.icon}</span>
+                        </Link>
+                      );
+                    })}
+                  </div>
+                )}
+              </div>
+            );
+          }
+
+          // Regular nav item
+          const item = entry as NavItem;
+          const active = isItemActive(item);
+          return (
+            <Link
+              key={item.href}
+              href={item.href}
+              onClick={onClick}
+              title={collapsed ? item.label : undefined}
+              className={`group flex items-center gap-3.5 rounded-xl px-3.5 py-3 text-[15px] font-semibold transition-all ${
+                active
+                  ? "bg-[var(--accent)]/10 text-[var(--accent)] shadow-sm"
+                  : "text-[var(--muted)] hover:bg-[var(--background-secondary)] hover:text-[var(--foreground)]"
+              } ${collapsed ? "justify-center px-2" : ""}`}
+            >
+              <span className={`shrink-0 flex items-center justify-center transition-transform ${active && !collapsed ? 'scale-110' : ''}`}>{item.icon}</span>
+              {!collapsed && <span className="truncate">{item.label}</span>}
+            </Link>
+          );
+        })}
+      </nav>
+    </div>
+  );
+}
+
+// ── AppSidebar ────────────────────────────────────────────────────────────────
+
+export function AppSidebar() {
   const [mobileOpen, setMobileOpen] = useState(false);
-  // Desktop: collapsed = icon-only rail; default expanded
   const [collapsed, setCollapsed] = useState(false);
 
-  // Persist collapse state across reloads
   useEffect(() => {
     const stored = localStorage.getItem("sidebar-collapsed");
     if (stored === "true") setCollapsed(true);
@@ -56,88 +260,31 @@ export function AppSidebar() {
     });
   }
 
-  function isActive(item: (typeof mainNavigation)[number]) {
-    return item.exact
-      ? pathname === item.href
-      : "matchPrefix" in item && item.matchPrefix
-        ? pathname.startsWith(item.matchPrefix as string)
-        : pathname === item.href || pathname.startsWith(item.href + "/");
-  }
-
-  // Shared nav links — used in both mobile drawer and desktop sidebar
-  const NavLinks = ({ onClick }: { onClick?: () => void }) => (
-    <>
-      <div className="flex-1 py-4">
-        <nav className="space-y-0.5 px-2">
-          {mainNavigation.map((item) => {
-            const active = isActive(item);
-            return (
-              <Link
-                key={item.href}
-                href={item.href}
-                onClick={onClick}
-                title={collapsed ? item.label : undefined}
-                className={`group flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-medium transition-all ${
-                  active
-                    ? "bg-[var(--accent)]/10 text-[var(--accent)]"
-                    : "text-[var(--muted)] hover:bg-[var(--background-secondary)] hover:text-[var(--foreground)]"
-                } ${collapsed ? "justify-center px-2" : ""}`}
-              >
-                <span className="shrink-0 text-base leading-none">{item.icon}</span>
-                {!collapsed && (
-                  <span className="truncate">{item.label}</span>
-                )}
-              </Link>
-            );
-          })}
-        </nav>
-      </div>
-
-      <div className="border-t border-[var(--border)] p-2">
-        <nav className="space-y-0.5">
-          {bottomNavigation.map((item) => {
-            const active = pathname === item.href;
-            return (
-              <Link
-                key={item.href}
-                href={item.href}
-                onClick={onClick}
-                title={collapsed ? item.label : undefined}
-                className={`flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-medium transition-all ${
-                  active
-                    ? "bg-[var(--accent)]/10 text-[var(--accent)]"
-                    : "text-[var(--muted)] hover:bg-[var(--background-secondary)] hover:text-[var(--foreground)]"
-                } ${collapsed ? "justify-center px-2" : ""}`}
-              >
-                <span className="shrink-0 text-base leading-none">{item.icon}</span>
-                {!collapsed && <span className="truncate">{item.label}</span>}
-              </Link>
-            );
-          })}
-        </nav>
-      </div>
-    </>
-  );
-
   return (
     <>
       {/* ── Mobile top bar ──────────────────────────────────────────── */}
-      <header className="lg:hidden sticky top-0 z-40 flex h-14 items-center justify-between border-b border-[var(--border)] bg-[#0e0e0e]/95 px-4 backdrop-blur-sm">
+      <header className="lg:hidden sticky top-0 z-40 flex h-14 items-center justify-between border-b border-[#262626] bg-[#0e0e0e]/95 px-4 backdrop-blur-sm">
         <Link href="/" className="flex items-center gap-2">
-          <span className="text-sm font-display font-bold tracking-widest text-[var(--foreground)] uppercase">
+          <span className="text-[1.1rem] font-display font-extrabold tracking-widest text-[var(--foreground)] uppercase">
             UPSCPT
           </span>
-          <span className="rounded bg-[var(--accent)]/10 px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-widest text-[var(--accent)]">
-            App
-          </span>
         </Link>
-        <button
-          onClick={() => setMobileOpen(!mobileOpen)}
-          className="flex h-9 w-9 items-center justify-center rounded-lg border border-[#333] bg-[#111] text-[var(--muted)] hover:text-[var(--foreground)] transition-colors"
-          aria-label={mobileOpen ? "Close menu" : "Open menu"}
-        >
-          <HamburgerIcon open={mobileOpen} />
-        </button>
+        <div className="flex items-center gap-2">
+          <Link
+            href="/app/settings"
+            className="flex h-8 w-8 items-center justify-center rounded-full border border-[#333] bg-[#111] text-[var(--muted)] hover:text-[var(--foreground)] transition-colors"
+            aria-label="Settings"
+          >
+            <User className="w-4 h-4" />
+          </Link>
+          <button
+            onClick={() => setMobileOpen(!mobileOpen)}
+            className="flex h-9 w-9 items-center justify-center rounded-lg border border-[#333] bg-[#111] text-[var(--muted)] hover:text-[var(--foreground)] transition-colors"
+            aria-label={mobileOpen ? "Close menu" : "Open menu"}
+          >
+            <HamburgerIcon open={mobileOpen} />
+          </button>
+        </div>
       </header>
 
       {/* ── Mobile drawer ───────────────────────────────────────────── */}
@@ -153,7 +300,7 @@ export function AppSidebar() {
                 Menu
               </span>
             </div>
-            <NavLinks onClick={() => setMobileOpen(false)} />
+            <NavLinks collapsed={false} onClick={() => setMobileOpen(false)} />
           </div>
         </div>
       )}
@@ -161,22 +308,19 @@ export function AppSidebar() {
       {/* ── Desktop sidebar ─────────────────────────────────────────── */}
       <aside
         className={`hidden lg:flex flex-col border-r border-[#262626] bg-[#0e0e0e] transition-all duration-300 ease-in-out ${
-          collapsed ? "w-16" : "w-64"
+          collapsed ? "w-16" : "w-60"
         }`}
       >
         {/* Logo + hamburger toggle row */}
         <div
-          className={`flex h-16 items-center border-b border-[#1a1a1a] ${
+          className={`flex h-16 shrink-0 items-center border-b border-[#1a1a1a] ${
             collapsed ? "justify-center px-0" : "justify-between px-5"
           }`}
         >
           {!collapsed && (
             <Link href="/" className="flex items-center gap-2 group">
-              <span className="text-base font-display font-bold tracking-wider text-[var(--foreground)] group-hover:text-[var(--accent)] transition-colors">
+              <span className="text-[1.3rem] font-display font-black tracking-wider text-[var(--foreground)] group-hover:text-[var(--accent)] transition-colors">
                 UPSCPT
-              </span>
-              <span className="rounded border border-[var(--accent)]/30 bg-[var(--accent)]/10 px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-widest text-[var(--accent)]">
-                App
               </span>
             </Link>
           )}
@@ -192,7 +336,21 @@ export function AppSidebar() {
           </button>
         </div>
 
-        <NavLinks />
+        <NavLinks collapsed={collapsed} />
+
+        {/* Bottom: Profile / Settings */}
+        <div className="shrink-0 border-t border-[#1a1a1a] p-3">
+          <Link
+            href="/app/settings"
+            title={collapsed ? "Profile / Settings" : undefined}
+            className={`flex items-center gap-3.5 rounded-xl px-3 py-3 text-[15px] font-semibold text-[var(--muted)] hover:bg-[var(--background-secondary)] hover:text-[var(--foreground)] transition-all ${
+              collapsed ? "justify-center px-2" : ""
+            }`}
+          >
+            <span className="shrink-0 flex items-center justify-center"><User className="w-5 h-5 flex-shrink-0" strokeWidth={2.2} /></span>
+            {!collapsed && <span className="truncate">Profile / Settings</span>}
+          </Link>
+        </div>
       </aside>
     </>
   );
