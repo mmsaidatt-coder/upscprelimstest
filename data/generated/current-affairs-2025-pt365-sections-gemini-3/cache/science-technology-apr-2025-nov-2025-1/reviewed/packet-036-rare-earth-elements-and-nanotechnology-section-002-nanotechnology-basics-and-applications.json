@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to nanomaterials, consider the following statements:\n\n1. Nanotechnology deals with the manipulation of materials typically in the size range of 1 to 100 micrometers.\n2. At the nanoscale, the properties of a material become independent of its shape and surface characteristics.\n3. Nanoparticles of certain metallic oxides are utilized in the cosmetics industry.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect: Nanotechnology involves working with materials at the nanoscale, which ranges from 1 to 100 nanometers (nm), not micrometers. Statement 2 is incorrect: At the nanoscale, materials exhibit unusual properties that specifically depend on their shape, size, surface characteristics, and inner structure. Statement 3 is correct: Cosmetics use nanoparticles of certain metallic oxides (e.g., titanium dioxide or zinc oxide for UV protection).",
+      "takeaway": "Nanoscale properties are distinct because they depend on physical dimensions (shape, size) and surface characteristics rather than just chemical composition. The scale is strictly 1 to 100 nanometers.",
+      "evidenceExcerpt": "Nanotechnology involves working with materials at the nanoscale (1 to 100 nm). At this scale, materials exhibit unusual properties depending on shape, size, and surface characteristics... Cosmetics use nanoparticles of certain metallic oxides.",
+      "qualityScore": 85,
+      "reviewNotes": "Good use of the 'How many statements' format. The distractors effectively test the exact scale (nanometers vs micrometers) and the conceptual basis of nanomaterial properties."
+    }
+  ],
+  "reviewerNotes": "Selected three questions that cover the definition/scale, applications, and concerns of nanotechnology. Rewrote the prompts and options to align with the formal tone and structure of UPSC Prelims. The distractors are plausible and the explanations are tightly bound to the source text."
+}

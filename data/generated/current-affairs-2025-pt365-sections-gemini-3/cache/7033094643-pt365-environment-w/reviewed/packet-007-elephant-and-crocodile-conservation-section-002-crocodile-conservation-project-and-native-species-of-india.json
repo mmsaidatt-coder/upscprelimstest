@@ -1,0 +1,98 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Gharial:\n1. It primarily inhabits deep, fast-flowing rivers such as the Chambal and Son.\n2. The bulb-like 'Ghara' on the snout is a physical trait present in both adult males and females.\n3. India is home to approximately 80% of the global wild gharial population.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Gharials are found in deep, fast-flowing rivers like the Chambal, Girwa, and Son. Statement 2 is incorrect: The bulb-like 'Ghara' on the snout is a unique feature found only in adult males, not females. Statement 3 is correct: India holds 80% of the global wild gharial population, supported by sanctuaries like the National Chambal Sanctuary.",
+      "takeaway": "Gharials are Critically Endangered river-dwelling crocodilians. India hosts 80% of their wild population, and only adult males develop the distinct 'Ghara' on their snouts.",
+      "evidenceExcerpt": "Gharial: IUCN Critically Endangered; adult males have a bulb-like 'Ghara' on their snout; found in deep, fast-flowing rivers like Chambal, Girwa, and Son.\nIndia holds 80% of the global wild gharial population, supported by sanctuaries like the National Chambal Sanctuary.",
+      "qualityScore": 85,
+      "reviewNotes": "Good statement-based question testing habitat, physical characteristics, and population distribution. The distractor in statement 2 is classic UPSC style."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Species Identification",
+      "prompt": "Consider the following description:\n\n\"This crocodilian species is known for its unique behavioural traits, including the use of tools such as balancing sticks on its snout to lure nesting birds. It is also the only Indian species of its kind that digs burrows on land for shelter. It is currently classified as 'Vulnerable' on the IUCN Red List.\"\n\nWhich of the following species is described in the passage given above?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Gharial"
+        },
+        {
+          "id": "B",
+          "text": "Saltwater Crocodile"
+        },
+        {
+          "id": "C",
+          "text": "Mugger"
+        },
+        {
+          "id": "D",
+          "text": "False Gharial"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The Mugger (Marsh Crocodile) is classified as Vulnerable. It is noted for unique behaviors such as using tools (like balance sticks) to lure birds and is the only Indian crocodile species that digs burrows on land.",
+      "takeaway": "The Mugger crocodile is distinct among Indian crocodilians for its terrestrial burrowing habit and documented use of tools to hunt avian prey.",
+      "evidenceExcerpt": "Mugger (Marsh Crocodile): IUCN Vulnerable; known to use tools like balance sticks to lure birds and is the only Indian species that digs burrows on land.",
+      "qualityScore": 85,
+      "reviewNotes": "Excellent species identification question. Replaced 'Caiman' with 'False Gharial' to keep the distractors geographically and taxonomically plausible."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of native Indian crocodile species and their IUCN Red List status:\n1. Saltwater Crocodile : Least Concern\n2. Mugger : Critically Endangered\n3. Gharial : Vulnerable\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Only pair 1 is correctly matched. The Saltwater Crocodile is listed as Least Concern. Pair 2 is incorrect because the Mugger is Vulnerable. Pair 3 is incorrect because the Gharial is Critically Endangered.",
+      "takeaway": "The conservation status of India's three native crocodiles varies significantly: Saltwater (Least Concern), Mugger (Vulnerable), and Gharial (Critically Endangered).",
+      "evidenceExcerpt": "Saltwater Crocodile (Estuarine): IUCN Least Concern...\nMugger (Marsh Crocodile): IUCN Vulnerable...\nGharial: IUCN Critically Endangered...",
+      "qualityScore": 85,
+      "reviewNotes": "A standard UPSC-style IUCN status matching question. The distractors are well-placed by swapping the statuses of the Mugger and Gharial."
+    }
+  ],
+  "reviewerNotes": "Selected 5 high-quality questions covering different aspects of the source text: species characteristics, IUCN statuses, conservation history, and specific protected areas. Refined the distractors in the species identification question to ensure they are plausible and parallel."
+}

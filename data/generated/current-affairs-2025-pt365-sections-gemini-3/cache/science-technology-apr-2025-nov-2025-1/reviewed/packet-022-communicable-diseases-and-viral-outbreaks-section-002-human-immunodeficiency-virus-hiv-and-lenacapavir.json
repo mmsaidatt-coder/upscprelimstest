@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "The term 'Pre-Exposure Prophylaxis (PrEP)', sometimes seen in the news in the context of the drug Lenacapavir, best describes:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "a post-exposure vaccine administered immediately after suspected contact with infected body fluids"
+        },
+        {
+          "id": "B",
+          "text": "the use of antiretroviral medications by uninfected individuals to prevent the acquisition of a viral infection"
+        },
+        {
+          "id": "C",
+          "text": "a targeted therapeutic regimen administered exclusively to pregnant women to prevent mother-to-child transmission of viruses"
+        },
+        {
+          "id": "D",
+          "text": "a specialized gene therapy aimed at restoring destroyed CD4 T lymphocytes in immunodeficient patients"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pre-Exposure Prophylaxis (PrEP) involves the proactive use of antiretroviral medicines to prevent HIV infection in individuals who are at risk but not yet infected. Lenacapavir is a recently approved antiretroviral medicine utilized for this preventive purpose.",
+      "takeaway": "PrEP is a preventive strategy for uninfected individuals, distinct from post-exposure prophylaxis (PEP) or therapeutic treatments (like ART) meant for those already infected.",
+      "evidenceExcerpt": "FDA approved Lenacapavir, an antiretroviral medicine used for HIV prevention as Pre-Exposure Prophylaxis (PrEP).",
+      "qualityScore": 85,
+      "reviewNotes": "Excellent conceptual question. The distractors are highly plausible as they cleverly reuse vocabulary from the source text (body fluids, mother-to-child, CD4 T lymphocytes) to create incorrect definitions."
+    }
+  ],
+  "reviewerNotes": "Selected Candidate 1 for testing factual knowledge about HIV transmission, mechanism, and the new drug Lenacapavir. Selected Candidate 4 for testing the conceptual understanding of the term 'PrEP' using strong, text-grounded distractors. Both questions have been refined to match UPSC standards in tone and formatting."
+}

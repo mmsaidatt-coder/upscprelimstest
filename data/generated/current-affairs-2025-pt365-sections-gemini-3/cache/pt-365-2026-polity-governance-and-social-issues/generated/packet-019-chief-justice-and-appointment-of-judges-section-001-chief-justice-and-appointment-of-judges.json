@@ -1,0 +1,149 @@
+{
+  "questions": [
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Comparison-driven",
+      "prompt": "Compare the 'First Judges Case (1981)' and the 'Second Judges Case (1993)' regarding judicial appointments. Which of the following reflects the primary shift in the legal position between these two rulings?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The shift from judicial concurrence to absolute executive primacy in the selection of judges."
+        },
+        {
+          "id": "B",
+          "text": "The transition from executive primacy to judicial primacy by interpreting 'consultation' as 'concurrence'."
+        },
+        {
+          "id": "C",
+          "text": "The expansion of the Collegium from a two-judge body to a five-judge body including the Chief Justice."
+        },
+        {
+          "id": "D",
+          "text": "The requirement that the President must seek the advice of the Council of Ministers rather than the Chief Justice."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "In the First Judges Case (1981), the Supreme Court ruled that the executive could refuse a recommendation for 'cogent reasons', giving them a greater say. The Second Judges Case (1993) reversed this, establishing judicial primacy by ruling that the CJI only needs to consult two senior-most judges, effectively making the CJI's opinion binding (concurrence).",
+      "takeaway": "The Collegium system evolved from executive primacy in 1981 to judicial primacy in 1993.",
+      "evidenceExcerpt": "First Judges Case, 1981... giving greater say to executive. Second Judges Case, 1993... CJI only need to consult two senior-most judges over judicial appointments.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Easy",
+      "questionType": "Institution-feature",
+      "prompt": "The term 'Master of the Roster' in the context of the Indian Judiciary refers to the specific authority of the Chief Justice of India to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Appoint and oversee the administrative staff of the Supreme Court."
+        },
+        {
+          "id": "B",
+          "text": "Determine the constitution of benches and the allocation of cases among judges."
+        },
+        {
+          "id": "C",
+          "text": "Preside over the National Judicial Appointments Commission."
+        },
+        {
+          "id": "D",
+          "text": "Exercise veto power over the recommendations of the Collegium."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Chief Justice of India acts as the 'Master of the Roster', which means they have the administrative power to constitute benches and allocate cases to those benches.",
+      "takeaway": "The CJI holds unique administrative powers as the Master of the Roster, distinct from their judicial role.",
+      "evidenceExcerpt": "Key Responsibilities: Oversee the appointment of Supreme Court Staff; Master of the roster.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Hard",
+      "questionType": "Mechanism-design",
+      "prompt": "Regarding the provision for calling back retired judges to the Supreme Court, which of the following conditions must be met according to the established procedure?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The Chief Justice of India can act unilaterally if there is a vacancy in the full bench strength."
+        },
+        {
+          "id": "B",
+          "text": "The request must be made by the President of India after consulting the Collegium."
+        },
+        {
+          "id": "C",
+          "text": "The Chief Justice of India must obtain the prior permission of the President of India."
+        },
+        {
+          "id": "D",
+          "text": "A retired judge can only be called back if they have not yet reached the age of 70."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "According to the source, any retired judge of the Supreme Court can be called back to sit and act as a judge by the CJI, but this requires the prior permission of the President of India.",
+      "takeaway": "The CJI's power to recall retired judges is not absolute and requires executive concurrence through the President.",
+      "evidenceExcerpt": "Note: Any retired judge of the Supreme Court of India can be called back to sit and act as a Supreme Court judge by the Chief Justice of India with prior permission of the President of India.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Implication-based",
+      "prompt": "What is the legal implication of the Office of the Chief Justice of India (CJI) falling under the Right to Information (RTI) Act, 2005?",
+      "options": [
+        {
+          "id": "A",
+          "text": "All judicial deliberations and draft judgments are now part of the public record."
+        },
+        {
+          "id": "B",
+          "text": "The office is considered a 'public authority', making certain administrative information accessible to citizens."
+        },
+        {
+          "id": "C",
+          "text": "The CJI is no longer the 'Master of the Roster' as case allocation must be done via public voting."
+        },
+        {
+          "id": "D",
+          "text": "The President must approve every RTI query directed at the Supreme Court."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The inclusion of the CJI's office under the RTI Act means it is treated as a public authority, enhancing transparency regarding its administrative functioning, though judicial independence is still protected.",
+      "takeaway": "The CJI's office is subject to statutory transparency requirements under the RTI Act.",
+      "evidenceExcerpt": "Scrutiny: Office of CJI falls under Right to Information Act (RTI), 2005.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Hard",
+      "questionType": "Mechanism-design",
+      "prompt": "According to the Memorandum of Procedure (MoP), what is the correct sequence of the recommendation process for the appointment of a new Chief Justice of India?",
+      "options": [
+        {
+          "id": "A",
+          "text": "President -> Prime Minister -> Union Law Minister -> Outgoing CJI"
+        },
+        {
+          "id": "B",
+          "text": "Outgoing CJI -> Union Law Minister -> Prime Minister -> President"
+        },
+        {
+          "id": "C",
+          "text": "Union Law Minister -> Outgoing CJI -> Prime Minister -> President"
+        },
+        {
+          "id": "D",
+          "text": "Supreme Court Collegium -> Union Law Minister -> President"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "As per the MoP, the Union Law Minister first seeks the recommendation of the outgoing CJI. The Minister then forwards this to the Prime Minister, who advises the President.",
+      "takeaway": "The Law Minister initiates the formal process of CJI appointment by consulting the incumbent.",
+      "evidenceExcerpt": "As per the Memorandum of Procedure, the Union Law Minister first seeks recommendation of outgoing CJI, forwards it to the PM who then advises the President.",
+      "contextLines": []
+    }
+  ]
+}

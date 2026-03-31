@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Feature-matching",
+      "prompt": "Consider the following characteristics of a protected area in India: 1. It forms a connecting corridor between the Biligiri Ranganatha Swamy Temple (BRT) Wildlife Sanctuary and the Cauvery Wildlife Sanctuary. 2. It serves as an important ecological link in the Eastern Ghats-Western Ghats landscape. 3. Its vegetation is dominated by dry deciduous forests, with patches of Shola forests at higher altitudes. Which of the following protected areas is best described by the features given above?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Male Mahadeshwara (MM) Hills Wildlife Sanctuary"
+        },
+        {
+          "id": "B",
+          "text": "Sathyamangalam Tiger Reserve"
+        },
+        {
+          "id": "C",
+          "text": "Mudumalai National Park"
+        },
+        {
+          "id": "D",
+          "text": "Wayanad Wildlife Sanctuary"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Male Mahadeshwara (MM) Hills Wildlife Sanctuary is located in Southeast Karnataka. It acts as a crucial connecting corridor between the BRT Wildlife Sanctuary and the Cauvery Wildlife Sanctuary, forming a vital link between the Eastern and Western Ghats. Its vegetation is primarily dry deciduous, but it notably features patches of semi-evergreen and Shola forests at higher altitudes.",
+      "takeaway": "MM Hills WLS is a critical Eastern-Western Ghats corridor connecting BRT and Cauvery WLS, characterized by a mix of dry deciduous forests and high-altitude Shola patches.",
+      "evidenceExcerpt": "Forms connecting corridor between Biligiri Ranganatha Swamy Temple (BRT) Wildlife Sanctuary and Cauvery Wildlife Sanctuary. Forest type: Dominated by dry deciduous forests and Patches of Semi-evergreen, Shola forests at higher altitudes... Important corridor in the Eastern Ghats-Western Ghats landscape."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Male Mahadeshwara (MM) Hills Wildlife Sanctuary, consider the following statements: 1. It acts as a contiguous ecological corridor connecting the Bandipur and Nagarhole National Parks in Karnataka. 2. Its vegetation consists exclusively of dry deciduous and scrub forests, lacking any evergreen species. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Statement 1 is incorrect: MM Hills Wildlife Sanctuary forms a connecting corridor between the Biligiri Ranganatha Swamy Temple (BRT) Wildlife Sanctuary and the Cauvery Wildlife Sanctuary, not Bandipur and Nagarhole. Statement 2 is incorrect: While the sanctuary is dominated by dry deciduous forests and scrub forests in fringe zones, it is not exclusively so; it also contains patches of semi-evergreen and Shola forests at higher altitudes.",
+      "takeaway": "MM Hills WLS connects BRT and Cauvery WLS (not Bandipur/Nagarhole) and hosts diverse vegetation including semi-evergreen and Shola forests at higher altitudes, disproving the notion that it is exclusively dry deciduous.",
+      "evidenceExcerpt": "Forms connecting corridor between Biligiri Ranganatha Swamy Temple (BRT) Wildlife Sanctuary and Cauvery Wildlife Sanctuary. Forest type: Dominated by dry deciduous forests and Patches of Semi-evergreen, Shola forests at higher altitudes and scrub forests in fringe zones."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Conceptual",
+      "prompt": "The Male Mahadeshwara (MM) Hills Wildlife Sanctuary exhibits a distinct spatial variation in its vegetation profile. Which of the following best represents the transition of forest types from the fringe zones to the higher altitudes within the sanctuary?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Scrub forests transitioning into dry deciduous forests, with semi-evergreen and Shola patches at the highest elevations."
+        },
+        {
+          "id": "B",
+          "text": "Tropical thorn forests transitioning into moist deciduous forests, with alpine meadows at the highest elevations."
+        },
+        {
+          "id": "C",
+          "text": "Dry deciduous forests transitioning into wet evergreen forests, with sub-tropical pine forests at the highest elevations."
+        },
+        {
+          "id": "D",
+          "text": "Scrub forests transitioning directly into wet evergreen forests, completely lacking deciduous species."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "The vegetation of the MM Hills Wildlife Sanctuary varies with altitude and location. The fringe zones are characterized by scrub forests, the dominant vegetation across the sanctuary is dry deciduous forest, and the higher altitudes support patches of semi-evergreen and Shola forests.",
+      "takeaway": "Forest types in protected areas often exhibit altitudinal zonation. In MM Hills, the transition moves from scrub at the fringes to dry deciduous as the dominant cover, culminating in semi-evergreen and Shola patches at higher elevations.",
+      "evidenceExcerpt": "Forest type: Dominated by dry deciduous forests and Patches of Semi-evergreen, Shola forests at higher altitudes and scrub forests in fringe zones."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-Statement",
+      "prompt": "Consider the following protected areas:\n1. Biligiri Ranganatha Swamy Temple (BRT) Wildlife Sanctuary\n2. Cauvery Wildlife Sanctuary\n3. Male Mahadeshwara (MM) Hills Wildlife Sanctuary\n\nWhich of the above protected areas are integrally linked to form a contiguous ecological corridor in the Eastern Ghats-Western Ghats landscape?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "The Male Mahadeshwara (MM) Hills Wildlife Sanctuary acts as the crucial connecting link between the Biligiri Ranganatha Swamy Temple (BRT) Wildlife Sanctuary and the Cauvery Wildlife Sanctuary. Together, these three protected areas form a contiguous and vital ecological corridor connecting the Eastern Ghats and the Western Ghats.",
+      "takeaway": "Landscape-level conservation relies on contiguous protected areas. The BRT, Cauvery, and MM Hills sanctuaries collectively bridge the Eastern and Western Ghats.",
+      "evidenceExcerpt": "Forms connecting corridor between Biligiri Ranganatha Swamy Temple (BRT) Wildlife Sanctuary and Cauvery Wildlife Sanctuary... Important corridor in the Eastern Ghats-Western Ghats landscape."
+    }
+  ]
+}

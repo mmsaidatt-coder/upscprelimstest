@@ -1,0 +1,178 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of Tuberculosis (TB) types and their characteristics: 1. Pulmonary TB : Infection restricted exclusively to the central nervous system 2. Spinal TB : Also known as Pott's disease 3. MDR-TB : Resistant to isoniazid and rifampicin. How many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is incorrectly matched: Pulmonary TB affects the lungs, whereas extrapulmonary TB affects other organs. Pair 2 is correctly matched: Spinal TB is an extrapulmonary form also known as Pott's disease. Pair 3 is correctly matched: Multi Drug Resistant TB (MDR-TB) is characterized by a lack of response to the first-line drugs rifampicin and isoniazid.",
+      "takeaway": "Tuberculosis can be pulmonary or extrapulmonary (like Spinal TB/Pott's disease). MDR-TB specifically denotes resistance to the two most effective first-line drugs: isoniazid and rifampicin.",
+      "evidenceExcerpt": "Types include Pulmonary, Extrapulmonary, and Spinal TB (Pott's disease)... MDR-TB does not respond to rifampicin and isoniazid, the two most effective first-line TB drugs."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the classification of Tuberculosis (TB) based on drug response: 1. Drug-sensitive TB can be successfully treated with isoniazid and rifampicin. 2. Multi Drug Resistant TB (MDR-TB) exhibits resistance to all known second-line anti-TB medications. 3. Extensively Drug-Resistant TB (XDR-TB) is characterized by resistance to both first-line drugs and stronger second-line medicines. Which of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Drug-sensitive TB responds to first-line drugs like isoniazid and rifampicin. Statement 2 is incorrect: MDR-TB is resistant to the two most effective first-line drugs (isoniazid and rifampicin), but it is XDR-TB that resists stronger second-line medicines. Statement 3 is correct: XDR-TB resists first-line drugs as well as stronger second-line medicines.",
+      "takeaway": "Drug resistance in TB is tiered: MDR-TB resists key first-line drugs, while XDR-TB is a more severe form that resists both first-line and stronger second-line medicines.",
+      "evidenceExcerpt": "Drug-sensitive TB responds to isoniazid and rifampicin. MDR-TB does not respond to these two, while XDR-TB resists even stronger medicines."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Tuberculosis (TB): 1. It is an airborne disease caused by a viral pathogen. 2. Pulmonary TB is the only form of tuberculosis that affects humans. 3. According to the WHO Global TB Report 2025, India has recorded an increase in its TB incidence. How many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Statement 1 is incorrect: TB is an airborne disease caused by a bacterium (Mycobacterium tuberculosis), not a virus. Statement 2 is incorrect: TB can also be extrapulmonary, affecting organs outside the lungs, such as Spinal TB (Pott's disease). Statement 3 is incorrect: According to the WHO Global TB Report 2025, India's TB incidence reduced by 21%, rather than increasing.",
+      "takeaway": "TB is a bacterial airborne infection that can affect multiple organs (extrapulmonary). India has recently made significant progress, reducing its TB incidence by 21% as per the WHO Global TB Report 2025.",
+      "evidenceExcerpt": "According to the WHO Global TB Report 2025, India's TB incidence reduced by 21%. TB is an airborne disease caused by Mycobacterium tuberculosis. Types include Pulmonary, Extrapulmonary, and Spinal TB (Pott's disease)."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Assertion-Reason",
+      "prompt": "Given below are two statements, one labelled as Assertion (A) and the other as Reason (R):\n\nAssertion (A): Patients diagnosed with Multi Drug Resistant TB (MDR-TB) cannot be effectively treated with the standard regimen of isoniazid and rifampicin.\n\nReason (R): MDR-TB is a specialized form of Tuberculosis that exclusively affects extrapulmonary sites such as the spine, rendering first-line oral drugs ineffective.\n\nIn the context of the above two statements, which one of the following is correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A)."
+        },
+        {
+          "id": "B",
+          "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A)."
+        },
+        {
+          "id": "C",
+          "text": "Assertion (A) is true but Reason (R) is false."
+        },
+        {
+          "id": "D",
+          "text": "Assertion (A) is false but Reason (R) is true."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Assertion (A) is correct as MDR-TB is defined by its lack of response to isoniazid and rifampicin, the two most effective first-line TB drugs. Reason (R) is incorrect because MDR-TB is a classification based on the pathogen's drug resistance profile, not its anatomical site of infection. Tuberculosis that affects the spine is known as Spinal TB (or Pott's disease), which is a separate classification based on the site of infection.",
+      "takeaway": "Tuberculosis is classified independently by the site of infection (e.g., Pulmonary, Spinal) and by its drug resistance profile (e.g., Drug-sensitive, MDR-TB, XDR-TB).",
+      "evidenceExcerpt": "Types include Pulmonary, Extrapulmonary, and Spinal TB (Pott's disease)... MDR-TB does not respond to these two [isoniazid and rifampicin]..."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice",
+      "prompt": "Which of the following best describes the clinical distinction between Multi Drug Resistant TB (MDR-TB) and Extensively Drug-Resistant TB (XDR-TB)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "MDR-TB is resistant only to isoniazid, whereas XDR-TB is resistant to both isoniazid and rifampicin."
+        },
+        {
+          "id": "B",
+          "text": "MDR-TB does not respond to the two most effective first-line drugs, whereas XDR-TB additionally resists stronger second-line medicines."
+        },
+        {
+          "id": "C",
+          "text": "MDR-TB is an airborne bacterial infection, whereas XDR-TB is a secondary viral infection that occurs in immunocompromised patients."
+        },
+        {
+          "id": "D",
+          "text": "MDR-TB affects only the pulmonary system, whereas XDR-TB is characterized by its spread to the spine as Pott's disease."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "MDR-TB is defined as TB that does not respond to isoniazid and rifampicin, the two most effective first-line TB drugs. XDR-TB is a more severe form of drug-resistant TB that resists not only these first-line drugs but also stronger second-line medicines. Both are caused by the airborne bacterium Mycobacterium tuberculosis, and the distinction lies purely in their drug resistance profiles.",
+      "takeaway": "The progression from MDR-TB to XDR-TB represents an expanding spectrum of drug resistance, which severely limits the available therapeutic options for patients.",
+      "evidenceExcerpt": "MDR-TB does not respond to these two [isoniazid and rifampicin], while XDR-TB resists even stronger medicines."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the classification and treatment of Tuberculosis (TB):\n\n1. Drug-sensitive TB is characterized by a positive therapeutic response to first-line medications such as isoniazid and rifampicin.\n2. The progression of a Pulmonary TB infection to Spinal TB (Pott's disease) is the primary clinical indicator that the pathogen has developed into Extensively Drug-Resistant TB (XDR-TB).\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct; Drug-sensitive TB responds to standard first-line drugs like isoniazid and rifampicin. Statement 2 is incorrect; the classification of TB into Pulmonary or Spinal (Pott's disease) is based on the anatomical site of the infection. In contrast, XDR-TB is a classification based purely on the pathogen's resistance to both first-line and stronger second-line medicines. The spread of TB to the spine does not inherently indicate that the bacteria have become drug-resistant.",
+      "takeaway": "Anatomical classifications of TB (Pulmonary vs. Extrapulmonary/Spinal) are entirely distinct from pharmacological classifications (Drug-sensitive vs. MDR/XDR).",
+      "evidenceExcerpt": "Types include Pulmonary, Extrapulmonary, and Spinal TB (Pott's disease). Drug-sensitive TB responds to isoniazid and rifampicin. MDR-TB does not respond to these two, while XDR-TB resists even stronger medicines."
+    }
+  ]
+}

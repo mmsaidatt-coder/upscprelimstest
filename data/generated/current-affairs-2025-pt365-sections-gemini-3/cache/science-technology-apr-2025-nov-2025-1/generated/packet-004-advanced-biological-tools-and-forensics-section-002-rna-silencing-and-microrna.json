@@ -1,0 +1,149 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'RNA silencing':\n1. It is a gene regulation mechanism that can reduce gene expression by suppressing transcription.\n2. It utilizes small RNA molecules to bind with messenger RNA (mRNA) and promote its translation into proteins.\n3. Host-Induced Gene Silencing (HIGS) is an application of this mechanism used to strengthen plant immunity.\nWhich of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: RNA silencing can reduce gene expression by suppressing transcription (Transcriptional Gene Silencing). Statement 2 is incorrect: Small RNA molecules like siRNA or miRNA bind to mRNA to destroy it or block its translation, not to promote it. Statement 3 is correct: HIGS is an RNA silencing technique utilized to strengthen plant immunity against pathogens.",
+      "takeaway": "RNA silencing regulates gene expression either by suppressing transcription or degrading RNA post-transcription. It has agricultural applications like HIGS and SIGS for enhancing plant immunity.",
+      "evidenceExcerpt": "RNA silencing is a gene regulation mechanism that reduces gene expression by suppressing transcription (TGS)... It involves small RNA molecules like siRNA or miRNA binding to mRNA to destroy it or block translation. Techniques like Host-Induced Gene Silencing (HIGS) and Spray-Induced Gene Silencing (SIGS) strengthen plant immunity."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to 'microRNA (miRNA)', consider the following statements:\n1. They are small, non-coding RNA molecules.\n2. They regulate gene expression by binding to messenger RNA (mRNA) in the cytoplasm.\n3. They function by permanently altering the DNA sequence of the target gene.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: microRNA (miRNA) is a small non-coding RNA. Statement 2 is correct: miRNA controls gene expression by binding with mRNA in the cytoplasm to prevent translation or degrade it. Statement 3 is incorrect: miRNA regulates gene expression at the RNA level (transcription/translation) and does not permanently alter the underlying DNA sequence.",
+      "takeaway": "microRNAs are small, non-coding RNA molecules that act in the cytoplasm to regulate gene expression post-transcriptionally by degrading mRNA or blocking its translation.",
+      "evidenceExcerpt": "microRNA (miRNA) is a small non-coding RNA that controls gene expression by binding with mRNA in the cytoplasm to prevent translation or degrade it."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs regarding gene regulation mechanisms:\n1. Transcriptional gene silencing (TGS) : Suppresses transcription to reduce gene expression\n2. Post-transcriptional gene silencing (PTGS) : Degrades specific RNA molecules after transcription\n3. Spray-Induced Gene Silencing (SIGS) : A technique utilized primarily for human gene therapy\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: TGS reduces gene expression by suppressing transcription. Pair 2 is correctly matched: PTGS (or RNAi) degrades specific RNA after transcription. Pair 3 is incorrectly matched: SIGS is a technique used to strengthen plant immunity, not for human gene therapy.",
+      "takeaway": "Gene expression can be silenced at the transcriptional (TGS) or post-transcriptional (PTGS) level. Techniques like SIGS and HIGS apply these mechanisms to enhance plant immunity.",
+      "evidenceExcerpt": "RNA silencing is a gene regulation mechanism that reduces gene expression by suppressing transcription (TGS) or degrading specific RNA after transcription (PTGS/RNAi)... Techniques like Host-Induced Gene Silencing (HIGS) and Spray-Induced Gene Silencing (SIGS) strengthen plant immunity."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Application",
+      "prompt": "In the context of agricultural biotechnology, the techniques known as 'Host-Induced Gene Silencing (HIGS)' and 'Spray-Induced Gene Silencing (SIGS)' are primarily employed for which of the following purposes?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "To permanently edit the genome of crops to enhance their drought tolerance."
+        },
+        {
+          "id": "B",
+          "text": "To strengthen plant immunity against pathogens by suppressing specific gene expression."
+        },
+        {
+          "id": "C",
+          "text": "To facilitate the cross-breeding of genetically distant plant species."
+        },
+        {
+          "id": "D",
+          "text": "To increase the shelf-life of harvested fruits by delaying ethylene production."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Host-Induced Gene Silencing (HIGS) and Spray-Induced Gene Silencing (SIGS) are RNA silencing techniques utilized to strengthen plant immunity. They work by suppressing the gene expression of attacking pathogens, thereby protecting the plant.",
+      "takeaway": "HIGS and SIGS are practical applications of RNA silencing in agriculture, aimed at protecting plants from diseases by utilizing the organism's natural gene regulation mechanisms.",
+      "evidenceExcerpt": "Techniques like Host-Induced Gene Silencing (HIGS) and Spray-Induced Gene Silencing (SIGS) strengthen plant immunity."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Mechanism-Design",
+      "prompt": "Which one of the following statements best describes the mechanism by which small interfering RNA (siRNA) and microRNA (miRNA) regulate gene expression in a cell?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "They bind to specific messenger RNA (mRNA) molecules in the cytoplasm to trigger their degradation or block their translation."
+        },
+        {
+          "id": "B",
+          "text": "They integrate into the host cell's DNA to permanently suppress the transcription of targeted genes."
+        },
+        {
+          "id": "C",
+          "text": "They bind directly to ribosomes to accelerate the rate of protein synthesis during cellular stress."
+        },
+        {
+          "id": "D",
+          "text": "They act as molecular chaperones that assist in the correct folding of newly synthesized proteins."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "siRNA and miRNA are small non-coding RNA molecules involved in RNA silencing. They function post-transcriptionally by binding to specific messenger RNA (mRNA) molecules in the cytoplasm, which either destroys the mRNA or blocks its translation into proteins.",
+      "takeaway": "Small non-coding RNAs like siRNA and miRNA exert post-transcriptional control over gene expression by intercepting mRNA before it can be translated into functional proteins.",
+      "evidenceExcerpt": "It involves small RNA molecules like siRNA or miRNA binding to mRNA to destroy it or block translation. ... microRNA (miRNA) is a small non-coding RNA that controls gene expression by binding with mRNA in the cytoplasm to prevent translation or degrade it."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Lithium-ion (Li-ion) batteries:\n1. They utilize an aqueous electrolyte to facilitate the movement of lithium ions during charging and discharging.\n2. The negative electrode in these batteries is typically composed of graphite.\n3. Unlike older rechargeable batteries, Li-ion batteries generally do not suffer from the memory effect.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Lithium ions move between electrodes through a non-aqueous electrolyte, not an aqueous one. Statement 2 is correct: In Li-ion batteries, the negative electrode is typically made of graphite, while the positive electrode consists of Lithium transitional metal oxides. Statement 3 is correct: Li-ion batteries offer excellent performance with generally no memory effect, unlike older rechargeable batteries like nickel-cadmium.",
+      "takeaway": "Lithium-ion batteries operate by moving lithium ions between a graphite negative electrode and a metal oxide positive electrode via a non-aqueous electrolyte. They are favored for their high energy density and lack of memory effect.",
+      "evidenceExcerpt": "In it, lithium ions move between a negative electrode (graphite) and a positive electrode (Li transitional metal oxides) through a non-aqueous electrolyte during charging and discharging. Benefits: High energy density, Lightweight and Lower Toxic Heavy Metals, Excellent performance with generally no memory effect."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Definition",
+      "prompt": "The term 'Black Mass', recently seen in the news, is most appropriately described as:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A dark powdery substance recovered from used lithium-ion batteries that contains critical minerals."
+        },
+        {
+          "id": "B",
+          "text": "A carbon-rich byproduct generated during the extraction of rare earth elements from coal ash."
+        },
+        {
+          "id": "C",
+          "text": "A highly toxic residue left behind after the incineration of medical electronic waste."
+        },
+        {
+          "id": "D",
+          "text": "A specialized graphite composite used as a positive electrode in advanced solid-state batteries."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Black mass is a dark, powdery substance recovered from end-of-life lithium-ion batteries. It is highly valuable because it contains critical minerals such as lithium, cobalt, and nickel, which can be extracted and reused.",
+      "takeaway": "Black mass recovery is a crucial part of e-waste recycling, allowing for the extraction and reuse of critical minerals from spent lithium-ion batteries.",
+      "evidenceExcerpt": "Black mass is a dark, powdery substance from used batteries containing critical minerals like lithium, cobalt, and nickel."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the recycling of Lithium-ion batteries in India:\n1. Black mass recovery technology is specifically used to extract critical minerals like lithium, cobalt, and nickel from end-of-life batteries.\n2. The Technology Development Board (TDB) provides financial support for the commercialization of indigenous black mass recovery technology.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Both statements are correct. Black mass recovery is the process of extracting critical minerals (lithium, cobalt, nickel) from the powdery substance left after processing used batteries. The Technology Development Board (TDB) has extended financial support for the commercialization of an indigenous battery recycling technology to recover this black mass.",
+      "takeaway": "India is actively promoting indigenous technologies for battery recycling, with institutions like the TDB funding the commercialization of black mass recovery to secure critical mineral supply chains.",
+      "evidenceExcerpt": "Black Mass Recovery Technology: Technology Development Board (TDB) has extended financial support for the commercialization of an indigenous battery recycling technology. Black mass is a dark, powdery substance from used batteries containing critical minerals like lithium, cobalt, and nickel."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "multiple_choice",
+      "prompt": "In the context of electronic waste management in India, the recently supported 'dual-mode (wet and dry)' technology is primarily associated with:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "the recovery of critical minerals from the black mass of used Lithium-ion batteries."
+        },
+        {
+          "id": "B",
+          "text": "the segregation of heavy metals from discarded solar photovoltaic modules."
+        },
+        {
+          "id": "C",
+          "text": "the extraction of rare earth elements from end-of-life wind turbine magnets."
+        },
+        {
+          "id": "D",
+          "text": "the safe neutralization of highly acidic electrolytes in traditional lead-acid batteries."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "The Technology Development Board (TDB) is financially supporting the commercialization of an indigenous dual-mode (wet and dry) black mass recovery technology. This technology is specifically designed to extract critical minerals from the black mass of end-of-life lithium-ion batteries.",
+      "takeaway": "Indigenous technological advancements in e-waste, such as the dual-mode wet and dry recovery systems, are critical for establishing a circular economy for lithium-ion batteries and securing domestic supplies of critical minerals.",
+      "evidenceExcerpt": "The Technology Development Board (TDB) is supporting indigenous dual-mode (wet and dry) black mass recovery technology."
+    }
+  ]
+}

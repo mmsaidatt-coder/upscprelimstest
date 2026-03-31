@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Bharat Gen':\n1. It is India's first indigenously developed multimodal Large Language Model (LLM) supporting all 22 scheduled Indian languages.\n2. It is implemented through the Technology Innovation Hub (TIH) at IIT Bombay.\n3. It is funded by the Ministry of Electronics and Information Technology (MeitY) under the IndiaAI Mission.\nWhich of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Bharat Gen is India's first indigenously developed AI-based Multimodal LLM designed for all 22 scheduled Indian languages. Statement 2 is correct: It is developed under the National Mission on Interdisciplinary Cyber-Physical Systems (NM-ICPS) and implemented through the TIH at IIT Bombay. Statement 3 is incorrect: The project is funded by the Department of Science and Technology (DST), not MeitY.",
+      "takeaway": "Bharat Gen is an indigenous multimodal LLM for 22 Indian languages, implemented by IIT Bombay under NM-ICPS with DST funding.",
+      "evidenceExcerpt": "Bharat Gen is India's first indigenously developed AI-based Multimodal LLM for all 22 scheduled Indian languages. Bharat Gen is developed under NM-ICPS and implemented through TIH at IIT Bombay with DST funding.",
+      "qualityScore": 85,
+      "reviewNotes": "Strong statement-based question testing specific features and institutional backing of a key indigenous AI initiative. The distractor regarding MeitY funding is highly plausible given MeitY's general role in IT."
+    }
+  ],
+  "reviewerNotes": "Selected 3 high-quality questions from the candidate set. Rewrote distractors to be more plausible and aligned with UPSC standards (e.g., changing the Bletchley Declaration distractor from 'cryptocurrency' to a 'UN military treaty'). Ensured no overlap between the questions to provide a comprehensive assessment of the source text."
+}

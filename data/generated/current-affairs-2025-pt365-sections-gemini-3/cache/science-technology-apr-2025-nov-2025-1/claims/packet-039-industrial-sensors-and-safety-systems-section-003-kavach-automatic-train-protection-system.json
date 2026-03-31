@@ -1,0 +1,62 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-039-industrial-sensors-and-safety-systems-section-003-kavach-automatic-train-protection-system",
+    "claimType": "Technological Feature",
+    "claimText": "KAVACH is an indigenously developed Automatic Train Protection system.",
+    "evidenceExcerpt": "Indigenously Automatic Train Protection system designed to improve train safety and efficiency.",
+    "pageNumbers": [
+      76
+    ],
+    "examUse": "Statement-based question on the origin and purpose of KAVACH.",
+    "distractorHooks": [
+      "Developed in collaboration with foreign entities like Japan or France",
+      "It is a manual alert system without automatic protection"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-039-industrial-sensors-and-safety-systems-section-003-kavach-automatic-train-protection-system",
+    "claimType": "Technological Feature",
+    "claimText": "The KAVACH system automatically applies the train's brakes if the loco pilot fails to do so.",
+    "evidenceExcerpt": "automatically applying the brakes if the pilot fails to do so.",
+    "pageNumbers": [
+      76
+    ],
+    "examUse": "Statement-based question on the functional capabilities of KAVACH.",
+    "distractorHooks": [
+      "Only provides audio-visual warnings without intervening in braking",
+      "Completely replaces the loco pilot for autonomous driving"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-039-industrial-sensors-and-safety-systems-section-003-kavach-automatic-train-protection-system",
+    "claimType": "Technological Feature",
+    "claimText": "KAVACH utilizes Radio Frequency Identification (RFID) tags placed along the track to track train positions.",
+    "evidenceExcerpt": "Radio Frequency Identification (RFID) tags are placed throughout the entire track length to enable the Kavach to track train positions",
+    "pageNumbers": [
+      76
+    ],
+    "examUse": "Statement-based question on the underlying technology of KAVACH.",
+    "distractorHooks": [
+      "Relies exclusively on GPS satellite tracking",
+      "Uses optical cameras for track monitoring"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-039-industrial-sensors-and-safety-systems-section-003-kavach-automatic-train-protection-system",
+    "claimType": "Operational Capability",
+    "claimText": "The KAVACH system can operate smoothly in extreme weather conditions such as fog.",
+    "evidenceExcerpt": "Operates smoothly in extreme weather conditions like fog.",
+    "pageNumbers": [
+      76
+    ],
+    "examUse": "Statement-based question on the operational limitations and capabilities of KAVACH.",
+    "distractorHooks": [
+      "System becomes non-functional during heavy fog or low visibility",
+      "Requires clear line-of-sight to operate effectively"
+    ]
+  }
+]

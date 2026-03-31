@@ -1,0 +1,69 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-024-vaccine-technologies-and-cancer-vaccines-section-003-adfalcivax-vaccine-and-malaria",
+    "claimType": "Factual",
+    "claimText": "AdFalciVax is India's first indigenous multi-stage malaria vaccine.",
+    "evidenceExcerpt": "AdFalciVax is India's first indigenous multi-stage malaria vaccine.",
+    "pageNumbers": [
+      48,
+      49
+    ],
+    "examUse": "Statement-based question on indigenous vaccines in India.",
+    "distractorHooks": [
+      "It is a dengue vaccine",
+      "It is an imported vaccine",
+      "It is a single-stage vaccine"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-024-vaccine-technologies-and-cancer-vaccines-section-003-adfalcivax-vaccine-and-malaria",
+    "claimType": "Conceptual",
+    "claimText": "AdFalciVax targets the Pre-erythrocytic (liver) stage and the Transmission (sexual) stage of the Plasmodium falciparum parasite.",
+    "evidenceExcerpt": "It targets two critical stages of Plasmodium falciparum: the Pre-erythrocytic (liver) stage and the Transmission (sexual) stage.",
+    "pageNumbers": [
+      48,
+      49
+    ],
+    "examUse": "Statement-based question on the mechanism of action of the AdFalciVax vaccine.",
+    "distractorHooks": [
+      "Targets the erythrocytic (blood) stage only",
+      "Targets the mosquito vector directly"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-024-vaccine-technologies-and-cancer-vaccines-section-003-adfalcivax-vaccine-and-malaria",
+    "claimType": "Conceptual",
+    "claimText": "A recombinant chimeric vaccine combines antigens from different stages of a parasite's life cycle into a single immunogen.",
+    "evidenceExcerpt": "It is a Recombinant Chimeric Vaccine, combining antigens from different life cycle stages into a single immunogen.",
+    "pageNumbers": [
+      48,
+      49
+    ],
+    "examUse": "Definition or concept matching question on vaccine technologies.",
+    "distractorHooks": [
+      "Combines live and dead parasites",
+      "Uses mRNA to target a single antigen",
+      "Combines antibodies from different animals"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-024-vaccine-technologies-and-cancer-vaccines-section-003-adfalcivax-vaccine-and-malaria",
+    "claimType": "Factual",
+    "claimText": "Malaria is caused by Plasmodium parasites, with five species affecting humans, and spreads through infected female Anopheles mosquitoes.",
+    "evidenceExcerpt": "Malaria is caused by Plasmodium parasites and spreads through infected female Anopheles mosquitoes. Five Plasmodium species cause malaria in humans, including P. falciparum and P. vivax.",
+    "pageNumbers": [
+      48,
+      49
+    ],
+    "examUse": "Basic science statement-based question on disease vectors and pathogens.",
+    "distractorHooks": [
+      "Caused by a virus",
+      "Spreads through male Anopheles mosquitoes",
+      "Spreads through Aedes mosquitoes"
+    ]
+  }
+]

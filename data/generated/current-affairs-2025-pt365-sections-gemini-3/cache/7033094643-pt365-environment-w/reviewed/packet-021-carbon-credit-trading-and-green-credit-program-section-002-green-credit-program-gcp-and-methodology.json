@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "Which one of the following statements best reflects the valuation mechanism of a 'Green Credit' under the revised tree plantation methodology of the Green Credit Program?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It is equivalent to one metric ton of carbon dioxide sequestered by the restored forest land."
+        },
+        {
+          "id": "B",
+          "text": "It is equivalent to one new tree that is over five years old on degraded forest land."
+        },
+        {
+          "id": "C",
+          "text": "It is equivalent to one hectare of degraded land restored to a minimum of 10% canopy density."
+        },
+        {
+          "id": "D",
+          "text": "It is equivalent to the financial cost incurred in planting one hundred saplings under the Mission LiFE initiative."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Unlike traditional carbon credits which are measured in tons of CO2 equivalent, the revised methodology of the Green Credit Program explicitly defines 1 Green Credit as equal to 1 new tree (over 5 years old) on degraded forest land with a minimum 40% canopy density.",
+      "takeaway": "The GCP introduces a unique valuation metric for tree plantation where the unit of credit is based on the survival of individual trees (1 credit = 1 tree over 5 years old), rather than the volume of greenhouse gases sequestered.",
+      "evidenceExcerpt": "Under the revised methodology for tree plantation, 1 Green Credit equals 1 new tree (over 5 years old) on degraded forest land with a minimum 40% canopy density.",
+      "qualityScore": 88,
+      "reviewNotes": "Strong conceptual question. The distractors are highly plausible, especially Option A, which traps candidates who confuse Green Credits with traditional Carbon Credits."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Green Credit Program (GCP):\n1. It is a market-based mechanism established under the Environment (Protection) Act, 1986.\n2. The Indian Council of Forestry Research and Education (ICFRE) is the administering body for the program.\n3. The green credits generated from tree plantation under the revised methodology are freely tradable on domestic carbon exchanges.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The Green Credit Program is an innovative market-based mechanism established under the Environment (Protection) Act, 1986.\nStatement 2 is correct: The Indian Council of Forestry Research and Education (ICFRE) is the administering body.\nStatement 3 is incorrect: Under the revised methodology for tree plantation, the specific green credits generated are non-tradable and non-transferable.",
+      "takeaway": "The GCP is a statutory mechanism under the EPA, 1986, administered by ICFRE. While it is a market-based mechanism, specific credits generated from tree plantation under the revised methodology are non-tradable and non-transferable.",
+      "evidenceExcerpt": "The Green Credit Program is an innovative market-based mechanism established under the Environment (Protection) Act, 1986... Administered by the Indian Council of Forestry Research and Education (ICFRE)... These specific credits are non-tradable and non-transferable.",
+      "qualityScore": 85,
+      "reviewNotes": "Excellent question that tests the statutory backing, administering body, and a highly counter-intuitive nuance (non-tradability of specific credits) of the GCP."
+    }
+  ],
+  "reviewerNotes": "The candidate questions were well-drafted. I refined the wording to better match UPSC standards, converted Candidate 2 into a 'How many statements are correct' format, and ensured the distractors in Candidate 3 remained highly plausible."
+}

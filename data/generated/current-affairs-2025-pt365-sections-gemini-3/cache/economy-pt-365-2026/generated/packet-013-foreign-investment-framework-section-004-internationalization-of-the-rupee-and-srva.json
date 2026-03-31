@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Special Rupee Vostro Account (SRVA) mechanism:\n1. It enables exporters and importers to invoice and settle international trade in Indian Rupees.\n2. A Vostro account refers to an account held by a domestic bank in a foreign country, denominated in the foreign currency.\n3. The Reserve Bank of India has removed the requirement for banks to seek its prior approval before opening an SRVA.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The SRVA mechanism allows exporters and importers to invoice and settle international trade in Indian Rupees. Statement 2 is incorrect: A Vostro account is defined as a foreign bank's account held in a domestic bank denominated in the local currency (an account held by a domestic bank in a foreign bank in foreign currency is a Nostro account). Statement 3 is correct: The RBI has removed the prior approval requirement for banks to open SRVAs to speed up rupee-based trade settlements.",
+      "takeaway": "The SRVA mechanism is a key step toward the internationalization of the Rupee, allowing trade settlement in INR. A Vostro account is a foreign bank's account held with a domestic bank in the domestic currency.",
+      "evidenceExcerpt": "The RBI has removed prior approval requirements for banks to open Special Rupee Vostro Accounts (SRVAs) to speed up rupee-based trade settlements and support the internationalization of the Indian Rupee. The SRVA mechanism... enables exporters and importers to invoice and settle trade in Indian Rupees. A Vostro Account refers to a foreign bank's account held in a domestic bank in the local currency."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "Which one of the following best describes the nature of a 'Vostro Account' in the context of cross-border trade settlements?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "An account maintained by a domestic bank with a foreign bank, denominated in the foreign currency."
+        },
+        {
+          "id": "B",
+          "text": "An account held by a foreign bank with a domestic bank, denominated in the domestic currency."
+        },
+        {
+          "id": "C",
+          "text": "A specialized account opened by an exporter with the central bank to receive foreign exchange earnings."
+        },
+        {
+          "id": "D",
+          "text": "An escrow account used by foreign portfolio investors to park funds before investing in domestic equities."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Vostro Account refers to a foreign bank's account held in a domestic bank in the local currency. For example, a Russian bank holding an account with an Indian bank in Indian Rupees is a Vostro account for the Indian bank. Option A describes a Nostro account.",
+      "takeaway": "In international banking, 'Vostro' (yours) refers to a foreign bank's account with a domestic bank in local currency, while 'Nostro' (ours) refers to a domestic bank's account with a foreign bank in foreign currency.",
+      "evidenceExcerpt": "A Vostro Account refers to a foreign bank's account held in a domestic bank in the local currency."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Implication",
+      "prompt": "Which of the following is the primary operational outcome intended by the introduction of the Special Rupee Vostro Account (SRVA) mechanism?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It mandates the conversion of all foreign portfolio investments into rupee-denominated sovereign bonds."
+        },
+        {
+          "id": "B",
+          "text": "It enables domestic and foreign traders to invoice and settle their cross-border transactions directly in Indian Rupees."
+        },
+        {
+          "id": "C",
+          "text": "It requires Indian domestic banks to maintain foreign currency accounts overseas to hedge against exchange rate volatility."
+        },
+        {
+          "id": "D",
+          "text": "It restricts the repatriation of export earnings to ensure adequate foreign exchange reserves within India."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The SRVA mechanism, introduced in July 2022, was specifically designed to enable exporters and importers to invoice and settle international trade in Indian Rupees. This shifts the settlement currency away from traditional freely convertible currencies like the US Dollar.",
+      "takeaway": "The SRVA framework fundamentally alters trade settlement mechanics by allowing the invoicing and payment of international trade dues in Indian Rupees through correspondent banking channels.",
+      "evidenceExcerpt": "The SRVA mechanism, introduced in July 2022, enables exporters and importers to invoice and settle trade in Indian Rupees."
+    }
+  ]
+}

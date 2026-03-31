@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to 'Bluetooth Low Energy Mesh Networking', consider the following statements:\n1. It employs a multi-hop topology that enables many-to-many communication among devices.\n2. It relies on a central database to temporarily store and route messages between nodes.\n3. The failure of a single device in the network disrupts the communication flow for all other connected devices.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: A mesh network, also known as a 'multi-hop network', allows data to travel from any device to all others, achieving many-to-many communication.\nStatement 2 is incorrect: It operates without a central database. Messages are stored entirely on users' devices and are deleted after a short period to prioritize privacy.\nStatement 3 is incorrect: The network is highly resilient. Even if one device fails, the network keeps working because messages are broadcast and relayed by other nodes until they reach their destination.",
+      "takeaway": "Bluetooth Mesh Networking is a decentralized topology where nodes relay messages for each other, eliminating the need for a central routing database and preventing a single point of failure.",
+      "evidenceExcerpt": "Mesh network, also known as ‘multi-hop network’, is a networking topology. In it, data can travel from any device to all others, achieving many-to-many communication. Even if one device fails, the network keeps working... No central database: Messages are stored entirely on users’ devices.",
+      "qualityScore": 88,
+      "reviewNotes": "Upgraded the 2-statement candidate into a 3-statement 'How many' format to align with recent UPSC trends. The distractors effectively test the core concepts of decentralization and resilience in mesh networks."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Bitchat', a communication platform based on Bluetooth Low Energy Mesh Networking:\n1. It requires users to link their mobile numbers to establish an end-to-end encrypted connection.\n2. Messages are stored entirely on the users' devices and are automatically deleted after a short period.\n3. It allows messages to be broadcast and relayed by nodes until they reach the intended destination without leaving the network.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Bitchat requires no registration. Users are not required to create accounts using their email or phone number, making the communication anonymous.\nStatement 2 is correct: There is no central database. Messages are stored entirely on users' devices and are deleted after a short period to prioritize privacy.\nStatement 3 is correct: Messages are broadcast and relayed by nodes until they reach the intended destination. They are end-to-end encrypted and do not leave the network.",
+      "takeaway": "Platforms utilizing Bluetooth Mesh Networking, like Bitchat, prioritize privacy by avoiding central databases, storing data locally, and enabling anonymous, registration-free communication.",
+      "evidenceExcerpt": "Messages are broadcast and relayed by nodes until they reach the intended destination... No central database: Messages are stored entirely on users’ devices and are deleted after a short period... Messages are end-to-end encrypted and do not leave the network. No registration required: Users are not required to create accounts using their email or phone number.",
+      "qualityScore": 85,
+      "reviewNotes": "Rewrote the candidate to focus specifically on the application (Bitchat) mentioned in the source text. The statements test practical implications of mesh networking such as anonymity, local storage, and node-based relaying."
+    }
+  ],
+  "reviewerNotes": "Both candidates were salvageable but required structural upgrades to match the UPSC 'How many statements are correct?' format. The first question focuses on the underlying technology (Bluetooth Mesh Networking), while the second focuses on its application (Bitchat), ensuring good coverage of the source text without redundancy."
+}

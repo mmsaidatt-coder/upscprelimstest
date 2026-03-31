@@ -1,0 +1,96 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-001-un80-initiative-and-un-core-organs-section-002-united-nations-un-core-structure-and-agencies",
+    "claimType": "Factual",
+    "claimText": "The United Nations was established in 1945 with its Charter signed in San Francisco.",
+    "evidenceExcerpt": "Established in 1945 with the UN Charter signed in San Francisco; HQ is in New York.",
+    "pageNumbers": [
+      5
+    ],
+    "examUse": "Statement-based question on the founding of the UN.",
+    "distractorHooks": [
+      "Charter signed in New York",
+      "Charter signed in Geneva",
+      "Established in 1946"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-001-un80-initiative-and-un-core-organs-section-002-united-nations-un-core-structure-and-agencies",
+    "claimType": "Factual",
+    "claimText": "India is a founding member of the United Nations.",
+    "evidenceExcerpt": "Membership stands at 193 countries; India is a founding member.",
+    "pageNumbers": [
+      5
+    ],
+    "examUse": "Statement-based question on India's association with the UN.",
+    "distractorHooks": [
+      "India joined the UN in 1947 after independence",
+      "India is not a founding member"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-001-un80-initiative-and-un-core-organs-section-002-united-nations-un-core-structure-and-agencies",
+    "claimType": "Procedural",
+    "claimText": "States are admitted to UN membership by a decision of the General Assembly upon the recommendation of the Security Council.",
+    "evidenceExcerpt": "States are admitted to membership by a decision of the General Assembly upon the recommendation of the Security Council.",
+    "pageNumbers": [
+      5
+    ],
+    "examUse": "Statement-based question on the admission process for new UN members.",
+    "distractorHooks": [
+      "Admission is decided solely by the UNGA",
+      "Admission is decided by the UNSC upon UNGA recommendation",
+      "Admission requires a unanimous vote in the UNGA"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-001-un80-initiative-and-un-core-organs-section-002-united-nations-un-core-structure-and-agencies",
+    "claimType": "Factual",
+    "claimText": "The Trusteeship Council, one of the six main organs of the UN, has been inactive since 1994.",
+    "evidenceExcerpt": "Six main organs: UNGA, UNSC (15 members), ECOSOC (54 members), ICJ (The Hague), Trusteeship Council (inactive since 1994), and Secretariat.",
+    "pageNumbers": [
+      5
+    ],
+    "examUse": "Statement-based question identifying active versus inactive UN organs.",
+    "distractorHooks": [
+      "Trusteeship Council is currently active",
+      "Trusteeship Council was permanently abolished in 1994",
+      "ECOSOC is the inactive organ"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-001-un80-initiative-and-un-core-organs-section-002-united-nations-un-core-structure-and-agencies",
+    "claimType": "Factual",
+    "claimText": "The International Court of Justice (ICJ) is one of the six main organs of the UN and is headquartered in The Hague.",
+    "evidenceExcerpt": "Six main organs: UNGA, UNSC (15 members), ECOSOC (54 members), ICJ (The Hague), Trusteeship Council (inactive since 1994), and Secretariat.",
+    "pageNumbers": [
+      5
+    ],
+    "examUse": "Correct-pair question matching UN organs to their headquarters.",
+    "distractorHooks": [
+      "ICJ is headquartered in New York",
+      "ICJ is headquartered in Geneva",
+      "ICJ is a specialized agency, not a main organ"
+    ]
+  },
+  {
+    "id": "claim-006",
+    "sectionId": "packet-001-un80-initiative-and-un-core-organs-section-002-united-nations-un-core-structure-and-agencies",
+    "claimType": "Factual",
+    "claimText": "The UN Economic and Social Council (ECOSOC) consists of 54 members.",
+    "evidenceExcerpt": "Six main organs: UNGA, UNSC (15 members), ECOSOC (54 members)",
+    "pageNumbers": [
+      5
+    ],
+    "examUse": "Statement-based question on the composition of UN organs.",
+    "distractorHooks": [
+      "ECOSOC consists of 15 members",
+      "All 193 UN member states are part of ECOSOC"
+    ]
+  }
+]

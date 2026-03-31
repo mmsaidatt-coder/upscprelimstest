@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding FASTag and the technology it employs:\n\n1. It utilizes Radio Frequency Identification (RFID) technology, which relies on radio waves to communicate information.\n2. RFID is a long-range wireless communication technology that does not require proximity to a reader.\n3. FASTag was developed by the National Payments Corporation of India (NPCI) under the National Electronic Toll Collection (NETC) program.\n\nWhich of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: FASTag employs RFID technology, which consists of tags and readers and uses radio waves to communicate information.\nStatement 2 is incorrect: RFID is explicitly a short-range technology, requiring the tag (affixed on the vehicle) to be in close proximity to the nearby readers at toll plazas.\nStatement 3 is correct: FASTag was developed by the National Payments Corporation of India (NPCI) under the National Electronic Toll Collection (NETC) program.",
+      "takeaway": "FASTag relies on short-range Radio Frequency Identification (RFID) technology using radio waves, and its underlying framework was developed by the NPCI under the NETC program.",
+      "evidenceExcerpt": "FASTAG - A device that employs Radio Frequency Identification (RFID) technology... RFID consists of tags and readers and employs radio waves to communicate information of objects or people to nearby readers. - It is a short-range technology... Developed by: NPCI under National Electronic Toll Collection (NETC) program."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice",
+      "prompt": "Which of the following best describes the working mechanism of the FASTag system used for electronic toll collection in India?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It uses a short-range technology where a tag affixed to the vehicle communicates with nearby readers via radio waves while the vehicle is in motion."
+        },
+        {
+          "id": "B",
+          "text": "It employs a satellite-linked Global Positioning System (GPS) to track the vehicle's movement and deduct tolls based on the distance travelled."
+        },
+        {
+          "id": "C",
+          "text": "It relies on optical character recognition (OCR) cameras at toll plazas to read the vehicle's license plate and deduct the toll from a linked bank account."
+        },
+        {
+          "id": "D",
+          "text": "It utilizes infrared sensors to detect the physical presence of the vehicle and trigger a payment gateway through a mobile application."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "FASTag is a device that employs Radio Frequency Identification (RFID) technology. RFID consists of tags and readers and uses radio waves for short-range communication to make toll payments directly from a linked account while the vehicle is in motion.",
+      "takeaway": "FASTag relies on short-range RFID technology (radio waves) rather than GPS, OCR, or infrared systems, allowing vehicles to pay tolls without stopping.",
+      "evidenceExcerpt": "FASTAG - A device that employs Radio Frequency Identification (RFID) technology for making toll payments directly from account while the vehicle is in motion. - RFID consists of tags and readers and employs radio waves to communicate information of objects or people to nearby readers. - It is a short-range technology."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the FASTag system:\n\n1. It was developed by the National Highways Authority of India (NHAI) under the National Electronic Toll Collection (NETC) program.\n2. The system requires the vehicle to come to a complete halt at the toll plaza to establish a connection with the reader.\n3. The FASTag device is affixed to the vehicle's windscreen to enable direct toll payments from a linked account.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect: FASTag was developed by the National Payments Corporation of India (NPCI), not NHAI. Statement 2 is incorrect: FASTag allows for toll payments to be made while the vehicle is in motion; it does not require a complete halt. Statement 3 is correct: The device is affixed on the windscreen and enables direct payments from a linked account.",
+      "takeaway": "FASTag was developed by NPCI under the NETC program and allows for seamless toll payments while the vehicle is in motion by using a windscreen-mounted RFID tag.",
+      "evidenceExcerpt": "FASTAG - A device that employs Radio Frequency Identification (RFID) technology for making toll payments directly from account while the vehicle is in motion... Affixed on the windscreen of the vehicle and enables a customer to make the toll payments directly from the account which is linked to FASTag. - Developed by: NPCI under National Electronic Toll Collection (NETC) program."
+    }
+  ]
+}

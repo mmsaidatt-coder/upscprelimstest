@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Operation Olivia': 1. It is an annual turtle conservation initiative conducted by the Ministry of Environment, Forest and Climate Change. 2. Its operational focus includes the Gahirmatha beach and the Devi river mouth. 3. The operation is carried out every year from November to May. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Operation Olivia was initiated in the 1980s and is conducted by the Indian Coast Guard, not the Ministry of Environment, Forest and Climate Change. Statement 2 is correct: The operation focuses on key turtle nesting sites in Odisha, including Gahirmatha Beach, Rushikulya River Mouth, and Devi River Mouth. Statement 3 is correct: The operation is conducted annually from November to May to protect nesting turtles.",
+      "takeaway": "Operation Olivia is an Indian Coast Guard initiative (Nov-May) focusing on protecting turtles at Odisha's key nesting sites: Gahirmatha, Rushikulya, and Devi river mouths.",
+      "evidenceExcerpt": "Initiated in 1980s by Indian Coast Guard, conducted every year from November to May. Focuses on Gahirmatha Beach, Rushikulya River Mouth, and Devi River Mouth."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "multiple-choice",
+      "prompt": "Consider the following coastal locations:\n1. Gahirmatha Beach\n2. Rushikulya River Mouth\n3. Devi River Mouth\n4. Godavari River Mouth\n\nHow many of the above are the primary focus areas of 'Operation Olivia' for turtle conservation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Operation Olivia is an Indian Coast Guard initiative for turtle conservation in Odisha. Its operational focus is specifically on Gahirmatha Beach, the Rushikulya River Mouth, and the Devi River Mouth. The Godavari River Mouth is not listed as a focus area for this specific operation.",
+      "takeaway": "Operation Olivia geographically targets key nesting sites in Odisha, namely Gahirmatha, Rushikulya, and Devi river mouths.",
+      "evidenceExcerpt": "Focuses on Gahirmatha Beach, Rushikulya River Mouth, and Devi River Mouth.",
+      "contextLines": []
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "multiple-choice",
+      "prompt": "Which of the following best describes the operational mandate of 'Operation Olivia'?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is a biennial exercise conducted by the Indian Navy to protect marine biodiversity along the eastern seaboard."
+        },
+        {
+          "id": "B",
+          "text": "It is an annual initiative by the Indian Coast Guard focused on turtle conservation during the November to May period."
+        },
+        {
+          "id": "C",
+          "text": "It is a joint conservation program between the Ministry of Environment, Forest and Climate Change and the Odisha State Government."
+        },
+        {
+          "id": "D",
+          "text": "It is a global maritime operation led by the United Nations Environment Programme for protecting nesting beaches."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Operation Olivia was initiated in the 1980s by the Indian Coast Guard. It is an annual initiative conducted every year from November to May, specifically aimed at turtle conservation in Odisha.",
+      "takeaway": "The Indian Coast Guard (not the Indian Navy or MoEFCC) leads Operation Olivia, timing it annually from November to May to align with the turtle nesting season.",
+      "evidenceExcerpt": "Indian Coast Guard initiative for turtle conservation in Odisha... Initiated in 1980s by Indian Coast Guard, conducted every year from November to May.",
+      "contextLines": []
+    }
+  ]
+}

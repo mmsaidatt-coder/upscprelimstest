@@ -1,0 +1,178 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to India's first fully indigenous commercial Earth Observation Satellite System (EOSS), consider the following statements:\n1. It is being developed under a model where the government designs and builds the satellites, while the private sector operates them.\n2. The project was awarded to a consortium led by PixxelSpace India.\n3. The satellite constellation will be equipped with both hyperspectral and microwave Synthetic Aperture Radar (SAR) sensors.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Under the EO-PPP model, the private sector is responsible for designing, building, and operating the satellites, while the government provides strategic and technical support. Statement 2 is correct: The IN-SPACe proposal was won by the PixxelSpace India-led Consortium. Statement 3 is correct: The constellation of 12 EO satellites will feature panchromatic, multispectral, hyperspectral, and microwave SAR sensors.",
+      "takeaway": "The EO-PPP model shifts the heavy lifting of design, manufacturing, and operations to the private sector, allowing the government to focus on strategic support. The resulting EOSS will feature advanced payloads including hyperspectral and SAR sensors.",
+      "evidenceExcerpt": "PixxelSpace India-led Consortium won the IN-SPACe proposal to build India's first fully indigenous commercial Earth Observation Satellite System (EOSS) under the EO-PPP model. The constellation of 12 EO satellites will feature panchromatic, multispectral, hyperspectral, and microwave SAR sensors. EO-PPP model: Private sector designs, builds, operates; government provides strategic/technical support."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of recent space missions or initiatives and their associated private entities:\n1. LEAP-1 mission : Dhruva Space\n2. Firefly satellites : Pixxel\n3. Commercial EOSS construction : PixxelSpace India Consortium\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "All three pairs are correctly matched. Dhruva Space's LEAP-1 mission and Pixxel's Firefly satellites were launched aboard the SpaceX NAOS Falcon 9 mission. The PixxelSpace India Consortium (which includes Piersight Space, Satsure Analytics, and Dhruva Space) won the IN-SPACe proposal to build the commercial EOSS.",
+      "takeaway": "Indian private space startups are actively launching missions (like LEAP-1 and Firefly) and collaborating in consortiums to build large-scale indigenous infrastructure like the commercial EOSS.",
+      "evidenceExcerpt": "Pixxel successfully launched three new Firefly satellites aboard the SpaceX NAOS Falcon 9 mission. PixxelSpace India-led Consortium won the IN-SPACe proposal to build India's first fully indigenous commercial Earth Observation Satellite System (EOSS)... Dhruva Space's LEAP-1 mission launched aboard SpaceX NAOS Falcon 9."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "Which of the following best describes the Earth Observation Public-Private Partnership (EO-PPP) model as recently implemented for India's commercial Earth Observation Satellite System (EOSS)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The private sector provides the launch vehicles, while the government designs, builds, and operates the satellite constellation."
+        },
+        {
+          "id": "B",
+          "text": "The government funds the entire project, while the private sector is solely responsible for data processing and distribution."
+        },
+        {
+          "id": "C",
+          "text": "The private sector designs, builds, and operates the satellites, while the government provides strategic and technical support."
+        },
+        {
+          "id": "D",
+          "text": "Foreign space agencies design the payloads, while Indian private startups manufacture the satellite buses."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Under the EO-PPP model, the private sector takes the lead in designing, building, and operating the Earth Observation satellites. The government's role is to provide strategic and technical support rather than handling the manufacturing or operations directly.",
+      "takeaway": "The EO-PPP model is a significant step in privatizing India's space sector, shifting the operational and manufacturing burden from ISRO/government to private consortiums.",
+      "evidenceExcerpt": "EO-PPP model: Private sector designs, builds, operates; government provides strategic/technical support."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Multiple-Statement",
+      "prompt": "Earth Observation (EO) satellites collect critical data for various sectors. Based on recent commercial space initiatives, consider the following applications:\n1. Crop yield estimation\n2. Mineralogy mapping\n3. Spatial planning\n4. Deep space planetary exploration\n\nHow many of the above are primary applications of Earth Observation satellites?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Earth Observation (EO) satellites collect information for applications in Earth sciences, disaster management, agriculture (such as crop estimation), spatial planning, mineralogy mapping, and oceanography. Deep space planetary exploration is conducted by specialized interplanetary probes and space telescopes, not Earth Observation satellites.",
+      "takeaway": "EO satellites are strictly inward-looking towards Earth, focusing on terrestrial, oceanic, and atmospheric applications rather than deep space.",
+      "evidenceExcerpt": "EO satellites collect information on physical, chemical, biological, and human systems for applications in Earth sciences, disaster management, agriculture, and spatial planning... EO satellite applications include disaster management, crop estimation, mineralogy mapping, and oceanography."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-Statement",
+      "prompt": "With reference to the data collection capabilities of modern Earth Observation (EO) satellites, consider the following domains:\n1. Physical systems\n2. Chemical systems\n3. Biological systems\n4. Human systems\n\nHow many of the above domains are actively monitored and analyzed using information collected by EO satellites?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Modern Earth Observation satellites are equipped with advanced sensors (such as panchromatic, multispectral, hyperspectral, and microwave SAR) that allow them to collect comprehensive data across physical, chemical, biological, and human systems. This data supports diverse applications ranging from Earth sciences and disaster management to spatial planning.",
+      "takeaway": "The scope of Earth Observation extends beyond simple physical mapping to include chemical (e.g., mineralogy, atmospheric gases), biological (e.g., crop estimation, forestry), and human systems (e.g., spatial planning, urban development).",
+      "evidenceExcerpt": "EO satellites collect information on physical, chemical, biological, and human systems for applications in Earth sciences, disaster management, agriculture, and spatial planning."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-Statement",
+      "prompt": "Consider the following private space entities:\n1. Piersight Space\n2. Satsure Analytics\n3. Dhruva Space\n\nHow many of the above entities are part of the PixxelSpace India-led consortium that won the IN-SPACe proposal to build India's commercial Earth Observation Satellite System (EOSS)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The PixxelSpace India consortium, which won the IN-SPACe proposal for India's first commercial EOSS under the EO-PPP model, includes Piersight Space, Satsure Analytics, and Dhruva Space.",
+      "takeaway": "The development of India's indigenous commercial EOSS is a collaborative effort involving multiple domestic private space startups under the PixxelSpace India consortium.",
+      "evidenceExcerpt": "PixxelSpace India consortium (Piersight Space, Satsure Analytics, Dhruva Space) won IN-SPACe proposal for India's first commercial EOSS under PPP."
+    }
+  ]
+}

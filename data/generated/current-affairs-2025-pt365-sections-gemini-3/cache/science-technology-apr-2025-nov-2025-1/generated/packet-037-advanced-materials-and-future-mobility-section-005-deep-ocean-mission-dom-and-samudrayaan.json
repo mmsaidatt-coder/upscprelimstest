@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding India's deep-ocean exploration initiatives:\n1. The upcoming Samudrayaan Mission is slated to be launched by the National Institute of Oceanography (NIO).\n2. Indian aquanauts recently conducted a deep-ocean dive exceeding 5,000 meters in the Atlantic Ocean.\n3. Globally, only five nations have previously carried out successful deep-ocean crewed missions.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The Samudrayaan Mission is slated for launch by the National Institute of Ocean Technology (NIOT), not the National Institute of Oceanography (NIO).\nStatement 2 is correct: Indian aquanauts recently dived up to 5,002 meters in the Atlantic Ocean as a prelude to the Samudrayaan Mission.\nStatement 3 is correct: Only the U.S., Russia, China, France, and Japan have previously carried out successful deep-ocean crewed missions.",
+      "takeaway": "The Samudrayaan Mission is an NIOT initiative. India's recent 5,000m+ dive in the Atlantic Ocean places it on the path to join an exclusive group of five nations with deep-ocean crewed mission capabilities.",
+      "evidenceExcerpt": "The Samudrayaan Mission is slated for launch by late 2026 by the National Institute of Ocean Technology (NIOT). Recently, Indian aquanauts from NIOT dived over 5,000 meters in the Atlantic Ocean... Only the U.S., Russia, China, France, and Japan have previously carried out successful deep-ocean crewed missions."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the recent deep-ocean dive conducted by Indian aquanauts as a prelude to the Samudrayaan Mission, consider the following statements:\n1. The dive was executed aboard an indigenously developed Indian submersible to test its deep-sea pressure capabilities.\n2. The operation was carried out in collaboration with the French research institute IFREMER.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The recent dive was not conducted on an indigenous submersible; it was executed aboard the French submersible 'Nautile'.\nStatement 2 is correct: The dive was conducted in collaboration with France's IFREMER.",
+      "takeaway": "While India is developing its own capabilities for the Samudrayaan Mission, the recent 5,000-meter prelude dive was achieved using the French submersible Nautile in partnership with IFREMER.",
+      "evidenceExcerpt": "Recently, Indian aquanauts from NIOT dived over 5,000 meters in the Atlantic Ocean aboard the French submersible Nautile, in collaboration with IFREMER."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "multiple-choice",
+      "prompt": "With reference to global capabilities in deep-ocean crewed missions, consider the following countries:\n1. Japan\n2. Germany\n3. France\n4. United Kingdom\n5. China\n\nHow many of the above countries have successfully carried out deep-ocean crewed missions prior to India's upcoming Samudrayaan Mission?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only two"
+        },
+        {
+          "id": "B",
+          "text": "Only three"
+        },
+        {
+          "id": "C",
+          "text": "Only four"
+        },
+        {
+          "id": "D",
+          "text": "All five"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Currently, only five nations globally have successfully carried out deep-ocean crewed missions: the United States, Russia, China, France, and Japan. Germany and the United Kingdom are not part of this exclusive group. Therefore, only three of the listed countries (Japan, France, and China) are correct.",
+      "takeaway": "India's Samudrayaan Mission aims to place it within an elite group of nations (US, Russia, China, France, Japan) possessing deep-ocean crewed mission capabilities.",
+      "evidenceExcerpt": "Only the U.S., Russia, China, France, and Japan have previously carried out successful deep-ocean crewed missions."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "multiple-choice",
+      "prompt": "Consider the following pairs regarding India's deep-ocean exploration initiatives:\n\n1. Implementing agency for Samudrayaan Mission : National Institute of Ocean Technology (NIOT)\n2. Submersible utilized for the recent 5,000-meter Atlantic dive : Nautile\n3. Foreign research institute collaborating on the recent deep-sea dive : IFREMER\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "All three pairs are correctly matched. The Samudrayaan Mission is being implemented by the National Institute of Ocean Technology (NIOT). As a prelude to the mission, Indian aquanauts recently dived over 5,000 meters in the Atlantic Ocean aboard the French submersible Nautile, in collaboration with the French research institute IFREMER.",
+      "takeaway": "The NIOT is spearheading the Samudrayaan Mission, and India is actively collaborating with international partners like France's IFREMER (using the Nautile submersible) to build its deep-sea exploration capabilities.",
+      "evidenceExcerpt": "The Samudrayaan Mission is slated for launch by late 2026 by the National Institute of Ocean Technology (NIOT). Recently, Indian aquanauts from NIOT dived over 5,000 meters in the Atlantic Ocean aboard the French submersible Nautile, in collaboration with IFREMER."
+    }
+  ]
+}

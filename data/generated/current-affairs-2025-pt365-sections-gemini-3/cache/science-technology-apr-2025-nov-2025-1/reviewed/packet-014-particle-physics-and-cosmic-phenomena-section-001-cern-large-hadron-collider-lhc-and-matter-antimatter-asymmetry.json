@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Terminology",
+      "prompt": "The terms 'ATLAS', 'CMS', 'ALICE', and 'LHCb', sometimes mentioned in the news, refer to:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Earth observation satellites launched by the European Space Agency"
+        },
+        {
+          "id": "B",
+          "text": "Experimental collaborations at the Large Hadron Collider"
+        },
+        {
+          "id": "C",
+          "text": "Exoplanets recently discovered by the James Webb Space Telescope"
+        },
+        {
+          "id": "D",
+          "text": "Next-generation nuclear reactors being developed in India"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "ATLAS, CMS, ALICE, and LHCb are the four major experimental collaborations operating at CERN's Large Hadron Collider (LHC).",
+      "takeaway": "The Large Hadron Collider hosts several large-scale particle physics experiments, with ATLAS, CMS, ALICE, and LHCb being the primary collaborations.",
+      "evidenceExcerpt": "Four experimental collaborations at CERN's LHC include ATLAS, CMS, ALICE, and LHCb.",
+      "qualityScore": 85,
+      "reviewNotes": "Classic UPSC 'terms in the news' format. The distractors are plausible and belong to similar scientific domains."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "With reference to fundamental physics, consider the following statements:\n1. The observable universe consists almost entirely of matter, even though the Big Bang theoretically produced equal amounts of matter and antimatter.\n2. CP symmetry implies that the laws of physics remain unchanged if particles are swapped with their antiparticles and viewed in a mirror.\n3. The Large Hadron Collider accelerates high-energy particle beams to speeds faster than the speed of light to study matter-antimatter asymmetry.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Matter-Antimatter Asymmetry refers to the imbalance where the universe is mostly matter, despite the Big Bang producing equal amounts. Statement 2 is correct: CP symmetry dictates that physics laws are unchanged if particles are swapped with antiparticles and viewed in a mirror. Statement 3 is incorrect: The LHC accelerates particles close to the speed of light, not faster than it, as exceeding the speed of light violates the fundamental laws of physics.",
+      "takeaway": "Understanding CP violation is crucial to explaining why the universe is dominated by matter rather than antimatter, a key focus of experiments at the LHC.",
+      "evidenceExcerpt": "The LHC uses superconducting magnets to accelerate two high-energy particle beams close to the speed of light before collision. Matter-Antimatter Asymmetry refers to the observable universe consisting almost entirely of matter, despite the Big Bang producing equal amounts of both. CP symmetry implies physics laws remain unchanged if particles are swapped with antiparticles and viewed in a mirror.",
+      "qualityScore": 85,
+      "reviewNotes": "Strong conceptual question that tests fundamental physics principles and the operational limits of the LHC."
+    }
+  ],
+  "reviewerNotes": "Selected 4 distinct questions covering institutional facts, terminology, conceptual physics, and current affairs related to CERN and the LHC. The distractors were refined to ensure they are plausible and parallel, and the explanations tightly justify the correct answers."
+}

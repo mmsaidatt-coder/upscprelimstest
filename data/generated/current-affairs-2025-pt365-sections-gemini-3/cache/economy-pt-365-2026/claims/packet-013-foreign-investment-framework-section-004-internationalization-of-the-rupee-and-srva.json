@@ -1,0 +1,47 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-013-foreign-investment-framework-section-004-internationalization-of-the-rupee-and-srva",
+    "claimType": "Factual",
+    "claimText": "The RBI has removed the prior approval requirement for banks to open Special Rupee Vostro Accounts (SRVAs).",
+    "evidenceExcerpt": "RBI removed the prior approval requirement for banks to open Special Rupee Vostro Accounts (SRVAs).",
+    "pageNumbers": [
+      27
+    ],
+    "examUse": "Statement-based question on RBI regulations regarding SRVAs and rupee internationalization.",
+    "distractorHooks": [
+      "RBI requires prior approval from the Ministry of Finance to open SRVAs",
+      "RBI has introduced stricter prior approval requirements for SRVAs"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-013-foreign-investment-framework-section-004-internationalization-of-the-rupee-and-srva",
+    "claimType": "Conceptual",
+    "claimText": "The Special Rupee Vostro Account (SRVA) mechanism allows exporters and importers to invoice and settle international trade in Indian Rupees.",
+    "evidenceExcerpt": "The SRVA mechanism allows exporters and importers to invoice and settle international trade in Indian Rupees.",
+    "pageNumbers": [
+      27
+    ],
+    "examUse": "Statement-based question on the function and purpose of the SRVA mechanism.",
+    "distractorHooks": [
+      "SRVAs are used exclusively for settling trade in US Dollars",
+      "SRVAs are restricted to foreign portfolio investments and cannot be used for trade settlement"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-013-foreign-investment-framework-section-004-internationalization-of-the-rupee-and-srva",
+    "claimType": "Definition",
+    "claimText": "A Vostro Account is a foreign bank's account held in a domestic bank denominated in the local currency.",
+    "evidenceExcerpt": "A Vostro Account is defined as a foreign bank's account held in a domestic bank denominated in the local currency.",
+    "pageNumbers": [
+      27
+    ],
+    "examUse": "Correct-pair or definition-based question distinguishing Vostro, Nostro, and Loro accounts.",
+    "distractorHooks": [
+      "A domestic bank's account held in a foreign bank denominated in foreign currency",
+      "An account held by an individual Non-Resident Indian (NRI) in a domestic bank"
+    ]
+  }
+]

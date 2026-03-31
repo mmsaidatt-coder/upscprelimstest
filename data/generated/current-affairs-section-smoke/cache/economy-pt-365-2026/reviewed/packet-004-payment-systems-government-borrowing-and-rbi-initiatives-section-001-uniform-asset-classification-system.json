@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Uniform Asset Classification System in the context of consortium lending, which one of the following statements is correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The classification of a loan as a Non-Performing Asset (NPA) by any single lender in the consortium is binding on all other co-lenders."
+        },
+        {
+          "id": "B",
+          "text": "A uniform classification of an asset as an NPA requires the consensus of a majority of the lenders in the consortium."
+        },
+        {
+          "id": "C",
+          "text": "The lead bank of the consortium holds the sole authority to classify an asset, and its decision is binding on all other members."
+        },
+        {
+          "id": "D",
+          "text": "Each co-lender is permitted to classify the asset independently, provided any divergence in classification is reported to the RBI."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "The core principle of the Uniform Asset Classification System for consortium lending is to ensure consistency and prevent divergence in reporting stressed assets. According to this mandate, if even one lender in the consortium classifies a shared loan account as a Non-Performing Asset (NPA), all other co-lenders must adopt the same classification. This rule overrides independent assessment, majority decisions, or the exclusive authority of a lead bank in this specific matter.",
+      "takeaway": "The Uniform Asset Classification System enforces a \"one-for-all\" rule in consortium lending: if one lender flags a loan as an NPA, all co-lenders must follow suit. This ensures transparent and consistent recognition of credit risk across the banking system.",
+      "evidenceExcerpt": "The uniform asset classification system mandates that if one lender in a consortium tags a loan as a Non-performing Asset (NPA), all other co-lenders must also classify it as an NPA.",
+      "qualityScore": 85,
+      "reviewNotes": "The original candidate question was strong. I have rewritten it to enhance the formal tone and conciseness, making the distractors more plausible and parallel in structure. The question accurately tests the single, critical piece of information provided in the source text."
+    }
+  ],
+  "reviewerNotes": "Selected one of the two candidates. The chosen question was a direct, factual one that was well-supported by the very brief source text. The second candidate, which focused on the 'rationale', was rejected because the rationale was an inference and not explicitly stated in the provided text, violating the grounding rule. The selected question was rewritten for improved phrasing and stronger distractors, aligning it closely with UPSC standards."
+}

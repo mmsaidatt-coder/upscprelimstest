@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the formation of tropical cyclones, consider the following statements:\n1. They can originate over both warm ocean waters and heated coastal landmasses.\n2. A sea surface temperature greater than 26°C is a prerequisite for their formation.\n3. They develop at latitudes usually greater than 5° from the equator due to the necessity of the Coriolis force.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Tropical cyclones always form over oceans, not over landmasses. Statement 2 is correct: A sea surface temperature greater than 26°C is a strict prerequisite for their genesis. Statement 3 is correct: They develop at latitudes usually greater than 5° from the equator because the Coriolis force (which is zero at the equator) is necessary to create the cyclonic spin.",
+      "takeaway": "Tropical cyclones strictly require warm ocean waters (SST > 26°C) and the presence of the Coriolis force, which is why they rarely form within 5° of the equator and never initiate over land.",
+      "evidenceExcerpt": "Always form over oceans where sea surface temperature is greater than 26°C. Develop at latitudes usually greater than 5° from equator in the presence of Coriolis force.",
+      "qualityScore": 88,
+      "reviewNotes": "Rewrote the candidate question to include a third statement about the Coriolis force and latitude, elevating it to a standard UPSC 'How many statements' format."
+    }
+  ],
+  "reviewerNotes": "Selected two questions. The first was upgraded from a 2-statement to a 3-statement question using the modern UPSC 'How many statements' format, incorporating the Coriolis force concept. The second is a clean, standard pair-matching question on regional cyclone terminology."
+}

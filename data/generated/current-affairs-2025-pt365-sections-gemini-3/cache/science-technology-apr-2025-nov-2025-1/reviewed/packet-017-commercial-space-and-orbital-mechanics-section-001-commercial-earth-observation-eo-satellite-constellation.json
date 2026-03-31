@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Multiple-Statement",
+      "prompt": "Consider the following applications:\n1. Crop yield estimation\n2. Mineralogy mapping\n3. Spatial planning\n4. Deep space planetary exploration\n\nHow many of the above are primary applications of Earth Observation (EO) satellites?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Earth Observation (EO) satellites collect information for applications in Earth sciences, disaster management, agriculture (such as crop estimation), spatial planning, mineralogy mapping, and oceanography. Therefore, applications 1, 2, and 3 are correct. Deep space planetary exploration (application 4) is conducted by specialized interplanetary probes and space telescopes, not Earth Observation satellites.",
+      "takeaway": "EO satellites are strictly inward-looking towards Earth, focusing on terrestrial, oceanic, and atmospheric applications rather than deep space.",
+      "evidenceExcerpt": "EO satellites collect information on physical, chemical, biological, and human systems for applications in Earth sciences, disaster management, agriculture, and spatial planning... EO satellite applications include disaster management, crop estimation, mineralogy mapping, and oceanography.",
+      "qualityScore": 85,
+      "reviewNotes": "A classic UPSC-style application question. The distractor (deep space exploration) is logical but conceptually distinct from Earth Observation."
+    }
+  ],
+  "reviewerNotes": "Selected three distinct questions covering the EO-PPP policy, private space missions, and the applications of EO satellites. Rewrote the prompts to align perfectly with the latest UPSC Prelims format ('How many of the above...'). Rejected the overly vague question on 'human systems' and the overly trivial question on consortium members."
+}

@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Quantum Information Scrambling': 1. It refers to the rapid spread of information across a quantum system through entanglement. 2. It permanently erases the original quantum state, making it unrecoverable globally. 3. It renders the information inaccessible to local measurements. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Quantum information scrambling involves the rapid distribution of data across a quantum system via entanglement. Statement 2 is incorrect: Information is not erased during scrambling; rather, it is hidden globally across the system. Statement 3 is correct: Because the information is distributed globally, it becomes inaccessible to local measurements.",
+      "takeaway": "Quantum information scrambling hides data globally across a system via entanglement, making it inaccessible to local measurements without actually erasing it.",
+      "evidenceExcerpt": "Quantum information scrambling refers to the rapid spread of information across a quantum system via entanglement, making it inaccessible to local measurements but hiding it globally rather than erasing it.",
+      "qualityScore": 88,
+      "reviewNotes": "Good conceptual question testing the core mechanism of quantum scrambling. Updated to the latest 'How many statements' format to match current UPSC trends."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Multiple Choice",
+      "prompt": "The terms 'Willow' and 'Quantum Echoes', recently seen in the news, are most appropriately related to which of the following?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Processors and algorithms used to demonstrate information retention in quantum computing"
+        },
+        {
+          "id": "B",
+          "text": "Next-generation classical supercomputers developed to simulate complex neural networks"
+        },
+        {
+          "id": "C",
+          "text": "Space-based observatories launched to detect primordial gravitational waves"
+        },
+        {
+          "id": "D",
+          "text": "Deep-sea submersibles designed to map the ocean floor using acoustic signals"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "'Willow' is a quantum processor developed by Google that achieved a massive speed-up over classical supercomputers. It was used to detect the 'Quantum Echoes' algorithm, which proves that quantum information is retained (scrambled) rather than permanently erased.",
+      "takeaway": "Google's Willow processor and the Quantum Echoes algorithm are significant milestones in quantum computing, specifically regarding the study of quantum information scrambling and retention.",
+      "evidenceExcerpt": "Google's quantum processor Willow achieved a ~13,000x speed-up over classical supercomputers, detecting the Quantum Echoes algorithm to prove information retention.",
+      "qualityScore": 85,
+      "reviewNotes": "Classic UPSC 'terms in news' question. Distractors are plausible and parallel, making it a solid test of current affairs in science and technology."
+    }
+  ],
+  "reviewerNotes": "Selected two strong questions. The first tests the conceptual understanding of quantum information scrambling using the modern 'How many statements' format. The second is a classic 'terms in news' question that tests factual knowledge of recent developments in quantum computing. Both questions are well-grounded in the source text and feature plausible distractors."
+}

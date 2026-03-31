@@ -1,0 +1,111 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice",
+      "prompt": "With reference to the Reserve Bank - Integrated Ombudsman Scheme (RB-IOS), consider the following statements:\n1. The scheme's jurisdiction extends to all Non-Banking Financial Companies (NBFCs) and Urban Co-operative Banks, regardless of their asset or deposit size.\n2. It follows a 'One Nation One Ombudsman' principle, establishing a jurisdiction-neutral mechanism for grievance redressal.\n3. The Ombudsman is empowered to award compensation of up to ₹20 lakh, with an additional provision of up to ₹1 lakh for the complainant's mental anguish.\nHow many of the statements given above are correct?",
+      "contextLines": [
+        "o All Commercial Banks, Regional Rural Banks, Scheduled Primary (Urban) Co-operative Banks, and Non-Scheduled Primary (Urban) Co-operative Banks with deposits size of ₹50 crore.",
+        "o All Non-Banking Financial Companies (excluding Housing Finance Companies) which are authorised to accept deposits or have customer interface, with an assets size of ₹100 crore.",
+        "o It adopted the ‘One Nation One Ombudsman’ approach by making the RBI Ombudsman mechanism jurisdiction neutral.",
+        "o Power: The Ombudsman can award up to ₹20 lakh in compensation, plus up to ₹1 lakh for the complainant’s time, expenses, and any mental distress or harassment."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect. The scheme does not cover all NBFCs and UCBs irrespective of size. It applies to Non-Scheduled Primary (Urban) Co-operative Banks with a deposit size of ₹50 crore and above, and NBFCs with an asset size of ₹100 crore and above.\nStatement 2 is correct. The scheme is explicitly based on the ‘One Nation One Ombudsman’ approach, making the grievance redressal mechanism jurisdiction neutral.\nStatement 3 is correct. The Ombudsman has the power to award up to ₹20 lakh as compensation and an additional amount of up to ₹1 lakh to cover the complainant's time, expenses, mental distress, and harassment.",
+      "takeaway": "The RB-IOS is a significant step towards simplifying grievance redressal in the financial sector, but it's crucial to note the specific eligibility thresholds for institutions like NBFCs and Co-operative Banks, as well as the compensation limits.",
+      "evidenceExcerpt": "o All Non-Banking Financial Companies... with an assets size of ₹100 crore.\no ...Non-Scheduled Primary (Urban) Co-operative Banks with deposits size of ₹50 crore.\no It adopted the ‘One Nation One Ombudsman’ approach by making the RBI Ombudsman mechanism jurisdiction neutral.\no Power: The Ombudsman can award up to ₹20 lakh in compensation, plus up to ₹1 lakh for the complainant’s time, expenses, and any mental distress or harassment.",
+      "qualityScore": 85,
+      "reviewNotes": "This is a well-structured question that tests specific details of the scheme. The use of 'regardless of their asset or deposit size' in statement 1 is a classic UPSC-style trap. The other statements are factually correct and test core features. The prompt and statements have been rephrased for clarity and formal tone."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice",
+      "prompt": "Consider the following statements regarding the liquidity management tools of the Reserve Bank of India (RBI):\n1. The Standing Deposit Facility (SDF) is a collateral-free instrument used for absorbing liquidity from the banking system.\n2. Under the Variable Rate Reverse Repo (VRRR) auction, the interest rate is market-determined, unlike the fixed Reverse Repo Rate set by the RBI.\n3. Both SDF and VRRR are tools designed primarily for injecting liquidity into the financial system.\nWhich of the statements given above is/are correct?",
+      "contextLines": [
+        "Standing Deposit Facility (SDF): It is a monetary tool that absorbs liquidity from commercial banks without collateral.",
+        "Variable Rate Reverse Repo (VRRR): It is a method used by the RBI to absorb excess money from banks for a short period.",
+        "The term variable rate means the interest rate is not fixed and is decided by the market.",
+        "Reverse Repo Rate, the rate is fixed by RBI."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct. The SDF is a monetary tool that allows the RBI to absorb liquidity from commercial banks without the need to provide government securities as collateral.\nStatement 2 is correct. The VRRR operates through auctions where the interest rate is determined by market bidding, in contrast to the standard Reverse Repo Rate, which is a fixed policy rate announced by the RBI.\nStatement 3 is incorrect. Both the SDF and the VRRR are tools for liquidity *absorption*, not injection. They are used by the RBI to withdraw excess money from the banking system.",
+      "takeaway": "Understanding the direction of liquidity flow (absorption vs. injection) and the mechanism (collateral-free, fixed vs. variable rate) is key to differentiating between the RBI's various monetary policy tools like SDF, VRRR, and the traditional Repo/Reverse Repo.",
+      "evidenceExcerpt": "Standing Deposit Facility (SDF): It is a monetary tool that absorbs liquidity from commercial banks without collateral. Variable Rate Reverse Repo (VRRR): It is a method used by the RBI to absorb excess money from banks... The term variable rate means the interest rate is not fixed and is decided by the market. Reverse Repo Rate, the rate is fixed by RBI.",
+      "qualityScore": 86,
+      "reviewNotes": "This question effectively tests the conceptual understanding of two important and relatively new liquidity management tools. Statement 3 provides a clear conceptual check. The wording has been refined to be more precise and formal."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice",
+      "prompt": "Which one of the following best describes a fundamental difference between the Standing Deposit Facility (SDF) and the Fixed Rate Reverse Repo (FRRR)?",
+      "contextLines": [
+        "Standing Deposit Facility (SDF): It is a monetary tool that absorbs liquidity from commercial banks without collateral.",
+        "Features: SDF replaced the Fixed Rate Reverse Repo as the Liquidity Adjustment Facility corridor’s floor."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The SDF is a tool for liquidity injection, whereas the FRRR is for liquidity absorption."
+        },
+        {
+          "id": "B",
+          "text": "The interest rate under SDF is market-determined, while the FRRR rate is a policy rate fixed by the RBI."
+        },
+        {
+          "id": "C",
+          "text": "The SDF allows the RBI to absorb liquidity without providing government securities as collateral, unlike the FRRR."
+        },
+        {
+          "id": "D",
+          "text": "The SDF is available only on weekdays, while the FRRR was available on all days."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Option A is incorrect as both SDF and FRRR are tools for liquidity absorption. Option B is incorrect; the SDF rate, like the FRRR rate, is a policy rate set by the RBI, not market-determined (which is a feature of VRRR). Option D is incorrect; the SDF is available on all days, including weekends and holidays. Option C is correct. The defining feature and the most significant change introduced with the SDF is its collateral-free nature. Under the FRRR, the RBI had to provide government securities as collateral to banks for absorbing liquidity, whereas the SDF does not have this requirement.",
+      "takeaway": "The introduction of the Standing Deposit Facility (SDF) marks a key change in the RBI's liquidity management framework, primarily by creating a collateral-free instrument for liquidity absorption, which also serves as the floor of the LAF corridor.",
+      "evidenceExcerpt": "Standing Deposit Facility (SDF): It is a monetary tool that absorbs liquidity from commercial banks without collateral. Features: SDF replaced the Fixed Rate Reverse Repo as the Liquidity Adjustment Facility corridor’s floor. SDF will be available every day, including holidays and weekends.",
+      "qualityScore": 88,
+      "reviewNotes": "This is a strong, focused conceptual question. It directly targets the most critical difference between two related monetary policy tools. The distractors are plausible and test for common misconceptions (e.g., confusing SDF with VRRR, or misunderstanding its purpose). The question has been rewritten in a classic UPSC 'best describes' format."
+    }
+  ],
+  "reviewerNotes": "I have selected and rewritten four high-quality questions from the candidate set. The rejected questions were either repetitive (another question on the Ombudsman scheme) or less focused than the selected ones (the co-lending question was good, but the SDF vs FRRR question tested a more fundamental monetary policy concept). The selected questions have been refined for clarity, formal tone, and adherence to UPSC standards. The distractors are plausible, and the explanations are tightly linked to the source text. The quality scores reflect a conservative assessment of their strength."
+}

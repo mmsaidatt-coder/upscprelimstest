@@ -1,0 +1,64 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-015-earth-observation-and-human-spaceflight-section-001-nisar-nasa-isro-synthetic-aperture-radar-satellite",
+    "claimType": "Factual",
+    "claimText": "NISAR is the world's first Earth observation satellite to integrate both L-band and S-band Synthetic Aperture Radar (SAR) on a single platform.",
+    "evidenceExcerpt": "It is world's first Earth observation satellite to integrate both L-band and S-band Synthetic Aperture Radar (SAR) on a single platform.",
+    "pageNumbers": [
+      31
+    ],
+    "examUse": "Statement-based question identifying the unique technological milestone of the NISAR mission.",
+    "distractorHooks": [
+      "Claiming it integrates X-band and C-band radars",
+      "Stating it is the second or third satellite to achieve this integration",
+      "Describing it as a purely optical imaging satellite rather than microwave/SAR"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-015-earth-observation-and-human-spaceflight-section-001-nisar-nasa-isro-synthetic-aperture-radar-satellite",
+    "claimType": "Factual",
+    "claimText": "In the NISAR mission, NASA provided the L-band radar while ISRO contributed the S-band radar.",
+    "evidenceExcerpt": "NASA provided the L-band radar... ISRO contributed the S-band radar...",
+    "pageNumbers": [
+      31
+    ],
+    "examUse": "Correct-pair or statement-based question matching the space agency to its specific technological contribution.",
+    "distractorHooks": [
+      "Reversing the contributions by stating ISRO provided the L-band and NASA provided the S-band",
+      "Claiming ESA or JAXA provided one of the radar bands"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-015-earth-observation-and-human-spaceflight-section-001-nisar-nasa-isro-synthetic-aperture-radar-satellite",
+    "claimType": "Factual",
+    "claimText": "NISAR was launched into a Sun-Synchronous Polar Orbit (SSO) using a GSLV rocket, marking the first time a GSLV was used for an SSO placement.",
+    "evidenceExcerpt": "Launch Vehicle: ISRO’s Geosynchronous Satellite Launch Vehicle (GSLV)-F16. Orbit: Sun Synchronous Polar Orbit. It is the first time a GSLV rocket was used to place a satellite into a Sun-Synchronous orbit (SSO).",
+    "pageNumbers": [
+      31
+    ],
+    "examUse": "Statement-based question testing knowledge of the launch vehicle and its unprecedented orbital deployment.",
+    "distractorHooks": [
+      "Stating it was launched using a PSLV or LVM3",
+      "Claiming it was placed into a Geosynchronous Transfer Orbit (GTO) or Low Earth Equatorial Orbit",
+      "Stating GSLV has routinely been used for SSO placements in the past"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-015-earth-observation-and-human-spaceflight-section-001-nisar-nasa-isro-synthetic-aperture-radar-satellite",
+    "claimType": "Conceptual",
+    "claimText": "The NISAR mission utilizes SweepSAR technology to produce high-resolution data with a repeat cycle of 12 days.",
+    "evidenceExcerpt": "Technical Features: SweepSAR... Repeat Cycle: Provides high-resolution data every 12 days.",
+    "pageNumbers": [
+      31
+    ],
+    "examUse": "Statement-based question on the technical capabilities and temporal resolution of the satellite.",
+    "distractorHooks": [
+      "Changing the repeat cycle to 24 hours or 30 days",
+      "Replacing SweepSAR with an incorrect radar technology name"
+    ]
+  }
+]

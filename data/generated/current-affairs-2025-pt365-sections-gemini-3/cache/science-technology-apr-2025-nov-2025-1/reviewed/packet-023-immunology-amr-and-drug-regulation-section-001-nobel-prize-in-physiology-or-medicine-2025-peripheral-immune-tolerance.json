@@ -1,0 +1,98 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the FOXP3 gene, recently in the news, consider the following statements:\n\n1. It controls the development and function of Regulatory T cells (Treg cells).\n2. A mutation in this gene causes a rare autoimmune disease called IPEX.\n3. The discovery of its role in central immune tolerance was awarded the 2025 Nobel Prize in Physiology or Medicine.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The FOXP3 gene controls the development and function of regulatory T cells. Statement 2 is correct: If there is a mutation in the FOXP3 gene, regulatory T cells do not form properly, causing a rare autoimmune disease called IPEX. Statement 3 is incorrect: The 2025 Nobel Prize in Physiology or Medicine was awarded for discoveries concerning 'peripheral' immune tolerance, not central immune tolerance.",
+      "takeaway": "The FOXP3 gene is crucial for peripheral immune tolerance. Its mutation leads to autoimmune diseases like IPEX due to the improper formation of Regulatory T cells.",
+      "evidenceExcerpt": "Mary E. Brunkow, Fred Ramsdell and Shimon Sakaguchi have been awarded Nobel Prize in Physiology or Medicine 2025 for their discoveries concerning peripheral immune tolerance... Mary Brunkow and Fred Ramsdell discovered the FOXP3 gene, which controls the development and function of regulatory T cells. If there is a mutation in the FOXP3 gene, regulatory T cells do not form properly, causing a rare autoimmune disease called IPEX.",
+      "qualityScore": 90,
+      "reviewNotes": "A strong UPSC-style question that integrates genetics, diseases, and current affairs (Nobel Prize). Statement 3 contains a classic UPSC trap by swapping 'peripheral' with 'central'."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "The 2025 Nobel Prize in Physiology or Medicine was awarded for discoveries concerning 'peripheral immune tolerance'. Which one of the following best describes this mechanism?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The process by which the lymphatic system produces antibodies to neutralize foreign pathogens."
+        },
+        {
+          "id": "B",
+          "text": "The elimination of self-reactive T cells during their initial development phase in the thymus."
+        },
+        {
+          "id": "C",
+          "text": "The mechanism by which Regulatory T cells (Treg cells) suppress self-reactive immune cells in the body's tissues."
+        },
+        {
+          "id": "D",
+          "text": "The activation of the FOXP3 gene to enhance the body's innate immunity against viral infections."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Option A is incorrect: This describes humoral immunity, not peripheral tolerance. Option B is incorrect: The training and elimination of self-reactive T cells in the thymus is known as central tolerance. Option C is correct: Peripheral tolerance is the mechanism that uses Regulatory T cells (Treg cells) to identify self-reactive T cells that have escaped the thymus and stop them from attacking the body's own tissues. Option D is incorrect: While the FOXP3 gene controls Treg cells, peripheral tolerance is not about enhancing innate immunity against viral infections.",
+      "takeaway": "Peripheral immune tolerance acts as a secondary checkpoint outside the thymus, relying on Treg cells to prevent autoimmune attacks on the body's tissues.",
+      "evidenceExcerpt": "Mary E. Brunkow, Fred Ramsdell and Shimon Sakaguchi have been awarded Nobel Prize in Physiology or Medicine 2025 for their discoveries concerning peripheral immune tolerance... Peripheral Tolerance uses Regulatory T cells (Treg cells) to identify self-reactive T cells and stop them from attacking our own tissues.",
+      "qualityScore": 88,
+      "reviewNotes": "Excellent conceptual question. The distractors are highly plausible, especially Option B which describes central tolerance, forcing the candidate to know the exact difference."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the mechanisms of immune tolerance in the human body:\n\n1. Central tolerance occurs in the thymus, which is responsible for the production and training of T cells.\n2. Peripheral tolerance utilizes Regulatory T cells (Treg cells) to identify and neutralize self-reactive T cells in the body's tissues.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Central tolerance happens in the thymus, a small gland in the lymphatic system that produces and trains T cells. Statement 2 is correct: Peripheral tolerance uses Regulatory T cells (Treg cells) to identify self-reactive T cells and stop them from attacking the body's own tissues.",
+      "takeaway": "The immune system employs a two-tiered approach to prevent self-reactivity: central tolerance (occurring in the thymus) and peripheral tolerance (mediated by Treg cells in the tissues).",
+      "evidenceExcerpt": "Central Tolerance happens in the thymus, a small gland in the lymphatic system that produces and trains T cells. Peripheral Tolerance uses Regulatory T cells (Treg cells) to identify self-reactive T cells and stop them from attacking our own tissues.",
+      "qualityScore": 85,
+      "reviewNotes": "A straightforward, standard UPSC-style 2-statement question that clearly distinguishes between the two types of immune tolerance mentioned in the text."
+    }
+  ],
+  "reviewerNotes": "Selected and refined three questions to cover the entire excerpt without excessive overlap. Q1 focuses on the basic distinction between central and peripheral tolerance. Q2 tests the conceptual understanding of peripheral tolerance in the context of the 2025 Nobel Prize. Q3 integrates the FOXP3 gene, its associated disease (IPEX), and sets a classic UPSC trap by swapping 'peripheral' with 'central' in the Nobel Prize statement."
+}

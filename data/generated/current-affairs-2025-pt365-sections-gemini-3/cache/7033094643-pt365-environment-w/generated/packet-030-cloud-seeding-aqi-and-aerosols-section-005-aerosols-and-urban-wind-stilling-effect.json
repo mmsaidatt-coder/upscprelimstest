@@ -1,0 +1,178 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding atmospheric aerosols: 1. Primary aerosols are formed from gases through chemical reactions, whereas secondary aerosols are directly emitted into the atmosphere. 2. An increase in aerosols acting as condensation nuclei typically causes cloud droplets to become smaller and longer-lived. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Primary aerosols (like sea spray and dust) are directly emitted, while secondary aerosols (like sulfates) are formed from gases through chemical reactions. Statement 2 is correct: Aerosols act as condensation nuclei, leading to the formation of smaller, longer-lived cloud droplets, which can cause solar dimming.",
+      "takeaway": "Aerosols modify cloud properties by acting as condensation nuclei, reducing droplet size and increasing their atmospheric lifespan.",
+      "evidenceExcerpt": "Primary aerosols are directly emitted (sea spray, dust); secondary are formed from gases through chemical reactions (sulfates). They act as condensation nuclei, causing cloud droplets to be smaller and longer-lived, leading to solar dimming."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the 'Twomey Effect' in the context of climate change, consider the following statements: 1. It describes the phenomenon where increased anthropogenic aerosols make clouds brighter. 2. The brightening occurs because aerosols facilitate the formation of a smaller number of exceptionally large cloud droplets. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The Twomey Effect refers to the brightening of clouds due to increased anthropogenic aerosols. Statement 2 is incorrect: The effect occurs because aerosols create more tiny droplets, not fewer large ones. This increases the overall surface area of the droplets, reflecting more sunlight.",
+      "takeaway": "The Twomey Effect highlights how anthropogenic aerosols increase cloud albedo (brightness) by creating numerous tiny droplets rather than fewer large ones.",
+      "evidenceExcerpt": "The Twomey Effect describes how increased anthropogenic aerosols make clouds brighter by creating more tiny droplets."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the 'Urban Wind Stilling Effect': 1. It acts as an invisible barrier that accelerates the entry of long-range dust and pollutants into cities. 2. It can lead to the formation of 'Urban Aerosol Clean Islands', where a city experiences lower aerosol levels than its surrounding rural areas. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The Urban Wind Stilling Effect weakens surface winds due to urban structures, thereby slowing or blocking the entry of long-range dust and pollutants, rather than accelerating it. Statement 2 is correct: By blocking external pollutants, this effect can create 'Urban Aerosol Clean Islands' with lower aerosol levels than nearby rural areas.",
+      "takeaway": "Urban structures can weaken surface winds, paradoxically protecting cities from long-range dust transport and creating localized clean air pockets compared to rural surroundings.",
+      "evidenceExcerpt": "Urban Wind Stilling Effect creates Urban Aerosol Clean Islands where weakened surface winds due to urban structures block long-range dust and pollutant entry, resulting in lower aerosol levels than nearby rural areas."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Mechanism-based",
+      "prompt": "Which of the following best explains the mechanism through which an increase in atmospheric aerosols contributes to \"solar dimming\"?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "They absorb incoming shortwave solar radiation in the upper atmosphere, preventing it from reaching the Earth's surface."
+        },
+        {
+          "id": "B",
+          "text": "They act as condensation nuclei, leading to the formation of smaller and more numerous cloud droplets that reflect more sunlight back into space."
+        },
+        {
+          "id": "C",
+          "text": "They deplete stratospheric ozone, altering the atmospheric albedo and increasing the scattering of ultraviolet rays."
+        },
+        {
+          "id": "D",
+          "text": "They accelerate the coalescence of cloud droplets, resulting in frequent precipitation that washes out incoming solar radiation."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Aerosols act as condensation nuclei. An increase in aerosols leads to the formation of a larger number of smaller cloud droplets. These smaller, more numerous droplets make the clouds brighter and longer-lived (the Twomey Effect), which reflects more sunlight back into space, thereby causing solar dimming at the Earth's surface.",
+      "takeaway": "Aerosols induce solar dimming not primarily by absorbing light, but by altering cloud microphysics—making cloud droplets smaller, more numerous, and more reflective.",
+      "evidenceExcerpt": "They act as condensation nuclei, causing cloud droplets to be smaller and longer-lived, leading to solar dimming. The Twomey Effect describes how increased anthropogenic aerosols make clouds brighter by creating more tiny droplets."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Applied Scenario",
+      "prompt": "During a severe long-range dust storm, an urban center is observed to have significantly lower aerosol concentrations compared to its immediate rural surroundings. Which of the following phenomena best explains this observation?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The urban heat island effect creating strong convective updrafts that rapidly disperse the dust into the upper troposphere."
+        },
+        {
+          "id": "B",
+          "text": "The rapid chemical transformation of primary dust particles into secondary aerosols upon contact with urban emissions."
+        },
+        {
+          "id": "C",
+          "text": "The urban wind stilling effect where dense built structures weaken surface winds and act as a barrier to incoming pollutants."
+        },
+        {
+          "id": "D",
+          "text": "The high concentration of anthropogenic sulfates in the city neutralizing the incoming mineral dust through acid-base reactions."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The Urban Wind Stilling Effect occurs when dense urban structures weaken surface winds. This acts as an invisible barrier that blocks or slows the entry of long-range dust and pollutants into the city, creating an 'Urban Aerosol Clean Island' where the city has lower aerosol levels than the surrounding rural areas.",
+      "takeaway": "While cities are often associated with high pollution, structural wind stilling can paradoxically shield them from long-range transported aerosols like dust, leaving surrounding rural areas more exposed.",
+      "evidenceExcerpt": "Urban Wind Stilling Effect creates Urban Aerosol Clean Islands where weakened surface winds due to urban structures block long-range dust and pollutant entry, resulting in lower aerosol levels than nearby rural areas."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Categorization",
+      "prompt": "In the context of atmospheric aerosols, consider the following particulate matters: 1. Sulfates 2. Sea spray 3. Wind-blown dust. How many of the above are classified as secondary aerosols, which are formed in the atmosphere through chemical reactions?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Secondary aerosols are formed from gases through chemical reactions in the atmosphere. Sulfates are an example of secondary aerosols (formed from sulfur dioxide emissions). Sea spray and wind-blown dust are primary aerosols because they are directly emitted into the atmosphere in particulate form.",
+      "takeaway": "Primary aerosols (dust, sea spray) are directly emitted as particles, whereas secondary aerosols (sulfates, nitrates) form from gaseous precursors reacting in the atmosphere.",
+      "evidenceExcerpt": "Primary aerosols are directly emitted (sea spray, dust); secondary are formed from gases through chemical reactions (sulfates)."
+    }
+  ]
+}

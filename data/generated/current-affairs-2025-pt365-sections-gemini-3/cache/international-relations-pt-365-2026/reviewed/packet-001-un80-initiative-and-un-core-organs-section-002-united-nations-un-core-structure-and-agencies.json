@@ -1,0 +1,129 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Current Affairs",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the United Nations (UN), consider the following statements: 1. India is a founding member of the United Nations. 2. The admission of new states to the UN is decided by the General Assembly upon the recommendation of the Security Council. 3. The UN Charter was signed in San Francisco in 1945. How many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: India is one of the original founding members of the UN. Statement 2 is correct: According to the UN Charter, states are admitted to membership by a decision of the General Assembly upon the recommendation of the Security Council. Statement 3 is correct: The UN was established in 1945 with its Charter signed in San Francisco.",
+      "takeaway": "India's status as a founding member and the specific procedural requirements for UN membership are key factual points for the exam.",
+      "evidenceExcerpt": "Established in 1945 with the UN Charter signed in San Francisco... Membership stands at 193 countries; India is a founding member... States are admitted to membership by a decision of the General Assembly upon the recommendation of the Security Council.",
+      "qualityScore": 88,
+      "reviewNotes": "This question covers founding history and membership procedures using the modern 'How many' format."
+    },
+    {
+      "subject": "Current Affairs",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the principal organs of the United Nations: 1. The Trusteeship Council is currently an inactive organ of the United Nations. 2. The Economic and Social Council (ECOSOC) consists of 54 member states. 3. The International Court of Justice is the only principal organ of the UN not located in New York. Which of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Statement 1 is correct: The Trusteeship Council has been inactive since 1994. Statement 2 is correct: ECOSOC consists of 54 members. Statement 3 is correct: While the UNGA, UNSC, ECOSOC, Trusteeship Council, and Secretariat are in New York, the ICJ is headquartered in The Hague, Netherlands.",
+      "takeaway": "The ICJ is unique among the six main organs for its location outside of the New York headquarters.",
+      "evidenceExcerpt": "Six main organs: UNGA, UNSC (15 members), ECOSOC (54 members), ICJ (The Hague), Trusteeship Council (inactive since 1994), and Secretariat.",
+      "qualityScore": 87,
+      "reviewNotes": "Tests knowledge of the specific characteristics and locations of the six main UN organs."
+    },
+    {
+      "subject": "Current Affairs",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the United Nations system, consider the following statements: 1. Specialized agencies are autonomous organizations that work with the UN through negotiated agreements. 2. The International Court of Justice (ICJ) is classified as one of the specialized agencies of the UN. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Specialized agencies are separate, autonomous organizations with their own rules and memberships. Statement 2 is incorrect: The ICJ is one of the six 'main organs' of the UN, not a specialized agency.",
+      "takeaway": "It is crucial to distinguish between the six principal organs of the UN and the autonomous specialized agencies.",
+      "evidenceExcerpt": "It comprises six main organs: UNGA, UNSC, ECOSOC, ICJ, Trusteeship Council... It also includes 15 specialized agencies with distinct headquarters.",
+      "qualityScore": 86,
+      "reviewNotes": "Focuses on the structural distinction between the main organs and the specialized agencies."
+    },
+    {
+      "subject": "Current Affairs",
+      "difficulty": "Moderate",
+      "questionType": "Matching",
+      "prompt": "Consider the following pairs of UN Specialized Agencies and their Headquarters: 1. Food and Agriculture Organization (FAO) : Rome 2. International Labour Organization (ILO) : Geneva 3. UNESCO : Paris 4. World Bank : Washington, DC. How many of the pairs given above are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "All pairs are correctly matched. The FAO is headquartered in Rome, the ILO in Geneva, UNESCO in Paris, and the World Bank in Washington, DC.",
+      "takeaway": "Specialized agencies have distinct headquarters across the globe, which distinguishes them from the main organs mostly based in New York.",
+      "evidenceExcerpt": "15 Specialized Agencies include FAO (Rome), ILO (Geneva), IMF (Washington, DC), UNESCO (Paris), WHO (Geneva), and World Bank (Washington, DC).",
+      "qualityScore": 85,
+      "reviewNotes": "Standard matching question for UN agencies, testing factual accuracy of headquarters."
+    }
+  ],
+  "reviewerNotes": "The selected questions cover the foundational aspects of the United Nations, including its establishment, membership procedures, the distinction between main organs and specialized agencies, and specific details about organ composition and headquarters. The questions utilize modern UPSC formats such as 'How many of the above' and 'Correct pairs' to ensure high difficulty and alignment with recent exam trends."
+}

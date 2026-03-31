@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Applied Concept",
+      "prompt": "During a severe long-range dust storm, an urban center is observed to have significantly lower aerosol concentrations compared to its immediate rural surroundings. Which of the following phenomena best explains this observation?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The urban heat island effect creates strong convective updrafts that rapidly disperse the dust into the upper troposphere."
+        },
+        {
+          "id": "B",
+          "text": "The rapid chemical transformation of primary dust particles into secondary aerosols upon contact with urban emissions."
+        },
+        {
+          "id": "C",
+          "text": "The urban wind stilling effect, where dense built structures weaken surface winds and act as a barrier to incoming pollutants."
+        },
+        {
+          "id": "D",
+          "text": "The high concentration of anthropogenic sulfates in the city neutralizes the incoming mineral dust through acid-base reactions."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The Urban Wind Stilling Effect occurs when dense urban structures weaken surface winds. This acts as an invisible barrier that blocks or slows the entry of long-range dust and pollutants into the city, creating an 'Urban Aerosol Clean Island' where the city paradoxically has lower aerosol levels than the surrounding rural areas.",
+      "takeaway": "While cities are often associated with high pollution, structural wind stilling can shield them from long-range transported aerosols like dust, leaving surrounding rural areas more exposed.",
+      "evidenceExcerpt": "Urban Wind Stilling Effect creates Urban Aerosol Clean Islands where weakened surface winds due to urban structures block long-range dust and pollutant entry, resulting in lower aerosol levels than nearby rural areas.",
+      "qualityScore": 88,
+      "reviewNotes": "Excellent applied scenario question. It tests a counter-intuitive phenomenon using very strong, scientific-sounding distractors."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Concept",
+      "prompt": "Which of the following best explains the mechanism through which an increase in atmospheric aerosols contributes to 'solar dimming'?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "They absorb incoming shortwave solar radiation in the upper atmosphere, preventing it from reaching the Earth's surface."
+        },
+        {
+          "id": "B",
+          "text": "They act as condensation nuclei, leading to the formation of smaller and more numerous cloud droplets that reflect more sunlight."
+        },
+        {
+          "id": "C",
+          "text": "They deplete stratospheric ozone, altering the atmospheric albedo and increasing the scattering of ultraviolet rays."
+        },
+        {
+          "id": "D",
+          "text": "They accelerate the coalescence of cloud droplets, resulting in frequent precipitation that washes out incoming solar radiation."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Aerosols act as condensation nuclei. An increase in anthropogenic aerosols leads to the formation of a larger number of smaller cloud droplets. These smaller, more numerous droplets make the clouds brighter and longer-lived (known as the Twomey Effect), which reflects more sunlight back into space, thereby causing solar dimming at the Earth's surface.",
+      "takeaway": "Aerosols induce solar dimming primarily by altering cloud microphysics (the Twomey Effect) making cloud droplets smaller, more numerous, and more reflective.",
+      "evidenceExcerpt": "They act as condensation nuclei, causing cloud droplets to be smaller and longer-lived, leading to solar dimming. The Twomey Effect describes how increased anthropogenic aerosols make clouds brighter by creating more tiny droplets.",
+      "qualityScore": 85,
+      "reviewNotes": "Strong conceptual question. Distractors are highly plausible atmospheric mechanisms that test if the candidate truly understands the Twomey Effect."
+    }
+  ],
+  "reviewerNotes": "Selected three distinct questions covering primary/secondary aerosols, the Twomey effect (solar dimming), and the Urban Wind Stilling effect. Refined the prompts to ensure strict adherence to UPSC phrasing and removed any control characters. Distractors in the conceptual questions are highly plausible and test the candidate's precise understanding of atmospheric phenomena."
+}

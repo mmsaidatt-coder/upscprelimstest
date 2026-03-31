@@ -1,0 +1,62 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-022-communicable-diseases-and-viral-outbreaks-section-002-human-immunodeficiency-virus-hiv-and-lenacapavir",
+    "claimType": "Factual",
+    "claimText": "Lenacapavir is an antiretroviral medicine used as Pre-Exposure Prophylaxis (PrEP) for the prevention of HIV.",
+    "evidenceExcerpt": "Lenacapavir is an antiretroviral medicine used as Pre-Exposure Prophylaxis (PrEP) for HIV prevention.",
+    "pageNumbers": [
+      44
+    ],
+    "examUse": "Statement-based question on recent medical developments or correct-pair matching of drug to disease.",
+    "distractorHooks": [
+      "Stating Lenacapavir is a vaccine rather than an antiretroviral drug",
+      "Confusing Pre-Exposure Prophylaxis (PrEP) with a permanent cure"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-022-communicable-diseases-and-viral-outbreaks-section-002-human-immunodeficiency-virus-hiv-and-lenacapavir",
+    "claimType": "Conceptual",
+    "claimText": "HIV weakens the immune system by specifically infecting and destroying CD4 T lymphocytes, a type of white blood cell.",
+    "evidenceExcerpt": "HIV attacks the immune system by destroying CD4 T lymphocytes (white blood cells).",
+    "pageNumbers": [
+      44
+    ],
+    "examUse": "Statement-based question on the mechanism of viral diseases.",
+    "distractorHooks": [
+      "Claiming HIV attacks red blood cells or platelets",
+      "Confusing CD4 T lymphocytes with CD8 T cells or B cells"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-022-communicable-diseases-and-viral-outbreaks-section-002-human-immunodeficiency-virus-hiv-and-lenacapavir",
+    "claimType": "Factual",
+    "claimText": "HIV can be transmitted from an infected mother to her baby.",
+    "evidenceExcerpt": "It transmits through body fluids and from mother to baby.",
+    "pageNumbers": [
+      44
+    ],
+    "examUse": "Statement-based question on modes of disease transmission.",
+    "distractorHooks": [
+      "Asserting that HIV cannot be transmitted from mother to child",
+      "Claiming HIV transmits through casual contact or air"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-022-communicable-diseases-and-viral-outbreaks-section-002-human-immunodeficiency-virus-hiv-and-lenacapavir",
+    "claimType": "Factual",
+    "claimText": "Human Immunodeficiency Virus (HIV) infections are treated using antiretroviral therapy (ART).",
+    "evidenceExcerpt": "Treated with antiretroviral therapy (ART).",
+    "pageNumbers": [
+      44
+    ],
+    "examUse": "Statement-based question on treatment protocols for viral diseases.",
+    "distractorHooks": [
+      "Stating HIV is treated with antibiotics",
+      "Claiming ART is a preventive vaccine rather than a treatment"
+    ]
+  }
+]

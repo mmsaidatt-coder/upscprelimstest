@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to 'Epigenome Editing', consider the following statements: 1. It involves the permanent alteration of the underlying DNA sequence to regulate gene expression. 2. It enables the control of gene expression without cutting the DNA strands. 3. The modifications introduced through this technique are reversible in nature. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The epigenome consists of chemical compounds that modify or regulate gene expression without altering the underlying DNA sequence itself. Statements 2 and 3 are correct: Epigenome editing allows for precise control over gene expression with reversible changes and does not involve cutting the DNA, making it safer than traditional gene editing.",
+      "takeaway": "Epigenome editing is a safer alternative to traditional gene editing because it regulates gene expression through reversible chemical modifications without cutting the DNA sequence.",
+      "evidenceExcerpt": "Epigenome consists of chemical compounds that modify or regulate gene expression. Epigenome editing allows for precise control over gene expression with reversible changes without cutting DNA, making it safer than traditional gene editing.",
+      "qualityScore": 88,
+      "reviewNotes": "The question effectively tests the conceptual understanding of epigenome editing, specifically its distinction from traditional gene editing (no DNA cutting, reversible). The distractor in statement 1 is plausible but factually incorrect, fitting the UPSC pattern."
+    }
+  ],
+  "reviewerNotes": "Selected the statement-based question as it comprehensively covers the core concepts of epigenome editing (mechanism, reversibility, and safety) in a format highly representative of the UPSC Prelims."
+}

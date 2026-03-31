@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Paragraph-based Identification",
+      "prompt": "It is a weather phenomenon characterized by a collection of thunderstorms that act together as a unified system. Rather than dissipating quickly, it can spread across a vast geographic area, such as an entire state, and persist for more than 12 hours.\n\nWhich of the following best describes the phenomenon described above?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Supercell thunderstorm"
+        },
+        {
+          "id": "B",
+          "text": "Mesoscale Convective System"
+        },
+        {
+          "id": "C",
+          "text": "Extratropical cyclone"
+        },
+        {
+          "id": "D",
+          "text": "Atmospheric river"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Mesoscale Convective System (MCS) is a collection of thunderstorms that act as a system. It can spread across an entire state and last for more than 12 hours. The other options refer to different meteorological phenomena: supercells are typically single, highly organized storms; extratropical cyclones are large-scale low-pressure systems; and atmospheric rivers are narrow corridors of concentrated moisture.",
+      "takeaway": "Mesoscale Convective Systems are large, organized thunderstorm complexes that act as a unified system and last significantly longer than isolated thunderstorms.",
+      "evidenceExcerpt": "Mesoscale Convective System (MCS): Collection of thunderstorms that act as a system. Can spread across entire state and last >12 hours.",
+      "qualityScore": 85,
+      "reviewNotes": "A classic UPSC-style paragraph identification question. The distractors are all real meteorological terms that a candidate might confuse if they haven't studied the specific definition of an MCS."
+    }
+  ],
+  "reviewerNotes": "Selected three high-quality questions that cover the diverse phenomena mentioned in the source text. Rewrote the prompts and options to align with UPSC standards, ensuring plausible distractors and clear, tight explanations."
+}

@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Central Pollution Control Board (CPCB): 1. It was established as a statutory body under the Environment (Protection) Act, 1986. 2. It is entrusted with powers and functions under the Air (Prevention and Control of Pollution) Act, 1981. 3. It provides technical services to the Ministry of Environment, Forest and Climate Change under the Environment (Protection) Act, 1986. How many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: CPCB is a statutory body established under the Water (Prevention and Control of Pollution) Act, 1974. Statement 2 is correct: It is also entrusted with powers and functions under the Air (Prevention and Control of Pollution) Act, 1981. Statement 3 is correct: CPCB provides technical services to the Environment Ministry under the Environment (Protection) Act, 1986.",
+      "takeaway": "The CPCB derives its core statutory existence from the Water Act (1974), while also exercising powers under the Air Act (1981) and providing technical services under the Environment (Protection) Act (1986).",
+      "evidenceExcerpt": "CPCB is a statutory body established under the Water (Prevention and Control of Pollution) Act, 1974. CPCB is also entrusted with powers and functions under the Air (Prevention and Control of Pollution) Act, 1981. CPCB provides technical services to the Environment Ministry under the Environment (Protection) Act, 1986."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the imposition of 'Environmental Compensation' by Pollution Control Boards (PCBs) in India, consider the following statements: 1. It is a mechanism that can be invoked by PCBs exclusively under the Environment (Protection) Act, 1986. 2. It can be levied for any administrative or procedural violation committed by an entity, even in the absence of imminent environmental damage. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Statement 1 is incorrect: As per a Supreme Court ruling, PCBs can impose or collect Environmental Compensation under the Water Act, 1974 and Air Act, 1981. Statement 2 is incorrect: Environmental Compensation is imposed in cases of environmental damage by an erring entity or when damage is imminent, not for every administrative violation.",
+      "takeaway": "Environmental Compensation is not a blanket penalty for all violations; it is specifically tied to actual or imminent environmental damage and is backed by the Water Act and Air Act.",
+      "evidenceExcerpt": "As per Supreme Court ruling, PCBs can impose or collect EC under Water Act, 1974 and Air Act, 1981 in case of environmental damage by erring entity or when damage is imminent, not for every violation."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Assertion-Reason",
+      "prompt": "Given below are two statements, one labelled as Assertion (A) and the other as Reason (R):\n\nAssertion (A): Pollution Control Boards (PCBs) in India can impose Environmental Compensation on an industrial unit even before any actual environmental degradation has taken place.\n\nReason (R): Under the Water Act, 1974, and Air Act, 1981, the power to levy Environmental Compensation can be invoked when environmental damage is imminent.\n\nIn the context of the above two statements, which one of the following is correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A)."
+        },
+        {
+          "id": "B",
+          "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A)."
+        },
+        {
+          "id": "C",
+          "text": "Assertion (A) is true but Reason (R) is false."
+        },
+        {
+          "id": "D",
+          "text": "Assertion (A) is false but Reason (R) is true."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Assertion (A) is correct because Environmental Compensation is not solely a post-facto mechanism; it can be levied preventively. Reason (R) correctly explains this by citing the statutory backing as interpreted by the Supreme Court, which allows PCBs to impose Environmental Compensation under the Water Act, 1974, and Air Act, 1981, not just for actual damage but also when damage is imminent.",
+      "takeaway": "Environmental Compensation serves both a restorative and preventive purpose. It can be applied when environmental damage is imminent, distinguishing it from purely retrospective penalties.",
+      "evidenceExcerpt": "As per Supreme Court ruling, PCBs can impose or collect EC under Water Act, 1974 and Air Act, 1981 in case of environmental damage by erring entity or when damage is imminent, not for every violation."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the regulatory powers of Pollution Control Boards (PCBs) in India, consider the following statements:\n\n1. The imposition of Environmental Compensation by PCBs is a punitive criminal action intended to penalize every statutory violation.\n2. State Pollution Control Boards (SPCBs) derive their power to implement environmental laws from the same parent statutes that established the Central Pollution Control Board (CPCB).\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Environmental Compensation is distinct from punitive criminal action. As per a Supreme Court ruling, it cannot be imposed for every minor violation, but only when environmental damage is actual or imminent. Statement 2 is correct: SPCBs are constituted under the Water Act, 1974, and Air Act, 1981—the same acts that govern the CPCB—to implement environmental laws within state jurisdictions.",
+      "takeaway": "Environmental Compensation is a restorative financial mechanism, distinct from punitive criminal action. Both the CPCB and SPCBs draw their core powers from the Water Act (1974) and the Air Act (1981).",
+      "evidenceExcerpt": "State Pollution Control Boards (SPCBs) are constituted under the same acts to implement environmental laws within state jurisdictions.\nPer a Supreme Court ruling, PCBs can impose Environmental Compensation (EC) under the Water Act and Air Act for environmental damage, which is distinct from punitive action."
+    }
+  ]
+}

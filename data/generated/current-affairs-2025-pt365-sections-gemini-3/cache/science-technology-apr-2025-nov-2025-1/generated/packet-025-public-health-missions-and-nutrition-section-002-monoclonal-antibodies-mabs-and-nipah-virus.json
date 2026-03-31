@@ -1,0 +1,149 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Monoclonal Antibodies (mAbs):\n1. They are laboratory-produced proteins derived from identical immune cells cloned from a single parent B-cell.\n2. They are engineered to bind to specific antigens, mimicking the body's natural immune response.\n3. Their therapeutic applications are restricted exclusively to the treatment of viral infections.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statements 1 and 2 are correct. Monoclonal antibodies are laboratory-produced proteins engineered to bind specific antigens, mimicking natural immune responses. They are derived from identical immune cells cloned from a single parent B-cell. Statement 3 is incorrect because mAbs are used to treat a wide range of conditions including cancers, autoimmune disorders, and viral infections, rather than being restricted exclusively to viral infections.",
+      "takeaway": "Monoclonal antibodies are cloned from a single parent B-cell and have broad therapeutic applications beyond just viral infections, including cancer and autoimmune disease treatments.",
+      "evidenceExcerpt": "Monoclonal antibodies are laboratory-produced proteins, engineered to bind specific antigens, mimicking natural immune responses. Origin: Derived from identical immune cells cloned from a single parent B-cell... mAbs are derived from identical immune cells cloned from a single parent B-cell and are used to treat cancers, autoimmune disorders, and viral infections."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Nipah virus:\n1. It is a zoonotic pathogen that can be transmitted from bats or infected animals to humans.\n2. It typically manifests as a severe respiratory and neurological illness in infected individuals.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Both statements are correct. Nipah virus is a zoonotic pathogen, meaning it is transmitted from animals (such as bats) to humans. In humans, the infection can cause severe respiratory and neurological illnesses.",
+      "takeaway": "Nipah virus is a zoonotic disease with bats as a primary reservoir, known for causing severe respiratory and neurological complications.",
+      "evidenceExcerpt": "Nipah virus is a zoonotic pathogen causing severe respiratory and neurological illness, transmitted from bats or infected animals to humans."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "Which one of the following best describes the origin and function of 'Monoclonal Antibodies', recently seen in the news in the context of the Nipah virus?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "They are naturally occurring proteins extracted from the blood plasma of recovered patients to provide passive immunity."
+        },
+        {
+          "id": "B",
+          "text": "They are laboratory-produced proteins cloned from a single parent B-cell, engineered to bind to specific antigens."
+        },
+        {
+          "id": "C",
+          "text": "They are live-attenuated viral strains used to stimulate the body's T-cells for long-term immunity."
+        },
+        {
+          "id": "D",
+          "text": "They are synthetic chemicals designed to inhibit viral replication by altering the host cell's genetic material."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Monoclonal antibodies (mAbs) are laboratory-produced proteins engineered to bind specific antigens, mimicking natural immune responses. They are derived from identical immune cells cloned from a single parent B-cell.",
+      "takeaway": "Unlike natural antibodies extracted from plasma or vaccines that stimulate an immune response, monoclonal antibodies are engineered in a lab from a single cloned B-cell to target specific antigens directly.",
+      "evidenceExcerpt": "Monoclonal antibodies are laboratory-produced proteins, engineered to bind specific antigens, mimicking natural immune responses. Origin: Derived from identical immune cells cloned from a single parent B-cell."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice",
+      "prompt": "Recently, the Indian Council of Medical Research (ICMR) sought partners to develop monoclonal antibodies (mAbs) against the Nipah virus. In this context, which of the following best explains the therapeutic mechanism of mAbs against such viral diseases?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "They provide lifelong active immunity by stimulating the body's T-cells to produce memory cells against the virus."
+        },
+        {
+          "id": "B",
+          "text": "They are laboratory-produced proteins that mimic the natural immune response by binding to specific viral antigens."
+        },
+        {
+          "id": "C",
+          "text": "They act as broad-spectrum antiviral agents that directly degrade the viral RNA genome upon entry into the bloodstream."
+        },
+        {
+          "id": "D",
+          "text": "They are live-attenuated viral particles that competitively inhibit the replication of the wild-type virus in human cells."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Monoclonal antibodies are laboratory-produced proteins engineered to bind specific antigens, mimicking natural immune responses. Unlike vaccines (which provide active immunity) or broad-spectrum antivirals, mAbs offer targeted, passive immunity by binding to specific viral components.",
+      "takeaway": "mAbs are engineered proteins that mimic natural immune responses by binding to specific antigens, offering targeted therapy rather than broad-spectrum or active immunity.",
+      "evidenceExcerpt": "Monoclonal antibodies are laboratory-produced proteins, engineered to bind specific antigens, mimicking natural immune responses."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the origin and production of Monoclonal Antibodies (mAbs):\n\n1. They are naturally extracted from the blood plasma of individuals who have recently recovered from a specific viral infection.\n2. They are derived from identical immune cells that are cloned from a single parent B-cell.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Extracting antibodies from the blood plasma of recovered patients refers to convalescent plasma therapy, which contains a mixture of polyclonal antibodies. Monoclonal antibodies are laboratory-produced proteins. Statement 2 is correct: mAbs are derived from identical immune cells cloned from a single parent B-cell.",
+      "takeaway": "Monoclonal antibodies are laboratory-produced through the cloning of a single parent B-cell, distinguishing them from naturally extracted polyclonal antibodies found in convalescent plasma.",
+      "evidenceExcerpt": "Monoclonal antibodies are laboratory-produced proteins... Origin: Derived from identical immune cells cloned from a single parent B-cell."
+    }
+  ]
+}

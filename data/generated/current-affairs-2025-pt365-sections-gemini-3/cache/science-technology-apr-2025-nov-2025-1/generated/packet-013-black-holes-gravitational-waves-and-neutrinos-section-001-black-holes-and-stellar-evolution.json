@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "statement-based",
+      "prompt": "With reference to the life cycle of stars and black holes, consider the following statements:\n1. Low- and medium-mass stars evolve into white dwarfs at the end of their life cycle.\n2. Both high-mass and very high-mass stars undergo a supernova explosion before reaching their final evolutionary stages.\n3. Black holes are classified solely into stellar-mass and supermassive categories based on their size.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Low- and medium-mass stars (like the Sun) evolve into White Dwarfs. Statement 2 is correct: High-mass stars evolve into Neutron Stars after a supernova explosion, and very high-mass stars evolve into Black Holes after a supernova explosion. Statement 3 is incorrect: Black holes are classified into stellar-mass, intermediate-mass (IMBH), and supermassive black holes.",
+      "takeaway": "Stellar evolution is determined by mass. While low/medium-mass stars become white dwarfs, heavier stars undergo supernova explosions to become either neutron stars or black holes. Black holes exist in at least three mass categories: stellar, intermediate, and supermassive.",
+      "evidenceExcerpt": "Low- and medium-mass stars (like the Sun) evolve into White Dwarfs. High-mass stars evolve into Neutron Stars after a supernova explosion. Very high-mass stars evolve into Black Holes after a supernova explosion. Types of black holes include Stellar-Mass, Intermediate-Mass (IMBH), and Supermassive Black Holes."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "correct-pair",
+      "prompt": "Consider the following pairs regarding the final evolutionary stages of stars based on their initial mass:\n\n1. Low- and medium-mass stars : Neutron Stars\n2. High-mass stars : White Dwarfs\n3. Very high-mass stars : Black Holes\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Pair 1 is incorrectly matched: Low- and medium-mass stars (like the Sun) evolve into White Dwarfs. Pair 2 is incorrectly matched: High-mass stars evolve into Neutron Stars after a supernova explosion. Pair 3 is correctly matched: Very high-mass stars evolve into Black Holes after a supernova explosion. Therefore, only one pair is correctly matched.",
+      "takeaway": "The ultimate fate of a star is dictated by its mass: low/medium mass leads to a White Dwarf, high mass leads to a Neutron Star, and very high mass leads to a Black Hole.",
+      "evidenceExcerpt": "Stellar evolution depends on mass: low/medium-mass stars become white dwarfs, high-mass stars become neutron stars, and very high-mass stars collapse into black holes."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "assertion-reason",
+      "prompt": "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R):\n\nAssertion (A): Black holes cannot be directly observed using conventional optical telescopes.\nReason (R): Black holes do not emit or reflect light; instead, their gravity is so intense that even light cannot escape them.\n\nIn the context of the above two statements, which one of the following is correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both A and R are correct and R is the correct explanation of A"
+        },
+        {
+          "id": "B",
+          "text": "Both A and R are correct but R is not the correct explanation of A"
+        },
+        {
+          "id": "C",
+          "text": "A is correct but R is not correct"
+        },
+        {
+          "id": "D",
+          "text": "A is not correct but R is correct"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Assertion (A) is correct because black holes are invisible to optical telescopes. Reason (R) is correct and provides the accurate explanation for (A): black holes are regions of space where gravity is so strong that light cannot escape, meaning they do not emit or reflect light. They are instead detected indirectly by their gravitational effects on surrounding stars and gas.",
+      "takeaway": "Because black holes trap all light and emit none, astronomers must rely on indirect detection methods, such as observing the gravitational influence a black hole exerts on nearby matter.",
+      "evidenceExcerpt": "Black holes are regions where gravity is so strong that light cannot escape... Black holes do not emit or reflect light; they are detected by their gravitational effects on surrounding stars and gas."
+    }
+  ]
+}

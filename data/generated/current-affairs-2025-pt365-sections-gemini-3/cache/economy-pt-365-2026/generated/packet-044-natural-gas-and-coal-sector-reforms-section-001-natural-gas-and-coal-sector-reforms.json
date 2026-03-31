@@ -1,0 +1,149 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Comparison-driven",
+      "prompt": "In the context of India's estimated reserves of Natural Gas, which of the following regions are correctly arranged in descending order of their reserve share?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Western Offshore > Eastern Offshore > Assam > Rajasthan"
+        },
+        {
+          "id": "B",
+          "text": "Eastern Offshore > Western Offshore > Gujarat > Assam"
+        },
+        {
+          "id": "C",
+          "text": "Western Offshore > Assam > Eastern Offshore > Andhra Pradesh"
+        },
+        {
+          "id": "D",
+          "text": "Assam > Western Offshore > Rajasthan > Gujarat"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "According to the data, the distribution is: Western Offshore (31%), Eastern Offshore (24%), Assam (15%), Andhra Pradesh (6%), Rajasthan (6%), and Gujarat (5%). Therefore, Option A correctly follows the descending order.",
+      "takeaway": "Offshore reserves (Western and Eastern) constitute the majority (over 50%) of India's natural gas reserves.",
+      "evidenceExcerpt": "Estimated Reserves of Natural Gas in India: Western Offshore: 31%; Eastern Offshore: 24%; Assam: 15%; Andhra Pradesh: 6%; Rajasthan: 6%; Gujarat: 5%.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Conceptual",
+      "prompt": "The 'Natural Gas Pipeline Tariff Regulations, 2025' introduced the concept of a 'Pipeline Development Reserve'. Which of the following best describes its mechanism?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is a fund created by the government to subsidize pipeline construction in hilly terrains."
+        },
+        {
+          "id": "B",
+          "text": "It uses earnings from pipeline entities that exceed a specific capacity utilization benchmark to support sustainable infrastructure."
+        },
+        {
+          "id": "C",
+          "text": "It is a mandatory contribution by LNG importers to offset the carbon footprint of natural gas transportation."
+        },
+        {
+          "id": "D",
+          "text": "It is a sovereign wealth fund dedicated to acquiring natural gas assets in Russia and Qatar."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Pipeline Development Reserve is a sustainable infrastructure model created by the PNGRB. It utilizes earnings from pipeline entities that exceed a 75% utilization benchmark.",
+      "takeaway": "The Pipeline Development Reserve is designed to capture excess earnings from high-utilization pipelines to reinvest in the sector's sustainability.",
+      "evidenceExcerpt": "Pipeline Development Reserve – A Sustainable Infra Model: It creates a Pipeline Development Reserve, using earnings from pipeline entities that exceed 75% utilization benchmark.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Direct Recall",
+      "prompt": "India aims to transition towards a 'Gas Based Economy' by 2030. What is the specific target for the share of natural gas in India's primary energy basket by that year?",
+      "options": [
+        {
+          "id": "A",
+          "text": "10 percent"
+        },
+        {
+          "id": "B",
+          "text": "15 percent"
+        },
+        {
+          "id": "C",
+          "text": "20 percent"
+        },
+        {
+          "id": "D",
+          "text": "25 percent"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "India's vision for a Gas Based Economy includes increasing the share of natural gas in its primary energy basket to 15 percent by 2030.",
+      "takeaway": "The 15% target is a key milestone for India's energy transition and decarbonization strategy.",
+      "evidenceExcerpt": "The discovery aligns with India’s vision of establishing a Gas Based Economy by 2030 and increasing share of natural gas in its primary energy basket to 15 percent by 2030.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Correct-pair",
+      "prompt": "According to the data on estimated reserves of Natural Gas in India, which of the following pairs of 'State/Region' and 'Type/Share' is correctly matched?",
+      "options": [
+        {
+          "id": "A",
+          "text": "West Bengal : Coal Bed Methane (CBM)"
+        },
+        {
+          "id": "B",
+          "text": "Assam : Largest share of total reserves"
+        },
+        {
+          "id": "C",
+          "text": "Gujarat : Highest onshore reserves"
+        },
+        {
+          "id": "D",
+          "text": "Madhya Pradesh : 15% of total reserves"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Based on the reserve data, West Bengal is specifically noted for Coal Bed Methane (CBM) with a 4% share. Western Offshore (31%) has the largest share, not Assam (15%). Madhya Pradesh (CBM) has only a 2% share.",
+      "takeaway": "Natural gas reserves in India are diversified across offshore basins and unconventional sources like CBM in West Bengal and MP.",
+      "evidenceExcerpt": "Estimated Reserves of Natural Gas in India: West Bengal (CBM): 4%; Madhya Pradesh (CBM): 2%; Western Offshore: 31%; Assam: 15%.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "In the context of the 'Natural Gas Pipeline Tariff Regulations, 2025', what is the primary objective of streamlining the 'Unified Tariff Zones'?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To increase the number of zones to ensure localized pricing."
+        },
+        {
+          "id": "B",
+          "text": "To simplify the transportation system by reducing the number of zones from three to two."
+        },
+        {
+          "id": "C",
+          "text": "To eliminate all tariff zones and move to a single national price."
+        },
+        {
+          "id": "D",
+          "text": "To provide separate zones for domestic and imported gas."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The second amendment to the Natural Gas Pipeline Tariff Regulations, 2025, reduces the number of Unified Tariff Zones from three to two to simplify the transportation system.",
+      "takeaway": "Tariff zone reduction is a reform aimed at simplifying the logistics and pricing structure of natural gas across the country.",
+      "evidenceExcerpt": "Streamlined Tariff Zones: It reduces the number of Unified Tariff Zones from three to two, simplifying the transportation system.",
+      "contextLines": []
+    }
+  ]
+}

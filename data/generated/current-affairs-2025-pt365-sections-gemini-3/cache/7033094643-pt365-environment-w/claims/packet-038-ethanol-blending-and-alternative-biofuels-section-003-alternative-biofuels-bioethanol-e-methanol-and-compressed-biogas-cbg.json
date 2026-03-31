@@ -1,0 +1,66 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-038-ethanol-blending-and-alternative-biofuels-section-003-alternative-biofuels-bioethanol-e-methanol-and-compressed-biogas-cbg",
+    "claimType": "Factual",
+    "claimText": "Bamboo is classified as a second-generation (2G) ethanol feedstock due to its high lignocellulose content and non-food nature.",
+    "evidenceExcerpt": "Bamboo is an attractive 2G ethanol feedstock due to its high lignocellulose content and non-food nature.",
+    "pageNumbers": [
+      79
+    ],
+    "examUse": "Statement-based question on the classification of biofuel generations and their respective feedstocks.",
+    "distractorHooks": [
+      "First-generation (1G) feedstock",
+      "Third-generation (3G) feedstock",
+      "Low lignocellulose content"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-038-ethanol-blending-and-alternative-biofuels-section-003-alternative-biofuels-bioethanol-e-methanol-and-compressed-biogas-cbg",
+    "claimType": "Conceptual",
+    "claimText": "E-Methanol is a low-carbon fuel produced by combining green hydrogen, derived from water electrolysis, with captured carbon dioxide.",
+    "evidenceExcerpt": "E-Methanol is a low-carbon fuel produced by combining green hydrogen with captured carbon dioxide.",
+    "pageNumbers": [
+      79
+    ],
+    "examUse": "Process and composition question regarding alternative low-carbon fuels.",
+    "distractorHooks": [
+      "Grey hydrogen",
+      "Blue hydrogen",
+      "Combining methane with oxygen"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-038-ethanol-blending-and-alternative-biofuels-section-003-alternative-biofuels-bioethanol-e-methanol-and-compressed-biogas-cbg",
+    "claimType": "Factual",
+    "claimText": "The 'Methanol Economy' Programme in India, which promotes the blending of Di-methyl Ether (DME) in LPG, is spearheaded by NITI Aayog.",
+    "evidenceExcerpt": "NITI Aayog spearheads the 'Methanol Economy' Programme in India, promoting blending of DME (Di-methyl Ether) in LPG.",
+    "pageNumbers": [
+      79
+    ],
+    "examUse": "Institution-feature question identifying the nodal agency for specific energy transition programs.",
+    "distractorHooks": [
+      "Ministry of New and Renewable Energy (MNRE)",
+      "Ministry of Petroleum and Natural Gas",
+      "Ministry of Environment, Forest and Climate Change"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-038-ethanol-blending-and-alternative-biofuels-section-003-alternative-biofuels-bioethanol-e-methanol-and-compressed-biogas-cbg",
+    "claimType": "Factual",
+    "claimText": "Raw biogas is produced through the anaerobic digestion of biomass and primarily consists of 55-60% Methane and 35-40% Carbon dioxide.",
+    "evidenceExcerpt": "Raw biogas is produced by anaerobic digestion of biomass and waste sources. Biogas primarily consists of Methane (55-60%) and Carbon dioxide (35-40%), along with impurities like H2S.",
+    "pageNumbers": [
+      79
+    ],
+    "examUse": "Statement-based question on the production process and chemical composition of biogas.",
+    "distractorHooks": [
+      "Aerobic digestion",
+      "Primarily consists of Carbon monoxide",
+      "Primarily consists of Hydrogen sulfide"
+    ]
+  }
+]

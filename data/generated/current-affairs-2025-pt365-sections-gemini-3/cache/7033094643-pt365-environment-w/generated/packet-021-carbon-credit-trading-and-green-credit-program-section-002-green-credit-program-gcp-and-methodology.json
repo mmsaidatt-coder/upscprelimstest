@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Green Credit Program (GCP):\n1. It is established under the provisions of the Environment (Protection) Act, 1986.\n2. The Indian Council of Forestry Research and Education (ICFRE) serves as the administering body for the program.\n3. The specific green credits generated from tree plantation under the revised methodology are freely tradable on domestic carbon exchanges.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The Green Credit Program is established under the Environment (Protection) Act, 1986. Statement 2 is correct: The Indian Council of Forestry Research and Education (ICFRE) is the administering body. Statement 3 is incorrect: Under the revised methodology for tree plantation, the specific green credits generated are non-tradable and non-transferable.",
+      "takeaway": "The GCP is a statutory, market-based mechanism under the EPA, 1986, administered by ICFRE. However, specific credits from tree plantation are non-tradable.",
+      "evidenceExcerpt": "The Green Credit Program is an innovative market-based mechanism established under the Environment (Protection) Act, 1986... Administered by the Indian Council of Forestry Research and Education (ICFRE)... These specific credits are non-tradable and non-transferable."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the revised tree plantation methodology under the Green Credit Program, consider the following statements:\n1. Identified land parcels for the program must be at least five hectares in size.\n2. The methodology is exclusively applicable to private agricultural lands and excludes forest lands.\n3. A minimum canopy density of 40% must be achieved on the land to claim the credits.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Eligible land parcels must be at least five hectares. Statement 2 is incorrect: The methodology specifically targets 'degraded forest land', not exclusively private agricultural lands. Statement 3 is correct: A minimum 40% canopy density is required to claim the credits.",
+      "takeaway": "The revised tree plantation methodology under the GCP requires a minimum land size of 5 hectares and targets degraded forest land, mandating a minimum 40% canopy density.",
+      "evidenceExcerpt": "Under the revised methodology for tree plantation, 1 Green Credit equals 1 new tree (over 5 years old) on degraded forest land with a minimum 40% canopy density... Eligible land parcels must be at least five hectares."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Feature-matching",
+      "prompt": "Which one of the following statements best reflects the valuation mechanism of a 'Green Credit' under the revised tree plantation methodology of the Green Credit Program?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It is equivalent to one metric ton of carbon dioxide sequestered by the restored forest land."
+        },
+        {
+          "id": "B",
+          "text": "It is equivalent to one new tree that is over five years old on degraded forest land."
+        },
+        {
+          "id": "C",
+          "text": "It is equivalent to one hectare of degraded land restored to a minimum of 10% canopy density."
+        },
+        {
+          "id": "D",
+          "text": "It is equivalent to the financial cost incurred in planting one hundred saplings under the Mission LiFE initiative."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Unlike traditional carbon credits which are measured in tons of CO2 equivalent, the revised methodology of the Green Credit Program explicitly defines 1 Green Credit as equal to 1 new tree (over 5 years old) on degraded forest land with a minimum 40% canopy density.",
+      "takeaway": "The GCP introduces a unique valuation metric for tree plantation where the unit of credit is based on the survival of individual trees (1 credit = 1 tree over 5 years old), rather than the volume of greenhouse gases sequestered.",
+      "evidenceExcerpt": "Under the revised methodology for tree plantation, 1 Green Credit equals 1 new tree (over 5 years old) on degraded forest land with a minimum 40% canopy density."
+    }
+  ]
+}

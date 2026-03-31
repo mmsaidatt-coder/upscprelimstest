@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to 'Monoclonal Antibodies (mAbs)', consider the following statements:\n1. They are laboratory-produced proteins derived from identical immune cells cloned from a single parent B-cell.\n2. They are engineered to bind to specific antigens, mimicking the body's natural immune response.\n3. Their therapeutic applications are restricted exclusively to the treatment of viral infections.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Monoclonal antibodies are laboratory-produced proteins derived from identical immune cells cloned from a single parent B-cell.\nStatement 2 is correct: They are engineered to bind to specific antigens, mimicking the body's natural immune response.\nStatement 3 is incorrect: Their therapeutic applications are not restricted to viral infections; they are widely used to treat cancers, autoimmune disorders, and viral infections.",
+      "takeaway": "Monoclonal antibodies are cloned from a single parent B-cell and have broad therapeutic applications beyond just viral infections, including cancer and autoimmune disease treatments.",
+      "evidenceExcerpt": "Monoclonal antibodies are laboratory-produced proteins, engineered to bind specific antigens, mimicking natural immune responses. Origin: Derived from identical immune cells cloned from a single parent B-cell... mAbs are derived from identical immune cells cloned from a single parent B-cell and are used to treat cancers, autoimmune disorders, and viral infections.",
+      "qualityScore": 85,
+      "reviewNotes": "The question effectively tests both the conceptual understanding of mAbs and their applications. The 'restricted exclusively' phrasing in statement 3 is a classic UPSC trap that rewards careful reading."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "Which one of the following best describes the origin and function of 'Monoclonal Antibodies', frequently seen in the news?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "They are naturally occurring proteins extracted from the blood plasma of recovered patients to provide passive immunity."
+        },
+        {
+          "id": "B",
+          "text": "They are laboratory-produced proteins cloned from a single parent B-cell, engineered to bind to specific antigens."
+        },
+        {
+          "id": "C",
+          "text": "They are live-attenuated viral strains used to stimulate the body's T-cells for long-term immunity."
+        },
+        {
+          "id": "D",
+          "text": "They are synthetic chemicals designed to inhibit viral replication by altering the host cell's genetic material."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Option B is correct: Monoclonal antibodies (mAbs) are laboratory-produced proteins engineered to bind specific antigens, mimicking natural immune responses. They are derived from identical immune cells cloned from a single parent B-cell.\nOption A describes convalescent plasma therapy (which contains polyclonal antibodies).\nOption C describes live-attenuated vaccines.\nOption D describes synthetic antiviral drugs.",
+      "takeaway": "Unlike natural antibodies extracted from plasma or vaccines that stimulate an active immune response, monoclonal antibodies are engineered in a lab from a single cloned B-cell to target specific antigens directly.",
+      "evidenceExcerpt": "Monoclonal antibodies are laboratory-produced proteins, engineered to bind specific antigens, mimicking natural immune responses. Origin: Derived from identical immune cells cloned from a single parent B-cell.",
+      "qualityScore": 85,
+      "reviewNotes": "A strong conceptual question. The distractors are highly plausible as they describe other common medical interventions (plasma therapy, vaccines, antivirals), requiring the candidate to know the specific definition of mAbs."
+    }
+  ],
+  "reviewerNotes": "Selected two strong questions from the candidate set. Candidate 1 was refined to match the standard UPSC 'How many statements are correct' format, testing both the origin and application of mAbs. Candidate 3 was chosen as a conceptual question with excellent, parallel distractors that test the candidate's ability to distinguish mAbs from plasma therapy, vaccines, and antivirals."
+}

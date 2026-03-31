@@ -1,0 +1,78 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-004-biological-diversity-act-and-abs-regulations-section-001-biological-diversity-access-and-benefit-sharing-regulation-2025",
+    "claimType": "Factual",
+    "claimText": "The Biological Diversity (Access and Benefit Sharing) Regulation 2025 was notified by the National Biodiversity Authority (NBA) to replace the 2014 Guidelines.",
+    "evidenceExcerpt": "Notified by the National Biodiversity Authority (NBA) to replace 2014 Guidelines.",
+    "pageNumbers": [
+      11
+    ],
+    "examUse": "Statement-based question identifying the notifying authority for ABS regulations.",
+    "distractorHooks": [
+      "Notified directly by the Ministry of Environment, Forest and Climate Change (MoEFCC)",
+      "Notified by State Biodiversity Boards"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-004-biological-diversity-act-and-abs-regulations-section-001-biological-diversity-access-and-benefit-sharing-regulation-2025",
+    "claimType": "Conceptual",
+    "claimText": "The 2025 ABS Regulations explicitly include Digital Sequence Information (DSI), which are digital representations of genetic resources like DNA/RNA, as a mode of benefit sharing.",
+    "evidenceExcerpt": "Includes Digital Sequence Information (DSI) - digital representations of genetic resources like DNA/RNA.",
+    "pageNumbers": [
+      11
+    ],
+    "examUse": "Statement-based question on the scope of biological resources covered under the new ABS regulations.",
+    "distractorHooks": [
+      "Excludes Digital Sequence Information (DSI)",
+      "Applies only to physical biological samples"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-004-biological-diversity-act-and-abs-regulations-section-001-biological-diversity-access-and-benefit-sharing-regulation-2025",
+    "claimType": "Exception",
+    "claimText": "Access to cultivated medicinal plants notified under the Biological Diversity Act 2002 is exempted from the 2025 ABS Regulations.",
+    "evidenceExcerpt": "Exempts access to cultivated medicinal plants notified under BDA 2002.",
+    "pageNumbers": [
+      11
+    ],
+    "examUse": "Statement-based question testing knowledge of exemptions under the ABS framework.",
+    "distractorHooks": [
+      "All medicinal plants, including wild ones, are exempted",
+      "Cultivated medicinal plants are subject to the highest benefit-sharing slab"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-004-biological-diversity-act-and-abs-regulations-section-001-biological-diversity-access-and-benefit-sharing-regulation-2025",
+    "claimType": "Factual",
+    "claimText": "Under the 2025 ABS Regulations, entities with an annual turnover of up to 5 Crore are subject to a 'nil' benefit sharing slab.",
+    "evidenceExcerpt": "Benefit sharing slabs range from nil (up to 5 Cr turnover) to 0.6% (above 250 Cr turnover).",
+    "pageNumbers": [
+      11
+    ],
+    "examUse": "Statement-based question on the financial thresholds and exemptions for benefit sharing.",
+    "distractorHooks": [
+      "A flat benefit sharing rate applies to all entities regardless of turnover",
+      "Entities with turnover up to 50 Crore are exempted"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-004-biological-diversity-act-and-abs-regulations-section-001-biological-diversity-access-and-benefit-sharing-regulation-2025",
+    "claimType": "Factual",
+    "claimText": "High-Value Biological Resources, such as red sanders, require a minimum of 5% of auction or sale proceeds to be shared as benefits under the 2025 ABS Regulations.",
+    "evidenceExcerpt": "High-Value Biological Resources (e.g., red sanders) require minimum 5% of auction/sale proceeds.",
+    "pageNumbers": [
+      11
+    ],
+    "examUse": "Statement-based question on specific provisions for high-value biological resources.",
+    "distractorHooks": [
+      "Maximum of 5% of auction proceeds",
+      "Minimum of 10% of auction proceeds",
+      "Exempted from benefit sharing if auctioned by the government"
+    ]
+  }
+]

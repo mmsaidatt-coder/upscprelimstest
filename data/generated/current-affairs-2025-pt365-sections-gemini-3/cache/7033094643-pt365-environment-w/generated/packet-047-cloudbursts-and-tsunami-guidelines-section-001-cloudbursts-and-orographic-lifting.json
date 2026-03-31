@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "statement-based",
+      "prompt": "Consider the following statements regarding cloudbursts:\n\n1. The India Meteorological Department (IMD) classifies a rainfall event as a cloudburst if 10 cm of rainfall is received at a station in one hour.\n2. Cloudbursts are exclusive to mountainous zones due to the necessity of orographic lifting.\n3. For every 1°C rise in temperature, the moisture-holding capacity of the air increases by approximately 7%, thereby exacerbating cloudburst risks.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The IMD defines a cloudburst as an event where 10 cm of rainfall is received at a station in one hour. Statement 2 is incorrect: While cloudbursts are more common in mountainous zones due to orographic lift, they also occur in the plains. Statement 3 is correct: Climate change exacerbates cloudbursts because every 1°C rise in temperature allows the air to hold approximately 7% more moisture.",
+      "takeaway": "Cloudbursts are defined by a specific intensity threshold (10 cm/hr) and are driven by both geographical factors (orographic lift) and thermodynamic factors (moisture-holding capacity linked to temperature).",
+      "evidenceExcerpt": "Occurs in plains as well, but more common in mountainous zones, due to orographic lift. India Meteorological Department (IMD) terms a rain event as cloud burst if 10 cm rainfall is received at a station in one hour. Challenges with Tackling: Climate Change (E.g., every 1°C rise lets air hold ~7% more moisture)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "statement-based",
+      "prompt": "With reference to the mechanisms and disaster risk reduction strategies for cloudbursts in India, consider the following statements:\n\n1. The National Disaster Management Plan (2019) integrates Landslide Hazard Zonation (LHZ) as a key measure for cloudburst disaster risk reduction.\n2. The primary cause of sudden precipitation during a cloudburst is the rapid intensification of downward air currents.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The National Disaster Management Plan (2019) includes Landslide Hazard Zonation (LHZ) as part of its Cloudburst Disaster Risk Reduction (DRR) Strategy. Statement 2 is incorrect: The sudden precipitation is not caused by the intensification of downward air currents, but rather by the lack or weakening of upward air currents (updrafts) that were previously suspending the water.",
+      "takeaway": "Understanding the precise aerodynamic mechanism of cloudbursts (failure of updrafts) is crucial, as is recognizing the integrated approach to disaster management that links cloudbursts with landslide risks.",
+      "evidenceExcerpt": "A violent upward flow of air prevents condensing raindrops from falling until the lack of upward air causes the whole stored water to fall at once... Measures: Cloudburst Disaster Risk Reduction (DRR) Strategy – National Disaster Management Plan (2019) including Landslide Hazard Zonation (LHZ)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "conceptual",
+      "prompt": "Which of the following best explains the primary thermodynamic mechanism by which climate change exacerbates the intensity of cloudbursts?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Increased surface temperatures lead to the formation of stronger atmospheric downdrafts that rapidly push precipitation to the ground."
+        },
+        {
+          "id": "B",
+          "text": "A rise in atmospheric temperature increases the moisture-holding capacity of the air, leading to a higher accumulation of precipitable water."
+        },
+        {
+          "id": "C",
+          "text": "Global warming accelerates the melting of mountain glaciers, which increases the local humidity and triggers orographic lifting."
+        },
+        {
+          "id": "D",
+          "text": "Elevated temperatures weaken the orographic lift in mountainous regions, causing moisture-laden clouds to stagnate and precipitate locally."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Climate change directly exacerbates cloudbursts because warmer air can hold more water vapor. Specifically, for every 1°C rise in temperature, the air's moisture-holding capacity increases by approximately 7%. This allows clouds to accumulate significantly more water before the updrafts fail, leading to more intense downpours.",
+      "takeaway": "The Clausius-Clapeyron relationship dictates that warmer air holds more moisture (~7% per 1°C), which is the primary driver behind the increased intensity of precipitation events like cloudbursts in a warming climate.",
+      "evidenceExcerpt": "Challenges with Tackling: Climate Change (E.g., every 1°C rise lets air hold ~7% more moisture)."
+    }
+  ]
+}

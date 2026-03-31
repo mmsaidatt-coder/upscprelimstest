@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Multiple Statement",
+      "prompt": "Consider the following statements regarding the composition and distribution of matter in the universe:\n1. Baryonic matter is primarily composed of particles such as protons and neutrons.\n2. The majority of the universe's ordinary matter is concentrated within galaxies and their halos.\n3. Dark matter constitutes approximately 27% of the cosmos.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Ordinary matter, also known as baryonic matter, is composed of baryons like protons and neutrons. Statement 2 is incorrect: Only about 9% of ordinary matter is within galaxies and 15% in galaxy halos. The vast majority (76%) is distributed in the intergalactic medium (IGM) as thin gas. Statement 3 is correct: Dark matter makes up about 27% of the cosmos.",
+      "takeaway": "The vast majority of ordinary (baryonic) matter in the universe is not found in stars or planets within galaxies, but rather as thin gas in the intergalactic medium.",
+      "evidenceExcerpt": "Ordinary matter (baryonic matter) includes gas, dust, stars, and planets... It is distributed 76% in the intergalactic medium, 15% in galaxy halos, and 9% within galaxies. Dark matter makes up about 27% of the cosmos...",
+      "qualityScore": 85,
+      "reviewNotes": "Excellent use of the 'How many statements' format. The distractor in statement 2 is highly plausible for candidates who assume matter is mostly in galaxies."
+    }
+  ],
+  "reviewerNotes": "Selected 4 high-quality questions covering the core concepts of the text: properties of dark vs ordinary matter, distribution of baryonic matter, and the mechanism of FRBs. Rewrote prompts and distractors to align with UPSC standards, ensuring plausibility and clarity. Dropped the 5th candidate to avoid redundancy."
+}

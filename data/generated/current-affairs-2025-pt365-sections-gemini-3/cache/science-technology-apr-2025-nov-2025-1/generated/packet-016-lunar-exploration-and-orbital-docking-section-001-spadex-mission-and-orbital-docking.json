@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "statement-based",
+      "prompt": "Consider the following statements regarding ISRO's 'SpaDeX Mission':\n1. It aims to demonstrate rendezvous and docking technology between two spacecraft in a geostationary orbit.\n2. The mission utilizes the indigenously developed Bhartiya Docking System.\n3. With the success of this mission, India became the fourth country globally to achieve satellite docking in space.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The SpaDeX Mission aims to demonstrate rendezvous, docking, and undocking of two small spacecraft in a low-Earth circular orbit, not a geostationary orbit. Statement 2 is correct: The docking technology is indigenously developed by ISRO and is known as the Bhartiya Docking System. Statement 3 is correct: The mission made India the fourth country in the world to achieve satellite docking in space, after the US, Russia, and China.",
+      "takeaway": "The SpaDeX Mission demonstrates ISRO's Bhartiya Docking System in a low-Earth orbit, making India the fourth nation to master space docking.",
+      "evidenceExcerpt": "Objective: To develop and demonstrate the technology needed for rendezvous, docking, and undocking of two small spacecraft (SDX01 (Chaser) and SDX02 (Target)) in a low-Earth circular orbit. The mission made India the fourth country in the world to achieve satellite docking in space, joining the ranks of the US, Russia, and China."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "correct-pair",
+      "prompt": "Consider the following pairs regarding the components and institutions associated with the SpaDeX Mission:\n\n1. SDX01 : Target spacecraft\n2. SDX02 : Chaser spacecraft\n3. UR Rao Satellite Centre (URSC) : Designer of the SpaDeX spacecraft\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Pair 1 is incorrect: SDX01 is designated as the 'Chaser' spacecraft. Pair 2 is incorrect: SDX02 is designated as the 'Target' spacecraft. Pair 3 is correct: The SpaDeX spacecraft were designed by the UR Rao Satellite Centre (URSC).",
+      "takeaway": "In the SpaDeX mission, SDX01 acts as the Chaser and SDX02 as the Target. Both were designed by the UR Rao Satellite Centre (URSC).",
+      "evidenceExcerpt": "Objective: To develop and demonstrate the technology needed for rendezvous, docking, and undocking of two small spacecraft (SDX01 (Chaser) and SDX02 (Target)) in a low-Earth circular orbit... The SpaDeX spacecraft were designed by the UR Rao Satellite Centre (URSC)."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "conceptual",
+      "prompt": "The term 'Bhartiya Docking System', recently mentioned in the context of ISRO's space endeavors, refers to:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "An automated system for recovering reusable launch vehicles in the ocean."
+        },
+        {
+          "id": "B",
+          "text": "An indigenously developed technology for joining two fast-moving satellites in space."
+        },
+        {
+          "id": "C",
+          "text": "A specialized module for anchoring lunar rovers to the lunar surface."
+        },
+        {
+          "id": "D",
+          "text": "A ground-based tracking system for deep space missions."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Bhartiya Docking System is an indigenously developed technology by ISRO designed for the rendezvous and joining (docking) of two fast-moving satellites in space, successfully demonstrated during the SpaDeX Mission.",
+      "takeaway": "The Bhartiya Docking System is ISRO's indigenous technology for satellite docking in space, a critical capability for future space stations.",
+      "evidenceExcerpt": "The docking technology (joining of two fast-moving satellites in space), indigenously developed by ISRO, is known as the Bhartiya Docking System."
+    }
+  ]
+}

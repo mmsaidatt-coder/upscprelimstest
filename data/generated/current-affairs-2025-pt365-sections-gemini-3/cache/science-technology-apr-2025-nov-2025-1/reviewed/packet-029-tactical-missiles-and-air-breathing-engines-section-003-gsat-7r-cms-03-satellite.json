@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the GSAT-7R (CMS-03) satellite:\n1. It is a dedicated military satellite designed primarily to secure communication links for the Indian Air Force.\n2. It provides multi-band telecommunication services across the Indian Ocean Region up to 2,000 km from India's coastline.\n3. It has been deployed to replace the GSAT-7 (Rukmini) satellite.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The GSAT-7R satellite is primarily designed to strengthen maritime domain awareness and secure communication links for the Indian Navy, not the Indian Air Force. Statement 2 is correct: It provides multi-band telecommunication services across the Indian Ocean Region up to 2,000 km from India's coastline. Statement 3 is correct: It is designed to replace the multi-band communication satellite GSAT-7/INSAT-4F (Rukmini).",
+      "takeaway": "GSAT-7R (CMS-03) is a dedicated naval communication satellite that replaces the older GSAT-7 (Rukmini), providing coverage up to 2,000 km into the Indian Ocean Region.",
+      "evidenceExcerpt": "It provides multi-band telecommunication services across the Indian Ocean Region up to 2,000 km from India's coastline. Lifespan: 15 years and will replace the multi-band communication satellite GSAT-7/INSAT-4F Rukmini. Purpose: Strengthens space-based communication, maritime domain awareness, and secure links among Navy ships...",
+      "qualityScore": 85,
+      "reviewNotes": "Converted to the 'How many statements are correct' format. Tests the specific beneficiary, coverage range, and predecessor satellite."
+    }
+  ],
+  "reviewerNotes": "Selected three questions covering different aspects of the GSAT-7R satellite: its strategic purpose, its specific operational details (beneficiary, coverage, predecessor), and its launch/orbital parameters. Rewrote statement-based questions to the 'How many statements are correct' format to align with recent UPSC trends."
+}

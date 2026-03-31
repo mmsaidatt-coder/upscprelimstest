@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the statutory procedure for forest clearance in India:\n1. The final clearance (Stage II) is granted only after the fulfillment of conditions stipulated in the in-principle approval, such as funding compensatory afforestation.\n2. Any proposal involving mining in forest areas, irrespective of the land size, requires clearance from the Ministry of Environment, Forest and Climate Change (MoEFCC).\n3. Clearance for non-mining projects involving up to 5 hectares of forest land is granted by the Chief Conservator.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: The procedure for Forest Clearance involves Stage I (In-Principle), which requires fulfilling conditions like funding compensatory afforestation, followed by Stage II, which is the final clearance. Statement 2 is correct: The MoEFCC grants clearance for any mining proposals, as well as non-mining projects above 5 hectares. Statement 3 is correct: The approval authority for non-mining projects up to 5 hectares lies with the Chief Conservator.",
+      "takeaway": "Forest clearance is a two-stage process. The MoEFCC handles all mining proposals and large projects (>5 ha), while smaller non-mining projects (up to 5 ha) are handled by the Chief Conservator.",
+      "evidenceExcerpt": "Procedure for Forest Clearance involves Stage I (In-Principle) and Stage II (Final). Approval Authority varies: up to 5 ha by Chief Conservator, above 5 ha or mining by MoEFCC. ... Stage I clearance requires conditions like funding compensatory afforestation; Stage II is final clearance."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Under the Forest (Conservation) Amendment Act, 2023, which of the following categories of land are exempted from the requirement of prior forest clearance?\n1. Forest land situated within 100 km of international borders or the Line of Actual Control (LAC) proposed for national security projects.\n2. Forest land up to 10 hectares proposed for defence or public utility projects in Left-Wing Extremism (LWE) affected areas.\n3. Land whose use was changed from forest to non-forest purposes before the year 1996.\n\nHow many of the above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The 2023 Act exempts forest land within 100 km of international borders or the LAC for national security projects. Statement 2 is incorrect: The exemption in Left-Wing Extremism (LWE) affected areas for defence or public utility projects is up to 5 hectares, not 10 hectares. (Up to 10 hectares is exempted for security infrastructure generally). Statement 3 is correct: The Act explicitly exempts land that was changed to non-forest use before 1996.",
+      "takeaway": "The 2023 Amendment introduces specific strategic exemptions, including a 100 km border buffer for national security, 10 ha for security infrastructure, and 5 ha for public utilities in LWE areas.",
+      "evidenceExcerpt": "It exempts land changed to non-forest use before 1996. ... Exemptions include land within 100 km of borders for national security, up to 10 ha for security infrastructure, and up to 5 ha in LWE areas."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the definition and scope of 'forest' under Indian law:\n1. The Forest (Conservation) Amendment Act, 2023 extends statutory protection to all lands recorded as 'forest' in government records prior to October 25, 1980.\n2. The Supreme Court has mandated that the dictionary meaning of 'forest' as per the 1996 Godavarman judgment must be followed until the formal identification of forest land is complete.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The Forest (Conservation) Amendment Act, 2023 defines a forest as land notified under laws like the Indian Forest Act 1927 or recorded in government records on or after October 25, 1980, not prior to it. Statement 2 is correct: The Supreme Court directed authorities to continue following the 1996 Godavarman dictionary meaning of 'forest' until the identification process is complete.",
+      "takeaway": "The 2023 Amendment restricts the definition of forests to notified lands and those recorded on or after October 25, 1980, but the Supreme Court has ordered the interim continuation of the broader Godavarman dictionary definition.",
+      "evidenceExcerpt": "The Forest (Conservation) Amendment Act, 2023 defines forest as land notified under laws like Indian Forest Act 1927 or recorded in govt records on/after Oct 25, 1980. ... Supreme Court directed following the 1996 Godavarman dictionary meaning until identification is complete."
+    }
+  ]
+}

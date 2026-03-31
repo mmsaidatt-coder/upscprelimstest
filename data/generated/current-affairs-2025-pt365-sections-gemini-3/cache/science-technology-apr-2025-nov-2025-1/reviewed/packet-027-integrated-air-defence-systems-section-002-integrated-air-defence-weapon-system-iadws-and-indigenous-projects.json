@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of components of the Integrated Air Defence Weapon System (IADWS) and their associated developing agencies/laboratories:\n\n1. Centralized Command Centre : Defence Research and Development Laboratory (DRDL)\n2. VSHORADS : Research Centre Imarat (RCI)\n3. High-power laser DEW : Centre for High Energy Systems and Sciences (CHESS)\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Pair 1 is correct: The Centralized Command Centre for IADWS is developed by DRDL. Pair 2 is correct: VSHORADS, a MANPADS for low-altitude threats, is associated with RCI. Pair 3 is correct: The high-power laser-based Directed Energy Weapon (DEW) is developed by CHESS.",
+      "takeaway": "The development of India's IADWS involves multiple specialized DRDO laboratories, including DRDL for command systems, RCI for VSHORADS, and CHESS for directed energy weapons.",
+      "evidenceExcerpt": "Components include a Centralized Command Centre (DRDL), QRSAM (DRDO, mobile platform for armoured columns), VSHORADS (RCI, MANPADS for low-altitude threats), and a high-power laser DEW (CHESS).",
+      "qualityScore": 90,
+      "reviewNotes": "Excellent factual question that rewards careful reading of the source material. Tests specific knowledge of DRDO laboratories and their respective contributions to the IADWS."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Statement",
+      "prompt": "Consider the following statements regarding the components of India's Integrated Air Defence Weapon System (IADWS):\n\n1. QRSAM is a mobile platform specifically designed to provide air defence cover to moving armoured columns.\n2. VSHORADS is a Man Portable Air Defence System (MANPADS) optimized for neutralizing high-altitude strategic bombers.\n3. The system incorporates a high-power laser-based Directed Energy Weapon (DEW).\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: QRSAM is a mobile platform meant to protect moving armoured columns. Statement 2 is incorrect: VSHORADS is designed for neutralizing low-altitude aerial threats, not high-altitude bombers. Statement 3 is correct: IADWS features a high-power laser DEW developed by CHESS.",
+      "takeaway": "IADWS integrates various components including QRSAM for armoured columns, VSHORADS for low-altitude threats, and Directed Energy Weapons (DEW) for advanced threat neutralization.",
+      "evidenceExcerpt": "IADWS components include QRSAM (protects moving armoured columns) and VSHORADS (MANPADS for low-altitude threats), and a high-power laser DEW (CHESS).",
+      "qualityScore": 85,
+      "reviewNotes": "Converted to a 'How many statements are correct?' format to match current UPSC trends. The distractor for VSHORADS tests the candidate's understanding of its operational niche."
+    }
+  ],
+  "reviewerNotes": "Selected 3 high-quality questions to avoid redundancy, as the source text is highly concentrated on a few facts. The questions cover the operational roles of IADWS components, the specifics of Project Kusha and Anant Shastra, and the specific DRDO laboratories involved in the development of these systems."
+}

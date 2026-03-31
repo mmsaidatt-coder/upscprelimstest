@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the key instruments of the International Union for Conservation of Nature (IUCN):\n1. The IUCN Red List of Threatened Species classifies species into nine distinct categories.\n2. The IUCN Green Status of Species measures the extinction risk of species using a Green Score ranging from 0 to 100%.\n3. The IUCN Green Status evaluates species recovery and conservation success across eight categories.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The IUCN Red List divides species into 9 categories (from Not Evaluated to Extinct). Statement 2 is incorrect: The IUCN Green Status measures conservation success and recovery, not extinction risk (which is the primary focus of the Red List). Statement 3 is correct: The Green Status complements the Red List by measuring recovery across 8 categories using a Green Score.",
+      "takeaway": "The IUCN Red List (9 categories) assesses extinction risk, whereas the IUCN Green Status (8 categories) measures conservation success and proximity to full recovery.",
+      "evidenceExcerpt": "IUCN Red List divides species into 9 categories... IUCN Green Status of Species launched in 2021 to measure conservation success... Green Status includes 8 categories and a Green Score (0-100%) indicating proximity to full recovery.",
+      "qualityScore": 85,
+      "reviewNotes": "Good conceptual distinction between the Red List and the newer Green Status, formatted in the current UPSC 'How many statements' style."
+    }
+  ],
+  "reviewerNotes": "Selected and refined four questions to cover distinct aspects of the source text: the conceptual difference between the Red List and Green Status, specific species status pairs, the terminology of 'uplisting', and a targeted question on Indian birds moving to Near Threatened. All questions adhere to the latest UPSC pattern."
+}

@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Genetic Engineering Appraisal Committee (GEAC): 1. It is a statutory committee constituted under the Environment (Protection) Act, 1986. 2. It operates under the administrative control of the Ministry of Science and Technology. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: GEAC is a statutory committee constituted under the 1989 Rules framed under the Environment (Protection) Act, 1986. Statement 2 is incorrect: It operates under the Ministry of Environment, Forest and Climate Change (MoEF&CC), not the Ministry of Science and Technology.",
+      "takeaway": "The GEAC derives its statutory backing from the Environment (Protection) Act, 1986, and functions under the MoEF&CC, making it an environmental regulatory body rather than a purely scientific or agricultural one.",
+      "evidenceExcerpt": "GEAC is a statutory committee constituted under the 1989 Rules framed under the Environment (Protection) Act, 1986. It operates under the Ministry of Environment, Forest and Climate Change (MoEF&CC)."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Application",
+      "prompt": "Which of the following activities fall under the regulatory appraisal mandate of the Genetic Engineering Appraisal Committee (GEAC)? 1. Environmental release of genetically engineered organisms. 2. Commercial release of genetically engineered products. 3. Large-scale use of hazardous microorganisms. Select the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "The GEAC is responsible for appraising proposals for the release of genetically engineered (GE) organisms and products into the environment. Additionally, its mandate extends beyond GM crops to include the appraisal of activities involving the large-scale use of hazardous microorganisms and recombinants.",
+      "takeaway": "The mandate of the GEAC is broad; it regulates not only genetically modified plants and agricultural products but also the large-scale industrial or research use of hazardous microorganisms.",
+      "evidenceExcerpt": "It is responsible for appraising proposals for the release of genetically engineered organisms and products, and activities involving large-scale use of hazardous microorganisms."
+    }
+  ]
+}

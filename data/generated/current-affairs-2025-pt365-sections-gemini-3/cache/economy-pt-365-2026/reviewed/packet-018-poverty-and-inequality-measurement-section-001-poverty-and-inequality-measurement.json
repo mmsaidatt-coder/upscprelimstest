@@ -1,0 +1,160 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "With reference to the Global Multidimensional Poverty Index (MPI), consider the following statements:\n1. The MPI value is calculated as the product of the incidence of poverty and the intensity of poverty.\n2. A person is identified as multidimensionally poor only if their deprivation score is 50% or higher.\n3. The MPI is also referred to as the 'adjusted headcount ratio'.\nWhich of the statements given above are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: The MPI value is the product of the incidence (H, the proportion of people who are poor) and the intensity (A, the average deprivation score among the poor). Statement 2 is incorrect: The global MPI identifies people as multidimensionally poor if their deprivation score is one-third (33.3%) or higher, not 50%. Statement 3 is correct: The MPI is known as the adjusted headcount ratio because it includes both the share of people in poverty and the extent of their deprivation.",
+      "takeaway": "The MPI (H x A) captures both the prevalence and the depth of poverty, using a 33.3% deprivation threshold.",
+      "evidenceExcerpt": "The global MPI identifies people as multidimensionally poor if their deprivation score is one third (33.3%) or higher... MPI = H × A... The MPI is known as the adjusted headcount ratio.",
+      "qualityScore": 92,
+      "reviewNotes": "Standard UPSC format for index methodology. Distinguishes between incidence and intensity correctly.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Application",
+      "prompt": "In the Global Multidimensional Poverty Index (MPI) framework, which of the following indicators is assigned the highest individual weight?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Nutrition"
+        },
+        {
+          "id": "B",
+          "text": "Cooking Fuel"
+        },
+        {
+          "id": "C",
+          "text": "Sanitation"
+        },
+        {
+          "id": "D",
+          "text": "Drinking Water"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "The MPI has three dimensions (Health, Education, Living Standards), each weighted at 1/3. The Health dimension has 2 indicators (Nutrition and Child Mortality), so each is weighted at 1/6 (approx. 16.6%). The Living Standards dimension has 6 indicators (Cooking fuel, Sanitation, Water, Electricity, Housing, Assets), so each is weighted at 1/18 (approx. 5.5%). Therefore, Nutrition has a higher weight than any indicator in the Living Standards dimension.",
+      "takeaway": "Indicators in the Health and Education dimensions (1/6 weight) carry three times the weight of indicators in the Living Standards dimension (1/18 weight).",
+      "evidenceExcerpt": "Health (1/3 weight): Nutrition (1/6), Child mortality (1/6). Living Standards (1/3 weight): Cooking fuel (1/18), Sanitation (1/18), Drinking water (1/18)...",
+      "qualityScore": 90,
+      "reviewNotes": "Requires understanding the internal weighting logic of the index, moving beyond simple identification.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Feature-matching",
+      "prompt": "The National Multidimensional Poverty Index (MPI) released by NITI Aayog incorporates which of the following indicators in addition to the ten indicators used in the Global MPI?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Access to Internet and Digital Literacy"
+        },
+        {
+          "id": "B",
+          "text": "Maternal Health and Bank Accounts"
+        },
+        {
+          "id": "C",
+          "text": "Social Security and Unemployment Benefits"
+        },
+        {
+          "id": "D",
+          "text": "Child Immunization and Adult Literacy"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "While the National MPI uses the same 10 indicators as the Global MPI (across Health, Education, and Living Standards), NITI Aayog adds two India-specific indicators: Maternal Health and Bank Accounts, bringing the total to 12 indicators.",
+      "takeaway": "India's National MPI is more comprehensive than the Global MPI, adding Maternal Health and Bank Accounts.",
+      "evidenceExcerpt": "NITI Aayog National Multidimensional Poverty Index Methodology: It uses all 10 indicators from Global MPI and incorporating two additional indicators – Maternal Health and Bank Accounts.",
+      "qualityScore": 88,
+      "reviewNotes": "Focuses on the specific adaptation of a global index for the Indian context, a common UPSC theme.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Current Affairs",
+      "prompt": "According to the 2025 Global Multidimensional Poverty Index (MPI) report, which of the following statements regarding poverty in India is/are correct?\n1. The share of multidimensionally poor people in India fell from over 55% in 2005-06 to approximately 16.4% in 2019-21.\n2. Over 400 million people exited poverty in India during the period between 2005-06 and 2019-21.\nSelect the correct answer using the code given below:",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: In 2005–2006, 55.1% of people in India were poor, which dropped to 16.4% in 2019–2021. Statement 2 is correct: Roughly 414 million people (which is over 400 million) left poverty during this timeframe.",
+      "takeaway": "India has seen a significant reduction in multidimensional poverty, with both the percentage and absolute number of poor people declining sharply.",
+      "evidenceExcerpt": "Poverty in India: In 2005–2006, 55.1 % of people in India were poor. The share plummeted to 16.4 % in 2019–2021, and roughly 414 million people left poverty.",
+      "qualityScore": 87,
+      "reviewNotes": "Uses specific data points from the report to test awareness of India's poverty trends.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Definitional",
+      "prompt": "In the context of Indian economic surveys and labour statistics, which of the following best defines a 'rural labourer'?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A person who works exclusively in agricultural activities in rural areas for cash wages."
+        },
+        {
+          "id": "B",
+          "text": "A person who performs manual work in rural areas in return for wages in cash or kind."
+        },
+        {
+          "id": "C",
+          "text": "A person who owns less than one hectare of land and works as a tenant farmer."
+        },
+        {
+          "id": "D",
+          "text": "A person who is employed under MGNREGA for a minimum of 100 days in a financial year."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A rural labourer is defined as one who does manual work in rural areas in both agricultural and non-agricultural occupations. The compensation can be in cash, in kind (like food grains), or a combination of both.",
+      "takeaway": "The definition of rural labourer includes manual work across sectors and accepts various forms of wage payment.",
+      "evidenceExcerpt": "A rural labourer is defined as one who does manual work in rural areas in agricultural and nonagricultural occupations in return for wages in cash or kind, or partly in cash and partly in kind.",
+      "qualityScore": 85,
+      "reviewNotes": "Clear definitional question based on the text's specific terminology.",
+      "contextLines": []
+    }
+  ],
+  "reviewerNotes": "The questions cover the methodology of the Global MPI, the specific differences in the National MPI, the weighting logic of indicators, the definition of rural labour, and the latest trends for India. All questions are grounded in the provided text and follow UPSC's style of combining conceptual clarity with factual accuracy."
+}

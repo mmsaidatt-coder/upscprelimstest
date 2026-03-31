@@ -1,0 +1,98 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Polity",
+      "difficulty": "Hard",
+      "questionType": "Feature-matching",
+      "prompt": "Consider the following pairs of Judicial Pronouncements and their respective impacts on India's electoral process: 1. Lily Thomas v. Union of India (2013) — Immediate disqualification of convicted legislators. 2. People’s Union for Civil Liberties v. Union of India (2013) — Introduction of NOTA as a fundamental right under Article 19(1)(a). 3. ADR v. Union of India (2024) — Declaration of the Electoral Bonds Scheme as unconstitutional. How many of the pairs given above are correctly matched?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "All three pairs are correctly matched. Lily Thomas (2013) struck down Section 8(4) of the RPA, 1951, ending the three-month protection for sitting legislators from immediate disqualification upon conviction. PUCL (2013) introduced the 'None of the Above' (NOTA) option on EVMs, linking it to the fundamental right of choice under Article 19(1)(a). ADR (2024) declared the Electoral Bonds Scheme unconstitutional to restore transparency in political funding.",
+      "takeaway": "Key judicial interventions have historically shaped transparency, disqualification norms, and voter choice in Indian elections.",
+      "evidenceExcerpt": "People’s Union for Civil Liberties (PUCL) v. Union of India (2013): Introduced NOTA option on EVMs; empowering fundamental right of choice (Article 19(1)(a)). Lily Thomas v. Union of India (2013): Struck down Section 8(4) of RPA, 1951, ensuring immediate disqualification of convicted legislators. ADR v. Union of India (2024): Declared Electoral Bonds Scheme unconstitutional, restoring transparency in political funding.",
+      "qualityScore": 88,
+      "reviewNotes": "This question tests high-level judicial developments in electoral law, a common UPSC theme. The 'How many' format aligns with recent trends.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding recent electoral reforms and initiatives in India: 1. The 'Home Voting' facility introduced in the 2024 general elections is available to senior citizens above 85 years of age. 2. The Systematic Voters' Education and Electoral Participation (SVEEP) program was launched in 2009 to enhance voter participation. 3. The Election Commission of India (ECI) aims to eliminate duplicate voter IDs by 2025 with the support of UIDAI. How many of the statements given above are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "All three statements are correct. Home voting was extended to senior citizens above 85 years and PwDs with 40% disability in 2024. SVEEP was launched in 2009. The ECI is currently working with UIDAI to eliminate duplicate voter IDs, with a target year of 2025.",
+      "takeaway": "Recent reforms focus on inclusivity (home voting), education (SVEEP), and data integrity (duplicate ID elimination).",
+      "evidenceExcerpt": "SVEEP (Systematic Voters' Education and Electoral Participation), 2009 enhance voter participation. Home voting for senior citizens above 85 years and PwDs with 40% disability in 2024 general elections. Elimination of duplicate voter IDs (2025) is underway with UIDAI support.",
+      "qualityScore": 87,
+      "reviewNotes": "The question integrates specific current affairs facts (age criteria, target years) with established programs like SVEEP.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Election Commission of India (ECI), consider the following statements: 1. It administers elections to the Lok Sabha, Rajya Sabha, and State Legislative Assemblies. 2. It is responsible for conducting elections to the offices of the President and Vice President of India. 3. The ECI prepares electoral rolls for elections to the Panchayats and Municipalities. How many of the statements given above are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statements 1 and 2 are correct. Under Article 324(1), the ECI administers elections to the Lok Sabha, Rajya Sabha, State Legislative Assemblies, and the offices of the President and Vice President. Statement 3 is incorrect because the preparation of electoral rolls and conduct of elections for Panchayats and Municipalities are the responsibility of the State Election Commissions (SEC), not the ECI.",
+      "takeaway": "The ECI's jurisdiction is limited to Union and State-level elections; local body elections fall under State Election Commissions.",
+      "evidenceExcerpt": "Key role: Administers elections to Lok Sabha, Rajya Sabha, State Legislative Assemblies, and Offices of President and Vice President. (Article 324(1)). Prepares electoral rolls for Lok Sabha and State Assemblies.",
+      "qualityScore": 86,
+      "reviewNotes": "This is a fundamental conceptual question that tests the boundary between ECI and SEC responsibilities, a frequent area of confusion for candidates.",
+      "contextLines": []
+    }
+  ],
+  "reviewerNotes": "The selected questions cover judicial pronouncements, institutional scope, recent reforms, and the legal/constitutional genesis of the ECI. All questions are grounded in the provided text and follow the latest UPSC MCQ format."
+}

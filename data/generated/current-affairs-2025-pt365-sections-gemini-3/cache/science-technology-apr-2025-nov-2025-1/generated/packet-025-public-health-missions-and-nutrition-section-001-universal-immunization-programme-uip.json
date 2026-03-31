@@ -1,0 +1,97 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-choice",
+      "prompt": "Consider the following diseases:",
+      "contextLines": [
+        "1. Diphtheria",
+        "2. Japanese Encephalitis",
+        "3. Childhood Tuberculosis",
+        "4. Dengue",
+        "How many of the above diseases are covered for free immunization under India's Universal Immunization Programme (UIP)?"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The UIP provides free immunization against 12 diseases: Diphtheria, Pertussis, Tetanus, Polio, Measles, Rubella, Childhood Tuberculosis, Hepatitis B, Meningitis & Pneumonia, Rotavirus diarrhoea, Pneumococcal Pneumonia, and Japanese Encephalitis. Dengue is not covered under the UIP.",
+      "takeaway": "While the UIP covers several severe and vector-borne diseases like Japanese Encephalitis, it does not currently include vaccines for Dengue or Malaria.",
+      "evidenceExcerpt": "Universal Immunization Programme (UIP) of India Provides free immunization against 12 diseases: Diphtheria, Pertussis, Tetanus, Polio, Measles, Rubella, Childhood Tuberculosis, Hepatitis B, Meningitis & Pneumonia, Rotavirus diarrhoea, Pneumococcal Pneumonia, and Japanese Encephalitis."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Universal Immunization Programme (UIP) in India: 1. It provides free immunization against both viral and bacterial infections, including Rotavirus diarrhoea and Pneumococcal Pneumonia. 2. The programme has led to the successful elimination of Measles and Rubella in India. 3. It currently operates as a central component under the National Rural Health Mission (NRHM). How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: UIP covers 12 diseases including viral (Rotavirus) and bacterial (Pneumococcal Pneumonia) infections. Statement 2 is incorrect: India has achieved Polio-Free status and eliminated Neonatal tetanus, but Measles and Rubella are still targeted for elimination. Statement 3 is correct: UIP operates as a central component under the NRHM.",
+      "takeaway": "UIP covers 12 specific vaccine-preventable diseases and operates under NRHM. Its key historical achievements include the elimination of Polio and Neonatal tetanus.",
+      "evidenceExcerpt": "UIP provides free immunization against 12 diseases including... Rotavirus diarrhoea, Pneumococcal Pneumonia... Under the National Rural Health Mission, the UIP has become a central component... Achievements: Polio-Free India and Neonatal tetanus elimination."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Scheme-feature",
+      "prompt": "With reference to the digitalization of public health services in India, the 'U-WIN' platform is primarily associated with:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Maintaining electronic health records of patients under the Ayushman Bharat Digital Mission."
+        },
+        {
+          "id": "B",
+          "text": "Digitalizing all vaccination services provided under the Universal Immunization Programme."
+        },
+        {
+          "id": "C",
+          "text": "Tracking the real-time availability of essential medicines and medical equipment at Primary Health Centres."
+        },
+        {
+          "id": "D",
+          "text": "Monitoring the nutritional status and supplementary feeding of pregnant women and lactating mothers."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The U-WIN Platform was launched specifically for the digitalization of all vaccination services provided under the Universal Immunization Programme (UIP).",
+      "takeaway": "U-WIN is the digital infrastructure designed to capture every vaccination event under the UIP, serving as a comprehensive registry for routine immunizations.",
+      "evidenceExcerpt": "U-WIN Platform has been launched for the digitalization of all vaccination services provided under UIP."
+    }
+  ]
+}

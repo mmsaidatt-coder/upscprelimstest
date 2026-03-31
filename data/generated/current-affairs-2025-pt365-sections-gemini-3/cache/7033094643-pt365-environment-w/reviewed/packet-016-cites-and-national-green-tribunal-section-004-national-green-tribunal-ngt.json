@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the National Green Tribunal (NGT):\n1. It was established as a statutory body under the Environment (Protection) Act, 1986.\n2. The members of the NGT hold office for a term of five years and are eligible for re-appointment.\n3. Appeals against the orders of the NGT can be made to the Supreme Court within ninety days.\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect: The NGT was established in 2010 under its own specific legislation, the National Green Tribunal Act, not the Environment (Protection) Act. Statement 2 is incorrect: Members hold office for 5 years but are explicitly not eligible for re-appointment. Statement 3 is correct: Orders of the NGT are binding but not final, and appeals can be made to the Supreme Court within 90 days.",
+      "takeaway": "The NGT is a statutory body created by the NGT Act 2010. Its members serve a non-renewable 5-year term to ensure independence, and its decisions are appealable directly to the Supreme Court within a 90-day window.",
+      "evidenceExcerpt": "Established in 2010 under the NGT Act. ... Members: Hold office for 5 years, but shall not be eligible for re-appointment. Appeal: Orders are binding but not final (appeal could be made in SC within ninety days).",
+      "qualityScore": 85,
+      "reviewNotes": "Converted to the latest UPSC 'How many statements are correct' format. Tests key institutional features effectively."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the powers and procedures of the National Green Tribunal (NGT):\n1. It is bound by the procedure laid down under the Code of Civil Procedure.\n2. It possesses the powers of a Civil Court.\n3. Its principal place of sitting is New Delhi, and it operates through four other regional sitting places.\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The NGT is guided by the Principles of Natural Justice and is explicitly not bound by the Code of Civil Procedure or the Indian Evidence Act. Statement 2 is correct: Despite not being bound by the Code of Civil Procedure, the NGT has the powers of a Civil Court. Statement 3 is correct: The principal sitting place is New Delhi, with four other sitting places located in Bhopal, Pune, Kolkata, and Chennai. Therefore, exactly two statements are correct.",
+      "takeaway": "The NGT exercises civil court powers and operates through multiple regional benches across India in addition to its principal bench in New Delhi. It is guided by natural justice rather than strict civil procedure codes.",
+      "evidenceExcerpt": "Principal sitting place is New Delhi, with four others: Bhopal, Pune, Kolkata, Chennai. ... Powers: Has power of a Civil Court... Guided by Principles of Natural Justice and not bound by the Code of Civil Procedure or Indian Evidence Act.",
+      "qualityScore": 85,
+      "reviewNotes": "Replaced a generic statement with a specific procedural fact from the text. Converted to the 'How many' format to match current UPSC trends."
+    }
+  ],
+  "reviewerNotes": "Selected and refined 3 questions. All questions were converted to the contemporary UPSC 'How many statements are correct' format. Distractors were tightened to ensure they are plausible and strictly grounded in the provided text."
+}

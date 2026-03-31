@@ -1,0 +1,236 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding cross-border banking accounts:\n1. An account held by a United States-based bank in Indian Rupees with a bank in India is termed a Vostro account.\n2. An account held by an Indian bank in US Dollars with a bank in the United States is termed a Nostro account.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: A Vostro account is a foreign bank's account held in a domestic bank in the domestic currency (e.g., a US bank holding an INR account in an Indian bank). Statement 2 is correct: A Nostro account is a domestic bank's account held in a foreign bank in the foreign currency (e.g., an Indian bank holding a USD account in a US bank).",
+      "takeaway": "Vostro ('yours with us') and Nostro ('ours with you') are mirror concepts used in correspondent banking to facilitate cross-border transactions.",
+      "evidenceExcerpt": "A Vostro account is a foreign bank's account held in a domestic bank in the domestic currency (e.g., a US bank holding an INR account in SBI). A Nostro account is a domestic bank's account held in a foreign bank in the foreign currency."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the convertibility of the Indian Rupee, consider the following statements:\n1. The Rupee is fully convertible on the Current Account.\n2. The Rupee is fully convertible on the Capital Account for foreign institutional investors.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: In India, the Rupee is fully convertible on the Current Account, allowing unrestricted conversion for trade in goods, services, and remittances. Statement 2 is incorrect: The Capital Account remains only partially convertible in India, meaning there are restrictions on the conversion of the Rupee for capital transactions like investments and loans.",
+      "takeaway": "India adopted full Current Account convertibility in 1994 but maintains partial Capital Account convertibility to protect the economy from volatile capital flows.",
+      "evidenceExcerpt": "Currency convertibility has two components: Current Account (fully convertible in India) and Capital Account (partially convertible)."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Application",
+      "prompt": "The 'SPECTRA Project', sometimes mentioned in the news, is primarily related to:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Streamlining the reporting and approval of External Commercial Borrowings (ECBs) and Trade Credits."
+        },
+        {
+          "id": "B",
+          "text": "Facilitating real-time cross-border settlement of retail payments through the UPI network."
+        },
+        {
+          "id": "C",
+          "text": "Monitoring and regulating the issuance of Sovereign Green Bonds by the government."
+        },
+        {
+          "id": "D",
+          "text": "Providing a centralized platform for the resolution of Non-Performing Assets (NPAs)."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "The SPECTRA Project is a software platform designed to streamline the reporting and approval processes for External Commercial Borrowings (ECBs) and Trade Credits.",
+      "takeaway": "The SPECTRA Project is an initiative aimed at improving the ease of doing business by digitizing and streamlining the regulatory reporting of foreign borrowings.",
+      "evidenceExcerpt": "The SPECTRA Project is a software platform designed to streamline External Commercial Borrowings (ECBs) and Trade Credits reporting and approval."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Real Effective Exchange Rate (REER):\n1. It is derived by adjusting the Nominal Effective Exchange Rate (NEER) for relative consumer prices.\n2. A lower REER indicates that the domestic currency is undervalued, which can potentially boost the country's exports.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: The REER is calculated by adjusting the NEER (the unadjusted weighted average rate at which one country's currency exchanges for a basket of multiple foreign currencies) for inflation differentials (relative consumer prices). Statement 2 is correct: A lower REER implies that the domestic currency is relatively undervalued compared to trading partners, making domestic goods cheaper for foreign buyers and thus potentially boosting exports.",
+      "takeaway": "REER is a key indicator of a country's international competitiveness. An overvalued currency (higher REER) hurts exports, while an undervalued currency (lower REER) boosts them.",
+      "evidenceExcerpt": "REER is derived by adjusting the Nominal Effective Exchange Rate (NEER) for relative consumer prices; a lower REER indicates the currency is undervalued and can potentially boost exports."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Application-Based",
+      "prompt": "State Bank of India (SBI) opens an account with a bank in New York, denominated in US Dollars, to facilitate international trade settlements for its Indian clients. From the perspective of SBI, how is this account classified?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Vostro account"
+        },
+        {
+          "id": "B",
+          "text": "Nostro account"
+        },
+        {
+          "id": "C",
+          "text": "Loro account"
+        },
+        {
+          "id": "D",
+          "text": "Escrow account"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Nostro account is defined as a domestic bank's account held in a foreign bank in a foreign currency. In this scenario, SBI (a domestic bank) holds an account in a New York bank (a foreign bank) in US Dollars (a foreign currency). Conversely, a Vostro account is a foreign bank's account held in a domestic bank in the domestic currency.",
+      "takeaway": "Understanding the directional perspective of cross-border banking accounts is crucial: 'Nostro' means 'our money at your bank', while 'Vostro' means 'your money at our bank'.",
+      "evidenceExcerpt": "Nostro Account: A domestic bank's account held in a foreign bank in foreign currency."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Conceptual-Implication",
+      "prompt": "If India's Nominal Effective Exchange Rate (NEER) remains stable, but domestic consumer prices rise at a significantly faster rate than those of its major trading partners, what is the most likely implication for the Real Effective Exchange Rate (REER) and trade competitiveness?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The REER will decrease, making the domestic currency undervalued and boosting export competitiveness."
+        },
+        {
+          "id": "B",
+          "text": "The REER will increase, making the domestic currency overvalued and potentially reducing export competitiveness."
+        },
+        {
+          "id": "C",
+          "text": "The REER will remain unaffected because it is primarily determined by capital account transactions."
+        },
+        {
+          "id": "D",
+          "text": "The REER will decrease, leading to a simultaneous increase in both exports and imports."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "REER is derived by adjusting the NEER for relative consumer prices (inflation). If domestic inflation outpaces that of trading partners, the REER increases, indicating that the currency is becoming overvalued in real terms. Since a lower REER indicates an undervalued currency that boosts exports, a higher REER implies an overvalued currency that negatively impacts export competitiveness.",
+      "takeaway": "REER adjusts the nominal exchange rate for inflation differentials. Higher relative domestic inflation leads to a higher REER, eroding export competitiveness.",
+      "evidenceExcerpt": "REER is derived by adjusting the Nominal Effective Exchange Rate (NEER) for relative consumer prices; a lower REER indicates the currency is undervalued and can potentially boost exports."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-Statement",
+      "prompt": "Which of the following initiatives are recognized as steps towards the internationalization of the Indian Rupee?\n1. Linking of the Unified Payments Interface (UPI) with foreign payment systems\n2. Settlement of cross-border trade transactions through the Asian Clearing Union (ACU)\n3. Implementation of the SPECTRA Project for External Commercial Borrowings",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2, and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "The internationalization of the Rupee involves increasing its use in cross-border transactions. Key steps include the RBI's Strategic Action Plan 2024-25, the SPECTRA Project (for streamlining ECBs and trade credits), linking UPI with foreign systems, and facilitating ACU settlements in Rupees.",
+      "takeaway": "Rupee internationalization is a multi-pronged strategy involving digital payment linkages (UPI), regional clearing mechanisms (ACU), and streamlined regulatory reporting (SPECTRA).",
+      "evidenceExcerpt": "Steps for Internationalization of Rupee include RBI's Strategic Action Plan 2024-25, SPECTRA Project, linking UPI, and ACU settlement."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Application-Based",
+      "prompt": "An Indian manufacturing company intends to raise long-term funds from foreign lenders via External Commercial Borrowings (ECBs). To ensure regulatory compliance, the reporting and approval of this transaction will be streamlined through which of the following platforms?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "e-Kuber"
+        },
+        {
+          "id": "B",
+          "text": "SPECTRA Project"
+        },
+        {
+          "id": "C",
+          "text": "Trade Receivables Discounting System (TReDS)"
+        },
+        {
+          "id": "D",
+          "text": "Negotiated Dealing System (NDS)"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The SPECTRA Project is specifically designed as a software platform to streamline the reporting and approval processes for External Commercial Borrowings (ECBs) and Trade Credits.",
+      "takeaway": "The SPECTRA Project is a targeted digital initiative by the RBI to manage and monitor foreign borrowings and trade credits efficiently.",
+      "evidenceExcerpt": "The SPECTRA Project is a software platform designed to streamline External Commercial Borrowings (ECBs) and Trade Credits reporting and approval."
+    }
+  ]
+}

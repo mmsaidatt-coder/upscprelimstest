@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "History",
+      "difficulty": "Hard",
+      "questionType": "Applied",
+      "prompt": "According to the eligibility criteria for Padma Awards, which of the following individuals would generally be eligible for the award?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A serving officer of the Indian Administrative Service (IAS)."
+        },
+        {
+          "id": "B",
+          "text": "A scientist working in a Public Sector Undertaking (PSU)."
+        },
+        {
+          "id": "C",
+          "text": "A Managing Director of a Navratna PSU."
+        },
+        {
+          "id": "D",
+          "text": "A senior official in the Ministry of External Affairs."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Government servants, including those working with PSUs, are generally not eligible for Padma Awards. However, there is a specific exception for 'doctors and scientists'. Therefore, a scientist working in a PSU is eligible, while general administrators (IAS) or PSU management (MDs) are not.",
+      "takeaway": "While most government and PSU employees are excluded from Padma Awards, doctors and scientists are specifically exempted from this restriction.",
+      "evidenceExcerpt": "Government servants including those working with PSUs, except doctors and scientists, are not eligible for these Awards.",
+      "contextLines": []
+    },
+    {
+      "subject": "History",
+      "difficulty": "Moderate",
+      "questionType": "Feature-matching",
+      "prompt": "Which of the following is the correct protocol for an awardee to indicate their Padma Shri honour?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Padma Shri [Name]"
+        },
+        {
+          "id": "B",
+          "text": "[Name], Padma Shri"
+        },
+        {
+          "id": "C",
+          "text": "[Name] (Padma Shri awarded by the President)"
+        },
+        {
+          "id": "D",
+          "text": "The Padma Shri [Name]"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The award cannot be used as a prefix or suffix (title). However, an awardee can indicate the fact that they have been honoured by using descriptive phrasing such as '[Name] (Padma Shri awarded by the President)' or '[Name] (awarded Padma Shri by the President of India)'.",
+      "takeaway": "To comply with Article 18 and award protocol, the honour must be described as a fact of receipt rather than used as a formal title attached to the name.",
+      "evidenceExcerpt": "WHAT IS NOT ALLOWED: Padma Shri \"ABCD\". YES! IT IS ALLOWED: \"ABCD\" (Padma Shri awarded by the President).",
+      "contextLines": []
+    }
+  ]
+}

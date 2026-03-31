@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding deep-ocean exploration:\n1. The Samudrayaan Mission is an initiative of the National Institute of Ocean Technology (NIOT).\n2. Indian aquanauts recently conducted a deep-ocean dive exceeding 5,000 meters in the Atlantic Ocean.\n3. India is the first Asian country to successfully carry out a deep-ocean crewed mission.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The Samudrayaan Mission is slated for launch by late 2026 by the National Institute of Ocean Technology (NIOT).\nStatement 2 is correct: As a prelude to the Samudrayaan Mission, Indian aquanauts from NIOT recently dived over 5,000 meters in the Atlantic Ocean.\nStatement 3 is incorrect: India is not the first Asian country to achieve this. Currently, only the U.S., Russia, China, France, and Japan have previously carried out successful deep-ocean crewed missions. Thus, China and Japan have already achieved this milestone.",
+      "takeaway": "The Samudrayaan Mission is an NIOT initiative. India's recent 5,000m+ dive in the Atlantic Ocean places it on the path to join an exclusive group of five nations (including Asian nations China and Japan) with deep-ocean crewed mission capabilities.",
+      "evidenceExcerpt": "The Samudrayaan Mission is slated for launch by late 2026 by the National Institute of Ocean Technology (NIOT). Recently, Indian aquanauts from NIOT dived over 5,000 meters in the Atlantic Ocean... Only the U.S., Russia, China, France, and Japan have previously carried out successful deep-ocean crewed missions.",
+      "qualityScore": 90,
+      "reviewNotes": "Excellent UPSC-style question. The third statement cleverly tests the list of 5 nations by framing it as 'first Asian country', which is a classic UPSC trap."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the recent deep-ocean dive conducted by Indian aquanauts:\n1. The dive was executed aboard an indigenously developed submersible to test its deep-sea pressure capabilities.\n2. The operation was carried out in collaboration with the French research institute IFREMER.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The recent dive was not conducted on an indigenous submersible; it was executed aboard the French submersible 'Nautile'.\nStatement 2 is correct: The dive was conducted in collaboration with France's IFREMER.",
+      "takeaway": "While India is developing its own capabilities for the Samudrayaan Mission, the recent 5,000-meter prelude dive was achieved using the French submersible Nautile in partnership with IFREMER.",
+      "evidenceExcerpt": "Recently, Indian aquanauts from NIOT dived over 5,000 meters in the Atlantic Ocean aboard the French submersible Nautile, in collaboration with IFREMER.",
+      "qualityScore": 85,
+      "reviewNotes": "Good question testing the specifics of the recent dive. The distractor in statement 1 is highly plausible as UPSC often tests indigenous vs foreign technology."
+    }
+  ],
+  "reviewerNotes": "Selected two distinct questions covering different aspects of the source text. Candidate 1 was heavily rewritten to include a 'first Asian country' trap, which tests the 5-nation list in a more analytical way. Candidate 2 was refined for conciseness and tests the specific details of the recent dive (indigenous vs foreign submersible)."
+}

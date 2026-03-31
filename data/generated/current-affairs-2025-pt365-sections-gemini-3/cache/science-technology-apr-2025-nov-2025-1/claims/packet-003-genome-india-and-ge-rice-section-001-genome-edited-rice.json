@@ -1,0 +1,47 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-003-genome-india-and-ge-rice-section-001-genome-edited-rice",
+    "claimType": "Factual",
+    "claimText": "India is the first country in the world to develop genome-edited (GE) rice varieties, specifically DRR Rice 100 (Kamla) and Pusa DST Rice, developed by ICAR.",
+    "evidenceExcerpt": "ICAR developed India's first GE rice varieties: DRR Rice 100 (Kamla) and Pusa DST Rice. India is the first country in the world to develop GE rice varieties.",
+    "pageNumbers": [
+      8
+    ],
+    "examUse": "Statement-based question on India's global standing in agricultural biotechnology.",
+    "distractorHooks": [
+      "Attributing the development to a foreign entity or country like China or USA",
+      "Confusing the varieties with Bt Cotton or GM Mustard"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-003-genome-india-and-ge-rice-section-001-genome-edited-rice",
+    "claimType": "Conceptual",
+    "claimText": "Genome-edited (GE) rice varieties developed by ICAR contain no foreign DNA and are therefore not classified as Genetically Modified (GM) crops.",
+    "evidenceExcerpt": "These varieties contain no foreign DNA and are therefore not considered GM Crops.",
+    "pageNumbers": [
+      8
+    ],
+    "examUse": "Conceptual statement-based question distinguishing between Genome-Edited (GE) and Genetically Modified (GM) crops.",
+    "distractorHooks": [
+      "Stating that GE crops contain foreign DNA",
+      "Classifying GE rice as a GM crop subject to GEAC approval for foreign gene insertion"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-003-genome-india-and-ge-rice-section-001-genome-edited-rice",
+    "claimType": "Factual",
+    "claimText": "The genome-edited rice variety DRR Dhan 100 Kamala was developed using CRISPR-Cas technology and targets the CKX2 (Cytokinin Oxidase 2) gene.",
+    "evidenceExcerpt": "Developed using CRISPR-Cas technology. DRR Dhan 100 Kamala targets the CKX2 (Cytokinin Oxidase 2) gene.",
+    "pageNumbers": [
+      8
+    ],
+    "examUse": "Correct-pair or statement-based question on specific gene targets and technologies used in Indian crop varieties.",
+    "distractorHooks": [
+      "Linking DRR Dhan 100 to a different gene like Cry1Ac",
+      "Stating it was developed using traditional cross-breeding instead of CRISPR-Cas"
+    ]
+  }
+]

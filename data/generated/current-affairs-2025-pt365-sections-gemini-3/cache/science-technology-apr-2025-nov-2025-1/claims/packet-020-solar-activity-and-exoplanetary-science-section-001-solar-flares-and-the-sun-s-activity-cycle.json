@@ -1,0 +1,62 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-020-solar-activity-and-exoplanetary-science-section-001-solar-flares-and-the-sun-s-activity-cycle",
+    "claimType": "Factual",
+    "claimText": "Solar flares can cause geomagnetic storms that disturb Earth's magnetic field, leading to radio blackouts, power grid failures, and auroras.",
+    "evidenceExcerpt": "Solar flares cause geomagnetic storms that can lead to radio blackouts, power grid failures, and auroras.",
+    "pageNumbers": [
+      41
+    ],
+    "examUse": "Statement-based question on the impacts of space weather on Earth.",
+    "distractorHooks": [
+      "Geomagnetic storms do not affect terrestrial power grids",
+      "Auroras are caused by the reflection of sunlight off polar ice"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-020-solar-activity-and-exoplanetary-science-section-001-solar-flares-and-the-sun-s-activity-cycle",
+    "claimType": "Factual",
+    "claimText": "The solar activity cycle lasts approximately 11 years.",
+    "evidenceExcerpt": "The solar activity cycle lasts about 11 years",
+    "pageNumbers": [
+      41
+    ],
+    "examUse": "Statement-based question on the duration of the solar cycle.",
+    "distractorHooks": [
+      "The solar cycle lasts 22 years",
+      "The solar cycle is an annual phenomenon"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-020-solar-activity-and-exoplanetary-science-section-001-solar-flares-and-the-sun-s-activity-cycle",
+    "claimType": "Conceptual",
+    "claimText": "The peak of the solar activity cycle, known as the solar maximum, is characterized by frequent solar storms and increased instances of sunspots.",
+    "evidenceExcerpt": "peaking at the solar maximum with frequent solar storms and sunspots.",
+    "pageNumbers": [
+      41
+    ],
+    "examUse": "Statement-based question linking solar maximum to sunspot frequency.",
+    "distractorHooks": [
+      "Solar maximum is characterized by a decrease in sunspots",
+      "Sunspots only appear during the solar minimum"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-020-solar-activity-and-exoplanetary-science-section-001-solar-flares-and-the-sun-s-activity-cycle",
+    "claimType": "Factual",
+    "claimText": "The fastest Earth-directed Coronal Mass Ejections (CMEs) can reach Earth in 15 to 18 hours.",
+    "evidenceExcerpt": "Fastest Earth-directed CMEs can reach Earth in 15-18 hours.",
+    "pageNumbers": [
+      41
+    ],
+    "examUse": "Statement-based question on the travel time of CMEs to Earth.",
+    "distractorHooks": [
+      "CMEs reach Earth instantly at the speed of light",
+      "CMEs take several weeks to travel from the Sun to Earth"
+    ]
+  }
+]

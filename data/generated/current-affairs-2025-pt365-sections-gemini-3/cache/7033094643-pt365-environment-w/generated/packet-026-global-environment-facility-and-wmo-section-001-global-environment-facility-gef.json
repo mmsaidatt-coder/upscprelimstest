@@ -1,0 +1,178 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-Statement",
+      "prompt": "Consider the following international environmental agreements: 1. Minamata Convention on Mercury 2. Stockholm Convention on Persistent Organic Pollutants 3. Rotterdam Convention on the Prior Informed Consent Procedure 4. United Nations Convention to Combat Desertification. For how many of the above conventions does the Global Environment Facility (GEF) serve as a financial mechanism?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The Global Environment Facility (GEF) serves as a financial mechanism for exactly five major international environmental conventions: UNFCCC, UNCBD, UNCCD, the Minamata Convention on Mercury, and the Stockholm Convention on Persistent Organic Pollutants. It does not serve as the financial mechanism for the Rotterdam Convention. Therefore, exactly three of the listed conventions (1, 2, and 4) are correct.",
+      "takeaway": "The GEF acts as a financial mechanism for five major conventions: UNFCCC, UNCBD, UNCCD, Minamata Convention, and Stockholm Convention.",
+      "evidenceExcerpt": "It acts as a financial mechanism for 5 major international environmental conventions: UNFCCC, UNCBD, UNCCD, Minamata Convention on Mercury, and Stockholm Convention on Persistent Organic Pollutants (POPs)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Global Environment Facility (GEF), consider the following statements: 1. It was established during the United Nations Conference on the Human Environment in Stockholm. 2. India hosted the first Assembly of the Global Environment Facility. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The GEF was established in 1992 during the Rio Earth Summit, not during the 1972 Stockholm Conference. Statement 2 is correct: The 1st Assembly of the GEF took place in India in 1998.",
+      "takeaway": "The GEF was established during the 1992 Rio Earth Summit, and its first Assembly was held in India in 1998.",
+      "evidenceExcerpt": "established in 1992 during the Rio Earth Summit. The 1st Assembly took place in India in 1998."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Global Environment Facility (GEF): 1. It is headquartered in Nairobi, Kenya, alongside the United Nations Environment Programme (UNEP). 2. It is currently the world's largest multilateral fund dedicated to the environment. 3. It serves as the financial mechanism for the United Nations Framework Convention on Climate Change (UNFCCC). How many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The GEF is located in Washington, D.C., USA, not Nairobi. Statement 2 is correct: It is the world's largest multilateral fund for the environment. Statement 3 is correct: It acts as a financial mechanism for the UNFCCC, among others. Thus, exactly two statements are correct.",
+      "takeaway": "The GEF is headquartered in Washington, D.C., and is the world's largest multilateral environmental fund.",
+      "evidenceExcerpt": "Global Environment Facility (GEF) is located in Washington, D.C., USA. It is the world's largest multilateral fund for the environment... It acts as a financial mechanism for 5 major international environmental conventions: UNFCCC..."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Assertion-Reason",
+      "prompt": "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R): Assertion (A): The Global Environment Facility (GEF) provides multilateral funding for projects aimed at mitigating mercury pollution. Reason (R): The GEF serves as the designated financial mechanism for the Minamata Convention. In the context of the above two statements, which one of the following is correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both Assertion (A) and Reason (R) are correct and Reason (R) is the correct explanation for Assertion (A)."
+        },
+        {
+          "id": "B",
+          "text": "Both Assertion (A) and Reason (R) are correct but Reason (R) is not the correct explanation for Assertion (A)."
+        },
+        {
+          "id": "C",
+          "text": "Assertion (A) is correct but Reason (R) is incorrect."
+        },
+        {
+          "id": "D",
+          "text": "Assertion (A) is incorrect but Reason (R) is correct."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "The Global Environment Facility (GEF) acts as the financial mechanism for five major international environmental conventions, including the Minamata Convention on Mercury. Because it serves this functional role (Reason), it inherently provides the multilateral funding required by developing countries to meet their obligations regarding mercury pollution mitigation (Assertion).",
+      "takeaway": "The GEF's role extends beyond climate change and biodiversity; it is the structural financial mechanism for chemical pollution treaties like the Minamata Convention.",
+      "evidenceExcerpt": "It acts as a financial mechanism for 5 major international environmental conventions: UNFCCC, UNCBD, UNCCD, Minamata Convention on Mercury, and Stockholm Convention on Persistent Organic Pollutants (POPs)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the institutional design of the Global Environment Facility (GEF), consider the following statements: 1. It is designed to serve as a consolidated financial mechanism for multiple independent environmental conventions rather than a single issue. 2. Its funding mandate is restricted exclusively to the conventions adopted at the 1992 Rio Earth Summit. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The GEF is the world's largest multilateral fund for the environment and serves as a common financial mechanism for five distinct international conventions. Statement 2 is incorrect: While the GEF was established during the 1992 Rio Earth Summit and funds the three Rio Conventions (UNFCCC, UNCBD, UNCCD), its mandate is not restricted to them; it also funds the Minamata Convention and the Stockholm Convention.",
+      "takeaway": "The GEF was born out of the 1992 Rio Earth Summit but its umbrella of financial support has expanded to include later chemical and waste conventions.",
+      "evidenceExcerpt": "established in 1992 during the Rio Earth Summit... It acts as a financial mechanism for 5 major international environmental conventions: UNFCCC, UNCBD, UNCCD, Minamata Convention on Mercury, and Stockholm Convention on Persistent Organic Pollutants (POPs)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Applied",
+      "prompt": "If a developing nation requires multilateral financial assistance to meet its international obligations specifically regarding the elimination of Persistent Organic Pollutants (POPs), which of the following entities acts as the primary designated financial mechanism for this purpose?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "United Nations Environment Programme (UNEP)"
+        },
+        {
+          "id": "B",
+          "text": "Global Environment Facility (GEF)"
+        },
+        {
+          "id": "C",
+          "text": "Green Climate Fund (GCF)"
+        },
+        {
+          "id": "D",
+          "text": "World Bank Environment Fund"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Stockholm Convention is the global treaty aimed at protecting human health and the environment from Persistent Organic Pollutants (POPs). The Global Environment Facility (GEF) is the designated financial mechanism for the Stockholm Convention, providing the necessary funding for developing countries to implement their obligations.",
+      "takeaway": "Understanding which fund maps to which convention is crucial. The GEF handles POPs (Stockholm) and Mercury (Minamata), alongside climate, biodiversity, and desertification.",
+      "evidenceExcerpt": "It acts as a financial mechanism for 5 major international environmental conventions: UNFCCC, UNCBD, UNCCD, Minamata Convention on Mercury, and Stockholm Convention on Persistent Organic Pollutants (POPs)."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-Driven",
+      "prompt": "Consider the following statements regarding the 'Smog Eating Technology' recently proposed for public spaces: 1. It utilizes titanium dioxide as a photocatalyst to decompose vehicular emissions. 2. The technology primarily targets the reduction of nitrogen oxides (NOx) and harmful hydrocarbons. 3. The breakdown of pollutants in this technology is driven by the absorption of infrared radiation. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statements 1 and 2 are correct. The technology utilizes titanium dioxide (TiO2) coatings to decompose nitrogen oxides (NOx) and harmful hydrocarbons. Statement 3 is incorrect because the photocatalytic activity is driven by ultraviolet (UV) light, not infrared radiation.",
+      "takeaway": "Smog-eating technology uses titanium dioxide (TiO2) as a photocatalyst under UV light to chemically break down nitrogen oxides (NOx) and harmful hydrocarbons into less harmful substances.",
+      "evidenceExcerpt": "Usually uses titanium dioxide (TiO2) coatings as photocatalysis under UV light to decompose NOx... Objective: Reduce nitrogen dioxide (NO2) and harmful hydrocarbons in public spaces"
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-Driven",
+      "prompt": "With reference to the mechanism of 'Smog Eating' photocatalytic coatings, consider the following statements: 1. The coatings physically absorb and permanently store harmful pollutants within the road infrastructure to prevent resuspension. 2. The photocatalytic activity requires light energy to break down organic waste and pollutants. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect because the technology does not physically store pollutants; instead, it chemically decomposes them. Statement 2 is correct as the process uses light energy (photocatalytic activity) to break down harmful pollutants and organic waste.",
+      "takeaway": "The core mechanism of smog-eating roads is photocatalytic chemical decomposition driven by light energy, rather than the physical trapping or absorption of particulate matter.",
+      "evidenceExcerpt": "Mechanism - Photocatalytic activity: Uses light energy to break down harmful pollutants & organic waste."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice",
+      "prompt": "Consider the following atmospheric pollutants: 1. Nitrogen dioxide 2. Harmful hydrocarbons 3. Particulate matter (PM2.5). Which of the pollutants given above are the primary targets for decomposition by the 'Smog Eating' photocatalytic coatings recently proposed for urban roads?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Smog Eating Technology specifically targets chemical pollutants like nitrogen dioxide (NO2) and harmful hydrocarbons, breaking them down via photocatalysis. It does not decompose physical particulate matter (PM2.5), which is typically addressed by filtration or electrostatic methods.",
+      "takeaway": "Smog-eating coatings are designed to decompose gaseous vehicular emissions (NOx and hydrocarbons) rather than physical particulate matter.",
+      "evidenceExcerpt": "Objective: Reduce nitrogen dioxide (NO2) and harmful hydrocarbons in public spaces... Mechanism - Photocatalytic activity: Uses light energy to break down harmful pollutants & organic waste."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "Which one of the following best describes the working principle of the 'Smog Eating Technology' proposed for public infrastructure?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It captures airborne particulate matter using electrostatically charged road surfaces to prevent resuspension."
+        },
+        {
+          "id": "B",
+          "text": "It uses light-activated chemical coatings to decompose harmful vehicular emissions and organic waste."
+        },
+        {
+          "id": "C",
+          "text": "It involves embedding genetically modified biological enzymes in pavements to absorb excess carbon dioxide."
+        },
+        {
+          "id": "D",
+          "text": "It utilizes thermal energy generated from vehicular friction to vaporize toxic hydrocarbons on the roads."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Smog Eating Technology utilizes photocatalytic activity, where light energy activates a coating (usually titanium dioxide) to chemically break down harmful pollutants like NOx and organic waste.",
+      "takeaway": "The core mechanism of smog-eating roads is photocatalysis, a chemical decomposition process driven by light energy, rather than physical trapping or biological digestion.",
+      "evidenceExcerpt": "Mechanism - Photocatalytic activity: Uses light energy to break down harmful pollutants & organic waste."
+    }
+  ]
+}

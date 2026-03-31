@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the regulatory and operational framework of Regional Rural Banks (RRBs):\n1. They are regulated by the National Bank for Agriculture and Rural Development (NABARD) and supervised by the Reserve Bank of India (RBI).\n2. They are mandated to allocate 75% of their Adjusted Net Bank Credit (ANBC) to Priority Sector Lending (PSL).\n3. They are required to maintain a minimum Capital to Risk-Weighted Assets Ratio (CRAR) of 9%.\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The roles are reversed. RRBs are regulated by the Reserve Bank of India (RBI) and supervised by NABARD. Statement 2 is correct: RRBs have a Priority Sector Lending (PSL) target of 75% of their ANBC. Statement 3 is correct: RRBs must maintain a Capital to Risk-Weighted Assets Ratio (CRAR) of 9%.",
+      "takeaway": "While RBI handles the core regulation of RRBs, NABARD is tasked with their supervision. Their PSL target is strictly set at 75% of ANBC, and they must maintain a 9% CRAR.",
+      "evidenceExcerpt": "They are regulated by RBI, supervised by NABARD... RRBs must allocate 75% of ANBC to Priority Sector Lending (PSL) and maintain a 9% CRAR.",
+      "qualityScore": 85,
+      "reviewNotes": "Excellent test of regulatory nuances. Reversing the roles of RBI and NABARD is a classic UPSC distractor technique."
+    }
+  ],
+  "reviewerNotes": "The selected questions comprehensively cover the historical background, ownership structure, regulatory framework, and recent amalgamation of RRBs. The distractors have been refined to match the UPSC standard, particularly by using the 'How many statements are correct' and 'Correct-Pair' formats, testing precise factual knowledge such as RBI vs NABARD roles and exact equity percentages."
+}

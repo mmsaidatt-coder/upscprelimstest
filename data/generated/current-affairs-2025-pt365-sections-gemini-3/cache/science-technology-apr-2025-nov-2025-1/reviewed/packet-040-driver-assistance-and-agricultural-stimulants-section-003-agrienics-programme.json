@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the 'Agrienics Programme', recently seen in the news:\n1. It is a national initiative under the Ministry of Agriculture and Farmers Welfare.\n2. It focuses on the commercialization of technologies in both the agriculture and environment domains.\n3. The Centre for Development of Advanced Computing (C-DAC) is the designated nodal agency for this programme.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The Agrienics Programme is a national initiative of the Ministry of Electronics and Information Technology (MeitY), not the Ministry of Agriculture and Farmers Welfare. The prefix 'Agri' makes it a common trap.\nStatement 2 is correct: It involves the research, development, deployment, demonstration, and commercialization of technologies in the agriculture and environment domains.\nStatement 3 is correct: The Centre for Development of Advanced Computing (C-DAC), Kolkata is the designated Nodal Agency for the programme.",
+      "takeaway": "The Agrienics Programme is an initiative of MeitY, implemented by C-DAC, focusing on technological interventions in agriculture and environment.",
+      "evidenceExcerpt": "A national programme of MeitY involving research, development, deployment, demonstration, and commercialization of technologies in agriculture and environment domain. Nodal Agency: Centre for Development of Advanced Computing (C-DAC), Kolkata.",
+      "qualityScore": 90,
+      "reviewNotes": "Excellent statement-based question. The trap in Statement 1 is highly plausible due to the 'Agri' prefix, which is a classic UPSC-style distractor. The question effectively tests factual knowledge of the nodal ministry and agency."
+    }
+  ],
+  "reviewerNotes": "Selected the statement-based question as it provides a classic UPSC trap (Ministry of Agriculture vs. MeitY) based on the nomenclature of the programme. The distractors and statements are well-calibrated."
+}

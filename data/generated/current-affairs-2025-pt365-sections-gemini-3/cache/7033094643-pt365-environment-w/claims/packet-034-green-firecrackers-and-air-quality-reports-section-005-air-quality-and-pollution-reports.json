@@ -1,0 +1,80 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-034-green-firecrackers-and-air-quality-reports-section-005-air-quality-and-pollution-reports",
+    "claimType": "Factual",
+    "claimText": "The State of Global Air Report (SoGA) 2025 is released by the Health Effects Institute (HEI) and the Institute for Health Metrics and Evaluation (IHME).",
+    "evidenceExcerpt": "State of Global Air Report (SoGA) 2025 Released by: Health Effects Institute (HEI) and Institute for Health Metrics and Evaluation (IHME), USA.",
+    "pageNumbers": [
+      71
+    ],
+    "examUse": "Report-Issuer matching question.",
+    "distractorHooks": [
+      "UNEP",
+      "WHO",
+      "World Meteorological Organization"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-034-green-firecrackers-and-air-quality-reports-section-005-air-quality-and-pollution-reports",
+    "claimType": "Factual",
+    "claimText": "According to the State of Global Air Report (SoGA) 2025, India has the third highest exposure to Ozone Pollution globally.",
+    "evidenceExcerpt": "Ozone Pollution: India has third highest exposure.",
+    "pageNumbers": [
+      71
+    ],
+    "examUse": "Statement-based question on India's pollution rankings.",
+    "distractorHooks": [
+      "India has the highest exposure to Ozone Pollution",
+      "India has the lowest exposure to Ozone Pollution"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-034-green-firecrackers-and-air-quality-reports-section-005-air-quality-and-pollution-reports",
+    "claimType": "Factual",
+    "claimText": "The Air Quality Life Index (AQLI) is developed by the Energy Policy Institute at the University of Chicago (EPIC).",
+    "evidenceExcerpt": "2025 Annual Update of the Air Quality Life Index (AQLI) Developer: Michael Greenstone and others at Energy Policy Institute at University of Chicago (EPIC).",
+    "pageNumbers": [
+      71
+    ],
+    "examUse": "Report-Issuer matching question.",
+    "distractorHooks": [
+      "UNEP",
+      "World Bank",
+      "World Health Organization"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-034-green-firecrackers-and-air-quality-reports-section-005-air-quality-and-pollution-reports",
+    "claimType": "Conceptual",
+    "claimText": "The Air Quality Life Index (AQLI) specifically measures the impact of particulate air pollution on life expectancy.",
+    "evidenceExcerpt": "Measures the impact of particulate air pollution on life expectancy.",
+    "pageNumbers": [
+      71
+    ],
+    "examUse": "Statement-based question on the methodology and focus of the AQLI.",
+    "distractorHooks": [
+      "Measures the impact of ozone pollution on life expectancy",
+      "Measures the economic cost of air pollution on healthcare systems"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-034-green-firecrackers-and-air-quality-reports-section-005-air-quality-and-pollution-reports",
+    "claimType": "Factual",
+    "claimText": "The Global Trade Update on Mobilising trade to curb Plastic Pollution is released by the United Nations Conference on Trade and Development (UNCTAD).",
+    "evidenceExcerpt": "Global Trade Update on Mobilising trade to curb Plastic Pollution Released by: UNCTAD.",
+    "pageNumbers": [
+      71
+    ],
+    "examUse": "Report-Issuer matching question.",
+    "distractorHooks": [
+      "UNEP",
+      "World Trade Organization (WTO)",
+      "World Economic Forum"
+    ]
+  }
+]

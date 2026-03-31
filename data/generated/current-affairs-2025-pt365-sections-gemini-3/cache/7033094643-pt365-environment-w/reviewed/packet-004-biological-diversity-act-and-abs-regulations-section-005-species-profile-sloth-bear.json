@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Sloth Bear:\n\n1. It is a solitary and nocturnal animal that specializes in a diet of termites and ants.\n2. Unlike other bear species, it does not hibernate.\n3. It is listed as 'Endangered' on the IUCN Red List and placed in Schedule I of the Wildlife Protection Act, 1972.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The Sloth Bear is solitary, nocturnal, and specializes in eating termites and ants. Statement 2 is correct: Unlike other bears, it does not hibernate. Statement 3 is incorrect: While it is placed in Schedule I of the WPA 1972, it is classified as Vulnerable (VU) on the IUCN Red List, not Endangered.",
+      "takeaway": "Sloth bears are nocturnal, non-hibernating insectivores native to the Indian subcontinent, listed as Vulnerable by the IUCN and protected under Schedule I of the WPA 1972.",
+      "evidenceExcerpt": "Specializes in eating termites and ants and does not hibernate unlike other bears. It is solitary, nocturnal... Conservation Status: WPA 1972 Schedule I, CITES Appendix I, IUCN Vulnerable (VU).",
+      "qualityScore": 88,
+      "reviewNotes": "Strong statement-based question testing species characteristics and conservation status. The distractor in statement 3 is a classic UPSC trap (mixing a correct WPA schedule with an incorrect IUCN status)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the conservation and distribution of the Sloth Bear, consider the following statements:\n\n1. It is endemic to the tropical rainforests of the Western Ghats and Sri Lanka.\n2. Daroji Sloth Bear Sanctuary, Asia's first dedicated sanctuary for the species, is located in Karnataka.\n3. Project Sloth Bear was initiated in the year 2025 to focus on the conservation of the species.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Sloth bears are native to the forests and grasslands of India, Nepal, and Sri Lanka; they are not endemic to the Western Ghats. Statement 2 is correct: Daroji Sloth Bear Sanctuary in Karnataka is Asia's first dedicated sloth bear sanctuary. Statement 3 is correct: Project Sloth Bear was initiated in 2025.",
+      "takeaway": "Sloth bears are distributed across India, Nepal, and Sri Lanka. Key conservation milestones include the establishment of the Daroji Sanctuary in Karnataka and the initiation of Project Sloth Bear in 2025.",
+      "evidenceExcerpt": "Native to forests and grasslands of India, Nepal, and Sri Lanka. Daroji Sloth Bear Sanctuary in Karnataka is the first dedicated sloth bear sanctuary in Asia. Project Sloth Bear initiated in 2025.",
+      "qualityScore": 85,
+      "reviewNotes": "Good coverage of habitat distribution and recent conservation initiatives. The 'endemic' keyword in statement 1 serves as a standard UPSC distractor."
+    }
+  ],
+  "reviewerNotes": "Selected two strong statement-based questions. The first focuses on the ecological characteristics and protection status of the Sloth Bear, while the second covers its geographic distribution and recent conservation efforts (Project Sloth Bear 2025). Both questions have been formatted to match the latest UPSC 'How many statements are correct' pattern."
+}

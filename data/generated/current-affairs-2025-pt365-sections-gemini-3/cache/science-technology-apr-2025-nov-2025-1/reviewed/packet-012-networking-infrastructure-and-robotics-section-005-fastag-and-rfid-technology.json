@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding FASTag:\n\n1. It employs Radio Frequency Identification (RFID) technology, which uses radio waves to communicate information.\n2. The RFID technology used in FASTag is a short-range communication system.\n3. It was developed by the National Highways Authority of India (NHAI) under the National Electronic Toll Collection (NETC) program.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: FASTag is a device that employs Radio Frequency Identification (RFID) technology for making toll payments. RFID uses radio waves to communicate information.\nStatement 2 is correct: RFID is a short-range technology that consists of tags and readers, communicating with nearby readers while the vehicle is in motion.\nStatement 3 is incorrect: FASTag was developed by the National Payments Corporation of India (NPCI), not the National Highways Authority of India (NHAI), under the National Electronic Toll Collection (NETC) program.",
+      "takeaway": "FASTag uses short-range RFID technology (radio waves) and was developed by NPCI under the NETC program.",
+      "evidenceExcerpt": "FASTAG - A device that employs Radio Frequency Identification (RFID) technology... RFID consists of tags and readers and employs radio waves... It is a short-range technology... Developed by: NPCI under National Electronic Toll Collection (NETC) program.",
+      "qualityScore": 85,
+      "reviewNotes": "Converted to the 'How many statements' format. Replaced NPCI with NHAI in statement 3 to create a classic UPSC institutional trap."
+    }
+  ],
+  "reviewerNotes": "Selected two distinct questions. The first tests factual details regarding the technology and the developing institution, utilizing a common UPSC trap (NHAI vs NPCI). The second tests the conceptual understanding of the underlying technology against plausible distractors."
+}

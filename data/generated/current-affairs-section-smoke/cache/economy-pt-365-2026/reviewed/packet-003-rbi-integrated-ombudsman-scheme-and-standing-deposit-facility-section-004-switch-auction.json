@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the 'Switch Auction' mechanism conducted by the Reserve Bank of India (RBI), consider the following statements:\n1. The primary objective is to manage the maturity profile of public debt by replacing short-term government securities with longer-dated ones.\n2. It involves the simultaneous sale of 'destination securities' and purchase of 'source securities' by market participants.\n3. These auctions are conducted by the RBI in its capacity as the debt manager for the Government of India.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct. The primary goal of a Switch Auction is to manage the public debt maturity profile by exchanging short-term securities for long-term ones, thereby reducing near-term redemption pressure. Statement 3 is also correct. The RBI, acting as the debt manager for the government, conducts these auctions on behalf of the Government of India. Statement 2 is incorrect because it reverses the transaction flow. Market participants sell their short-term 'source securities' to the government and simultaneously purchase long-term 'destination securities', not the other way around.",
+      "takeaway": "A Switch Auction is a crucial debt management operation, distinct from liquidity management tools like repo or OMOs. Its purpose is to restructure existing government debt to create a smoother repayment schedule by extending the maturity profile.",
+      "evidenceExcerpt": "A Switch Auction, initiated by the RBI in 2019 on behalf of the Government of India, is a mechanism to manage the maturity profile of public debt. The objective is to replace short-term government securities with longer-dated ones. In this process, market participants sell their short-term 'source securities' to the government and simultaneously purchase long-term 'destination securities'.",
+      "qualityScore": 85,
+      "reviewNotes": "The original candidate question was very strong. I have made minor stylistic improvements to the prompt and statement 3 to enhance the formal, UPSC-like tone. The core logic and the excellent trap in statement 2 have been retained. The question effectively tests the objective, mechanism, and institutional context of Switch Auctions based on the provided text."
+    }
+  ],
+  "reviewerNotes": "The candidate set provided three strong questions. I have selected the statement-based question as it comprehensively covers the key facts from the source text in a classic UPSC format. The chosen question was already of high quality, and I have made minor refinements to its wording to further align it with the expected standard."
+}

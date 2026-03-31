@@ -1,4 +1,11 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Platform — UPSCPRELIMSTEST",
+  description:
+    "One product, three interfaces: exam mode with real timer pressure, review mode with explanations, and analytics to track your progress.",
+};
 
 const pillars = [
   {

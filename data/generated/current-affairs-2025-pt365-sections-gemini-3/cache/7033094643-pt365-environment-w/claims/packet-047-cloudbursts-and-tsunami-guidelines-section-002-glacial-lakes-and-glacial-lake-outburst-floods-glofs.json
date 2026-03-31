@@ -1,0 +1,82 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-047-cloudbursts-and-tsunami-guidelines-section-002-glacial-lakes-and-glacial-lake-outburst-floods-glofs",
+    "claimType": "Concept/Definition",
+    "claimText": "Supraglacial lakes form in depressions on glaciers, whereas moraine-dammed lakes form at glacier toes and are highly prone to sudden failure.",
+    "evidenceExcerpt": "Supraglacial lakes form in depressions on glaciers, while moraine-dammed lakes form at glacier toes and are highly prone to sudden failure.",
+    "pageNumbers": [
+      97,
+      98
+    ],
+    "examUse": "Statement-based question comparing the formation and risk profiles of different types of glacial lakes.",
+    "distractorHooks": [
+      "Swapping the definitions by stating supraglacial lakes form at glacier toes",
+      "Claiming supraglacial lakes are the ones most prone to sudden failure instead of moraine-dammed lakes"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-047-cloudbursts-and-tsunami-guidelines-section-002-glacial-lakes-and-glacial-lake-outburst-floods-glofs",
+    "claimType": "Factual",
+    "claimText": "Glacial Lake Outburst Floods (GLOFs) can be triggered by glacial surging, moraine dam failure, seismic activities, and human activities.",
+    "evidenceExcerpt": "GLOFs can be triggered by glacial surging (rapid short-term advance of a glacier), moraine dam failure, seismic activities, and human activities.",
+    "pageNumbers": [
+      97,
+      98
+    ],
+    "examUse": "Multiple-choice question identifying the natural and anthropogenic triggers of GLOFs.",
+    "distractorHooks": [
+      "Stating that human activities cannot trigger GLOFs",
+      "Confusing glacial surging (advance) with glacial retreat as the direct trigger mechanism"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-047-cloudbursts-and-tsunami-guidelines-section-002-glacial-lakes-and-glacial-lake-outburst-floods-glofs",
+    "claimType": "Institution/Fact",
+    "claimText": "The Central Water Commission (CWC) monitors glacial lakes and water bodies in the Himalayas.",
+    "evidenceExcerpt": "The Central Water Commission (CWC) monitors 902 glacial lakes and water bodies in the Himalayas.",
+    "pageNumbers": [
+      97,
+      98
+    ],
+    "examUse": "Institution-feature question identifying the nodal agency responsible for monitoring Himalayan glacial lakes.",
+    "distractorHooks": [
+      "Attributing the monitoring responsibility to the National Disaster Management Authority (NDMA)",
+      "Attributing the monitoring to the Indian Meteorological Department (IMD) or Geological Survey of India (GSI)"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-047-cloudbursts-and-tsunami-guidelines-section-002-glacial-lakes-and-glacial-lake-outburst-floods-glofs",
+    "claimType": "Factual/Policy",
+    "claimText": "The National GLOF Risk Mitigation Project (NGRMP) covers the states of Arunachal Pradesh, Himachal Pradesh, Sikkim, and Uttarakhand.",
+    "evidenceExcerpt": "The National GLOF Risk Mitigation Project (NGRMP) covers the states of Arunachal Pradesh, Himachal Pradesh, Sikkim, and Uttarakhand.",
+    "pageNumbers": [
+      97,
+      98
+    ],
+    "examUse": "Correct-pair or statement-based question on the geographical coverage of the NGRMP.",
+    "distractorHooks": [
+      "Including Jammu & Kashmir or Ladakh in the project coverage",
+      "Including non-Himalayan North-Eastern states like Assam or Meghalaya"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-047-cloudbursts-and-tsunami-guidelines-section-002-glacial-lakes-and-glacial-lake-outburst-floods-glofs",
+    "claimType": "Technology/Application",
+    "claimText": "Synthetic Aperture Radar (SAR) imagery is utilized to automatically detect changes in the size of glacial lakes.",
+    "evidenceExcerpt": "Synthetic Aperture Radar imagery is utilized to automatically detect changes in the size of glacial lakes.",
+    "pageNumbers": [
+      97,
+      98
+    ],
+    "examUse": "Statement-based question on the application of SAR technology in disaster management and glacial monitoring.",
+    "distractorHooks": [
+      "Claiming that only optical satellite imagery can be used to detect changes in glacial lakes",
+      "Stating that SAR imagery is ineffective for glacial monitoring due to cloud cover"
+    ]
+  }
+]

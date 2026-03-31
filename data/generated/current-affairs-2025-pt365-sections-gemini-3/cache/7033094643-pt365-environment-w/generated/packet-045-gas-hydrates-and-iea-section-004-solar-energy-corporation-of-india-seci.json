@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Solar Energy Corporation of India (SECI):\n1. It was established specifically for the implementation of the National Solar Mission.\n2. It is a Navratna Central Public Sector Undertaking operating under the Ministry of Power.\n3. It functions as a Category-I power trading licensee under the Central Electricity Regulatory Commission (CERC).\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: SECI was established in 2011 specifically for the implementation of the National Solar Mission.\nStatement 2 is incorrect: SECI is a Navratna Central Public Sector Undertaking, but it operates under the Ministry of New and Renewable Energy (MNRE), not the Ministry of Power.\nStatement 3 is correct: SECI functions as a Category-I power trading licensee under the Central Electricity Regulatory Commission (CERC).",
+      "takeaway": "SECI is a Navratna CPSU under MNRE, established in 2011 for the National Solar Mission, and holds a Category-I power trading license under CERC.",
+      "evidenceExcerpt": "Established in 2011 for the implementation of the National Solar Mission, SECI is a Navratna Central Public Sector Undertaking under the Ministry of New and Renewable Energy (MNRE). ... functions as a Category-I power trading licensee under CERC."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the mandate and operations of the Solar Energy Corporation of India (SECI), consider the following statements:\n1. It is the designated Renewable Energy Implementing Agency (REIA) for schemes under the Ministry of New and Renewable Energy.\n2. Its project implementation mandate is strictly limited to mainland India, excluding island territories and high-altitude regions.\n3. It is authorized to function as a power trading licensee under the Central Electricity Regulatory Commission (CERC).\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: SECI is the designated Renewable Energy Implementing Agency (REIA) for MNRE schemes.\nStatement 2 is incorrect: SECI's mandate is not limited to mainland India. It implements special programmes like the greening of islands (Lakshadweep, Andaman & Nicobar Islands) and high-altitude grid-linked capacity in Ladakh.\nStatement 3 is correct: SECI functions as a Category-I power trading licensee under CERC.",
+      "takeaway": "SECI's operational footprint extends beyond mainland solar parks to include specialized regional models such as island greening and high-altitude grid-linked projects.",
+      "evidenceExcerpt": "It is the designated Renewable Energy Implementing Agency (REIA) for MNRE schemes and functions as a Category-I power trading licensee under CERC. SECI implements special programmes like the greening of islands (Lakshadweep, A&N Islands) and high-altitude grid-linked capacity in Ladakh."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "correct-pair",
+      "prompt": "Consider the following pairs regarding the Solar Energy Corporation of India (SECI):\n\nFeature : Description\n1. Corporate Status : Navratna Central Public Sector Undertaking\n2. Regulatory Oversight for Trading : Central Electricity Regulatory Commission (CERC)\n3. Special Regional Focus : High-altitude grid-linked capacity in Ladakh\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Pair 1 is correctly matched: SECI is a Navratna Central Public Sector Undertaking under the Ministry of New and Renewable Energy (MNRE). Pair 2 is correctly matched: SECI functions as a Category-I power trading licensee under the Central Electricity Regulatory Commission (CERC). Pair 3 is correctly matched: SECI implements special regional programmes, including high-altitude grid-linked capacity in Ladakh and the greening of island territories.",
+      "takeaway": "SECI's operational profile extends beyond standard project implementation; it holds Navratna status, acts as a Category-I power trader under CERC, and executes geographically specialized renewable energy models.",
+      "evidenceExcerpt": "SECI is a Navratna Central Public Sector Undertaking under the Ministry of New and Renewable Energy (MNRE). It... functions as a Category-I power trading licensee under CERC. SECI implements special programmes like the greening of islands (Lakshadweep, A&N Islands) and high-altitude grid-linked capacity in Ladakh."
+    }
+  ]
+}

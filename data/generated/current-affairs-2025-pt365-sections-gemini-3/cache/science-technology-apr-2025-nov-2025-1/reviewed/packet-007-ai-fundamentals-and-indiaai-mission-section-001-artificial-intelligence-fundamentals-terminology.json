@@ -1,0 +1,98 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-choice",
+      "prompt": "The term 'Kruti', sometimes mentioned in the news, is best described as:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "India's first agentic AI system capable of autonomously making decisions and adapting."
+        },
+        {
+          "id": "B",
+          "text": "A new deep learning architecture developed for quantum computing applications."
+        },
+        {
+          "id": "C",
+          "text": "An open-source labeled dataset used for supervised machine learning in Indian languages."
+        },
+        {
+          "id": "D",
+          "text": "A generative pre-trained transformer model designed exclusively for agricultural extension services."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "'Kruti' is recognized as India's first agentic AI. Agentic AI systems are advanced artificial intelligence models that can autonomously make decisions and adapt to achieve specific goals, going beyond simple prompt-response interactions.",
+      "takeaway": "Agentic AI represents a shift from reactive models to proactive, autonomous systems capable of decision-making, with 'Kruti' being a notable Indian example.",
+      "evidenceExcerpt": "Agentic AI systems autonomously make decisions and adapt (e.g., India's first agentic AI Kruti).",
+      "qualityScore": 95,
+      "reviewNotes": "Classic UPSC 'term in news' format. Distractors are highly plausible and drawn from the same domain (AI/ML), making it a strong test of factual knowledge."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "With reference to the stages of Artificial Intelligence (AI), consider the following pairs:\n\nStage of AI : Characteristic\n1. Artificial Narrow Intelligence : Specializes in a single area\n2. Artificial General Intelligence : Surpasses human cognitive abilities\n3. Artificial Superintelligence : Learns continuously like humans\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Pair 1 is correctly matched: Artificial Narrow Intelligence (ANI) specializes in one specific area. Pair 2 is incorrectly matched: Artificial General Intelligence (AGI) learns continuously like humans. Surpassing human cognitive abilities is the characteristic of Artificial Superintelligence (ASI). Pair 3 is incorrectly matched: Artificial Superintelligence (ASI) surpasses human cognitive abilities, rather than just learning continuously like humans.",
+      "takeaway": "The evolution of AI is categorized into ANI (narrow/single task), AGI (human-level continuous learning), and ASI (surpassing human cognitive abilities).",
+      "evidenceExcerpt": "ANI specializes in one area; AGI learns continuously like humans; ASI surpasses human cognitive abilities.",
+      "qualityScore": 90,
+      "reviewNotes": "Excellent UPSC-style pair matching question testing the fundamental stages of AI. Distractors effectively swap the definitions of AGI and ASI."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements:\n1. Generative Pre-trained Transformer (GPT) models are built on deep learning architecture.\n2. Agentic AI systems are characterized by their ability to autonomously make decisions and adapt.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: GPT stands for Generative Pre-trained Transformer, which is fundamentally built on deep learning architecture. Statement 2 is correct: Agentic AI systems go beyond simple prompt-response interactions by autonomously making decisions and adapting to achieve specific objectives.",
+      "takeaway": "GPT utilizes deep learning architecture for generative tasks, while Agentic AI represents systems capable of autonomous decision-making and adaptation.",
+      "evidenceExcerpt": "GPT stands for Generative Pre-trained Transformer, built on deep learning architecture. Agentic AI systems autonomously make decisions and adapt.",
+      "qualityScore": 85,
+      "reviewNotes": "Good combination of two distinct factual points from the text into a standard statement-based question. Tests both the underlying technology of GPT and the definition of Agentic AI."
+    }
+  ],
+  "reviewerNotes": "The candidate questions were generally good but required formatting adjustments to align with UPSC standards. I rewrote the AI stages question into a 'How many pairs' format, which is highly relevant to recent Prelims trends. I also converted the 'Kruti' question into a classic 'term sometimes mentioned in the news' format, providing strong, domain-specific distractors. The remaining questions were refined for clarity and conciseness."
+}

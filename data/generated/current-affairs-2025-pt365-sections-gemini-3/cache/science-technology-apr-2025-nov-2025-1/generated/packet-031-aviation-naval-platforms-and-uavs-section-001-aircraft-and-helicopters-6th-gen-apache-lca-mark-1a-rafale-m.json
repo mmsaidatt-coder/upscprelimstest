@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Correct-Pair",
+      "prompt": "Consider the following pairs of defence platforms and their primary characteristics:\n1. Apache AH-64E : Multi-role attack helicopter equipped with Hellfire missiles\n2. LCA Mark-1A : 4.5 generation fighter equipped with AESA Radar and Electronic Warfare suite\n3. Rafale Marine (M) : 5th generation omnirole fighter designed for deployment on INS Vikrant\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "None"
+        },
+        {
+          "id": "B",
+          "text": "Only one"
+        },
+        {
+          "id": "C",
+          "text": "Only two"
+        },
+        {
+          "id": "D",
+          "text": "All three"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Pair 1 is correct: The Apache AH-64E is a multi-role attack helicopter armed with Hellfire missiles. Pair 2 is correct: The LCA Mark-1A is a 4.5 generation fighter equipped with an AESA Radar and an EW suite. Pair 3 is incorrect: The Rafale Marine (M) is a 4.5 generation (not 5th generation) omnirole fighter.",
+      "takeaway": "Distinguishing between 4.5 generation platforms (like the LCA Mark-1A and Rafale M) and 5th/6th generation fighters is crucial for understanding current naval and air force capabilities.",
+      "evidenceExcerpt": "Apache AH-64E is a multi-role attack helicopter with Hellfire missiles... LCA Mark-1A is a 4.5 generation fighter equipped with AESA Radar and an EW suite... Rafale Marine (M) is a 4.5 generation omnirole fighter..."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the evolution and capabilities of modern fighter aircraft, consider the following statements:\n1. Both the LCA Mark-1A and the Rafale Marine (M) are classified as 4.5 generation fighter aircraft.\n2. The integration of hypersonic weapons and unmanned capabilities is a defining characteristic of emerging sixth-generation fighter jets.\n3. The Rafale Marine (M) is an indigenously developed omnirole fighter intended for deployment on INS Vikrant.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Both the LCA Mark-1A and Rafale M are 4.5 generation fighters. Statement 2 is correct: 6th-Gen fighters feature AI integration, hypersonic, and unmanned capabilities. Statement 3 is incorrect: The Rafale Marine (M) is manufactured by Dassault Aviation (France), not indigenously developed.",
+      "takeaway": "While India is inducting advanced platforms like the Rafale M for its aircraft carriers, they are foreign-procured (Dassault Aviation), unlike the indigenous LCA Tejas series.",
+      "evidenceExcerpt": "6th-Gen fighters feature AI integration, hypersonic, and unmanned capabilities... LCA Mark-1A is a 4.5 generation fighter... Rafale Marine (M) is a 4.5 generation omnirole fighter by Dassault Aviation, to be deployed on INS Vikrant."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Application/Feature",
+      "prompt": "Which of the following best describes the primary operational role and key armament of the Apache AH-64E?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A heavy-lift transport helicopter equipped with advanced electronic warfare suites for high-altitude logistics."
+        },
+        {
+          "id": "B",
+          "text": "A multi-role attack helicopter equipped with Hellfire missiles and advanced sensors."
+        },
+        {
+          "id": "C",
+          "text": "A carrier-based anti-submarine warfare helicopter equipped with lightweight torpedoes."
+        },
+        {
+          "id": "D",
+          "text": "An unmanned aerial vehicle (UAV) designed for high-altitude long-endurance surveillance."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Apache AH-64E is a multi-role attack helicopter equipped with Hellfire missiles and advanced sensors. It is not a heavy-lift transport helicopter (like the Chinook), an ASW helicopter (like the MH-60R), or a UAV.",
+      "takeaway": "The Apache AH-64E serves as a multi-role attack helicopter, distinct from transport or anti-submarine platforms, and utilizes Hellfire missiles for its primary combat role.",
+      "evidenceExcerpt": "Apache AH-64E is a multi-role attack helicopter with Hellfire missiles and advanced sensors."
+    }
+  ]
+}

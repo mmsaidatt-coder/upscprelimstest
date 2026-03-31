@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Cicadas, recently seen in the news:\n1. They are found exclusively in the tropical rainforest biomes of the world.\n2. Their life cycle lacks a pupal stage, consisting only of egg, nymph, and adult stages.\n3. They produce their characteristic loud songs through the rapid buckling of drum-like structures called tymbals.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Cicadas are not exclusive to tropical rainforests; they occur broadly in warm and temperate biomes. Statement 2 is correct: The life cycle of a cicada consists of exactly three stages: egg, nymph, and adult (incomplete metamorphosis). Statement 3 is correct: Most cicada species produce an exceptionally loud song by the rapid buckling and unbuckling of drum-like tymbals.",
+      "takeaway": "Cicadas undergo incomplete metamorphosis (egg, nymph, adult) and are known for their loud songs produced by tymbals. They are found in both warm and temperate biomes.",
+      "evidenceExcerpt": "They occur in warm and temperate biomes and have a life cycle of three stages: egg, nymph, and adult... Most species produce an exceptionally loud song by the rapid buckling and unbuckling of drum-like tymbals."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the habitat and behavior of Cicadas, consider the following statements:\n1. They have recently been recorded returning to the Silent Valley National Park in Kerala.\n2. Adult female cicadas typically lay their eggs in underground soil chambers to protect them from predators.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Cicadas have recently returned to Kerala's Silent Valley National Park. Statement 2 is incorrect: Adult female cicadas usually lay their eggs in woody plant tissues, not in underground soil chambers.",
+      "takeaway": "While cicada nymphs spend a significant portion of their lives underground, adult females lay their eggs in woody plant tissues.",
+      "evidenceExcerpt": "Cicadas have returned to Kerala's Silent Valley National Park... Adult females usually lay eggs in woody plant tissues."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice",
+      "prompt": "In the context of insect behavior, which of the following best describes the mechanism by which most species of cicadas produce their exceptionally loud songs?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "By rapidly rubbing their specialized forewings against their hind legs"
+        },
+        {
+          "id": "B",
+          "text": "By the rapid buckling and unbuckling of drum-like structures called tymbals"
+        },
+        {
+          "id": "C",
+          "text": "By forcefully expelling air through specialized spiracles located on their abdomen"
+        },
+        {
+          "id": "D",
+          "text": "By vibrating their wings at high frequencies while hovering near woody plants"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Most cicada species produce an exceptionally loud song by the rapid buckling and unbuckling of drum-like tymbals. This distinguishes them from other insects like crickets and grasshoppers, which typically produce sound by rubbing body parts together (a process known as stridulation).",
+      "takeaway": "Cicadas possess specialized drum-like structures called tymbals, which they use to produce their characteristic loud songs, rather than relying on stridulation.",
+      "evidenceExcerpt": "Most species produce an exceptionally loud song by the rapid buckling and unbuckling of drum-like tymbals."
+    }
+  ]
+}

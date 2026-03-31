@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Polar Anticyclones:\n1. They are formed when intense heating of surface air causes it to rise and build high pressure at higher altitudes.\n2. The surface winds in these systems diverge outward from the center.\n3. The wind circulation pattern is clockwise in the Northern Hemisphere and anti-clockwise in the Southern Hemisphere.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Polar anticyclones are created by the intense cooling (not heating) of surface air layers, which causes dense air to sink. Statements 2 and 3 are correct: Winds flow outward (diverge) from the high-pressure center, circulating clockwise in the Northern Hemisphere and anti-clockwise in the Southern Hemisphere.",
+      "takeaway": "Polar anticyclones are high-pressure systems driven by thermal cooling and subsidence of dense air, leading to surface divergence.",
+      "evidenceExcerpt": "Polar anticyclones are high-pressure wind systems created by intense cooling of surface air layers. Surface cooling causes dense air to sink... Winds flow outward from the center, circulating clockwise in the Northern Hemisphere and anti-clockwise in the Southern Hemisphere."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the atmospheric dynamics of Polar Anticyclones, consider the following statements:\n1. The sinking of dense, cold air at the surface creates a void that is filled by descending high-altitude air.\n2. They are characterized by surface wind convergence and upper-air divergence.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Surface cooling causes dense air to sink, which is replaced by high-altitude air, building high pressure. Statement 2 is incorrect: Because the winds flow outward from the high-pressure center at the surface, polar anticyclones are characterized by surface divergence, not convergence.",
+      "takeaway": "High-pressure systems (anticyclones) feature subsiding air and surface divergence, whereas low-pressure systems (cyclones) feature rising air and surface convergence.",
+      "evidenceExcerpt": "Surface cooling causes dense air to sink, which is replaced by high-altitude air, building high pressure. Winds flow outward from the center"
+    }
+  ]
+}

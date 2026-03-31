@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Mpox:\n1. It is a viral zoonotic disease caused by a virus of the Orthopoxvirus genus.\n2. Diagnostic testing for the disease is primarily done using RT-PCR.\n3. There is currently no proven treatment for the disease.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Mpox is a viral zoonotic disease caused by the Monkeypox virus, which belongs to the Orthopoxvirus genus.\nStatement 2 is correct: Diagnostic testing for Mpox is conducted using Reverse Transcription Polymerase Chain Reaction (RT-PCR).\nStatement 3 is correct: Currently, there is no proven specific treatment for Mpox.",
+      "takeaway": "Mpox is a viral zoonotic disease (Orthopoxvirus genus) diagnosed via RT-PCR, for which no proven treatment currently exists.",
+      "evidenceExcerpt": "Mpox is a viral zoonotic disease caused by the Monkeypox virus (Orthopoxvirus genus)... Diagnosed via RT-PCR; no proven treatment exists.",
+      "qualityScore": 85,
+      "reviewNotes": "Good coverage of the etiology, diagnosis, and treatment of Mpox. Fits the UPSC 'How many statements' pattern well."
+    }
+  ],
+  "reviewerNotes": "Selected and refined two distinct questions from the candidate set. The first focuses on the etiology, diagnosis, and treatment of Mpox, utilizing the 'How many statements' format. The second covers transmission, symptoms, and the WHO's current classification, using the traditional 'Which of the statements' format. Both are well-grounded in the source text and align with UPSC standards. The third candidate was rejected as its applied clinical scenario format is less typical for UPSC Prelims."
+}

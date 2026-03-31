@@ -1,0 +1,62 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-047-cloudbursts-and-tsunami-guidelines-section-001-cloudbursts-and-orographic-lifting",
+    "claimType": "Factual",
+    "claimText": "The India Meteorological Department (IMD) defines a cloudburst as an event where 10 cm of rainfall is received at a station in one hour.",
+    "evidenceExcerpt": "The IMD defines a cloudburst as an event where 10 cm of rainfall is received at a station in one hour.",
+    "pageNumbers": [
+      97
+    ],
+    "examUse": "Statement-based question on disaster definitions.",
+    "distractorHooks": [
+      "Changing 10 cm to 5 cm or 20 cm",
+      "Changing one hour to 24 hours"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-047-cloudbursts-and-tsunami-guidelines-section-001-cloudbursts-and-orographic-lifting",
+    "claimType": "Conceptual",
+    "claimText": "Cloudbursts are more common in mountainous zones than in plains due to orographic lift, which forces moist air to rise, cool, and condense rapidly.",
+    "evidenceExcerpt": "Cloudbursts are more common in mountainous zones due to orographic lift, where moist air is forced to rise, cooling and condensing rapidly.",
+    "pageNumbers": [
+      97
+    ],
+    "examUse": "Assertion-Reason question on the geographical distribution and mechanism of cloudbursts.",
+    "distractorHooks": [
+      "Stating cloudbursts only occur in mountains",
+      "Attributing the phenomenon to frontal lifting instead of orographic lift"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-047-cloudbursts-and-tsunami-guidelines-section-001-cloudbursts-and-orographic-lifting",
+    "claimType": "Conceptual",
+    "claimText": "During a cloudburst, a violent upward flow of air prevents condensing raindrops from falling until the updraft weakens, causing the stored water to fall simultaneously.",
+    "evidenceExcerpt": "A violent upward flow of air prevents condensing raindrops from falling until the lack of upward air causes the whole stored water to fall at once.",
+    "pageNumbers": [
+      97
+    ],
+    "examUse": "Statement-based question on the meteorological mechanism of cloudbursts.",
+    "distractorHooks": [
+      "Stating that strong downward drafts cause the sudden release of water",
+      "Claiming horizontal winds are the primary cause of water suspension"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-047-cloudbursts-and-tsunami-guidelines-section-001-cloudbursts-and-orographic-lifting",
+    "claimType": "Factual",
+    "claimText": "Climate change exacerbates cloudbursts because every 1 degree Celsius rise in temperature allows the air to hold approximately 7% more moisture.",
+    "evidenceExcerpt": "Climate change exacerbates cloudbursts, as every 1°C rise in temperature allows the air to hold approximately 7% more moisture.",
+    "pageNumbers": [
+      97
+    ],
+    "examUse": "Statement-based question linking climate change to extreme weather events.",
+    "distractorHooks": [
+      "Changing 7% more moisture to decreased moisture capacity",
+      "Altering the percentage significantly to 20% or 50%"
+    ]
+  }
+]

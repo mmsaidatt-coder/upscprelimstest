@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Correct-Pair",
+      "prompt": "Consider the following pairs regarding the classification of diabetes and their primary characteristics:\n\n1. Type 1 Diabetes : Autoimmune destruction of insulin-producing beta cells\n2. Type 2 Diabetes : Chronic undernutrition and low body weight\n3. Type 5 Diabetes : Obesity and overnutrition\n4. Gestational Diabetes : High blood glucose during pregnancy\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "Only three pairs"
+        },
+        {
+          "id": "D",
+          "text": "All four pairs"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: Type 1 diabetes involves the autoimmune destruction of insulin-producing beta cells.\nPair 2 is incorrectly matched: Type 2 diabetes is mainly caused by obesity and overnutrition, not undernutrition.\nPair 3 is incorrectly matched: Type 5 diabetes (also known as J-type diabetes) is associated with chronic undernutrition and low body weight.\nPair 4 is correctly matched: Gestational diabetes occurs with high blood glucose during pregnancy.\nTherefore, exactly two pairs are correctly matched.",
+      "takeaway": "Type 5 diabetes is a newly recognized classification by the International Diabetes Federation (IDF) that specifically accounts for malnutrition-related diabetes, contrasting with the obesity-driven Type 2.",
+      "evidenceExcerpt": "Malnutrition-related diabetes has been officially recognized and named type 5 diabetes at International Diabetes Federation's (IDF) World Diabetes Congress. Also called J-type diabetes, is known to be associated with under nutrition and low weight. Other Types of Diabetes: Type 1: Autoimmune destruction of insulin-producing beta cells. Type 2: Mainly caused by obesity and over nutrition. Gestational: Occurs with high blood glucose during pregnancy.",
+      "qualityScore": 85,
+      "reviewNotes": "Good correct-pair question that tests the candidate's knowledge of the newly recognized Type 5 diabetes by contrasting it with the well-known Type 2 diabetes."
+    }
+  ],
+  "reviewerNotes": "Selected two questions that effectively cover the newly recognized Type 5 diabetes. The first uses a 'How many pairs' format to test the broader classification of diabetes, while the second focuses specifically on the facts surrounding Type 5 and its alternative name (J-type). Both have been rewritten to match UPSC standards."
+}

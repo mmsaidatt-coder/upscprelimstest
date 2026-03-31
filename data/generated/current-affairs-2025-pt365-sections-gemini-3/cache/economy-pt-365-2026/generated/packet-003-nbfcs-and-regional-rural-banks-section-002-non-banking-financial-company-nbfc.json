@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Comparison-driven",
+      "prompt": "Which of the following is a key regulatory distinction between commercial banks and Non-Banking Financial Companies (NBFCs) in India?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Banks are registered under the Companies Act, while NBFCs are registered under the Banking Regulation Act."
+        },
+        {
+          "id": "B",
+          "text": "Banks can finance real estate activities, while NBFCs are mandated to focus exclusively on agriculture."
+        },
+        {
+          "id": "C",
+          "text": "Banks form part of the payment and settlement system, while NBFCs are kept outside of it."
+        },
+        {
+          "id": "D",
+          "text": "Banks cannot issue cheques drawn on themselves, whereas NBFCs are permitted to do so."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Option C is correct: NBFCs are outside the payment and settlement system, unlike commercial banks. Option A is incorrect: NBFCs are registered under the Companies Act, 1956. Option B is incorrect: NBFCs explicitly exclude agriculture as a principal business. Option D is incorrect: NBFCs cannot issue cheques drawn on themselves.",
+      "takeaway": "A fundamental operational difference between banks and NBFCs is that NBFCs do not participate in the payment and settlement system and cannot issue self-drawn cheques.",
+      "evidenceExcerpt": "Unlike banks, NBFCs cannot accept demand deposits, are outside the payment and settlement system, and cannot issue cheques drawn on themselves."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Non-Banking Financial Companies (NBFCs) in India:\n\n1. They are incorporated under the provisions of the Banking Regulation Act, 1949.\n2. Their principal business operations explicitly exclude agricultural, industrial, and real estate activities.\n3. They are permitted to accept demand deposits subject to stringent reserve requirements.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect: NBFCs are registered under the Companies Act, 1956, not the Banking Regulation Act. Statement 2 is correct: Their principal business involves lending and investment, but explicitly excludes agriculture, industry, and real estate activities. Statement 3 is incorrect: Unlike commercial banks, NBFCs cannot accept demand deposits under any circumstances.",
+      "takeaway": "NBFCs are registered under the Companies Act and have strict operational boundaries, including the absolute inability to accept demand deposits or engage primarily in agriculture, industry, or real estate.",
+      "evidenceExcerpt": "NBFCs are registered under the Companies Act, 1956, engaging in lending and investment while excluding agriculture, industry, and real estate activities. Unlike banks, NBFCs cannot accept demand deposits..."
+    }
+  ]
+}

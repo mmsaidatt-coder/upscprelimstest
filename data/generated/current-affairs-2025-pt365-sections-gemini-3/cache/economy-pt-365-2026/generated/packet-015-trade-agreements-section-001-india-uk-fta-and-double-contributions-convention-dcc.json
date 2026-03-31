@@ -1,0 +1,33 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "In the context of international trade and economic cooperation, the 'Double Contributions Convention' (DCC) primarily addresses which of the following issues?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The imposition of both Corporate Tax and Dividend Distribution Tax on multinational firms."
+        },
+        {
+          "id": "B",
+          "text": "The requirement for expatriate workers to pay social security levies in both home and host countries."
+        },
+        {
+          "id": "C",
+          "text": "The simultaneous application of Customs Duty and Integrated GST on imported capital goods."
+        },
+        {
+          "id": "D",
+          "text": "The overlapping jurisdiction of competition regulators in cross-border merger and acquisition deals."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The DCC is specifically a Social Security Agreement (SSA). Its purpose is to ensure that employees moving between countries for temporary work do not have to pay social security contributions in both the home and host countries simultaneously.",
+      "takeaway": "Social Security Agreements like the DCC are crucial for professional mobility as they reduce the financial burden on temporary migrant workers.",
+      "evidenceExcerpt": "DCC is a Social Security Agreement ensuring employees temporarily working in the other country (up to 3 years) pay contributions in only one country at a time.",
+      "contextLines": []
+    }
+  ]
+}

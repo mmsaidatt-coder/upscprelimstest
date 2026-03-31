@@ -1,0 +1,236 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of missiles and their key features:\n1. Astra: Beyond Visual Range Air-to-Air missile\n2. Pralay: Surface-to-surface quasi-ballistic missile\n3. Rampage: Supersonic cruise missile jointly developed by India and Russia\n4. Akash Prime: Surface-to-Air Missile designed for high altitudes\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "Only three pairs"
+        },
+        {
+          "id": "D",
+          "text": "All four pairs"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Pair 1 is correct: Astra is an indigenous Beyond Visual Range Air-to-Air missile (BVRAAM). Pair 2 is correct: Pralay is a surface-to-surface short-range quasi-ballistic missile. Pair 3 is incorrect: Rampage is an Israeli-developed long-range, air-to-ground precise attack missile. BrahMos is the supersonic cruise missile jointly developed by India and Russia. Pair 4 is correct: Akash Prime is a rugged SAM system designed for high altitudes above 4500 meters.",
+      "takeaway": "Knowing the operational type (air-to-air, surface-to-surface) and origin of tactical missiles is crucial for defense technology questions.",
+      "evidenceExcerpt": "Astra is an indigenous Beyond Visual Range Air-to-Air missile... Pralay is a surface-to-surface short-range quasi-ballistic missile... Rampage is an Israeli-developed long-range, air-to-ground supersonic precise attack missile. Akash Prime is a rugged SAM system designed for extreme cold and high altitudes..."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the BrahMos missile:\n1. It is a two-stage cruise missile that utilizes a solid propellant booster in the first stage and a liquid ramjet in the second stage.\n2. It is an entirely indigenous missile developed by the Defence Research and Development Organisation (DRDO).\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: BrahMos is a 2-stage supersonic cruise missile employing a solid booster and a liquid ramjet. Statement 2 is incorrect: It is jointly developed by India and Russia, not entirely indigenous.",
+      "takeaway": "BrahMos is a joint venture between India and Russia, featuring a two-stage propulsion system (solid booster, liquid ramjet).",
+      "evidenceExcerpt": "BrahMos is a 2-stage supersonic cruise missile (solid booster, liquid ramjet) jointly developed by India and Russia with a range up to 290 km."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the 'Pralay' missile:\n1. It is an air-to-surface cruise missile designed primarily for naval fighter jets.\n2. It is capable of achieving hypersonic speeds during its flight.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Pralay is a surface-to-surface short-range quasi-ballistic missile, not an air-to-surface cruise missile. Statement 2 is correct: It is capable of hypersonic speeds.",
+      "takeaway": "Pralay is a surface-to-surface quasi-ballistic missile capable of hypersonic speeds, distinguishing it from conventional cruise missiles.",
+      "evidenceExcerpt": "Pralay is a surface-to-surface short-range quasi-ballistic missile (150-500 km) capable of hypersonic speeds."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements:\n1. The Rampage missile is a long-range, air-to-ground precise attack missile developed by Israel Aerospace Industries.\n2. The Akash Prime missile system is a rugged Surface-to-Air Missile (SAM) specifically designed for deployment in extreme cold and high-altitude regions.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Rampage is an Israeli-developed long-range, air-to-ground supersonic precise attack missile. Statement 2 is correct: Akash Prime is a rugged SAM system designed for extreme cold and high altitudes above 4500 meters.",
+      "takeaway": "Akash Prime enhances India's air defense in high-altitude border regions, while Rampage adds to the air-to-ground precision strike capabilities.",
+      "evidenceExcerpt": "Akash Prime is a rugged SAM system designed for extreme cold and high altitudes above 4500 meters. Rampage is an Israeli-developed long-range, air-to-ground supersonic precise attack missile."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Applied Scenario",
+      "prompt": "The Indian Armed Forces are looking to deploy a Surface-to-Air Missile (SAM) system to protect airspace in the high-altitude, extreme cold regions of the Himalayas, specifically at elevations above 4,500 meters. Which of the following missile systems is explicitly designed to meet these operational requirements?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Astra"
+        },
+        {
+          "id": "B",
+          "text": "Akash Prime"
+        },
+        {
+          "id": "C",
+          "text": "Pralay"
+        },
+        {
+          "id": "D",
+          "text": "Rampage"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Akash Prime is a rugged Surface-to-Air Missile (SAM) system specifically designed for deployment in extreme cold and high altitudes above 4500 meters.",
+      "takeaway": "Akash Prime is tailored for high-altitude (above 4500m) and extreme cold environments, differentiating it from standard SAM systems.",
+      "evidenceExcerpt": "Akash Prime is a rugged SAM system designed for extreme cold and high altitudes above 4500 meters."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Applied Scenario",
+      "prompt": "In modern aerial warfare, the ability to engage enemy aircraft before they are visible to the pilot is a critical tactical advantage. Which of the following indigenous missiles provides the Indian Air Force with a Beyond Visual Range Air-to-Air (BVRAAM) strike capability exceeding 100 km?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Pralay"
+        },
+        {
+          "id": "B",
+          "text": "Rampage"
+        },
+        {
+          "id": "C",
+          "text": "Astra"
+        },
+        {
+          "id": "D",
+          "text": "BrahMos"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Astra is an indigenous Beyond Visual Range Air-to-Air missile (BVRAAM) developed by DRDO with a range exceeding 100 km.",
+      "takeaway": "Astra is India's indigenous BVRAAM, enabling fighter jets to target adversary aircraft at long ranges without entering visual combat.",
+      "evidenceExcerpt": "Astra is an indigenous Beyond Visual Range Air-to-Air missile (BVRAAM) developed by DRDO with a range exceeding 100 km."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements comparing various tactical missiles in India's arsenal:\n1. While Astra is an indigenously developed air-to-air missile, Rampage is an imported air-to-ground missile.\n2. While BrahMos is a supersonic cruise missile, Pralay is a quasi-ballistic missile capable of achieving hypersonic speeds.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Astra is an indigenous Beyond Visual Range Air-to-Air missile (BVRAAM), whereas Rampage is an Israeli-developed air-to-ground precise attack missile. Statement 2 is correct: BrahMos is a supersonic cruise missile, while Pralay is a short-range quasi-ballistic missile capable of hypersonic speeds.",
+      "takeaway": "Understanding the operational domains (air-to-air vs air-to-ground) and trajectories (cruise vs quasi-ballistic) is key to distinguishing India's tactical missiles.",
+      "evidenceExcerpt": "BrahMos is a 2-stage supersonic cruise missile... Astra is an indigenous Beyond Visual Range Air-to-Air missile (BVRAAM)... Pralay is a surface-to-surface short-range quasi-ballistic missile (150-500 km) capable of hypersonic speeds... Rampage is an Israeli-developed long-range, air-to-ground supersonic precise attack missile."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Mechanism-design",
+      "prompt": "Which of the following missile systems utilizes a two-stage propulsion mechanism comprising a solid booster for initial acceleration and a liquid ramjet for sustained supersonic cruise?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Pralay"
+        },
+        {
+          "id": "B",
+          "text": "BrahMos"
+        },
+        {
+          "id": "C",
+          "text": "Astra"
+        },
+        {
+          "id": "D",
+          "text": "Rampage"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "BrahMos is a 2-stage supersonic cruise missile that utilizes a solid booster in its first stage and a liquid ramjet in its second stage to maintain supersonic speeds.",
+      "takeaway": "The BrahMos missile's unique propulsion system (solid booster + liquid ramjet) allows it to sustain supersonic speeds over its flight path.",
+      "evidenceExcerpt": "BrahMos is a 2-stage supersonic cruise missile (solid booster, liquid ramjet) jointly developed by India and Russia with a range up to 290 km."
+    }
+  ]
+}

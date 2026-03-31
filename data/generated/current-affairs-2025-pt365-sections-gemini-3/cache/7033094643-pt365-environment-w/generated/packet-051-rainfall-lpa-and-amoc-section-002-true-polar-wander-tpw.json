@@ -1,0 +1,93 @@
+{
+  "questions": [
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'True Polar Wander' (TPW): 1. It is a phenomenon where the Earth's magnetic poles shift due to convection currents in the liquid outer core. 2. Anthropogenic activities such as large-scale dam construction can contribute to this phenomenon. 3. The shifting of mass from the poles to the equator due to melting ice accelerates Earth's spin, resulting in shorter days. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: True Polar Wander (TPW) refers to the rotation of the solid Earth (crust and mantle) about the liquid outer core to maintain rotational balance, not the shifting of magnetic poles. Statement 2 is correct: A recent study revealed that human activities, such as dam construction, have shifted Earth's rotational axis by over 1 meter since 1835, driving TPW. Statement 3 is incorrect: Melting ice moves mass from the poles to the equator, making Earth slightly more flattened. This slows down its spin, causing longer days, not shorter ones.",
+      "takeaway": "True Polar Wander is the physical reorientation of the solid Earth relative to its spin axis. It can be driven by natural mass redistributions (ice melt) and human activities (dam construction), and it affects the length of a day by altering Earth's rotational speed.",
+      "evidenceExcerpt": "True Polar Wander (TPW) involves the rotation of the solid Earth (crust and mantle) about the liquid outer core... A recent study revealed that dam construction has shifted Earth's rotational axis by over 1 meter since 1835 i.e., they have driven True Polar Wander (TPW)... Effects of Shifting Poles: Longer Days as melting ice moves mass from the poles to the equator, making Earth slightly more flattened. This slows down its spin, causing longer days."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "Which of the following best describes the geophysical phenomenon of 'True Polar Wander'?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The continuous drift of the magnetic North Pole due to iron convection in the outer core."
+        },
+        {
+          "id": "B",
+          "text": "The rotation of the solid Earth, comprising the crust and mantle, about the liquid outer core."
+        },
+        {
+          "id": "C",
+          "text": "The periodic reversal of Earth's magnetic field over geological timescales."
+        },
+        {
+          "id": "D",
+          "text": "The wobbling of Earth's axis of rotation caused by the gravitational pull of the Moon and the Sun."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "True Polar Wander (TPW) is a planetary reorientation process. It specifically involves the rotation of the solid Earth (the crust and the mantle) relative to the liquid outer core to maintain rotational balance. It is distinct from magnetic polar wander (Option A), magnetic reversal (Option C), and axial precession or nutation caused by gravitational forces (Option D).",
+      "takeaway": "True Polar Wander refers to the physical shift of the solid Earth (crust and mantle) around the liquid outer core, driven by mass redistribution on or within the planet.",
+      "evidenceExcerpt": "About True Polar Wander (TPW) or planetary reorientation: Rotation of the solid Earth (crust and mantle) about the liquid outer core..."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Hard",
+      "questionType": "Applied Concept",
+      "prompt": "Based on the mechanics of planetary reorientation, if a hypothetical global event were to cause a massive displacement of mass from the Earth's equator towards its poles, which of the following would be the most likely geophysical consequence?",
+      "contextLines": [
+        "Effects of Shifting Poles: Longer Days as melting ice moves mass from the poles to the equator, making Earth slightly more flattened. This slows down its spin, causing longer days."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The Earth would become slightly more flattened, leading to a deceleration of its rotational spin and longer days."
+        },
+        {
+          "id": "B",
+          "text": "The Earth's rotational spin would accelerate as mass moves closer to the axis of rotation, resulting in shorter days."
+        },
+        {
+          "id": "C",
+          "text": "The solid crust and mantle would lock with the liquid outer core, halting True Polar Wander."
+        },
+        {
+          "id": "D",
+          "text": "The Earth's rotational axis would permanently align with its magnetic poles."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The source notes that moving mass from the poles to the equator makes the Earth more flattened and slows its spin, causing longer days. Applying this principle in reverse: moving mass from the equator to the poles would make the Earth less flattened (as mass moves closer to the rotational axis). By the conservation of angular momentum, this would accelerate the Earth's spin, resulting in shorter days.",
+      "takeaway": "The Earth's rotational speed is inversely related to its equatorial flattening; mass moving towards the poles speeds up rotation, while mass moving towards the equator slows it down.",
+      "evidenceExcerpt": "Effects of Shifting Poles: Longer Days as melting ice moves mass from the poles to the equator, making Earth slightly more flattened. This slows down its spin, causing longer days."
+    }
+  ]
+}

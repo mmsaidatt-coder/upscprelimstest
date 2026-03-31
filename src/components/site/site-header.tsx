@@ -7,6 +7,7 @@ const navigation = [
   { href: "/pyq", label: "PYQ" },
   { href: "/flt", label: "FLT" },
   { href: "/subject-wise", label: "Subject wise" },
+  { href: "/current-affairs", label: "Current affairs" },
   { href: "/analytics", label: "Analytics" },
 ];
 

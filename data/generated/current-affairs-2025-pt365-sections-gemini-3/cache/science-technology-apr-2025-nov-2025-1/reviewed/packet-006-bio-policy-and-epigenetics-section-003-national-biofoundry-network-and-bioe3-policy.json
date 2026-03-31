@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the 'BioE3 Policy', recently seen in the news:\n1. It is India's first policy in Biotechnology, launched by the Ministry of Environment, Forest and Climate Change.\n2. It aims to promote biomanufacturing in sectors such as precision biotherapeutics and carbon capture.\n3. The National Biofoundry Network was launched as a 'Bio enabler' component under this policy.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The BioE3 (Biotechnology for Economy, Environment and Employment) Policy is India's first policy in Biotechnology, but it was launched by the Department of Biotechnology (DBT) under the Ministry of Science & Technology, not the Ministry of Environment, Forest and Climate Change.\nStatement 2 is correct: The policy aims to revolutionize biomanufacturing in sectors including precision biotherapeutics, smart proteins, and carbon capture.\nStatement 3 is correct: The National Biofoundry Network was launched as a 'Bio enabler' component of the BioE3 Policy to scale up proof-of-concept projects.",
+      "takeaway": "The BioE3 Policy is India's first biotechnology policy, launched by the Ministry of Science & Technology. It focuses on revolutionizing biomanufacturing and establishing enabling infrastructure like the National Biofoundry Network.",
+      "evidenceExcerpt": "India's first National Biofoundry Network was launched as a Bio enabler component of the BioE3 Policy to scale up proof-of-concept projects... The BioE3 (Biotechnology for Economy, Environment and Employment) Policy, launched by DBT under the Ministry of Science & Technology, aims to revolutionize biomanufacturing in sectors like precision biotherapeutics and smart proteins... BioE3 aims to revolutionize biomanufacturing, including precision biotherapeutics and carbon capture.",
+      "qualityScore": 88,
+      "reviewNotes": "Updated the question to the modern UPSC 'How many statements are correct' format. The distractors are plausible, testing the nodal ministry and the specific components of the newly launched policy."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "In the context of modern biotechnology, which of the following activities are integrated within the operations of a 'Biofoundry'?\n1. De novo synthesis of DNA sequences\n2. Targeted modification of genetic material\n3. Automated production of biological molecules at scale\n\nSelect the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A Biofoundry is an automated facility that integrates:\n1. DNA synthesis (de novo synthesis of DNA sequences)\n2. Gene editing (targeted modification of genetic material)\n3. Biomanufacturing (automated production of biological molecules at scale).\nThese facilities help transition biological proof-of-concept projects into scalable manufacturing.",
+      "takeaway": "Biofoundries combine engineering and biology, providing automated infrastructure for DNA synthesis, gene editing, and biomanufacturing to rapidly scale up biotech innovations.",
+      "evidenceExcerpt": "A Biofoundry is an automated facility integrating DNA synthesis, gene editing, and biomanufacturing.",
+      "qualityScore": 85,
+      "reviewNotes": "Excellent conceptual question that translates the direct terms from the text (DNA synthesis, gene editing, biomanufacturing) into descriptive scientific phrases, testing true understanding rather than rote memorization."
+    }
+  ],
+  "reviewerNotes": "Selected two strong questions. The first tests factual knowledge of the BioE3 policy using the latest UPSC format. The second tests the conceptual understanding of a 'Biofoundry' by rephrasing the core functions into descriptive statements, which is a classic UPSC technique."
+}

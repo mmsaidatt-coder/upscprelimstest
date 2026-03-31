@@ -1,0 +1,149 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the tax structure in India:\n1. The incidence and impact of direct taxes fall on the same person, meaning the tax burden cannot be shifted.\n2. Indirect taxes are progressive in nature, as they apply uniformly to all consumers regardless of their income.\n3. The administration of capital gains tax falls under the purview of the Central Board of Direct Taxes (CBDT).\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Direct taxes have their incidence and impact on the same person, and their burden cannot be shifted.\nStatement 2 is incorrect: Indirect taxes are regressive in nature precisely because they apply the same rate regardless of the consumer's income, placing a disproportionately higher burden on lower-income individuals.\nStatement 3 is correct: Capital gains tax is a direct tax and is therefore administered by the CBDT.",
+      "takeaway": "Direct taxes (like Income, Corporate, and Capital Gains) are progressive and non-transferable, administered by the CBDT. Indirect taxes are regressive and their burden is shifted to the consumer.",
+      "evidenceExcerpt": "Direct taxes (e.g., Income, Corporate, Capital Gains) are progressive, administered by the CBDT, and their incidence and impact fall on the same person. The burden of direct taxes cannot be shifted... Indirect taxes (e.g., GST, Customs, Excise) are regressive... applying the same rate regardless of income."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Statement-based",
+      "prompt": "With reference to indirect taxes in India, consider the following statements:\n1. Their burden is ultimately shifted to the final consumer.\n2. Excise duty on both petroleum and liquor is currently subsumed under the Goods and Services Tax (GST) framework.\n3. They are administered by the Central Board of Indirect Taxes and Customs (CBIC).\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: The burden of indirect taxes is shifted to the buyer/consumer.\nStatement 2 is incorrect: Excise duty on petroleum and liquor remains outside the Goods and Services Tax (GST) framework.\nStatement 3 is correct: Indirect taxes are administered by the CBIC.",
+      "takeaway": "While most indirect taxes have been subsumed under GST, key exceptions like excise duty on petroleum and liquor remain outside its framework.",
+      "evidenceExcerpt": "Indirect taxes (e.g., GST, Customs, Excise) are regressive, administered by the CBIC, and their burden is shifted to the consumer... Excise duty on petroleum and liquor remains outside the GST framework."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of taxes and their characteristics:\n\n1. Corporate Tax : The tax burden can be shifted to the consumer\n2. Customs Duty : Administered by the Central Board of Indirect Taxes and Customs (CBIC)\n3. Capital Gains Tax : Progressive in nature\n4. Goods and Services Tax : Applies the same rate regardless of the consumer's income\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "Only three pairs"
+        },
+        {
+          "id": "D",
+          "text": "All four pairs"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Pair 1 is incorrectly matched: Corporate Tax is a direct tax; hence, its incidence and impact fall on the same entity, and the burden cannot be shifted.\nPair 2 is correctly matched: Customs Duty is an indirect tax administered by the CBIC.\nPair 3 is correctly matched: Capital Gains Tax is a direct tax, which is progressive in nature.\nPair 4 is correctly matched: GST is an indirect tax, which is regressive and applies the same rate regardless of income.",
+      "takeaway": "Understanding the classification of taxes (Direct vs. Indirect) helps deduce their administrative body (CBDT vs. CBIC), their nature (Progressive vs. Regressive), and their incidence (Non-transferable vs. Shifted).",
+      "evidenceExcerpt": "Direct taxes (e.g., Income, Corporate, Capital Gains) are progressive, administered by the CBDT, and their incidence and impact fall on the same person... Indirect taxes (e.g., GST, Customs, Excise) are regressive, administered by the CBIC, and their burden is shifted to the consumer. Indirect taxes are regressive, applying the same rate regardless of income."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Implication",
+      "prompt": "If the Government of India decides to significantly increase the rates of Goods and Services Tax (GST) while simultaneously reducing Income Tax rates, what is the most likely macroeconomic implication of this policy shift based on the characteristics of the Indian tax structure?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It will make the overall tax system more progressive, disproportionately benefiting lower-income groups."
+        },
+        {
+          "id": "B",
+          "text": "It will increase the regressive nature of the tax system, disproportionately burdening lower-income consumers."
+        },
+        {
+          "id": "C",
+          "text": "It will shift the administrative jurisdiction of corporate taxation from the CBDT to the CBIC."
+        },
+        {
+          "id": "D",
+          "text": "It will ensure that the incidence and impact of the majority of taxes fall on the same person."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "GST is an indirect tax, which is regressive in nature because it applies the same rate regardless of the consumer's income. Income tax is a direct tax, which is progressive. Shifting the primary tax burden from income tax to GST would make the overall system more regressive, disproportionately affecting lower-income groups who spend a larger share of their income on consumption.",
+      "takeaway": "Indirect taxes apply uniformly to all consumers regardless of income, making them regressive. Heavy reliance on them can exacerbate economic inequality.",
+      "evidenceExcerpt": "Direct taxes (e.g., Income, Corporate, Capital Gains) are progressive... Indirect taxes (e.g., GST, Customs, Excise) are regressive... applying the same rate regardless of income."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "Which of the following statements best describes the mechanism of \"burden shifting\" in the context of indirect taxes in India?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The statutory liability to remit the tax and the ultimate economic burden of the tax fall on the same individual."
+        },
+        {
+          "id": "B",
+          "text": "The tax is levied on an individual's income but is remitted to the government by the employer through deduction at source."
+        },
+        {
+          "id": "C",
+          "text": "The tax is collected by the government from the supplier, who subsequently recovers it by embedding it in the final price paid by the consumer."
+        },
+        {
+          "id": "D",
+          "text": "The administrative responsibility for tax collection is transferred from the Central Board of Direct Taxes (CBDT) to the Central Board of Indirect Taxes and Customs (CBIC)."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "In indirect taxes, the incidence (initial liability) and impact (ultimate burden) fall on different entities. The supplier pays the tax to the government but shifts the economic burden to the final consumer by embedding the tax in the price of the goods or services.",
+      "takeaway": "Burden shifting is a defining characteristic of indirect taxes, where the tax is embedded in prices, unlike direct taxes where the incidence and impact fall on the same person.",
+      "evidenceExcerpt": "Indirect taxes (e.g., GST, Customs, Excise) are regressive... and their burden is shifted to the consumer. ... indirect taxes are embedded in prices."
+    }
+  ]
+}

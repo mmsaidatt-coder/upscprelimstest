@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the transfer of surplus from the Reserve Bank of India (RBI) to the Government of India, consider the following statements:\n\n1. The legal basis for the distribution of RBI's profits is provided under Section 47 of the RBI Act, 1934.\n2. The amount of surplus to be transferred is determined annually by the Bimal Jalan Committee.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct as the source material explicitly mentions that the profit distribution is governed by Section 47 of the RBI Act, 1934. Statement 2 is incorrect. The Bimal Jalan Committee provided the recommendations for the Economic Capital Framework (ECF), which is the methodology used to determine the surplus. The committee itself does not determine the amount annually; the RBI does so based on the established framework.",
+      "takeaway": "It is important to distinguish between the legal provision (Section 47, RBI Act), the recommending body for the framework (Bimal Jalan Committee), and the operational framework itself (ECF) which guides the annual surplus transfer calculation.",
+      "evidenceExcerpt": "The ECF provides a methodology for determining the appropriate level of risk provisions and profit distribution under Section 47 of the RBI Act, 1934... adopted in 2019 following the recommendations of the Bimal Jalan Committee."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Multiple-choice",
+      "prompt": "Which of the following are mentioned in the passage as primary sources of the Reserve Bank of India's (RBI) income?\n\n1. Seigniorage\n2. Returns on foreign currency investments\n3. Dividends from Public Sector Banks\n4. Interest on government securities\n\nSelect the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 4 only"
+        },
+        {
+          "id": "C",
+          "text": "1, 2 and 4 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2, 3 and 4"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The passage explicitly lists the RBI's primary income sources. These include interest on government securities, liquidity management operations, seigniorage (profit from printing currency), and returns on foreign currency investments. Dividends from Public Sector Banks are not mentioned as a source of RBI's income; the government is the primary owner of these banks.",
+      "takeaway": "The RBI's income is generated from its core central banking functions, such as managing government debt, foreign exchange reserves, and currency issuance, rather than from ownership of commercial banks.",
+      "evidenceExcerpt": "The RBI's income is primarily sourced from interest on government securities, liquidity management operations, seigniorage, and returns on foreign currency investments."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Applied",
+      "prompt": "What is the primary objective of the Economic Capital Framework (ECF) adopted by the Reserve Bank of India (RBI)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "To provide a structured methodology for determining the RBI's required capital buffers and subsequently the amount of transferable surplus for the government."
+        },
+        {
+          "id": "B",
+          "text": "To maximize the annual dividend paid by the RBI to the government to help bridge the fiscal deficit."
+        },
+        {
+          "id": "C",
+          "text": "To bring the RBI's profit distribution mechanism under the direct legislative control of the Parliament."
+        },
+        {
+          "id": "D",
+          "text": "To align the RBI's accounting practices with international central banking standards for greater transparency."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "The primary objective of the ECF is to create a clear and logical framework for balancing two needs: the RBI's need to maintain sufficient capital to cover financial risks (risk provisions) and the government's need for surplus funds. It is not designed to simply maximize the transfer but to determine an 'appropriate' level based on risk assessment.",
+      "takeaway": "The Economic Capital Framework (ECF) provides a rule-based, transparent methodology for determining the RBI's optimal capital level, ensuring the central bank is sufficiently capitalized to withstand risks while transferring excess profits to the government.",
+      "evidenceExcerpt": "The ECF provides a methodology for determining the appropriate level of risk provisions and profit distribution under Section 47 of the RBI Act, 1934."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "With reference to the Economic Capital Framework (ECF) that guides the transfer of surplus from the RBI, which of the following statements best describes its operational logic?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It calculates the RBI's total income and mandates that a pre-decided fixed percentage be transferred to the government annually."
+        },
+        {
+          "id": "B",
+          "text": "It first determines the adequate level of risk provisions the RBI must hold, and then treats the remaining profit as transferable surplus."
+        },
+        {
+          "id": "C",
+          "text": "It allows the central government to specify its fiscal requirements, which the RBI then uses to calculate the transferable surplus."
+        },
+        {
+          "id": "D",
+          "text": "It primarily focuses on monetizing the RBI's foreign currency assets to generate a higher surplus for the government."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The core logic of the ECF is to prioritize the financial soundness of the RBI. It first assesses the risks faced by the central bank and determines the capital buffer ('risk provisions') needed to cover them. The surplus is the amount left over after these provisions are made from the RBI's income. This is a dynamic calculation, not a fixed percentage or one driven by government fiscal needs.",
+      "takeaway": "The ECF operates on a 'safety first' principle for the central bank's balance sheet. The transferable surplus is a residual amount calculated after ensuring the RBI is adequately capitalized against potential risks.",
+      "evidenceExcerpt": "The ECF provides a methodology for determining the appropriate level of risk provisions and profit distribution..."
+    }
+  ]
+}

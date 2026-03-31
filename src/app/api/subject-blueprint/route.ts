@@ -1,18 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createAdminClient } from "@/lib/supabase/admin";
-import type { Subject } from "@/lib/types";
-
-const SUBJECT_MAP: Record<string, Subject> = {
-  "History":        "History",
-  "Geography":      "Geography",
-  "Economics":      "Economy",
-  "Economy":        "Economy",
-  "Environment":    "Environment",
-  "Polity":         "Polity",
-  "Science & Tech": "Science",
-  "Science":        "Science",
-  "Current Affairs": "Current Affairs",
-};
+import { fetchAllPages } from "@/lib/supabase/fetch-all-pages";
+import { SUBJECT_MAP } from "@/lib/subject-map";
 
 export async function GET(req: NextRequest) {
   const { searchParams } = new URL(req.url);
@@ -26,15 +15,16 @@ export async function GET(req: NextRequest) {
   const supabase = createAdminClient();
 
   try {
-    const { data, error } = await supabase
-      .from("questions")
-      .select("id, year, topic")
-      .eq("source", "pyq")
-      .eq("subject", dbSubject);
-
-    if (error || !data) {
-      throw new Error(error?.message ?? "No data");
-    }
+    const data = await fetchAllPages<{ id: string; year: number | null; topic: string | null }>({
+      runPage: async (from, to) =>
+        await supabase
+          .from("questions")
+          .select("id, year, topic")
+          .eq("source", "pyq")
+          .eq("subject", dbSubject)
+          .order("id", { ascending: true })
+          .range(from, to),
+    });
 
     // Build the TopicRow[]
     // Format: { topic: "Physical Geography", years: { 2024: 1, 2025: 2 } }
@@ -64,7 +54,8 @@ export async function GET(req: NextRequest) {
     });
 
     return NextResponse.json({ topics: topicRows });
-  } catch (err: any) {
-    return NextResponse.json({ topics: [], error: err.message }, { status: 500 });
+  } catch (err: unknown) {
+    const message = err instanceof Error ? err.message : "Unknown error";
+    return NextResponse.json({ topics: [], error: message }, { status: 500 });
   }
 }

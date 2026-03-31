@@ -1,0 +1,157 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding global environmental governance: 1. The United Nations Forum on Forests (UNFF) was established by the United Nations General Assembly (UNGA) to promote sustainable forest management. 2. The creation of the International Panel for Ocean Sustainability (IPOS) is a key priority supported by the Nice Ocean Action Plan. 3. Scaling up funding for Sustainable Development Goal 14 (Life below water) is a priority focus of the third United Nations Ocean Conference (UNOC3). How many of the statements given above are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: UNFF was established by the UN Economic and Social Council (ECOSOC), not the UNGA. Statements 2 and 3 are correct: The Nice Ocean Action Plan, adopted at UNOC3, supports the creation of IPOS and prioritizes scaling up funding for SDG 14.",
+      "takeaway": "UNFF is an ECOSOC body, whereas UNOC3 (which adopted the Nice Ocean Action Plan) focuses on SDG 14, IPOS, and BBNJ implementation.",
+      "evidenceExcerpt": "Established by UN Economic and Social Council of the United Nations (ECOSOC) Resolution 2000/35... Priorities include implementing the High Seas Treaty (BBNJ Agreement), scaling up funding for SDG 14, and supporting the creation of the International Panel for Ocean Sustainability (IPOS).",
+      "contextLines": []
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the third United Nations Ocean Conference (UNOC3), consider the following statements: 1. It was co-hosted by France and Costa Rica. 2. The High Seas Treaty (BBNJ Agreement) was formally negotiated and adopted during this conference. 3. It concluded with the adoption of the Nice Ocean Action Plan. How many of the statements given above are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: UNOC3 was co-hosted by France and Costa Rica in Nice, France. Statement 2 is incorrect: The conference prioritizes the implementation of the High Seas Treaty (BBNJ Agreement), which was adopted previously, not negotiated and adopted at UNOC3 itself. Statement 3 is correct: It concluded with the adoption of the Nice Ocean Action Plan.",
+      "takeaway": "UNOC3 focuses on action and implementation of existing frameworks like the BBNJ Agreement and SDG 14, culminating in the Nice Ocean Action Plan.",
+      "evidenceExcerpt": "The third United Nations Ocean Conference (UNOC3) held in Nice, France and co-hosted by France and Costa Rica concluded with the adoption of the Nice Ocean Action Plan. Priorities include implementing the High Seas Treaty (BBNJ Agreement)...",
+      "contextLines": []
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of Outcomes/Initiatives and their Associated Bodies/Conferences: 1. Nice Ocean Action Plan : Third United Nations Ocean Conference (UNOC3). 2. International Panel for Ocean Sustainability (IPOS) : United Nations Forum on Forests (UNFF). 3. Establishment of UNFF : United Nations Economic and Social Council (ECOSOC). How many of the above pairs are correctly matched?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: The Nice Ocean Action Plan was adopted at UNOC3. Pair 2 is incorrectly matched: The creation of IPOS is supported by the Nice Ocean Action Plan under UNOC3, not UNFF. Pair 3 is correctly matched: UNFF was established by an ECOSOC resolution in 2000.",
+      "takeaway": "Distinguishing the parent bodies and outcomes of major UN environmental conferences is crucial. UNFF is an ECOSOC creation, while IPOS and the Nice Action Plan belong to UNOC3.",
+      "evidenceExcerpt": "Established by UN Economic and Social Council of the United Nations (ECOSOC) Resolution 2000/35. The third United Nations Ocean Conference (UNOC3)... concluded with the adoption of the Nice Ocean Action Plan. Priorities include... supporting the creation of the International Panel for Ocean Sustainability (IPOS).",
+      "contextLines": []
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-Statement",
+      "prompt": "With reference to global environmental frameworks, consider the following statements:\n1. While the United Nations Forum on Forests (UNFF) was established by a resolution of the UN Economic and Social Council (ECOSOC), the Nice Ocean Action Plan was adopted at the third United Nations Ocean Conference (UNOC3).\n2. Both the UNFF and the Nice Ocean Action Plan explicitly prioritize the scaling up of funding for Sustainable Development Goal 14 (Life below water).\nWhich of the statements given above is/are correct?",
+      "contextLines": [
+        "Established by UN Economic and Social Council of the United Nations (ECOSOC) Resolution 2000/35.",
+        "The third United Nations Ocean Conference (UNOC3) held in Nice, France and co-hosted by France and Costa Rica concluded with the adoption of the Nice Ocean Action Plan.",
+        "Priorities include implementing the High Seas Treaty (BBNJ Agreement), scaling up funding for SDG 14, and supporting the creation of the International Panel for Ocean Sustainability (IPOS)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: UNFF was established by ECOSOC, whereas the Nice Ocean Action Plan was the concluding outcome of UNOC3. Statement 2 is incorrect: Scaling up funding for SDG 14 (Life below water) is a specific priority of the Nice Ocean Action Plan. The UNFF focuses on sustainable forest management, not SDG 14.",
+      "takeaway": "Understanding the distinct mandates of international bodies is crucial; UNFF focuses on forests (under ECOSOC), while UNOC3 targets marine conservation (SDG 14, BBNJ, IPOS).",
+      "evidenceExcerpt": "Established by UN Economic and Social Council of the United Nations (ECOSOC) Resolution 2000/35. The third United Nations Ocean Conference (UNOC3)... concluded with the adoption of the Nice Ocean Action Plan. Priorities include... scaling up funding for SDG 14"
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Multiple-Choice",
+      "prompt": "The 'Nice Ocean Action Plan', adopted at the third United Nations Ocean Conference (UNOC3), focuses on several key marine conservation priorities. Which of the following is NOT among its primary objectives?",
+      "contextLines": [
+        "The third United Nations Ocean Conference (UNOC3)... concluded with the adoption of the Nice Ocean Action Plan.",
+        "Priorities include implementing the High Seas Treaty (BBNJ Agreement), scaling up funding for SDG 14, and supporting the creation of the International Panel for Ocean Sustainability (IPOS).",
+        "UNFF was established by the UN Economic and Social Council (ECOSOC) in October 2000 to promote sustainable forest management."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Implementing the High Seas Treaty (BBNJ Agreement)"
+        },
+        {
+          "id": "B",
+          "text": "Supporting the creation of the International Panel for Ocean Sustainability (IPOS)"
+        },
+        {
+          "id": "C",
+          "text": "Scaling up funding for Sustainable Development Goal 14 (Life below water)"
+        },
+        {
+          "id": "D",
+          "text": "Promoting sustainable forest management through the UN Economic and Social Council"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Promoting sustainable forest management is the mandate of the United Nations Forum on Forests (UNFF), which was established by ECOSOC. It is not an objective of the Nice Ocean Action Plan, which strictly focuses on marine conservation priorities such as the BBNJ Agreement, SDG 14, and IPOS.",
+      "takeaway": "The Nice Ocean Action Plan's core priorities are implementing the High Seas Treaty, funding SDG 14, and supporting IPOS.",
+      "evidenceExcerpt": "Priorities include implementing the High Seas Treaty (BBNJ Agreement), scaling up funding for SDG 14, and supporting the creation of the International Panel for Ocean Sustainability (IPOS)."
+    }
+  ]
+}

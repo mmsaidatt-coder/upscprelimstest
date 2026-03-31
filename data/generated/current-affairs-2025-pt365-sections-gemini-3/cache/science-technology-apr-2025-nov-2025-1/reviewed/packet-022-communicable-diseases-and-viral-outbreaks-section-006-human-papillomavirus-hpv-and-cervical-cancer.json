@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Human Papillomavirus (HPV):\n1. The human immune system is generally incapable of clearing an HPV infection naturally.\n2. Persistent infection with high-risk HPV is the most common cause of cervical cancer.\n3. There is currently no medical treatment available for the HPV infection itself.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The human immune system usually clears an HPV infection naturally without medical intervention. Statement 2 is correct: Persistent infection with high-risk HPV can cause abnormal cells leading to cancer, most commonly cervical cancer. Statement 3 is correct: There is currently no specific medical treatment for the HPV infection itself.",
+      "takeaway": "While the immune system usually clears HPV, persistent high-risk infections can lead to cervical cancer, and there is no direct medical treatment for the infection itself.",
+      "evidenceExcerpt": "While the immune system usually clears it, persistent infection with high-risk HPV can cause abnormal cells leading to cancer, most commonly cervical cancer. There is currently no treatment for HPV infection.",
+      "qualityScore": 85,
+      "reviewNotes": "Combined the etiology, immune response, and treatment facts into a standard UPSC 'How many statements' format. The distractors are plausible and test conceptual clarity."
+    }
+  ],
+  "reviewerNotes": "Rewrote the first candidate to focus on the biological and medical aspects of HPV in a 3-statement format. Replaced the flawed second candidate with a new question focusing on the indigenous test kit and the progression of the disease, utilizing absolute phrasing as a distractor."
+}

@@ -1,0 +1,33 @@
+{
+  "questions": [
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Application-based",
+      "prompt": "In the context of the Indian Cybercrime Coordination Centre (I4C) and the e-Zero FIR initiative, which of the following describes the correct functional workflow for a cyber financial crime complaint?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Complaint on 1930 helpline -> Automatic regular FIR at territorial station -> Investigation by I4C."
+        },
+        {
+          "id": "B",
+          "text": "Complaint on NCRP -> Automatic Zero FIR at e-Crime Police Station -> Routing to territorial Cyber Crime Police Station."
+        },
+        {
+          "id": "C",
+          "text": "Complaint at local station -> Manual entry into NCRP -> Transfer to I4C for Zero FIR registration."
+        },
+        {
+          "id": "D",
+          "text": "Complaint on 1930 helpline -> Verification by Delhi High Court -> Registration of e-Zero FIR at I4C headquarters."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The workflow involves reporting via the National Cybercrime Reporting Portal (NCRP) or the 1930 helpline. If the loss is above Rs. 10 lakh, it automatically leads to the registration of a Zero FIR with the e-Crime Police Station of Delhi, which is then immediately routed to the territorial Cyber Crime Police Stations.",
+      "takeaway": "The e-Zero FIR mechanism automates the initial registration and jurisdictional routing for high-value cyber financial crimes reported through centralized digital channels.",
+      "evidenceExcerpt": "Financial losses above threshold limit of Rs. 10 lakh made to National Cybercrime Reporting Portal (NCRP) or 1930 helpline will automatically lead to registration of a Zero FIR with e-Crime Police Station of Delhi. This will be immediately routed to the territorial Cyber Crime Police Stations.",
+      "contextLines": []
+    }
+  ]
+}

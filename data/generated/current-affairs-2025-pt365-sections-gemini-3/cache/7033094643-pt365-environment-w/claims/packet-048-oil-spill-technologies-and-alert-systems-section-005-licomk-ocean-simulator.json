@@ -1,0 +1,34 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-048-oil-spill-technologies-and-alert-systems-section-005-licomk-ocean-simulator",
+    "claimType": "Factual",
+    "claimText": "LICOMK++ is a high-resolution ocean simulation system developed by Chinese researchers.",
+    "evidenceExcerpt": "LICOMK++ is a high-resolution ocean simulation system developed by Chinese researchers.",
+    "pageNumbers": [
+      99
+    ],
+    "examUse": "Statement-based question identifying the origin and primary function of the LICOMK++ system.",
+    "distractorHooks": [
+      "Developed by ISRO or NASA",
+      "It is a space telescope or satellite",
+      "It is an oil spill containment chemical"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-048-oil-spill-technologies-and-alert-systems-section-005-licomk-ocean-simulator",
+    "claimType": "Application",
+    "claimText": "LICOMK++ analyzes complex ocean processes like eddies and heat transport to improve predictions for extreme weather events.",
+    "evidenceExcerpt": "It is hailed as an ocean 'microscope' to analyze complex processes like eddies and heat transport, improving predictions for extreme weather events.",
+    "pageNumbers": [
+      99
+    ],
+    "examUse": "Statement-based question on the applications of LICOMK++ in climate modelling and disaster prediction.",
+    "distractorHooks": [
+      "Used exclusively for deep-sea mineral exploration",
+      "Incapable of predicting extreme weather events",
+      "Designed primarily to clean up marine plastic pollution"
+    ]
+  }
+]

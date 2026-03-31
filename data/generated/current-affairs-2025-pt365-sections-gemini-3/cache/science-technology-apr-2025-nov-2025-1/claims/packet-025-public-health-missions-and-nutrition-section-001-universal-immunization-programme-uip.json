@@ -1,0 +1,64 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-025-public-health-missions-and-nutrition-section-001-universal-immunization-programme-uip",
+    "claimType": "Factual",
+    "claimText": "The Universal Immunization Programme (UIP) provides free immunization against 12 diseases in India.",
+    "evidenceExcerpt": "UIP provides free immunization against 12 diseases including Diphtheria, Polio, Measles, Rubella, Rotavirus, Pneumococcal Pneumonia, and Japanese Encephalitis.",
+    "pageNumbers": [
+      50
+    ],
+    "examUse": "Statement-based question on the scope and coverage of the UIP.",
+    "distractorHooks": [
+      "Different number of diseases covered",
+      "Inclusion of non-covered diseases like Malaria, Dengue, or COVID-19"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-025-public-health-missions-and-nutrition-section-001-universal-immunization-programme-uip",
+    "claimType": "Institutional",
+    "claimText": "The Universal Immunization Programme operates as a central component under the National Rural Health Mission (NRHM).",
+    "evidenceExcerpt": "The programme operates as a central component under the National Rural Health Mission (NRHM).",
+    "pageNumbers": [
+      50
+    ],
+    "examUse": "Statement-based question on the administrative framework and parent mission of the UIP.",
+    "distractorHooks": [
+      "National Urban Health Mission",
+      "Ayushman Bharat PM-JAY"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-025-public-health-missions-and-nutrition-section-001-universal-immunization-programme-uip",
+    "claimType": "Factual",
+    "claimText": "India has achieved Polio-Free status and eliminated Neonatal tetanus as part of the Universal Immunization Programme's successes.",
+    "evidenceExcerpt": "Key achievements of the UIP include making India Polio-Free and eliminating Neonatal tetanus.",
+    "pageNumbers": [
+      50
+    ],
+    "examUse": "Statement-based question on India's official disease elimination achievements.",
+    "distractorHooks": [
+      "Elimination of Measles",
+      "Elimination of Tuberculosis",
+      "Elimination of Japanese Encephalitis"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-025-public-health-missions-and-nutrition-section-001-universal-immunization-programme-uip",
+    "claimType": "Technology",
+    "claimText": "The U-WIN Platform was launched to digitalize all vaccination services provided under the Universal Immunization Programme.",
+    "evidenceExcerpt": "The U-WIN Platform was launched to digitalize all vaccination services provided under the UIP.",
+    "pageNumbers": [
+      50
+    ],
+    "examUse": "Correct-pair question matching digital health platforms to their specific functions.",
+    "distractorHooks": [
+      "Co-WIN platform",
+      "e-VIN platform",
+      "General electronic health records (ABHA)"
+    ]
+  }
+]

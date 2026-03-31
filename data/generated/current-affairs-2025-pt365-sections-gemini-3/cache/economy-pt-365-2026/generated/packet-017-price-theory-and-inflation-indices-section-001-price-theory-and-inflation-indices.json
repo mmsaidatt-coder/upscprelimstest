@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Conceptual",
+      "prompt": "In the context of market equilibrium and price theory, which of the following scenarios will lead to a decrease in the equilibrium price while simultaneously increasing the equilibrium quantity?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A rightward shift in the demand curve."
+        },
+        {
+          "id": "B",
+          "text": "A leftward shift in the demand curve."
+        },
+        {
+          "id": "C",
+          "text": "A rightward shift in the supply curve."
+        },
+        {
+          "id": "D",
+          "text": "A leftward shift in the supply curve."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "According to the supply and demand relationships: Scenario A (Demand Increases/Right shift) leads to Price up, Quantity up. Scenario B (Demand Decreases/Left shift) leads to Price down, Quantity down. Scenario C (Supply Increases/Right shift) leads to Price down, Quantity up. Scenario D (Supply Decreases/Left shift) leads to Price up, Quantity down.",
+      "takeaway": "An increase in supply (rightward shift) is the only single-curve movement that lowers price while increasing quantity sold.",
+      "evidenceExcerpt": "Scenario C: Supply Increases - Supply curve shifts right (S1 to S2). Price decreases, Quantity increases.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Feature-matching",
+      "prompt": "During a period of persistent inflation, how is the consumer behavior for 'Durable Goods' typically characterized compared to 'Luxury Goods'?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Durable goods see an immediate demand surge to hedge against inflation, while luxury goods demand remains stable."
+        },
+        {
+          "id": "B",
+          "text": "Durable goods purchases are often postponed to make existing goods last, while luxury goods demand becomes hyper-elastic and plummets."
+        },
+        {
+          "id": "C",
+          "text": "Both categories experience a shift from elastic to inelastic demand as consumers prioritize long-term utility."
+        },
+        {
+          "id": "D",
+          "text": "Durable goods demand becomes hyper-elastic, while luxury goods demand is delayed until the next fiscal cycle."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "According to the source, during inflation: Luxury/Discretionary goods are the first to be cut, making them hyper-elastic (sales plummet). Durable goods (like cars/appliances) are 'postponable,' meaning consumers delay purchases and try to make old goods last longer.",
+      "takeaway": "Inflation impacts goods differently based on their postponability (Durables) versus their discretionary nature (Luxuries).",
+      "evidenceExcerpt": "LUXURY / DISCRETIONARY (Elastic): Behavior During Inflation: Hyper-Elastic; sales plummet as these are the first to be cut. DURABLE GOODS (Postponable): Behavior During Inflation: Delayed; consumers make old goods last and postpone purchases.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Comparison-driven",
+      "prompt": "In the context of price indices in India, which of the following best describes the structural advantage of the Producer Price Index (PPI) over the Wholesale Price Index (WPI)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "PPI captures the price at the retail level, whereas WPI is limited to the first point of bulk sale."
+        },
+        {
+          "id": "B",
+          "text": "PPI eliminates the bias of double counting inherent in WPI by measuring prices at specific stages of production."
+        },
+        {
+          "id": "C",
+          "text": "WPI includes services in its basket, while PPI focuses exclusively on the movement of physical goods."
+        },
+        {
+          "id": "D",
+          "text": "PPI measures the price paid by the consumer including indirect taxes, whereas WPI excludes all taxes."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The primary reason for the proposed shift from WPI to PPI is that WPI suffers from an inbuilt bias due to double or multiple counting of the same product as it moves through different wholesale stages. PPI avoids this by measuring the change in the price a producer receives. Additionally, the text notes PPI includes services, whereas WPI is traditionally goods-centric.",
+      "takeaway": "The Producer Price Index (PPI) is designed to eliminate the 'double counting' bias found in the Wholesale Price Index (WPI).",
+      "evidenceExcerpt": "WPI has inbuilt bias due to double/ multiple counting of same product. ... [PPI] measures the average change in the price a producer receives for his goods/services sold in the domestic market/ exports.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Mechanism-design",
+      "prompt": "The Producer Price Index (PPI) is categorized into 'Input PPI' and 'Output PPI'. Which of the following correctly identifies the point of measurement for these two types?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Input PPI is measured at the retail outlet; Output PPI is measured at the factory gate."
+        },
+        {
+          "id": "B",
+          "text": "Input PPI is measured when goods enter the production process; Output PPI is measured when they leave the place of production."
+        },
+        {
+          "id": "C",
+          "text": "Input PPI measures raw material imports; Output PPI measures finished product exports only."
+        },
+        {
+          "id": "D",
+          "text": "Input PPI tracks labor costs; Output PPI tracks the final market price including profit margins."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "According to the methodology of PPI, Input PPI tracks the prices of goods and services as they enter the production process (intermediate inputs), while Output PPI tracks the prices when the goods or services leave the place of production.",
+      "takeaway": "PPI distinguishes between price changes at the entry (Input) and exit (Output) stages of the production cycle.",
+      "evidenceExcerpt": "Two types: o Output PPI: When goods/ services leave the place of production o Input PPI: When goods/ services enter the production process.",
+      "contextLines": []
+    }
+  ]
+}

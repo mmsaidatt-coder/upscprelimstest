@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Gene-Drive Technology':\n\n1. It is a genetic engineering technique that alters normal Mendelian inheritance patterns.\n2. It decreases the likelihood of a specific gene being passed onto the next generation.\n3. It can be utilized to control agricultural pests and vector-borne diseases.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Gene-Drive Technology (GDT) is a genetic engineering technique that modifies genes to alter normal Mendelian inheritance.\nStatement 2 is incorrect: Rather than decreasing the likelihood, GDT increases the likelihood that a particular suite of genes will be passed onto the next generation, allowing a trait to spread rapidly through a population.\nStatement 3 is correct: GDT can be used to stop insects from spreading vector-borne diseases (like mosquitoes) and to control agricultural pests.",
+      "takeaway": "Gene-Drive Technology bypasses traditional Mendelian inheritance rules to ensure a specific modified gene is passed to almost all offspring, making it a powerful tool for controlling pest populations and vector-borne diseases.",
+      "evidenceExcerpt": "Gene-Drive Technology (GDT) can stop insects from spreading vector-borne diseases and pests. It is a genetic engineering technique that modifies genes to alter normal Mendelian inheritance, increasing the likelihood that a particular suite of genes will be passed onto the next generation.",
+      "qualityScore": 85,
+      "reviewNotes": "Updated to the latest UPSC 'How many statements are correct' format. The statements effectively test the core mechanism and application of GDT."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "Which one of the following statements best describes the core mechanism of 'Gene-Drive Technology'?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It involves the introduction of sterile male insects to naturally crash the population of disease vectors without altering their genome."
+        },
+        {
+          "id": "B",
+          "text": "It is a genetic engineering technique that modifies genes to alter normal inheritance, increasing the likelihood that a specific trait is passed on."
+        },
+        {
+          "id": "C",
+          "text": "It is a method of selective breeding that strictly adheres to Mendelian inheritance principles to preserve genetic diversity."
+        },
+        {
+          "id": "D",
+          "text": "It is a technique used to extract and sequence the entire genome of an organism to identify disease-causing mutations."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Option B is correct: Gene-Drive Technology is a genetic engineering technique that alters normal Mendelian inheritance, increasing the likelihood that a particular suite of genes will be passed onto the next generation.\nOption A is incorrect: It describes the Sterile Insect Technique (SIT), not Gene-Drive.\nOption C is incorrect: GDT explicitly alters or bypasses normal Mendelian inheritance, rather than adhering to it.\nOption D is incorrect: It describes genome sequencing, not Gene-Drive Technology.",
+      "takeaway": "The defining feature of Gene-Drive Technology is its ability to 'drive' a specific gene through a population by altering standard Mendelian inheritance probabilities.",
+      "evidenceExcerpt": "It is a genetic engineering technique that modifies genes to alter normal Mendelian inheritance, increasing the likelihood that a particular suite of genes will be passed onto the next generation.",
+      "qualityScore": 85,
+      "reviewNotes": "A classic 'best describes' UPSC question. Distractors are plausible and represent other well-known biological techniques (SIT, selective breeding, genome sequencing)."
+    }
+  ],
+  "reviewerNotes": "Selected two strong questions. Candidate 1 was updated to the modern 'How many statements' format. Candidate 2 was refined to ensure distractors represent distinct, plausible biological concepts."
+}

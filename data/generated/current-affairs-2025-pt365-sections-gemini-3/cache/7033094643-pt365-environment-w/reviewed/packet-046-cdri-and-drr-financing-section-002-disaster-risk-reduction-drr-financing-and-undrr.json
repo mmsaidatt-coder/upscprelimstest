@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Disaster Risk Reduction (DRR) financing in India:\n\n1. The Fifteenth Finance Commission recommended the creation of the National Disaster Mitigation Fund (NDMF) and State Disaster Mitigation Fund (SDMF).\n2. The allocation of DRR financing among states is based on a methodology that utilizes a Disaster Risk Index.\n3. The Central Government contributes entirely to the SDMF for the North-Eastern and Himalayan states.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The 15th Finance Commission recommended the creation of the National Disaster Mitigation Fund (NDMF) and State Disaster Mitigation Fund (SDMF).\nStatement 2 is correct: India's DRR financing under the 15th Finance Commission uses a new methodology based on a Disaster Risk Index.\nStatement 3 is incorrect: The Centre contributes 75% to the SDMF for general category states and 90% (not 100% or entirely) for North-Eastern and Himalayan states.",
+      "takeaway": "The 15th Finance Commission introduced a Disaster Risk Index for DRR financing and recommended the creation of NDMF and SDMF, with a 90:10 Centre-State funding ratio for NE and Himalayan states.",
+      "evidenceExcerpt": "India's DRR financing under the 15th Finance Commission exceeds INR 2.32 trillion, using a new methodology based on a Disaster Risk Index. It recommended the creation of NDMF and SDMF, with the Centre contributing 75% for general states and 90% for NE/Himalayan states.",
+      "qualityScore": 85,
+      "reviewNotes": "Strong UPSC-style statement question testing specific recommendations of the 15th Finance Commission regarding disaster management. The distractor in statement 3 is plausible and tests attention to detail."
+    }
+  ],
+  "reviewerNotes": "Selected two distinct questions from the candidate set. Candidate 1 covers domestic DRR financing (15th FC), while Candidate 2 covers international frameworks (UNDRR, Sendai). Candidate 3 was rejected as it heavily overlapped with the facts tested in Candidate 2."
+}

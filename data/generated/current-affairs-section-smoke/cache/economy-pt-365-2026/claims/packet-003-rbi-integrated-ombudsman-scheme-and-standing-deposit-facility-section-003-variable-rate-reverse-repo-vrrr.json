@@ -1,0 +1,51 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-003-rbi-integrated-ombudsman-scheme-and-standing-deposit-facility-section-003-variable-rate-reverse-repo-vrrr",
+    "claimType": "Factual",
+    "claimText": "The Variable Rate Reverse Repo (VRRR) is a tool used by the RBI to absorb excess liquidity from the banking system for a short duration.",
+    "evidenceExcerpt": "The Variable Rate Reverse Repo (VRRR) is a tool used by the RBI to absorb excess liquidity from the banking system for a short duration.",
+    "pageNumbers": [
+      7
+    ],
+    "examUse": "Statement-based question about the function of VRRR.",
+    "distractorHooks": [
+      "Injects liquidity",
+      "Absorbs liquidity for a long duration",
+      "A tool used by commercial banks, not the RBI"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-003-rbi-integrated-ombudsman-scheme-and-standing-deposit-facility-section-003-variable-rate-reverse-repo-vrrr",
+    "claimType": "Factual",
+    "claimText": "Under the Variable Rate Reverse Repo (VRRR) mechanism, the RBI borrows money from banks and pays them interest.",
+    "evidenceExcerpt": "Under this mechanism, the RBI borrows money from banks and pays them interest.",
+    "pageNumbers": [
+      7
+    ],
+    "examUse": "Statement-based question clarifying the flow of funds in a VRRR operation.",
+    "distractorHooks": [
+      "RBI lends money to banks",
+      "Banks pay interest to the RBI",
+      "No interest is paid"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-003-rbi-integrated-ombudsman-scheme-and-standing-deposit-facility-section-003-variable-rate-reverse-repo-vrrr",
+    "claimType": "Comparative",
+    "claimText": "The interest rate for the Variable Rate Reverse Repo (VRRR) is variable and market-determined, unlike the standard Reverse Repo Rate which is fixed by the RBI.",
+    "evidenceExcerpt": "The key feature is that the interest rate is variable and determined by the market, unlike the standard Reverse Repo Rate, which is fixed by the RBI.",
+    "pageNumbers": [
+      7
+    ],
+    "examUse": "Comparison question distinguishing VRRR from the standard Reverse Repo Rate.",
+    "distractorHooks": [
+      "The VRRR rate is fixed by the RBI",
+      "The standard Reverse Repo Rate is market-determined",
+      "Both rates are market-determined",
+      "Both rates are fixed by the RBI"
+    ]
+  }
+]

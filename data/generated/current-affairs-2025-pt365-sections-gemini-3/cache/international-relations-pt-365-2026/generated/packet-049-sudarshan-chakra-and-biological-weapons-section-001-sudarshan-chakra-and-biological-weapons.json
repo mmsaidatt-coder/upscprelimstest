@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Current Affairs",
+      "difficulty": "Moderate",
+      "questionType": "Identification",
+      "prompt": "Under the framework of the Biological Weapons Convention (BWC), which of the following are categorized as biological weapons or agents?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bacteria and Viruses only"
+        },
+        {
+          "id": "B",
+          "text": "Bacteria, Viruses, and Fungi only"
+        },
+        {
+          "id": "C",
+          "text": "Bacteria, Viruses, Fungi, and Prions only"
+        },
+        {
+          "id": "D",
+          "text": "Bacteria, Viruses, Fungi, Prions, and Toxins"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "The BWC covers a broad range of biological agents. According to the definition, it includes disease-causing organisms such as bacteria, viruses, fungi, prions, or rickettsiae. It also covers toxins, which are poisons derived from animals, plants, or microorganisms.",
+      "takeaway": "The BWC definition of biological weapons includes both living organisms (like bacteria/fungi) and non-living poisonous substances (toxins).",
+      "evidenceExcerpt": "Biological Weapons: Weapons that disseminate disease-causing organisms (bacteria, viruses, fungi, prions or rickettsiae) or toxins (poisons derived from animals, plants or microorganisms) worldwide to harm or kill humans, animals or plants.",
+      "contextLines": []
+    },
+    {
+      "subject": "Current Affairs",
+      "difficulty": "Moderate",
+      "questionType": "Feature-matching",
+      "prompt": "With reference to Project Kusha, which was recently in the news, which of the following statements is correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is a joint venture between India and Russia to upgrade the S-400 missile system."
+        },
+        {
+          "id": "B",
+          "text": "It is an indigenous initiative led by DRDO to develop a long-range air defense missile system."
+        },
+        {
+          "id": "C",
+          "text": "It is a cyber-security mission aimed at protecting India's railway and hospital infrastructure."
+        },
+        {
+          "id": "D",
+          "text": "It is a naval mission focused on securing the Indian Ocean Region using indigenous carrier-based aircraft."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Project Kusha is an indigenous initiative led by the Defence Research and Development Organisation (DRDO) to develop a long-range air defense missile system (LR-SAM). The Indian Air Force is currently pressing for its rapid progress as part of India's broader air defense strategy.",
+      "takeaway": "Project Kusha is the specific DRDO-led project for long-range air defense, distinct from the broader Sudarshan Chakra Mission umbrella.",
+      "evidenceExcerpt": "Additionally, the Indian Air Force is pressing for rapid progress on Project Kusha, an indigenous initiative led by DRDO to develop a long-range air defense missile system.",
+      "contextLines": []
+    },
+    {
+      "subject": "Current Affairs",
+      "difficulty": "Hard",
+      "questionType": "Comparison-driven",
+      "prompt": "Which of the following best describes the integration strategy of the Sudarshan Chakra Mission?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It focuses exclusively on physical infrastructure safeguards to prevent kinetic attacks on strategic sites."
+        },
+        {
+          "id": "B",
+          "text": "It combines advanced surveillance, cyber protection, and physical infrastructure safeguards into a unified system."
+        },
+        {
+          "id": "C",
+          "text": "It relies on a decentralized model where each state develops its own regional security shield by 2035."
+        },
+        {
+          "id": "D",
+          "text": "It prioritizes offensive cyber capabilities over defensive physical missile shields to ensure deterrence."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Sudarshan Chakra Mission is characterized by its integrated approach. It does not just focus on physical missiles; it integrates advanced surveillance, cyber protection, and physical infrastructure safeguards to create a comprehensive national security shield.",
+      "takeaway": "Sudarshan Chakra is a multi-domain mission (cyber, surveillance, physical) rather than a single-technology project.",
+      "evidenceExcerpt": "The mission will be integrating advanced surveillance, cyber protection, and physical infrastructure safeguards. It will be a system for targeted precise action.",
+      "contextLines": []
+    }
+  ]
+}

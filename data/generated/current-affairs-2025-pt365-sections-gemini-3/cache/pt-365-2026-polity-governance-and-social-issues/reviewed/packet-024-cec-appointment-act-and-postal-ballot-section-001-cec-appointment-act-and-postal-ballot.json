@@ -1,0 +1,98 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the appointment of the Chief Election Commissioner (CEC) and Election Commissioners (ECs) under the 2023 Act, consider the following statements:\n1. The Search Committee, headed by the Minister of Law and Justice, is responsible for preparing a panel of five candidates.\n2. The Select Committee, chaired by the Prime Minister, recommends candidates to the President for appointment.\n3. The Chief Justice of India is a permanent member of the Select Committee.\nWhich of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The Search Committee is headed by the Minister of Law and Justice and prepares a panel of five candidates. Statement 2 is correct: The Select Committee is chaired by the Prime Minister and recommends candidates to the President. Statement 3 is incorrect: Under the 2023 Act, the Select Committee consists of the Prime Minister, the Leader of Opposition, and a Union Cabinet Minister nominated by the PM; the Chief Justice of India is not a member.",
+      "takeaway": "The appointment process involves a Law Minister-led Search Committee and a PM-led Select Committee, notably excluding the CJI.",
+      "evidenceExcerpt": "Search Committee Leadership: Headed by Minister of Law and Justice. Function: Prepares panel of 5 candidates. Select Committee Members: Prime Minister (Chairperson). Leader of Opposition (Member). Union Cabinet Minister nominated by PM (Member). Function: Recommends candidates to President.",
+      "qualityScore": 88,
+      "reviewNotes": "This question accurately reflects the shift in the appointment process introduced by the 2023 Act, focusing on the composition of the committees."
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the removal of the Chief Election Commissioner (CEC) and Election Commissioners (ECs):\n1. The CEC can only be removed from office in a manner similar to a Judge of the Supreme Court.\n2. A motion for the removal of the CEC must be passed by a majority of two-thirds of the members present and voting in both Houses of Parliament.\n3. The Election Commissioners can be removed by the President only upon the recommendation of the CEC.\nWhich of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Statement 1 is correct: The CEC's removal process is equivalent to that of a Supreme Court Judge. Statement 2 is correct: The Act specifies that the motion must be passed by a majority of two-thirds of members present and voting in both Houses. Statement 3 is correct: Unlike the CEC, ECs are removed by the President based on the recommendation of the CEC.",
+      "takeaway": "The CEC enjoys constitutional-level protection (like an SC Judge), while ECs are removed on the CEC's recommendation.",
+      "evidenceExcerpt": "Motion of removal then must be passed by a majority of two-thirds members present and voting in both Houses of Parliament. Removal Conditions: CEC: Like Supreme Court Judge. ECs: Requires CEC recommendation.",
+      "qualityScore": 87,
+      "reviewNotes": "Tests the critical distinction between the removal process of the CEC and the ECs, which is a frequent area of confusion."
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Regarding the qualifications and tenure of the Election Commission members as per the 2023 Act, consider the following statements:\n1. To be eligible for appointment, a person must hold or have held a post equivalent to the Secretary to the Government of India.\n2. The term of office for both the CEC and ECs is six years or until they attain the age of 65, whichever is earlier.\n3. An Election Commissioner is eligible for reappointment to the same office for one additional term.\nWhich of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The Act specifies that the person must hold/have held a post equivalent to Secretary to the Government of India. Statement 2 is correct: The term is 6 years or 65 years of age. Statement 3 is incorrect: The Act explicitly states that no reappointment is allowed for the CEC or ECs.",
+      "takeaway": "CEC/EC eligibility is tied to Secretary-rank experience, with a 6-year/65-age limit and no reappointment.",
+      "evidenceExcerpt": "Qualifications: Must hold/have held post equivalent to Secretary to Government of India. Term of Office: 6 years or until 65 years of age, whichever earlier. No reappointment allowed.",
+      "qualityScore": 85,
+      "reviewNotes": "Covers the essential statutory requirements for eligibility and tenure, including the prohibition on reappointment."
+    }
+  ],
+  "reviewerNotes": "The questions cover the major themes of the 2023 Act (appointment, removal, tenure) and the technical aspects of election management (ECINET, Form 17C, Postal Ballots). All statements are grounded in the provided text, and distractors are designed to test precision on statutory vs. non-statutory status and committee compositions."
+}

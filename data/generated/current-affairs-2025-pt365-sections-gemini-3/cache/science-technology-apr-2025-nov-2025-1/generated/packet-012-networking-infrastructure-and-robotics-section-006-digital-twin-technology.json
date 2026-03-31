@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to \"Digital Twin Technology\", consider the following statements:\n1. It is restricted to the digital representation of inanimate physical objects and cannot model human beings or abstract processes.\n2. It relies on continuous real-time data from sensors to simulate behavior and monitor operations.\n3. It enables organizations to simulate real-world scenarios and predict outcomes before implementing physical changes.\n\nWhich of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: A digital twin is a digital representation of a physical object, person, or process. It is not restricted to inanimate objects. Statement 2 is correct: It uses real-time data from sensors for behavior simulation and operation monitoring. Statement 3 is correct: It helps organizations simulate real situations and their outcomes, ultimately allowing them to make better decisions.",
+      "takeaway": "Digital twins are dynamic, real-time updated models that can represent objects, people, or processes to simulate outcomes and monitor operations.",
+      "evidenceExcerpt": "A digital twin is a digital representation of a physical object, person, or process, contextualized in a digital version of its environment. It can help an organization simulate real situations and their outcomes... It uses real-time data from sensors for behavior simulation and operation monitoring."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "Which of the following best describes the core mechanism that distinguishes a \"Digital Twin\" from a conventional static 3D model or historical simulation?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It operates exclusively in a virtual reality environment without any data connection to the physical world."
+        },
+        {
+          "id": "B",
+          "text": "It uses real-time data from sensors attached to a physical counterpart to continuously update its simulation and monitor operations."
+        },
+        {
+          "id": "C",
+          "text": "It relies entirely on historical data to predict the future lifecycle of a product without requiring active monitoring."
+        },
+        {
+          "id": "D",
+          "text": "It is a purely theoretical framework used to design physical objects before they are manufactured."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A digital twin is contextualized in a digital version of its environment and uses real-time data from sensors for behavior simulation and operation monitoring. This continuous flow of real-time data makes it dynamic and sets it apart from static models or purely historical simulations.",
+      "takeaway": "The defining feature of a digital twin is its continuous integration of real-time sensor data from its physical counterpart to simulate behavior and monitor operations.",
+      "evidenceExcerpt": "It uses real-time data from sensors for behavior simulation and operation monitoring."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Agni-5 missile, consider the following statements: 1. It is a surface-to-surface ballistic missile powered by a three-stage solid-fuel engine. 2. It has a strike range of over 5,000 km. 3. It features Multiple Independently Targetable Reentry Vehicle (MIRV) capability. How many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "All three statements are correct. Agni-5 is a nuclear-capable Surface-to-Surface Ballistic Missile (SSBM) powered by a three-stage solid fuel engine. It has a range of over 5,000 km and features Multiple Independently Targetable Reentry Vehicle (MIRV) capability.",
+      "takeaway": "Agni-5 is a 3-stage solid-fueled, surface-to-surface ballistic missile with a >5000 km range and MIRV technology, allowing a single missile to carry multiple warheads.",
+      "evidenceExcerpt": "A Nuclear-capable Surface-to-Surface Ballistic Missile (SSBM) and is powered by a three-stage solid fuel engine. Range: Over 5,000 km... Places India among few nations (US, Russia, China, France) with Multiple Independently Targetable Reentry Vehicle (MIRV)-capable ICBMs."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Strategic Forces Command (SFC): 1. It forms a part of India's Nuclear Command Authority. 2. It is responsible for the management and administration of India's tactical and strategic nuclear weapons stockpile. 3. It is the primary agency responsible for the research and development of India's ballistic missile systems. How many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statements 1 and 2 are correct. The SFC forms part of India's Nuclear Command Authority and manages the country's tactical and strategic nuclear weapons stockpile. Statement 3 is incorrect; research and development of ballistic missiles is primarily the mandate of the Defence Research and Development Organisation (DRDO), not the SFC, which is responsible for the administration and launch of the stockpile.",
+      "takeaway": "The Strategic Forces Command (SFC) operates under the Nuclear Command Authority to manage India's nuclear arsenal, while R&D is handled by separate agencies.",
+      "evidenceExcerpt": "The launch was carried out under the Strategic Forces Command (SFC). SFC forms part of India's Nuclear Command Authority and is responsible for the management and administration of the country's tactical and strategic nuclear weapons stockpile."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements: 1. India is the only Asian nation to possess Multiple Independently Targetable Reentry Vehicle (MIRV)-capable Intercontinental Ballistic Missiles (ICBMs). 2. The Agni-5 missile utilizes a combination of solid and liquid propellant stages to achieve its maximum range. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Both statements are incorrect. Statement 1 is incorrect because China also possesses MIRV-capable ICBMs, meaning India is not the only Asian nation with this capability. Statement 2 is incorrect because the Agni-5 missile is powered entirely by a three-stage solid-fuel engine, not a combination of solid and liquid propellants.",
+      "takeaway": "Agni-5 relies entirely on a three-stage solid-fuel engine. Globally, nations like the US, Russia, China, France, and India possess MIRV-capable ICBMs.",
+      "evidenceExcerpt": "Places India among few nations (US, Russia, China, France) with Multiple Independently Targetable Reentry Vehicle (MIRV)-capable ICBMs... powered by a three-stage solid fuel engine."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "multiple_choice",
+      "prompt": "Based on the global distribution of advanced missile technologies, which of the following groups of countries, apart from India, are recognized as possessing Multiple Independently Targetable Reentry Vehicle (MIRV)-capable Intercontinental Ballistic Missiles (ICBMs)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "United States, Russia, United Kingdom, and France"
+        },
+        {
+          "id": "B",
+          "text": "United States, Russia, China, and France"
+        },
+        {
+          "id": "C",
+          "text": "United States, China, Israel, and France"
+        },
+        {
+          "id": "D",
+          "text": "Russia, China, United Kingdom, and Israel"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The successful test-firing of the MIRV-capable Agni-5 places India among a select group of nations that possess this technology. The other nations explicitly noted for having MIRV-capable ICBMs are the United States, Russia, China, and France.",
+      "takeaway": "India is part of an elite group of five nations (US, Russia, China, France, India) recognized for possessing MIRV-capable ICBMs, which allow a single missile to carry multiple warheads aimed at different targets.",
+      "evidenceExcerpt": "Places India among few nations (US, Russia, China, France) with Multiple Independently Targetable Reentry Vehicle (MIRV)-capable ICBMs."
+    }
+  ]
+}

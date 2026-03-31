@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Geography",
+      "difficulty": "Hard",
+      "questionType": "Sequence",
+      "prompt": "Arrange the following major infrastructure projects from North to South based on their geographical locations:\n1. Etalin Hydroelectric Project\n2. Kaleshwaram Lift Irrigation Project\n3. Pamban Bridge\n4. Ranjit Sagar Dam\n\nSelect the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "4 - 1 - 2 - 3"
+        },
+        {
+          "id": "B",
+          "text": "1 - 4 - 2 - 3"
+        },
+        {
+          "id": "C",
+          "text": "4 - 2 - 1 - 3"
+        },
+        {
+          "id": "D",
+          "text": "1 - 2 - 4 - 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "4. Ranjit Sagar Dam is located near the Punjab-Jammu & Kashmir border, making it the northernmost among the given projects.\n1. Etalin Hydroelectric Project is situated in the Dibang Valley, Arunachal Pradesh, which lies south of the Punjab-J&K border latitude.\n2. Kaleshwaram Lift Irrigation Project is in Telangana (Peninsular India).\n3. Pamban Bridge is in Tamil Nadu, connecting Rameswaram Island to the mainland, making it the southernmost.\nThus, the correct North to South sequence is 4-1-2-3.",
+      "takeaway": "Spatial awareness of major infrastructure projects is crucial. Ranjit Sagar is the northernmost among these, followed by Etalin, Kaleshwaram, and Pamban.",
+      "evidenceExcerpt": "Ranjit Sagar Dam (Thein Dam) is located on the Ravi River near the Punjab-Jammu & Kashmir border. Etalin hydroelectric project is situated in the Dibang Valley, Arunachal Pradesh... Kaleshwaram Lift Irrigation Project (KLIP) in Telangana... new Pamban Bridge in Tamil Nadu...",
+      "qualityScore": 88,
+      "reviewNotes": "Excellent spatial awareness question that requires candidates to map out the locations of these projects mentally. Highly representative of UPSC map-based questions."
+    }
+  ],
+  "reviewerNotes": "Selected and refined 4 questions to cover different aspects of the source text. Included a mix of 'how many pairs', statement-based, map-based sequencing, and 'places in news' formats to ensure variety and adherence to UPSC standards."
+}

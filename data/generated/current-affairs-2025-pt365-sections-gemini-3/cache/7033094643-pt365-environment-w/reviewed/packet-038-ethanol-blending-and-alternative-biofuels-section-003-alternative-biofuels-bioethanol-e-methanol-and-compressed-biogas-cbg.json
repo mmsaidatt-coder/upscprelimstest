@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the 'Methanol Economy' Programme in India, consider the following statements:\n1. It is an initiative spearheaded by the Ministry of Petroleum and Natural Gas.\n2. It promotes the blending of Di-methyl Ether (DME) in Liquefied Petroleum Gas (LPG).\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The 'Methanol Economy' Programme is spearheaded by NITI Aayog, not the Ministry of Petroleum and Natural Gas. Statement 2 is correct: The programme actively promotes the blending of Di-methyl Ether (DME) in LPG to encourage the use of alternative fuels.",
+      "takeaway": "NITI Aayog leads the 'Methanol Economy' Programme, which includes promoting the blending of DME in LPG.",
+      "evidenceExcerpt": "NITI Aayog spearheads the 'Methanol Economy' Programme in India, promoting blending of DME (Di-methyl Ether) in LPG.",
+      "qualityScore": 85,
+      "reviewNotes": "A classic UPSC-style institution-feature question. The distractor for the nodal agency is highly plausible."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding biogas:\n1. It is produced through the anaerobic digestion of biomass.\n2. Carbon dioxide constitutes the largest share of its composition by volume.\n3. It contains impurities such as Hydrogen sulfide (H2S).\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Raw biogas is produced by the anaerobic digestion of biomass and waste sources. Statement 2 is incorrect: Methane constitutes the largest share (55-60%), while Carbon dioxide makes up 35-40%. Statement 3 is correct: Raw biogas contains impurities like Hydrogen sulfide (H2S).",
+      "takeaway": "Biogas is produced via anaerobic digestion and primarily consists of Methane (55-60%) and Carbon dioxide (35-40%), along with impurities like H2S.",
+      "evidenceExcerpt": "Raw biogas is produced by anaerobic digestion of biomass and waste sources. Biogas primarily consists of Methane (55-60%) and Carbon dioxide (35-40%), along with impurities like H2S.",
+      "qualityScore": 85,
+      "reviewNotes": "Utilized the 'How many statements' format. The statements test fundamental scientific facts about biogas composition and production."
+    }
+  ],
+  "reviewerNotes": "Selected 4 questions covering different aspects of the source text: Bamboo as 2G feedstock, Methanol Economy Programme, Biogas composition, and E-Methanol production. Rewrote prompts and options to align with UPSC standards, ensuring plausible distractors and clear, unambiguous statements."
+}

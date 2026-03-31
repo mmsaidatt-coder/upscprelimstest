@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Himalayan Outpost for Planetary Exploration (HOPE) recently seen in the news: 1. It is an analog mission established by the United Arab Emirates (UAE) Space Agency. 2. It is located in the Tso Kar Valley of Ladakh. 3. Its infrastructure includes a specially designed Habitat Module for crew living. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The Himalayan Outpost for Planetary Exploration (HOPE) is an analog mission inaugurated by the Indian Space Research Organisation (ISRO), not the UAE Space Agency. (The UAE has a Mars orbital mission also named 'Hope', which acts as a distractor here). Statement 2 is correct: The mission is located in the Tso Kar Valley, Ladakh. Statement 3 is correct: The mission infrastructure includes a specially designed Habitat Module for crew living and an interconnected Utility Module for operations and support systems.",
+      "takeaway": "ISRO's HOPE Analog Mission in Ladakh's Tso Kar Valley simulates planetary exploration conditions, featuring interconnected modules for crew habitation and operations.",
+      "evidenceExcerpt": "ISRO inaugurated Himalayan Outpost for Planetary Exploration (HOPE) Analog Mission in Tso Kar Valley, Ladakh. A specially designed Habitat Module for crew living and a Utility Module for operations and support systems which are interconnected for seamless workflow."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Concept-Application",
+      "prompt": "Which of the following best describes the 'Himalayan Outpost for Planetary Exploration (HOPE)' recently inaugurated by ISRO?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A high-altitude observatory in the Himalayas dedicated to tracking near-Earth asteroids."
+        },
+        {
+          "id": "B",
+          "text": "An Earth-bound analog facility equipped with crew modules to simulate extraterrestrial environments."
+        },
+        {
+          "id": "C",
+          "text": "A proposed orbital space station designed to monitor glacial melting in the Himalayan cryosphere."
+        },
+        {
+          "id": "D",
+          "text": "A joint interplanetary probe developed by ISRO and the UAE Space Agency to study the Martian atmosphere."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Option B is correct. The Himalayan Outpost for Planetary Exploration (HOPE) is an analog mission established by ISRO in the Tso Kar Valley, Ladakh. It is an Earth-bound facility that includes a Habitat Module for crew living and a Utility Module for operations, designed to simulate planetary exploration conditions. Option D is incorrect as it deliberately confuses the ISRO analog mission with the UAE's 'Hope' Mars mission.",
+      "takeaway": "Analog missions are Earth-based field tests in locations that have physical similarities to extreme space environments. ISRO's HOPE facility in Ladakh tests crew habitation and utility systems for future planetary exploration.",
+      "evidenceExcerpt": "ISRO inaugurated Himalayan Outpost for Planetary Exploration (HOPE) Analog Mission in Tso Kar Valley, Ladakh. A specially designed Habitat Module for crew living and a Utility Module for operations and support systems which are interconnected for seamless workflow."
+    }
+  ]
+}

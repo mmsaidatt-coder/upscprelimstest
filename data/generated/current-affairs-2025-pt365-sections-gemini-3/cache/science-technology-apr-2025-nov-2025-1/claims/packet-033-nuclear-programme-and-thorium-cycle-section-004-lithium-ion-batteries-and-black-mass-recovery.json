@@ -1,0 +1,65 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-033-nuclear-programme-and-thorium-cycle-section-004-lithium-ion-batteries-and-black-mass-recovery",
+    "claimType": "Conceptual",
+    "claimText": "In Lithium-ion batteries, lithium ions move between a graphite negative electrode and a lithium transitional metal oxide positive electrode through a non-aqueous electrolyte during charging and discharging.",
+    "evidenceExcerpt": "In Li-ion batteries, lithium ions move between a graphite negative electrode and a Li transitional metal oxide positive electrode via a non-aqueous electrolyte.",
+    "pageNumbers": [
+      67
+    ],
+    "examUse": "Statement-based question on the working mechanism and components of Li-ion batteries.",
+    "distractorHooks": [
+      "Aqueous electrolyte instead of non-aqueous",
+      "Graphite as positive electrode instead of negative",
+      "Lead or Cadmium electrodes instead of Li transitional metal oxides"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-033-nuclear-programme-and-thorium-cycle-section-004-lithium-ion-batteries-and-black-mass-recovery",
+    "claimType": "Factual",
+    "claimText": "Lithium-ion batteries are characterized by high energy density, lightweight properties, lower toxic heavy metals, and generally no memory effect.",
+    "evidenceExcerpt": "Li-ion batteries offer high energy density, lightweight properties, and generally no memory effect compared to older lead-acid batteries.",
+    "pageNumbers": [
+      67
+    ],
+    "examUse": "Comparison question between Li-ion and traditional batteries.",
+    "distractorHooks": [
+      "Low energy density",
+      "High memory effect",
+      "High toxic heavy metal content"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-033-nuclear-programme-and-thorium-cycle-section-004-lithium-ion-batteries-and-black-mass-recovery",
+    "claimType": "Factual",
+    "claimText": "Black mass is a dark, powdery substance recovered from end-of-life lithium-ion batteries that contains critical minerals such as lithium, cobalt, and nickel.",
+    "evidenceExcerpt": "Black mass is a dark, powdery substance recovered from end-of-life lithium-ion batteries. Black mass recovery extracts critical minerals like lithium, cobalt, and nickel",
+    "pageNumbers": [
+      67
+    ],
+    "examUse": "Definition or correct-pair question identifying Black Mass in the context of e-waste and battery recycling.",
+    "distractorHooks": [
+      "A byproduct of coal mining",
+      "A substance found in nuclear reactors",
+      "Contains only carbon and no critical minerals"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-033-nuclear-programme-and-thorium-cycle-section-004-lithium-ion-batteries-and-black-mass-recovery",
+    "claimType": "Factual",
+    "claimText": "The Technology Development Board (TDB) provides financial support for the commercialization of indigenous dual-mode black mass recovery technology.",
+    "evidenceExcerpt": "The Technology Development Board (TDB) is supporting indigenous dual-mode (wet and dry) black mass recovery technology.",
+    "pageNumbers": [
+      67
+    ],
+    "examUse": "Institution-feature question regarding the role of TDB in promoting indigenous battery recycling technologies.",
+    "distractorHooks": [
+      "Supported by NITI Aayog instead of TDB",
+      "Foreign technology import instead of indigenous technology"
+    ]
+  }
+]

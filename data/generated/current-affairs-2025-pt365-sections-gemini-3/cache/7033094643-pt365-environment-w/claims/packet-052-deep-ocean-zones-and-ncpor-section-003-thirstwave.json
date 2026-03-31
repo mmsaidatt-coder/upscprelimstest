@@ -1,0 +1,48 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-052-deep-ocean-zones-and-ncpor-section-003-thirstwave",
+    "claimType": "Conceptual",
+    "claimText": "A thirstwave is a period of extreme atmospheric thirst characterized by high dryness and aggressive moisture demand that rapidly dries out the landscape.",
+    "evidenceExcerpt": "A thirstwave involves periods of extreme atmospheric thirst that rapidly dry out the landscape, defined by high dryness and aggressive moisture demand.",
+    "pageNumbers": [
+      108
+    ],
+    "examUse": "Statement-based question defining the concept of a thirstwave.",
+    "distractorHooks": [
+      "Confusing thirstwave with a standard heatwave",
+      "Defining it solely by temperature rather than moisture demand"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-052-deep-ocean-zones-and-ncpor-section-003-thirstwave",
+    "claimType": "Factual",
+    "claimText": "A thirstwave occurs when daily evaporative demand exceeds its historical 90th percentile for at least 3 consecutive days.",
+    "evidenceExcerpt": "It occurs when daily evaporative demand exceeds its historical 90th percentile for at least 3 consecutive days.",
+    "pageNumbers": [
+      108
+    ],
+    "examUse": "Factual statement in a multiple-choice question testing the specific criteria for a thirstwave.",
+    "distractorHooks": [
+      "Changing the percentile to 50th or 99th percentile",
+      "Changing the duration to 5 consecutive days or 1 day",
+      "Using temperature instead of evaporative demand as the metric"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-052-deep-ocean-zones-and-ncpor-section-003-thirstwave",
+    "claimType": "Factual",
+    "claimText": "The factors driving a thirstwave include temperature, wind speed, humidity, and sunshine.",
+    "evidenceExcerpt": "Factors driving this include temperature, wind speed, humidity, and sunshine.",
+    "pageNumbers": [
+      108
+    ],
+    "examUse": "Multiple-choice question asking to identify the factors responsible for driving a thirstwave.",
+    "distractorHooks": [
+      "Excluding wind speed or sunshine as factors",
+      "Including irrelevant factors like soil type or tectonic activity"
+    ]
+  }
+]

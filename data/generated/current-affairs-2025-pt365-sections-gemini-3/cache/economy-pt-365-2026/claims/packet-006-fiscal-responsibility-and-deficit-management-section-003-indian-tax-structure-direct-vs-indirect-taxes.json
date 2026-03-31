@@ -1,0 +1,62 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-006-fiscal-responsibility-and-deficit-management-section-003-indian-tax-structure-direct-vs-indirect-taxes",
+    "claimType": "Conceptual",
+    "claimText": "Direct taxes are progressive in nature and their incidence and impact fall on the same person, meaning the tax burden cannot be shifted.",
+    "evidenceExcerpt": "Direct taxes (e.g., Income, Corporate, Capital Gains) are progressive... and their incidence and impact fall on the same person. The burden of direct taxes cannot be shifted",
+    "pageNumbers": [
+      15
+    ],
+    "examUse": "Statement-based questions comparing the nature and incidence of direct vs. indirect taxes.",
+    "distractorHooks": [
+      "Stating direct taxes are regressive",
+      "Stating the burden of direct taxes can be shifted to consumers"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-006-fiscal-responsibility-and-deficit-management-section-003-indian-tax-structure-direct-vs-indirect-taxes",
+    "claimType": "Conceptual",
+    "claimText": "Indirect taxes are regressive in nature, applying the same rate regardless of income, and their burden is shifted to the final consumer.",
+    "evidenceExcerpt": "Indirect taxes (e.g., GST, Customs, Excise) are regressive... and their burden is shifted to the consumer. Indirect taxes are regressive, applying the same rate regardless of income.",
+    "pageNumbers": [
+      15
+    ],
+    "examUse": "Statement-based questions on the economic impact and burden-shifting of indirect taxes.",
+    "distractorHooks": [
+      "Stating indirect taxes are progressive",
+      "Stating the incidence and impact of indirect taxes fall on the same person"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-006-fiscal-responsibility-and-deficit-management-section-003-indian-tax-structure-direct-vs-indirect-taxes",
+    "claimType": "Factual",
+    "claimText": "Direct taxes are administered by the Central Board of Direct Taxes (CBDT), whereas indirect taxes are administered by the Central Board of Indirect Taxes and Customs (CBIC).",
+    "evidenceExcerpt": "Direct taxes are administered by the CBDT, while indirect taxes are administered by the CBIC.",
+    "pageNumbers": [
+      15
+    ],
+    "examUse": "Correct-pair or institution-feature questions matching tax types to their respective administrative bodies.",
+    "distractorHooks": [
+      "Swapping CBDT and CBIC roles",
+      "Claiming a single unified board administers both direct and indirect taxes"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-006-fiscal-responsibility-and-deficit-management-section-003-indian-tax-structure-direct-vs-indirect-taxes",
+    "claimType": "Factual",
+    "claimText": "Excise duty on petroleum and liquor remains outside the Goods and Services Tax (GST) framework.",
+    "evidenceExcerpt": "Excise duty on petroleum and liquor remains outside the GST framework.",
+    "pageNumbers": [
+      15
+    ],
+    "examUse": "Statement-based questions on the scope and exemptions of the GST framework.",
+    "distractorHooks": [
+      "Claiming petroleum and liquor are fully integrated into the GST framework",
+      "Claiming only liquor is outside GST while petroleum is included"
+    ]
+  }
+]

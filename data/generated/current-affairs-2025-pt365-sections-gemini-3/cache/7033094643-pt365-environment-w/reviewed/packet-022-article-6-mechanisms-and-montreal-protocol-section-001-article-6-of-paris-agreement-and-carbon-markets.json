@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the National Designated Authority (NDA) for international carbon markets in India, consider the following statements:\n1. It is a committee headed by the Union Minister of Environment, Forest and Climate Change.\n2. It is responsible for recommending and authorizing eligible projects, such as green hydrogen and Carbon Capture, Utilization, and Storage (CCUS), under Article 6.4 of the Paris Agreement.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The National Designated Authority (NDA) is a 21-member committee headed by the Secretary of the Ministry of Environment, Forest and Climate Change, not the Union Minister. Statement 2 is correct: The NDA is responsible for authorizing eligible projects like green hydrogen and CCUS under the centralized Article 6.4 mechanism of the Paris Agreement.",
+      "takeaway": "The National Designated Authority (NDA) regulates India's participation in international carbon markets and is headed by the Secretary of the Ministry of Environment, Forest and Climate Change.",
+      "evidenceExcerpt": "NDA is a 21-member committee headed by the Secretary, Environment Ministry, authorizing projects under Article 6.4... recommends eligible projects like green hydrogen and CCUS.",
+      "qualityScore": 88,
+      "reviewNotes": "Tests institutional specifics which is a common UPSC trope (Minister vs Secretary)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the mechanisms under Article 6 of the Paris Agreement:\n1. Article 6.2 enables decentralized bilateral trading of Internationally Transferred Mitigation Outcomes (ITMOs) between countries.\n2. Article 6.4 establishes a centralized global carbon market that succeeds the Clean Development Mechanism (CDM) of the Kyoto Protocol.\n3. Article 6.8 facilitates the trading of emission reductions exclusively among developing countries.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Article 6.2 involves decentralized bilateral trading of ITMOs with corresponding NDC adjustments. Statement 2 is correct: Article 6.4 establishes a centralized global carbon market (Paris Agreement Crediting Mechanism), succeeding the Kyoto Protocol's CDM. Statement 3 is incorrect: Article 6.8 focuses entirely on non-market approaches and involves no trading of emission reductions.",
+      "takeaway": "Article 6 of the Paris Agreement has three distinct mechanisms: 6.2 (decentralized bilateral trading), 6.4 (centralized global market), and 6.8 (non-market approaches).",
+      "evidenceExcerpt": "Article 6.2 involves decentralized bilateral trading of Internationally Transferred Mitigation Outcomes (ITMOs)... Article 6.4 establishes a centralized global carbon market (PACM), succeeding the Kyoto Protocol's Clean Development Mechanism (CDM). Article 6.8 focuses on non-market approaches with no trading of emission reductions.",
+      "qualityScore": 85,
+      "reviewNotes": "Standard UPSC format testing the core differences between the three sub-articles of Article 6. Distractors are plausible."
+    }
+  ],
+  "reviewerNotes": "Selected 4 questions covering the core mechanisms of Article 6, the comparison with Kyoto, the domestic institutional framework (NDA), and the financial provisions. Rewrote prompts and explanations to align with UPSC standards, ensuring distractors are plausible and explanations are concise."
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-025-public-health-missions-and-nutrition-section-006-weight-loss-drugs-and-glp-1-agonists",
+    "claimType": "Factual/Mechanism",
+    "claimText": "Semaglutide, marketed as Wegovy, functions as an appetite suppressant by imitating the intestinal hormone glucagon-like peptide-1 (GLP-1).",
+    "evidenceExcerpt": "Semaglutide acts as an appetite suppressant by imitating the intestinal hormone glucagon-like peptide-1 (GLP-1).",
+    "pageNumbers": [
+      51
+    ],
+    "examUse": "Statement-based question on the mechanism of action of emerging weight-loss drugs.",
+    "distractorHooks": [
+      "Acts as a metabolic fat-burner rather than an appetite suppressant",
+      "Imitates insulin or ghrelin instead of GLP-1"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-025-public-health-missions-and-nutrition-section-006-weight-loss-drugs-and-glp-1-agonists",
+    "claimType": "Conceptual/Biological",
+    "claimText": "Glucagon-like peptide-1 (GLP-1) is an intestinal hormone that is naturally released after eating to make a person feel fuller.",
+    "evidenceExcerpt": "GLP-1 is naturally released after eating and makes people feel fuller.",
+    "pageNumbers": [
+      51
+    ],
+    "examUse": "Statement-based question on human digestive hormones and satiety.",
+    "distractorHooks": [
+      "Released before eating to stimulate hunger",
+      "Produced in the brain instead of the intestine"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-025-public-health-missions-and-nutrition-section-006-weight-loss-drugs-and-glp-1-agonists",
+    "claimType": "Factual/Comparison",
+    "claimText": "Tirzepatide, used in weight loss drugs like Mounjaro, differs from semaglutide by mimicking the functions of both GLP-1 and GIP hormones.",
+    "evidenceExcerpt": "Other weight loss drugs like Mounjaro use tirzepatide, which mimics both GLP-1 and GIP functions.",
+    "pageNumbers": [
+      51
+    ],
+    "examUse": "Correct-pair or comparison question distinguishing between different active pharmaceutical ingredients in weight loss drugs.",
+    "distractorHooks": [
+      "Mimics only GLP-1",
+      "Functions by blocking the absorption of dietary fats in the intestines"
+    ]
+  }
+]

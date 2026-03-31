@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the discoveries that led to the 2025 Nobel Prize in Physics:\n1. The prize was awarded for demonstrating that quantum phenomena can be observed in macroscopic systems.\n2. The experiments utilized a Josephson Junction, which is constructed using two insulators separated by a superconductor.\n3. The laureates demonstrated that charged particles in the circuit behaved collectively as a single quantum particle.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The 2025 Nobel Prize honors experiments that demonstrated how quantum phenomena can be observed in macroscopic systems. Statement 2 is incorrect: A Josephson Junction is built using two superconductors separated by an insulator, not two insulators separated by a superconductor. Statement 3 is correct: The experiment demonstrated that charged particles (Cooper Pairs) in the circuit behaved collectively as a single quantum particle.",
+      "takeaway": "The 2025 Nobel Prize in Physics highlights the observation of quantum phenomena in macroscopic systems using a Josephson Junction, which consists of two superconductors separated by an insulator.",
+      "evidenceExcerpt": "The 2025 Nobel Prize honors experiments that demonstrated how quantum phenomena can also be observed in macroscopic systems. They built an electric circuit using two superconductors separated by an insulator - a Josephson Junction. The experiment demonstrated that charged particles (Cooper Pairs) in the circuit behaved collectively as a single quantum particle.",
+      "qualityScore": 85,
+      "reviewNotes": "Rewrote Statement 2 to serve as a strong distractor by swapping the materials of a Josephson Junction. This tests the candidate's precise understanding of the component."
+    }
+  ],
+  "reviewerNotes": "Selected 4 high-quality questions covering the 2025 Physics Nobel Prize, quantum tunnelling, energy quantisation, and Cooper Pairs. Rewrote the Assertion-Reason question into the modern Statement-I/II format. Ensured distractors are plausible and test precise conceptual understanding rather than superficial facts."
+}

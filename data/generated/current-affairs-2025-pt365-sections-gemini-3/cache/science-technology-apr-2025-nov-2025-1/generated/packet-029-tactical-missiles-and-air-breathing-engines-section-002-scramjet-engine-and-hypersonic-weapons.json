@@ -1,0 +1,178 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding air-breathing engines: 1. Unlike Ramjet engines, Scramjet engines operate with supersonic combustion. 2. Both Ramjet and Scramjet engines can independently take off from a standstill without any assisted launch. 3. Scramjet engines carry their own oxidizer to achieve speeds above Mach 6. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Ramjet engines operate with subsonic combustion, whereas Scramjet (Supersonic Combusting Ramjet) engines operate with supersonic combustion. Statement 2 is incorrect: Neither Ramjet nor Scramjet engines can produce thrust at zero airspeed; both require assisted take-off (e.g., by a rocket). Statement 3 is incorrect: Scramjets are efficient precisely because they use atmospheric oxygen for combustion instead of carrying an onboard oxidizer.",
+      "takeaway": "Air-breathing engines like Ramjets and Scramjets rely on atmospheric oxygen and forward motion to compress incoming air, meaning they cannot start from a standstill and require a booster rocket.",
+      "evidenceExcerpt": "Ramjet engines operate at Mach 3 to 6 with subsonic combustion, while Scramjet engines operate above Mach 6 with supersonic combustion. Both Ramjets and Scramjets require assisted take-off (e.g., by a rocket) as they cannot produce thrust at zero airspeed. Scramjets are more efficient than rockets because they use atmospheric oxygen for combustion instead of carrying an oxidizer."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Hypersonic weapons: 1. They typically fly at higher altitudes than traditional ballistic missiles to avoid atmospheric friction. 2. Hypersonic Glide Vehicles (HGVs) are powered by scramjet engines throughout their entire flight path. 3. Hypersonic Cruise Missiles (HCMs) maintain speeds of Mach 5 or higher using air-breathing engines. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Hypersonic weapons fly at lower altitudes than ballistic missiles, which makes them harder to track by traditional early warning radars. Statement 2 is incorrect: Hypersonic Glide Vehicles (HGVs) are launched from rockets and then glide unpowered to their targets. Statement 3 is correct: Hypersonic Cruise Missiles (HCMs) are powered throughout their flight by air-breathing engines like Scramjets.",
+      "takeaway": "Hypersonic weapons travel at Mach 5+ and fly lower than ballistic missiles. HGVs glide after a rocket launch, while HCMs use scramjet propulsion for sustained powered flight.",
+      "evidenceExcerpt": "Hypersonic weapons travel at Mach 5 or faster and fly at lower altitudes than ballistic missiles, making them harder to track. Hypersonic Glide Vehicles (HGV) are launched from rockets and glide to targets, whereas Hypersonic Cruise Missiles (HCM) are powered throughout flight by Scramjet engines."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the differences between Ramjet and Scramjet engines, consider the following statements: 1. Ramjet engines perform combustion at subsonic speeds, whereas Scramjet engines perform combustion at supersonic speeds. 2. Ramjet engines operate efficiently up to Mach 6, whereas Scramjet engines are designed to operate above Mach 6. 3. While Ramjet engines require assisted take-off, Scramjet engines can produce thrust at zero airspeed. How many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Ramjets use subsonic combustion, while Scramjets use supersonic combustion. Statement 2 is correct: Ramjets operate between Mach 3 to 6, and Scramjets operate above Mach 6. Statement 3 is incorrect: Both Ramjet and Scramjet engines require assisted take-off because neither can produce thrust at zero airspeed.",
+      "takeaway": "Scramjet stands for Supersonic Combusting Ramjet. It pushes the operational envelope of ramjets beyond Mach 6 by maintaining supersonic airflow through the combustion chamber.",
+      "evidenceExcerpt": "Ramjet engines operate at Mach 3 to 6 with subsonic combustion, while Scramjet engines operate above Mach 6 with supersonic combustion. Both Ramjets and Scramjets require assisted take-off (e.g., by a rocket) as they cannot produce thrust at zero airspeed."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Scenario-Based",
+      "prompt": "A defense research agency is designing a Hypersonic Cruise Missile (HCM) intended to sustain powered flight at speeds of Mach 7 within the Earth's atmosphere. Based on the operational mechanics of air-breathing engines, which of the following propulsion systems must be utilized to achieve this specific flight profile?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A ramjet engine, as it utilizes subsonic combustion to maintain efficiency at Mach 7."
+        },
+        {
+          "id": "B",
+          "text": "A scramjet engine, as it allows for supersonic combustion required for speeds above Mach 6."
+        },
+        {
+          "id": "C",
+          "text": "A conventional solid-fuel rocket motor, as air-breathing engines cannot generate thrust at hypersonic speeds."
+        },
+        {
+          "id": "D",
+          "text": "An unpowered aerodynamic glide vehicle, as sustained powered flight is impossible above Mach 5 due to atmospheric friction."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Option B is correct. A scramjet (Supersonic Combusting Ramjet) engine is required because it is specifically designed to operate at speeds above Mach 6 by performing combustion while the airflow through the engine remains supersonic. Ramjet engines (Option A) slow the incoming air to subsonic speeds for combustion and only operate efficiently up to Mach 6.",
+      "takeaway": "The critical difference between ramjets and scramjets lies in the speed of the airflow during combustion; scramjets maintain supersonic combustion, allowing them to power vehicles at speeds exceeding Mach 6.",
+      "evidenceExcerpt": "Ramjet Engine: Mach 3 to 6, Subsonic Combustion. Scramjet Engine: Above Mach 6, Supersonic Combustion... Hypersonic Cruise Missiles (HCM) are powered throughout flight by Scramjet engines."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Multiple Choice",
+      "prompt": "Which of the following best explains why modern air defense systems find it significantly more challenging to track and intercept Hypersonic weapons compared to traditional Intercontinental Ballistic Missiles (ICBMs)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Hypersonic weapons exit the Earth's atmosphere and travel entirely through the vacuum of space, bypassing terrestrial radars."
+        },
+        {
+          "id": "B",
+          "text": "Hypersonic weapons fly at lower altitudes than ballistic missiles, delaying their detection over the radar horizon."
+        },
+        {
+          "id": "C",
+          "text": "Hypersonic weapons rely on ramjet engines that do not emit a detectable thermal or acoustic signature."
+        },
+        {
+          "id": "D",
+          "text": "Hypersonic weapons travel at subsonic speeds during their terminal phase, confusing Doppler radar systems."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Option B is correct. While traditional ballistic missiles follow a high, predictable parabolic trajectory into space, hypersonic weapons travel at extremely high speeds (Mach 5+) but remain at lower altitudes within the atmosphere. This lower flight path keeps them below the radar horizon for longer, drastically reducing the warning time for defense systems.",
+      "takeaway": "The combination of extreme speed (Mach 5+) and a lower-altitude atmospheric flight profile makes hypersonic weapons uniquely difficult to track and intercept compared to traditional ballistic missiles.",
+      "evidenceExcerpt": "Hypersonic weapons travel at Mach 5 or faster and fly at lower altitudes than ballistic missiles, making them harder to track."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Multiple Statement",
+      "prompt": "Consider the following statements regarding the operational profiles of hypersonic weapons:\n\n1. Hypersonic Glide Vehicles (HGVs) maintain powered flight using air-breathing engines throughout their entire trajectory.\n2. Hypersonic Cruise Missiles (HCMs) require an initial assisted take-off, typically by a rocket, before their primary engines can generate thrust.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect. Hypersonic Glide Vehicles (HGVs) are launched into the upper atmosphere by rockets and then detach to glide unpowered to their targets using aerodynamic lift. They are not powered by air-breathing engines.\nStatement 2 is correct. Hypersonic Cruise Missiles (HCMs) are powered by scramjet engines throughout their flight. Because scramjet engines cannot produce thrust at zero airspeed, HCMs require an initial assisted take-off (usually via a solid rocket booster) to reach the supersonic speeds necessary for the scramjet to ignite.",
+      "takeaway": "HGVs rely on unpowered gliding after a rocket launch, whereas HCMs rely on scramjet propulsion. Because scramjets require high-speed airflow to function, any vehicle using them must be boosted to operational speeds first.",
+      "evidenceExcerpt": "Both Ramjets and Scramjets require assisted take-off (e.g., by a rocket) as they cannot produce thrust at zero airspeed... Hypersonic Glide Vehicles (HGV) are launched from rockets and glide to targets, whereas Hypersonic Cruise Missiles (HCM) are powered throughout flight by Scramjet engines."
+    }
+  ]
+}

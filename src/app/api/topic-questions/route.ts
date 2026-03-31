@@ -1,19 +1,9 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createAdminClient } from "@/lib/supabase/admin";
+import { fetchAllPages } from "@/lib/supabase/fetch-all-pages";
+import type { SearchablePyqQuestion } from "@/lib/supabase/questions";
+import { SUBJECT_MAP } from "@/lib/subject-map";
 import type { Subject } from "@/lib/types";
-
-// Map from UI subject names → DB subject names
-const SUBJECT_MAP: Record<string, Subject> = {
-  "History":        "History",
-  "Geography":      "Geography",
-  "Economics":      "Economy",
-  "Economy":        "Economy",
-  "Environment":    "Environment",
-  "Polity":         "Polity",
-  "Science & Tech": "Science",
-  "Science":        "Science",
-  "Current Affairs": "Current Affairs",
-};
 
 // Fallback keyword map for topics not yet enriched
 const TOPIC_KEYWORDS: Record<string, string[]> = {
@@ -87,19 +77,24 @@ export async function GET(req: NextRequest) {
 
   try {
     // Build query — use new `topic` column if set, with fallback to keyword filter
-    let query = supabase
-      .from("questions")
-      .select("id, prompt, options, correct_option_id, year, subject, topic, sub_topic, keywords, question_type, concepts, importance, difficulty_rationale, mnemonic_hint")
-      .eq("source", "pyq")
-      .eq("subject", dbSubject)
-      .order("year", { ascending: false });
+    const allData = await fetchAllPages<SearchablePyqQuestion>({
+      runPage: async (from, to) => {
+        let query = supabase
+          .from("questions")
+          .select("id, prompt, options, correct_option_id, year, subject, topic, sub_topic, keywords, question_type, concepts, importance, difficulty_rationale, mnemonic_hint, ncert_class")
+          .eq("source", "pyq")
+          .eq("subject", dbSubject);
 
-    if (year) query = query.eq("year", year);
+        if (year) {
+          query = query.eq("year", year);
+        }
 
-    const { data: allData, error } = await query;
-    if (error || !allData) {
-      throw new Error(error?.message ?? "No data");
-    }
+        return await query
+          .order("year", { ascending: false })
+          .order("id", { ascending: true })
+          .range(from, to);
+      },
+    });
 
     // Strategy 1: Use AI-enriched `topic` column (primary — if enrichment is complete)
     let filtered = allData.filter(q =>
@@ -135,7 +130,8 @@ export async function GET(req: NextRequest) {
       filtered: filtered.length > 0,
       enriched: allData.some(q => q.topic),
     });
-  } catch (err: any) {
-    return NextResponse.json({ questions: [], error: err.message }, { status: 500 });
+  } catch (err: unknown) {
+    const message = err instanceof Error ? err.message : "Unknown error";
+    return NextResponse.json({ questions: [], error: message }, { status: 500 });
   }
 }

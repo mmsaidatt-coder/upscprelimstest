@@ -1,0 +1,33 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "In the context of National Income accounting, which of the following best describes the 'Product Method' of calculating Gross Domestic Product (GDP)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It aggregates the total compensation of employees and operating surplus of enterprises."
+        },
+        {
+          "id": "B",
+          "text": "It measures the total value added at each stage of production to avoid double counting."
+        },
+        {
+          "id": "C",
+          "text": "It sums up all final expenditures on goods and services by households and government."
+        },
+        {
+          "id": "D",
+          "text": "It calculates the difference between the gross national product and the net national product."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Product (Value Added) method is a production-side measure that calculates the value added at every stage of the production process. This specific methodology is used to ensure that the value of intermediate goods is not counted multiple times, which would otherwise inflate the GDP figure.",
+      "takeaway": "The Value Added method is the primary production-side approach to GDP, focusing on the incremental value created at each step of the supply chain.",
+      "evidenceExcerpt": "Product (Value Added): Production Side: Measures value added at each stage to avoid double counting.",
+      "contextLines": []
+    }
+  ]
+}

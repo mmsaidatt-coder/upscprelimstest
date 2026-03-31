@@ -1,0 +1,48 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-012-networking-infrastructure-and-robotics-section-001-central-bank-digital-currency-cbdc-pilot-projects",
+    "claimType": "Factual",
+    "claimText": "The Reserve Bank of India (RBI) is conducting pilot projects for two distinct types of Central Bank Digital Currencies (CBDCs): retail and wholesale.",
+    "evidenceExcerpt": "The RBI is currently conducting pilot projects of two types of CBDCs – retail and wholesale.",
+    "pageNumbers": [
+      25
+    ],
+    "examUse": "Statement-based question on the types of CBDC pilots initiated by the RBI.",
+    "distractorHooks": [
+      "Claiming RBI is only piloting retail CBDC",
+      "Claiming SEBI or NPCI is conducting the CBDC pilot projects instead of RBI"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-012-networking-infrastructure-and-robotics-section-001-central-bank-digital-currency-cbdc-pilot-projects",
+    "claimType": "Conceptual",
+    "claimText": "Retail CBDC is designed for use by the general public and is accessible via digital wallets and smartphone apps.",
+    "evidenceExcerpt": "Retail CBDC: It is available to the general public via digital wallets, smartphone apps, etc.",
+    "pageNumbers": [
+      25
+    ],
+    "examUse": "Correct-pair or statement-based question defining the target users and accessibility of Retail CBDC.",
+    "distractorHooks": [
+      "Stating Retail CBDC is restricted to retail banks and merchants",
+      "Claiming Retail CBDC requires specialized hardware tokens rather than standard smartphone apps"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-012-networking-infrastructure-and-robotics-section-001-central-bank-digital-currency-cbdc-pilot-projects",
+    "claimType": "Conceptual",
+    "claimText": "Wholesale CBDC is utilized among banks and other licensed financial institutions specifically for interbank payments and securities transactions.",
+    "evidenceExcerpt": "Wholesale CBDCs: Used among banks and other licensed financial institutions for interbank payments and securities transactions.",
+    "pageNumbers": [
+      25
+    ],
+    "examUse": "Comparison question distinguishing the use-cases of Wholesale CBDC versus Retail CBDC.",
+    "distractorHooks": [
+      "Swapping the definition with Retail CBDC",
+      "Claiming Wholesale CBDC is used by large corporations for bulk public transactions",
+      "Stating Wholesale CBDC is used for international remittances by the general public"
+    ]
+  }
+]

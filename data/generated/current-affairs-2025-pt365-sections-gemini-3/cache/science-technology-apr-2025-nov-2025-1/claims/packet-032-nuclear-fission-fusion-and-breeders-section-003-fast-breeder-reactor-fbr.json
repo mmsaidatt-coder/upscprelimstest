@@ -1,0 +1,114 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-032-nuclear-fission-fusion-and-breeders-section-003-fast-breeder-reactor-fbr",
+    "claimType": "Factual/Institution",
+    "claimText": "BHAVINI is the government entity established to construct and operate the Prototype Fast Breeder Reactor (PFBR) at Kalpakkam, Tamil Nadu.",
+    "evidenceExcerpt": "BHAVINI was established by the government to construct and operate the Prototype Fast Breeder Reactor (PFBR) at Kalpakkam, Tamil Nadu.",
+    "pageNumbers": [
+      65
+    ],
+    "examUse": "Statement-based question testing knowledge of institutions responsible for specific nuclear projects.",
+    "distractorHooks": [
+      "NPCIL (Nuclear Power Corporation of India Limited)",
+      "BARC (Bhabha Atomic Research Centre)",
+      "Kudankulam instead of Kalpakkam"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-032-nuclear-fission-fusion-and-breeders-section-003-fast-breeder-reactor-fbr",
+    "claimType": "Factual/Technical",
+    "claimText": "India's Prototype Fast Breeder Reactor (PFBR) uses Uranium-Plutonium Mixed Oxide (MOX) as its primary fuel.",
+    "evidenceExcerpt": "The PFBR uses Uranium-Plutonium Mixed Oxide (MOX) fuel",
+    "pageNumbers": [
+      65
+    ],
+    "examUse": "Statement-based question on the specific fuel composition used in Stage II of India's nuclear program.",
+    "distractorHooks": [
+      "Enriched Uranium",
+      "Natural Uranium",
+      "Thorium-only fuel"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-032-nuclear-fission-fusion-and-breeders-section-003-fast-breeder-reactor-fbr",
+    "claimType": "Factual/Technical",
+    "claimText": "Liquid sodium is utilized as a coolant in India's Prototype Fast Breeder Reactor (PFBR).",
+    "evidenceExcerpt": "utilize liquid sodium as a coolant.",
+    "pageNumbers": [
+      65
+    ],
+    "examUse": "Correct-pair or statement-based question matching reactor types with their respective coolants.",
+    "distractorHooks": [
+      "Heavy water (D2O)",
+      "Light water",
+      "Helium gas"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-032-nuclear-fission-fusion-and-breeders-section-003-fast-breeder-reactor-fbr",
+    "claimType": "Conceptual",
+    "claimText": "A Fast Breeder Reactor is named 'Breeder' because it produces more fuel than it consumes through the nuclear transmutation of a Uranium-238 blanket.",
+    "evidenceExcerpt": "It is called a 'Breeder' because a Uranium-238 blanket undergoes nuclear transmutation to produce more fuel than it consumes.",
+    "pageNumbers": [
+      65
+    ],
+    "examUse": "Concept definition question explaining the mechanism of breeder reactors.",
+    "distractorHooks": [
+      "Produces less fuel than it consumes",
+      "Uses a Uranium-235 blanket",
+      "Relies on nuclear fusion"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-032-nuclear-fission-fusion-and-breeders-section-003-fast-breeder-reactor-fbr",
+    "claimType": "Factual",
+    "claimText": "India will be the second country in the world, after Russia, to have a commercial operating Fast Breeder Reactor.",
+    "evidenceExcerpt": "India will be the second country after Russia to have a commercial operating Fast Breeder Reactor.",
+    "pageNumbers": [
+      65
+    ],
+    "examUse": "Fact-based statement in a multi-statement question regarding India's global standing in nuclear technology.",
+    "distractorHooks": [
+      "First country in the world",
+      "Second country after the USA",
+      "Second country after France"
+    ]
+  },
+  {
+    "id": "claim-006",
+    "sectionId": "packet-032-nuclear-fission-fusion-and-breeders-section-003-fast-breeder-reactor-fbr",
+    "claimType": "Factual/Programmatic",
+    "claimText": "The operationalization of the Prototype Fast Breeder Reactor (PFBR) marks the beginning of Stage II of India's three-stage nuclear power program.",
+    "evidenceExcerpt": "The operationalization of the PFBR marks the beginning of Stage II of India’s three-stage nuclear power program.",
+    "pageNumbers": [
+      65
+    ],
+    "examUse": "Statement-based question testing the sequence and milestones of India's three-stage nuclear program.",
+    "distractorHooks": [
+      "Marks the beginning of Stage I",
+      "Marks the beginning of Stage III",
+      "Marks the completion of the entire program"
+    ]
+  },
+  {
+    "id": "claim-007",
+    "sectionId": "packet-032-nuclear-fission-fusion-and-breeders-section-003-fast-breeder-reactor-fbr",
+    "claimType": "Conceptual/Technical",
+    "claimText": "In the Fast Breeder Reactor, Thorium undergoes transmutation to create fissile Uranium-233, which serves as fuel for the third stage of India's nuclear program.",
+    "evidenceExcerpt": "In the FBR, Thorium will undergo transmutation to create fissile U-233, which will serve as fuel for the third stage of the nuclear program.",
+    "pageNumbers": [
+      65
+    ],
+    "examUse": "Statement-based question on the fuel cycle transition between Stage II and Stage III of the nuclear program.",
+    "distractorHooks": [
+      "Thorium creates fissile Plutonium-239",
+      "Uranium-238 creates Thorium",
+      "U-233 serves as fuel for the first stage"
+    ]
+  }
+]

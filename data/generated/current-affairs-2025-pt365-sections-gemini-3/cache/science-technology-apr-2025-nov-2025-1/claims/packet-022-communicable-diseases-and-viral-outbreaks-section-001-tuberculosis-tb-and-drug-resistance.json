@@ -1,0 +1,77 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-022-communicable-diseases-and-viral-outbreaks-section-001-tuberculosis-tb-and-drug-resistance",
+    "claimType": "Factual",
+    "claimText": "According to the WHO Global TB Report 2025, India's TB incidence has reduced by 21%.",
+    "evidenceExcerpt": "India's TB incidence reduced by 21% according to the WHO Global TB Report 2025.",
+    "pageNumbers": [
+      44
+    ],
+    "examUse": "Statement-based question on India's progress in disease elimination and recent WHO reports.",
+    "distractorHooks": [
+      "Different percentage reduction (e.g., 50%)",
+      "Different report source (e.g., NITI Aayog Health Index)"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-022-communicable-diseases-and-viral-outbreaks-section-001-tuberculosis-tb-and-drug-resistance",
+    "claimType": "Factual",
+    "claimText": "Tuberculosis is an airborne disease caused by the bacterium Mycobacterium tuberculosis.",
+    "evidenceExcerpt": "TB is an airborne disease caused by Mycobacterium tuberculosis.",
+    "pageNumbers": [
+      44
+    ],
+    "examUse": "Statement-based question on the transmission mode and causative agent of TB.",
+    "distractorHooks": [
+      "Waterborne or vector-borne transmission",
+      "Viral or fungal pathogen instead of bacterial"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-022-communicable-diseases-and-viral-outbreaks-section-001-tuberculosis-tb-and-drug-resistance",
+    "claimType": "Terminology",
+    "claimText": "Spinal Tuberculosis is also known as Pott's disease.",
+    "evidenceExcerpt": "Spinal TB is also known as Pott's disease and affects the spine.",
+    "pageNumbers": [
+      44
+    ],
+    "examUse": "Correct-pair question matching diseases to their alternative names or specific affected organs.",
+    "distractorHooks": [
+      "Hansen's disease (which is Leprosy)",
+      "Claiming Pott's disease affects the lungs or brain"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-022-communicable-diseases-and-viral-outbreaks-section-001-tuberculosis-tb-and-drug-resistance",
+    "claimType": "Conceptual",
+    "claimText": "Multi Drug Resistant TB (MDR-TB) is a form of TB that does not respond to rifampicin and isoniazid, which are the two most effective first-line TB drugs.",
+    "evidenceExcerpt": "Multi Drug Resistant TB (MDR-TB) does not respond to rifampicin and isoniazid, the two most effective first-line TB drugs.",
+    "pageNumbers": [
+      44
+    ],
+    "examUse": "Statement-based or comparison question distinguishing between drug-sensitive TB, MDR-TB, and XDR-TB.",
+    "distractorHooks": [
+      "MDR-TB responds to isoniazid but not rifampicin",
+      "MDR-TB is resistant to second-line drugs but sensitive to first-line drugs"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-022-communicable-diseases-and-viral-outbreaks-section-001-tuberculosis-tb-and-drug-resistance",
+    "claimType": "Conceptual",
+    "claimText": "Extensively Drug-Resistant TB (XDR-TB) is a form of TB that resists both first-line drugs like isoniazid and rifampicin, as well as stronger second-line medicines.",
+    "evidenceExcerpt": "MDR-TB does not respond to these two, while XDR-TB resists even stronger medicines.",
+    "pageNumbers": [
+      44
+    ],
+    "examUse": "Comparison question differentiating the severity and drug resistance profiles of MDR-TB and XDR-TB.",
+    "distractorHooks": [
+      "XDR-TB can be easily treated with standard first-line drugs",
+      "XDR-TB only refers to resistance against a single second-line drug"
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-029-microplastics-and-urban-air-pollution-section-001-plastic-and-microplastic-pollution",
+    "claimType": "Factual",
+    "claimText": "Microplastics are defined as plastic particles up to 5 millimetres in diameter, whereas nanoplastics are smaller than 1,000 nanometers.",
+    "evidenceExcerpt": "Microplastics are up to 5 millimetres in diameter, while nanoplastics are less than 1,000 nanometers.",
+    "pageNumbers": [
+      60
+    ],
+    "examUse": "Statement-based question on definitions and size classifications of plastic pollution.",
+    "distractorHooks": [
+      "Swapping the sizes (e.g., microplastics are up to 5 micrometers)",
+      "Changing 5 mm to 5 cm"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-029-microplastics-and-urban-air-pollution-section-001-plastic-and-microplastic-pollution",
+    "claimType": "Conceptual",
+    "claimText": "Primary microplastics are intentionally manufactured, such as microbeads, while secondary microplastics are formed from the breakdown of larger plastic items, such as microfibers.",
+    "evidenceExcerpt": "Primary microplastics are intentionally manufactured (e.g., microbeads in cosmetics), whereas secondary microplastics result from the breakdown of larger items (e.g., microfibers).",
+    "pageNumbers": [
+      60
+    ],
+    "examUse": "Correct-pair or statement-based question distinguishing primary and secondary microplastics.",
+    "distractorHooks": [
+      "Reversing the definitions of primary and secondary microplastics",
+      "Classifying microfibers as primary microplastics"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-029-microplastics-and-urban-air-pollution-section-001-plastic-and-microplastic-pollution",
+    "claimType": "Factual",
+    "claimText": "Microplastics cause biomagnification in marine life and reduce the photosynthetic ability of plants by approximately 12 percent.",
+    "evidenceExcerpt": "Microplastics reduce plants' photosynthetic ability by around 12% and cause biomagnification in marine life.",
+    "pageNumbers": [
+      60
+    ],
+    "examUse": "Statement-based question on the ecological impacts of microplastics.",
+    "distractorHooks": [
+      "Claiming microplastics do not affect terrestrial plants",
+      "Stating microplastics cause bio-dilution instead of biomagnification"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-029-microplastics-and-urban-air-pollution-section-001-plastic-and-microplastic-pollution",
+    "claimType": "Factual",
+    "claimText": "The Plastic Waste Management (Amendment) Rules, 2021, increased the thickness limit for plastic carry bags to 120 microns, effective from December 31, 2022.",
+    "evidenceExcerpt": "The Plastic Waste Management (Amendment) Rules, 2021 raised the thickness limit of plastic carry bags to 120 microns effective December 31, 2022.",
+    "pageNumbers": [
+      60
+    ],
+    "examUse": "Statement-based question on recent environmental regulations and plastic waste rules.",
+    "distractorHooks": [
+      "Stating the thickness limit was reduced to promote faster degradation",
+      "Changing the final limit to 50 or 75 microns instead of 120 microns"
+    ]
+  }
+]

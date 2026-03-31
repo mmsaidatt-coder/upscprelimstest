@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding solar flares and Coronal Mass Ejections (CMEs):\n1. The fastest Earth-directed CMEs reach Earth almost instantaneously, traveling at the speed of light.\n2. Solar flares can cause geomagnetic storms that disrupt radio communications and terrestrial power grids.\n3. Auroras are a visual manifestation of geomagnetic storms triggered by solar activity.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: While the electromagnetic radiation from solar flares reaches Earth at the speed of light, the fastest Earth-directed Coronal Mass Ejections (CMEs), which consist of charged particles, take 15 to 18 hours to reach Earth.\nStatement 2 is correct: Solar flares cause geomagnetic storms that disturb Earth's magnetic field, leading to practical consequences such as radio blackouts and power grid failures.\nStatement 3 is correct: Geomagnetic storms triggered by solar flares interact with Earth's atmosphere, leading to stunning auroras.",
+      "takeaway": "CMEs take hours to days to reach Earth, unlike the electromagnetic radiation from solar flares. Both can trigger geomagnetic storms causing auroras and infrastructure disruptions.",
+      "evidenceExcerpt": "Fastest Earth-directed CMEs can reach Earth in 15-18 hours. Solar flares cause geomagnetic storms that can lead to radio blackouts, power grid failures, and auroras.",
+      "qualityScore": 88,
+      "reviewNotes": "Rewrote the question to use the 'How many statements are correct' format, which is highly prevalent in recent UPSC Prelims. Replaced the extreme and implausible distractor with a conceptual trap regarding the travel time of CMEs versus light."
+    }
+  ],
+  "reviewerNotes": "Selected and rewrote both candidate questions. Candidate 1 was upgraded to the modern 'How many statements' format, and its weak distractor was replaced with a strong conceptual trap about CME travel time. Candidate 2 was polished for better flow and clarity."
+}

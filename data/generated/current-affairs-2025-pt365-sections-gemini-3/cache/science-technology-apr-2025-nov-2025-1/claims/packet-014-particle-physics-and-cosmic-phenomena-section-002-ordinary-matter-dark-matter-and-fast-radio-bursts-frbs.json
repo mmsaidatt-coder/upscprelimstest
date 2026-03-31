@@ -1,0 +1,83 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-014-particle-physics-and-cosmic-phenomena-section-002-ordinary-matter-dark-matter-and-fast-radio-bursts-frbs",
+    "claimType": "Conceptual",
+    "claimText": "Ordinary matter, also known as baryonic matter, interacts with electromagnetic radiation and is composed of baryons such as protons and neutrons.",
+    "evidenceExcerpt": "Ordinary matter (baryonic matter) interacts with electromagnetic radiation and is composed of baryons like protons and neutrons.",
+    "pageNumbers": [
+      29,
+      30
+    ],
+    "examUse": "Statement-based question distinguishing ordinary matter from dark matter based on electromagnetic interaction.",
+    "distractorHooks": [
+      "Ordinary matter does not interact with electromagnetic radiation",
+      "Ordinary matter is primarily composed of dark energy"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-014-particle-physics-and-cosmic-phenomena-section-002-ordinary-matter-dark-matter-and-fast-radio-bursts-frbs",
+    "claimType": "Factual",
+    "claimText": "The majority of ordinary matter in the universe, approximately 76%, is distributed in the intergalactic medium (IGM) rather than within galaxies.",
+    "evidenceExcerpt": "76% of ordinary matter is distributed in the intergalactic medium (IGM), the thin gas between galaxies.",
+    "pageNumbers": [
+      29,
+      30
+    ],
+    "examUse": "Factual statement in a multiple-choice question regarding the distribution of matter in the universe.",
+    "distractorHooks": [
+      "The majority of ordinary matter is located within galaxies",
+      "Most ordinary matter is found in galaxy halos"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-014-particle-physics-and-cosmic-phenomena-section-002-ordinary-matter-dark-matter-and-fast-radio-bursts-frbs",
+    "claimType": "Conceptual",
+    "claimText": "Dark matter makes up about 27% of the cosmos and exerts gravitational force, but it remains invisible because it does not interact with light.",
+    "evidenceExcerpt": "Dark matter makes up about 27% of the cosmos, does not interact with light, but exerts gravitational force and has mass.",
+    "pageNumbers": [
+      29,
+      30
+    ],
+    "examUse": "Comparison question testing the properties of dark matter versus ordinary matter.",
+    "distractorHooks": [
+      "Dark matter interacts with electromagnetic radiation",
+      "Dark matter does not exert gravitational force",
+      "Dark matter makes up the majority (over 70%) of the cosmos"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-014-particle-physics-and-cosmic-phenomena-section-002-ordinary-matter-dark-matter-and-fast-radio-bursts-frbs",
+    "claimType": "Factual",
+    "claimText": "Fast Radio Bursts (FRBs) are transient blasts of electromagnetic radiation in the form of radio waves that last only from milliseconds to seconds.",
+    "evidenceExcerpt": "Fast Radio Bursts (FRBs) are blasts of electromagnetic radiation in the form of radio waves, lasting from milliseconds to seconds.",
+    "pageNumbers": [
+      29,
+      30
+    ],
+    "examUse": "Statement-based question on the characteristics and duration of Fast Radio Bursts.",
+    "distractorHooks": [
+      "FRBs are continuous radio signals lasting for years",
+      "FRBs are blasts of gamma-ray radiation"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-014-particle-physics-and-cosmic-phenomena-section-002-ordinary-matter-dark-matter-and-fast-radio-bursts-frbs",
+    "claimType": "Conceptual",
+    "claimText": "Fast Radio Bursts (FRBs) can be used to measure the distribution of matter across the cosmic web because they disperse into different wavelengths as they travel through space.",
+    "evidenceExcerpt": "FRBs act as cosmic flashlights, dispersing into different wavelengths to measure matter distribution across the cosmic web.",
+    "pageNumbers": [
+      29,
+      30
+    ],
+    "examUse": "Application-based question on how FRBs are utilized by astronomers to detect missing ordinary matter.",
+    "distractorHooks": [
+      "FRBs maintain a single wavelength as they travel through the cosmic web",
+      "FRBs are used exclusively to map dark matter distribution"
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the International Crops Research Institute for the Semi-Arid Tropics (ICRISAT):\n1. It is a non-profit research centre established under the CGIAR consortium.\n2. It developed the world's first pigeon pea hybrid.\n3. It recently launched a Centre of Excellence for South-South Cooperation in collaboration with NITI Aayog.\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: ICRISAT is a non-profit research centre established in the 1970s under the CGIAR consortium, located in Hyderabad, Telangana.\nStatement 2 is correct: A key achievement of ICRISAT is the development of the world's first pigeon pea hybrid.\nStatement 3 is incorrect: ICRISAT collaborated with the Research and Information System for Developing Countries (RIS)—not NITI Aayog—to launch the ICRISAT Centre of Excellence for South-South Cooperation.",
+      "takeaway": "ICRISAT is a CGIAR-backed research centre in Hyderabad with a global mandate for dryland agriculture. It developed the first pigeon pea hybrid and recently partnered with RIS for South-South Cooperation.",
+      "evidenceExcerpt": "ICRISAT is a non-profit research centre established in the 1970s under the CGIAR consortium, located in Hyderabad, Telangana. Its purpose is to improve food security in semi-arid regions and support smallholder farmers in drylands globally. Key achievements include being awarded the Africa Food Prize in 2021 and developing the world's first pigeon pea hybrid. Recently, ICRISAT collaborated with RIS to launch the ICRISAT Centre of Excellence for South-South Cooperation.",
+      "qualityScore": 85,
+      "reviewNotes": "Combined the most testable facts from the candidates into a single, comprehensive 'How many statements' question. The distractor for Statement 3 (NITI Aayog instead of RIS) is highly plausible for UPSC."
+    }
+  ],
+  "reviewerNotes": "Selected and merged the best elements of the candidates into a single high-quality question. Since the source text is very brief, generating a second question would result in redundant testing of the same facts, so only one comprehensive question was retained."
+}

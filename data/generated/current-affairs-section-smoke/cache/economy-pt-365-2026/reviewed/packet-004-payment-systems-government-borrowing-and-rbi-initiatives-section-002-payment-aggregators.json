@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Conceptual",
+      "prompt": "In the context of the regulatory framework for Payment Aggregators (PAs) in India, which one of the following best describes the distinct roles of the Companies Act, 2013, and the Payment and Settlement Systems Act, 2007?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The Companies Act specifies the permissible business activities for a PA, while the PSS Act outlines the technology and security standards."
+        },
+        {
+          "id": "B",
+          "text": "The Companies Act provides the legal basis for the PA's incorporation as a corporate entity, while the PSS Act provides the RBI with the authority to regulate its payment system operations."
+        },
+        {
+          "id": "C",
+          "text": "The PSS Act governs only non-bank PAs, whereas the Companies Act governs all PAs, including those operated by banks."
+        },
+        {
+          "id": "D",
+          "text": "The Companies Act deals with corporate governance and shareholder rights, while the PSS Act deals exclusively with customer grievance redressal."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Companies Act, 2013, is the primary legislation governing the formation and functioning of companies in India. It provides the legal framework for a PA to exist as a corporate entity. The Payment and Settlement Systems (PSS) Act, 2007, is a specialized law that empowers the Reserve Bank of India (RBI) to regulate and supervise all payment systems. Therefore, the authorisation and operational oversight of PAs' payment-related activities fall under the PSS Act. Option B correctly captures this distinction between general corporate law and specific sectoral regulation.",
+      "takeaway": "Understanding the division of regulatory authority is crucial. General corporate laws (like the Companies Act) establish the legal existence of an entity, while specific sectoral laws (like the PSS Act) govern its specialized functions and bring it under the purview of a sectoral regulator (like the RBI).",
+      "evidenceExcerpt": "It must be incorporated under the Companies Act, 2013, and the new framework mandates that non-bank PAs obtain RBI authorisation under the Payment and Settlement Systems Act, 2007.",
+      "qualityScore": 90,
+      "reviewNotes": "This is an excellent conceptual question that tests the understanding of India's regulatory architecture. I have slightly refined the prompt and the options to improve precision and formal tone, making the distinction between the two Acts even clearer."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the regulatory framework for Payment Aggregators (PAs) in India, consider the following statements:\n\n1. PAs are entities that facilitate the aggregation of payments from customers for transfer to merchants.\n2. A Payment Aggregator must be incorporated as a company under the Companies Act, 2013.\n3. All entities operating as PAs, including banks, are required to obtain authorisation from the RBI under the Payment and Settlement Systems Act, 2007.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 correctly defines the core function of a Payment Aggregator, which is to collect payments from customers and transfer them to the concerned merchants. Statement 2 is also correct, as the regulatory framework mandates that a PA must be a company incorporated under the Companies Act, 2013. Statement 3 is incorrect. The RBI mandate for obtaining authorisation under the Payment and Settlement Systems Act, 2007, applies specifically to non-bank PAs. Banks that provide PA services are already under the RBI's comprehensive regulatory purview and do not require this separate authorisation.",
+      "takeaway": "It is important to understand the specific regulatory nuances for different financial entities. The distinction between bank and non-bank players is a common theme in financial sector regulations, as banks are often governed by a pre-existing, comprehensive regulatory framework.",
+      "evidenceExcerpt": "A Payment Aggregator...is an entity that facilitates the aggregation of payments from customers to merchants. It must be incorporated under the Companies Act, 2013, and the new framework mandates that non-bank PAs obtain RBI authorisation under the Payment and Settlement Systems Act, 2007.",
+      "qualityScore": 85,
+      "reviewNotes": "The original question was strong. I have made minor stylistic revisions to the statements to enhance the formal tone and clarity, aligning it more closely with UPSC's language. The core logic and the effective trap in statement 3 have been retained."
+    }
+  ],
+  "reviewerNotes": "Selected two high-quality candidates that test different aspects of the topic. The first is a statement-based question testing factual details, and the second is a conceptual question on the legal framework. Both were rewritten to enhance clarity, precision, and alignment with the formal UPSC style. The distractors are plausible and test specific nuances from the source text."
+}

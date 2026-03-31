@@ -261,17 +261,18 @@ function HeatCell({ value, max }: { value: number; max: number }) {
 function AnalyseDashboard() {
   const searchParams = useSearchParams();
   const router = useRouter();
-  const yearParam = Number(searchParams.get("year")) || YEARS[0];
+  const defaultYear = YEARS[0] ?? 2025;
+  const yearParam = Number(searchParams.get("year")) || defaultYear;
   const [selectedYear, setSelectedYear] = [
-    YEARS.includes(yearParam) ? yearParam : YEARS[0],
+    YEARS.includes(yearParam) ? yearParam : defaultYear,
     (y: number) => router.push(`/pyq/analyse?year=${y}`),
   ];
 
-  const data = MOCK_DATA[selectedYear];
+  const data = MOCK_DATA[selectedYear] ?? MOCK_DATA[defaultYear]!;
 
   // ── Derived data ──────────────────────────────────────────────────────────
   const subjectEntries = Object.entries(data.subjects).sort((a, b) => b[1] - a[1]);
-  const dominantSubject = subjectEntries[0][0];
+  const dominantSubject = subjectEntries[0]?.[0] ?? "Unknown";
   const staticRatio = Math.round((data.questionTypes.static / data.totalQuestions) * 100);
 
   // Short labels for the Y-axis (so all 13 fit without wrapping)
@@ -315,8 +316,8 @@ function AnalyseDashboard() {
 
   // Heatmap: all available years (2014–2025)
   const heatYears = YEARS; // already sorted newest → oldest
-  const heatSubjects = Object.keys(MOCK_DATA[YEARS[0]].subjects);
-  const heatMax = Math.max(...heatYears.flatMap(y => Object.values(MOCK_DATA[y].subjects)));
+  const heatSubjects = Object.keys(MOCK_DATA[defaultYear]!.subjects);
+  const heatMax = Math.max(...heatYears.flatMap(y => Object.values(MOCK_DATA[y]?.subjects ?? {})));
 
   return (
     <div className="bg-blueprint-grid min-h-[calc(100vh-4rem)]">
@@ -394,7 +395,7 @@ function AnalyseDashboard() {
                 />
                 <Tooltip
                   content={({ active, payload }) => {
-                    if (!active || !payload?.length) return null;
+                    if (!active || !payload?.length || !payload[0]) return null;
                     const d = payload[0].payload;
                     return (
                       <div className="rounded-xl bg-[#1a1a1a] border border-[#333] px-4 py-3 shadow-xl text-sm">
@@ -469,7 +470,7 @@ function AnalyseDashboard() {
                   <tr key={subject}>
                     <td className="pr-2 py-[3px] text-[var(--foreground)] font-semibold text-[10px] whitespace-nowrap">{subject}</td>
                     {heatYears.map((y) => {
-                      const val = MOCK_DATA[y].subjects[subject] ?? 0;
+                      const val = MOCK_DATA[y]?.subjects[subject] ?? 0;
                       const intensity = heatMax > 0 ? val / heatMax : 0;
                       const bg = intensity < 0.15 ? "#111"
                         : intensity < 0.35 ? "#1a3a1a"

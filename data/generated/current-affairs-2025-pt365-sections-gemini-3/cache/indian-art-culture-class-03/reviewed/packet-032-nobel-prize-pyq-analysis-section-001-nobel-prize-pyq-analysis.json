@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "History",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Nobel Prizes, consider the following statements: 1. The Nobel Prize Awarding Ceremony is held annually on December 10th. 2. The Nobel Peace Prize is the only Nobel category where the selection committee is based in Norway. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct as the ceremony is held on December 10th to commemorate Alfred Nobel. Statement 2 is correct; while other prizes are awarded by Swedish institutions, the Peace Prize committee is appointed by the Norwegian Parliament and is based in Norway.",
+      "takeaway": "The Nobel Peace Prize is distinct from other categories in its selection location and committee origin.",
+      "evidenceExcerpt": "In which country is the committee which selects winners for Nobel Peace Prize located? (a) Norway. The Nobel Prize Awarding Ceremony takes place on December 10 of every year.",
+      "qualityScore": 85,
+      "reviewNotes": "This question combines two factual aspects of the Nobel Prize ceremony and administration mentioned in the source text."
+    }
+  ],
+  "reviewerNotes": "The selected questions cover institutional facts and specific laureate contributions as detailed in the provided PYQ analysis. Wording has been adjusted to match the formal tone of UPSC Prelims."
+}

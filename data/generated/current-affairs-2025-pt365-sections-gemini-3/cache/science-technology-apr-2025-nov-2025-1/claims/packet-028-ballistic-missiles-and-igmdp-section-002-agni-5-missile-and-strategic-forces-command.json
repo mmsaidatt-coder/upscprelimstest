@@ -1,0 +1,53 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-028-ballistic-missiles-and-igmdp-section-002-agni-5-missile-and-strategic-forces-command",
+    "claimType": "Factual",
+    "claimText": "Agni-5 is a nuclear-capable surface-to-surface ballistic missile powered by a three-stage solid fuel engine.",
+    "evidenceExcerpt": "A Nuclear-capable Surface-to-Surface Ballistic Missile (SSBM) and is powered by a three-stage solid fuel engine.",
+    "pageNumbers": [
+      55,
+      56
+    ],
+    "examUse": "Statement-based question on Agni-5 specifications.",
+    "distractorHooks": [
+      "Liquid fuel engine",
+      "Two-stage engine",
+      "Surface-to-air missile"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-028-ballistic-missiles-and-igmdp-section-002-agni-5-missile-and-strategic-forces-command",
+    "claimType": "Factual",
+    "claimText": "Agni-5 has a range of over 5,000 km and features Multiple Independently Targetable Reentry Vehicle (MIRV) capability.",
+    "evidenceExcerpt": "Range: Over 5,000 km... Places India among few nations (US, Russia, China, France) with Multiple Independently Targetable Reentry Vehicle (MIRV)-capable ICBMs.",
+    "pageNumbers": [
+      55,
+      56
+    ],
+    "examUse": "Statement-based question on Agni-5 capabilities.",
+    "distractorHooks": [
+      "Range under 3000 km",
+      "Lacks MIRV capability",
+      "Single warhead only"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-028-ballistic-missiles-and-igmdp-section-002-agni-5-missile-and-strategic-forces-command",
+    "claimType": "Institutional",
+    "claimText": "The Strategic Forces Command (SFC) is part of India's Nuclear Command Authority and manages the country's tactical and strategic nuclear weapons stockpile.",
+    "evidenceExcerpt": "SFC forms part of India's Nuclear Command Authority and is responsible for the management and administration of the country's tactical and strategic nuclear weapons stockpile.",
+    "pageNumbers": [
+      55,
+      56
+    ],
+    "examUse": "Institution-feature question on SFC's role and parent authority.",
+    "distractorHooks": [
+      "Part of DRDO",
+      "Manages only conventional weapons",
+      "Under direct command of the Army Chief"
+    ]
+  }
+]

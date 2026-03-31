@@ -1,0 +1,99 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-033-nuclear-programme-and-thorium-cycle-section-003-thorium-molten-salt-reactor-tmsr-and-thorium-reserves",
+    "claimType": "Factual",
+    "claimText": "China successfully achieved the first-ever thorium to uranium fuel conversion in a Thorium Molten Salt Reactor (TMSR).",
+    "evidenceExcerpt": "China successfully achieved the first-ever thorium to uranium fuel conversion in a Thorium Molten Salt Reactor (TMSR).",
+    "pageNumbers": [
+      66,
+      67
+    ],
+    "examUse": "Statement-based question on recent global nuclear technology milestones.",
+    "distractorHooks": [
+      "India achieved the first thorium to uranium conversion",
+      "USA operates the only current TMSR"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-033-nuclear-programme-and-thorium-cycle-section-003-thorium-molten-salt-reactor-tmsr-and-thorium-reserves",
+    "claimType": "Conceptual",
+    "claimText": "The Thorium Molten Salt Reactor (TMSR) is a fourth-generation advanced nuclear energy system that uses high-temperature molten salt as a coolant.",
+    "evidenceExcerpt": "It is fourth-generation advanced nuclear energy system that uses high-temperature molten salt as a coolant.",
+    "pageNumbers": [
+      66,
+      67
+    ],
+    "examUse": "Feature-based question on nuclear reactor generations and coolants.",
+    "distractorHooks": [
+      "TMSR uses heavy water as a coolant",
+      "TMSR is a third-generation nuclear reactor"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-033-nuclear-programme-and-thorium-cycle-section-003-thorium-molten-salt-reactor-tmsr-and-thorium-reserves",
+    "claimType": "Conceptual",
+    "claimText": "Thorium Molten Salt Reactors feature passive safety mechanisms, such as a salt plug that melts to stop the reaction if the reactor overheats.",
+    "evidenceExcerpt": "Passive Safety Features: If an MSR is too hot, a salt plug melts, stopping the reaction.",
+    "pageNumbers": [
+      66,
+      67
+    ],
+    "examUse": "Statement-based question on reactor safety mechanisms.",
+    "distractorHooks": [
+      "Requires active water pumping to stop the reaction",
+      "The salt plug solidifies to contain the reaction during overheating"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-033-nuclear-programme-and-thorium-cycle-section-003-thorium-molten-salt-reactor-tmsr-and-thorium-reserves",
+    "claimType": "Scientific",
+    "claimText": "Thorium-232 is the only naturally occurring isotope of thorium and must be converted to Uranium-233 in a reactor before it can be used as nuclear fuel.",
+    "evidenceExcerpt": "Thorium has to be converted to Uranium-233 in a reactor before it can be used as fuel. Thorium-232 is the only naturally occurring isotope of thorium.",
+    "pageNumbers": [
+      66,
+      67
+    ],
+    "examUse": "Statement-based question on the thorium nuclear fuel cycle.",
+    "distractorHooks": [
+      "Thorium-232 is directly fissile and used as fuel",
+      "Thorium is converted to Plutonium-239 for fuel",
+      "Multiple naturally occurring isotopes of thorium exist"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-033-nuclear-programme-and-thorium-cycle-section-003-thorium-molten-salt-reactor-tmsr-and-thorium-reserves",
+    "claimType": "Geographical",
+    "claimText": "India holds the world's largest thorium reserves, which are primarily found in monazite sands in states like Kerala and Odisha.",
+    "evidenceExcerpt": "India has the world's largest reserves of thorium. Kerala and Odisha have rich reserves of monazite, which contains about 8 - 10% thorium.",
+    "pageNumbers": [
+      66,
+      67
+    ],
+    "examUse": "Geography and resources statement-based question.",
+    "distractorHooks": [
+      "Australia holds the world's largest thorium reserves",
+      "Thorium in India is primarily extracted from pitchblende ores"
+    ]
+  },
+  {
+    "id": "claim-006",
+    "sectionId": "packet-033-nuclear-programme-and-thorium-cycle-section-003-thorium-molten-salt-reactor-tmsr-and-thorium-reserves",
+    "claimType": "Factual",
+    "claimText": "India is developing the Advanced Heavy Water Reactor (AHWR) and Indian Molten Salt Breeder Reactor (IMSBR) for the thorium fuel cycle.",
+    "evidenceExcerpt": "India is developing the Advanced Heavy Water Reactor (AHWR) and Indian Molten Salt Breeder Reactor (IMSBR) for the thorium fuel cycle.",
+    "pageNumbers": [
+      66,
+      67
+    ],
+    "examUse": "Correct-pair or statement-based question on India's three-stage nuclear program.",
+    "distractorHooks": [
+      "AHWR is designed exclusively for enriched uranium fuel",
+      "IMSBR is a light water reactor imported from Russia"
+    ]
+  }
+]

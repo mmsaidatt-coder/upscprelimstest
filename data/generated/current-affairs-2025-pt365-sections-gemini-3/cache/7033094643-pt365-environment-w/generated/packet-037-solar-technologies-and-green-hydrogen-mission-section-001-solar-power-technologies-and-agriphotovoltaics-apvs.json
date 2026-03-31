@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding solar energy technologies: 1. Photovoltaic cells generate electricity by directly producing alternating current (AC) from sunlight. 2. Concentrated Solar Power (CSP) systems harness energy by focusing sunlight using mirrors and lenses. 3. Agriphotovoltaic (APV) systems maximize land-use efficiency by utilizing shade-tolerant crops. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Photovoltaic cells produce direct current (DC), which must be converted to alternating current (AC) by an inverter for standard use. Statement 2 is correct: Concentrated Solar Power (CSP) harnesses energy by focusing sunlight using mirrors, lenses, and tracking devices. Statement 3 is correct: Agriphotovoltaics (APVs) utilize shade-tolerant crops to protect against strong solar irradiation and winds, maximizing land-use efficiency.",
+      "takeaway": "Understanding the basic electrical output of PV cells (DC vs AC) and the synergistic use of shade-tolerant crops in APV systems is crucial for evaluating modern solar technologies.",
+      "evidenceExcerpt": "Photovoltaic cells produce direct current (DC) which is converted to alternating current (AC) by an inverter. Concentrated Solar Power (CSP) harnesses energy by focusing sunlight using mirrors, lenses, and tracking devices... APV systems utilize shade-tolerant crops to protect against strong solar irradiation and winds."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs regarding solar technologies and their features: 1. Photovoltaic cells : Produce direct current (DC) which is converted to alternating current (AC). 2. Concentrated Solar Power : Focuses sunlight using mirrors and lenses. 3. Agriphotovoltaics : Dedicated solar parks on barren lands without agricultural use. How many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correct: Photovoltaic cells produce direct current (DC) which is converted to alternating current (AC) by an inverter. Pair 2 is correct: Concentrated Solar Power (CSP) harnesses energy by focusing sunlight using mirrors, lenses, and tracking devices. Pair 3 is incorrect: Agriphotovoltaics (APVs) combine agricultural production and electricity production on the same land area, rather than being dedicated solar parks on barren lands.",
+      "takeaway": "APVs represent a dual land-use model combining agriculture and solar energy, whereas PV and CSP are distinct methods of harnessing solar power.",
+      "evidenceExcerpt": "Photovoltaic cells produce direct current (DC) which is converted to alternating current (AC) by an inverter... Concentrated Solar Power (CSP) harnesses energy by focusing sunlight using mirrors, lenses, and tracking devices. Agriphotovoltaics (APVs) combine agricultural production and electricity production on the same land area."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the design and application of Agriphotovoltaic (APV) systems, consider the following statements: 1. They are exclusively deployed on barren wastelands to segregate electricity generation from cultivable lands. 2. They are optimally designed to cultivate shade-tolerant crops alongside solar panels. 3. The solar panel infrastructure in these systems provides a microclimate that shields crops from strong solar irradiation and wind damage. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect because APVs are specifically designed to combine agricultural production and electricity generation on the same land, rather than segregating them on barren wastelands. Statements 2 and 3 are correct as APVs utilize shade-tolerant crops that benefit from the protection against strong solar irradiation and winds provided by the panels.",
+      "takeaway": "Agriphotovoltaics (APVs) represent a dual land-use model that maximizes land efficiency by synergizing solar power generation with the cultivation of shade-tolerant crops.",
+      "evidenceExcerpt": "Agriphotovoltaics (APVs) or Solar Farming combines agricultural production and electricity generation on the same land, utilizing solar panels, tracking systems, and shade-tolerant crops to maximize land-use efficiency. APV systems utilize shade-tolerant crops to protect against strong solar irradiation and winds."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Comparison-driven",
+      "prompt": "Which one of the following best describes the fundamental difference in the mechanism of energy harnessing between Photovoltaic (PV) systems and Concentrated Solar Power (CSP) systems?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "PV systems convert sunlight directly into direct current (DC) electricity, whereas CSP systems focus sunlight using mirrors and lenses to harness energy."
+        },
+        {
+          "id": "B",
+          "text": "PV systems utilize tracking devices to focus solar heat, whereas CSP systems rely on stationary panels to directly produce alternating current (AC)."
+        },
+        {
+          "id": "C",
+          "text": "PV systems are primarily used for generating solar thermal energy for industrial heating, whereas CSP systems are exclusively used for agricultural shading."
+        },
+        {
+          "id": "D",
+          "text": "PV systems generate alternating current (AC) directly from sunlight, whereas CSP systems generate direct current (DC) using an inverter."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Photovoltaic cells directly convert sunlight into direct current (DC) electricity. In contrast, Concentrated Solar Power (CSP) technology harnesses solar energy by using mirrors and lenses to focus sunlight.",
+      "takeaway": "Distinguishing between direct electrical conversion (PV) and concentrated focusing (CSP) is key to understanding different solar power technologies.",
+      "evidenceExcerpt": "Solar power utilizes photovoltaic cells to produce direct current (DC)... Other technologies include Solar Thermal Energy for heat and Concentrated Solar Power (CSP) using mirrors and lenses."
+    }
+  ]
+}

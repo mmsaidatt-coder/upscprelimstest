@@ -1,0 +1,62 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-003-nbfcs-and-regional-rural-banks-section-002-non-banking-financial-company-nbfc",
+    "claimType": "Factual",
+    "claimText": "Non-Banking Financial Companies (NBFCs) are registered under the Companies Act, 1956.",
+    "evidenceExcerpt": "NBFCs are registered under the Companies Act, 1956",
+    "pageNumbers": [
+      9
+    ],
+    "examUse": "Statement-based question on the legal foundation and registration of NBFCs.",
+    "distractorHooks": [
+      "Registered under the Reserve Bank of India Act, 1934",
+      "Registered under the Banking Regulation Act, 1949"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-003-nbfcs-and-regional-rural-banks-section-002-non-banking-financial-company-nbfc",
+    "claimType": "Conceptual",
+    "claimText": "The principal business of NBFCs involves lending and investment, but explicitly excludes agriculture, industry, and real estate activities.",
+    "evidenceExcerpt": "engaging in lending and investment while excluding agriculture, industry, and real estate activities.",
+    "pageNumbers": [
+      9
+    ],
+    "examUse": "Statement-based question identifying the core permitted and restricted activities of NBFCs.",
+    "distractorHooks": [
+      "NBFCs primarily engage in agricultural financing",
+      "Real estate development is a core activity of NBFCs"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-003-nbfcs-and-regional-rural-banks-section-002-non-banking-financial-company-nbfc",
+    "claimType": "Factual",
+    "claimText": "Unlike commercial banks, NBFCs are not permitted to accept demand deposits.",
+    "evidenceExcerpt": "Unlike banks, NBFCs cannot accept demand deposits",
+    "pageNumbers": [
+      9
+    ],
+    "examUse": "Comparison question between Banks and NBFCs regarding deposit acceptance.",
+    "distractorHooks": [
+      "NBFCs can accept demand deposits up to a certain limit",
+      "Deposit-taking NBFCs can accept demand deposits"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-003-nbfcs-and-regional-rural-banks-section-002-non-banking-financial-company-nbfc",
+    "claimType": "Factual",
+    "claimText": "NBFCs do not form part of the payment and settlement system and cannot issue cheques drawn on themselves.",
+    "evidenceExcerpt": "are outside the payment and settlement system, and cannot issue cheques drawn on themselves.",
+    "pageNumbers": [
+      9
+    ],
+    "examUse": "Statement-based question on the operational limitations of NBFCs in the financial system.",
+    "distractorHooks": [
+      "NBFCs are part of the payment and settlement system",
+      "NBFCs can issue cheques drawn on themselves for loan disbursement"
+    ]
+  }
+]

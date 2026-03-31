@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Solar Energy Corporation of India (SECI), consider the following statements:\n1. It is a Navratna Central Public Sector Undertaking operating under the Ministry of Power.\n2. It is the designated Renewable Energy Implementing Agency (REIA) for schemes of the Ministry of New and Renewable Energy.\n3. It functions as a Category-I power trading licensee under the Central Electricity Regulatory Commission (CERC).\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: SECI is a Navratna Central Public Sector Undertaking, but it operates under the Ministry of New and Renewable Energy (MNRE), not the Ministry of Power.\nStatement 2 is correct: It is the designated Renewable Energy Implementing Agency (REIA) for MNRE schemes.\nStatement 3 is correct: SECI functions as a Category-I power trading licensee under the Central Electricity Regulatory Commission (CERC).",
+      "takeaway": "SECI is a Navratna CPSU under MNRE, acts as the designated REIA for MNRE schemes, and holds a Category-I power trading license under CERC.",
+      "evidenceExcerpt": "SECI is a Navratna Central Public Sector Undertaking under the Ministry of New and Renewable Energy (MNRE). It is the designated Renewable Energy Implementing Agency (REIA) for MNRE schemes and functions as a Category-I power trading licensee under CERC.",
+      "qualityScore": 90,
+      "reviewNotes": "Good use of the 'How many statements' format. The distractor (Ministry of Power) is a classic UPSC trap for energy-related bodies, testing the candidate's precision regarding nodal ministries."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "List-based",
+      "prompt": "Consider the following initiatives/programmes:\n1. Implementation of the National Solar Mission\n2. Greening of islands in Lakshadweep and Andaman & Nicobar Islands\n3. High-altitude grid-linked renewable energy capacity in Ladakh\n\nHow many of the above are under the implementation mandate of the Solar Energy Corporation of India (SECI)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "All three are correct.\nSECI was established in 2011 specifically for the implementation of the National Solar Mission.\nIn addition to mainland projects, SECI is responsible for implementing special regional programmes, which include the greening of islands (Lakshadweep and Andaman & Nicobar Islands) and developing high-altitude grid-linked capacity in Ladakh.",
+      "takeaway": "SECI's mandate extends beyond standard solar parks to include the National Solar Mission, greening of island territories, and high-altitude grid-linked renewable capacity in Ladakh.",
+      "evidenceExcerpt": "Established in 2011 for the implementation of the National Solar Mission... SECI implements special programmes like the greening of islands (Lakshadweep, A&N Islands) and high-altitude grid-linked capacity in Ladakh.",
+      "qualityScore": 88,
+      "reviewNotes": "Tests the specific geographical and programmatic mandate of SECI. The list format is concise and aligns well with UPSC patterns for testing the scope of government bodies."
+    }
+  ],
+  "reviewerNotes": "Selected and refined two questions to cover different aspects of SECI. The first focuses on its organizational status, nodal ministry, and regulatory oversight. The second focuses on its specific programmatic and geographical mandates. Both have been updated to the latest UPSC 'How many' format."
+}

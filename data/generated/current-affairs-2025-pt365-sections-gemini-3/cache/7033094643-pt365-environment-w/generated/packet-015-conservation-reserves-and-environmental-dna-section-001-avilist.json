@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'AviList', recently seen in the news:\n1. It is the first-ever unified global checklist of bird species aimed at aiding conservation efforts.\n2. It is an exclusive initiative of the United Nations Environment Programme (UNEP).\n3. It will replace the International Ornithological Committee (IOC) and Clements lists.\nHow many of the above statements are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: AviList is the first-ever unified global checklist of bird species. Statement 2 is incorrect: It is a collaborative global effort that includes representatives from BirdLife International and the Cornell Lab of Ornithology, not an exclusive UNEP initiative. Statement 3 is correct: It will replace the International Ornithological Committee (IOC) and Clements lists.",
+      "takeaway": "AviList unifies global bird taxonomy for conservation, replacing older lists like IOC and Clements, and involves organizations like BirdLife International.",
+      "evidenceExcerpt": "AviList: The first-ever unified global checklist of bird species to aid effective bird conservation. Collaborative global effort that included representatives from BirdLife International, the Cornell Lab of Ornithology... It will replace the International Ornithological Committee (IOC) and Clements lists",
+      "contextLines": []
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the 'AviList' database, consider the following statements:\n1. It consolidates multiple existing global bird checklists into a single unified database.\n2. It is designed as a static taxonomic record that will be revised once every decade.\nWhich of the statements given above is/are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: AviList acts as a unified global checklist, replacing the International Ornithological Committee (IOC) and Clements lists. Statement 2 is incorrect: The checklist is not static or decennially revised; it is designed to be updated annually.",
+      "takeaway": "The AviList provides a unified, annually updated global checklist of bird species to ensure effective and current conservation efforts.",
+      "evidenceExcerpt": "It will replace the International Ornithological Committee (IOC) and Clements lists and will be updated annually.",
+      "contextLines": []
+    }
+  ]
+}

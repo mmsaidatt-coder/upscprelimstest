@@ -1,0 +1,82 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-029-tactical-missiles-and-air-breathing-engines-section-001-other-missiles-in-news",
+    "claimType": "Factual",
+    "claimText": "BrahMos is a two-stage supersonic cruise missile jointly developed by India and Russia, utilizing a solid booster and a liquid ramjet.",
+    "evidenceExcerpt": "BrahMos is a 2-stage supersonic cruise missile (solid booster, liquid ramjet) jointly developed by India and Russia with a range up to 290 km.",
+    "pageNumbers": [
+      57
+    ],
+    "examUse": "Statement-based question on missile stages, propulsion types, and joint ventures.",
+    "distractorHooks": [
+      "Developed by India and France",
+      "Subsonic cruise missile",
+      "Single-stage solid propellant"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-029-tactical-missiles-and-air-breathing-engines-section-001-other-missiles-in-news",
+    "claimType": "Factual",
+    "claimText": "Astra is an indigenously developed Beyond Visual Range Air-to-Air missile (BVRAAM) by DRDO.",
+    "evidenceExcerpt": "Astra is an indigenous Beyond Visual Range Air-to-Air missile (BVRAAM) developed by DRDO with a range exceeding 100 km.",
+    "pageNumbers": [
+      57
+    ],
+    "examUse": "Correct-pair question matching missiles to their operational type (e.g., Air-to-Air).",
+    "distractorHooks": [
+      "Surface-to-Air missile",
+      "Jointly developed with Israel",
+      "Short-range visual missile"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-029-tactical-missiles-and-air-breathing-engines-section-001-other-missiles-in-news",
+    "claimType": "Factual",
+    "claimText": "Pralay is a surface-to-surface short-range quasi-ballistic missile capable of hypersonic speeds.",
+    "evidenceExcerpt": "Pralay is a surface-to-surface short-range quasi-ballistic missile (150-500 km) capable of hypersonic speeds.",
+    "pageNumbers": [
+      57
+    ],
+    "examUse": "Statement-based question on missile trajectory, launch platform, and speed capabilities.",
+    "distractorHooks": [
+      "Air-to-surface missile",
+      "Cruise missile",
+      "Subsonic speeds"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-029-tactical-missiles-and-air-breathing-engines-section-001-other-missiles-in-news",
+    "claimType": "Factual",
+    "claimText": "Akash Prime is a Surface-to-Air Missile (SAM) system specifically designed for extreme cold and high altitudes above 4500 meters.",
+    "evidenceExcerpt": "Akash Prime is a rugged SAM system designed for extreme cold and high altitudes above 4500 meters.",
+    "pageNumbers": [
+      57
+    ],
+    "examUse": "Statement-based question on specific operational environments and capabilities of indigenous SAM systems.",
+    "distractorHooks": [
+      "Air-to-Air missile",
+      "Designed primarily for naval deployment",
+      "Surface-to-surface missile"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-029-tactical-missiles-and-air-breathing-engines-section-001-other-missiles-in-news",
+    "claimType": "Factual",
+    "claimText": "Rampage is a long-range, air-to-ground supersonic precise attack missile developed by Israel Aerospace Industries.",
+    "evidenceExcerpt": "Rampage is an Israeli-developed long-range, air-to-ground supersonic precise attack missile.",
+    "pageNumbers": [
+      57
+    ],
+    "examUse": "Correct-pair question matching imported missiles to their country of origin.",
+    "distractorHooks": [
+      "Developed by USA",
+      "Developed by Russia",
+      "Surface-to-surface missile"
+    ]
+  }
+]

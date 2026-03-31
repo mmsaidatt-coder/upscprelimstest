@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of recently designated Ramsar sites and the States where they are located:\n\n1. Udaipur Lake : Rajasthan\n2. Kopra Jalashay : Chhattisgarh\n3. Gogabeel Lake : Bihar\n4. Gokul Reservoir : Jharkhand\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "Only three pairs"
+        },
+        {
+          "id": "D",
+          "text": "All four pairs"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is incorrectly matched: Despite its name, Udaipur Lake is a newly listed Ramsar site located in Bihar, not Rajasthan. Pair 2 is correctly matched: Kopra Jalashay is located in Chhattisgarh. Pair 3 is correctly matched: Gogabeel Lake is located in Bihar. Pair 4 is incorrectly matched: Gokul Reservoir is located in Bihar, not Jharkhand. Therefore, only two pairs are correctly matched.",
+      "takeaway": "Names of wetlands can be misleading regarding their geographical location (e.g., Udaipur Lake being in Bihar). Other new sites in Bihar include Gogabeel Lake and Gokul Reservoir.",
+      "evidenceExcerpt": "Other newly listed sites include Udaipur Lake, Gogabeel Lake, and Gokul Reservoir in Bihar, and Kopra Jalashay in Chhattisgarh.",
+      "qualityScore": 85,
+      "reviewNotes": "Excellent trap with 'Udaipur Lake' which candidates will naturally associate with Rajasthan. Tests factual knowledge of new Ramsar sites effectively in a standard UPSC format."
+    }
+  ],
+  "reviewerNotes": "Selected 3 strong questions that comprehensively cover the source text without redundancy. Q1 tests the geographical locations with a clever trap (Udaipur Lake in Bihar). Q2 tests the specific hydrological and ecological details of Siliserh Lake. Q3 uses a classic UPSC fact-swapping technique to test the distinct characteristics of Khichan and Menar wetlands."
+}

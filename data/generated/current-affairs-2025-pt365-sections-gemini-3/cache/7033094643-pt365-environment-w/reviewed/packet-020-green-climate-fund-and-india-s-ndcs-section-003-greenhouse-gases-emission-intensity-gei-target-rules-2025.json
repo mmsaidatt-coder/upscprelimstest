@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "With reference to the institutional framework under the Greenhouse Gases Emission Intensity (GEI) Target Rules, 2025, consider the following pairs:\n\nFunction : Responsible Entity\n1. Notification of the Rules : Ministry of Power\n2. Methodology for target calculation : Bureau of Energy Efficiency (BEE)\n3. Imposition of environmental compensation : Central Pollution Control Board (CPCB)\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is incorrectly matched: The GEI Target Rules 2025 were notified by the Union Environment Ministry, not the Ministry of Power.\n\nPair 2 is correctly matched: The emission targets are calculated using a methodology developed by the Bureau of Energy Efficiency (BEE).\n\nPair 3 is correctly matched: The Central Pollution Control Board (CPCB) is responsible for imposing environmental compensation (equal to twice the average traded price of carbon credit certificates) for non-compliance.",
+      "takeaway": "While the Environment Ministry notifies the GEI Target Rules and CPCB enforces penalties, the technical methodology for emission targets is provided by the BEE.",
+      "evidenceExcerpt": "Outlines the GEI Target Rules 2025 notified by the Union Environment Ministry... GEI targets are calculated using the Bureau of Energy Efficiency's (BEE) methodology... Central Pollution Control Board (CPCB) imposes environmental compensation...",
+      "qualityScore": 88,
+      "reviewNotes": "Excellent institutional mapping question. It accurately reflects the UPSC pattern of testing the specific ministries and statutory bodies responsible for different aspects of a new environmental regulation."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Greenhouse Gases Emission Intensity (GEI) Target Rules, 2025:\n\n1. They establish legally binding emission targets exclusively for the power and fertilizer sectors.\n2. The emission targets are calculated using a methodology specific to each obligated entity.\n3. Obligated entities can achieve compliance by purchasing certificates from the Indian Carbon Market (ICM).\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The rules establish legally binding GHG emission targets for four primary energy-intensive sectors (aluminium, cement, chlor-alkali, pulp & paper) and five additional sectors, not exclusively power and fertilizers.\n\nStatement 2 is correct: GEI targets are calculated using the Bureau of Energy Efficiency's (BEE) methodology, which is specific to each obligated entity rather than a uniform sectoral benchmark.\n\nStatement 3 is correct: Obligated entities must meet targets annually under the Carbon Credit Trading Scheme, 2023, or purchase certificates from the Indian Carbon Market (ICM).",
+      "takeaway": "The GEI Target Rules 2025 mandate entity-specific, legally binding emission targets for key energy-intensive sectors, with compliance achievable via the Indian Carbon Market.",
+      "evidenceExcerpt": "GEI Target Rules 2025 establish legally binding GHG emission targets for four primary sectors: aluminium, cement, chlor-alkali, and pulp & paper... calculated using the Bureau of Energy Efficiency's (BEE) methodology specific to each obligated entity... Obligated entities must meet targets annually... or purchase certificates from the Indian Carbon Market (ICM).",
+      "qualityScore": 85,
+      "reviewNotes": "Good use of extreme wording ('exclusively') in Statement 1 to create a plausible distractor. Tests multiple facets (sectors, methodology, compliance) of the new rules."
+    }
+  ],
+  "reviewerNotes": "Selected three strong questions covering different dimensions of the GEI Target Rules 2025: overall provisions, institutional framework, and specific sectors. Rejected the third candidate question as it relied on an implicit assumption about 'absolute caps' not explicitly detailed in the provided source text. The retained questions were refined for better UPSC phrasing and formatting."
+}

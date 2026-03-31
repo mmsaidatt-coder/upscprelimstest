@@ -1,0 +1,143 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Applied Scenario",
+      "prompt": "A marine scientific research expedition plans to harvest Marine Genetic Resources (MGRs) and establish a conservation zone. Under the United Nations Convention on the Law of the Sea (UNCLOS) and the BBNJ Agreement, which of the following locations would fall strictly under the regulatory framework of the BBNJ Agreement?",
+      "contextLines": [
+        "Covers the BBNJ Agreement (High Seas Treaty), a legally binding treaty under UNCLOS aimed at conserving marine biodiversity beyond national jurisdiction.",
+        "UNCLOS Maritime Zones: Territorial Sea (up to 12 nm, full sovereignty), Contiguous Zone (up to 24 nm), EEZ (up to 200 nm)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A coral reef located 10 nautical miles from a coastal state's baseline."
+        },
+        {
+          "id": "B",
+          "text": "A contiguous maritime zone extending up to 24 nautical miles from the baseline."
+        },
+        {
+          "id": "C",
+          "text": "An ocean column located 150 nautical miles from a coastal state's baseline."
+        },
+        {
+          "id": "D",
+          "text": "Deep sea waters located 250 nautical miles from any coastal state's baseline."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "The BBNJ Agreement (High Seas Treaty) applies specifically to areas beyond national jurisdiction. Under UNCLOS, national jurisdiction includes the Territorial Sea (up to 12 nm), the Contiguous Zone (up to 24 nm), and the Exclusive Economic Zone (EEZ, up to 200 nm). Therefore, activities at 250 nautical miles (Option D) fall outside national jurisdiction and are governed by the BBNJ Agreement. Options A, B, and C fall within the national jurisdiction of a coastal state.",
+      "takeaway": "The BBNJ Agreement regulates biodiversity conservation strictly in areas beyond national jurisdiction, which begins beyond the 200 nautical mile limit of the Exclusive Economic Zone (EEZ).",
+      "evidenceExcerpt": "aimed at conserving marine biodiversity beyond national jurisdiction... UNCLOS Maritime Zones: Territorial Sea (up to 12 nm, full sovereignty), Contiguous Zone (up to 24 nm), EEZ (up to 200 nm).",
+      "qualityScore": 92,
+      "reviewNotes": "Excellent application-based question. It forces the candidate to apply their knowledge of UNCLOS maritime zone limits to determine the jurisdictional scope of the BBNJ Agreement."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the maritime zones and jurisdictions under the United Nations Convention on the Law of the Sea (UNCLOS), consider the following statements:\n1. A coastal state exercises full sovereignty over its Territorial Sea, which extends up to 12 nautical miles from the baseline.\n2. The Contiguous Zone extends up to 24 nautical miles from the baseline, where the coastal state enjoys full sovereignty.\n3. The deep seabed beyond national jurisdiction is managed by the International Tribunal for the Law of the Sea (ITLOS).\nHow many of the above statements are correct?",
+      "contextLines": [
+        "UNCLOS Maritime Zones: Territorial Sea (up to 12 nm, full sovereignty), Contiguous Zone (up to 24 nm), EEZ (up to 200 nm).",
+        "Deep Seabed beyond national jurisdiction is the 'common heritage of mankind', managed by the International Seabed Authority (ISA).",
+        "along with dispute settlement mechanisms like ITLOS."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Under UNCLOS, the Territorial Sea extends up to 12 nautical miles and grants full sovereignty to the coastal state. Statement 2 is incorrect: While the Contiguous Zone extends up to 24 nautical miles, it does not grant full sovereignty (full sovereignty is restricted to the Territorial Sea). Statement 3 is incorrect: The deep seabed beyond national jurisdiction is designated as the 'common heritage of mankind' and is managed by the International Seabed Authority (ISA), whereas ITLOS is a dispute settlement mechanism.",
+      "takeaway": "Under UNCLOS, full sovereignty is limited to the Territorial Sea (12 nm). The deep seabed beyond national jurisdiction is managed by the ISA, not ITLOS.",
+      "evidenceExcerpt": "UNCLOS Maritime Zones: Territorial Sea (up to 12 nm, full sovereignty), Contiguous Zone (up to 24 nm)... Deep Seabed beyond national jurisdiction is the 'common heritage of mankind', managed by the International Seabed Authority (ISA).",
+      "qualityScore": 88,
+      "reviewNotes": "Tests critical distinctions between different maritime zones and the specific mandates of UNCLOS bodies (ISA vs ITLOS). The 'full sovereignty' trap in statement 2 is a classic UPSC distractor."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-choice",
+      "prompt": "The BBNJ Agreement (High Seas Treaty), recently in the news, focuses on which of the following key pillars?\n1. Establishment of Marine Protected Areas (MPAs)\n2. Management of Marine Genetic Resources (MGRs)\n3. Regulation of deep-sea mining quotas within the Exclusive Economic Zone (EEZ)\n4. Conducting Environmental Impact Assessments (EIAs)\nHow many of the above are key pillars of the BBNJ Agreement?",
+      "contextLines": [
+        "Covers the BBNJ Agreement (High Seas Treaty), a legally binding treaty under UNCLOS aimed at conserving marine biodiversity beyond national jurisdiction.",
+        "It outlines key pillars like Marine Protected Areas (MPAs), Marine Genetic Resources (MGRs), and Environmental Impact Assessments."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The BBNJ Agreement aims to conserve marine biodiversity beyond national jurisdiction. Its key pillars include the establishment of Marine Protected Areas (MPAs) (Point 1), the management of Marine Genetic Resources (MGRs) (Point 2), and conducting Environmental Impact Assessments (EIAs) (Point 4). Point 3 is incorrect because the BBNJ Agreement applies to areas *beyond* national jurisdiction, whereas the Exclusive Economic Zone (EEZ) falls under national jurisdiction (up to 200 nautical miles).",
+      "takeaway": "The BBNJ Agreement focuses on conservation beyond national jurisdiction through MPAs, MGRs, and EIAs. It does not regulate activities within a nation's EEZ.",
+      "evidenceExcerpt": "Covers the BBNJ Agreement (High Seas Treaty)... aimed at conserving marine biodiversity beyond national jurisdiction. It outlines key pillars like Marine Protected Areas (MPAs), Marine Genetic Resources (MGRs), and Environmental Impact Assessments.",
+      "qualityScore": 86,
+      "reviewNotes": "Effectively tests the core components of the BBNJ treaty while using the jurisdictional limit (EEZ) as a logical distractor."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the UN High Seas Treaty (BBNJ Agreement):\n1. It is the third implementation agreement negotiated under the United Nations Convention on the Law of the Sea (UNCLOS).\n2. Membership to the treaty is strictly restricted to countries that are already parties to UNCLOS.\n3. It requires a minimum of 60 ratifications to enter into force, a condition that India has already fulfilled.\nHow many of the above statements are correct?",
+      "contextLines": [
+        "BBNJ is the third implementation agreement under UNCLOS (others: 1994 Part XI and 1995 Fish Stocks).",
+        "Non-UNCLOS members can also join the BBNJ agreement.",
+        "BBNJ requires 60 ratifications to enter into force; India has signed but not ratified."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The BBNJ Agreement is the third implementation agreement under UNCLOS, following the 1994 Part XI and 1995 Fish Stocks agreements. Statement 2 is incorrect: Non-UNCLOS members are also permitted to join the BBNJ agreement. Statement 3 is incorrect: While it requires 60 ratifications to enter into force, India has only signed the agreement and has not yet ratified it.",
+      "takeaway": "The BBNJ Agreement is the third implementation agreement under UNCLOS. It is open to non-UNCLOS members and requires 60 ratifications to enter into force, which India has not yet completed.",
+      "evidenceExcerpt": "BBNJ is the third implementation agreement under UNCLOS... BBNJ requires 60 ratifications to enter into force; India has signed but not ratified. Non-UNCLOS members can also join the BBNJ agreement.",
+      "qualityScore": 85,
+      "reviewNotes": "Good factual coverage of the BBNJ treaty's status and membership rules. The distractors are plausible and align with UPSC's tendency to test India's ratification status on major environmental treaties."
+    }
+  ],
+  "reviewerNotes": "Selected 5 questions that comprehensively cover the provided text on the BBNJ Agreement and UNCLOS. The questions were rewritten to align with the latest UPSC 'How many of the above' formats and to ensure distractors are conceptually rigorous. The applied scenario question (Q4) is particularly strong for testing conceptual clarity regarding maritime boundaries."
+}

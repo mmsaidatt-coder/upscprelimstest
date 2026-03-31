@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the International Union for the Protection of New Varieties of Plants (UPOV):\n1. It is an intergovernmental organization that provides intellectual property rights to incentivize the development of new plant varieties.\n2. The UPOV Convention of 1991 mandates that member countries must completely revoke the farmer's privilege to save seeds.\n3. India is not a member of UPOV and regulates plant varieties through its own sui generis legislation.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: UPOV is an intergovernmental organization that grants Breeder's Rights (an intellectual property right) to incentivize the development of new plant varieties. Statement 2 is incorrect: The UPOV Convention of 1991 strengthens breeders' rights but makes the farmer's privilege to save seeds 'optional' for member countries, rather than strictly revoking it. Statement 3 is correct: India is not a member of UPOV and instead uses its own sui generis law, the Protection of Plant Varieties and Farmers' Rights Authority Act, 2001.",
+      "takeaway": "UPOV grants Breeder's Rights to incentivize new plant varieties. India is not a member, preferring its own sui generis law to protect both breeders and farmers.",
+      "evidenceExcerpt": "An intergovernmental organization to provide and promote an effective system of Plant Variety Protection (PVP). Grants Breeder's Rights (an IP right)... UPOV Convention 1991: It strengthens breeders' rights and makes the farmer's privilege (to save seeds) optional for member countries. India's Status: Not a member and uses its own sui generis law..."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Comparison-driven",
+      "prompt": "Which of the following best highlights the distinction between the UPOV Convention of 1991 and India's domestic framework for plant variety protection?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "UPOV grants intellectual property rights exclusively for genetically modified crops, whereas India's framework covers all traditional plant varieties."
+        },
+        {
+          "id": "B",
+          "text": "UPOV makes the farmer's privilege to save seeds optional for member countries, whereas India uses a sui generis law to explicitly protect farmers' rights."
+        },
+        {
+          "id": "C",
+          "text": "UPOV is a non-governmental mechanism for global seed certification, whereas India's framework is a statutory body for agricultural pricing."
+        },
+        {
+          "id": "D",
+          "text": "UPOV mandates the free global exchange of patented seeds, whereas India's framework strictly prohibits the export of indigenous plant varieties."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Option B is correct. The UPOV Convention 1991 strengthens breeders' rights and makes the farmer's privilege to save seeds optional. In contrast, India is not a member of UPOV and uses its own sui generis law (Protection of Plant Varieties and Farmers' Rights Authority Act, 2001) which uniquely balances both breeders' and farmers' rights. The other options introduce fabricated distinctions not supported by the UPOV mandate.",
+      "takeaway": "India's refusal to join UPOV stems from its need to protect traditional farming practices, specifically the right of farmers to save and reuse seeds, which UPOV 1991 makes optional.",
+      "evidenceExcerpt": "UPOV Convention 1991: It strengthens breeders' rights and makes the farmer's privilege (to save seeds) optional for member countries. India's Status: Not a member and uses its own sui generis law, the Protection of Plant Varieties and Farmers' Rights Authority Act, 2001."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "Which one of the following best describes the primary objective of the \"Breeder's Rights\" granted under the framework of the International Union for the Protection of New Varieties of Plants (UPOV)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "To ensure that traditional farming communities receive royalty payments for conserving indigenous seed varieties."
+        },
+        {
+          "id": "B",
+          "text": "To incentivize the development of new and improved plant varieties by recognizing them as an intellectual property right."
+        },
+        {
+          "id": "C",
+          "text": "To mandate the compulsory licensing of genetically modified seeds to developing nations at subsidized rates."
+        },
+        {
+          "id": "D",
+          "text": "To phase out the use of synthetic fertilizers by promoting the exclusive cultivation of organic plant varieties."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "UPOV is an intergovernmental organization that promotes an effective system of Plant Variety Protection (PVP). It grants Breeder's Rights, which are a form of intellectual property right designed to incentivize the development of new, improved plant varieties.",
+      "takeaway": "Breeder's Rights under UPOV function as an intellectual property mechanism to encourage agricultural innovation and the creation of new plant varieties.",
+      "evidenceExcerpt": "Grants Breeder's Rights (an IP right) to incentivize the development of new, improved plant varieties."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Terminology",
+      "prompt": "In the context of international agricultural intellectual property frameworks such as the UPOV Convention, the term \"Farmer's Privilege\" primarily refers to:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The exclusive right of farmers to export indigenous plant varieties without paying international tariffs."
+        },
+        {
+          "id": "B",
+          "text": "The exemption allowing farmers to save and reuse seeds from protected plant varieties for their own cultivation."
+        },
+        {
+          "id": "C",
+          "text": "The mandatory subsidy provided by intergovernmental organizations to farmers adopting genetically modified crops."
+        },
+        {
+          "id": "D",
+          "text": "The right of farming communities to claim geographical indications for traditional agricultural practices."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "In the context of plant variety protection, the \"farmer's privilege\" refers to the right or exemption granted to farmers allowing them to save and reuse seeds from protected plant varieties. The UPOV Convention of 1991 made this privilege optional for its member countries.",
+      "takeaway": "The farmer's privilege is a critical concept in agricultural IP, representing the traditional practice of saving seeds, which frameworks like UPOV 1991 allow member states to restrict or make optional.",
+      "evidenceExcerpt": "UPOV Convention 1991: It strengthens breeders' rights and makes the farmer's privilege (to save seeds) optional for member countries."
+    }
+  ]
+}

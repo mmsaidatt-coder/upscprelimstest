@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the hardware infrastructure used in artificial intelligence (AI):\n1. A Tensor Processing Unit (TPU) is a type of Application-Specific Integrated Circuit (ASIC) designed specifically to accelerate AI model performance.\n2. 'Ironwood' is a recently developed software framework used to train AI models on TPUs.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: A TPU is an Application-Specific Integrated Circuit (ASIC) specialized for AI model performance. Statement 2 is incorrect: Ironwood is not a software framework; it is Google's 7th-generation hardware Tensor Processing Unit (TPU).",
+      "takeaway": "TPUs are specialized ASICs designed for AI workloads. Ironwood is a specific hardware generation of TPUs, rather than a software model or framework.",
+      "evidenceExcerpt": "Google also developed Ironwood, its 7th-generation Tensor Processing Unit (TPU). A TPU is an Application-Specific Integrated Circuit (ASIC) specialized for AI model performance.",
+      "qualityScore": 88,
+      "reviewNotes": "Excellent conceptual question that tests the candidate's ability to distinguish between hardware (ASIC/TPU) and software frameworks, a common trap in UPSC tech questions."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Terms in News",
+      "prompt": "The terms 'Project Suncatcher' and 'Ironwood', sometimes mentioned in the news, are related to:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Advancements in artificial intelligence hardware and space computing"
+        },
+        {
+          "id": "B",
+          "text": "Global initiatives for deploying space-based solar power stations"
+        },
+        {
+          "id": "C",
+          "text": "Next-generation nuclear propulsion systems for deep space exploration"
+        },
+        {
+          "id": "D",
+          "text": "Open-source large language models developed for climate modeling"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Project Suncatcher is a Google initiative exploring AI computing in space using solar-powered satellites in low-Earth orbit. Ironwood is Google's 7th-generation Tensor Processing Unit (TPU), which is specialized hardware for AI model performance.",
+      "takeaway": "Familiarity with emerging tech codenames is crucial. Project Suncatcher relates to space-based AI computing, while Ironwood is a specific AI hardware architecture (TPU).",
+      "evidenceExcerpt": "Google launched Project Suncatcher to explore AI computing in space using solar-powered satellites in low-Earth orbit. Google also developed Ironwood, its 7th-generation Tensor Processing Unit (TPU).",
+      "qualityScore": 85,
+      "reviewNotes": "A classic 'Terms in News' question that perfectly mimics the UPSC pattern. The distractors are plausible and well-constructed."
+    }
+  ],
+  "reviewerNotes": "Selected two high-quality questions. The first is a standard 'Terms in News' format, and the second tests conceptual clarity regarding AI hardware versus software. Both have been refined to match the UPSC tone and style."
+}

@@ -1,0 +1,149 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the carbon sink status of major global biomes based on recent observations:\n1. The Amazon rainforest currently absorbs more carbon dioxide than it emits.\n2. Boreal forests in Canada and Russia are currently acting as net carbon sinks.\n3. Melting permafrost areas in Russia currently emit more carbon dioxide than they absorb.\n\nHow many of the above statements are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect: Recent findings reveal that the Amazon rainforest currently emits more CO2 than it absorbs, acting as a net carbon source.\nStatement 2 is correct: Boreal forests in Canada and Russia absorb more CO2 than they emit, acting as net carbon sinks.\nStatement 3 is incorrect: Counter-intuitively, recent data shows that melting permafrost areas in Canada and Russia currently absorb more CO2 than they emit.",
+      "takeaway": "While the Amazon rainforest has transitioned into a net carbon source, boreal forests and melting permafrost areas in regions like Canada and Russia are currently functioning as net carbon sinks.",
+      "evidenceExcerpt": "Key Findings: Amazon rainforest emits more CO2 than it absorbs. Boreal forests in Canada, Russia, and melting permafrost areas absorb more CO2 than they emit.",
+      "contextLines": []
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the 'AmazonFACE' project:\n1. It is a space-based mission launched by Brazil to monitor carbon emissions over the Amazon basin.\n2. It employs Free-Air CO2 Enrichment technology to study the adaptation of tropical forests to rising carbon dioxide levels.\n\nWhich of the statements given above is/are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: AmazonFACE is a ground-based scientific project located near Manaus, Brazil, not a space-based satellite mission.\nStatement 2 is correct: The project uses Free-Air CO2 Enrichment (FACE) technology to simulate future atmospheric conditions and assess how tropical forests will adapt to rising CO2 and temperatures.",
+      "takeaway": "AmazonFACE is a terrestrial experiment in Brazil that artificially enriches the air with CO2 in specific forest plots to observe the future impacts of climate change on tropical ecosystems.",
+      "evidenceExcerpt": "AmazonFACE: Scientists in Brazil have launched the AmazonFACE (Free-Air CO2 Enrichment) project near Manaus. It seeks to simulate the atmosphere of the future and assess how tropical forests adapt to rising CO2...",
+      "contextLines": []
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Orbiting Carbon Observatory (OCO) missions, consider the following statements:\n1. It is an initiative of the United States National Aeronautics and Space Administration (NASA).\n2. Its recent findings reveal that the Amazon rainforest is currently acting as a net source of carbon dioxide.\n\nWhich of the statements given above is/are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: The Orbiting Carbon Observatory (OCO) missions are operated by NASA to track atmospheric carbon.\nStatement 2 is correct: Data from the OCO missions indicates that the Amazon rainforest currently emits more CO2 than it absorbs, making it a net source rather than a sink.",
+      "takeaway": "NASA's OCO missions are critical for monitoring global atmospheric carbon. They have provided the crucial finding that the Amazon rainforest has shifted to becoming a net emitter of CO2.",
+      "evidenceExcerpt": "NASA’ Orbiting Carbon Observatory (OCO): The USA administration plans to shut down NASA’s OCO missions... Key Findings: Amazon rainforest emits more CO2 than it absorbs.",
+      "contextLines": []
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "conceptual",
+      "prompt": "With reference to the Free-Air CO2 Enrichment (FACE) technology employed in the 'AmazonFACE' project, which of the following best describes its primary mechanism and objective?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It involves injecting captured carbon dioxide into deep geological formations beneath the Amazon basin to mitigate emissions."
+        },
+        {
+          "id": "B",
+          "text": "It artificially elevates carbon dioxide levels in open-air forest plots to study how tropical ecosystems will respond to future atmospheric conditions."
+        },
+        {
+          "id": "C",
+          "text": "It utilizes satellite-based sensors to measure the precise concentration of carbon dioxide enriched in the upper atmosphere over tropical forests."
+        },
+        {
+          "id": "D",
+          "text": "It promotes the rapid growth of genetically modified tree species in enclosed greenhouses to maximize carbon sequestration."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The AmazonFACE project uses Free-Air CO2 Enrichment technology to simulate future atmospheric conditions. It achieves this by artificially raising CO2 levels in open-air forest environments (without enclosed greenhouses) to assess how tropical forests will adapt to rising CO2 and temperatures.",
+      "takeaway": "FACE technology allows scientists to study ecosystem responses to elevated CO2 in natural, open-air settings rather than artificial greenhouse environments.",
+      "evidenceExcerpt": "AmazonFACE: Scientists in Brazil have launched the AmazonFACE (Free-Air CO2 Enrichment) project near Manaus. It seeks to simulate the atmosphere of the future and assess how tropical forests adapt to rising CO2..."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "statement-based",
+      "prompt": "Consider the following statements regarding recent scientific projects monitoring global carbon dynamics:\n1. The AmazonFACE project relies on satellite constellations to measure the carbon sequestration capacity of tropical forests.\n2. NASA's Orbiting Carbon Observatory (OCO) missions conduct localized, open-air experiments to simulate future carbon dioxide levels.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Both statements are incorrect because their descriptions are swapped. The AmazonFACE project is a ground-based initiative that conducts localized, open-air experiments to simulate future atmospheric CO2 levels. Conversely, NASA's Orbiting Carbon Observatory (OCO) missions rely on space-based satellite measurements to track atmospheric carbon.",
+      "takeaway": "Understanding the methodological difference between observational satellite missions (like OCO) and experimental ground-based simulations (like AmazonFACE) is crucial for climate monitoring studies.",
+      "evidenceExcerpt": "AmazonFACE: Scientists in Brazil have launched the AmazonFACE (Free-Air CO2 Enrichment) project near Manaus. It seeks to simulate the atmosphere of the future... NASA’ Orbiting Carbon Observatory (OCO): The USA administration plans to shut down NASA’s OCO missions..."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to modern vaccine technologies, consider the following statements:\n\n1. Recombinant vaccines utilize a small piece of the pathogen's DNA to build immunity.\n2. DNA/RNA vaccines work by introducing genetic material from the pathogen directly into human cells.\n3. Subunit vaccines utilize deactivated whole pathogens to create immunity.\n\nWhich of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Recombinant vaccines use a small piece of the DNA from the pathogen to stimulate an immune response. Statement 2 is correct: DNA/RNA vaccines introduce genetic material (either DNA or RNA) from the pathogenic bacteria or virus into human cells. Statement 3 is incorrect: Subunit (or acellular) vaccines contain specific polysaccharides or proteins of the pathogen, not the deactivated whole pathogen. Inactivated vaccines use deactivated whole pathogens.",
+      "takeaway": "Recombinant and DNA/RNA vaccines rely on genetic material, whereas subunit vaccines use specific proteins or polysaccharides rather than whole pathogens.",
+      "evidenceExcerpt": "Inactivated or Dead vaccines: Uses deactivated live pathogens... Subunit or Acellular vaccines: Contain polysaccharides or proteins... Recombinant Vaccine: Small piece of the DNA from the pathogen... DNA/RNA Vaccine: Genetic material, either DNA or RNA, from the pathogenic bacteria or virus is introduced into the human cells.",
+      "qualityScore": 85,
+      "reviewNotes": "Rewritten to cover the remaining vaccine types (Recombinant, DNA/RNA, Subunit) not tested in the first question. The statements are clear, distinct, and test conceptual clarity regarding genetic vs. protein-based vaccines."
+    }
+  ],
+  "reviewerNotes": "Selected three questions to comprehensively cover the entire source text without overlapping facts. Q1 tests the mechanisms of Toxoid, Conjugate, and Inactivated vaccines. Q2 tests factual examples across four vaccine types using the 'How many pairs' format. Q3 tests the mechanisms of Recombinant, DNA/RNA, and Subunit vaccines. All distractors have been refined to be plausible and strictly grounded in the provided text."
+}

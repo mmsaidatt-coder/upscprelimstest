@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the 'Model Rules 2025' issued by the Government, consider the following statements:\n1. They regulate the felling of trees exclusively on notified forest lands.\n2. Felling of up to ten trees requires only a No Objection Certificate (NOC) instead of a Felling Permit.\n3. Applicants must register their land ownership details in the National Timber Management System.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The Model Rules 2025 are specifically issued for felling trees on agricultural land, not notified forest lands. Statement 2 is correct: A Felling Permit is required for more than 10 trees, whereas an NOC is sufficient for 10 or fewer trees. Statement 3 is correct: Applicants are required to register in the National Timber Management System with their land ownership details.",
+      "takeaway": "The Model Rules 2025 regulate tree felling on agricultural land with a tiered approach (NOC for ≤10 trees, Permit for >10 trees) and mandate registration on the centralized National Timber Management System.",
+      "evidenceExcerpt": "The Government issued Model Rules 2025 for felling trees on agricultural land... Applicants register in the National Timber Management System with land ownership details. Model Rules 2025 require Felling Permits for agricultural lands with more than 10 trees, and NOCs for 10 or fewer trees.",
+      "qualityScore": 85,
+      "reviewNotes": "Strong UPSC-style question testing the applicability, thresholds, and digital infrastructure of the new Model Rules 2025."
+    }
+  ],
+  "reviewerNotes": "Selected and refined 3 questions to cover the Model Rules 2025, agroforestry systems, and the Bonn Challenge. Ensured distractors are plausible and statements are strictly grounded in the provided text. The 'How many statements are correct' format was utilized to match recent UPSC trends."
+}

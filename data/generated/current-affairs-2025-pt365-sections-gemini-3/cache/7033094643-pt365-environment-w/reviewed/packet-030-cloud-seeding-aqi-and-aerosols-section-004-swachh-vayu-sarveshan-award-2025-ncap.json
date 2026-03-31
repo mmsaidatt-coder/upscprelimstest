@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Swachh Vayu Sarveshan, consider the following statements:\n1. It is an initiative launched by the Ministry of Environment, Forest and Climate Change (MoEFCC).\n2. It evaluates and ranks only those cities that are covered under the National Clean Air Programme (NCAP).\n3. For the purpose of ranking, the participating cities are categorized based on their baseline air pollution levels.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The Swachh Vayu Sarveshan awards are announced by the MoEFCC. Statement 2 is correct: The awards recognize the best-performing cities among the 130 NCAP cities. Statement 3 is incorrect: Cities are categorized based on their population size (e.g., >10 lakh, 3-10 lakh, and <3 lakh), not their baseline pollution levels.",
+      "takeaway": "The Swachh Vayu Sarveshan is an MoEFCC initiative that ranks 130 NCAP cities based on their air quality improvement efforts, categorizing them fairly by population size rather than geographical area or baseline pollution.",
+      "evidenceExcerpt": "Awards announced by MoEFCC recognizing best-performing cities among 130 NCAP cities. Category 1 (>10 lakh) won by Indore; Category 2 (3-10 lakh) by Amravati; Category 3 (<3 lakh) by Dewas.",
+      "qualityScore": 88,
+      "reviewNotes": "Excellent conceptual test of the Swachh Vayu Sarveshan. It avoids trivial city names and focuses on the ranking methodology and nodal ministry, which aligns perfectly with UPSC's pattern of testing scheme frameworks."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the National Clean Air Programme (NCAP):\n1. It is implemented at the national level by the Central Pollution Control Board (CPCB).\n2. The PRANA portal is the dedicated platform used to monitor its implementation.\n3. It aims to achieve the national ambient air quality standard of 60 micrograms per cubic meter specifically for PM2.5 by 2025-26.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: NCAP is implemented by the Central Pollution Control Board (CPCB). Statement 2 is correct: The implementation of NCAP is monitored via the PRANA portal. Statement 3 is incorrect: The programme targets a reduction in PM10 levels (not PM2.5) up to 40% or the achievement of national ambient air quality standards (60 microgram/m3) by 2025-26.",
+      "takeaway": "NCAP is implemented by CPCB and monitored via the PRANA portal. It specifically targets PM10 reductions, aiming for up to a 40% decrease or reaching the 60 µg/m³ standard by 2025-26.",
+      "evidenceExcerpt": "NCAP (launched 2019) targets a reduction in PM10 level up to 40% or achievement of national ambient air quality standards (60 microgram/m3) by 2025-26 from 2019-20 levels. Implemented by CPCB and monitored via the PRANA portal.",
+      "qualityScore": 85,
+      "reviewNotes": "Good coverage of NCAP implementation details. The PM2.5 vs PM10 distinction is a classic UPSC trap, as candidates often confuse the two particulate matter targets."
+    }
+  ],
+  "reviewerNotes": "Selected and refined three questions to cover different dimensions of the source text: NCAP implementation (CPCB/PRANA/PM10), Swachh Vayu Sarveshan framework (MoEFCC/Population categories), and NCAP targets (Dual pathway/Base year). The distractors were strengthened to reflect common UPSC traps, such as swapping PM10 for PM2.5, confusing population categories with baseline pollution, and altering base years."
+}

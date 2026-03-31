@@ -1,0 +1,178 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Co-Lending Arrangements (CLA) between banks and Non-Banking Financial Companies (NBFCs), consider the following statements: 1. Each regulated entity must retain a minimum of 10 percent share of the individual loans on its books. 2. The participating lenders are not eligible to claim Priority Sector Lending (PSL) status for loans disbursed under this model. 3. If one lender classifies the co-lent loan as a Non-Performing Asset (NPA), the other lenders must uniformly classify it as an NPA. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Under Co-Lending Arrangements, each Regulated Entity must retain a minimum 10 percent share of the loans. Statement 2 is incorrect: Lenders can claim Priority Sector Lending (PSL) status for their respective share of the loans. Statement 3 is correct: Uniform asset classification applies; if one lender tags a loan as an NPA, the others must follow.",
+      "takeaway": "Co-lending norms mandate a minimum 10% risk retention by each entity, allow proportional PSL claims, and enforce uniform NPA classification to prevent regulatory arbitrage.",
+      "evidenceExcerpt": "Under Co-Lending Arrangements between banks and NBFCs, each Regulated Entity must retain a minimum 10 percent share of the loans. Lenders can claim Priority Sector Lending status for their share. Uniform asset classification applies; if one lender tags a loan as NPA, others must follow."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to Payment Aggregators in India, consider the following statements: 1. They are entities incorporated under the Companies Act, 2013. 2. Non-bank Payment Aggregators require authorisation from the Reserve Bank of India (RBI). 3. The regulatory framework governing non-bank Payment Aggregators is the Payment and Settlement Systems Act, 2007. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Payment Aggregators are incorporated under the Companies Act, 2013. Statement 2 is correct: Non-bank Payment Aggregators require authorisation from the Reserve Bank of India (RBI). Statement 3 is correct: The authorisation and regulation of non-bank Payment Aggregators fall under the Payment and Settlement Systems Act, 2007.",
+      "takeaway": "Payment Aggregators facilitate merchant payments. While they are incorporated under the Companies Act, 2013, non-bank PAs specifically require RBI authorisation under the Payment and Settlement Systems Act, 2007.",
+      "evidenceExcerpt": "Payment Aggregators facilitate merchant payments, are incorporated under the Companies Act 2013, and non-bank PAs require RBI authorisation under the PSS Act 2007."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Application",
+      "prompt": "A commercial bank and a Non-Banking Financial Company (NBFC) enter into a Co-Lending Arrangement (CLA) to disburse credit to the MSME sector. Based on regulatory norms, which of the following operational scenarios is valid?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The originating NBFC transfers 95 percent of the credit risk to the partner bank while retaining 5 percent on its own books."
+        },
+        {
+          "id": "B",
+          "text": "The commercial bank claims Priority Sector Lending (PSL) benefits for the entire loan amount, compensating the NBFC through a fee."
+        },
+        {
+          "id": "C",
+          "text": "The bank and the NBFC must uniformly classify the loan account as a Non-Performing Asset (NPA) if either lender tags it as such."
+        },
+        {
+          "id": "D",
+          "text": "The participating lenders are prohibited from claiming Priority Sector Lending (PSL) status, as the loan is jointly funded."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Under Co-Lending Arrangements, uniform asset classification applies; if one lender tags a loan as an NPA, the other must follow. Each entity must retain a minimum 10% share (invalidating A), and lenders can claim PSL status for their respective shares (invalidating B and D).",
+      "takeaway": "Co-lending norms enforce strict risk-sharing (minimum 10% retention) and transparent asset quality recognition (uniform NPA classification) to prevent regulatory arbitrage between banks and NBFCs.",
+      "evidenceExcerpt": "Under Co-Lending Arrangements between banks and NBFCs, each Regulated Entity must retain a minimum 10 percent share of the loans. Lenders can claim Priority Sector Lending status for their share. Uniform asset classification applies; if one lender tags a loan as NPA, others must follow."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Assertion-Reason",
+      "prompt": "Consider the following Assertion (A) and Reason (R):\n\nAssertion (A): Non-bank entities functioning as Payment Aggregators in India must obtain authorisation from the Reserve Bank of India under the Payment and Settlement Systems Act, 2007.\nReason (R): Payment Aggregators are statutory bodies established directly under the Payment and Settlement Systems Act, 2007 to facilitate merchant payments.\n\nSelect the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both Assertion (A) and Reason (R) are correct, and Reason (R) is the correct explanation for Assertion (A)."
+        },
+        {
+          "id": "B",
+          "text": "Both Assertion (A) and Reason (R) are correct, but Reason (R) is not the correct explanation for Assertion (A)."
+        },
+        {
+          "id": "C",
+          "text": "Assertion (A) is correct, but Reason (R) is incorrect."
+        },
+        {
+          "id": "D",
+          "text": "Assertion (A) is incorrect, but Reason (R) is correct."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Assertion (A) is correct as non-bank PAs require RBI authorisation under the PSS Act, 2007. Reason (R) is incorrect because Payment Aggregators are not statutory bodies; they are corporate entities incorporated under the Companies Act, 2013.",
+      "takeaway": "While non-bank Payment Aggregators are regulated by the RBI under the PSS Act, 2007, they are incorporated as companies under the Companies Act, 2013, not as statutory bodies.",
+      "evidenceExcerpt": "Payment Aggregators facilitate merchant payments, are incorporated under the Companies Act 2013, and non-bank PAs require RBI authorisation under the PSS Act 2007."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "Which of the following statements best describes the primary function and incorporation status of Payment Aggregators in India?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "They are entities incorporated under the Banking Regulation Act, 1949, primarily designed to facilitate cross-border remittances."
+        },
+        {
+          "id": "B",
+          "text": "They are entities incorporated under the Companies Act, 2013, primarily functioning to facilitate merchant payments."
+        },
+        {
+          "id": "C",
+          "text": "They are statutory bodies created under the Payment and Settlement Systems Act, 2007, to act as a clearing house for inter-bank transactions."
+        },
+        {
+          "id": "D",
+          "text": "They are non-profit organizations registered under the Societies Registration Act, 1860, to promote financial literacy and digital payments."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Payment Aggregators are incorporated under the Companies Act, 2013, and their primary function is to facilitate merchant payments.",
+      "takeaway": "Payment Aggregators (PAs) act as intermediaries that facilitate payments from customers to merchants. They must be incorporated under the Companies Act, 2013.",
+      "evidenceExcerpt": "Payment Aggregators facilitate merchant payments, are incorporated under the Companies Act 2013..."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Feature-Matching",
+      "prompt": "Consider the following regulatory features:\n1. Mandatory retention of a minimum 10 percent share of the loan by each regulated entity.\n2. Uniform asset classification across participating lenders.\n3. Requirement of authorisation under the Payment and Settlement Systems Act, 2007.\n\nWhich of the above features is/are applicable to Co-Lending Arrangements (CLA) between banks and NBFCs?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Co-Lending Arrangements require each regulated entity to retain a minimum 10% share and mandate uniform asset classification (Statements 1 and 2). Authorisation under the Payment and Settlement Systems Act, 2007 (Statement 3) applies to non-bank Payment Aggregators, not to Co-Lending Arrangements.",
+      "takeaway": "Co-Lending Arrangements (CLA) are defined by strict risk retention (10% minimum) and uniform NPA classification to ensure both partners have 'skin in the game'.",
+      "evidenceExcerpt": "Under Co-Lending Arrangements between banks and NBFCs, each Regulated Entity must retain a minimum 10 percent share of the loans... Uniform asset classification applies; if one lender tags a loan as NPA, others must follow. Payment Aggregators... non-bank PAs require RBI authorisation under the PSS Act 2007."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "questions": [
+    {
+      "subject": "Current Affairs",
+      "difficulty": "Hard",
+      "questionType": "Mechanism-design",
+      "prompt": "The 'Financial Fraud Risk Indicator' (FRI) has been introduced to combat mobile-based cyber fraud. Which of the following statements accurately describes its mechanism?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is a biometric-based verification system that mandates facial recognition for all UPI transactions above a certain threshold."
+        },
+        {
+          "id": "B",
+          "text": "It is a risk-based metric that classifies mobile numbers into risk categories based on inputs from the National Cybercrime Reporting Portal and banks."
+        },
+        {
+          "id": "C",
+          "text": "It is a decentralized ledger system that tracks the movement of 'money mules' across different NBFCs in real-time."
+        },
+        {
+          "id": "D",
+          "text": "It is a mandatory credit-scoring tool used by the RBI to determine the eligibility of citizens for digital banking services."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The FRI is a risk-based metric introduced by the Department of Telecommunications (DoT). It classifies mobile numbers into Medium, High, or Very High risk categories based on data from the National Cybercrime Reporting Portal (NCRP), Chakshu, Digital Intelligence Platform (DIP), and bank intelligence. This allows stakeholders like banks and UPI providers to take protective measures.",
+      "takeaway": "The FRI uses multi-agency data to categorize the fraud risk level of mobile numbers for targeted enforcement.",
+      "evidenceExcerpt": "It is a risk-based metric that classifies a mobile number to have been associated with Medium, High, or Very High risk of financial fraud. This classification is an outcome of inputs obtained from: National Cybercrime Reporting Portal (NCRP), DoT’s Chakshu facility and Digital Intelligence Platform (DIP) and Intelligence shared by banks and financial institutions.",
+      "contextLines": []
+    }
+  ]
+}

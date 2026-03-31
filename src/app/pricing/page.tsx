@@ -1,3 +1,11 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Pricing — UPSCPRELIMSTEST",
+  description:
+    "Free UPSC Prelims practice with 1200+ PYQs, exam mode, analytics, and notebook. Pro and Institute plans coming soon.",
+};
+
 const plans = [
   {
     name: "Free",

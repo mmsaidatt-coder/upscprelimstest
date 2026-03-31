@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of satellite orbits and their characteristics:\n1. Low Earth Orbit (LEO) : Operates at an altitude under 2,000 km and hosts the International Space Station\n2. Sun-synchronous Orbit (SSO) : Operates at 600-800 km and keeps satellites in sync with the Sun\n3. Medium Earth Orbit (MEO) : Operates between 2,000 and 36,000 km and is ideal for navigation satellites\n4. Geostationary Orbit (GEO) : Operates at 35,786 km and flies directly above the poles matching Earth's rotation\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "Only three pairs"
+        },
+        {
+          "id": "D",
+          "text": "All four pairs"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Pair 1 is correctly matched: LEO is under 2000 km and hosts the ISS. Pair 2 is correctly matched: SSO is at 600-800 km and syncs with the Sun. Pair 3 is correctly matched: MEO ranges from 2,000 to 36,000 km and is ideal for navigation/GPS. Pair 4 is incorrectly matched: GEO is at 35,786 km and matches Earth's rotation, but it flies directly above the equator, not the poles.",
+      "takeaway": "Different orbits serve distinct purposes: LEO for space stations, SSO for consistent solar lighting, MEO for navigation, and GEO for continuous coverage over a specific equatorial region.",
+      "evidenceExcerpt": "LEO (under 2000 km, ISS orbits here), Sun-synchronous orbit (600-800 km, syncs with Sun), MEO (2,000-36,000 km, navigation/GPS), and GEO (35,786 km, matches Earth's rotation, flies above equator).",
+      "qualityScore": 85,
+      "reviewNotes": "Standard UPSC 'How many pairs' format. Tests comprehensive knowledge of orbital altitudes and applications."
+    }
+  ],
+  "reviewerNotes": "Selected 4 questions covering the Fram2 mission, orbital mechanics (fuel penalty for polar orbits), and the characteristics/applications of LEO, SSO, MEO, and GEO. Rewrote the correct-pair question to match the latest UPSC pattern. Ensured distractors are conceptually sound and explanations are tightly aligned with the source text."
+}

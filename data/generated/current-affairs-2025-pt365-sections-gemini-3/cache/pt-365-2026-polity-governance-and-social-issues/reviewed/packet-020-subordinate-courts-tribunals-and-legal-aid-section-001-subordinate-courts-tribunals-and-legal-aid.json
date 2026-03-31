@@ -1,0 +1,160 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Polity",
+      "difficulty": "Hard",
+      "questionType": "Comparison-driven",
+      "prompt": "Consider the following statements regarding the constitutional provisions for Tribunals under Articles 323A and 323B:\n1. While Article 323A provides for administrative tribunals, Article 323B provides for tribunals for other matters such as taxation and land reforms.\n2. Tribunals under Article 323A can be established by both the Parliament and State Legislatures.\n3. The Central Administrative Tribunal (CAT) was established under the provisions of Article 323A.\nWhich of the statements given above is/are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Article 323A is for administrative tribunals, while 323B covers specific subjects like taxation, foreign exchange, and land reforms. Statement 2 is incorrect: Administrative tribunals under Article 323A can be established only by the Parliament, whereas tribunals under Article 323B can be established by both Parliament and State Legislatures. Statement 3 is correct: CAT is an administrative tribunal established under Article 323A.",
+      "takeaway": "Article 323A is exclusive to Parliament for administrative matters, while Article 323B is a shared power for specific subject-based tribunals.",
+      "evidenceExcerpt": "Article 323A (Administrative Tribunals; CAT established under this). Article 323B (Tribunals for other matters). Article 323A (Administrative Tribunal both at centre and state level) - established only by Parliament. Article 323B (Tribunals for other matters) - established by both Parliament and state legislatures.",
+      "qualityScore": 92,
+      "reviewNotes": "Focuses on the critical legislative competence distinction between 323A and 323B, a frequent area of confusion in competitive exams.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the evolution of the Tribunal system in India, consider the following statements:\n1. The 42nd Amendment Act, 1976, introduced the tribunal system based on the recommendations of the Swaran Singh Committee.\n2. The Finance Act, 2017, reorganized the tribunal system by reducing the total number of tribunals.\n3. The Supreme Court has ruled that matters under Article 323B are within the exclusive jurisdiction of the Union government.\nWhich of the statements given above is/are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The 42nd Amendment added Part XIV-A (Articles 323A and 323B) based on the Swaran Singh Committee. Statement 2 is correct: The Finance Act 2017 reduced the number of tribunals from 26 to 19. Statement 3 is incorrect: The Supreme Court in 2010 ruled that matters under Article 323B are not exclusive; both Parliament and State Legislatures can create tribunals on subjects within their legislative competence (Seventh Schedule).",
+      "takeaway": "The tribunal system was a product of the 42nd Amendment and has undergone recent rationalization through the Finance Act 2017.",
+      "evidenceExcerpt": "42nd Amendment 1976 set up administrative tribunals based on Swaran Singh Committee. Finance Act 2017 re-organised Tribunals reducing their number from 26 to 19. Supreme Court, 2010: Matters under Article 323B are not exclusive; legislatures can create tribunals on subjects in the Seventh Schedule.",
+      "qualityScore": 90,
+      "reviewNotes": "Covers the historical genesis and modern legislative changes to the tribunal system.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the appointment of Additional Judges of a High Court in India, consider the following statements:\n1. They are appointed by the President of India under Article 224 of the Constitution.\n2. They are appointed for a temporary period not exceeding two years.\n3. An Additional Judge cannot hold office after attaining the age of 65 years.\n4. The sanctioned strength of Permanent and Additional Judges is maintained in the ratio of 75:25.\nHow many of the statements given above are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Additional Judges are appointed by the President under Article 224. Statement 2 is correct: They are appointed for a period not exceeding two years to handle temporary increases in business or arrears of work. Statement 3 is incorrect: An Additional Judge holds office until the age of 62 years, not 65. Statement 4 is correct: The sanctioned strength ratio between Permanent and Additional Judges is 75:25.",
+      "takeaway": "Additional Judges are temporary appointments (max 2 years) by the President to address High Court workload, with a retirement age of 62.",
+      "evidenceExcerpt": "Appointed under: Article 224. Time Period: Not exceeding two years and shall hold office till the age of 62 years. Reason: Any temporary increase in business of a High Court or by reason of arrears of work. Sanctioned Strength: Permanent and Additional Judges in the ratio of 75:25.",
+      "qualityScore": 88,
+      "reviewNotes": "Standard UPSC format for judicial appointments. Correctly identifies the age limit distinction between High Court (62) and Supreme Court (65) judges.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Comparison-driven",
+      "prompt": "Which of the following statements best describes the procedural difference between Tribunals and traditional Courts in India?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Courts are established by the executive, whereas Tribunals are established by the legislature."
+        },
+        {
+          "id": "B",
+          "text": "Tribunals are strictly bound by the Indian Evidence Act, 1872, whereas Courts are guided by the principles of natural justice."
+        },
+        {
+          "id": "C",
+          "text": "Tribunals are not bound by the specific procedures of the Code of Civil Procedure, but are guided by the principles of natural justice."
+        },
+        {
+          "id": "D",
+          "text": "Decisions of all Tribunals are final and cannot be challenged in any Court of law."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Tribunals are quasi-judicial bodies and are not bound by the rigid procedures of the Code of Civil Procedure (CPC) or the Evidence Act. Instead, they are guided by the principles of natural justice to ensure flexibility and speed. Traditional courts, however, must strictly adhere to statutory procedural codes.",
+      "takeaway": "Tribunals prioritize natural justice over rigid statutory procedural codes like the CPC.",
+      "evidenceExcerpt": "Tribunals: Not bound by specific procedure (like CPC or Evidence Act) but by principles of natural justice. Courts: Bound by all the rules of evidence and procedure (CPC).",
+      "qualityScore": 87,
+      "reviewNotes": "Clearly distinguishes the procedural flexibility of tribunals, which is their defining characteristic compared to the regular judiciary.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the appointment of District Judges in India, consider the following statements:\n1. The Governor of the State makes appointments of district judges in consultation with the High Court exercising jurisdiction in relation to such State.\n2. A person must have at least seven years of experience as an advocate to be eligible for direct recruitment as a District Judge.\n3. Judicial officers with seven years of service are also eligible for direct recruitment as District Judges.\nWhich of the statements given above are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Statement 1 is correct: Under Article 233, the Governor appoints District Judges in consultation with the High Court. Statement 2 is correct: Article 233 requires a minimum of 7 years of practice as an advocate or pleader. Statement 3 is correct: The Supreme Court recently held that judicial officers with combined experience of 7 years as an advocate and in service are eligible for direct recruitment as District Judges.",
+      "takeaway": "District Judge appointments involve the Governor and High Court, requiring a 7-year eligibility threshold for both advocates and judicial officers.",
+      "evidenceExcerpt": "Article 233 deals with appointment of District Judge. Appointment Authority: Appointed by the Governor in consultation with the High Court. Supreme Court held that judicial officers with combined experience of 7 years as an advocate and in service will be eligible for direct recruitment as District Judges.",
+      "qualityScore": 85,
+      "reviewNotes": "Incorporates the recent Supreme Court clarification on the eligibility of judicial officers for direct recruitment.",
+      "contextLines": []
+    }
+  ],
+  "reviewerNotes": "The questions cover the entire scope of the provided text, including Additional Judges, District Judges, and the Tribunal system. The difficulty levels are balanced, and the distractors are designed to test specific constitutional nuances (e.g., 323A vs 323B legislative competence). All facts are grounded in the source text."
+}

@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the SODAR system recently seen in the news, consider the following statements: 1. It stands for Sound Detection and Ranging. 2. A facility for this system has been inaugurated at the India Meteorological Department (IMD). Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: SODAR stands for Sound Detection and Ranging. Statement 2 is correct: A SODAR system facility has been inaugurated at the India Meteorological Department (IMD), Delhi.",
+      "takeaway": "SODAR (Sound Detection and Ranging) is a system whose facility was recently inaugurated at the India Meteorological Department (IMD) in Delhi.",
+      "evidenceExcerpt": "SODAR (Sound Detection and Ranging) system facility has been inaugurated at India Meteorological Department (IMD), Delhi."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Applied Concept",
+      "prompt": "The recently inaugurated SODAR facility at the India Meteorological Department (IMD), Delhi, relies primarily on which of the following mechanisms for its operation?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Propagation and scattering of sound waves"
+        },
+        {
+          "id": "B",
+          "text": "Reflection of radio frequency waves"
+        },
+        {
+          "id": "C",
+          "text": "Attenuation of ultraviolet radiation"
+        },
+        {
+          "id": "D",
+          "text": "Refraction of microwave pulses"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "SODAR stands for Sound Detection and Ranging. Based on its nomenclature, it utilizes the propagation and scattering of sound waves for detection and ranging purposes, distinguishing it from technologies like RADAR (which uses radio waves). A facility for this system was recently inaugurated at the India Meteorological Department (IMD) in Delhi.",
+      "takeaway": "SODAR (Sound Detection and Ranging) utilizes sound waves for detection, distinguishing it from RADAR (radio waves) and LIDAR (light waves).",
+      "evidenceExcerpt": "SODAR (Sound Detection and Ranging) system facility has been inaugurated at India Meteorological Department (IMD), Delhi."
+    }
+  ]
+}

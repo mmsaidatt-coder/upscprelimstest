@@ -1,0 +1,40 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Agasthyamala Biosphere Reserve:\n1. It is located in the Southern Western Ghats, spread across the states of Karnataka, Kerala, and Tamil Nadu.\n2. The Kalakad Mundanthurai Tiger Reserve is situated within this biosphere reserve.\n3. The Thamirabarai river flows through this protected landscape.\n\nHow many of the above statements are correct?",
+      "contextLines": [
+        "Location: Located in Southern Western Ghats in Tamil Nadu and Kerala.",
+        "Includes 3 WLSs: Shendurney, Peppara and Neyyar (Kerala), and Kalakad Mundanthurai Tiger Reserve (Tamil Nadu)...",
+        "Rivers: Thamirabarai River."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The Agasthyamala Biosphere Reserve is located in the Southern Western Ghats, but it is spread exclusively across the states of Kerala and Tamil Nadu. It does not extend into Karnataka (unlike the Nilgiri Biosphere Reserve).\nStatement 2 is correct: The biosphere reserve encompasses the Kalakad Mundanthurai Tiger Reserve in Tamil Nadu, along with the Shendurney, Peppara, and Neyyar Wildlife Sanctuaries in Kerala.\nStatement 3 is correct: The Thamirabarai river is a major river associated with this landscape.",
+      "takeaway": "The Agasthyamala Biosphere Reserve spans Kerala and Tamil Nadu, encompassing Shendurney, Peppara, and Neyyar WLS, as well as the Kalakad Mundanthurai Tiger Reserve, and is drained by the Thamirabarai River.",
+      "evidenceExcerpt": "Located in Southern Western Ghats in Tamil Nadu and Kerala. Includes 3 WLSs: Shendurney, Peppara and Neyyar (Kerala), and Kalakad Mundanthurai Tiger Reserve (Tamil Nadu)... Rivers: Thamirabarai River.",
+      "qualityScore": 85,
+      "reviewNotes": "Good UPSC-style statement question. Tests geographical spread, protected area composition, and hydrology."
+    }
+  ],
+  "reviewerNotes": "Selected Candidate 1 and Candidate 2. Refined Candidate 1 for better flow and clarity. Modified Candidate 2 by introducing 'Wayanad Wildlife Sanctuary' as a distractor to increase the difficulty and make it more aligned with UPSC's pattern of testing knowledge of adjacent or similar protected areas. Both questions strictly adhere to the provided source text."
+}

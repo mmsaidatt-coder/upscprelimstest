@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Concept",
+      "prompt": "In the context of advancing commercial nuclear fusion technology, what does the achievement of 'Net Energy Gain' (NEG) signify?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The fusion reactor successfully breeds more tritium fuel than it consumes during the reaction."
+        },
+        {
+          "id": "B",
+          "text": "The fusion process generates a greater amount of usable energy than the energy consumed to initiate it."
+        },
+        {
+          "id": "C",
+          "text": "The energy output of the fusion reactor exceeds the theoretical maximum energy of a comparable fission reactor."
+        },
+        {
+          "id": "D",
+          "text": "The reactor achieves a continuous, self-sustaining chain reaction without requiring magnetic confinement."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Net Energy Gain (NEG) in commercial fusion implies that the fusion process generates more energy than the energy required to heat the plasma and initiate the reaction.",
+      "takeaway": "Achieving Net Energy Gain is the primary milestone for making fusion a viable commercial energy source, proving the system produces a surplus of power.",
+      "evidenceExcerpt": "Net Energy Gain (NEG) in commercial fusion implies the process generates more energy than it consumes."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "statement-based",
+      "prompt": "Consider the following statements regarding nuclear reactions:\n\n1. Nuclear fission involves a neutron colliding with a larger atom to split it into smaller atoms.\n2. Nuclear fusion involves combining two atoms to form a heavier atom.\n3. Nuclear fission generates approximately four times more energy per kilogram of fuel than nuclear fusion.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statements 1 and 2 are correct. Fission occurs when a neutron slams into a larger atom, splitting it into smaller atoms, whereas fusion occurs when two atoms slam together to form a heavier atom. Statement 3 is incorrect because it is nuclear fusion, not fission, that can generate approximately four times more energy per kilogram of fuel.",
+      "takeaway": "Nuclear fusion is significantly more energy-dense than nuclear fission, yielding roughly four times the energy per unit mass of fuel.",
+      "evidenceExcerpt": "Fission occurs when a neutron slams into a larger atom, forcing it to excite and split into two smaller atoms... Fusion occurs when two atoms slam together to form a heavier atom... Fusion could generate four times more energy per kilogram of fuel than fission"
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "comparison",
+      "prompt": "With reference to the differences between nuclear fission and nuclear fusion, consider the following statements:\n\n1. While fission utilizes heavy elements such as Uranium and Plutonium, fusion generally relies on hydrogen isotopes like Deuterium and Tritium.\n2. Unlike fission, which produces long-lived radioactive waste such as caesium and strontium, fusion generates only helium and neutrons.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Both statements are correct. Fission relies on heavy elements (Uranium, Plutonium) and produces long-lived radioactive waste (iodine, caesium, strontium). Fusion uses lighter hydrogen isotopes (Deuterium, Tritium) and produces only helium and neutrons, avoiding long-lived radioactive waste.",
+      "takeaway": "Fusion is considered environmentally cleaner than fission because it does not produce long-lived radioactive nuclear waste, yielding only helium and neutrons.",
+      "evidenceExcerpt": "Fission uses fuels like Uranium and Plutonium, while fusion generally uses hydrogen isotopes Deuterium (D) and Tritium (T)... Fission produces long-lived radioactive waste (e.g., iodine, caesium, strontium), whereas fusion only produces helium and neutrons without long-lived radioactive waste."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "institution-feature",
+      "prompt": "In the context of advancing nuclear energy technologies, what is the primary function of a 'tokamak'?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "To safely store long-lived radioactive nuclear waste generated by fission reactors."
+        },
+        {
+          "id": "B",
+          "text": "To extract isotopes of Deuterium and Tritium from heavy water for fission processes."
+        },
+        {
+          "id": "C",
+          "text": "To facilitate nuclear fusion by containing plasma at extreme temperatures of up to 150,000,000 °C."
+        },
+        {
+          "id": "D",
+          "text": "To bombard large atoms with neutrons to initiate a controlled nuclear fission chain reaction."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A tokamak is a device used to facilitate nuclear fusion. It creates the extreme conditions required for fusion to occur, such as containing plasma at temperatures reaching 150,000,000 °C.",
+      "takeaway": "Achieving nuclear fusion on Earth requires extreme conditions, specifically maintaining a high-temperature plasma, which is typically achieved using a magnetic confinement device known as a tokamak.",
+      "evidenceExcerpt": "Fusion requires extreme conditions, such as plasma reaching 150,000,000 °C in a tokamak."
+    }
+  ]
+}

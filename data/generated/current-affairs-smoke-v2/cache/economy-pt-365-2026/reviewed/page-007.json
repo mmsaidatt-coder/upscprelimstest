@@ -1,0 +1,129 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Application-based MCQ",
+      "prompt": "The introduction of the Standing Deposit Facility (SDF) as the floor of the Liquidity Adjustment Facility (LAF) corridor has a significant implication for the Reserve Bank of India's monetary operations. Which of the following best explains this implication?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It signals a policy shift towards using only collateralized instruments for managing liquidity."
+        },
+        {
+          "id": "B",
+          "text": "It provides the RBI with an unconstrained tool to absorb liquidity, especially during periods of government securities scarcity."
+        },
+        {
+          "id": "C",
+          "text": "It makes the interest rate for overnight liquidity absorption entirely market-determined."
+        },
+        {
+          "id": "D",
+          "text": "It limits the RBI's ability to absorb liquidity to only scheduled working days."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The key feature of the Standing Deposit Facility (SDF) is that it allows the RBI to absorb liquidity from commercial banks without providing any collateral in return. This is a major departure from the traditional reverse repo operations which require government securities as collateral. Therefore, the primary implication is that the RBI's capacity to absorb surplus liquidity is no longer constrained by the availability of government securities in its portfolio. This makes SDF a powerful, unconstrained tool. Option A is incorrect as SDF is uncollateralized. Option C is incorrect as the SDF rate is fixed by the RBI. Option D is incorrect as the facility is available on all days.",
+      "takeaway": "The uncollateralized nature of the Standing Deposit Facility (SDF) is its most critical feature, enhancing the RBI's flexibility in liquidity management by removing the constraint of needing government securities for absorption operations.",
+      "evidenceExcerpt": "Standing Deposit Facility (SDF)It is a monetary tool that absorbs liquidity from commercial banks without collateral. Features: SDF replaced the Fixed Rate Reverse Repo as the Liquidity Adjustment Facility corridor’s floor.",
+      "qualityScore": 90,
+      "reviewNotes": "This is a strong application-based question that tests the understanding of the core implication of SDF's uncollateralized nature, rather than just its definition. The distractors are plausible and target common misconceptions about monetary tools."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based MCQ",
+      "prompt": "With reference to the Co-Lending Arrangements (CLA) between banks and Non-Banking Financial Companies (NBFCs), consider the following statements:\n1. Each participating Regulated Entity is required to retain on its books a minimum of 10% of the individual loan.\n2. If a co-lent loan qualifies as a priority sector asset, the Priority Sector Lending (PSL) status can be claimed only by the participating bank.\n3. The fundamental purpose of this model is to improve liquidity management among Regulated Entities in the interbank market.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "3 only"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct. The revised RBI directions for Co-Lending Arrangements mandate that each Regulated Entity (RE) must retain a minimum 10% share of the loans on its books. Statement 2 is incorrect. The norms explicitly state that 'Each lender can claim PSL status for its share under co-lending, if the loan qualifies as priority sector.' This means both the bank and the NBFC can claim the benefit for their respective shares. Statement 3 is incorrect. The purpose of CLAs is the 'extension of credit to the borrowers,' aimed at improving credit flow to the unserved and underserved sector, not for managing interbank liquidity.",
+      "takeaway": "Co-Lending Arrangements are designed to enhance credit delivery to the priority sector by leveraging the reach of NBFCs and the funding capacity of banks. Key features include mandatory risk sharing (minimum 10% retention) and shared eligibility for PSL benefits.",
+      "evidenceExcerpt": "Under CLAs, Regulated Entities (REs) can enter a lending arrangement with other REs for extension of credit to the borrowers... Minimum share: Each RE to retain a minimum 10% share of the loans. Priority Sector Lending (PSL) status: Each lender can claim PSL status for its share under co-lending, if the loan qualifies as priority sector.",
+      "qualityScore": 85,
+      "reviewNotes": "This question effectively tests the key operational details and the core objective of the Co-Lending Arrangements. The distractors are well-crafted to trap candidates who have a superficial understanding of the topic."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Factual-Analytical MCQ",
+      "prompt": "With reference to the scope of the Reserve Bank of India's Integrated Ombudsman Scheme, which one of the following statements is correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It covers all Non-Banking Financial Companies, but excludes Housing Finance Companies and Credit Information Companies."
+        },
+        {
+          "id": "B",
+          "text": "All Regional Rural Banks and Urban Co-operative Banks are covered, irrespective of their deposit size."
+        },
+        {
+          "id": "C",
+          "text": "A Non-Banking Financial Company with an asset size of ₹100 crore, which has a customer interface but does not accept deposits, is covered."
+        },
+        {
+          "id": "D",
+          "text": "The scheme integrated the ombudsman schemes for banking and digital transactions, but the scheme for NBFCs remains separate."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Option C is correct. The text specifies that the scheme covers 'All Non-Banking Financial Companies (excluding Housing Finance Companies) which are authorised to accept deposits or have customer interface, with an assets size of ₹100 crore.' The condition is 'or', not 'and', so an NBFC with the required asset size and a customer interface is covered even if it is not deposit-taking. Option A is incorrect because Credit Information Companies are explicitly included. Option B is incorrect because Urban Co-operative Banks are covered only if their deposit size is ₹50 crore or more. Option D is incorrect as the scheme integrated all three schemes: Banking, NBFCs, and Digital Transactions.",
+      "takeaway": "The RBI Integrated Ombudsman Scheme has specific and nuanced eligibility criteria for different financial entities, including asset/deposit size thresholds and functional requirements (like customer interface). It is crucial to note these details to understand the scheme's full scope.",
+      "evidenceExcerpt": "All Commercial Banks, Regional Rural Banks, Scheduled Primary (Urban) Co-operative Banks, and Non-Scheduled Primary (Urban) Co-operative Banks with deposits size of ₹50 crore. All Non-Banking Financial Companies (excluding Housing Finance Companies) which are authorised to accept deposits or have customer interface, with an assets size of ₹100 crore. ... Credit Information Companies. It integrated the three Ombudsman schemes of RBI, namely: the Banking Ombudsman Scheme, 2006; the Ombudsman Scheme for Non-Banking Financial Companies, 2018; and the Ombudsman Scheme for Digital Transactions, 2019.",
+      "qualityScore": 88,
+      "reviewNotes": "This is a strong, detail-oriented question that requires careful reading and interpretation of the inclusion criteria, a hallmark of UPSC questions. The options are designed to test multiple conditions (asset size, deposit-taking status, entity type) simultaneously."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based MCQ",
+      "prompt": "Consider the following statements regarding the liquidity absorption mechanisms of the Reserve Bank of India:\n1. Under the Variable Rate Reverse Repo (VRRR) auctions, the rate of interest is market-determined.\n2. The Standing Deposit Facility (SDF) enables liquidity absorption from the banking system on an uncollateralized basis.\n3. The SDF has replaced the Fixed Rate Reverse Repo as the ceiling of the Liquidity Adjustment Facility (LAF) corridor.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct. The source text explicitly states that for Variable Rate Reverse Repo (VRRR), 'the interest rate is not fixed and is decided by the market.' Statement 2 is correct. The SDF is defined as a tool that 'absorbs liquidity from commercial banks without collateral.' Statement 3 is incorrect. The SDF replaced the Fixed Rate Reverse Repo as the 'floor' of the LAF corridor, not the ceiling. The ceiling of the LAF corridor is typically the Marginal Standing Facility (MSF) rate.",
+      "takeaway": "It is important to clearly distinguish between the RBI's various liquidity management tools. Key differentiating factors include whether the interest rate is fixed or variable (market-determined), and whether the operation is collateralized or uncollateralized. Also, knowing their position within the LAF corridor (floor vs. ceiling) is crucial.",
+      "evidenceExcerpt": "Standing Deposit Facility (SDF)It is a monetary tool that absorbs liquidity from commercial banks without collateral. Features: SDF replaced the Fixed Rate Reverse Repo as the Liquidity Adjustment Facility corridor’s floor. Variable Rate Reverse Repo (VRRR)...The term variable rate means the interest rate is not fixed and is decided by the market.",
+      "qualityScore": 85,
+      "reviewNotes": "This question effectively tests the candidate's ability to compare and contrast key features of two important liquidity absorption tools, VRRR and SDF. The inclusion of the 'floor/ceiling' concept in statement 3 adds a good layer of difficulty."
+    }
+  ],
+  "reviewerNotes": "The candidate set provided a good base. I have selected and rewritten five questions to enhance their quality and alignment with UPSC standards. The selection covers all major topics from the source text: SDF, Co-lending, Ombudsman Scheme, Switch Auctions, and a comparative question on liquidity tools. I focused on creating application-based questions (like the SDF implication question) and questions with subtle, plausible distractors that test precise understanding (like the Switch Auction mechanism and Ombudsman scope). The wording has been refined for a more formal tone, and explanations are tightly linked to the evidence. The quality scores are conservative, with the most analytical questions rated highest."
+}

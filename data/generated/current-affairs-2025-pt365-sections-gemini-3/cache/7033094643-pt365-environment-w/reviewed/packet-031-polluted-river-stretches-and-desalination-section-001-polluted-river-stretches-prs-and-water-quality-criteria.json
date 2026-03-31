@@ -1,0 +1,40 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the assessment of river water quality in India:\n1. A river stretch is identified as a Polluted River Stretch (PRS) if its Dissolved Oxygen (DO) level falls below 3 mg/L.\n2. Polluted River Stretches are categorized into different priority classes based on the maximum Biochemical Oxygen Demand (BOD) observed.\n3. Maharashtra accounts for the highest number of identified Polluted River Stretches in the country.\n\nHow many of the above statements are correct?",
+      "contextLines": [
+        "Criteria: Biochemical Oxygen Demand (BOD) exceeds 3 milligrams/litre (mg/L).",
+        "Categories: Five Priority Classes (I to V) based on maximum BOD observed...",
+        "Geographic Distribution: Maharashtra has highest number (54) of PRS."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The primary criterion for identifying a Polluted River Stretch (PRS) is a Biochemical Oxygen Demand (BOD) exceeding 3 mg/L, not Dissolved Oxygen (DO) falling below 3 mg/L.\nStatement 2 is correct: PRS are categorized into five Priority Classes (I to V) based on the maximum BOD observed.\nStatement 3 is correct: Maharashtra has the highest number of Polluted River Stretches (54) in India.",
+      "takeaway": "The identification of Polluted River Stretches relies on BOD levels exceeding 3 mg/L. These stretches are grouped into five priority classes based on their maximum BOD, with Maharashtra currently recording the highest number of such stretches.",
+      "evidenceExcerpt": "Criteria: Biochemical Oxygen Demand (BOD) exceeds 3 milligrams/litre (mg/L)... Categories: Five Priority Classes (I to V) based on maximum BOD observed... Geographic Distribution: Maharashtra has highest number (54) of PRS.",
+      "qualityScore": 85,
+      "reviewNotes": "Strong UPSC-style question. Tests the core criteria (BOD vs DO), classification basis, and factual state data. The distractor in statement 1 is highly plausible as DO is another common water quality metric."
+    }
+  ],
+  "reviewerNotes": "Selected two strong statement-based questions. Candidate 1 focuses on the technical criteria (BOD vs DO) and state-wise distribution, while Candidate 2 focuses on the definition of a stretch, the conceptual meaning of BOD, and macro-trends over time. Both have been formatted to match the latest UPSC 'How many statements are correct' style."
+}

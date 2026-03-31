@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of wetlands and their associated characteristics: 1. Gogabeel Lake : Formed by the flow of Mahananda, Kankhar, and Ganga rivers 2. Gokul Reservoir : Oxbow lake serving as a habitat for the Blackbuck 3. Dal Lake : Fed by the Arrah river 4. Vembanad Lake : Largest freshwater wetland ecosystem in Kerala How many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "Only three pairs"
+        },
+        {
+          "id": "D",
+          "text": "All four pairs"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Pair 1 is correctly matched: Gogabeel Lake (Katihar, Bihar) is formed from the flow of the Mahananda, Kankhar, and Ganga rivers. Pair 2 is correctly matched: Gokul Reservoir (Buxar, Bihar) is an oxbow lake and an important habitat for the Blackbuck. Pair 3 is correctly matched: Dal Lake in Jammu & Kashmir is fed by the Arrah river. Pair 4 is incorrectly matched: Vembanad Lake is the largest brackish (not freshwater), humid tropical wetland ecosystem in Kerala.",
+      "takeaway": "Vembanad Lake is a major brackish wetland in Kerala, while Gogabeel, Gokul, and Dal lakes have distinct hydrological and ecological features such as specific riverine sources and fauna habitats.",
+      "evidenceExcerpt": "Gogabeel Lake (Katihar, Bihar) is the 1st community reserve of Bihar, formed from the flow of Mahananda, Kankhar, and Ganga rivers. Gokul Reservoir (Buxar, Bihar) is an oxbow lake and an important habitat for Blackbuck. Dal Lake (J&K)... is fed by the Arrah river. Vembanad Lake (Kerala) is the largest brackish, humid tropical wetland ecosystem in Kerala.",
+      "qualityScore": 85,
+      "reviewNotes": "Good use of the 'How many pairs' format. The distractor for Vembanad (freshwater vs brackish) is a classic UPSC trap."
+    }
+  ],
+  "reviewerNotes": "Selected three strong questions covering different aspects of the source text: a correct-pair question testing multiple facts, a statement-based question with a clever geographical distractor, and a paragraph-description question focusing on specific ecological characteristics. All questions have been formatted to strictly avoid control characters."
+}

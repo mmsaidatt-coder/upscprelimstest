@@ -1,0 +1,63 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-004-small-finance-banks-and-psl-norms-section-001-small-finance-banks-sfbs-and-universal-bank-transition",
+    "claimType": "Factual",
+    "claimText": "To transition to a universal bank, a Small Finance Bank must have a minimum net worth of ₹1,000 crore and a scheduled status for at least 5 years.",
+    "evidenceExcerpt": "Transition requires 5 years of scheduled status, ₹1,000 crore minimum net worth, and stock exchange listing.",
+    "pageNumbers": [
+      10
+    ],
+    "examUse": "Statement-based question on SFB transition criteria.",
+    "distractorHooks": [
+      "₹500 crore net worth",
+      "10 years scheduled status"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-004-small-finance-banks-and-psl-norms-section-001-small-finance-banks-sfbs-and-universal-bank-transition",
+    "claimType": "Factual",
+    "claimText": "The asset quality requirement for an SFB to transition to a universal bank mandates Gross NPA of 3% or less and Net NPA of 1% or less over the last two financial years.",
+    "evidenceExcerpt": "Asset quality for transition requires Gross NPA ≤ 3% and Net NPA ≤ 1% over the last two FYs.",
+    "pageNumbers": [
+      10
+    ],
+    "examUse": "Statement-based question on asset quality requirements for universal bank transition.",
+    "distractorHooks": [
+      "Gross NPA ≤ 5%",
+      "Net NPA ≤ 2%",
+      "Last five financial years"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-004-small-finance-banks-and-psl-norms-section-001-small-finance-banks-sfbs-and-universal-bank-transition",
+    "claimType": "Factual",
+    "claimText": "Small Finance Banks are registered under the Companies Act, 2013 and are licensed under Section 22 of the Banking Regulation Act, 1949.",
+    "evidenceExcerpt": "SFBs are registered under the Companies Act, 2013 and licensed under Section 22 of the Banking Regulation Act, 1949.",
+    "pageNumbers": [
+      10
+    ],
+    "examUse": "Statement-based question on the legal and regulatory framework of SFBs.",
+    "distractorHooks": [
+      "Registered under the RBI Act, 1934",
+      "Licensed under the Payment and Settlement Systems Act, 2007"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-004-small-finance-banks-and-psl-norms-section-001-small-finance-banks-sfbs-and-universal-bank-transition",
+    "claimType": "Factual",
+    "claimText": "The minimum paid-up voting equity capital required for Small Finance Banks is ₹200 crores.",
+    "evidenceExcerpt": "Minimum paid-up voting equity capital for SFBs is ₹200 crores.",
+    "pageNumbers": [
+      10
+    ],
+    "examUse": "Statement-based question on capital requirements for setting up SFBs.",
+    "distractorHooks": [
+      "₹100 crores",
+      "₹500 crores"
+    ]
+  }
+]

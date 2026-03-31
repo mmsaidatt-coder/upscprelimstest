@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Concept Definition",
+      "prompt": "Which one of the following best describes the phenomenon of 'Cryptobiosis', recently mentioned in the news in the context of microscopic animals?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A state of extreme metabolic inactivity in response to adverse environmental conditions."
+        },
+        {
+          "id": "B",
+          "text": "A symbiotic relationship between microscopic animals and mosses to survive extreme cold."
+        },
+        {
+          "id": "C",
+          "text": "A mechanism by which extremophiles rapidly mutate their DNA to withstand cosmic radiation."
+        },
+        {
+          "id": "D",
+          "text": "A specialized reproductive phase triggered by high oceanic pressures."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Cryptobiosis is a physiological state of extreme inactivity triggered by adverse environmental conditions. In this state, metabolic processes nearly stop, allowing organisms like Tardigrades (Water Bears) to survive extreme temperatures, pressures, and radiation.",
+      "takeaway": "Cryptobiosis is the key survival mechanism for Tardigrades, enabling them to withstand conditions that would be fatal to most other forms of life by entering a state of suspended animation.",
+      "evidenceExcerpt": "Cryptobiosis is a state of extreme inactivity in response to adverse environmental conditions.",
+      "qualityScore": 88,
+      "reviewNotes": "Excellent concept definition question. The distractors are highly plausible and parallel, drawing on other biological concepts (symbiosis, mutation, reproduction) that sound like valid survival mechanisms for extremophiles."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Tardigrades', recently seen in the news:\n1. They are eight-legged segmented micro-animals capable of surviving extreme radiation and crushing pressures.\n2. They adapt to adverse environmental conditions by significantly increasing their metabolic rate to sustain vital functions.\n3. They are being sent to the International Space Station (ISS) as part of a scientific experiment.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Tardigrades (also known as water bears or moss piglets) are half-millimetre long, eight-legged segmented micro-animals that can endure extreme temperatures, crushing pressures, and radiation.\nStatement 2 is incorrect: They survive adverse conditions through a process called 'cryptobiosis', which is a state of extreme metabolic inactivity, not an increased metabolic rate.\nStatement 3 is correct: Indian astronaut Shubhanshu Shukla will take Tardigrades to the International Space Station (ISS) for an experiment.",
+      "takeaway": "Tardigrades survive extreme environments not by fighting them with high metabolism, but by shutting down their metabolism almost completely through a process known as cryptobiosis.",
+      "evidenceExcerpt": "Indian astronaut Shubhanshu Shukla will take Tardigrades to the International Space Station (ISS) for an experiment. Also known as Water Bears or Moss Piglets, these half-millimetre long, eight-legged segmented micro-animals endure extreme temperatures, crushing pressures, and radiation through cryptobiosis. Cryptobiosis is a state of extreme inactivity in response to adverse environmental conditions.",
+      "qualityScore": 85,
+      "reviewNotes": "A well-structured statement-based question that tests both the biological characteristics of the species and its current affairs relevance. The incorrect statement uses a highly plausible distractor (increased metabolic rate) that contrasts with the actual mechanism (cryptobiosis)."
+    }
+  ],
+  "reviewerNotes": "Selected two high-quality questions. The first tests the overall characteristics and current affairs context of Tardigrades using the standard 'How many statements' format. The second tests the core scientific concept of Cryptobiosis with plausible distractors related to extremophile survival mechanisms. Both align well with UPSC Prelims standards."
+}

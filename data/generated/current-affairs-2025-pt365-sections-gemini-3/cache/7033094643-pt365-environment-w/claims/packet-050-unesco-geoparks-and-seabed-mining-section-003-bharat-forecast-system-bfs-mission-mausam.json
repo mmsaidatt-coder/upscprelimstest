@@ -1,0 +1,78 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-050-unesco-geoparks-and-seabed-mining-section-003-bharat-forecast-system-bfs-mission-mausam",
+    "claimType": "Factual",
+    "claimText": "Bharat Forecast System (BFS) is an indigenously developed high-resolution weather forecast system created by the Indian Institute of Tropical Meteorology (IITM), Pune.",
+    "evidenceExcerpt": "Bharat Forecast System (BFS) is the world's first indigenously developed high-resolution weather forecast system, created by IITM, Pune.",
+    "pageNumbers": [
+      104
+    ],
+    "examUse": "Statement-based question on the developer of BFS.",
+    "distractorHooks": [
+      "Developed by IMD",
+      "Developed by ISRO",
+      "Developed by NCMRWF"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-050-unesco-geoparks-and-seabed-mining-section-003-bharat-forecast-system-bfs-mission-mausam",
+    "claimType": "Factual",
+    "claimText": "The Bharat Forecast System (BFS) enhances India's weather prediction resolution to 6 km, positioning it ahead of models from the US, UK, and EU.",
+    "evidenceExcerpt": "BFS improves India's weather prediction resolution from 12 km to 6 km, which is ahead of global models that operate at 9-14 km.",
+    "pageNumbers": [
+      104
+    ],
+    "examUse": "Statement-based question on the resolution capability of BFS compared to global models.",
+    "distractorHooks": [
+      "Resolution improved to 12 km",
+      "Lags behind US and UK models"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-050-unesco-geoparks-and-seabed-mining-section-003-bharat-forecast-system-bfs-mission-mausam",
+    "claimType": "Factual",
+    "claimText": "The Bharat Forecast System (BFS) integrates real-time data from 40 Doppler Weather Radars.",
+    "evidenceExcerpt": "The system integrates real-time data from 40 Doppler Weather Radars, which use the Doppler effect to gather velocity data from particles.",
+    "pageNumbers": [
+      104
+    ],
+    "examUse": "Statement-based question on the data sources for BFS.",
+    "distractorHooks": [
+      "Uses only satellite imagery",
+      "Does not use Doppler radars"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-050-unesco-geoparks-and-seabed-mining-section-003-bharat-forecast-system-bfs-mission-mausam",
+    "claimType": "Factual",
+    "claimText": "Arka and Arunika are High-Performance Computing (HPC) systems that power the Bharat Forecast System (BFS).",
+    "evidenceExcerpt": "BFS is powered by High-Performance Computing (HPC) systems named Arka (IITM Pune) and Arunika (NCMRWF, Delhi).",
+    "pageNumbers": [
+      104
+    ],
+    "examUse": "Correct-pair question matching HPC systems to their locations or identifying them as supercomputers for weather forecasting.",
+    "distractorHooks": [
+      "Arka and Arunika are new satellites",
+      "Arka is located at NCMRWF and Arunika at IITM"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-050-unesco-geoparks-and-seabed-mining-section-003-bharat-forecast-system-bfs-mission-mausam",
+    "claimType": "Factual",
+    "claimText": "Mission Mausam was launched in 2024 by the Ministry of Earth Sciences (MoES) to improve weather and climate services.",
+    "evidenceExcerpt": "Mission Mausam was launched in 2024 by the Ministry of Earth Sciences to improve weather and climate services.",
+    "pageNumbers": [
+      104
+    ],
+    "examUse": "Statement-based question on the nodal ministry for Mission Mausam.",
+    "distractorHooks": [
+      "Launched by Ministry of Environment, Forest and Climate Change (MoEFCC)",
+      "Launched by Ministry of Science and Technology"
+    ]
+  }
+]

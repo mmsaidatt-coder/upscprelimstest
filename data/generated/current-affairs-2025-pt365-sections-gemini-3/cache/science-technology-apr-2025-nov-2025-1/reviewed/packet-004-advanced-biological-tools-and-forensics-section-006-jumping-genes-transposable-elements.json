@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding \"Transposable Elements\":\n1. They are extrachromosomal RNA sequences that transfer genetic information between cells.\n2. They constitute more than half of the human genome.\n3. They can alter gene expression by physically relocating within the genome.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Transposable elements (jumping genes) are DNA sequences, not extrachromosomal RNA, and they move within the genome rather than transferring information between cells. Statement 2 is correct: More than 50% of the human genome is composed of transposable elements. Statement 3 is correct: They move by cutting and pasting or copying themselves to new locations, which can affect gene expression and cause mutations.",
+      "takeaway": "Transposable elements are DNA sequences that make up over 50% of the human genome and can alter gene expression by moving within the genome.",
+      "evidenceExcerpt": "Jumping Genes, or Transposable Elements, are DNA sequences that move across the genome, affecting gene expression by cutting and pasting or copying themselves. They can cause mutations and make up more than 50% of the human genome.",
+      "qualityScore": 85,
+      "reviewNotes": "Good coverage of the core concept. The distractor in statement 1 is highly plausible for candidates who might confuse jumping genes with plasmids or RNA vectors."
+    }
+  ],
+  "reviewerNotes": "Selected two strong questions from the candidate set. Candidate 1 was refined to use the standard 'How many of the above' format, testing the fundamental definition, composition, and function of transposable elements. Candidate 2 was rewritten to improve the distractors, making them parallel and plausible biotechnology terms, fitting the classic UPSC 'term in the news' archetype."
+}

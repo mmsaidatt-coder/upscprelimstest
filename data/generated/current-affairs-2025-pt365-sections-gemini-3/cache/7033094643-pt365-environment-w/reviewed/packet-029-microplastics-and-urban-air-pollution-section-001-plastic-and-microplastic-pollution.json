@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Plastic Waste Management (Amendment) Rules, 2021, consider the following statements:\n1. The rules mandated a phased reduction in the permitted thickness of plastic carry bags to facilitate rapid environmental degradation.\n2. The regulatory framework establishes a minimum thickness limit of 120 microns for plastic carry bags.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The Plastic Waste Management (Amendment) Rules, 2021, mandated a phased increase (not reduction) in the thickness of plastic carry bags. Increasing the thickness makes the bags more expensive, discouraging free distribution and improving their collection and recycling viability.\nStatement 2 is correct: The rules raised the thickness limit in phases, ultimately establishing a minimum thickness of 120 microns effective from December 31, 2022.",
+      "takeaway": "The PWM (Amendment) Rules, 2021 progressively increased the minimum thickness of plastic carry bags from 50 microns to 75 microns, and finally to 120 microns by December 2022.",
+      "evidenceExcerpt": "PWM (Amendment) Rules, 2021: Raised thickness limit (50 microns to 75 microns starting September 30, 2021, and then to 120 microns from December 31, 2022) for carry bags.",
+      "qualityScore": 85,
+      "reviewNotes": "Excellent conceptual distractor in Statement 1. It tests whether the candidate understands the logic behind the regulation (thicker bags = higher cost = less littering) rather than just memorizing the rule."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding microplastics and their ecological impacts:\n1. Microplastics are defined as plastic fragments measuring less than 1,000 nanometers in diameter.\n2. They are known to undergo biomagnification across marine trophic levels.\n3. Their accumulation in terrestrial ecosystems reduces the photosynthetic ability of plants.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Microplastics are defined as plastic particles up to 5 millimetres in diameter. It is nanoplastics that measure less than 1,000 nanometers.\nStatement 2 is correct: Microplastics cause biomagnification in marine life, accumulating in higher concentrations as they move up the food chain.\nStatement 3 is correct: Microplastics negatively impact terrestrial flora; studies indicate they reduce plants' photosynthetic ability by approximately 12 percent.",
+      "takeaway": "Microplastics (up to 5 mm) have severe ecological consequences, including causing biomagnification in marine life and reducing the photosynthetic efficiency of plants by around 12%.",
+      "evidenceExcerpt": "Types: Microplastic (up to 5 millimetres in diameter); Nanoplastics (less than 1,000 nanometers)... Microplastics reduce plants' photosynthetic ability by around 12% and cause biomagnification in marine life.",
+      "qualityScore": 85,
+      "reviewNotes": "Combined factual definitions with ecological impacts to create a comprehensive question. Upgraded to the 'How many statements are correct' format to match recent UPSC patterns."
+    }
+  ],
+  "reviewerNotes": "Selected 3 high-quality questions covering definitions, ecological impacts, and regulatory frameworks. Upgraded formats to match recent UPSC trends (e.g., 'How many statements are correct' and 'How many pairs'). Improved distractors to ensure they test conceptual clarity rather than just rote memorization, particularly regarding the logic behind increasing plastic bag thickness."
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-015-earth-observation-and-human-spaceflight-section-003-aditya-l1-mission-and-solar-exploration",
+    "claimType": "Factual",
+    "claimText": "Aditya-L1 is placed in a halo orbit around Lagrange point 1 (L1) of the Sun-Earth system, which is approximately 1.5 million km from Earth.",
+    "evidenceExcerpt": "Aditya-L1 is India's first dedicated solar mission, placed in a halo orbit around Lagrange point 1 (L1), 1.5 million km from Earth.",
+    "pageNumbers": [
+      32
+    ],
+    "examUse": "Statement-based question on the orbital placement and distance of the Aditya-L1 mission.",
+    "distractorHooks": [
+      "Placed in Low Earth Orbit",
+      "Placed at Lagrange point 2 (L2)",
+      "Distance is 150 million km from Earth"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-015-earth-observation-and-human-spaceflight-section-003-aditya-l1-mission-and-solar-exploration",
+    "claimType": "Conceptual",
+    "claimText": "Lagrange points are positions in space where the gravitational pull of two large masses precisely equals the centripetal force required for a small object to move with them.",
+    "evidenceExcerpt": "Lagrange points are positions where the gravitational pull of two large masses equals the centripetal force required for a small object to move with them, allowing uninterrupted observation and reduced fuel consumption.",
+    "pageNumbers": [
+      32
+    ],
+    "examUse": "Concept-based statement question on orbital mechanics and Lagrange points.",
+    "distractorHooks": [
+      "Points where gravitational forces are completely zero",
+      "Points where the magnetic fields of two bodies cancel out"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-015-earth-observation-and-human-spaceflight-section-003-aditya-l1-mission-and-solar-exploration",
+    "claimType": "Factual",
+    "claimText": "The Aditya-L1 mission carries both remote sensing payloads, such as VELC and SUIT, and in-situ payloads, such as ASPEX.",
+    "evidenceExcerpt": "It carries 7 payloads, including VELC and SUIT for remote sensing, and ASPEX for in-situ measurements.",
+    "pageNumbers": [
+      32
+    ],
+    "examUse": "Correct-pair or statement-based question distinguishing between remote sensing and in-situ payloads of Aditya-L1.",
+    "distractorHooks": [
+      "All 7 payloads are remote sensing instruments",
+      "ASPEX is a remote sensing payload",
+      "SUIT is an in-situ payload"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-015-earth-observation-and-human-spaceflight-section-003-aditya-l1-mission-and-solar-exploration",
+    "claimType": "Factual",
+    "claimText": "The Parker Solar Probe, launched by the United States, is the first spacecraft to fly through the Sun's corona.",
+    "evidenceExcerpt": "The Parker Solar Probe (US) is the first spacecraft to fly through the Sun's corona.",
+    "pageNumbers": [
+      32
+    ],
+    "examUse": "Fact-based statement question on international solar missions and their unique achievements.",
+    "distractorHooks": [
+      "Aditya-L1 is the first spacecraft to fly through the corona",
+      "Parker Solar Probe was launched by the European Space Agency (ESA)"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-015-earth-observation-and-human-spaceflight-section-003-aditya-l1-mission-and-solar-exploration",
+    "claimType": "Factual",
+    "claimText": "Hinotori (ASTRO-A) is a major solar observation mission launched by Japan.",
+    "evidenceExcerpt": "Hinotori (ASTRO-A) is a major solar mission launched by Japan.",
+    "pageNumbers": [
+      32
+    ],
+    "examUse": "Correct-pair question matching international space missions to their respective countries or agencies.",
+    "distractorHooks": [
+      "Launched by ISRO",
+      "Launched by NASA",
+      "Launched by Roscosmos"
+    ]
+  }
+]

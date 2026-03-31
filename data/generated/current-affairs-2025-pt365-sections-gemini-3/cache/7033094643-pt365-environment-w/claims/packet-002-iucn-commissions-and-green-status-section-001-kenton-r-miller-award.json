@@ -1,0 +1,50 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-002-iucn-commissions-and-green-status-section-001-kenton-r-miller-award",
+    "claimType": "Institution/Factual",
+    "claimText": "The Kenton R. Miller Award is constituted by the World Commission on Protected Areas (WCPA), which is one of the six technical commissions of the IUCN.",
+    "evidenceExcerpt": "Constituted by: World Commission on Protected Areas (WCPA), one of six technical commissions of IUCN.",
+    "pageNumbers": [
+      8
+    ],
+    "examUse": "Statement-based question identifying the parent organization of the award.",
+    "distractorHooks": [
+      "Constituted by UNEP or UNESCO instead of IUCN",
+      "Constituted by WWF",
+      "WCPA is an independent UN body rather than an IUCN commission"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-002-iucn-commissions-and-green-status-section-001-kenton-r-miller-award",
+    "claimType": "Award Criteria/Factual",
+    "claimText": "The Kenton R. Miller Award is presented every two years to honor individuals demonstrating innovation and leadership in conserving national parks and protected areas.",
+    "evidenceExcerpt": "Honors individuals who show innovation and leadership in conserving national parks and protected areas. Presented every two years by the IUCN-WCPA.",
+    "pageNumbers": [
+      8
+    ],
+    "examUse": "Statement-based question on the frequency and specific target of the award.",
+    "distractorHooks": [
+      "Presented annually instead of biennially",
+      "Awarded to countries or NGOs instead of individuals",
+      "Given for climate change mitigation rather than protected area conservation"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-002-iucn-commissions-and-green-status-section-001-kenton-r-miller-award",
+    "claimType": "Current Affairs/Factual",
+    "claimText": "The Director of Kaziranga National Park is the first Indian to receive the IUCN's Kenton R. Miller Award.",
+    "evidenceExcerpt": "Kaziranga Director becomes first Indian to receive IUCN’s Kenton R. Miller Award for innovation in national parks.",
+    "pageNumbers": [
+      8
+    ],
+    "examUse": "Fact-based MCQ or correct-pair question regarding recent environmental award recipients.",
+    "distractorHooks": [
+      "Director of Jim Corbett National Park",
+      "First Asian recipient instead of first Indian",
+      "Received the award for tiger conservation specifically rather than innovation in national parks"
+    ]
+  }
+]

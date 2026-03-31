@@ -1,0 +1,86 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-015-earth-observation-and-human-spaceflight-section-002-gaganyaan-mission-and-bharatiya-antariksh-station-bas",
+    "claimType": "Factual",
+    "claimText": "The Gaganyaan mission aims to launch a crew of 3 members to a 400 km Low Earth Orbit (LEO) for a 3-day mission.",
+    "evidenceExcerpt": "Gaganyaan aims to launch a crew of 3 members to a 400 km Low Earth Orbit (LEO) for a 3-day mission.",
+    "pageNumbers": [
+      31,
+      32
+    ],
+    "examUse": "Statement-based question on the specific parameters of the Gaganyaan mission.",
+    "distractorHooks": [
+      "Geosynchronous orbit instead of LEO",
+      "7-day mission duration",
+      "5-member crew"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-015-earth-observation-and-human-spaceflight-section-002-gaganyaan-mission-and-bharatiya-antariksh-station-bas",
+    "claimType": "Factual",
+    "claimText": "The Gaganyaan mission utilizes the Launch Vehicle Mark-3 (LVM-3), which is a 3-stage rocket.",
+    "evidenceExcerpt": "The mission utilizes the Launch Vehicle Mark-3 (LVM-3), a 3-stage rocket formerly known as GSLV Mk-III.",
+    "pageNumbers": [
+      31,
+      32
+    ],
+    "examUse": "Statement-based question on the launch vehicle used for India's human spaceflight.",
+    "distractorHooks": [
+      "PSLV instead of LVM-3",
+      "4-stage rocket instead of 3-stage"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-015-earth-observation-and-human-spaceflight-section-002-gaganyaan-mission-and-bharatiya-antariksh-station-bas",
+    "claimType": "Factual",
+    "claimText": "Vyommitra is an AI-powered half-humanoid robot that will undertake the first uncrewed mission of the Gaganyaan programme.",
+    "evidenceExcerpt": "Vyommitra, an AI-powered half-humanoid (gynoid), will undertake the first uncrewed mission of Gaganyaan.",
+    "pageNumbers": [
+      31,
+      32
+    ],
+    "examUse": "Correct-pair or statement-based question identifying Vyommitra and its role.",
+    "distractorHooks": [
+      "Full-humanoid robot",
+      "Rover for a lunar mission",
+      "Part of the crewed mission rather than uncrewed"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-015-earth-observation-and-human-spaceflight-section-002-gaganyaan-mission-and-bharatiya-antariksh-station-bas",
+    "claimType": "Factual",
+    "claimText": "A successful Gaganyaan launch will make India the fourth country to launch a crewed spacecraft, after the US, Russia, and China.",
+    "evidenceExcerpt": "A successful launch will make India the 4th country to launch a crewed spacecraft, following the US, Russia, and China.",
+    "pageNumbers": [
+      31,
+      32
+    ],
+    "examUse": "Statement-based question on India's global standing in human spaceflight.",
+    "distractorHooks": [
+      "Third country to launch",
+      "Fifth country to launch",
+      "Includes European Space Agency (ESA) or France"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-015-earth-observation-and-human-spaceflight-section-002-gaganyaan-mission-and-bharatiya-antariksh-station-bas",
+    "claimType": "Factual",
+    "claimText": "The Bharatiya Antariksh Station (BAS) is planned to orbit at 400-450 km above the Earth and will consist of five modules.",
+    "evidenceExcerpt": "Bharatiya Antariksh Station (BAS) is planned to orbit at 400-450 km above the Earth and will consist of five modules.",
+    "pageNumbers": [
+      31,
+      32
+    ],
+    "examUse": "Statement-based question on the specifications of India's planned space station.",
+    "distractorHooks": [
+      "Orbiting at 36,000 km (GEO)",
+      "Consisting of three modules",
+      "Lunar orbit station"
+    ]
+  }
+]

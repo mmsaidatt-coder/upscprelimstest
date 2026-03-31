@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Malabar Grey Hornbill:\n1. It is a bird species endemic to the Western Ghats of India.\n2. Unlike most other hornbill species, it lacks a casque on its beak.\n3. It is classified as Critically Endangered on the IUCN Red List.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The Malabar Grey Hornbill is endemic to the Western Ghats of India. Statement 2 is correct: A distinguishing physical characteristic of this species is that it lacks the casque typical of other hornbills. Statement 3 is incorrect: Its conservation status on the IUCN Red List is Vulnerable (VU), not Critically Endangered.",
+      "takeaway": "The Malabar Grey Hornbill is a Vulnerable, Schedule I species endemic to the Western Ghats, uniquely characterized by the absence of a casque.",
+      "evidenceExcerpt": "Habitat: Endemic to Western Ghats of India. Characteristics: Lacks the casque typical of Hornbill... IUCN Status: VU (Vulnerable)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Species Identification",
+      "prompt": "Consider the following characteristics:\n1. It is a bird endemic to the Western Ghats of India.\n2. It produces a distinctive loud, laugh-like call.\n3. It lacks the casque typical of its broader family.\n4. It is protected under Schedule I of the Wildlife (Protection) Act, 1972.\n\nWhich of the following species is best described by the characteristics given above?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Great Hornbill"
+        },
+        {
+          "id": "B",
+          "text": "Malabar Grey Hornbill"
+        },
+        {
+          "id": "C",
+          "text": "Narcondam Hornbill"
+        },
+        {
+          "id": "D",
+          "text": "Rufous-necked Hornbill"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The characteristics provided specifically describe the Malabar Grey Hornbill. It is endemic to the Western Ghats, lacks a casque (unlike the Great Hornbill or Rufous-necked Hornbill), has a loud laugh-like call, and is listed under Schedule I of the WPA, 1972.",
+      "takeaway": "Species identification questions often rely on unique physical traits (like lacking a casque), endemism (Western Ghats), and specific vocalizations (laugh-like call).",
+      "evidenceExcerpt": "Malabar Grey Hornbill... Habitat: Endemic to Western Ghats of India. Characteristics: Lacks the casque typical of Hornbill; Loud, laugh-like call. Conservation Status: WPA, 1972: Schedule I."
+    }
+  ]
+}

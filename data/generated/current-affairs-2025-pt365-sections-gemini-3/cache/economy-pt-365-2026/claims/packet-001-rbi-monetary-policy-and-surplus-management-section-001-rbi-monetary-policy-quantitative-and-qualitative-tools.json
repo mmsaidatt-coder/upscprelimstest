@@ -1,0 +1,62 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-001-rbi-monetary-policy-and-surplus-management-section-001-rbi-monetary-policy-quantitative-and-qualitative-tools",
+    "claimType": "Factual",
+    "claimText": "Under the Cash Reserve Ratio (CRR), banks are required to keep a percentage of their Net Demand and Time Liabilities (NDTL) as cash with the RBI and do not earn any interest on it.",
+    "evidenceExcerpt": "CRR is the percentage of NDTL banks must keep as cash with RBI, earning no interest.",
+    "pageNumbers": [
+      5
+    ],
+    "examUse": "Statement-based question testing the features of CRR, specifically whether it earns interest or can be kept in non-cash formats.",
+    "distractorHooks": [
+      "Banks earn a nominal interest rate on CRR deposits with the RBI.",
+      "CRR can be maintained in the form of government securities or gold."
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-001-rbi-monetary-policy-and-surplus-management-section-001-rbi-monetary-policy-quantitative-and-qualitative-tools",
+    "claimType": "Factual",
+    "claimText": "The Statutory Liquidity Ratio (SLR) mandates banks to maintain a percentage of their NDTL in liquid assets, which can include gold, bonds, or cash.",
+    "evidenceExcerpt": "SLR is the percentage of NDTL banks must maintain in liquid assets like gold, bonds, or cash.",
+    "pageNumbers": [
+      5
+    ],
+    "examUse": "Correct-pair or statement-based question comparing the eligible assets for SLR versus CRR.",
+    "distractorHooks": [
+      "SLR balances must be maintained exclusively in cash.",
+      "SLR balances must be deposited directly with the RBI."
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-001-rbi-monetary-policy-and-surplus-management-section-001-rbi-monetary-policy-quantitative-and-qualitative-tools",
+    "claimType": "Conceptual",
+    "claimText": "Quantitative monetary tools directly impact the overall volume of money supply, whereas qualitative tools selectively influence the direction of credit flow to specific sectors.",
+    "evidenceExcerpt": "QUANTITATIVE TOOLS (Volume of Credit) - Directly impact the overall money supply... QUALITATIVE TOOLS (Direction of Credit) - Selectively influence credit flow to specific sectors",
+    "pageNumbers": [
+      5
+    ],
+    "examUse": "Classification question asking candidates to distinguish between the objectives and examples of quantitative vs. qualitative tools.",
+    "distractorHooks": [
+      "Qualitative tools are designed to control the overall volume of money supply in the economy.",
+      "Margin requirements and moral suasion are examples of quantitative monetary tools."
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-001-rbi-monetary-policy-and-surplus-management-section-001-rbi-monetary-policy-quantitative-and-qualitative-tools",
+    "claimType": "Conceptual",
+    "claimText": "An increase in the Repo Rate, which is the short-term lending rate of the RBI to banks, leads to a decrease in the overall money supply.",
+    "evidenceExcerpt": "Repo Rate is the rate at which RBI lends short-term to banks; increasing it decreases money supply.",
+    "pageNumbers": [
+      5
+    ],
+    "examUse": "Cause-and-effect question on how changes in policy rates affect macroeconomic variables like money supply and inflation.",
+    "distractorHooks": [
+      "Increasing the Repo Rate increases the money supply in the economy.",
+      "The Repo Rate is the rate at which the RBI lends long-term funds to commercial banks."
+    ]
+  }
+]

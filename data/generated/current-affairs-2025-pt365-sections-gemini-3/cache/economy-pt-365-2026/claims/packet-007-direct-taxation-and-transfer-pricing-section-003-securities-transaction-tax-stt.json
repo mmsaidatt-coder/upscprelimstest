@@ -1,0 +1,50 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-007-direct-taxation-and-transfer-pricing-section-003-securities-transaction-tax-stt",
+    "claimType": "Factual",
+    "claimText": "Securities Transaction Tax (STT) is a direct tax levied on securities transactions conducted through recognized stock exchanges in India.",
+    "evidenceExcerpt": "STT is a direct tax levied on securities transactions conducted through recognized stock exchanges in India.",
+    "pageNumbers": [
+      17
+    ],
+    "examUse": "Statement-based question testing the nature of the tax (direct vs indirect) and its scope (recognized exchanges).",
+    "distractorHooks": [
+      "Indirect tax",
+      "Off-market transactions",
+      "Unrecognized stock exchanges"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-007-direct-taxation-and-transfer-pricing-section-003-securities-transaction-tax-stt",
+    "claimType": "Factual",
+    "claimText": "Taxable securities under the Securities Transaction Tax (STT) include equity, derivatives, equity-oriented mutual funds, options, and futures.",
+    "evidenceExcerpt": "Taxable securities under STT include equity, derivatives, equity-oriented mutual funds, options, and futures.",
+    "pageNumbers": [
+      17
+    ],
+    "examUse": "Multiple-choice question asking to identify which financial instruments attract STT.",
+    "distractorHooks": [
+      "Debt-oriented mutual funds",
+      "Government bonds",
+      "Bank fixed deposits"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-007-direct-taxation-and-transfer-pricing-section-003-securities-transaction-tax-stt",
+    "claimType": "Conceptual",
+    "claimText": "The primary aim of introducing the Securities Transaction Tax (STT) under the Finance Act, 2004 was to curb tax evasion in the securities market.",
+    "evidenceExcerpt": "STT was introduced under the Finance Act, 2004 to curb tax evasion in the securities market.",
+    "pageNumbers": [
+      17
+    ],
+    "examUse": "Statement-based question testing the historical context and primary objective of STT.",
+    "distractorHooks": [
+      "To increase retail participation in stock markets",
+      "Introduced under the SEBI Act",
+      "To promote foreign institutional investment"
+    ]
+  }
+]

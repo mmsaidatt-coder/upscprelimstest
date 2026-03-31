@@ -1,0 +1,32 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-040-driver-assistance-and-agricultural-stimulants-section-001-advanced-driver-assistance-systems-adas",
+    "claimType": "Factual",
+    "claimText": "Advanced Driver Assistance Systems (ADAS) utilize a combination of sensors, including Lidar, Radar, and cameras, to improve vehicle safety and avoid human errors.",
+    "evidenceExcerpt": "In ADAS, sensors such as Lidar, Radar, and cameras work together to inform features... ADAS uses sensors like Lidar, Radar, and cameras to improve vehicle safety.",
+    "pageNumbers": [
+      78
+    ],
+    "examUse": "Statement-based question on the technological components of ADAS.",
+    "distractorHooks": [
+      "Stating that ADAS operates exclusively using satellite navigation (GPS) without local sensors",
+      "Claiming ADAS eliminates the need for a driver entirely, confusing it with fully autonomous driving"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-040-driver-assistance-and-agricultural-stimulants-section-001-advanced-driver-assistance-systems-adas",
+    "claimType": "Factual",
+    "claimText": "The features of Advanced Driver Assistance Systems (ADAS) include pedestrian detection, Adaptive Cruise Control, Automatic Emergency Braking, Blind Spot Detection, and Lane Departure Warning.",
+    "evidenceExcerpt": "Features include Adaptive Cruise Control, Automatic Emergency Braking, Blind Spot Detection, and Lane Departure Warning. ...inform features such as pedestrian detection, and lane departure warning.",
+    "pageNumbers": [
+      78
+    ],
+    "examUse": "Multiple-choice question identifying correct features of ADAS.",
+    "distractorHooks": [
+      "Including non-ADAS features like manual transmission control or basic power steering",
+      "Stating that ADAS only provides passive warnings and cannot perform active interventions like Automatic Emergency Braking"
+    ]
+  }
+]

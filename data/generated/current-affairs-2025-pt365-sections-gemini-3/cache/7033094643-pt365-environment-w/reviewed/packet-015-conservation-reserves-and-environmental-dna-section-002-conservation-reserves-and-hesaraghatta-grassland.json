@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "Which of the following best describes the primary ecological role of a 'Conservation Reserve' designated under the Wildlife (Protection) Act, 1972?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "To serve as inviolate core habitats exclusively for the relocation of endangered megafauna."
+        },
+        {
+          "id": "B",
+          "text": "To act as buffer zones or migration corridors between established national parks, sanctuaries, and forests."
+        },
+        {
+          "id": "C",
+          "text": "To demarcate areas where commercial bioprospecting is permitted under the supervision of the National Biodiversity Authority."
+        },
+        {
+          "id": "D",
+          "text": "To identify degraded forest lands specifically for compensatory afforestation projects."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Under the Wildlife (Protection) Act, 1972, Conservation Reserves typically act as buffer zones, connectors, and migration corridors between established national parks, sanctuaries, and forests. This facilitates wildlife movement and helps reduce human-wildlife conflict.",
+      "takeaway": "The functional design of a Conservation Reserve is to serve as a linking landscape (buffer or corridor) rather than an isolated core habitat.",
+      "evidenceExcerpt": "Considered a protected area under WPA 1972 and can be declared by State Governments and Central Government... Typically act as buffer zones to or connectors and migration corridors between established national parks, sanctuaries, and forests.",
+      "qualityScore": 88,
+      "reviewNotes": "Strong conceptual question. The distractors are well-crafted and represent other distinct environmental concepts (core habitats, bioprospecting, compensatory afforestation), making it a solid test of foundational knowledge."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to 'Conservation Reserves' in India, consider the following statements:\n1. They are declared under the provisions of the Environment (Protection) Act, 1986.\n2. Both the Central and State Governments have the authority to declare an area as a Conservation Reserve.\n3. A Conservation Reserve Management Committee is constituted to advise the State Biodiversity Board on its management.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect: Conservation Reserves are declared under Section 36A of the Wildlife (Protection) Act, 1972, not the Environment (Protection) Act, 1986. Statement 2 is correct: They are considered protected areas under the WPA 1972 and can be declared by both State Governments and the Central Government. Statement 3 is incorrect: A Conservation Reserve Management Committee advises the Chief Wild Life Warden, not the State Biodiversity Board.",
+      "takeaway": "Conservation Reserves are protected areas under the WPA 1972, declared by State or Central Governments, and managed with advice from a committee reporting to the Chief Wild Life Warden.",
+      "evidenceExcerpt": "Conservation Reserves are declared under Section 36A of the Wildlife Protection Act (WPA) 1972. Considered a protected area under WPA 1972 and can be declared by State Governments and Central Government... A Conservation Reserve Management Committee advises the Chief Wild Life Warden.",
+      "qualityScore": 85,
+      "reviewNotes": "Good statement-based question testing the legal backing and governance of Conservation Reserves. The distractors are plausible and test common confusions (EPA vs WPA, State Biodiversity Board vs Chief Wild Life Warden)."
+    }
+  ],
+  "reviewerNotes": "Selected three questions covering the legal status, geographical significance, and ecological role of Conservation Reserves and Hesaraghatta Grassland. Rewrote the statement-based questions to align with the latest UPSC 'How many statements' format and refined the distractors for better plausibility."
+}

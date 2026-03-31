@@ -1,0 +1,62 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-002-iucn-commissions-and-green-status-section-004-green-status-assessment-for-the-lion",
+    "claimType": "Factual",
+    "claimText": "The IUCN Green Status Assessment categorizes the lion as 'Largely depleted'.",
+    "evidenceExcerpt": "The First Green Status Assessment for the Lion categorizes its status as 'Largely depleted'.",
+    "pageNumbers": [
+      8
+    ],
+    "examUse": "Statement-based question on IUCN Green Status of species.",
+    "distractorHooks": [
+      "Categorized as 'Fully recovered'",
+      "Categorized as 'Critically depleted'"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-002-iucn-commissions-and-green-status-section-004-green-status-assessment-for-the-lion",
+    "claimType": "Factual",
+    "claimText": "The Asiatic Lion is classified as Vulnerable on the IUCN Red List, listed in Schedule I of WPA 1972, and Appendix I of CITES.",
+    "evidenceExcerpt": "The Asiatic Lion is listed as Vulnerable (VU) on the IUCN Red List, Schedule I of WPA 1972, and Appendix I of CITES.",
+    "pageNumbers": [
+      8
+    ],
+    "examUse": "Statement-based question on the conservation status of the Asiatic Lion.",
+    "distractorHooks": [
+      "Endangered on IUCN Red List",
+      "Appendix II of CITES"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-002-iucn-commissions-and-green-status-section-004-green-status-assessment-for-the-lion",
+    "claimType": "Comparison",
+    "claimText": "Asiatic lions possess a distinctive longitudinal skin fold along their belly, which is typically absent in African lions.",
+    "evidenceExcerpt": "Asiatic lions have a distinctive longitudinal skin fold along the belly, which is usually absent in African lions.",
+    "pageNumbers": [
+      8
+    ],
+    "examUse": "Comparison question distinguishing Asiatic and African lions.",
+    "distractorHooks": [
+      "African lions have a prominent belly skin fold",
+      "Neither lion species has a belly skin fold"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-002-iucn-commissions-and-green-status-section-004-green-status-assessment-for-the-lion",
+    "claimType": "Comparison",
+    "claimText": "Male Asiatic lions have sparser and shorter manes compared to African lions, making their ears almost always visible.",
+    "evidenceExcerpt": "Male Asiatic lions have sparser and shorter manes compared to African lions, making their ears almost always visible.",
+    "pageNumbers": [
+      8
+    ],
+    "examUse": "Statement-based comparison question on physical characteristics of lions.",
+    "distractorHooks": [
+      "Asiatic lions have thicker and longer manes than African lions",
+      "African lions have visible ears due to shorter manes"
+    ]
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-001-rbi-monetary-policy-and-surplus-management-section-003-india-s-forex-reserves-and-gold-holdings",
+    "claimType": "Factual",
+    "claimText": "Gold reserves constitute nearly 15% of India's total foreign exchange reserves.",
+    "evidenceExcerpt": "Gold reserves constitute nearly 15% of India's foreign reserves, reaching $102.3 billion.",
+    "pageNumbers": [
+      6
+    ],
+    "examUse": "Statement-based question on the composition and relative share of components in India's forex reserves.",
+    "distractorHooks": [
+      "Stating gold is the largest component of forex reserves",
+      "Significantly altering the percentage share (e.g., 5% or 50%)"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-001-rbi-monetary-policy-and-surplus-management-section-003-india-s-forex-reserves-and-gold-holdings",
+    "claimType": "Conceptual",
+    "claimText": "The Reserve Bank of India increases its gold reserves to achieve diversification, mitigate risks, and hedge against inflation.",
+    "evidenceExcerpt": "RBI increases gold reserves for diversification (de-dollarization), risk mitigation, and hedging against inflation.",
+    "pageNumbers": [
+      6
+    ],
+    "examUse": "Conceptual question on the macroeconomic rationale behind central banks accumulating gold.",
+    "distractorHooks": [
+      "Claiming gold is accumulated to generate high regular interest yields",
+      "Stating it is done to increase the immediate liquidity of the central bank"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-001-rbi-monetary-policy-and-surplus-management-section-003-india-s-forex-reserves-and-gold-holdings",
+    "claimType": "Conceptual",
+    "claimText": "Holding gold as part of foreign exchange reserves involves risks such as zero yield, reduced liquidity, and high storage costs.",
+    "evidenceExcerpt": "Risks of storing gold include reduced liquidity, zero yield, and high storage and security costs.",
+    "pageNumbers": [
+      6
+    ],
+    "examUse": "Statement-based question evaluating the disadvantages or risks of holding physical gold in sovereign reserves.",
+    "distractorHooks": [
+      "Asserting that gold provides a high regular yield",
+      "Claiming gold offers higher liquidity than Foreign Currency Assets"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-001-rbi-monetary-policy-and-surplus-management-section-003-india-s-forex-reserves-and-gold-holdings",
+    "claimType": "Factual",
+    "claimText": "India's Foreign Exchange Reserves are composed of Foreign Currency Assets (FCA), Gold, Special Drawing Rights (SDR), and the Reserve Tranche Position (RTP).",
+    "evidenceExcerpt": "Forex reserves consist of Foreign Currency Assets (FCA), Gold, Special Drawing Rights (SDR), and Reserve Tranche Position (RTP).",
+    "pageNumbers": [
+      6
+    ],
+    "examUse": "Multiple-choice question identifying the correct components of India's forex reserves.",
+    "distractorHooks": [
+      "Including Foreign Direct Investment (FDI) as a component",
+      "Including External Commercial Borrowings (ECB) as a component",
+      "Including Sovereign Wealth Funds as a component"
+    ]
+  }
+]

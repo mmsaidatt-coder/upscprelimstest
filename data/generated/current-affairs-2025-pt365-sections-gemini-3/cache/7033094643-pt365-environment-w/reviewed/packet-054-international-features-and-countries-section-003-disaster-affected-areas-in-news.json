@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Geography",
+      "difficulty": "Hard",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of active volcanoes and the specific islands they are located on:\n1. Mount Etna : Sicily\n2. Mount Lewotobi Laki-laki : Flores\n3. Mount Semeru : Java\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "None"
+        },
+        {
+          "id": "B",
+          "text": "Only one pair"
+        },
+        {
+          "id": "C",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "D",
+          "text": "All three pairs"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Pair 1 is correct: Mount Etna is Europe's largest active volcano, located on Sicily Island, Italy.\nPair 2 is correct: Mount Lewotobi Laki-laki is located on Flores Island, Indonesia.\nPair 3 is correct: Mount Semeru is the highest volcano on Java Island, Indonesia.",
+      "takeaway": "Indonesia has numerous active volcanoes across its archipelago, including Mount Semeru on Java and Mount Lewotobi Laki-laki on Flores. Mount Etna is located on the Italian island of Sicily.",
+      "evidenceExcerpt": "Mount Etna is Europe's largest active volcano, located on Sicily Island, Italy. Mount Lewotobi Laki-laki is a volcano located on Flores Island, Indonesia... Mount Semeru is a stratovolcano and the highest volcano on Java Island, Indonesia.",
+      "qualityScore": 85,
+      "reviewNotes": "Excellent question testing deeper geographical knowledge (specific islands rather than just countries), which aligns well with recent UPSC trends."
+    }
+  ],
+  "reviewerNotes": "Selected 3 questions to cover the geographical locations and features mentioned in the text. Rewrote the questions to ensure UPSC-style formatting, plausible distractors (e.g., shield vs stratovolcano, Japan vs Hawaii), and eliminated repetitive questions since the source text is very brief."
+}

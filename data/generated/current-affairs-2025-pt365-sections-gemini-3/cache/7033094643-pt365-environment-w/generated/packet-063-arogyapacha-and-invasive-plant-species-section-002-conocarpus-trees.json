@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Species Identification",
+      "prompt": "Consider the following description of a plant species: It is an ornamental plant that provides a green canopy but is highly invasive. Often referred to as a 'green desert', it consumes excessive groundwater and produces allergenic pollen. Recently, several Indian states have banned its plantation. Which of the following plant species is described in the paragraph above?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Prosopis juliflora"
+        },
+        {
+          "id": "B",
+          "text": "Conocarpus"
+        },
+        {
+          "id": "C",
+          "text": "Lantana camara"
+        },
+        {
+          "id": "D",
+          "text": "Senna spectabilis"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Conocarpus is an invasive ornamental plant known as a 'green desert' due to its high groundwater consumption and allergenic pollen. Several states, including Gujarat and Tamil Nadu, have banned it.",
+      "takeaway": "Conocarpus is an invasive exotic tree species banned by certain Indian states due to its detrimental effects on groundwater and human health (allergies).",
+      "evidenceExcerpt": "Banned earlier by Gujarat and Tamil Nadu... Ornamental plant provides green canopy... Invasive (also known as green desert); excessive groundwater consumption; as allergenic pollen, etc."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Conocarpus tree species recently seen in the news, consider the following statements: 1. It is an invasive species endemic to the Western Ghats of India. 2. It is known to deplete local groundwater tables excessively. 3. Its plantation has been banned by certain state governments in India due to its allergenic pollen. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Conocarpus is not native to India; its species are native to coastal areas of tropical America, West Africa, Somalia, and Yemen. Statement 2 is correct: It is known as a 'green desert' due to excessive groundwater consumption. Statement 3 is correct: States like Gujarat and Tamil Nadu have banned it due to its negative environmental impacts and allergenic pollen.",
+      "takeaway": "Conocarpus is an exotic invasive species (native to the Americas and Africa) that harms local ecosystems by consuming excessive groundwater and causing respiratory allergies.",
+      "evidenceExcerpt": "Banned earlier by Gujarat and Tamil Nadu... Has 2 species: One native to coastal areas of tropical America, and parts of West Africa. Other found in arid coastal zones of Somalia and Yemen... Invasive (also known as green desert); excessive groundwater consumption; as allergenic pollen, etc."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "Several state governments in India have banned the plantation of Conocarpus trees, and a government panel has recommended a Supreme Court ban. Which of the following best describes the primary ecological risk associated with this species?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It is a hyperaccumulator that introduces heavy metal toxicity into the local food web."
+        },
+        {
+          "id": "B",
+          "text": "It severely depletes local groundwater tables and produces pollen that adversely affects human health."
+        },
+        {
+          "id": "C",
+          "text": "It acts as an alternate host for agricultural pests that threaten regional cash crops."
+        },
+        {
+          "id": "D",
+          "text": "It rapidly hybridizes with native flora, leading to genetic pollution in coastal ecosystems."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Conocarpus is an invasive species that was initially planted for its ornamental value and green canopy. However, it has been banned by states like Gujarat and Tamil Nadu because it causes excessive groundwater consumption and produces allergenic pollen, negatively impacting both the environment and public health.",
+      "takeaway": "When evaluating the impact of urban forestry and ornamental plants, factors like water footprint (groundwater consumption) and public health impacts (allergenic pollen) are critical criteria for regulation.",
+      "evidenceExcerpt": "Recently government-appointed panel recommended Supreme Court to ban Conocarpus. (Banned earlier by Gujarat and Tamil Nadu)... Invasive (also known as green desert); excessive groundwater consumption; as allergenic pollen, etc."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Conocarpus tree species:\n1. It is naturally adapted to the coastal and arid zones of tropical America, Africa, and the Arabian Peninsula.\n2. It is highly suitable for the ecological restoration of drought-prone regions in India due to its low water requirements.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Conocarpus has two species, one native to coastal areas of tropical America and parts of West Africa, and the other found in arid coastal zones of Somalia and Yemen. Statement 2 is incorrect: Despite being found in arid zones naturally, it is highly unsuitable for ecological restoration in India because it is an invasive species that causes excessive groundwater consumption, rather than having low water requirements.",
+      "takeaway": "A species' ability to survive in arid environments does not necessarily mean it has low water requirements; some species survive by aggressively extracting deep groundwater, making them detrimental to local hydrology if introduced elsewhere.",
+      "evidenceExcerpt": "Has 2 species: One native to coastal areas of tropical America, and parts of West Africa. Other found in arid coastal zones of Somalia and Yemen... excessive groundwater consumption"
+    }
+  ]
+}

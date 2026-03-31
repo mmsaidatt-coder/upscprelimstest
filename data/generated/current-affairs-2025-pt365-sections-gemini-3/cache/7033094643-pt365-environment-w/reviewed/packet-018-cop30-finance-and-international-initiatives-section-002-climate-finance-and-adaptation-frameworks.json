@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Global Goal on Adaptation (GGA) and related frameworks, consider the following statements:\n1. The GGA was formally established under the Glasgow Climate Pact.\n2. The measurement framework for tracking adaptation progress under the GGA formalizes a four-stage cycle.\n3. The Baku Adaptation Roadmap establishes adaptation work for the period 2026-2028, leading up to the next Global Stocktake.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The Global Goal on Adaptation (GGA) was established under Article 7.1 of the Paris Agreement (2015), not the Glasgow Climate Pact. Statement 2 is correct: The GGA measurement framework formalizes a four-stage cycle and adopts indicators across 7 thematic sectors. Statement 3 is correct: The Baku Adaptation Roadmap establishes adaptation work for 2026-2028, leading up to the next Global Stocktake of the Paris Agreement.",
+      "takeaway": "The GGA was established under the Paris Agreement (2015). Its measurement framework utilizes a four-stage cycle, while the Baku Adaptation Roadmap guides adaptation work until the next Global Stocktake.",
+      "evidenceExcerpt": "Measurement framework for tracking adaptation progress under the Global Goal on Adaptation (GGA): Indicators adopted across 7 thematic sectors. Formalizes a four-stage cycle. Global Goal on Adaptation (GGA) was established under Article 7.1 of the Paris Agreement (2015). Baku Adaptation Roadmap: Approves and establishes the work for 2026-2028, until the next Global Stocktake of Paris Agreement.",
+      "qualityScore": 85,
+      "reviewNotes": "Strong question utilizing the 'How many statements are correct' format. Tests the origin of GGA and the timeline of the Baku Adaptation Roadmap effectively."
+    }
+  ],
+  "reviewerNotes": "Selected 3 questions that comprehensively cover the provided text without overlapping. Candidate 3 was rejected due to redundancy with Candidates 1 and 2. Candidate 5 was rejected as the Assertion-Reason format felt forced for a simple factual relationship. Rewrote the prompts and options to align with UPSC standards."
+}

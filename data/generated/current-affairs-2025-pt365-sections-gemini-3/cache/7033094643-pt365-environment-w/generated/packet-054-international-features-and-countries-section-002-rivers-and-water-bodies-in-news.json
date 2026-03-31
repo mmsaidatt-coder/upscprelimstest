@@ -1,0 +1,265 @@
+{
+  "questions": [
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Congo River:\n1. It is the deepest river in the world and crosses the equator twice.\n2. Its river basin holds the world's largest tropical peatland.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: The Congo River is the deepest river in the world and uniquely crosses the equator twice. Statement 2 is correct: The Congo River basin holds the world's largest tropical peatland, making it a critical global carbon sink.",
+      "takeaway": "The Congo River is the world's deepest river, crosses the equator twice, and its basin contains the largest tropical peatland globally.",
+      "evidenceExcerpt": "The Congo River crosses the equator twice, is the deepest river in the world, and its basin holds the world's largest tropical peatland."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Hard",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of water bodies recently in the news and their associated locations:\n1. Tulare Lake : California\n2. Lake Tana : Ethiopia\n3. Aral Sea : Boundary between Kazakhstan and Turkmenistan\n4. Great Ruaha River : Tanzania\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "Only three pairs"
+        },
+        {
+          "id": "D",
+          "text": "All four pairs"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Pair 1 is correctly matched: Tulare Lake is located in the San Joaquin Valley, California. Pair 2 is correctly matched: Lake Tana is located in Ethiopia and is the source of the Blue Nile. Pair 3 is incorrectly matched: The Aral Sea is located on the boundary between Kazakhstan (North) and Uzbekistan (South), not Turkmenistan. Pair 4 is correctly matched: The Great Ruaha River is a major tributary of the Rufiji River in Tanzania.",
+      "takeaway": "Tulare Lake is in California, Lake Tana in Ethiopia, the Aral Sea borders Kazakhstan and Uzbekistan, and the Great Ruaha River is in Tanzania.",
+      "evidenceExcerpt": "Tulare Lake: San Joaquin Valley, California... Aral Sea: Boundary between Kazakhstan and Uzbekistan... Blue Nile: Origin: lake Tana of Ethiopia... Great Ruaha River: Important tributary of Rufiji River in Tanzania."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Nile River system:\n1. The Blue Nile originates from Lake Victoria.\n2. The Blue Nile meets the White Nile at Khartoum to form the main Nile River.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The Blue Nile originates from Lake Tana in Ethiopia, not Lake Victoria. Statement 2 is correct: The Blue Nile meets the White Nile at Khartoum (Sudan) to form the Nile River.",
+      "takeaway": "The Blue Nile originates from Lake Tana in Ethiopia and joins the White Nile at Khartoum to form the Nile.",
+      "evidenceExcerpt": "The Blue Nile originates from Lake Tana in Ethiopia and meets the White Nile at Khartoum to form the Nile."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Seine River:\n1. It is the longest river in France.\n2. It empties into the English Channel.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The Seine River is the second longest river in France after the Loire River. Statement 2 is correct: The Seine flows through Paris and empties into the English Channel at Le Havre.",
+      "takeaway": "The Seine River is France's second longest river (after the Loire) and drains into the English Channel.",
+      "evidenceExcerpt": "Seine River: Second longest river in France after Loire... empties into the English Channel at Le Havre."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Easy",
+      "questionType": "Multiple-choice",
+      "prompt": "The Aral Sea, frequently in the news due to its severe ecological shrinkage, is located on the boundary between which of the following countries?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Kazakhstan and Turkmenistan"
+        },
+        {
+          "id": "B",
+          "text": "Kazakhstan and Uzbekistan"
+        },
+        {
+          "id": "C",
+          "text": "Uzbekistan and Tajikistan"
+        },
+        {
+          "id": "D",
+          "text": "Turkmenistan and Kyrgyzstan"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Aral Sea is an endorheic lake lying between Kazakhstan to its north and Uzbekistan to its south.",
+      "takeaway": "The Aral Sea is situated on the border of Kazakhstan and Uzbekistan.",
+      "evidenceExcerpt": "The Aral Sea is located on the boundary between Kazakhstan (North) and Uzbekistan (South)."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-choice",
+      "prompt": "The Great Ruaha River, recently seen in the news, is a major tributary of which of the following rivers?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Zambezi River"
+        },
+        {
+          "id": "B",
+          "text": "Congo River"
+        },
+        {
+          "id": "C",
+          "text": "Rufiji River"
+        },
+        {
+          "id": "D",
+          "text": "Orange River"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The Great Ruaha River is a major tributary of the Rufiji River, located in Tanzania.",
+      "takeaway": "The Great Ruaha River is an important tributary of the Rufiji River in Tanzania.",
+      "evidenceExcerpt": "The Great Ruaha River is a major tributary of the Rufiji River in Tanzania."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding major rivers of the world:\n1. The river whose basin holds the world's largest tropical peatland is also the deepest river in the world and crosses the equator twice.\n2. The river that flows through Paris and empties into the English Channel is the longest river in France.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct. The Congo River is the deepest river in the world, crosses the equator twice, and its basin holds the world's largest tropical peatland. Statement 2 is incorrect. The Seine River flows through Paris and empties into the English Channel, but it is the second longest river in France after the Loire.",
+      "takeaway": "Identifying rivers by their unique geographical and environmental features is a key aspect of mapping. The Congo is uniquely characterized by its depth and equator crossings, while the Seine is only the second longest in France.",
+      "evidenceExcerpt": "Congo River: ... deepest river in the world and crosses equator twice... its basin holds the world's largest tropical peatland... Seine River: Second longest river in France after Loire... flows through Paris and empties into the English Channel at Le Havre."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of water bodies and their associated geographical features:\n1. Congo River : Its basin covers exactly three countries\n2. Lake Tana : Serves as the origin of the Blue Nile\n3. Aral Sea : Located on the boundary between Kazakhstan and Uzbekistan\n4. Tulare Lake : Located in the San Joaquin Valley\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "Only three pairs"
+        },
+        {
+          "id": "D",
+          "text": "All four pairs"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Pair 1 is incorrect: The Congo River basin is vast and covers 9 countries, not exactly three. Pair 2 is correct: The Blue Nile originates from Lake Tana in Ethiopia. Pair 3 is correct: The Aral Sea is located on the boundary between Kazakhstan (North) and Uzbekistan (South). Pair 4 is correct: Tulare Lake is located in the San Joaquin Valley, California.",
+      "takeaway": "The Congo River basin is extensive, spanning 9 countries. The Aral Sea borders Kazakhstan and Uzbekistan, while Lake Tana is the source of the Blue Nile.",
+      "evidenceExcerpt": "Tulare Lake: San Joaquin Valley, California... Aral Sea: Boundary between Kazakhstan and Uzbekistan... Congo River: River Basin covers 9 countries... Blue Nile: Origin: lake Tana of Ethiopia"
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Hard",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following rivers and their respective outfalls or confluences:\n1. Blue Nile : Converges with the White Nile at Khartoum\n2. Great Ruaha River : Empties directly into the Indian Ocean\n3. Seine River : Empties into the English Channel at Le Havre\nHow many of the above are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correct: The Blue Nile meets the White Nile at Khartoum to form the main Nile River. Pair 2 is incorrect: The Great Ruaha River is a major tributary of the Rufiji River in Tanzania; it does not empty directly into the ocean. Pair 3 is correct: The Seine River empties into the English Channel at Le Havre.",
+      "takeaway": "Understanding whether a river is a tributary or empties into a larger body of water is crucial. The Great Ruaha is a tributary of the Rufiji, whereas the Seine empties into the English Channel.",
+      "evidenceExcerpt": "Blue Nile: ... meets the White Nile at Khartoum to form the Nile. Great Ruaha River: Important tributary of Rufiji River in Tanzania. Seine River: ... empties into the English Channel at Le Havre."
+    }
+  ]
+}

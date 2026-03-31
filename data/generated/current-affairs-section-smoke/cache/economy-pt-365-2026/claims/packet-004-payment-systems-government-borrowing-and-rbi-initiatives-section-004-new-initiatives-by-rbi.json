@@ -1,0 +1,79 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-004-payment-systems-government-borrowing-and-rbi-initiatives-section-004-new-initiatives-by-rbi",
+    "claimType": "Concept",
+    "claimText": "The Unified Lending Interface (ULI) is a Digital Public Infrastructure (DPI) introduced by the RBI to enhance the delivery of credit.",
+    "evidenceExcerpt": "Unified Lending Interface (ULI): It is envisioned as a Digital Public Infrastructure (DPI) aiming to enhance delivery of credit.",
+    "pageNumbers": [
+      8
+    ],
+    "examUse": "Statement-based question to test the purpose and nature of ULI.",
+    "distractorHooks": [
+      "Confusing ULI with UPI (Unified Payments Interface).",
+      "Misattributing its purpose to payments instead of credit delivery.",
+      "Stating it was launched by an entity other than RBI, such as NPCI or SEBI."
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-004-payment-systems-government-borrowing-and-rbi-initiatives-section-004-new-initiatives-by-rbi",
+    "claimType": "Feature",
+    "claimText": "The RBI has established a retail sandbox for Central Bank Digital Currency (CBDC) to enable fintech firms to innovate and test their solutions.",
+    "evidenceExcerpt": "Central Bank Digital Currency (CBDC) retail sandbox: For fintech firms to innovate and test solutions.",
+    "pageNumbers": [
+      8
+    ],
+    "examUse": "Statement-based question about the purpose of the CBDC retail sandbox.",
+    "distractorHooks": [
+      "Confusing the sandbox's purpose, e.g., for public transactions or exclusively for banks.",
+      "Mistaking it as a sandbox for private cryptocurrencies.",
+      "Incorrectly identifying the target users (e.g., only large banks instead of fintech firms)."
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-004-payment-systems-government-borrowing-and-rbi-initiatives-section-004-new-initiatives-by-rbi",
+    "claimType": "Concept",
+    "claimText": "Tokenisation of a Certificate of Deposit (CD) involves creating a digital representation, or 'token', of this real-world asset.",
+    "evidenceExcerpt": "Tokenisation of Certificate of Deposits (CD): Creating a digital representation, called a 'token', of a real-world asset.",
+    "pageNumbers": [
+      8
+    ],
+    "examUse": "Conceptual question to test the understanding of tokenisation in the context of financial instruments.",
+    "distractorHooks": [
+      "Confusing tokenisation with dematerialisation.",
+      "Misrepresenting a token as a new type of security rather than a digital representation."
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-004-payment-systems-government-borrowing-and-rbi-initiatives-section-004-new-initiatives-by-rbi",
+    "claimType": "Feature",
+    "claimText": "A Certificate of Deposit (CD) is a negotiable money market instrument.",
+    "evidenceExcerpt": "CD is a negotiable money market instrument issued by Scheduled commercial banks with a maturity period up to one year.",
+    "pageNumbers": [
+      8
+    ],
+    "examUse": "Correct-pair question matching financial instruments with their market type (money market vs. capital market).",
+    "distractorHooks": [
+      "Classifying it as a capital market instrument.",
+      "Describing it as a non-negotiable instrument."
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-004-payment-systems-government-borrowing-and-rbi-initiatives-section-004-new-initiatives-by-rbi",
+    "claimType": "Feature",
+    "claimText": "Certificate of Deposits (CDs) are issued by Scheduled Commercial Banks and have a maturity period of up to one year.",
+    "evidenceExcerpt": "CD is a negotiable money market instrument issued by Scheduled commercial banks with a maturity period up to one year.",
+    "pageNumbers": [
+      8
+    ],
+    "examUse": "Statement-based question testing the issuer and maturity period of CDs.",
+    "distractorHooks": [
+      "Stating they are issued by the RBI or the Government of India.",
+      "Providing an incorrect maturity period, such as 'more than one year' or 'up to 91 days'."
+    ]
+  }
+]

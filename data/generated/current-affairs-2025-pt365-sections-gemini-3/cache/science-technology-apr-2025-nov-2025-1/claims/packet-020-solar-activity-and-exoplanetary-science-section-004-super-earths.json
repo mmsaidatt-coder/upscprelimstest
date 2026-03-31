@@ -1,0 +1,50 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-020-solar-activity-and-exoplanetary-science-section-004-super-earths",
+    "claimType": "Concept/Definition",
+    "claimText": "Super-Earths are a class of exoplanets that are larger and more massive than Earth, up to 10 times Earth's mass, but lighter than Neptune.",
+    "evidenceExcerpt": "Super-Earths are exoplanets that are larger and more massive than Earth but lighter than Neptune.",
+    "pageNumbers": [
+      42
+    ],
+    "examUse": "Statement-based question on exoplanet classification and mass limits.",
+    "distractorHooks": [
+      "Heavier than Neptune",
+      "Smaller than Earth",
+      "Gas giants"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-020-solar-activity-and-exoplanetary-science-section-004-super-earths",
+    "claimType": "Concept/Clarification",
+    "claimText": "The term Super-Earth refers strictly to an exoplanet's size and mass, and does not indicate habitability or Earth-like surface features.",
+    "evidenceExcerpt": "The term 'Super-Earth' refers strictly to size and mass, not to habitability or Earth-like features.",
+    "pageNumbers": [
+      42
+    ],
+    "examUse": "Statement-based question testing common misconceptions about exoplanet nomenclature.",
+    "distractorHooks": [
+      "Implies the presence of liquid water",
+      "Indicates an Earth-like atmosphere",
+      "Guarantees habitability"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-020-solar-activity-and-exoplanetary-science-section-004-super-earths",
+    "claimType": "Factual/Discovery",
+    "claimText": "TOI-1846 is a super-Earth exoplanet discovered using data from NASA's Transiting Exoplanet Survey Satellite (TESS).",
+    "evidenceExcerpt": "NASA's TESS discovered a new super-Earth named TOI-1846.",
+    "pageNumbers": [
+      42
+    ],
+    "examUse": "Match-the-following or correct-pair question linking space missions to their discoveries.",
+    "distractorHooks": [
+      "Discovered by the James Webb Space Telescope",
+      "Discovered by ISRO's AstroSat",
+      "TOI-1846 is a newly discovered black hole"
+    ]
+  }
+]

@@ -1,0 +1,149 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Terms in News",
+      "prompt": "The terms 'Project Suncatcher' and 'Ironwood', recently seen in the news, are most appropriately related to:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Advancements in artificial intelligence hardware and space computing"
+        },
+        {
+          "id": "B",
+          "text": "Global initiatives for deploying space-based solar power stations"
+        },
+        {
+          "id": "C",
+          "text": "Next-generation nuclear propulsion systems for deep space exploration"
+        },
+        {
+          "id": "D",
+          "text": "Open-source large language models developed for climate modeling"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Project Suncatcher is a Google initiative exploring AI computing in space using solar-powered satellites in low-Earth orbit. Ironwood is Google's 7th-generation Tensor Processing Unit (TPU), which is specialized hardware for AI model performance.",
+      "takeaway": "Familiarity with emerging tech codenames is crucial. Project Suncatcher relates to space-based AI computing, while Ironwood is a specific AI hardware architecture (TPU).",
+      "evidenceExcerpt": "Google launched Project Suncatcher to explore AI computing in space using solar-powered satellites in low-Earth orbit. Google also developed Ironwood, its 7th-generation Tensor Processing Unit (TPU)."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding recent developments in computing technologies:\n1. A Tensor Processing Unit (TPU) is an Application-Specific Integrated Circuit (ASIC) customized specifically for artificial intelligence workloads.\n2. Project Suncatcher is an initiative that explores the deployment of AI computing capabilities using solar-powered satellites in low-Earth orbit.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Both statements are correct. A TPU is an Application-Specific Integrated Circuit (ASIC) specialized for AI model performance. Project Suncatcher is an initiative to explore AI computing in space using solar-powered satellites in low-Earth orbit.",
+      "takeaway": "TPUs are ASICs dedicated to AI processing. Initiatives like Project Suncatcher are pushing AI computing into space environments, specifically targeting low-Earth orbit (LEO).",
+      "evidenceExcerpt": "Google launched Project Suncatcher to explore AI computing in space using solar-powered satellites in low-Earth orbit... A TPU is an Application-Specific Integrated Circuit (ASIC) specialized for AI model performance."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "With reference to 'Ironwood', recently mentioned in the context of emerging technologies, consider the following statements:\n1. It is an Application-Specific Integrated Circuit (ASIC) developed to enhance artificial intelligence model performance.\n2. It is designed to operate exclusively on solar-powered satellites in geostationary orbit.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Ironwood is Google's 7th-generation Tensor Processing Unit (TPU), which is an ASIC specialized for AI. Statement 2 is incorrect: Project Suncatcher (not Ironwood specifically) explores AI computing in space using solar-powered satellites, and it targets low-Earth orbit (LEO), not geostationary orbit.",
+      "takeaway": "Ironwood is a TPU (ASIC) for AI. Project Suncatcher is the space computing initiative targeting LEO, distinguishing the hardware itself from the specific space deployment project.",
+      "evidenceExcerpt": "Google launched Project Suncatcher to explore AI computing in space using solar-powered satellites in low-Earth orbit. Google also developed Ironwood, its 7th-generation Tensor Processing Unit (TPU). A TPU is an Application-Specific Integrated Circuit (ASIC) specialized for AI model performance."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Project Suncatcher', an initiative recently seen in the news:\n1. It explores the deployment of artificial intelligence computing capabilities in low-Earth orbit.\n2. It utilizes solar-powered satellites to sustain its space-based operations.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Both statements are correct. Project Suncatcher is an initiative by Google that explores AI computing in space using solar-powered satellites situated in low-Earth orbit.",
+      "takeaway": "Project Suncatcher represents a novel intersection of space technology and AI, utilizing solar-powered satellites in low-Earth orbit for space-based computing.",
+      "evidenceExcerpt": "Google launched Project Suncatcher to explore AI computing in space using solar-powered satellites in low-Earth orbit."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the hardware infrastructure used in artificial intelligence (AI), consider the following statements:\n1. A Tensor Processing Unit (TPU) is a type of Application-Specific Integrated Circuit (ASIC) designed specifically to accelerate AI model performance.\n2. 'Ironwood' is a recently developed software framework used to train AI models on TPUs.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: A TPU is an Application-Specific Integrated Circuit (ASIC) specialized for AI model performance. Statement 2 is incorrect: Ironwood is not a software framework; it is Google's 7th-generation hardware Tensor Processing Unit (TPU).",
+      "takeaway": "TPUs are specialized ASICs designed for AI workloads. Ironwood is a specific hardware generation of TPUs, rather than a software model or framework.",
+      "evidenceExcerpt": "Google also developed Ironwood, its 7th-generation Tensor Processing Unit (TPU). A TPU is an Application-Specific Integrated Circuit (ASIC) specialized for AI model performance."
+    }
+  ]
+}

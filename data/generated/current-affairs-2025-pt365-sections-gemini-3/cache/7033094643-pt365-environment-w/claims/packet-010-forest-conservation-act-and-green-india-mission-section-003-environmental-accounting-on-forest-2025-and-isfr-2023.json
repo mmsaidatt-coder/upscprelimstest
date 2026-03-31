@@ -1,0 +1,82 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-010-forest-conservation-act-and-green-india-mission-section-003-environmental-accounting-on-forest-2025-and-isfr-2023",
+    "claimType": "Factual",
+    "claimText": "The Environmental Accounting on Forest 2025 Report was released by the Ministry of Statistics and Programme Implementation (MoSPI).",
+    "evidenceExcerpt": "Environmental Accounting on Forest 2025 Report released by MoSPI is the first dedicated publication on forest accounting",
+    "pageNumbers": [
+      24
+    ],
+    "examUse": "Statement-based question identifying the publishing ministry of environmental reports.",
+    "distractorHooks": [
+      "Ministry of Environment, Forest and Climate Change (MoEFCC)",
+      "NITI Aayog",
+      "United Nations Environment Programme (UNEP)"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-010-forest-conservation-act-and-green-india-mission-section-003-environmental-accounting-on-forest-2025-and-isfr-2023",
+    "claimType": "Conceptual",
+    "claimText": "The Environmental Accounting on Forest 2025 Report is based on the UN System of Environmental Economic Accounts (SEEA) Framework, which integrates economic and environmental data.",
+    "evidenceExcerpt": "based on the UN System of Environmental Economic Accounts (SEEA) Framework. SEEA integrates economic and environmental data.",
+    "pageNumbers": [
+      24
+    ],
+    "examUse": "Statement-based question on the methodology and framework used for India's forest accounting.",
+    "distractorHooks": [
+      "World Bank Green Accounting Framework",
+      "UNFCCC Carbon Accounting Guidelines",
+      "Framework that separates economic and environmental data"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-010-forest-conservation-act-and-green-india-mission-section-003-environmental-accounting-on-forest-2025-and-isfr-2023",
+    "claimType": "Statistical",
+    "claimText": "According to ISFR 2023, India's total forest and tree cover stands at 25.17 percent of its geographical area.",
+    "evidenceExcerpt": "ISFR 2023 shows total forest and tree cover increased to 25.17 percent of geographical area (21.76 percent Forest cover, 3.41 percent Tree cover).",
+    "pageNumbers": [
+      24
+    ],
+    "examUse": "Statement-based question testing exact forest and tree cover statistics.",
+    "distractorHooks": [
+      "33 percent of geographical area",
+      "21.76 percent of geographical area (confusing total with only forest cover)",
+      "24.56 percent of geographical area (older ISFR data)"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-010-forest-conservation-act-and-green-india-mission-section-003-environmental-accounting-on-forest-2025-and-isfr-2023",
+    "claimType": "Factual",
+    "claimText": "Chhattisgarh, Uttar Pradesh, Odisha, and Rajasthan recorded the maximum increase in forest cover according to ISFR 2023.",
+    "evidenceExcerpt": "Maximum increase seen in Chhattisgarh, UP, Odisha, and Rajasthan.",
+    "pageNumbers": [
+      24
+    ],
+    "examUse": "Correct-pair or statement-based question identifying states with the highest growth in forest cover.",
+    "distractorHooks": [
+      "Madhya Pradesh",
+      "Arunachal Pradesh",
+      "Mizoram"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-010-forest-conservation-act-and-green-india-mission-section-003-environmental-accounting-on-forest-2025-and-isfr-2023",
+    "claimType": "Factual",
+    "claimText": "Eight states and Union Territories in India, including Mizoram, Lakshadweep, A&N Islands, and Arunachal Pradesh, have a forest cover of more than 75 percent of their geographical area.",
+    "evidenceExcerpt": "8 states/UTs have forest cover above 75 percent, including Mizoram, Lakshadweep, A&N Islands, and Arunachal Pradesh.",
+    "pageNumbers": [
+      24
+    ],
+    "examUse": "Statement-based question on the distribution of highly dense forest cover across states and UTs.",
+    "distractorHooks": [
+      "Only North Eastern states have forest cover above 75 percent",
+      "15 states/UTs have forest cover above 75 percent",
+      "Madhya Pradesh has forest cover above 75 percent"
+    ]
+  }
+]

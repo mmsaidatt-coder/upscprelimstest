@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to 'Vikram-1', recently seen in the news, consider the following statements:\n1. It is designed primarily to place heavy communication satellites into Geosynchronous Transfer Orbit (GTO).\n2. It is a four-stage rocket that employs solid-fuel boosters for its initial three stages and a liquid-propellant engine for the final stage.\n3. The launch vehicle is manufactured using an all-carbon-fibre body and features 3D-printed engines.\n\nWhich of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Vikram-1 is designed to launch small satellites and rideshare missions into Low Earth Orbit (LEO) or Sun-Synchronous Orbit (SSO), not heavy satellites into GTO. Statement 2 is correct: It is a four-stage rocket where the first three stages use solid-fuel boosters, and the final stage uses a liquid-propellant Raman engine. Statement 3 is correct: It features an all-carbon-fibre body and 3D-printed engines for a lightweight, efficient design.",
+      "takeaway": "Vikram-1 is India's private orbital-class launch vehicle developed by Skyroot Aerospace, featuring a four-stage propulsion system (three solid, one liquid) and an all-carbon-fibre body.",
+      "evidenceExcerpt": "Its purpose is to launch satellites into LEO or SSO, serving small satellites and rideshare missions. It is a four-stage rocket where the first three stages use solid-fuel boosters, and the final stage uses a liquid-propellant Raman engine. The rocket uses an all-carbon-fibre body and features 3D-printed engines."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs regarding recent developments in India's private space sector:\n\n1. Vikram-1 : India's new private orbital-class launch vehicle\n2. Raman engine : Solid-fuel booster used in the initial stages of private launch vehicles\n3. Skyroot Aerospace : Startup that developed a launch vehicle with an all-carbon-fibre body\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: Vikram-1 is India's new private orbital-class launch vehicle. Pair 2 is incorrectly matched: The Raman engine is a liquid-propellant engine used in the final (upper) stage of Vikram-1, not a solid-fuel booster. Pair 3 is correctly matched: Skyroot Aerospace developed Vikram-1, which features an all-carbon-fibre body.",
+      "takeaway": "The Raman engine is a liquid-propellant engine utilized in the final stage of the Vikram-1 rocket for precise orbital insertion.",
+      "evidenceExcerpt": "Prime Minister unveiled Vikram-1, which is India's new private orbital-class launch vehicle. It is developed by Skyroot Aerospace... It is a four-stage rocket where the first three stages use solid-fuel boosters, and the final stage uses a liquid-propellant Raman engine."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "Which of the following best describes the primary technological rationale for incorporating an \"all-carbon-fibre body and 3D-printed engines\" in private launch vehicles like Vikram-1?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It allows the launch vehicle to safely re-enter the Earth's atmosphere and be fully reusable."
+        },
+        {
+          "id": "B",
+          "text": "It significantly reduces the overall structural mass, thereby increasing payload efficiency for small satellite missions."
+        },
+        {
+          "id": "C",
+          "text": "It enables the rocket to utilize cryogenic propellants in all its stages without complex thermal insulation."
+        },
+        {
+          "id": "D",
+          "text": "It provides the necessary structural rigidity to launch heavy payloads into Geosynchronous Transfer Orbit (GTO)."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The use of an all-carbon-fibre body and 3D-printed engines is intended to create a lightweight and efficient design. Carbon fibre has a high strength-to-weight ratio, which reduces the rocket's mass and improves its payload capacity for launching small satellites into Low Earth Orbit (LEO) or Sun-Synchronous Orbit (SSO).",
+      "takeaway": "Advanced materials like carbon-fibre and manufacturing techniques like 3D printing are utilized in modern launch vehicles to reduce weight and enhance overall mission efficiency.",
+      "evidenceExcerpt": "Features an all-carbon-fibre body and 3D-printed engines for a lightweight, efficient design."
+    }
+  ]
+}

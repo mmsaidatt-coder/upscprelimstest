@@ -1,0 +1,78 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-028-ballistic-missiles-and-igmdp-section-003-igmdp-and-agni-prime-missile",
+    "claimType": "Factual",
+    "claimText": "Prithvi is a short-range surface-to-surface ballistic missile developed under the Integrated Guided Missile Development Program (IGMDP).",
+    "evidenceExcerpt": "Prithvi: Short-range surface-to-surface ballistic missile.",
+    "pageNumbers": [
+      56
+    ],
+    "examUse": "Correct-pair questions matching missile names to their operational types.",
+    "distractorHooks": [
+      "Surface-to-air missile",
+      "Medium-range missile"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-028-ballistic-missiles-and-igmdp-section-003-igmdp-and-agni-prime-missile",
+    "claimType": "Comparison",
+    "claimText": "Under the IGMDP, Trishul is a short-range surface-to-air missile, whereas Akash is a medium-range surface-to-air missile.",
+    "evidenceExcerpt": "Trishul: Short-range low-level surface-to-air missile. Akash: Medium-range surface-to-air missile.",
+    "pageNumbers": [
+      56
+    ],
+    "examUse": "Statement-based comparison questions testing the range and trajectory types of IGMDP missiles.",
+    "distractorHooks": [
+      "Akash is a surface-to-surface missile",
+      "Trishul is a medium-range missile"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-028-ballistic-missiles-and-igmdp-section-003-igmdp-and-agni-prime-missile",
+    "claimType": "Factual",
+    "claimText": "Nag is a third-generation anti-tank missile developed as part of the IGMDP.",
+    "evidenceExcerpt": "Nag: Third-generation anti-tank missile.",
+    "pageNumbers": [
+      56
+    ],
+    "examUse": "Correct-pair questions identifying the specific role of the Nag missile.",
+    "distractorHooks": [
+      "Anti-aircraft missile",
+      "Surface-to-surface ballistic missile"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-028-ballistic-missiles-and-igmdp-section-003-igmdp-and-agni-prime-missile",
+    "claimType": "Factual",
+    "claimText": "Agni Prime is a two-stage, solid-fueled, canister-launched ballistic missile capable of carrying both conventional and nuclear warheads.",
+    "evidenceExcerpt": "Two-stage, solid-fueled, canister-launched ballistic missile. It can carry both conventional and nuclear warheads.",
+    "pageNumbers": [
+      56
+    ],
+    "examUse": "Statement-based questions on the technical specifications and payload capacity of the Agni Prime missile.",
+    "distractorHooks": [
+      "Liquid-fueled missile",
+      "Capable of carrying only conventional warheads",
+      "Three-stage missile"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-028-ballistic-missiles-and-igmdp-section-003-igmdp-and-agni-prime-missile",
+    "claimType": "Factual",
+    "claimText": "Agni Prime is the first of the new generation of missiles developed after the end of the IGMDP and utilizes a rail-based mobile launcher system.",
+    "evidenceExcerpt": "Agni Prime: DRDO & Strategic Force Command (SFC) successfully launched the Agni-Prime Missile from a Rail based Mobile launcher system... First of the new generation of missiles after the end of the IGMDP.",
+    "pageNumbers": [
+      56
+    ],
+    "examUse": "Statement-based questions regarding the development timeline and launch mechanism of Agni Prime.",
+    "distractorHooks": [
+      "Developed under the IGMDP",
+      "Launched exclusively from fixed silos"
+    ]
+  }
+]

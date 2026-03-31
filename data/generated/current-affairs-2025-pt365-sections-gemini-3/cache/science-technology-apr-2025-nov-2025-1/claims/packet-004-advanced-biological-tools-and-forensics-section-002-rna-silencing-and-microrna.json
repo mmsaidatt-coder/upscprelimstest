@@ -1,0 +1,62 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-004-advanced-biological-tools-and-forensics-section-002-rna-silencing-and-microrna",
+    "claimType": "Conceptual",
+    "claimText": "RNA silencing is a gene regulation mechanism that reduces gene expression either by suppressing transcription or by degrading RNA after transcription.",
+    "evidenceExcerpt": "RNA silencing reduces gene expression via transcriptional gene silencing (TGS) or posttranscriptional gene silencing (PTGS/RNAi).",
+    "pageNumbers": [
+      9
+    ],
+    "examUse": "Statement-based question on the mechanism of RNA silencing.",
+    "distractorHooks": [
+      "Claiming RNA silencing increases gene expression",
+      "Claiming RNA silencing only occurs post-transcriptionally"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-004-advanced-biological-tools-and-forensics-section-002-rna-silencing-and-microrna",
+    "claimType": "Factual",
+    "claimText": "Small RNA molecules like siRNA and miRNA facilitate RNA silencing by binding to mRNA to destroy it or block its translation.",
+    "evidenceExcerpt": "It involves small RNA molecules like siRNA or miRNA binding to mRNA to destroy it or block translation.",
+    "pageNumbers": [
+      9
+    ],
+    "examUse": "Statement-based question on the role of siRNA and miRNA in gene regulation.",
+    "distractorHooks": [
+      "Claiming siRNA and miRNA bind directly to DNA to cause genetic mutations",
+      "Claiming they are large coding RNAs"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-004-advanced-biological-tools-and-forensics-section-002-rna-silencing-and-microrna",
+    "claimType": "Application",
+    "claimText": "Host-Induced Gene Silencing (HIGS) and Spray-Induced Gene Silencing (SIGS) are techniques utilized to enhance plant immunity.",
+    "evidenceExcerpt": "Techniques like Host-Induced Gene Silencing (HIGS) and Spray-Induced Gene Silencing (SIGS) strengthen plant immunity.",
+    "pageNumbers": [
+      9
+    ],
+    "examUse": "Application-based question identifying the purpose of HIGS and SIGS.",
+    "distractorHooks": [
+      "Claiming HIGS and SIGS are human gene therapy techniques",
+      "Claiming they are methods for animal cloning"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-004-advanced-biological-tools-and-forensics-section-002-rna-silencing-and-microrna",
+    "claimType": "Factual",
+    "claimText": "microRNA (miRNA) is a small non-coding RNA that controls gene expression in the cytoplasm by binding with mRNA to prevent translation or degrade it.",
+    "evidenceExcerpt": "microRNA (miRNA) is a small non-coding RNA that controls gene expression by binding with mRNA in the cytoplasm to prevent translation or degrade it.",
+    "pageNumbers": [
+      9
+    ],
+    "examUse": "Statement-based question on the characteristics and cellular location of miRNA action.",
+    "distractorHooks": [
+      "Claiming miRNA is a coding RNA that produces proteins",
+      "Claiming miRNA acts primarily in the nucleus to alter DNA sequences"
+    ]
+  }
+]

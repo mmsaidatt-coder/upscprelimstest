@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Namami Gange Programme:\n1. It superseded the Ganga Action Plan (GAP) which was originally launched in 1985.\n2. It adopts the state as the fundamental unit of planning and management for river conservation.\n3. It is implemented by the National Mission for Clean Ganga (NMCG).\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The Namami Gange Programme superseded the Ganga Action Plan (GAP) launched in 1985.\nStatement 2 is incorrect: The programme uses the 'river basin', not the state, as the unit of planning and management.\nStatement 3 is correct: It is implemented by the National Mission for Clean Ganga (NMCG).\n\nTherefore, exactly two statements are correct.",
+      "takeaway": "Modern river rejuvenation frameworks, such as Namami Gange, have shifted from administrative boundaries (like states or districts) to ecological boundaries (the river basin) as their fundamental unit of planning.",
+      "evidenceExcerpt": "Namami Gange Programme: Superseded Ganga Action Plan (GAP) launched in 1985 implemented by National Mission for Clean Ganga (NMCG) with River basin is the unit of planning and management.",
+      "qualityScore": 85,
+      "reviewNotes": "Tests the historical context, the ecological planning unit, and the implementing agency of the Namami Gange Programme using the modern 'How many statements' format."
+    }
+  ],
+  "reviewerNotes": "Selected three distinct questions covering the institutional framework (NMCG/NGRBA), the NRCP, and the Namami Gange Programme. Rewrote the prompts to ensure they align with UPSC's standard phrasing and difficulty, particularly focusing on legal status, funding patterns, and planning units."
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-019-launch-infrastructure-and-satellite-internet-section-004-space-phenomena-solar-flares-and-coronal-mass-ejections-cmes",
+    "claimType": "Factual",
+    "claimText": "Solar flares are classified into A, B, C, M, and X classes, with A being the smallest and X being the largest.",
+    "evidenceExcerpt": "Solar flares are classified from smallest to largest as A, B, C, M, and X-class flares.",
+    "pageNumbers": [
+      40
+    ],
+    "examUse": "Statement-based question on the classification and intensity scale of solar flares.",
+    "distractorHooks": [
+      "Reversing the order to claim X is the smallest and A is the largest",
+      "Using a different classification scale such as Alpha, Beta, Gamma"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-019-launch-infrastructure-and-satellite-internet-section-004-space-phenomena-solar-flares-and-coronal-mass-ejections-cmes",
+    "claimType": "Conceptual",
+    "claimText": "The frequency of solar flares peaks during the solar maximum, which is the height of the Sun's 11-year magnetic cycle.",
+    "evidenceExcerpt": "Solar flares occur most frequently during the solar maximum, which is the peak of the Sun's 11-year magnetic cycle.",
+    "pageNumbers": [
+      40
+    ],
+    "examUse": "Statement-based question linking solar flare frequency to the 11-year solar cycle.",
+    "distractorHooks": [
+      "Claiming solar flares are most frequent during the solar minimum",
+      "Stating the solar cycle is an annual or 100-year cycle instead of 11 years"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-019-launch-infrastructure-and-satellite-internet-section-004-space-phenomena-solar-flares-and-coronal-mass-ejections-cmes",
+    "claimType": "Factual",
+    "claimText": "Coronal Mass Ejections (CMEs) are large expulsions of plasma and magnetic fields from the Sun's corona.",
+    "evidenceExcerpt": "Coronal Mass Ejections (CMEs) are large expulsions of plasma and magnetic fields from the Sun's corona.",
+    "pageNumbers": [
+      40
+    ],
+    "examUse": "Definition or correct-pair question distinguishing CMEs from regular solar flares or solar winds.",
+    "distractorHooks": [
+      "Claiming CMEs originate from the Sun's core rather than the corona",
+      "Describing CMEs as purely light and radiation rather than plasma and magnetic fields"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-019-launch-infrastructure-and-satellite-internet-section-004-space-phenomena-solar-flares-and-coronal-mass-ejections-cmes",
+    "claimType": "Factual",
+    "claimText": "The Chandrayaan-2 Lunar Orbiter, through its CHACE-2 payload, made the first-ever observation of the effects of a Coronal Mass Ejection on the Moon.",
+    "evidenceExcerpt": "Chandrayaan-2's CHACE-2 made the first-ever observation of the effects of a Coronal Mass Ejection on the Moon.",
+    "pageNumbers": [
+      40
+    ],
+    "examUse": "Current affairs or mission-specific question regarding the achievements of the Chandrayaan-2 mission.",
+    "distractorHooks": [
+      "Attributing the observation to Chandrayaan-3 or a NASA mission like the Lunar Reconnaissance Orbiter",
+      "Claiming the observation was made by a rover rather than an orbiter payload"
+    ]
+  }
+]

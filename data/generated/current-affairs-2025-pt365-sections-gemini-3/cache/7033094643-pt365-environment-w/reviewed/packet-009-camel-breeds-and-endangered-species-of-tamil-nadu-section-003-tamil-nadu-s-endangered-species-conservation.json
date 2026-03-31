@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Correct Pair",
+      "prompt": "Consider the following pairs of species and their conservation status on the IUCN Red List:\n1. Lion-tailed macaque : Endangered\n2. Madras Hedgehog : Near Threatened\n3. Striped Hyaena : Least Concern\n4. Hump-headed mahseer : Critically Endangered\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "Only three pairs"
+        },
+        {
+          "id": "D",
+          "text": "All four pairs"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: The Lion-tailed macaque is listed as Endangered. Pair 2 is incorrectly matched: The Madras Hedgehog is listed as Least Concern. Pair 3 is incorrectly matched: The Striped Hyaena is listed as Near Threatened. Pair 4 is correctly matched: The Hump-headed mahseer fish is listed as Critically Endangered. Therefore, only two pairs are correctly matched.",
+      "takeaway": "Knowing the exact IUCN status of flagship and regional species is crucial. The Lion-tailed macaque (Endangered) and Hump-headed mahseer (Critically Endangered) are highly threatened, while the Madras Hedgehog is Least Concern and the Striped Hyaena is Near Threatened.",
+      "evidenceExcerpt": "Lion-tailed macaque is Endangered (IUCN)... Madras Hedgehog is Least Concern (IUCN)... Striped Hyaena is Near Threatened (IUCN)... Hump-headed mahseer fish is Critically Endangered (IUCN)",
+      "qualityScore": 85,
+      "reviewNotes": "Excellent UPSC-style pair matching question. Distractors are well-calibrated by swapping the statuses of the Hedgehog and Hyaena."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Feature-matching",
+      "prompt": "Which of the following species is a nocturnal animal endemic to India, locally known as the 'thorny rat', and currently listed as 'Least Concern' on the IUCN Red List?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Indian Crested Porcupine"
+        },
+        {
+          "id": "B",
+          "text": "Madras Hedgehog"
+        },
+        {
+          "id": "C",
+          "text": "Hispid Hare"
+        },
+        {
+          "id": "D",
+          "text": "Malabar Spiny Dormouse"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Madras Hedgehog is a nocturnal species endemic to India. It is locally referred to as the 'thorny rat' and holds an IUCN conservation status of Least Concern.",
+      "takeaway": "Local names and distinct behavioral traits (like being nocturnal) are common identifiers in UPSC species descriptions. The Madras Hedgehog is notable for its 'thorny rat' moniker.",
+      "evidenceExcerpt": "Madras Hedgehog is Least Concern (IUCN), endemic to India, and is a nocturnal species known locally as the 'thorny rat'.",
+      "qualityScore": 85,
+      "reviewNotes": "Classic UPSC species description format. The distractors are highly plausible as they are all small mammals with spiny/thorny characteristics or specific endemism."
+    }
+  ],
+  "reviewerNotes": "Selected 4 questions covering IUCN matching, species description, and statement-based formats. Refined wording to match UPSC standards, ensured strict adherence to the provided text, and verified that distractors are plausible and parallel."
+}

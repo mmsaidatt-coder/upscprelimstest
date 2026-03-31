@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "History",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "With reference to the history of Awadh, what was the primary consequence of the Treaty of Allahabad (1765)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It led to the immediate annexation of Awadh into the British Empire."
+        },
+        {
+          "id": "B",
+          "text": "It forced the state of Awadh under the administrative oversight of the East India Company."
+        },
+        {
+          "id": "C",
+          "text": "It resulted in the transfer of the Nawabi capital from Lucknow to Faizabad."
+        },
+        {
+          "id": "D",
+          "text": "It restored Awadh as an independent province free from Mughal suzerainty."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Treaty of Allahabad, signed in 1765 following the defeat of combined forces at the Battle of Buxar, forced Awadh under East India Company administration. This marked the beginning of British influence over Awadh's affairs, rather than an immediate annexation (which happened much later) or a restoration of independence.",
+      "takeaway": "The Treaty of Allahabad (1765) marked the beginning of British administrative control and influence over the Nawabi state of Awadh following its defeat at the Battle of Buxar.",
+      "evidenceExcerpt": "Battle of Buxar Fought between East India Company and combined forces, leading to Awadh's defeat. Treaty of Allahabad Signed in 1765, forcing Awadh under Company administration. British Control Marked the beginning of British influence over Awadh's affairs.",
+      "qualityScore": 88,
+      "reviewNotes": "Refined the options to make them more plausible and parallel, ensuring the question tests the specific historical impact of the Treaty of Allahabad on Awadh as per the source text."
+    },
+    {
+      "subject": "History",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the establishment of the Nawabi of Awadh:\n1. Prior to 1719, Awadh was administered as a province of the Mughal Empire.\n2. Saadat Khan, also known as Burhan-ul-Mulk, established his court at Faizabad.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Until 1719, Awadh was a province of the Mughal Empire administered by a governor appointed by the emperor. Statement 2 is correct: Persian adventurer Saadat Khan, also known as Burhan-ul-Mulk, was appointed Nawab of Awadh in 1722 and established his court in Faizabad, near Lucknow.",
+      "takeaway": "Saadat Khan (Burhan-ul-Mulk) founded the Nawabi of Awadh in 1722, transitioning it from a Mughal province to a semi-independent state with its court at Faizabad.",
+      "evidenceExcerpt": "Until 1719, Awadh was a province of the Mughal Empire administered by a governor appointed by the emperor. Persian adventurer Saadat Khan, also known as Burhan-ul-Mulk, was appointed Nawab of Awadh in 1722 and established his court in Faizabad, near Lucknow.",
+      "qualityScore": 85,
+      "reviewNotes": "Upgraded a simple direct recall question into a standard UPSC statement-based question covering the foundational facts of Awadh."
+    }
+  ],
+  "reviewerNotes": "Selected and rewrote two questions. The first was upgraded from a single-fact recall to a two-statement format covering the transition of Awadh from a Mughal province to a Nawabi state. The second was refined to test the conceptual understanding of the Treaty of Allahabad's impact on Awadh, with improved distractors."
+}

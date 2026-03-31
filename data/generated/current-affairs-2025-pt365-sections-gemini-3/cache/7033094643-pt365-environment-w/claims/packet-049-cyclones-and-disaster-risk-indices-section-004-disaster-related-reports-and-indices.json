@@ -1,0 +1,66 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-049-cyclones-and-disaster-risk-indices-section-004-disaster-related-reports-and-indices",
+    "claimType": "Factual",
+    "claimText": "The Global Drought Outlook, 2025 is released by the Organisation for Economic Co-operation and Development (OECD).",
+    "evidenceExcerpt": "Global Drought Outlook, 2025 Released by: Organisation for Economic Co-operation and Development (OECD).",
+    "pageNumbers": [
+      102
+    ],
+    "examUse": "Statement-based question on reports and publishing organizations.",
+    "distractorHooks": [
+      "UNEP",
+      "World Meteorological Organization (WMO)",
+      "World Bank"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-049-cyclones-and-disaster-risk-indices-section-004-disaster-related-reports-and-indices",
+    "claimType": "Factual",
+    "claimText": "The Disaster Risk Index (DRI) was formally adopted by the 15th Finance Commission to guide disaster funding and distribute National Disaster Response Fund (NDRF) allocations.",
+    "evidenceExcerpt": "Genesis: 15th Finance Commission (2021–26) formally adopted it to guide disaster funding. It integrated state’s DRI score into a formula for distributing NDRF and state contingency funds.",
+    "pageNumbers": [
+      102
+    ],
+    "examUse": "Statement-based question on the criteria used by the Finance Commission for disaster funding.",
+    "distractorHooks": [
+      "14th Finance Commission",
+      "NITI Aayog",
+      "National Disaster Management Authority (NDMA)"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-049-cyclones-and-disaster-risk-indices-section-004-disaster-related-reports-and-indices",
+    "claimType": "Conceptual",
+    "claimText": "The composite score of the Disaster Risk Index (DRI) is calculated using the probability of hazards, which carries a weightage of 70, and vulnerability, which carries a weightage of 30.",
+    "evidenceExcerpt": "Components: DRI uses probability of hazards (score of 70) and vulnerability (score of 30) to arrive at a composite score.",
+    "pageNumbers": [
+      102
+    ],
+    "examUse": "Statement-based question on the methodology and weightage of the Disaster Risk Index.",
+    "distractorHooks": [
+      "Equal weightage for hazard probability and vulnerability",
+      "Vulnerability has a higher weightage than hazard probability",
+      "Includes capacity as a third component"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-049-cyclones-and-disaster-risk-indices-section-004-disaster-related-reports-and-indices",
+    "claimType": "Factual",
+    "claimText": "The District Flood Severity Index, developed by researchers from IIT Delhi and Gandhinagar, quantifies flood severity using variables representing the occurrence of floods and the damage caused by them.",
+    "evidenceExcerpt": "District Flood Severity Index Developed by: Researchers from IIT Delhi and Gandhinagar... Consists of six factors classified in two groups: Variables representing occurrence of floods... Variables representing damage due to floods.",
+    "pageNumbers": [
+      102
+    ],
+    "examUse": "Correct-pair or statement-based question on indices developed by Indian institutions.",
+    "distractorHooks": [
+      "Developed by India Meteorological Department (IMD)",
+      "Developed by Central Water Commission (CWC)",
+      "Only considers flood occurrence, not damage"
+    ]
+  }
+]

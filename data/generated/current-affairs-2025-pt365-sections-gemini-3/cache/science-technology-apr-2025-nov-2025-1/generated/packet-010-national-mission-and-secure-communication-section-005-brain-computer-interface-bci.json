@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Brain-Computer Interface (BCI) technology:\n1. It enables device operation by translating vocal cord vibrations into digital commands.\n2. It can acquire brain activity using both invasive implants and non-invasive wearable devices.\n3. Recent advancements include privacy-focused BCI systems that require a mental password before decoding thoughts.\nWhich of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: BCI enables direct brain-to-device communication by translating neural signals into commands, completely bypassing muscular control (including vocal cords). Statement 2 is correct: BCI can use invasive implants or non-invasive wearables to acquire brain activity. Statement 3 is correct: Stanford scientists have developed a privacy-focused BCI requiring a mental password before decoding thoughts.",
+      "takeaway": "BCI technology translates neural signals into commands using either invasive or non-invasive methods, bypassing muscular control, with emerging features like mental passwords for privacy.",
+      "evidenceExcerpt": "A Brain-Computer Interface (BCI) enables direct brain-to-device communication by translating neural signals into commands, bypassing muscular control. Stanford scientists developed a privacy-focused BCI requiring a mental password... Can use invasive implants or non-invasive wearables to acquire brain activity."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Multiple-statement application",
+      "prompt": "In the context of emerging technologies, which of the following are the potential applications of Brain-Computer Interface (BCI) systems?\n1. Restoring speech in stroke patients\n2. Enhancing cognitive abilities in healthy individuals\n3. Operating digital devices by bypassing muscular control\n4. Improving mental wellness\nSelect the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "B",
+          "text": "2, 3 and 4 only"
+        },
+        {
+          "id": "C",
+          "text": "1, 2 and 4 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2, 3 and 4"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "All statements are correct. BCI technology translates neural signals into commands, allowing device operation via thought alone and bypassing muscular control (Statement 3). Its applications are broad, encompassing medical uses such as restoring speech and mobility for stroke patients (Statement 1) and improving mental wellness (Statement 4), as well as non-medical uses like cognitive enhancement and gaming (Statement 2).",
+      "takeaway": "The scope of BCI technology extends beyond medical rehabilitation (paralysis/stroke) to include commercial and lifestyle applications such as gaming, mental wellness, and cognitive enhancement.",
+      "evidenceExcerpt": "BCI translates neural signals into commands, allowing device operation via thought alone, bypassing muscular control... Applications include restoring mobility/speech, mental wellness, gaming, and cognitive enhancement."
+    }
+  ]
+}

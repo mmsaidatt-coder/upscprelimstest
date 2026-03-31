@@ -1,0 +1,160 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Polity",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the proclamation of a National Emergency under Article 352, consider the following statements:\n1. A resolution for the approval of the proclamation or its continuation must be passed by both Houses of Parliament by a special majority.\n2. A resolution for the disapproval of the continuation of the emergency can be passed by the Lok Sabha alone by a simple majority.",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Under the 44th Amendment Act of 1978, every resolution approving the proclamation of emergency or its continuation must be passed by either House of Parliament by a special majority (majority of the total membership of that House and a majority of not less than two-thirds of the members of that House present and voting). Statement 2 is correct: The 44th Amendment also provided that if the Lok Sabha passes a resolution disapproving the continuation of a proclamation, the President must revoke the proclamation. Such a resolution requires only a simple majority and is specific to the Lok Sabha.",
+      "takeaway": "The constitutional threshold for continuing an emergency is significantly higher (Special Majority, both Houses) than the threshold for ending it (Simple Majority, Lok Sabha only).",
+      "evidenceExcerpt": "Majority Required: Special Majority: majority of total membership + 2/3rd of members present and voting. Revocation: ... Lok Sabha may disapprove continuation by simple majority.",
+      "qualityScore": 92,
+      "reviewNotes": "Strong comparison of approval vs disapproval mechanisms, reflecting the safeguards introduced by the 44th Amendment.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Regarding the suspension of Fundamental Rights during a National Emergency, consider the following statements:\n1. Under Article 359, the President is empowered to suspend the enforcement of all Fundamental Rights guaranteed by Part III of the Constitution.\n2. The 44th Amendment Act restricted the President's power such that the enforcement of rights guaranteed by Articles 20 and 21 cannot be suspended.",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: While Article 359 authorizes the President to suspend the right to move any court for the enforcement of Fundamental Rights, it does not apply to all rights. Statement 2 is correct: The 44th Amendment Act (1978) prohibited the suspension of the enforcement of Articles 20 (protection in respect of conviction for offences) and 21 (protection of life and personal liberty) even during a National Emergency.",
+      "takeaway": "Articles 20 and 21 form the non-derogable core of the Indian Constitution during emergencies.",
+      "evidenceExcerpt": "Fundamental Rights: Enforcement of FRs may be suspended under Article 359, except Articles 20 & 21.",
+      "qualityScore": 90,
+      "reviewNotes": "Focuses on the critical 'non-derogable' rights which is a frequent UPSC theme.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Which of the following statements is/are correct regarding the proclamation and approval of a National Emergency?\n1. The President can proclaim a National Emergency only after receiving a written recommendation from the Prime Minister.\n2. If the Lok Sabha is dissolved at the time of proclamation, the emergency survives until 30 days from the first sitting of the reconstituted Lok Sabha, provided the Rajya Sabha has approved it.",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The President can proclaim a National Emergency only after receiving a written communication from the Union Cabinet (the Prime Minister and other ministers of cabinet rank), not just the Prime Minister alone. Statement 2 is correct: If the proclamation is issued when the Lok Sabha is dissolved or its dissolution takes place during the one-month approval period, the proclamation survives until 30 days from the first sitting of the Lok Sabha after its reconstitution, provided the Rajya Sabha has approved it in the meantime.",
+      "takeaway": "The 'written advice of the Cabinet' and the '30-day rule' for a dissolved Lok Sabha are key procedural safeguards.",
+      "evidenceExcerpt": "Proclaimed by the President after receiving written decision of the Union Cabinet. ... When Lok Sabha is dissolved: Continues until 30 days after first sitting of reconstituted Lok Sabha, provided Rajya Sabha has approved it.",
+      "qualityScore": 89,
+      "reviewNotes": "Tests the specific procedural nuances of proclamation and the role of the Cabinet vs the Prime Minister.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "During the operation of a National Emergency, which of the following correctly describes the impact on the legislative powers of the State?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The State Legislature is suspended, and the power to make laws for the state is vested in the President."
+        },
+        {
+          "id": "B",
+          "text": "The State Legislature continues to function, but Parliament gains the power to legislate on any subject in the State List."
+        },
+        {
+          "id": "C",
+          "text": "The State Legislature is dissolved, and the Parliament assumes the role of the state assembly."
+        },
+        {
+          "id": "D",
+          "text": "The legislative powers of the State are transferred to the Governor, who acts on the advice of the Union Cabinet."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "During a National Emergency, the federal distribution of powers is suspended. While the State Legislature is not suspended or dissolved (unlike under President's Rule), the Parliament becomes empowered to make laws on any subject mentioned in the State List (Article 250). This makes the legislative power of the Parliament concurrent with that of the State Legislature, though central laws prevail in case of conflict.",
+      "takeaway": "National Emergency transforms the federal structure into a unitary one without necessarily suspending the state organs.",
+      "evidenceExcerpt": "Centre–State Relations: Centre may issue executive directions on any subject; Parliament can legislate on State List (Article 250).",
+      "qualityScore": 88,
+      "reviewNotes": "Clearly distinguishes the legislative impact of National Emergency from President's Rule.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the extension of the term of the Lok Sabha and State Legislative Assemblies during a National Emergency:\n1. Parliament may extend the normal term of the Lok Sabha by one year at a time for any length of time.\n2. Such an extension can continue for a maximum period of one year after the emergency has ceased to operate.",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: While a proclamation of National Emergency is in operation, the life of the Lok Sabha may be extended beyond its normal term (five years) by a law of Parliament for one year at a time for any length of time. Statement 2 is incorrect: This extension cannot continue beyond a period of six months (not one year) after the emergency has ceased to operate. The same rules apply to the extension of the term of a State Legislative Assembly.",
+      "takeaway": "The extension of legislative terms requires a specific law of Parliament and is strictly limited to six months post-emergency.",
+      "evidenceExcerpt": "Tenure of Legislatures: Lok Sabha & State Legislative Assemblies may be extended one year at a time, but not beyond 6 months after Emergency ends.",
+      "qualityScore": 85,
+      "reviewNotes": "Tests precise technical details regarding the duration of legislative extensions.",
+      "contextLines": []
+    }
+  ],
+  "reviewerNotes": "The selected questions cover the constitutional basis, procedural safeguards (44th Amendment), historical context (38th Amendment), and the impact on federalism and fundamental rights. All questions are grounded in the provided text and follow the UPSC style of testing both factual accuracy and conceptual understanding."
+}

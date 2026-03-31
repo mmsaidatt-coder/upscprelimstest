@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Current Affairs",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "Consider the following statements regarding the functions and recent developments of the International Court of Justice (ICJ): 1. The Court has the jurisdiction to hear legal disputes between states as well as between states and private corporations. 2. In 2023, the UN General Assembly sought an advisory opinion from the ICJ on the legal consequences for states failing to protect the environment. 3. The ICJ provides advisory opinions on legal questions referred to it by authorized UN organs. Which of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The ICJ's jurisdiction is limited to settling disputes between countries (states) and it can only hear cases when requested by states; it does not adjudicate disputes involving private corporations. Statement 2 is correct: In 2023, the UNGA requested an advisory opinion on states' obligations to protect the environment and the legal consequences of failure. Statement 3 is correct: Providing advisory opinions to authorized UN organs is a key function of the Court.",
+      "takeaway": "The ICJ's jurisdiction is limited to states, and it recently received a landmark request for an advisory opinion on environmental law.",
+      "evidenceExcerpt": "Key Function: Settling disputes between countries. Provides advisory opinions on legal questions that have been referred to it by other authorised UN organs. Limitation: Can only hear cases when requested by states. 2023 Advisory Opinion Request: ...requesting the ICJ to issue an advisory opinion on: States' obligations under international law to protect the environment.",
+      "qualityScore": 90,
+      "reviewNotes": "This question effectively combines the core functional limitations of the ICJ with the specific 2023 current affairs update mentioned in the text."
+    },
+    {
+      "subject": "Current Affairs",
+      "difficulty": "Moderate",
+      "questionType": "Institutional-Feature",
+      "prompt": "With reference to the International Court of Justice (ICJ), consider the following statements: 1. It is the principal judicial organ of the United Nations, established in 1945. 2. The judges of the Court are elected for a term of nine years by the UN General Assembly and the Security Council. 3. While performing their duties, the judges act as representatives of their respective states. Which of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The ICJ was established in 1945 as the main judicial body of the UN. Statement 2 is correct: It consists of 15 judges elected for 9-year terms by both the UN General Assembly and the Security Council. Statement 3 is incorrect: According to the ICJ's composition rules, judges act independently and not as representatives of their respective governments.",
+      "takeaway": "ICJ judges are elected by the UNGA and UNSC for 9-year terms and must maintain independence from their national governments.",
+      "evidenceExcerpt": "Genesis: Established in 1945 as the main judicial body of the UN. Composition: 15 judges elected for 9-year terms by the UN General Assembly and Security Council. Judges act independently, not as government representatives.",
+      "qualityScore": 88,
+      "reviewNotes": "The question accurately reflects the institutional structure and independence of the ICJ as described in the source text, using a standard UPSC multi-statement format."
+    }
+  ],
+  "reviewerNotes": "The selected questions cover both the static institutional features of the ICJ and the dynamic current affairs update regarding the 2023 environmental advisory opinion. The distractors are designed to test common misconceptions about the court's jurisdiction and the role of its judges."
+}

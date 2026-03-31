@@ -1,0 +1,74 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the third United Nations Ocean Conference (UNOC3), consider the following statements:\n1. It was co-hosted by France and Costa Rica.\n2. The High Seas Treaty (BBNJ Agreement) was formally adopted during this conference.\n3. It concluded with the adoption of the Nice Ocean Action Plan.\nHow many of the statements given above are correct?",
+      "contextLines": [
+        "The third United Nations Ocean Conference (UNOC3) held in Nice, France and co-hosted by France and Costa Rica concluded with the adoption of the Nice Ocean Action Plan.",
+        "Priorities include implementing the High Seas Treaty (BBNJ Agreement), scaling up funding for SDG 14, and supporting the creation of the International Panel for Ocean Sustainability (IPOS)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: UNOC3 was held in Nice, France, and co-hosted by France and Costa Rica. Statement 2 is incorrect: The conference prioritizes the *implementation* of the High Seas Treaty (BBNJ Agreement), which was adopted previously, rather than adopting it at UNOC3 itself. Statement 3 is correct: The conference concluded with the adoption of the Nice Ocean Action Plan.",
+      "takeaway": "UNOC3 focuses on action and implementation of existing frameworks like the BBNJ Agreement and SDG 14, culminating in the Nice Ocean Action Plan.",
+      "evidenceExcerpt": "The third United Nations Ocean Conference (UNOC3) held in Nice, France and co-hosted by France and Costa Rica concluded with the adoption of the Nice Ocean Action Plan. Priorities include implementing the High Seas Treaty (BBNJ Agreement)...",
+      "qualityScore": 88,
+      "reviewNotes": "Excellent question. The trap in statement 2 (adopted vs implementing) is very characteristic of UPSC Prelims, testing careful reading of mandates and outcomes."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-Statement",
+      "prompt": "Consider the following statements regarding global environmental governance:\n1. The United Nations Forum on Forests (UNFF) was established by a resolution of the United Nations General Assembly (UNGA).\n2. The creation of the International Panel for Ocean Sustainability (IPOS) is supported by the Nice Ocean Action Plan.\nWhich of the statements given above is/are correct?",
+      "contextLines": [
+        "Established by UN Economic and Social Council of the United Nations (ECOSOC) Resolution 2000/35.",
+        "The third United Nations Ocean Conference (UNOC3) held in Nice, France and co-hosted by France and Costa Rica concluded with the adoption of the Nice Ocean Action Plan.",
+        "Priorities include implementing the High Seas Treaty (BBNJ Agreement), scaling up funding for SDG 14, and supporting the creation of the International Panel for Ocean Sustainability (IPOS)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The United Nations Forum on Forests (UNFF) was established by the UN Economic and Social Council (ECOSOC) Resolution 2000/35, not the UNGA. Statement 2 is correct: The Nice Ocean Action Plan, adopted at the third United Nations Ocean Conference (UNOC3), supports the creation of the International Panel for Ocean Sustainability (IPOS).",
+      "takeaway": "The UNFF is an ECOSOC body, whereas the Nice Ocean Action Plan (adopted at UNOC3) focuses on marine conservation initiatives like IPOS.",
+      "evidenceExcerpt": "Established by UN Economic and Social Council of the United Nations (ECOSOC) Resolution 2000/35... concluded with the adoption of the Nice Ocean Action Plan. Priorities include... supporting the creation of the International Panel for Ocean Sustainability (IPOS).",
+      "qualityScore": 85,
+      "reviewNotes": "Good 2-statement question testing the parent body of UNFF and the outcome of UNOC3. The UNGA vs ECOSOC trap is a classic UPSC distractor."
+    }
+  ],
+  "reviewerNotes": "Selected and refined two high-quality questions. Question 1 tests the parent body of UNFF and the outcome of UNOC3 using a standard 2-statement format. Question 2 focuses entirely on UNOC3, employing a subtle but highly realistic UPSC trap regarding the implementation versus adoption of the High Seas Treaty."
+}

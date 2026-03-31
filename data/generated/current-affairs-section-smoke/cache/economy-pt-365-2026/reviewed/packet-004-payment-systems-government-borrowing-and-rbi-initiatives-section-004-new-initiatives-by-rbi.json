@@ -1,0 +1,98 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Analytical",
+      "prompt": "The establishment of the Unified Lending Interface (ULI) as a Digital Public Infrastructure (DPI) is primarily aimed at achieving which of the following economic objectives?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Controlling inflation by regulating liquidity in the inter-bank market."
+        },
+        {
+          "id": "B",
+          "text": "Enhancing financial inclusion by improving access to formal credit for underserved segments."
+        },
+        {
+          "id": "C",
+          "text": "Streamlining the issuance of government securities to manage public debt."
+        },
+        {
+          "id": "D",
+          "text": "Facilitating cross-border remittances through integration with global payment networks."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The stated purpose of the Unified Lending Interface (ULI) is to 'enhance delivery of credit'. By creating a Digital Public Infrastructure for lending, the goal is to make the credit process more efficient, transparent, and accessible. This directly contributes to the broader economic objective of financial inclusion, as it helps bring previously underserved or unserved individuals and businesses into the formal credit system. The other options relate to different domains of economic management: monetary policy (A), public debt management (C), and external payments (D), which are not the primary focus of ULI.",
+      "takeaway": "Digital Public Infrastructures (DPIs) in the financial sector, such as ULI, are key tools for achieving policy objectives like financial inclusion. It is important to connect the specific function of an initiative (e.g., credit delivery) to its broader economic goal.",
+      "evidenceExcerpt": "Unified Lending Interface (ULI): It is envisioned as a Digital Public Infrastructure (DPI) aiming to enhance delivery of credit.",
+      "qualityScore": 90,
+      "reviewNotes": "This is a strong analytical question that requires the candidate to infer the broader economic objective from the stated function of the initiative. The distractors are plausible as they represent other major functions of the RBI and the financial system."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Conceptual",
+      "prompt": "In the context of recent financial innovations, which of the following statements best explains the concept of 'Tokenisation of Certificate of Deposits (CDs)'?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The conversion of physical CD certificates into a dematerialised form for electronic trading in a demat account."
+        },
+        {
+          "id": "B",
+          "text": "The creation of a unique digital representation, or 'token', of a CD that can be transferred and recorded on a secure digital ledger."
+        },
+        {
+          "id": "C",
+          "text": "A process of issuing a new type of digital-only CD that is backed by cryptocurrencies instead of bank deposits."
+        },
+        {
+          "id": "D",
+          "text": "A new RBI facility that allows individuals to pledge their CDs as collateral for loans using a digital signature."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Tokenisation is the process of creating a unique digital representation (a 'token') of a real-world asset, in this case, a Certificate of Deposit. This token can then be managed—stored, transferred, and recorded—on a digital platform, often using distributed ledger technology. Option A describes dematerialisation, a related but distinct process of converting physical securities into electronic book-entry form. Option C incorrectly links tokenisation to cryptocurrencies. Option D describes a potential application of a digital asset, not the process of tokenisation itself.",
+      "takeaway": "Tokenisation creates a digital proxy for a real-world asset, enabling easier management on a digital ledger. It is conceptually different from dematerialisation, which involves converting physical securities into an electronic format within the existing depository system.",
+      "evidenceExcerpt": "Tokenisation of Certificate of Deposits (CD): Creating a digital representation, called a 'token', of a real-world asset.",
+      "qualityScore": 88,
+      "reviewNotes": "This is an excellent conceptual question. The key strength lies in the distractors, especially the one that forces the candidate to distinguish between 'tokenisation' and 'dematerialisation'—a classic UPSC-style nuance."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Matching",
+      "prompt": "With reference to recent initiatives by the Reserve Bank of India, consider the following pairs:\n1. CBDC retail sandbox : A live environment for the general public to conduct daily transactions.\n2. Tokenisation of CDs : Creating a digital proxy for a negotiable money market instrument.\n3. Unified Lending Interface : A system for real-time, large-value inter-bank fund transfers.\nWhich of the pairs given above is/are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is incorrectly matched. The CBDC retail sandbox is a controlled environment for fintech firms to innovate and test solutions, not a platform for general public transactions. Pair 2 is correctly matched. Tokenisation of a Certificate of Deposit (CD) involves creating a digital representation or 'token' for this asset, which is a negotiable money market instrument. Pair 3 is incorrectly matched. The Unified Lending Interface (ULI) is a Digital Public Infrastructure designed to enhance the delivery of credit, not a payment system for inter-bank fund transfers like RTGS.",
+      "takeaway": "It is crucial to know the specific purpose of each new RBI initiative: the CBDC sandbox is for testing by fintechs, tokenisation creates digital representations of assets, and ULI is focused on improving the credit ecosystem.",
+      "evidenceExcerpt": "Central Bank Digital Currency (CBDC) retail sandbox: For fintech firms to innovate and test solutions. Tokenisation of Certificate of Deposits (CD): Creating a digital representation, called a 'token', of a real-world asset. CD is a negotiable money market instrument... Unified Lending Interface (ULI): ...aiming to enhance delivery of credit.",
+      "qualityScore": 85,
+      "reviewNotes": "This question effectively tests the candidate's knowledge of three distinct and recent RBI initiatives in a single frame. The incorrect pairs are based on plausible confusions with other financial systems (public payment platforms, RTGS), making it a good test of precise knowledge."
+    }
+  ],
+  "reviewerNotes": "Selected three high-quality questions that cover the key concepts from the source text. The chosen questions test a range of skills: analytical inference, conceptual clarity, and comparative knowledge. Rejected were questions that were too direct or fact-based (e.g., the simple definition of a CD) in favor of those requiring more application and analysis. The selected questions have strong, plausible distractors and are framed in a manner consistent with UPSC standards."
+}

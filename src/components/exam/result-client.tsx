@@ -70,6 +70,12 @@ export function ResultClient({ attemptId }: { attemptId: string }) {
     () => (attempt ? tests.find((item) => item.slug === attempt.testSlug) ?? null : null),
     [attempt],
   );
+  const retakeHref = useMemo(() => {
+    if (!attempt) return null;
+    if (test) return `/app/exams/${test.slug}`;
+    if (attempt.testSlug.startsWith("ca-repo-")) return `/app/exams/${attempt.testSlug}`;
+    return null;
+  }, [attempt, test]);
 
   // Guest = no prior test history beyond this attempt (stored only in localStorage from this session).
   const isGuest = hydrated && attempts.length <= 1;
@@ -165,9 +171,9 @@ export function ResultClient({ attemptId }: { attemptId: string }) {
         </div>
 
         <div className="mt-5 flex gap-2">
-          {test && !isGuest && (
+          {retakeHref && !isGuest && (
             <Link
-              href={`/app/exams/${test.slug}`}
+              href={retakeHref}
               className="rounded-lg bg-[var(--accent)] px-4 py-2 text-sm font-medium text-white hover:bg-[var(--accent-hover)]"
             >
               Retake

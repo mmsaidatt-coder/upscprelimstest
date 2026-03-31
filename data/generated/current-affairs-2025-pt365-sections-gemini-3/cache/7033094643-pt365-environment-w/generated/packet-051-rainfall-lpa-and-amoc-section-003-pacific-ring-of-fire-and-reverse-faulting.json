@@ -1,0 +1,149 @@
+{
+  "questions": [
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to plate tectonics and faulting, consider the following statements:\n1. Reverse faulting occurs when a block of the Earth's crust is pushed up over another due to tensional forces.\n2. Deep ocean trenches are typically formed at convergent plate boundaries where subduction occurs.\n3. Rift valleys and hydrothermal vents are characteristic features of divergent plate boundaries.\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Reverse faulting (or thrust faulting) is caused by compressional forces, not tensional forces, which push one block of the Earth's crust over another.\nStatement 2 is correct: Convergent boundaries create subduction zones, leading to the formation of deep ocean trenches like the Mariana Trench.\nStatement 3 is correct: Divergent boundaries, such as the East Pacific Rise, create seafloor spreading and rift valleys featuring hydrothermal vents.",
+      "takeaway": "Reverse faulting is driven by compressional forces. Convergent boundaries are associated with subduction and trenches, while divergent boundaries are associated with seafloor spreading, rift valleys, and hydrothermal vents.",
+      "evidenceExcerpt": "Reverse faulting (or thrust faulting) occurs when a block of Earth's crust is pushed up over another due to compressional forces... Convergent boundaries in the Ring of Fire create subduction zones, leading to volcanism and deep ocean trenches like the Mariana Trench. Divergent boundaries, such as the East Pacific Rise, create seafloor spreading and rift valleys featuring hydrothermal vents."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of geological features and their primary associated mechanisms:\n1. Thrust faulting : Compressional forces\n2. Mariana Trench : Seafloor spreading\n3. East Pacific Rise : Subduction of tectonic plates\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Pair 1 is correctly matched: Thrust faulting (reverse faulting) is caused by compressional forces pushing crustal blocks over one another.\nPair 2 is incorrectly matched: The Mariana Trench is formed by subduction at convergent plate boundaries, not seafloor spreading.\nPair 3 is incorrectly matched: The East Pacific Rise is a divergent boundary characterized by seafloor spreading, not subduction.",
+      "takeaway": "Understanding the distinct landforms associated with different plate boundaries is crucial. Subduction zones (convergent) form trenches, while seafloor spreading (divergent) forms oceanic ridges and rift valleys.",
+      "evidenceExcerpt": "Reverse faulting (thrust faulting) is caused by compressional forces... Convergent boundaries in the Ring of Fire create subduction zones, leading to volcanism and deep ocean trenches like the Mariana Trench. Divergent boundaries, such as the East Pacific Rise, create seafloor spreading and rift valleys..."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Pacific Ring of Fire:\n1. It accounts for approximately 75 percent of the world's active volcanoes and 90 percent of its earthquakes.\n2. The region is characterized exclusively by convergent plate boundaries.\n3. Volcanism in this belt is largely a result of subduction zones.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The Pacific Ring of Fire accounts for roughly 75% of active volcanoes and 90% of earthquakes globally.\nStatement 2 is incorrect: While convergent boundaries are prominent, the region is not exclusively convergent; it also features divergent boundaries like the East Pacific Rise.\nStatement 3 is correct: Convergent boundaries in the Ring of Fire create subduction zones, which are the primary drivers of volcanism in the region.",
+      "takeaway": "The Pacific Ring of Fire is a highly active seismic and volcanic belt driven predominantly by subduction at convergent boundaries, though it encompasses other boundary types like divergent boundaries as well.",
+      "evidenceExcerpt": "Pacific Ring of Fire: Also called Circum-Pacific Belt... Accounts for ~75% of the world’s active volcanoes and ~90% of the world’s earthquakes. Convergent boundaries in the Ring of Fire create subduction zones, leading to volcanism... Divergent boundaries, such as the East Pacific Rise, create seafloor spreading..."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice",
+      "prompt": "Hydrothermal vents are prominent geological features found along the East Pacific Rise. Which of the following tectonic processes is directly responsible for their formation in this region?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The upwelling of magma and subsequent seafloor spreading at divergent plate boundaries."
+        },
+        {
+          "id": "B",
+          "text": "The melting of the subducting oceanic lithosphere at convergent plate boundaries."
+        },
+        {
+          "id": "C",
+          "text": "The vertical displacement of crustal blocks driven by shallow reverse faulting."
+        },
+        {
+          "id": "D",
+          "text": "The intense compressional forces that push one block of the Earth's crust over another."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "The East Pacific Rise is a divergent plate boundary. At divergent boundaries, tectonic plates move apart, leading to seafloor spreading and the formation of rift valleys where hydrothermal vents are typically found. Subduction (Option B) and compressional reverse faulting (Options C and D) are associated with convergent boundaries.",
+      "takeaway": "Divergent boundaries like the East Pacific Rise are characterized by seafloor spreading, rift valleys, and hydrothermal vents, contrasting with the subduction and trench formation seen at convergent boundaries.",
+      "evidenceExcerpt": "Divergent boundaries, such as the East Pacific Rise, create seafloor spreading and rift valleys featuring hydrothermal vents."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice",
+      "prompt": "Which of the following best explains why the Pacific Ring of Fire accounts for approximately 90 percent of the world's earthquakes?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The continuous creation of new oceanic crust at divergent boundaries along the entire Pacific Rim."
+        },
+        {
+          "id": "B",
+          "text": "The presence of a continuous network of shallow reverse faults driven exclusively by tensional forces."
+        },
+        {
+          "id": "C",
+          "text": "The dominance of convergent plate boundaries that create extensive subduction zones around the Pacific Ocean."
+        },
+        {
+          "id": "D",
+          "text": "The rapid seafloor spreading occurring at the East Pacific Rise, which destabilizes the surrounding continental plates."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The Pacific Ring of Fire's intense seismic and volcanic activity is primarily due to the presence of convergent plate boundaries along its rim. These boundaries create subduction zones where oceanic crust is forced under other plates, leading to significant geological friction, earthquakes, and volcanism.",
+      "takeaway": "The high concentration of earthquakes and volcanoes in the Circum-Pacific Belt is a direct consequence of convergent boundaries and subduction zones, rather than divergent seafloor spreading.",
+      "evidenceExcerpt": "Pacific Ring of Fire: Also called Circum-Pacific Belt... Accounts for ~75% of the world’s active volcanoes and ~90% of the world’s earthquakes. Convergent boundaries in the Ring of Fire create subduction zones, leading to volcanism and deep ocean trenches"
+    }
+  ]
+}

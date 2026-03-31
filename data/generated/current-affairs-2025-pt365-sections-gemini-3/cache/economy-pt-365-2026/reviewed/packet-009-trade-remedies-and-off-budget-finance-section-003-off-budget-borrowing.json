@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "Which one of the following best explains why 'off-budget borrowings' raise macroeconomic concerns regarding fiscal transparency?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "They are raised through sovereign bonds issued in foreign markets, increasing the economy's external debt vulnerability."
+        },
+        {
+          "id": "B",
+          "text": "They are raised by entities dependent on budgetary support but are kept off the government's fiscal deficit books."
+        },
+        {
+          "id": "C",
+          "text": "They are directly monetized by the Reserve Bank of India, leading to unchecked inflationary pressures."
+        },
+        {
+          "id": "D",
+          "text": "They divert funds away from capital expenditure towards the routine administrative expenses of the government."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Off-budget borrowings raise transparency concerns because they are raised through government-controlled PSUs or entities dependent on budgetary support, yet they are kept off the fiscal deficit books. This creates an artificial impression of fiscal prudence and conceals the true debt burden of the government. Options A, C, and D describe other macroeconomic phenomena not related to the fundamental mechanism of off-budget borrowing.",
+      "takeaway": "The core issue with off-budget borrowing is the mismatch between who ultimately bears the liability (the government) and where it is recorded (outside the official budget), leading to a lack of transparency.",
+      "evidenceExcerpt": "Raised through government-controlled PSUs or entities dependent on budgetary support. Keeps borrowings off the fiscal deficit books to create an impression of fiscal prudence... Concerns include reduced transparency, lack of accountability, and concealment of the true debt burden.",
+      "qualityScore": 85,
+      "reviewNotes": "A strong conceptual question that tests the candidate's understanding of why off-budget borrowings are problematic. The distractors are plausible macroeconomic concerns that do not apply to this specific concept."
+    }
+  ],
+  "reviewerNotes": "Selected two questions that test the concept of off-budget borrowings from different angles. The first is a standard statement-based question evaluating the mechanics and accounting of such borrowings. The second is a conceptual question focusing on the macroeconomic implications and transparency concerns. Both align well with the UPSC pattern and strictly adhere to the provided source text."
+}

@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Application",
+      "prompt": "In the context of modern vehicular technology, which of the following operations are facilitated by Advanced Driver Assistance Systems (ADAS)?\n1. Automatically adjusting vehicle speed to maintain a safe distance from vehicles ahead.\n2. Applying brakes without driver input to prevent an imminent collision.\n3. Providing alerts when the vehicle unintentionally drifts across marked road lanes.\n\nSelect the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Advanced Driver Assistance Systems (ADAS) utilize a suite of sensors (such as Lidar, Radar, and cameras) to inform various safety features and avoid human errors.\n\nStatement 1 is correct: This describes Adaptive Cruise Control, which automatically adjusts the vehicle's speed to maintain a safe following distance.\nStatement 2 is correct: This describes Automatic Emergency Braking, an active intervention feature of ADAS that applies the brakes to prevent or mitigate a collision.\nStatement 3 is correct: This describes Lane Departure Warning, which alerts the driver if the vehicle begins to drift out of its lane without a turn signal.",
+      "takeaway": "ADAS translates sensor data into practical safety interventions, encompassing both passive alerts (like Lane Departure Warnings and Blind Spot Detection) and active controls (like Adaptive Cruise Control and Automatic Emergency Braking).",
+      "evidenceExcerpt": "A built-in suite of coordinated technologies that help drivers operate their vehicles more safely and avoid human errors. In ADAS, sensors such as Lidar, Radar, and cameras work together to inform features such as pedestrian detection, and lane departure warning. Features include Adaptive Cruise Control, Automatic Emergency Braking, Blind Spot Detection, and Lane Departure Warning.",
+      "qualityScore": 88,
+      "reviewNotes": "This question effectively tests the functional understanding of ADAS features rather than just rote memorization of the terms. By describing the operations (Adaptive Cruise Control, Automatic Emergency Braking, Lane Departure Warning), it aligns perfectly with UPSC's application-oriented approach to Science & Technology."
+    }
+  ],
+  "reviewerNotes": "Selected and refined an application-based question that tests the practical functions of ADAS features. The distractors and options are formatted to match UPSC standards."
+}

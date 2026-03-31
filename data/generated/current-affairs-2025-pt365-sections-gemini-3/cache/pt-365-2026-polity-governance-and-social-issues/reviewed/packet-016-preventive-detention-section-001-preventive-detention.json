@@ -1,0 +1,98 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Polity",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the legal framework of preventive detention in India:\n1. Both the Parliament and State Legislatures have the power to enact laws related to preventive detention.\n2. Under the Bharatiya Nagarik Suraksha Sanhita (BNSS), 2023, a person arrested under preventive action cannot be detained for more than 24 hours unless further detention is required under other provisions.\n3. The Constitution allows for preventive detention for a period of up to six months without the approval of an Advisory Board.\nWhich of the statements given above are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Parliament and State Legislatures can make laws on preventive detention under Article 22. Statement 2 is correct: BNSS 2023 (Sections 168-172) limits preventive action detention by police to 24 hours unless further detention is required under other provisions. Statement 3 is incorrect: Article 22(4) specifies that detention beyond 3 months (not 6 months) requires the approval of an Advisory Board.",
+      "takeaway": "The constitutional limit for detention without Advisory Board approval is 3 months, while specific police preventive action under BNSS is limited to 24 hours.",
+      "evidenceExcerpt": "Parliament and State Legislatures can make laws on preventive detention under Article 22. Bharatiya Nagarik Suraksha Sanhita, 2023: Section 168 to 172... No person... shall be detained... exceeding twenty-four hours... Article 22 (4): Detention beyond 3 months requires advisory board approval.",
+      "qualityScore": 90,
+      "reviewNotes": "Integrates the new BNSS 2023 provisions with established constitutional limits, providing a high-difficulty, high-relevance question.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the constitutional protections regarding arrest and detention in India, consider the following statements:\n1. The right to be informed of the grounds of arrest and the right to be produced before a magistrate within 24 hours are available to persons detained under preventive detention laws.\n2. Article 22(3) specifically excludes persons arrested under preventive detention laws from the protections of Article 22(1) and 22(2).\n3. The Constitution mandates that a person in preventive detention must be given the earliest opportunity of making a representation against the detention order.\nHow many of the statements given above are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: According to Article 22(3), the protections of Article 22(1) (right to be informed of grounds and consult a lawyer) and Article 22(2) (production before a magistrate within 24 hours) are not available to a person arrested or detained under preventive detention laws. Statement 2 is correct: Article 22(3) provides the exception for preventive detention. Statement 3 is correct: Article 22(5) states that the authority making the order shall, as soon as may be, communicate the grounds and afford the person the earliest opportunity of making a representation against the order.",
+      "takeaway": "While preventive detainees lose the 24-hour magistrate rule, they retain the constitutional right to be informed of grounds and to make a representation.",
+      "evidenceExcerpt": "Constitution gives protection against arrest and detention under Article 22 (1) and 22 (2). These protections are not available to a person arrested or detained under preventive detention laws (Article 22(3)). Article 22 (5): Early notification of grounds for detention and opportunity to contest detention order.",
+      "qualityScore": 88,
+      "reviewNotes": "This question tests the critical distinction between punitive and preventive detention protections under Article 22, a frequent UPSC theme.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "In the context of the 'Dhanya M vs State of Kerala & Others' judgement, which of the following best describes the Supreme Court's observation regarding the use of preventive detention?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Preventive detention can be used as a primary tool for criminal investigation when evidence is insufficient for trial."
+        },
+        {
+          "id": "B",
+          "text": "It must not be used as a substitute for criminal prosecution or as a means to bypass judicial bail orders."
+        },
+        {
+          "id": "C",
+          "text": "State legislatures lack the constitutional competence to enact laws like the Kerala Anti-Social Activities (Prevention) Act."
+        },
+        {
+          "id": "D",
+          "text": "The executive has absolute discretion in preventive detention cases, provided the Advisory Board is consulted within six months."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "In the Dhanya M vs State of Kerala case, the Supreme Court set aside a detention order and held that preventive detention is an extraordinary measure. It emphasized that it should not be used to circumvent the regular criminal justice process or to nullify bail orders granted by courts.",
+      "takeaway": "The judiciary acts as a check to ensure preventive detention is not used to bypass the standard criminal law protections like bail.",
+      "evidenceExcerpt": "Recently, in Dhanya M vs State of Kerala & Others judgement, Supreme Court set aside preventive detention under Kerala Anti-Social Activities (Prevention) Act, 2007 and held that preventive detention must not be used as a substitute for criminal prosecution or to bypass bail orders.",
+      "qualityScore": 85,
+      "reviewNotes": "Directly links a recent judicial pronouncement to the core concept of preventive detention, aligning with UPSC's current affairs-polity overlap.",
+      "contextLines": []
+    }
+  ],
+  "reviewerNotes": "The questions cover the constitutional framework (Article 22), recent judicial developments (Dhanya M case), new legislative changes (BNSS 2023), and the specific grounds for detention. This provides a comprehensive review of the 'Preventive Detention' section."
+}

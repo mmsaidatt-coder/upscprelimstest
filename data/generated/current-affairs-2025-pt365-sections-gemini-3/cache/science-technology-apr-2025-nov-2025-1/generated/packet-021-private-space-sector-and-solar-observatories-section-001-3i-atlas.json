@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the recently discovered celestial object '3I/ATLAS': 1. It is an active comet discovered by the Asteroid Terrestrial-impact Last Alert System (ATLAS) located in Chile. 2. It is classified as an interstellar object because of its highly elliptical closed orbital path around the Sun. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: 3I/ATLAS is an active interstellar comet discovered by the NASA-funded ATLAS survey telescope in Chile. Statement 2 is incorrect: It is categorized as interstellar because of the hyperbolic shape of its orbital path, meaning it does not follow a closed orbital path about the Sun.",
+      "takeaway": "Interstellar comets like 3I/ATLAS are characterized by their hyperbolic, non-closed orbital paths around the Sun.",
+      "evidenceExcerpt": "NASA funded ATLAS (Asteroid Terrestrial-impact Last Alert System) survey telescope in Chile discovered an interstellar Comet named 3I/ATLAS. It is an active comet categorized as interstellar because of the hyperbolic shape of its orbital path. It does not follow a closed orbital path about the Sun."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Term recognition",
+      "prompt": "The term '3I/ATLAS', sometimes mentioned in the news, refers to:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "An exoplanet discovered in the habitable zone of a nearby red dwarf star."
+        },
+        {
+          "id": "B",
+          "text": "An active interstellar comet characterized by a hyperbolic orbital path."
+        },
+        {
+          "id": "C",
+          "text": "A newly launched NASA space telescope designed to study near-Earth asteroids."
+        },
+        {
+          "id": "D",
+          "text": "A supermassive black hole observed at the center of a distant galaxy."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "3I/ATLAS is an active comet categorized as interstellar because of the hyperbolic shape of its orbital path. It does not follow a closed orbital path about the Sun. It was discovered by the NASA-funded ATLAS survey telescope in Chile.",
+      "takeaway": "3I/ATLAS is an interstellar comet discovered by the ATLAS survey telescope.",
+      "evidenceExcerpt": "NASA funded ATLAS (Asteroid Terrestrial-impact Last Alert System) survey telescope in Chile discovered an interstellar Comet named 3I/ATLAS. It is an active comet categorized as interstellar because of the hyperbolic shape of its orbital path."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "conceptual",
+      "prompt": "Based on the discovery of 3I/ATLAS, which of the following orbital characteristics is the primary basis for categorizing a comet as 'interstellar'?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It follows a highly elliptical but closed orbit that extends beyond the Oort cloud."
+        },
+        {
+          "id": "B",
+          "text": "It traces a hyperbolic path, indicating it is not gravitationally bound to the Sun."
+        },
+        {
+          "id": "C",
+          "text": "It orbits the Sun in a retrograde direction perpendicular to the planetary ecliptic."
+        },
+        {
+          "id": "D",
+          "text": "It maintains a parabolic trajectory that periodically intersects the Earth's orbit."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A comet is categorized as interstellar when it does not follow a closed orbital path around the Sun. Instead, it has a hyperbolic trajectory, meaning it is not gravitationally bound to our Solar System and will eventually leave it. 3I/ATLAS was classified as interstellar precisely because of this hyperbolic shape.",
+      "takeaway": "Interstellar objects can be identified by their hyperbolic orbits, which distinguish them from native Solar System bodies that follow closed (elliptical) orbits around the Sun.",
+      "evidenceExcerpt": "It is an active comet categorized as interstellar because of the hyperbolic shape of its orbital path. It does not follow a closed orbital path about the Sun."
+    }
+  ]
+}

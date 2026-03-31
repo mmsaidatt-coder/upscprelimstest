@@ -1,0 +1,149 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Central Bank Digital Currency (CBDC): 1. Unlike stablecoins, a CBDC is recognized as legal tender and possesses sovereign backing. 2. The use of CBDCs in international trade is expected to increase reliance on financial intermediaries like SWIFT. 3. India's Digital Rupee offers finality of settlement similar to physical cash. Which of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: CBDCs offer sovereign backing and operate within a regulated framework, unlike many stablecoins. Statement 2 is incorrect: CBDCs can simplify international trade payments and reduce reliance on intermediaries like SWIFT. Statement 3 is correct: The Digital Rupee offers features similar to physical cash, including the guarantee of the RBI and finality of settlement.",
+      "takeaway": "CBDCs are sovereign-backed digital legal tenders that ensure finality of settlement and can streamline cross-border payments by bypassing traditional intermediaries like SWIFT.",
+      "evidenceExcerpt": "CBDCs offer sovereign backing and operate within a regulated framework, unlike many stablecoins. CBDCs can simplify international trade payments and reduce reliance on intermediaries like SWIFT. Digital Rupee offers features similar to physical cash, including the guarantee of the RBI and finality of settlement."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Assertion-Reason",
+      "prompt": "Consider the following Assertion (A) and Reason (R): Assertion (A): The Digital Rupee is preferred over private stablecoins for secure digital transactions. Reason (R): The Digital Rupee operates within a regulated framework and carries the sovereign guarantee of the Reserve Bank of India. In the context of the above statements, which one of the following is correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both Assertion (A) and Reason (R) are correct and Reason (R) is the correct explanation for Assertion (A)."
+        },
+        {
+          "id": "B",
+          "text": "Both Assertion (A) and Reason (R) are correct but Reason (R) is not the correct explanation for Assertion (A)."
+        },
+        {
+          "id": "C",
+          "text": "Assertion (A) is correct but Reason (R) is incorrect."
+        },
+        {
+          "id": "D",
+          "text": "Assertion (A) is incorrect but Reason (R) is correct."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Both statements are correct and R is the correct explanation for A. The Digital Rupee is preferred over stablecoins precisely because it has sovereign backing, operates within a regulated framework, and carries the guarantee of the RBI.",
+      "takeaway": "The fundamental distinction between a CBDC (like the Digital Rupee) and private stablecoins is the presence of a sovereign guarantee and a regulated issuance framework.",
+      "evidenceExcerpt": "It is preferred over stablecoins due to sovereign backing, legal tender status... Digital Rupee offers features similar to physical cash, including the guarantee of the RBI"
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Comparison",
+      "prompt": "In the context of digital assets, how does a Central Bank Digital Currency (CBDC) fundamentally differ from a private stablecoin?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A CBDC is backed by a decentralized blockchain network, whereas a stablecoin is backed by a consortium of commercial banks."
+        },
+        {
+          "id": "B",
+          "text": "A CBDC carries sovereign backing and is recognized as legal tender, whereas a stablecoin lacks a sovereign guarantee."
+        },
+        {
+          "id": "C",
+          "text": "A CBDC is primarily designed to replace the SWIFT messaging system, whereas a stablecoin is restricted to domestic retail payments."
+        },
+        {
+          "id": "D",
+          "text": "A CBDC offers interest payments similar to commercial bank deposits, whereas a stablecoin functions strictly as non-interest-bearing cash."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A CBDC is a digital form of sovereign currency issued by a central bank and recognized as legal tender, offering sovereign backing. In contrast, stablecoins do not possess sovereign backing and operate outside this direct central bank guarantee.",
+      "takeaway": "The primary distinction between CBDCs and private stablecoins is the presence of sovereign backing and legal tender status in CBDCs.",
+      "evidenceExcerpt": "CBDCs offer sovereign backing and operate within a regulated framework, unlike many stablecoins."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Implication",
+      "prompt": "In the context of international trade, how is the deployment of Central Bank Digital Currencies (CBDCs) expected to primarily enhance the efficiency of cross-border payments?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "By standardizing the exchange rates of all participating sovereign currencies to eliminate currency risk."
+        },
+        {
+          "id": "B",
+          "text": "By reducing the reliance on traditional financial intermediaries and messaging systems like SWIFT."
+        },
+        {
+          "id": "C",
+          "text": "By mandating that all international trade be settled in a single, globally recognized stablecoin."
+        },
+        {
+          "id": "D",
+          "text": "By shifting the settlement risk entirely to commercial banks operating in the importing country."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "CBDCs can simplify international trade payments by enabling more direct settlements, thereby reducing the reliance on traditional financial intermediaries such as the SWIFT network.",
+      "takeaway": "CBDCs have the potential to streamline cross-border transactions by bypassing traditional intermediary networks like SWIFT.",
+      "evidenceExcerpt": "CBDCs can simplify international trade payments and reduce reliance on intermediaries like SWIFT."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of digital instruments and their characteristics:\n1. Central Bank Digital Currency : Recognized as legal tender with sovereign backing\n2. Stablecoin : Operates with a direct central bank guarantee\n3. Digital Rupee : Issued by the Reserve Bank of India\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correct as CBDC is a digital form of sovereign currency recognized as legal tender. Pair 2 is incorrect because stablecoins lack sovereign backing and a direct central bank guarantee. Pair 3 is correct as the Digital Rupee is India's CBDC issued by the RBI.",
+      "takeaway": "While the Digital Rupee and other CBDCs enjoy sovereign backing and legal tender status, private stablecoins operate without central bank guarantees.",
+      "evidenceExcerpt": "CBDC is a digital form of money issued by a central bank and recognized as legal tender. CBDCs offer sovereign backing and operate within a regulated framework, unlike many stablecoins... The Digital Rupee is India's CBDC, issued by the RBI."
+    }
+  ]
+}

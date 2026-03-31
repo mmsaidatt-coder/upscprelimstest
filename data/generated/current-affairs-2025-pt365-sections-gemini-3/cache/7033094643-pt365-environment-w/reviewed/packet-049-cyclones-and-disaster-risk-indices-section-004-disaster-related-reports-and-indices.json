@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Disaster Risk Index (DRI) used in India:\n\n1. It was formally adopted by the 15th Finance Commission to guide the distribution of both the National Disaster Response Fund (NDRF) and state contingency funds.\n2. The index calculates its composite score by assigning a higher weightage to the probability of hazards than to the vulnerability of the region.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: The 15th Finance Commission (2021–26) formally adopted the DRI to guide disaster funding, integrating a state's DRI score into a formula for distributing NDRF and state contingency funds. Statement 2 is correct: The DRI composite score is calculated using the probability of hazards, which carries a weightage of 70, and vulnerability, which carries a weightage of 30. Thus, hazard probability has a significantly higher weightage.",
+      "takeaway": "The 15th Finance Commission integrated the Disaster Risk Index (DRI) into its disaster funding formula, weighting hazard probability (70) higher than vulnerability (30).",
+      "evidenceExcerpt": "Genesis: 15th Finance Commission (2021–26) formally adopted it to guide disaster funding. It integrated state’s DRI score into a formula for distributing NDRF and state contingency funds. Components: DRI uses probability of hazards (score of 70) and vulnerability (score of 30) to arrive at a composite score.",
+      "qualityScore": 85,
+      "reviewNotes": "Combined elements from candidates 1 and 4 to create a comprehensive question on the DRI. The distractors and statements are highly plausible and test precise conceptual understanding."
+    }
+  ],
+  "reviewerNotes": "Selected and refined three questions to cover the three distinct concepts in the source text: the Disaster Risk Index (DRI), the District Flood Severity Index, and the Global Drought Outlook. Improved wording to align with UPSC standards and ensured distractors are plausible."
+}

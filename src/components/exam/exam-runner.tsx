@@ -42,12 +42,12 @@ export function ExamRunner({ test }: { test: ExamTest }) {
   const [eliminatedChoices, setEliminatedChoices] = useState<Record<string, string[]>>({});
   const [highlightedLines, setHighlightedLines] = useState<Record<string, number[]>>({});
   const [visited, setVisited] = useState<Record<string, boolean>>({
-    [test.questions[0].id]: true,
+    [test.questions[0]!.id]: true,
   });
   const [remainingSeconds, setRemainingSeconds] = useState(test.durationMinutes * 60);
   const [submitting, setSubmitting] = useState(false);
 
-  const currentQuestion = test.questions[currentIndex];
+  const currentQuestion = test.questions[currentIndex]!;
   const currentQuestionIdRef = useRef(currentQuestion.id);
   const startedAtRef = useRef<string | null>(null);
   const deadlineRef = useRef(0);
@@ -167,7 +167,7 @@ export function ExamRunner({ test }: { test: ExamTest }) {
   const goToQuestion = (nextIndex: number) => {
     if (nextIndex === currentIndex) return;
     recordElapsed(currentQuestion.id);
-    const nextQuestion = test.questions[nextIndex];
+    const nextQuestion = test.questions[nextIndex]!;
     currentQuestionIdRef.current = nextQuestion.id;
     activeStartedAtRef.current = Date.now();
     setCurrentIndex(nextIndex);

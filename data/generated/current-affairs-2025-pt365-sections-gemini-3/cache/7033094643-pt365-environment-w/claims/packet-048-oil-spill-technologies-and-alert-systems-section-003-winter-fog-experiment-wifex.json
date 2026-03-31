@@ -1,0 +1,49 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-048-oil-spill-technologies-and-alert-systems-section-003-winter-fog-experiment-wifex",
+    "claimType": "Institutional",
+    "claimText": "The Winter Fog Experiment (WiFEX) is led by the Indian Institute of Tropical Meteorology under the Ministry of Earth Sciences.",
+    "evidenceExcerpt": "Led by Indian Institute of Tropical Meteorology under the Ministry of Earth Sciences (MoES).",
+    "pageNumbers": [
+      99
+    ],
+    "examUse": "Statement-based question identifying the nodal ministry and lead institution for WiFEX.",
+    "distractorHooks": [
+      "Ministry of Environment, Forest and Climate Change (MoEFCC)",
+      "India Meteorological Department (IMD) as the lead instead of IITM",
+      "Ministry of Science and Technology"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-048-oil-spill-technologies-and-alert-systems-section-003-winter-fog-experiment-wifex",
+    "claimType": "Factual",
+    "claimText": "The primary objective of the Winter Fog Experiment (WiFEX) is to develop better now-casting (for the next 6 hours) and forecasting of winter fog.",
+    "evidenceExcerpt": "Objective: To develop better now-casting (next 6 hours) and forecasting of winter fog.",
+    "pageNumbers": [
+      99
+    ],
+    "examUse": "Statement-based question on the specific purpose and time-frame (now-casting) of the WiFEX initiative.",
+    "distractorHooks": [
+      "Forecasting of urban smog or particulate matter pollution",
+      "Long-term climate modeling instead of now-casting (next 6 hours)",
+      "Now-casting for cyclones or thunderstorms"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-048-oil-spill-technologies-and-alert-systems-section-003-winter-fog-experiment-wifex",
+    "claimType": "Factual",
+    "claimText": "WiFEX is a long-term open-field experiment focused solely on fog.",
+    "evidenceExcerpt": "One of the world's few long-term open-field experiments focused solely on fog.",
+    "pageNumbers": [
+      99
+    ],
+    "examUse": "True/False statement in a multi-statement question regarding the nature of the WiFEX experiment.",
+    "distractorHooks": [
+      "Closed-laboratory experiment",
+      "Focused on artificial rain or cloud seeding"
+    ]
+  }
+]

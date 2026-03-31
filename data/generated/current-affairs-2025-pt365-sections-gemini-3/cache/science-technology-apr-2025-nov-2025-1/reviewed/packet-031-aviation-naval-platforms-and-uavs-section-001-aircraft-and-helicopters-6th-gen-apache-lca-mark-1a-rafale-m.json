@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Correct-Pair",
+      "prompt": "Consider the following pairs of military aircraft and their defining characteristics:\n1. LCA Mark-1A : 4.5-generation fighter equipped with an Active Electronically Scanned Array (AESA) radar\n2. Rafale Marine (M) : Omnirole fighter designed for deployment on aircraft carriers\n3. J-36 and J-50 : Emerging sixth-generation fighter jets featuring unmanned capabilities\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "None"
+        },
+        {
+          "id": "B",
+          "text": "Only one"
+        },
+        {
+          "id": "C",
+          "text": "Only two"
+        },
+        {
+          "id": "D",
+          "text": "All three"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Pair 1 is correctly matched: The LCA Mark-1A is a 4.5-generation, all-weather, multi-role fighter aircraft equipped with an AESA Radar and an Electronic Warfare (EW) suite. Pair 2 is correctly matched: The Rafale Marine (M) is a 4.5-generation omnirole fighter manufactured by Dassault Aviation, designed to be deployed on the aircraft carrier INS Vikrant. Pair 3 is correctly matched: China's J-36 and J-50 are examples of emerging sixth-generation fighter jets, which feature AI integration, hypersonic capabilities, and unmanned capabilities.",
+      "takeaway": "Understanding the specific generations and capabilities of modern military aircraft is crucial. The LCA Mark-1A and Rafale M are 4.5-generation platforms, while emerging 6th-generation jets incorporate AI and unmanned operations.",
+      "evidenceExcerpt": "6th-Gen fighters feature AI integration, hypersonic, and unmanned capabilities (e.g., China's J-36 and J-50)... LCA Mark-1A is a 4.5 generation fighter equipped with AESA Radar and an EW suite... Rafale Marine (M) is a 4.5 generation omnirole fighter by Dassault Aviation, to be deployed on INS Vikrant.",
+      "qualityScore": 85,
+      "reviewNotes": "Excellent correct-pair question that tests multiple platforms without being overly convoluted. The pairs are distinct and directly supported by the text."
+    }
+  ],
+  "reviewerNotes": "Rewrote the candidate set to minimize overlap and ensure broad coverage of the source text. Q1 tests platform matching, Q2 tests generation capabilities and specific features, and Q3 is a classic 'recently seen in the news' platform identification question. Distractors were made highly plausible and aligned with UPSC patterns."
+}

@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Super-Earths': 1. They are exoplanets that are more massive than Earth but lighter than Neptune. 2. The term 'Super-Earth' indicates that the planet possesses Earth-like surface features and atmospheric conditions. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Super-Earths are a class of exoplanets that are larger and more massive than Earth (up to 10 times Earth's mass) but lighter than ice giants like Neptune. Statement 2 is incorrect: The designation 'Super-Earth' refers strictly to the planet's size and mass. It does not imply that the planet is habitable, nor does it indicate the presence of Earth-like features such as liquid water or a similar atmosphere.",
+      "takeaway": "Super-Earth is a mass-based classification for exoplanets, not a habitability-based one.",
+      "evidenceExcerpt": "The name refers only to their size and mass, not to Earth-like features. Size & Mass: They are larger than Earth (up to twice its size) and more massive (up to 10 times Earth's mass), but lighter than Neptune.",
+      "qualityScore": 88,
+      "reviewNotes": "Added a conceptual question to test a common misconception about the nomenclature of Super-Earths, which aligns well with UPSC's tendency to test conceptual clarity."
+    }
+  ],
+  "reviewerNotes": "Accepted the candidate question as a standard 'term in news' factual check. Added a second statement-based question to test the conceptual definition and common misconceptions regarding Super-Earths, ensuring comprehensive coverage of the source text."
+}

@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the SARFAESI Act, 2002, consider the following statements regarding a borrower's right to redeem a secured asset:\n1. The borrower's right to redeem the secured asset is extinguished immediately upon the loan being classified as a Non-Performing Asset (NPA).\n2. The Supreme Court has highlighted a legal contradiction wherein the Act states that the redemption right is lost upon publication of the auction notice, while the associated Rules permit redemption up until the auction date.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The right to redeem a secured asset is not lost immediately upon NPA classification. Borrowers retain this right during the notice period and up to certain stages of the auction process.\nStatement 2 is correct: The Supreme Court highlighted a contradiction in the SARFAESI Act, 2002, where Section 13(8) states borrowers lose the right to redeem a secured asset once an auction notice is published, whereas Rules 8 & 9 allow redemption up until the auction date.",
+      "takeaway": "The SARFAESI Act contains a legal anomaly regarding the exact timeline for the extinguishment of a borrower's right to redeem a secured asset, creating friction between the Act's sections and its procedural rules.",
+      "evidenceExcerpt": "The Supreme Court highlighted a contradiction in the SARFAESI Act, 2002: Section 13(8) states borrowers lose the right to redeem a secured asset once an auction notice is published, whereas Rules 8 & 9 allow redemption up until the auction date.",
+      "qualityScore": 85,
+      "reviewNotes": "Tests a specific, nuanced legal anomaly highlighted in the source text. Very UPSC-like in its focus on recent judicial observations on statutory frameworks."
+    }
+  ],
+  "reviewerNotes": "Selected and refined three distinct questions to cover the entire source text without overlap. Question 1 focuses on procedural timelines (NPA classification and notice period). Question 2 addresses the legal anomaly regarding redemption rights. Question 3 covers the institutional role and regulation of ARCs. The wording has been adjusted to match the formal tone of UPSC Prelims."
+}

@@ -1,0 +1,149 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Correct-pair matching",
+      "prompt": "Consider the following pairs regarding the term of protection for Intellectual Property in India:\n\n1. Geographical Indication: 10 years (Renewable)\n2. Industrial Design: 10 years (Extendable by 5 years)\n3. Patents: 20 years\n4. Performers' Rights: 60 years\n\nHow many of the above pairs are correctly matched?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "Only three pairs"
+        },
+        {
+          "id": "D",
+          "text": "All four pairs"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Pair 1 is correct: GI protection is for 10 years and can be renewed. Pair 2 is correct: Designs are protected for 10 years, extendable by 5 years (10+5). Pair 3 is correct: Patents have a term of 20 years. Pair 4 is incorrect: Performers' rights are protected for 50 years, while the 60-year term applies to authors and producers.",
+      "takeaway": "While most IPR terms follow standard international norms, specific durations like Design (10+5) and Performers' rights (50 years) are distinct in the Indian framework.",
+      "evidenceExcerpt": "Geographical Indication (GI): 10 years, Renewed for 10 years... Design: 10 + 5 years... Patents: 20 years... Performers- 50 years;",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the recent trends in India’s Intellectual Property (IP) landscape:\n\n1. In 2023, for the first time, Indian residents filed the majority of patent applications in India.\n2. India currently ranks 4th globally in patent filings according to the World Intellectual Property Organization (WIPO).\n3. Geographical Indication (GI) filings have seen the highest percentage growth among all IP categories in the last five years.\n\nWhich of the statements given above are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: In 2023, Indian residents filed 55.2% of patent applications, marking the first time they held the majority. Statement 2 is incorrect: India rose to the 6th position in global patent filings (WIPO) in 2023, not 4th (it is 4th in trademark filings). Statement 3 is correct: While overall IP filings rose by 44%, GI filings led with a 380% surge.",
+      "takeaway": "India's IP landscape is shifting toward domestic innovation (resident filings) and a massive surge in Geographical Indications.",
+      "evidenceExcerpt": "India rose from 9th (2020) to 6th (2023) position in global patent filings (WIPO). In 2023, for the first time, Indian residents filed the majority (55.2%) of patent applications in India. India’s Intellectual Property (IP) filings rose by 44% in last 5 years, led by a 380% surge in Geographical Indications.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Feature-matching",
+      "prompt": "Which of the following is a mandatory requirement for a creation to be eligible for protection as a 'Patent' in India, but is NOT a requirement for 'Design' protection?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It must be a new or original creation."
+        },
+        {
+          "id": "B",
+          "text": "It must be capable of being replicated industrially."
+        },
+        {
+          "id": "C",
+          "text": "It must possess an 'Inventive Step'."
+        },
+        {
+          "id": "D",
+          "text": "It must be discernible to the human eye."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Patents require the invention to be novel, have an inventive step, and have industrial utility. Designs require the creation to be new/original and industrially replicable, but they focus on ornamental/visual appearance rather than an 'inventive step' or technical utility. Option D is specific to Designs, not Patents.",
+      "takeaway": "The 'Inventive Step' is a technical requirement unique to Patents, distinguishing them from Designs which focus on visual aesthetics.",
+      "evidenceExcerpt": "Design: New or original designs (Ornamental / visual appearance discernible to the human eye) which can be replicated industrially. Patents: Must qualify requirements of being novel, Inventive and having industrial utility.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to Trade Secrets and Copyrights in India, consider the following statements:\n\n1. Unlike Patents, Trade Secrets are protected as long as the confidentiality of the information is safeguarded.\n2. The term of protection for the producer of an audio-visual work is the same as the term for a performer's rights.\n\nWhich of the statements given above is/are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Trade secrets do not have a fixed expiry date like patents (20 years); they last as long as they remain confidential. Statement 2 is incorrect: Producers of audio-visual works have a protection term of 60 years, whereas performers' rights are protected for 50 years.",
+      "takeaway": "Trade secrets are unique because their protection is contingent on secrecy rather than a statutory time limit, while different categories of copyright have varying durations.",
+      "evidenceExcerpt": "Trade Secret: Confidential information having commercial value. Till the time confidentiality is safeguarded. Copyright... Producers - 60 years; Performers- 50 years;",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Conceptual",
+      "prompt": "Which of the following Intellectual Property Rights (IPR) in India is unique because its protection is not limited by a fixed statutory term of years, but rather by the continued maintenance of its specific characteristics?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Industrial Designs"
+        },
+        {
+          "id": "B",
+          "text": "Trade Secrets"
+        },
+        {
+          "id": "C",
+          "text": "Patents"
+        },
+        {
+          "id": "D",
+          "text": "Geographical Indications"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Trade Secrets are defined as confidential information having commercial value. Unlike Patents (20 years) or Designs (10+5 years), Trade Secrets are protected as long as the confidentiality of the information is safeguarded. While GIs can be renewed indefinitely, they still have a fixed statutory term of 10 years per renewal period.",
+      "takeaway": "Trade secrets are protected indefinitely as long as they remain confidential and commercially valuable.",
+      "evidenceExcerpt": "Trade Secret: Confidential information having commercial value. Till the time confidentiality is safeguarded.",
+      "contextLines": []
+    }
+  ]
+}

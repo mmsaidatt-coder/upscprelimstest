@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "How-many",
+      "prompt": "Consider the following statements regarding River Dolphins in India:\n1. The Ganges and Indus River Dolphins are classified as two distinct species.\n2. They are functionally blind and rely on echolocation to navigate and hunt.\n3. The Indus River Dolphin is currently extinct in Indian waters.\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Ganges and Indus River Dolphins are two distinct species based on genetic and morphological data.\nStatement 2 is correct: They are functionally blind and rely on echolocation to navigate and hunt.\nStatement 3 is incorrect: The Indus River Dolphin is not extinct in India; its population is recorded as 3 individuals according to the 'Population Status of River Dolphins in India 2024' report.",
+      "takeaway": "Ganges and Indus River Dolphins are distinct species. Both are functionally blind and rely on echolocation. The Indus River Dolphin maintains a tiny but extant population of 3 individuals in India.",
+      "evidenceExcerpt": "Ganges and Indus River Dolphins are two distinct species based on genetic and morphological data. Functionally blind, and rely on echolocation to navigate and hunt... India’s River dolphin population: 6327- Gangetic River dolphins (6324), Indus River Dolphins (only 3)...",
+      "qualityScore": 85,
+      "reviewNotes": "Good coverage of biological traits and population facts. The distractor in statement 3 is plausible given the extremely low population."
+    }
+  ],
+  "reviewerNotes": "Selected and refined 4 questions to cover distinct aspects of the source text: biological traits, conservation status, institutional locations, and recent report findings. Rewrote questions to align with UPSC's 'How many' format where appropriate and ensured distractors are plausible."
+}

@@ -1,0 +1,97 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-023-imo-conventions-and-carbon-capture-technologies-section-002-carbon-capture-and-utilisation-ccu-and-ocean-based-ccus",
+    "claimType": "Factual",
+    "claimText": "The Department of Science and Technology (DST) launched India's first R&D Roadmap for Net Zero through CCUS.",
+    "evidenceExcerpt": "The Department of Science and Technology (DST) launched India's first R&D Roadmap for Net Zero through CCUS.",
+    "pageNumbers": [
+      49,
+      50
+    ],
+    "examUse": "Statement-based question identifying the nodal agency for the CCUS roadmap.",
+    "distractorHooks": [
+      "Ministry of Environment, Forest and Climate Change (MoEFCC)",
+      "NITI Aayog"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-023-imo-conventions-and-carbon-capture-technologies-section-002-carbon-capture-and-utilisation-ccu-and-ocean-based-ccus",
+    "claimType": "Conceptual",
+    "claimText": "Direct Air Capture (DAC) isolates CO2 directly from ambient air rather than from industrial point sources.",
+    "evidenceExcerpt": "Direct Air Capture (DAC) isolates CO2 directly from ambient air using a gas trapping system.",
+    "pageNumbers": [
+      49,
+      50
+    ],
+    "examUse": "Correct-pair question matching DAC to its specific mechanism.",
+    "distractorHooks": [
+      "Capturing CO2 exclusively from industrial exhaust or flue gas"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-023-imo-conventions-and-carbon-capture-technologies-section-002-carbon-capture-and-utilisation-ccu-and-ocean-based-ccus",
+    "claimType": "Factual",
+    "claimText": "Direct Utilisation of captured CO2 includes its use in Enhanced Oil Recovery (EOR).",
+    "evidenceExcerpt": "Direct Utilisation of CO2 includes Enhanced Oil Recovery (EOR) and food/healthcare applications.",
+    "pageNumbers": [
+      49,
+      50
+    ],
+    "examUse": "Application-based question on the direct uses of captured CO2.",
+    "distractorHooks": [
+      "EOR is a method of converting CO2 into mineral carbonates",
+      "EOR reduces the efficiency of oil extraction"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-023-imo-conventions-and-carbon-capture-technologies-section-002-carbon-capture-and-utilisation-ccu-and-ocean-based-ccus",
+    "claimType": "Factual",
+    "claimText": "Captured CO2 can be converted into fuels such as methanol via Fischer-Tropsch synthesis.",
+    "evidenceExcerpt": "CO2-to-Products includes conversion to methanol/fuels via Fischer-Tropsch synthesis",
+    "pageNumbers": [
+      49,
+      50
+    ],
+    "examUse": "Statement-based question on chemical conversion methods for CO2 utilization.",
+    "distractorHooks": [
+      "Fischer-Tropsch synthesis is a method for Direct Air Capture",
+      "Fischer-Tropsch synthesis converts methanol into CO2"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-023-imo-conventions-and-carbon-capture-technologies-section-002-carbon-capture-and-utilisation-ccu-and-ocean-based-ccus",
+    "claimType": "Conceptual",
+    "claimText": "Ocean Alkalinity Enhancement (OAE) accelerates CO2 absorption by adding pulverized minerals like lime to the ocean.",
+    "evidenceExcerpt": "Ocean Alkalinity Enhancement (OAE) accelerates CO2 absorption by adding pulverized minerals like lime.",
+    "pageNumbers": [
+      49,
+      50
+    ],
+    "examUse": "Mechanism-based question on how OAE increases carbon sequestration.",
+    "distractorHooks": [
+      "OAE involves adding acids to the ocean",
+      "OAE decreases the ocean's pH level to absorb CO2"
+    ]
+  },
+  {
+    "id": "claim-006",
+    "sectionId": "packet-023-imo-conventions-and-carbon-capture-technologies-section-002-carbon-capture-and-utilisation-ccu-and-ocean-based-ccus",
+    "claimType": "Conceptual",
+    "claimText": "Ocean fertilisation promotes phytoplankton growth to boost CO2 absorption by adding micronutrients like phosphorus and nitrogen.",
+    "evidenceExcerpt": "Ocean fertilisation promotes phytoplankton growth by adding micronutrients like phosphorus and nitrogen.",
+    "pageNumbers": [
+      49,
+      50
+    ],
+    "examUse": "Statement-based question on marine geoengineering techniques for carbon capture.",
+    "distractorHooks": [
+      "Ocean fertilisation involves removing nutrients to prevent algal blooms",
+      "Ocean fertilisation directly traps CO2 in mineral form at the ocean floor"
+    ]
+  }
+]

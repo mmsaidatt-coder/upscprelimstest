@@ -1,0 +1,79 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Multiple-choice",
+      "prompt": "The 'Towards 1000' strategy of the International Solar Alliance (ISA) sets specific numerical targets to be achieved by the year 2030. Consider the following parameters:",
+      "contextLines": [
+        "1. Solar energy capacity installation",
+        "2. Carbon dioxide emission mitigation",
+        "3. Energy access delivery",
+        "4. Green hydrogen production",
+        "How many of the above parameters have a specific target of '1000' under this strategy?"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The 'Towards 1000' strategy includes specific targets of installing 1,000 GW of solar capacity, mitigating 1,000 million tonnes of CO2 annually, delivering energy access to 1,000 million people, and mobilizing USD 1,000 billion in investments. It does not set a specific '1,000' target for green hydrogen production. Thus, only three parameters are correct.",
+      "takeaway": "The 'Towards 1000' strategy focuses on four key pillars: investments, energy access, solar capacity, and CO2 mitigation.",
+      "evidenceExcerpt": "ISA's 'Towards 1000' strategy aims to mobilize USD 1,000 billion in investments, deliver energy access to 1,000 million people, install 1,000 GW of solar capacity, and mitigate 1,000 million tonnes of CO2 annually by 2030.",
+      "qualityScore": 88,
+      "reviewNotes": "Excellent conceptual question testing the specific pillars of the 'Towards 1000' strategy. Fixed the missing question statement to align with UPSC standards."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-choice",
+      "prompt": "Consider the following initiatives:",
+      "contextLines": [
+        "1. SolarX Startup Challenge",
+        "2. STAR-C Initiative",
+        "3. Global Solar Facility",
+        "4. Green Hydrogen Innovation Centre",
+        "How many of the above are initiatives of the International Solar Alliance (ISA)?"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "All four listed initiatives—SolarX Startup Challenge, STAR-C Initiative, Global Solar Facility, and Green Hydrogen Innovation Centre—are key programs operating under the International Solar Alliance (ISA).",
+      "takeaway": "The ISA has diversified its efforts beyond solar panel deployment to include startup incubation, capacity building, financing, and allied green technologies.",
+      "evidenceExcerpt": "Key ISA initiatives include the SolarX Startup Challenge, STAR-C Initiative, Global Solar Facility, and Green Hydrogen Innovation Centre.",
+      "qualityScore": 85,
+      "reviewNotes": "Added the missing question statement to the context lines to complete the 'How many of the above' format. Tests breadth of knowledge regarding ISA's expanding mandate."
+    }
+  ],
+  "reviewerNotes": "Selected 4 strong questions covering different aspects of the ISA: its initiatives, the 'Towards 1000' strategy, the SUNRISE initiative, and membership updates. Fixed missing question prompts in the 'How many of the above' formats to ensure they meet UPSC standards. Distractors are parallel and plausible."
+}

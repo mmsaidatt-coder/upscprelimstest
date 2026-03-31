@@ -1,0 +1,33 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-006-bio-policy-and-epigenetics-section-002-biochemical-markers",
+    "claimType": "Definition/Concept",
+    "claimText": "Biochemical markers are small molecules, such as sugars, amino acids, and lipids, produced during metabolic processes that are used to ascertain disease risks.",
+    "evidenceExcerpt": "Biochemical markers are small molecules (sugars, amino acids, lipids) produced during metabolic processes used to ascertain disease risks.",
+    "pageNumbers": [
+      13
+    ],
+    "examUse": "Statement-based question on the definition and nature of biochemical markers.",
+    "distractorHooks": [
+      "Large macromolecules like complex proteins or DNA",
+      "Molecules introduced externally rather than produced during metabolic processes"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-006-bio-policy-and-epigenetics-section-002-biochemical-markers",
+    "claimType": "Factual/Application",
+    "claimText": "Arabitol, myo-inositol, and ribothymidine are biochemical markers used to identify kidney complications in diabetic patients.",
+    "evidenceExcerpt": "Components for identifying kidney complications include arabitol, myo-inositol, and ribothymidine.",
+    "pageNumbers": [
+      13
+    ],
+    "examUse": "Correct-pair or statement-based question matching specific biochemical markers to their diagnostic application.",
+    "distractorHooks": [
+      "Markers for liver disease or cardiovascular complications",
+      "Used for detecting tuberculosis or malaria",
+      "Non-diabetic kidney disease markers"
+    ]
+  }
+]

@@ -1,0 +1,65 @@
+{
+  "questions": [
+    {
+      "subject": "History",
+      "difficulty": "Hard",
+      "questionType": "Comparative-Analysis",
+      "prompt": "Based on the regional statistics of the Memory of the World Register as of 2025, which of the following observations is correct?",
+      "contextLines": [
+        "Regional statistics show a significant variance in the number of inscriptions.",
+        "The total number of inscribed pieces of documentary heritage is 570."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "The Asia and the Pacific region has the highest number of inscriptions, accounting for over 50% of the Register."
+        },
+        {
+          "id": "B",
+          "text": "The combined inscriptions of Africa and the Arab States are fewer than those of Latin America and the Caribbean."
+        },
+        {
+          "id": "C",
+          "text": "Europe and North America hold fewer inscriptions than the combined total of all other geographical regions."
+        },
+        {
+          "id": "D",
+          "text": "International Organizations have contributed more inscriptions to the Register than the Arab States region."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Based on the data: Africa (41) + Arab States (24) = 65 inscriptions. Latin America and the Caribbean has 83 inscriptions. Therefore, 65 is less than 83. Option A is incorrect because Europe and North America (315) has the highest number. Option C is incorrect because 315 is more than half of 570 (285), meaning it holds more than all other regions combined. Option D is incorrect as International Organizations have 10, while Arab States have 24.",
+      "takeaway": "Europe and North America dominate the MoW Register, holding more than 50% of the total global inscriptions.",
+      "evidenceExcerpt": "Memory of the World Register – Africa | 41; Memory of the World Register – Arab States | 24; Memory of the World Register – Latin America and the Caribbean | 83; Memory of the World Register – Europe and North America | 315."
+    },
+    {
+      "subject": "History",
+      "difficulty": "Moderate",
+      "questionType": "Feature-Matching",
+      "prompt": "Consider the following statements regarding the scope and history of the Memory of the World International Register:\n\n1. The primary selection criteria for the Register are 'world significance' and 'outstanding universal value'.\n2. The first inscriptions on the International Register were made concurrently with the establishment of UNESCO in 1945.\n3. As of April 2025, the Register contains exactly 570 pieces of documentary heritage.\n\nWhich of the statements given above are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct as it identifies the specific selection criteria mentioned in the text. Statement 2 is incorrect because the first inscriptions were made in 1997, not 1945. Statement 3 is correct as per the April 2025 statistics provided in the source.",
+      "takeaway": "The MoW Register is a relatively modern initiative (starting in 1997) compared to the founding of UNESCO.",
+      "evidenceExcerpt": "First inscriptions on the International Register were made in 1997. As of April 2025, 570 pieces of documentary heritage - inscribed in the International Register. ...selection criteria 'world significance and outstanding universal value.'",
+      "contextLines": []
+    }
+  ]
+}

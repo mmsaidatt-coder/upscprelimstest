@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the rare mushroom species recently sighted in India: 1. The Blue Pinkgill mushroom is a native species of the Himalayan region. 2. The blue colour of the Blue Pinkgill mushroom is due to the presence of azulene, a pigment rarely found in fungi. 3. The sighting of the Shuttlecock mushroom in the Kawal Tiger Reserve marks its first confirmed record in the Eastern Ghats. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The Blue Pinkgill Mushroom is native to New Zealand, not the Himalayan region. Statement 2 is correct: It derives its color from azulene, a pigment that is rare in fungi but common in some flowers and plants. Statement 3 is correct: The Shuttlecock Mushroom was recorded in Kawal Tiger Reserve, marking its first confirmed sighting in the Eastern Ghats.",
+      "takeaway": "The Blue Pinkgill Mushroom (native to New Zealand) and the Shuttlecock Mushroom were recently spotted in Telangana forests, expanding the known range of the latter to the Eastern Ghats.",
+      "evidenceExcerpt": "Blue Pinkgill Mushroom: Native to New Zealand. Derives color from azulene, pigment rare in fungi but common in some flowers and plant... Shuttlecock Mushroom: Recorded in Kawal Tiger Reserve. Marks the first confirmed sighting in Eastern Ghats"
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Shuttlecock mushroom, consider the following statements: 1. Its known geographical distribution in India is exclusively restricted to the Western Ghats and western India. 2. It was recently recorded in the Kawal Tiger Reserve. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: While it was previously known from the Western Ghats and western India, its recent sighting in the Eastern Ghats means its distribution is no longer exclusively restricted to those western regions. Statement 2 is correct: It was recently recorded in the Kawal Tiger Reserve in Telangana.",
+      "takeaway": "The sighting of the Shuttlecock mushroom in Kawal Tiger Reserve extends its known range beyond the Western Ghats and western India into the Eastern Ghats.",
+      "evidenceExcerpt": "Shuttlecock Mushroom: Recorded in Kawal Tiger Reserve. Marks the first confirmed sighting in Eastern Ghats, extending its known range beyond Western Ghats and western India."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "correct-pair",
+      "prompt": "Consider the following pairs of rare mushroom species recently sighted in India and the specific locations where they were recorded:\n\n1. Blue Pinkgill Mushroom : Kadamba Reserve Forest\n2. Shuttlecock Mushroom : Kawal Tiger Reserve\n\nWhich of the pairs given above is/are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Both pairs are correctly matched. The Blue Pinkgill Mushroom, native to New Zealand, was spotted in the Kadamba Reserve Forest in Telangana. The Shuttlecock Mushroom was recorded in the Kawal Tiger Reserve, marking its first confirmed sighting in the Eastern Ghats.",
+      "takeaway": "Tracking the specific protected areas where rare species are recorded is important for understanding their habitat preferences and range extensions in India.",
+      "evidenceExcerpt": "Blue Pinkgill Mushroom... Spotted in Kadamba Reserve Forest. Shuttlecock Mushroom: Recorded in Kawal Tiger Reserve."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "comparison-driven",
+      "prompt": "Consider the following statements regarding the rare mushrooms recently sighted in Telangana:\n\n1. The Blue Pinkgill mushroom is an exotic species native to New Zealand, whereas the Shuttlecock mushroom has a known historical distribution in western India.\n2. The unique coloration of the Blue Pinkgill mushroom is derived from a pigment that is widely abundant in fungi but absent in flowering plants.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The Blue Pinkgill is native to New Zealand, while the Shuttlecock mushroom's known range previously included the Western Ghats and western India before its recent sighting in the Eastern Ghats. Statement 2 is incorrect: The Blue Pinkgill derives its color from azulene, a pigment that is actually rare in fungi but common in some flowers and plants.",
+      "takeaway": "The Blue Pinkgill's azulene pigment is an unusual trait for fungi, being more characteristic of certain plants. Meanwhile, the Shuttlecock mushroom's recent sighting represents a significant geographical range extension across the Indian peninsula.",
+      "evidenceExcerpt": "Blue Pinkgill Mushroom: Native to New Zealand. Derives color from azulene, pigment rare in fungi but common in some flowers and plant... Shuttlecock Mushroom... extending its known range beyond Western Ghats and western India."
+    }
+  ]
+}

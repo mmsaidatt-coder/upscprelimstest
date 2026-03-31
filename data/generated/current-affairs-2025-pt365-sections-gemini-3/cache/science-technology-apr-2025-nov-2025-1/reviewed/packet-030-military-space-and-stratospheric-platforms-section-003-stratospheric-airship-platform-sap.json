@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Stratospheric Airship Platform (SAP) recently tested in India:\n\n1. It operates in the stratosphere, typically between 17 to 22 kilometers above the Earth's surface.\n2. It uses helium for buoyancy and solar energy for its power requirements.\n3. It has been developed as a joint venture between the Indian Space Research Organisation (ISRO) and the Defence Research and Development Organisation (DRDO).\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: SAP operates in the stratosphere, typically between 17 to 22 kilometers above Earth. Statement 2 is correct: It functions as a High-Altitude Pseudo-Satellite (HAPS), using helium for buoyancy and solar energy with onboard batteries for power. Statement 3 is incorrect: It was developed by the Aerial Delivery Research and Development Establishment (ADRDE), Agra under DRDO. It is not a joint venture with ISRO.",
+      "takeaway": "The Stratospheric Airship Platform (SAP) is a DRDO-developed High-Altitude Pseudo-Satellite (HAPS) that uses helium and solar power to operate in the stratosphere.",
+      "evidenceExcerpt": "SAP was developed by the Aerial Delivery Research and Development Establishment (ADRDE), Agra under DRDO. It operates in the stratosphere, typically between 17 to 22 kilometers above Earth. Functions as a High-Altitude Pseudo-Satellite (HAPS), using helium for buoyancy and solar energy with onboard batteries for power.",
+      "qualityScore": 85,
+      "reviewNotes": "Converted to the 'How many statements are correct?' format to align with recent UPSC trends. The distractors are plausible and directly test the factual claims in the text."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Paragraph-Identification",
+      "prompt": "Consider the following description:\n\n\"It is an unmanned platform that operates at an altitude of 17 to 22 kilometers. It utilizes solar energy and lighter-than-air gas to maintain prolonged flights. It is designed to bridge the gap between drones and satellites, offering space-like Intelligence, Surveillance, and Reconnaissance (ISR) coverage at a lower cost and faster deployment rate than traditional orbital assets.\"\n\nWhich one of the following defense technologies is best described by the passage given above?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Autonomous Flying Wing Technology Demonstrator"
+        },
+        {
+          "id": "B",
+          "text": "Stratospheric Airship Platform (SAP)"
+        },
+        {
+          "id": "C",
+          "text": "High Altitude Long Endurance (HALE) UAV"
+        },
+        {
+          "id": "D",
+          "text": "Low Earth Orbit (LEO) Microsatellite"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The passage accurately describes the Stratospheric Airship Platform (SAP). It is an unmanned High-Altitude Pseudo-Satellite (HAPS) developed by DRDO that operates in the stratosphere using helium (lighter-than-air gas) and solar power to bridge the gap between conventional drones and satellites.",
+      "takeaway": "The Stratospheric Airship Platform (SAP) is a HAPS that utilizes helium and solar power to provide cost-effective, rapidly deployable ISR capabilities from the stratosphere.",
+      "evidenceExcerpt": "DRDO conducted maiden flight-trials of the Stratospheric Airship Platform (SAP)... SAP is an unmanned High-Altitude Pseudo-Satellite (HAPS) operating in the stratosphere (17-22 km). It uses helium for buoyancy and solar energy for power, bridging the gap between drones and satellites for ISR and border monitoring.",
+      "qualityScore": 85,
+      "reviewNotes": "Paragraph-identification questions are a staple in UPSC Prelims. The description is precise and the distractors represent other relevant aerospace technologies, making it a well-rounded question."
+    }
+  ],
+  "reviewerNotes": "Selected three strong questions covering different aspects of the Stratospheric Airship Platform (SAP) and HAPS technology. Rewrote the statement-based question to match the latest UPSC 'How many statements' format. Improved distractors in the conceptual question to ensure they are plausible and parallel. The paragraph-identification question was retained and polished as it perfectly mimics UPSC's technology description questions."
+}

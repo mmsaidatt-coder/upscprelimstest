@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the regulation of pharmaceuticals in India:\n1. The Central Drugs Standard Control Organisation (CDSCO) functions as the National Regulatory Authority of India.\n2. State Drug Regulatory Authorities are responsible for granting licenses and conducting inspections of manufacturing units at the state level.\n3. The National Pharmaceutical Pricing Authority (NPPA) enforces the provisions of the Drugs (Prices Control) Order.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: The CDSCO, under the Directorate General of Health Services, Ministry of Health & Family Welfare, is the National Regulatory Authority of India. Statement 2 is correct: State Drug Regulatory Authorities grant licenses and conduct inspections at the state level. Statement 3 is correct: The NPPA enforces the provisions of the Drugs (Prices Control) Order.",
+      "takeaway": "While CDSCO acts as the central nodal regulatory authority, state-level bodies handle manufacturing licensing and inspections, and the NPPA manages drug pricing.",
+      "evidenceExcerpt": "Central Drugs Standard Control Organisation (CDSCO) under Directorate General of Health Services, Ministry of Health & Family Welfare is National Regulatory Authority of India. National Pharmaceutical Pricing Authority (NPPA) enforces provisions of Drugs (Prices Control) Order... State Drug Regulatory Authorities grant licenses and conduct inspections at the state level.",
+      "qualityScore": 85,
+      "reviewNotes": "Modified the statements to be entirely factual and clear, testing the candidate's knowledge of the division of responsibilities among different regulatory bodies in India."
+    }
+  ],
+  "reviewerNotes": "Selected and refined 4 questions. Ensured that the distractors are plausible and parallel. The questions cover different aspects of the source text: Schedule M (GMP), regulatory bodies (CDSCO, NPPA, State authorities), the legal definition of FDCs, and the clinical rationale for FDCs. Quality scores were kept conservative."
+}

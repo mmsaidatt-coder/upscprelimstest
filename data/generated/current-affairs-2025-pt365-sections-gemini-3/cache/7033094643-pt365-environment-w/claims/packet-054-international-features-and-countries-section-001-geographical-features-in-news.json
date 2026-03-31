@@ -1,0 +1,77 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-054-international-features-and-countries-section-001-geographical-features-in-news",
+    "claimType": "Geographical Location",
+    "claimText": "The Davis Strait connects the Labrador Sea and Baffin Bay.",
+    "evidenceExcerpt": "Davis Strait connects the Labrador Sea and Baffin Bay.",
+    "pageNumbers": [
+      113
+    ],
+    "examUse": "Map-based correct-pair or statement-based question on straits and connected water bodies.",
+    "distractorHooks": [
+      "Connects Bering Sea and Chukchi Sea",
+      "Connects Hudson Bay and Atlantic Ocean"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-054-international-features-and-countries-section-001-geographical-features-in-news",
+    "claimType": "Geographical Location",
+    "claimText": "The Kamchatka Peninsula is located in the Russian Far East on the Pacific Ring of Fire and is surrounded by the Bering Sea, Pacific Ocean, and Sea of Okhotsk.",
+    "evidenceExcerpt": "Kamchatka Peninsula is located in the Russian Far East on the Pacific Ring of Fire, surrounded by the Bering Sea, Pacific Ocean, and Sea of Okhotsk.",
+    "pageNumbers": [
+      113
+    ],
+    "examUse": "Map-based question identifying the surrounding water bodies of the Kamchatka Peninsula.",
+    "distractorHooks": [
+      "Surrounded by the Sea of Japan and Yellow Sea",
+      "Located in the Scandinavian Peninsula"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-054-international-features-and-countries-section-001-geographical-features-in-news",
+    "claimType": "Geographical Feature",
+    "claimText": "The Perito Moreno glacier, also known as the 'White Giant', is located in Los Glaciares National Park in Argentina.",
+    "evidenceExcerpt": "Perito Moreno glacier, known as the 'White Giant', is located in Argentina's Los Glaciares National Park.",
+    "pageNumbers": [
+      113
+    ],
+    "examUse": "Correct-pair question matching glaciers to their respective countries or national parks.",
+    "distractorHooks": [
+      "Located in Chile's Torres del Paine",
+      "Located in the Swiss Alps"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-054-international-features-and-countries-section-001-geographical-features-in-news",
+    "claimType": "Geographical Location",
+    "claimText": "The Drake Passage lies between Cape Horn and the South Shetland Islands and forms part of the Antarctic Circumpolar Current.",
+    "evidenceExcerpt": "Drake Passage lies between Cape Horn and the South Shetland Islands, forming part of the Antarctic Circumpolar Current.",
+    "pageNumbers": [
+      113
+    ],
+    "examUse": "Statement-based question on the location and oceanographic significance of the Drake Passage.",
+    "distractorHooks": [
+      "Lies between the Falkland Islands and Argentina",
+      "Forms part of the Gulf Stream"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-054-international-features-and-countries-section-001-geographical-features-in-news",
+    "claimType": "Geographical Location",
+    "claimText": "Scarborough Shoal, also known as Huangyan Island or Panatag Shoal, is a small atoll located in the South China Sea.",
+    "evidenceExcerpt": "Scarborough Shoal (Huangyan Island/Panatag Shoal) is a small atoll in the South China Sea.",
+    "pageNumbers": [
+      113
+    ],
+    "examUse": "Map-based or correct-pair question matching disputed islands/shoals to their respective seas.",
+    "distractorHooks": [
+      "Located in the East China Sea",
+      "Located in the Sea of Japan"
+    ]
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-026-global-environment-facility-and-wmo-section-003-state-and-trends-of-carbon-pricing-2025",
+    "claimType": "Factual",
+    "claimText": "The State and Trends of Carbon Pricing 2025 report is released by the World Bank Group.",
+    "evidenceExcerpt": "State and Trends of Carbon Pricing 2025 report is released by the World Bank Group.",
+    "pageNumbers": [
+      56
+    ],
+    "examUse": "Statement-based question identifying the publishing organization of the report.",
+    "distractorHooks": [
+      "Released by UNEP",
+      "Released by UNFCCC",
+      "Released by World Economic Forum"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-026-global-environment-facility-and-wmo-section-003-state-and-trends-of-carbon-pricing-2025",
+    "claimType": "Conceptual",
+    "claimText": "Emissions Trading Systems (ETS) involve the government setting a cap on greenhouse gas emissions or emission intensity.",
+    "evidenceExcerpt": "Emissions Trading Systems involve the government setting a cap on GHG emissions or emission intensity.",
+    "pageNumbers": [
+      56
+    ],
+    "examUse": "Correct-pair question matching carbon pricing instruments with their mechanisms.",
+    "distractorHooks": [
+      "Government levies a fee on emissions",
+      "Generated through voluntary emission reduction activities"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-026-global-environment-facility-and-wmo-section-003-state-and-trends-of-carbon-pricing-2025",
+    "claimType": "Conceptual",
+    "claimText": "Carbon Taxes involve the government levying a fee on covered entities for their greenhouse gas emissions.",
+    "evidenceExcerpt": "Carbon Taxes involve the government levying a fee on covered entities for their GHG emissions.",
+    "pageNumbers": [
+      56
+    ],
+    "examUse": "Correct-pair question matching carbon pricing instruments with their mechanisms.",
+    "distractorHooks": [
+      "Government sets a cap on emissions",
+      "Tradable credits generated through voluntary activities"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-026-global-environment-facility-and-wmo-section-003-state-and-trends-of-carbon-pricing-2025",
+    "claimType": "Conceptual",
+    "claimText": "Carbon Crediting Mechanisms generate tradable credits through voluntary activities that reduce emissions.",
+    "evidenceExcerpt": "Carbon Crediting Mechanisms generate tradable credits through voluntary activities that reduce emissions.",
+    "pageNumbers": [
+      56
+    ],
+    "examUse": "Correct-pair question matching carbon pricing instruments with their mechanisms.",
+    "distractorHooks": [
+      "Mandatory government cap on emissions",
+      "Government levies a fee on emissions"
+    ]
+  }
+]

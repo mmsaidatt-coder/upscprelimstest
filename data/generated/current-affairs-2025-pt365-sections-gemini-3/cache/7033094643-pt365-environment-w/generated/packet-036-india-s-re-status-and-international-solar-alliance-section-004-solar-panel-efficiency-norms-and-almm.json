@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Approved List of Models and Manufacturers (ALMM) and recent solar panel efficiency norms:\n1. The relaxed efficiency norm of 18% for solar panels is applicable universally to both off-grid applications and grid-connected rooftop solar systems.\n2. The ALMM is a registry maintained by the Ministry of Power to certify all renewable energy equipment used in government projects.\n3. A specific Distributed Renewable Energy (DRE) category has been introduced to facilitate the inclusion of smaller manufacturers in rural electrification.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "3 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The relaxed efficiency norms apply only to off-grid solar applications below 200W (like solar lanterns) and do not affect larger systems like rooftop solar or pumps. Statement 2 is incorrect: ALMM is an MNRE-approved list specifically for solar PV modules and manufacturers, not all renewable energy equipment under the Ministry of Power. Statement 3 is correct: A new Distributed Renewable Energy (DRE) category was introduced to support smaller manufacturers and promote wider rural electrification.",
+      "takeaway": "The MNRE's easing of solar panel efficiency norms to 18% is strictly for small-scale (below 200W) off-grid rural projects, aiming to boost local manufacturing via the new DRE category under ALMM.",
+      "evidenceExcerpt": "Ministry of New and Renewable Energy (MNRE) eased solar panel efficiency norms for off-grid rural projects allowing lower efficiency modules to be included in Approved List of Models and Manufacturers (ALMM)... Scope of Change: Applies only to off-grid solar applications below 200W like Solar lanterns, Micro solar grids... Introduction of Distributed Renewable Energy (DRE) category: To support smaller manufacturers & Wider rural electrification."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the recent easing of solar panel efficiency norms by the Government of India:\n1. The relaxed efficiency norms apply exclusively to off-grid solar applications with a capacity below 200W.\n2. The revised norms permit the use of both Crystalline silicon and Cadmium Telluride technologies at a minimum efficiency of 18%.\n3. The relaxation allows lower efficiency modules to be utilized in large-scale agricultural solar pumps.\nWhich of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The scope of the change applies only to off-grid solar applications below 200W. Statement 2 is correct: The new standard sets an 18% efficiency requirement for both Crystalline silicon and Cadmium Telluride technologies. Statement 3 is incorrect: The relaxed efficiency norms do not affect larger systems like rooftop solar or agricultural pumps.",
+      "takeaway": "The relaxation of solar panel efficiency norms to 18% is a targeted measure for micro off-grid applications, ensuring that larger installations like solar pumps and rooftops maintain higher efficiency standards.",
+      "evidenceExcerpt": "New Standard: Both technologies at 18% efficiency. Scope of Change: Applies only to off-grid solar applications below 200W like Solar lanterns, Micro solar grids... and do not affect larger systems like rooftop solar or pumps."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Multiple Choice",
+      "prompt": "With reference to the Distributed Renewable Energy (DRE) category recently in the news, which of the following statements is correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It was introduced by the NITI Aayog to promote foreign direct investment in large-scale solar parks."
+        },
+        {
+          "id": "B",
+          "text": "It aims to support smaller manufacturers by allowing lower efficiency solar modules for off-grid rural projects under the ALMM."
+        },
+        {
+          "id": "C",
+          "text": "It mandates a minimum of 25% efficiency for all solar panels used in urban rooftop installations."
+        },
+        {
+          "id": "D",
+          "text": "It is a dedicated fund created to subsidize the import of Cadmium Telluride solar cells from developing nations."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Distributed Renewable Energy (DRE) category was introduced by the Ministry of New and Renewable Energy (MNRE) to support smaller manufacturers and promote wider rural electrification. It allows lower efficiency modules (18%) to be included in the Approved List of Models and Manufacturers (ALMM) for off-grid rural projects below 200W.",
+      "takeaway": "The DRE category under ALMM is a policy tool to integrate smaller domestic manufacturers into the supply chain for rural off-grid solar applications.",
+      "evidenceExcerpt": "Ministry of New and Renewable Energy (MNRE) eased solar panel efficiency norms for off-grid rural projects allowing lower efficiency modules to be included in Approved List of Models and Manufacturers (ALMM)... Introduction of Distributed Renewable Energy (DRE) category: To support smaller manufacturers & Wider rural electrification."
+    }
+  ]
+}

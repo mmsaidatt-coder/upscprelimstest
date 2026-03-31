@@ -1,0 +1,130 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-054-international-features-and-countries-section-002-rivers-and-water-bodies-in-news",
+    "claimType": "Geographical Location",
+    "claimText": "Tulare Lake is located in the San Joaquin Valley of California.",
+    "evidenceExcerpt": "Tulare Lake: San Joaquin Valley, California",
+    "pageNumbers": [
+      114
+    ],
+    "examUse": "Correct-pair matching for lakes and their geographical locations.",
+    "distractorHooks": [
+      "Death Valley",
+      "Nevada",
+      "Great Rift Valley"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-054-international-features-and-countries-section-002-rivers-and-water-bodies-in-news",
+    "claimType": "Geographical Boundary",
+    "claimText": "The Aral Sea is located on the boundary between Kazakhstan to the north and Uzbekistan to the south.",
+    "evidenceExcerpt": "The Aral Sea is located on the boundary between Kazakhstan (North) and Uzbekistan (South).",
+    "pageNumbers": [
+      114
+    ],
+    "examUse": "Map-based boundary questions or correct-pair matching for water bodies.",
+    "distractorHooks": [
+      "Turkmenistan",
+      "Kyrgyzstan",
+      "Tajikistan"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-054-international-features-and-countries-section-002-rivers-and-water-bodies-in-news",
+    "claimType": "Geographical Feature",
+    "claimText": "The Congo River is the deepest river in the world and crosses the equator twice.",
+    "evidenceExcerpt": "The Congo River crosses the equator twice, is the deepest river in the world",
+    "pageNumbers": [
+      114
+    ],
+    "examUse": "Statement-based questions on unique geographical features of world rivers.",
+    "distractorHooks": [
+      "Amazon River",
+      "Nile River",
+      "Crosses the Tropic of Cancer twice"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-054-international-features-and-countries-section-002-rivers-and-water-bodies-in-news",
+    "claimType": "Environmental Feature",
+    "claimText": "The Congo River basin holds the world's largest tropical peatland.",
+    "evidenceExcerpt": "its basin holds the world's largest tropical peatland.",
+    "pageNumbers": [
+      114
+    ],
+    "examUse": "Environment and geography statement-based questions regarding carbon sinks and peatlands.",
+    "distractorHooks": [
+      "Amazon Basin",
+      "Mekong Basin",
+      "Largest temperate peatland"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-054-international-features-and-countries-section-002-rivers-and-water-bodies-in-news",
+    "claimType": "River Origin",
+    "claimText": "The Blue Nile originates from Lake Tana in Ethiopia.",
+    "evidenceExcerpt": "The Blue Nile originates from Lake Tana in Ethiopia",
+    "pageNumbers": [
+      114
+    ],
+    "examUse": "Correct-pair matching for river origins and their respective countries.",
+    "distractorHooks": [
+      "Lake Victoria",
+      "White Nile",
+      "Kenya"
+    ]
+  },
+  {
+    "id": "claim-006",
+    "sectionId": "packet-054-international-features-and-countries-section-002-rivers-and-water-bodies-in-news",
+    "claimType": "River Confluence",
+    "claimText": "The Blue Nile meets the White Nile at Khartoum to form the Nile River.",
+    "evidenceExcerpt": "meets the White Nile at Khartoum to form the Nile.",
+    "pageNumbers": [
+      114
+    ],
+    "examUse": "Statement-based questions on river systems and confluences.",
+    "distractorHooks": [
+      "Cairo",
+      "Lake Victoria",
+      "Meets the Atbara River"
+    ]
+  },
+  {
+    "id": "claim-007",
+    "sectionId": "packet-054-international-features-and-countries-section-002-rivers-and-water-bodies-in-news",
+    "claimType": "Geographical Location",
+    "claimText": "The Great Ruaha River is a major tributary of the Rufiji River in Tanzania.",
+    "evidenceExcerpt": "The Great Ruaha River is a major tributary of the Rufiji River in Tanzania.",
+    "pageNumbers": [
+      114
+    ],
+    "examUse": "Correct-pair matching for rivers and their respective countries or main river systems.",
+    "distractorHooks": [
+      "Zambezi River",
+      "Kenya",
+      "Congo River"
+    ]
+  },
+  {
+    "id": "claim-008",
+    "sectionId": "packet-054-international-features-and-countries-section-002-rivers-and-water-bodies-in-news",
+    "claimType": "Geographical Feature",
+    "claimText": "The Seine River is the second longest river in France after the Loire River and empties into the English Channel.",
+    "evidenceExcerpt": "Seine River: Second longest river in France after Loire... empties into the English Channel at Le Havre.",
+    "pageNumbers": [
+      114
+    ],
+    "examUse": "Statement-based questions on European rivers and their outfalls.",
+    "distractorHooks": [
+      "Longest river in France",
+      "Empties into the Mediterranean Sea",
+      "Rhone River"
+    ]
+  }
+]

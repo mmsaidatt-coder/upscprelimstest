@@ -1,0 +1,33 @@
+{
+  "questions": [
+    {
+      "subject": "History",
+      "difficulty": "Moderate",
+      "questionType": "Application-based",
+      "prompt": "According to the statutes of the Nobel Foundation regarding the division of the prize, which of the following scenarios is permissible?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A single prize amount is divided equally between four individual researchers for a single collaborative work."
+        },
+        {
+          "id": "B",
+          "text": "A prize is awarded to two distinct works, with the amount divided equally between them."
+        },
+        {
+          "id": "C",
+          "text": "The prize for Literature is awarded jointly to four authors who co-wrote a single book."
+        },
+        {
+          "id": "D",
+          "text": "The prize money is divided between two works, one receiving two-thirds and the other receiving one-third of the total."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "According to the statutes, a prize amount may be equally divided between two works. If a work is produced by two or three persons, it can be awarded jointly. However, in no case may a prize be divided between more than three persons. Option B is specifically mentioned as a rule for dividing the amount between two works.",
+      "takeaway": "Nobel Prize statutes strictly limit the number of recipients to three persons per prize and allow for the division of the award between two distinct works.",
+      "evidenceExcerpt": "The statutes of the Nobel Foundation says that a prize amount may be equally divided between two works, each of which is considered to merit a prize... In no case may a prize amount be divided between more than three persons.",
+      "contextLines": []
+    }
+  ]
+}

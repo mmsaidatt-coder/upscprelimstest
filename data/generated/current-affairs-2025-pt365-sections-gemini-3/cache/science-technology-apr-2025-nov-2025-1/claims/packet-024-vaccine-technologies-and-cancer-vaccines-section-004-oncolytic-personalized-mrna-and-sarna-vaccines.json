@@ -1,0 +1,76 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-024-vaccine-technologies-and-cancer-vaccines-section-004-oncolytic-personalized-mrna-and-sarna-vaccines",
+    "claimType": "Factual",
+    "claimText": "Oncolytic vaccines utilize oncolytic viruses to directly destroy cancer cells and trigger an anti-tumor immune response.",
+    "evidenceExcerpt": "Oncolytic vaccines use viruses to directly kill cancer cells and stimulate an anti-tumor immune response",
+    "pageNumbers": [
+      49
+    ],
+    "examUse": "Statement-based question on the mechanism of action of oncolytic vaccines.",
+    "distractorHooks": [
+      "Claiming they use lipid nanoparticles instead of viruses",
+      "Claiming they only stimulate the immune system without directly killing cancer cells"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-024-vaccine-technologies-and-cancer-vaccines-section-004-oncolytic-personalized-mrna-and-sarna-vaccines",
+    "claimType": "Conceptual",
+    "claimText": "mRNA vaccines deliver genetic material encapsulated in lipid nanoparticles to prompt the body to produce antigens.",
+    "evidenceExcerpt": "mRNA vaccines deliver genetic material encapsulated in lipid nanoparticles to prompt protein production (antigens).",
+    "pageNumbers": [
+      49
+    ],
+    "examUse": "Statement-based question on the delivery mechanism of mRNA vaccines.",
+    "distractorHooks": [
+      "Claiming they use viral vectors for delivery",
+      "Claiming they deliver pre-made proteins or weakened viruses directly into the body"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-024-vaccine-technologies-and-cancer-vaccines-section-004-oncolytic-personalized-mrna-and-sarna-vaccines",
+    "claimType": "Comparison",
+    "claimText": "Self-amplifying mRNA (saRNA) vaccines instruct the body to replicate mRNA, allowing them to be effective at lower doses compared to standard mRNA vaccines.",
+    "evidenceExcerpt": "Self-amplifying mRNA (saRNA) vaccines instruct the body to replicate mRNA, allowing for lower doses compared to standard mRNA vaccines.",
+    "pageNumbers": [
+      49
+    ],
+    "examUse": "Comparison question distinguishing saRNA from standard mRNA vaccines.",
+    "distractorHooks": [
+      "Claiming saRNA requires higher doses than standard mRNA",
+      "Claiming standard mRNA replicates in the body while saRNA does not"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-024-vaccine-technologies-and-cancer-vaccines-section-004-oncolytic-personalized-mrna-and-sarna-vaccines",
+    "claimType": "Factual",
+    "claimText": "Personalized mRNA cancer vaccines are developed based on the genetic analysis of a patient's specific cancer cells.",
+    "evidenceExcerpt": "Personalized mRNA vaccines are based on the genetic analysis of a patient's specific cancer cells.",
+    "pageNumbers": [
+      49
+    ],
+    "examUse": "Statement-based question on the nature of personalized cancer treatments.",
+    "distractorHooks": [
+      "Claiming personalized mRNA vaccines use a universal genetic code for all cancer types"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-024-vaccine-technologies-and-cancer-vaccines-section-004-oncolytic-personalized-mrna-and-sarna-vaccines",
+    "claimType": "Factual",
+    "claimText": "Gennova Biopharmaceuticals is developing a self-amplifying mRNA (saRNA) vaccine candidate against the Nipah virus.",
+    "evidenceExcerpt": "Gennova Biopharmaceuticals is developing a saRNA vaccine candidate against the Nipah virus.",
+    "pageNumbers": [
+      49
+    ],
+    "examUse": "Correct-pair question matching vaccine technologies with their target diseases or developers.",
+    "distractorHooks": [
+      "Claiming the Nipah virus vaccine is an oncolytic virus vaccine",
+      "Claiming it is a traditional live-attenuated vaccine"
+    ]
+  }
+]

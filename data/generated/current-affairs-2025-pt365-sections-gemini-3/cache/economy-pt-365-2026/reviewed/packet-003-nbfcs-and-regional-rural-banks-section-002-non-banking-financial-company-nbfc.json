@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Non-Banking Financial Companies (NBFCs) in India:\n\n1. They are registered under the Companies Act, 1956.\n2. Their principal business operations include agricultural, industrial, and real estate financing.\n3. They are permitted to accept demand deposits up to a limit specified by the Reserve Bank of India.\n4. They are kept outside the payment and settlement system and cannot issue cheques drawn on themselves.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: NBFCs are registered under the Companies Act, 1956.\nStatement 2 is incorrect: While they engage in lending and investment, their principal business explicitly excludes agriculture, industry, and real estate activities.\nStatement 3 is incorrect: Unlike commercial banks, NBFCs cannot accept demand deposits under any circumstances.\nStatement 4 is correct: NBFCs are outside the payment and settlement system and cannot issue cheques drawn on themselves.",
+      "takeaway": "NBFCs are registered under the Companies Act and have strict operational boundaries, including the inability to accept demand deposits, participate in the payment and settlement system, or engage primarily in agriculture, industry, or real estate.",
+      "evidenceExcerpt": "NBFCs are registered under the Companies Act, 1956, engaging in lending and investment while excluding agriculture, industry, and real estate activities. Unlike banks, NBFCs cannot accept demand deposits, are outside the payment and settlement system, and cannot issue cheques drawn on themselves.",
+      "qualityScore": 90,
+      "reviewNotes": "The question comprehensively covers the short source text in a single, high-quality UPSC-style format. The distractors are highly plausible and effectively test the core regulatory distinctions of NBFCs."
+    }
+  ],
+  "reviewerNotes": "Selected and refined one comprehensive question that covers all the atomic claims from the brief source text. Generating a second question would have resulted in redundant testing of the same facts."
+}

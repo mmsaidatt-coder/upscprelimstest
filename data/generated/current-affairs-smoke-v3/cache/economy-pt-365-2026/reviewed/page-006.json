@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Analytical",
+      "prompt": "Which one of the following statements best distinguishes between the different components of India's Foreign Exchange Reserves in terms of their primary function or characteristic?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Foreign Currency Assets (FCA) are held primarily for liquidity and intervention, whereas Gold Reserves serve as a long-term hedge against systemic risks and inflation."
+        },
+        {
+          "id": "B",
+          "text": "The Reserve Tranche Position (RTP) can be drawn upon only with strict conditionality, unlike Special Drawing Rights (SDR) which are unconditional."
+        },
+        {
+          "id": "C",
+          "text": "Gold Reserves offer a consistent interest yield, while Foreign Currency Assets are non-interest bearing but highly liquid."
+        },
+        {
+          "id": "D",
+          "text": "Special Drawing Rights (SDR) are physical assets held in RBI vaults, whereas the Reserve Tranche Position (RTP) is a book-entry claim."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Option A is the most accurate distinction. FCA are held in major convertible currencies, implying their use for managing day-to-day liquidity and intervening in currency markets. The text explicitly states that gold is accumulated as a 'Hedge against Inflation' and for 'Risk Mitigation' against volatility, indicating its role as a strategic, long-term asset. Option B is incorrect; the text states RTP is 'readily available for withdrawal without strict conditions'. Option C is incorrect; the text clearly states gold yields 'no interest or dividends'. Option D is incorrect as neither SDR nor RTP are physical assets.",
+      "takeaway": "Each component of the foreign exchange reserves serves a distinct purpose, from providing immediate liquidity (FCA) to acting as a long-term store of value and hedge against uncertainty (Gold), and facilitating interactions with the IMF (SDR, RTP).",
+      "evidenceExcerpt": "Foreign Currency Assets (FCA): These are maintained in currencies like the US dollar, euro... Why is RBI increasing gold reserves? ... Risk Mitigation: Help protect against currency volatility... Hedge against Inflation... Risk Associated with Storing Gold... Zero Yield: Gold yields no interest or dividends... Reserve Tranche Position (RTP): ...readily available for withdrawal without strict conditions.",
+      "qualityScore": 90,
+      "reviewNotes": "This is an excellent, high-difficulty question. It requires a nuanced, comparative understanding of all four components, forcing the candidate to evaluate the primary function of each. The distractors are well-crafted and target common misconceptions."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Applied/Conceptual",
+      "prompt": "In the context of managing India's foreign exchange reserves, which of the following statements best captures an inherent trade-off associated with increasing the proportion of gold holdings?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Gold serves as a hedge against inflation and currency volatility but offers lower liquidity compared to foreign currency assets."
+        },
+        {
+          "id": "B",
+          "text": "Gold diversifies the reserve base away from the US dollar but is subject to higher revaluation risks than sovereign bonds."
+        },
+        {
+          "id": "C",
+          "text": "Gold yields no interest, yet its storage and security costs are typically lower than the transaction costs of managing foreign currency assets."
+        },
+        {
+          "id": "D",
+          "text": "Gold offers potential for high capital appreciation but is not considered a part of a country's official reserve assets by the IMF."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Option A correctly identifies the trade-off. The source text states that the RBI increases gold reserves to 'Hedge against Inflation' and for 'Risk Mitigation' against 'currency volatility'. However, it also lists 'Reduced Liquidity and Flexibility' as a risk, noting that converting gold to cash is 'slower and costlier than liquidating foreign currency assets'. This highlights the trade-off between safety/hedging and liquidity. Option B is incorrect because gold helps mitigate, not increase, revaluation risks. Option C is incorrect as the text highlights storage and security costs as a disadvantage, not an advantage. Option D is incorrect as gold is a key component of official foreign exchange reserves.",
+      "takeaway": "Management of foreign exchange reserves involves balancing competing objectives. While gold provides a strategic hedge against inflation and currency risks, this benefit comes at the cost of lower liquidity and a lack of interest income compared to foreign currency assets like government bonds.",
+      "evidenceExcerpt": "Why is RBI increasing gold reserves? ... Hedge against Inflation: Gold is accumulated as a hedge against inflation... Risk Mitigation: Help protect against currency volatility... Risk Associated with Storing Gold: Reduced Liquidity and Flexibility: Converting large gold holdings to cash is slower and costlier than liquidating foreign currency assets. Zero Yield: Gold yields no interest or dividends...",
+      "qualityScore": 85,
+      "reviewNotes": "This is a strong conceptual question that requires the candidate to synthesize information about both the benefits and risks of holding gold to identify a 'trade-off', which is a higher-order thinking skill."
+    }
+  ],
+  "reviewerNotes": "The candidate set had several straightforward, factual-recall questions. I have selected and rewritten four questions that are more analytical and conceptual, in line with UPSC standards. The chosen questions cover the key topics of Forex reserve composition, the strategic role of gold, and the RBI's financial buffers. I rejected questions that were trivial (listing all components) or based on information not fully available in the provided text (details of the Ombudsman scheme). The final set has a good mix of moderate and hard questions."
+}

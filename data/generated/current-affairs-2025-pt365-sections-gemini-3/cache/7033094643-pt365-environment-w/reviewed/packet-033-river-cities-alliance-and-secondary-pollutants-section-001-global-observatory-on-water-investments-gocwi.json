@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements:\n1. The Global Observatory on Water Investments (GOCWI) is an initiative under the Global Water Partnership (GWP).\n2. The Global Water Partnership (GWP) is a specialized agency of the United Nations.\n3. GOCWI serves as a high-level platform to sustain political and financial momentum for water investments.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: GOCWI forms a core pillar of the Global Water Partnership's (GWP) Global Transformation Agenda on Water Investments.\nStatement 2 is incorrect: GWP is not a specialized agency of the United Nations. It is an independent intergovernmental organisation and multi-stakeholder action network dedicated to the equitable, sustainable, and efficient management of water resources.\nStatement 3 is correct: GOCWI serves as a high-level platform to sustain political and financial momentum for water investments, aiming to mobilise 15 billion for water security by 2030.",
+      "takeaway": "The Global Observatory on Water Investments (GOCWI) is a platform under the Global Water Partnership (GWP) aimed at sustaining financial momentum for water security. GWP is an intergovernmental organisation, not a UN specialized agency.",
+      "evidenceExcerpt": "It forms a core pillar of the Global Water Partnership’s (GWP) Global Transformation Agenda on Water Investments. GWP is a multi-stakeholder action network and intergovernmental organisation dedicated to equitable, sustainable, and efficient management of water resources.\n- Aims to mobilise 15 billion for water security by 2030.\n- Serves as a high-level platform to sustain political and financial momentum for water investments.",
+      "qualityScore": 88,
+      "reviewNotes": "Combined the best elements of Candidate 1 and 2 to create a comprehensive question that tests the initiative, its parent body, and the nature of the parent body (a classic UPSC trap)."
+    }
+  ],
+  "reviewerNotes": "Selected and refined one question to test the institutional framework and purpose of GOCWI and GWP. The 'UN specialized agency' trap is highly characteristic of UPSC Prelims."
+}

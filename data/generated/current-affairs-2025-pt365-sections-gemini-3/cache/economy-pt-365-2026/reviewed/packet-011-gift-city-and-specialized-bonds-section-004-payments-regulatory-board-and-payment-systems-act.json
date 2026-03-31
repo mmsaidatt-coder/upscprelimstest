@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Payments Regulatory Board in India:\n1. It was constituted under the provisions of the Reserve Bank of India Act, 1934.\n2. The Governor of the Reserve Bank of India serves as its ex officio Chairperson.\n3. It consists exclusively of officials from the Reserve Bank of India.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect: The Payments Regulatory Board is constituted under the Payment and Settlement Systems Act, 2007, not the RBI Act, 1934. Statement 2 is correct: The RBI Governor serves as the ex officio Chairperson of the Board. Statement 3 is incorrect: The Board does not consist exclusively of RBI officials; it includes the RBI Governor, a Deputy Governor, one RBI officer, and three central government nominees.",
+      "takeaway": "The Payments Regulatory Board is a statutory body under the Payment and Settlement Systems Act, 2007, chaired by the RBI Governor, and includes a mix of RBI officials and Central Government nominees.",
+      "evidenceExcerpt": "The RBI constituted the Payments Regulatory Board under the Payment and Settlement Systems Act, 2007. The Board consists of the RBI Governor (ex officio Chairperson), Deputy Governor, one RBI officer, and three central government nominees.",
+      "qualityScore": 85,
+      "reviewNotes": "Converted to 'How many statements are correct' format to align with recent UPSC trends. Tests statutory origin and composition effectively."
+    }
+  ],
+  "reviewerNotes": "Selected and refined 4 questions. Updated formats to match recent UPSC trends (e.g., 'How many statements are correct' and 'Statement-I/Statement-II'). Ensured distractors are plausible and explanations are tightly aligned with the source text."
+}

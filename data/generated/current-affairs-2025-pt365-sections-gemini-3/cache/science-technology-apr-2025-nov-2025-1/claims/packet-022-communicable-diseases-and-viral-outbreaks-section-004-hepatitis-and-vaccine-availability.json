@@ -1,0 +1,77 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-022-communicable-diseases-and-viral-outbreaks-section-004-hepatitis-and-vaccine-availability",
+    "claimType": "Factual",
+    "claimText": "Hepatitis D is an incompetent virus that requires the Hepatitis B virus (HBV) for its replication.",
+    "evidenceExcerpt": "Hepatitis D is an incompetent virus requiring Hepatitis B virus (HBV) for replication.",
+    "pageNumbers": [
+      45
+    ],
+    "examUse": "Statement-based question on viral characteristics and co-infections.",
+    "distractorHooks": [
+      "Hepatitis D requires Hepatitis C for replication",
+      "Hepatitis D is a competent virus that replicates independently"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-022-communicable-diseases-and-viral-outbreaks-section-004-hepatitis-and-vaccine-availability",
+    "claimType": "Factual",
+    "claimText": "Only Hepatitis B, C, and D lead to chronic infections with a higher risk of liver cirrhosis or cancer.",
+    "evidenceExcerpt": "Only Hepatitis B, C, and D lead to chronic infections with a higher risk of liver cirrhosis or cancer.",
+    "pageNumbers": [
+      45
+    ],
+    "examUse": "Correct-pair or statement-based question identifying which hepatitis strains cause chronic infections.",
+    "distractorHooks": [
+      "Hepatitis A and E lead to chronic infections",
+      "All types of Hepatitis lead to liver cirrhosis"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-022-communicable-diseases-and-viral-outbreaks-section-004-hepatitis-and-vaccine-availability",
+    "claimType": "Factual",
+    "claimText": "There is no vaccine available for the Hepatitis C virus.",
+    "evidenceExcerpt": "There is no vaccine for Hepatitis C.",
+    "pageNumbers": [
+      45
+    ],
+    "examUse": "Statement-based question on vaccine availability for different Hepatitis strains.",
+    "distractorHooks": [
+      "A vaccine is available for Hepatitis C",
+      "There is no vaccine for Hepatitis B"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-022-communicable-diseases-and-viral-outbreaks-section-004-hepatitis-and-vaccine-availability",
+    "claimType": "Conceptual",
+    "claimText": "Hepatitis B vaccines provide protection against the Hepatitis D virus (HDV).",
+    "evidenceExcerpt": "Hepatitis B vaccines protect against HDV.",
+    "pageNumbers": [
+      45
+    ],
+    "examUse": "Statement-based question on cross-protection of vaccines.",
+    "distractorHooks": [
+      "Hepatitis B vaccines protect against Hepatitis C",
+      "There is a specific, separate vaccine required for Hepatitis D"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-022-communicable-diseases-and-viral-outbreaks-section-004-hepatitis-and-vaccine-availability",
+    "claimType": "Factual",
+    "claimText": "Havisure is India's first indigenous Hepatitis A vaccine.",
+    "evidenceExcerpt": "Havisure is India's first indigenous Hepatitis A vaccine.",
+    "pageNumbers": [
+      45
+    ],
+    "examUse": "Fact-based question on indigenous medical developments in India.",
+    "distractorHooks": [
+      "Havisure is an indigenous Hepatitis B vaccine",
+      "Havisure is an imported Hepatitis A vaccine"
+    ]
+  }
+]

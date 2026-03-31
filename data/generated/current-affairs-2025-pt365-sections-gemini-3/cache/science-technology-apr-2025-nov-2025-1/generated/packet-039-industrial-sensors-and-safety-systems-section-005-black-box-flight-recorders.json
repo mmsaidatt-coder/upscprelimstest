@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the 'Black Box' (Flight Recorder) used in aircraft: 1. It comprises both a Flight Data Recorder and a Cockpit Voice Recorder. 2. It is painted bright orange to ensure high visibility during search and recovery operations. 3. It is primarily made of lightweight aluminium to minimize the aircraft's operational weight. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: A Black Box comprises two critical devices, the Flight Data Recorder and the Cockpit Voice Recorder. Statement 2 is correct: Despite the name, they are painted bright orange to ensure high visibility. Statement 3 is incorrect: They are made of strong substances like steel or titanium to survive crashes, not lightweight aluminium.",
+      "takeaway": "Black Boxes consist of a Flight Data Recorder and a Cockpit Voice Recorder, are painted bright orange for visibility, and are built from high-strength materials like steel or titanium.",
+      "evidenceExcerpt": "Comprise two Critical Flight Recording Devices: Flight Data Recorder and Cockpit Voice Recorder. Colour: Bright orange to ensure high visibility. Material: Made of strong substances (steel or titanium) and are insulated from extreme heat or cold."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Assertion-Reason",
+      "prompt": "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R): Assertion (A): The flight recorders installed in commercial aircraft, commonly referred to as 'Black Boxes', are painted in a bright orange colour. Reason (R): The bright orange colour provides high visibility, which is crucial for locating the device during search and recovery operations after an aviation accident. In the context of the above two statements, which one of the following is correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A)."
+        },
+        {
+          "id": "B",
+          "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A)."
+        },
+        {
+          "id": "C",
+          "text": "Assertion (A) is true but Reason (R) is false."
+        },
+        {
+          "id": "D",
+          "text": "Assertion (A) is false but Reason (R) is true."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Despite the colloquial name 'Black Box', aviation flight recorders are intentionally painted bright orange. This design choice is strictly for high visibility to aid investigators and recovery teams in locating the device among crash debris.",
+      "takeaway": "The term 'Black Box' is a misnomer; the devices are bright orange to ensure they can be easily spotted during post-crash search and recovery operations.",
+      "evidenceExcerpt": "Colour: Bright orange to ensure high visibility.",
+      "contextLines": []
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Applied Concept",
+      "prompt": "Aircraft flight recorders (Black Boxes) are specifically constructed using high-strength metals like steel or titanium, and are heavily insulated. Which of the following best describes the primary rationale for this specific material choice over standard lightweight aviation materials?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To shield the internal magnetic storage from high-altitude cosmic radiation and electromagnetic interference."
+        },
+        {
+          "id": "B",
+          "text": "To ensure the survivability of the Flight Data Recorder and Cockpit Voice Recorder against extreme impact and fire during a crash."
+        },
+        {
+          "id": "C",
+          "text": "To provide necessary ballast for the aircraft's center of gravity while recording flight metrics."
+        },
+        {
+          "id": "D",
+          "text": "To ensure the device remains buoyant and visible on the ocean surface in the event of a water landing."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Flight recorders contain crucial data (Flight Data Recorder and Cockpit Voice Recorder) needed for crash investigations. They are made of strong substances like steel or titanium and are insulated to survive the extreme heat, cold, and massive impact forces associated with aviation accidents, whereas standard lightweight aviation materials like aluminium would melt or be destroyed.",
+      "takeaway": "The structural integrity of a Black Box relies on heavy, durable materials (steel/titanium) and thermal insulation to protect critical flight and cockpit voice data from extreme crash conditions.",
+      "evidenceExcerpt": "Material: Made of strong substances (steel or titanium) and are insulated from extreme heat or cold.",
+      "contextLines": []
+    }
+  ]
+}

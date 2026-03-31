@@ -1,0 +1,63 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-031-aviation-naval-platforms-and-uavs-section-001-aircraft-and-helicopters-6th-gen-apache-lca-mark-1a-rafale-m",
+    "claimType": "Feature",
+    "claimText": "Sixth-generation fighter jets are characterized by attributes such as AI integration, hypersonic capabilities, and unmanned capabilities.",
+    "evidenceExcerpt": "6th-Gen fighters feature AI integration, hypersonic, and unmanned capabilities",
+    "pageNumbers": [
+      61
+    ],
+    "examUse": "Statement-based question on the defining characteristics of 6th-generation fighter aircraft.",
+    "distractorHooks": [
+      "Confusing with 5th-generation features like basic stealth",
+      "Stating they lack unmanned capabilities"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-031-aviation-naval-platforms-and-uavs-section-001-aircraft-and-helicopters-6th-gen-apache-lca-mark-1a-rafale-m",
+    "claimType": "Platform Specification",
+    "claimText": "The Apache AH-64E is a multi-role attack helicopter equipped with Hellfire missiles and advanced sensors.",
+    "evidenceExcerpt": "Apache AH-64E is a multi-role attack helicopter with Hellfire missiles and advanced sensors.",
+    "pageNumbers": [
+      61
+    ],
+    "examUse": "Correct-pair question matching defence platforms with their primary roles or armaments.",
+    "distractorHooks": [
+      "Classifying it as a heavy-lift transport helicopter like the Chinook",
+      "Pairing it with indigenous missiles like Nag instead of Hellfire"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-031-aviation-naval-platforms-and-uavs-section-001-aircraft-and-helicopters-6th-gen-apache-lca-mark-1a-rafale-m",
+    "claimType": "Platform Specification",
+    "claimText": "The LCA Mark-1A is a 4.5 generation, all-weather, multi-role fighter aircraft equipped with an AESA Radar and an Electronic Warfare (EW) suite.",
+    "evidenceExcerpt": "LCA Mark-1A is a 4.5 generation fighter equipped with AESA Radar and an EW suite.",
+    "pageNumbers": [
+      61
+    ],
+    "examUse": "Statement-based question on the indigenous LCA Tejas variants and their technological upgrades.",
+    "distractorHooks": [
+      "Describing it as a 5th-generation stealth fighter",
+      "Stating it lacks an Electronic Warfare suite"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-031-aviation-naval-platforms-and-uavs-section-001-aircraft-and-helicopters-6th-gen-apache-lca-mark-1a-rafale-m",
+    "claimType": "Platform Specification",
+    "claimText": "The Rafale Marine (M) is a 4.5 generation omnirole fighter manufactured by Dassault Aviation, designed to be deployed on the aircraft carrier INS Vikrant.",
+    "evidenceExcerpt": "Rafale Marine (M) is a 4.5 generation omnirole fighter by Dassault Aviation, to be deployed on INS Vikrant.",
+    "pageNumbers": [
+      61
+    ],
+    "examUse": "Statement-based question on naval aviation acquisitions and carrier-based fighter jets.",
+    "distractorHooks": [
+      "Stating it is manufactured by Boeing or Lockheed Martin",
+      "Claiming it is a 5th-generation fighter",
+      "Associating it exclusively with land-based air force operations"
+    ]
+  }
+]

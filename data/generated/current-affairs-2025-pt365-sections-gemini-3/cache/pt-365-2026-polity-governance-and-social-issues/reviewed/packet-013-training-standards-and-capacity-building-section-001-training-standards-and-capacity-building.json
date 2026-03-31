@@ -1,0 +1,98 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Polity",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Capacity Building Commission (CBC), consider the following statements:\n1. It is an independent body with full executive power, established as part of Mission Karmayogi.\n2. Its composition includes members from diverse backgrounds, including the private sector and academia.\n3. It is responsible for preparing the Annual State of Civil Services Report.\n4. It exercises functional supervision over all Central Training Institutions.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only two"
+        },
+        {
+          "id": "B",
+          "text": "Only three"
+        },
+        {
+          "id": "C",
+          "text": "All four"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "All four statements are correct based on the NSCSTI 2.0 and CBC framework. Statement 1 is correct as the CBC is an independent body with full executive power under Mission Karmayogi. Statement 2 is correct as its three members are appointed from diverse backgrounds like the private sector, academia, public sector, and civil society. Statement 3 is correct as one of its key functions is preparing the Annual State of Civil Services Report. Statement 4 is correct as it exercises functional supervision over Training Institutions to create shared learning resources.",
+      "takeaway": "The Capacity Building Commission (CBC) is a high-powered executive body with a multi-sectoral composition and broad supervisory powers over civil service training.",
+      "evidenceExcerpt": "Status: CBC is as an independent body with full executive power. Composition: It is a three-member Commission... Members have been appointed from diverse backgrounds such as private sector, academia, public sector, and civil society. Key Functions: Preparing an Annual State of Civil Services Report; Exercising functional supervision over Training Institutions.",
+      "qualityScore": 92,
+      "reviewNotes": "This question effectively tests the institutional status, composition, and specific functions of the CBC, reflecting the increasing complexity of UPSC polity questions.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the National Standards for Civil Service Training Institutes (NSCSTI) 2.0 framework:\n1. It was developed by the Quality Council of India (QCI) under the Ministry of Personnel.\n2. It incorporates hybrid and AI-driven learning models for civil service training.\n3. The framework is designed to be inclusive of training institutes at all levels of government, not just central institutes.",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect because the NSCSTI 2.0 framework was developed by the Capacity Building Commission (CBC), not the QCI. Statement 2 is correct as the framework features hybrid and AI-driven learning models. Statement 3 is correct as it aims for inclusive design for training institutes at all levels of government (Central, State, etc.).",
+      "takeaway": "NSCSTI 2.0, developed by the CBC, aims to standardize and modernize training across all levels of government using advanced technology.",
+      "evidenceExcerpt": "Developed by: Capacity Building Commission (CBC)... NSCSTI 2.0 Features: Hybrid and AI-driven learning models; Inclusive design for training institutes at all levels of government.",
+      "qualityScore": 88,
+      "reviewNotes": "The question tests the origin and features of the new framework, correcting a common misconception about which body develops such standards.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Hard",
+      "questionType": "Functional-distinction",
+      "prompt": "In the institutional architecture of Mission Karmayogi, which of the following entities is specifically responsible for the execution and management of the iGOT Karmayogi platform?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Capacity Building Commission (CBC)"
+        },
+        {
+          "id": "B",
+          "text": "Karmayogi Bharat (Special Purpose Vehicle)"
+        },
+        {
+          "id": "C",
+          "text": "Department of Personnel and Training (DoPT)"
+        },
+        {
+          "id": "D",
+          "text": "National Training Academy"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "While the Capacity Building Commission (CBC) provides functional supervision and policy recommendations, the actual implementation and execution of the iGOT Karmayogi platform are handled by 'Karmayogi Bharat', which is a Special Purpose Vehicle (SPV) established for this purpose.",
+      "takeaway": "Mission Karmayogi distinguishes between policy/supervision (CBC) and digital implementation/execution (Karmayogi Bharat SPV).",
+      "evidenceExcerpt": "iGOT Karmayogi... Implementation: Executed by Karmayogi Bharat (SPV).",
+      "qualityScore": 85,
+      "reviewNotes": "This question targets the specific implementation agency, a common area of confusion in government schemes.",
+      "contextLines": []
+    }
+  ],
+  "reviewerNotes": "The questions cover the three main pillars of the source text: the Capacity Building Commission (CBC), the NSCSTI 2.0 framework, and the implementation agency for iGOT Karmayogi. The distractors are designed to be plausible by using related government bodies or logical but incorrect institutional roles. The difficulty levels range from moderate to hard, aligning with UPSC's current trend of testing institutional nuances."
+}

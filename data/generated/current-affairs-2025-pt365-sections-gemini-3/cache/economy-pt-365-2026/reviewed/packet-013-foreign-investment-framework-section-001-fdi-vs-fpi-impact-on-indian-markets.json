@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the foreign investment framework in India, consider the following statements:\n1. Foreign Direct Investment (FDI) generally involves long-term strategic investment in primary markets.\n2. An investment is classified as Foreign Portfolio Investment (FPI) if the equity stake acquired is less than 10 percent.\n3. Unlike FPI, FDI acts as 'hot money' and frequently causes sharp fluctuations in the exchange rate of the Rupee.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: FDI involves long-term strategic investment in primary markets, typically targeting real assets.\nStatement 2 is correct: FPI involves short-term financial investment in secondary markets (stocks/bonds) with an equity stake of less than 10 percent.\nStatement 3 is incorrect: It is FPI, not FDI, that acts as 'hot money'. FPI drives capital market volatility and causes sharp Rupee fluctuations, whereas FDI provides stable capital and a steady impact on the Rupee.",
+      "takeaway": "The 10 percent equity threshold is a primary differentiator between FDI (>10%) and FPI (<10%) in India. FDI provides stable, long-term capital in primary markets, whereas FPI is volatile 'hot money' traded in secondary markets.",
+      "evidenceExcerpt": "FDI involves long-term strategic investment in primary markets (real assets, >10% stake), providing stable capital and steady Rupee impact. FPI involves short-term financial investment in secondary markets (stocks/bonds, <10% stake), causing high capital market volatility (hot money) and Rupee fluctuations.",
+      "qualityScore": 85,
+      "reviewNotes": "Rewrote the question to use the contemporary 'How many statements are correct' format. The distractors are plausible and directly test the conceptual differences between FDI and FPI."
+    }
+  ],
+  "reviewerNotes": "Selected and refined two questions from the candidate set. Both questions have been updated to the latest UPSC 'How many' format. While they test the same core text, one focuses on statement-based conceptual definitions (stakes and markets), and the other focuses on matching macroeconomic characteristics (volatility and asset types) to FPI."
+}

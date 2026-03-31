@@ -1,0 +1,121 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-037-solar-technologies-and-green-hydrogen-mission-section-002-national-green-hydrogen-mission-nghm-and-certification-scheme",
+    "claimType": "Factual",
+    "claimText": "The Bureau of Energy Efficiency (BEE) serves as the Nodal Authority for the Green Hydrogen Certification Scheme of India (GHCI).",
+    "evidenceExcerpt": "The Bureau of Energy Efficiency (BEE) is the Nodal Authority for the Green Hydrogen Certification Scheme of India (GHCI).",
+    "pageNumbers": [
+      76,
+      77
+    ],
+    "examUse": "Statement-based question identifying the nodal agency for green hydrogen certification.",
+    "distractorHooks": [
+      "Ministry of New and Renewable Energy (MNRE) directly",
+      "NITI Aayog",
+      "Central Pollution Control Board (CPCB)"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-037-solar-technologies-and-green-hydrogen-mission-section-002-national-green-hydrogen-mission-nghm-and-certification-scheme",
+    "claimType": "Factual",
+    "claimText": "Green Certification under the GHCI requires an average emission intensity of 2 kg CO2eq/kg H2 or less.",
+    "evidenceExcerpt": "Green Certification is conditional on meeting an average emission intensity requirement of 2 kg CO2eq/kg H2 or less.",
+    "pageNumbers": [
+      76,
+      77
+    ],
+    "examUse": "Statement-based question testing the specific emission threshold for green hydrogen.",
+    "distractorHooks": [
+      "0 kg CO2eq/kg H2 (absolute zero emissions)",
+      "5 kg CO2eq/kg H2",
+      "10 kg CO2eq/kg H2"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-037-solar-technologies-and-green-hydrogen-mission-section-002-national-green-hydrogen-mission-nghm-and-certification-scheme",
+    "claimType": "Conceptual",
+    "claimText": "Turquoise Hydrogen is produced through the pyrolysis of methane.",
+    "evidenceExcerpt": "Turquoise Hydrogen is produced through Pyrolysis using Methane",
+    "pageNumbers": [
+      76,
+      77
+    ],
+    "examUse": "Correct-pair question matching hydrogen color codes to their production methods.",
+    "distractorHooks": [
+      "Electrolysis using renewable energy",
+      "Coal gasification",
+      "Steam methane reforming without carbon capture"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-037-solar-technologies-and-green-hydrogen-mission-section-002-national-green-hydrogen-mission-nghm-and-certification-scheme",
+    "claimType": "Conceptual",
+    "claimText": "Pink Hydrogen is produced using electrolysis powered by nuclear energy.",
+    "evidenceExcerpt": "Pink Hydrogen uses Electrolysis powered by Nuclear Energy.",
+    "pageNumbers": [
+      76,
+      77
+    ],
+    "examUse": "Correct-pair question matching hydrogen color codes to their energy sources.",
+    "distractorHooks": [
+      "Electrolysis powered by solar energy",
+      "Biomass gasification",
+      "Natural gas reforming"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-037-solar-technologies-and-green-hydrogen-mission-section-002-national-green-hydrogen-mission-nghm-and-certification-scheme",
+    "claimType": "Factual",
+    "claimText": "The National Green Hydrogen Mission (NGHM) aims to achieve a production target of 5 MMT per annum of Green Hydrogen by 2030.",
+    "evidenceExcerpt": "NGHM targets the production of 5 MMT per annum of Green Hydrogen by 2030.",
+    "pageNumbers": [
+      76,
+      77
+    ],
+    "examUse": "Statement-based question on the quantitative targets of the NGHM.",
+    "distractorHooks": [
+      "10 MMT per annum by 2030",
+      "5 MMT per annum by 2050",
+      "1 MMT per annum by 2025"
+    ]
+  },
+  {
+    "id": "claim-006",
+    "sectionId": "packet-037-solar-technologies-and-green-hydrogen-mission-section-002-national-green-hydrogen-mission-nghm-and-certification-scheme",
+    "claimType": "Factual",
+    "claimText": "Deendayal Port, V.O. Chidambaranar Port, and Paradip Port are recognized as Green Hydrogen Hubs under the National Green Hydrogen Mission.",
+    "evidenceExcerpt": "Deendayal Port, V.O. Chidambaranar Port, and Paradip Port have been recognized as Green Hydrogen Hubs under NGHM.",
+    "pageNumbers": [
+      76,
+      77
+    ],
+    "examUse": "Multiple-choice question identifying designated Green Hydrogen Hubs in India.",
+    "distractorHooks": [
+      "Jawaharlal Nehru Port Trust (JNPT)",
+      "Cochin Port",
+      "Mundra Port"
+    ]
+  },
+  {
+    "id": "claim-007",
+    "sectionId": "packet-037-solar-technologies-and-green-hydrogen-mission-section-002-national-green-hydrogen-mission-nghm-and-certification-scheme",
+    "claimType": "Factual",
+    "claimText": "The production of green hydrogen is water-intensive, requiring up to 9 litres of water per kilogram of hydrogen produced.",
+    "evidenceExcerpt": "Green hydrogen production requires up to 9 litres of water per kg of hydrogen and demands high electricity.",
+    "pageNumbers": [
+      76,
+      77
+    ],
+    "examUse": "Statement-based question on the resource requirements and environmental footprint of green hydrogen production.",
+    "distractorHooks": [
+      "Requires no water",
+      "Requires 50 litres of water per kg",
+      "Uses only atmospheric moisture"
+    ]
+  }
+]

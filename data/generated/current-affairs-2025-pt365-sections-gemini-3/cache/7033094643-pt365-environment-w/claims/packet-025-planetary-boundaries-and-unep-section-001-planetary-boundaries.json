@@ -1,0 +1,80 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-025-planetary-boundaries-and-unep-section-001-planetary-boundaries",
+    "claimType": "Factual",
+    "claimText": "The Planetary Health Check (PHC) 2025 is released by the Potsdam Institute for Climate Impact Research (PIK).",
+    "evidenceExcerpt": "Planetary Health Check 2025 released by Potsdam Institute for Climate Impact Research (PIK).",
+    "pageNumbers": [
+      53
+    ],
+    "examUse": "Institution-feature question matching reports to their publishing organizations.",
+    "distractorHooks": [
+      "United Nations Environment Programme (UNEP)",
+      "Intergovernmental Panel on Climate Change (IPCC)",
+      "World Meteorological Organization (WMO)"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-025-planetary-boundaries-and-unep-section-001-planetary-boundaries",
+    "claimType": "Conceptual",
+    "claimText": "The Planetary Boundaries framework consists of 9 ecological thresholds that define humanity's safe operating space.",
+    "evidenceExcerpt": "Planetary Boundaries are 9 ecological thresholds defining humanity's safe operating space.",
+    "pageNumbers": [
+      53
+    ],
+    "examUse": "Statement-based question on the definition and scope of Planetary Boundaries.",
+    "distractorHooks": [
+      "12 ecological thresholds",
+      "Economic and social thresholds",
+      "Sustainable Development Goals (SDGs)"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-025-planetary-boundaries-and-unep-section-001-planetary-boundaries",
+    "claimType": "Factual",
+    "claimText": "According to the Planetary Health Check 2025, 7 of the 9 Planetary Boundaries have been transgressed.",
+    "evidenceExcerpt": "7 of 9 boundaries have been transgressed.",
+    "pageNumbers": [
+      53
+    ],
+    "examUse": "Statement-based question regarding the current status of Planetary Boundaries.",
+    "distractorHooks": [
+      "All 9 boundaries have been transgressed",
+      "Only 3 boundaries have been transgressed"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-025-planetary-boundaries-and-unep-section-001-planetary-boundaries",
+    "claimType": "Factual",
+    "claimText": "Atmospheric Aerosol Loading and Stratospheric Ozone Depletion are the only Planetary Boundaries that have not been transgressed.",
+    "evidenceExcerpt": "Atmospheric Aerosol Loading and Stratospheric Ozone Depletion have not been transgressed.",
+    "pageNumbers": [
+      53
+    ],
+    "examUse": "Correct-pair or statement-based question identifying the exceptions among the boundaries.",
+    "distractorHooks": [
+      "Ocean Acidification",
+      "Climate Change",
+      "Biosphere Integrity"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-025-planetary-boundaries-and-unep-section-001-planetary-boundaries",
+    "claimType": "Factual",
+    "claimText": "Ocean Acidification has crossed its safe operating space for the first time according to the Planetary Health Check 2025.",
+    "evidenceExcerpt": "Ocean Acidification crossed its safe operating space for the first time.",
+    "pageNumbers": [
+      53
+    ],
+    "examUse": "Statement-based question on recent changes in Planetary Boundaries.",
+    "distractorHooks": [
+      "Stratospheric Ozone Depletion crossed for the first time",
+      "Ocean Acidification has always been transgressed"
+    ]
+  }
+]

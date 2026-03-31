@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Assistance in Deploying Energy Efficient Technologies in Industries & Establishments (ADEETIE) scheme: 1. It is implemented by the Ministry of Micro, Small and Medium Enterprises to support industrial clusters. 2. It provides financial assistance in the form of direct capital subsidies to reduce energy consumption. 3. Possession of a Udyam ID is a mandatory eligibility criterion for the beneficiary enterprises. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect: The ADEETIE scheme is implemented by the Bureau of Energy Efficiency (BEE) under the Ministry of Power, not the Ministry of MSME. Statement 2 is incorrect: The scheme provides financial assistance via interest subvention (5% for Micro/Small and 3% for Medium enterprises), not direct capital subsidies. Statement 3 is correct: It specifically targets MSMEs that possess a valid Udyam ID.",
+      "takeaway": "ADEETIE is a Ministry of Power (BEE) initiative offering interest subventions to Udyam-registered MSMEs to help them reduce energy consumption by 30-50%.",
+      "evidenceExcerpt": "Assistance in Deploying Energy Efficient Technologies in Industries & Establishments (ADEETIE) helps MSMEs reduce energy consumption by 30-50%. Implemented by BEE under the Ministry of Power... It targets MSMEs with a Udyam ID... It offers 5% interest subvention for Micro/Small and 3% for Medium enterprises."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "conceptual",
+      "prompt": "Which one of the following best describes the primary mechanism of the Assistance in Deploying Energy Efficient Technologies in Industries & Establishments (ADEETIE) scheme?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Providing upfront capital subsidies to large-scale heavy industries for transitioning to green hydrogen."
+        },
+        {
+          "id": "B",
+          "text": "Offering interest subvention on loans taken by MSMEs to adopt technologies that lower energy consumption."
+        },
+        {
+          "id": "C",
+          "text": "Mandating public sector undertakings to procure a fixed percentage of their energy-efficient equipment from Udyam-registered MSMEs."
+        },
+        {
+          "id": "D",
+          "text": "Establishing a dedicated carbon credit trading market for Micro, Small, and Medium Enterprises."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The ADEETIE scheme specifically targets MSMEs (not large-scale industries) possessing a Udyam ID. Its core mechanism is providing financial assistance in the form of interest subvention (5% for Micro/Small, 3% for Medium) to help them reduce energy consumption by 30-50%. It does not involve procurement mandates or carbon credit trading.",
+      "takeaway": "The core design of the ADEETIE scheme is an interest subvention mechanism targeted at MSMEs to facilitate the adoption of energy-efficient technologies.",
+      "evidenceExcerpt": "Assistance in Deploying Energy Efficient Technologies in Industries & Establishments (ADEETIE) helps MSMEs reduce energy consumption by 30-50%... It offers 5% interest subvention for Micro/Small and 3% for Medium enterprises."
+    }
+  ]
+}

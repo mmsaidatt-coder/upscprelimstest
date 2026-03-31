@@ -1,0 +1,138 @@
+[
+  {
+    "id": "packet-012-networking-infrastructure-and-robotics-section-001-central-bank-digital-currency-cbdc-pilot-projects",
+    "packetId": "packet-012-networking-infrastructure-and-robotics",
+    "topic": "IT & Computer",
+    "subtopic": "Networking, Infrastructure and Robotics",
+    "title": "Central Bank Digital Currency (CBDC) Pilot Projects",
+    "focus": "Types of CBDCs (Retail vs Wholesale) and their use cases.",
+    "pageNumbers": [
+      25
+    ],
+    "questionQuota": 1,
+    "rationale": "Brief mention of RBI's pilot projects for retail and wholesale CBDCs. Good for a single statement-based question.",
+    "sectionExcerpt": "The RBI is currently conducting pilot projects of two types of CBDCs – retail and wholesale. Retail CBDC: It is available to the general public via digital wallets, smartphone apps, etc. Wholesale CBDCs: Used among banks and other licensed financial institutions for interbank payments and securities transactions.",
+    "evidenceBullets": [
+      "RBI is conducting pilot projects for retail and wholesale CBDCs.",
+      "Retail CBDC is for the general public via digital wallets.",
+      "Wholesale CBDC is used among banks and licensed financial institutions for interbank payments."
+    ]
+  },
+  {
+    "id": "packet-012-networking-infrastructure-and-robotics-section-002-bluetooth-mesh-networking-and-bitchat",
+    "packetId": "packet-012-networking-infrastructure-and-robotics",
+    "topic": "IT & Computer",
+    "subtopic": "Networking, Infrastructure and Robotics",
+    "title": "Bluetooth Mesh Networking and Bitchat",
+    "focus": "Mechanism and benefits of Bluetooth Low Energy Mesh Networking.",
+    "pageNumbers": [
+      25
+    ],
+    "questionQuota": 2,
+    "rationale": "Covers the technical topology of mesh networks (multi-hop) and its privacy benefits (no central database, no registration).",
+    "sectionExcerpt": "Bitchat relies on Bluetooth Low Energy Mesh Networking to enable communication. What is Bluetooth Mesh Networking? Relies on Bluetooth clusters or Mesh network created by devices in a range. Mesh network, also known as ‘multi-hop network’, is a networking topology. In it, data can travel from any device to all others, achieving many-to-many communication. Even if one device fails, the network keeps working. Messages are broadcast and relayed by nodes until they reach the intended destination. Potential Benefits: No central database: Messages are stored entirely on users’ devices and are deleted after a short period. This design is created to priorities users’ privacy. Also, Messages are end-to-end encrypted and do not leave the network. No registration required: Users are not required to create accounts using their email or phone number, making the communication anonymous.",
+    "evidenceBullets": [
+      "Mesh network is a 'multi-hop network' allowing many-to-many communication.",
+      "Data travels from any device to all others; network works even if one device fails.",
+      "Messages are stored on users' devices with no central database, ensuring privacy.",
+      "End-to-end encrypted and requires no registration (email/phone)."
+    ]
+  },
+  {
+    "id": "packet-012-networking-infrastructure-and-robotics-section-003-project-waterworth-undersea-cables",
+    "packetId": "packet-012-networking-infrastructure-and-robotics",
+    "topic": "IT & Computer",
+    "subtopic": "Networking, Infrastructure and Robotics",
+    "title": "Project Waterworth (Undersea Cables)",
+    "focus": "Meta's undersea cable project and its landing sites in India.",
+    "pageNumbers": [
+      25
+    ],
+    "questionQuota": 1,
+    "rationale": "Factual information about the world's longest subsea cable project and its Indian landing sites.",
+    "sectionExcerpt": "Meta has selected Mumbai and Visakhapatnam as the landing sites for the undersea cable project, Waterworth. It will connect five major continents. It is the world’s longest subsea cable project. About Undersea Cables: Undersea cables are fiber-optic cable laid across the ocean floor that transmits information and enables worldwide communications. Significance: Undersea cables are backbone of international internet.",
+    "evidenceBullets": [
+      "Project Waterworth is the world's longest subsea cable project.",
+      "Meta selected Mumbai and Visakhapatnam as landing sites in India.",
+      "It will connect five major continents using fiber-optic cables."
+    ]
+  },
+  {
+    "id": "packet-012-networking-infrastructure-and-robotics-section-004-vikram3201-and-indigenous-microprocessors",
+    "packetId": "packet-012-networking-infrastructure-and-robotics",
+    "topic": "IT & Computer",
+    "subtopic": "Networking, Infrastructure and Robotics",
+    "title": "Vikram3201 and Indigenous Microprocessors",
+    "focus": "India's first 32-bit processor and its development details.",
+    "pageNumbers": [
+      25
+    ],
+    "questionQuota": 2,
+    "rationale": "Important indigenous technology development by ISRO and SCL, highly relevant for Science & Tech questions.",
+    "sectionExcerpt": "India’s first 32-bit processor – Vikram3201 – presented to the PM at Semicon India 2025. About Vikram3201 Processor: An advanced version of the indigenously designed 16-bit VIKRAM1601 microprocessor which has been flying in the Avionics system of ISRO’s launch vehicles. Fully ‘Make-in-India’ 32-bit microprocessor qualified for the harsh environmental conditions of launch vehicles. Designed and developed by the Vikram Sarabhai Space Centre of ISRO in collaboration with the Semiconductor Laboratory (SCL) in Chandigarh. They have also developed KALPANA3201, another 32-bit microprocessor.",
+    "evidenceBullets": [
+      "Vikram3201 is India's first fully 'Make-in-India' 32-bit microprocessor.",
+      "Designed by Vikram Sarabhai Space Centre (ISRO) and Semiconductor Laboratory (SCL), Chandigarh.",
+      "Qualified for harsh environmental conditions of launch vehicles.",
+      "KALPANA3201 is another 32-bit microprocessor developed by them."
+    ]
+  },
+  {
+    "id": "packet-012-networking-infrastructure-and-robotics-section-005-fastag-and-rfid-technology",
+    "packetId": "packet-012-networking-infrastructure-and-robotics",
+    "topic": "IT & Computer",
+    "subtopic": "Networking, Infrastructure and Robotics",
+    "title": "FASTag and RFID Technology",
+    "focus": "Working mechanism of FASTag and Radio Frequency Identification (RFID).",
+    "pageNumbers": [
+      25,
+      26
+    ],
+    "questionQuota": 2,
+    "rationale": "Explains the underlying technology (RFID) of FASTag, its range, and the implementing authority (NPCI).",
+    "sectionExcerpt": "Ministry of Road Transport and Highways launched FASTag Annual Pass facility. About FASTAG - A device that employs Radio Frequency Identification (RFID) technology for making toll payments directly from account while the vehicle is in motion. - RFID consists of tags and readers and employs radio waves to communicate information of objects or people to nearby readers. - It is a short-range technology. - Affixed on the windscreen of the vehicle and enables a customer to make the toll payments directly from the account which is linked to FASTag. - Developed by: NPCI under National Electronic Toll Collection (NETC) program.",
+    "evidenceBullets": [
+      "FASTag employs Radio Frequency Identification (RFID) technology for toll payments.",
+      "RFID uses radio waves to communicate information and is a short-range technology.",
+      "FASTag was developed by NPCI under the National Electronic Toll Collection (NETC) program."
+    ]
+  },
+  {
+    "id": "packet-012-networking-infrastructure-and-robotics-section-006-digital-twin-technology",
+    "packetId": "packet-012-networking-infrastructure-and-robotics",
+    "topic": "IT & Computer",
+    "subtopic": "Networking, Infrastructure and Robotics",
+    "title": "Digital Twin Technology",
+    "focus": "Concept and applications of Digital Twin technology.",
+    "pageNumbers": [
+      26
+    ],
+    "questionQuota": 1,
+    "rationale": "Defines a key emerging technology concept (Digital Twin) and its reliance on real-time sensor data.",
+    "sectionExcerpt": "A digital twin is a digital representation of a physical object, person, or process, contextualized in a digital version of its environment. It can help an organization simulate real situations and their outcomes, ultimately allowing it to make better decisions. It uses real-time data from sensors for behavior simulation and operation monitoring.",
+    "evidenceBullets": [
+      "A digital twin is a digital representation of a physical object, person, or process.",
+      "It uses real-time data from sensors for behavior simulation and operation monitoring.",
+      "Helps organizations simulate real situations to make better decisions."
+    ]
+  },
+  {
+    "id": "packet-012-networking-infrastructure-and-robotics-section-007-ssi-mantra-surgical-robotic-system",
+    "packetId": "packet-012-networking-infrastructure-and-robotics",
+    "topic": "IT & Computer",
+    "subtopic": "Networking, Infrastructure and Robotics",
+    "title": "SSI Mantra Surgical Robotic System",
+    "focus": "India's indigenous surgical robotic system and its achievements.",
+    "pageNumbers": [
+      26
+    ],
+    "questionQuota": 1,
+    "rationale": "Highlights a major milestone in Indian medical robotics (telesurgery).",
+    "sectionExcerpt": "SSI Mantra performed world’s first cardiac telesurgery across 10,000 km. About SSI Mantra - India’s indigenous surgical robotic system. - Key features: 3D High-Definition Visualization, Predictive Analytics, etc.",
+    "evidenceBullets": [
+      "SSI Mantra is India's indigenous surgical robotic system.",
+      "It performed the world's first cardiac telesurgery across 10,000 km.",
+      "Features include 3D High-Definition Visualization and Predictive Analytics."
+    ]
+  }
+]

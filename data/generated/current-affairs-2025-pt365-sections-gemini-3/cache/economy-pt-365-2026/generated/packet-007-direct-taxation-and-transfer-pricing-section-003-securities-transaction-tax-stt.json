@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Securities Transaction Tax (STT) in India: 1. It is a direct tax levied on the transaction of taxable securities. 2. It is applicable to both off-market transactions and those conducted through recognized stock exchanges. 3. It was introduced primarily to curb tax evasion in the securities market. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: STT is a direct tax. Statement 2 is incorrect: It is levied only on transactions of securities conducted through a recognized stock exchange in India, not on off-market transactions. Statement 3 is correct: It was introduced under the Finance Act, 2004, to curb tax evasion in the securities market.",
+      "takeaway": "STT is a direct tax applicable only to transactions on recognized stock exchanges, aimed at curbing tax evasion.",
+      "evidenceExcerpt": "Securities Transaction Tax (STT) - It is a direct tax levied on transactions of securities conducted through a recognized stock exchange in India... Aim: to curb tax evasion in the securities market."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Multiple-choice",
+      "prompt": "Which of the following financial instruments are subject to the Securities Transaction Tax (STT) when transacted through a recognized stock exchange in India? 1. Equity shares 2. Derivatives 3. Units of equity-oriented mutual funds Select the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Taxable securities under the Securities Transaction Tax (STT) include equity, derivatives, and units of equity-oriented mutual funds. It is also applied to the transaction of options and futures.",
+      "takeaway": "STT covers a wide range of securities including equities, derivatives, and equity-oriented mutual funds.",
+      "evidenceExcerpt": "Taxable securities include equity, derivatives, and unit of equity-oriented mutual fund. It is also applied on the transaction of options and futures."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Securities Transaction Tax (STT) in India:\n1. It was introduced under the statutory framework of the Securities and Exchange Board of India (SEBI) Act to regulate market volatility.\n2. Its levy extends to the transaction of derivative instruments such as options and futures.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The Securities Transaction Tax (STT) was introduced under the Finance Act, 2004, not the SEBI Act, and its primary aim is to curb tax evasion in the securities market, rather than to regulate market volatility. Statement 2 is correct: STT is applied to taxable securities which explicitly include derivatives, options, and futures.",
+      "takeaway": "STT is a direct tax introduced via the Finance Act of 2004 to curb tax evasion. It applies to equities, equity-oriented mutual funds, and derivative instruments like options and futures traded on recognized exchanges.",
+      "evidenceExcerpt": "Taxable securities include equity, derivatives, and unit of equity-oriented mutual fund. It is also applied on the transaction of options and futures. Introduced under the Finance Act, 2004. Aim: to curb tax evasion in the securities market."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "Which of the following best describes the fundamental design and primary objective of the Securities Transaction Tax (STT) in India?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "An indirect tax levied on stockbrokers to regulate the volume of high-frequency trading."
+        },
+        {
+          "id": "B",
+          "text": "A direct tax levied on securities transactions on recognized exchanges to curb tax evasion."
+        },
+        {
+          "id": "C",
+          "text": "A regulatory fee collected by the market regulator to capitalize the investor protection fund."
+        },
+        {
+          "id": "D",
+          "text": "A direct tax imposed exclusively on off-market transactions to encourage trading on recognized exchanges."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "STT is explicitly defined as a direct tax levied on transactions of securities conducted through a recognized stock exchange in India. Its stated aim is to curb tax evasion in the securities market.",
+      "takeaway": "The core design of STT is that of a direct tax (not an indirect tax or regulatory fee) applied specifically to transactions on recognized stock exchanges to prevent tax evasion.",
+      "evidenceExcerpt": "Securities Transaction Tax (STT) - It is a direct tax levied on transactions of securities conducted through a recognized stock exchange in India... Aim: to curb tax evasion in the securities market."
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-052-igla-s-missile-and-strategic-passes-section-001-igla-s-missile-system",
+    "claimType": "Fact",
+    "claimText": "The Igla-S is a Russian-origin man-portable, shoulder-launched surface-to-air missile (SAM) system.",
+    "evidenceExcerpt": "Indian Army received new Russian Igla-S missiles to counter drones, choppers, jets. About Igla-S: It is a man-portable, shoulder-launched surface-to-air missile (SAM) system",
+    "pageNumbers": [
+      78
+    ],
+    "examUse": "Statement-based question on the origin and type of the Igla-S missile system.",
+    "distractorHooks": [
+      "Israeli-origin",
+      "US-origin",
+      "Surface-to-surface missile",
+      "Air-to-air missile",
+      "Heavy vehicle-mounted system"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-052-igla-s-missile-and-strategic-passes-section-001-igla-s-missile-system",
+    "claimType": "Technology/Mechanism",
+    "claimText": "The Igla-S missile system utilizes infrared (IR) homing to detect and lock onto the heat signatures of aerial targets.",
+    "evidenceExcerpt": "It uses infrared (IR) homing to detect and lock onto the heat signatures of aerial targets.",
+    "pageNumbers": [
+      78
+    ],
+    "examUse": "Statement-based question on the guidance mechanism of the Igla-S.",
+    "distractorHooks": [
+      "Radar homing",
+      "Laser-guided",
+      "GPS-guided"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-052-igla-s-missile-and-strategic-passes-section-001-igla-s-missile-system",
+    "claimType": "Specification",
+    "claimText": "The Igla-S missile system has an engagement range of up to 6 km and can reach altitudes up to 3.5 km.",
+    "evidenceExcerpt": "It can engage targets at ranges up to 6 km and altitudes up to 3.5 km.",
+    "pageNumbers": [
+      78
+    ],
+    "examUse": "Fact-check statement in a multi-statement question regarding the operational range of Igla-S.",
+    "distractorHooks": [
+      "Range up to 60 km",
+      "Altitude up to 35 km",
+      "Intercontinental range"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-052-igla-s-missile-and-strategic-passes-section-001-igla-s-missile-system",
+    "claimType": "Classification",
+    "claimText": "The Igla-S is classified as an improved version of Very Short Range Air Defence Systems (VSHORADS).",
+    "evidenceExcerpt": "It is an improved version of Very Short Range Air Defence Systems (VSHORADS).",
+    "pageNumbers": [
+      78
+    ],
+    "examUse": "Classification or correct-pair question matching Igla-S to VSHORADS.",
+    "distractorHooks": [
+      "Long Range Surface-to-Air Missile (LRSAM)",
+      "Medium Range Air Defence System",
+      "Ballistic Missile Defence system"
+    ]
+  }
+]

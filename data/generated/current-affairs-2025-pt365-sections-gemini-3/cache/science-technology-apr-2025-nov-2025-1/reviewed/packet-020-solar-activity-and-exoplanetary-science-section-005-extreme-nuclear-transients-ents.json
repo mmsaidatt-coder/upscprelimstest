@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Extreme Nuclear Transients (ENTs)':\n\n1. They occur when stars with masses significantly lower than that of the Sun are torn apart by supermassive black holes.\n2. The phenomenon is driven by extreme tidal forces that stretch and compress the star near the black hole's event horizon.\n3. The disruption process is characterized by the release of enormous amounts of electromagnetic energy.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: ENTs occur when stars with masses at least three times greater than that of the Sun are torn apart by supermassive black holes, not stars with lower masses.\nStatement 2 is correct: As a star nears a black hole's event horizon, extreme tidal forces stretch and compress the star into a long, thin spaghetti-like shape.\nStatement 3 is correct: The tearing apart of the massive star by the black hole releases enormous amounts of electromagnetic energy.",
+      "takeaway": "ENTs are massive energy release events caused by the tidal disruption (spaghettification) of massive stars by supermassive black holes.",
+      "evidenceExcerpt": "Extreme Nuclear Transients (ENTs)... occur when stars with masses at least three times greater than that of the sun are torn apart by supermassive black holes. As a star nears a black hole's event horizon, extreme tidal forces stretch and compress the star into a long, thin spaghetti-like shape, releasing enormous amounts of electromagnetic energy.",
+      "qualityScore": 88,
+      "reviewNotes": "Good statement-based question that tests the specific conditions (mass of the star), mechanism (tidal forces/spaghettification), and observable outcome (electromagnetic energy) of ENTs."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "The term 'Extreme Nuclear Transients (ENTs)', sometimes mentioned in the news, refers to:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "the sudden collapse of a neutron star into a stellar-mass black hole."
+        },
+        {
+          "id": "B",
+          "text": "the tearing apart of massive stars by supermassive black holes."
+        },
+        {
+          "id": "C",
+          "text": "the collision of two supermassive black holes at the center of a distant galaxy."
+        },
+        {
+          "id": "D",
+          "text": "the rapid expansion of a supernova remnant interacting with a dense interstellar medium."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Extreme Nuclear Transients (ENTs) are astronomical events that occur when stars with masses at least three times greater than that of the Sun are torn apart by supermassive black holes. This tidal disruption process releases enormous amounts of electromagnetic energy.",
+      "takeaway": "ENTs specifically describe the tidal disruption of massive stars (at least 3x solar mass) by supermassive black holes, a process that releases immense electromagnetic energy.",
+      "evidenceExcerpt": "EXTREME NUCLEAR TRANSIENTS (ENTS). Astronomers identified a new category of events: Extreme Nuclear Transients (ENTs)... occur when stars with masses at least three times greater than that of the sun are torn apart by supermassive black holes... releasing enormous amounts of electromagnetic energy.",
+      "qualityScore": 85,
+      "reviewNotes": "A classic UPSC 'term in news' question. The distractors are plausible astronomical phenomena, making it a strong test of specific knowledge."
+    }
+  ],
+  "reviewerNotes": "Both questions are retained and refined. Q1 serves as a straightforward 'term in news' definition question, while Q2 delves deeper into the mechanics and specific conditions of the phenomenon, providing a good balance of difficulty."
+}

@@ -1,0 +1,178 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Antimicrobial Resistance (AMR) and 'Superbugs': 1. The term 'Superbugs' applies exclusively to bacterial strains that have developed resistance to multiple antibiotics. 2. Antimicrobial resistance can spread among microbes through the exchange of resistance genes via horizontal gene transfer. 3. The World Health Organization (WHO) currently recognizes AMR as one of the top ten global health threats. How many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Superbugs encompass strains of bacteria, viruses, parasites, and fungi that are resistant to most antimicrobials, not just bacteria. Statement 2 is correct: AMR spreads through horizontal gene transfer by the exchange of resistance genes among microbes. Statement 3 is correct: WHO recognizes AMR as one of the top ten global health threats.",
+      "takeaway": "Superbugs are not limited to bacteria; they include resistant viruses, fungi, and parasites. AMR spreads via both vertical and horizontal gene transfer.",
+      "evidenceExcerpt": "Strains of bacteria, viruses, parasites, and fungi that are resistant to most antimicrobials are called Superbugs. Spread through vertical gene transfer during bacterial division and through horizontal gene transfer by exchange of resistance genes among microbes. WHO recognized AMR as one of the top ten global health threats."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Multiple-statement",
+      "prompt": "Which of the following are recognized as key anthropogenic drivers of Antimicrobial Resistance (AMR)? 1. Use of antimicrobials as growth-promoters in the livestock sector 2. Discharge of industrial waste from the production of Active Pharmaceutical Ingredients (APIs) 3. Poor waste management in healthcare facilities. Select the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "All three are key drivers of AMR. The misuse of antibiotics in humans, the use of antimicrobials in intensive farming and livestock as growth-promoters, industrial waste from API production, and poor waste management in healthcare facilities all contribute to the spread of AMR.",
+      "takeaway": "AMR is driven by multiple sectors, including agriculture (livestock growth promoters), pharmaceutical manufacturing (API waste), and healthcare (poor waste management).",
+      "evidenceExcerpt": "Key Drivers of AMR: Misuse and overuse of antibiotics in humans; Agriculture & Allied Sector (Use of antimicrobials in intensive farming and the Livestock sector used as growth-promoters); Pharmaceutical Manufacturing (Industrial waste from the production of Active Pharmaceutical Ingredients); Healthcare Facilities; Poor Waste Management."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the genetic mechanisms behind the spread of Antimicrobial Resistance (AMR), consider the following statements: 1. Resistance can spread through vertical gene transfer during bacterial division. 2. Resistance can spread through horizontal gene transfer by the exchange of resistance genes among microbes. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Both statements are correct. AMR spreads through vertical gene transfer when bacteria divide, and through horizontal gene transfer when resistance genes are exchanged among microbes.",
+      "takeaway": "The spread of AMR is facilitated by both vertical and horizontal gene transfer mechanisms, allowing resistance to proliferate rapidly.",
+      "evidenceExcerpt": "Spread through vertical gene transfer during bacterial division and through horizontal gene transfer by exchange of resistance genes among microbes."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Applied Concept",
+      "prompt": "If a non-resistant microbe acquires resistance to an antimicrobial drug without undergoing cellular reproduction, which of the following mechanisms is directly responsible?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Vertical gene transfer"
+        },
+        {
+          "id": "B",
+          "text": "Horizontal gene transfer"
+        },
+        {
+          "id": "C",
+          "text": "Spontaneous genetic mutation during division"
+        },
+        {
+          "id": "D",
+          "text": "Bioaccumulation of antimicrobials"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Antimicrobial resistance can spread through horizontal gene transfer, which involves the exchange of resistance genes among co-existing microbes without the need for cellular division. In contrast, vertical gene transfer occurs specifically during bacterial division (reproduction).",
+      "takeaway": "Horizontal gene transfer allows microbes to share resistance traits directly with each other, accelerating the spread of AMR independently of microbial reproduction.",
+      "evidenceExcerpt": "Spread through vertical gene transfer during bacterial division and through horizontal gene transfer by exchange of resistance genes among microbes."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Subtle Distinction",
+      "prompt": "With reference to 'Superbugs', consider the following statements:\n\n1. They are defined as pathogens that have evolved resistance to all known classes of antimicrobials.\n2. The term is exclusively applied to multi-drug resistant strains of bacteria.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Both statements are incorrect. Superbugs are strains of pathogens that are resistant to *most* (not necessarily all) antimicrobials. Furthermore, the term applies to a broad spectrum of pathogens including bacteria, viruses, parasites, and fungi, not just bacteria.",
+      "takeaway": "AMR and the resulting 'Superbugs' encompass a wide range of pathogens (bacteria, viruses, fungi, parasites) that have evolved to withstand most drugs designed to kill them.",
+      "evidenceExcerpt": "AMR occurs when bacteria, viruses, fungi, and parasites evolve to withstand the drugs designed to kill them. Strains of bacteria, viruses, parasites, and fungi that are resistant to most antimicrobials are called Superbugs."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Applied Concept",
+      "prompt": "Which of the following best describes how the discharge of industrial waste from Active Pharmaceutical Ingredient (API) manufacturing contributes to the spread of Antimicrobial Resistance (AMR)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It introduces novel synthetic pathogens directly into the surrounding ecosystems."
+        },
+        {
+          "id": "B",
+          "text": "It facilitates the exchange of resistance genes among environmental microbes by exposing them to antimicrobial compounds."
+        },
+        {
+          "id": "C",
+          "text": "It causes the bioaccumulation of heavy metals in microbes, rendering them immune to standard antibiotics."
+        },
+        {
+          "id": "D",
+          "text": "It directly alters the human genome in local populations, making individuals more susceptible to resistant infections."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Industrial waste from API production releases active antimicrobial compounds into the environment. This exposure drives microbes to evolve and spread resistance, primarily through horizontal gene transfer (the exchange of resistance genes among microbes).",
+      "takeaway": "Poor waste management in pharmaceutical manufacturing is a key driver of AMR, as environmental exposure to APIs promotes the exchange of resistance genes among microbes.",
+      "evidenceExcerpt": "Spread through... horizontal gene transfer by exchange of resistance genes among microbes... Key Drivers of AMR: ... Pharmaceutical Manufacturing (Industrial waste from the production of Active Pharmaceutical Ingredients)"
+    }
+  ]
+}

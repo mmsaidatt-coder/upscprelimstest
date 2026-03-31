@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Approved List of Models and Manufacturers (ALMM) and the Distributed Renewable Energy (DRE) category:\n1. The ALMM is a registry maintained by the Ministry of Power to certify all renewable energy equipment used in government projects.\n2. The DRE category under ALMM was introduced to support smaller manufacturers and promote wider rural electrification.\n3. Under the DRE category, solar modules with lower efficiency are permitted for use in large-scale grid-connected solar parks.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect: The ALMM is an approved list specifically for solar PV modules and manufacturers, maintained by the Ministry of New and Renewable Energy (MNRE), not the Ministry of Power. Statement 2 is correct: A new Distributed Renewable Energy (DRE) category was introduced to support smaller manufacturers and promote wider rural electrification. Statement 3 is incorrect: The relaxed efficiency norms under the DRE category apply only to off-grid solar applications below 200W (like solar lanterns and micro solar grids) and do not affect larger systems like grid-connected solar parks or rooftop solar.",
+      "takeaway": "The ALMM is an MNRE initiative for solar PV modules. The new DRE category under it aims to boost local manufacturing for small-scale (below 200W) off-grid rural projects by allowing lower efficiency modules.",
+      "evidenceExcerpt": "The Approved List of Models and Manufacturers (ALMM) is an MNRE-approved list of solar PV modules and manufacturers... Introduction of Distributed Renewable Energy (DRE) category: To support smaller manufacturers & Wider rural electrification... Applies only to off-grid solar applications below 200W like Solar lanterns, Micro solar grids.",
+      "qualityScore": 85,
+      "reviewNotes": "Rewritten to use the contemporary 'How many statements are correct' UPSC format. Distractors are made highly plausible by swapping the nodal ministry and misrepresenting the scale of the projects."
+    }
+  ],
+  "reviewerNotes": "Selected two strong candidates and rewrote them using the latest UPSC 'How many statements are correct' format. The questions cover different aspects of the text: one focuses on the institutional framework (ALMM and DRE), while the other tests the technical specifics and exclusions of the efficiency norms."
+}

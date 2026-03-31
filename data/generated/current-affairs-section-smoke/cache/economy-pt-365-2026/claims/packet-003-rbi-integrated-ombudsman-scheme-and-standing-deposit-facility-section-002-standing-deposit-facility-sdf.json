@@ -1,0 +1,82 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-003-rbi-integrated-ombudsman-scheme-and-standing-deposit-facility-section-002-standing-deposit-facility-sdf",
+    "claimType": "Concept",
+    "claimText": "The Standing Deposit Facility (SDF) is a monetary policy instrument used by the RBI to absorb liquidity from commercial banks without the need for providing collateral.",
+    "evidenceExcerpt": "The Standing Deposit Facility (SDF) is a monetary policy instrument used by the RBI to absorb liquidity from commercial banks without the need for providing collateral.",
+    "pageNumbers": [
+      7
+    ],
+    "examUse": "Statement-based question to test understanding of SDF's core function and its distinction from other tools.",
+    "distractorHooks": [
+      "SDF requires collateral.",
+      "SDF is used to inject liquidity.",
+      "SDF is not a monetary policy instrument."
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-003-rbi-integrated-ombudsman-scheme-and-standing-deposit-facility-section-002-standing-deposit-facility-sdf",
+    "claimType": "Relationship",
+    "claimText": "The Standing Deposit Facility (SDF) has replaced the Fixed Rate Reverse Repo as the floor of the Liquidity Adjustment Facility (LAF) corridor.",
+    "evidenceExcerpt": "It has replaced the Fixed Rate Reverse Repo as the floor of the Liquidity Adjustment Facility (LAF) corridor.",
+    "pageNumbers": [
+      7
+    ],
+    "examUse": "Correct-pair or statement-based question on the structure of the LAF corridor.",
+    "distractorHooks": [
+      "SDF is the ceiling of the LAF corridor.",
+      "SDF replaced the Marginal Standing Facility (MSF).",
+      "SDF operates alongside the Fixed Rate Reverse Repo as the floor."
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-003-rbi-integrated-ombudsman-scheme-and-standing-deposit-facility-section-002-standing-deposit-facility-sdf",
+    "claimType": "Feature",
+    "claimText": "The SDF is an overnight facility for liquidity absorption, though the RBI retains the flexibility to extend its duration.",
+    "evidenceExcerpt": "The SDF is an overnight facility, available daily, with the RBI having the flexibility to extend its duration.",
+    "pageNumbers": [
+      7
+    ],
+    "examUse": "Statement-based question testing the operational characteristics of the SDF.",
+    "distractorHooks": [
+      "SDF is strictly an overnight facility with no flexibility in duration.",
+      "SDF is a long-term liquidity absorption tool.",
+      "The duration of SDF is determined by commercial banks."
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-003-rbi-integrated-ombudsman-scheme-and-standing-deposit-facility-section-002-standing-deposit-facility-sdf",
+    "claimType": "Feature",
+    "claimText": "The Standing Deposit Facility is available for use every day, including on holidays and weekends.",
+    "evidenceExcerpt": "Available every day, including holidays and weekends.",
+    "pageNumbers": [
+      7
+    ],
+    "examUse": "Statement-based question focusing on the operational availability of monetary policy instruments.",
+    "distractorHooks": [
+      "SDF is only available on banking weekdays.",
+      "SDF is available only during specific auction timings.",
+      "SDF availability is limited to month-end."
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-003-rbi-integrated-ombudsman-scheme-and-standing-deposit-facility-section-002-standing-deposit-facility-sdf",
+    "claimType": "Feature",
+    "claimText": "Any entity eligible for the Liquidity Adjustment Facility (LAF) is permitted to use the Standing Deposit Facility.",
+    "evidenceExcerpt": "Any entity eligible for LAF can utilize this facility.",
+    "pageNumbers": [
+      7
+    ],
+    "examUse": "Statement-based question about the eligibility criteria for participating in RBI's liquidity facilities.",
+    "distractorHooks": [
+      "Only scheduled commercial banks can use the SDF.",
+      "SDF is open to all financial institutions, including those not eligible for LAF.",
+      "Eligibility for SDF is more restrictive than for LAF."
+    ]
+  }
+]

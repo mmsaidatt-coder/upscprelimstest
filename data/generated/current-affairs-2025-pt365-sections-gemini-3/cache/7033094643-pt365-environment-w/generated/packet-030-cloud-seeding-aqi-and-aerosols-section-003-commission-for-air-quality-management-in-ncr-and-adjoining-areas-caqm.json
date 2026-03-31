@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Commission for Air Quality Management (CAQM), consider the following statements:\n1. It is a statutory body established under the Environment (Protection) Act, 1986.\n2. Its territorial jurisdiction is confined exclusively to the National Capital Territory (NCT) of Delhi and the state of Haryana.\n3. In case of a conflict, its orders override those of the Central Pollution Control Board (CPCB) and State Pollution Control Boards.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: CAQM is a statutory body established under the Commission for Air Quality Management in National Capital Region and Adjoining Areas Act, 2021, not the Environment (Protection) Act, 1986. Statement 2 is incorrect: Its jurisdiction extends beyond Delhi and Haryana to cover the NCR and adjoining areas in Punjab, Rajasthan, and Uttar Pradesh. Statement 3 is correct: CAQM holds overriding powers; its orders supersede those of state governments, the CPCB, and state PCBs in case of a conflict.",
+      "takeaway": "CAQM is a powerful statutory body created by a specific 2021 Act. It has a broad jurisdiction covering the NCR and four adjoining states, and possesses overriding powers over both central and state pollution control authorities.",
+      "evidenceExcerpt": "Statutory body under Commission for Air Quality Management in National Capital Region and Adjoining Areas Act 2021... Protects and improves air quality in NCR and Adjoining Areas (Haryana, Punjab, Rajasthan and Uttar Pradesh). Its orders override those of state governments, CPCB, state PCBs, and others in case of conflict."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Commission for Air Quality Management (CAQM):\n1. It functions under the administrative control of the Ministry of Earth Sciences.\n2. The Chairperson of the Commission must possess at least 15 years of experience in environment protection or 25 years in administration.\n3. The orders issued by the CAQM are advisory in nature and require ratification by the respective State Governments.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect: The nodal ministry for CAQM is the Ministry of Environment, Forest and Climate Change (MoEFCC), not the Ministry of Earth Sciences. Statement 2 is correct: The eligibility criteria for the Chairperson mandate at least 15 years of experience in environment protection or 25 years in administration. Statement 3 is incorrect: The orders of CAQM are binding, not advisory, and they override those of state governments in case of a conflict.",
+      "takeaway": "The CAQM operates under the MoEFCC, requires significant administrative or environmental experience for its Chairperson, and holds binding, overriding authority over state governments and pollution boards.",
+      "evidenceExcerpt": "Nodal Ministry: Ministry of Environment, Forest and Climate Change... Its orders override those of state governments, CPCB, state PCBs, and others in case of conflict. Chairperson must have at least 15 years in environment protection or 25 years in administration."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the regulatory framework for air quality management in India:\n1. In the event of conflicting directives regarding air quality in the National Capital Region, the orders of the Commission for Air Quality Management (CAQM) supersede those issued by the Central Pollution Control Board (CPCB).\n2. The \"adjoining areas\" under the CAQM's jurisdiction are strictly limited to the states that share a direct geographical boundary with the National Capital Territory of Delhi.",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The CAQM's orders override those of state governments, the CPCB, and state PCBs in case of conflict. Statement 2 is incorrect: The adjoining areas under CAQM's jurisdiction include Punjab and Rajasthan, neither of which shares a direct geographical boundary with the NCT of Delhi, alongside Haryana and Uttar Pradesh.",
+      "takeaway": "CAQM has overriding powers over the CPCB within its jurisdiction, which extends to Punjab and Rajasthan despite them not bordering Delhi directly.",
+      "evidenceExcerpt": "Protects and improves air quality in NCR and Adjoining Areas (Haryana, Punjab, Rajasthan and Uttar Pradesh). Its orders override those of state governments, CPCB, state PCBs, and others in case of conflict."
+    }
+  ]
+}

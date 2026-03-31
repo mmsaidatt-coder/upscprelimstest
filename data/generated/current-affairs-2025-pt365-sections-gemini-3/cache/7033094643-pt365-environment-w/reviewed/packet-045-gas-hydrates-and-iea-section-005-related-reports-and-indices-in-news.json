@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Correct-Pair",
+      "prompt": "Consider the following pairs:\n\nReport : Publishing Organization\n1. Production Gap Report : Stockholm Environment Institute\n2. Global Electricity Mid-Year Insights : International Energy Agency\n3. The State of Food and Agriculture : Food and Agriculture Organization\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: The Production Gap Report is released by the Stockholm Environment Institute (SEI), along with Climate Analytics and IISD.\nPair 2 is incorrectly matched: The Global Electricity Mid-Year Insights is released by the energy think tank Ember, not the International Energy Agency (IEA).\nPair 3 is correctly matched: The State of Food and Agriculture (SOFA) Report is released by the Food and Agriculture Organization (FAO).",
+      "takeaway": "The Production Gap Report is published by SEI, Climate Analytics, and IISD. The Global Electricity Mid-Year Insights is published by Ember, and the SOFA report is published by the FAO.",
+      "evidenceExcerpt": "The Production Gap Report 2025 by the Stockholm Environment Institute (SEI), Climate Analytics, and IISD... The Global Electricity Mid-Year Insights 2025 was released by the energy think tank Ember, and The State of Food and Agriculture (SOFA) 2025 Report was released by the Food and Agriculture Organization (FAO).",
+      "qualityScore": 90,
+      "reviewNotes": "Excellent UPSC-style matching question. The distractor (IEA) is highly plausible for an energy report."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "The term 'Ember', sometimes mentioned in the news, refers to:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A specialized agency of the United Nations tracking global agricultural output."
+        },
+        {
+          "id": "B",
+          "text": "An energy think tank that releases the Global Electricity Mid-Year Insights."
+        },
+        {
+          "id": "C",
+          "text": "A financial mechanism established under the Paris Agreement to fund climate adaptation."
+        },
+        {
+          "id": "D",
+          "text": "An intergovernmental consortium focused on regulating international fossil fuel trade."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Ember is an energy think tank known for releasing reports such as the Global Electricity Mid-Year Insights, which tracks progress and trends in the global electricity sector.",
+      "takeaway": "Ember is an energy think tank, distinct from intergovernmental bodies like the IEA or UN agencies, and is responsible for publishing the Global Electricity Mid-Year Insights.",
+      "evidenceExcerpt": "The Global Electricity Mid-Year Insights 2025 was released by the energy think tank Ember...",
+      "qualityScore": 85,
+      "reviewNotes": "Classic UPSC 'term in news' format. Distractors are well-crafted and parallel, representing common types of international environmental entities."
+    }
+  ],
+  "reviewerNotes": "Selected two high-quality questions. The first is a standard 'How many pairs' matching question that tests knowledge of key environmental reports. The second is a 'term in news' question focusing on 'Ember', which is frequently cited in energy transition contexts. Both questions strictly adhere to the provided source text and mimic the UPSC Prelims style effectively."
+}

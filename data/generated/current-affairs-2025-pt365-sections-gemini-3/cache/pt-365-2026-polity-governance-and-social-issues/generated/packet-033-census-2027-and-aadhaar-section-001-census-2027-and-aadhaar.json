@@ -1,0 +1,33 @@
+{
+  "questions": [
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Feature-matching",
+      "prompt": "Which of the following technological features is correctly matched with its intended purpose in the Census 2027 framework?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Census-as-a-service (CaaS): A mobile application for citizens to perform self-enumeration."
+        },
+        {
+          "id": "B",
+          "text": "Census Management & Monitoring System (CMMS): A real-time portal for monitoring the census process."
+        },
+        {
+          "id": "C",
+          "text": "National Population Register (NPR): A clean, machine-readable data format for inter-ministerial use."
+        },
+        {
+          "id": "D",
+          "text": "Civil Registration System (CRS): A dedicated portal for real-time monitoring of enumerators."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Option B is correct as the CMMS portal is developed for real-time monitoring. Option A is incorrect because CaaS is a delivery model for ministries, not a citizen app. Option C is incorrect as CaaS (not NPR) provides clean, machine-readable data to ministries. Option D is incorrect as CRS is for birth/death registration, not census monitoring.",
+      "takeaway": "CMMS is for process monitoring, while CaaS is for data delivery to government stakeholders.",
+      "evidenceExcerpt": "New Technology: A dedicated Census Management & Monitoring System (CMMS) portal has been developed for real-time monitoring of the process. Census-as-a-service (CaaS) will deliver data to ministries in a clean, machine-readable and actionable format.",
+      "contextLines": []
+    }
+  ]
+}

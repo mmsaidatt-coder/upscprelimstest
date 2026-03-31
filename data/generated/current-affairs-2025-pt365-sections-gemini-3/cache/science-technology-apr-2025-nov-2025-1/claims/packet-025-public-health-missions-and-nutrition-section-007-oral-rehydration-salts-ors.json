@@ -1,0 +1,62 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-025-public-health-missions-and-nutrition-section-007-oral-rehydration-salts-ors",
+    "claimType": "Factual",
+    "claimText": "The term ORS is exclusively associated with WHO-recommended Oral Rehydration Salts, which are classified as drug products rather than commercial beverages.",
+    "evidenceExcerpt": "ORS term is associated exclusively with WHO-recommended Oral Rehydration Salts, which are drug products.",
+    "pageNumbers": [
+      51
+    ],
+    "examUse": "Statement-based question on the regulatory classification of ORS by FSSAI.",
+    "distractorHooks": [
+      "ORS is classified as a food supplement",
+      "ORS is a generic term for any energy beverage"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-025-public-health-missions-and-nutrition-section-007-oral-rehydration-salts-ors",
+    "claimType": "Factual",
+    "claimText": "The WHO-recommended composition of Oral Rehydration Salts (ORS) consists of sodium chloride, anhydrous glucose, potassium chloride, and trisodium citrate dihydrate.",
+    "evidenceExcerpt": "WHO-recommended ORS composition includes Sodium chloride, anhydrous glucose, potassium chloride, and trisodium citrate dihydrate.",
+    "pageNumbers": [
+      51
+    ],
+    "examUse": "Correct-pair or statement-based question on the exact chemical composition of WHO-recommended ORS.",
+    "distractorHooks": [
+      "ORS contains sucrose instead of glucose",
+      "ORS contains magnesium sulfate"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-025-public-health-missions-and-nutrition-section-007-oral-rehydration-salts-ors",
+    "claimType": "Conceptual",
+    "claimText": "In Oral Rehydration Salts (ORS), glucose enhances the absorption of sodium and water, while citrate helps correct dehydration-related acidosis.",
+    "evidenceExcerpt": "In ORS, glucose enhances sodium and water absorption, while citrate corrects dehydration-related acidosis.",
+    "pageNumbers": [
+      51
+    ],
+    "examUse": "Statement-based question on the physiological functions of individual ORS components.",
+    "distractorHooks": [
+      "Glucose is added solely for taste and energy",
+      "Citrate acts as a preservative rather than correcting acidosis"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-025-public-health-missions-and-nutrition-section-007-oral-rehydration-salts-ors",
+    "claimType": "Factual",
+    "claimText": "Oral Rehydration Salts (ORS) were developed by Dilip Mahalanabis as a low-cost solution to treat dehydration from acute diarrhoeal diseases.",
+    "evidenceExcerpt": "ORS was developed by Dilip Mahalanabis as a low-cost solution to treat dehydration from acute diarrhoeal diseases.",
+    "pageNumbers": [
+      51
+    ],
+    "examUse": "Fact-based question on the historical development and pioneer of ORS therapy.",
+    "distractorHooks": [
+      "ORS was developed by Jonas Salk",
+      "ORS was developed primarily to treat heatstroke"
+    ]
+  }
+]

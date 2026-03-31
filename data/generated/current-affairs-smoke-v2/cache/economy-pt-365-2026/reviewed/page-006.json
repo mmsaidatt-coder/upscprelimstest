@@ -1,0 +1,129 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the financial framework of the Reserve Bank of India, consider the following statements:\n1. The Contingent Risk Buffer (CRB) is a component of the RBI's realized equity, maintained to provide for various financial stability risks.\n2. Revaluation Balances account for unrealized gains or losses that arise from movements in exchange rates and gold prices.\n3. Both the CRB and Revaluation Balances are treated as part of the RBI's annual surplus that is transferable to the Government of India.\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct. The text defines the CRB as a component of RBI’s realized equity used to provide for monetary, financial, credit, and operational risks. Statement 2 is correct. Revaluation Balances are defined as unrealized gains resulting from movements in exchange rates, gold prices, etc. Statement 3 is incorrect. Revaluation Balances are unrealized and not part of the distributable surplus. The CRB is a provision from realized equity, not a part of the annual surplus to be transferred. Therefore, only statements 1 and 2 are correct.",
+      "takeaway": "It is important to differentiate between realized equity provisions (like CRB) and unrealized accounting adjustments (like Revaluation Balances) on the RBI's balance sheet, and to understand that they are not part of the surplus transferable to the government.",
+      "evidenceExcerpt": "Contingent Risk Buffer (CRB): Component of RBI’s realized equity to provide for monetary and financial stability, credit, and operational risks.Revaluation Balances: The unrealized gains, net of losses, resulting from exchange rate, gold price and interest rate movements.",
+      "qualityScore": 90,
+      "reviewNotes": "Excellent question that tests a nuanced distinction between realized and unrealized components of RBI's accounts. Statement 3 is a strong analytical distractor that requires understanding the implications of these definitions, making it a 'Hard' difficulty question. The wording has been slightly refined for clarity."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Reserve Bank of India's (RBI) management of gold reserves, consider the following statements:\n1. Increasing gold reserves is a strategy to diversify foreign currency assets and reduce dependency on the US dollar.\n2. Gold is accumulated as a hedge against inflation to protect the purchasing power of the country's foreign reserves.\n3. Gold holdings generally offer higher liquidity and flexibility for conversion to cash compared to foreign currency assets.\n4. Unlike government bonds or currency deposits, gold as an asset yields no interest or dividends.\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct; the text mentions diversification and reducing dependency on the US dollar as reasons for increasing gold reserves. Statement 2 is correct; gold is stated to be a hedge against inflation. Statement 3 is incorrect; the text explicitly mentions 'Reduced Liquidity and Flexibility' as a risk, noting that converting gold is slower and costlier than liquidating foreign currency assets. Statement 4 is correct; 'Zero Yield' is listed as a characteristic, as gold yields no interest or dividends. Therefore, statements 1, 2, and 4 are correct.",
+      "takeaway": "Understand both the strategic motivations (diversification, inflation hedge) and the inherent drawbacks (low liquidity, zero yield, storage costs) of holding gold as part of a central bank's foreign exchange reserves.",
+      "evidenceExcerpt": "Why is RBI increasing gold reserves? Diversification: Diversify the foreign currency assets base and reduce dependency on the US dollar (de-dollarization). ... Hedge against Inflation: Gold is accumulated as a hedge against inflation, helping protect the purchasing power of India’s foreign reserves. Risk Associated with Storing Gold Reduced Liquidity and Flexibility: Converting large gold holdings to cash during is slower and costlier than liquidating foreign currency assets. Zero Yield: Gold yields no interest or dividends, unlike bonds or currency deposits.",
+      "qualityScore": 88,
+      "reviewNotes": "This is a strong, well-rounded question in the 'How many correct' format. It comprehensively tests the candidate's understanding of both the rationale for and the risks associated with RBI's gold accumulation policy, based directly on the source text."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the components of India's Foreign Exchange Reserves, consider the following statements:\n1. Foreign Currency Assets (FCA) are maintained in a diversified basket of currencies including the US dollar, euro, and Japanese yen.\n2. Special Drawing Rights (SDRs) are non-interest-bearing assets created by the IMF to supplement the official reserves of its member countries.\n3. The Reserve Tranche Position (RTP) represents a portion of a member country's quota with the IMF that can be withdrawn without facing strict conditionality.\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct. The source explicitly mentions that FCA are maintained in currencies like the US dollar, euro, pound sterling, Australian dollar, and Japanese yen. Statement 2 is incorrect. The source clearly states that Special Drawing Rights are an 'interest-bearing' reserve asset. Statement 3 is correct. The RTP is described as the portion of a member's quota that is 'readily available for withdrawal without strict conditions'. Therefore, statements 1 and 3 are correct.",
+      "takeaway": "A clear understanding of the different components of foreign exchange reserves is essential, including their specific characteristics such as whether they are interest-bearing and the conditions attached to their use.",
+      "evidenceExcerpt": "Foreign Currency Assets (FCA): These are maintained in currencies like the US dollar, euro, pound sterling, Australian dollar, and Japanese yen. Special Drawing Rights: An interest-bearing reserve asset created by the IMF to supplement members' reserve assets. Reserve Tranche Position (RTP): It is the difference between the member's quota and the IMF's holdings of the member's currency that is readily available for withdrawal without strict conditions.",
+      "qualityScore": 85,
+      "reviewNotes": "A solid question in the 'How many correct' format that accurately tests knowledge of three key components of forex reserves. The 'interest-bearing' vs 'non-interest-bearing' detail for SDRs is a classic UPSC-style trap. The question is well-supported by the text."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Matching",
+      "prompt": "Consider the following pairs:\n1. Contingent Risk Buffer : Unrealized gains from asset price movements\n2. Revaluation Balances : A component of realized equity for financial stability risks\n3. Special Drawing Rights : An interest-bearing reserve asset created by the IMF\nWhich of the pairs given above is/are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "3 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is incorrectly matched. Contingent Risk Buffer (CRB) is a component of RBI’s realized equity. Unrealized gains are part of Revaluation Balances. Pair 2 is incorrectly matched. Revaluation Balances consist of unrealized gains, while CRB is the component of realized equity. The definitions are effectively swapped. Pair 3 is correctly matched. Special Drawing Rights (SDRs) are defined as an interest-bearing reserve asset created by the IMF.",
+      "takeaway": "It is crucial to distinguish between the RBI's realized equity provisions like CRB and its unrealized accounts like Revaluation Balances, as well as understanding the nature of IMF-related assets like SDRs.",
+      "evidenceExcerpt": "Contingent Risk Buffer (CRB): Component of RBI’s realized equity to provide for monetary and financial stability, credit, and operational risks.Revaluation Balances: The unrealized gains, net of losses, resulting from exchange rate, gold price and interest rate movements.Special Drawing Rights: An interest-bearing reserve asset created by the IMF to supplement members' reserve assets.",
+      "qualityScore": 85,
+      "reviewNotes": "Rewritten from a simple definition question into a more challenging 'pairs' format that tests multiple concepts and their precise definitions. The distractors are plausible as they involve swapping the definitions of related terms."
+    }
+  ],
+  "reviewerNotes": "Selected four high-quality questions covering the key topics of RBI's financial buffers, gold reserve management, and components of forex reserves. Rejected all questions related to the Ombudsman Scheme as they relied on information not present in the provided source text. Also rejected simpler, more trivial questions. The selected questions were either strong candidates or were rewritten into more challenging UPSC-style formats like 'pairs matching' and 'how many statements are correct'. The final set tests a mix of definitional and analytical understanding, with plausible distractors and clear grounding in the source material."
+}

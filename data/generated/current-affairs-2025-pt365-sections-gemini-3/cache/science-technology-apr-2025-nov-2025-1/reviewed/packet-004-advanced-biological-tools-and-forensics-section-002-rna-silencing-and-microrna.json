@@ -1,0 +1,98 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to 'microRNA (miRNA)', consider the following statements:\n1. They are small, non-coding RNA molecules.\n2. They control gene expression by binding with messenger RNA (mRNA) in the cytoplasm.\n3. They function by permanently altering the DNA sequence of the target gene.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: microRNA (miRNA) is a small non-coding RNA. Statement 2 is correct: miRNA controls gene expression by binding with mRNA in the cytoplasm to prevent its translation or to degrade it. Statement 3 is incorrect: miRNA regulates gene expression at the post-transcriptional level (RNA level) and does not permanently alter the underlying DNA sequence, unlike gene-editing tools such as CRISPR-Cas9.",
+      "takeaway": "microRNAs are small, non-coding RNA molecules that act in the cytoplasm to regulate gene expression post-transcriptionally. They do not edit or alter DNA sequences.",
+      "evidenceExcerpt": "microRNA (miRNA) is a small non-coding RNA that controls gene expression by binding with mRNA in the cytoplasm to prevent translation or degrade it.",
+      "qualityScore": 90,
+      "reviewNotes": "Excellent UPSC-style question. Statement 3 serves as a strong distractor by preying on the common confusion between RNA interference and DNA editing."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Application",
+      "prompt": "In the context of agriculture, what is the primary purpose of techniques like 'Host-Induced Gene Silencing (HIGS)' and 'Spray-Induced Gene Silencing (SIGS)'?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "To permanently edit the genome of crops for drought tolerance"
+        },
+        {
+          "id": "B",
+          "text": "To strengthen plant immunity against pathogens"
+        },
+        {
+          "id": "C",
+          "text": "To facilitate the cross-breeding of genetically distant plant species"
+        },
+        {
+          "id": "D",
+          "text": "To increase the shelf-life of harvested fruits by delaying ethylene production"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Host-Induced Gene Silencing (HIGS) and Spray-Induced Gene Silencing (SIGS) are practical applications of RNA silencing in agriculture. They are utilized primarily to strengthen plant immunity by suppressing the essential genes of attacking pathogens, thereby protecting the crops from diseases.",
+      "takeaway": "HIGS and SIGS are RNA silencing techniques used in agricultural biotechnology to enhance plant immunity against pests and pathogens without necessarily altering the plant's permanent genome.",
+      "evidenceExcerpt": "Techniques like Host-Induced Gene Silencing (HIGS) and Spray-Induced Gene Silencing (SIGS) strengthen plant immunity.",
+      "qualityScore": 90,
+      "reviewNotes": "A classic UPSC terminology application question. The distractors are highly plausible applications of other biotechnological tools (like CRISPR or traditional genetic modification)."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'RNA silencing':\n1. It is a gene regulation mechanism that reduces gene expression by suppressing transcription.\n2. It involves small RNA molecules that bind to messenger RNA (mRNA) to block its translation.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: RNA silencing is a gene regulation mechanism that can reduce gene expression by suppressing transcription, a process known as Transcriptional Gene Silencing (TGS). Statement 2 is correct: It involves small RNA molecules, such as siRNA or miRNA, which bind to specific messenger RNA (mRNA) molecules to either destroy them or block their translation into proteins (Post-Transcriptional Gene Silencing).",
+      "takeaway": "RNA silencing regulates gene expression at two levels: by suppressing transcription (TGS) or by degrading/blocking mRNA post-transcriptionally (PTGS/RNAi).",
+      "evidenceExcerpt": "RNA silencing is a gene regulation mechanism that reduces gene expression by suppressing transcription (TGS) or degrading specific RNA after transcription (PTGS/RNAi). It involves small RNA molecules like siRNA or miRNA binding to mRNA to destroy it or block translation.",
+      "qualityScore": 85,
+      "reviewNotes": "A solid conceptual question that tests the fundamental mechanisms of RNA silencing without overlapping with application-based questions."
+    }
+  ],
+  "reviewerNotes": "Selected three distinct questions covering the core concepts of the text: the general mechanism of RNA silencing, the specific characteristics of microRNA, and the agricultural applications of HIGS/SIGS. The questions have been refined to match UPSC Prelims standards, particularly by ensuring distractors are plausible and formatting aligns with recent trends."
+}

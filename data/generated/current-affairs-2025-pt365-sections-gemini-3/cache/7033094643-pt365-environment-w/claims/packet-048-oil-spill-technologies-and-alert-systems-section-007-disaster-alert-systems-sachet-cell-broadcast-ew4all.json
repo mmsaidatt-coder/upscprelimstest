@@ -1,0 +1,81 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-048-oil-spill-technologies-and-alert-systems-section-007-disaster-alert-systems-sachet-cell-broadcast-ew4all",
+    "claimType": "Factual",
+    "claimText": "SACHET is an SMS-based disaster alert system operationalized by the National Disaster Management Authority (NDMA).",
+    "evidenceExcerpt": "SACHET is an SMS-based alert system operationalized by NDMA",
+    "pageNumbers": [
+      100
+    ],
+    "examUse": "Statement-based question on disaster management initiatives and their implementing agencies.",
+    "distractorHooks": [
+      "Operationalized by the India Meteorological Department (IMD)",
+      "Operationalized by the Indian National Centre for Ocean Information Services (INCOIS)"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-048-oil-spill-technologies-and-alert-systems-section-007-disaster-alert-systems-sachet-cell-broadcast-ew4all",
+    "claimType": "Factual",
+    "claimText": "The SACHET alert system was developed by the Centre for Development of Telematics (C-DOT) utilizing the Common Alerting Protocol (CAP).",
+    "evidenceExcerpt": "Developed by Centre of Development of Telematics C-DOT using the Common Alerting Protocol (CAP)",
+    "pageNumbers": [
+      100
+    ],
+    "examUse": "Correct-pair or statement-based question identifying the technological developer and protocol used for India's alert systems.",
+    "distractorHooks": [
+      "Developed by ISRO",
+      "Developed by National Informatics Centre (NIC)",
+      "Uses a proprietary closed-source protocol instead of the Common Alerting Protocol"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-048-oil-spill-technologies-and-alert-systems-section-007-disaster-alert-systems-sachet-cell-broadcast-ew4all",
+    "claimType": "Conceptual",
+    "claimText": "Cell Broadcast alerts are faster than traditional SMS and are broadcast directly to all mobile phones within a specific affected area.",
+    "evidenceExcerpt": "Cell Broadcast alerts are faster than SMS and are broadcast directly to all mobile phones in an affected area.",
+    "pageNumbers": [
+      100
+    ],
+    "examUse": "Comparison question evaluating the technological differences between Cell Broadcast and SMS for emergency alerts.",
+    "distractorHooks": [
+      "Cell Broadcast requires users to download a specific application",
+      "Cell Broadcast is slower than SMS due to network congestion",
+      "Cell Broadcast requires users to manually subscribe to alerts"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-048-oil-spill-technologies-and-alert-systems-section-007-disaster-alert-systems-sachet-cell-broadcast-ew4all",
+    "claimType": "Factual",
+    "claimText": "The Early Warnings for All (EW4All) initiative was launched at the UNFCCC COP27 in 2022 with the goal of ensuring universal protection by 2027.",
+    "evidenceExcerpt": "Early Warnings for All (EW4All) was launched at COP27 in 2022 to ensure universal protection by 2027.",
+    "pageNumbers": [
+      100
+    ],
+    "examUse": "Statement-based question on international climate and disaster risk reduction targets.",
+    "distractorHooks": [
+      "Launched at COP28 in Dubai",
+      "Aims to ensure universal protection by 2030",
+      "Launched at the Sendai Framework conference"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-048-oil-spill-technologies-and-alert-systems-section-007-disaster-alert-systems-sachet-cell-broadcast-ew4all",
+    "claimType": "Factual",
+    "claimText": "The Early Warnings for All (EW4All) initiative is jointly led by the WMO, UNDRR, ITU, and IFRC.",
+    "evidenceExcerpt": "EW4All is jointly led by WMO, UNDRR, ITU, and IFRC.",
+    "pageNumbers": [
+      100
+    ],
+    "examUse": "Institution-feature question identifying the leading organizations behind global disaster initiatives.",
+    "distractorHooks": [
+      "Led exclusively by the United Nations Environment Programme (UNEP)",
+      "Led by the World Bank and IMF",
+      "Led solely by the UNFCCC secretariat"
+    ]
+  }
+]

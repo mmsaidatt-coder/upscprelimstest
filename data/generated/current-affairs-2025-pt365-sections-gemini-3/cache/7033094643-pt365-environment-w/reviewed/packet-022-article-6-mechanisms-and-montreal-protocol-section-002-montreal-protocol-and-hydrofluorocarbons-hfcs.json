@@ -1,0 +1,39 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Hydrofluorocarbons (HFCs):\n1. They are short-lived climate pollutants that do not deplete the stratospheric ozone layer.\n2. Over a 20-year period, they have a significantly lower global warming potential compared to carbon dioxide.\n3. The Kigali Amendment to the Montreal Protocol mandates the gradual phase-down of their production and consumption.\nHow many of the above statements are correct?",
+      "contextLines": [
+        "The 2016 Kigali Amendment aims to phase down HFCs, which are non-ODS but potent greenhouse gases.",
+        "HFCs are short-lived climate pollutants with an average atmospheric lifetime of 15 years, warming the planet 3,790 times as much as CO2 over 20 years."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: HFCs are non-Ozone Depleting Substances (non-ODS) and are considered short-lived climate pollutants. Statement 2 is incorrect: HFCs are potent greenhouse gases, warming the planet 3,790 times as much as CO2 over a 20-year period. Statement 3 is correct: The 2016 Kigali Amendment aims to phase down HFCs.",
+      "takeaway": "HFCs were introduced as non-ODS alternatives but are potent greenhouse gases. The Kigali Amendment specifically addresses their phase-down to mitigate climate change.",
+      "evidenceExcerpt": "The 2016 Kigali Amendment aims to phase down HFCs, which are non-ODS but potent greenhouse gases. HFCs are short-lived climate pollutants with an average atmospheric lifetime of 15 years, warming the planet 3,790 times as much as CO2 over 20 years.",
+      "qualityScore": 85,
+      "reviewNotes": "Good coverage of HFC properties and the Kigali Amendment. Reworded to match UPSC's 'How many statements are correct' format."
+    }
+  ],
+  "reviewerNotes": "Selected 4 questions covering HFCs, Montreal Protocol framework, ozone recovery timelines, and the rationale behind the Kigali Amendment. Rewrote the Assertion-Reason question into the contemporary Statement-I/Statement-II format used by UPSC. Ensured all distractors are plausible and grounded in the provided text."
+}

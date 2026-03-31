@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to international trade, consider the following statements regarding 'anti-dumping duty': 1. It is a protectionist tariff imposed on foreign goods that are exported at a price significantly lower than their domestic market price. 2. The General Agreement on Tariffs and Trade (GATT) permits countries to take action against dumping. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: An anti-dumping duty is a protectionist tariff imposed on foreign imports dumped in the domestic market. Dumping occurs when a company exports a product at a significantly lower price than its domestic market price. Statement 2 is correct: The General Agreement on Tariffs and Trade (GATT) permits countries to take action against dumping to protect their domestic industries from unfair competition.",
+      "takeaway": "Anti-dumping duties are protectionist tariffs permitted under GATT to counter the practice of dumping, which is defined as exporting goods at prices significantly lower than their home market rates.",
+      "evidenceExcerpt": "An anti-dumping duty is a protectionist tariff imposed on foreign imports dumped in the domestic market. Dumping occurs when a company exports a product at a significantly lower price than its domestic market price. The General Agreement on Tariffs and Trade (GATT) permits countries to take action against dumping.",
+      "qualityScore": 85,
+      "reviewNotes": "Upgraded the single-statement conceptual question into a two-statement question to cover both the definition of dumping and the GATT provision, making it more aligned with UPSC Prelims patterns."
+    }
+  ],
+  "reviewerNotes": "The candidate question was a good conceptual test but lacked the multi-dimensional approach typical of UPSC. By incorporating the GATT provision into a statement-based format, the question now tests both the economic definition and the institutional framework governing anti-dumping duties."
+}

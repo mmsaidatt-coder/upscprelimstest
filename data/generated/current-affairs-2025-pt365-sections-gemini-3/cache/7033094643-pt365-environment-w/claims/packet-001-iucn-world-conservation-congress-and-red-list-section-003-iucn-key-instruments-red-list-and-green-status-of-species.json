@@ -1,0 +1,82 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-001-iucn-world-conservation-congress-and-red-list-section-003-iucn-key-instruments-red-list-and-green-status-of-species",
+    "claimType": "Factual",
+    "claimText": "The IUCN Red List of Threatened Species categorizes species into 9 distinct categories ranging from Not Evaluated to Extinct.",
+    "evidenceExcerpt": "IUCN Red List divides species into 9 categories (NE, DD, LC, NT, VU, EN, CR, EW, EX).",
+    "pageNumbers": [
+      7
+    ],
+    "examUse": "Statement-based question on the structure and classification system of the IUCN Red List.",
+    "distractorHooks": [
+      "7 categories",
+      "8 categories",
+      "Only includes threatened species"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-001-iucn-world-conservation-congress-and-red-list-section-003-iucn-key-instruments-red-list-and-green-status-of-species",
+    "claimType": "Conceptual",
+    "claimText": "The IUCN Green Status of Species measures conservation success and species recovery using 8 categories and a Green Score ranging from 0 to 100%.",
+    "evidenceExcerpt": "Green Status includes 8 categories and a Green Score (0-100%) indicating proximity to full recovery.",
+    "pageNumbers": [
+      7
+    ],
+    "examUse": "Comparison question distinguishing the purpose and metrics of the IUCN Green Status from the Red List.",
+    "distractorHooks": [
+      "Measures extinction risk",
+      "Uses 9 categories",
+      "Launched in 1964"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-001-iucn-world-conservation-congress-and-red-list-section-003-iucn-key-instruments-red-list-and-green-status-of-species",
+    "claimType": "Factual",
+    "claimText": "The Indian Courser and Indian Roller have been recently uplisted to the Near Threatened category on the IUCN Red List.",
+    "evidenceExcerpt": "Indian Courser, Indian Roller, and Rufous-tailed Lark uplisted to Near Threatened.",
+    "pageNumbers": [
+      7
+    ],
+    "examUse": "Correct-pair question matching Indian bird species to their current IUCN conservation status.",
+    "distractorHooks": [
+      "Endangered",
+      "Least Concern",
+      "Critically Endangered"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-001-iucn-world-conservation-congress-and-red-list-section-003-iucn-key-instruments-red-list-and-green-status-of-species",
+    "claimType": "Factual",
+    "claimText": "The Long-billed Grasshopper-warbler has been uplisted to the Endangered category on the IUCN Red List.",
+    "evidenceExcerpt": "Long-billed Grasshopper-warbler uplisted to Endangered.",
+    "pageNumbers": [
+      7
+    ],
+    "examUse": "Correct-pair question matching species to their IUCN status.",
+    "distractorHooks": [
+      "Near Threatened",
+      "Least Concern",
+      "Extinct in the Wild"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-001-iucn-world-conservation-congress-and-red-list-section-003-iucn-key-instruments-red-list-and-green-status-of-species",
+    "claimType": "Factual",
+    "claimText": "The conservation status of the Green Sea Turtle has improved from Endangered to Least Concern on the IUCN Red List.",
+    "evidenceExcerpt": "Green Sea Turtle improved from Endangered to Least Concern.",
+    "pageNumbers": [
+      7
+    ],
+    "examUse": "Statement-based question highlighting recent conservation successes and status downgrades.",
+    "distractorHooks": [
+      "Uplisted to Critically Endangered",
+      "Remains Endangered",
+      "Extinct in the Wild"
+    ]
+  }
+]

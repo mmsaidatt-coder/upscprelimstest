@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Advanced Driver Assistance System (ADAS), consider the following statements: 1. The Union Government is considering mandating ADAS exclusively for all new models of private passenger cars. 2. The proposed mandate for ADAS includes all new models of trucks and buses, including school buses. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The Union Government is considering mandating ADAS for commercial vehicles like trucks and buses, not exclusively for private passenger cars. Statement 2 is correct: The mandate is being considered for all new models of trucks and buses, specifically including school buses.",
+      "takeaway": "The government is focusing on road safety by considering the mandatory inclusion of ADAS in heavy commercial vehicles and school buses.",
+      "evidenceExcerpt": "Union Government is considering mandating Advanced Driver Assistance System (ADAS) in all new models of trucks and buses, including school buses."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Direct",
+      "prompt": "In the context of recent road safety initiatives by the Union Government, the mandatory installation of the Advanced Driver Assistance System (ADAS) is being considered for which of the following categories of vehicles?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "All new models of trucks and buses, including school buses"
+        },
+        {
+          "id": "B",
+          "text": "All existing commercial vehicles operating on interstate routes"
+        },
+        {
+          "id": "C",
+          "text": "Exclusively for new models of private passenger cars"
+        },
+        {
+          "id": "D",
+          "text": "All new models of electric vehicles, including two-wheelers"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "The Union Government is considering mandating the Advanced Driver Assistance System (ADAS) in all new models of trucks and buses, including school buses, to enhance road safety.",
+      "takeaway": "The proposed ADAS mandate targets heavy and commercial passenger vehicles (trucks, buses, and school buses) rather than being limited to private cars or electric vehicles.",
+      "evidenceExcerpt": "Union Government is considering mandating Advanced Driver Assistance System (ADAS) in all new models of trucks and buses, including school buses."
+    }
+  ]
+}

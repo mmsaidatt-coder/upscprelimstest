@@ -1,0 +1,95 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-choice",
+      "prompt": "How many of the following entities are covered under the jurisdiction of the RBI Integrated Ombudsman Scheme?",
+      "contextLines": [
+        "1. Credit Information Companies",
+        "2. Urban Cooperative Banks with deposits of 50 crore and above",
+        "3. Non-Banking Financial Companies with assets of 100 crore and above"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "All three entities listed are covered under the RBI Integrated Ombudsman Scheme. The scheme explicitly includes Commercial Banks, UCBs with deposits of 50 crore, NBFCs with assets of 100 crore, System Participants, and Credit Information Companies.",
+      "takeaway": "The scheme has a broad coverage that includes Credit Information Companies and System Participants along with specified UCBs and NBFCs under a 'One Nation One Ombudsman' approach.",
+      "evidenceExcerpt": "The RBI Integrated Ombudsman Scheme covers Commercial Banks, UCBs with deposits of 50 crore, NBFCs with assets of 100 crore, System Participants, and Credit Information Companies."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the RBI Integrated Ombudsman Scheme, consider the following statements: 1. It amalgamates the erstwhile separate ombudsman schemes for banks, NBFCs, and digital transactions into a single framework. 2. It covers all Urban Cooperative Banks (UCBs) and Non-Banking Financial Companies (NBFCs) irrespective of their deposit or asset size. 3. The Ombudsman has the power to award compensation for mental agony and harassment in addition to the consequential loss. How many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The scheme integrates the Banking, NBFC, and Digital Transactions Ombudsman schemes under a 'One Nation One Ombudsman' approach. Statement 2 is incorrect: It does not cover all UCBs and NBFCs; it specifically covers UCBs with deposits of ₹50 crore and above, and NBFCs with assets of ₹100 crore and above. Statement 3 is correct: The Ombudsman can award up to ₹20 lakh in compensation and an additional ₹1 lakh for mental distress.",
+      "takeaway": "The RBI Integrated Ombudsman Scheme consolidates previous sector-specific schemes and applies specific deposit/asset thresholds for the inclusion of UCBs and NBFCs, while also allowing compensation for mental distress.",
+      "evidenceExcerpt": "The RBI Integrated Ombudsman Scheme covers Commercial Banks, UCBs with deposits of 50 crore, NBFCs with assets of 100 crore... It integrates the Banking, NBFC, and Digital Transactions Ombudsman schemes... The Ombudsman can award up to 20 lakh in compensation and 1 lakh for distress."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the jurisdiction and powers under the RBI Integrated Ombudsman Scheme: 1. Credit Information Companies and System Participants are excluded from the purview of this scheme to prevent regulatory overlap. 2. The maximum compensation that can be awarded by the Ombudsman for any grievance is capped at ₹20 lakh, which is inclusive of any compensation for mental distress. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Statement 1 is incorrect: Credit Information Companies and System Participants are explicitly covered under the RBI Integrated Ombudsman Scheme. Statement 2 is incorrect: The Ombudsman can award up to ₹20 lakh in compensation for the actual loss, plus an additional ₹1 lakh specifically for mental distress, meaning the ₹20 lakh cap is not inclusive of the distress compensation.",
+      "takeaway": "The Integrated Ombudsman Scheme has a broad jurisdiction that includes Credit Information Companies and System Participants, and it distinctly separates compensation for actual loss (up to ₹20 lakh) from compensation for mental distress (up to ₹1 lakh).",
+      "evidenceExcerpt": "The RBI Integrated Ombudsman Scheme covers Commercial Banks, UCBs with deposits of 50 crore, NBFCs with assets of 100 crore, System Participants, and Credit Information Companies... The Ombudsman can award up to 20 lakh in compensation and 1 lakh for distress."
+    }
+  ]
+}

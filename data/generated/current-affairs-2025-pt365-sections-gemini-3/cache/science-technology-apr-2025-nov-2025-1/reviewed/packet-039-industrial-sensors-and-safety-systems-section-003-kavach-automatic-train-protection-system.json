@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the 'KAVACH' system:\n1. It is an indigenously developed Automatic Train Protection (ATP) system.\n2. It tracks the position of trains primarily using Global Navigation Satellite System (GNSS) technology.\n3. It operates smoothly even in extreme weather conditions such as dense fog.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: KAVACH is an indigenously developed Automatic Train Protection system designed to improve train safety. Statement 2 is incorrect: It uses Radio Frequency Identification (RFID) tags placed throughout the entire track length to track train positions, not GNSS technology. Statement 3 is correct: The system is designed to operate smoothly in extreme weather conditions like fog.",
+      "takeaway": "KAVACH is an indigenous ATP system that relies on track-side RFID technology for precise positioning and functions reliably in adverse weather conditions.",
+      "evidenceExcerpt": "Indigenously Automatic Train Protection system designed to improve train safety and efficiency... Operates smoothly in extreme weather conditions like fog. Uses Radio Frequency Identification (RFID) tags along the track to track train positions.",
+      "qualityScore": 85,
+      "reviewNotes": "Rewritten to test the specific tracking technology (RFID vs GNSS) and weather resilience using the standard UPSC 'How many statements are correct' format."
+    }
+  ],
+  "reviewerNotes": "Selected two distinct questions. The first tests the origin, tracking technology, and weather resilience of the KAVACH system using a statement-based format. The second tests the core functional mechanism using a descriptive multiple-choice format. Both are highly representative of UPSC Prelims patterns."
+}

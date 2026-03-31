@@ -1,0 +1,79 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-006-international-big-cat-alliance-and-small-cats-section-003-status-of-elephants-in-india",
+    "claimType": "Factual",
+    "claimText": "The Synchronous All India Population Estimation of Elephants (SAIEE) 2021-25 is India's first DNA-based elephant count, conducted by the Wildlife Institute of India (WII).",
+    "evidenceExcerpt": "The Synchronous All India Population Estimation of Elephants (SAIEE) 2021-25 is India's first DNA-based count conducted by WII under Project Elephant.",
+    "pageNumbers": [
+      16
+    ],
+    "examUse": "Statement-based question on the methodology and executing agency of the latest elephant census.",
+    "distractorHooks": [
+      "First camera-trap based count",
+      "Conducted by the IUCN",
+      "Conducted by the World Wildlife Fund (WWF)"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-006-international-big-cat-alliance-and-small-cats-section-003-status-of-elephants-in-india",
+    "claimType": "Statistical",
+    "claimText": "India harbors approximately 60% of the global wild Asian Elephant population.",
+    "evidenceExcerpt": "India harbors about 60% of the global Asian Elephant wild population (>22,000).",
+    "pageNumbers": [
+      16
+    ],
+    "examUse": "Statement-based question on India's share of the global Asian Elephant population.",
+    "distractorHooks": [
+      "India harbors 30% of the global population",
+      "India harbors 90% of the global population",
+      "Refers to the global African Elephant population"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-006-international-big-cat-alliance-and-small-cats-section-003-status-of-elephants-in-india",
+    "claimType": "Factual",
+    "claimText": "The Western Ghats region hosts the largest population of wild elephants in India, followed by the North Eastern Hills.",
+    "evidenceExcerpt": "The Western Ghats hosts the largest population, followed by North Eastern Hills.",
+    "pageNumbers": [
+      16
+    ],
+    "examUse": "Regional comparison question regarding elephant distribution in India.",
+    "distractorHooks": [
+      "North Eastern Hills hosts the largest population",
+      "Himalayan foothills hosts the largest population"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-006-international-big-cat-alliance-and-small-cats-section-003-status-of-elephants-in-india",
+    "claimType": "Statistical",
+    "claimText": "Karnataka has the highest state-wise elephant population in India, followed by Assam, Tamil Nadu, and Kerala.",
+    "evidenceExcerpt": "State-wise, Karnataka supports the highest population, followed by Assam, Tamil Nadu, and Kerala.",
+    "pageNumbers": [
+      16
+    ],
+    "examUse": "Descending order or correct-pair question on state-wise elephant populations.",
+    "distractorHooks": [
+      "Assam has the highest state-wise population",
+      "Kerala has the highest state-wise population"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-006-international-big-cat-alliance-and-small-cats-section-003-status-of-elephants-in-india",
+    "claimType": "Factual",
+    "claimText": "A small feral population of elephants exists in the Andaman Islands.",
+    "evidenceExcerpt": "A small feral population of elephants exists in the Andaman Islands.",
+    "pageNumbers": [
+      16
+    ],
+    "examUse": "Statement-based question on the geographical distribution and presence of feral elephants in India.",
+    "distractorHooks": [
+      "No elephants exist in the Andaman Islands",
+      "A feral population of elephants exists in Lakshadweep"
+    ]
+  }
+]

@@ -1,0 +1,236 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Unified Lending Interface (ULI):\n1. It is a Digital Public Infrastructure (DPI) aimed at enhancing the delivery of credit.\n2. It functions as a payment system, similar to the Unified Payments Interface (UPI), but is exclusively for large-value corporate transactions.\n3. It is an initiative developed and managed by the National Payments Corporation of India (NPCI).\nWhich of the statements given above is/are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "C",
+          "text": "3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct as the ULI is envisioned as a Digital Public Infrastructure to improve credit delivery. Statement 2 is incorrect; ULI's purpose is credit delivery, not payments like UPI, and the source does not specify it is only for large-value corporate transactions. Statement 3 is incorrect; the context of 'New Initiatives by RBI' indicates it is an RBI initiative, not one by NPCI.",
+      "takeaway": "The Unified Lending Interface (ULI) is a Digital Public Infrastructure introduced by the RBI to streamline and improve the process of credit delivery, and it is distinct from payment systems like UPI which are managed by NPCI.",
+      "evidenceExcerpt": "Unified Lending Interface (ULI): It is envisioned as a Digital Public Infrastructure (DPI) aiming to enhance delivery of credit.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to recent initiatives by the Reserve Bank of India, consider the following pairs:\n1. CBDC retail sandbox : A platform for the general public to conduct transactions using the digital rupee.\n2. Tokenisation of CDs : Creating a digital representation of a negotiable money market instrument.\n3. Unified Lending Interface : A system for real-time inter-bank fund transfers.\nWhich of the pairs given above is/are correctly matched?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is incorrectly matched; the CBDC retail sandbox is for fintech firms to innovate and test solutions, not for public transactions. Pair 2 is correctly matched; tokenisation of a Certificate of Deposit (CD) involves creating a digital token for this negotiable money market instrument. Pair 3 is incorrectly matched; the Unified Lending Interface (ULI) is designed to enhance credit delivery, not for inter-bank fund transfers.",
+      "takeaway": "It is crucial to understand the specific purpose of each new RBI initiative: the CBDC sandbox is for testing by fintechs, tokenisation creates digital representations of assets, and ULI focuses on improving credit access.",
+      "evidenceExcerpt": "Central Bank Digital Currency (CBDC) retail sandbox: For fintech firms to innovate and test solutions. Tokenisation of Certificate of Deposits (CD): Creating a digital representation, called a 'token', of a real-world asset. CD is a negotiable money market instrument... Unified Lending Interface (ULI): ...aiming to enhance delivery of credit.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Statement-based",
+      "prompt": "With reference to a Certificate of Deposit (CD), consider the following statements:\n1. It is a negotiable instrument used in the money market.\n2. It is issued by Scheduled Commercial Banks.\n3. Its maturity period is generally up to one year.\nWhich of the statements given above are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "All three statements are correct based on the provided text. A Certificate of Deposit is defined as a negotiable money market instrument. It is issued by Scheduled Commercial Banks (and select FIs). Its maturity period is specified as being up to one year, making it a short-term instrument.",
+      "takeaway": "Certificates of Deposit are key short-term, negotiable debt instruments in the money market, issued by banks with a maturity of up to one year. They are distinct from long-term capital market instruments.",
+      "evidenceExcerpt": "CD is a negotiable money market instrument issued by Scheduled commercial banks with a maturity period up to one year.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Conceptual",
+      "prompt": "In the context of recent financial initiatives, what does the 'Tokenisation of Certificate of Deposits (CDs)' primarily entail?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The conversion of physical CD certificates into a dematerialised (demat) form for electronic trading."
+        },
+        {
+          "id": "B",
+          "text": "The creation of a unique digital representation (a 'token') of a CD, which can be transferred, stored, and recorded on a digital ledger."
+        },
+        {
+          "id": "C",
+          "text": "The process of issuing new types of digital-only CDs that are backed by cryptocurrencies."
+        },
+        {
+          "id": "D",
+          "text": "A new RBI facility that allows individuals to pledge their CDs as collateral for loans using a digital token."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Tokenisation is the process of creating a unique digital representation, or 'token', of a real-world asset. This token can then be managed on a digital platform. Option A describes dematerialisation, which is a different concept. Option C incorrectly links it to cryptocurrencies. Option D describes a potential application of a tokenised asset, not the process of tokenisation itself.",
+      "takeaway": "Tokenisation is a process of creating a digital proxy for a real-world asset, enabling easier transfer and management on a digital ledger. It is conceptually distinct from dematerialisation, which involves converting physical securities into electronic form.",
+      "evidenceExcerpt": "Tokenisation of Certificate of Deposits (CD): Creating a digital representation, called a 'token', of a real-world asset.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "MCQ",
+      "prompt": "Which of the following statements best captures the primary distinction between the Unified Lending Interface (ULI) and the CBDC retail sandbox, two recent initiatives by the RBI?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "ULI is focused on streamlining inter-bank lending, whereas the CBDC sandbox is for facilitating large-value individual retail payments."
+        },
+        {
+          "id": "B",
+          "text": "ULI aims to create a public infrastructure for credit access, while the CBDC sandbox provides a controlled environment for testing payment solutions using digital currency."
+        },
+        {
+          "id": "C",
+          "text": "ULI is a platform for issuing negotiable instruments like CDs, while the CBDC sandbox is designed for trading these tokenised instruments."
+        },
+        {
+          "id": "D",
+          "text": "Both ULI and the CBDC sandbox are primarily designed to replace existing payment systems like UPI with more secure, blockchain-based alternatives."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Option B correctly distinguishes the two initiatives. The Unified Lending Interface (ULI) is designed as a Digital Public Infrastructure to improve the delivery of credit (lending). The CBDC retail sandbox, on the other hand, is a testing environment for fintech firms to develop and test innovative solutions related to the digital rupee, which is a form of currency used for payments. Option A is incorrect as ULI is for general credit delivery, not just inter-bank lending, and the sandbox is for testing, not general use. Option C incorrectly describes the functions of both. Option D is incorrect as ULI is not a payment system, and the sandbox's purpose is testing, not immediate replacement of UPI.",
+      "takeaway": "The Unified Lending Interface (ULI) is a Digital Public Infrastructure focused on the credit/lending ecosystem, while the CBDC retail sandbox is a controlled testing environment for innovations in the digital currency/payment ecosystem.",
+      "evidenceExcerpt": "Unified Lending Interface (ULI): It is envisioned as a Digital Public Infrastructure (DPI) aiming to enhance delivery of credit. Central Bank Digital Currency (CBDC) retail sandbox: For fintech firms to innovate and test solutions."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "MCQ",
+      "prompt": "In the context of the RBI's initiative for the 'Tokenisation of Certificate of Deposits (CDs)', which of the following is the most accurate description of the resulting financial product?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It creates a new type of cryptocurrency whose value is pegged to the face value of the CD."
+        },
+        {
+          "id": "B",
+          "text": "It transforms the CD from a money market instrument into a capital market security, allowing for long-term trading."
+        },
+        {
+          "id": "C",
+          "text": "It results in a digital representation of the CD, which retains the original instrument's characteristics as a negotiable, short-term debt instrument."
+        },
+        {
+          "id": "D",
+          "text": "It is a process of converting physical CD certificates into a dematerialised form held in a standard DEMAT account."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Tokenisation involves creating a digital token that represents a real-world asset. This process does not alter the fundamental nature of the underlying asset. Therefore, a tokenised Certificate of Deposit (CD) remains a negotiable, short-term money market instrument; it is merely represented in a digital form. Option A is incorrect as it's a digital representation, not a new cryptocurrency. Option B is incorrect because tokenisation does not change the asset's classification from money market to capital market. Option D describes dematerialisation, which is different from tokenisation; tokenisation typically involves distributed ledger technology and creates a unique digital token.",
+      "takeaway": "Tokenisation creates a digital representation (a 'token') of a real-world asset but does not change the fundamental legal and financial characteristics of the underlying asset itself.",
+      "evidenceExcerpt": "Tokenisation of Certificate of Deposits (CD): Creating a digital representation, called a 'token', of a real-world asset. CD is a negotiable money market instrument issued by Scheduled commercial banks with a maturity period up to one year."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "MCQ",
+      "prompt": "What is the most likely rationale for the Reserve Bank of India establishing a 'retail sandbox' for the Central Bank Digital Currency (CBDC) rather than proceeding with an immediate, full-scale public launch?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "To exclusively allow large commercial banks to develop proprietary payment systems using the CBDC framework."
+        },
+        {
+          "id": "B",
+          "text": "To assess the technological viability, security implications, and innovative use-cases of CBDC solutions in a controlled environment."
+        },
+        {
+          "id": "C",
+          "text": "To immediately replace the existing Unified Payments Interface (UPI) with a more efficient system managed directly by the central bank."
+        },
+        {
+          "id": "D",
+          "text": "To raise initial capital for the CBDC project by auctioning access to the sandbox to private technology companies."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A regulatory sandbox is a framework set up by a regulator to allow small-scale, live testing of innovations by private firms in a controlled environment. The primary rationale is to understand the benefits and risks of new technologies, like a CBDC, before they are approved for wider public rollout. This allows the regulator to assess technological and security aspects while fostering innovation. The source states the sandbox is for fintech firms to 'innovate and test solutions'. Option A is incorrect as the sandbox is for fintech firms, not exclusively large banks. Option C is incorrect as a sandbox is for testing, not immediate replacement. Option D is incorrect as a sandbox is a regulatory tool, not a fundraising mechanism.",
+      "takeaway": "Regulatory sandboxes are used by financial regulators like the RBI to foster innovation (e.g., in fintech) while managing potential risks by allowing new products and services to be tested in a controlled, live environment before a full-scale launch.",
+      "evidenceExcerpt": "Central Bank Digital Currency (CBDC) retail sandbox: For fintech firms to innovate and test solutions."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "MCQ",
+      "prompt": "The introduction of the Unified Lending Interface (ULI) as a Digital Public Infrastructure (DPI) is most likely to contribute to which of the following broader economic objectives?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Controlling inflation by regulating the money supply in the inter-bank market."
+        },
+        {
+          "id": "B",
+          "text": "Increasing the formalisation of credit and improving access for underserved borrowers."
+        },
+        {
+          "id": "C",
+          "text": "Securing government borrowings by creating a dedicated platform for issuing treasury bills."
+        },
+        {
+          "id": "D",
+          "text": "Facilitating cross-border remittances by integrating with international payment gateways."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The stated aim of the Unified Lending Interface (ULI) is to 'enhance delivery of credit'. By creating a Digital Public Infrastructure for this purpose, the initiative aims to make the lending process more efficient, transparent, and accessible. This directly addresses the challenge of financial inclusion by potentially lowering costs for lenders and making it easier for previously underserved or unserved individuals and businesses to access formal credit. The other options relate to different domains: monetary policy (A), government debt management (C), and international payments (D), which are not the primary focus of a domestic credit delivery platform like ULI.",
+      "takeaway": "Digital Public Infrastructures (DPIs) like the ULI are designed to improve the delivery of essential services, and in the financial sector, enhancing credit delivery is a key step towards achieving greater financial inclusion.",
+      "evidenceExcerpt": "Unified Lending Interface (ULI): It is envisioned as a Digital Public Infrastructure (DPI) aiming to enhance delivery of credit."
+    }
+  ]
+}

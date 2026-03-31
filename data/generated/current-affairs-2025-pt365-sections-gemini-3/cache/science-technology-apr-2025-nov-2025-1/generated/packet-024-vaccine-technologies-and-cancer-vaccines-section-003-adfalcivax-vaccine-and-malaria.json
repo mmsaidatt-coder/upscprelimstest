@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the 'AdFalciVax' vaccine recently seen in the news:\n1. It is India's first indigenous multi-stage malaria vaccine.\n2. It targets the Plasmodium parasite exclusively during its erythrocytic (blood) stage to prevent the disease.\n3. It is a recombinant chimeric vaccine that combines antigens from different stages of the parasite's life cycle.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: AdFalciVax is India's first indigenous multi-stage malaria vaccine. Statement 2 is incorrect: It uses dual-stage targeting against the pre-erythrocytic (liver) stage and the transmission (sexual) stage, not the blood stage exclusively. Statement 3 is correct: It is a recombinant chimeric vaccine that combines antigens from different life cycle stages into a single immunogen.",
+      "takeaway": "AdFalciVax is an indigenous multi-stage malaria vaccine that targets the liver and sexual stages of Plasmodium falciparum using a recombinant chimeric approach.",
+      "evidenceExcerpt": "Government of India has licensed private firms to produce its first indigenous multi-stage malaria vaccine, AdFalciVax. Dual-Stage Targeting of Plasmodium falciparum... targets two critical stages in parasite's lifecycle i.e. Pre-erythrocytic (liver) stage and Transmission (sexual) stage. Recombinant Chimeric Vaccine: A chimeric vaccine refers to vaccine that combines antigens from different stages of a parasite's life cycle into a single immunogen."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "In the context of vaccine technologies, what is the defining feature of a 'recombinant chimeric vaccine'?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It uses a genetically modified virus to deliver messenger RNA (mRNA) into the host cells."
+        },
+        {
+          "id": "B",
+          "text": "It combines antigens from different stages of a pathogen's life cycle into a single immunogen."
+        },
+        {
+          "id": "C",
+          "text": "It relies on the administration of pre-formed antibodies extracted from the blood of recovered patients."
+        },
+        {
+          "id": "D",
+          "text": "It utilizes a weakened, live form of a pathogen that can replicate but cannot cause clinical disease."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A recombinant chimeric vaccine combines antigens from different stages of a parasite's life cycle into a single immunogen, allowing the immune system to target the pathogen at multiple points in its development.",
+      "takeaway": "Chimeric vaccines merge multiple antigens (often from different life stages of a parasite) into one immunogen to provide broader protection.",
+      "evidenceExcerpt": "Recombinant Chimeric Vaccine: A chimeric vaccine refers to vaccine that combines antigens from different stages of a parasite's life cycle into a single immunogen."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Malaria:\n1. It is a viral disease that primarily affects the human liver and red blood cells.\n2. It mostly spreads to humans through the bites of infected female Aedes mosquitoes.\n3. Plasmodium falciparum and Plasmodium vivax are among the species that cause malaria in humans.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "3 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Malaria is caused by Plasmodium parasites, not a virus. Statement 2 is incorrect: It mostly spreads through the bites of infected female Anopheles mosquitoes, not Aedes mosquitoes. Statement 3 is correct: Five Plasmodium species cause malaria in humans, including P. falciparum and P. vivax.",
+      "takeaway": "Malaria is a parasitic infection transmitted by female Anopheles mosquitoes, with P. falciparum and P. vivax being common species affecting humans.",
+      "evidenceExcerpt": "Malaria mostly spreads to people through bites of some infected female Anopheles mosquitoes. Five Plasmodium species cause malaria in humans, including P. falciparum and P. vivax."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the therapeutic approach of the 'AdFalciVax' malaria vaccine:\n1. It targets the pre-erythrocytic stage to prevent the Plasmodium parasite from establishing an infection in the human liver.\n2. It targets the sexual stage of the parasite to interrupt its transmission cycle back to the mosquito vector.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Both statements are correct. AdFalciVax is a dual-stage vaccine that targets the pre-erythrocytic (liver) stage to halt the initial infection in the human host, and the transmission (sexual) stage to prevent the parasite from being passed back to Anopheles mosquitoes, thereby breaking the transmission cycle.",
+      "takeaway": "AdFalciVax employs a dual-stage targeting mechanism, addressing both the liver (pre-erythrocytic) stage and the sexual (transmission) stage of the Plasmodium falciparum parasite.",
+      "evidenceExcerpt": "Dual-Stage Targeting of Plasmodium falciparum... targets two critical stages in parasite's lifecycle i.e. Pre-erythrocytic (liver) stage and Transmission (sexual) stage."
+    }
+  ]
+}

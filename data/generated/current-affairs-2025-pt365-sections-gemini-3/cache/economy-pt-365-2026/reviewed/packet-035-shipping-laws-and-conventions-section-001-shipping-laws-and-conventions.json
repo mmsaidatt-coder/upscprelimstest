@@ -1,0 +1,129 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding international maritime conventions:\n\n1. The MARPOL Convention is the primary international treaty covering the prevention of marine pollution from both operational and accidental causes.\n2. The Ballast Water Management (BWM) Convention aims to prevent the spread of harmful aquatic organisms and pathogens.\n3. India is a signatory to both the MARPOL Convention and the BWM Convention.\n\nWhich of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: MARPOL is the main international convention covering prevention of pollution of the marine environment by ships from operational or accidental causes. Statement 2 is correct: The BWM convention is a treaty to help prevent the spread of potentially harmful aquatic organisms and pathogens in ships' ballast water. Statement 3 is incorrect: While India is a signatory to MARPOL, it is NOT a party to the BWM Convention.",
+      "takeaway": "India's status as a signatory varies across maritime environmental conventions; it is a party to MARPOL but not to the BWM Convention.",
+      "evidenceExcerpt": "MARPOL is the main international convention covering prevention of pollution... India is a signatory to this Convention. BWM convention is a treaty to help prevent the spread of potentially harmful aquatic organisms... India is not a party to the Convention.",
+      "qualityScore": 92,
+      "reviewNotes": "UPSC often tests India's membership or signatory status in international treaties. The distinction between MARPOL and BWM is a high-yield fact."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Merchant Shipping Act, 2025, consider the following statements:\n\n1. It mandates registration for all vessels, irrespective of their weight or type of propulsion.\n2. The Act's provisions extend to aircraft exclusively servicing the military and the Indian Navy.\n3. The definition of 'vessels' has been expanded to include mobile offshore drilling units and submersibles.\n\nWhich of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: The Merchant Shipping Act, 2025, introduces mandatory registration for all vessels regardless of their type of propulsion or weight. Statement 2 is incorrect: The Act specifically excludes aircraft exclusively servicing the military, the Indian Navy, the Coast Guard, and foreign vessels of war. Statement 3 is correct: The definition of 'vessels' has been expanded to include mobile offshore drilling units, submersibles, and non-displacement crafts.",
+      "takeaway": "The Merchant Shipping Act 2025 expands the definition of vessels but maintains specific exclusions for military and non-commercial government assets.",
+      "evidenceExcerpt": "Mandatory Registration for all Vessels: Regardless of type of propulsion or weight... Expands Definition of Vessels: To include types like mobile offshore drilling units, submersibles... Exclusions: Act does not apply to... aircrafts exclusively servicing military, non-commercial government, Indian Navy, Coast Guard.",
+      "qualityScore": 88,
+      "reviewNotes": "This question tests the nuances of the new Merchant Shipping Act, specifically the expansion of definitions versus the statutory exclusions, which is a common UPSC trap."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Merchant Shipping Act, 2025, consider the following statements regarding vessel ownership criteria:\n\n1. Ownership eligibility has been relaxed to include Overseas Citizens of India (OCIs).\n2. Registered cooperative societies are eligible to own vessels under the new provisions.\n3. A vessel must be entirely owned by Indian citizens to be eligible for registration.\n\nWhich of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Ownership criteria have been relaxed to include Overseas Citizens of India (OCIs). Statement 2 is correct: Registered cooperative societies are now included in the ownership criteria. Statement 3 is incorrect: The Act allows for vessels to be 'partly owned' by Indian citizens, companies, or other eligible entities, rather than requiring 100% ownership.",
+      "takeaway": "The 2025 Act relaxes ownership norms to include OCIs and cooperative societies, and allows for partial ownership to boost the Blue Economy.",
+      "evidenceExcerpt": "Ownership Criteria: Relaxed to include vessels partly owned by Indian Citizens, company/body established as per Indian laws, registered cooperative societies, Overseas Citizens of India (OCIs), etc.",
+      "qualityScore": 87,
+      "reviewNotes": "The relaxation of ownership (including OCIs and partial ownership) is a significant policy shift intended to attract investment into the shipping sector."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "The Carriage of Goods by Sea Act, 2025, aligns India's maritime liability regime with the Hague-Visby Rules. What is the primary objective of these rules?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "To mandate the use of zero-emission fuels in all cargo vessels by 2030."
+        },
+        {
+          "id": "B",
+          "text": "To ensure fair risk-sharing between ship-owners and cargo owners regarding loss or damage."
+        },
+        {
+          "id": "C",
+          "text": "To provide absolute sovereign immunity to merchant vessels in international waters."
+        },
+        {
+          "id": "D",
+          "text": "To eliminate the requirement for Bills of Lading in coastal shipping operations."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Hague-Visby Rules are an international convention that set out carrier liability for loss, damage, or delay of goods in sea transport. Their primary purpose is to ensure fair risk-sharing between ship-owners (carriers) and cargo owners by establishing clear responsibilities and liabilities.",
+      "takeaway": "The Hague-Visby Rules modernize the liability framework to balance economic risks between carriers and cargo owners.",
+      "evidenceExcerpt": "The Hague-Visby Rules are an international convention that set out carrier liability for loss, damage, or delay of goods in sea transport to ensure fair risk-sharing between ship-owners and cargo owners.",
+      "qualityScore": 85,
+      "reviewNotes": "This question focuses on the functional purpose of the legislative change, moving beyond rote memorization of the act's name."
+    }
+  ],
+  "reviewerNotes": "The selected questions cover the four major pillars of the provided text: the scope/definitions of the Merchant Shipping Act, international environmental conventions (MARPOL/BWM), the liability regime (Hague-Visby), and ownership liberalization. All questions are grounded in the source text and follow UPSC's standard phrasing and distractor logic."
+}

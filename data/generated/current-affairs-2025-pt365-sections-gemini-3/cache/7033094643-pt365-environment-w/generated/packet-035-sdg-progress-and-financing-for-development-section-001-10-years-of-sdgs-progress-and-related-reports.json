@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Comparison-based",
+      "prompt": "The '2030 Agenda for Sustainable Development', adopted by all United Nations Member States in 2015, succeeded which of the following frameworks?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The Kyoto Protocol"
+        },
+        {
+          "id": "B",
+          "text": "The Millennium Development Goals (MDGs)"
+        },
+        {
+          "id": "C",
+          "text": "The Aichi Biodiversity Targets"
+        },
+        {
+          "id": "D",
+          "text": "The Hyogo Framework for Action"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Sustainable Development Goals (SDGs) were adopted in 2015 as a successor to the Millennium Development Goals (MDGs), expanding the scope to 17 goals and 169 targets.",
+      "takeaway": "The SDGs are the direct successor to the MDGs, transitioning from 8 goals to a more comprehensive set of 17 goals.",
+      "evidenceExcerpt": "SDGs were adopted in 2015 (17 goals, 169 targets), succeeding the Millennium Development Goals (MDGs)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Matching",
+      "prompt": "Consider the following pairs of Reports and their Publishing Organizations:\n\n1. SDG India Index : NITI Aayog\n2. National Indicator Framework Progress Report : MoSPI\n3. Sustainable Development Report (SDR) : UN DESA\n\nWhich of the pairs given above is/are correctly matched?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: NITI Aayog releases the SDG India Index. Pair 2 is correctly matched: MoSPI releases the National Indicator Framework Progress Report. Pair 3 is incorrectly matched: The SDR is released by the Sustainable Development Solutions Network (SDSN), whereas UN DESA prepares the Sustainable Development Goals Report (SDGR).",
+      "takeaway": "Be careful with the naming: 'Sustainable Development Report' (SDR) is SDSN, while 'Sustainable Development Goals Report' (SDGR) is UN DESA.",
+      "evidenceExcerpt": "Sustainable Development Report (SDR) 2025 Released by: SDG Transformation Centre, under Sustainable Development Solutions Network (SDSN). Sustainable Development Goals Report (SDGR) 2025 Prepared by: UN DESA. SDG India Index: Released by: NITI Aayog. MoSPI launched the National Indicator Framework (NIF) Progress Report 2025.",
+      "contextLines": []
+    }
+  ]
+}

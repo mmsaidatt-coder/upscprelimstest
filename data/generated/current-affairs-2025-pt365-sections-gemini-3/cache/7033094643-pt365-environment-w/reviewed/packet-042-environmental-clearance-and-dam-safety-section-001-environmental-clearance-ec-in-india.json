@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "With reference to environmental governance in India, which one of the following statements best describes the legal status of 'ex post facto' environmental clearance?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It is permitted for projects of strategic national importance subject to the payment of a compensatory penalty."
+        },
+        {
+          "id": "B",
+          "text": "It is allowed exclusively for Category B projects appraised by the State Environment Impact Assessment Authority."
+        },
+        {
+          "id": "C",
+          "text": "It is legally invalid as the Supreme Court has ruled it to be alien to environmental jurisprudence."
+        },
+        {
+          "id": "D",
+          "text": "It is permissible under the Environment (Protection) Act, 1986, provided the project proponent undertakes ecological restoration."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Option C is correct: Under the EIA Notification, 2006, prior environmental clearance is mandatory for listed projects. The Supreme Court of India, in the Common Cause v. Union of India (2017) case, explicitly ruled that ex post facto (retrospective) environmental clearance is invalid and alien to environmental jurisprudence. Options A, B, and D present plausible but incorrect regulatory loopholes that do not exist in this context.",
+      "takeaway": "Retrospective or 'ex post facto' environmental clearance has no legal standing in India, reinforcing the principle that environmental impact must be assessed before a project commences.",
+      "evidenceExcerpt": "Prior clearance is mandatory, and the Supreme Court (Common Cause v. UoI, 2017) ruled that ex post facto or retrospective clearance is alien to environmental jurisprudence.",
+      "qualityScore": 85,
+      "reviewNotes": "Refined the distractors to make them sound like plausible legal/regulatory exceptions (e.g., strategic importance, ecological restoration). This elevates the question to a proper UPSC standard."
+    }
+  ],
+  "reviewerNotes": "Selected two strong questions from the candidate set. Candidate 1 (Assertion-Reason) was rejected due to a pedantic and potentially confusing explanation regarding the relationship between the statutory mandate and the judicial ruling. Candidates 2 and 3 were rewritten to improve the formality of the language and the plausibility of the distractors, aligning them closely with UPSC Prelims standards."
+}

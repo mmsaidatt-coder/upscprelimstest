@@ -1,0 +1,207 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the human immune system's mechanism of 'tolerance':\n1. Central tolerance occurs primarily in the thymus, where T cells are produced and trained.\n2. Peripheral tolerance utilizes Regulatory T cells (Treg cells) to prevent self-reactive T cells from attacking the body's own tissues.\n3. A mutation in the FOXP3 gene enhances peripheral tolerance, providing resistance against autoimmune diseases.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Central tolerance happens in the thymus, a gland that produces and trains T cells. Statement 2 is correct: Peripheral tolerance uses Regulatory T cells (Treg cells) to identify and stop self-reactive T cells. Statement 3 is incorrect: A mutation in the FOXP3 gene impairs the formation of Treg cells, breaking down peripheral tolerance and causing a rare autoimmune disease called IPEX, rather than providing resistance.",
+      "takeaway": "The immune system uses central tolerance (in the thymus) and peripheral tolerance (via Treg cells) to prevent self-reactivity. The FOXP3 gene is crucial for Treg cell development.",
+      "evidenceExcerpt": "Central Tolerance happens in the thymus, a small gland in the lymphatic system that produces and trains T cells. Peripheral Tolerance uses Regulatory T cells (Treg cells) to identify self-reactive T cells and stop them from attacking our own tissues... If there is a mutation in the FOXP3 gene, regulatory T cells do not form properly, causing a rare autoimmune disease called IPEX."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Assertion-Reason",
+      "prompt": "Given below are two statements, one labelled as Assertion (A) and the other as Reason (R):\n\nAssertion (A): A mutation in the FOXP3 gene leads to the development of a rare autoimmune disease called IPEX.\nReason (R): The FOXP3 gene controls the development and function of Regulatory T cells (Treg cells), which are essential for maintaining peripheral immune tolerance.\n\nIn the context of the above two statements, which one of the following is correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A)"
+        },
+        {
+          "id": "B",
+          "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A)"
+        },
+        {
+          "id": "C",
+          "text": "Assertion (A) is true but Reason (R) is false"
+        },
+        {
+          "id": "D",
+          "text": "Assertion (A) is false but Reason (R) is true"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Both statements are correct. The FOXP3 gene is responsible for the proper development and function of Regulatory T cells (Treg cells), which execute peripheral immune tolerance. When this gene mutates, Treg cells fail to form properly, leaving the body unable to stop self-reactive T cells. This failure of peripheral tolerance directly results in the autoimmune disease IPEX. Therefore, Reason (R) correctly explains Assertion (A).",
+      "takeaway": "The FOXP3 gene is the master regulator for Regulatory T cells. Its mutation directly causes the autoimmune disease IPEX due to the failure of peripheral immune tolerance.",
+      "evidenceExcerpt": "Mary Brunkow and Fred Ramsdell discovered the FOXP3 gene, which controls the development and function of regulatory T cells. If there is a mutation in the FOXP3 gene, regulatory T cells do not form properly, causing a rare autoimmune disease called IPEX."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Regulatory T cells (Treg cells), which were recently in the news:\n1. They are primarily responsible for central immune tolerance in the human body.\n2. Their development and function are controlled by the FOXP3 gene.\n3. Their primary role is to identify and stop self-reactive T cells from attacking the body's own tissues.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Regulatory T cells (Treg cells) are responsible for peripheral immune tolerance, not central tolerance. Central tolerance occurs in the thymus during the initial production and training of T cells. Statement 2 is correct: The FOXP3 gene controls the development and function of Treg cells. Statement 3 is correct: Treg cells identify self-reactive T cells that have escaped the thymus and stop them from attacking the body's tissues.",
+      "takeaway": "Regulatory T cells (Treg cells) are the primary agents of peripheral immune tolerance, governed by the FOXP3 gene, and act as a secondary checkpoint against self-reactive T cells.",
+      "evidenceExcerpt": "Peripheral Tolerance uses Regulatory T cells (Treg cells) to identify self-reactive T cells and stop them from attacking our own tissues. Mary Brunkow and Fred Ramsdell discovered the FOXP3 gene, which controls the development and function of regulatory T cells."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "Which of the following statements best describes the fundamental distinction between 'Central Tolerance' and 'Peripheral Tolerance' in the human immune system?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Central tolerance is the mechanism by which the body fights viral infections, while peripheral tolerance is responsible for neutralizing bacterial pathogens."
+        },
+        {
+          "id": "B",
+          "text": "Central tolerance operates by training T cells within the thymus, whereas peripheral tolerance utilizes Regulatory T cells to suppress self-reactive T cells in the body's tissues."
+        },
+        {
+          "id": "C",
+          "text": "Central tolerance is exclusively controlled by the FOXP3 gene, whereas peripheral tolerance relies on the thymus gland for its functioning."
+        },
+        {
+          "id": "D",
+          "text": "Central tolerance prevents autoimmune diseases, whereas peripheral tolerance is primarily responsible for causing rare autoimmune conditions like IPEX."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Central tolerance occurs in the thymus, where T cells are produced and trained. Peripheral tolerance acts outside the thymus, using Regulatory T cells (Treg cells) to identify and stop self-reactive T cells from attacking the body's own tissues.",
+      "takeaway": "The immune system relies on a two-tiered tolerance mechanism: central tolerance in the thymus for initial T cell training, and peripheral tolerance in tissues to catch and suppress self-reactive T cells that escape.",
+      "evidenceExcerpt": "The immune system uses two types of tolerance to achieve this — central tolerance and peripheral tolerance. Central Tolerance happens in the thymus, a small gland in the lymphatic system that produces and trains T cells. Peripheral Tolerance uses Regulatory T cells (Treg cells) to identify self-reactive T cells and stop them from attacking our own tissues."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Applied",
+      "prompt": "A patient is diagnosed with IPEX, a rare autoimmune disease. In the context of the immune system's functioning, which of the following mechanisms has most likely failed in the patient's body?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The thymus gland has ceased the production and training of naive T cells."
+        },
+        {
+          "id": "B",
+          "text": "Regulatory T cells (Treg cells) are unable to identify and halt self-reactive T cells from attacking tissues."
+        },
+        {
+          "id": "C",
+          "text": "The central tolerance mechanism has become hyperactive, leading to the destruction of healthy cells."
+        },
+        {
+          "id": "D",
+          "text": "The lymphatic system has failed to produce antibodies against external pathogens."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "IPEX is caused by a mutation in the FOXP3 gene, which prevents Regulatory T cells (Treg cells) from forming properly. Without functional Treg cells, peripheral tolerance fails, and self-reactive T cells attack the body's own tissues.",
+      "takeaway": "Autoimmune diseases like IPEX are a direct consequence of the failure of peripheral immune tolerance, specifically due to defective Regulatory T cells.",
+      "evidenceExcerpt": "If there is a mutation in the FOXP3 gene, regulatory T cells do not form properly, causing a rare autoimmune disease called IPEX."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Correct-Pair",
+      "prompt": "Consider the following pairs in the context of the human immune system:\n\n1. Thymus : Site of central immune tolerance\n2. Regulatory T cells (Treg cells) : Mediators of peripheral immune tolerance\n3. FOXP3 gene mutation : Cause of IPEX autoimmune disease\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "All three pairs are correctly matched. Central tolerance occurs in the thymus. Peripheral tolerance is mediated by Regulatory T cells. A mutation in the FOXP3 gene leads to the improper formation of these cells, causing the autoimmune disease IPEX.",
+      "takeaway": "Understanding the specific locations and genetic controllers of immune tolerance is crucial. The thymus handles central tolerance, while Treg cells (governed by FOXP3) manage peripheral tolerance.",
+      "evidenceExcerpt": "Central Tolerance happens in the thymus... Peripheral Tolerance uses Regulatory T cells (Treg cells)... If there is a mutation in the FOXP3 gene, regulatory T cells do not form properly, causing a rare autoimmune disease called IPEX."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the FOXP3 gene, recently in the news in the context of the Nobel Prize in Physiology or Medicine 2025, consider the following statements:\n\n1. It is essential for the proper functioning of peripheral immune tolerance.\n2. A mutation in this gene causes the immune system to attack the body's own tissues.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct because the FOXP3 gene controls the development and function of Regulatory T cells, which drive peripheral immune tolerance. Statement 2 is correct because a mutation in FOXP3 leads to IPEX, an autoimmune disease where self-reactive T cells attack the body's tissues.",
+      "takeaway": "The FOXP3 gene is the master regulator of Regulatory T cells. Its integrity is vital for peripheral tolerance, and its mutation directly results in severe autoimmune consequences.",
+      "evidenceExcerpt": "Mary Brunkow and Fred Ramsdell discovered the FOXP3 gene, which controls the development and function of regulatory T cells. If there is a mutation in the FOXP3 gene, regulatory T cells do not form properly, causing a rare autoimmune disease called IPEX."
+    }
+  ]
+}

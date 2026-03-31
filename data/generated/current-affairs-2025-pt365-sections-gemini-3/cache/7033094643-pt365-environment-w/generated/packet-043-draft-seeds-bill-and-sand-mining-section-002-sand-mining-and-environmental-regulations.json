@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the regulatory framework for sand mining in India: 1. The Supreme Court has mandated environmental clearance for the extraction of all minor minerals, including sand. 2. A District Survey Report (DSR) must be accompanied by a replenishment study to serve as a valid basis for environmental clearance. 3. The Environmental Impact Assessment (EIA) framework prohibits cluster-based assessments for minor mineral leases to ensure individual accountability. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: In Deepak Kumar vs State of Haryana (2012), the Supreme Court made environmental clearance mandatory for all minor mineral extractions. Statement 2 is correct: The Supreme Court observed that replenishment data is a mandatory prerequisite for environmental clearance in addition to the DSR. Statement 3 is incorrect: The EIA Notification (2016 Amendment) specifically introduced and mandated cluster-based assessments for minor minerals.",
+      "takeaway": "Environmental clearance is mandatory for all minor minerals (Deepak Kumar case 2012). The 2016 EIA amendment introduced cluster-based assessments and made replenishment studies a mandatory part of the District Survey Report.",
+      "evidenceExcerpt": "Supreme Court (SC) observed that replenishment data is a mandatory prerequisite for environmental clearance in addition to District Survey Report (DSR)... Deepak Kumar vs State of Haryana (2012): SC made environmental clearance mandatory for all minor mineral extractions, including sand... EIA Notification (2016 Amendment): Cluster-based assessments and making replenishment studies a key part of DSR."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Multiple-statement",
+      "prompt": "Unrestricted sand mining in river ecosystems is known to cause which of the following ecological consequences? 1. Lowering of the local groundwater table 2. Decreased risk of riverine flooding due to deepened riverbeds 3. Accelerated erosion of riverbanks Select the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Unrestricted sand mining causes severe ecological damage, including riverbank erosion and the lowering of groundwater tables. Contrary to the misconception that artificially deepened riverbeds prevent floods, unscientific sand extraction alters river hydrology and destabilizes banks, which actually increases flood risks. Therefore, statement 2 is incorrect.",
+      "takeaway": "Sand mining negatively impacts river hydrology by eroding banks, lowering groundwater tables, and increasing (not decreasing) flood risks.",
+      "evidenceExcerpt": "Unrestricted sand mining causes riverbank erosion, lowers groundwater tables, and increases flood risks."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Direct Concept",
+      "prompt": "The landmark Supreme Court judgment in the case of 'Deepak Kumar vs State of Haryana (2012)' is primarily associated with which of the following environmental regulations?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Banning the use of petroleum coke and furnace oil in the National Capital Region"
+        },
+        {
+          "id": "B",
+          "text": "Mandating environmental clearance for the extraction of all minor minerals"
+        },
+        {
+          "id": "C",
+          "text": "Establishing the framework for the declaration of Eco-Sensitive Zones around National Parks"
+        },
+        {
+          "id": "D",
+          "text": "Recognizing the forest rights of traditional forest dwellers in protected areas"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Deepak Kumar vs State of Haryana (2012) judgment is a landmark ruling where the Supreme Court made environmental clearance mandatory for all minor mineral extractions, including sand, regardless of the size of the mining lease area.",
+      "takeaway": "The 2012 Deepak Kumar judgment closed a major regulatory loophole by requiring environmental clearance for minor minerals, which were previously often extracted without oversight.",
+      "evidenceExcerpt": "Deepak Kumar vs State of Haryana (2012): SC made environmental clearance mandatory for all minor mineral extractions, including sand."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Applied Concept",
+      "prompt": "In the context of environmental regulations for minor minerals, what is the primary rationale behind mandating a 'replenishment study' before granting clearance for river sand mining?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "To evaluate the socio-economic displacement of local communities dependent on the river ecosystem"
+        },
+        {
+          "id": "B",
+          "text": "To ensure that the volume of sand extracted does not exceed the natural rate at which sand is deposited back into the riverbed"
+        },
+        {
+          "id": "C",
+          "text": "To assess the heavy metal contamination and chemical toxicity of the riverbed sediments"
+        },
+        {
+          "id": "D",
+          "text": "To calculate the exact revenue potential and royalty rates for the state government"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A replenishment study is mandated to assess the natural rate of sand deposition (replenishment) in a riverbed. The primary rationale is to ensure sustainable mining by restricting the extraction rate so that it does not exceed the natural replenishment rate, thereby preventing ecological degradation such as riverbank erosion and groundwater depletion.",
+      "takeaway": "Replenishment data ensures that sand mining remains sustainable by balancing human extraction with the river's natural sediment deposition cycle.",
+      "evidenceExcerpt": "Supreme Court (SC) observed that replenishment data is a mandatory prerequisite for environmental clearance in addition to District Survey Report (DSR)... EIA Notification (2016 Amendment): Cluster-based assessments and making replenishment studies a key part of DSR."
+    }
+  ]
+}

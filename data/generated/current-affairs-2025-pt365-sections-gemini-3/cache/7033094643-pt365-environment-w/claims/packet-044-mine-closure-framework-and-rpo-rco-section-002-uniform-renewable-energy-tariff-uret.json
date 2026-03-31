@@ -1,0 +1,50 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-044-mine-closure-framework-and-rpo-rco-section-002-uniform-renewable-energy-tariff-uret",
+    "claimType": "Factual",
+    "claimText": "The Uniform Renewable Energy Tariff (URET) was scrapped by the Ministry of Power.",
+    "evidenceExcerpt": "Uniform Renewable Energy Tariff (URET) scrapped by Ministry of Power.",
+    "pageNumbers": [
+      91
+    ],
+    "examUse": "Statement-based question identifying the current status and the nodal ministry responsible for the URET scheme.",
+    "distractorHooks": [
+      "Ministry of New and Renewable Energy (MNRE)",
+      "Ministry of Coal",
+      "URET is a newly launched active scheme"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-044-mine-closure-framework-and-rpo-rco-section-002-uniform-renewable-energy-tariff-uret",
+    "claimType": "Conceptual",
+    "claimText": "The Uniform Renewable Energy Tariff (URET) aimed to provide a uniform tariff to consumers by averaging competitive bid tariffs of similar renewable energy projects within central pools.",
+    "evidenceExcerpt": "Aims to provide uniform tariff to consumers by averaging competitive bid tariffs of similar renewable energy projects within central pools.",
+    "pageNumbers": [
+      91
+    ],
+    "examUse": "Concept-based question on the mechanism of URET and how it intended to standardize tariffs.",
+    "distractorHooks": [
+      "Providing direct cash subsidies to consumers",
+      "Fixing a single national tariff without averaging bids",
+      "Averaging tariffs within state-level pools instead of central pools"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-044-mine-closure-framework-and-rpo-rco-section-002-uniform-renewable-energy-tariff-uret",
+    "claimType": "Analytical",
+    "claimText": "The URET was revoked because procurers were reluctant to sign Power Sale Agreements due to tariff uncertainty over a three-year fixed period, which caused stalled projects.",
+    "evidenceExcerpt": "Reasons for revocation: Procurers were reluctant to sign Power Sale Agreements due to uncertainty of tariffs over the three-year fixed period causing stalled projects.",
+    "pageNumbers": [
+      91
+    ],
+    "examUse": "Assertion-Reason question on why the URET framework was unsuccessful and subsequently revoked.",
+    "distractorHooks": [
+      "Lack of renewable energy supply in the central pool",
+      "High capital cost of renewable energy technologies",
+      "Uncertainty over a ten-year fixed period"
+    ]
+  }
+]

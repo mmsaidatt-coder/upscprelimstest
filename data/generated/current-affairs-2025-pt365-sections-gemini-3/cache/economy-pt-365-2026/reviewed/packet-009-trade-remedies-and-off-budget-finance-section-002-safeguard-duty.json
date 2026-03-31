@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Safeguard Duty':\n1. It is a World Trade Organization (WTO) measure imposed to protect domestic industries from a sudden and significant increase in imports.\n2. It is strictly prohibited from being applied as an individual country quota under any circumstances.\n3. Its imposition is permanent until the domestic industry regains its market share.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Safeguard Duty is a recognized WTO measure designed to protect domestic players from a sudden and significant surge in imports. Statement 2 is incorrect: While in principle it cannot be targeted at a particular country, the WTO framework allows for an exception where individual country quotas can be applied under exceptional circumstances of disproportionate import increases. Statement 3 is incorrect: Safeguard duties are temporary trade remedies; they generally last up to four years and are extendable to a maximum of eight years.",
+      "takeaway": "Safeguard duties are temporary (4 to 8 years), generally non-discriminatory WTO measures meant to provide a domestic industry time to adjust to a sudden surge in imports, though country-specific quotas can apply in exceptional cases.",
+      "evidenceExcerpt": "Safeguard Duty is a WTO measure imposed to protect domestic players from a sudden and significant increase in imports. In principle, it cannot be targeted at a particular country, though individual country quotas apply under exceptional disproportionate import increases. It generally lasts up to four years, extendable to eight years.",
+      "qualityScore": 90,
+      "reviewNotes": "Consolidated the core facts (purpose, exceptions, duration) into a single high-quality 'How many statements are correct' format question. The distractors are plausible and directly test the nuances of the source text without introducing outside information."
+    }
+  ],
+  "reviewerNotes": "The source text is extremely brief (54 words). Generating multiple questions would lead to repetitive testing of the same three facts. Therefore, I have synthesized the best elements of the candidate questions into a single, comprehensive UPSC-style 'How many statements are correct' question that tests the definition, the exception clause, and the duration limit."
+}

@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "statement-based",
+      "prompt": "Consider the following statements regarding the 'Matsya-6000' submersible:\n1. It is an autonomous unmanned underwater vehicle designed primarily for deep-sea exploration.\n2. It is being developed by the National Institute of Ocean Technology (NIOT).\n3. It is designed to have an operational endurance of up to 96 hours under normal scientific exploration conditions.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "2 and 3 only"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Matsya-6000 is a manned (human) scientific submersible vehicle, not an unmanned one. Statement 2 is correct: It is being developed by the National Institute of Ocean Technology (NIOT). Statement 3 is incorrect: It has an endurance of 12 hours under normal operation; the 96-hour endurance is strictly for emergency situations.",
+      "takeaway": "Matsya-6000 is a 4th-generation manned submersible developed by NIOT with a normal endurance of 12 hours and an emergency endurance of 96 hours.",
+      "evidenceExcerpt": "Objective: Explore Ocean at 6,000-metre depth using manned submersible vehicle 'Matsya'. About Matsya-6000 4th Generation self-propelled deep-ocean human scientific submersible vehicle. Being developed by NIOT. Endurance of 12 hours under normal operation and 96 hours in case of emergency."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "statement-based",
+      "prompt": "With reference to the 'Deep Ocean Mission' (DOM) of India, consider the following statements:\n1. It is a dedicated mission under the Ministry of Science and Technology to promote India's Blue Economy initiatives.\n2. The mission includes the development of technologies for generating energy and freshwater from the ocean.\n3. The Samudrayaan Mission is a component of DOM aimed at sending humans to a depth of 6,000 metres.\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The nodal ministry for the Deep Ocean Mission is the Ministry of Earth Sciences, not the Ministry of Science and Technology. Statement 2 is correct: DOM components include generating energy and freshwater from the ocean. Statement 3 is correct: The Samudrayaan Mission is a component of DOM with the objective of exploring the ocean at a 6,000-metre depth using the manned submersible 'Matsya'.",
+      "takeaway": "The Deep Ocean Mission is spearheaded by the Ministry of Earth Sciences and encompasses broad objectives including deep sea mining, biodiversity exploration, and energy/freshwater generation.",
+      "evidenceExcerpt": "Samudrayaan Mission A component of Deep Ocean Mission (DOM). Objective: Explore Ocean at 6,000-metre depth using manned submersible vehicle 'Matsya'... About DOM Nodal Ministry: Ministry of Earth Sciences... DOM components include deep sea mining, ocean climate change advisory, biodiversity exploration, and energy/freshwater from the ocean."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "multiple-choice",
+      "prompt": "The Deep Ocean Mission (DOM) encompasses various components to support India's Blue Economy. Which of the following are explicitly included as components of the DOM?\n1. Deep sea mining\n2. Ocean climate change advisory services\n3. Exploration of deep-sea biodiversity\n4. Generation of energy and freshwater from the ocean\nSelect the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1, 2 and 3 only"
+        },
+        {
+          "id": "B",
+          "text": "1, 3 and 4 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 4 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2, 3 and 4"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "The Deep Ocean Mission (DOM) components include deep sea mining, ocean climate change advisory, biodiversity exploration, and the generation of energy and freshwater from the ocean. All four listed components are correct.",
+      "takeaway": "The Deep Ocean Mission is a multi-disciplinary initiative that goes beyond mining to include climate advisory, biodiversity, and resource generation (energy/freshwater).",
+      "evidenceExcerpt": "DOM components include deep sea mining, ocean climate change advisory, biodiversity exploration, and energy/freshwater from the ocean."
+    }
+  ]
+}

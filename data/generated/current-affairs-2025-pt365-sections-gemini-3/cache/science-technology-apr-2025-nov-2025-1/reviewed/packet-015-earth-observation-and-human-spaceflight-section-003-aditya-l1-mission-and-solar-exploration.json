@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Lagrange Points' and the Aditya-L1 mission:\n1. Lagrange points are positions in space where the gravitational pull of two large masses completely cancels each other out, creating a zero-gravity vacuum.\n2. A spacecraft placed in a halo orbit around the Lagrange point 1 (L1) of the Sun-Earth system can continuously observe the Sun without any occultation or eclipses.\n3. The L1 point of the Sun-Earth system is located at a distance of approximately 1.5 million kilometers from the Earth.\n\nWhich of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: At Lagrange points, the gravitational pull of two large masses precisely equals the centripetal force required for a small object to move with them, rather than completely canceling out to create zero gravity. Statement 2 is correct: The L1 point allows continuous, uninterrupted observation of the Sun. Statement 3 is correct: Aditya-L1 is placed in a halo orbit around L1, which is about 1.5 million km from the Earth.",
+      "takeaway": "Lagrange points represent a balance between gravitational pull and centripetal force, not a true 'zero-gravity' vacuum. L1 provides an uninterrupted view of the Sun.",
+      "evidenceExcerpt": "It placed in a halo orbit around the Lagrange point 1 (L1) of the Sun-Earth system, which is about 1.5 million km from the Earth. At Lagrange points, the gravitational pull of two large masses precisely equals the centripetal force required for a small object to move with them. These points allow continuous, uninterrupted observation of the Sun.",
+      "qualityScore": 85,
+      "reviewNotes": "Strong conceptual question testing the definition of Lagrange points and factual knowledge of Aditya-L1's orbit."
+    }
+  ],
+  "reviewerNotes": "Selected and refined 4 questions covering the core concepts of the Aditya-L1 mission, Lagrange points, payload types, and international solar missions. The questions were rewritten to ensure strict adherence to UPSC phrasing, plausible distractors, and tight alignment with the provided source text."
+}

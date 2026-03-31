@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the application of nanotechnology in agriculture:\n1. Nano fertilizers encapsulate nutrients in materials measuring 100 nanometres or less to ensure their rapid and immediate release into the soil.\n2. Green nano sulphur, recently developed in India, is synthesized using biological agents rather than conventional chemical processes.\n3. Nano sulphur can function both as a crop nutrient and as an insecticidal agent.\n\nWhich of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Nano fertilizers are specifically designed for the controlled release and slow diffusion of nutrients into the soil, preventing the rapid loss of nutrients associated with conventional fertilizers. Statements 2 and 3 are correct: The Energy and Resources Institute (TERI) developed a green nano sulphur using biological agents (plant-promoting bacteria). This nano sulphur not only improves crop yield but also possesses antibacterial and insecticidal properties.",
+      "takeaway": "Nano fertilizers utilize nanomaterials (100 nm or less) for the slow and controlled release of nutrients. Green nano sulphur is a dual-purpose agricultural input synthesized via biological agents.",
+      "evidenceExcerpt": "Nano fertilizers encapsulate nutrients within nanomaterials (100 nm or less) for controlled release and slow diffusion into soil... TERI scientists developed a green nano sulphur using biological agents (plant-promoting bacteria), which has antibacterial and insecticidal properties and increased mustard yield by 30-40%."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the recent developments in the fertilizer sector in India, consider the following statements:\n1. The Indian Farmers Fertiliser Cooperative Limited (IFFCO) launched the world's first Nano Liquid Urea.\n2. India is establishing its first overseas nano fertilizer manufacturing plant in Brazil.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Both statements are correct. IFFCO launched the world's first Nano Liquid Urea in 2021, followed by Nano-DAP in 2023. Furthermore, IFFCO is expanding its global footprint by setting up its first overseas nano fertilizer plant in Brazil.",
+      "takeaway": "India is a pioneer in nano fertilizer technology, with IFFCO leading the commercialization of Nano Liquid Urea and Nano-DAP, and expanding production internationally to countries like Brazil.",
+      "evidenceExcerpt": "IFFCO, which launched Nano Liquid Urea (2021) and Nano-DAP (2023), is setting up its first overseas plant in Brazil."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "Which of the following best describes the unique characteristics of the 'green nano sulphur' recently developed by Indian scientists?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It is a genetically modified strain of sulphur-oxidizing bacteria that fixes atmospheric sulphur directly into the soil."
+        },
+        {
+          "id": "B",
+          "text": "It is a nanomaterial synthesized using plant-promoting bacteria that offers both nutrient supply and pest resistance."
+        },
+        {
+          "id": "C",
+          "text": "It is a synthetic polymer-coated sulphur fertilizer designed to dissolve exclusively in highly alkaline soils."
+        },
+        {
+          "id": "D",
+          "text": "It is a heavy-metal-based nanoparticle used exclusively to eradicate invasive weed species in mustard fields."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Green nano sulphur, developed by TERI scientists, is synthesized using biological agents, specifically plant-promoting bacteria. It acts as a nutrient that increases crop yield (e.g., mustard) while also possessing antibacterial and insecticidal properties, providing pest resistance.",
+      "takeaway": "Green nanotechnology in agriculture involves using biological agents to synthesize nanomaterials that can serve multiple functions, such as acting as both a fertilizer and a pesticide.",
+      "evidenceExcerpt": "TERI scientists developed a green nano sulphur using biological agents (plant-promoting bacteria), which has antibacterial and insecticidal properties and increased mustard yield by 30-40%."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Multiple Choice",
+      "prompt": "Which of the following best explains the primary functional mechanism and advantage of encapsulating agricultural nutrients within nanomaterials, as seen in modern nano fertilizers?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It increases the physical size of fertilizer granules to prevent them from being washed away by surface runoff."
+        },
+        {
+          "id": "B",
+          "text": "It enables the controlled release and slow diffusion of nutrients into the soil."
+        },
+        {
+          "id": "C",
+          "text": "It facilitates the rapid and immediate dissolution of nutrients to provide an instant burst of nourishment to the crops."
+        },
+        {
+          "id": "D",
+          "text": "It sterilizes the surrounding soil by eliminating all soil bacteria, thereby preventing nutrient theft by microbes."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Nano fertilizers encapsulate nutrients within nanomaterials (100 nm or less) to allow for their controlled release and slow diffusion into the soil. This mechanism improves nutrient use efficiency and reduces environmental losses compared to conventional fertilizers, which often dissolve too rapidly.",
+      "takeaway": "The core mechanism of nano fertilizers relies on encapsulating nutrients in nanoscale materials to ensure controlled release and slow diffusion, avoiding the rapid nutrient loss associated with conventional fertilizers.",
+      "evidenceExcerpt": "Nano fertilizers encapsulate nutrients within nanomaterials (100 nm or less) for controlled release and slow diffusion into soil."
+    }
+  ]
+}

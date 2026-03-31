@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the recent developments in Quantum Technology in India:\n1. India's first extensive Quantum Key Distribution (QKD) network spanning over 500 kilometers was recently demonstrated by a startup.\n2. This initiative is supported under the National Quantum Mission (NQM).\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Both statements are correct. Startup QNu Labs successfully demonstrated India's first extensive QKD network, spanning over 500 kilometers. This initiative is supported under the National Quantum Mission (NQM).",
+      "takeaway": "India's first extensive QKD network (>500 km) was demonstrated by a startup (QNu Labs) under the National Quantum Mission.",
+      "evidenceExcerpt": "Startup QNu Labs, supported under the National Quantum Mission (NQM), successfully demonstrated India's first extensive QKD network, spanning over 500 kilometers."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "milestone-identification",
+      "prompt": "With reference to the recent developments under the National Quantum Mission (NQM), the startup 'QNu Labs' was in the news for which of the following achievements?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Demonstrating India's first extensive Quantum Key Distribution (QKD) network spanning over 500 kilometers."
+        },
+        {
+          "id": "B",
+          "text": "Developing India's first indigenous 100-qubit quantum processor for commercial use."
+        },
+        {
+          "id": "C",
+          "text": "Establishing a continuous quantum communication link between low Earth orbit satellites and ground stations."
+        },
+        {
+          "id": "D",
+          "text": "Creating a novel quantum sensor for deep-sea mineral exploration."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Startup QNu Labs, supported under the National Quantum Mission (NQM), successfully demonstrated India's first extensive Quantum Key Distribution (QKD) network, which spans over 500 kilometers. The other options represent plausible milestones in quantum technology but are not the specific achievement attributed to QNu Labs in this context.",
+      "takeaway": "QNu Labs achieved a significant milestone in secure quantum communication by demonstrating a 500 km QKD network under the National Quantum Mission.",
+      "evidenceExcerpt": "Startup QNu Labs, supported under the National Quantum Mission (NQM), successfully demonstrated India's first extensive QKD network, spanning over 500 kilometers."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Glacial Lakes and Glacial Lake Outburst Floods (GLOFs):\n1. Moraine-dammed lakes are formed by meltwater at glacier toes and are highly prone to sudden failure.\n2. Glacial surging, a major trigger for GLOFs, is characterized by the rapid short-term retreat of a glacier.\n3. The Central Water Commission (CWC) monitors glacial lakes and water bodies in the Himalayas.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Moraine-dammed lakes form at glacier toes, dammed by loose debris or ice-cores, and are highly prone to sudden failure. Statement 2 is incorrect: Glacial surging refers to the rapid short-term advance of a glacier, not its retreat. Statement 3 is correct: The Central Water Commission (CWC) monitors 902 glacial lakes and water bodies in the Himalayas.",
+      "takeaway": "GLOFs can be triggered by glacial surging (rapid advance), moraine dam failure, and seismic activities. The CWC is responsible for monitoring Himalayan glacial lakes.",
+      "evidenceExcerpt": "Moraine-dammed lakes (Formed by meltwater at glacier toes, dammed by loose debris or ice-cores, prone to sudden failure). GLOFs: Flood resulting from sudden and rapid release of water from a glacial lake. Major Causes: Glacial Surging (rapid short-term advance of a glacier)... Central Water Commission (CWC) monitors 902 glacial lakes and water bodies in the Himalayas.",
+      "qualityScore": 85,
+      "reviewNotes": "Good conceptual mix. The distractor in statement 2 (retreat vs. advance) is a classic UPSC trap."
+    }
+  ],
+  "reviewerNotes": "Selected three distinct questions covering the definitions/mechanisms of GLOFs, monitoring technologies, and the geographical scope of the NGRMP. Rewrote the prompts to align with the latest UPSC Prelims pattern (e.g., 'How many of the above...'). Ensured distractors are plausible and explanations are tightly coupled with the source text."
+}

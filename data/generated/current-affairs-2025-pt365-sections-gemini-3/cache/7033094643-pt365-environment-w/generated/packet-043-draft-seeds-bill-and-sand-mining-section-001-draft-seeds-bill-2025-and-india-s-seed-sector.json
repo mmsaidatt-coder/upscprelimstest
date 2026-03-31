@@ -1,0 +1,207 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Draft Seeds Bill 2025:\n1. It mandates the registration of every seed variety before it can be traded in the market.\n2. It completely prohibits farmers from exchanging or selling their farm-saved seeds.\n3. Farmers are permitted to sell their farm-saved seeds provided they do not sell them under a brand name.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The Draft Seeds Bill 2025 mandates registration for every seed variety before trade. Statement 2 is incorrect: Farmers are allowed to save, use, exchange, or sell their seeds without brand registration. Statement 3 is correct: While farmers can sell their seeds, they cannot sell them under a registered brand name.",
+      "takeaway": "The Draft Seeds Bill 2025 balances formal market regulation (mandatory registration for trade) with farmers' traditional rights to save, exchange, and unbranded sale of seeds.",
+      "evidenceExcerpt": "Draft Seeds Bill 2025 mandates registration for every seed variety before trade... Farmers can save, use, exchange, or sell their seeds without brand registration, but cannot sell under a brand name."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs regarding the generations of seeds recognized in India's seed sector:\n\n1. Breeder Seed : Progeny of the nucleus seed\n2. Foundation Seed : Progeny of the certified seed\n3. Certified Seed : Progeny of the foundation seed\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: Breeder seed is the progeny of the nucleus seed. Pair 2 is incorrectly matched: Foundation seed is the progeny of the breeder seed, not the certified seed. Pair 3 is correctly matched: Certified seed is the progeny of the foundation seed.",
+      "takeaway": "The formal seed multiplication chain follows a strict hierarchy: Nucleus Seed -> Breeder Seed -> Foundation Seed -> Certified Seed.",
+      "evidenceExcerpt": "Breeder Seed is the progeny of the nucleus seed; Foundation Seed is the progeny of breeder seed; Certified Seed is the progeny of foundation seed."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "In the context of agricultural biodiversity, which one of the following best describes the term 'Landraces'?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "High-yielding uniform seed varieties developed exclusively by private corporations."
+        },
+        {
+          "id": "B",
+          "text": "Genetically diverse crop populations that have evolved with traditional farming practices."
+        },
+        {
+          "id": "C",
+          "text": "Genetically modified crop varieties engineered specifically for drought resistance."
+        },
+        {
+          "id": "D",
+          "text": "First-generation progeny of nucleus seeds used primarily for laboratory research."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Landraces refer to genetically diverse crop populations that have naturally evolved and adapted over time alongside traditional farming practices, unlike commercially bred uniform varieties or genetically modified crops.",
+      "takeaway": "Landraces are crucial for genetic diversity and climate resilience in agriculture. States like Odisha are launching roadmaps to integrate them into formal seed systems.",
+      "evidenceExcerpt": "Odisha launched a roadmap to integrate Landraces (genetically diverse crop populations evolved with traditional practices) into formal seed systems."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Seed Village Programme (Beej Gram Yojana):\n1. Its primary objective is to improve the quality of seeds saved by farmers.\n2. It restricts farmers from using traditional landraces to promote the exclusive use of certified hybrid seeds.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The Seed Village Programme aims to improve the quality of farmers' saved seeds. Statement 2 is incorrect: The programme does not restrict the use of traditional landraces; in fact, traditional practices and landraces are being integrated into formal systems in parts of India.",
+      "takeaway": "The Seed Village Programme focuses on upgrading the quality of farm-saved seeds, which constitute a major portion of the seeds used by Indian farmers.",
+      "evidenceExcerpt": "Seed Village Programme (Beej Gram Yojana) aims to improve farmers' saved seed quality."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Application",
+      "prompt": "In the formal seed multiplication chain recognized in India, which of the following categories of seeds is directly multiplied to produce 'Certified Seed' for ultimate distribution to the farming community?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Nucleus Seed"
+        },
+        {
+          "id": "B",
+          "text": "Breeder Seed"
+        },
+        {
+          "id": "C",
+          "text": "Foundation Seed"
+        },
+        {
+          "id": "D",
+          "text": "Landrace Seed"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "In India's formal seed sector, the multiplication chain follows a specific hierarchy: Breeder Seed is the progeny of the nucleus seed; Foundation Seed is the progeny of the breeder seed; and Certified Seed is the progeny of the foundation seed.",
+      "takeaway": "Certified seed, which is distributed to farmers for commercial crop production, is the final stage of the formal seed multiplication chain and is produced directly from foundation seed.",
+      "evidenceExcerpt": "Recognizes three generations of seeds: Breeder Seed, Foundation Seed, Certified Seed... Breeder Seed is the progeny of the nucleus seed; Foundation Seed is the progeny of breeder seed; Certified Seed is the progeny of foundation seed."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to 'Landraces' in Indian agriculture, consider the following statements:\n1. They are characterized by high genetic uniformity, making them ideal for large-scale commercial monoculture.\n2. They have evolved naturally over time through traditional farming practices rather than formal laboratory breeding.\n3. Recent state-level initiatives aim to integrate them into formal seed systems to preserve agricultural biodiversity.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Landraces are genetically diverse crop populations, not uniform varieties designed for monoculture. Statement 2 is correct: They have evolved alongside traditional farming practices. Statement 3 is correct: States like Odisha have launched roadmaps to integrate Landraces into formal seed systems.",
+      "takeaway": "Landraces provide crucial genetic diversity and resilience to local ecosystems, contrasting sharply with the genetic uniformity of commercially bred seed varieties.",
+      "evidenceExcerpt": "Odisha launched a roadmap to integrate Landraces (genetically diverse crop populations evolved with traditional practices) into formal seed systems."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding India's seed sector and its regulatory framework:\n1. India currently possesses the largest seed industry in the world by volume.\n2. The Draft Seeds Bill 2025 explicitly incorporates norms for biotechnological seeds.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: India has the 5th largest seed industry globally, not the largest. Statement 2 is correct: The Draft Seeds Bill 2025 modernizes the regulatory framework by incorporating norms specifically for biotechnological seeds.",
+      "takeaway": "The modernization of India's seed laws includes specific provisions for biotechnological advancements, reflecting its position as a major global seed market.",
+      "evidenceExcerpt": "Overview of India's Seed Sector: 5th largest Seed Industry... Draft Seeds Bill 2025 mandates registration for every seed variety before trade and incorporates biotech norms."
+    }
+  ]
+}

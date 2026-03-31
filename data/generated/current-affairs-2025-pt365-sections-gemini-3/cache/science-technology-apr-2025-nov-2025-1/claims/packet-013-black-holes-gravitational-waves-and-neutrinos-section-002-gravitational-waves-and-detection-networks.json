@@ -1,0 +1,87 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-013-black-holes-gravitational-waves-and-neutrinos-section-002-gravitational-waves-and-detection-networks",
+    "claimType": "Conceptual",
+    "claimText": "Gravitational waves are ripples in space-time that travel at the speed of light, as predicted by Einstein's General Theory of Relativity.",
+    "evidenceExcerpt": "Gravitational waves travel at the speed of light and were predicted by Einstein's General Theory of Relativity.",
+    "pageNumbers": [
+      27,
+      28
+    ],
+    "examUse": "Statement-based question on properties of gravitational waves.",
+    "distractorHooks": [
+      "Travel at the speed of sound",
+      "Predicted by Newton's law of gravitation",
+      "Travel faster than light"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-013-black-holes-gravitational-waves-and-neutrinos-section-002-gravitational-waves-and-detection-networks",
+    "claimType": "Factual",
+    "claimText": "Violent cosmic events such as asymmetrical supernovae, orbiting or merging stars, and merging black holes cause gravitational waves.",
+    "evidenceExcerpt": "Events causing gravitational waves include asymmetrical supernovae, orbiting/merging stars, and merging black holes.",
+    "pageNumbers": [
+      27,
+      28
+    ],
+    "examUse": "Statement-based question on the sources of gravitational waves.",
+    "distractorHooks": [
+      "Symmetrical supernovae",
+      "Solar flares",
+      "Planetary rotation"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-013-black-holes-gravitational-waves-and-neutrinos-section-002-gravitational-waves-and-detection-networks",
+    "claimType": "Factual",
+    "claimText": "LIGO-India is being developed in Hingoli, Maharashtra, by the Department of Atomic Energy and the Department of Science and Technology.",
+    "evidenceExcerpt": "LIGO-India is being developed in Hingoli, Maharashtra by the Department of Atomic Energy and the Department of Science and Technology.",
+    "pageNumbers": [
+      27,
+      28
+    ],
+    "examUse": "Institution-feature or location-based correct-pair question.",
+    "distractorHooks": [
+      "Developed by ISRO",
+      "Located in Gujarat",
+      "Developed by DRDO"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-013-black-holes-gravitational-waves-and-neutrinos-section-002-gravitational-waves-and-detection-networks",
+    "claimType": "Factual",
+    "claimText": "The global network of gravitational wave detectors includes Virgo in Italy and KAGRA in Japan, the latter being located inside a mine.",
+    "evidenceExcerpt": "Global detectors include Virgo (Italy) and KAGRA (Japan, located inside a mine).",
+    "pageNumbers": [
+      27,
+      28
+    ],
+    "examUse": "Correct-pair question matching detectors to their respective countries.",
+    "distractorHooks": [
+      "Virgo in France",
+      "KAGRA in China",
+      "KAGRA located in space"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-013-black-holes-gravitational-waves-and-neutrinos-section-002-gravitational-waves-and-detection-networks",
+    "claimType": "Factual",
+    "claimText": "Gravitational waves were first detected by the LIGO observatory in 2015, which led to the 2017 Nobel Prize in Physics.",
+    "evidenceExcerpt": "Gravitational waves were first detected by LIGO in 2015, earning the 2017 Nobel Prize in Physics.",
+    "pageNumbers": [
+      27,
+      28
+    ],
+    "examUse": "Statement-based historical fact question.",
+    "distractorHooks": [
+      "First detected by Hubble Telescope",
+      "Detected in 1915",
+      "Detected by Virgo"
+    ]
+  }
+]

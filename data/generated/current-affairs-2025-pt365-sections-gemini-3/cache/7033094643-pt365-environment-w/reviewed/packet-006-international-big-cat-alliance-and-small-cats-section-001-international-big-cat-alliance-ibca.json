@@ -1,0 +1,73 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-Statement",
+      "prompt": "Consider the following species of big cats:\n1. Cheetah\n2. Jaguar\n3. Puma\n4. Snow Leopard\n\nHow many of the above species are targeted for conservation by the International Big Cat Alliance (IBCA) but are NOT found in India?",
+      "contextLines": [
+        "It aims to conserve 7 big cats: Tiger, Lion, Leopard, Snow Leopard, Cheetah, Jaguar, and Puma.",
+        "All except Puma and Jaguar are found in India"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The IBCA aims to conserve seven big cats globally: Tiger, Lion, Leopard, Snow Leopard, Cheetah, Jaguar, and Puma. Therefore, all four species listed are targeted by the IBCA. However, the text specifies that all except the Puma and Jaguar are found in India. Thus, exactly two of the given species (Jaguar and Puma) meet both criteria of being targeted by the IBCA and not being found in India.",
+      "takeaway": "Of the seven big cats targeted by the IBCA, five are found in India (Tiger, Lion, Leopard, Snow Leopard, and Cheetah), while the Puma and Jaguar are not.",
+      "evidenceExcerpt": "It aims to conserve 7 big cats: Tiger, Lion, Leopard, Snow Leopard, Cheetah, Jaguar, and Puma. All except Puma and Jaguar are found in India",
+      "qualityScore": 88,
+      "reviewNotes": "Excellent use of the 'How many of the above' format. It effectively tests the candidate's knowledge of both the IBCA's target species and their geographical distribution relative to India."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the International Big Cat Alliance (IBCA):\n1. It is a treaty-based inter-governmental organization.\n2. It was launched by India to commemorate fifty years of the Wildlife (Protection) Act, 1972.\n3. Its apex decision-making body is the IBCA Assembly, which meets once every two years.\n\nHow many of the statements given above are correct?",
+      "contextLines": [
+        "Launched by India in 2023 to commemorate 50 years of Project Tiger, the IBCA is a treaty-based inter-governmental organization.",
+        "its apex decision-making body is the IBCA Assembly, which meets every 2 years."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The IBCA is a treaty-based inter-governmental organization. Statement 2 is incorrect: It was launched by India in 2023 to commemorate 50 years of Project Tiger, not the Wildlife (Protection) Act, 1972. Statement 3 is correct: The apex decision-making body is the IBCA Assembly, which meets every two years.",
+      "takeaway": "The IBCA is a treaty-based inter-governmental organization launched by India to mark 50 years of Project Tiger, with its Assembly meeting biennially.",
+      "evidenceExcerpt": "Launched by India in 2023 to commemorate 50 years of Project Tiger, the IBCA is a treaty-based inter-governmental organization... its apex decision-making body is the IBCA Assembly, which meets every 2 years.",
+      "qualityScore": 85,
+      "reviewNotes": "A strong UPSC-style question. Substituting 'Project Tiger' with the 'Wildlife (Protection) Act, 1972' creates a highly plausible and classic distractor."
+    }
+  ],
+  "reviewerNotes": "Selected two strong questions that cover different aspects of the IBCA (institutional framework/genesis and species coverage/geography). Both have been refined to match the current UPSC Prelims pattern, utilizing 'How many of the above' structures and plausible distractors."
+}

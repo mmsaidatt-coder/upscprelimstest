@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to 'Epigenome Editing', consider the following statements: 1. The epigenome consists of chemical compounds that permanently alter the underlying DNA sequence to regulate gene expression. 2. Epigenome editing enables the control of gene expression without cutting the DNA strands. 3. The modifications introduced through epigenome editing are reversible in nature. How many of the above statements are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The epigenome consists of chemical compounds that modify or regulate gene expression, but it does not alter the underlying DNA sequence itself. Statements 2 and 3 are correct: Epigenome editing allows for precise control over gene expression with reversible changes and does not involve cutting the DNA.",
+      "takeaway": "Epigenome editing is a safer alternative to traditional gene editing because it regulates gene expression through reversible chemical modifications without cutting the DNA sequence.",
+      "evidenceExcerpt": "Epigenome consists of chemical compounds that modify or regulate gene expression. Epigenome editing allows for precise control over gene expression with reversible changes without cutting DNA...",
+      "contextLines": []
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "Which one of the following statements best describes the term 'Epigenome'?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It is the complete set of genetic material or DNA instructions found in an organism's cells."
+        },
+        {
+          "id": "B",
+          "text": "It consists of chemical compounds that modify or regulate gene expression without altering the DNA sequence."
+        },
+        {
+          "id": "C",
+          "text": "It is a specialized enzyme complex utilized by cells to cut and replace defective genetic sequences."
+        },
+        {
+          "id": "D",
+          "text": "It refers to the entire range of proteins expressed by a genome under specific environmental conditions."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Option B is correct. The epigenome consists of chemical compounds that modify or regulate gene expression. Option A describes the Genome. Option C describes gene-editing tools like CRISPR-Cas9. Option D describes the Proteome.",
+      "takeaway": "The epigenome acts as a layer of control on top of the genome, determining which genes are turned on or off through chemical modifications, without changing the underlying DNA sequence itself.",
+      "evidenceExcerpt": "Epigenome consists of chemical compounds that modify or regulate gene expression."
+    }
+  ]
+}

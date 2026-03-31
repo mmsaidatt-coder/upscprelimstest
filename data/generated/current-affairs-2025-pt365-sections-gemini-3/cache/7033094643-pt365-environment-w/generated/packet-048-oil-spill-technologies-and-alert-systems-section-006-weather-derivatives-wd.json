@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "Which one of the following best describes the underlying asset of a 'Weather Derivative'?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A physical agricultural commodity whose market supply is disrupted by extreme weather events."
+        },
+        {
+          "id": "B",
+          "text": "A meteorological parameter such as rainfall or temperature tied to a predefined index."
+        },
+        {
+          "id": "C",
+          "text": "A government-backed insurance policy against crop failure due to irregular monsoons."
+        },
+        {
+          "id": "D",
+          "text": "A traditional financial security whose value is inversely proportional to climate change risks."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Unlike traditional derivatives based on financial assets or physical commodities, Weather Derivatives utilize meteorological parameters, like rainfall and temperature, as their underlying asset. These parameters are tied to a predefined weather index.",
+      "takeaway": "Weather Derivatives are unique financial instruments where the underlying asset is not a physical good or financial security, but a measurable weather parameter.",
+      "evidenceExcerpt": "Unlike traditional derivatives based on financial assets, WD utilise meteorological parameters, like rainfall and temperature, as underlying asset, tied to a predefined weather index.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Weather Derivatives', recently seen in the news:\n\n1. They utilize predefined meteorological parameters as their underlying asset rather than traditional financial instruments.\n2. India's first weather derivatives are being developed by the National Bank for Agriculture and Rural Development (NABARD) in collaboration with the India Meteorological Department (IMD).\n3. They are designed to help farmers and allied sectors hedge against financial risks arising from adverse weather conditions.\n\nWhich of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Unlike traditional derivatives based on financial assets, Weather Derivatives utilize meteorological parameters like rainfall and temperature as the underlying asset, tied to a predefined weather index.\nStatement 2 is incorrect: India's first Weather Derivatives are being launched by the National Commodity and Derivatives Exchange Ltd (NCDEX) in partnership with the IMD, not NABARD.\nStatement 3 is correct: They will help farmers and allied sectors hedge against risks like irregular rainfall and heatwaves.",
+      "takeaway": "Weather Derivatives use meteorological data as an underlying asset to help agricultural sectors hedge against weather-related risks. NCDEX and IMD are developing India's first such products.",
+      "evidenceExcerpt": "India is to launch its first WD, with National Commodity and Derivatives Exchange Ltd (NCDEX) partnering with India Meteorological Department (IMD) to develop rainfall-based derivative products. It will help farmers and allied sectors hedge against risks like irregular rainfall, heatwaves, etc. Unlike traditional derivatives based on financial assets, WD utilise meteorological parameters, like rainfall and temperature, as underlying asset..."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Comparison",
+      "prompt": "In the context of risk management in the agricultural sector, how does a 'Weather Derivative' primarily differ from a traditional agricultural commodity derivative?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A weather derivative is settled based on a predefined meteorological index, whereas a traditional commodity derivative is based on the price of the physical crop."
+        },
+        {
+          "id": "B",
+          "text": "A weather derivative can only be traded by government entities, whereas traditional commodity derivatives are open to retail investors."
+        },
+        {
+          "id": "C",
+          "text": "A weather derivative provides physical delivery of water resources during droughts, whereas traditional derivatives are strictly cash-settled."
+        },
+        {
+          "id": "D",
+          "text": "A weather derivative is issued exclusively by the India Meteorological Department, whereas traditional derivatives are issued by commercial banks."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Weather derivatives utilize meteorological parameters (like rainfall and temperature) as underlying assets, tied to a predefined weather index. They do not involve the physical delivery of crops or water, nor are they restricted to government entities. Traditional agricultural commodity derivatives use the price of the physical crop as the underlying asset.",
+      "takeaway": "The fundamental distinction of a Weather Derivative is its underlying asset: a meteorological index rather than a physical commodity or financial asset.",
+      "evidenceExcerpt": "Unlike traditional derivatives based on financial assets, WD utilise meteorological parameters, like rainfall and temperature, as underlying asset, tied to a predefined weather index."
+    }
+  ]
+}

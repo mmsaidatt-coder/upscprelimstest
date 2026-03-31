@@ -1,0 +1,39 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Species Identification",
+      "prompt": "Consider the following description:",
+      "contextLines": [
+        "It is a wild plant species first recorded from a remote tropical forest in the Andaman and Nicobar Islands. It grows up to 11 metres high and features unique green flowers. It has the longest recorded infructescence in its category, measuring about 4.2 metres. It serves as a vital natural genetic resource for plant breeders to develop high-yielding and disease-resistant varieties.",
+        "Which one of the following species is described above?"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Musa balbisiana"
+        },
+        {
+          "id": "B",
+          "text": "Musa indandamanensis"
+        },
+        {
+          "id": "C",
+          "text": "Ensete superbum"
+        },
+        {
+          "id": "D",
+          "text": "Musa acuminata"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The passage describes Musa indandamanensis, a wild banana species discovered in the Andaman and Nicobar Islands in 2012. It is notable for its 11-metre height, unique green flowers, and the longest recorded infructescence (fruit-bearing stem) in bananas. It is highly valued as a genetic resource for breeding disease-resistant commercial banana varieties.",
+      "takeaway": "Identifying newly discovered or unique wild crop relatives is crucial for biodiversity conservation and agricultural resilience.",
+      "evidenceExcerpt": "An infructescence of about 4.2 metres recorded in species of wild banana Musa indandamanensis... First recorded from a remote tropical forest near Krishna Nala reserve forest in the Andaman and Nicobar Islands... Unique green flowers... 11 metres high.",
+      "qualityScore": 85,
+      "reviewNotes": "A classic UPSC-style species identification question. The distractors are other wild or related banana species, making it plausible."
+    }
+  ],
+  "reviewerNotes": "Both questions were strong candidates. The first was refined to match the exact tone of UPSC species description questions. The second was polished to ensure the Assertion-Reason linkage is logically tight and conceptually sound."
+}

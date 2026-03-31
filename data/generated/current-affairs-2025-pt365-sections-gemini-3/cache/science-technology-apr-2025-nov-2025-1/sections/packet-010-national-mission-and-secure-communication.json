@@ -1,0 +1,99 @@
+[
+  {
+    "id": "packet-010-national-mission-and-secure-communication-section-001-quantum-key-distribution-qkd",
+    "packetId": "packet-010-national-mission-and-secure-communication",
+    "topic": "Quantum Technology",
+    "subtopic": "National Mission and Secure Communication",
+    "title": "Quantum Key Distribution (QKD)",
+    "focus": "Principles, benefits, and applications of QKD and Entanglement-Based QKD.",
+    "pageNumbers": [
+      21
+    ],
+    "questionQuota": 2,
+    "rationale": "QKD is a foundational quantum communication concept frequently tested in UPSC for its security applications and mechanisms.",
+    "sectionExcerpt": "QKD leverages quantum mechanics principles to ensure secure distribution of encryption keys. Entanglement-based QKD ensures secure key sharing even with compromised devices and detects eavesdropping because interception disturbs quantum states. Free-space QKD works without costly fibre optics.",
+    "evidenceBullets": [
+      "QKD leverages quantum mechanics for secure encryption key distribution.",
+      "Entanglement-based QKD detects eavesdropping because interception disturbs quantum states.",
+      "Free-space QKD operates without fibre optics, making it suitable for tough terrains and dense cities."
+    ]
+  },
+  {
+    "id": "packet-010-national-mission-and-secure-communication-section-002-national-quantum-mission-nqm",
+    "packetId": "packet-010-national-mission-and-secure-communication",
+    "topic": "Quantum Technology",
+    "subtopic": "National Mission and Secure Communication",
+    "title": "National Quantum Mission (NQM)",
+    "focus": "Objectives, implementing agency, and targets of the NQM, along with QpiAI's 25-qubit quantum computer.",
+    "pageNumbers": [
+      21
+    ],
+    "questionQuota": 3,
+    "rationale": "Government missions are high-yield for UPSC prelims, especially regarding targets, nodal agencies, and specific thematic hubs.",
+    "sectionExcerpt": "NQM aims to scale up R&D in Quantum Technology. It is implemented by the Department of Science and Technology and is one of the nine PMSTIAC initiatives. Objectives include a 2,000 km secure communication network, 1,000-qubit quantum computers, magnetometry, atomic clocks, and quantum materials design. It plans four T-Hubs. QpiAI launched India's first 25-qubit superconducting quantum computer (QpiAI-Indus).",
+    "evidenceBullets": [
+      "NQM is implemented by the Department of Science and Technology (DST).",
+      "Aims to develop quantum computers with 1,000 qubits capacity and a 2,000 km communication network.",
+      "Plans to establish four thematic hubs (T-Hubs) in computing, communication, sensing, and materials.",
+      "QpiAI launched India's first 25-qubit superconducting quantum computer, QpiAI-Indus."
+    ]
+  },
+  {
+    "id": "packet-010-national-mission-and-secure-communication-section-003-quantum-information-scrambling",
+    "packetId": "packet-010-national-mission-and-secure-communication",
+    "topic": "Quantum Technology",
+    "subtopic": "National Mission and Secure Communication",
+    "title": "Quantum Information Scrambling",
+    "focus": "Definition, mechanism, and significance of quantum information scrambling, and Google's Willow processor.",
+    "pageNumbers": [
+      21,
+      22
+    ],
+    "questionQuota": 2,
+    "rationale": "Conceptual understanding of quantum phenomena is a recurring theme in UPSC Science & Tech questions.",
+    "sectionExcerpt": "Quantum information scrambling refers to the rapid spread of information across a quantum system via entanglement, making it inaccessible to local measurements but hiding it globally rather than erasing it. Google's quantum processor Willow achieved a ~13,000x speed-up over classical supercomputers, detecting the Quantum Echoes algorithm to prove information retention.",
+    "evidenceBullets": [
+      "Quantum information scrambling distributes data among particles through entanglement, hiding it globally.",
+      "Information is not erased but becomes inaccessible to local measurements.",
+      "Google's Willow processor achieved a ~13,000x speed-up over top classical supercomputers."
+    ]
+  },
+  {
+    "id": "packet-010-national-mission-and-secure-communication-section-004-qsip-quantum-random-number-generator-system-in-package",
+    "packetId": "packet-010-national-mission-and-secure-communication",
+    "topic": "Quantum Technology",
+    "subtopic": "National Mission and Secure Communication",
+    "title": "QSIP (Quantum Random Number Generator System in Package)",
+    "focus": "Features and applications of the QSIP quantum security chip.",
+    "pageNumbers": [
+      22
+    ],
+    "questionQuota": 1,
+    "rationale": "A specific indigenous technological development dedicated to the nation, relevant for tech-based objective questions.",
+    "sectionExcerpt": "QSIP is a quantum security chip dedicated to the nation by the Prime Minister. It provides quantum-certified randomness for cryptographic algorithms, ensuring defense against cyber threats and future quantum attacks.",
+    "evidenceBullets": [
+      "QSIP is a quantum security chip providing quantum-certified randomness.",
+      "It is used in cryptographic algorithms to defend against cyber threats and future quantum attacks."
+    ]
+  },
+  {
+    "id": "packet-010-national-mission-and-secure-communication-section-005-brain-computer-interface-bci",
+    "packetId": "packet-010-national-mission-and-secure-communication",
+    "topic": "Quantum Technology",
+    "subtopic": "National Mission and Secure Communication",
+    "title": "Brain-Computer Interface (BCI)",
+    "focus": "Mechanism, applications, and recent developments in BCI technology.",
+    "pageNumbers": [
+      22
+    ],
+    "questionQuota": 2,
+    "rationale": "BCI is an emerging technology with significant medical and cognitive applications, making it highly relevant for UPSC S&T.",
+    "sectionExcerpt": "A Brain-Computer Interface (BCI) enables direct brain-to-device communication by translating neural signals into commands, bypassing muscular control. Stanford scientists developed a privacy-focused BCI requiring a mental password. Applications include restoring mobility/speech, mental wellness, gaming, and cognitive enhancement.",
+    "evidenceBullets": [
+      "BCI translates neural signals into commands, allowing device operation via thought alone, bypassing muscular control.",
+      "Can use invasive implants or non-invasive wearables to acquire brain activity.",
+      "Applications include restoring mobility for paralysis/stroke patients and cognitive enhancement.",
+      "Stanford developed a privacy-focused BCI requiring a mental password before decoding thoughts."
+    ]
+  }
+]

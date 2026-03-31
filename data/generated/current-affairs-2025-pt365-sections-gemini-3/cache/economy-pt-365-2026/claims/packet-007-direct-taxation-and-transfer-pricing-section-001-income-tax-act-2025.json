@@ -1,0 +1,63 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-007-direct-taxation-and-transfer-pricing-section-001-income-tax-act-2025",
+    "claimType": "Factual",
+    "claimText": "Under the Income Tax Act 2025, Minimum Alternate Tax (MAT) applies exclusively to corporate taxpayers, whereas Alternate Minimum Tax (AMT) applies to non-corporate taxpayers.",
+    "evidenceExcerpt": "The provisions of MAT are applicable to a corporate taxpayer only. AMT has similar provisions as MAT which is applicable to non-corporate tax payers.",
+    "pageNumbers": [
+      16
+    ],
+    "examUse": "Statement-based question swapping the applicability of MAT and AMT.",
+    "distractorHooks": [
+      "MAT applies to non-corporate taxpayers",
+      "AMT applies to corporate taxpayers",
+      "Both MAT and AMT apply to all taxpayers"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-007-direct-taxation-and-transfer-pricing-section-001-income-tax-act-2025",
+    "claimType": "Factual",
+    "claimText": "The definition of undisclosed income under the Income Tax Act 2025 has been expanded to include virtual digital assets.",
+    "evidenceExcerpt": "The definition of undisclosed income... is expanded to include virtual digital assets.",
+    "pageNumbers": [
+      16
+    ],
+    "examUse": "Statement-based question on the scope of undisclosed income in search cases.",
+    "distractorHooks": [
+      "Virtual digital assets are explicitly excluded from the definition of undisclosed income",
+      "Undisclosed income only covers physical assets and fiat currency"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-007-direct-taxation-and-transfer-pricing-section-001-income-tax-act-2025",
+    "claimType": "Factual",
+    "claimText": "Income tax authorities have the power to access virtual digital spaces, including email servers and social media, during search and seizure proceedings.",
+    "evidenceExcerpt": "Income tax authorities can access virtual digital spaces (e.g., email servers, social media) during search and seizure proceedings.",
+    "pageNumbers": [
+      16
+    ],
+    "examUse": "Statement-based question regarding the extent of powers granted to tax authorities during search and seizure.",
+    "distractorHooks": [
+      "Tax authorities require a separate judicial warrant to access social media",
+      "Search and seizure powers are restricted to physical premises and documents"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-007-direct-taxation-and-transfer-pricing-section-001-income-tax-act-2025",
+    "claimType": "Factual",
+    "claimText": "A dispute resolution panel is available for eligible assessees, which includes entities involved in transfer pricing cases, non-residents, and foreign companies.",
+    "evidenceExcerpt": "A dispute resolution panel is available for eligible assessees, including those in transfer pricing cases, non-residents, and foreign companies.",
+    "pageNumbers": [
+      16
+    ],
+    "examUse": "Statement-based question testing the eligibility criteria for accessing the dispute resolution panel.",
+    "distractorHooks": [
+      "The dispute resolution panel is exclusively for resident Indian citizens",
+      "Foreign companies are barred from accessing the dispute resolution panel"
+    ]
+  }
+]

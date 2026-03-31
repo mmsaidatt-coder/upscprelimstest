@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Tardigrades', recently seen in the news:\n1. They are eight-legged segmented micro-animals capable of surviving extreme radiation and crushing pressures.\n2. They adapt to adverse environmental conditions by significantly increasing their metabolic rate to generate heat.\n3. They have been selected for scientific experiments to be conducted aboard the International Space Station.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Tardigrades (also known as water bears) are half-millimetre long, eight-legged segmented micro-animals that can endure extreme temperatures, crushing pressures, and radiation.\nStatement 2 is incorrect: They survive adverse conditions through a process called 'cryptobiosis', which is a state of extreme metabolic inactivity, not an increased metabolic rate.\nStatement 3 is correct: Indian astronaut Shubhanshu Shukla will take Tardigrades to the International Space Station (ISS) for an experiment.",
+      "takeaway": "Tardigrades survive extreme environments not by fighting them with high metabolism, but by shutting down their metabolism almost completely (cryptobiosis).",
+      "evidenceExcerpt": "Indian astronaut Shubhanshu Shukla will take Tardigrades to the International Space Station (ISS) for an experiment. Also known as Water Bears or Moss Piglets, these half-millimetre long, eight-legged segmented micro-animals endure extreme temperatures, crushing pressures, and radiation through cryptobiosis. Cryptobiosis is a state of extreme inactivity in response to adverse environmental conditions."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Concept Definition",
+      "prompt": "Which one of the following best describes the phenomenon of 'Cryptobiosis', often discussed in the context of extremophiles like water bears?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It is a state of extreme metabolic inactivity that allows organisms to survive adverse environmental conditions."
+        },
+        {
+          "id": "B",
+          "text": "It is the ability of certain micro-animals to rapidly alter their genetic structure in response to cosmic radiation."
+        },
+        {
+          "id": "C",
+          "text": "It is a process where organisms actively absorb heavy metals from their surroundings to build a protective outer shell."
+        },
+        {
+          "id": "D",
+          "text": "It is a specialized reproductive strategy used by microscopic organisms to multiply rapidly under high oceanic pressure."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Cryptobiosis is a physiological state of extreme inactivity triggered by adverse environmental conditions (such as desiccation, freezing, or oxygen deficiency). In this state, all measurable metabolic processes nearly stop, allowing organisms like Tardigrades to survive extreme temperatures, pressures, and radiation.",
+      "takeaway": "Cryptobiosis is the key survival mechanism for Tardigrades, enabling them to withstand conditions that would be fatal to most other forms of life.",
+      "evidenceExcerpt": "Cryptobiosis is a state of extreme inactivity in response to adverse environmental conditions."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "The terms 'Eutardigrada' and 'Heterotardigrada', sometimes mentioned in the news, refer to:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "recognized classes of microscopic extremophiles capable of cryptobiosis."
+        },
+        {
+          "id": "B",
+          "text": "newly discovered exoplanets located in the habitable zone of their host stars."
+        },
+        {
+          "id": "C",
+          "text": "distinct stages of coral bleaching observed in tropical marine ecosystems."
+        },
+        {
+          "id": "D",
+          "text": "types of bio-indicators used to measure heavy metal pollution in freshwater lakes."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Eutardigrada and Heterotardigrada are recognized classes of Tardigrades (also known as Water Bears or Moss Piglets). These are half-millimetre long, eight-legged segmented micro-animals known for their ability to survive extreme environments through cryptobiosis.",
+      "takeaway": "Tardigrades are scientifically classified into recognized classes such as Eutardigrada and Heterotardigrada.",
+      "evidenceExcerpt": "Recognized classes include Eutardigrada and Heterotardigrada."
+    }
+  ]
+}

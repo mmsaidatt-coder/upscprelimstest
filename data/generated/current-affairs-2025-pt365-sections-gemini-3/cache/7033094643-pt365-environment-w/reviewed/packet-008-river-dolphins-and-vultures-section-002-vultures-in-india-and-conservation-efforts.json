@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-choice",
+      "prompt": "Which of the following vulture species found in India are classified as 'Critically Endangered' by the IUCN?\n1. White-rumped Vulture\n2. Indian Vulture\n3. Slender-billed Vulture\n4. Egyptian Vulture\n\nSelect the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1, 2 and 3 only"
+        },
+        {
+          "id": "B",
+          "text": "2, 3 and 4 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 4 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2, 3 and 4"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "The White-rumped, Indian, Slender-billed, and Red-headed vultures are classified as Critically Endangered (CR) by the IUCN. The Egyptian Vulture is classified as Endangered (EN).",
+      "takeaway": "India hosts four Critically Endangered vulture species: White-rumped, Indian, Slender-billed, and Red-headed vultures.",
+      "evidenceExcerpt": "Four vulture species in India are Critically Endangered (CR): White-rumped, Indian, Slender-billed, and Red-headed vultures. The Egyptian Vulture is Endangered (EN)...",
+      "qualityScore": 88,
+      "reviewNotes": "Highly probable UPSC question format for testing species conservation status."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of vulture species found in India and their conservation status as per the IUCN Red List:\n1. Red-headed Vulture : Critically Endangered\n2. Egyptian Vulture : Endangered\n3. Himalayan Griffon : Near Threatened\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Pair 1 is correctly matched: The Red-headed Vulture is classified as Critically Endangered (CR). Pair 2 is correctly matched: The Egyptian Vulture is classified as Endangered (EN). Pair 3 is correctly matched: The Himalayan Griffon is classified as Near Threatened (NT).",
+      "takeaway": "In India, the White-rumped, Indian, Slender-billed, and Red-headed vultures are Critically Endangered; the Egyptian Vulture is Endangered; and the Bearded, Cinereous, and Himalayan Griffon are Near Threatened.",
+      "evidenceExcerpt": "Four vulture species in India are Critically Endangered (CR): White-rumped, Indian, Slender-billed, and Red-headed vultures. The Egyptian Vulture is Endangered (EN), while Bearded, Cinereous, and Himalayan Griffon are Near Threatened (NT).",
+      "qualityScore": 85,
+      "reviewNotes": "Standard UPSC correct-pair format testing crucial IUCN statuses."
+    }
+  ],
+  "reviewerNotes": "Selected 4 strong questions covering IUCN statuses, WII assessment findings, threats (NSAIDs), and conservation initiatives (VCBCs). Rewrote prompts and options to align with UPSC Prelims standards, ensuring plausible distractors and precise explanations."
+}

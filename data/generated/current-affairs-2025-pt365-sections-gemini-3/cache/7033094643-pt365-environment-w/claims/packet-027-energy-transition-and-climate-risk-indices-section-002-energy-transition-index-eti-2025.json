@@ -1,0 +1,65 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-027-energy-transition-and-climate-risk-indices-section-002-energy-transition-index-eti-2025",
+    "claimType": "Factual",
+    "claimText": "The Energy Transition Index (ETI) is released by the World Economic Forum (WEF).",
+    "evidenceExcerpt": "Released by the World Economic Forum (WEF).",
+    "pageNumbers": [
+      57
+    ],
+    "examUse": "Statement-based question identifying the publishing organization of the index.",
+    "distractorHooks": [
+      "International Energy Agency (IEA)",
+      "United Nations Environment Programme (UNEP)",
+      "World Bank"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-027-energy-transition-and-climate-risk-indices-section-002-energy-transition-index-eti-2025",
+    "claimType": "Factual",
+    "claimText": "India's rank in the Energy Transition Index dropped to 71 in 2025 from 63 in 2024.",
+    "evidenceExcerpt": "India's rank dropped to 71 in 2025 from 63 in 2024.",
+    "pageNumbers": [
+      57
+    ],
+    "examUse": "Statement-based question on India's performance and trend in the index.",
+    "distractorHooks": [
+      "India's rank improved in 2025",
+      "India ranked 63 in 2025"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-027-energy-transition-and-climate-risk-indices-section-002-energy-transition-index-eti-2025",
+    "claimType": "Factual",
+    "claimText": "Sweden ranked first in the Energy Transition Index (ETI) 2025.",
+    "evidenceExcerpt": "Sweden ranked first in the 2025 index.",
+    "pageNumbers": [
+      57
+    ],
+    "examUse": "Fact-based question on the top-performing country in the index.",
+    "distractorHooks": [
+      "Norway",
+      "Denmark",
+      "Finland"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-027-energy-transition-and-climate-risk-indices-section-002-energy-transition-index-eti-2025",
+    "claimType": "Conceptual",
+    "claimText": "The Energy Transition Index (ETI) assesses countries based on two main aspects: System Performance and Transition Readiness.",
+    "evidenceExcerpt": "Assesses System Performance (energy security, equity, sustainability) and Transition Readiness (regulation, infrastructure, investment).",
+    "pageNumbers": [
+      57
+    ],
+    "examUse": "Statement-based question on the parameters and methodology used to calculate the index.",
+    "distractorHooks": [
+      "Assesses only carbon emission reductions",
+      "Includes GDP growth as a primary aspect",
+      "Focuses solely on renewable energy capacity"
+    ]
+  }
+]

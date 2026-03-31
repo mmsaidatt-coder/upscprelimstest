@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Central Pollution Control Board (CPCB): 1. It is a statutory organisation constituted under the Environment (Protection) Act, 1986. 2. It is entrusted with powers and functions under the Air (Prevention and Control of Pollution) Act, 1981. 3. It provides technical services to the Ministry of Environment, Forest and Climate Change under the Environment (Protection) Act, 1986. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The CPCB is a statutory organisation constituted under the Water (Prevention and Control of Pollution) Act, 1974, not the Environment (Protection) Act, 1986. Statement 2 is correct: It is also entrusted with powers and functions under the Air (Prevention and Control of Pollution) Act, 1981. Statement 3 is correct: It provides technical services to the Ministry of Environment, Forest and Climate Change for the implementation of the Environment (Protection) Act, 1986.",
+      "takeaway": "The CPCB derives its core statutory existence from the Water Act (1974), while also exercising powers under the Air Act (1981) and providing technical services under the Environment (Protection) Act (1986).",
+      "evidenceExcerpt": "CPCB is a statutory body established under the Water (Prevention and Control of Pollution) Act, 1974. CPCB is also entrusted with powers and functions under the Air (Prevention and Control of Pollution) Act, 1981. CPCB provides technical services to the Environment Ministry under the Environment (Protection) Act, 1986.",
+      "qualityScore": 90,
+      "reviewNotes": "Classic UPSC pattern testing the statutory origins of a key environmental body. The distractors effectively play on the common confusion between the Water Act, Air Act, and EPA."
+    }
+  ],
+  "reviewerNotes": "Selected two high-quality questions. Question 1 tests the statutory basis of the CPCB, a frequent UPSC theme. Question 2 was rewritten into the recent Statement-I and Statement-II format to test the conceptual understanding of Environmental Compensation and its preventive application. Candidates 2 and 4 were dropped to avoid repetition of the same concept."
+}

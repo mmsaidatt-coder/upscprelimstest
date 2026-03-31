@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the National Quantum Mission (NQM): 1. It is implemented by the Department of Science and Technology (DST). 2. It is one of the initiatives under the Prime Minister's Science, Technology, and Innovation Advisory Council (PM-STIAC). 3. It aims to develop quantum computers with a capacity of up to 1,000 qubits. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: NQM is implemented by the Department of Science and Technology (DST). Statement 2 is correct: It is one of the nine PM-STIAC initiatives. Statement 3 is correct: The mission aims to develop quantum computers with a 1,000-qubit capacity.",
+      "takeaway": "The National Quantum Mission is a PM-STIAC initiative implemented by DST, targeting 1,000-qubit quantum computers and a 2,000 km secure communication network.",
+      "evidenceExcerpt": "NQM aims to scale up R&D in Quantum Technology. It is implemented by the Department of Science and Technology and is one of the nine PMSTIAC initiatives. Objectives include a 2,000 km secure communication network, 1,000-qubit quantum computers..."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to quantum technology developments in India, consider the following statements: 1. QpiAI-Indus is India's first 25-qubit superconducting quantum computer. 2. The National Quantum Mission aims to establish thematic hubs (T-Hubs) exclusively for quantum computing and quantum communication. 3. The National Quantum Mission targets the establishment of a secure communication network of 2,000 km. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: QpiAI launched India's first 25-qubit superconducting quantum computer, QpiAI-Indus. Statement 2 is incorrect: The mission plans to establish four thematic hubs (T-Hubs) in computing, communication, sensing, and materials, not exclusively computing and communication. Statement 3 is correct: A key objective is a 2,000 km secure communication network.",
+      "takeaway": "NQM plans four T-Hubs (computing, communication, sensing, materials) and aims for a 2,000 km secure communication network. QpiAI-Indus is India's first 25-qubit superconducting quantum computer.",
+      "evidenceExcerpt": "Objectives include a 2,000 km secure communication network... It plans four T-Hubs. QpiAI launched India's first 25-qubit superconducting quantum computer (QpiAI-Indus)... Plans to establish four thematic hubs (T-Hubs) in computing, communication, sensing, and materials."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Multiple-choice",
+      "prompt": "The National Quantum Mission (NQM) plans to establish four Thematic Hubs (T-Hubs) to foster research and development. Which of the following domains are officially designated for these T-Hubs?\n1. Quantum Computing\n2. Quantum Communication\n3. Quantum Sensing\n4. Quantum Materials\n\nSelect the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "1, 2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "2, 3 and 4 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2, 3 and 4"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "The National Quantum Mission plans to establish exactly four thematic hubs (T-Hubs) dedicated to computing, communication, sensing, and materials.",
+      "takeaway": "The four pillars of the National Quantum Mission's R&D infrastructure are computing, communication, sensing, and materials.",
+      "evidenceExcerpt": "Plans to establish four thematic hubs (T-Hubs) in computing, communication, sensing, and materials."
+    }
+  ]
+}

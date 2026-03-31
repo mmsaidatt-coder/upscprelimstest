@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the James Webb Space Telescope (JWST):\n1. It is an orbiting infrared observatory launched jointly by NASA, the European Space Agency (ESA), and the Canadian Space Agency.\n2. It orbits the Earth at a distance of approximately 1.5 million kilometers.\n3. It was recently used to detect biosignatures on the exoplanet K2-18 b.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: JWST is an orbiting infrared observatory launched jointly by NASA, ESA, and the Canadian Space Agency.\nStatement 2 is incorrect: JWST orbits the Sun, not the Earth. It is positioned 1.5 million kilometers away from the Earth at the second Lagrange point (L2).\nStatement 3 is correct: Cambridge scientists recently discovered biosignatures on the exoplanet K2-18 b using the JWST.",
+      "takeaway": "The James Webb Space Telescope is an infrared observatory that orbits the Sun at the L2 point. It is a joint mission by NASA, ESA, and the Canadian Space Agency, and has been instrumental in exoplanetary discoveries.",
+      "evidenceExcerpt": "JAMES WEBB SPACE TELESCOPE (JWST). Cambridge Scientists discovered Biosignatures on Exoplanet K2-18 b, using James Webb Space Telescope (JWST)... Launched jointly by NASA, ESA and Canadian Space Agency. Type: Orbiting infrared observatory. Orbit: Orbits the Sun 1.5 million kilometers away from the Earth at second Lagrange point or L2.",
+      "qualityScore": 90,
+      "reviewNotes": "Excellent UPSC-style question. The trap in Statement 2 (orbiting the Earth vs. Sun) is a classic exam pattern that tests careful reading."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to 'K2-18 b', recently mentioned in the news, consider the following statements:\n1. It is an exoplanet where biosignatures have been recently detected.\n2. The biosignatures on this celestial body were discovered using the Hubble Space Telescope.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: K2-18 b is an exoplanet where Cambridge scientists recently discovered biosignatures.\nStatement 2 is incorrect: The discovery was made using the James Webb Space Telescope (JWST), not the Hubble Space Telescope.",
+      "takeaway": "K2-18 b is a notable exoplanet due to the recent detection of biosignatures by the James Webb Space Telescope (JWST).",
+      "evidenceExcerpt": "Cambridge Scientists discovered Biosignatures on Exoplanet K2-18 b, using James Webb Space Telescope (JWST)",
+      "qualityScore": 85,
+      "reviewNotes": "Shifts the focus from the telescope to the exoplanet, mimicking the 'terms seen in the news' format frequently used by UPSC."
+    }
+  ],
+  "reviewerNotes": "Selected and refined three questions to cover different aspects of the source text without excessive overlap. Q1 uses the 'How many statements' format and includes a subtle trap regarding the orbit (Sun vs. Earth). Q2 shifts the focus to the exoplanet K2-18 b, mimicking UPSC's 'terms seen in the news' style. Q3 tests the fundamental characteristics of the telescope (spectrum and orbit) with parallel distractors."
+}

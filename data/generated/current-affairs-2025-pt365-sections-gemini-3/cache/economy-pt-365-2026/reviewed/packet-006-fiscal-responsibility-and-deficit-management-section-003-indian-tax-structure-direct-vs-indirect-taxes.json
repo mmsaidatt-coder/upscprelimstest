@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Implication",
+      "prompt": "If the Government of India decides to significantly increase the rates of indirect taxes while simultaneously reducing direct tax rates, what is the most likely macroeconomic implication of this policy shift?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It will make the overall tax system more progressive, as indirect taxes are embedded in prices."
+        },
+        {
+          "id": "B",
+          "text": "It will increase the regressive nature of the tax system, disproportionately burdening lower-income consumers."
+        },
+        {
+          "id": "C",
+          "text": "It will eliminate the risk of tax evasion, as indirect taxes are directly deducted at the source."
+        },
+        {
+          "id": "D",
+          "text": "It will ensure that the incidence and impact of the majority of taxes fall on the same person."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Indirect taxes (like GST) are regressive in nature because they apply the same rate regardless of the consumer's income. Direct taxes (like Income Tax) are progressive. Shifting the primary tax burden from direct to indirect taxes would make the overall system more regressive, disproportionately affecting lower-income groups who spend a larger share of their income on consumption.",
+      "takeaway": "Indirect taxes apply uniformly to all consumers regardless of income, making them regressive. Heavy reliance on them can exacerbate economic inequality.",
+      "evidenceExcerpt": "Direct taxes (e.g., Income, Corporate, Capital Gains) are progressive... Indirect taxes (e.g., GST, Customs, Excise) are regressive... applying the same rate regardless of income.",
+      "qualityScore": 90,
+      "reviewNotes": "Excellent application-based question. The distractors cleverly mix up features of direct and indirect taxes (e.g., 'deducted at source', 'incidence and impact fall on the same person') to test deep conceptual understanding."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the tax structure in India:\n1. The incidence and impact of direct taxes fall on the same entity, meaning the tax burden cannot be shifted.\n2. Indirect taxes are progressive in nature because they apply uniformly to all consumers regardless of their income levels.\n3. The administration of the capital gains tax falls under the purview of the Central Board of Direct Taxes (CBDT).\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Direct taxes have their incidence and impact on the same person, and their burden cannot be shifted.\nStatement 2 is incorrect: Indirect taxes are regressive in nature precisely because they apply the same rate regardless of the consumer's income, placing a disproportionately higher burden on lower-income individuals.\nStatement 3 is correct: Capital gains tax is a direct tax and is therefore administered by the CBDT.",
+      "takeaway": "Direct taxes (like Income, Corporate, and Capital Gains) are progressive and non-transferable, administered by the CBDT. Indirect taxes are regressive and their burden is shifted to the consumer.",
+      "evidenceExcerpt": "Direct taxes (e.g., Income, Corporate, Capital Gains) are progressive, administered by the CBDT, and their incidence and impact fall on the same person. The burden of direct taxes cannot be shifted... Indirect taxes (e.g., GST, Customs, Excise) are regressive... applying the same rate regardless of income.",
+      "qualityScore": 85,
+      "reviewNotes": "Good conceptual clarity testing the definitions of progressive/regressive and incidence/impact. The trap in statement 2 ('apply uniformly' making it sound fair/progressive) is a classic UPSC distractor."
+    }
+  ],
+  "reviewerNotes": "Selected three questions that cover the conceptual differences between direct and indirect taxes, the factual exceptions to GST, and the macroeconomic implications of tax policy shifts. Improved distractors and formatting to align with UPSC standards."
+}

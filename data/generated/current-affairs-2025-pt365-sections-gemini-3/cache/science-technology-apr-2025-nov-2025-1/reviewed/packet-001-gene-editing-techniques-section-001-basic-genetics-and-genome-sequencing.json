@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice",
+      "prompt": "In the context of agricultural biotechnology, which one of the following best describes the role of 'Genome Sequencing' in developing climate-resilient crops?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It involves the direct modification of a plant's DNA base pairs to introduce synthetic environmental resistance."
+        },
+        {
+          "id": "B",
+          "text": "It helps in identifying specific genetic traits within a plant's DNA that confer resilience to climate stressors."
+        },
+        {
+          "id": "C",
+          "text": "It increases the number of chromosomes in plant gametes to enhance their survival in extreme weather conditions."
+        },
+        {
+          "id": "D",
+          "text": "It facilitates the fusion of gametes from different crop species to create a new diploid zygote."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Genome sequencing is an analytical technique used to determine the exact order of base pairs in an organism's DNA. In agriculture, it allows scientists to identify existing genetic traits that confer climate resilience. It is an observational tool and does not involve directly modifying genes (which is gene editing), altering chromosome numbers, or fusing gametes (which is hybridization).",
+      "takeaway": "Genome sequencing maps the genetic code to identify desirable traits, distinguishing it from techniques like gene editing or hybridization that actively alter the genetic makeup.",
+      "evidenceExcerpt": "Genome sequencing determines the exact order of base pairs in an individual's DNA strand. Applications of genome sequencing include... identifying agricultural traits for climate resilience.",
+      "qualityScore": 88,
+      "reviewNotes": "Excellent conceptual question that tests the candidate's ability to distinguish between sequencing (reading DNA) and editing/hybridization (altering DNA)."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Application-based",
+      "prompt": "Consider the following areas:\n\n1. Personalized healthcare\n2. Paternity testing\n3. Development of climate-resilient agriculture\n\nIn how many of the above areas is the application of 'Genome Sequencing' currently possible?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Genome sequencing determines the exact order of base pairs in an individual's DNA strand. It has diverse applications, including personalized healthcare (tailoring medical treatments based on genetic makeup), paternity testing (establishing biological relationships), and identifying specific agricultural traits for climate resilience in crops. Therefore, all three areas are correct applications.",
+      "takeaway": "Genome sequencing is a foundational tool in biotechnology with broad applications across medicine, forensics, and agriculture.",
+      "evidenceExcerpt": "Applications of genome sequencing include personalized healthcare, paternity testing, and identifying agricultural traits for climate resilience.",
+      "qualityScore": 85,
+      "reviewNotes": "Standard UPSC application-based question. The options and format align perfectly with recent trends."
+    }
+  ],
+  "reviewerNotes": "Selected three distinct questions covering applications, conceptual understanding, and basic terminology of genetics and genome sequencing. Rewrote prompts and options to closely mimic the UPSC Prelims tone and formatting."
+}

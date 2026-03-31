@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding a 'Thirstwave':\n1. It is a prolonged period of rainfall deficit that leads to a gradual decline in regional soil moisture.\n2. It occurs when the daily atmospheric evaporative demand exceeds its historical 90th percentile for at least three consecutive days.\n3. Wind speed and sunshine are among the key meteorological factors that drive this phenomenon.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: A thirstwave is not a prolonged rainfall deficit (which describes a conventional drought). Instead, it involves periods of extreme atmospheric thirst that *rapidly* dry out the landscape due to high dryness and aggressive moisture demand.\nStatement 2 is correct: A thirstwave is specifically defined as occurring when daily evaporative demand exceeds its historical 90th percentile for at least 3 consecutive days.\nStatement 3 is correct: The factors driving a thirstwave are not limited to temperature and humidity; they also explicitly include wind speed and sunshine, which significantly increase the atmospheric evaporative demand.",
+      "takeaway": "A thirstwave is a rapid, extreme evaporative event driven by a combination of temperature, humidity, wind speed, and sunshine. It is defined by evaporative demand exceeding the 90th percentile for 3 or more consecutive days.",
+      "evidenceExcerpt": "A thirstwave involves periods of extreme atmospheric thirst that rapidly dry out the landscape, defined by high dryness and aggressive moisture demand. It occurs when daily evaporative demand exceeds its historical 90th percentile for at least 3 consecutive days. Factors driving this include temperature, wind speed, humidity, and sunshine.",
+      "qualityScore": 90,
+      "reviewNotes": "Merged the best elements of the candidate questions into a single, comprehensive statement-based question. The revised question tests the conceptual difference from a drought, the specific quantitative criteria, and the meteorological drivers, perfectly capturing the short source text without redundancy."
+    }
+  ],
+  "reviewerNotes": "The source text is very brief (only three sentences). Generating multiple questions would lead to heavy overlap and repetition of the same facts. Therefore, I have synthesized the core concepts (definition, criteria, and driving factors) into a single, high-quality UPSC-style statement question. Statement 1 acts as a strong conceptual distractor by contrasting a thirstwave with a standard drought."
+}

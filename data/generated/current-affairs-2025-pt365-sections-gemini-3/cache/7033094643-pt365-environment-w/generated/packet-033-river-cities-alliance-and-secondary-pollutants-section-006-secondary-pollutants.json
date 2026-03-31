@@ -1,0 +1,124 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Classification",
+      "prompt": "Consider the following atmospheric pollutants:",
+      "contextLines": [
+        "1. Ozone (O3)",
+        "2. Sulfuric acid (H2SO4)",
+        "3. Nitric acid (HNO3)"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "All three listed substances are secondary pollutants. They are not emitted directly into the air but are created when primary pollutants react in the atmosphere.",
+      "takeaway": "Ozone (O3), sulfuric acid (H2SO4), and nitric acid (HNO3) are key examples of secondary pollutants formed via atmospheric interactions.",
+      "evidenceExcerpt": "Examples: Ozone (O3), sulfuric acid (H2SO4), nitric acid (HNO3)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to secondary atmospheric pollutants, consider the following statements:\n1. They are formed in the atmosphere through chemical interactions involving primary pollutants and sunlight.\n2. They account for nearly one-third of India's PM2.5 pollution.\n3. Sulfuric acid and nitric acid are common examples of secondary pollutants.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Secondary pollutants are formed in the atmosphere due to chemical or physical interactions between primary pollutants themselves or with other components like sunlight. Statement 2 is correct: According to a CREA study, they account for nearly one-third of India's PM2.5 pollution. Statement 3 is correct: Ozone (O3), sulfuric acid (H2SO4), and nitric acid (HNO3) are examples of secondary pollutants.",
+      "takeaway": "Secondary pollutants are not directly emitted but form in the atmosphere, significantly contributing to PM2.5 levels in India.",
+      "evidenceExcerpt": "Formed in atmosphere due to chemical/physical interactions between primary pollutants themselves or between primary pollutants and other atmospheric components. Examples: Ozone (O3), sulfuric acid (H2SO4), nitric acid (HNO3). Account for nearly one-third of India's PM2.5 pollution according to a CREA study."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Conceptual Comparison",
+      "prompt": "Which of the following best describes the fundamental difference between primary and secondary atmospheric pollutants?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Primary pollutants are primarily particulate matter, whereas secondary pollutants are exclusively gaseous in nature."
+        },
+        {
+          "id": "B",
+          "text": "Primary pollutants are emitted directly from a source, whereas secondary pollutants are formed in the atmosphere through physical or chemical interactions."
+        },
+        {
+          "id": "C",
+          "text": "Primary pollutants require sunlight for their formation, whereas secondary pollutants are formed independent of atmospheric conditions."
+        },
+        {
+          "id": "D",
+          "text": "Primary pollutants contribute to PM10, whereas secondary pollutants are the sole contributors to PM2.5 pollution."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Secondary pollutants are formed in the atmosphere due to chemical or physical interactions between primary pollutants themselves or between primary pollutants and other atmospheric components, rather than being directly emitted from a source.",
+      "takeaway": "The defining characteristic of a secondary pollutant is its formation in the atmosphere from precursor emissions, rather than direct emission from a point source.",
+      "evidenceExcerpt": "Formed in atmosphere due to chemical/physical interactions between primary pollutants themselves or between primary pollutants and other atmospheric components."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Assertion-Reason",
+      "prompt": "Consider the following assertion and reason regarding atmospheric pollution:\n\nAssertion (A): Ground-level ozone (O3) and sulfuric acid (H2SO4) are not directly emitted into the air from exhaust pipes or smokestacks.\nReason (R): They are secondary pollutants formed due to chemical and physical interactions between primary pollutants and other atmospheric components.\n\nWhich one of the following is correct in respect of the above statements?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both A and R are correct and R is the correct explanation for A."
+        },
+        {
+          "id": "B",
+          "text": "Both A and R are correct but R is not the correct explanation for A."
+        },
+        {
+          "id": "C",
+          "text": "A is correct but R is incorrect."
+        },
+        {
+          "id": "D",
+          "text": "A is incorrect but R is correct."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Ground-level ozone and sulfuric acid are examples of secondary pollutants. By definition, secondary pollutants are not emitted directly from sources (like exhaust pipes) but are formed in the atmosphere through interactions involving primary pollutants and components like sunlight. Therefore, both statements are correct and R correctly explains A.",
+      "takeaway": "Understanding the formation mechanism of secondary pollutants explains why certain major pollutants like ozone are not directly regulated at the tailpipe but through their precursors.",
+      "evidenceExcerpt": "Formed in atmosphere due to chemical/physical interactions between primary pollutants themselves or between primary pollutants and other atmospheric components. Examples: Ozone (O3), sulfuric acid (H2SO4), nitric acid (HNO3)."
+    }
+  ]
+}

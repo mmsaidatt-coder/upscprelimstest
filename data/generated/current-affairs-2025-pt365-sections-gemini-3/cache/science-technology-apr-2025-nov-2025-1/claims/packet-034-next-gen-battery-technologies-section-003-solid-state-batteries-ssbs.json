@@ -1,0 +1,62 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-034-next-gen-battery-technologies-section-003-solid-state-batteries-ssbs",
+    "claimType": "Factual",
+    "claimText": "Solid-State Batteries use solid electrolyte solutions, eliminating the need for a separate separator.",
+    "evidenceExcerpt": "Solid-State Batteries use solid electrolyte solutions, eliminating the need for a different separator.",
+    "pageNumbers": [
+      68
+    ],
+    "examUse": "Statement-based question comparing SSB components to conventional batteries.",
+    "distractorHooks": [
+      "SSBs require a thicker separator",
+      "SSBs use liquid electrolytes"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-034-next-gen-battery-technologies-section-003-solid-state-batteries-ssbs",
+    "claimType": "Comparison",
+    "claimText": "Solid-State Batteries offer improved safety because their solid electrolytes are less prone to leakage or combustion compared to liquid electrolytes.",
+    "evidenceExcerpt": "They offer improved safety as solid electrolytes are less prone to leakage or combustion.",
+    "pageNumbers": [
+      68
+    ],
+    "examUse": "Assertion-Reason question on battery safety.",
+    "distractorHooks": [
+      "Solid electrolytes are highly combustible",
+      "SSBs are more prone to leakage than liquid batteries"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-034-next-gen-battery-technologies-section-003-solid-state-batteries-ssbs",
+    "claimType": "Factual",
+    "claimText": "Solid-State Batteries have the potential to store more energy in the same volume or weight, indicating a higher energy density.",
+    "evidenceExcerpt": "SSBs also have the potential to store more energy in the same volume or weight",
+    "pageNumbers": [
+      68
+    ],
+    "examUse": "Statement-based question on the advantages of SSBs.",
+    "distractorHooks": [
+      "SSBs have lower energy density",
+      "SSBs require more volume to store the same amount of energy"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-034-next-gen-battery-technologies-section-003-solid-state-batteries-ssbs",
+    "claimType": "Comparison",
+    "claimText": "Solid-State Batteries are capable of recharging 4 to 6 times faster than conventional liquid electrolyte batteries.",
+    "evidenceExcerpt": "can recharge 4 to 6 times faster than liquid electrolyte batteries.",
+    "pageNumbers": [
+      68
+    ],
+    "examUse": "Statement-based question on charging speeds of next-gen batteries.",
+    "distractorHooks": [
+      "SSBs charge slower than liquid electrolyte batteries",
+      "SSBs have the same charging speed as conventional batteries"
+    ]
+  }
+]

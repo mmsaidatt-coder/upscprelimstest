@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "statement-based",
+      "prompt": "Consider the following statements regarding Senna spectabilis, sometimes mentioned in the news:\n1. It is an invasive plant species native to the American tropics.\n2. It enriches soil chemistry, thereby promoting the rapid growth of native understory plants.\n3. India's first science-based, community-driven eradication of this species was carried out in Kerala.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Senna spectabilis is an invasive species native to the American tropics. Statement 2 is incorrect: It forms dense, sterile thickets that alter soil chemistry and choke out native plants, depriving herbivores of food, rather than promoting native growth. Statement 3 is correct: Kerala carried out India's first science-based, community-driven eradication of Senna spectabilis in Wayanad.",
+      "takeaway": "Senna spectabilis is a highly invasive tree that threatens native ecosystems in regions like the Western Ghats by altering soil chemistry and suppressing native flora.",
+      "evidenceExcerpt": "Kerala carried out India’s first science-based, community-driven eradication of Senna Spectabilis in Wayanad. Invasive species, Native to American tropicals. Forms dense, sterile thickets, choking out native plants, altering soil chemistry and depriving herbivores of food...",
+      "qualityScore": 88,
+      "reviewNotes": "Rewrote the statements to include the eradication effort and the ecological impact. The incorrect statement is a classic UPSC trap (reversing the ecological impact from negative to positive)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Species Identification",
+      "prompt": "Consider the following characteristics:\n1. It is an invasive species native to the American tropics.\n2. It forms dense, sterile thickets that alter soil chemistry and deprive herbivores of food.\n3. Its visual appearance closely resembles Kanikkonna, the state flower of Kerala.\n\nWhich one of the following plant species is best described by the characteristics given above?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Prosopis juliflora"
+        },
+        {
+          "id": "B",
+          "text": "Lantana camara"
+        },
+        {
+          "id": "C",
+          "text": "Senna spectabilis"
+        },
+        {
+          "id": "D",
+          "text": "Chromolaena odorata"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The characteristics provided—being native to the American tropics, forming sterile thickets that alter soil chemistry, and resembling the Kanikkonna flower—specifically describe Senna spectabilis. Kerala recently carried out India's first science-based, community-driven eradication of this species in Wayanad.",
+      "takeaway": "Identifying invasive species often involves recognizing their origin, ecological impact (like thicket formation and soil alteration), and visual similarities to native flora.",
+      "evidenceExcerpt": "Invasive species, Native to American tropicals. Forms dense, sterile thickets, choking out native plants, altering soil chemistry and depriving herbivores of food... Resembles Kerala’s state flower kanikkonna.",
+      "qualityScore": 85,
+      "reviewNotes": "Excellent species identification question. Replaced the weak distractor 'Water hyacinth' with 'Chromolaena odorata' to ensure all options are well-known terrestrial invasive species in India, making the question more challenging and realistic."
+    }
+  ],
+  "reviewerNotes": "Selected two strong questions: a statement-based question testing ecological impact and conservation efforts, and a species identification question. Both formats are highly representative of recent UPSC Prelims trends. Distractors were upgraded to be parallel and plausible."
+}

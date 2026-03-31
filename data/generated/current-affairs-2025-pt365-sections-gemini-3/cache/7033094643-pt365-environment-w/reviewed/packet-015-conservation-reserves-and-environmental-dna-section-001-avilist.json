@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'AviList', recently seen in the news:\n1. It is the first-ever unified global checklist of bird species aimed at aiding conservation efforts.\n2. It is an exclusive initiative of the United Nations Environment Programme (UNEP).\n3. It replaces the International Ornithological Committee (IOC) and Clements lists.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: AviList is the first-ever unified global checklist of bird species designed to aid effective bird conservation.\nStatement 2 is incorrect: It is a collaborative global effort involving representatives from BirdLife International and the Cornell Lab of Ornithology, not an exclusive UNEP initiative.\nStatement 3 is correct: It replaces the International Ornithological Committee (IOC) and Clements lists and will be updated annually.",
+      "takeaway": "AviList is a unified global checklist of bird species created collaboratively by entities like BirdLife International and the Cornell Lab of Ornithology, replacing older lists like IOC and Clements.",
+      "evidenceExcerpt": "AviList: The first-ever unified global checklist of bird species to aid effective bird conservation. Collaborative global effort that included representatives from BirdLife International, the Cornell Lab of Ornithology... It will replace the International Ornithological Committee (IOC) and Clements lists and will be updated annually.",
+      "qualityScore": 85,
+      "reviewNotes": "The question effectively tests the core facts about AviList using the recent UPSC 'How many statements' format. The UNEP distractor is highly plausible for environmental initiatives."
+    }
+  ],
+  "reviewerNotes": "Selected Candidate 1 and refined the wording to ensure it matches the UPSC standard. The distractor involving UNEP is a classic UPSC trap for environmental bodies."
+}

@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "Which of the following best describes the 'Evershed Effect', sometimes mentioned in the news in the context of solar physics?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The rapid heating of the solar corona to temperatures significantly higher than the visible surface"
+        },
+        {
+          "id": "B",
+          "text": "A nearly horizontal outflow of gases observed in the penumbrae of sunspots"
+        },
+        {
+          "id": "C",
+          "text": "The periodic variation in the number of sunspots over an 11-year solar cycle"
+        },
+        {
+          "id": "D",
+          "text": "The ejection of large clouds of plasma and magnetic field from the Sun's outermost layer"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Evershed Effect, discovered at the Kodaikanal Solar Observatory, is defined as a nearly horizontal outflow of gases observed in the penumbrae of sunspots in the photospheric layer (the visible surface of the Sun). Option A refers to the coronal heating problem. Option C refers to the solar cycle. Option D refers to Coronal Mass Ejections (CMEs).",
+      "takeaway": "The Evershed Effect is a specific gas dynamic phenomenon characterized by a horizontal outflow of gases associated with the penumbrae of sunspots in the Sun's photosphere.",
+      "evidenceExcerpt": "It is known for the discovery of the Evershed Effect, which is a nearly horizontal outflow of gases observed in the penumbrae of sunspots in the photospheric layer.",
+      "qualityScore": 85,
+      "reviewNotes": "Excellent conceptual question. The 'Which of the following best describes...' format is highly prevalent in UPSC Prelims. The distractors are plausible as they all describe real, well-known solar phenomena."
+    }
+  ],
+  "reviewerNotes": "Selected two distinct questions: one testing factual knowledge about the Kodaikanal Solar Observatory (geography and administration) and another testing the conceptual definition of the Evershed Effect. Both have been refined to match the tone, structure, and distractor quality of actual UPSC Prelims."
+}

@@ -1,0 +1,149 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Comparison-driven",
+      "prompt": "Which of the following statements best describes the fundamental difference between the Money Market and the Capital Market in India?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The Money Market caters to long-term financial needs, whereas the Capital Market is restricted to short-term borrowing."
+        },
+        {
+          "id": "B",
+          "text": "The Money Market is regulated by SEBI, whereas the Capital Market operates under the regulatory purview of the RBI."
+        },
+        {
+          "id": "C",
+          "text": "The Money Market deals with short-term instruments like Treasury Bills, whereas the Capital Market deals with long-term instruments like shares and bonds."
+        },
+        {
+          "id": "D",
+          "text": "The Money Market involves high-risk wealth creation, whereas the Capital Market provides risk-free short-term liquidity."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Option C is correct: The Money Market caters to short-term needs (less than 1 year) using instruments like Treasury Bills, while the Capital Market is for long-term wealth creation (greater than 1 year) using shares and bonds. Options A, B, and D invert the characteristics or regulators of the two markets.",
+      "takeaway": "The Money Market is for short-term, low-risk needs and is regulated by RBI. The Capital Market is for long-term, high-risk wealth creation and is regulated by SEBI.",
+      "evidenceExcerpt": "The Money Market caters to short-term needs (less than 1 year), is regulated by RBI, and includes instruments like Treasury Bills... The Capital Market is for long-term wealth creation (greater than 1 year), is regulated by SEBI, and includes Primary (IPO) and Secondary (Stock Market) markets dealing in shares and bonds."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice",
+      "prompt": "Consider the following financial instruments: 1. Commercial Paper 2. Treasury Bills 3. Initial Public Offerings (IPOs) 4. Certificate of Deposits. How many of the above instruments are primarily regulated by the Reserve Bank of India (RBI)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Commercial Paper, Treasury Bills, and Certificate of Deposits are short-term Money Market instruments. The Money Market is regulated by the RBI. Initial Public Offerings (IPOs) are part of the Capital Market, which is regulated by the Securities and Exchange Board of India (SEBI). Therefore, exactly three instruments are regulated by the RBI.",
+      "takeaway": "The RBI regulates the Money Market and its instruments (duration less than 1 year), while SEBI regulates the Capital Market (duration greater than 1 year), which includes IPOs.",
+      "evidenceExcerpt": "The Money Market caters to short-term needs (less than 1 year), is regulated by RBI, and includes instruments like Treasury Bills, Call Money, Commercial Paper, and Certificate of Deposits. The Capital Market... is regulated by SEBI, and includes Primary (IPO)..."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Indian Financial Market, consider the following statements: 1. A corporate entity seeking to raise funds for a duration of nine months will utilize instruments regulated by the Securities and Exchange Board of India (SEBI). 2. Instruments traded in the Capital Market generally carry a higher risk profile compared to those in the Money Market. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect because funds raised for a duration of less than one year (nine months) fall under the Money Market, which is regulated by the RBI, not SEBI. Statement 2 is correct as the Capital Market caters to long-term wealth creation and inherently involves high risk compared to the short-term Money Market.",
+      "takeaway": "Duration and risk are key differentiators: the Money Market is short-term (less than 1 year) and regulated by RBI, whereas the Capital Market is long-term (greater than 1 year), involves higher risk, and is regulated by SEBI.",
+      "evidenceExcerpt": "The Money Market caters to short-term needs (less than 1 year), is regulated by RBI... Capital Market duration is greater than 1 year, involves high risk, and is regulated by SEBI."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Application-based",
+      "prompt": "In the context of the Indian Capital Market, which of the following transactions strictly represents an activity in the Primary Market?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A retail investor purchasing shares of a listed company from another investor through a stockbroker."
+        },
+        {
+          "id": "B",
+          "text": "A corporation issuing new bonds directly to the public to fund its infrastructure expansion."
+        },
+        {
+          "id": "C",
+          "text": "A commercial bank borrowing overnight funds to meet its statutory cash reserve requirements."
+        },
+        {
+          "id": "D",
+          "text": "A mutual fund selling its existing holdings in government securities to a foreign institutional investor."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Primary Market deals exclusively with the issuance of new securities (like IPOs or new bonds) directly to investors, making option B correct. Options A and D represent the trading of existing securities, which occurs in the Secondary Market (Stock Market). Option C represents Call Money, which is a short-term Money Market transaction, not a Capital Market transaction.",
+      "takeaway": "The Capital Market is divided into the Primary Market (for new issues) and the Secondary Market (for trading existing shares and bonds).",
+      "evidenceExcerpt": "Capital Market includes the Primary Market for new issues (IPO) and the Secondary Market for trading shares and bonds."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of financial market components and their characteristics: 1. Call Money : Long-term wealth creation 2. Treasury Bills : Regulated by the Reserve Bank of India 3. Secondary Market : Issuance of new Initial Public Offerings (IPOs). How many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Pair 1 is incorrectly matched: Call Money is a Money Market instrument catering to short-term needs, not long-term wealth creation. Pair 2 is correctly matched: Treasury Bills are Money Market instruments regulated by the RBI. Pair 3 is incorrectly matched: IPOs are issued in the Primary Market, while the Secondary Market is strictly for trading existing shares and bonds.",
+      "takeaway": "Money market instruments like Call Money and T-Bills are short-term and RBI-regulated. The Capital Market is split into Primary (new issues/IPOs) and Secondary (trading existing securities).",
+      "evidenceExcerpt": "The Money Market caters to short-term needs... regulated by RBI, and includes instruments like Treasury Bills, Call Money... Capital Market includes the Primary Market for new issues (IPO) and the Secondary Market for trading shares and bonds."
+    }
+  ]
+}

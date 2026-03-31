@@ -1,0 +1,77 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-011-isfr-2023-and-un-high-seas-treaty-section-001-isfr-data-and-forest-key-terms",
+    "claimType": "Factual",
+    "claimText": "Madhya Pradesh has the largest forest cover by area in India, followed by Arunachal Pradesh and Chhattisgarh.",
+    "evidenceExcerpt": "Top 3 states by forest area: Madhya Pradesh, Arunachal Pradesh, Chhattisgarh.",
+    "pageNumbers": [
+      25
+    ],
+    "examUse": "Statement-based questions on state rankings for forest cover by area.",
+    "distractorHooks": [
+      "Swapping area rankings with percentage rankings (e.g., claiming Mizoram or Lakshadweep has the highest forest area)",
+      "Changing the order of the top three states"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-011-isfr-2023-and-un-high-seas-treaty-section-001-isfr-data-and-forest-key-terms",
+    "claimType": "Factual",
+    "claimText": "Lakshadweep has the highest forest cover as a percentage of its geographical area, followed by Mizoram and the Andaman & Nicobar Islands.",
+    "evidenceExcerpt": "Top 3 states by forest percentage: Lakshadweep (91.33%), Mizoram, Andaman & Nicobar Islands.",
+    "pageNumbers": [
+      25
+    ],
+    "examUse": "Statement-based questions on state/UT rankings for forest cover by percentage.",
+    "distractorHooks": [
+      "Swapping percentage rankings with area rankings (e.g., claiming Madhya Pradesh has the highest forest percentage)",
+      "Omitting Union Territories to falsely claim a state like Mizoram is the absolute highest overall"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-011-isfr-2023-and-un-high-seas-treaty-section-001-isfr-data-and-forest-key-terms",
+    "claimType": "Factual",
+    "claimText": "India's total mangrove cover decreased to 4,992 sq km, with Gujarat experiencing a decrease while Andhra Pradesh and Maharashtra saw an increase.",
+    "evidenceExcerpt": "Total Mangrove cover decreased by 7.43 sq km to 4,992 sq km (Gujarat decreased; AP and Maharashtra increased).",
+    "pageNumbers": [
+      25
+    ],
+    "examUse": "Statement-based questions on recent trends in mangrove cover and state-specific changes.",
+    "distractorHooks": [
+      "Claiming an overall increase in India's total mangrove cover",
+      "Falsely stating that Gujarat's mangrove cover increased or Maharashtra's decreased"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-011-isfr-2023-and-un-high-seas-treaty-section-001-isfr-data-and-forest-key-terms",
+    "claimType": "Conceptual",
+    "claimText": "Forest Cover is defined as all lands with a tree canopy density of 10% or more and an area of 1 hectare or more, irrespective of land ownership.",
+    "evidenceExcerpt": "Forest Cover requires >= 1 hectare area and >= 10% tree canopy, irrespective of ownership.",
+    "pageNumbers": [
+      25
+    ],
+    "examUse": "Definition-based questions distinguishing Forest Cover from Tree Cover or Recorded Forest Area.",
+    "distractorHooks": [
+      "Altering the thresholds (e.g., >= 5% canopy density or >= 2 hectares)",
+      "Stating that Forest Cover only applies to government-owned or legally recorded forest lands"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-011-isfr-2023-and-un-high-seas-treaty-section-001-isfr-data-and-forest-key-terms",
+    "claimType": "Conceptual",
+    "claimText": "Tree cover consists of tree patches smaller than 1 hectare that are located outside of recorded forest areas.",
+    "evidenceExcerpt": "Tree cover comprises patches < 1 hectare outside recorded forest areas.",
+    "pageNumbers": [
+      25
+    ],
+    "examUse": "Definition-based questions distinguishing Tree Cover from Forest Cover.",
+    "distractorHooks": [
+      "Stating that tree cover includes patches of 1 hectare or more",
+      "Claiming tree cover includes patches located inside recorded forest areas"
+    ]
+  }
+]

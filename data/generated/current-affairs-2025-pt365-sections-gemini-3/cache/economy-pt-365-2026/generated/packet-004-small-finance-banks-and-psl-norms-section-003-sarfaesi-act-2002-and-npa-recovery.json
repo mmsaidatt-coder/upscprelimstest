@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the recovery of Non-Performing Assets (NPAs) under the SARFAESI Act, 2002:\n1. A loan is classified as an NPA when the principal or interest remains overdue for more than 180 days.\n2. The Act mandates financial institutions to issue a 60-day demand notice to borrowers before initiating asset recovery actions.\n3. Asset Reconstruction Companies (ARCs) that facilitate the recovery process are registered and regulated by the Reserve Bank of India (RBI).\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: A loan becomes an NPA when the principal or interest remains overdue for more than 90 days, not 180 days.\nStatement 2 is correct: The SARFAESI Act mandates a 60-day demand notice to borrowers before initiating asset recovery actions.\nStatement 3 is correct: Asset Reconstruction Companies (ARCs) are registered and regulated by the RBI to buy NPAs and clean up bank balance sheets.",
+      "takeaway": "Under the SARFAESI Act, NPAs (overdue >90 days) can be recovered by banks after a mandatory 60-day notice. RBI-regulated ARCs play a key role in this asset reconstruction process.",
+      "evidenceExcerpt": "A loan becomes an NPA when principal or interest remains overdue for more than 90 days. The Act mandates a 60-day demand notice to borrowers before initiating asset recovery actions. Asset Reconstruction Companies (ARCs) are registered and regulated by the RBI to buy NPAs and clean up bank balance sheets."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the borrower's right to redeem a secured asset under the SARFAESI Act, 2002, consider the following statements:\n1. The borrower's right to redeem the secured asset is extinguished immediately upon the loan being classified as a Non-Performing Asset (NPA).\n2. A legal anomaly exists wherein the Act stipulates that the redemption right is lost upon publication of the auction notice, while the associated Rules permit redemption up until the auction date.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The right to redeem a secured asset is not lost immediately upon NPA classification; borrowers retain redemption rights during the notice period and up to the auction stages.\nStatement 2 is correct: The Supreme Court highlighted a contradiction in the SARFAESI Act, 2002, where Section 13(8) states borrowers lose the right to redeem a secured asset once an auction notice is published, whereas Rules 8 & 9 allow redemption up until the auction date.",
+      "takeaway": "The SARFAESI Act contains a legal contradiction regarding the exact timeline for the extinguishment of a borrower's right to redeem a secured asset, creating friction between the Act's sections and its procedural rules.",
+      "evidenceExcerpt": "The Supreme Court highlighted a contradiction in the SARFAESI Act, 2002: Section 13(8) states borrowers lose the right to redeem a secured asset once an auction notice is published, whereas Rules 8 & 9 allow redemption up until the auction date."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Applied Scenario",
+      "prompt": "A commercial bank intends to invoke the SARFAESI Act, 2002 to recover dues from a defaulting corporate borrower by auctioning the pledged real estate. Which of the following represents the correct chronological prerequisite for initiating this asset recovery?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The loan must be overdue for more than 60 days, after which the bank must issue a 90-day demand notice to the borrower."
+        },
+        {
+          "id": "B",
+          "text": "The loan must be classified as a Non-Performing Asset (NPA) after being overdue for more than 90 days, followed by a mandatory 60-day demand notice."
+        },
+        {
+          "id": "C",
+          "text": "The bank must first transfer the asset to an Asset Reconstruction Company (ARC), which then issues a 60-day demand notice."
+        },
+        {
+          "id": "D",
+          "text": "The bank can immediately publish an auction notice once the loan is overdue for 90 days, thereby extinguishing the borrower's redemption rights."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Under the SARFAESI Act, a loan must first be classified as a Non-Performing Asset (NPA), which occurs when the principal or interest remains overdue for more than 90 days. Following this classification, the Act mandates that financial institutions issue a 60-day demand notice to the borrower before any physical asset recovery or auction actions can be initiated.",
+      "takeaway": "Asset recovery under SARFAESI requires a strict chronological sequence: the loan must first cross the 90-day overdue mark to become an NPA, followed by a mandatory 60-day demand notice to the borrower.",
+      "evidenceExcerpt": "The Act aims to recover NPAs (loans overdue for >90 days) for financial institutions. Key features include a mandatory 60-day demand notice to borrowers and recovery methods like securitisation..."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Institutional Function",
+      "prompt": "Under the framework of the SARFAESI Act, 2002, what is the primary functional objective of Asset Reconstruction Companies (ARCs)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "To act as an appellate tribunal for borrowers challenging the auction of their secured assets."
+        },
+        {
+          "id": "B",
+          "text": "To purchase Non-Performing Assets (NPAs) from financial institutions to clean up their balance sheets."
+        },
+        {
+          "id": "C",
+          "text": "To provide sovereign guarantees to commercial banks against potential defaults by corporate borrowers."
+        },
+        {
+          "id": "D",
+          "text": "To formulate and enforce monetary policy guidelines for the classification of loans as Non-Performing Assets."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Asset Reconstruction Companies (ARCs) are specialized financial institutions registered and regulated by the RBI. Their primary role under the SARFAESI framework is to buy Non-Performing Assets (NPAs) from banks and other financial institutions, thereby helping to clean up the lenders' balance sheets and allowing them to focus on normal banking activities.",
+      "takeaway": "ARCs facilitate asset reconstruction by purchasing bad loans (NPAs) from banks, relieving the banks of the burden of recovery and cleaning up their balance sheets.",
+      "evidenceExcerpt": "Key features include a mandatory 60-day demand notice to borrowers and recovery methods like securitisation and asset reconstruction via RBI-regulated Asset Reconstruction Companies (ARCs) to buy NPAs and clean up bank balance sheets."
+    }
+  ]
+}

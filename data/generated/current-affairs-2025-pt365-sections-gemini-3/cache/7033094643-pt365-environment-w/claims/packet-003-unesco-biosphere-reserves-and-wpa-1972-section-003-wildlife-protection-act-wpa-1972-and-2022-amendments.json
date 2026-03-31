@@ -1,0 +1,62 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-003-unesco-biosphere-reserves-and-wpa-1972-section-003-wildlife-protection-act-wpa-1972-and-2022-amendments",
+    "claimType": "Factual",
+    "claimText": "The Wildlife Protection Act (WPA) 2022 Amendment reduced the number of schedules to four, designating Schedule III for protected plants and Schedule IV for CITES species.",
+    "evidenceExcerpt": "WPA 2022 Amendment reduced schedules to 4: Sch I (highest protection), Sch II (lesser protection), Sch III (plants), Sch IV (CITES species).",
+    "pageNumbers": [
+      10
+    ],
+    "examUse": "Statement-based question on the features of the WPA 2022 Amendment.",
+    "distractorHooks": [
+      "Claiming the amendment retained 6 schedules",
+      "Swapping Schedule III (plants) with Schedule IV (CITES)"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-003-unesco-biosphere-reserves-and-wpa-1972-section-003-wildlife-protection-act-wpa-1972-and-2022-amendments",
+    "claimType": "Factual",
+    "claimText": "The National Board for Wildlife, established under the Wildlife Protection Act, is chaired by the Prime Minister.",
+    "evidenceExcerpt": "Establishes the National Board for Wildlife, chaired by the Prime Minister.",
+    "pageNumbers": [
+      10
+    ],
+    "examUse": "Institution-feature question identifying the chairperson of statutory environmental bodies.",
+    "distractorHooks": [
+      "Chaired by the Minister of Environment, Forest and Climate Change",
+      "Chaired by the Chief Wild Life Warden"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-003-unesco-biosphere-reserves-and-wpa-1972-section-003-wildlife-protection-act-wpa-1972-and-2022-amendments",
+    "claimType": "Factual",
+    "claimText": "The Chief Wild Life Warden is authorized to permit the hunting of Schedule I and II animals if they pose a threat to human life or are diseased beyond recovery.",
+    "evidenceExcerpt": "Chief Wild Life Warden can permit hunting of Schedule I and II animals under Sections 11 and 12 if they are dangerous to human life or diseased beyond recovery.",
+    "pageNumbers": [
+      10
+    ],
+    "examUse": "Statement-based question on exceptions to the prohibition of hunting protected species.",
+    "distractorHooks": [
+      "Only the Central Government can permit hunting of Schedule I animals",
+      "Schedule I animals can never be hunted under any circumstances"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-003-unesco-biosphere-reserves-and-wpa-1972-section-003-wildlife-protection-act-wpa-1972-and-2022-amendments",
+    "claimType": "Factual",
+    "claimText": "Prior permission from the Central Government is mandatory for the translocation of Schedule I animals.",
+    "evidenceExcerpt": "Translocation of Schedule I animals requires prior permission from the Central Government.",
+    "pageNumbers": [
+      10
+    ],
+    "examUse": "Statement-based question on the regulatory approvals required for wildlife management.",
+    "distractorHooks": [
+      "Translocation requires permission only from the State Government",
+      "Translocation requires permission from the National Board for Wildlife"
+    ]
+  }
+]

@@ -1,0 +1,64 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-059-hornbill-flamingo-and-dugong-section-001-malabar-grey-hornbill",
+    "claimType": "Habitat",
+    "claimText": "The Malabar Grey Hornbill is endemic to the Western Ghats of India.",
+    "evidenceExcerpt": "Endemic to Western Ghats of India.",
+    "pageNumbers": [
+      126
+    ],
+    "examUse": "Statement-based question on species distribution and endemism.",
+    "distractorHooks": [
+      "Endemic to Eastern Himalayas",
+      "Found throughout the Indian subcontinent",
+      "Endemic to Andaman and Nicobar Islands"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-059-hornbill-flamingo-and-dugong-section-001-malabar-grey-hornbill",
+    "claimType": "Physical Characteristic",
+    "claimText": "Unlike typical hornbill species, the Malabar Grey Hornbill lacks a casque.",
+    "evidenceExcerpt": "Lacks the casque typical of Hornbill",
+    "pageNumbers": [
+      126
+    ],
+    "examUse": "Species identification or feature-based question.",
+    "distractorHooks": [
+      "Possesses a prominent, brightly colored casque",
+      "Is the only hornbill with a double casque"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-059-hornbill-flamingo-and-dugong-section-001-malabar-grey-hornbill",
+    "claimType": "Conservation Status",
+    "claimText": "The Malabar Grey Hornbill is listed under Schedule I of the Wildlife Protection Act (WPA), 1972.",
+    "evidenceExcerpt": "Conservation Status: WPA, 1972: Schedule I.",
+    "pageNumbers": [
+      126
+    ],
+    "examUse": "Statement-based question on legal protection status of Indian bird species.",
+    "distractorHooks": [
+      "Schedule II of WPA",
+      "Schedule V of WPA"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-059-hornbill-flamingo-and-dugong-section-001-malabar-grey-hornbill",
+    "claimType": "Conservation Status",
+    "claimText": "The IUCN Red List status of the Malabar Grey Hornbill is Vulnerable (VU).",
+    "evidenceExcerpt": "IUCN Status: VU (Vulnerable).",
+    "pageNumbers": [
+      126
+    ],
+    "examUse": "Correct-pair question matching species to their IUCN status.",
+    "distractorHooks": [
+      "Endangered (EN)",
+      "Critically Endangered (CR)",
+      "Least Concern (LC)"
+    ]
+  }
+]

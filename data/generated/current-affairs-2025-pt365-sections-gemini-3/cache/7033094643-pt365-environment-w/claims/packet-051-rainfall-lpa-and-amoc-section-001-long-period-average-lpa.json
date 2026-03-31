@@ -1,0 +1,82 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-051-rainfall-lpa-and-amoc-section-001-long-period-average-lpa",
+    "claimType": "conceptual",
+    "claimText": "The Long-Period Average (LPA) for rainfall is calculated over a period of 30 to 50 years.",
+    "evidenceExcerpt": "LPA is calculated over a long period, usually 30-50 years",
+    "pageNumbers": [
+      105
+    ],
+    "examUse": "Statement-based question on the definition and time interval of the Long-Period Average.",
+    "distractorHooks": [
+      "10 to 20 years",
+      "50 to 100 years",
+      "100 years"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-051-rainfall-lpa-and-amoc-section-001-long-period-average-lpa",
+    "claimType": "factual",
+    "claimText": "The India Meteorological Department (IMD) currently uses rainfall data from the period 1971 to 2020 to calculate the Long-Period Average (LPA).",
+    "evidenceExcerpt": "with the IMD currently using rainfall data from 1971 to 2020.",
+    "pageNumbers": [
+      105
+    ],
+    "examUse": "Factual statement in a multi-statement question regarding IMD's current baseline for LPA.",
+    "distractorHooks": [
+      "1961 to 2010",
+      "1981 to 2010",
+      "1951 to 2000"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-051-rainfall-lpa-and-amoc-section-001-long-period-average-lpa",
+    "claimType": "factual",
+    "claimText": "According to the IMD, 'Normal' rainfall is categorized as 96% to 104% of the Long-Period Average (LPA).",
+    "evidenceExcerpt": "Normal rainfall is categorized as 96% to 104% of the LPA.",
+    "pageNumbers": [
+      105
+    ],
+    "examUse": "Correct-pair or statement-based question matching rainfall categories to their LPA percentage ranges.",
+    "distractorHooks": [
+      "90% to 110%",
+      "100% to 105%",
+      "95% to 105%"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-051-rainfall-lpa-and-amoc-section-001-long-period-average-lpa",
+    "claimType": "factual",
+    "claimText": "According to the IMD, 'Deficient' rainfall is defined as less than 90% of the Long-Period Average (LPA) and indicates drought-like conditions.",
+    "evidenceExcerpt": "Deficient rainfall, indicating drought-like conditions, is defined as less than 90% of the LPA.",
+    "pageNumbers": [
+      105
+    ],
+    "examUse": "Correct-pair or statement-based question matching rainfall categories to their LPA percentage ranges.",
+    "distractorHooks": [
+      "Less than 95%",
+      "Less than 80%",
+      "Less than 75%"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-051-rainfall-lpa-and-amoc-section-001-long-period-average-lpa",
+    "claimType": "factual",
+    "claimText": "According to the IMD, 'Above Normal' rainfall is categorized as 105% to 110% of the Long-Period Average (LPA).",
+    "evidenceExcerpt": "Above Normal rainfall is 105% to 110% of the LPA.",
+    "pageNumbers": [
+      105
+    ],
+    "examUse": "Correct-pair or statement-based question matching rainfall categories to their LPA percentage ranges.",
+    "distractorHooks": [
+      "More than 110%",
+      "100% to 110%",
+      "105% to 115%"
+    ]
+  }
+]

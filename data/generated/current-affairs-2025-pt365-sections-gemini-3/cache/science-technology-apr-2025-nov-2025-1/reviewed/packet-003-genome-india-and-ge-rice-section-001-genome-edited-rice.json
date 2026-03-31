@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Comparison",
+      "prompt": "In the context of agricultural biotechnology in India, how does the recently developed genome-edited rice variety 'DRR Dhan 100 Kamala' fundamentally differ from 'Bt Cotton'?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "DRR Dhan 100 Kamala is developed by modifying its endogenous genes without introducing foreign DNA, whereas Bt Cotton involves the insertion of transgenic DNA from a soil bacterium."
+        },
+        {
+          "id": "B",
+          "text": "DRR Dhan 100 Kamala relies on RNA interference for drought tolerance, whereas Bt Cotton utilizes CRISPR-Cas9 technology for pest resistance."
+        },
+        {
+          "id": "C",
+          "text": "DRR Dhan 100 Kamala is a product of somatic hybridization, whereas Bt Cotton is a genetically modified crop."
+        },
+        {
+          "id": "D",
+          "text": "DRR Dhan 100 Kamala incorporates genes from wild rice varieties through marker-assisted selection, whereas Bt Cotton incorporates genes from a different species."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "DRR Dhan 100 Kamala is a genome-edited (GE) rice variety developed using CRISPR-Cas technology. It targets the endogenous CKX2 gene and contains no foreign DNA, meaning it is not considered a transgenic Genetically Modified (GM) crop. In contrast, Bt Cotton is a transgenic GM crop that contains foreign genes inserted from the bacterium Bacillus thuringiensis.",
+      "takeaway": "The fundamental difference between Genome-Edited (GE) crops and Genetically Modified (GM) crops lies in the presence of foreign DNA. GE crops like DRR Dhan 100 Kamala modify existing genes, while GM crops like Bt Cotton introduce exogenous genes.",
+      "evidenceExcerpt": "Developed using CRISPR-Cas. DRR Dhan 100 Kamala targets the CKX2 gene... They contain no foreign DNA and are not considered GM Crops.",
+      "qualityScore": 90,
+      "reviewNotes": "A classic UPSC-style conceptual comparison question. Distractors were rewritten to include plausible biotechnological methods (RNA interference, somatic hybridization, marker-assisted selection) to ensure they are challenging and parallel."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the recently developed genome-edited (GE) rice varieties in India, consider the following statements:\n1. India is the first country in the world to develop genome-edited rice varieties.\n2. They are legally classified as Genetically Modified (GM) crops in India because their genome has been artificially altered.\n3. The DRR Dhan 100 Kamala variety was developed by targeting the CKX2 gene using CRISPR-Cas technology.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The Indian Council of Agricultural Research (ICAR) developed India's first genome-edited (GE) rice varieties (DRR Rice 100 Kamla and Pusa DST Rice), making India the first country in the world to do so.\nStatement 2 is incorrect: These varieties contain no foreign DNA and are therefore not considered GM Crops. In India, genome-edited crops lacking foreign DNA (SDN-1 and SDN-2 categories) are exempt from the stringent regulations applied to transgenic GM crops.\nStatement 3 is correct: DRR Dhan 100 Kamala was developed using CRISPR-Cas technology and specifically targets the CKX2 (Cytokinin Oxidase 2) gene.",
+      "takeaway": "Genome-edited crops that do not involve the insertion of foreign DNA are distinct from GM crops and are not classified as such under Indian regulatory frameworks.",
+      "evidenceExcerpt": "ICAR developed India's first genome-edited (GE) rice varieties: DRR Rice 100 (Kamla) and Pusa DST Rice, making India the first country to do so. Developed using CRISPR-Cas. DRR Dhan 100 Kamala targets the CKX2 gene... They contain no foreign DNA and are not considered GM Crops.",
+      "qualityScore": 85,
+      "reviewNotes": "Updated to the latest UPSC 'How many statements' format. Tests both the factual achievement of India and the crucial regulatory distinction between GE and GM crops."
+    }
+  ],
+  "reviewerNotes": "Selected two high-quality questions. Q1 covers the factual and regulatory aspects of India's new GE rice varieties, updated to the 'How many statements' format. Q2 tests the conceptual difference between Genome-Edited crops and Genetically Modified crops using DRR Dhan 100 Kamala and Bt Cotton as examples. Distractors were significantly improved to match UPSC standards."
+}

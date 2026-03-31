@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "statement-based",
+      "prompt": "Consider the following statements regarding the Central Asian Mammals Initiative (CAMI):\n\n1. It was launched under the framework of the Convention on the Conservation of Migratory Species of Wild Animals (CMS).\n2. It aims to protect shared migratory mammal species such as the Saiga antelope and Bukhara Deer.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: The Central Asian Mammals Initiative (CAMI) was launched in 2014 at the 11th Meeting of the Conference of the Parties (COP11) to the Convention on the Conservation of Migratory Species of Wild Animals (CMS).\n\nStatement 2 is correct: Central Asian countries have come together under CAMI to coordinate conservation efforts for 17 shared migratory mammal species, including the Saiga and Bukhara Deer.",
+      "takeaway": "CAMI is a CMS framework initiative launched in 2014 to protect 17 shared migratory mammal species in Central Asia, including the Saiga and Bukhara Deer.",
+      "evidenceExcerpt": "Central Asian countries have come together under CAMI to protect 17 shared species like Saiga, Bukhara Deer etc. CAMI was launched in 2014 at the 11th Meeting of the Conference of the Parties (COP11) to the Convention on the Conservation of Migratory Species of Wild Animals (CMS).",
+      "qualityScore": 85,
+      "reviewNotes": "Upgraded the single-fact question to a two-statement format to better match UPSC Prelims standards, testing both the parent convention and the flagship species protected under the initiative."
+    }
+  ],
+  "reviewerNotes": "Selected and rewrote the candidate question into a standard UPSC two-statement format to increase rigor and test multiple facets of the initiative."
+}

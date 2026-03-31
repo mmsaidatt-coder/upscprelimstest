@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "History",
+      "difficulty": "Moderate",
+      "questionType": "Comparison-driven",
+      "prompt": "Which of the following correctly distinguishes the Booker Prize from the International Booker Prize?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The Booker Prize is restricted to Commonwealth citizens, while the International Booker Prize is open to authors of any nationality."
+        },
+        {
+          "id": "B",
+          "text": "The Booker Prize is for novels originally written in English, whereas the International Booker Prize is for fiction translated into English."
+        },
+        {
+          "id": "C",
+          "text": "The Booker Prize prize money is £100,000, while the International Booker Prize is £50,000."
+        },
+        {
+          "id": "D",
+          "text": "The Booker Prize is awarded for short story collections, while the International Booker Prize is restricted to full-length novels."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The primary distinction is the language of origin: the Booker Prize is for the best novel originally written in English, while the International Booker Prize is for the best translated fiction. Both prizes offer £50,000. The Booker Prize is open to authors of any nationality (not just Commonwealth). The International Booker Prize can be awarded for short stories, whereas the Booker Prize is for novels.",
+      "takeaway": "The core difference between the two Booker prizes lies in whether the work was originally written in English or translated into it.",
+      "evidenceExcerpt": "Booker Prize: For Best Novel in English. Originally written in English. ... International Booker Prize: For Best Translated Fiction. ANY Language, Translated to English.",
+      "contextLines": []
+    },
+    {
+      "subject": "History",
+      "difficulty": "Easy",
+      "questionType": "Fact-based",
+      "prompt": "Regarding the 2022 International Booker Prize winner, which of the following statements is correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It was awarded to Arundhati Roy for her novel 'The God of Small Things'."
+        },
+        {
+          "id": "B",
+          "text": "The winning work, 'Tomb of Sand', was originally written in Bengali."
+        },
+        {
+          "id": "C",
+          "text": "Geetanjali Shree became the first Indian author to win the International Booker Prize for a Hindi novel."
+        },
+        {
+          "id": "D",
+          "text": "The translator of the winning work, Daisy Rockwell, is of Indian origin."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Geetanjali Shree won the 2022 International Booker Prize for 'Tomb of Sand' (Ret Samadhi), which was the first Hindi novel to win the award. Arundhati Roy won the standard Booker Prize in 1997. The translator, Daisy Rockwell, is from the United States. The original language was Hindi, not Bengali.",
+      "takeaway": "Geetanjali Shree's win was historic as the first Hindi novel to receive the International Booker Prize.",
+      "evidenceExcerpt": "2022 Winner Details: Author: Geetanjali Shree; Work: Tomb of Sand (रेत समाधि); Original Language: Hindi. ... 1st Hindi Novel to Win!",
+      "contextLines": []
+    },
+    {
+      "subject": "History",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Indian winners of the Booker prizes:\n\n1. Salman Rushdie and Aravind Adiga are winners of the Booker Prize for works originally written in English.\n2. Geetanjali Shree is the only Indian to have won the International Booker Prize since its inception.\n3. All Indian winners of the Booker Prize (formerly Man Booker) received prize money that was shared with their respective translators.",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Salman Rushdie (1981) and Aravind Adiga (2008) won the Booker Prize, which is for original English works. Statement 2 is correct: Based on the source, Geetanjali Shree is the Indian connection listed for the International Booker Prize (winning in 2022). Statement 3 is incorrect: The Booker Prize (formerly Man Booker) is for original English novels and the prize money goes to the author only; there is no translator involved.",
+      "takeaway": "Distinguish between the Booker Prize (Author only, original English) and the International Booker Prize (Author and Translator, translated work).",
+      "evidenceExcerpt": "Indian Winners (Booker Prize): Arundhati Roy... Aravind Adiga... Salman Rushdie... Prize: £50,000 - Author Only. ... Indian Connection (International Booker Prize): Geetanjali Shree... 1st Hindi Novel to Win!",
+      "contextLines": []
+    },
+    {
+      "subject": "History",
+      "difficulty": "Hard",
+      "questionType": "Comparison-driven",
+      "prompt": "Which of the following features uniquely distinguishes the International Booker Prize from the Booker Prize (formerly Man Booker Prize)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The requirement for the work to be published in the United Kingdom or Ireland."
+        },
+        {
+          "id": "B",
+          "text": "The eligibility of authors from any nationality regardless of their country of origin."
+        },
+        {
+          "id": "C",
+          "text": "The mandatory inclusion of a translator as a co-recipient of the prize money."
+        },
+        {
+          "id": "D",
+          "text": "The annual frequency of the award ceremony since its inception in 1969."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Both prizes require publication in the UK/Ireland and are open to authors of any nationality. However, the International Booker Prize specifically rewards translated fiction and mandates that the prize money be shared equally between the author and the translator. The Booker Prize (1969) was annual from the start, but the International Booker (2005) only became annual in 2016.",
+      "takeaway": "While both prizes share geographical publication requirements, the International Booker Prize is structurally designed to recognize the collaborative effort of translation.",
+      "evidenceExcerpt": "International Booker Prize: Author & Translator BOTH Win. Prize: £50,000 Split 50-50!. Booker Prize: Authors of ANY Nationality. Published in UK/Ireland. Prize: £50,000 - Author Only.",
+      "contextLines": []
+    }
+  ]
+}

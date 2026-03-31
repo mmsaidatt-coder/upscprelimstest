@@ -1,0 +1,51 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-012-upi-ecosystem-and-credit-ratings-section-003-sovereign-credit-rating-scr",
+    "claimType": "Factual",
+    "claimText": "S&P upgraded India's long-term Sovereign Credit Rating to 'BBB' with a Stable Outlook.",
+    "evidenceExcerpt": "S&P upgraded India's long-term Sovereign Credit Rating to 'BBB' with a Stable Outlook.",
+    "pageNumbers": [
+      24,
+      25
+    ],
+    "examUse": "Statement-based question on India's current sovereign credit rating status.",
+    "distractorHooks": [
+      "Upgraded to 'AAA'",
+      "Downgraded to speculative grade",
+      "Upgraded by Moody's instead of S&P"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-012-upi-ecosystem-and-credit-ratings-section-003-sovereign-credit-rating-scr",
+    "claimType": "Conceptual",
+    "claimText": "Investment grade ratings range from BBB- to AAA for S&P and Fitch, and Baa3 to Aaa for Moody's.",
+    "evidenceExcerpt": "Investment grade ratings range from BBB- to AAA for S&P and Fitch, and Baa3 to Aaa for Moody's.",
+    "pageNumbers": [
+      24,
+      25
+    ],
+    "examUse": "Correct-pair or statement-based question on the rating scales used by major credit rating agencies.",
+    "distractorHooks": [
+      "BBB- is considered a speculative grade rating",
+      "Moody's uses the BBB- to AAA scale"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-012-upi-ecosystem-and-credit-ratings-section-003-sovereign-credit-rating-scr",
+    "claimType": "Conceptual",
+    "claimText": "Favorable Sovereign Credit Ratings reduce a country's borrowing costs and facilitate its access to global capital markets and foreign investment.",
+    "evidenceExcerpt": "Favorable SCRs reduce borrowing costs and facilitate access to global capital markets and foreign investment.",
+    "pageNumbers": [
+      24,
+      25
+    ],
+    "examUse": "Statement-based question on the macroeconomic impacts and benefits of favorable sovereign credit ratings.",
+    "distractorHooks": [
+      "Favorable ratings increase borrowing costs",
+      "Favorable ratings restrict access to foreign investment"
+    ]
+  }
+]

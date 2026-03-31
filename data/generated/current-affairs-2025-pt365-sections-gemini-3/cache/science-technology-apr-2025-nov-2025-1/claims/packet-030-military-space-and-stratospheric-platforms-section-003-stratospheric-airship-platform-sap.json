@@ -1,0 +1,70 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-030-military-space-and-stratospheric-platforms-section-003-stratospheric-airship-platform-sap",
+    "claimType": "Factual",
+    "claimText": "The Stratospheric Airship Platform (SAP) was developed by the Aerial Delivery Research and Development Establishment (ADRDE) under DRDO.",
+    "evidenceExcerpt": "SAP was developed by the Aerial Delivery Research and Development Establishment (ADRDE), Agra under DRDO.",
+    "pageNumbers": [
+      59,
+      60
+    ],
+    "examUse": "Statement-based question identifying the developing agency of SAP.",
+    "distractorHooks": [
+      "ISRO",
+      "Hindustan Aeronautics Limited (HAL)",
+      "National Aerospace Laboratories (NAL)"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-030-military-space-and-stratospheric-platforms-section-003-stratospheric-airship-platform-sap",
+    "claimType": "Factual",
+    "claimText": "SAP operates in the stratosphere at an altitude of 17 to 22 kilometers above Earth.",
+    "evidenceExcerpt": "It operates in the stratosphere, typically between 17 to 22 kilometers above Earth.",
+    "pageNumbers": [
+      59,
+      60
+    ],
+    "examUse": "Statement-based question on the operational atmospheric layer and altitude of SAP.",
+    "distractorHooks": [
+      "Troposphere",
+      "Mesosphere",
+      "Low Earth Orbit (LEO)"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-030-military-space-and-stratospheric-platforms-section-003-stratospheric-airship-platform-sap",
+    "claimType": "Technical",
+    "claimText": "SAP functions as a High-Altitude Pseudo-Satellite (HAPS) that utilizes helium for buoyancy and solar energy for power.",
+    "evidenceExcerpt": "Functions as a High-Altitude Pseudo-Satellite (HAPS), using helium for buoyancy and solar energy with onboard batteries for power.",
+    "pageNumbers": [
+      59,
+      60
+    ],
+    "examUse": "Statement-based question on the propulsion, buoyancy, and power mechanisms of HAPS.",
+    "distractorHooks": [
+      "Hydrogen for buoyancy",
+      "Aviation turbine fuel",
+      "Nuclear micro-reactors"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-030-military-space-and-stratospheric-platforms-section-003-stratospheric-airship-platform-sap",
+    "claimType": "Conceptual",
+    "claimText": "High-Altitude Pseudo-Satellites (HAPS) bridge the operational gap between drones and satellites by providing space-like coverage with lower costs and faster deployment.",
+    "evidenceExcerpt": "HAPS bridges the gap between drones and satellites, offering space-like coverage with faster deployment and lower costs.",
+    "pageNumbers": [
+      59,
+      60
+    ],
+    "examUse": "Comparison question evaluating the advantages of HAPS over traditional satellites and drones.",
+    "distractorHooks": [
+      "Higher deployment costs than satellites",
+      "Slower deployment time than satellites",
+      "Limited to line-of-sight coverage like standard drones"
+    ]
+  }
+]

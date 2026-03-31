@@ -1,0 +1,69 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-062-red-sanders-and-himalayan-lily-section-002-banana-musa-indandamanensis",
+    "claimType": "Location/Discovery",
+    "claimText": "Musa indandamanensis is a species of wild banana discovered in the Andaman and Nicobar Islands.",
+    "evidenceExcerpt": "First recorded from a remote tropical forest near Krishna Nala reserve forest in the Andaman and Nicobar Islands in 2012.",
+    "pageNumbers": [
+      131,
+      132
+    ],
+    "examUse": "Statement-based question on endemic or recently discovered species locations.",
+    "distractorHooks": [
+      "Western Ghats",
+      "Northeast India",
+      "Himalayas"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-062-red-sanders-and-himalayan-lily-section-002-banana-musa-indandamanensis",
+    "claimType": "Botanical Feature",
+    "claimText": "Musa indandamanensis has the longest recorded infructescence among banana species, measuring about 4.2 metres.",
+    "evidenceExcerpt": "An infructescence of about 4.2 metres recorded in species of wild banana Musa indandamanensis, making it the longest infructescence recorded in bananas.",
+    "pageNumbers": [
+      131,
+      132
+    ],
+    "examUse": "Fact-based statement in a multi-statement question regarding unique plant species.",
+    "distractorHooks": [
+      "Shortest infructescence",
+      "Found in regular commercial bananas"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-062-red-sanders-and-himalayan-lily-section-002-banana-musa-indandamanensis",
+    "claimType": "Botanical Feature",
+    "claimText": "The Musa indandamanensis plant grows up to 11 metres high and features unique green flowers.",
+    "evidenceExcerpt": "Unique green flowers; fruit bunch lux (axis) thrice size of regular banana species. 11 metres high.",
+    "pageNumbers": [
+      131,
+      132
+    ],
+    "examUse": "Identification question based on unique botanical features.",
+    "distractorHooks": [
+      "Red flowers",
+      "Yellow flowers",
+      "Dwarf variety"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-062-red-sanders-and-himalayan-lily-section-002-banana-musa-indandamanensis",
+    "claimType": "Significance/Utility",
+    "claimText": "Musa indandamanensis serves as a natural genetic resource for developing high-yielding and disease-resistant banana varieties.",
+    "evidenceExcerpt": "Natural genetic resource for plant breeders to develop high yielding and disease resistant varieties.",
+    "pageNumbers": [
+      131,
+      132
+    ],
+    "examUse": "Application or significance statement in a question about wild crop relatives and genetic resources.",
+    "distractorHooks": [
+      "Has no genetic value",
+      "Highly susceptible to diseases",
+      "Used exclusively for timber"
+    ]
+  }
+]

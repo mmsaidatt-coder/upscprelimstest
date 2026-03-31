@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Polity",
+      "difficulty": "Hard",
+      "questionType": "Feature-matching",
+      "prompt": "Consider the following pairs of Judicial Pronouncements and their respective impacts on India's electoral process:\n\n1. Lily Thomas v. Union of India (2013): Struck down Section 8(4) of RPA, 1951 to ensure immediate disqualification of convicted legislators.\n2. People’s Union for Civil Liberties v. Union of India (2013): Introduced the 'None of the Above' (NOTA) option on EVMs.\n3. ADR v. Union of India (2024): Declared the Electoral Bonds Scheme unconstitutional.\n\nHow many of the pairs given above are correctly matched?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "All three pairs are correctly matched. Lily Thomas (2013) ended the protection for sitting legislators from immediate disqualification upon conviction. PUCL (2013) introduced NOTA as a facet of Article 19(1)(a). ADR (2024) struck down Electoral Bonds to restore transparency in political funding.",
+      "takeaway": "Key judicial interventions have historically shaped transparency, disqualification norms, and voter choice in Indian elections.",
+      "evidenceExcerpt": "People’s Union for Civil Liberties (PUCL) v. Union of India (2013): Introduced NOTA option on EVMs... Lily Thomas v. Union of India (2013): Struck down Section 8(4) of RPA, 1951... ADR v. Union of India (2024): Declared Electoral Bonds Scheme unconstitutional.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Hard",
+      "questionType": "Comparison-driven",
+      "prompt": "Which of the following judicial pronouncements specifically aimed at 'restoring transparency in political funding' by declaring a specific financial instrument unconstitutional?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ADR v. Union of India (2002)"
+        },
+        {
+          "id": "B",
+          "text": "Lily Thomas v. Union of India (2013)"
+        },
+        {
+          "id": "C",
+          "text": "ADR v. Union of India (2024)"
+        },
+        {
+          "id": "D",
+          "text": "PUCL v. Union of India (2013)"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The ADR v. Union of India (2024) judgment declared the Electoral Bonds Scheme unconstitutional. The primary objective stated in the source for this ruling was 'restoring transparency in political funding'. While the 2002 ADR case also dealt with transparency, it focused on the disclosure of candidate details (criminal, financial, educational) rather than the funding mechanism itself.",
+      "takeaway": "Multiple cases involving the same petitioner (ADR) can address different aspects of electoral reform; candidates must distinguish between them by year and specific outcome.",
+      "evidenceExcerpt": "ADR v. Union of India (2024): Declared Electoral Bonds Scheme unconstitutional, restoring transparency in political funding.",
+      "contextLines": []
+    }
+  ]
+}

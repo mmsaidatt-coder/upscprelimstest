@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "In the context of the Periodic Labour Force Survey (PLFS), which of the following best describes the 'Unemployment Rate' (UR)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The percentage of unemployed persons in the total population of the country."
+        },
+        {
+          "id": "B",
+          "text": "The percentage of persons seeking work relative to the total number of employed persons."
+        },
+        {
+          "id": "C",
+          "text": "The percentage of persons unemployed among the persons in the labour force."
+        },
+        {
+          "id": "D",
+          "text": "The ratio of the working-age population that is currently not engaged in any economic activity."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The Unemployment Rate (UR) is specifically defined as the percentage of persons unemployed among those who are part of the labour force (those working or seeking/available for work), not the total population.",
+      "takeaway": "The denominator for the Unemployment Rate is the 'Labour Force', whereas for LFPR and WPR, it is the 'Population'.",
+      "evidenceExcerpt": "Unemployment Rate (UR): UR is defined as percentage of persons unemployed among the persons in the labour force.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Comparison-driven",
+      "prompt": "In the context of the Periodic Labour Force Survey (PLFS), which of the following statements correctly distinguishes between the 'Labour Force Participation Rate' (LFPR) and the 'Unemployment Rate' (UR)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "LFPR is calculated as a percentage of the total population, while UR is calculated as a percentage of the working-age population only."
+        },
+        {
+          "id": "B",
+          "text": "LFPR includes only those currently working, while UR includes both those working and those seeking work."
+        },
+        {
+          "id": "C",
+          "text": "LFPR is defined as the percentage of persons in the labour force in the population, whereas UR is the percentage of persons unemployed among those in the labour force."
+        },
+        {
+          "id": "D",
+          "text": "LFPR uses the 'Usual Status' reference period, while UR is strictly calculated using the 'Current Weekly Status' reference period."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "LFPR is the percentage of persons in the labour force (working or seeking/available for work) in the total population. UR is the percentage of persons unemployed specifically among those who are already in the labour force. The denominator for LFPR is the population, while the denominator for UR is the labour force.",
+      "takeaway": "The Unemployment Rate is a subset of the Labour Force, not the total population, which is a critical distinction in employment statistics.",
+      "evidenceExcerpt": "Labor Force Participation Rate (LFPR): It is defined as percentage of persons in labor force (i.e. Working or seeking or available for work) in the population. ... Unemployment Rate (UR): UR is defined as percentage of persons unemployed among the persons in the labour force.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Conceptual",
+      "prompt": "Under the Periodic Labour Force Survey (PLFS) framework, how is the 'Usual Status (ps+ss)' of an individual determined?",
+      "options": [
+        {
+          "id": "A",
+          "text": "By considering only the activity on which a person spent the majority of the last 365 days."
+        },
+        {
+          "id": "B",
+          "text": "By combining the activity status on which a person spent a relatively long time with any secondary economic activity pursued for at least 30 days."
+        },
+        {
+          "id": "C",
+          "text": "By averaging the activity status of the person across four successive quarters in a financial year."
+        },
+        {
+          "id": "D",
+          "text": "By identifying the principal activity of the person during the seven days preceding the date of the survey."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Usual Status (ps+ss) is the combination of the 'Usual Principal Activity Status' (PS) and the 'Subsidiary Economic Activity Status' (SS). PS is determined by the activity on which a person spent a relatively long time during the 365 days preceding the survey. SS includes persons who performed some economic activity for at least 30 days during the reference period, even if they were not in the labour force under the principal status.",
+      "takeaway": "The 'Usual Status (ps+ss)' is a comprehensive measure that captures both primary employment and marginal/subsidiary work performed over a year.",
+      "evidenceExcerpt": "Usual Status: When the activity status is determined on the basis of the reference period of last 365 days preceding the date of survey... Usual principal activity and usual subsidiary economic activity of a person taken together, is considered as the usual activity status of the person and is written as usual status (ps+ss). Principal Activity Status (PS): The activity status on which a person spent relatively long time...",
+      "contextLines": []
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-005-project-cheetah-and-tiger-conservation-section-001-project-cheetah-and-associated-habitats",
+    "claimType": "Factual",
+    "claimText": "Project Cheetah is implemented by the National Tiger Conservation Authority (NTCA) with technical assistance from the Wildlife Institute of India (WII).",
+    "evidenceExcerpt": "Implemented by NTCA with WII's technical assistance",
+    "pageNumbers": [
+      13,
+      14
+    ],
+    "examUse": "Statement-based question on the implementing agency of Project Cheetah.",
+    "distractorHooks": [
+      "Implemented by IUCN",
+      "Implemented by MoEFCC directly without NTCA"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-005-project-cheetah-and-tiger-conservation-section-001-project-cheetah-and-associated-habitats",
+    "claimType": "Comparison",
+    "claimText": "The Asiatic Cheetah is classified as Critically Endangered by the IUCN, whereas the African Cheetah is classified as Vulnerable.",
+    "evidenceExcerpt": "Asiatic Cheetah: IUCN Critically Endangered... African Cheetah: IUCN Vulnerable",
+    "pageNumbers": [
+      13,
+      14
+    ],
+    "examUse": "Correct-pair or statement-based question comparing conservation statuses.",
+    "distractorHooks": [
+      "Both are Critically Endangered",
+      "African Cheetah is Endangered"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-005-project-cheetah-and-tiger-conservation-section-001-project-cheetah-and-associated-habitats",
+    "claimType": "Factual",
+    "claimText": "The Asiatic Cheetah is currently found only in Iran and has been extinct in India since 1952.",
+    "evidenceExcerpt": "found only in Iran; extinct in India since 1952.",
+    "pageNumbers": [
+      13,
+      14
+    ],
+    "examUse": "Statement-based question on the current natural habitat of the Asiatic Cheetah.",
+    "distractorHooks": [
+      "Found in Afghanistan and Pakistan",
+      "Extinct in India since 1990"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-005-project-cheetah-and-tiger-conservation-section-001-project-cheetah-and-associated-habitats",
+    "claimType": "Conceptual",
+    "claimText": "Cheetahs are the world's fastest mammals and, unlike other big cats, they do not roar.",
+    "evidenceExcerpt": "Cheetahs are the world's fastest mammals and do not roar unlike other big cats.",
+    "pageNumbers": [
+      13,
+      14
+    ],
+    "examUse": "Statement-based question on species characteristics.",
+    "distractorHooks": [
+      "Cheetahs can roar",
+      "Cheetahs are the second fastest mammals"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-005-project-cheetah-and-tiger-conservation-section-001-project-cheetah-and-associated-habitats",
+    "claimType": "Factual",
+    "claimText": "Gandhi Sagar Wildlife Sanctuary in Madhya Pradesh features the River Chambal, Khathiar-Gir dry deciduous forests, and Chaturbhuj Nala rock shelters.",
+    "evidenceExcerpt": "Gandhi Sagar WLS: Located in MP... features Khathiar-Gir dry deciduous forest, River Chambal, and Chaturbhuj Nala rock shelters.",
+    "pageNumbers": [
+      13,
+      14
+    ],
+    "examUse": "Location-feature matching or statement-based question on protected areas.",
+    "distractorHooks": [
+      "Located in Rajasthan",
+      "Features River Narmada",
+      "Features Bhimbetka rock shelters"
+    ]
+  }
+]

@@ -1,0 +1,207 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding India's Three-Stage Nuclear Programme:\n1. Stage 1 utilizes Pressurized Heavy Water Reactors (PHWRs) fuelled by natural uranium to produce plutonium.\n2. Stage 2 employs Fast Breeder Reactors where thorium is introduced to convert it into Uranium-233.\n3. In Stage 3, thorium directly undergoes nuclear fission to power the reactors.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Stage 1 uses natural uranium in PHWRs to produce electricity and plutonium. Statement 2 is correct: Stage 2 uses a mix of plutonium and natural uranium in Fast Breeders, and introduces thorium to convert it to U-233. Statement 3 is incorrect: Thorium does not directly undergo fission to power the reactor; rather, it transmutes to Uranium-233, which then powers the reactor.",
+      "takeaway": "India's three-stage nuclear programme sequentially utilizes natural uranium, plutonium, and thorium. Thorium must be transmuted into Uranium-233 before it can power a reactor.",
+      "evidenceExcerpt": "Stage 1: Heavy water reactors (PHWR) fuelled by natural Uranium produce plutonium. Stage 2: Fuelled by a mix of Plutonium and natural Uranium. With sufficient stocks, thorium is introduced to convert it into U-233. Stage 3: Mix of Thorium and Uranium fuels the Reactors. Thorium transmutes to U 233, which powers the reactor."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Mahi Banswara Rajasthan Atomic Power Project (MBRAPP), consider the following statements:\n1. It is being developed by a joint venture between the Nuclear Power Corporation of India Limited (NPCIL) and the National Thermal Power Corporation Limited (NTPC).\n2. The project involves the construction of Fast Breeder Reactors to support Stage 2 of India's nuclear programme.\n3. It is part of India's 'fleet mode' initiative, which aims to build multiple identical 700 MW reactors under a uniform design.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: MBRAPP is being developed by ASHVINI, a joint venture between NPCIL and NTPC. Statement 2 is incorrect: The project involves Pressurized Heavy Water Reactors (PHWRs), not Fast Breeder Reactors. Statement 3 is correct: It is part of the fleet mode initiative to build ten identical 700 MW reactors under a uniform design.",
+      "takeaway": "MBRAPP is a 4 x 700 MWe PHWR project developed under the 'fleet mode' initiative by ASHVINI, a joint venture between NPCIL and NTPC.",
+      "evidenceExcerpt": "Mahi Banswara Rajasthan Atomic Power Project (MBRAPP) Capacity: 4 x 700 MWe PHWR. Development: It will be developed by Anushakti Vidhyut Nigam (ASHVINI), a joint venture between Nuclear Power Corporation India Limited (NPCIL) and National Thermal Power Corporation Limited (NTPC). Fleet Mode: The project is part of India's fleet mode initiative to build ten identical 700 MW reactors under uniform design."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the fuel cycle in India's nuclear programme:\n1. The plutonium produced as a byproduct in Stage 1 is utilized as part of the fuel mix in Stage 2.\n2. Thorium is introduced in Stage 1 to produce Uranium-233 for subsequent stages.\n3. Stage 3 reactors are fuelled by a mix of thorium and uranium.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Stage 1 produces plutonium, which is used alongside natural uranium to fuel Stage 2. Statement 2 is incorrect: Thorium is introduced in Stage 2 (not Stage 1) to convert it into U-233. Statement 3 is correct: Stage 3 uses a mix of thorium and uranium, where thorium transmutes to U-233 to power the reactor.",
+      "takeaway": "The transition between the stages of India's nuclear programme relies on the byproducts of the previous stage: Stage 1 produces Plutonium for Stage 2, and Stage 2 converts Thorium into Uranium-233 for Stage 3.",
+      "evidenceExcerpt": "Stage 1: Heavy water reactors (PHWR) fuelled by natural Uranium produce plutonium. Stage 2: Fuelled by a mix of Plutonium and natural Uranium. With sufficient stocks, thorium is introduced to convert it into U-233. Stage 3: Mix of Thorium and Uranium fuels the Reactors."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Assertion-Reason",
+      "prompt": "Given below are two statements, one labelled as Assertion (A) and the other as Reason (R):\n\nAssertion (A): India's nuclear energy strategy relies on a sequential three-stage programme rather than directly using its abundant thorium reserves to generate power in the first stage.\nReason (R): Thorium must first be transmuted into Uranium-233 to power a reactor, a process that utilizes the plutonium generated during the first stage.\n\nIn the context of the above two statements, which one of the following is correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both Assertion (A) and Reason (R) are correct and Reason (R) is the correct explanation for Assertion (A)."
+        },
+        {
+          "id": "B",
+          "text": "Both Assertion (A) and Reason (R) are correct but Reason (R) is not the correct explanation for Assertion (A)."
+        },
+        {
+          "id": "C",
+          "text": "Assertion (A) is correct but Reason (R) is incorrect."
+        },
+        {
+          "id": "D",
+          "text": "Assertion (A) is incorrect but Reason (R) is correct."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Thorium is fertile, not fissile, meaning it cannot directly sustain a nuclear chain reaction. It must be converted (transmuted) into Uranium-233. This necessitates a sequential approach where Stage 1 produces plutonium, which is then used in Stage 2 to breed U-233 from thorium.",
+      "takeaway": "India's three-stage nuclear programme is necessitated by the fertile nature of thorium, requiring prior stages to generate fissile plutonium to facilitate its transmutation into Uranium-233.",
+      "evidenceExcerpt": "Stage 1: Heavy water reactors (PHWR) fuelled by natural Uranium produce plutonium. Stage 2: Fuelled by a mix of Plutonium and natural Uranium. With sufficient stocks, thorium is introduced to convert it into U-233."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "In the context of India's nuclear energy sector, what is the primary objective of the 'fleet mode' initiative, as implemented in the Mahi Banswara Rajasthan Atomic Power Project (MBRAPP)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "To transition existing thermal power plants into nuclear facilities through joint ventures."
+        },
+        {
+          "id": "B",
+          "text": "To construct multiple identical nuclear reactors under a uniform design to streamline development."
+        },
+        {
+          "id": "C",
+          "text": "To deploy small modular reactors (SMRs) exclusively for off-grid strategic military applications."
+        },
+        {
+          "id": "D",
+          "text": "To import and install foreign-designed Light Water Reactors in coastal regions."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The 'fleet mode' initiative involves building multiple identical reactors under a uniform design to reduce costs and construction time. MBRAPP is part of this initiative, aiming to build identical 700 MW PHWRs.",
+      "takeaway": "The 'fleet mode' in India's nuclear programme refers to the standardized, bulk construction of identical reactors (like the 700 MW PHWRs) to achieve economies of scale and faster deployment.",
+      "evidenceExcerpt": "MBRAPP is part of India's fleet mode initiative to build ten identical 700 MW reactors under uniform design."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Institution-Feature",
+      "prompt": "The Anushakti Vidhyut Nigam (ASHVINI), recently seen in the context of India's nuclear energy sector, is best described as:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A regulatory body established to oversee the safe disposal of nuclear waste from Fast Breeder Reactors."
+        },
+        {
+          "id": "B",
+          "text": "A joint venture between NPCIL and NTPC to develop nuclear power projects like the Mahi Banswara Rajasthan Atomic Power Project."
+        },
+        {
+          "id": "C",
+          "text": "An international consortium formed to supply enriched uranium for India's Stage 3 reactors."
+        },
+        {
+          "id": "D",
+          "text": "A specialized division of the Bhabha Atomic Research Centre dedicated to the transmutation of thorium."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "ASHVINI is a joint venture between the Nuclear Power Corporation of India Limited (NPCIL) and the National Thermal Power Corporation Limited (NTPC), responsible for developing projects like MBRAPP.",
+      "takeaway": "ASHVINI represents a collaborative institutional framework between NPCIL and NTPC to boost nuclear power capacity in India.",
+      "evidenceExcerpt": "It will be developed by Anushakti Vidhyut Nigam (ASHVINI), a joint venture between Nuclear Power Corporation India Limited (NPCIL) and National Thermal Power Corporation Limited (NTPC)."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Sequence",
+      "prompt": "In the context of India's three-stage nuclear programme, which of the following sequences correctly represents the progression of primary nuclear materials driving the reactor stages?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Natural Uranium followed by Plutonium followed by Uranium-233"
+        },
+        {
+          "id": "B",
+          "text": "Thorium followed by Uranium-233 followed by Plutonium"
+        },
+        {
+          "id": "C",
+          "text": "Enriched Uranium followed by Thorium followed by Plutonium"
+        },
+        {
+          "id": "D",
+          "text": "Plutonium followed by Natural Uranium followed by Thorium"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Stage 1 utilizes Natural Uranium and produces Plutonium. Stage 2 utilizes this Plutonium and introduces Thorium to produce Uranium-233. Stage 3 is then powered by the Uranium-233 (transmuted from Thorium).",
+      "takeaway": "The material flow in India's nuclear programme progresses from Natural Uranium (Stage 1) to Plutonium (Stage 2) to Uranium-233 (Stage 3).",
+      "evidenceExcerpt": "Stage 1: Heavy water reactors (PHWR) fuelled by natural Uranium produce plutonium. Stage 2: Fuelled by a mix of Plutonium and natural Uranium. With sufficient stocks, thorium is introduced to convert it into U-233. Stage 3: Mix of Thorium and Uranium fuels the Reactors. Thorium transmutes to U 233, which powers the reactor."
+    }
+  ]
+}

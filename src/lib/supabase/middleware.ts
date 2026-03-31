@@ -31,7 +31,7 @@ export async function updateSession(request: NextRequest) {
   } = await supabase.auth.getUser();
 
   // Routes under /app that guests can access (test-taking + single-test result).
-  const publicAppRoutes = ["/app/pyq/run", "/app/pyq/sectional", "/app/exams/", "/app/attempts/"];
+  const publicAppRoutes = ["/app/pyq/run", "/app/pyq/sectional", "/app/exams/", "/app/attempts/", "/test/"];
   const isPublicAppRoute = publicAppRoutes.some((prefix) =>
     request.nextUrl.pathname.startsWith(prefix),
   );

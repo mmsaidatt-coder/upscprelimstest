@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Taj Trapezium Zone (TTZ):\n\n1. It encompasses three World Heritage Sites, namely the Taj Mahal, Agra Fort, and Fatehpur Sikri.\n2. The authority responsible for pollution control in this zone was constituted under the Air (Prevention and Control of Pollution) Act, 1981.\n3. Industries within the zone are categorized into different colour codes based on their pollution potential by the Central Pollution Control Board (CPCB).\n\nWhich of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: The TTZ is a 10,400 sq km trapezoid-shaped area that covers three World Heritage Sites: the Taj Mahal, Agra Fort, and Fatehpur Sikri.\nStatement 2 is incorrect: The Taj Trapezium Zone Pollution (Prevention and Control) Authority was established under the Environment (Protection) Act, 1986, not the Air Act of 1981.\nStatement 3 is correct: Industries in the TTZ are categorized into Red, Green, Orange, and White categories based on their pollution potential, as defined by the Central Pollution Control Board (CPCB).",
+      "takeaway": "The Taj Trapezium Zone (TTZ) protects three World Heritage Sites and is regulated by an authority established under the Environment (Protection) Act, 1986. Industrial regulation within the zone relies on the CPCB's pollution potential categorization.",
+      "evidenceExcerpt": "Coverage: Three World Heritage Sites- Taj Mahal, Agra Fort, and Fatehpur Sikri. Taj Trapezium Zone Pollution (Prevention and Control) Authority: Under Environment Protection Act, 1986. Categories of Industries: Red, Green, Orange, and White based on pollution potential, as defined by the Central Pollution Control Board (CPCB).",
+      "qualityScore": 88,
+      "reviewNotes": "Strong statement-based question. Swapping the EPA 1986 with the Air Act 1981 is a classic UPSC distractor technique for environmental bodies."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "In the context of environmental regulations within the Taj Trapezium Zone (TTZ), the categorization of industries into Red, Green, Orange, and White categories is primarily determined by:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "their aerial distance from the protected World Heritage Sites."
+        },
+        {
+          "id": "B",
+          "text": "their total capital investment and annual turnover."
+        },
+        {
+          "id": "C",
+          "text": "their pollution potential as defined by the Central Pollution Control Board."
+        },
+        {
+          "id": "D",
+          "text": "the environmental impact assessment conducted by the National Environmental Engineering Research Institute."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "According to the regulatory framework of the TTZ, industries within the zone are categorized into Red, Green, Orange, and White categories based on their pollution potential, as defined by the Central Pollution Control Board (CPCB). Proximity, capital investment, or NEERI's assessments are not the primary criteria for this specific colour-coded categorization.",
+      "takeaway": "Industrial categorization in eco-sensitive zones like the TTZ is driven by pollution potential (regulated by CPCB) rather than financial metrics or mere proximity to monuments.",
+      "evidenceExcerpt": "Categories of Industries: Red, Green, Orange, and White based on pollution potential, as defined by the Central Pollution Control Board (CPCB).",
+      "qualityScore": 85,
+      "reviewNotes": "Good conceptual question. The distractors are highly plausible, especially option D, as NEERI is actively involved in assessing industrial impacts in the TTZ."
+    }
+  ],
+  "reviewerNotes": "Selected two high-quality questions. The first tests the statutory and geographical facts of the TTZ using a standard statement-based format. The second tests the conceptual understanding of industrial categorization within the zone, utilizing strong distractors drawn directly from the context (like NEERI)."
+}

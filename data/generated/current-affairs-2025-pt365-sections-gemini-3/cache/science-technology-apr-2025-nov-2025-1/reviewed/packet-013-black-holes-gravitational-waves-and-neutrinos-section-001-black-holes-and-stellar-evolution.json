@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "statement-based",
+      "prompt": "With reference to stellar evolution and black holes, consider the following statements:\n\n1. Low- and medium-mass stars evolve into white dwarfs at the end of their life cycle.\n2. Both high-mass and very high-mass stars undergo a supernova explosion before reaching their final evolutionary stages.\n3. Black holes are classified solely into stellar-mass and supermassive categories based on their mass.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Low- and medium-mass stars (like the Sun) evolve into White Dwarfs. Statement 2 is correct: High-mass stars evolve into Neutron Stars after a supernova explosion, and very high-mass stars evolve into Black Holes after a supernova explosion. Statement 3 is incorrect: Black holes are classified into stellar-mass, intermediate-mass (IMBH), and supermassive black holes.",
+      "takeaway": "Stellar evolution is determined by mass. While low/medium-mass stars become white dwarfs, heavier stars undergo supernova explosions to become either neutron stars or black holes. Black holes exist in at least three mass categories: stellar, intermediate, and supermassive.",
+      "evidenceExcerpt": "Low- and medium-mass stars (like the Sun) evolve into White Dwarfs. High-mass stars evolve into Neutron Stars after a supernova explosion. Very high-mass stars evolve into Black Holes after a supernova explosion. Types of black holes include Stellar-Mass, Intermediate-Mass (IMBH), and Supermassive Black Holes.",
+      "qualityScore": 85,
+      "reviewNotes": "Good conceptual coverage of stellar evolution and black hole classification. The distractor in statement 3 is plausible and tests attention to detail."
+    }
+  ],
+  "reviewerNotes": "All three questions were retained but refined for better UPSC alignment. Candidate 3 was updated to the modern Statement-I/Statement-II format instead of the older Assertion-Reason style. The distractors and explanations are tight and directly supported by the text."
+}

@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Polity",
+      "difficulty": "Hard",
+      "questionType": "Comparison-driven",
+      "prompt": "Which of the following describes a key procedural difference between the Lok Sabha and Rajya Sabha regarding the consideration of Private Member Bills?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The Lok Sabha requires a two-month notice for introduction, while the Rajya Sabha requires only one month."
+        },
+        {
+          "id": "B",
+          "text": "The Lok Sabha discusses these bills every Friday, whereas the Rajya Sabha discusses them only on every alternate Friday."
+        },
+        {
+          "id": "C",
+          "text": "The Speaker of Lok Sabha can reject a bill's introduction, but the Chairman of Rajya Sabha has no such power."
+        },
+        {
+          "id": "D",
+          "text": "Nominated members can introduce these bills in the Rajya Sabha but are prohibited from doing so in the Lok Sabha."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "According to the parliamentary mechanism, the Lok Sabha allots the last two-and-a-half hours of business every Friday for Private Member Bills. In contrast, the Rajya Sabha allots two and a half hours on every alternate Friday.",
+      "takeaway": "While both houses dedicate Friday afternoons to Private Member Bills, the frequency differs: every Friday in Lok Sabha vs. alternate Fridays in Rajya Sabha.",
+      "evidenceExcerpt": "Lok Sabha allots last two-and-a-half hours of business every Friday for consideration and discussion on the Bill. Rajya Sabha allots two and a half hours (from 2.30 p.m. to 5.00 p.m.) on every alternate Friday.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "In the context of Indian Parliamentary procedure, what is the immediate effect of 'Adjournment Sine Die' on the business of the House?",
+      "options": [
+        {
+          "id": "A",
+          "text": "All pending bills in the House immediately lapse and must be reintroduced."
+        },
+        {
+          "id": "B",
+          "text": "The House is officially prorogued by the Presiding Officer."
+        },
+        {
+          "id": "C",
+          "text": "Pending bills remain unaffected, but most notices for questions and motions lapse."
+        },
+        {
+          "id": "D",
+          "text": "The House is dissolved, and fresh elections must be notified by the President."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Adjournment Sine Die terminates a sitting without a fixed date for reconvening. It does not affect pending bills in that House, but most notices (questions, motions, resolutions) lapse and must be resubmitted in the next session.",
+      "takeaway": "Adjournment Sine Die ends a sitting indefinitely but preserves pending bills, unlike notices which typically lapse.",
+      "evidenceExcerpt": "All bills that are pending in the same House remain unaffected. Most notices (e.g., questions, motions, resolutions) lapse and must be resubmitted in the next session.",
+      "contextLines": []
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "History",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the rules governing the Nobel Prizes, consider the following statements:\n1. Self-nominations are strictly prohibited across all prize categories.\n2. An individual can be nominated posthumously if their work is of exceptional global significance.\n3. The Nobel Peace Prize is the only category that can be conferred upon an institution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: The rules explicitly state that self-nominations are not allowed. Statement 2 is incorrect: An individual cannot be nominated posthumously; however, if a winner dies after being selected but before receiving the prize, they may be awarded posthumously. Statement 3 is correct: All Nobel Prizes are conferred to individuals except for the Peace Prize, which can also be awarded to institutions.",
+      "takeaway": "The Nobel Prize prohibits self-nomination and posthumous nomination, though it allows posthumous awards for winners who die before the ceremony.",
+      "evidenceExcerpt": "It is to be noted that self-nominations are not allowed in Nobel Prizes. An individual cannot be nominated posthumously but a winner who dies before receiving the prize may be awarded posthumously. All prizes can be conferred to individuals except for the Peace Prize which can be conferred upon an institution as well.",
+      "qualityScore": 88,
+      "reviewNotes": "This question tests the specific procedural rules of the Nobel Prize as detailed in the text, using the standard UPSC multi-statement format.",
+      "contextLines": []
+    },
+    {
+      "subject": "History",
+      "difficulty": "Moderate",
+      "questionType": "Matching",
+      "prompt": "Consider the following pairs of Indian Nobel Laureates and their respective fields of contribution:\n1. Har Gobind Khorana : Interpretation of genetic code\n2. Subramanyan Chandrasekhar : Structure and function of ribosome\n3. Venkatraman Ramakrishnan : Chemistry\n4. Amartya Sen : Welfare economics\n\nHow many of the pairs given above are correctly matched?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "Only three pairs"
+        },
+        {
+          "id": "D",
+          "text": "All four pairs"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Pair 1 is correctly matched: Har Gobind Khorana won for the interpretation of the genetic code. Pair 2 is incorrectly matched: Subramanyan Chandrasekhar won for studies of physical processes important to the structure and evolution of stars, not ribosomes. Pair 3 is correctly matched: Venkatraman Ramakrishnan won the Nobel Prize in Chemistry for studies of the structure and function of the ribosome. Pair 4 is correctly matched: Amartya Sen won for his contributions to welfare economics.",
+      "takeaway": "Indian Nobel Laureates have contributed across diverse fields including Medicine, Physics, Chemistry, and Economics.",
+      "evidenceExcerpt": "HAR GOBIND KHORANA: Nobel Prize in Physiology or Medicine (1968). For-Interpretation of genetic code... SUBRAMANYAN CHANDRASEKHAR: Nobel Prize for Physics (1983). For-Studies of Physical processes of importance to structure and evolution of stars... VENKATRAMAN RAMANKRISHNAN: Nobel Prize in Chemistry (2009). For-Studies of structure and function of ribosome... AMARTYA SEN: Nobel Memorial Prize in Economic Sciences (1998). For-Work Contributions to welfare economics.",
+      "qualityScore": 85,
+      "reviewNotes": "Uses the modern 'How many pairs' format common in recent UPSC prelims to test specific knowledge of laureate contributions.",
+      "contextLines": []
+    }
+  ],
+  "reviewerNotes": "The questions cover the three main pillars of the provided text: the general rules of the Nobel Prize, the specific contributions of Indian laureates, and the administrative/citizenship facts. The distractors are designed to be plausible based on common misconceptions (e.g., posthumous nominations vs. posthumous awards). All facts are grounded in the provided excerpt."
+}

@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Disaster Risk Index (DRI) used in India: 1. It was formally adopted by the 15th Finance Commission to guide the distribution of the National Disaster Response Fund (NDRF). 2. The index calculates its composite score by assigning equal weightage to the probability of hazards and the vulnerability of the region. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The 15th Finance Commission (2021-26) formally adopted the DRI to guide disaster funding, integrating a state's DRI score into a formula for distributing NDRF and state contingency funds. Statement 2 is incorrect: The composite score is not based on equal weightage. It uses the probability of hazards (score of 70) and vulnerability (score of 30).",
+      "takeaway": "The 15th Finance Commission integrated the Disaster Risk Index (DRI) into its disaster funding formula, heavily weighting hazard probability (70%) over vulnerability (30%).",
+      "evidenceExcerpt": "Genesis: 15th Finance Commission (2021-26) formally adopted it to guide disaster funding. It integrated state's DRI score into a formula for distributing NDRF and state contingency funds. Components: DRI uses probability of hazards (score of 70) and vulnerability (score of 30) to arrive at a composite score."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of disaster-related reports/indices and the organizations associated with their release or formal adoption: 1. Global Drought Outlook : Organisation for Economic Co-operation and Development (OECD) 2. District Flood Severity Index : Central Water Commission 3. Disaster Risk Index : 15th Finance Commission. How many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: The Global Drought Outlook, 2025 is released by the OECD. Pair 2 is incorrectly matched: The District Flood Severity Index was developed by researchers from IIT Delhi and Gandhinagar, not the Central Water Commission. Pair 3 is correctly matched: The Disaster Risk Index was formally adopted by the 15th Finance Commission to guide disaster funding.",
+      "takeaway": "The Global Drought Outlook is an OECD release, while the District Flood Severity Index is an indigenous tool developed by IIT Delhi and IIT Gandhinagar researchers.",
+      "evidenceExcerpt": "Global Drought Outlook, 2025 Released by: Organisation for Economic Co-operation and Development (OECD). Disaster Risk Index (DRI)... Genesis: 15th Finance Commission (2021-26) formally adopted it... District Flood Severity Index Developed by: Researchers from IIT Delhi and Gandhinagar..."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements: 1. The Global Drought Outlook is a flagship publication of the World Meteorological Organization (WMO). 2. The District Flood Severity Index classifies its variables into two broad groups representing the occurrence of floods and the damage caused by floods. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The Global Drought Outlook, 2025 is released by the Organisation for Economic Co-operation and Development (OECD), not the WMO. Statement 2 is correct: The District Flood Severity Index consists of six factors classified into two groups: variables representing the occurrence of floods and variables representing damage due to floods.",
+      "takeaway": "The District Flood Severity Index quantifies flood impact by looking at both the physical occurrence of the flood event and the socio-economic damage it inflicts.",
+      "evidenceExcerpt": "Global Drought Outlook, 2025 Released by: Organisation for Economic Co-operation and Development (OECD)... District Flood Severity Index... Consists of six factors classified in two groups: Variables representing occurrence of floods... Variables representing damage due to floods."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding disaster-related indices in India:\n\n1. The Disaster Risk Index (DRI) score is integrated into the formula for distributing the National Disaster Response Fund (NDRF), but it does not apply to state contingency funds.\n2. The District Flood Severity Index quantifies flood severity by combining variables that represent the physical occurrence of floods with those representing the resultant damage.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The 15th Finance Commission formally adopted the DRI to guide disaster funding, integrating the state's DRI score into a formula for distributing BOTH the National Disaster Response Fund (NDRF) and state contingency funds. Statement 2 is correct: The District Flood Severity Index, developed by researchers from IIT Delhi and Gandhinagar, consists of six factors classified into two groups: variables representing the occurrence of floods and variables representing the damage due to floods.",
+      "takeaway": "The 15th Finance Commission utilizes the DRI for both national (NDRF) and state-level contingency fund distribution. The District Flood Severity Index evaluates both the event (occurrence) and its impact (damage).",
+      "evidenceExcerpt": "Genesis: 15th Finance Commission (2021–26) formally adopted it to guide disaster funding. It integrated state’s DRI score into a formula for distributing NDRF and state contingency funds.\n... District Flood Severity Index ... Consists of six factors classified in two groups: Variables representing occurrence of floods... Variables representing damage due to floods."
+    }
+  ]
+}

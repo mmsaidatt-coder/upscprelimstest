@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Feature-Matching",
+      "prompt": "Consider the following characteristics of a protected area in India:\n1. It is India's first and only dedicated wolf sanctuary.\n2. It is located within the Palamau Tiger Reserve.\n3. The Burha River flows through its valley.\n\nWhich of the following protected areas is best described by the features given above?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Mahuadanr Wildlife Sanctuary"
+        },
+        {
+          "id": "B",
+          "text": "Kaimur Wildlife Sanctuary"
+        },
+        {
+          "id": "C",
+          "text": "Dalma Wildlife Sanctuary"
+        },
+        {
+          "id": "D",
+          "text": "Hazaribagh Wildlife Sanctuary"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Mahuadanr Wolf Sanctuary in Jharkhand is India's first and only dedicated wolf sanctuary. It is located within the Palamau Tiger Reserve, and the Burha River flows through the Mahuadanr valley.",
+      "takeaway": "Mahuadanr Wolf Sanctuary is India's only dedicated wolf sanctuary, located in Palamau Tiger Reserve, Jharkhand, with the Burha River flowing through it.",
+      "evidenceExcerpt": "India's first and only dedicated wolf sanctuary, located within the Palamau Tiger Reserve in Jharkhand. River: Burha River flow through Mahuadanr valley."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-Driven",
+      "prompt": "With reference to the ecological and cultural significance of the Mahuadanr region, consider the following statements:\n1. It hosts India's first and only dedicated wolf sanctuary.\n2. Tribals belonging to the 'Sarna faith' in this region practice avoiding the Sal forests during the winter months.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Both statements are correct. Mahuadanr Wolf Sanctuary in Jharkhand is India's first and only dedicated wolf sanctuary. In this region, tribals from the 'Sarna faith' observe a unique practice of avoiding the Sal Forest during the winter months.",
+      "takeaway": "The Sarna faith tribals in the Mahuadanr region (Jharkhand) uniquely avoid Sal forests during winter. The region also hosts India's only dedicated wolf sanctuary.",
+      "evidenceExcerpt": "Witnessed unique practice of tribals from the 'Sarna faith' to avoid the Sal Forest during winter months. Location: India's first and only dedicated wolf sanctuary, located within the Palamau Tiger Reserve in Jharkhand."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the landscape and ecology of the Mahuadanr Wolf Sanctuary:\n\n1. The sanctuary's ecosystem includes Sal forests, which are subject to seasonal avoidance by the local Sarna faith practitioners.\n2. The Burha River serves as a key hydrological feature of the valley where the sanctuary is situated.\n3. The sanctuary forms an isolated ecological island, geographically separated from the state's major tiger habitats.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statements 1 and 2 are correct. The Mahuadanr valley features Sal forests (avoided by Sarna tribals in winter) and the Burha River flows through it. Statement 3 is incorrect because the sanctuary is not an isolated ecological island; it is located within the Palamau Tiger Reserve, thereby sharing its landscape with major tiger habitats.",
+      "takeaway": "Understanding the geographical overlap of protected areas is crucial; Mahuadanr Wolf Sanctuary shares its hydrology (Burha River) and flora (Sal forests) with the broader Palamau Tiger Reserve ecosystem.",
+      "evidenceExcerpt": "Witnessed unique practice of tribals from the 'Sarna faith' to avoid the Sal Forest during winter months. Location: India's first and only dedicated wolf sanctuary, located within the Palamau Tiger Reserve in Jharkhand. River: Burha River flow through Mahuadanr valley."
+    }
+  ]
+}

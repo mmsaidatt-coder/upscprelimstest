@@ -1,0 +1,236 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding recent space missions by the Indian Space Research Organisation (ISRO):\n1. Astrosat is India's first dedicated astronomy mission placed in a Geosynchronous Earth Orbit (GEO).\n2. XPoSat is the world's first satellite dedicated to studying X-ray polarization from celestial sources.\n3. The POLIX and XSPECT payloads are associated with the XPoSat mission.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect: Astrosat is placed in a Low Earth Orbit (LEO), not GEO. Statement 2 is incorrect: XPoSat is the world's second satellite (after NASA's IXPE) dedicated to studying X-ray polarization. Statement 3 is correct: XPoSat carries the POLIX and XSPECT payloads.",
+      "takeaway": "Astrosat operates in LEO. XPoSat is India's first and the world's second mission dedicated to X-ray polarization, carrying POLIX and XSPECT.",
+      "evidenceExcerpt": "Astrosat is India's first dedicated astronomy mission in LEO... XPoSat is the world's second (after NASA's IXPE) and India's first satellite to measure X-ray emission... carrying POLIX and XSPECT payloads."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of space mission payloads and their associated missions:\n1. VARTISS : Venus Orbiter Mission\n2. POLIX : Astrosat\n3. XSPECT : XPoSat\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: VARTISS is a payload on the Venus Orbiter Mission (VOM). Pair 2 is incorrectly matched: POLIX is a payload on XPoSat, not Astrosat. Pair 3 is correctly matched: XSPECT is a payload on XPoSat.",
+      "takeaway": "The Venus Orbiter Mission (VOM) includes payloads like VARTISS and VODEX. XPoSat carries POLIX and XSPECT.",
+      "evidenceExcerpt": "Venus Orbiter Mission (VOM) is proposed to study Venusian dust... using LVM-3 and payloads like VARTISS and VODEX. XPoSat... carrying POLIX and XSPECT payloads."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "With reference to India's space exploration history, consider the following statements:\n1. Aryabhata, India's first satellite, was primarily designed as an Earth observation and communication satellite.\n2. Both Aryabhata and Astrosat were designed to operate in Low Earth Orbit (LEO).\n3. Astrosat is capable of studying celestial objects across X-ray, ultraviolet, and optical wavelengths.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Aryabhata was built for X-ray astronomy, aeronomics, and solar physics, not primarily for communication or Earth observation. Statement 2 is correct: Both Aryabhata and Astrosat operated/operate in LEO. Statement 3 is correct: Astrosat studies celestial objects across X-ray, UV, and optical wavelengths.",
+      "takeaway": "Aryabhata was a scientific satellite dedicated to X-ray astronomy, aeronomics, and solar physics in LEO. Astrosat is a multi-wavelength astronomy mission also in LEO.",
+      "evidenceExcerpt": "Astrosat is India's first dedicated astronomy mission in LEO, studying celestial objects across X-ray, UV, and optical wavelengths... Aryabhata, India's first satellite... was built for X-ray astronomy, aeronomics, and solar physics in LEO."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the proposed Venus Orbiter Mission (VOM):\n1. It is planned to be launched using the Launch Vehicle Mark-3 (LVM-3).\n2. The mission aims to study Venusian dust, airglow, and topography.\n3. VODEX is a payload associated with this mission.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "All three statements are correct. The Venus Orbiter Mission (VOM) is proposed to be launched via LVM-3. It will study Venusian dust, airglow, and topography, and it carries payloads such as VARTISS and VODEX.",
+      "takeaway": "ISRO's Venus Orbiter Mission (VOM) will utilize the heavy-lift LVM-3 and carry specialized payloads like VARTISS and VODEX to study the Venusian atmosphere and surface.",
+      "evidenceExcerpt": "Venus Orbiter Mission (VOM) is proposed to study Venusian dust, airglow, and topography using LVM-3 and payloads like VARTISS and VODEX."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice",
+      "prompt": "Which of the following Indian space missions included the study or observation of X-rays from celestial sources as part of their scientific objectives?\n1. Aryabhata\n2. Astrosat\n3. XPoSat\nSelect the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Aryabhata, India's first satellite, was built for X-ray astronomy, aeronomics, and solar physics. Astrosat studies celestial objects across X-ray, UV, and optical wavelengths. XPoSat measures X-ray emission and polarization from black holes and neutron stars. Thus, all three missions included X-ray observation.",
+      "takeaway": "India has a long history of X-ray astronomy, starting from its very first satellite (Aryabhata) to its recent dedicated multi-wavelength (Astrosat) and polarimetry (XPoSat) missions.",
+      "evidenceExcerpt": "Astrosat... studying celestial objects across X-ray... XPoSat... measure X-ray emission... Aryabhata... built for X-ray astronomy"
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding India's space-based astronomy missions:\n1. While Astrosat is a multi-wavelength mission covering ultraviolet and optical bands, XPoSat is specifically dedicated to measuring X-ray polarization.\n2. XPoSat is the world's second satellite dedicated to X-ray polarimetry, following a similar mission previously launched by NASA.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Astrosat studies celestial objects across X-ray, UV, and optical wavelengths, whereas XPoSat is India's first dedicated satellite to measure X-ray emission and polarization. Statement 2 is correct: XPoSat is the world's second satellite to study X-ray polarization from celestial sources, after NASA's Imaging X-ray Polarimetry Explorer (IXPE).",
+      "takeaway": "XPoSat places India as the second country globally, after the US (NASA), to launch a dedicated space observatory for X-ray polarimetry.",
+      "evidenceExcerpt": "Astrosat is India's first dedicated astronomy mission... studying celestial objects across X-ray, UV, and optical wavelengths... XPoSat is the world's second (after NASA's IXPE) and India's first satellite to study X-ray polarization"
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the milestones in India's space program:\n1. Aryabhata was India's first satellite, designed to operate in Low Earth Orbit (LEO).\n2. Astrosat was India's first dedicated astronomy mission, covering X-ray, ultraviolet, and optical wavelengths.\n3. XPoSat is India's first satellite dedicated to studying X-ray polarization from celestial sources.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Aryabhata was India's first satellite and operated in LEO. Statement 2 is correct: Astrosat is India's first dedicated astronomy mission in LEO, covering X-ray, UV, and optical wavelengths. Statement 3 is correct: XPoSat is India's first dedicated satellite to measure X-ray emission and polarization from black holes and neutron stars.",
+      "takeaway": "ISRO has achieved significant 'firsts' in space exploration, from its inaugural satellite Aryabhata to specialized observatories like Astrosat and XPoSat.",
+      "evidenceExcerpt": "Astrosat is India's first dedicated astronomy mission... XPoSat is... India's first satellite to study X-ray polarization... Aryabhata, India's first satellite... operated in LEO"
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Matching",
+      "prompt": "Consider the following scientific objectives:\n1. Study of aeronomics and solar physics\n2. Measurement of X-ray polarization from black holes\n3. Observation of Venusian dust and airglow\nWhich of the following groups of ISRO missions are respectively associated with the objectives listed above?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Astrosat, XPoSat, and Mangalyaan"
+        },
+        {
+          "id": "B",
+          "text": "Aryabhata, XPoSat, and Venus Orbiter Mission"
+        },
+        {
+          "id": "C",
+          "text": "Aryabhata, Astrosat, and Venus Orbiter Mission"
+        },
+        {
+          "id": "D",
+          "text": "XPoSat, Astrosat, and Chandrayaan"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Aryabhata was built for X-ray astronomy, aeronomics, and solar physics. XPoSat is dedicated to measuring X-ray emission and polarization from black holes and neutron stars. The Venus Orbiter Mission (VOM) is proposed to study Venusian dust, airglow, and topography.",
+      "takeaway": "Each ISRO mission has distinct scientific payloads tailored to specific phenomena, such as Aryabhata for aeronomics, XPoSat for X-ray polarimetry, and VOM for Venusian atmospheric studies.",
+      "evidenceExcerpt": "Venus Orbiter Mission (VOM) is proposed to study Venusian dust, airglow... XPoSat... measure X-ray emission from black holes... Aryabhata... built for X-ray astronomy, aeronomics, and solar physics"
+    }
+  ]
+}

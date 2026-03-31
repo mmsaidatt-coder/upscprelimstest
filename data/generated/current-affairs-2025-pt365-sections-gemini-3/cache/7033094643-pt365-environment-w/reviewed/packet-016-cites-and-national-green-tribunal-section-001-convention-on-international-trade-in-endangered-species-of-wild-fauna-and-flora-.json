@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Applied Scenario",
+      "prompt": "A member country of CITES has enacted strict domestic legislation to protect a specific endemic bird species. However, it faces challenges in preventing the illegal smuggling of this bird to other countries. Under the CITES framework, which of the following is the most appropriate step for this country to secure international cooperation in controlling this trade?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Propose the inclusion of the species in Appendix I to declare it globally threatened with extinction."
+        },
+        {
+          "id": "B",
+          "text": "List the species in Appendix III to formally ask other member countries for assistance in controlling its trade."
+        },
+        {
+          "id": "C",
+          "text": "Request the International Consortium on Combating Wildlife Crime (ICCWC) to enforce its national laws in the importing countries."
+        },
+        {
+          "id": "D",
+          "text": "Transfer the species to the MIKE Programme for continuous cross-border monitoring."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Appendix III of CITES covers species that are protected in at least one country, which has asked other CITES Parties for assistance in controlling the trade. Listing the species in Appendix III is the designated mechanism for a country to seek such international assistance. Appendix I is for species threatened with extinction, not merely for seeking trade control assistance. ICCWC does not enforce national laws in other countries, and the MIKE Programme is specifically for monitoring the illegal killing of elephants.",
+      "takeaway": "Appendix III of CITES is uniquely designed for species that are protected within a specific country that requires the cooperation of other member states to prevent unsustainable or illegal exploitation.",
+      "evidenceExcerpt": "Appendix III covers species protected in at least one country asking for assistance.",
+      "qualityScore": 90,
+      "reviewNotes": "Excellent applied question. It moves beyond rote memorization of the Appendices and tests the practical application of the CITES framework, highly reflective of recent UPSC trends."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES):\n1. It is a legally binding agreement on its Parties.\n2. It supersedes the national wildlife protection laws of the member countries.\n3. India ratified the convention in the year 1976.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: CITES is an international agreement that is legally binding on its Parties.\nStatement 2 is incorrect: Although legally binding, CITES does not take the place of national laws. Parties must adopt their own domestic legislation to implement it at the national level.\nStatement 3 is correct: India ratified CITES in 1976.",
+      "takeaway": "CITES is legally binding but does not replace national laws; India has been a party since 1976.",
+      "evidenceExcerpt": "Legally binding on Parties, but does not take the place of national laws. 185 parties (including India - ratified in 1976).",
+      "qualityScore": 85,
+      "reviewNotes": "Good conceptual and factual mix. Updated to the latest UPSC 'How many of the above' format. The distractor in statement 2 is a classic UPSC trap regarding international conventions and national sovereignty."
+    }
+  ],
+  "reviewerNotes": "Selected three distinct questions covering the legal nature of CITES, its associated initiatives, and an applied scenario testing the understanding of its Appendices. The applied scenario is particularly strong for UPSC Prelims as it tests conceptual clarity over rote memorization. The statement-based questions have been updated to the latest UPSC 'How many of the above' format."
+}

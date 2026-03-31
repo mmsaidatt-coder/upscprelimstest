@@ -1,0 +1,98 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "History",
+      "difficulty": "Hard",
+      "questionType": "Application-based",
+      "prompt": "An American author publishes a distinguished, appropriately documented book on the history of the French Revolution. Under the Pulitzer Prize guidelines, for which category would this work most likely be eligible?",
+      "options": [
+        {
+          "id": "A",
+          "text": "History"
+        },
+        {
+          "id": "B",
+          "text": "General Nonfiction"
+        },
+        {
+          "id": "C",
+          "text": "Biography"
+        },
+        {
+          "id": "D",
+          "text": "International Reporting"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The 'History' category of the Pulitzer Prize is strictly reserved for books on the history of the United States. Since the book in the prompt is about the French Revolution, it does not qualify for the History category. However, the 'General Nonfiction' category is for a distinguished book of nonfiction by an American author that is not eligible for consideration in any other category, making it the correct fit for historical works not focused on the U.S.",
+      "takeaway": "The Pulitzer Prize for History is geographically restricted to U.S. history; other historical works fall under General Nonfiction.",
+      "evidenceExcerpt": "History – for a distinguished and appropriately documented book on the history of the United States. General Nonfiction – for a distinguished and appropriately documented book of nonfiction by an American author that is not eligible for consideration in any other category.",
+      "qualityScore": 88,
+      "reviewNotes": "Tests a specific and often overlooked nuance in the Pulitzer eligibility criteria regarding the 'History' category's scope.",
+      "contextLines": []
+    },
+    {
+      "subject": "History",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the eligibility criteria for Pulitzer Prizes:\n1. The 'History' category is restricted to books documenting the history of the United States.\n2. The 'Music' category requires the composer to be an American and the work to have had its first performance or recording in the United States.\n3. The 'Drama' category is open to playwrights of any nationality, provided the play deals with American life.\nWhich of the statements given above are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The History category is specifically for the history of the United States. Statement 2 is correct: The Music category requires the composition to be by an American and to have had its first performance or recording in the U.S. during the year. Statement 3 is incorrect: The Drama category specifically requires an American playwright, though it does prefer works dealing with American life.",
+      "takeaway": "Pulitzer categories for letters, drama, and music generally require American authorship/citizenship and often have specific geographic or thematic constraints.",
+      "evidenceExcerpt": "History – for a distinguished and appropriately documented book on the history of the United States... Drama – for a distinguished play by an American playwright... Pulitzer Prize for Music – for distinguished musical composition by an American that has had its first performance or recording in the United States during the year.",
+      "qualityScore": 87,
+      "reviewNotes": "A high-quality comparison of specific category requirements, testing the 'American author/playwright' constraint which is a common theme across the letters/drama categories.",
+      "contextLines": []
+    },
+    {
+      "subject": "History",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Pulitzer Prize, consider the following statements:\n1. It is an annual award administered by Columbia University to recognize excellence in journalism, letters, and music.\n2. The prize was established by Joseph Pulitzer and was first awarded in 1917.\n3. While most category winners receive a cash prize, the award for Public Service consists of a gold medal.\nWhich of the statements given above are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Statement 1 is correct: The Pulitzer Prize is an esteemed set of awards presented annually by Columbia University in New York City for achievements in journalism, letters, and music. Statement 2 is correct: It was established by Joseph Pulitzer and first awarded in 1917. Statement 3 is correct: Each winner receives a certificate and $15,000 in cash, except in the Public Service category, where a gold medal is awarded.",
+      "takeaway": "The Pulitzer Prize is a century-old institution administered by Columbia University, with a unique gold medal distinction for the Public Service category.",
+      "evidenceExcerpt": "The Annual Pulitzer Prize is an esteemed set of awards presented annually by Columbia University in New York City... It recognizes outstanding achievements in journalism, letters, and music. It was first awarded in 1917... Each winner receives a certificate and $15,000 in cash, except in the Public Service category, where a gold medal is awarded.",
+      "qualityScore": 85,
+      "reviewNotes": "Standard UPSC-style statement-based question covering the origin, administration, and prize structure of the Pulitzer Prize.",
+      "contextLines": []
+    }
+  ],
+  "reviewerNotes": "The selected questions cover the historical origin, administrative details, specific category restrictions (History vs. General Nonfiction), and recent 2024 news regarding the Pulitzer Prize. The application-based question on the French Revolution is particularly strong as it tests the specific 'US History' constraint mentioned in the text. All distractors are plausible and based on the provided text."
+}

@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "statement-based",
+      "prompt": "Consider the following statements regarding ISRO's 'SpaDeX Mission':\n1. The spacecraft for the mission were designed by the UR Rao Satellite Centre (URSC).\n2. It aims to demonstrate rendezvous and docking technology between two spacecraft in a geostationary orbit.\n3. With this mission, India became the fourth country in the world to achieve satellite docking in space.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The SpaDeX spacecraft were designed by the UR Rao Satellite Centre (URSC).\nStatement 2 is incorrect: The mission aims to develop and demonstrate the technology needed for rendezvous, docking, and undocking of two small spacecraft in a low-Earth circular orbit, not a geostationary orbit.\nStatement 3 is correct: The mission made India the fourth country in the world to achieve satellite docking in space, joining the ranks of the US, Russia, and China.",
+      "takeaway": "The SpaDeX Mission, designed by URSC, demonstrates satellite docking in a low-Earth orbit, making India the fourth nation to achieve this feat.",
+      "evidenceExcerpt": "Objective: To develop and demonstrate the technology needed for rendezvous, docking, and undocking of two small spacecraft (SDX01 (Chaser) and SDX02 (Target)) in a low-Earth circular orbit. The mission made India the fourth country in the world to achieve satellite docking in space, joining the ranks of the US, Russia, and China.\n- The SpaDeX spacecraft were designed by the UR Rao Satellite Centre (URSC).",
+      "qualityScore": 85,
+      "reviewNotes": "A strong statement-based question testing orbit type, institutional contribution, and global standing. The distractor for the orbit type is highly plausible for UPSC candidates."
+    }
+  ],
+  "reviewerNotes": "Selected two distinct questions from the candidate set. Candidate 1 was rewritten to test the institutional contribution (URSC) instead of the docking system name to avoid overlap with Candidate 3. Candidate 3 was refined to ensure the distractors sound formal and parallel."
+}

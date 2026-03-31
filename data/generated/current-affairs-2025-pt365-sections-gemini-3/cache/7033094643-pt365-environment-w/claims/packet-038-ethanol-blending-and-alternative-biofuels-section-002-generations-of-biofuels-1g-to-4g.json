@@ -1,0 +1,62 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-038-ethanol-blending-and-alternative-biofuels-section-002-generations-of-biofuels-1g-to-4g",
+    "claimType": "Factual",
+    "claimText": "1st Generation biofuels are produced using edible feedstocks such as wheat, corn, sugarcane, and food-grade oils.",
+    "evidenceExcerpt": "1st Generation uses edible feedstocks like wheat, corn, sugarcane, and food-grade oils.",
+    "pageNumbers": [
+      78
+    ],
+    "examUse": "Statement-based question on the classification of biofuels based on feedstock.",
+    "distractorHooks": [
+      "Stating 1G biofuels use non-edible biomass",
+      "Confusing 1G feedstocks with 2G feedstocks like Jatropha"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-038-ethanol-blending-and-alternative-biofuels-section-002-generations-of-biofuels-1g-to-4g",
+    "claimType": "Factual",
+    "claimText": "2nd Generation biofuels utilize non-edible lignocellulosic biomass and waste materials, including Jatropha, animal fats, and used cooking oil.",
+    "evidenceExcerpt": "2nd Generation utilizes lignocellulosic biomass and waste, such as wheat bran, animal fats, used cooking oil, and Jatropha.",
+    "pageNumbers": [
+      78
+    ],
+    "examUse": "Correct-pair question matching biofuel generations with their respective feedstocks.",
+    "distractorHooks": [
+      "Classifying Jatropha as a 1st Generation feedstock",
+      "Stating 2G biofuels are derived from microalgae"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-038-ethanol-blending-and-alternative-biofuels-section-002-generations-of-biofuels-1g-to-4g",
+    "claimType": "Factual",
+    "claimText": "3rd Generation biofuels are derived from microalgae and cyanobacteria biomass.",
+    "evidenceExcerpt": "3rd Generation is derived from microalgae and cyanobacteria biomass.",
+    "pageNumbers": [
+      78
+    ],
+    "examUse": "Statement-based question distinguishing 3rd Generation biofuels from other generations.",
+    "distractorHooks": [
+      "Claiming 3rd Generation biofuels use genetically engineered microorganisms",
+      "Confusing microalgae with lignocellulosic biomass"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-038-ethanol-blending-and-alternative-biofuels-section-002-generations-of-biofuels-1g-to-4g",
+    "claimType": "Factual",
+    "claimText": "4th Generation biofuels involve the use of genetically engineered microorganisms such as Escherichia coli and Saccharomyces cerevisiae.",
+    "evidenceExcerpt": "4th Generation involves genetically engineered microorganisms like Escherichia coli and Saccharomyces cerevisiae.",
+    "pageNumbers": [
+      78
+    ],
+    "examUse": "Statement-based question on the advanced technologies used in 4th Generation biofuels.",
+    "distractorHooks": [
+      "Stating 4th Generation biofuels are derived from naturally occurring algae",
+      "Confusing 4G with 3G cyanobacteria biomass"
+    ]
+  }
+]

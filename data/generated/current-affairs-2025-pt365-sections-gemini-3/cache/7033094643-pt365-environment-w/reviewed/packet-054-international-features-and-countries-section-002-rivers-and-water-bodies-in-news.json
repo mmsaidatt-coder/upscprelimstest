@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Congo River:\n1. It is the deepest river in the world and crosses the equator twice.\n2. Its river basin is confined to exactly three countries in Central Africa.\n3. The basin holds the world's largest tropical peatland.\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The Congo River is the deepest river in the world and uniquely crosses the equator twice. Statement 2 is incorrect: The Congo River basin is vast and covers 9 countries, not just three. Statement 3 is correct: The Congo River basin holds the world's largest tropical peatland, making it a critical global carbon sink.",
+      "takeaway": "The Congo River is the world's deepest river, crosses the equator twice, and its basin (spanning 9 countries) contains the largest tropical peatland globally.",
+      "evidenceExcerpt": "Congo River: River Basin covers 9 countries... deepest river in the world and crosses equator twice... its basin holds the world's largest tropical peatland.",
+      "qualityScore": 85,
+      "reviewNotes": "Upgraded to the 'How many statements' format. Combined multiple atomic facts about the Congo River into a single, comprehensive question."
+    }
+  ],
+  "reviewerNotes": "Selected 4 strong questions that cover the geographical locations, unique features, and confluences of the rivers and water bodies mentioned in the text. Rewrote statement-based and pair-matching questions to use the 'How many statements/pairs are correct' format where appropriate, aligning with recent UPSC trends. Ensured all distractors are plausible and directly address common geographical misconceptions."
+}

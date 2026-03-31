@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Bactrian camel:\n1. In India, the domestic Bactrian camel is exclusively found in the high-altitude cold desert of Ladakh.\n2. Its two humps act as water reservoirs to aid survival in arid environments.\n3. The wild Bactrian camel is recognized as a distinct species and is listed as Critically Endangered by the IUCN.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Domestic Bactrian camels are found exclusively in the high-altitude cold desert of Ladakh in India. Statement 2 is incorrect: The two humps act as energy (fat) reservoirs, not water reservoirs. Statement 3 is correct: The Wild Bactrian Camel (Camelus ferus) is a distinct species listed as Critically Endangered by the IUCN.",
+      "takeaway": "The Bactrian camel is a double-humped species found in Ladakh whose humps store fat, not water. Its wild counterpart is Critically Endangered.",
+      "evidenceExcerpt": "Domestic Bactrian camels are found exclusively in the high-altitude cold desert of Ladakh in India. Bactrian camels have two humps acting as energy (fat) reservoirs, not water. Wild Bactrian Camel (Camelus ferus) is a distinct species listed as Critically Endangered by IUCN.",
+      "qualityScore": 88,
+      "reviewNotes": "Tests a very common biological misconception (humps storing water vs fat) alongside geographical and conservation facts. Well-structured."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the 'Kharai camel', consider the following statements:\n1. It is uniquely adapted to swim in seawater and survives by grazing on mangroves.\n2. It is a double-humped camel found primarily in the coastal regions of Gujarat.\n3. It is traditionally reared and preserved by the Rabari and Fakirani Jat communities.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Kharai camels can swim up to 3 km in seawater and primarily feed on mangroves. Statement 2 is incorrect: Kharai camels are single-humped dromedary camels, not double-humped. Statement 3 is correct: They are traditionally preserved by the Rabari and Fakirani Jat tribes of Gujarat.",
+      "takeaway": "The Kharai camel of Gujarat is a unique single-humped breed known for its swimming ability and mangrove diet, conserved by local pastoral communities.",
+      "evidenceExcerpt": "Details single-humped dromedary camels like... the swimming Kharai camel of Gujarat (preserved by Rabari and Fakirani Jat tribes)... Kharai camels can swim up to 3 km in seawater, survive by grazing on mangroves",
+      "qualityScore": 85,
+      "reviewNotes": "Good use of the 'How many statements are correct' format. Statement 2 acts as a strong distractor by mixing the Kharai's location with the Bactrian's physical trait."
+    }
+  ],
+  "reviewerNotes": "Selected three questions that comprehensively cover the Kharai camel, the Bactrian camel, and the classification of camel breeds in India. Rewrote the options for the classification question to match the latest UPSC 'How many' pattern. Ensured all distractors are plausible and explanations are tightly aligned with the source text."
+}

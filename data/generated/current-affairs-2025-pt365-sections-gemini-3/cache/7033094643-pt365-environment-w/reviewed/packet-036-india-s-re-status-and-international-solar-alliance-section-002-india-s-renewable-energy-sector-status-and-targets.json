@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding India's energy transition targets and achievements:\n\n1. India has achieved its Nationally Determined Contribution (NDC) target of 50% cumulative electric power installed capacity from non-fossil fuels ahead of the 2030 deadline.\n2. The Panchamrita strategy includes a target to meet 50% of the country's energy requirements from renewable energy by 2030.\n3. Solar power currently accounts for more than half of India's total non-fossil fuel installed capacity.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: India achieved its NDC target of 50% cumulative electric power installed capacity from non-fossil fuels five years ahead of the 2030 deadline.\nStatement 2 is correct: The Panchamrita targets for 2030 include meeting 50% of energy requirements from renewable energy and reaching 500 GW of non-fossil energy capacity.\nStatement 3 is incorrect: While solar power holds the largest share, it accounts for 39.4% of India's non-fossil fuel installed capacity, which is less than half.",
+      "takeaway": "India has achieved its 50% non-fossil capacity target early and is pursuing 500 GW by 2030, with solar power being the largest contributor at roughly 39%.",
+      "evidenceExcerpt": "Achieving 50% of cumulative electric power installed capacity from non-fossil fuel-based energy resources by 2030 (achieved five years ahead)... Panchamrita targets for 2030 include meeting 50% of energy requirements from RE and reaching 500 GW of non-fossil energy capacity... Solar holds the largest share (39.4%) of India's non-fossil fuel installed capacity...",
+      "qualityScore": 85,
+      "reviewNotes": "Combines multiple atomic claims into a standard UPSC 'How many statements' format. The 'more than half' trap in statement 3 is a classic UPSC distractor for a plurality share."
+    }
+  ],
+  "reviewerNotes": "Selected three questions that cover different aspects of India's renewable energy sector: targets/achievements, state-wise capacity arrangement, and global rankings. Rewrote the prompts and options to strictly adhere to UPSC's current formatting, including the 'How many statements/pairs are correct' typology and descending order arrangements. Ensured all facts are strictly grounded in the provided text."
+}

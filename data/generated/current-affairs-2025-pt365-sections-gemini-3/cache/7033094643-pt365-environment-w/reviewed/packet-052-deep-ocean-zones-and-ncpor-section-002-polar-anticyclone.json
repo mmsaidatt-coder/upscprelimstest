@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Polar Anticyclones:\n1. They are formed by the intense cooling of surface air layers which causes dense air to sink.\n2. They are characterized by the convergence of winds at the surface.\n3. The wind circulation in these systems is anti-clockwise in the Southern Hemisphere.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Polar anticyclones are high-pressure wind systems created by the intense cooling of surface air, which causes dense air to sink.\nStatement 2 is incorrect: Winds flow outward from the high-pressure center, meaning they are characterized by surface divergence, not convergence.\nStatement 3 is correct: The wind circulation in polar anticyclones is clockwise in the Northern Hemisphere and anti-clockwise in the Southern Hemisphere.",
+      "takeaway": "Polar anticyclones are thermally induced high-pressure systems. The sinking of cold, dense air leads to surface high pressure, resulting in outward-flowing (diverging) winds that circulate clockwise in the Northern Hemisphere and anti-clockwise in the Southern Hemisphere.",
+      "evidenceExcerpt": "Polar anticyclones are high-pressure wind systems created by intense cooling of surface air layers. Surface cooling causes dense air to sink... Winds flow outward from the center, circulating clockwise in the Northern Hemisphere and anti-clockwise in the Southern Hemisphere.",
+      "qualityScore": 85,
+      "reviewNotes": "Rewrote Candidate 1 to improve the phrasing of the statements. Replaced the incorrect 'heating' distractor with a classic UPSC 'convergence vs divergence' trap, which tests conceptual clarity better."
+    }
+  ],
+  "reviewerNotes": "The source text is brief but conceptually dense. I refined Candidate 1 into a standard 'How many statements' format, focusing on formation, divergence, and hemispheric circulation. I also created a new Statement-I/Statement-II question to test the causal link between air subsidence and outward wind flow, which perfectly fits the UPSC pattern for physical geography."
+}

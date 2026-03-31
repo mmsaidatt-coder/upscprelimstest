@@ -1,0 +1,160 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Matching",
+      "prompt": "Consider the following pairs of Major Ports and their respective States:\n\n1. Vadhavan Port : Maharashtra\n2. Kamarajar Port : Tamil Nadu\n3. Mormugao Port : Karnataka\n4. V. O. Chidambaranar Port : Kerala\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: Vadhavan Port is under construction in the Palghar District of Maharashtra. Pair 2 is correctly matched: Kamarajar Port (Ennore) is in Tamil Nadu. Pair 3 is incorrectly matched: Mormugao Port is in Goa, not Karnataka. Pair 4 is incorrectly matched: V. O. Chidambaranar Port (Tuticorin) is in Tamil Nadu, not Kerala.",
+      "takeaway": "Major ports are often referred to by multiple names (e.g., Tuticorin/VOC, Ennore/Kamarajar), and their state locations are critical for geography-based questions.",
+      "evidenceExcerpt": "Vadhavan, Palghar District, Maharashtra... Mormugao (Goa)... Tuticorin (V. O. Chidambaranar Port Trust) (Tamil Nadu)... Ennore (Kamarajar Port) (Tamil Nadu).",
+      "qualityScore": 89,
+      "reviewNotes": "Uses the 'How many' format popular in recent UPSC exams. Tests knowledge of both traditional and under-construction major ports."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the administration and performance of ports in India:\n\n1. Major ports are wholly owned by the Central Government, while non-major ports are managed by the respective State Governments or State Maritime Boards.\n2. Major ports currently handle more than 90% of India's total maritime cargo traffic.\n3. Over the last decade, the Average Turnaround Time (TRT) at major ports has reduced by nearly 50%.\n\nWhich of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Major ports are wholly owned by the Central Government, whereas non-major ports are under the control of State Maritime Boards/State Governments. Statement 2 is incorrect: Major ports handle approximately 53% of maritime cargo traffic, not over 90%. Statement 3 is correct: The Average Turnaround Time (TRT) improved by 48%, reducing from 96 hours to 49.5 hours over the past decade (FY 2014-15 to FY 2024-25).",
+      "takeaway": "While major ports are centrally owned, they handle only about half of the cargo traffic, despite significant improvements in operational efficiency like TRT.",
+      "evidenceExcerpt": "Major Ports: Wholly-owned by Central Government. Non-Major Ports: Managed by and under the control of the respective State Maritime Board / State Government... Major ports handled 53% of maritime cargo traffic... Average Turnaround Time (TRT) improved by 48%, reducing from 96 hours to 49.5 hours.",
+      "qualityScore": 88,
+      "reviewNotes": "Strong question testing both governance structure and recent economic performance indicators of the maritime sector."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "With reference to India's maritime sector and international rankings, consider the following statements:\n\n1. India's ranking in the World Bank's International Shipment Logistics Performance Index (LPI) improved from 44th in 2018 to 22nd in 2023.\n2. India is currently the world's largest nation in terms of ship recycling by tonnage.\n3. Paradip Port has emerged as India's largest major port in terms of cargo-handling capacity.\n\nWhich of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: India's LPI ranking for international shipments improved from 44 in 2018 to 22 in 2023. Statement 2 is incorrect: India is the third-largest in the world in terms of ship recycling by tonnage, not the largest. Statement 3 is correct: From 2014-15 to 2023-24, Paradip port became India's largest major port in terms of cargo-handling capacity.",
+      "takeaway": "India has seen significant improvements in logistics performance and port capacity, though it remains third in ship recycling.",
+      "evidenceExcerpt": "India's ranking in World Bank's International Shipment Logistics Performance Index (LPI) improved from 44 in 2018 to 22 in 2023... India is third-largest in world in terms of ship recycling by tonnage... Paradip port becoming India's largest major port.",
+      "qualityScore": 87,
+      "reviewNotes": "Tests specific data points from the World Bank and domestic port rankings which are common in UPSC Economy/Infrastructure questions."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to India's maritime trade, consider the following statements:\n\n1. Maritime trade accounts for approximately 95% of India's trading by volume.\n2. In terms of value, maritime trade contributes to 70% of India's total trade.\n3. The percentage of idle time at major ports has increased over the last decade due to increased cargo traffic.\n\nWhich of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: 95% of India's trading by volume is done through maritime trade. Statement 2 is correct: 70% of India's trading by value is done through maritime trade. Statement 3 is incorrect: Idle time (%) at major ports dropped by approximately 29%, from 23.1% to 16.3%, indicating improved efficiency rather than an increase.",
+      "takeaway": "Maritime trade is the dominant mode for India's trade volume and value, and operational efficiency (like reduced idle time) has improved significantly.",
+      "evidenceExcerpt": "95% of India's trading by volume and 70% by value is done through maritime trade... Idle Time (%) dropped by approximately 29%, from 23.1% to 16.3%.",
+      "qualityScore": 86,
+      "reviewNotes": "Tests the distinction between volume and value in trade and the trend in port efficiency."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Sagarmala Programme:\n\n1. It was launched by the Ministry of Ports, Shipping, and Waterways to harness the potential of India's coastline and navigable waterways.\n2. One of its primary components is the development of port-linked industrial clusters.\n3. The programme has achieved over 100% growth in coastal shipping volume over the last decade.\n\nWhich of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Statement 1 is correct: Sagarmala was launched in 2015 by the Ministry of Ports, Shipping, and Waterways (MoPSW) to harness the coastline and waterways. Statement 2 is correct: Port-Linked Industrialization is one of the five key components of the programme. Statement 3 is correct: The programme has achieved 118% growth in coastal shipping over the last decade.",
+      "takeaway": "The Sagarmala Programme is a multi-pronged initiative focusing on modernization, connectivity, industrialization, and community development.",
+      "evidenceExcerpt": "Launched in 2015 by Ministry of Ports, Shipping, and Waterways (MoPSW)... Sagarmala Programme has achieved 118% growth in coastal shipping... 5 Components: Port Modernization... Port-Linked Industrialization.",
+      "qualityScore": 85,
+      "reviewNotes": "Covers the ministry, objectives, and specific growth outcomes of a major flagship scheme."
+    }
+  ],
+  "reviewerNotes": "The selected questions cover the governance, economic impact, efficiency metrics, geographical distribution, and flagship schemes (Sagarmala) of the maritime sector. The 'How many' format was used for the geography question to align with current UPSC trends. All facts are strictly sourced from the provided text, including the specific LPI improvement and the status of the Vadhavan port."
+}

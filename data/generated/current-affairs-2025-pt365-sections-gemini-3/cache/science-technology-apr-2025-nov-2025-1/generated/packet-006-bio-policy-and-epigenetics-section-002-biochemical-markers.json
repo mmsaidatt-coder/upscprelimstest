@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Biochemical Markers': 1. They are primarily synthetic macromolecules introduced into the human body to track disease progression. 2. Arabitol and myo-inositol are biochemical markers used to detect kidney complications in diabetic patients. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Biochemical markers are small molecules (such as sugars, amino acids, and lipids) produced naturally during metabolic processes, not synthetic macromolecules introduced externally. Statement 2 is correct: Indian researchers have identified markers like arabitol, myo-inositol, and ribothymidine to detect kidney complications in diabetic patients.",
+      "takeaway": "Biochemical markers are naturally occurring small molecules from metabolic processes used to assess disease risks, such as detecting diabetic kidney complications.",
+      "evidenceExcerpt": "Biochemical markers are small molecules (sugars, amino acids, lipids) produced during metabolic processes used to ascertain disease risks. Components for identifying kidney complications include arabitol, myo-inositol, and ribothymidine."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "Which of the following best describes the clinical application of 'arabitol, myo-inositol, and ribothymidine' recently seen in the news?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "They are active pharmaceutical ingredients used in the treatment of multidrug-resistant tuberculosis."
+        },
+        {
+          "id": "B",
+          "text": "They are biochemical markers identified in the blood to detect kidney complications in diabetic patients."
+        },
+        {
+          "id": "C",
+          "text": "They are synthetic enzymes used in the bioremediation of oil spills in marine ecosystems."
+        },
+        {
+          "id": "D",
+          "text": "They are genetically modified proteins used to enhance the drought resistance of staple crops."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Arabitol, myo-inositol, and ribothymidine are biochemical markers (small molecules produced during metabolic processes) identified by Indian researchers to detect kidney complications in diabetic patients.",
+      "takeaway": "Specific biochemical markers like arabitol, myo-inositol, and ribothymidine are clinically significant for early detection of kidney complications in individuals with diabetes.",
+      "evidenceExcerpt": "Indian researchers identified biochemical markers in blood to detect kidney complications in diabetic patients... Components for identifying kidney complications include arabitol, myo-inositol, and ribothymidine."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Multiple Choice",
+      "prompt": "In the context of medical diagnostics, which of the following categories of naturally occurring molecules can serve as 'biochemical markers' produced during metabolic processes to ascertain disease risks? 1. Sugars 2. Amino acids 3. Lipids. Select the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2, and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Biochemical markers are small molecules produced during metabolic processes that are used to ascertain disease risks. They encompass a variety of molecular categories including sugars (e.g., arabitol), amino acids, and lipids.",
+      "takeaway": "Biochemical markers encompass a broad range of small metabolic molecules, specifically including sugars, amino acids, and lipids, which help in tracking physiological anomalies.",
+      "evidenceExcerpt": "Biochemical markers are small molecules (sugars, amino acids, lipids) produced during metabolic processes used to ascertain disease risks."
+    }
+  ]
+}

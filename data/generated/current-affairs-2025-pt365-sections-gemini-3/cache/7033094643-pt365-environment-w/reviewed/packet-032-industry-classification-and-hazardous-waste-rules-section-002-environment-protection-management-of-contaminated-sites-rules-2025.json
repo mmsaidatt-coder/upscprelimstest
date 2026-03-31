@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Multiple-Statement",
+      "prompt": "With reference to the Environment Protection (Management of Contaminated Sites) Rules, 2025, consider the following statements:\n1. If a contaminated land parcel is sold, the liability for its remediation remains exclusively with the original polluter.\n2. State Pollution Control Boards (SPCBs) are the designated authorities responsible for identifying the polluter.\n3. The initial assessment costs for contaminated sites may be covered by the Environmental Relief Fund established under the Environment (Protection) Act, 1986.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "None"
+        },
+        {
+          "id": "B",
+          "text": "Only one"
+        },
+        {
+          "id": "C",
+          "text": "Only two"
+        },
+        {
+          "id": "D",
+          "text": "All three"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Under the rules, if the contaminated land is sold, the new owner assumes liability for the pollution.\nStatement 2 is correct: State Pollution Control Boards (SPCBs) are the designated authorities to identify the polluter.\nStatement 3 is incorrect: The Environmental Relief Fund is established under the Public Liability Insurance Act, 1991, not the Environment (Protection) Act, 1986.",
+      "takeaway": "The rules introduce a 'buyer beware' approach where purchasing contaminated land transfers liability to the new owner. Additionally, the Environmental Relief Fund under the Public Liability Insurance Act, 1991 can be utilized for initial assessment costs.",
+      "evidenceExcerpt": "SPCBs identify the polluter. If land is sold, the new owner is liable... Initial assessment costs may be covered by Central Government from Environmental Relief Fund under Public Liability Insurance Act, 1991.",
+      "qualityScore": 90,
+      "reviewNotes": "Excellent conceptual question testing liability transfer, institutional roles, and statutory backing of funds. Statement 3 uses a classic UPSC trap by swapping the parent act."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-Statement",
+      "prompt": "Consider the following types of environmental contamination:\n1. Contamination from radioactive waste\n2. Contamination from mining activities\n3. Oil spills at sea\n4. Contamination from solid waste dumps\n\nHow many of the above are explicitly excluded from the purview of the Environment Protection (Management of Contaminated Sites) Rules, 2025?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "The Environment Protection (Management of Contaminated Sites) Rules, 2025 explicitly exclude contamination from radioactive waste, mining, oil spills at sea, and solid waste dumps. These are governed by their respective specialized regulatory frameworks.",
+      "takeaway": "The 2025 Rules focus primarily on hazardous substances under the Hazardous and Other Wastes Rules, 2016, leaving other specific types of contamination to specialized regimes.",
+      "evidenceExcerpt": "Exclusions: Contamination from radioactive waste, mining, oil spills at sea, and solid waste dumps...",
+      "qualityScore": 85,
+      "reviewNotes": "Good factual question testing the scope and exclusions of the newly notified rules. The options are standard UPSC 'How many' format."
+    }
+  ],
+  "reviewerNotes": "Both candidate questions were of high quality and accurately reflected the source text. They have been slightly reformatted to perfectly match the UPSC style, particularly in the prompt structure and explanation clarity."
+}

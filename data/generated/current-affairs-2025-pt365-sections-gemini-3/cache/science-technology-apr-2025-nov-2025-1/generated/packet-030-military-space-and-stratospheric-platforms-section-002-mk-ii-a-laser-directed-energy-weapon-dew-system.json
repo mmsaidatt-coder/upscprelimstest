@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Directed Energy Weapons (DEWs) in comparison to conventional kinetic weapons:\n1. Unlike conventional ballistic missiles, DEWs rely on the transfer of electromagnetic or particle energy to destroy targets.\n2. The operational range and lethality of DEWs remain unaffected by atmospheric conditions such as fog and storms.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: DEWs use concentrated electromagnetic or particle energy rather than kinetic energy to neutralize targets. Statement 2 is incorrect: The operational effectiveness of DEWs is limited by adverse weather conditions like fog and storms, as atmospheric moisture and particulates can scatter or absorb the energy beam.",
+      "takeaway": "While DEWs offer advantages over kinetic weapons by using electromagnetic/particle energy, they are susceptible to environmental factors like fog and storms.",
+      "evidenceExcerpt": "DEWs use concentrated electromagnetic or particle energy rather than kinetic energy, but are less effective in weather conditions like fog and storms."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of Directed Energy Weapon (DEW) systems and the countries associated with them:\n1. Iron Beam : Israel\n2. Peresvet : Russia\n3. Silent Hunter : United Kingdom\n4. HELIOS : United States of America\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "Only three pairs"
+        },
+        {
+          "id": "D",
+          "text": "All four pairs"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Pairs 1, 2, and 4 are correctly matched. Iron Beam is Israel's system (the first to shoot down drones with a laser). Peresvet belongs to Russia, and HELIOS belongs to the USA. Pair 3 is incorrectly matched: Silent Hunter is a Chinese system, whereas the UK's system is known as DragonFire.",
+      "takeaway": "Major global powers are actively developing DEW systems, including Israel's Iron Beam, USA's HELIOS, China's Silent Hunter, UK's DragonFire, and Russia's Peresvet.",
+      "evidenceExcerpt": "Global DEW systems include USA's HELIOS, China's Silent Hunter, UK's DragonFire, and Russia's Peresvet."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Mechanism-design",
+      "prompt": "Which of the following statements best describes the fundamental working mechanism of the Mk-II (A) system recently tested by the Defence Research and Development Organisation (DRDO)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It is a hypersonic glide vehicle that uses kinetic energy to destroy incoming ballistic missiles."
+        },
+        {
+          "id": "B",
+          "text": "It is a high-energy laser weapon system that neutralizes targets detected by radar or electro-optic systems."
+        },
+        {
+          "id": "C",
+          "text": "It is an electromagnetic railgun designed to launch projectiles at supersonic speeds without chemical propellants."
+        },
+        {
+          "id": "D",
+          "text": "It is a microwave-based area denial system used to disrupt enemy communication networks."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Mk-II (A) is an indigenous laser-directed energy weapon developed by DRDO's Centre for High Energy Systems and Sciences (CHESS). It uses an intense high-energy 30-kilowatt LASER beam to engage targets detected by radar or Electro Optic systems.",
+      "takeaway": "India's Mk-II (A) DEW is a laser-based system, distinguishing it from kinetic weapons, railguns, or purely microwave-based disruption tools.",
+      "evidenceExcerpt": "Mk-II (A) DEW was developed indigenously by DRDO's Centre for High Energy Systems and Sciences (CHESS), Hyderabad. It uses an intense high-energy 30-kilowatt LASER beam to engage targets detected by radar or Electro Optic systems."
+    }
+  ]
+}

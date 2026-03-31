@@ -1,0 +1,84 @@
+[
+  {
+    "id": "packet-018-global-missions-and-propulsion-systems-section-001-global-space-missions-other-agencies",
+    "packetId": "packet-018-global-missions-and-propulsion-systems",
+    "topic": "Space Technology",
+    "subtopic": "Global Missions and Propulsion Systems",
+    "title": "Global Space Missions (Other Agencies)",
+    "focus": "Key international space missions, their respective space agencies, and primary objectives.",
+    "pageNumbers": [
+      37
+    ],
+    "questionQuota": 3,
+    "rationale": "The table contains multiple distinct missions (Lucy, Tianwen-2, Biomass, etc.) which are highly testable as match-the-following or statement-based questions in UPSC prelims.",
+    "sectionExcerpt": "Lucy Mission (NASA): First space mission to explore Jupiter Trojan asteroids. Tianwen-2 probe (CNSA): Collect samples from asteroid 2016HO3. Biomass Mission (ESA): Map world's forests to provide measurements of forest biomass. Solar Orbiter (ESA & NASA): Close-up images of the Sun. Chandrayaan-5 / LUPEX (ISRO & JAXA): Study lunar volatile materials of the South Pole. ESCAPADE (NASA): Solar wind interaction with Mars.",
+    "evidenceBullets": [
+      "Lucy Mission (NASA) is the first space mission to explore Jupiter Trojan asteroids.",
+      "Tianwen-2 (China) aims to collect samples from asteroid 2016HO3.",
+      "Biomass Mission (ESA) carries a P-band SAR to map global forest biomass and stored carbon.",
+      "LUPEX/Chandrayaan-5 is a joint ISRO-JAXA mission to study the lunar South Pole, with ISRO building the lander and JAXA providing the rover.",
+      "ESCAPADE (NASA) investigates solar wind interactions with Mars' magnetic environment."
+    ]
+  },
+  {
+    "id": "packet-018-global-missions-and-propulsion-systems-section-002-cryogenic-engine-technology",
+    "packetId": "packet-018-global-missions-and-propulsion-systems",
+    "topic": "Space Technology",
+    "subtopic": "Global Missions and Propulsion Systems",
+    "title": "Cryogenic Engine Technology",
+    "focus": "Working principles, advantages of cryogenic and semi-cryogenic engines, and ISRO's CE20 engine.",
+    "pageNumbers": [
+      37,
+      38
+    ],
+    "questionQuota": 3,
+    "rationale": "Propulsion technology is a core UPSC science and tech topic. The distinction between cryogenic and semi-cryogenic, along with the CE20's role in Gaganyaan, provides solid ground for conceptual questions.",
+    "sectionExcerpt": "ISRO conducted the Boot-strap mode start test on CE20 Cryogenic Engine under vacuum conditions. CE20 is India's largest cryogenic engine... qualified for Gaganyaan missions. A Cryogenic engine uses both cryogenic fuel and oxidizer, liquefied at a very low temperature. Used in the last stage (or upper stage) of a rocket. Semi-cryogenic engines combine the benefits of cryogenic and conventional engines, employing a cryogenic oxidizer (e.g., Liquid Oxygen), along with a hydrocarbon-based fuel (e.g., kerosene). Advantages: superior thrust, fuel efficiency, eco-friendly (emits only steam).",
+    "evidenceBullets": [
+      "CE20 is India's largest cryogenic engine, qualified for Gaganyaan missions and powers the LVM3 upper stage.",
+      "Cryogenic engines use liquefied fuel and oxidizer at very low temperatures, typically in the upper stage of a rocket.",
+      "Semi-cryogenic engines use a cryogenic oxidizer (like Liquid Oxygen) combined with a hydrocarbon fuel (like kerosene).",
+      "Hydrogen-oxygen combustion in cryogenic engines is eco-friendly, emitting only steam."
+    ]
+  },
+  {
+    "id": "packet-018-global-missions-and-propulsion-systems-section-003-navic-navigation-with-indian-constellation",
+    "packetId": "packet-018-global-missions-and-propulsion-systems",
+    "topic": "Space Technology",
+    "subtopic": "Global Missions and Propulsion Systems",
+    "title": "NavIC (Navigation with Indian Constellation)",
+    "focus": "Architecture, coverage, and strategic advantages of NavIC, along with a comparison of global navigation systems.",
+    "pageNumbers": [
+      38
+    ],
+    "questionQuota": 4,
+    "rationale": "NavIC is a highly important indigenous technology. Details like satellite orbit types (GEO vs IGSO), frequency bands (L5, S-band), and global equivalents are frequent targets for UPSC questions.",
+    "sectionExcerpt": "NavIC (formerly IRNSS) provides accurate Position, Velocity and Timing service up to region extending about 1500 km beyond the Indian landmass. Consists of 7 satellites: 3 in geostationary orbit and 4 in inclined geosynchronous orbit. Equipped with dual-band signals (L5 and S-band). Key services: Standard Position Service (SPS) for civilian users and Restricted Service (RS) for strategic users. Global systems: GPS (US), GLONASS (Russia), Galileo (EU), BeiDou (China), QZSS (Japan).",
+    "evidenceBullets": [
+      "NavIC coverage extends up to 1500 km beyond the Indian landmass.",
+      "The constellation consists of 7 satellites: 3 in geostationary orbit and 4 in inclined geosynchronous orbit.",
+      "NavIC uses dual-band signals (L5 and S-band), with the L5 signal encrypted for military use.",
+      "It offers Standard Position Service (SPS) for civilians and Restricted Service (RS) for strategic users.",
+      "Global equivalents include GLONASS (Russia), Galileo (EU), BeiDou (China), and QZSS (Japan)."
+    ]
+  },
+  {
+    "id": "packet-018-global-missions-and-propulsion-systems-section-004-hope-analog-mission",
+    "packetId": "packet-018-global-missions-and-propulsion-systems",
+    "topic": "Space Technology",
+    "subtopic": "Global Missions and Propulsion Systems",
+    "title": "HOPE Analog Mission",
+    "focus": "ISRO's analog mission for planetary exploration in Ladakh.",
+    "pageNumbers": [
+      38
+    ],
+    "questionQuota": 1,
+    "rationale": "A brief but specific initiative by ISRO. The location (Tso Kar Valley, Ladakh) and the purpose (analog mission) are the primary testable facts.",
+    "sectionExcerpt": "ISRO inaugurated Himalayan Outpost for Planetary Exploration (HOPE) Analog Mission in Tso Kar Valley, Ladakh. A specially designed Habitat Module for crew living and a Utility Module for operations and support systems which are interconnected for seamless workflow.",
+    "evidenceBullets": [
+      "HOPE stands for Himalayan Outpost for Planetary Exploration.",
+      "It is an ISRO analog mission located in Tso Kar Valley, Ladakh.",
+      "The mission features interconnected Habitat and Utility modules for crew living and operations."
+    ]
+  }
+]

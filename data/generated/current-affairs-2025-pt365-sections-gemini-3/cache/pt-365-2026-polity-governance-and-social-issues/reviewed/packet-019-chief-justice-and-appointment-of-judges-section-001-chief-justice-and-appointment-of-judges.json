@@ -1,0 +1,98 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Polity",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the evolution of the Collegium system in India, consider the following statements:\n1. In the First Judges Case (1981), the Supreme Court ruled that the executive could refuse a judicial recommendation for 'cogent reasons'.\n2. The Second Judges Case (1993) established judicial primacy by interpreting 'consultation' as 'concurrence'.\n3. The Third Judges Case (1998) expanded the Collegium to include the Chief Justice of India and the four senior-most judges of the Supreme Court.\nWhich of the statements given above are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Statement 1 is correct: In the First Judges Case (1981), the Court gave the executive a greater say by allowing them to refuse recommendations for cogent reasons. Statement 2 is correct: The Second Judges Case (1993) reversed this, ruling that the CJI's opinion (after consulting two senior-most judges) is binding, effectively equating consultation with concurrence. Statement 3 is correct: The Third Judges Case (1998) further expanded the consultative body to the CJI and four senior-most judges.",
+      "takeaway": "The Collegium system evolved from executive primacy (1981) to judicial primacy (1993) and finally to its current five-member structure (1998).",
+      "evidenceExcerpt": "First Judges Case, 1981... giving greater say to executive. Second Judges Case, 1993... CJI only need to consult two senior-most judges... Third Judges Case, 1998: CJIs should consult with four senior-most Supreme Court judges.",
+      "qualityScore": 92,
+      "reviewNotes": "This question accurately tracks the evolution of the Collegium system as described in the text, using standard UPSC phrasing for legal cases.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Mechanism-design",
+      "prompt": "According to the Memorandum of Procedure (MoP), what is the correct sequence of the formal process for the appointment of the Chief Justice of India?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Outgoing CJI → Union Law Minister → Prime Minister → President"
+        },
+        {
+          "id": "B",
+          "text": "Union Law Minister → Outgoing CJI → Prime Minister → President"
+        },
+        {
+          "id": "C",
+          "text": "Supreme Court Collegium → Union Law Minister → Prime Minister → President"
+        },
+        {
+          "id": "D",
+          "text": "Prime Minister → Union Law Minister → Outgoing CJI → President"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "As per the Memorandum of Procedure mentioned in the text, the Union Law Minister first seeks the recommendation of the outgoing CJI. The Minister then forwards this recommendation to the Prime Minister, who subsequently advises the President on the appointment.",
+      "takeaway": "The formal appointment process for the CJI is initiated by the Union Law Minister, not the judiciary.",
+      "evidenceExcerpt": "As per the Memorandum of Procedure, the Union Law Minister first seeks recommendation of outgoing CJI, forwards it to the PM who then advises the President.",
+      "qualityScore": 88,
+      "reviewNotes": "The question tests the procedural nuances of the MoP, which is a frequent area of interest in UPSC Polity.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the powers and status of the Chief Justice of India (CJI):\n1. The CJI can call back any retired judge of the Supreme Court to sit and act as a judge with the prior permission of the President.\n2. The Office of the CJI is considered a 'public authority' under the Right to Information Act, 2005.\n3. The 'Master of the Roster' refers to the CJI's exclusive power to appoint the administrative staff of the Supreme Court.\nWhich of the statements given above are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The CJI has the power to recall retired SC judges with the President's prior permission. Statement 2 is correct: The Office of the CJI falls under the RTI Act, 2005. Statement 3 is incorrect: While the CJI does oversee the appointment of SC staff, the term 'Master of the Roster' specifically refers to the administrative power to constitute benches and allocate cases, not the appointment of staff.",
+      "takeaway": "The CJI holds both judicial and administrative powers, including the recall of retired judges and acting as the Master of the Roster.",
+      "evidenceExcerpt": "Any retired judge of the Supreme Court of India can be called back... by the Chief Justice of India with prior permission of the President... Office of CJI falls under Right to Information Act (RTI), 2005... Master of the roster.",
+      "qualityScore": 85,
+      "reviewNotes": "Distinguishes between different administrative roles of the CJI, which is a common point of confusion.",
+      "contextLines": []
+    }
+  ],
+  "reviewerNotes": "The selected questions cover the evolution of the Collegium system, the procedural aspects of the Memorandum of Procedure, the administrative powers of the CJI, and the specific constitutional articles mentioned in the text. The distractors were refined to ensure they are plausible and parallel. The difficulty levels range from Easy to Hard to provide a balanced set."
+}

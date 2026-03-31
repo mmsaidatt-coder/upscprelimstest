@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Chimeric Antigen Receptor T-cell (CAR-T) therapy:\n1. It involves extracting a patient's own T-cells and genetically modifying them to recognize and attack cancer cells.\n2. In India, it has been approved by the Central Drugs Standard Control Organisation (CDSCO) for the treatment of blood cancers.\n3. A major limitation of this therapy is 'Antigen Escape', which occurs when the patient's immune system rejects the infused CAR-T cells.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: CAR-T therapy is a personalized treatment that involves collecting a patient's own T-cells, genetically modifying them in a lab to add a Chimeric Antigen Receptor (CAR), and infusing them back to attack cancer cells.\nStatement 2 is correct: The CDSCO has approved Qartemi, a CAR T-cell therapy, specifically for treating blood cancer.\nStatement 3 is incorrect: 'Antigen Escape' does not refer to the immune system rejecting the infused cells. Rather, it is a phenomenon where the targeted tumour cells lose their specific surface antigens, allowing them to evade detection by the modified T-cells.",
+      "takeaway": "CAR-T therapy is a personalized 'living drug' for blood cancer, but it faces challenges like Cytokine Release Syndrome and Antigen Escape (where tumours lose the antigens targeted by the therapy).",
+      "evidenceExcerpt": "CAR-T therapy involves collecting a patient's T cells, genetically modifying them in a lab to add a Chimeric Antigen Receptor (CAR), and infusing them back to attack cancer cells... CDSCO approved Qartemi, a CAR T-cell therapy for treating blood cancer... Challenges include Cytokine Release Syndrome (a systemic inflammatory response) and Antigen Escape (tumors lose targeted antigens).",
+      "qualityScore": 85,
+      "reviewNotes": "Strong UPSC-style statement question. The distractor for statement 3 is highly plausible as students often confuse antigen escape with immune rejection."
+    }
+  ],
+  "reviewerNotes": "Selected 3 questions and rewrote them to align with UPSC standards. Ensured distractors are plausible and explanations are tight. The set covers the mechanism, terminology, and advantages/disadvantages of CAR-T therapy comprehensively."
+}

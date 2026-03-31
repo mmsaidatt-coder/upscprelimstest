@@ -1,0 +1,82 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-006-international-big-cat-alliance-and-small-cats-section-002-status-of-small-cats-in-india",
+    "claimType": "Factual",
+    "claimText": "India hosts 10 small cat species, with the Jungle Cat being the most widespread and the Rusty-Spotted Cat being the world's smallest.",
+    "evidenceExcerpt": "India hosts 10 small cat species; Jungle Cat is most widespread, Rusty-Spotted Cat is the world's smallest.",
+    "pageNumbers": [
+      15,
+      16
+    ],
+    "examUse": "Statement-based question on small cat diversity in India.",
+    "distractorHooks": [
+      "Swapping Jungle Cat with another species as most widespread",
+      "Claiming Rusty-Spotted Cat is a big cat"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-006-international-big-cat-alliance-and-small-cats-section-002-status-of-small-cats-in-india",
+    "claimType": "Conceptual",
+    "claimText": "Small cats possess a rigid hyoid bone that allows them to purr continuously, unlike big cats which have a flexible hyoid bone enabling them to roar.",
+    "evidenceExcerpt": "Small cats have a rigid hyoid bone (purr continuously), whereas big cats have a flexible hyoid bone (roar).",
+    "pageNumbers": [
+      15,
+      16
+    ],
+    "examUse": "Comparison question between big cats and small cats.",
+    "distractorHooks": [
+      "Reversing the hyoid bone flexibility between big and small cats",
+      "Claiming small cats can roar"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-006-international-big-cat-alliance-and-small-cats-section-002-status-of-small-cats-in-india",
+    "claimType": "Factual",
+    "claimText": "The Caracal is found only in the arid regions of Rajasthan, Gujarat, and Madhya Pradesh and is listed as Least Concern by the IUCN.",
+    "evidenceExcerpt": "Caracal (Siya Gosh) is found only in Rajasthan, Gujarat, and Madhya Pradesh (IUCN: Least Concern).",
+    "pageNumbers": [
+      15,
+      16
+    ],
+    "examUse": "Species distribution and IUCN status correct-pair question.",
+    "distractorHooks": [
+      "Claiming it is found in Northeast India or Western Ghats",
+      "Changing IUCN status to Endangered"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-006-international-big-cat-alliance-and-small-cats-section-002-status-of-small-cats-in-india",
+    "claimType": "Factual",
+    "claimText": "The Fishing cat is a wetland-dependent species with webbed hind feet, found in areas like the Sundarbans, and is listed as Vulnerable by the IUCN.",
+    "evidenceExcerpt": "Fishing cat (IUCN: Vulnerable) has webbed hind feet and is found in wetland environments like Sundarbans.",
+    "pageNumbers": [
+      15,
+      16
+    ],
+    "examUse": "Species feature and habitat matching question.",
+    "distractorHooks": [
+      "Claiming it is an arid region species",
+      "Claiming it lacks webbed feet"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-006-international-big-cat-alliance-and-small-cats-section-002-status-of-small-cats-in-india",
+    "claimType": "Factual",
+    "claimText": "All small cat species in India are protected under Schedule I of the Wildlife Protection Act (WPA).",
+    "evidenceExcerpt": "All are WPA Schedule I.",
+    "pageNumbers": [
+      15,
+      16
+    ],
+    "examUse": "Statement-based question on the legal protection status of small cats in India.",
+    "distractorHooks": [
+      "Claiming some small cats are Schedule II",
+      "Claiming small cats are not protected under WPA"
+    ]
+  }
+]

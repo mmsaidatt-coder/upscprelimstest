@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to 'Epigenetics', consider the following statements:\n\n1. It involves changes that affect gene function without altering the underlying DNA sequence.\n2. Epigenetic modifications are inherently irreversible once triggered by environmental factors.\n3. An individual's lifestyle behaviors and environmental exposures can induce epigenetic changes.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Epigenetics studies changes that affect gene function without altering the DNA sequence. Statement 2 is incorrect: Epigenetic changes are reversible, unlike permanent genetic mutations. Statement 3 is correct: Behaviors and environmental factors are known to cause these reversible epigenetic changes.",
+      "takeaway": "Epigenetics involves reversible changes to gene function, driven by environment and behavior, without changing the underlying DNA sequence itself.",
+      "evidenceExcerpt": "Epigenetics studies how behaviors and environment cause reversible changes that affect gene function without altering the DNA sequence.",
+      "qualityScore": 85,
+      "reviewNotes": "A classic UPSC-style 'How many statements' question that tests the fundamental concept of epigenetics, specifically targeting the common misconception that epigenetic changes are irreversible."
+    }
+  ],
+  "reviewerNotes": "Selected two strong statement-based questions. The first focuses purely on the conceptual understanding of epigenetics, while the second integrates the factual details of the DEEP project with the core concept of epigenetics. Both were rewritten to match the current UPSC 'How many statements are correct' format."
+}

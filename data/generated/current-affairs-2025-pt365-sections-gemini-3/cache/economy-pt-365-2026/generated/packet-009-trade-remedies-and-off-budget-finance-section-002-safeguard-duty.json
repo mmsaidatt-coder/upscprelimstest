@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Safeguard Duty':\n1. It is a WTO-compliant measure designed to protect domestic industries from a sudden and significant surge in imports.\n2. It is fundamentally a country-specific measure targeted exclusively at nations providing illegal export subsidies.\n3. The imposition of a safeguard duty is permanent until the domestic industry regains its market share.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1 and 3 only"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Safeguard duty is a WTO measure imposed to protect domestic players from a sudden and significant increase in imports. Statement 2 is incorrect: In principle, it cannot be targeted at a particular country, though individual country quotas can apply exceptionally. It is not targeted at export subsidies (which is the domain of Countervailing Duties). Statement 3 is incorrect: It generally lasts up to four years, extendable to a maximum of eight years.",
+      "takeaway": "Safeguard duties are temporary, non-discriminatory WTO measures meant to provide a domestic industry time to adjust to a sudden surge in imports.",
+      "evidenceExcerpt": "Safeguard Duty is a WTO measure imposed to protect domestic players from a sudden and significant increase in imports. In principle, it cannot be targeted at a particular country... It generally lasts up to four years, extendable to eight years."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Multiple Choice",
+      "prompt": "With reference to 'Safeguard Duty' in international trade, which of the following statements is correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It is a unilateral measure outside the WTO framework used to restrict imports from developing nations."
+        },
+        {
+          "id": "B",
+          "text": "It is primarily designed to penalize foreign companies that export products below their domestic market value."
+        },
+        {
+          "id": "C",
+          "text": "Its imposition generally lasts up to four years and can be extended to a maximum of eight years."
+        },
+        {
+          "id": "D",
+          "text": "It is strictly prohibited from utilizing individual country quotas under any circumstances."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Option C is correct: Safeguard duty generally lasts up to four years, extendable to a maximum of eight years. Option A is incorrect as it is a recognized WTO measure. Option B describes Anti-Dumping Duty, not Safeguard Duty. Option D is incorrect because individual country quotas can apply under exceptional disproportionate import increases.",
+      "takeaway": "Safeguard duties are time-bound trade remedies (4 to 8 years) under the WTO, designed to counter import surges rather than unfair pricing practices like dumping.",
+      "evidenceExcerpt": "Safeguard Duty is a WTO measure imposed to protect domestic players from a sudden and significant increase in imports... It generally lasts up to four years, extendable to eight years."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "While Safeguard Duties under the WTO are generally applied in a non-discriminatory manner, which of the following best describes the mechanism of 'individual country quotas' within this framework?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "They are applied as a standard procedure to limit imports from all trading partners equally for a maximum period of eight years."
+        },
+        {
+          "id": "B",
+          "text": "They are utilized only in exceptional circumstances where there is a disproportionate increase in imports from specific countries."
+        },
+        {
+          "id": "C",
+          "text": "They are mandatory restrictions imposed exclusively on developing nations to prevent sudden surges in their export volumes."
+        },
+        {
+          "id": "D",
+          "text": "They are permanent quantitative restrictions placed on countries that repeatedly violate WTO safeguard principles."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "While safeguard duties are generally non-discriminatory, the WTO allows for an exception. Individual country quotas can be applied specifically in exceptional circumstances where there is a disproportionate increase in imports from certain countries. They are neither standard procedure, mandatory for developing nations, nor permanent.",
+      "takeaway": "The WTO framework allows for flexibility in Safeguard Duties; while non-discriminatory in principle, exceptional disproportionate import surges can trigger specific individual country quotas.",
+      "evidenceExcerpt": "In principle, it cannot be targeted at a particular country, though individual country quotas apply under exceptional disproportionate import increases."
+    }
+  ]
+}

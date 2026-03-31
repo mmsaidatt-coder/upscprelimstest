@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to Metal-Organic Frameworks (MOFs), consider the following statements: 1. They are composed of metal ions acting as links and organic carbon-based molecules acting as joints. 2. They are highly porous materials containing internal cavities. 3. They can form one, two, or three-dimensional network structures. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: In MOFs, metal ions act as joints (not links) and organic carbon-based molecules act as links (not joints). Statement 2 is correct: The network structures of MOFs contain cavities, making the material highly porous. Statement 3 is correct: They join through chemical bonds to form 1D, 2D, or 3D network structures.",
+      "takeaway": "Metal-Organic Frameworks (MOFs) are highly porous materials made of metal ions (joints) and organic molecules (links) that form 1D, 2D, or 3D network structures.",
+      "evidenceExcerpt": "MOFs are special materials made of metal ions (acting as joints) and organic carbon-based molecules (acting as links). They join through chemical bonds to form 1D, 2D, or 3D network structures. These structures contain cavities, making the material highly porous.",
+      "qualityScore": 85,
+      "reviewNotes": "A classic UPSC-style statement question that tests the structural details of MOFs, including a common trap (swapping joints and links)."
+    }
+  ],
+  "reviewerNotes": "Selected two distinct question formats from the candidate set. The first tests the specific structural characteristics of MOFs using a statement-based format with a classic 'swap' trap. The second is a straightforward definition-based question contextualized by the recent Nobel Prize, which is highly relevant for UPSC Prelims."
+}

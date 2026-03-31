@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the National Air Quality Index (AQI):\n\n1. It categorizes air quality into six distinct ranges, with 'Severe' being the highest category.\n2. Ammonia and Lead are among the pollutants monitored for calculating the index.\n3. Carbon dioxide is measured under the AQI to account for greenhouse gas emissions.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The AQI categorizes air quality into six ranges: Good (0-50), Satisfactory (51-100), Moderate (101-200), Poor (201-300), Very Poor (300-400), and Severe (>400).\nStatement 2 is correct: The AQI monitors exactly eight pollutants, which include Ammonia (NH3) and Lead (Pb), along with PM10, PM2.5, NO2, SO2, CO, and O3.\nStatement 3 is incorrect: Carbon dioxide (CO2) is a greenhouse gas but is not among the eight local air pollutants monitored for AQI calculation.",
+      "takeaway": "The National AQI is based on 6 categories and 8 specific pollutants. It focuses on local air quality and health impacts rather than global warming, which is why greenhouse gases like CO2 and Methane are excluded.",
+      "evidenceExcerpt": "AQI categorizes air quality into six ranges: Good (0-50), Satisfactory (51-100), Moderate (101-200), Poor (201-300), Very Poor (300-400), and Severe (>400). Monitored Pollutants: PM10, PM2.5, NO2, SO2, CO, O3, NH3, Pb.",
+      "qualityScore": 88,
+      "reviewNotes": "Rewritten to match the current UPSC trend of 'How many statements are correct'. The distractors are plausible, testing the common confusion between local air pollutants and greenhouse gases."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice - How Many",
+      "prompt": "With reference to the National Air Quality Index (AQI), consider the following gases/pollutants:\n\n1. Ozone\n2. Lead\n3. Ammonia\n4. Methane\n5. Carbon monoxide\n\nHow many of the above are explicitly monitored under the AQI framework?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only two"
+        },
+        {
+          "id": "B",
+          "text": "Only three"
+        },
+        {
+          "id": "C",
+          "text": "Only four"
+        },
+        {
+          "id": "D",
+          "text": "All five"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The National Air Quality Index (AQI) monitors exactly eight pollutants to calculate air quality. These are Particulate Matter (PM10 and PM2.5), Nitrogen Dioxide (NO2), Sulphur Dioxide (SO2), Carbon Monoxide (CO), Ozone (O3), Ammonia (NH3), and Lead (Pb). Methane (CH4) is a greenhouse gas and is not monitored under the AQI. Therefore, exactly four of the listed items (Ozone, Lead, Ammonia, and Carbon monoxide) are monitored.",
+      "takeaway": "While PM2.5 and PM10 are the most frequently discussed pollutants, the AQI framework is comprehensive and explicitly includes secondary pollutants like Ozone (O3), as well as Ammonia (NH3), Carbon monoxide (CO), and heavy metals like Lead (Pb).",
+      "evidenceExcerpt": "Monitored Pollutants: PM10, PM2.5, NO2, SO2, CO, O3, NH3, Pb.",
+      "qualityScore": 85,
+      "reviewNotes": "Adapted from Candidate 4. Added Methane as a distractor to make the 'How many' format more challenging and aligned with UPSC's habit of mixing greenhouse gases with AQI pollutants."
+    }
+  ],
+  "reviewerNotes": "Selected two strong questions that test the core facts of the AQI framework (categories and monitored pollutants). Rewrote them to strictly adhere to the latest UPSC 'How many' pattern, ensuring distractors are logical and test conceptual clarity between air pollutants and greenhouse gases."
+}

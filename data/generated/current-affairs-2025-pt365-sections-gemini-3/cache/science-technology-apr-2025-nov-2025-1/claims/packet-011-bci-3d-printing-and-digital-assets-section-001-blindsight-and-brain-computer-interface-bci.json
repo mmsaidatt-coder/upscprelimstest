@@ -1,0 +1,50 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-011-bci-3d-printing-and-digital-assets-section-001-blindsight-and-brain-computer-interface-bci",
+    "claimType": "Technology Function",
+    "claimText": "The Blindsight chip is a Brain-Computer Interface (BCI) implant designed to restore vision by bypassing the retina.",
+    "evidenceExcerpt": "Blindsight is a BCI implant aiming to restore vision by bypassing the retina.",
+    "pageNumbers": [
+      23
+    ],
+    "examUse": "Statement-based question on the application and mechanism of emerging BCI technologies.",
+    "distractorHooks": [
+      "Repairs the retina instead of bypassing it",
+      "Bypasses the visual cortex",
+      "Designed to restore hearing"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-011-bci-3d-printing-and-digital-assets-section-001-blindsight-and-brain-computer-interface-bci",
+    "claimType": "Mechanism",
+    "claimText": "The Blindsight implant restores vision by directly stimulating the visual cortex using a microelectrode array.",
+    "evidenceExcerpt": "It directly stimulates the visual cortex... It consists of a microelectrode array embedded in the visual cortex capable of stimulating neurons.",
+    "pageNumbers": [
+      23
+    ],
+    "examUse": "Statement-based question on how the Blindsight BCI interacts with the human brain.",
+    "distractorHooks": [
+      "Stimulates the optic nerve directly",
+      "Uses optical sensors instead of microelectrodes",
+      "Embedded in the retina"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-011-bci-3d-printing-and-digital-assets-section-001-blindsight-and-brain-computer-interface-bci",
+    "claimType": "Biological Concept",
+    "claimText": "The visual cortex is the outermost layer of nerve cell tissues responsible for processing visual data.",
+    "evidenceExcerpt": "It directly stimulates the visual cortex, the outermost layer of nerve cell tissues responsible for processing visual data.",
+    "pageNumbers": [
+      23
+    ],
+    "examUse": "Basic science statement paired with technology questions on BCI.",
+    "distractorHooks": [
+      "Innermost layer of nerve cell tissues",
+      "Responsible for processing auditory data",
+      "Located within the eye structure"
+    ]
+  }
+]

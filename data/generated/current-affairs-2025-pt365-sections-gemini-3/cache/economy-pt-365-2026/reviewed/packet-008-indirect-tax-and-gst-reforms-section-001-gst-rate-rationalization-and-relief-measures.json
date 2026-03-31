@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the recent Goods and Services Tax (GST) rate rationalization:\n1. The GST rate structure has been simplified into a two-slab system of 5% and 18%.\n2. The compensation cess on 'sin' goods has been replaced by a 40% Special De-Merit Rate.\n3. The rationalization has effectively shifted the median tax rate from 12% to 5%.\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: The GST rate structure has been rationalized into a two-slab system of 5% and 18%, removing the earlier 12% and 28% rates. Statement 2 is correct: A 40% Special De-Merit Rate now applies to 'sin' goods and select luxuries, replacing the earlier compensation cess levy. Statement 3 is correct: As a result of these structural changes, the median tax rate has effectively moved from 12% to 5%.",
+      "takeaway": "The GST rate rationalization simplified the structure to 5% and 18%, replaced the compensation cess with a 40% Special De-Merit Rate, and reduced the median tax rate to 5%.",
+      "evidenceExcerpt": "Two-slab system of 5% and 18%, removing the earlier 12% and 28% rate. A 40% Special De-Merit Rate applies to 'sin' goods and select luxuries, replacing the compensation cess levy. The median tax rate effectively moves from 12% to 5%.",
+      "qualityScore": 85,
+      "reviewNotes": "Rewrote to use the 'How many statements' format typical of recent UPSC Prelims. The statements accurately reflect the macro-level changes in the GST structure."
+    }
+  ],
+  "reviewerNotes": "Selected and refined two questions to cover the macro-level structural changes to the GST framework and the micro-level slab adjustments for specific goods and services. Avoided generating a third question to prevent factual overlap, ensuring both selected questions remain distinct and high-quality."
+}

@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the regulation of deepfakes and synthetic media in India, consider the following statements:\n1. India has enacted a dedicated legislation specifically to penalize the creation of deepfakes.\n2. The creation of deepfakes involving the non-consensual use of personal data is penalized under the Digital Personal Data Protection (DPDP) Act, 2023.\n3. The proposed amendments to the Information Technology Rules, 2021 mandate digital platforms to label Synthetically Generated Information (SGI).\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: India currently lacks specific laws dedicated solely to deepfakes.\nStatement 2 is correct: In the absence of specific laws, deepfakes are regulated via the DPDP Act 2023, which penalizes the non-consensual use of personal data.\nStatement 3 is correct: Proposed amendments to the IT Rules 2021 mandate platforms to label or provide metadata for Synthetically Generated Information (SGI).",
+      "takeaway": "While India lacks a specific deepfake law, it utilizes the DPDP Act 2023 to penalize non-consensual personal data use and proposes amendments to the IT Rules 2021 to mandate labelling of Synthetically Generated Information (SGI).",
+      "evidenceExcerpt": "India lacks specific deepfake laws but regulates them via the DPDP Act 2023 (penalizing non-consensual use of personal data) and proposed amendments to the IT Rules 2021, which mandate labelling or metadata for Synthetically Generated Information (SGI).",
+      "qualityScore": 88,
+      "reviewNotes": "Excellent regulatory question using the 'How many statements' format. Accurately reflects the current legal landscape as per the text."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the technologies often used in the creation of 'Deepfakes':\n1. Generative Adversarial Networks (GANs) employ a dual-network architecture where one network generates synthetic data and the other detects flaws in it.\n2. Autoencoders are utilized to reconstruct input data from simpler representations.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Generative Adversarial Networks (GANs) consist of a Generator that creates synthetic data and an Adversary that detects flaws in the generated data.\nStatement 2 is correct: Autoencoders are used in deepfake creation to reconstruct input from simpler representations.",
+      "takeaway": "Deepfakes rely on AI technologies like Autoencoders (for reconstructing input from simpler representations) and GANs (which pit a Generator against an Adversary to create highly realistic synthetic media).",
+      "evidenceExcerpt": "Deepfakes involve replacing faces and synthesizing speech using technologies like Autoencoders and Generative Adversarial Networks (GANs), which consist of a Generator and an Adversary.\n- Autoencoders reconstruct input from simpler representations.\n- GANs utilize a Generator to create data and an Adversary to detect flaws.",
+      "qualityScore": 85,
+      "reviewNotes": "Clear, concise, and tests the technical definitions provided in the text without being overly complex. Wording has been refined to match UPSC standards."
+    }
+  ],
+  "reviewerNotes": "Selected three distinct questions. Q1 tests the technical understanding of GANs and Autoencoders. Q2 tests the regulatory framework (DPDP Act and IT Rules). Q3 is a classic UPSC-style 'under which rules/act' question focusing on the specific mandate for labelling SGI."
+}

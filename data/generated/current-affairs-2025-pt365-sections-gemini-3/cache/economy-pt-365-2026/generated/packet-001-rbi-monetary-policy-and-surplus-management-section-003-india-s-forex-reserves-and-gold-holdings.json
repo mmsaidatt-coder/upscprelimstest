@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-Statement",
+      "prompt": "Consider the following macroeconomic components:\n1. Foreign Currency Assets\n2. Special Drawing Rights\n3. Foreign Direct Investment\n4. Reserve Tranche Position\n5. Gold Reserves\n\nHow many of the above are official components of India's Foreign Exchange Reserves?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only two"
+        },
+        {
+          "id": "B",
+          "text": "Only three"
+        },
+        {
+          "id": "C",
+          "text": "Only four"
+        },
+        {
+          "id": "D",
+          "text": "All five"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "India's Foreign Exchange Reserves consist of exactly four components: Foreign Currency Assets (FCA), Gold Reserves, Special Drawing Rights (SDR), and the Reserve Tranche Position (RTP) with the IMF. Foreign Direct Investment (FDI) represents private or corporate investment flows into the country and is not a component of the central bank's official foreign exchange reserves.",
+      "takeaway": "Forex reserves are sovereign assets managed by the RBI. They strictly comprise FCA, Gold, SDRs, and RTP. Private capital flows like FDI or FPI are not reserve assets.",
+      "evidenceExcerpt": "Components of Foreign Exchange Reserves: Foreign Currency Assets (FCA)... Gold Reserves... Holdings with IMF... Special Drawing Rights... Reserve Tranche Position (RTP)..."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the gold holdings in India's foreign exchange reserves, consider the following statements:\n1. Gold currently constitutes more than half of India's total foreign exchange reserves.\n2. Central banks accumulate gold primarily to earn a high regular yield on their sovereign assets.\n3. Increasing gold reserves helps a central bank in de-dollarization and hedging against inflation.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "3 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Gold reserves constitute nearly 15% of India's foreign reserves, not more than half. Foreign Currency Assets (FCA) make up the vast majority. Statement 2 is incorrect: One of the primary risks of storing gold is that it provides a 'zero yield', unlike foreign sovereign bonds which pay interest. Statement 3 is correct: The RBI increases gold reserves for diversification (de-dollarization), risk mitigation, and as a hedge against inflation.",
+      "takeaway": "While gold is a crucial hedge against inflation and currency risks (de-dollarization), it is a non-yielding asset that makes up roughly 15% of India's forex reserves.",
+      "evidenceExcerpt": "According to the Reserve Bank of India's (RBI) latest foreign exchange reserves data, gold reserves have reached to $102.3 billion. This has taken the share of the gold in the foreign reserves to nearly 15%... Why is RBI increasing gold reserves? Diversification (de-dollarization)... Risk Mitigation... Hedge against Inflation... Risk Associated with Storing Gold: Reduced Liquidity and Flexibility... Zero Yield..."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements comparing gold and Foreign Currency Assets (FCAs) within a central bank's foreign exchange reserves:\n\n1. Unlike FCAs, which can generate interest income, physical gold holdings typically offer a zero regular yield.\n2. Gold acts as a hedge to preserve purchasing power during high global inflation, whereas the real value of fiat-currency assets tends to erode.\n3. Gold provides greater immediate liquidity and flexibility than FCAs for a central bank to intervene in the foreign exchange market.\n\nWhich of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2, and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Storing physical gold involves a zero yield, unlike FCAs (such as sovereign bonds) which can earn regular interest. Statement 2 is correct: Central banks accumulate gold to hedge against inflation and preserve value when fiat currencies depreciate. Statement 3 is incorrect: A primary risk of storing gold is its reduced liquidity and flexibility compared to FCAs, making it harder to use for immediate foreign exchange market interventions.",
+      "takeaway": "While gold serves as an effective inflation hedge and diversifies a central bank's portfolio away from fiat currencies, it suffers from zero yield and reduced liquidity compared to Foreign Currency Assets.",
+      "evidenceExcerpt": "Why is RBI increasing gold reserves? Diversification... Risk Mitigation... Hedge against Inflation... Risk Associated with Storing Gold: Reduced Liquidity and Flexibility... Zero Yield..."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "In the context of macroeconomic management, which of the following best describes the primary trade-off a central bank accepts when shifting a portion of its foreign exchange reserves from fiat currencies to physical gold?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It sacrifices protection against inflation in exchange for higher regular interest yields."
+        },
+        {
+          "id": "B",
+          "text": "It sacrifices immediate liquidity and yield generation in exchange for diversification and inflation hedging."
+        },
+        {
+          "id": "C",
+          "text": "It sacrifices sovereign diversification in exchange for lower storage and security costs."
+        },
+        {
+          "id": "D",
+          "text": "It sacrifices the ability to hold Special Drawing Rights (SDRs) in exchange for greater market flexibility."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Increasing gold reserves provides a central bank with diversification (de-dollarization) and acts as a hedge against inflation. However, the trade-off involves accepting inherent risks such as reduced liquidity, zero yield, and high storage and security costs.",
+      "takeaway": "Holding gold is a defensive strategy that prioritizes risk mitigation and inflation protection over liquidity and regular yield.",
+      "evidenceExcerpt": "Why is RBI increasing gold reserves? Diversification... Risk Mitigation... Hedge against Inflation... Risk Associated with Storing Gold: Reduced Liquidity and Flexibility... Zero Yield..."
+    }
+  ]
+}

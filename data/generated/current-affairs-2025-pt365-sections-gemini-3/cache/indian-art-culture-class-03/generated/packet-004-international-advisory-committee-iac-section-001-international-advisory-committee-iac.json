@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "History",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Regarding the operational cycle and evaluation process of the International Advisory Committee (IAC), which of the following statements is correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The IAC meets annually to finalize inscription decisions for the Memory of the World Register."
+        },
+        {
+          "id": "B",
+          "text": "Decisions regarding inscriptions are typically made during biennial meetings held in odd-numbered years."
+        },
+        {
+          "id": "C",
+          "text": "The IAC evaluates nominations based solely on the physical conservation status of the documentary heritage."
+        },
+        {
+          "id": "D",
+          "text": "The first session of the IAC was held in Paris, France, to establish the programme's headquarters."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Option B is correct as the IAC holds biennial meetings in odd-numbered years for inscription decisions. Option A is incorrect because meetings are biennial, not annual. Option C is incorrect because the IAC examines full documentation including description, origin, world significance, and conservation, not just conservation. Option D is incorrect because the 1st session was held in Pułtusk, Poland, in 1993.",
+      "takeaway": "The Memory of the World inscription cycle follows a biennial pattern specifically aligned with odd-numbered years.",
+      "evidenceExcerpt": "Biennial meetings in odd-numbered years for inscription decisions. ... 1st | 1993 Sept 12-14 | Pułtusk, Poland. ... Examines full documentation (description, origin, world significance, conservation).",
+      "contextLines": []
+    },
+    {
+      "subject": "History",
+      "difficulty": "Hard",
+      "questionType": "Functional Analysis",
+      "prompt": "In the context of the Memory of the World Programme, which of the following best describes the functional relationship between the International Advisory Committee (IAC) and the Executive Board of UNESCO?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The IAC acts as a technical advisory body that evaluates documentation and provides recommendations, while the Executive Board holds the decision-making power for inscriptions."
+        },
+        {
+          "id": "B",
+          "text": "The Executive Board serves as the primary body for examining the origin and world significance of heritage, while the IAC manages the financial frameworks."
+        },
+        {
+          "id": "C",
+          "text": "The IAC is a sub-committee of the Executive Board that directly implements conservation projects at the site level."
+        },
+        {
+          "id": "D",
+          "text": "The Executive Board appoints the Director-General, who then acts as the sole arbiter for the IAC's technical policy formulations."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "The IAC is the primary advisory body for the programme. Its role is to examine full documentation (including world significance and conservation) and recommend items to the Executive Board. The Executive Board is the body to which these recommendations are made for the final inscription decision.",
+      "takeaway": "The IAC provides the technical expertise and evaluation, but the Executive Board retains the formal authority for inscriptions.",
+      "evidenceExcerpt": "The IAC: Examines full documentation (description, origin, world significance, conservation). Recommends items for inscription to the Executive Board of UNESCO.",
+      "contextLines": []
+    },
+    {
+      "subject": "History",
+      "difficulty": "Moderate",
+      "questionType": "Feature-matching",
+      "prompt": "The International Advisory Committee (IAC) of the Memory of the World Programme evaluates documentary heritage based on which of the following criteria?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Economic value and tourism potential"
+        },
+        {
+          "id": "B",
+          "text": "World significance and conservation status"
+        },
+        {
+          "id": "C",
+          "text": "Geopolitical alignment and diplomatic origin"
+        },
+        {
+          "id": "D",
+          "text": "Technological innovation and digital accessibility"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "According to the programme's process, the IAC examines full documentation which specifically includes the description, origin, world significance, and conservation of the documentary heritage.",
+      "takeaway": "World significance and conservation are core technical pillars for the IAC's evaluation process.",
+      "evidenceExcerpt": "The IAC: Examines full documentation (description, origin, world significance, conservation).",
+      "contextLines": []
+    }
+  ]
+}

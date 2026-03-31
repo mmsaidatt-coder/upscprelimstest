@@ -1,0 +1,50 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-001-gene-editing-techniques-section-004-glowcas9-and-epigenome-editing",
+    "claimType": "Factual",
+    "claimText": "GlowCas9 is a luminescent CRISPR protein developed by the Bose Institute that emits light during gene editing.",
+    "evidenceExcerpt": "GlowCas9 was developed by scientists at the Bose Institute (DST). It is a CRISPR protein fused with nano-luciferase fragments from deep-sea shrimp that emits light when performing gene editing.",
+    "pageNumbers": [
+      6
+    ],
+    "examUse": "Statement-based question on recent indigenous biotechnology developments.",
+    "distractorHooks": [
+      "Developed by IISc or CSIR",
+      "Emits radiation instead of light",
+      "Used for protein synthesis instead of gene editing"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-001-gene-editing-techniques-section-004-glowcas9-and-epigenome-editing",
+    "claimType": "Factual",
+    "claimText": "The luminescent property of GlowCas9 is achieved by fusing a CRISPR protein with nano-luciferase fragments derived from deep-sea shrimp.",
+    "evidenceExcerpt": "It is a CRISPR protein fused with nano-luciferase fragments from deep-sea shrimp that emits light when performing gene editing.",
+    "pageNumbers": [
+      6
+    ],
+    "examUse": "Correct-pair question matching biotech tools with their biological sources.",
+    "distractorHooks": [
+      "Derived from fireflies",
+      "Derived from jellyfish",
+      "Uses synthetic chemical dyes"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-001-gene-editing-techniques-section-004-glowcas9-and-epigenome-editing",
+    "claimType": "Conceptual",
+    "claimText": "Epigenome editing regulates gene expression by modifying the epigenome without altering the underlying DNA sequence.",
+    "evidenceExcerpt": "Epigenome editing regulates gene expression by modifying the epigenome without changing the actual DNA sequence.",
+    "pageNumbers": [
+      6
+    ],
+    "examUse": "Comparison question distinguishing epigenome editing from traditional gene editing techniques that alter DNA sequences.",
+    "distractorHooks": [
+      "Alters the underlying DNA sequence",
+      "Involves the insertion of foreign DNA",
+      "Causes permanent mutations in the genetic code"
+    ]
+  }
+]

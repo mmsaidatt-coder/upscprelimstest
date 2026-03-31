@@ -13,10 +13,12 @@ import {
 } from "@/lib/exam";
 import { getAttempts, getNotebookEntries, subscribeToStorage } from "@/lib/storage";
 import type { AttemptRecord, NotebookEntry } from "@/lib/types";
+import { createClient } from "@/lib/supabase/client";
 
 export function DashboardOverview() {
   const [attempts, setAttempts] = useState<AttemptRecord[]>([]);
   const [notebookEntries, setNotebookEntries] = useState<NotebookEntry[]>([]);
+  const [isAuthenticated, setIsAuthenticated] = useState<boolean | null>(null);
 
   const latestAttempt = attempts[0] ?? null;
   const latestScoredAttempt = attempts.find((attempt) => attempt.score !== null) ?? null;
@@ -30,6 +32,11 @@ export function DashboardOverview() {
   const [hydrated, setHydrated] = useState(false);
 
   useEffect(() => {
+    const supabase = createClient();
+    supabase.auth.getUser().then(({ data }) => {
+      setIsAuthenticated(!!data.user);
+    });
+
     const hydrate = () => {
       setHydrated(true);
       setAttempts(getAttempts());
@@ -40,7 +47,7 @@ export function DashboardOverview() {
     return subscribeToStorage(hydrate);
   }, []);
 
-  if (!hydrated) {
+  if (!hydrated || isAuthenticated === null) {
     return (
       <section className="grid gap-4 lg:grid-cols-[1.2fr_0.8fr]">
         <div className="card h-[250px] animate-pulse bg-[var(--background-secondary)]"></div>
@@ -49,9 +56,29 @@ export function DashboardOverview() {
     );
   }
 
+  if (!isAuthenticated) {
+    return (
+      <section className="card flex flex-col items-center justify-center p-12 text-center border-dashed border-[var(--border)] bg-transparent">
+        <div className="flex h-16 w-16 items-center justify-center rounded-full bg-[var(--background-secondary)] mb-6 text-2xl">
+          🔒
+        </div>
+        <h2 className="heading text-3xl mb-3">Login to view dashboard</h2>
+        <p className="max-w-md text-[var(--muted)] mb-8 leading-7">
+          Your personal student history, test analytics, and readiness signals require an account. Login to sync your practice data securely.
+        </p>
+        <Link
+          href="/login?next=/app"
+          className="rounded-lg bg-[var(--accent)] px-6 py-3 text-sm font-bold text-[var(--foreground)] hover:bg-[var(--accent)]/90 transition-colors uppercase tracking-widest"
+        >
+          Login or Sign up
+        </Link>
+      </section>
+    );
+  }
+
   // Fresh state
   if (!latestAttempt) {
-    const firstTest = tests[0];
+    const firstTest = tests[0]!;
     return (
       <section className="grid gap-4 lg:grid-cols-[1.2fr_0.8fr]">
         <div className="card p-6">

@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Society for Worldwide Interbank Financial Telecommunication (SWIFT), consider the following statements:\n1. It is an open global standard for financial information adopted by central banks worldwide.\n2. It is a secure messaging network that facilitates global financial transactions between institutions.\n3. It is headquartered in Switzerland.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect: ISO 20022 is the open global standard for financial information, whereas SWIFT is the messaging network framework that adopts such standards.\nStatement 2 is correct: SWIFT is a secure messaging network facilitating global financial transactions between over 11,000 institutions across 200 countries.\nStatement 3 is incorrect: SWIFT was founded in 1973 and is headquartered in Belgium, not Switzerland.",
+      "takeaway": "SWIFT is a secure messaging network headquartered in Belgium, while ISO 20022 is the open global standard for financial information used within such networks.",
+      "evidenceExcerpt": "The ISO 20022 is an open global standard for financial information. About SWIFT (Society for Worldwide Interbank Financial Telecommunication) It is a secure messaging network facilitating global financial transactions between over 11,000 institutions across 200 countries. Genesis: Founded in 1973 by 239 banks from 15 countries. Headquarters: Belgium.",
+      "qualityScore": 85,
+      "reviewNotes": "Rewrote the question to include a classic UPSC trap by swapping the definition of ISO 20022 with SWIFT in Statement 1. Statement 3 tests a specific fact from the text (Belgium vs Switzerland). The distractors are now much stronger."
+    }
+  ],
+  "reviewerNotes": "Selected Candidate 1 and Candidate 3. Rewrote Candidate 1 to swap the definition of ISO 20022 with SWIFT to create a strong distractor, and changed the headquarters to Switzerland to test factual accuracy based on the text. Rewrote Candidate 3 to make the distractors more plausible and aligned with UPSC's style of testing international financial mechanisms. Both questions strictly adhere to the provided text."
+}

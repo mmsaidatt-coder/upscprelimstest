@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the RBI Integrated Ombudsman Scheme, consider the following statements:\n\n1. It integrated the erstwhile Banking Ombudsman Scheme, the Ombudsman Scheme for NBFCs, and the Ombudsman Scheme for Digital Transactions.\n2. It follows a 'One Nation One Ombudsman' approach, which makes the scheme jurisdiction-neutral for filing complaints.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Both statements are correct. The RBI Integrated Ombudsman Scheme was created by merging three previous schemes: the Banking Ombudsman Scheme (2006), the Ombudsman Scheme for NBFCs (2018), and the Ombudsman Scheme for Digital Transactions (2019). A key feature of this integrated scheme is the 'One Nation One Ombudsman' principle, which eliminates the need for a complainant to identify the specific ombudsman jurisdiction, thereby making the grievance redressal process simpler.",
+      "takeaway": "The RBI Integrated Ombudsman Scheme is a unified framework built by merging three previous schemes and operates on a jurisdiction-neutral principle to simplify grievance redressal for customers of regulated financial entities.",
+      "evidenceExcerpt": "It integrates three previous schemes: the Banking Ombudsman Scheme (2006), the Ombudsman Scheme for NBFCs (2018), and the Ombudsman Scheme for Digital Transactions (2019), adopting a 'One Nation One Ombudsman' jurisdiction-neutral approach."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Correct Statements",
+      "prompt": "Consider the following entities with respect to their coverage under the RBI Integrated Ombudsman Scheme:\n1. A Non-Banking Financial Company with an asset size of ₹90 crore.\n2. An Urban Co-operative Bank with a deposit size of ₹75 crore.\n3. A Regional Rural Bank.\n4. A Credit Information Company.\nWhich of the entities mentioned above are covered under the scheme?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2, 3 and 4 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 4 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2, 3 and 4"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect because the scheme covers Non-Banking Financial Companies (NBFCs) with an asset size of ₹100 crore or more. The given NBFC has an asset size of ₹90 crore, which is below the threshold. Statement 2 is correct as the scheme covers Urban Co-operative Banks with a deposit size of ₹50 crore or more, and ₹75 crore meets this criterion. Statements 3 and 4 are correct as the scheme explicitly includes all Regional Rural Banks (RRBs) and Credit Information Companies without any specified size threshold.",
+      "takeaway": "The RBI Integrated Ombudsman Scheme has specific eligibility criteria for certain financial institutions like NBFCs and Urban Co-operative Banks based on their asset or deposit size. It is crucial to remember these specific thresholds to determine the scheme's applicability.",
+      "evidenceExcerpt": "Covers Commercial Banks, RRBs, Urban Co-operative Banks (deposit size ₹50 crore+), NBFCs (asset size ₹100 crore+), System Participants, and Credit Information Companies."
+    }
+  ]
+}

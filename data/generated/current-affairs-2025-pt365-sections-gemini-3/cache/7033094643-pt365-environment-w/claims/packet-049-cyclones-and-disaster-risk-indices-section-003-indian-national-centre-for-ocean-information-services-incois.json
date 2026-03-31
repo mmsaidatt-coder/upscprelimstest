@@ -1,0 +1,50 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-049-cyclones-and-disaster-risk-indices-section-003-indian-national-centre-for-ocean-information-services-incois",
+    "claimType": "Institution-Feature",
+    "claimText": "The Indian National Centre for Ocean Information Services (INCOIS) is an autonomous body established under the Ministry of Earth Sciences (MoES).",
+    "evidenceExcerpt": "Established as an autonomous body in 1999 under Ministry of Earth Sciences (MoES).",
+    "pageNumbers": [
+      101
+    ],
+    "examUse": "Statement-based question identifying the nodal ministry and nature of the organization for INCOIS.",
+    "distractorHooks": [
+      "Ministry of Environment, Forest and Climate Change (MoEFCC)",
+      "Ministry of Science and Technology",
+      "Statutory body instead of autonomous body"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-049-cyclones-and-disaster-risk-indices-section-003-indian-national-centre-for-ocean-information-services-incois",
+    "claimType": "Institution-Feature",
+    "claimText": "INCOIS operates as a unit of the Earth System Science Organization (ESSO).",
+    "evidenceExcerpt": "Unit of the Earth System Science Organization (ESSO).",
+    "pageNumbers": [
+      101
+    ],
+    "examUse": "Correct-pair or statement-based question on the organizational structure and parent organizations of INCOIS.",
+    "distractorHooks": [
+      "Council of Scientific and Industrial Research (CSIR)",
+      "Indian Space Research Organisation (ISRO)",
+      "Geological Survey of India (GSI)"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-049-cyclones-and-disaster-risk-indices-section-003-indian-national-centre-for-ocean-information-services-incois",
+    "claimType": "Institution-Feature",
+    "claimText": "INCOIS provides services such as the Potential Fishing Zone (PFZ) Advisory, Tsunami Early Warning System, Ocean State Forecast, and Coral Bleaching Alerts System.",
+    "evidenceExcerpt": "Other INCOIS Services: Potential Fishing Zone (PFZ) Advisory, Tsunami Early Warning System, Ocean State Forecast (OSF), Coral Bleaching Alerts System etc.",
+    "pageNumbers": [
+      101
+    ],
+    "examUse": "Multiple-statement question asking which of the given early warning or advisory services are provided by INCOIS.",
+    "distractorHooks": [
+      "Cyclone naming and tracking (primarily done by IMD)",
+      "Earthquake monitoring (done by National Centre for Seismology)",
+      "Forest fire alerts (done by Forest Survey of India)"
+    ]
+  }
+]

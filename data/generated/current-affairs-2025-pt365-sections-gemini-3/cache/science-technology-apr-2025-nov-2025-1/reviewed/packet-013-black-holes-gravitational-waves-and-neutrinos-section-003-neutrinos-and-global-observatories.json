@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice",
+      "prompt": "In the context of particle physics, neutrinos are frequently referred to as 'ghost particles'. Which of the following best explains the reason for this?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "They are theoretical particles that decay instantly upon entering the Earth's atmosphere."
+        },
+        {
+          "id": "B",
+          "text": "They possess zero electrical charge and interact with matter exclusively via the weak nuclear force and gravity."
+        },
+        {
+          "id": "C",
+          "text": "They are the only subatomic particles capable of traveling faster than the speed of light in a vacuum."
+        },
+        {
+          "id": "D",
+          "text": "They are remnants of the Big Bang that exert a strong gravitational pull but emit no electromagnetic radiation."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Neutrinos are called 'ghost particles' because they have zero electrical charge, a tiny mass, and interact with matter only via the weak nuclear force and gravity. This allows them to pass through most matter, including entire planets, completely undisturbed and undetected.",
+      "takeaway": "The 'ghost particle' moniker stems directly from neutrinos' extremely weak interaction with normal matter, their lack of electrical charge, and their tiny mass.",
+      "evidenceExcerpt": "Neutrinos are subatomic 'ghost particles' with zero electrical charge, tiny mass, and zero size... and interact only via weak nuclear force and gravity.",
+      "qualityScore": 88,
+      "reviewNotes": "Excellent conceptual question. The distractors are well-crafted, using common misconceptions in physics (faster than light, dark matter remnants) to test genuine understanding."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Neutrinos':\n1. They are the most abundant subatomic particles in the universe.\n2. They interact with matter exclusively through the weak nuclear force and gravity.\n3. Neutrino observatories are typically built deep underground to shield detectors from interfering particles like muons.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Neutrinos are the second-most abundant particles in the universe, surpassed only by photons. Statement 2 is correct: They interact with matter only via the weak nuclear force and gravity, and are undisturbed by magnetic fields. Statement 3 is correct: Neutrino observatories are built underground because the Earth's crust helps block interfering particles like muons.",
+      "takeaway": "Neutrinos are the second-most abundant particles after photons. They interact very weakly with matter, necessitating deep underground observatories to filter out cosmic noise like muons.",
+      "evidenceExcerpt": "They are the second-most abundant particle in the universe after photons. Neutrinos interact with matter only via weak nuclear force and gravity... Neutrino observatories are built underground because the Earth's crust helps block interfering particles like muons.",
+      "qualityScore": 85,
+      "reviewNotes": "Strong UPSC-style statement question. Tests abundance, interaction properties, and the practical application of building observatories underground."
+    }
+  ],
+  "reviewerNotes": "Selected 4 questions covering the fundamental properties of neutrinos, the rationale behind underground observatories, global observatory locations, and the specific types of neutrinos. Rewrote statement-based questions to align with the latest UPSC 'How many' format where appropriate, and ensured distractors in the conceptual MCQ were highly plausible."
+}

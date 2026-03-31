@@ -1,0 +1,66 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-025-public-health-missions-and-nutrition-section-002-monoclonal-antibodies-mabs-and-nipah-virus",
+    "claimType": "Factual",
+    "claimText": "Nipah virus is a zoonotic pathogen transmitted from bats or infected animals to humans, causing severe respiratory and neurological illness.",
+    "evidenceExcerpt": "Nipah virus is a zoonotic pathogen transmitted from bats or infected animals to humans, causing severe respiratory and neurological illness.",
+    "pageNumbers": [
+      50
+    ],
+    "examUse": "Statement-based question on the transmission and symptoms of Nipah virus.",
+    "distractorHooks": [
+      "Transmitted primarily by mosquitoes",
+      "Causes only mild gastrointestinal symptoms",
+      "Is a water-borne bacterial infection"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-025-public-health-missions-and-nutrition-section-002-monoclonal-antibodies-mabs-and-nipah-virus",
+    "claimType": "Conceptual",
+    "claimText": "Monoclonal antibodies are laboratory-produced proteins engineered to bind specific antigens, mimicking natural immune responses.",
+    "evidenceExcerpt": "Monoclonal antibodies are laboratory-produced proteins engineered to bind specific antigens, mimicking natural immune responses.",
+    "pageNumbers": [
+      50
+    ],
+    "examUse": "Statement-based question on the definition and function of monoclonal antibodies.",
+    "distractorHooks": [
+      "Naturally occurring proteins extracted from plants",
+      "Engineered to bind multiple random antigens simultaneously",
+      "Live attenuated viruses used for vaccination"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-025-public-health-missions-and-nutrition-section-002-monoclonal-antibodies-mabs-and-nipah-virus",
+    "claimType": "Factual",
+    "claimText": "Monoclonal antibodies are derived from identical immune cells cloned from a single parent B-cell.",
+    "evidenceExcerpt": "Derived from identical immune cells cloned from a single parent B-cell.",
+    "pageNumbers": [
+      50
+    ],
+    "examUse": "Statement-based question on the cellular origin of monoclonal antibodies.",
+    "distractorHooks": [
+      "Derived from multiple different T-cells",
+      "Cloned from red blood cells",
+      "Extracted directly from bone marrow without cloning"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-025-public-health-missions-and-nutrition-section-002-monoclonal-antibodies-mabs-and-nipah-virus",
+    "claimType": "Factual",
+    "claimText": "Monoclonal antibodies are used to treat cancers, autoimmune disorders, and viral infections.",
+    "evidenceExcerpt": "mAbs are derived from identical immune cells cloned from a single parent B-cell and are used to treat cancers, autoimmune disorders, and viral infections.",
+    "pageNumbers": [
+      50
+    ],
+    "examUse": "Application-based question on the therapeutic uses of monoclonal antibodies.",
+    "distractorHooks": [
+      "Used exclusively for bacterial infections",
+      "Cannot be used for autoimmune disorders",
+      "Only effective against cancers"
+    ]
+  }
+]

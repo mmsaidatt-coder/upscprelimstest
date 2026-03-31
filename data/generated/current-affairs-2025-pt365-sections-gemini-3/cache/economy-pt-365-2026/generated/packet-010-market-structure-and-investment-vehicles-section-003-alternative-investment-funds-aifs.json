@@ -1,0 +1,236 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Alternative Investment Funds (AIFs) in India: 1. They are publicly pooled investment vehicles regulated by the Securities and Exchange Board of India (SEBI). 2. Category I AIFs primarily invest in start-ups, Small and Medium Enterprises (SMEs), and infrastructure. 3. Category III AIFs are permitted to use leverage and include Hedge Funds. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect because AIFs are privately pooled investment vehicles, not publicly pooled. Statements 2 and 3 are correct as per the SEBI classification of AIFs.",
+      "takeaway": "AIFs are privately pooled vehicles regulated by SEBI. Category I focuses on start-ups and infrastructure, while Category III includes leverage-using vehicles like Hedge Funds.",
+      "evidenceExcerpt": "AIFs are privately pooled investment vehicles regulated by SEBI... Category I invests in start-ups, SMEs, and infrastructure;... Category III may use leverage and includes Hedge Funds and PIPE."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "How many of the following pairs of Alternative Investment Fund (AIF) categories and their corresponding examples are correctly matched? 1. Category I AIF : Private Equity Funds. 2. Category II AIF : Debt Funds and Real Estate Funds. 3. Category III AIF : Private investment in public equity (PIPE). Select the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is incorrectly matched; Private Equity Funds fall under Category II AIFs, whereas Category I includes start-ups, SMEs, and infrastructure funds. Pairs 2 and 3 are correctly matched.",
+      "takeaway": "Category II AIFs do not use leverage and include Private Equity, Debt, and Real Estate Funds. Category III AIFs may use leverage and include Hedge Funds and PIPE.",
+      "evidenceExcerpt": "Category I invests in start-ups, SMEs, and infrastructure; Category II does not use leverage (e.g., Private Equity, Debt, Real Estate Funds); Category III may use leverage and includes Hedge Funds and PIPE."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements: 1. Alternative Investment Funds (AIFs) are regulated by the Reserve Bank of India (RBI) under the 2012 regulations. 2. The government-backed SWAMIH Fund was exempted by the RBI from its tightened AIF rules. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect because AIFs are regulated by the Securities and Exchange Board of India (SEBI), not the RBI. Statement 2 is correct; the RBI exempted the SWAMIH Fund from tightened AIF rules.",
+      "takeaway": "While AIFs are generally regulated by SEBI, the RBI also issues rules affecting AIF investments by regulated entities, from which it recently exempted the government-backed SWAMIH Fund.",
+      "evidenceExcerpt": "Alternative Investment Funds (AIFs) are privately pooled investment vehicles regulated by SEBI. RBI exempted the government-backed SWAMIH Fund from tightened AIF rules."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Assertion-Reason",
+      "prompt": "Given below are two statements, one labelled as Assertion (A) and the other as Reason (R): Assertion (A): Hedge Funds and Private Investment in Public Equity (PIPE) are classified as Category III Alternative Investment Funds (AIFs) rather than Category II. Reason (R): Unlike Category II AIFs, Category III AIFs are permitted to use leverage for their investments. In the context of the above two statements, which one of the following is correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both Assertion (A) and Reason (R) are correct and Reason (R) is the correct explanation for Assertion (A)."
+        },
+        {
+          "id": "B",
+          "text": "Both Assertion (A) and Reason (R) are correct but Reason (R) is not the correct explanation for Assertion (A)."
+        },
+        {
+          "id": "C",
+          "text": "Assertion (A) is correct but Reason (R) is incorrect."
+        },
+        {
+          "id": "D",
+          "text": "Assertion (A) is incorrect but Reason (R) is correct."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Both statements are correct. Category II AIFs do not use leverage, which is why leverage-employing vehicles like Hedge Funds and PIPE are placed in Category III. The ability to use leverage is the defining distinction between these categories.",
+      "takeaway": "The SEBI classification of AIFs distinguishes funds based on leverage. Category II (e.g., Private Equity, Debt) does not use leverage, whereas Category III (e.g., Hedge Funds, PIPE) is permitted to do so.",
+      "evidenceExcerpt": "Category II does not use leverage (e.g., Private Equity, Debt, Real Estate Funds); Category III may use leverage and includes Hedge Funds and PIPE."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Applied Scenario",
+      "prompt": "A financial institution in India intends to establish a privately pooled investment vehicle that will focus on acquiring debt assets and investing in real estate projects. The fund's mandate explicitly prohibits the use of leverage for making investments. Under the current regulatory framework, this vehicle would be classified as:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Category I Alternative Investment Fund"
+        },
+        {
+          "id": "B",
+          "text": "Category II Alternative Investment Fund"
+        },
+        {
+          "id": "C",
+          "text": "Category III Alternative Investment Fund"
+        },
+        {
+          "id": "D",
+          "text": "Infrastructure Investment Trust (InvIT)"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Category II AIFs are characterized by their inability to use leverage and include vehicles such as Private Equity Funds, Debt Funds, and Real Estate Funds.",
+      "takeaway": "Funds focusing on debt and real estate without employing leverage fall under the Category II AIF classification.",
+      "evidenceExcerpt": "Category II AIFs do not use leverage and include Private Equity Funds, Debt Funds, and Real Estate Funds."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Applied Scenario",
+      "prompt": "An institutional investor is evaluating a privately pooled fund that specializes in Private Investment in Public Equity (PIPE) and frequently employs leverage to maximize its returns. According to the regulatory classification in India, this fund falls under:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Category I Alternative Investment Fund"
+        },
+        {
+          "id": "B",
+          "text": "Category II Alternative Investment Fund"
+        },
+        {
+          "id": "C",
+          "text": "Category III Alternative Investment Fund"
+        },
+        {
+          "id": "D",
+          "text": "Venture Capital Fund"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Category III AIFs are permitted to use leverage and include complex investment vehicles such as Hedge Funds and Private Investment in Public Equity (PIPE).",
+      "takeaway": "The defining feature of Category III AIFs is their regulatory permission to use leverage, which accommodates strategies like Hedge Funds and PIPE.",
+      "evidenceExcerpt": "Category III AIFs may use leverage and include Hedge Funds and Private investment in public equity (PIPE)."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the regulatory framework governing Alternative Investment Funds (AIFs) in India, consider the following statements:\n1. AIFs are fundamentally regulated as privately pooled investment vehicles by the Securities and Exchange Board of India (SEBI).\n2. The Reserve Bank of India (RBI) has no regulatory intersection with AIFs, as they are strictly capital market instruments governed entirely by SEBI.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct; AIFs are privately pooled investment vehicles regulated by SEBI. Statement 2 is incorrect; while SEBI is the primary regulator, the RBI also intersects with AIF regulations (e.g., regulating banking sector exposure to AIFs), as evidenced by the RBI exempting the government-backed SWAMIH Fund from its tightened AIF rules.",
+      "takeaway": "Although AIFs are primarily SEBI-regulated capital market instruments, the RBI plays a crucial role in regulating the exposure of RBI-regulated entities (like banks) to these funds.",
+      "evidenceExcerpt": "Alternative Investment Funds (AIFs) are privately pooled investment vehicles regulated by SEBI. RBI exempted the government-backed SWAMIH Fund from tightened AIF rules."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Factual Application",
+      "prompt": "In the context of India's financial markets, the SWAMIH Fund is best described as:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A Category I AIF dedicated exclusively to funding early-stage technology start-ups."
+        },
+        {
+          "id": "B",
+          "text": "A government-backed Alternative Investment Fund that was exempted by the RBI from its tightened AIF rules."
+        },
+        {
+          "id": "C",
+          "text": "A Category III AIF that employs leverage to invest in distressed overseas assets."
+        },
+        {
+          "id": "D",
+          "text": "A publicly pooled mutual fund managed directly by the Reserve Bank of India."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The SWAMIH Fund is a government-backed Alternative Investment Fund. The RBI recently exempted it from its tightened AIF rules, allowing it to continue its operations without the new restrictions.",
+      "takeaway": "The SWAMIH Fund is a notable government-backed AIF that received specific regulatory exemptions from the RBI.",
+      "evidenceExcerpt": "RBI exempted the government-backed SWAMIH Fund from tightened AIF rules."
+    }
+  ]
+}

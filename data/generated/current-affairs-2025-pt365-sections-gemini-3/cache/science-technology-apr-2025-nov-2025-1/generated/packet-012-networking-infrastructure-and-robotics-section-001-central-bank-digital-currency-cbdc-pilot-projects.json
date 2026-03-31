@@ -1,0 +1,149 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Central Bank Digital Currency (CBDC) pilot projects in India: 1. The pilot projects for both retail and wholesale CBDCs are being conducted by the National Payments Corporation of India (NPCI). 2. Wholesale CBDC is designed specifically for interbank payments and securities transactions among licensed financial institutions. 3. Retail CBDC is accessible to the general public primarily through digital wallets and smartphone apps. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The Reserve Bank of India (RBI), not NPCI, is currently conducting pilot projects of two types of CBDCs. Statement 2 is correct: Wholesale CBDCs are used among banks and other licensed financial institutions for interbank payments and securities transactions. Statement 3 is correct: Retail CBDC is available to the general public via digital wallets, smartphone apps, etc.",
+      "takeaway": "The RBI conducts CBDC pilots in two categories: Retail (for the general public via apps) and Wholesale (for interbank and securities transactions among licensed institutions).",
+      "evidenceExcerpt": "The RBI is currently conducting pilot projects of two types of CBDCs - retail and wholesale. Retail CBDC: It is available to the general public via digital wallets, smartphone apps, etc. Wholesale CBDCs: Used among banks and other licensed financial institutions for interbank payments and securities transactions."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs regarding the Central Bank Digital Currency (CBDC) framework: 1. Retail CBDC : Interbank payments and securities transactions. 2. Wholesale CBDC : Available to the general public via digital wallets. 3. CBDC Pilot Authority : Reserve Bank of India. How many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Pair 1 is incorrectly matched: Retail CBDC is available to the general public via digital wallets, smartphone apps, etc. Pair 2 is incorrectly matched: Wholesale CBDC is used among banks and other licensed financial institutions for interbank payments and securities transactions. Pair 3 is correctly matched: The RBI is currently conducting pilot projects of two types of CBDCs.",
+      "takeaway": "Retail CBDC targets the general public, whereas Wholesale CBDC is restricted to interbank and securities transactions among licensed financial institutions.",
+      "evidenceExcerpt": "The RBI is currently conducting pilot projects of two types of CBDCs - retail and wholesale. Retail CBDC: It is available to the general public via digital wallets, smartphone apps, etc. Wholesale CBDCs: Used among banks and other licensed financial institutions for interbank payments and securities transactions."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "Which of the following statements best describes the primary distinction between Retail CBDC and Wholesale CBDC as per the ongoing pilot projects in India?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Retail CBDC is issued by commercial banks, whereas Wholesale CBDC is issued directly by the Reserve Bank of India."
+        },
+        {
+          "id": "B",
+          "text": "Retail CBDC is meant for transactions by the general public, whereas Wholesale CBDC is restricted to interbank payments and securities transactions."
+        },
+        {
+          "id": "C",
+          "text": "Retail CBDC requires specialized hardware tokens, whereas Wholesale CBDC is accessible via smartphone apps."
+        },
+        {
+          "id": "D",
+          "text": "Retail CBDC is used exclusively for domestic payments, whereas Wholesale CBDC is designed solely for cross-border remittances."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Retail CBDC is available to the general public via digital wallets and smartphone apps. In contrast, Wholesale CBDC is used among banks and other licensed financial institutions specifically for interbank payments and securities transactions. The other options introduce unsupported distinctions such as hardware tokens or cross-border exclusivity.",
+      "takeaway": "The core difference between the two CBDC types lies in their target users and use cases: general public everyday use (Retail) versus institutional interbank clearing (Wholesale).",
+      "evidenceExcerpt": "Retail CBDC: It is available to the general public via digital wallets, smartphone apps, etc. Wholesale CBDCs: Used among banks and other licensed financial institutions for interbank payments and securities transactions."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Application-based",
+      "prompt": "Consider the following scenarios regarding the utilization of digital currencies in India: 1. A retail customer transferring funds to a merchant using a smartphone app. 2. Two commercial banks settling obligations arising from government securities transactions. 3. A licensed financial institution executing bulk interbank payments. Which of the above scenarios represent the intended use cases for the Wholesale Central Bank Digital Currency (CBDC) as per the RBI pilot projects?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Wholesale CBDC is specifically designed for use among banks and licensed financial institutions for interbank payments and securities transactions (Scenarios 2 and 3). Retail CBDC is intended for the general public and is accessed via digital wallets and smartphone apps (Scenario 1).",
+      "takeaway": "Wholesale CBDC targets institutional use cases like interbank settlements and securities transactions, whereas Retail CBDC targets everyday transactions by the general public.",
+      "evidenceExcerpt": "Retail CBDC: It is available to the general public via digital wallets, smartphone apps, etc. Wholesale CBDCs: Used among banks and other licensed financial institutions for interbank payments and securities transactions."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Feature-matching",
+      "prompt": "With reference to the Central Bank Digital Currency (CBDC) pilot projects in India, consider the following features: 1. Accessibility restricted to licensed financial institutions. 2. Utilization for interbank payments. 3. Distribution via digital wallets for the general public. 4. Settlement of securities transactions. How many of the above features are exclusively associated with the Wholesale CBDC?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Features 1, 2, and 4 are associated with Wholesale CBDC, which is used among banks and licensed financial institutions for interbank payments and securities transactions. Feature 3 is associated with Retail CBDC, which is available to the general public.",
+      "takeaway": "Wholesale CBDC is characterized by its restricted access to financial institutions and its application in interbank and securities settlements.",
+      "evidenceExcerpt": "Retail CBDC: It is available to the general public via digital wallets, smartphone apps, etc. Wholesale CBDCs: Used among banks and other licensed financial institutions for interbank payments and securities transactions."
+    }
+  ]
+}

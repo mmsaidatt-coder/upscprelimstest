@@ -1,0 +1,236 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "statement-based",
+      "prompt": "Consider the following statements regarding geothermal resources in India:\n1. High-enthalpy geothermal resources (~200°C) are primarily suitable for direct heating applications, whereas low-to-medium enthalpy resources (100-180°C) are suited for electricity generation.\n2. The Himalayan, Naga-Lushai, and Andaman Nicobar geothermal provinces are classified as orogenic.\n3. Puga and Chumathang, identified as highly promising geothermal sites, are located in the state of Himachal Pradesh.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: High-enthalpy geothermal resources (~200°C) are suitable for electricity generation, while low-to-medium enthalpy resources (100-180°C) are suited for direct use. Statement 2 is correct: India has 10 Geothermal Provinces, out of which the Himalayan, Naga-Lushai, and Andaman Nicobar provinces are orogenic. Statement 3 is incorrect: Puga and Chumathang are located in Ladakh, not Himachal Pradesh.",
+      "takeaway": "Geothermal resource application depends on enthalpy (heat content). India's most promising sites are in Ladakh, and its geothermal provinces are geologically classified into orogenic (e.g., Himalayan) and non-orogenic types.",
+      "evidenceExcerpt": "High-enthalpy (~200°C) resources suit electricity generation; low-medium (100-180°C) suit direct use. India's potential is 10,600 MW. GSI identified 381 hot springs and 10 provinces (Himalayan, Naga-Lushai, Andaman are orogenic). Puga and Chumathang in Ladakh are promising."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "statement-based",
+      "prompt": "Consider the following statements regarding the National Policy on Geothermal Energy (NPGE) 2025:\n1. It aims to make geothermal energy a major renewable pillar to help India achieve its net-zero emissions target by 2070.\n2. Under the policy framework, development leases for geothermal projects can be granted for a maximum period of 5 years.\n3. It provides up to 100% financial assistance for government entities under the Renewable Energy Research and Technology Development (RE-RTD) programme.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: NPGE 2025 aims to make geothermal a major renewable pillar for net-zero by 2070. Statement 2 is incorrect: Exploration leases are granted for 3-5 years, whereas development leases can be granted for up to 30 years. Statement 3 is correct: Financing includes RE-RTD, offering up to 100% assistance for government entities and 70% for industry.",
+      "takeaway": "The NPGE 2025 provides a long-term leasing framework (up to 30 years for development) and robust financial support mechanisms to integrate geothermal energy into India's 2070 net-zero strategy.",
+      "evidenceExcerpt": "NPGE 2025 (MNRE) aims to make geothermal a major renewable pillar for net-zero by 2070... Financing includes RE-RTD (up to 100% for govt, 70% for industry)... Exploration leases for geothermal can be granted for 3-5 years, and development leases for up to 30 years."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "correct-pair",
+      "prompt": "Consider the following pairs regarding geothermal energy in India:\n\nGeothermal Site/Province : Characteristic / Location\n1. Puga Valley : Located in Ladakh\n2. Dirang : Site of Northeast India's first geothermal well\n3. Naga-Lushai province : Non-orogenic geothermal province\n4. Andaman Nicobar province : Orogenic geothermal province\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "Only three pairs"
+        },
+        {
+          "id": "D",
+          "text": "All four pairs"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Pair 1 is correctly matched: Puga is a promising geothermal site in Ladakh. Pair 2 is correctly matched: Dirang in Arunachal Pradesh is the site of the Northeast's first geothermal well. Pair 3 is incorrectly matched: The Naga-Lushai province is classified as an orogenic province. Pair 4 is correctly matched: The Andaman Nicobar province is an orogenic geothermal province.",
+      "takeaway": "India's geothermal provinces are divided into orogenic (Himalayan, Naga-Lushai, Andaman) and non-orogenic. Key sites include Puga and Chumathang in Ladakh, and Dirang in Arunachal Pradesh.",
+      "evidenceExcerpt": "India has 10 Geothermal Provinces; Himalayan, Naga-Lushai, and Andaman Nicobar are orogenic, while the rest are non-orogenic. Puga and Chumathang in Ladakh are promising... Northeast's 1st well at Dirang, Arunachal Pradesh."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "multiple-choice",
+      "prompt": "According to the National Policy on Geothermal Energy (NPGE) 2025, which of the following activities are covered or permitted to harness geothermal potential?\n1. Utilization of Enhanced Geothermal Systems (EGS)\n2. Extraction of geothermal energy from abandoned oil and gas wells\n3. Recovery of mineral by-products like lithium and cesium\n\nSelect the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "All three activities are covered under the NPGE 2025. The policy explicitly includes Enhanced Geothermal Systems (EGS), Advanced Geothermal Systems (AGS), the repurposing of abandoned oil and gas wells, and the recovery of critical mineral by-products such as silica, lithium, and cesium under the MMDR Act.",
+      "takeaway": "The NPGE 2025 takes a comprehensive approach to geothermal energy, extending beyond traditional hot springs to include advanced systems, abandoned hydrocarbon wells, and critical mineral extraction.",
+      "evidenceExcerpt": "It covers EGS, AGS, abandoned oil wells, and mineral by-products (silica, lithium)... NPGE 2025 allows extracting geothermal energy from abandoned oil/gas wells and recovering mineral by-products like lithium and cesium under the MMDR Act."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "statement-based",
+      "prompt": "Consider the following statements regarding the status of geothermal energy in India:\n1. India's estimated geothermal power potential is approximately 10,600 MW.\n2. The Singareni Collieries Company Limited (SCCL) has established a 20 kW geothermal pilot power plant in Telangana.\n3. The Geological Survey of India (GSI) has identified over 1,000 geothermal hot springs across the country.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: India's estimated geothermal potential is 10,600 MW. Statement 2 is correct: Recent steps include SCCL's 20 kW pilot plant in Telangana. Statement 3 is incorrect: The GSI has identified 381 hot springs, not over 1,000.",
+      "takeaway": "India possesses a significant geothermal potential of 10,600 MW mapped across 381 hot springs by the GSI. Pilot projects, such as the one by SCCL in Telangana, are marking the initial steps toward commercialization.",
+      "evidenceExcerpt": "India's potential is 10,600 MW. GSI identified 381 hot springs and 10 provinces... Recent steps include SCCL's 20 kW pilot in Telangana"
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the mechanism and design of the National Policy on Geothermal Energy (NPGE) 2025, consider the following statements:\n1. It restricts geothermal energy extraction exclusively to greenfield projects, explicitly prohibiting the repurposing of abandoned oil and gas wells.\n2. It integrates critical mineral security by permitting the recovery of by-products like lithium and cesium from geothermal fluids under the MMDR Act.\n3. It establishes a uniform lease duration for both the initial exploration phase and the subsequent commercial development phase to fast-track project commissioning.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect: The NPGE 2025 explicitly covers and allows the extraction of geothermal energy from abandoned oil and gas wells, rather than restricting it to greenfield sites.\nStatement 2 is correct: The policy permits the recovery of mineral by-products like lithium, cesium, and silica under the Mines and Minerals (Development and Regulation) Act.\nStatement 3 is incorrect: The policy differentiates between lease phases. Exploration leases are granted for 3-5 years, whereas development leases can extend up to 30 years.",
+      "takeaway": "The NPGE 2025 creates synergies with existing extractive industries by allowing the use of abandoned oil/gas wells and the extraction of critical minerals (lithium, cesium) from geothermal brines. It also structures leases logically: 3-5 years for exploration and up to 30 years for development.",
+      "evidenceExcerpt": "NPGE 2025 allows extracting geothermal energy from abandoned oil/gas wells and recovering mineral by-products like lithium and cesium under the MMDR Act. Exploration leases for geothermal can be granted for 3-5 years, and development leases for up to 30 years."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the geological classification and distribution of geothermal provinces in India:\n1. The majority of India's identified geothermal provinces are classified as orogenic in nature.\n2. The Naga-Lushai and Andaman Nicobar provinces are examples of orogenic geothermal systems.\n3. India's geothermal potential is exclusively concentrated within the Himalayan tectonic belt.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect: Out of India's 10 identified geothermal provinces, only three (Himalayan, Naga-Lushai, and Andaman Nicobar) are orogenic. The rest (the majority) are non-orogenic.\nStatement 2 is correct: The Naga-Lushai and Andaman Nicobar provinces are specifically classified as orogenic.\nStatement 3 is incorrect: Geothermal potential is distributed across 10 provinces nationwide, not exclusively in the Himalayas. For instance, SCCL has established a pilot plant in Telangana, which is outside the Himalayan belt.",
+      "takeaway": "India has 10 distinct geothermal provinces. Only the Himalayan, Naga-Lushai, and Andaman Nicobar provinces are orogenic (associated with mountain-building and plate margins), while the remaining seven are non-orogenic.",
+      "evidenceExcerpt": "India has 10 Geothermal Provinces; Himalayan, Naga-Lushai, and Andaman Nicobar are orogenic, while the rest are non-orogenic."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the operational mechanisms and recent pilot projects in India's geothermal sector:\n1. Under the Renewable Energy Research and Technology Development (RE-RTD) programme, private industries are eligible for the same level of financial assistance as government entities for geothermal research.\n2. The pilot geothermal power plant established by the Singareni Collieries Company Limited (SCCL) in Telangana demonstrates the application of geothermal energy outside the orogenic provinces.\n3. The development of Northeast India's first geothermal well at Dirang involved technological collaboration with European nations.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The RE-RTD programme provides differential funding: up to 100% financial assistance for government entities, but only up to 70% for private industry.\nStatement 2 is correct: SCCL established a 20 kW pilot plant in Telangana. Telangana is not part of the Himalayan, Naga-Lushai, or Andaman Nicobar orogenic provinces, demonstrating non-orogenic application.\nStatement 3 is correct: Northeast India's first geothermal well at Dirang, Arunachal Pradesh, was developed in collaboration with Norway and Iceland (European nations).",
+      "takeaway": "Geothermal development in India involves international collaboration (e.g., Norway and Iceland at Dirang) and differential funding mechanisms (100% for govt vs. 70% for industry under RE-RTD). Pilot projects are also expanding into non-orogenic regions like Telangana.",
+      "evidenceExcerpt": "Financing includes RE-RTD (up to 100% for govt, 70% for industry). Recent steps include SCCL's 20 kW pilot in Telangana and Northeast's 1st well at Dirang, Arunachal Pradesh, developed with Norway and Iceland."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "statement-based",
+      "prompt": "With reference to Virtual Digital Assets (VDAs) in India, consider the following statements:\n\n1. Crypto assets are currently regulated by the Reserve Bank of India.\n2. Capital gains arising from the transfer of VDAs are subject to a 30% tax.\n3. Transactions involving VDAs fall under the purview of the Prevention of Money-laundering Act (PMLA), 2002.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: In India, crypto assets are currently unregulated. Statement 2 is correct: The Finance Act 2022 imposed a 30% tax on capital gains from Virtual Digital Assets (VDAs). Statement 3 is correct: In 2023, VDAs were brought under the purview of the Prevention of Money-laundering Act (PMLA), 2002.",
+      "takeaway": "While India has not formally regulated cryptocurrencies, it has established a strict taxation framework and integrated them into the anti-money laundering (AML) regime to monitor transactions.",
+      "evidenceExcerpt": "In India, crypto assets are unregulated but taxed. The Finance Act 2022 imposed a 30% tax on capital gains from Virtual Digital Assets (VDAs), and in 2023, VDAs were brought under the Prevention of Money-laundering Act (PMLA), 2002.",
+      "qualityScore": 85,
+      "reviewNotes": "Strong UPSC-style 'how many' question testing the nuances of India's regulatory stance on cryptocurrencies."
+    }
+  ],
+  "reviewerNotes": "Selected 4 questions covering the definition of stablecoins, their types, the regulatory and taxation framework of VDAs in India, and the underlying technology of cryptocurrencies. Refined the distractors to align with UPSC standards, ensuring plausible alternatives and clear, unambiguous language."
+}

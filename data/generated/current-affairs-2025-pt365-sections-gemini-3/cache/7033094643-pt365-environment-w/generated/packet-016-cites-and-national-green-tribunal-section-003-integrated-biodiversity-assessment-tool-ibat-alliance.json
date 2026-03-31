@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "List-based",
+      "prompt": "Consider the following organizations: 1. Birdlife International 2. Conservation International 3. World Wide Fund for Nature (WWF) 4. United Nations Environment Programme - World Conservation Monitoring Centre (UNEP-WCMC) Which of the organizations given above are part of the Integrated Biodiversity Assessment Tool (IBAT) Alliance?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1, 2 and 4 only"
+        },
+        {
+          "id": "B",
+          "text": "1, 3 and 4 only"
+        },
+        {
+          "id": "C",
+          "text": "2, 3 and 4 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2, 3 and 4"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "The Integrated Biodiversity Assessment Tool (IBAT) Alliance is a coalition of four organizations: Birdlife International, Conservation International, The International Union for Conservation of Nature (IUCN), and The United Nations Environment Programme - World Conservation Monitoring Centre (UNEP-WCMC). The World Wide Fund for Nature (WWF) is not a part of this alliance.",
+      "takeaway": "The IBAT Alliance is a specific coalition comprising Birdlife International, Conservation International, IUCN, and UNEP-WCMC.",
+      "evidenceExcerpt": "A coalition of four organizations: Birdlife International, Conservation International, The International Union of Conservation for Nature (IUCN), and The United Nations Environment Programme - World Conservation Monitoring Centre (UNEP-WCMC)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Integrated Biodiversity Assessment Tool (IBAT) Alliance, consider the following statements: 1. It is a coalition that includes the International Union for Conservation of Nature (IUCN). 2. Its primary mission is to provide data and tools to help organizations act on biodiversity-related risks. 3. It was established as a legally binding treaty to enforce international environmental laws. How many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: IBAT is a coalition of four organizations, including the IUCN. Statement 2 is correct: Its mission is to provide data, tools, and guidance that help organisations act on biodiversity-related risks. Statement 3 is incorrect: It is a coalition founded in 2008 to provide data and tools, not a legally binding treaty enforcing environmental laws.",
+      "takeaway": "IBAT is a data and tool-providing coalition of four major conservation organizations, not a regulatory body or a legally binding treaty.",
+      "evidenceExcerpt": "A coalition of four organizations: Birdlife International, Conservation International, The International Union of Conservation for Nature (IUCN), and The United Nations Environment Programme - World Conservation Monitoring Centre (UNEP-WCMC). Founded in 2008. Mission: To provide data, tools and guidance that help organisations act on biodiversity-related risks."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Application",
+      "prompt": "If a multinational corporation is planning a new infrastructure project and wishes to assess the potential ecological impacts, how would the Integrated Biodiversity Assessment Tool (IBAT) Alliance most likely be utilized?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "By applying to the Alliance for a mandatory environmental clearance certificate."
+        },
+        {
+          "id": "B",
+          "text": "By accessing the Alliance's global biodiversity datasets to identify and manage environmental risks."
+        },
+        {
+          "id": "C",
+          "text": "By requesting the Alliance to deploy on-ground inspection teams to audit legal compliance."
+        },
+        {
+          "id": "D",
+          "text": "By seeking direct financial subsidies from the Alliance to offset the project's ecological footprint."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The mission of the IBAT Alliance is to provide data, tools, and guidance that help organizations act on biodiversity-related risks. It does not issue regulatory clearances, conduct on-ground compliance audits, or provide financial subsidies.",
+      "takeaway": "IBAT functions strictly as an informational and decision-support tool for organizations, rather than a regulatory or financial body.",
+      "evidenceExcerpt": "Mission: To provide data, tools and guidance that help organisations act on biodiversity-related risks."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-014-island-protection-zone-and-blue-flag-beaches-section-003-international-blue-flag-certification",
+    "claimType": "Institution/Awarding Body",
+    "claimText": "The International Blue Flag Certification is awarded by the Foundation for Environmental Education (FEE) of Denmark.",
+    "evidenceExcerpt": "Awarded by: Foundation for Environmental Education (FEE) of Denmark since 1985.",
+    "pageNumbers": [
+      31,
+      32
+    ],
+    "examUse": "Statement-based question identifying the organization responsible for the certification.",
+    "distractorHooks": [
+      "United Nations Environment Programme (UNEP)",
+      "UNESCO",
+      "Ministry of Environment, Forest and Climate Change (MoEFCC)"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-014-island-protection-zone-and-blue-flag-beaches-section-003-international-blue-flag-certification",
+    "claimType": "Scope and Criteria",
+    "claimText": "The Blue Flag Certification is an eco-label awarded to beaches, marinas, and tourism boats that meet 33 rigorous environmental, educational, and accessibility criteria.",
+    "evidenceExcerpt": "A globally recognized eco-label awarded to beaches, marinas, and tourism boats. ... Certification requires meeting 33 rigorous criteria covering accessibility, education, environmental performance, and water quality.",
+    "pageNumbers": [
+      31,
+      32
+    ],
+    "examUse": "Statement-based question testing the scope of the certification, specifically whether it applies only to beaches or includes marinas and boats.",
+    "distractorHooks": [
+      "Awarded exclusively to beaches",
+      "Awarded based solely on water quality criteria",
+      "Awarded to coastal cities rather than specific beaches or marinas"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-014-island-protection-zone-and-blue-flag-beaches-section-003-international-blue-flag-certification",
+    "claimType": "Factual/Distribution",
+    "claimText": "India currently has 18 Blue Flag beaches, with the highest number located in the state of Maharashtra.",
+    "evidenceExcerpt": "Total beaches in India: 18, highest in Maharashtra.",
+    "pageNumbers": [
+      31,
+      32
+    ],
+    "examUse": "Statement-based question on the distribution of Blue Flag beaches across Indian states.",
+    "distractorHooks": [
+      "Highest number of Blue Flag beaches is in Goa",
+      "Highest number of Blue Flag beaches is in Kerala",
+      "Highest number of Blue Flag beaches is in Gujarat"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-014-island-protection-zone-and-blue-flag-beaches-section-003-international-blue-flag-certification",
+    "claimType": "Location Matching",
+    "claimText": "Key Blue Flag beaches in India include Shivrajpur in Gujarat, Radhanagar in Andaman & Nicobar Islands, Eden in Puducherry, and Rushikonda in Andhra Pradesh.",
+    "evidenceExcerpt": "List includes Shivrajpur Beach (Gujarat), Radhanagar Beach (Andaman & Nicobar), Eden Beach (Puducherry), and Rushikonda Beach (Andhra Pradesh).",
+    "pageNumbers": [
+      31,
+      32
+    ],
+    "examUse": "Correct-pair question matching the Blue Flag beach to its respective State or Union Territory.",
+    "distractorHooks": [
+      "Shivrajpur Beach in Maharashtra",
+      "Eden Beach in Kerala",
+      "Rushikonda Beach in Odisha",
+      "Radhanagar Beach in Lakshadweep"
+    ]
+  }
+]

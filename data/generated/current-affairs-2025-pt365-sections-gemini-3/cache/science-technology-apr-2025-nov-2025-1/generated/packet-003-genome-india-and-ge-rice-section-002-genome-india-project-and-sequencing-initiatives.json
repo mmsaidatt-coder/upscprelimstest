@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Correct Pair",
+      "prompt": "Consider the following pairs of genome sequencing initiatives and their respective nodal agencies: 1. Genome India Project : Department of Biotechnology (DBT) 2. IndiGen program : Council of Scientific and Industrial Research (CSIR) 3. One Day One Genome Initiative : Indian Council of Medical Research (ICMR) How many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: The Genome India Project was initiated by the Department of Biotechnology (DBT). Pair 2 is correctly matched: The IndiGen program was initiated by the Council of Scientific and Industrial Research (CSIR). Pair 3 is incorrectly matched: The One Day One Genome Initiative was initiated by the DBT, not the ICMR. Therefore, only two pairs are correctly matched.",
+      "takeaway": "The Department of Biotechnology (DBT) leads the Genome India Project and the One Day One Genome Initiative, while CSIR leads the IndiGen program.",
+      "evidenceExcerpt": "GenomeIndia Project was initiated by the Department of Biotechnology (DBT) to map India's genetic diversity. ... IndiGen program was initiated by CSIR. One Day One Genome Initiative was initiated by DBT."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the genome sequencing initiatives in India, consider the following statements: 1. The Genome India Project is an initiative of the Council of Scientific and Industrial Research (CSIR) to map India's genetic diversity. 2. The Indian Biological Data Centre (IBDC), located at Faridabad, is India's first national life science data repository. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The Genome India Project was initiated by the Department of Biotechnology (DBT), not CSIR. Statement 2 is correct: Data from the project is stored at the Indian Biological Data Centre (IBDC) at Faridabad, which is India's first national life science data repository.",
+      "takeaway": "The Indian Biological Data Centre (IBDC) at Faridabad serves as India's first national life science data repository, storing data for initiatives like the DBT's Genome India Project.",
+      "evidenceExcerpt": "GenomeIndia Project was initiated by the Department of Biotechnology (DBT) to map India's genetic diversity. Data is stored at the Indian Biological Data Centre (IBDC) at Faridabad, India's first national life science data repository."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the International HapMap Project: 1. It is an initiative exclusively focused on mapping the genetic diversity of the Indian subcontinent. 2. It analyzes genetic variants across African, Asian, and European ancestry groups. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect and Statement 2 is correct. The International HapMap Project does not focus exclusively on the Indian subcontinent; rather, it analyzes genetic variants in African, Asian, and European ancestry groups.",
+      "takeaway": "The International HapMap Project has a global scope, analyzing genetic variants across multiple major ancestry groups including African, Asian, and European populations.",
+      "evidenceExcerpt": "International HapMap Project analyzes variants in African, Asian, and European ancestry groups."
+    }
+  ]
+}

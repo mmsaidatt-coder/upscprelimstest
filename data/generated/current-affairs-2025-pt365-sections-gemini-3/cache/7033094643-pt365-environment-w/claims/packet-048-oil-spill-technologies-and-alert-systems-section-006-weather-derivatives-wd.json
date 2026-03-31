@@ -1,0 +1,54 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-048-oil-spill-technologies-and-alert-systems-section-006-weather-derivatives-wd",
+    "claimType": "Institution",
+    "claimText": "India's first Weather Derivatives are being developed by the National Commodity and Derivatives Exchange Ltd (NCDEX) in partnership with the India Meteorological Department (IMD).",
+    "evidenceExcerpt": "India is to launch its first WD, with National Commodity and Derivatives Exchange Ltd (NCDEX) partnering with India Meteorological Department (IMD) to develop rainfall-based derivative products.",
+    "pageNumbers": [
+      99,
+      100
+    ],
+    "examUse": "Statement-based question identifying the institutions responsible for India's first Weather Derivatives.",
+    "distractorHooks": [
+      "SEBI",
+      "RBI",
+      "NABARD",
+      "Ministry of Agriculture"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-048-oil-spill-technologies-and-alert-systems-section-006-weather-derivatives-wd",
+    "claimType": "Conceptual",
+    "claimText": "Unlike traditional financial derivatives, Weather Derivatives utilize meteorological parameters such as rainfall and temperature as their underlying assets.",
+    "evidenceExcerpt": "Unlike traditional derivatives based on financial assets, WD utilise meteorological parameters, like rainfall and temperature, as underlying asset, tied to a predefined weather index.",
+    "pageNumbers": [
+      99,
+      100
+    ],
+    "examUse": "Comparison question distinguishing the underlying assets of Weather Derivatives from traditional derivatives.",
+    "distractorHooks": [
+      "Agricultural crop yield as underlying asset",
+      "Physical land as underlying asset",
+      "Traditional financial assets"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-048-oil-spill-technologies-and-alert-systems-section-006-weather-derivatives-wd",
+    "claimType": "Application",
+    "claimText": "Weather Derivatives are utilized to help farmers and allied sectors hedge against financial risks caused by irregular weather events like heatwaves and irregular rainfall.",
+    "evidenceExcerpt": "It will help farmers and allied sectors hedge against risks like irregular rainfall, heatwaves, etc.",
+    "pageNumbers": [
+      99,
+      100
+    ],
+    "examUse": "Statement-based question on the primary utility and target beneficiaries of Weather Derivatives.",
+    "distractorHooks": [
+      "Used for weather forecasting",
+      "Restricted to corporate insurance firms",
+      "Used to manipulate commodity prices"
+    ]
+  }
+]

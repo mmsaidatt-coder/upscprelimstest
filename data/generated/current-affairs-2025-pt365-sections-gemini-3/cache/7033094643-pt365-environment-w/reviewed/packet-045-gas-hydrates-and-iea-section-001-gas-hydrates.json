@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Gas Hydrates':\n1. They are crystalline solids composed of water and gas that contain large amounts of methane.\n2. They are classified as conventional hydrocarbons because they can be easily extracted using traditional drilling methods.\n3. They exist in huge quantities in marine sediments directly below the sea floor.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Gas hydrates are crystalline solids composed of water and gas, containing large amounts of methane.\nStatement 2 is incorrect: They are classified as unconventional hydrocarbons because extracting them requires advanced technologies, not traditional drilling methods.\nStatement 3 is correct: Gas hydrates exist in huge quantities in marine sediments below the sea floor.",
+      "takeaway": "Gas hydrates are unconventional hydrocarbons rich in methane, found in marine sediments and requiring advanced extraction technologies.",
+      "evidenceExcerpt": "Gas hydrates are crystalline solids composed of water and gas, containing large amounts of methane. They are classified as unconventional hydrocarbons because extracting them requires advanced technologies. They exist in huge quantities in marine sediments below the sea floor...",
+      "qualityScore": 90,
+      "reviewNotes": "Strong conceptual question testing the basic definition and classification of gas hydrates. The distractor in statement 2 effectively tests the candidate's understanding of conventional vs. unconventional hydrocarbons."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the occurrence and exploration of 'Gas Hydrates', consider the following statements:\n1. Globally, they are exclusively found within the permafrost layers of the Arctic region.\n2. In India, huge quantities of gas hydrates are located around the Andaman Islands and in the Krishna-Godavari offshore basin.\n3. China is constructing the world's first permanent undersea research station to study them.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Gas hydrates are not exclusively found in the Arctic permafrost; they also exist in huge quantities in marine sediments below the sea floor.\nStatement 2 is correct: In India, huge quantities are found around the Andaman Islands and in the Krishna-Godavari offshore basin.\nStatement 3 is correct: China is constructing the world's first permanent undersea research station to study gas hydrates.",
+      "takeaway": "Gas hydrates are found in both marine sediments and Arctic permafrost. India has significant reserves in the Andaman and KG basins, while China is leading undersea research efforts.",
+      "evidenceExcerpt": "They exist in huge quantities in marine sediments below the sea floor and within the permafrost layer in the Arctic. In India, huge quantities are found around the Andaman Islands and in Krishna-Godavari offshore. China is constructing the world's first permanent undersea research station to study them.",
+      "qualityScore": 88,
+      "reviewNotes": "Excellent factual question covering geographical distribution and current affairs related to gas hydrates. The use of 'exclusively' in statement 1 is a classic UPSC trap that rewards careful reading."
+    }
+  ],
+  "reviewerNotes": "Selected and refined two questions to cover the entire source text without overlapping facts. Q1 focuses on the composition and classification of gas hydrates, while Q2 focuses on their geographical distribution and recent international developments. Both utilize the 'How many statements are correct' format typical of recent UPSC Prelims."
+}

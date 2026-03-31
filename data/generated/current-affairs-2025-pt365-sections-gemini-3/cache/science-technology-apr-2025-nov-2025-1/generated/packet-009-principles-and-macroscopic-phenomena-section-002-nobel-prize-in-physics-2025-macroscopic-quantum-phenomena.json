@@ -1,0 +1,149 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the discoveries that led to the 2025 Nobel Prize in Physics: 1. The prize was awarded for demonstrating that quantum phenomena can only be observed in microscopic systems. 2. The laureates discovered macroscopic quantum mechanical tunnelling and energy quantisation in an electric circuit. 3. The experiments utilized a Josephson Junction, which is constructed using two superconductors separated by an insulator. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The 2025 Nobel Prize honors experiments that demonstrated how quantum phenomena can also be observed in macroscopic systems, not just microscopic ones. Statements 2 and 3 are correct: The prize was awarded for discovering macroscopic quantum mechanical tunnelling and energy quantisation using an electric circuit known as a Josephson Junction, which consists of two superconductors separated by an insulator.",
+      "takeaway": "The 2025 Nobel Prize in Physics highlights the observation of quantum phenomena in macroscopic systems using a Josephson Junction.",
+      "evidenceExcerpt": "The 2025 Nobel Prize honors experiments that demonstrated how quantum phenomena can also be observed in macroscopic systems. They built an electric circuit using two superconductors separated by an insulator - a Josephson Junction."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the principles of quantum mechanics, consider the following statements: 1. Energy quantisation implies that particles absorb and emit energy in a continuous spectrum across arbitrary energy levels. 2. Quantum tunnelling enables a particle to pass through a potential energy barrier. 3. Radioactive alpha decay is a classical example where quantum tunnelling is observed. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Quantisation of energy means particles absorb and emit energy in discrete packets (quanta) and exist only in fixed energy levels, not in a continuous spectrum. Statements 2 and 3 are correct: Quantum tunnelling allows a particle to pass through a potential energy barrier, a phenomenon classically seen in radioactive alpha decay.",
+      "takeaway": "Energy quantisation involves discrete packets of energy and fixed levels, while quantum tunnelling allows particles to cross potential energy barriers, as seen in alpha decay.",
+      "evidenceExcerpt": "Quantisation of energy means particles absorb and emit energy in discrete packets (quanta) and exist only in fixed energy levels. Quantum tunnelling allows a particle to pass through a potential energy barrier, a phenomenon classically seen in radioactive alpha decay."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to 'Cooper Pairs' in the context of quantum technologies, consider the following statements:\n1. They are charged particles that behave collectively as a single quantum particle in specific electric circuits.\n2. Their collective behavior enables the observation of quantum mechanical tunnelling in macroscopic systems like the Josephson Junction.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Both statements are correct. In macroscopic quantum systems such as the Josephson Junction, charged particles known as Cooper Pairs lose their individual behavior and act collectively as a single quantum particle. This collective behavior is what allows macroscopic electric circuits to exhibit quantum phenomena like quantum mechanical tunnelling and energy quantisation.",
+      "takeaway": "Cooper Pairs are charged particles in superconducting circuits that behave collectively as a single quantum entity, enabling macroscopic quantum phenomena.",
+      "evidenceExcerpt": "The experiment demonstrated that charged particles (Cooper Pairs) in the circuit behaved collectively as a single quantum particle."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Assertion-Reason",
+      "prompt": "Consider the following Assertion (A) and Reason (R):\n\nAssertion (A): Quantum mechanical phenomena, such as energy quantisation and tunnelling, can be observed in macroscopic electric circuits.\nReason (R): A Josephson Junction facilitates these phenomena by utilizing two insulating materials separated by a superconducting layer.\n\nWhich one of the following is correct in respect of the above statements?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both Assertion (A) and Reason (R) are correct and Reason (R) is the correct explanation for Assertion (A)"
+        },
+        {
+          "id": "B",
+          "text": "Both Assertion (A) and Reason (R) are correct but Reason (R) is not the correct explanation for Assertion (A)"
+        },
+        {
+          "id": "C",
+          "text": "Assertion (A) is correct but Reason (R) is incorrect"
+        },
+        {
+          "id": "D",
+          "text": "Assertion (A) is incorrect but Reason (R) is correct"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Assertion (A) is correct, as the 2025 Nobel Prize in Physics honored experiments demonstrating macroscopic quantum mechanical tunnelling and energy quantisation. Reason (R) is incorrect because a Josephson Junction is constructed using two superconductors separated by an insulator, not two insulators separated by a superconductor.",
+      "takeaway": "A Josephson Junction is a key component in quantum circuits, built by placing an insulating barrier between two superconducting materials.",
+      "evidenceExcerpt": "The 2025 Nobel Prize honors experiments that demonstrated how quantum phenomena can also be observed in macroscopic systems. They built an electric circuit using two superconductors separated by an insulator - a Josephson Junction."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Multiple Choice",
+      "prompt": "The 2025 Nobel Prize in Physics was awarded for experiments that demonstrated which of the following phenomena in macroscopic electric circuits?\n1. Quantum entanglement\n2. Energy quantisation\n3. Quantum mechanical tunnelling\n\nSelect the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The 2025 Nobel Prize in Physics was specifically awarded for the discovery of macroscopic quantum mechanical tunnelling and energy quantisation in an electric circuit. Quantum entanglement, while a fundamental quantum phenomenon, was not the focus of this specific award.",
+      "takeaway": "The 2025 Physics Nobel highlights that energy quantisation and quantum tunnelling are not restricted to microscopic particles but can be engineered in macroscopic circuits.",
+      "evidenceExcerpt": "John Clarke, Michel H. Devoret and John M. Martinis have been awarded Nobel Prize in Physics for the discovery of macroscopic quantum mechanical tunnelling and energy quantisation in an electric circuit."
+    }
+  ]
+}

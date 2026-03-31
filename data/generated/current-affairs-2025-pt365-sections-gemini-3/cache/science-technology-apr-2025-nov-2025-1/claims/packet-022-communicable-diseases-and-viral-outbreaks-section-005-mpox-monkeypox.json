@@ -1,0 +1,82 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-022-communicable-diseases-and-viral-outbreaks-section-005-mpox-monkeypox",
+    "claimType": "Factual",
+    "claimText": "Mpox is a viral zoonotic disease caused by the Monkeypox virus belonging to the Orthopoxvirus genus.",
+    "evidenceExcerpt": "Mpox is a viral zoonotic disease caused by a virus of the Orthopoxvirus genus.",
+    "pageNumbers": [
+      45
+    ],
+    "examUse": "Statement-based question on the causative agent and nature of the disease.",
+    "distractorHooks": [
+      "Bacterial disease",
+      "Fungal infection",
+      "Parapoxvirus genus",
+      "Non-zoonotic disease"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-022-communicable-diseases-and-viral-outbreaks-section-005-mpox-monkeypox",
+    "claimType": "Factual",
+    "claimText": "Mpox is transmitted through close contact with infected entities.",
+    "evidenceExcerpt": "It transmits through close contact with infected entities.",
+    "pageNumbers": [
+      45
+    ],
+    "examUse": "Statement-based question on the modes of transmission for viral diseases.",
+    "distractorHooks": [
+      "Exclusively airborne transmission",
+      "Waterborne transmission",
+      "Vector-borne transmission via mosquitoes"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-022-communicable-diseases-and-viral-outbreaks-section-005-mpox-monkeypox",
+    "claimType": "Factual",
+    "claimText": "Diagnostic testing for Mpox is conducted using RT-PCR.",
+    "evidenceExcerpt": "Diagnostic testing for Mpox is done using RT-PCR.",
+    "pageNumbers": [
+      45
+    ],
+    "examUse": "Correct-pair or statement-based question on diagnostic tests for specific diseases.",
+    "distractorHooks": [
+      "Widal test",
+      "ELISA test",
+      "Mantoux test"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-022-communicable-diseases-and-viral-outbreaks-section-005-mpox-monkeypox",
+    "claimType": "Factual",
+    "claimText": "There is currently no proven treatment for Mpox.",
+    "evidenceExcerpt": "There is no proven treatment for Mpox.",
+    "pageNumbers": [
+      45
+    ],
+    "examUse": "Statement-based question regarding the availability of specific cures or treatments.",
+    "distractorHooks": [
+      "Specific antiviral cure is widely available",
+      "Treated effectively with broad-spectrum antibiotics"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-022-communicable-diseases-and-viral-outbreaks-section-005-mpox-monkeypox",
+    "claimType": "Factual",
+    "claimText": "Mpox was declared a Public Health Emergency of International Concern (PHEIC) by the WHO, but the outbreak in Africa is no longer considered a global health emergency.",
+    "evidenceExcerpt": "It was declared a PHEIC by WHO, though the outbreak in Africa is no longer a global health emergency.",
+    "pageNumbers": [
+      45
+    ],
+    "examUse": "Statement-based question on the international health status and WHO declarations regarding the disease.",
+    "distractorHooks": [
+      "Currently classified as a global pandemic",
+      "Never declared a PHEIC by WHO",
+      "Remains an active global health emergency"
+    ]
+  }
+]

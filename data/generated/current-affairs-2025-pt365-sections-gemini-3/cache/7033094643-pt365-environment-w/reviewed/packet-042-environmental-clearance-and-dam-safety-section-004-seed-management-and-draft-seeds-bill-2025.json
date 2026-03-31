@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "How-many",
+      "prompt": "Consider the following statements regarding the Draft Seeds Bill, 2025:\n1. It seeks to replace the Seeds Act, 1966, and the Seeds (Control) Order, 1983.\n2. It prohibits the sale of unregistered seeds, with an explicit exemption for farmers' varieties.\n3. It mandates the constitution of Seed Committees exclusively at the Central level.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The Draft Seeds Bill, 2025 seeks to replace the Seeds Act, 1966, and the Seeds (Control) Order, 1983 to regulate seed quality.\nStatement 2 is correct: The Bill mandates that no unregistered seed can be sold, excepting farmers' varieties and export-only seeds.\nStatement 3 is incorrect: The Bill mandates the constitution of both Central and State Seed Committees, not exclusively at the Central level.",
+      "takeaway": "The Draft Seeds Bill, 2025 replaces older seed laws, introduces mandatory registration (exempting farmers' varieties and export-only seeds), and establishes both Central and State Seed Committees.",
+      "evidenceExcerpt": "The Draft Seeds Bill, 2025 seeks to replace the Seeds Act, 1966, and Seeds (Control) Order, 1983 to regulate seed quality. It mandates that no unregistered seed can be sold, excepting farmers' varieties and export-only seeds... Central and State Seed Committees will be constituted.",
+      "qualityScore": 88,
+      "reviewNotes": "Good coverage of the Bill's provisions. The distractors are plausible and test careful reading of the institutional mechanism, fitting the UPSC 'How-many' format perfectly."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Multiple-choice",
+      "prompt": "With reference to the 'SATHI' portal, recently seen in the news, which of the following statements best describes its primary purpose?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It is a digital marketplace for farmers to sell indigenous seed varieties directly to international buyers."
+        },
+        {
+          "id": "B",
+          "text": "It is a platform developed to ensure the complete traceability of seeds from their point of origin to the farmer."
+        },
+        {
+          "id": "C",
+          "text": "It is a voluntary certification portal for private seed companies to benchmark their products against international standards."
+        },
+        {
+          "id": "D",
+          "text": "It is a grievance redressal mechanism established to resolve disputes over spurious seeds."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The SATHI portal, created by the Ministry of Agriculture and Farmers Welfare (MoAFW) and the National Informatics Centre (NIC), is designed to ensure complete seed traceability from origin to the farmer. Under the Draft Seeds Bill, 2025, onboarding on the SATHI portal is mandatory.",
+      "takeaway": "The SATHI portal is a mandatory digital platform developed by MoAFW and NIC to trace the seed supply chain from origin to the end farmer.",
+      "evidenceExcerpt": "It requires mandatory onboarding on the SATHI portal (created by MoAFW and NIC) for complete seed traceability.",
+      "qualityScore": 85,
+      "reviewNotes": "Standard UPSC 'best describes' format for portals/schemes. Distractors are plausible alternatives related to seeds and agriculture."
+    }
+  ],
+  "reviewerNotes": "Selected two distinct questions. The first tests the legislative framework and institutional mechanisms of the Draft Seeds Bill, 2025 using the 'How-many' format. The second tests the specific function of the SATHI portal using a classic 'best describes' single-choice format. Both are tightly grounded in the source text and feature plausible distractors."
+}

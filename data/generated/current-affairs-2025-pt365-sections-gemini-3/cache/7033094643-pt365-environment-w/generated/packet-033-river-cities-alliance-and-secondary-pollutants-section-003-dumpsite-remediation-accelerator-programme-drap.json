@@ -1,0 +1,126 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Dumpsite Remediation Accelerator Programme (DRAP): 1. It is an initiative launched by the Ministry of Environment, Forest and Climate Change. 2. It aims to achieve the goal of Lakshya Zero Dumpsites by September 2026. 3. It applies a uniform minimum threshold of 45,000 MT of legacy waste for prioritizing sites across all States and Union Territories. How many of the above statements are correct?",
+      "contextLines": [
+        "Launched under Swachh Bharat Mission-Urban (SBM-U) 2.0 by the Ministry of Housing and Urban Affairs (MoHUA).",
+        "Aims to achieve Lakshya Zero Dumpsites by September 2026.",
+        "Prioritizes sites containing over 45,000 MT of legacy wastes, with no minimum threshold for UTs and North Eastern States."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect: DRAP was launched by the Ministry of Housing and Urban Affairs (MoHUA) under SBM-U 2.0, not MoEFCC. Statement 2 is correct: It is a targeted initiative to achieve the goals of Lakshya Zero Dumpsites by September 2026. Statement 3 is incorrect: While it prioritizes sites with over 45,000 MT of legacy wastes, there is no minimum threshold for Union Territories and North Eastern States. Therefore, only one statement is correct.",
+      "takeaway": "DRAP operates under SBM-U 2.0 (MoHUA) targeting zero dumpsites by 2026, with special threshold exemptions for UTs and NE states.",
+      "evidenceExcerpt": "Launched under Swachh Bharat Mission-Urban (SBM-U) 2.0 by the Ministry of Housing and Urban Affairs (MoHUA). Aims to achieve Lakshya Zero Dumpsites by September 2026. Prioritizes sites containing over 45,000 MT of legacy wastes, with no minimum threshold for UTs and North Eastern States."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "With reference to the technologies promoted under the Dumpsite Remediation Accelerator Programme (DRAP) for legacy waste management, consider the following statements: 1. Biocapping refers to the use of microorganisms to extract economic materials from legacy waste. 2. Biomining involves transforming legacy dumpsites into green zones by scientifically covering the waste. Which of the statements given above is/are correct?",
+      "contextLines": [
+        "Key technologies include Biocapping (transforming dumpsites into green zones) and Biomining (using microorganisms to extract economic materials)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Both statements are incorrect because the definitions are swapped. Biocapping involves transforming dumpsites into green zones (scientifically covering them). Biomining uses microorganisms to extract economic materials from the legacy waste.",
+      "takeaway": "In legacy waste management, Biocapping creates green zones over dumpsites, whereas Biomining extracts valuable materials using microorganisms.",
+      "evidenceExcerpt": "Key technologies include Biocapping (transforming dumpsites into green zones) and Biomining (using microorganisms to extract economic materials)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Application",
+      "prompt": "A municipal corporation intends to scientifically process its decades-old mixed municipal solid waste by utilizing microorganisms to recover valuable economic materials, rather than merely covering the site with a vegetative layer. Which of the following technologies, emphasized under the Dumpsite Remediation Accelerator Programme (DRAP), is being applied in this scenario?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Biocapping"
+        },
+        {
+          "id": "B",
+          "text": "Biomining"
+        },
+        {
+          "id": "C",
+          "text": "Phytoremediation"
+        },
+        {
+          "id": "D",
+          "text": "Bio-methanation"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Biomining involves the use of microorganisms to extract economic materials from legacy waste. In contrast, Biocapping refers to transforming dumpsites into green zones by scientifically covering the waste.",
+      "takeaway": "DRAP promotes specific technologies for legacy waste management: Biomining (resource recovery via microorganisms) and Biocapping (scientific covering to create green zones).",
+      "evidenceExcerpt": "Key technologies include Biocapping (transforming dumpsites into green zones) and Biomining (using microorganisms to extract economic materials)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Applied-Scenario",
+      "prompt": "Consider the following scenarios regarding the prioritization of legacy waste dumpsites under the Dumpsite Remediation Accelerator Programme (DRAP):\n1. A dumpsite in a mainland State (other than North Eastern States) containing 35,000 MT of legacy waste.\n2. A dumpsite in a North Eastern State containing 20,000 MT of legacy waste.\n3. A dumpsite in a Union Territory containing 10,000 MT of legacy waste.\n\nWhich of the above sites would be eligible for prioritization under the programme?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Under DRAP, priority is given to sites containing over 45,000 MT of legacy wastes. Therefore, a mainland state site with 35,000 MT (Scenario 1) would not meet the threshold. However, there is no minimum threshold for Union Territories and North Eastern States, making Scenarios 2 and 3 eligible regardless of the waste volume.",
+      "takeaway": "DRAP applies a >45,000 MT threshold for prioritizing legacy waste sites in most states, but exempts Union Territories and North Eastern States from this minimum requirement.",
+      "evidenceExcerpt": "Prioritizes sites containing over 45,000 MT of legacy wastes, with no minimum threshold for UTs and North Eastern States."
+    }
+  ]
+}

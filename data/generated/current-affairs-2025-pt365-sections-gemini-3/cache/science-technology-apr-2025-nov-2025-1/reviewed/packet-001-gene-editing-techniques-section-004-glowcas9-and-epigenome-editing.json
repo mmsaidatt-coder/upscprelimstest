@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "Which of the following best describes the fundamental difference between traditional genome editing and 'Epigenome Editing'?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Traditional genome editing modifies the physical structure of the chromosome, whereas epigenome editing only alters the resulting RNA transcripts."
+        },
+        {
+          "id": "B",
+          "text": "Traditional genome editing permanently alters the underlying DNA sequence, whereas epigenome editing regulates gene expression without changing the actual DNA sequence."
+        },
+        {
+          "id": "C",
+          "text": "Traditional genome editing relies on luminescent proteins to locate target genes, whereas epigenome editing relies exclusively on guide RNA."
+        },
+        {
+          "id": "D",
+          "text": "Traditional genome editing is used to silence existing genes, whereas epigenome editing is required to insert foreign genetic material into the genome."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Epigenome editing is a technique that regulates gene expression by modifying the epigenome (chemical compounds and proteins that attach to DNA) without changing the actual underlying DNA sequence. In contrast, traditional genome editing involves making direct cuts and permanent changes to the DNA sequence itself.",
+      "takeaway": "Epigenome editing offers a way to turn genes on or off without permanently altering the genetic code, distinguishing it from traditional DNA-altering techniques.",
+      "evidenceExcerpt": "Epigenome editing regulates gene expression by modifying the epigenome without changing the actual DNA sequence.",
+      "qualityScore": 88,
+      "reviewNotes": "Strong conceptual question. The distractors are plausible but clearly incorrect based on the core definition of epigenome editing, making it a highly effective test of understanding."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'GlowCas9', recently seen in the news:\n\n1. It is a luminescent CRISPR protein that emits light while performing gene editing.\n2. Its luminescent property is derived from nano-luciferase fragments obtained from deep-sea shrimp.\n3. It was indigenously developed by the Council of Scientific and Industrial Research (CSIR).\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statements 1 and 2 are correct: GlowCas9 is a CRISPR protein fused with nano-luciferase fragments from deep-sea shrimp that emits light when performing gene editing, allowing for real-time visualization.\nStatement 3 is incorrect: It was developed by scientists at the Bose Institute (under the Department of Science and Technology), not the Council of Scientific and Industrial Research (CSIR).",
+      "takeaway": "GlowCas9 is a novel visual CRISPR tool developed by the Bose Institute using deep-sea shrimp nano-luciferase to track gene editing in real-time.",
+      "evidenceExcerpt": "GlowCas9 was developed by scientists at the Bose Institute (DST). It is a CRISPR protein fused with nano-luciferase fragments from deep-sea shrimp that emits light when performing gene editing.",
+      "qualityScore": 85,
+      "reviewNotes": "Good statement-based question testing factual knowledge of a recent indigenous biotechnology development. The institutional distractor (CSIR vs. Bose Institute) is a classic UPSC pattern."
+    }
+  ],
+  "reviewerNotes": "Selected two high-quality questions. The first tests factual awareness of a recent indigenous biotech tool (GlowCas9) using standard UPSC statement formats. The second tests the conceptual understanding of epigenome editing versus traditional genome editing, which is highly relevant for the Science & Technology section."
+}

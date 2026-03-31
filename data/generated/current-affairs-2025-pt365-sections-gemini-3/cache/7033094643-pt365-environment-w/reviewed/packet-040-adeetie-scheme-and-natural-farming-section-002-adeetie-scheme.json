@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Assistance in Deploying Energy Efficient Technologies in Industries & Establishments (ADEETIE) scheme:\n\n1. It is an initiative of the Ministry of Micro, Small and Medium Enterprises.\n2. It aims to reduce energy consumption in the targeted enterprises by 30 to 50 percent.\n3. It provides a higher rate of interest subvention to medium enterprises compared to micro and small enterprises.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect: The ADEETIE scheme is implemented by the Bureau of Energy Efficiency (BEE) under the Ministry of Power, not the Ministry of Micro, Small and Medium Enterprises.\nStatement 2 is correct: The scheme specifically targets MSMEs possessing a Udyam ID to help them reduce their energy consumption by 30-50%.\nStatement 3 is incorrect: The scheme provides a 5% interest subvention for Micro and Small Enterprises, which is higher than the 3% interest subvention provided for Medium Enterprises.",
+      "takeaway": "ADEETIE is a Ministry of Power (BEE) initiative offering differential interest subventions (5% for Micro/Small, 3% for Medium) to Udyam-registered MSMEs to help them reduce energy consumption by 30-50%.",
+      "evidenceExcerpt": "Assistance in Deploying Energy Efficient Technologies in Industries & Establishments (ADEETIE) helps MSMEs reduce energy consumption by 30-50%. Implemented by BEE under the Ministry of Power... It offers 5% interest subvention for Micro/Small and 3% for Medium enterprises.",
+      "qualityScore": 85,
+      "reviewNotes": "Modified the original candidate to test the differential interest subvention rates and the specific energy reduction targets. This makes the statements more analytical and aligned with UPSC's pattern of testing scheme specifics."
+    }
+  ],
+  "reviewerNotes": "Selected two questions. Q1 was heavily modified to test the differential interest subvention rates and the specific energy reduction targets, making it a more rigorous statement-based question. Q2 was retained as a conceptual question testing the core mechanism of the scheme, with refined distractors for better plausibility."
+}

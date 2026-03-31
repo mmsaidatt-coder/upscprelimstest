@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Polity",
+      "difficulty": "Hard",
+      "questionType": "Comparison-driven",
+      "prompt": "Consider the following pairs regarding Parliamentary tools for seeking information:\n\n1. Starred Question: Requires oral answer and allows follow-up queries.\n2. Unstarred Question: Requires written answer and allows no follow-up queries.\n3. Short Notice Question: Notice period of 15 days and requires oral answer.\n\nHow many of the pairs given above are correctly matched?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched (Starred = Oral + Supplementary). Pair 2 is correctly matched (Unstarred = Written + No Supplementary). Pair 3 is incorrectly matched because a Short Notice Question is asked by giving a notice of less than ten days, not 15 days.",
+      "takeaway": "Short notice questions are defined by a notice period of less than 10 days, distinguishing them from regular starred/unstarred questions.",
+      "evidenceExcerpt": "Starred question... Requires an oral answer and hence supplementary questions can follow. Unstarred question: Requires a written answer and hence, supplementary questions cannot follow. Short notice question: Asked by giving a notice of less than ten days. It is answered orally.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "The 'One Nation – One Application' vision in the context of Indian legislative bodies is primarily being realized through which of the following?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The Digital India Land Records Modernization Programme"
+        },
+        {
+          "id": "B",
+          "text": "The National e-Vidhan Application (NeVA)"
+        },
+        {
+          "id": "C",
+          "text": "The PRAGATI (Pro-Active Governance And Timely Implementation) platform"
+        },
+        {
+          "id": "D",
+          "text": "The e-Courts Integrated Mission Mode Project"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The National e-Vidhan Application (NeVA) is specifically designed to digitize and streamline legislative processes across all 37 State/UT Legislatures, embodying the 'One Nation – One Application' vision for a unified legislative platform.",
+      "takeaway": "NeVA is the specific technological vehicle for the 'One Nation – One Application' vision for Indian legislatures.",
+      "evidenceExcerpt": "Aim: Digitize and streamline legislative processes across all 37 State/UT Legislatures through a unified platform, embodying the vision of ‘One Nation – One Application’.",
+      "contextLines": []
+    }
+  ]
+}

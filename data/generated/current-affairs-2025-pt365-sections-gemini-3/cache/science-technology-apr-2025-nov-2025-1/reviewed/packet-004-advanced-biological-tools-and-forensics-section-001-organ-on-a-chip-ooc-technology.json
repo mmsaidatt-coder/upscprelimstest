@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "Which one of the following best describes the concept of 'Organ-on-a-Chip' (OoC) technology, frequently mentioned in the context of biotechnology?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A micro-scale system where cells are cultivated into three-dimensional structures on a polymer to mimic human organ functions."
+        },
+        {
+          "id": "B",
+          "text": "A diagnostic tool that uses silicon microchips embedded in the human body to monitor organ health in real-time."
+        },
+        {
+          "id": "C",
+          "text": "A technique of preserving extracted human organs in a cryogenic state on micro-fluidic devices for future transplantation."
+        },
+        {
+          "id": "D",
+          "text": "A computational model that simulates human organ responses to drugs without the use of any biological cellular material."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Organ-on-a-Chip (OoC) technology is a micro-scale system used for mimicking the human body environment. It works by growing biological cells into 3D structures on a microchip using a polymer that resembles real tissue. It is not an in-vivo embedded chip (Option B), a cryogenic preservation tool (Option C), or a purely computational model devoid of biological cells (Option D).",
+      "takeaway": "The core design of an Organ-on-a-Chip involves the 3D cultivation of cells on specialized polymers to simulate the physiological and mechanical environment of human organs.",
+      "evidenceExcerpt": "Organ-on-a-chip (OoC) refers to a micro-scale system used for mimicking the human body environment... Cells grow into 3D structures on a chip using a polymer resembling real tissue.",
+      "qualityScore": 88,
+      "reviewNotes": "Excellent 'best describes' question. Distractors are highly plausible and represent common misconceptions about biotechnology and microchips."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Organ-on-a-Chip' (OoC) technology:\n1. It involves growing cells into three-dimensional structures on a polymer substrate that resembles real tissue.\n2. It is classified under 'New Approach Methods' (NAMs) to provide an ethical platform for drug testing.\n3. It requires the extraction of intact miniature organs from human donors to be embedded onto microchips.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: OoC technology uses a polymer resembling real tissue to grow cells into 3D structures.\nStatement 2 is correct: It is recognized as a 'New Approach Method' (NAM) and provides an ethical, cost-effective platform for accurate drug testing and personalized medicine, reducing reliance on animal models.\nStatement 3 is incorrect: It does not use intact organs extracted from donors; rather, it is a micro-scale system where cells are cultured in vitro to mimic the human body environment.",
+      "takeaway": "Organ-on-a-chip (OoC) is a micro-scale 3D culture system (NAM) that uses polymers to mimic human organs, offering an ethical alternative for drug testing and personalized medicine.",
+      "evidenceExcerpt": "Organ-on-a-chip (OoC) refers to a micro-scale system used for mimicking the human body environment. It is a human-relevant 3D culture model (New Approach Methods). Cells grow into 3D structures on a chip using a polymer resembling real tissue.\n- Provides an ethical, cost-effective platform for accurate drug testing and personalized medicine.",
+      "qualityScore": 85,
+      "reviewNotes": "Converted to the latest UPSC 'How many statements' format. Distractor in statement 3 is a classic UPSC exaggeration."
+    }
+  ],
+  "reviewerNotes": "Selected two questions. Converted Candidate 1 to the latest UPSC 'How many statements' format and improved the distractors in Candidate 3 to sound like classic UPSC 'best describes' options. Both questions accurately reflect the source text without introducing outside facts."
+}

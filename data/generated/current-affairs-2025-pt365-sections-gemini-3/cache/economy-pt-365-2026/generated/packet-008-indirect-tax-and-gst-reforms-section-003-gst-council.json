@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Goods and Services Tax (GST) Council:\n1. It is a statutory body established to act as the apex decision-making body on GST matters.\n2. It is chaired by the Union Finance Minister.\n3. The Union Minister of State in charge of Revenue or Finance is a member of the Council.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The GST Council is a constitutional body established under Article 279A, not a statutory body. Statements 2 and 3 are correct: It is chaired by the Union Finance Minister, and the Union Minister of State (Revenue/Finance) is a member alongside State Finance Ministers.",
+      "takeaway": "The GST Council is a constitutional body (Article 279A) chaired by the Union Finance Minister, with the Union MoS and State Finance Ministers as members.",
+      "evidenceExcerpt": "Constitutional Basis: Established under Article 279A, the apex decision-making body on GST matters. Composition: Chaired by the Union Finance Minister, with the Union MoS (Revenue/Finance) and Finance Ministers of all states/UTs with legislatures as members."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the voting mechanism of the GST Council, consider the following statements:\n1. The Central Government holds one-third of the total voting weight.\n2. The State Governments and Union Territories with legislatures collectively hold two-thirds of the total voting weight.\n3. Any decision of the Council requires a unanimous resolution by all members to be passed.\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statements 1 and 2 are correct: The Centre has a one-third voting weight, while the states and UTs collectively hold two-thirds. Statement 3 is incorrect: Decisions in the GST Council require a three-fourths majority of weighted votes, not unanimity.",
+      "takeaway": "In the GST Council, the Centre has a 1/3rd voting weight and states/UTs have 2/3rd. Decisions require a 3/4th majority of weighted votes.",
+      "evidenceExcerpt": "Voting: Uses a weighted system; Centre has one-third vote, states have two-thirds; decisions need three-fourths majority of weighted votes."
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Geography",
+      "difficulty": "Hard",
+      "questionType": "Assertion-Reason",
+      "prompt": "Consider the following statements:\n\nStatement-I: The fossil assemblage at Salkhan Fossil Park provides a geological record of the Great Oxidation Event.\nStatement-II: The site features approximately 1.4 billion-year-old fossilized microbial structures created by cyanobacteria.\n\nWhich one of the following is correct in respect of the above statements?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both Statement-I and Statement-II are correct and Statement-II is the correct explanation for Statement-I"
+        },
+        {
+          "id": "B",
+          "text": "Both Statement-I and Statement-II are correct and Statement-II is not the correct explanation for Statement-I"
+        },
+        {
+          "id": "C",
+          "text": "Statement-I is correct but Statement-II is incorrect"
+        },
+        {
+          "id": "D",
+          "text": "Statement-I is incorrect but Statement-II is correct"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Both statements are correct, and Statement-II is the correct explanation for Statement-I. Cyanobacteria were the primary organisms responsible for producing oxygen through photosynthesis in early Earth history. The fossilized remains of these cyanobacteria communities (stromatolites) found at Salkhan Fossil Park serve as a direct geological record of the Great Oxidation Event.",
+      "takeaway": "The Great Oxidation Event is recorded in geological history through stromatolites, which are fossilized structures formed by oxygen-producing cyanobacteria.",
+      "evidenceExcerpt": "Site's fossil assemblage features Stromatolites created by communities of cyanobacteria... record Great Oxidation Event.",
+      "qualityScore": 88,
+      "reviewNotes": "Excellent use of the Assertion-Reason format. It tests not just rote facts but the conceptual link between cyanobacteria (biological mechanism) and the Great Oxidation Event (geological outcome)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Salkhan Fossil Park:\n1. It is located in the Kaimur Range of the Vindhya mountain system.\n2. It features fossilized microbial structures that record the Great Oxidation Event.\n3. It has been recognized as a finalized UNESCO World Heritage Site.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Salkhan Fossil Park is located in the Kaimur Range, which is a part of the Vindhya range in Uttar Pradesh.\nStatement 2 is correct: The site features Stromatolites (fossilized microbial structures created by cyanobacteria) dating back approximately 1.4 billion years, which record the Great Oxidation Event.\nStatement 3 is incorrect: It has been added to the UNESCO Tentative List for World Heritage Sites, but it is not yet a finalized World Heritage Site.",
+      "takeaway": "Salkhan Fossil Park (Sonbhadra, UP) is located in the Kaimur Range and is famous for its 1.4 billion-year-old stromatolite fossils that record the Great Oxidation Event.",
+      "evidenceExcerpt": "Salkhan Fossil Park added to UNESCO Tentative List For World Heritage Sites... Location: Kaimur Range (part of Vindhya range)... One of oldest and most well-preserved sites in world (fossils dating ~1.4 billion years). Site's fossil assemblage features Stromatolites created by communities of cyanobacteria... record Great Oxidation Event.",
+      "qualityScore": 85,
+      "reviewNotes": "Modified the original statements to test the core concepts (Stromatolites and Great Oxidation Event) while using the UNESCO status as a plausible distractor. The 'How many' format aligns perfectly with recent UPSC trends."
+    }
+  ],
+  "reviewerNotes": "Selected two strong questions. The first is a standard 'How many statements are correct' format that tests location, geological significance, and current affairs status. The second is an Assertion-Reason question that tests the conceptual understanding of why the site is significant. Both are highly relevant for UPSC Prelims."
+}

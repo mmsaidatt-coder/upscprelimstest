@@ -1,0 +1,83 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-022-article-6-mechanisms-and-montreal-protocol-section-002-montreal-protocol-and-hydrofluorocarbons-hfcs",
+    "claimType": "Factual",
+    "claimText": "The Montreal Protocol is a legally binding treaty implemented under the 1985 Vienna Convention to eliminate Ozone Depleting Substances.",
+    "evidenceExcerpt": "The Montreal Protocol (signed 1987, implemented under the 1985 Vienna Convention) is a legally binding treaty to eliminate Ozone Depleting Substances (ODS) like CFCs and Halons.",
+    "pageNumbers": [
+      47,
+      48
+    ],
+    "examUse": "Statement-based question on environmental treaties.",
+    "distractorHooks": [
+      "Implemented under UNFCCC or Kyoto Protocol",
+      "Non-binding treaty"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-022-article-6-mechanisms-and-montreal-protocol-section-002-montreal-protocol-and-hydrofluorocarbons-hfcs",
+    "claimType": "Conceptual",
+    "claimText": "The 2016 Kigali Amendment targets the phase-down of Hydrofluorocarbons (HFCs), which are potent greenhouse gases but not ozone-depleting substances.",
+    "evidenceExcerpt": "The 2016 Kigali Amendment aims to phase down HFCs, which are non-ODS but potent greenhouse gases.",
+    "pageNumbers": [
+      47,
+      48
+    ],
+    "examUse": "Statement-based or correct-pair question.",
+    "distractorHooks": [
+      "Kigali Amendment targets ODS",
+      "Kigali Amendment is under the Paris Agreement",
+      "HFCs deplete the ozone layer"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-022-article-6-mechanisms-and-montreal-protocol-section-002-montreal-protocol-and-hydrofluorocarbons-hfcs",
+    "claimType": "Factual",
+    "claimText": "Hydrofluorocarbons (HFCs) are short-lived climate pollutants with an average atmospheric lifetime of 15 years that have a significantly higher warming potential than CO2 over a 20-year period.",
+    "evidenceExcerpt": "HFCs are short-lived climate pollutants with an average atmospheric lifetime of 15 years, warming the planet 3,790 times as much as CO2 over 20 years.",
+    "pageNumbers": [
+      47,
+      48
+    ],
+    "examUse": "Statement-based question on greenhouse gas properties.",
+    "distractorHooks": [
+      "HFCs are long-lived climate pollutants",
+      "HFCs have lower warming potential than CO2"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-022-article-6-mechanisms-and-montreal-protocol-section-002-montreal-protocol-and-hydrofluorocarbons-hfcs",
+    "claimType": "Factual",
+    "claimText": "The ozone layer is projected to recover to 1980 values by 2040 globally, with delayed recovery timelines for the Arctic (2045) and Antarctic (2066).",
+    "evidenceExcerpt": "The ozone layer is expected to recover to 1980 values by 2040 globally, 2045 over the Arctic, and 2066 over the Antarctic.",
+    "pageNumbers": [
+      47,
+      48
+    ],
+    "examUse": "Statement-based question on environmental recovery milestones.",
+    "distractorHooks": [
+      "Antarctic ozone will recover before the global average",
+      "Arctic ozone will recover by 2066"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-022-article-6-mechanisms-and-montreal-protocol-section-002-montreal-protocol-and-hydrofluorocarbons-hfcs",
+    "claimType": "Factual",
+    "claimText": "India successfully phased out CFCs, Carbon Tetrachloride (CTC), and halons for controlled use by 2010, ahead of the Montreal Protocol schedules.",
+    "evidenceExcerpt": "India phased out CFCs, Carbon Tetrachloride (CTC), and halons for controlled use by 2010, ahead of Montreal Protocol schedules.",
+    "pageNumbers": [
+      47,
+      48
+    ],
+    "examUse": "Statement-based question on India's environmental commitments.",
+    "distractorHooks": [
+      "India missed the Montreal Protocol deadline",
+      "India phased out HFCs by 2010"
+    ]
+  }
+]

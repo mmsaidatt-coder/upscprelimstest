@@ -1,0 +1,98 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of Green Firecrackers and their key features:\n1. SWAS : Emits fine water droplets to absorb dust\n2. SAFAL : Free from potassium nitrate and sulfur\n3. STAR : Contains a safe amount of aluminium and is quieter\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Pair 1 is correctly matched: SWAS (Safe Water & Air Releaser) emits very fine water droplets that absorb dust.\nPair 2 is incorrectly matched: SAFAL (Safe Minimal Aluminium) contains a safe amount of aluminium and is quieter. It is the STAR variant that is free from potassium nitrate and sulfur.\nPair 3 is incorrectly matched: STAR (Safe Thermite Cracker) emits minimal smoke and is free from potassium nitrate and sulfur, whereas SAFAL contains safe amounts of aluminium.",
+      "takeaway": "The three types of green firecrackers are SWAS (water-releasing), SAFAL (minimal aluminium), and STAR (free from potassium nitrate and sulfur).",
+      "evidenceExcerpt": "SWAS (Safe Water & Air Releaser): Emit very fine water droplets that absorb dust. SAFAL (Safe Minimal Aluminium): Contain safe amount of aluminium & are quieter. STAR (Safe Thermite Cracker): Free from potassium nitrate and sulfur; emit minimal smoke.",
+      "qualityScore": 90,
+      "reviewNotes": "Excellent matching question that tests the specific differences between the three variants of green firecrackers using the latest UPSC 'how many pairs' format."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-choice",
+      "prompt": "Consider the following chemicals:\n1. Barium\n2. Aluminium\n3. Potassium Nitrate\nWhich of the above is/are completely eliminated in the manufacturing of all government-approved green firecrackers?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Barium is completely eliminated; green firecrackers do not contain barium, which is conventionally used to add a green colour.\nAluminium is not completely eliminated; green firecrackers use a minimal amount of aluminium (e.g., the SAFAL variant contains a safe amount of aluminium).\nPotassium Nitrate is not completely eliminated; it is generally used as an oxidant in green firecrackers, although the STAR variant is an exception that is free from it.\nTherefore, only Barium is completely eliminated.",
+      "takeaway": "Green firecrackers completely eliminate barium but still use minimal amounts of aluminium and generally use potassium nitrate as an oxidant.",
+      "evidenceExcerpt": "Composition: Low Thermite amount, minimum usage of Aluminium. Does not contain barium substance, used in firecrackers to add green colour. Uses Potassium Nitrate as oxidant.",
+      "qualityScore": 88,
+      "reviewNotes": "Strong conceptual question testing the absolute vs relative reduction of chemicals in green firecrackers, avoiding overlap with the other questions."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Green Firecrackers':\n1. They reduce particulate matter emissions by at least 30 percent compared to conventional firecrackers.\n2. They are identified and certified by the Central Pollution Control Board (CPCB).\n3. They generally use potassium nitrate as an oxidant.\nWhich of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Green firecrackers reduce particulate matter emissions by at least 30%.\nStatement 2 is incorrect: They are identified and certified by the CSIR-NEERI logo, not the CPCB.\nStatement 3 is correct: They generally use potassium nitrate as an oxidant, replacing highly toxic chemicals, though specific variants like STAR may be free from it.",
+      "takeaway": "Green firecrackers reduce PM emissions by at least 30%, use potassium nitrate as an oxidant, and are certified by CSIR-NEERI.",
+      "evidenceExcerpt": "Benefit: Reduce at least 30 % emissions using particulate matter. Identification and Certification: CSIR NEERI Logo. Uses Potassium Nitrate as oxidant.",
+      "qualityScore": 85,
+      "reviewNotes": "Good standard statement-based question covering the core facts and certification of green firecrackers."
+    }
+  ],
+  "reviewerNotes": "Selected and refined three distinct questions. Q1 covers general composition and certification. Q2 tests the specific variants (SWAS, SAFAL, STAR) using the 'how many pairs' format. Q3 tests the nuance of which chemicals are completely eliminated versus merely reduced. All distractors are plausible and explanations are tightly aligned with the source text."
+}

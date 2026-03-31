@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Feature-matching",
+      "prompt": "Which of the following committees is specifically responsible for reviewing the functioning of independent regulators in sectors such as telecommunications, insurance, and electricity?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Estimates Committee"
+        },
+        {
+          "id": "B",
+          "text": "Committee on Public Undertakings"
+        },
+        {
+          "id": "C",
+          "text": "Department Related Standing Committees"
+        },
+        {
+          "id": "D",
+          "text": "Public Accounts Committee"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "According to the source material, Ad Hoc Committees set up by Parliament and Parliamentary Department Related Standing Committees (DRSCs) review independent regulators in sectors like telecommunications, insurance, and electricity.",
+      "takeaway": "Oversight of sectoral regulators (like TRAI or IRDAI) falls under Department Related Standing Committees or Ad Hoc Committees rather than the three main financial committees.",
+      "evidenceExcerpt": "Note: Ad Hoc Committee set up by Parliament and Parliamentary Department Related Standing Committee review independent regulators in sectors like telecommunications, insurance electricity, etc.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Feature-matching",
+      "prompt": "Regarding the membership of Consultative Committees (CCs), which of the following statements is correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Membership is mandatory for all Members of Parliament to ensure departmental oversight."
+        },
+        {
+          "id": "B",
+          "text": "A Member of Parliament can be a member of a maximum of three Consultative Committees simultaneously."
+        },
+        {
+          "id": "C",
+          "text": "The membership is voluntary and is limited to a maximum of 30 members per committee."
+        },
+        {
+          "id": "D",
+          "text": "Only members of the Lok Sabha are eligible to be nominated to these committees."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Consultative Committees have voluntary membership ranging from 10 to 30 MPs. MPs from both Houses are nominated by the Ministry of Parliamentary Affairs. However, an MP can be a member of only one Consultative Committee at a time.",
+      "takeaway": "Consultative Committees are informal forums with voluntary membership and a strict 'one MP, one committee' rule.",
+      "evidenceExcerpt": "Consultative Committees (CCs)... Voluntary membership: 10–30 MPs. One MP can be member of only one CC. MPs from both Houses nominated by Ministry of Parliamentary Affairs.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Hard",
+      "questionType": "Institutional-function",
+      "prompt": "The Appointments Committee of the Cabinet (ACC) is responsible for making recommendations for several high-level positions. Which of the following correctly describes its composition and scope?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It consists of the Prime Minister, the Home Minister, and the Finance Minister."
+        },
+        {
+          "id": "B",
+          "text": "It is composed of the Prime Minister and the Union Home Minister only."
+        },
+        {
+          "id": "C",
+          "text": "It decides on the appointments of the Chiefs of the three Defence Services."
+        },
+        {
+          "id": "D",
+          "text": "It is a statutory body established under the Administrative Reforms Act."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Appointments Committee of the Cabinet (ACC) is composed specifically of the Prime Minister (as Chairperson) and the Minister of Home Affairs. It is responsible for senior appointments such as Secretaries and top posts in PSUs and banks. Defence appointments are generally handled by the Cabinet Committee on Security (CCS).",
+      "takeaway": "The ACC has a very lean composition (PM and Home Minister) compared to other Cabinet Committees like the CCS.",
+      "evidenceExcerpt": "Appointments Committee of the Cabinet (ACC) Composition: PM (Chairperson) + Home Minister. Responsibilities: Senior government appointments (Secretaries, AS, JS); top posts in PSUs, banks, insurance companies, and autonomous bodies.",
+      "contextLines": []
+    }
+  ]
+}

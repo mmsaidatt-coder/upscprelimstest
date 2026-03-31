@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "correct-pair",
+      "prompt": "Consider the following pairs of oil spill remediation tools and their primary functions:\n\n1. Sorbents : Natural or synthetic materials, such as Milkweed fiber, used to absorb oil\n2. Oil Booms : Machines deployed to scrape oil directly from the water surface\n3. Skimmers : Floating barriers with skirts used to physically isolate the spill area\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Pair 1 is correctly matched: Sorbents, such as the fiber of the Milkweed plant, are materials used to absorb oil from spills. Pair 2 is incorrectly matched: Oil booms are large floating barriers with skirts extending into the water to physically isolate the spill area, not machines that scrape oil. Pair 3 is incorrectly matched: Skimmers are the machines that scrape oil from the water surface, not floating barriers. Pairs 2 and 3 have their descriptions swapped.",
+      "takeaway": "Physical methods for oil spill cleanup include Oil Booms (floating barriers to isolate the spill) and Skimmers (machines to scrape oil off the surface). Sorbents like Milkweed fiber are used to absorb the oil.",
+      "evidenceExcerpt": "Sorbents: E.g., Milkweed plant's fiber, commonly found in Rajasthan, can be effectively used as a sorbent material. Oil Boom: Involves using large floating booms with skirts extending into the water to physically isolate the spill area. Skimmers: These machines scrape oil from the water surface."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "statement-based",
+      "prompt": "With reference to 'Oilzapper' and 'Oilivorous-S', sometimes seen in the news, consider the following statements:\n\n1. They are genetically modified fungi used to absorb heavy metals from marine environments.\n2. They were developed by The Energy and Resources Institute (TERI).\n3. They remediate oil spills by converting harmful hydrocarbons into harmless carbon dioxide and water.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Oilzapper and Oilivorous-S are bioremediation technologies that use bacteria (not fungi) to degrade hydrocarbons (not heavy metals). Statement 2 is correct: They were developed by The Energy and Resources Institute (TERI). Statement 3 is correct: The bacteria in these technologies feed on hydrocarbon compounds present in crude oil, converting them into harmless carbon dioxide and water.",
+      "takeaway": "Oilzapper and Oilivorous-S are bacterial bioremediation technologies developed by TERI specifically designed to clean up oil spills by metabolizing hydrocarbons into CO2 and water.",
+      "evidenceExcerpt": "Bioremediation: E.g., Oilzapper & Oilivorous-S, developed by The Energy and Resources Institute (TERI); use bacteria to convert harmful hydrocarbons into harmless carbon dioxide and water."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the mechanisms of different oil spill remediation technologies:\n\n1. Oil booms and skimmers are deployed for the physical containment and extraction of oil, respectively, without altering its chemical structure.\n2. Sorbents like milkweed fiber neutralize the toxicity of oil spills by chemically converting hydrocarbons into inert solid waste.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct. Oil booms use skirts to physically isolate the spill, and skimmers mechanically scrape oil from the surface, neither of which alters the chemical composition of the oil. Statement 2 is incorrect. Sorbents like milkweed fiber physically absorb the oil; they do not chemically neutralize it or convert it into inert waste. Chemical conversion is the function of bioremediation (using bacteria) or chemical dispersants.",
+      "takeaway": "Different oil spill technologies have distinct mechanisms: booms and skimmers rely on physical barriers and mechanical extraction, sorbents rely on physical absorption, and bioremediation relies on biological metabolism.",
+      "evidenceExcerpt": "Sorbents: E.g., Milkweed plant's fiber... can be effectively used as a sorbent material. Oil Boom: Involves using large floating booms with skirts extending into the water to physically isolate the spill area. Skimmers: These machines scrape oil from the water surface."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the use of natural materials in oil spill management, consider the following statements:\n\n1. Milkweed plant fiber is utilized as a sorbent to physically absorb spilled oil from aquatic environments.\n2. The application of milkweed for marine spills is supported by its natural abundance as a mangrove species in India's coastal ecosystems.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct. Milkweed plant fiber acts as an effective natural sorbent material for cleaning up oil spills. Statement 2 is incorrect. The milkweed plant is not a coastal mangrove species; it is commonly found in terrestrial, arid regions such as Rajasthan.",
+      "takeaway": "Natural terrestrial materials, such as the fiber of the milkweed plant found in Rajasthan, can be effectively repurposed as sorbents for managing aquatic oil spills.",
+      "evidenceExcerpt": "Sorbents: E.g., Milkweed plant's fiber, commonly found in Rajasthan, can be effectively used as a sorbent material."
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the International Big Cat Alliance (IBCA): 1. It is a treaty-based inter-governmental organization launched by India. 2. Its apex decision-making body, the IBCA Assembly, meets every two years. 3. It was established to commemorate 50 years of the Wildlife (Protection) Act, 1972. How many of the statements given above are correct?",
+      "contextLines": [
+        "Launched by India in 2023 to commemorate 50 years of Project Tiger, the IBCA is a treaty-based inter-governmental organization.",
+        "its apex decision-making body is the IBCA Assembly, which meets every 2 years."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The IBCA is a treaty-based inter-governmental organization launched by India in 2023. Statement 2 is correct: Its apex decision-making body is the IBCA Assembly, which meets every 2 years. Statement 3 is incorrect: It was launched to commemorate 50 years of Project Tiger, not the Wildlife (Protection) Act, 1972.",
+      "takeaway": "The IBCA is a treaty-based inter-governmental organization launched by India in 2023 to mark 50 years of Project Tiger, with its Assembly meeting biennially.",
+      "evidenceExcerpt": "Launched by India in 2023 to commemorate 50 years of Project Tiger, the IBCA is a treaty-based inter-governmental organization... its apex decision-making body is the IBCA Assembly, which meets every 2 years."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the International Big Cat Alliance (IBCA), consider the following statements: 1. It aims to conserve seven big cat species, including the Puma and the Jaguar. 2. All the big cat species covered under the IBCA that are found in India are protected under Schedule I of the Wildlife (Protection) Act, 1972. Which of the statements given above is/are correct?",
+      "contextLines": [
+        "It aims to conserve 7 big cats: Tiger, Lion, Leopard, Snow Leopard, Cheetah, Jaguar, and Puma.",
+        "All except Puma and Jaguar are found in India and protected under Schedule I of WPA, 1972."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: The IBCA aims to conserve 7 big cats: Tiger, Lion, Leopard, Snow Leopard, Cheetah, Jaguar, and Puma. Statement 2 is correct: All the big cats covered by the IBCA that are found in India are protected under Schedule I of the WPA, 1972.",
+      "takeaway": "The IBCA focuses on 7 big cats globally. The 5 species found in India (Tiger, Lion, Leopard, Snow Leopard, and Cheetah) are all protected under Schedule I of the WPA, 1972.",
+      "evidenceExcerpt": "It aims to conserve 7 big cats: Tiger, Lion, Leopard, Snow Leopard, Cheetah, Jaguar, and Puma. All except Puma and Jaguar are found in India and protected under Schedule I of WPA, 1972."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-Statement",
+      "prompt": "Consider the following species of big cats: 1. Cheetah 2. Snow Leopard 3. Puma 4. Jaguar 5. Lion. How many of the above species are both targeted for conservation by the International Big Cat Alliance (IBCA) and found in India?",
+      "contextLines": [
+        "It aims to conserve 7 big cats: Tiger, Lion, Leopard, Snow Leopard, Cheetah, Jaguar, and Puma.",
+        "All except Puma and Jaguar are found in India"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only two"
+        },
+        {
+          "id": "B",
+          "text": "Only three"
+        },
+        {
+          "id": "C",
+          "text": "Only four"
+        },
+        {
+          "id": "D",
+          "text": "All five"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The IBCA targets 7 big cats: Tiger, Lion, Leopard, Snow Leopard, Cheetah, Jaguar, and Puma. Out of these, all except the Puma and Jaguar are found in India. Therefore, from the given list, only the Cheetah, Snow Leopard, and Lion are found in India. Thus, exactly three species meet both criteria.",
+      "takeaway": "Of the 7 big cats targeted by the IBCA, 5 are found in India (Tiger, Lion, Leopard, Snow Leopard, and Cheetah), while the Puma and Jaguar are not.",
+      "evidenceExcerpt": "It aims to conserve 7 big cats: Tiger, Lion, Leopard, Snow Leopard, Cheetah, Jaguar, and Puma. All except Puma and Jaguar are found in India"
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Multiple Choice",
+      "prompt": "Which of the following best describes the institutional framework of the International Big Cat Alliance (IBCA)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A legally binding protocol under the Convention on Biological Diversity (CBD) to protect apex predators."
+        },
+        {
+          "id": "B",
+          "text": "A treaty-based inter-governmental organization initiated by India for the conservation of major big cat species."
+        },
+        {
+          "id": "C",
+          "text": "A global financial consortium managed by the World Bank to fund big cat conservation projects in range countries."
+        },
+        {
+          "id": "D",
+          "text": "An international scientific network of wildlife non-governmental organizations focused on monitoring big cat populations."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The IBCA is a treaty-based inter-governmental organization launched by India in 2023 to conserve seven big cats.",
+      "takeaway": "The IBCA is not merely an NGO, a financial fund, or a UN protocol, but a formal treaty-based inter-governmental organization spearheaded by India.",
+      "evidenceExcerpt": "Launched by India in 2023 to commemorate 50 years of Project Tiger, the IBCA is a treaty-based inter-governmental organization."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Assertion-Reason",
+      "prompt": "Consider the following Assertion (A) and Reason (R):\n\nAssertion (A): The International Big Cat Alliance (IBCA), launched by India, focuses exclusively on the conservation of big cat species that are naturally found within the Indian subcontinent.\nReason (R): The Puma and Jaguar are among the seven big cats targeted for conservation by the IBCA, even though they are not found in India.\n\nIn the context of the above statements, which one of the following is correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both A and R are correct and R is the correct explanation of A."
+        },
+        {
+          "id": "B",
+          "text": "Both A and R are correct but R is not the correct explanation of A."
+        },
+        {
+          "id": "C",
+          "text": "A is correct but R is not correct."
+        },
+        {
+          "id": "D",
+          "text": "A is not correct but R is correct."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Assertion (A) is incorrect because the IBCA's scope is global, not exclusive to the Indian subcontinent. Reason (R) is correct as it accurately lists the Puma and Jaguar as targets of the IBCA despite their absence from India, which directly disproves the assertion.",
+      "takeaway": "The IBCA has a global conservation footprint, targeting seven big cats regardless of whether they are naturally found in India.",
+      "evidenceExcerpt": "It aims to conserve 7 big cats: Tiger, Lion, Leopard, Snow Leopard, Cheetah, Jaguar, and Puma. All except Puma and Jaguar are found in India"
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Statement",
+      "prompt": "With reference to the International Big Cat Alliance (IBCA), consider the following statements:\n1. It was launched by India to mark the 50th anniversary of Project Tiger.\n2. It was established with 95 founding member countries to ensure global cooperation.\n3. The first IBCA Assembly was hosted in New Delhi.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: It was launched in 2023 to commemorate 50 years of Project Tiger. Statement 2 is incorrect: While it currently has 95 member countries, it was established with only 16 founding members. Statement 3 is correct: The first IBCA assembly was hosted in New Delhi in 2025.",
+      "takeaway": "While the IBCA has expanded to 95 member countries, it was initially established with 16 founding members. Its inaugural assembly took place in New Delhi.",
+      "evidenceExcerpt": "Launched by India in 2023 to mark 50 years of Project Tiger... It has 95 member countries, with 16 founding members... First IBCA assembly hosted in New Delhi in 2025."
+    }
+  ]
+}

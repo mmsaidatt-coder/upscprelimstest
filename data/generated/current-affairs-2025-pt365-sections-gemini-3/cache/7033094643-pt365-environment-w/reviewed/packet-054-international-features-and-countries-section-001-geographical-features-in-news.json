@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "correct-pair",
+      "prompt": "Consider the following pairs of geographical features recently in the news and their corresponding locations:\n\n1. Davis Strait : Connects the Labrador Sea and Baffin Bay\n2. Scarborough Shoal : East China Sea\n3. Perito Moreno Glacier : Argentina\n4. Drake Passage : Between Cape Horn and the South Shetland Islands\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "Only three pairs"
+        },
+        {
+          "id": "D",
+          "text": "All four pairs"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Pair 1 is correctly matched: The Davis Strait connects the Labrador Sea and Baffin Bay.\nPair 2 is incorrectly matched: Scarborough Shoal is a small atoll located in the South China Sea, not the East China Sea.\nPair 3 is correctly matched: The Perito Moreno glacier, known as the 'White Giant', is located in Argentina's Los Glaciares National Park.\nPair 4 is correctly matched: The Drake Passage lies between Cape Horn and the South Shetland Islands.",
+      "takeaway": "Map-based awareness of places in the news is crucial. Scarborough Shoal is in the South China Sea, Davis Strait connects the Labrador Sea and Baffin Bay, Perito Moreno is in Argentina, and Drake Passage is near Antarctica.",
+      "evidenceExcerpt": "Davis Strait connects the Labrador Sea and Baffin Bay... Perito Moreno glacier, known as the 'White Giant', is located in Argentina's Los Glaciares National Park... Drake Passage lies between Cape Horn and the South Shetland Islands... Scarborough Shoal (Huangyan Island/Panatag Shoal) is a small atoll in the South China Sea.",
+      "qualityScore": 85,
+      "reviewNotes": "Excellent UPSC-style correct-pair question covering multiple geographical features from the text."
+    }
+  ],
+  "reviewerNotes": "Selected and refined 5 questions to ensure they meet UPSC standards. Converted the Kamchatka question into a map-based multiple-choice format. Ensured the correct-pair question has plausible distractors and accurate pairings. All questions are strictly grounded in the provided text."
+}

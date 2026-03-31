@@ -1,0 +1,77 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-010-national-mission-and-secure-communication-section-002-national-quantum-mission-nqm",
+    "claimType": "Factual",
+    "claimText": "The National Quantum Mission (NQM) is implemented by the Department of Science and Technology (DST).",
+    "evidenceExcerpt": "NQM is implemented by the Department of Science and Technology (DST).",
+    "pageNumbers": [
+      21
+    ],
+    "examUse": "Statement-based question on nodal ministries for national missions.",
+    "distractorHooks": [
+      "Ministry of Electronics and Information Technology (MeitY)",
+      "Department of Telecommunications"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-010-national-mission-and-secure-communication-section-002-national-quantum-mission-nqm",
+    "claimType": "Factual",
+    "claimText": "The National Quantum Mission is one of the nine initiatives under the Prime Minister's Science, Technology, and Innovation Advisory Council (PMSTIAC).",
+    "evidenceExcerpt": "It is implemented by the Department of Science and Technology and is one of the nine PMSTIAC initiatives.",
+    "pageNumbers": [
+      21
+    ],
+    "examUse": "Statement-based question on the origin and umbrella framework of the mission.",
+    "distractorHooks": [
+      "NITI Aayog initiative",
+      "Digital India initiative"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-010-national-mission-and-secure-communication-section-002-national-quantum-mission-nqm",
+    "claimType": "Factual",
+    "claimText": "The National Quantum Mission aims to develop quantum computers with a 1,000-qubit capacity and a 2,000 km secure communication network.",
+    "evidenceExcerpt": "Aims to develop quantum computers with 1,000 qubits capacity and a 2,000 km communication network.",
+    "pageNumbers": [
+      21
+    ],
+    "examUse": "Statement-based question testing specific targets of the National Quantum Mission.",
+    "distractorHooks": [
+      "10,000-qubit capacity",
+      "10,000 km communication network"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-010-national-mission-and-secure-communication-section-002-national-quantum-mission-nqm",
+    "claimType": "Conceptual",
+    "claimText": "The National Quantum Mission plans to establish four thematic hubs (T-Hubs) dedicated to computing, communication, sensing, and materials.",
+    "evidenceExcerpt": "Plans to establish four thematic hubs (T-Hubs) in computing, communication, sensing, and materials.",
+    "pageNumbers": [
+      21
+    ],
+    "examUse": "Institution-feature question on the structural components of the National Quantum Mission.",
+    "distractorHooks": [
+      "Hubs dedicated to Artificial Intelligence and Blockchain",
+      "Establishment of 10 T-Hubs"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-010-national-mission-and-secure-communication-section-002-national-quantum-mission-nqm",
+    "claimType": "Factual",
+    "claimText": "QpiAI-Indus is India's first 25-qubit superconducting quantum computer.",
+    "evidenceExcerpt": "QpiAI launched India's first 25-qubit superconducting quantum computer, QpiAI-Indus.",
+    "pageNumbers": [
+      21
+    ],
+    "examUse": "Correct-pair question matching the name of the technology (QpiAI-Indus) with its description.",
+    "distractorHooks": [
+      "India's first classical supercomputer",
+      "A 1000-qubit quantum computer developed by C-DAC"
+    ]
+  }
+]

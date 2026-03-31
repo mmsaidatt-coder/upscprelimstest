@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Statement",
+      "prompt": "With reference to the HANSA-3 (NG) aircraft, consider the following statements:\n\n1. It is a trainer aircraft aimed at strengthening India's flying training ecosystem.\n2. It is powered by an indigenous engine developed by the Defence Research and Development Organisation (DRDO).\n3. Its manufacturing is undertaken by a private firm through a technology transfer from the CSIR-National Aerospace Laboratories (NAL).\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The HANSA-3 (NG) is a trainer aircraft designed to strengthen India's aviation industry and flying training ecosystem.\n\nStatement 2 is incorrect: It is not powered by an indigenous DRDO engine. It is powered by an advanced fuel-efficient Rotax 912 iSc3 Sports engine.\n\nStatement 3 is correct: CSIR-National Aerospace Laboratories (NAL) has signed a technology transfer deal with a private firm to manufacture these trainer planes.",
+      "takeaway": "HANSA-3 (NG) is a trainer aircraft developed by CSIR-NAL and manufactured by a private firm under a technology transfer agreement. It uses a fuel-efficient Rotax engine to support the domestic flying training ecosystem.",
+      "evidenceExcerpt": "CSIR-National Aerospace Laboratories (NAL) signs technology transfer deal with a private firm to manufacture HANSA trainer-planes. Powered by an advanced fuel-efficient Rotax 912 iSc3 Sports engine. Aims to strengthen India's aviation industry and flying training ecosystem.",
+      "qualityScore": 85,
+      "reviewNotes": "Rewrote the second statement to make the distractor more plausible (indigenous DRDO engine instead of a cryogenic engine, which is obviously for rockets). The 'How many statements' format aligns well with recent UPSC trends."
+    }
+  ],
+  "reviewerNotes": "Selected and refined one question. Improved the distractors to ensure they are plausible and aligned with typical UPSC traps (e.g., attributing foreign/commercial components to indigenous DRDO development)."
+}

@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'True Polar Wander' (TPW):\n1. It refers to the shifting of the Earth's magnetic poles due to convection currents in the liquid outer core.\n2. It involves the rotation of the solid Earth about the liquid outer core to maintain rotational balance.\n3. Large-scale anthropogenic activities, such as dam construction, can drive this phenomenon.\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: True Polar Wander (TPW) is the physical reorientation of the planet, involving the rotation of the solid Earth (crust and mantle) about the liquid outer core, rather than the shifting of magnetic poles.\nStatement 2 is correct: TPW involves the rotation of the solid Earth about the liquid outer core to maintain rotational balance.\nStatement 3 is correct: A recent study revealed that human activities, such as large-scale dam construction, redistribute mass significantly and have shifted Earth's rotational axis, thereby driving TPW.",
+      "takeaway": "True Polar Wander is the physical reorientation of the solid Earth relative to its spin axis. It can be driven by natural mass redistributions (like ice melt) and human activities (like dam construction).",
+      "evidenceExcerpt": "True Polar Wander (TPW) involves the rotation of the solid Earth (crust and mantle) about the liquid outer core to maintain rotational balance.\nNatural drivers of TPW include glacial melting, tectonic plate shifts, and ocean swell, while human activities like dam construction also contribute.\nA recent study revealed that dam construction has shifted Earth’s rotational axis by over 1 meter since 1835 i.e., they have driven True Polar Wander (TPW).",
+      "qualityScore": 88,
+      "reviewNotes": "Reformatted into a 'How many statements are correct' typology, which is highly prevalent in recent UPSC Prelims. The distractors effectively separate the concept of magnetic polar wander from true polar wander."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the effects of mass redistribution on Earth's rotation:\n1. The melting of polar ice caps moves mass from the poles to the equator, making the Earth slightly more flattened.\n2. The shifting of mass towards the equator accelerates the Earth's spin, resulting in shorter days.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Melting ice moves mass from the poles to the equator, which increases the equatorial bulge and makes the Earth slightly more flattened.\nStatement 2 is incorrect: The shifting of mass towards the equator increases the Earth's moment of inertia. According to the conservation of angular momentum, this slows down the Earth's spin, causing longer days, rather than accelerating it.",
+      "takeaway": "The Earth's rotational speed is inversely related to its equatorial flattening; mass moving towards the equator (e.g., from melting polar ice) slows down rotation, leading to longer days.",
+      "evidenceExcerpt": "Effects of Shifting Poles: Longer Days as melting ice moves mass from the poles to the equator, making Earth slightly more flattened. This slows down its spin, causing longer days.",
+      "qualityScore": 85,
+      "reviewNotes": "Adapted the hypothetical application question into a direct statement-based question that tests the cause-and-effect relationship explicitly stated in the text. This format is more standard for UPSC Geography/Environment sections."
+    }
+  ],
+  "reviewerNotes": "Selected two strong questions. The first tests the definition and anthropogenic drivers of True Polar Wander using the modern 'How many statements' format. The second tests the geophysical consequences of ice melt on Earth's rotation, focusing on the cause-and-effect relationship."
+}

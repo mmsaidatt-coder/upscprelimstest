@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the regulatory framework for renewable energy in India: 1. The Renewable Purchase Obligation (RPO) is a statutory mandate under the Electricity Act, 2003. 2. The Renewable Consumption Obligation (RCO) is notified under the Energy Conservation Act, 2001. 3. While RPO compliance is measured by the actual purchase of renewable energy, RCO compliance is determined by its actual consumption. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "All three statements are correct. RPO is established under the Electricity Act, 2003, while RCO is notified under the Energy Conservation Act, 2001. The core conceptual distinction is that RPO focuses on the actual purchase of renewable energy, whereas RCO focuses on actual consumption from renewable energy sources.",
+      "takeaway": "Understanding the statutory backing of energy obligations is crucial. RPO stems from the Electricity Act (2003) focusing on purchase, while the newer RCO stems from the Energy Conservation Act (2001) focusing on consumption.",
+      "evidenceExcerpt": "Ministry of Power issued a revised draft notification on RCO under Energy Conservation Act (ECA) 2001... RPO, established under Electricity Act, 2003... While RPO focuses on actual purchase, RCO focuses on actual consumption from RE sources."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Renewable Consumption Obligation (RCO) in India, consider the following statements: 1. It establishes mandatory year-wise renewable energy consumption targets. 2. The enforcement and oversight of penalties for non-compliance under the RCO framework are managed by the Central Electricity Regulatory Commission (CERC). Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct as the RCO establishes mandatory year-wise Renewable Energy consumption targets. Statement 2 is incorrect because the penalties for non-compliance with the RCO are overseen by the Bureau of Energy Efficiency (BEE), not the Central Electricity Regulatory Commission (CERC).",
+      "takeaway": "The Bureau of Energy Efficiency (BEE) is the designated institutional body responsible for overseeing penalties related to non-compliance with the Renewable Consumption Obligation (RCO).",
+      "evidenceExcerpt": "Ministry of Power issued a revised draft notification on RCO under Energy Conservation Act (ECA) 2001 establishing mandatory year-wise Renewable Energy (RE) consumption targets... Creates binding obligations with penalties for non-compliance overseen by Bureau of Energy Efficiency (BEE)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Comparison",
+      "prompt": "Which of the following best describes the fundamental difference between the Renewable Purchase Obligation (RPO) and the Renewable Consumption Obligation (RCO)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "RPO applies exclusively to open-access consumers, whereas RCO applies exclusively to electricity distribution companies."
+        },
+        {
+          "id": "B",
+          "text": "RPO is enforced by the Bureau of Energy Efficiency, whereas RCO is enforced under the Electricity Act, 2003."
+        },
+        {
+          "id": "C",
+          "text": "RPO mandates the procurement of a minimum quantum of renewable energy, whereas RCO mandates the actual end-use consumption of renewable energy."
+        },
+        {
+          "id": "D",
+          "text": "RPO targets the reduction of greenhouse gas emissions from thermal plants, whereas RCO targets the promotion of captive solar power generation."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The primary distinction between the two frameworks is their operational focus. RPO mandates the actual purchase of a minimum amount of renewable energy by obligated entities, whereas RCO shifts the focus to the actual consumption of energy from renewable sources.",
+      "takeaway": "The transition from RPO to RCO represents a shift from a procurement-based compliance model to a consumption-based compliance model to ensure actual utilization of renewable energy.",
+      "evidenceExcerpt": "While RPO focuses on actual purchase, RCO focuses on actual consumption from RE sources."
+    }
+  ]
+}

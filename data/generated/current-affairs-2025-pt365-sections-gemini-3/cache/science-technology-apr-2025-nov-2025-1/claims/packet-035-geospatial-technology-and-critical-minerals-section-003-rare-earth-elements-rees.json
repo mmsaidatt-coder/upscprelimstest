@@ -1,0 +1,48 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-035-geospatial-technology-and-critical-minerals-section-003-rare-earth-elements-rees",
+    "claimType": "Factual",
+    "claimText": "Rare Earth Elements (REEs) comprise a group of 17 lustrous, silvery-white, soft heavy metals in the periodic table, including Cerium, Yttrium, and Europium.",
+    "evidenceExcerpt": "REEs are a set of 17 lustrous, silvery-white, soft heavy metals in periodic table, e.g., Cerium (Ce), Yttrium (Y), Europium (Eu), etc.",
+    "pageNumbers": [
+      70
+    ],
+    "examUse": "Statement-based question identifying the composition and examples of REEs.",
+    "distractorHooks": [
+      "Stating REEs are non-metals or radioactive elements",
+      "Changing the number of elements from 17 to another number",
+      "Listing non-REEs like Uranium or Thorium as examples"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-035-geospatial-technology-and-critical-minerals-section-003-rare-earth-elements-rees",
+    "claimType": "Conceptual",
+    "claimText": "Rare Earth Elements are difficult to extract because they do not occur in concentrated forms, despite being found abundantly in nature.",
+    "evidenceExcerpt": "Though found abundantly, however, they are difficult to extract as they are not found in concentrated form.",
+    "pageNumbers": [
+      70
+    ],
+    "examUse": "Assertion-Reason or statement-based question on the availability and extraction challenges of REEs.",
+    "distractorHooks": [
+      "Stating REEs are extremely rare in the Earth's crust",
+      "Claiming REEs are easy to extract because they are found in highly concentrated ores"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-035-geospatial-technology-and-critical-minerals-section-003-rare-earth-elements-rees",
+    "claimType": "Factual",
+    "claimText": "China has restricted the export of Rare Earth Elements (REEs) in retaliation to US tariffs.",
+    "evidenceExcerpt": "In retaliation to US tariffs, China restricts exports of Rare Earth Elements (REEs).",
+    "pageNumbers": [
+      70
+    ],
+    "examUse": "Current affairs statement regarding global supply chain disruptions of critical minerals.",
+    "distractorHooks": [
+      "Stating the US restricted REE exports to China",
+      "Claiming India is the country restricting REE exports"
+    ]
+  }
+]

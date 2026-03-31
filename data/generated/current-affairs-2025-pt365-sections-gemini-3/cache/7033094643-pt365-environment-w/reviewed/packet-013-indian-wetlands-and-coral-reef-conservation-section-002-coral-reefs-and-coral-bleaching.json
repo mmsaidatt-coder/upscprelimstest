@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following countries:\n\n1. Australia\n2. India\n3. Indonesia\n4. Maldives\n5. Philippines\n\nHow many of the above countries are geographically included in the marine area known as the 'Coral Triangle'?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only two"
+        },
+        {
+          "id": "B",
+          "text": "Only three"
+        },
+        {
+          "id": "C",
+          "text": "Only four"
+        },
+        {
+          "id": "D",
+          "text": "All five"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Coral Triangle is a marine area located in the western Pacific Ocean. It includes the waters of the Philippines, Brunei, Malaysia, Singapore, Indonesia, Papua New Guinea, Timor-Leste, Solomon Islands, and Australia. India and the Maldives are not part of the Coral Triangle. Thus, only three of the listed countries (Australia, Indonesia, Philippines) are included.",
+      "takeaway": "The Coral Triangle is a global center of marine biodiversity encompassing several Southeast Asian and Pacific nations, but it does not extend westward to include India or the Maldives.",
+      "evidenceExcerpt": "The Coral Triangle includes the Philippines, Brunei, Malaysia, Singapore, Indonesia, Papua New Guinea, Timor-Leste, Solomon Islands, and Australia.",
+      "qualityScore": 88,
+      "reviewNotes": "Excellent map-based geography question. Tests precise knowledge of an important environmental region using the new UPSC 'How many' format."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "In the context of marine conservation, which one of the following best describes 'Biorock Technology'?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It involves deploying 3D-printed biodegradable plastic structures to provide artificial habitats for coral polyps."
+        },
+        {
+          "id": "B",
+          "text": "It uses low-voltage electrical currents in seawater to stimulate the deposition of calcium carbonate for coral formation."
+        },
+        {
+          "id": "C",
+          "text": "It relies on introducing genetically modified zooxanthellae to enhance the thermal tolerance of bleached corals."
+        },
+        {
+          "id": "D",
+          "text": "It utilizes chemical buffers to locally neutralize ocean acidification and prevent the dissolution of coral skeletons."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Biorock Technology is a marine conservation method that uses safe, low-voltage electrical currents passed through seawater. This process stimulates the precipitation of dissolved minerals, primarily calcium carbonate, creating an ideal artificial substrate for corals to grow rapidly and resist environmental stress.",
+      "takeaway": "Biorock Technology is an innovative ecological restoration tool that leverages electrical currents to accelerate the natural deposition of calcium carbonate, thereby aiding in the rapid regeneration of coral reefs.",
+      "evidenceExcerpt": "Biorock Technology uses electrical currents to stimulate coral formation via the deposition of calcium carbonate.",
+      "qualityScore": 85,
+      "reviewNotes": "Strong conceptual question. Distractors are highly plausible and parallel, representing other real or theoretical marine conservation strategies."
+    }
+  ],
+  "reviewerNotes": "Selected 5 distinct questions covering coral biology, conservation technology (Biorock), global geography (Coral Triangle), Indian geography, and the concept of coral bleaching. Rewrote prompts to align with the latest UPSC 'How many' formats where appropriate, ensuring distractors are plausible and explanations are tight."
+}

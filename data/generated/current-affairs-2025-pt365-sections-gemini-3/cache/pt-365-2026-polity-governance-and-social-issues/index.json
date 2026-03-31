@@ -1,0 +1,778 @@
+{
+  "pages": [
+    {
+      "pageNumber": 1,
+      "classification": "cover",
+      "questionQuota": 0,
+      "topic": "Cover Page",
+      "subtopic": "Cover Page",
+      "rationale": "This is the cover page of the document and contains no content suitable for question generation.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 2,
+      "classification": "toc",
+      "questionQuota": 0,
+      "topic": "Table of Contents",
+      "subtopic": "Table of Contents",
+      "rationale": "This page contains the table of contents and provides no factual or conceptual material for questions.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 3,
+      "classification": "toc",
+      "questionQuota": 0,
+      "topic": "Table of Contents",
+      "subtopic": "Table of Contents",
+      "rationale": "This is a continuation of the table of contents and is not suitable for question generation.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 4,
+      "classification": "advertisement",
+      "questionQuota": 0,
+      "topic": "Note to Students",
+      "subtopic": "Note to Students",
+      "rationale": "This page is an introductory note and advertisement for the document's features and smart quiz, containing no UPSC-relevant facts.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 5,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Functioning of Parliament, State Legislature and Local Government",
+      "subtopic": "50 Years of National Emergency",
+      "rationale": "Extremely dense page covering the constitutional basis of Emergency (Articles 352-360), types of emergencies, proclamation procedures, and parliamentary approval requirements.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 6,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Functioning of Parliament, State Legislature and Local Government",
+      "subtopic": "Constitutional Amendments and Assent to State Bills",
+      "rationale": "High-value content regarding the 38th, 39th, 42nd, and 44th Amendments, plus a significant Supreme Court judgment on the Presidential Reference regarding assent to bills.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 7,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Functioning of Parliament, State Legislature and Local Government",
+      "subtopic": "Constitutional Provisions Regarding Assent to State Bills",
+      "rationale": "Detailed breakdown of Articles 200 and 201, including the Governor's and President's responsibilities and the legal nuances of the writ of mandamus.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 8,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Functioning of Parliament, State Legislature and Local Government",
+      "subtopic": "Governor's Powers and Office of Vice President",
+      "rationale": "Covers Governor's discretion, Article 361 immunity, and the election procedure for the Vice-President, including the 39th Amendment's impact on election disputes.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 9,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Functioning of Parliament, State Legislature and Local Government",
+      "subtopic": "Vice-President and Speaker of Lok Sabha",
+      "rationale": "Contains constitutional provisions for the Vice-President (Articles 64-68) and the Speaker of Lok Sabha (Article 93-94), including qualifications and removal processes.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 10,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Functioning of Parliament, State Legislature and Local Government",
+      "subtopic": "Speaker and Deputy Speaker of Lok Sabha",
+      "rationale": "Discusses the core duties of the Speaker and the historical background and constitutional role of the Deputy Speaker under Articles 94 and 95.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 11,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Functioning of Parliament, State Legislature and Local Government",
+      "subtopic": "Anti-Defection Law and Disqualification",
+      "rationale": "Dense factual content on the 10th Schedule, 52nd Amendment, judicial pronouncements (Kihoto Hollohan, etc.), and constitutional provisions for disqualification (Articles 102 and 191).",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 12,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Functioning of Parliament, State Legislature and Local Government",
+      "subtopic": "Disqualification Framework and Parliamentary Committees",
+      "rationale": "Covers RPA 1951 Section 8, the Constitution (130th Amendment) Bill 2025 regarding removal of ministers, and the origins and authority of Parliamentary Committees.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 13,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Functioning of Parliament, State Legislature and Local Government",
+      "subtopic": "Parliamentary Committees and Local Bodies",
+      "rationale": "High density of information on the Estimates Committee, Consultative Committees, CCS, ACC, and the newly introduced Panchayat Advancement Index (PAI).",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 14,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Functioning of Parliament, State Legislature and Local Government",
+      "subtopic": "Governance Initiatives and Official Language",
+      "rationale": "Covers the Model Youth Gram Sabha (MYGS), Official Language provisions (Part XVII), and the Inter-Parliamentary Union (IPU), along with Money Bill basics.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 15,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Functioning of Parliament, State Legislature and Local Government",
+      "subtopic": "Legislative Procedures and Key Terms",
+      "rationale": "Very dense page explaining Finance Bills vs. Money Bills, Private Member Bills, Adjournment Sine Die, and Zero Hour with specific procedural details.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 16,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "Functioning of Parliament, State Legislature and Local Government",
+      "subtopic": "Question Hour and NeVA",
+      "rationale": "Explains types of questions (Starred, Unstarred, Short Notice) and the National e-Vidhan Application (NeVA). Moderate factual density.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 17,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Important Constitutional/ Statutory/ Executive Bodies",
+      "subtopic": "Lokpal",
+      "rationale": "Detailed information on the Lokpal and Lokayuktas Act 2013, including composition, eligibility, and tenure of the Lokpal.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 18,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Important Constitutional/ Statutory/ Executive Bodies",
+      "subtopic": "Lokpal Structure and Powers",
+      "rationale": "Covers disqualifications for Lokpal members, the composition of the Selection Committee, and the specific functions of the Inquiry and Prosecution wings.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 19,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Executive and Statutory Bodies",
+      "subtopic": "Lokpal and Central Bureau of Investigation (CBI)",
+      "rationale": "This page contains high-density factual information regarding the jurisdiction of Lokpal and the structural/legal framework of the CBI, including its genesis, appointment process, and specific operations.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 20,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Constitutional and Statutory Bodies",
+      "subtopic": "CBI Consent and Union Public Service Commission (UPSC)",
+      "rationale": "Covers critical legal aspects of state consent for CBI and comprehensive constitutional details of UPSC including composition, tenure, and independence safeguards.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 21,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Governance and Social Issues",
+      "subtopic": "NCRB, Prison Reforms, and NHRC",
+      "rationale": "Highly dense page covering NCRB functions, suicide statistics, prison governance (State List), the Model Prisons Act 2023, and landmark judicial pronouncements on undertrials.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 22,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Human Rights Institutions",
+      "subtopic": "NHRC and GANHRI Accreditation",
+      "rationale": "Detailed information on the global accreditation process (GANHRI/Paris Principles) and the internal composition/appointment committee of the NHRC.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 23,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Human Rights Institutions",
+      "subtopic": "Powers and Functions of NHRC",
+      "rationale": "Focuses on the civil court powers and specific functions of the NHRC, along with a brief mention of World Accreditation Day.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 24,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Civil Services and Governance",
+      "subtopic": "NSCSTI, Capacity Building Commission, and iGOT Karmayogi",
+      "rationale": "Contains specific details on Mission Karmayogi components, the CBC's role, and the new NSCSTI 2.0 framework for training institutes.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 25,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Constitutional Offices",
+      "subtopic": "CAG and Attorney General of India",
+      "rationale": "Provides essential constitutional facts, tenure, removal procedures, and rights/limitations for both the CAG and the Attorney General.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 26,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Constitutional and Statutory Bodies",
+      "subtopic": "NCSC and National Medical Commission (NMC)",
+      "rationale": "Details the transition from MCI to NMC, the structure of autonomous boards under NMC, and the constitutional mandate of the NCSC.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 27,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Constitutional Issues",
+      "subtopic": "Preventive Detention",
+      "rationale": "Extremely dense page covering Article 22, various preventive detention statutes (NSA, UAPA, BNSS), and significant judicial precedents like A.K. Gopalan.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 28,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Fundamental Rights and Privacy",
+      "subtopic": "Personality Rights and Phone Tapping",
+      "rationale": "Discusses the legal status of personality rights in India and the statutory framework for phone tapping (Telegraph Act, Post Office Act).",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 29,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Judiciary and Rights",
+      "subtopic": "Phone Tapping Safeguards and Narco-Analysis",
+      "rationale": "Covers the PUCL v. Union of India safeguards for tapping and the constitutional validity of narco-tests based on the Selvi judgment.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 30,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Constitutional Provisions",
+      "subtopic": "Article 21, ST Reservation, and Enemy Property",
+      "rationale": "Includes the Supreme Court's expansion of Article 21 to digital access, ST reservation in Goa, and the legal definition of enemy property.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 31,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "Constitutional Provisions",
+      "subtopic": "Article 311",
+      "rationale": "Focuses primarily on Article 311 regarding the dismissal or removal of civil servants; lower density compared to previous pages.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 32,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Judiciary",
+      "subtopic": "Chief Justice of India and Appointment of Judges",
+      "rationale": "High-value content regarding the CJI's office, RTI status, and the evolution of the Collegium system through the Three Judges Cases.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 33,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Judiciary",
+      "subtopic": "Collegium System and Removal of Judges",
+      "rationale": "Explains the specific steps for HC/SC judge appointments and the constitutional/statutory process for the removal of judges.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 34,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Judiciary and Tribunals",
+      "subtopic": "Additional Judges, District Judges, and Tribunals",
+      "rationale": "Covers Article 224 (Additional Judges), Article 233 (District Judges), and the constitutional basis for Administrative Tribunals (323A/323B).",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 35,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Legal Aid",
+      "subtopic": "Constitutional Provisions and NALSA",
+      "rationale": "Details Article 39A, the Legal Services Authorities Act 1987, and the structure/functions of NALSA, SLSA, and DLSA.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 36,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Legal Aid and ADR",
+      "subtopic": "Eligibility for Legal Aid and ADR Frameworks",
+      "rationale": "Lists specific categories eligible for free legal aid and provides a comprehensive guide to types of Alternative Dispute Resolution (ADR) and related acts.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 37,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Judiciary and Legal Mechanisms",
+      "subtopic": "Arbitral Awards, Lok Adalat, and Doctrine of Merger",
+      "rationale": "This page contains dense legal information regarding the Supreme Court's stance on modifying arbitral awards, the statutory status and powers of Lok Adalats, and the conceptual 'Doctrine of Merger'. These are high-yield topics for UPSC Prelims.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 38,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "Governance and Internal Security",
+      "subtopic": "e-Zero FIR and Zero FIR",
+      "rationale": "Focuses on the e-Zero FIR initiative and the legal basis for Zero FIR under the Bharatiya Nagrik Suraksha Sanhita. While specific, it is less dense than the preceding page.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 39,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Elections",
+      "subtopic": "Election Commission of India (ECI) and RUPPs",
+      "rationale": "Covers the constitutional and statutory framework of the ECI, recent electoral reforms, and judicial pronouncements. It also introduces Registered Unrecognized Political Parties (RUPP), providing multiple factual points.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 40,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Elections",
+      "subtopic": "Political Parties, Electoral Rolls, and CEC Appointment",
+      "rationale": "Provides a comparative table between Registered and Recognized parties, details on Special Intensive Revision, and the process for the appointment/removal of the CEC. High factual density.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 41,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Elections",
+      "subtopic": "CEC and EC Act 2023, ECINET, and Postal Ballot",
+      "rationale": "Extremely dense page detailing the 2023 Act for CEC/EC appointments (Search/Select Committees), the ECINET digital platform, and the start of the Postal Ballot section. Highly relevant for current affairs.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 42,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Elections",
+      "subtopic": "Postal Ballot Eligibility and Framework",
+      "rationale": "Detailed breakdown of eligibility for postal ballots (Service, Special, Absentee voters). Good for statement-based questions on electoral procedures.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 43,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Centre-State Relations",
+      "subtopic": "Federalism and Reorganisation of States",
+      "rationale": "Covers constitutional provisions of federalism (Articles 246-254), various coordination bodies (Inter-State Council, Zonal Councils), and the procedure for forming new states under Article 3.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 44,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Centre-State Relations",
+      "subtopic": "Fiscal Federalism and Finance Commission",
+      "rationale": "Very high density page covering the Berubari Union case, constitutional articles for fiscal devolution (269-293), 15th Finance Commission recommendations, and the role of the Finance Commission.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 45,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Centre-State Relations",
+      "subtopic": "State Revenues and Inter-State Water Disputes (ISWD)",
+      "rationale": "Lists sources of state revenue and the constitutional/statutory framework for resolving water disputes (Article 262, Entry 56/17).",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 46,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "Centre-State Relations",
+      "subtopic": "ISWD Resolution Measures",
+      "rationale": "Discusses the 2019 Amendment Bill and the River Basin Management Bill. The page contains an advertisement at the bottom, reducing the usable content area.",
+      "confidence": 0.85
+    },
+    {
+      "pageNumber": 47,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Important Legislations",
+      "subtopic": "Digital Personal Data Protection (DPDP) Act, 2023",
+      "rationale": "Comprehensive coverage of the DPDP Act 2023, including applicability, consent, the Data Protection Board, and obligations of fiduciaries. Highly probable for Prelims.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 48,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Important Legislations",
+      "subtopic": "DPDP Rules 2025 and Criminal Law Reforms",
+      "rationale": "Covers the newly notified DPDP Rules 2025 and begins the section on the three new criminal laws (BNS 2023). High conceptual and factual density.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 49,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Important Legislations",
+      "subtopic": "BNS, BNSS, BSA 2023 and Online Gaming Act 2025",
+      "rationale": "Dense comparison and key highlights of the Bharatiya Nyaya Sanhita, Nagrik Suraksha Sanhita, and Sakshya Adhiniyam, plus the new Online Gaming Act.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 50,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Important Legislations",
+      "subtopic": "Online Gaming Regulations and National Sports Governance Act",
+      "rationale": "Details the classification of online games, penalties, and the introduction of the National Sports Governance Act 2025.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 51,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Important Legislations",
+      "subtopic": "National Sports Governance Framework and Tribunal",
+      "rationale": "Detailed provisions on the National Sports Board, National Sports Tribunal (composition and jurisdiction), and election oversight. Very specific and dense.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 52,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Social Issues / Education",
+      "subtopic": "National Sports Bodies and NEP 2020",
+      "rationale": "Explains the structure of National Sports Bodies and begins a detailed review of 5 years of the National Education Policy (NEP) 2020, specifically school education.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 53,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Social Issues / Education",
+      "subtopic": "NEP 2020 Targets and Government Schemes",
+      "rationale": "High-density page listing specific targets of NEP 2020 (GER, investment), related schemes (NIPUN Bharat, PM VidyaLakshmi), and the QS World University Rankings.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 54,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Social Issues / Women",
+      "subtopic": "PWDVA 2005 and POSH Act 2013",
+      "rationale": "Covers the 20-year milestone of the Domestic Violence Act (provisions and institutional framework) and a significant Supreme Court expansion of the POSH Act ambit.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 55,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Social Issues",
+      "subtopic": "PoSH Act 2013",
+      "rationale": "This page contains detailed provisions of the PoSH Act 2013, including definitions of sexual harassment, workplace, and the composition/powers of ICC and LCC, which are high-yield for UPSC Prelims.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 56,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Governance",
+      "subtopic": "FCRA 2010 & NGO Schemes",
+      "rationale": "Covers the Foreign Contribution (Regulation) Act 2010, its 2020 amendments, and rehabilitation schemes like Swadhar Greh and Ujjwala, providing specific regulatory and institutional facts.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 57,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Governance",
+      "subtopic": "Waqf (Amendment) Act 2025 & Doctrine of Essentiality",
+      "rationale": "Discusses the Waqf (Amendment) Act 2025, the UMEED portal, and the significant constitutional 'Doctrine of Essentiality' formulated by the Supreme Court.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 58,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Governance",
+      "subtopic": "Census 2027",
+      "rationale": "Extremely dense page covering the framework of the Indian Census, including constitutional mandates (Art 246), the Census Act 1948, historical context, and new digital features for 2027.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 59,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Governance",
+      "subtopic": "Aadhaar & UIDAI",
+      "rationale": "Detailed features of Aadhaar, the statutory nature of UIDAI, and the landmark Justice K.S. Puttaswamy judgment regarding its constitutionality.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 60,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Governance",
+      "subtopic": "OCI & Immigration Order 2025",
+      "rationale": "High factual density regarding OCI cardholder eligibility, restrictions, and revocation grounds, alongside the new Immigration and Foreigners (Exemption) Order 2025.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 61,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Governance",
+      "subtopic": "Immigration Act 2025 & Land Registration",
+      "rationale": "Covers the consolidation of immigration laws into the 2025 Act and the legal nuances of the land registration system in India, including recent Supreme Court observations.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 62,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Governance",
+      "subtopic": "Land Records & SVAMITVA Scheme",
+      "rationale": "Explains different land registration systems (Deeds vs Title), digital initiatives like ULPIN and NGDRS, and the 5-year progress of the SVAMITVA scheme.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 63,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Governance",
+      "subtopic": "Tribal Governance (5th & 6th Schedule)",
+      "rationale": "Provides a detailed breakdown of Article 342, the Sixth Schedule (ADCs/ARCs), and the Fifth Schedule, including the Samatha judgment.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 64,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Governance",
+      "subtopic": "Tribal Development Schemes",
+      "rationale": "Compares the Fifth and Sixth Schedules and lists major tribal development initiatives like PM-JANMAN and the Dharti Aaba Janjatiya Gram Utkarsh Abhiyan.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 65,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Governance",
+      "subtopic": "Forest Rights Act 2006 & Tribal Vision 2030",
+      "rationale": "Very dense page detailing the Tribal Village Vision 2030, the Adi Karmayogi Abhiyan, and the specific rights (land, MFP, grazing) under the Forest Rights Act 2006.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 66,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Governance",
+      "subtopic": "PVTGs & TALASH Initiative",
+      "rationale": "Covers the implementation of FRA, the Niyamgiri case, identification criteria for PVTGs, and the TALASH initiative for Eklavya Model Residential Schools.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 67,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Social Issues",
+      "subtopic": "Juvenile Justice Act 2015",
+      "rationale": "Details the legal basis of the juvenile justice system in India, including definitions of children in conflict with law and the role of JJBs and NCPCR.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 68,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Social Issues",
+      "subtopic": "JJ Amendment 2021 & Child Adoption",
+      "rationale": "Compares the 2015 and 2021 JJ Acts and provides details on child adoption laws in India, including the role of CARA and the Hague Convention.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 69,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Governance",
+      "subtopic": "Online Content Regulation & Global Gender Gap",
+      "rationale": "Discusses the regulatory framework for OTT/online content (IT Act 2000, IT Rules 2021) and introduces the Global Gender Gap Report 2025 by WEF.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 70,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Social Issues",
+      "subtopic": "Global Gender Gap & Global Hunger Index 2025",
+      "rationale": "High-density data page covering India's performance across key dimensions of the Gender Gap Index and the composition/findings of the Global Hunger Index 2025.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 71,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Social Issues",
+      "subtopic": "Nutrition Reports & Mission POSHAN 2.0",
+      "rationale": "Covers the SOFI 2025 report, UNICEF's Child Nutrition Report, and the detailed funding/implementation structure of Mission POSHAN 2.0.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 72,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Social Issues",
+      "subtopic": "Maternity Benefits & ULLAS",
+      "rationale": "Details the Maternity Benefit Act (1961/2017), relevant Supreme Court judgments on reproductive rights, and the ULLAS - New India Literacy Programme.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 73,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Social Issues",
+      "subtopic": "Literacy and Sanitation",
+      "rationale": "Contains detailed literacy statistics from PLFS 2023-24, digital literacy milestones in Kerala, and Swachh Survekshan 2024-25 awards.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 74,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Social Issues",
+      "subtopic": "Sanitation and Drug Abuse",
+      "rationale": "Covers Swachh Shehar Jodi initiative, Kashi Declaration 2025 for drug-free India, and global drug control institutions like CND and UNODC.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 75,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Social Issues",
+      "subtopic": "Drug Abuse and Tobacco Control",
+      "rationale": "High density of facts regarding the NDPS Act, WHO Global Tobacco Epidemic report 2025, MPOWER measures, and tobacco cultivation in India.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 76,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Governance",
+      "subtopic": "AI Governance and e-Governance",
+      "rationale": "Discusses UN mechanisms for international AI governance and the Vishakhapatnam Declaration on digital competencies in civil services.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 77,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Social Issues",
+      "subtopic": "Education Reports and Indices",
+      "rationale": "Provides detailed findings from the Performance Grade Index (PGI) 2.0 and the UDISE+ 2024-25 report on school education.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 78,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Social Issues",
+      "subtopic": "Education, Ageing, and Health",
+      "rationale": "Covers the MERITE scheme for technical education, WHO's Age-Friendly Cities network, and the Universal Immunization Programme (UIP) data.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 79,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Social Issues",
+      "subtopic": "Health and Animal Welfare",
+      "rationale": "Details the diseases covered under the Universal Immunization Programme and the legal/constitutional framework for stray dog management.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 80,
+      "classification": "appendix",
+      "questionQuota": 0,
+      "topic": "Polity",
+      "subtopic": "President vs Governor",
+      "rationale": "A high-value comparative analysis of the powers, appointment, removal, and discretionary functions of the President and Governor.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 81,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Polity",
+      "subtopic": "Citizenship and UPSC Evolution",
+      "rationale": "Compares NRI, PIO, and OCI statuses and outlines the early historical development of civil services starting from the Cornwallis Code.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 82,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Polity and Social Issues",
+      "subtopic": "Civil Services History and Vital Statistics",
+      "rationale": "Traces the evolution of UPSC from 1853 to 1950 and provides key demographic trends from the SRS 2021 report.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 83,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Social Issues and Sports",
+      "subtopic": "Health Indicators and Sports Governance",
+      "rationale": "Contains vital health statistics like U5MR, TFR, and Sex Ratio at Birth, alongside details on sports regulatory bodies like SAI and IOA.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 84,
+      "classification": "appendix",
+      "questionQuota": 0,
+      "topic": "Social Issues",
+      "subtopic": "NEP 2020 and Global Reports",
+      "rationale": "Summarizes key achievements of NEP 2020 and provides a comprehensive list of major international reports and their releasing agencies.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 85,
+      "classification": "advertisement",
+      "questionQuota": 0,
+      "topic": "Advertisement",
+      "subtopic": "Vision IAS Achievements",
+      "rationale": "Promotional content regarding Vision IAS results and upcoming foundation courses.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 86,
+      "classification": "advertisement",
+      "questionQuota": 0,
+      "topic": "Advertisement",
+      "subtopic": "Vision IAS Contact Info",
+      "rationale": "Promotional page featuring topper lists and contact information for various Vision IAS centers.",
+      "confidence": 0.95
+    }
+  ]
+}

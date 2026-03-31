@@ -1,0 +1,42 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-choice",
+      "prompt": "Consider the following diseases:",
+      "contextLines": [
+        "1. Diphtheria",
+        "2. Japanese Encephalitis",
+        "3. Childhood Tuberculosis",
+        "4. Dengue",
+        "How many of the above diseases are covered for free immunization under India's Universal Immunization Programme (UIP)?"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The Universal Immunization Programme (UIP) provides free immunization against 12 diseases: Diphtheria, Pertussis, Tetanus, Polio, Measles, Rubella, Childhood Tuberculosis, Hepatitis B, Meningitis & Pneumonia, Rotavirus diarrhoea, Pneumococcal Pneumonia, and Japanese Encephalitis. Dengue is a mosquito-borne viral disease for which no vaccine is currently included in the UIP. Therefore, exactly three of the given diseases (1, 2, and 3) are covered.",
+      "takeaway": "The UIP covers several severe and vector-borne diseases like Japanese Encephalitis, but it does not currently include vaccines for Dengue or Malaria.",
+      "evidenceExcerpt": "Universal Immunization Programme (UIP) of India Provides free immunization against 12 diseases: Diphtheria, Pertussis, Tetanus, Polio, Measles, Rubella, Childhood Tuberculosis, Hepatitis B, Meningitis & Pneumonia, Rotavirus diarrhoea, Pneumococcal Pneumonia, and Japanese Encephalitis.",
+      "qualityScore": 85,
+      "reviewNotes": "A classic UPSC-style 'How many of the above' question. The inclusion of Dengue acts as a strong distractor since it is a prominent public health issue in India but lacks a UIP-covered vaccine."
+    }
+  ],
+  "reviewerNotes": "Selected two strong questions. Candidate 1 was refined to fit the 'How many of the above' format perfectly. Candidate 2 was modified to include the U-WIN platform fact, making it a more holistic question covering the scope, achievements, and digitalization of the UIP."
+}

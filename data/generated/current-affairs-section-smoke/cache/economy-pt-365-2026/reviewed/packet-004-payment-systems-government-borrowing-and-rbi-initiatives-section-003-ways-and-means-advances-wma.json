@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Analytical",
+      "prompt": "What is the most likely economic rationale for linking the interest rate on Ways and Means Advances (WMA) to the RBI's repo rate?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "To guarantee that the government's borrowing cost via WMA is always the lowest available rate in the market."
+        },
+        {
+          "id": "B",
+          "text": "To align the cost of this direct borrowing from the central bank with the prevailing monetary policy stance."
+        },
+        {
+          "id": "C",
+          "text": "To provide a fixed and predictable interest rate for the government's budgetary planning throughout the year."
+        },
+        {
+          "id": "D",
+          "text": "To generate a significant and stable stream of non-tax revenue for the Reserve Bank of India."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The repo rate is the RBI's key policy rate, signaling its monetary policy stance. By linking the WMA rate to the repo rate, the RBI ensures that the cost of even this direct, short-term government borrowing is consistent with overall monetary conditions. This prevents the WMA from becoming an avenue for cheap, unlimited credit that could undermine monetary policy objectives. The other options are incorrect: the repo rate is not necessarily the lowest rate (A), it is variable, not fixed (C), and revenue generation is a byproduct, not the primary policy rationale (D).",
+      "takeaway": "The pricing of central bank facilities is a crucial aspect of monetary policy. Linking the WMA rate to the repo rate aligns the government's short-term borrowing cost with the central bank's policy signals, ensuring consistency and fiscal discipline.",
+      "evidenceExcerpt": "The interest rate is the RBI's repo rate.",
+      "qualityScore": 90,
+      "reviewNotes": "This is an excellent analytical question. It goes beyond simple fact-recall from the text ('the rate is the repo rate') and requires the candidate to understand the economic principle behind this policy choice. The distractors are plausible and test a deeper understanding of monetary policy. This is a high-quality, UPSC-level question."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Ways and Means Advances (WMA) facility of the Reserve Bank of India, consider the following statements:\n\n1. This facility is available to both the Central and State governments.\n2. The advances under this facility are not intended to be a source for financing the fiscal deficit.\n3. The tenure for the repayment of these advances is typically 91 days.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct as the source material explicitly states that WMAs are given to 'the central and state governments'. Statement 2 is correct, as the text clarifies that 'WMAs are not a source of financing the fiscal deficit'. Statement 3 is incorrect; the repayment period is 'within three months', which is approximately 90 days, not specifically 91 days (a tenure often associated with Treasury Bills, making this a plausible distractor). Therefore, only statements 1 and 2 are correct.",
+      "takeaway": "Ways and Means Advances (WMA) are a short-term liquidity management tool for both central and state governments, provided by the RBI. They are distinct from deficit financing instruments and have a repayment tenure of up to three months.",
+      "evidenceExcerpt": "Ways and Means Advances (WMA) are temporary advances given by the RBI to the central and state governments to cover mismatches in receipts and payments. ... WMAs are not a source of financing the fiscal deficit. ... the advance must be repaid within three months.",
+      "qualityScore": 85,
+      "reviewNotes": "This is a well-structured question that tests multiple core features of WMA: its beneficiaries, its purpose, and its tenure. The third statement introduces a subtle but important distinction between 'three months' and '91 days' to trap candidates who might confuse WMA with Treasury Bills, which is a good UPSC-style nuance."
+    }
+  ],
+  "reviewerNotes": "I have selected and refined two questions. The first is a solid, moderate-difficulty statement-based question that covers the core factual aspects of WMA with good distractors. The second is a hard, analytical question that tests the economic rationale behind a key feature of WMA, which is characteristic of higher-level UPSC questions. Together, they provide good coverage of the topic at different cognitive levels."
+}

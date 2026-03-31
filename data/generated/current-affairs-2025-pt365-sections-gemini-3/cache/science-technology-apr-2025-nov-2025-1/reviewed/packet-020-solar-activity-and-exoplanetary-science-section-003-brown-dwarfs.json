@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Brown Dwarfs':\n1. They form from the collapse of gas and dust clouds, similar to the formation of stars.\n2. They possess sufficient mass to sustain the nuclear fusion of ordinary hydrogen in their cores.\n3. The occurrence of deuterium in them is a major characteristic that distinguishes them from planets.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Brown dwarfs are celestial bodies that form like stars from collapsing gas and dust.\nStatement 2 is incorrect: They lack enough mass for sustained hydrogen fusion, which is why they are often called 'failed stars'.\nStatement 3 is correct: A major difference between brown dwarfs and planets is their mass and the occurrence of deuterium (heavy hydrogen) in brown dwarfs.",
+      "takeaway": "Brown dwarfs form like stars but lack the mass for sustained hydrogen fusion. They are distinguished from planets by their mass and the presence of deuterium.",
+      "evidenceExcerpt": "Brown dwarfs are celestial bodies that form like stars (from collapsing gas and dust) but lack enough mass for sustained hydrogen fusion... The major difference between brown dwarfs and planets is their mass and occurrence of deuterium (heavy hydrogen) in brown dwarfs.",
+      "qualityScore": 88,
+      "reviewNotes": "Rewrote the 4-statement question into a tighter 3-statement format. The distractors are plausible and the statements directly test the core concepts from the text."
+    }
+  ],
+  "reviewerNotes": "Selected and refined two questions. Q1 covers the general characteristics and differences from planets. Q2 utilizes the Statement-I/II format to test the causal relationship between a brown dwarf's mass, its lack of fusion, and its designation as a 'failed star'."
+}

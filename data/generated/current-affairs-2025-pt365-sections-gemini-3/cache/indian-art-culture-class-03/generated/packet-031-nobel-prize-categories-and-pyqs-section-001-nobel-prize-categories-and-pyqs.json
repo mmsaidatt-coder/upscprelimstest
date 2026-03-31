@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "History",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of Nobel Prize categories and their awarding bodies:\n1. Physics : Royal Swedish Academy of Sciences\n2. Medicine or Physiology : Nobel Assembly at Karolinska Institute\n3. Peace : Swedish Academy\n\nHow many of the pairs given above are correctly matched?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: Physics is awarded by the Royal Swedish Academy of Sciences. Pair 2 is correctly matched: Medicine or Physiology is awarded by the Nobel Assembly at Karolinska Institute. Pair 3 is incorrectly matched: The Peace Prize is awarded by the Norwegian Nobel Committee; the Swedish Academy awards the prize for Literature.",
+      "takeaway": "Distinguishing between the Swedish Academy (Literature) and the Royal Swedish Academy of Sciences (Physics, Chemistry, Economics) is a common point of confusion.",
+      "evidenceExcerpt": "Physics: Royal Swedish Academy of Sciences; Medicine or Physiology: Nobel Assembly at Karolinska Institute; Literature: Swedish Academy; Peace: Norwegian Nobel Committee.",
+      "contextLines": []
+    },
+    {
+      "subject": "History",
+      "difficulty": "Hard",
+      "questionType": "Comparison-driven",
+      "prompt": "Which of the following correctly matches the Nobel Prize category with its specific awarding institution?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Literature : Nobel Assembly at Karolinska Institute"
+        },
+        {
+          "id": "B",
+          "text": "Economics : Swedish Academy, Stockholm"
+        },
+        {
+          "id": "C",
+          "text": "Medicine or Physiology : Nobel Assembly at Karolinska Institute"
+        },
+        {
+          "id": "D",
+          "text": "Peace : Royal Swedish Academy of Sciences"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Medicine or Physiology is awarded by the Nobel Assembly at Karolinska Institute. Literature is awarded by the Swedish Academy. Economics is awarded by the Royal Swedish Academy of Sciences. Peace is awarded by the Norwegian Nobel Committee.",
+      "takeaway": "Specific institutional names are critical for distinguishing between the different Swedish awarding bodies.",
+      "evidenceExcerpt": "Medicine or Physiology: Nobel Assembly at Karolinska Institute, Stockholm, Sweden... Literature: Swedish Academy, Stockholm, Sweden... Economics: Royal Swedish Academy of Sciences",
+      "contextLines": []
+    },
+    {
+      "subject": "History",
+      "difficulty": "Easy",
+      "questionType": "Direct Recall",
+      "prompt": "The Nobel Prize winning scientist James D. Watson is primarily recognized for his contributions to which of the following fields?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Metallurgy"
+        },
+        {
+          "id": "B",
+          "text": "Meteorology"
+        },
+        {
+          "id": "C",
+          "text": "Environmental protection"
+        },
+        {
+          "id": "D",
+          "text": "Genetics"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "As per the Previous Year Questions section in the source, James D. Watson is known for his work in the area of Genetics.",
+      "takeaway": "UPSC often asks about the specific scientific fields of famous Nobel laureates.",
+      "evidenceExcerpt": "Nobel Prize winning scientist James D. Watson is known for his work in which area? ... (d) Genetics",
+      "contextLines": []
+    }
+  ]
+}

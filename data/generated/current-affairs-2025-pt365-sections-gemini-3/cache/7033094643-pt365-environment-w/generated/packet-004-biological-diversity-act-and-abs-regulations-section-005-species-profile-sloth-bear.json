@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Sloth Bear: 1. It is a nocturnal animal that specializes in eating termites and ants. 2. Unlike other bear species, it does not hibernate. 3. It is classified as 'Endangered' under the IUCN Red List. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statements 1 and 2 are correct. The Sloth Bear is solitary, nocturnal, specializes in eating termites and ants, and does not hibernate. Statement 3 is incorrect because it is classified as Vulnerable (VU) on the IUCN Red List, not Endangered.",
+      "takeaway": "Sloth bears are nocturnal, non-hibernating insectivores listed as Vulnerable by the IUCN.",
+      "evidenceExcerpt": "Specializes in eating termites and ants and does not hibernate unlike other bears. It is solitary, nocturnal... IUCN Vulnerable (VU)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the conservation of Sloth Bears, consider the following statements: 1. They are naturally found only in the Himalayan region of India and Nepal. 2. Daroji Sloth Bear Sanctuary, Asia's first dedicated sloth bear sanctuary, is located in Karnataka. 3. Project Sloth Bear was initiated in the year 2025 to focus on the conservation of the species. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Sloth bears are native to the forests and grasslands of India, Nepal, and Sri Lanka, and are not restricted to the Himalayas. Statement 2 is correct: Daroji in Karnataka is Asia's first dedicated sanctuary for them. Statement 3 is correct: Project Sloth Bear was initiated in 2025.",
+      "takeaway": "Sloth bears are native to India, Nepal, and Sri Lanka. Project Sloth Bear (2025) and Daroji Sanctuary (Karnataka) are key conservation milestones.",
+      "evidenceExcerpt": "Native to forests and grasslands of India, Nepal, and Sri Lanka... Daroji Sloth Bear Sanctuary in Karnataka is the first dedicated sloth bear sanctuary in Asia. Project Sloth Bear initiated in 2025."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the legal and international protection status of the Sloth Bear: 1. It is listed in Schedule I of the Wildlife Protection Act, 1972. 2. It is placed in Appendix I of CITES. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Both statements are correct. The Sloth Bear is accorded the highest level of protection in India under Schedule I of the WPA 1972 and is listed under CITES Appendix I.",
+      "takeaway": "The Sloth Bear is highly protected under WPA 1972 (Schedule I) and CITES (Appendix I).",
+      "evidenceExcerpt": "Conservation Status: WPA 1972 Schedule I, CITES Appendix I, IUCN Vulnerable (VU)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Species Description",
+      "prompt": "Consider the following characteristics of a mammal species:\n1. It is a solitary and nocturnal animal.\n2. It has a highly specialized diet consisting primarily of termites and ants.\n3. Unlike many other species in its family, it does not undergo hibernation.\n\nWhich of the following species is best described by the characteristics given above?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Sun Bear"
+        },
+        {
+          "id": "B",
+          "text": "Sloth Bear"
+        },
+        {
+          "id": "C",
+          "text": "Red Panda"
+        },
+        {
+          "id": "D",
+          "text": "Indian Pangolin"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Sloth Bear is a solitary and nocturnal mammal native to South Asia. It exhibits distinct behavioral adaptations, including myrmecophagy (a specialized diet of ants and termites) and a notable lack of hibernation, which distinguishes it from many other bear species.",
+      "takeaway": "Identifying species through their unique ecological niches and behavioral traits (like diet specialization and hibernation patterns) is a core requirement for biodiversity topics.",
+      "evidenceExcerpt": "The Sloth Bear specializes in eating termites and ants and does not hibernate. It is solitary, nocturnal, and native to India, Nepal, and Sri Lanka."
+    }
+  ]
+}

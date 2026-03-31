@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding toxic heavy metals and metalloids:\n1. They are characterized by a density greater than 4000 kg/m3.\n2. They are readily degradable in soil ecosystems over decadal timescales.\n3. Arsenic is highly toxic in its inorganic form.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Heavy metals are characterized by a high atomic weight and a density greater than 4000 kg/m3.\nStatement 2 is incorrect: They are non-degradable and bioaccumulate in soils over decadal timescales.\nStatement 3 is correct: Arsenic is highly toxic in its inorganic form and can cause skin lesions, cardiovascular disease, and diabetes.",
+      "takeaway": "Heavy metals are non-degradable, dense elements (>4000 kg/m3) that bioaccumulate over decades. Arsenic's inorganic form is particularly toxic.",
+      "evidenceExcerpt": "Heavy metals/metalloids are nondegradable and accumulate over decadal timescales in soils. Characteristics: High atomic weight ranging from 63.5 to 200.6 and density >4000 kg/m3... Arsenic is highly toxic in its inorganic form and can cause skin lesions, cardiovascular disease, and diabetes."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of toxic heavy metals and their specific health impacts:\n\n1. Cadmium : Bone damage and lung cancer\n2. Lead : Neurobehavioral effects on fetuses\n3. Arsenic : Skin lesions and diabetes\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "All three pairs are correctly matched.\nPair 1 is correct: Cadmium exposure can cause kidney and bone damage, and lung cancer.\nPair 2 is correct: Lead exposure causes developmental and neurobehavioral effects on fetuses.\nPair 3 is correct: Arsenic is highly toxic in its inorganic form and can cause skin lesions, cardiovascular disease, and diabetes.",
+      "takeaway": "Different heavy metals have specific physiological impacts: Cadmium affects kidneys, bones, and lungs; Lead impacts fetal neurodevelopment; Arsenic causes skin lesions and systemic diseases like diabetes.",
+      "evidenceExcerpt": "Cadmium exposure can cause kidney and bone damage, and lung cancer. Lead exposure causes developmental and neurobehavioral effects on fetuses. Arsenic is highly toxic in its inorganic form and can cause skin lesions, cardiovascular disease, and diabetes."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the health impacts of heavy metal pollution, consider the following statements: 1. Cadmium exposure is primarily associated with developmental and neurobehavioral effects on fetuses. 2. Arsenic exhibits high toxicity in its inorganic form and can lead to cardiovascular disease and diabetes. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect as lead exposure causes developmental and neurobehavioral effects on fetuses, whereas cadmium causes kidney/bone damage and lung cancer. Statement 2 is correct as inorganic arsenic is highly toxic and linked to cardiovascular disease and diabetes.",
+      "takeaway": "Different heavy metals have specific physiological targets; for instance, inorganic arsenic is highly toxic and linked to systemic issues like diabetes, while lead severely impacts fetal development.",
+      "evidenceExcerpt": "Cadmium exposure can cause kidney and bone damage, and lung cancer. Lead exposure causes developmental and neurobehavioral effects on fetuses. Arsenic is highly toxic in its inorganic form and can cause skin lesions, cardiovascular disease, and diabetes."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "Which of the following best explains why heavy metals pose a unique and persistent challenge in environmental remediation compared to many organic pollutants?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "They are nondegradable and bioaccumulate in soils over decadal timescales."
+        },
+        {
+          "id": "B",
+          "text": "They possess a density lower than 4000 kg/m3, making them highly mobile in groundwater."
+        },
+        {
+          "id": "C",
+          "text": "They rapidly volatilize into the atmosphere under normal soil temperatures."
+        },
+        {
+          "id": "D",
+          "text": "They are exclusively toxic in their organic forms, which are difficult to isolate."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Unlike many organic pollutants that can be broken down by microbes over time, heavy metals are elements and therefore nondegradable. They have a density greater than 4000 kg/m3 and accumulate in soils over decades.",
+      "takeaway": "The elemental nature of heavy metals means they cannot be degraded naturally, leading to long-term bioaccumulation in the environment.",
+      "evidenceExcerpt": "Heavy metals/metalloids are nondegradable and accumulate over decadal timescales in soils. Characteristics: High atomic weight ranging from 63.5 to 200.6 and density >4000 kg/m3."
+    }
+  ]
+}

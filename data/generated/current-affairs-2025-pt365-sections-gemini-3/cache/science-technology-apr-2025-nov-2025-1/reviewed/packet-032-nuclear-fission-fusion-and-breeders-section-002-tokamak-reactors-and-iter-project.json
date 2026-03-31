@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding nuclear fusion and the ITER project: 1. A Tokamak device harnesses the energy of fusion by creating and confining plasma using strong magnetic fields. 2. ITER is an international megaproject located in France aiming to demonstrate fusion as a carbon-free energy source. 3. The Institute for Plasma Research (IPR) is the lead Indian institution participating in the ITER project. Which of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Statement 1 is correct: A Tokamak is designed to harness fusion energy by creating and confining high-temperature fusion plasma using strong magnetic fields. Statement 2 is correct: ITER is located in France and aims to demonstrate fusion as an abundant, safe, and carbon-free energy source. Statement 3 is correct: The Institute for Plasma Research (IPR) in Ahmedabad is the lead Indian institution participating in the ITER project.",
+      "takeaway": "ITER is a major international fusion project in France. A Tokamak reactor utilizes magnetic confinement to hold fusion plasma. The Institute for Plasma Research (IPR) acts as the lead Indian institution for ITER.",
+      "evidenceExcerpt": "ITER is located in France and aims to demonstrate fusion as an abundant, safe, carbon-free energy source... The Institute for Plasma Research in Ahmedabad is the lead Indian institution participating in ITER... Tokamak is designed to harness the energy of fusion. In it, fusion plasma is created and confined by strong magnetic fields.",
+      "qualityScore": 85,
+      "reviewNotes": "Solid statement-based question covering the fundamental concepts and institutional details of the ITER project. The statements are clear and directly test the candidate's understanding of the topic."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to India's nuclear fusion research and its participation in international projects, consider the following statements: 1. ADITYA is India's first indigenously designed domestic tokamak reactor. 2. India has manufactured the cryostat, an enormous chamber that houses the entire ITER Tokamak. 3. The cryolines supplied by India for the ITER project carry liquid sodium to cool the superconducting magnets. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: ADITYA is India's first indigenously designed domestic tokamak. Statement 2 is correct: India manufactured the cryostat, the enormous chamber housing the ITER Tokamak. Statement 3 is incorrect: The cryolines manufactured by India for ITER carry liquid helium, not liquid sodium, to cool the magnets.",
+      "takeaway": "India's domestic fusion program features the ADITYA and SST-1 tokamaks. For the international ITER project, India supplied the cryostat and cryolines, which utilize liquid helium for cooling.",
+      "evidenceExcerpt": "India manufactured the cryostat (chamber housing the tokamak) and cryolines (carrying liquid helium to cool magnets) for ITER... India's domestic tokamak research includes ADITYA (first indigenously designed), ADITYA-U, and SST-1.",
+      "qualityScore": 85,
+      "reviewNotes": "Good distractor in statement 3 (liquid sodium vs liquid helium). Tests specific contributions of India to the ITER project and domestic milestones effectively."
+    }
+  ],
+  "reviewerNotes": "Selected three high-quality questions that cover the conceptual basis of Tokamaks, international facilities, and India's specific contributions to fusion research. Rewrote prompts to remove control characters and align with UPSC phrasing standards. Ensured distractors are plausible and explanations are tight."
+}

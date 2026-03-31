@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding various tactical missiles: 1. Astra is an indigenously developed Beyond Visual Range Air-to-Air missile (BVRAAM). 2. While BrahMos is a supersonic cruise missile, Pralay is a quasi-ballistic missile. 3. The Rampage missile is an air-to-ground precise attack system developed by Israel Aerospace Industries. How many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Astra is an indigenous Beyond Visual Range Air-to-Air missile (BVRAAM) developed by DRDO. Statement 2 is correct: BrahMos is a supersonic cruise missile, whereas Pralay is a surface-to-surface short-range quasi-ballistic missile. Statement 3 is correct: Rampage is a long-range, air-to-ground supersonic precise attack missile developed by Israel Aerospace Industries.",
+      "takeaway": "Understanding the operational domains (air-to-air vs air-to-ground), trajectories (cruise vs quasi-ballistic), and origins of tactical missiles is key to distinguishing them.",
+      "evidenceExcerpt": "BrahMos is a 2-stage supersonic cruise missile... Astra is an indigenous Beyond Visual Range Air-to-Air missile (BVRAAM)... Pralay is a surface-to-surface short-range quasi-ballistic missile... Rampage Missiles: Long range, air to ground precise attack missile... Developed by: Israel Aerospace Industries.",
+      "qualityScore": 85,
+      "reviewNotes": "A strong comparative question that tests multiple facets of India's missile arsenal in the new UPSC 'How many statements' format."
+    }
+  ],
+  "reviewerNotes": "Selected and refined 4 questions to ensure broad coverage of the source text. Improved formatting to match UPSC standards, particularly by utilizing the 'How many pairs/statements' structure and ensuring distractors are plausible and parallel. Removed control characters to ensure strict JSON compliance."
+}

@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Environmental DNA (eDNA)':\n1. It is the genetic material collected directly from an organism by capturing it in its natural habitat.\n2. It can be extracted from environmental samples such as water, soil, and air.\n3. It provides a non-invasive and rapid method for mapping species distribution and tracking ecosystems.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: eDNA is not collected by capturing the organism. It is the genetic material (like cells, tissues, fluids, and excrement) naturally left behind by organisms in their environment.\nStatement 2 is correct: eDNA can be extracted from various environmental mediums, including water, soil, and air.\nStatement 3 is correct: eDNA analysis is a non-invasive, highly sensitive, rapid, and cost-effective biomonitoring method used for mapping species presence and tracking ecosystems.",
+      "takeaway": "eDNA relies on genetic traces left in the environment, allowing scientists to monitor biodiversity without physically capturing or observing the species.",
+      "evidenceExcerpt": "It is the genetic material, like DNA from cells, tissues, fluids, and excrement, left by organisms in the environment (e.g., water, soil, Air, etc.). Application: Mapping species presence and distribution, tracking Ecosystems, etc. Significance: Non-invasive, highly sensitive, rapid and cost-effective."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Definition-based",
+      "prompt": "Which of the following best describes the concept of 'Environmental DNA (eDNA)' often seen in the news?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Genetic material synthetically engineered to help organisms adapt to extreme environmental conditions."
+        },
+        {
+          "id": "B",
+          "text": "Genetic material left by organisms in their surroundings, which can be used to track their presence."
+        },
+        {
+          "id": "C",
+          "text": "The complete genetic sequencing of an entire ecosystem's flora to monitor climate change impacts."
+        },
+        {
+          "id": "D",
+          "text": "Genetic material extracted exclusively from the fossilized remains of extinct species found in sedimentary rocks."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Environmental DNA (eDNA) refers to the genetic material (such as cells, tissues, fluids, and excrement) left by organisms in their environment (e.g., water, soil, air). It is used to map species presence and distribution without needing to physically observe or capture the organisms.",
+      "takeaway": "eDNA is naturally shed genetic material found in environmental samples, serving as a biological footprint for species tracking.",
+      "evidenceExcerpt": "It is the genetic material, like DNA from cells, tissues, fluids, and excrement, left by organisms in the environment (e.g., water, soil, Air, etc.). Application: Mapping species presence and distribution, tracking Ecosystems, etc."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Applied Scenario",
+      "prompt": "In the context of biodiversity conservation, which of the following scenarios best illustrates the application of 'Environmental DNA (eDNA)' analysis?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Capturing a critically endangered tiger to extract blood samples for genetic sequencing."
+        },
+        {
+          "id": "B",
+          "text": "Collecting water samples from a river to detect the presence of an elusive aquatic species without physically observing it."
+        },
+        {
+          "id": "C",
+          "text": "Using satellite telemetry collars to track the migration patterns of elephants across forest corridors."
+        },
+        {
+          "id": "D",
+          "text": "Cross-breeding two distinct species of plants in a laboratory to develop a drought-resistant hybrid."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "eDNA is genetic material left by organisms in the environment (e.g., water, soil, air) through cells, tissues, fluids, and excrement. It allows for non-invasive mapping of species presence and distribution without the need to capture or physically observe the organisms.",
+      "takeaway": "eDNA provides a non-invasive, highly sensitive, and rapid method for biomonitoring by analyzing environmental samples rather than the organisms themselves.",
+      "evidenceExcerpt": "It is the genetic material, like DNA from cells, tissues, fluids, and excrement, left by organisms in the environment (e.g., water, soil, Air, etc.). Application: Mapping species presence and distribution... Significance: Non-invasive..."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Assertion-Reason",
+      "prompt": "Consider the following Assertion (A) and Reason (R): Assertion (A): Environmental DNA (eDNA) analysis is considered a highly sensitive and non-invasive tool for tracking ecosystems. Reason (R): It relies on capturing and tagging organisms to continuously monitor their genetic mutations over time. In the context of the above statements, which one of the following is correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both Assertion (A) and Reason (R) are correct and Reason (R) is the correct explanation for Assertion (A)."
+        },
+        {
+          "id": "B",
+          "text": "Both Assertion (A) and Reason (R) are correct but Reason (R) is not the correct explanation for Assertion (A)."
+        },
+        {
+          "id": "C",
+          "text": "Assertion (A) is correct but Reason (R) is incorrect."
+        },
+        {
+          "id": "D",
+          "text": "Assertion (A) is incorrect but Reason (R) is correct."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Assertion (A) is correct as eDNA is a highly sensitive, rapid, and non-invasive biomonitoring method. Reason (R) is incorrect because eDNA does not rely on capturing or tagging organisms; instead, it uses genetic material (like cells or excrement) left behind by organisms in environments such as water, soil, or air.",
+      "takeaway": "The primary advantage of eDNA is its non-invasive nature, eliminating the need to physically capture or observe target species for biodiversity monitoring.",
+      "evidenceExcerpt": "It is the genetic material, like DNA from cells, tissues, fluids, and excrement, left by organisms in the environment (e.g., water, soil, Air, etc.)... Significance: Non-invasive, highly sensitive, rapid and cost-effective."
+    }
+  ]
+}

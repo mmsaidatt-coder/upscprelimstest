@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Correct-Pair",
+      "prompt": "Consider the following pairs regarding the classification of diabetes and their primary characteristics: 1. Type 1 Diabetes : Autoimmune destruction of insulin-producing beta cells 2. Type 2 Diabetes : Chronic undernutrition and low body weight 3. Type 5 Diabetes : Obesity and overnutrition 4. Gestational Diabetes : High blood glucose during pregnancy. How many of the above pairs are correctly matched?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "Only three pairs"
+        },
+        {
+          "id": "D",
+          "text": "All four pairs"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: Type 1 diabetes involves the autoimmune destruction of insulin-producing beta cells. Pair 2 is incorrectly matched: Type 2 diabetes is mainly caused by obesity and overnutrition, not undernutrition. Pair 3 is incorrectly matched: Type 5 diabetes (also known as J-type diabetes) is associated with undernutrition and low weight. Pair 4 is correctly matched: Gestational diabetes occurs with high blood glucose during pregnancy. Therefore, only two pairs are correctly matched.",
+      "takeaway": "Type 5 diabetes is a newly recognized classification by the International Diabetes Federation (IDF) that specifically accounts for malnutrition-related diabetes, contrasting with the obesity-driven Type 2.",
+      "evidenceExcerpt": "Malnutrition-related diabetes has been officially recognized and named type 5 diabetes... Also called J-type diabetes, is known to be associated with under nutrition and low weight. Other Types of Diabetes: Type 1: Autoimmune destruction of insulin-producing beta cells. Type 2: Mainly caused by obesity and over nutrition. Gestational: Occurs with high blood glucose during pregnancy.",
+      "contextLines": []
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-Based",
+      "prompt": "With reference to the different types of diabetes, consider the following statements: 1. Type 5 diabetes, also known as J-type diabetes, is primarily associated with obesity and overnutrition. 2. Type 1 diabetes involves the autoimmune destruction of insulin-producing beta cells. 3. Gestational diabetes is characterized by high blood glucose levels occurring specifically during pregnancy. How many of the above statements are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Type 5 diabetes (J-type diabetes) is officially recognized as malnutrition-related diabetes and is associated with undernutrition and low weight, whereas Type 2 is associated with obesity. Statement 2 is correct: Type 1 diabetes is characterized by the autoimmune destruction of insulin-producing beta cells. Statement 3 is correct: Gestational diabetes occurs with high blood glucose during pregnancy. Thus, exactly two statements are correct.",
+      "takeaway": "Understanding the distinct etiologies of diabetes is crucial. While Type 1 is autoimmune and Type 2 is linked to overnutrition, the newly recognized Type 5 addresses cases stemming from chronic undernutrition.",
+      "evidenceExcerpt": "Malnutrition-related diabetes has been officially recognized and named type 5 diabetes... Also called J-type diabetes, is known to be associated with under nutrition and low weight. Other Types of Diabetes: Type 1: Autoimmune destruction of insulin-producing beta cells... Gestational: Occurs with high blood glucose during pregnancy.",
+      "contextLines": []
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Applied/Conceptual",
+      "prompt": "A medical researcher is analyzing different pathways that lead to elevated blood glucose levels in patients. Which of the following best describes the underlying physiological mechanism that distinguishes Type 1 diabetes from other common forms?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It is triggered by chronic undernutrition and low body mass index during early childhood."
+        },
+        {
+          "id": "B",
+          "text": "It results from the autoimmune destruction of the insulin-producing beta cells in the pancreas."
+        },
+        {
+          "id": "C",
+          "text": "It is a temporary metabolic dysfunction that occurs exclusively during pregnancy."
+        },
+        {
+          "id": "D",
+          "text": "It develops primarily due to insulin resistance caused by severe obesity and overnutrition."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Type 1 diabetes is characterized by the autoimmune destruction of insulin-producing beta cells. Option A describes the newly recognized Type 5 (malnutrition-related) diabetes. Option C describes Gestational diabetes. Option D describes Type 2 diabetes.",
+      "takeaway": "Different types of diabetes have distinct physiological triggers: autoimmune destruction (Type 1), obesity/overnutrition (Type 2), pregnancy (Gestational), and undernutrition (Type 5).",
+      "evidenceExcerpt": "Type 1: Autoimmune destruction of insulin-producing beta cells."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the global classification of diabetes, consider the following statements: 1. The International Diabetes Federation (IDF) recently recognized malnutrition-related diabetes as a distinct category known as Type 5 diabetes. 2. J-type diabetes is a localized term for gestational diabetes occurring in undernourished pregnant women. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct; the IDF officially recognized malnutrition-related diabetes as Type 5 at the World Diabetes Congress. Statement 2 is incorrect; J-type diabetes is another name for Type 5 (malnutrition-related diabetes), not gestational diabetes. Gestational diabetes specifically refers to high blood glucose during pregnancy.",
+      "takeaway": "Type 5 diabetes is officially recognized by the IDF and is synonymous with J-type or malnutrition-related diabetes.",
+      "evidenceExcerpt": "Malnutrition-related diabetes has been officially recognized and named type 5 diabetes at International Diabetes Federation's (IDF) World Diabetes Congress. Also called J-type diabetes, is known to be associated with under nutrition and low weight."
+    }
+  ]
+}

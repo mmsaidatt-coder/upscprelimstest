@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the 'C-FLOOD' platform, consider the following statements: 1. It provides advance flood inundation forecasts up to the village level. 2. It utilizes advanced 2-D hydrodynamic modelling to generate flood inundation maps. 3. It was developed exclusively by the National Disaster Management Authority (NDMA). How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statements 1 and 2 are correct. C-FLOOD provides 2-day advance flood inundation forecasts up to the village level using advanced 2-D hydrodynamic modelling. Statement 3 is incorrect. It was jointly developed by C-DAC, Central Water Commission (CWC), Ministry of Jal Shakti, and National Remote Sensing Centre (NRSC), not exclusively by NDMA.",
+      "takeaway": "C-FLOOD is a high-resolution (village-level), 2-day advance flood forecasting tool built using 2-D hydrodynamic modelling by a consortium of C-DAC, CWC, and NRSC.",
+      "evidenceExcerpt": "C-FLOOD is a web-based platform providing 2-day advance flood inundation forecasts up to the village level using advanced 2-D hydrodynamic modelling. It was jointly developed by C-DAC, Central Water Commission (CWC), Ministry of Jal Shakti, and National Remote Sensing Centre (NRSC)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-choice",
+      "prompt": "Which of the following agencies collaborated to develop the C-FLOOD web-based platform for flood forecasting? 1. Centre for Development of Advanced Computing (C-DAC) 2. Central Water Commission (CWC) 3. National Remote Sensing Centre (NRSC) 4. India Meteorological Department (IMD) Select the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1, 2 and 3 only"
+        },
+        {
+          "id": "B",
+          "text": "2, 3 and 4 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2, 3 and 4"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "C-FLOOD was jointly developed by C-DAC, Central Water Commission (CWC) under the Ministry of Jal Shakti, and National Remote Sensing Centre (NRSC). The India Meteorological Department (IMD) was not among the primary developing agencies for this specific platform.",
+      "takeaway": "The development of C-FLOOD represents a multi-agency collaboration involving IT expertise (C-DAC), hydrological expertise (CWC), and spatial data expertise (NRSC).",
+      "evidenceExcerpt": "It was jointly developed by C-DAC, Central Water Commission (CWC), Ministry of Jal Shakti, and National Remote Sensing Centre (NRSC)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Multiple Choice",
+      "prompt": "Which of the following best describes the primary function of the 'C-FLOOD' platform recently seen in the news?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A dedicated satellite communication network for coordinating disaster response forces during severe floods."
+        },
+        {
+          "id": "B",
+          "text": "A web-based system utilizing 2-D hydrodynamic modelling to provide short-term advance flood inundation forecasts."
+        },
+        {
+          "id": "C",
+          "text": "A financial mechanism to disburse rapid relief funds to flood-affected villages under the National Disaster Response Fund."
+        },
+        {
+          "id": "D",
+          "text": "An early warning system designed exclusively to predict glacial lake outburst floods in the Himalayan region."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "C-FLOOD is a web-based platform that provides 2-day advance flood inundation forecasts up to the village level using advanced 2-D hydrodynamic modelling. It is not a communication network, financial mechanism, or exclusively for glacial lake outburst floods.",
+      "takeaway": "C-FLOOD is an advanced technological tool developed jointly by C-DAC, CWC, and NRSC to provide 2-day advance flood inundation forecasts.",
+      "evidenceExcerpt": "C-FLOOD is a web-based platform providing 2-day advance flood inundation forecasts up to the village level using advanced 2-D hydrodynamic modelling."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-033-river-cities-alliance-and-secondary-pollutants-section-007-toxic-heavy-metals",
+    "claimType": "Factual",
+    "claimText": "Heavy metals are characterized by a high atomic weight ranging from 63.5 to 200.6 and a density greater than 4000 kg/m3.",
+    "evidenceExcerpt": "Characteristics: High atomic weight ranging from 63.5 to 200.6 and density >4000 kg/m3.",
+    "pageNumbers": [
+      69
+    ],
+    "examUse": "Statement-based question on the physical properties defining heavy metals.",
+    "distractorHooks": [
+      "Density less than 4000 kg/m3",
+      "Low atomic weight",
+      "Degradable nature"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-033-river-cities-alliance-and-secondary-pollutants-section-007-toxic-heavy-metals",
+    "claimType": "Conceptual",
+    "claimText": "Heavy metals and metalloids are nondegradable and bioaccumulate in soils over decadal timescales.",
+    "evidenceExcerpt": "They are nondegradable and bioaccumulate in soils over decadal timescales.",
+    "pageNumbers": [
+      69
+    ],
+    "examUse": "Statement-based question on environmental persistence and bioaccumulation.",
+    "distractorHooks": [
+      "Highly degradable in soils",
+      "Short-term accumulation",
+      "Do not bioaccumulate"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-033-river-cities-alliance-and-secondary-pollutants-section-007-toxic-heavy-metals",
+    "claimType": "Factual",
+    "claimText": "Exposure to Cadmium can cause kidney damage, bone damage, and lung cancer.",
+    "evidenceExcerpt": "Cadmium exposure can cause kidney and bone damage, and lung cancer.",
+    "pageNumbers": [
+      69
+    ],
+    "examUse": "Correct-pair question matching heavy metals to their specific health impacts.",
+    "distractorHooks": [
+      "Causes neurobehavioral effects on fetuses",
+      "Causes skin lesions"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-033-river-cities-alliance-and-secondary-pollutants-section-007-toxic-heavy-metals",
+    "claimType": "Factual",
+    "claimText": "Lead exposure causes developmental and neurobehavioral effects on fetuses.",
+    "evidenceExcerpt": "Lead exposure causes developmental and neurobehavioral effects on fetuses.",
+    "pageNumbers": [
+      69
+    ],
+    "examUse": "Correct-pair question matching heavy metals to their specific health impacts.",
+    "distractorHooks": [
+      "Causes lung cancer",
+      "Causes diabetes"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-033-river-cities-alliance-and-secondary-pollutants-section-007-toxic-heavy-metals",
+    "claimType": "Factual",
+    "claimText": "Inorganic arsenic is highly toxic and can cause skin lesions, cardiovascular disease, and diabetes.",
+    "evidenceExcerpt": "Arsenic is highly toxic in its inorganic form and can cause skin lesions, cardiovascular disease, and diabetes.",
+    "pageNumbers": [
+      69
+    ],
+    "examUse": "Correct-pair question matching heavy metals to their specific health impacts.",
+    "distractorHooks": [
+      "Organic arsenic is the highly toxic form",
+      "Causes bone damage"
+    ]
+  }
+]

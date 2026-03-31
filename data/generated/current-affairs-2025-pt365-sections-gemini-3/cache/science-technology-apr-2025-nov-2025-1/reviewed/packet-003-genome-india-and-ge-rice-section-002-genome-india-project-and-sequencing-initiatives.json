@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Indian Biological Data Centre (IBDC), consider the following statements:\n1. It is India's first national life science data repository.\n2. It is located in Faridabad and serves as the data storage facility for the Genome India Project.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: The Indian Biological Data Centre (IBDC) is India's first national life science data repository.\nStatement 2 is correct: It is located at Faridabad and is responsible for storing the genetic data mapped under the Genome India Project.",
+      "takeaway": "The IBDC at Faridabad is a pioneering national repository for life science data, playing a crucial role in securely storing genetic information from large-scale initiatives like the Genome India Project.",
+      "evidenceExcerpt": "Data is stored at the Indian Biological Data Centre (IBDC) at Faridabad, India's first national life science data repository.",
+      "qualityScore": 85,
+      "reviewNotes": "Rewritten to focus specifically on the IBDC. Tests both its status as the first national repository and its functional location/purpose."
+    }
+  ],
+  "reviewerNotes": "The candidate questions were decent but had some overlapping concepts and weak distractors. I refined Q1 to maintain the 'Correct Pair' format for nodal agencies. I rewrote Q2 to focus specifically on the Indian Biological Data Centre (IBDC) and its significance. I completely overhauled Q3 to test the international initiatives (100,000 Genomes Project and HapMap Project) mentioned in the text, using strong distractors to ensure it meets the UPSC standard."
+}

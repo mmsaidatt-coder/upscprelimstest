@@ -1,0 +1,129 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "How many of the following diseases are covered nationwide under the Universal Immunization Programme (UIP) in India?\n1. Japanese Encephalitis\n2. Childhood Tuberculosis\n3. Rotavirus diarrhoea\n4. Hepatitis B\n5. Pneumococcal Pneumonia",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only two"
+        },
+        {
+          "id": "B",
+          "text": "Only three"
+        },
+        {
+          "id": "C",
+          "text": "Only four"
+        },
+        {
+          "id": "D",
+          "text": "All five"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Under the Universal Immunization Programme (UIP), diseases are categorized into nationwide and region-specific coverage. Nationwide coverage (9 diseases) includes Diphtheria, Pertussis, Tetanus, Polio, Measles, Rubella, Childhood Tuberculosis, Hepatitis B, and Meningitis & Pneumonia. Region-specific coverage (3 diseases) includes Rotavirus diarrhoea, Pneumococcal Pneumonia, and Japanese Encephalitis. In the given list, only Childhood Tuberculosis and Hepatitis B are covered nationwide.",
+      "takeaway": "UIP distinguishes between vaccines provided across the country and those administered only in high-burden regions.",
+      "evidenceExcerpt": "Nationwide (9): Diphtheria, Pertussis, Tetanus, Polio, Measles, Rubella, Childhood Tuberculosis, Hepatitis B and Meningitis & Pneumonia. Region-specific (3): Rotavirus diarrhoea, Pneumococcal Pneumonia, and Japanese Encephalitis.",
+      "qualityScore": 88,
+      "reviewNotes": "Uses the modern 'How many' format to test precise knowledge of the UIP disease list, distinguishing between nationwide and regional coverage.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Regarding the legal and constitutional status of animals in India, consider the following statements:\n1. In the Jallikattu Case (2014), the Supreme Court interpreted the right to life under Article 21 as extending to animals.\n2. In the 'People for Elimination of Stray Trouble' case, the court allowed the culling of street dogs identified as persistent troublemakers.\n3. Article 51A(g) of the Constitution identifies 'compassion for living creatures' as a Fundamental Duty of citizens.\nWhich of the statements given above are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct; the 2014 Jallikattu judgment extended the interpretation of Article 21 (Right to Life) to include animals. Statement 2 is incorrect because the court in 'People for Elimination of Stray Trouble v. Animal Welfare Board of India' actually suspended the killing of street dogs, including those considered troublemakers. Statement 3 is correct as Article 51A(g) explicitly lists compassion for living creatures as a Fundamental Duty.",
+      "takeaway": "The Indian judiciary has expanded the scope of Article 21 to animals, while the Constitution balances this with the Fundamental Duties of citizens.",
+      "evidenceExcerpt": "Jallikattu Case 2014: Interpreted right to life and liberty (Article 21) as extending to animals. People for Elimination of Stray Trouble v. Animal Welfare Board of India: Suspended the killing of street dogs, including troublemakers. Article 51A(g): Fundamental Duty “to have compassion for living creatures”.",
+      "qualityScore": 87,
+      "reviewNotes": "Tests the intersection of fundamental rights, fundamental duties, and landmark judicial interpretations regarding animal welfare.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the management of stray dogs in India, consider the following statements:\n1. Article 243W of the Constitution mandates municipalities to control the stray dog population.\n2. The Animal Birth Control Rules, 2023, were framed under the Wildlife (Protection) Act, 1972.\n3. The Supreme Court has directed that stray dogs in Delhi-NCR be released to their original areas after vaccination rather than being confined to shelters.\nWhich of the statements given above are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct as Article 243W mandates municipalities to control stray dog populations. Statement 2 is incorrect because the Animal Birth Control Rules, 2023, were framed under the Prevention of Cruelty to Animals Act, 1960, not the Wildlife (Protection) Act. Statement 3 is correct as the Supreme Court modified its order to ensure stray dogs are released to their original habitats after deworming and vaccination instead of being kept in shelters.",
+      "takeaway": "Stray dog management involves constitutional mandates for local bodies and specific rules under the Prevention of Cruelty to Animals Act.",
+      "evidenceExcerpt": "Article 243W mandates municipalities to control stray dog population. Animal Birth Control Rules, 2023: Under the Prevention of Cruelty to Animals Act, 1960. Supreme Court has modified its suo motu order, directing that stray dogs in Delhi-NCR be released to their original areas after deworming and vaccination, instead of being confined to shelters.",
+      "qualityScore": 86,
+      "reviewNotes": "Combines constitutional provisions with recent judicial directions and specific legislative frameworks.",
+      "contextLines": []
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Universal Immunization Programme (UIP) in India:\n1. A child is considered 'fully immunized' only if they receive all vaccinations as per the National schedule within the first year of life.\n2. India was declared Polio-free in 2014 and achieved Neonatal tetanus elimination in 2015.\n3. The Intensified Mission Indradhanush 5.0 (IMI 5.0) campaign specifically focuses on improving the coverage of Hepatitis B and Polio vaccines.\nWhich of the statements given above are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct; the statistical definition of 'fully immunized' requires all scheduled vaccinations to be completed within the first year of life. Statement 2 is correct; India achieved Polio-free status in 2014 and Neonatal tetanus elimination in 2015. Statement 3 is incorrect because IMI 5.0 has a special focus on improving Measles and Rubella vaccination coverage, not Hepatitis B and Polio.",
+      "takeaway": "The UIP has specific milestones and definitions for immunization status, with current missions targeting gaps in Measles and Rubella coverage.",
+      "evidenceExcerpt": "A child is considered fully immunized after receiving all vaccinations as per National schedule within the first year of life. Achievements: Polio-Free India (2014), Neonatal tetanus elimination (2015). Intensified Mission Indradhanush 5.0 (IMI 5.0) campaign with special focus on improvement of Measles and Rubella vaccination coverage.",
+      "qualityScore": 85,
+      "reviewNotes": "Covers the technical definition of immunization, historical milestones, and current programmatic focus (IMI 5.0).",
+      "contextLines": []
+    }
+  ],
+  "reviewerNotes": "The selected questions cover the two primary topics in the text: the Universal Immunization Programme (UIP) and Stray Dog Management. The questions test a mix of factual lists (diseases), constitutional provisions (Articles 243W and 51A), legal frameworks (PCA Act vs Wildlife Act), and judicial precedents (Jallikattu and Stray Trouble cases). All distractors are plausible and based on common points of confusion (e.g., DPSP vs Fundamental Duty, or different Acts)."
+}

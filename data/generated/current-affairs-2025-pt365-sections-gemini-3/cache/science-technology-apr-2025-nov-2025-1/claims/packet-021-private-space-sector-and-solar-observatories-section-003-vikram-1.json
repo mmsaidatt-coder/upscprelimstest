@@ -1,0 +1,65 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-021-private-space-sector-and-solar-observatories-section-003-vikram-1",
+    "claimType": "Factual",
+    "claimText": "Vikram-1 is a private orbital-class launch vehicle developed by the Indian space-startup Skyroot Aerospace.",
+    "evidenceExcerpt": "Vikram-1 is India's new private orbital-class launch vehicle developed by Skyroot Aerospace.",
+    "pageNumbers": [
+      43
+    ],
+    "examUse": "Statement-based question identifying the developers of India's private launch vehicles.",
+    "distractorHooks": [
+      "Developed by Agnikul Cosmos",
+      "Developed by ISRO",
+      "Sub-orbital launch vehicle"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-021-private-space-sector-and-solar-observatories-section-003-vikram-1",
+    "claimType": "Factual",
+    "claimText": "Vikram-1 is designed to launch small satellites and rideshare missions into Low Earth Orbit (LEO) or Sun-Synchronous Orbit (SSO).",
+    "evidenceExcerpt": "Designed to launch small satellites and rideshare missions into Low Earth Orbit (LEO) or Sun-Synchronous Orbit (SSO).",
+    "pageNumbers": [
+      43
+    ],
+    "examUse": "Statement-based question on the target orbits and payload types of Vikram-1.",
+    "distractorHooks": [
+      "Geosynchronous Transfer Orbit (GTO)",
+      "Heavy communication satellites"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-021-private-space-sector-and-solar-observatories-section-003-vikram-1",
+    "claimType": "Technical",
+    "claimText": "Vikram-1 is a four-stage rocket comprising three solid-fuel booster stages and a final liquid-propellant stage powered by a Raman engine.",
+    "evidenceExcerpt": "It is a four-stage rocket: the first three stages use solid-fuel boosters. The final (upper) stage uses a liquid-propellant Raman engine for precise orbital insertion.",
+    "pageNumbers": [
+      43
+    ],
+    "examUse": "Statement-based question on the propulsion technology and staging of Vikram-1.",
+    "distractorHooks": [
+      "Two-stage rocket",
+      "All-liquid propulsion",
+      "Cryogenic upper stage",
+      "Raman engine uses solid fuel"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-021-private-space-sector-and-solar-observatories-section-003-vikram-1",
+    "claimType": "Technical",
+    "claimText": "The Vikram-1 rocket is constructed with an all-carbon-fibre body and incorporates 3D-printed engines.",
+    "evidenceExcerpt": "Features an all-carbon-fibre body and 3D-printed engines for a lightweight, efficient design.",
+    "pageNumbers": [
+      43
+    ],
+    "examUse": "Statement-based question on the materials and manufacturing processes used in modern private rockets.",
+    "distractorHooks": [
+      "Aluminum alloy body",
+      "Traditional cast engines"
+    ]
+  }
+]

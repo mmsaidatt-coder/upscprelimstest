@@ -1,0 +1,207 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the classification of industries by the Central Pollution Control Board (CPCB):\n1. The Pollution Index (PI) used for classification is based on the 'Polluter Pays Principle'.\n2. Industries under the 'White' category are exempt from obtaining Environmental Clearance (EC) and Consent.\n3. The categorization of industries based on pollution in India originated with the Doon Valley Notification.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The Pollution Index (PI) is determined based on the 'Precautionary Principle', not the 'Polluter Pays Principle'.\nStatement 2 is correct: White category industries (PI < 25) are non-polluting and do not require Environmental Clearance (EC) and Consent.\nStatement 3 is correct: The classification of industries originated in 1989 with the Doon Valley (Uttarakhand) Notification.",
+      "takeaway": "The Pollution Index (PI) for industrial classification is based on the Precautionary Principle. White category industries are exempt from EC and Consent, and the classification system traces its roots to the 1989 Doon Valley Notification.",
+      "evidenceExcerpt": "PI is determined based on Precautionary Principle... White (PI < 25): Non-polluting; do not require Environmental Clearance (EC) and Consent... Originated in 1989 with Doon Valley (Uttarakhand) Notification."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs regarding the classification of industries based on the Pollution Index (PI):\n1. Red Category : Normally prohibited in ecologically fragile areas\n2. White Category : Requires Consent to Establish but exempt from Environmental Clearance\n3. Blue Category : Comprises Essential Environmental Services for waste management\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: Red category industries (PI > 80) are normally not permitted in ecologically fragile areas.\nPair 2 is incorrectly matched: White category industries (PI < 25) are non-polluting and do not require Environmental Clearance (EC) or Consent (neither Consent to Establish nor Consent to Operate).\nPair 3 is correctly matched: The Blue category includes Essential Environmental Services (ESSs) for the management of waste.",
+      "takeaway": "White category industries are entirely exempt from both Environmental Clearance and Consent requirements. The Blue category is specifically designated for Essential Environmental Services like waste management.",
+      "evidenceExcerpt": "Red (PI > 80): No Red category industries shall normally be permitted in ecologically fragile area... White (PI < 25): Non-polluting; do not require Environmental Clearance (EC) and Consent. Blue: Includes Essential Environmental Services (ESSs) for management of waste..."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Pollution Index (PI) methodology for industrial classification, consider the following statements:\n1. The PI score ranges from 0 to 500, with higher values indicating a greater degree of pollution load.\n2. Industries with a PI score strictly greater than 80 are classified under the Red category.\n3. The revised methodology for this classification was formulated based on the Precautionary Principle.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The Pollution Index (PI) ranges from 0 to 100, not 0 to 500.\nStatement 2 is correct: Industries with a PI > 80 are classified as Red category.\nStatement 3 is correct: The PI is determined based on the Precautionary Principle.",
+      "takeaway": "The Pollution Index ranges from 0 to 100. A score above 80 places an industry in the Red category, which faces strict location restrictions.",
+      "evidenceExcerpt": "Revised methodology followed based on Pollution Index (PI) - ranges from 0 to 100 with increasing value indicating increased degree of pollution load. PI is determined based on Precautionary Principle... Categories: Red (PI > 80)..."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Multiple-choice",
+      "prompt": "Which of the following statements accurately describes the 'White' and 'Blue' categories of industries in India's pollution-based classification?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "White category industries are highly polluting but permitted in fragile areas, whereas Blue category industries are not."
+        },
+        {
+          "id": "B",
+          "text": "White category industries do not require Environmental Clearance, whereas the Blue category includes Essential Environmental Services."
+        },
+        {
+          "id": "C",
+          "text": "White category industries have a Pollution Index between 25 and 55, while Blue category industries have a Pollution Index below 25."
+        },
+        {
+          "id": "D",
+          "text": "Both White and Blue category industries are strictly prohibited from operating in the Doon Valley region."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "White category industries (PI < 25) are non-polluting and do not require Environmental Clearance (EC) or Consent. The Blue category includes Essential Environmental Services (ESSs) such as Municipal Solid Waste Management and sewage treatment plants. Option C is incorrect because the Green category has a PI between 25 and 55.",
+      "takeaway": "The White category is for non-polluting industries (PI < 25) exempt from EC/Consent, while the Blue category is a specialized classification for Essential Environmental Services.",
+      "evidenceExcerpt": "White (PI < 25): Non-polluting; do not require Environmental Clearance (EC) and Consent. Blue: Includes Essential Environmental Services (ESSs) for management of waste..."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Assertion-Reason",
+      "prompt": "There are two statements given below, one labelled as Assertion (A) and the other as Reason (R):\n\nAssertion (A): Under the industrial classification framework in India, Red category industries are normally prohibited from being established in ecologically fragile areas.\nReason (R): The Pollution Index (PI) methodology used by the CPCB for categorizing industries is formulated on the basis of the Precautionary Principle.\n\nWhich one of the following is correct in respect of the above statements?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both Assertion (A) and Reason (R) are correct and Reason (R) is the correct explanation for Assertion (A)"
+        },
+        {
+          "id": "B",
+          "text": "Both Assertion (A) and Reason (R) are correct but Reason (R) is not the correct explanation for Assertion (A)"
+        },
+        {
+          "id": "C",
+          "text": "Assertion (A) is correct but Reason (R) is incorrect"
+        },
+        {
+          "id": "D",
+          "text": "Assertion (A) is incorrect but Reason (R) is correct"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Assertion (A) is correct: Red category industries (PI > 80) have the highest pollution load and are normally not permitted in ecologically fragile areas. Reason (R) is also correct and explains Assertion (A): The Precautionary Principle dictates that preventive action should be taken before environmental harm occurs. Restricting high-pollution-potential (Red) industries from sensitive ecosystems is a direct regulatory application of this principle.",
+      "takeaway": "The CPCB's classification of industries uses a Pollution Index (PI) based on the Precautionary Principle, which justifies strict spatial regulations, such as keeping Red category industries out of ecologically fragile zones.",
+      "evidenceExcerpt": "PI is determined based on Precautionary Principle... formulated in 2016... Categories: Red (PI > 80): No Red category industries shall normally be permitted in ecologically fragile area."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Application",
+      "prompt": "A corporation plans to establish a new facility in India. Under which of the following scenarios would the facility most likely be classified under the 'Blue' category by the Central Pollution Control Board (CPCB)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It is a non-polluting assembly unit with a Pollution Index (PI) score of 15."
+        },
+        {
+          "id": "B",
+          "text": "It is a facility dedicated to providing Essential Environmental Services, such as a sewage treatment plant."
+        },
+        {
+          "id": "C",
+          "text": "It is a manufacturing unit that has successfully reduced its Pollution Index from the 'Orange' to the 'Green' threshold."
+        },
+        {
+          "id": "D",
+          "text": "It is an industry operating in an ecologically fragile area that has obtained special Environmental Clearance."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The 'Blue' category specifically includes Essential Environmental Services (ESSs) for the management of waste, such as sewage treatment plants and municipal solid waste management facilities. Option A describes a 'White' category industry (PI < 25). Option C describes a transition between traditional pollution categories, not a Blue category facility. Option D is incorrect as Red category industries are normally prohibited in fragile areas, and the Blue category is defined by its function (ESS), not its location.",
+      "takeaway": "The 'Blue' category in the CPCB industrial classification is uniquely reserved for Essential Environmental Services (ESSs) that manage waste, distinguishing them from traditional manufacturing industries.",
+      "evidenceExcerpt": "Blue: Includes Essential Environmental Services (ESSs) for management of waste..."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Comparison",
+      "prompt": "Which of the following best describes the regulatory distinction between 'White' and 'Green' category industries under the CPCB's Pollution Index framework?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "White category industries are entirely exempt from Environmental Clearance and Consent, whereas Green category industries are not."
+        },
+        {
+          "id": "B",
+          "text": "White category industries are permitted in ecologically fragile areas, whereas Green category industries are strictly prohibited."
+        },
+        {
+          "id": "C",
+          "text": "White category industries are evaluated based on the Polluter Pays Principle, whereas Green category industries are evaluated on the Precautionary Principle."
+        },
+        {
+          "id": "D",
+          "text": "White category industries manage municipal solid waste, whereas Green category industries handle hazardous industrial waste."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "White category industries have a Pollution Index (PI) below 25, are considered non-polluting, and are uniquely exempt from requiring Environmental Clearance (EC) and Consent. Green category industries (PI between 25 and 54) have a higher pollution load and are subject to regulatory consent requirements. Option B is incorrect as Red industries are the ones normally prohibited in fragile areas. Option C is incorrect because the entire PI methodology is based on the Precautionary Principle. Option D is incorrect as waste management falls under the Blue category.",
+      "takeaway": "The 'White' category (PI < 25) was introduced to ease doing business for practically non-polluting industries by exempting them from Environmental Clearance and Consent requirements, unlike the Green, Orange, and Red categories.",
+      "evidenceExcerpt": "Green (25 <= PI < 55). White (PI < 25): Non-polluting; do not require Environmental Clearance (EC) and Consent. Blue: Includes Essential Environmental Services (ESSs) for management of waste..."
+    }
+  ]
+}

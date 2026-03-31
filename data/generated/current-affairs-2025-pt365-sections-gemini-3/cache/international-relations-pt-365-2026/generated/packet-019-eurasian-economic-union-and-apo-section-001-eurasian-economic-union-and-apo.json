@@ -1,0 +1,72 @@
+{
+  "questions": [
+    {
+      "subject": "Current Affairs",
+      "difficulty": "Hard",
+      "questionType": "Correct-pair",
+      "prompt": "How many of the following pairs of reports and their publishing organizations are correctly matched?",
+      "contextLines": [
+        "1. Global Money Laundering Report : Financial Action Task Force (FATF)",
+        "2. World Intellectual Property Report : WIPO",
+        "3. Financial Sector Assessment Program Report : World Bank",
+        "4. World Social Protection Report : International Labour Organisation (ILO)"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "Only three pairs"
+        },
+        {
+          "id": "D",
+          "text": "All four pairs"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "All four pairs are correctly matched. The Global Money Laundering Report is by FATF. The World Intellectual Property Report (WIPR) is by WIPO. The Financial Sector Assessment Program (FSAP) is a joint program of the IMF and World Bank (the source lists World Bank). The World Social Protection Report is a flagship report of the ILO.",
+      "takeaway": "Familiarity with the specific flagship reports of major international organizations like the World Bank, ILO, and WEF is essential for UPSC Prelims.",
+      "evidenceExcerpt": "Global Money Laundering Report: FATF; World Intellectual Property Report (WIPR): WIPO; Financial Sector Assessment Program (FSAP) Report: World Bank; World Social Protection Report: ILO."
+    },
+    {
+      "subject": "Current Affairs",
+      "difficulty": "Hard",
+      "questionType": "Matching",
+      "prompt": "Which of the following pairs of reports and their publishing organizations are correctly matched?",
+      "contextLines": [
+        "1. World Social Protection Report : International Labour Organisation",
+        "2. Financial Sector Assessment Program (FSAP) Report : World Bank",
+        "3. Global Information Technology Report : World Economic Forum",
+        "4. World Intellectual Property Report : World Intellectual Property Organization"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "Only three pairs"
+        },
+        {
+          "id": "D",
+          "text": "All four pairs"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "All four pairs are correctly matched according to the source material. The World Social Protection Report is published by the ILO. The FSAP is a joint program but the source attributes it to the World Bank. The Global Information Technology Report is a WEF publication, and the World Intellectual Property Report is by WIPO.",
+      "takeaway": "UPSC often tests the ability to distinguish between reports published by the World Bank, ILO, and WEF as they cover overlapping socio-economic themes.",
+      "evidenceExcerpt": "World Social Protection Report - International Labour Organisation (ILO). Financial Sector Assessment Program (FSAP) Report - World Bank. Global Information Technology Report - WEF (World Economic Forum). World Intellectual Property Report (WIPR) - WIPO."
+    }
+  ]
+}

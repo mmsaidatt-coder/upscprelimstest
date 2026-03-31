@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding a 'Pangenome': 1. It is a collection of genome sequences derived from multiple individuals of the same species. 2. It assists in identifying population-specific genetic markers in humans. 3. The first pangenome of Asian rice was created using a short-read sequencing method. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statements 1 and 2 are correct. A pangenome is a collection of genome sequences from many individuals of the same species. It helps introduce disease-tolerance traits in crops and identify population-specific genetic markers in humans. Statement 3 is incorrect. The first Pangenome of Asian rice was created using 'PacBio high-fidelity' (HiFi) sequencing, which is a single-molecule, real-time (SMRT) long-read sequencing method, not a short-read method.",
+      "takeaway": "A pangenome captures the genetic diversity of a species by compiling genomes from multiple individuals, utilizing long-read sequencing methods like PacBio HiFi.",
+      "evidenceExcerpt": "A Pangenome is a collection of genome sequences from many individuals of the same species. Chinese scientists created the first Pangenome of Asian rice using 'PacBio high-fidelity' (HiFi) sequencing, a single-molecule, real-time (SMRT) long-read sequencing method. Pangenomes help introduce disease-tolerance traits in crops and identify population-specific genetic markers in humans."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Direct Concept",
+      "prompt": "In the context of biotechnology, 'PacBio HiFi' is best described as:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A single-molecule, real-time long-read sequencing method"
+        },
+        {
+          "id": "B",
+          "text": "A short-read sequencing technique for rapid viral genome detection"
+        },
+        {
+          "id": "C",
+          "text": "A CRISPR-based gene editing tool for agricultural crops"
+        },
+        {
+          "id": "D",
+          "text": "A synthetic biology method to create artificial chromosomes"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "PacBio HiFi sequencing is a single-molecule, real-time (SMRT) long-read sequencing method. It was utilized by Chinese scientists to create the first Pangenome of Asian rice.",
+      "takeaway": "PacBio HiFi is an advanced long-read sequencing technology used for highly accurate genome assembly.",
+      "evidenceExcerpt": "Chinese scientists created the first Pangenome of Asian rice using 'PacBio high-fidelity' (HiFi) sequencing, a single-molecule, real-time (SMRT) long-read sequencing method."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Assertion-Reason",
+      "prompt": "Given below are two statements, one labelled as Assertion (A) and the other labelled as Reason (R):\n\nAssertion (A): The creation of a human pangenome is considered a significant step toward identifying population-specific genetic markers.\nReason (R): A pangenome captures the genetic diversity of a species by compiling genome sequences from multiple individuals, rather than relying on a single reference genome.\n\nIn the context of the above two statements, which one of the following is correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both Assertion (A) and Reason (R) are correct and Reason (R) is the correct explanation for Assertion (A)."
+        },
+        {
+          "id": "B",
+          "text": "Both Assertion (A) and Reason (R) are correct but Reason (R) is not the correct explanation for Assertion (A)."
+        },
+        {
+          "id": "C",
+          "text": "Assertion (A) is correct but Reason (R) is incorrect."
+        },
+        {
+          "id": "D",
+          "text": "Assertion (A) is incorrect but Reason (R) is correct."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A pangenome is a collection of genome sequences from many individuals of the same species. By capturing this broader genetic diversity (Reason), it overcomes the limitations of a single reference genome, thereby enabling the identification of population-specific genetic markers (Assertion).",
+      "takeaway": "A pangenome represents the collective genetic material of a species, making it crucial for precision medicine and identifying population-specific traits.",
+      "evidenceExcerpt": "A Pangenome is a collection of genome sequences from many individuals of the same species... Pangenomes help introduce disease-tolerance traits in crops and identify population-specific genetic markers in humans."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice",
+      "prompt": "In the context of agricultural biotechnology, what is the primary advantage of developing a 'pangenome' for a crop like Asian rice?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It enables the simultaneous sequencing of the crop's genome and its associated soil microbiome."
+        },
+        {
+          "id": "B",
+          "text": "It captures the genetic variations across many individuals of the species, facilitating the introduction of disease-tolerance traits."
+        },
+        {
+          "id": "C",
+          "text": "It utilizes short-read sequencing methods to rapidly map the entire genetic code of a single high-yielding variety."
+        },
+        {
+          "id": "D",
+          "text": "It permanently alters the crop's genetic structure to prevent cross-pollination with wild relatives."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A pangenome compiles genome sequences from many individuals of the same species, capturing a wide range of genetic variations. This comprehensive genetic database helps scientists identify and introduce beneficial traits, such as disease tolerance, into crops.",
+      "takeaway": "In agriculture, pangenomes are used to harness the genetic diversity of a species (like Asian rice) to improve crop resilience and introduce disease-tolerance traits.",
+      "evidenceExcerpt": "A Pangenome is a collection of genome sequences from many individuals of the same species... Pangenomes help introduce disease-tolerance traits in crops"
+    }
+  ]
+}

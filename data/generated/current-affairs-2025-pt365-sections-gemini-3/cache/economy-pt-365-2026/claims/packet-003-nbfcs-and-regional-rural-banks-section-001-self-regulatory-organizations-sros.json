@@ -1,0 +1,48 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-003-nbfcs-and-regional-rural-banks-section-001-self-regulatory-organizations-sros",
+    "claimType": "regulatory",
+    "claimText": "No single entity is permitted to hold 10% or more of the paid-up share capital of a Self-Regulatory Organization (SRO).",
+    "evidenceExcerpt": "No entity shall hold 10% or more of an SRO's paid-up share capital.",
+    "pageNumbers": [
+      9
+    ],
+    "examUse": "statement-based",
+    "distractorHooks": [
+      "Substituting 10% with 25%, 49%, or 51%",
+      "Stating that a promoter or government entity can hold a majority stake"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-003-nbfcs-and-regional-rural-banks-section-001-self-regulatory-organizations-sros",
+    "claimType": "functional",
+    "claimText": "The responsibilities of Self-Regulatory Organizations (SROs) include framing codes of conduct, resolving disputes, ensuring regulatory compliance, and detecting early warning signals.",
+    "evidenceExcerpt": "Responsibilities include framing a code of conduct, dispute resolution, and ensuring regulatory compliance.",
+    "pageNumbers": [
+      9
+    ],
+    "examUse": "multiple-statement",
+    "distractorHooks": [
+      "Adding statutory powers such as issuing banking licenses or printing currency",
+      "Claiming SROs only act as advisory bodies without dispute resolution capabilities"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-003-nbfcs-and-regional-rural-banks-section-001-self-regulatory-organizations-sros",
+    "claimType": "governance",
+    "claimText": "At least one-third of the Board of Directors of an SRO, including the Chairperson, must be independent.",
+    "evidenceExcerpt": "At least one-third of Board members, including the Chairperson, must be independent.",
+    "pageNumbers": [
+      9
+    ],
+    "examUse": "statement-based",
+    "distractorHooks": [
+      "Changing one-third to one-half or two-thirds",
+      "Stating that the Chairperson is exempt from the independence requirement",
+      "Claiming that all board members must be independent"
+    ]
+  }
+]

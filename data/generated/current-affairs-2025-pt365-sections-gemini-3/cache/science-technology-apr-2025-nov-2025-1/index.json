@@ -1,0 +1,724 @@
+{
+  "pages": [
+    {
+      "pageNumber": 1,
+      "classification": "cover",
+      "questionQuota": 0,
+      "topic": "Science & Technology (Apr 2025 - Nov 2025)",
+      "subtopic": "Cover Page",
+      "rationale": "This is the cover page of the document and contains no factual content for question generation.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 2,
+      "classification": "toc",
+      "questionQuota": 0,
+      "topic": "Science & Technology (Apr 2025 - Nov 2025)",
+      "subtopic": "Table of Contents",
+      "rationale": "This page contains the table of contents and provides no conceptual or factual depth for questions.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 3,
+      "classification": "toc",
+      "questionQuota": 0,
+      "topic": "Science & Technology (Apr 2025 - Nov 2025)",
+      "subtopic": "Table of Contents",
+      "rationale": "Continuation of the table of contents; contains no testable material.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 4,
+      "classification": "copyright",
+      "questionQuota": 0,
+      "topic": "Science & Technology (Apr 2025 - Nov 2025)",
+      "subtopic": "Note to Students",
+      "rationale": "Introductory note explaining the document structure and features; no prelims-relevant content.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 5,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Biotechnology",
+      "subtopic": "Gene Technology and Gene Editing",
+      "rationale": "Contains fundamental definitions (Gene, DNA, Genome) and details on India's first gene-edited sheep using CRISPR-Cas9.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 6,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Biotechnology",
+      "subtopic": "Gene Editing Techniques and Sickle Cell Disease",
+      "rationale": "Covers types of gene editing (Somatic vs Germline), specific techniques (ZFNs, TALENs, CRISPR), and the BIRSA-101 therapy for Sickle Cell Disease.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 7,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Biotechnology",
+      "subtopic": "GM Crops and Regulatory Framework",
+      "rationale": "High-density page covering GM crop status in India, the regulatory framework (GEAC, FSSAI), and Site Directed Nuclease (SDN) classifications.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 8,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Biotechnology",
+      "subtopic": "Genome India Project and Gene-Drive Technology",
+      "rationale": "Discusses genome-edited rice varieties, the Genome India Project, and the mechanics of Gene-Drive Technology.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 9,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Biotechnology",
+      "subtopic": "Organ-on-Chip and RNA Silencing",
+      "rationale": "Explains Organ-on-chip technology, RNA silencing mechanisms (siRNA, miRNA), and the concept of a Pangenome.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 10,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Biotechnology",
+      "subtopic": "DNA Profiling and CAR-T Therapy",
+      "rationale": "Covers the SHUKR gene, DNA profiling methods (STR, mtDNA, SNP), Jumping Genes, and the launch of NexCAR19.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 11,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Biotechnology",
+      "subtopic": "CAR-T Therapy and Mitochondrial Replacement Therapy",
+      "rationale": "Detailed explanation of CAR-T therapy mechanics and the principles of Mitochondrial Replacement Therapy (MRT).",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 12,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Biotechnology",
+      "subtopic": "MRT Techniques and Stem Cell Types",
+      "rationale": "Dense conceptual content on Three-Parent Babies (PNT vs MST) and detailed classification of stem cells (ESCs, iPSCs, ASCs).",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 13,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Biotechnology",
+      "subtopic": "BioE3 Policy and National Biobank",
+      "rationale": "Highly relevant content on the Phenome India Project, BioE3 Policy, and the National Biofoundry Network.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 14,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "Biotechnology",
+      "subtopic": "Epigenetics and DEEP Project",
+      "rationale": "Contains information on the DEEP project and epigenetics, but a significant portion of the page is an advertisement.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 15,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "IT & Computer",
+      "subtopic": "Artificial Intelligence Concepts",
+      "rationale": "Very dense page defining AI stages (ANI, AGI, ASI), ML types, NLP, Neural Networks, and Agentic AI.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 16,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "IT & Computer",
+      "subtopic": "Bharat Gen and AI Governance",
+      "rationale": "Covers the Bharat Gen initiative, IndiaAI Mission pillars, and global AI regulatory frameworks like the Bletchley Declaration.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 17,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "IT & Computer",
+      "subtopic": "Deepfakes and AI in Biological Research",
+      "rationale": "Explains deepfake technology (GANs) and various AI models in biology like AlphaFold and AlphaGenome.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 18,
+      "classification": "content",
+      "questionQuota": 1,
+      "topic": "IT & Computer",
+      "subtopic": "AI Paradoxes and TPU",
+      "rationale": "Briefly mentions TPUs and economic paradoxes (Jevons, Solow), but the majority of the page is an advertisement.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 19,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Quantum Technology",
+      "subtopic": "Fundamental Concepts and Principles",
+      "rationale": "This page provides foundational definitions for quantum mechanics, qubits, superposition, entanglement, and interference, which are high-yield conceptual topics for UPSC Prelims.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 20,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Quantum Technology",
+      "subtopic": "Nobel Prize in Physics 2025 and Quantum Tunnelling",
+      "rationale": "Covers the 2025 Nobel Prize in Physics, explaining macroscopic quantum tunnelling and Josephson Junctions, which are highly relevant current affairs topics.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 21,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Quantum Technology",
+      "subtopic": "National Quantum Mission (NQM) and QKD",
+      "rationale": "Contains detailed objectives of the National Quantum Mission and the benefits of Quantum Key Distribution (QKD), including India's first extensive QKD network.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 22,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "IT and Computer Science",
+      "subtopic": "Brain-Computer Interface (BCI) and Quantum Scrambling",
+      "rationale": "Explains the mechanism and applications of BCIs and the concept of Quantum Information Scrambling, both emerging technology areas for the exam.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 23,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Emerging Technologies",
+      "subtopic": "3D/4D Printing and Neuralink Blindsight",
+      "rationale": "Discusses the advantages and applications of 3D and 4D printing, along with Neuralink's Blindsight chip, providing good factual content for technology-based questions.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 24,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "IT and Computer Science",
+      "subtopic": "Stablecoins and Central Bank Digital Currency (CBDC)",
+      "rationale": "Provides a comparison between stablecoins and CBDCs, including the Indian regulatory framework for virtual digital assets (VDAs).",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 25,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "IT and Computer Science",
+      "subtopic": "Bluetooth Mesh, Undersea Cables, and Vikram3201 Processor",
+      "rationale": "Covers diverse topics including Bluetooth mesh networking, the Waterworth undersea cable project, and India's indigenous 32-bit processor.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 26,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "IT and Computer Science",
+      "subtopic": "RFID (FASTag), Digital Twin, and Robotic Surgery",
+      "rationale": "Explains the technology behind FASTag (RFID), the concept of Digital Twins, and India's indigenous surgical robot SSI Mantra.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 27,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Physics and Space",
+      "subtopic": "Black Holes and Gravitational Waves",
+      "rationale": "Detailed explanation of black hole mergers, stellar evolution stages, and the properties of gravitational waves, which are classic UPSC science topics.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 28,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Physics and Space",
+      "subtopic": "Neutrinos and Global Observatories",
+      "rationale": "Focuses on neutrino properties, the JUNO observatory in China, and the India-based Neutrino Observatory (INO).",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 29,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Physics and Space",
+      "subtopic": "CERN, Higgs Boson, and Matter-Antimatter Asymmetry",
+      "rationale": "High-density content on CERN's Large Hadron Collider, the Higgs Boson, and the fundamental physics problem of matter-antimatter asymmetry.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 30,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Physics and Space",
+      "subtopic": "Ordinary Matter vs Dark Matter and FRBs",
+      "rationale": "Compares ordinary and dark matter and explains Fast Radio Bursts (FRBs). Quota is slightly lower due to a large advertisement on the page.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 31,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Space Technology",
+      "subtopic": "NISAR Mission (NASA-ISRO)",
+      "rationale": "Provides technical details and objectives of the NISAR mission, a critical bilateral space project between India and the USA.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 32,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Space Technology",
+      "subtopic": "Gaganyaan and Aditya-L1 Missions",
+      "rationale": "Dense page covering India's human spaceflight mission (Gaganyaan), the Bharatiya Antariksh Station, and the Aditya-L1 solar mission including Lagrange points.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 33,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Space Technology",
+      "subtopic": "SpaDeX, Chandrayaan-3, and GRAIL Mission",
+      "rationale": "Covers satellite docking technology (SpaDeX), Chandrayaan-3's thermal probe findings, and NASA's GRAIL mission for lunar gravity mapping.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 34,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Space Technology",
+      "subtopic": "Axiom-4 Mission and International Space Station",
+      "rationale": "Details the Axiom-4 private mission involving an Indian astronaut and provides facts about the International Space Station (ISS).",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 35,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Space Technology",
+      "subtopic": "Commercial EO Satellites and Polar Orbits",
+      "rationale": "Discusses the rise of private sector participation in Earth Observation (EO) satellites and the characteristics of Earth's polar orbits.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 36,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Space Technology",
+      "subtopic": "Satellite Orbits and Key ISRO Missions",
+      "rationale": "Contains a highly useful comparison table of different satellite orbits (LEO, SSO, MEO, GEO) and summaries of key missions like Astrosat, VOM, and XPoSat.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 37,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Space Technology",
+      "subtopic": "International Space Missions & Cryogenic Engines",
+      "rationale": "This page contains a high-density table of international space missions (Lucy, Tianwen-2, Biomass, etc.) and technical details on India's CE20 cryogenic engine, providing multiple factual and conceptual question opportunities.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 38,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Space Technology",
+      "subtopic": "NavIC & Analog Missions",
+      "rationale": "Detailed information on NavIC (IRNSS) configuration, coverage, and strategic advantages, plus a global comparison of navigation systems and the HOPE analog mission in Ladakh.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 39,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Space Technology",
+      "subtopic": "ISRO Launch Vehicles & LMLV",
+      "rationale": "Dense comparison of ISRO's launch vehicle fleet (PSLV, GSLV, LVM3, SSLV) and details on the upcoming Lunar Module Launch Vehicle (LMLV).",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 40,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Space Technology",
+      "subtopic": "Satellite Internet & Solar Phenomena",
+      "rationale": "Covers satellite internet infrastructure and major global projects, alongside the classification and characteristics of solar flares and CMEs.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 41,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Space Technology",
+      "subtopic": "Space Debris & Solar Cycles",
+      "rationale": "Explains the solar activity cycle, space debris (Kessler Syndrome), and international/national initiatives like NETRA and the Zero Debris Charter.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 42,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Space Technology",
+      "subtopic": "Astronomy & Space Telescopes",
+      "rationale": "High conceptual density regarding Brown Dwarfs, Super Earths, Extreme Nuclear Transients, and technical details of the James Webb Space Telescope (JWST).",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 43,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Space Technology",
+      "subtopic": "Private Space Sector & Solar Observatories",
+      "rationale": "Details on the interstellar comet 3I/ATLAS, the Kodaikanal Solar Observatory (Evershed Effect), and the private Vikram-1 launch vehicle.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 44,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Health",
+      "subtopic": "Tuberculosis & HIV/AIDS",
+      "rationale": "Provides detailed classifications of TB (Pulmonary, MDR, XDR) and HIV treatment/prevention (Lenacapavir, PrEP, ART), which are high-priority UPSC topics.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 45,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Health",
+      "subtopic": "Viral Diseases & Elimination Status",
+      "rationale": "Covers India's elimination of Trachoma, Hepatitis classifications (B, C, D), Mpox characteristics, and HPV screening developments.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 46,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Health",
+      "subtopic": "Nobel Prize 2025 & Immunology",
+      "rationale": "Explains the 2025 Nobel Prize in Medicine regarding peripheral immune tolerance, Treg cells, and the FOXP3 gene, offering deep conceptual question potential.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 47,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Health",
+      "subtopic": "AMR & Pharmaceutical Regulation",
+      "rationale": "Discusses Antimicrobial Resistance drivers and the regulatory framework for Fixed-Dose Combination (FDC) drugs in India.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 48,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Health",
+      "subtopic": "Vaccine Types & Malaria Vaccine",
+      "rationale": "Provides a comprehensive typology of vaccines (Live, Inactivated, Subunit, etc.) and details on the indigenous AdFalciVax malaria vaccine.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 49,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Health",
+      "subtopic": "Advanced Vaccine Technologies",
+      "rationale": "Explains oncolytic, personalized mRNA, and self-amplifying mRNA (saRNA) vaccines, along with the WHO Pandemic Agreement.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 50,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Health",
+      "subtopic": "Public Health Missions & Biotechnology",
+      "rationale": "Details the Universal Immunization Programme (UIP) disease list, Monoclonal Antibodies (mAbs), and the National One Health Mission.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 51,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Health",
+      "subtopic": "Nutrition & Pharmacology",
+      "rationale": "Covers transfat regulations, the mechanism of GLP-1 based weight loss drugs (Wegovy), and FSSAI directives on ORS.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 52,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Health",
+      "subtopic": "Diabetes & Proton Therapy",
+      "rationale": "Discusses the newly recognized Type 5 diabetes and SPARC radiation therapy. The quota is lower due to a large advertisement block at the bottom.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 53,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Defence",
+      "subtopic": "India's Air Defence Systems",
+      "rationale": "Highly factual page detailing S-400, Barak 8, Akash, and the Akashteer automated control system.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 54,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Defence",
+      "subtopic": "Missile Technology & Global ADS",
+      "rationale": "Dense information on IADWS, Project Kusha, and a comprehensive comparison of global air defence systems like Iron Dome, THAAD, and Patriot.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 55,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Defence Technology",
+      "subtopic": "Cruise and Ballistic Missiles",
+      "rationale": "This page provides a detailed comparison between cruise and ballistic missiles across multiple parameters like path, range, and payload, which is a high-yield area for UPSC. It also introduces Agni-5.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 56,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Defence Technology",
+      "subtopic": "Agni Missiles and IGMDP",
+      "rationale": "Contains critical details on Agni-5, the Strategic Forces Command, and the Integrated Guided Missile Development Programme (IGMDP), including specific missile types (Prithvi, Trishul, etc.).",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 57,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Defence Technology",
+      "subtopic": "Missile Systems and Scramjet Engine",
+      "rationale": "Provides a comprehensive table of various missiles (BrahMos, Astra, Pralay, etc.) and starts the technical explanation of Scramjet engines.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 58,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Space and Defence",
+      "subtopic": "Propulsion and Hypersonic Weapons",
+      "rationale": "Explains the technical differences between Ramjet and Scramjet engines, hypersonic weapon types (HGV, HCM), and the GSAT-7R satellite.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 59,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Defence Technology",
+      "subtopic": "Military Satellites and Directed Energy Weapons",
+      "rationale": "Covers the GSAT-7 series for different wings of the armed forces and introduces Directed Energy Weapons (DEW) like the Mk-II (A) LASER system.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 60,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Defence Technology",
+      "subtopic": "HAPS and Fighter Aircraft Generations",
+      "rationale": "Discusses Stratospheric Airship Platforms (HAPS) and the evolution of fighter jet generations (4th to 5th), including the AMCA programme.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 61,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Defence Technology",
+      "subtopic": "Aircraft, Ships, and UAVs",
+      "rationale": "Details specific platforms like Apache, LCA Mark-1A, Rafale Marine, and naval ships like INS Arnala and INS Nistar, plus the Rudrastra UAV.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 62,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Defence Technology",
+      "subtopic": "UAVs, Glide Bombs, and Naval Projects",
+      "rationale": "Covers Bhargavastra anti-drone system, Gaurav glide bomb, Fiber Optic drones, and Project 17A stealth frigates.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 63,
+      "classification": "content",
+      "questionQuota": 1,
+      "topic": "Defence Technology",
+      "subtopic": "AWACS",
+      "rationale": "A thin page focusing only on the Netra MkII airborne early warning and control system.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 64,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Alternative Energy",
+      "subtopic": "Nuclear Fission and Fusion",
+      "rationale": "Extremely high-value comparison between fission and fusion, plus details on the ITER project and India's contribution to it.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 65,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Alternative Energy",
+      "subtopic": "Tokamak and Fast Breeder Reactors",
+      "rationale": "Details Indian Tokamak research (ADITYA) and the Prototype Fast Breeder Reactor (PFBR), including the significance of the three-stage program.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 66,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Alternative Energy",
+      "subtopic": "Nuclear Programme and Uranium Enrichment",
+      "rationale": "Explains India's three-stage nuclear programme and the technical process of Uranium enrichment.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 67,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Alternative Energy",
+      "subtopic": "Thorium Reactors and Lithium-ion Batteries",
+      "rationale": "Covers Thorium Molten Salt Reactors, India's thorium reserves, and the basics of Li-ion battery technology including 'Black Mass'.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 68,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Alternative Energy",
+      "subtopic": "Next-Gen Battery Technologies",
+      "rationale": "Compares Sodium-Ion, Vanadium Redox Flow, and Solid-State batteries, highlighting their advantages over conventional Li-ion.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 69,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Miscellaneous",
+      "subtopic": "Geospatial Technology",
+      "rationale": "Explains GIS, GPS, and Remote Sensing, alongside Operation Dronagiri and the National Geospatial Policy 2022.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 70,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Miscellaneous",
+      "subtopic": "Critical Minerals",
+      "rationale": "Lists the 30 critical minerals identified by India and discusses international collaborations like the Minerals Security Partnership.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 71,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Miscellaneous",
+      "subtopic": "Rare Earth Elements and Nanotechnology",
+      "rationale": "Provides data on global REE reserves, their distribution in India, and an introduction to nanotechnology concepts.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 72,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Miscellaneous",
+      "subtopic": "Nanotechnology and MOFs",
+      "rationale": "Covers specific nano-applications (Nanozymes, Nano-fertilizers) and the 2025 Nobel Prize-winning Metal-Organic Frameworks (MOF).",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 73,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Science & Technology",
+      "subtopic": "Metal-Organic Frameworks (MOFs) and Electric Vehicles",
+      "rationale": "This page contains dense technical information on MOFs (features and applications) and the India Electric Mobility Index (IEMI), including EV types and the PM E-DRIVE scheme, which are highly relevant for UPSC Prelims.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 74,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Science & Technology",
+      "subtopic": "V2G Technology, Hyperloop, and Deep Ocean Mission",
+      "rationale": "Covers Vehicle-to-Grid (V2G) technology, the Hyperloop mobility system (LIM-based), and the initial details of the Samudrayaan Mission, providing multiple factual points for question generation.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 75,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Science & Technology",
+      "subtopic": "Deep Ocean Mission and RDI Scheme",
+      "rationale": "Detailed information on the Matsya-6000 submersible, components of the Deep Ocean Mission (DOM), and the Research Development and Innovation (RDI) Scheme including the Anusandhan National Research Foundation (ANRF).",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 76,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Science & Technology",
+      "subtopic": "SODAR, Kavach, Shinkansen, and Aviation Tech",
+      "rationale": "Extremely dense page covering five distinct technologies: SODAR (meteorology), HANSA-3 (aviation), Kavach (rail safety), Shinkansen (high-speed rail), and Black Box (flight data). Each section provides specific technical facts.",
+      "confidence": 0.98
+    },
+    {
+      "pageNumber": 77,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Science & Technology",
+      "subtopic": "Altermagnets, Accelerometers, and Desalination",
+      "rationale": "Provides conceptual clarity on Altermagnets (CrSb), the working principle and applications of Accelerometers, and a comparison between Thermal and Membrane desalination technologies.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 78,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Science & Technology",
+      "subtopic": "ADAS, Biostimulants, and Metre Convention",
+      "rationale": "Covers Advanced Driver Assistance Systems (ADAS), the regulatory framework for Biostimulants, the Agrienics Programme, and the historical/institutional context of the Metre Convention.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 79,
+      "classification": "advertisement",
+      "questionQuota": 0,
+      "topic": "Advertisement",
+      "subtopic": "Vision IAS Achievements and Courses",
+      "rationale": "Promotional material for coaching services and past results; no academic content for question generation.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 80,
+      "classification": "advertisement",
+      "questionQuota": 0,
+      "topic": "Advertisement",
+      "subtopic": "Vision IAS Toppers",
+      "rationale": "Promotional page listing successful candidates and contact information.",
+      "confidence": 1
+    }
+  ]
+}

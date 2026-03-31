@@ -1,0 +1,65 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-025-public-health-missions-and-nutrition-section-005-trans-fats-and-dietary-fats",
+    "claimType": "Conceptual",
+    "claimText": "Trans-fatty acids (TFA) are unsaturated fatty acids that can be produced industrially via hydrogenation or found naturally in animal-source foods.",
+    "evidenceExcerpt": "Trans-fatty acids (TFA) are unsaturated fatty acids produced industrially via hydrogenation or found naturally in animal-source foods.",
+    "pageNumbers": [
+      51
+    ],
+    "examUse": "Statement-based question on the chemical nature and sources of trans fats.",
+    "distractorHooks": [
+      "Trans fats are saturated fatty acids",
+      "Trans fats are exclusively produced industrially and have no natural sources",
+      "Trans fats are naturally found in plant-source foods"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-025-public-health-missions-and-nutrition-section-005-trans-fats-and-dietary-fats",
+    "claimType": "Factual",
+    "claimText": "Consumption of trans-fatty acids raises the level of low-density lipoprotein cholesterol (LDL-c), which is known as bad cholesterol.",
+    "evidenceExcerpt": "TFAs raise bad cholesterol (LDL-c) and are linked to inflammation, obesity, diabetes, and high blood pressure.",
+    "pageNumbers": [
+      51
+    ],
+    "examUse": "Statement-based question on the physiological and health impacts of trans fats.",
+    "distractorHooks": [
+      "Trans fats raise high-density lipoprotein (HDL) cholesterol",
+      "Trans fats lower low-density lipoprotein (LDL) cholesterol"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-025-public-health-missions-and-nutrition-section-005-trans-fats-and-dietary-fats",
+    "claimType": "Institutional Initiative",
+    "claimText": "The REPLACE Action Package is an initiative by the World Health Organization (WHO) aimed at eliminating industrially produced trans fats globally.",
+    "evidenceExcerpt": "WHO's REPLACE Action Package aims to eliminate industrially produced trans fats globally.",
+    "pageNumbers": [
+      51
+    ],
+    "examUse": "Correct-pair or statement-based question matching global health initiatives to their specific objectives and parent organizations.",
+    "distractorHooks": [
+      "REPLACE Action Package is an initiative by the Food and Agriculture Organization (FAO)",
+      "The initiative aims to eliminate saturated fats globally",
+      "The initiative targets the reduction of artificial sweeteners"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-025-public-health-missions-and-nutrition-section-005-trans-fats-and-dietary-fats",
+    "claimType": "Regulatory",
+    "claimText": "India's Food Safety and Standards Authority of India (FSSAI) enforced a regulation in 2021 limiting trans fats in oils to no more than 2%.",
+    "evidenceExcerpt": "India's FSSAI enforced a limit on trans fats in oils to no more than 2% in 2021.",
+    "pageNumbers": [
+      51
+    ],
+    "examUse": "Statement-based question on India's domestic regulatory framework and limits regarding dietary fats.",
+    "distractorHooks": [
+      "The limit on trans fats in India is set at 5%",
+      "The regulation completely bans all trans fats, including natural ones, in India",
+      "The limit is enforced by the Ministry of Consumer Affairs rather than FSSAI"
+    ]
+  }
+]

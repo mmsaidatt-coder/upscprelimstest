@@ -1,0 +1,47 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-033-nuclear-programme-and-thorium-cycle-section-002-uranium-enrichment",
+    "claimType": "Factual",
+    "claimText": "Uranium enrichment is the process of increasing the proportion of the uranium-235 isotope while removing uranium-238, primarily using centrifuges.",
+    "evidenceExcerpt": "Uranium enrichment increases the proportion of U-235 while removing U-238, primarily using centrifuges.",
+    "pageNumbers": [
+      66
+    ],
+    "examUse": "Statement-based question on the definition and method of uranium enrichment.",
+    "distractorHooks": [
+      "Swapping U-235 and U-238 (e.g., increasing U-238)",
+      "Mentioning incorrect methods like chemical distillation instead of centrifuges"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-033-nuclear-programme-and-thorium-cycle-section-002-uranium-enrichment",
+    "claimType": "Factual",
+    "claimText": "Civilian nuclear power reactors typically require low-enriched uranium, containing 3 to 5 percent of the uranium-235 isotope.",
+    "evidenceExcerpt": "Civilian nuclear power reactors typically use uranium enriched to 3-5% U-235.",
+    "pageNumbers": [
+      66
+    ],
+    "examUse": "Correct-pair or statement-based question matching enrichment levels to their applications.",
+    "distractorHooks": [
+      "Stating civilian reactors use greater than 20 percent enriched uranium",
+      "Claiming civilian reactors use natural uranium without any enrichment"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-033-nuclear-programme-and-thorium-cycle-section-002-uranium-enrichment",
+    "claimType": "Factual",
+    "claimText": "Highly enriched uranium (HEU) contains more than 20 percent uranium-235, while weapons-grade uranium is enriched to approximately 90 percent uranium-235.",
+    "evidenceExcerpt": "Highly enriched uranium (HEU) contains greater than 20% U-235 and has potential for weapons. Weapons-grade uranium is enriched to approximately 90% U-235.",
+    "pageNumbers": [
+      66
+    ],
+    "examUse": "Comparison or statement-based question on the thresholds for HEU and weapons-grade uranium.",
+    "distractorHooks": [
+      "Stating HEU threshold is 50 percent",
+      "Confusing the 90 percent threshold with U-238 instead of U-235"
+    ]
+  }
+]

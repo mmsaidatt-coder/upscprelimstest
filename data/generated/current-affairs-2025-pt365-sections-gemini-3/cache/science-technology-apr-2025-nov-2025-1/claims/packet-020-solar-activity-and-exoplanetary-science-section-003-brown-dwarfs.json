@@ -1,0 +1,50 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-020-solar-activity-and-exoplanetary-science-section-003-brown-dwarfs",
+    "claimType": "Conceptual",
+    "claimText": "Brown dwarfs form from collapsing gas and dust like stars but lack sufficient mass to sustain hydrogen fusion.",
+    "evidenceExcerpt": "Brown dwarfs form like stars from collapsing gas and dust but lack the mass for sustained hydrogen fusion.",
+    "pageNumbers": [
+      41,
+      42
+    ],
+    "examUse": "Statement-based question on the definition and formation of brown dwarfs.",
+    "distractorHooks": [
+      "Brown dwarfs form from planetary accretion.",
+      "Brown dwarfs have enough mass to sustain hydrogen fusion."
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-020-solar-activity-and-exoplanetary-science-section-003-brown-dwarfs",
+    "claimType": "Feature",
+    "claimText": "Brown dwarfs are often referred to as 'failed stars' and possess atmospheres similar to gas giants like Jupiter.",
+    "evidenceExcerpt": "They are often referred to as 'failed stars' and have atmospheres similar to gas giants like Jupiter.",
+    "pageNumbers": [
+      41,
+      42
+    ],
+    "examUse": "Statement-based question comparing the atmospheric features of brown dwarfs to other celestial bodies.",
+    "distractorHooks": [
+      "Brown dwarfs have thin atmospheres similar to terrestrial planets like Mars.",
+      "Brown dwarfs are known as 'failed planets'."
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-020-solar-activity-and-exoplanetary-science-section-003-brown-dwarfs",
+    "claimType": "Comparison",
+    "claimText": "A major distinguishing feature between brown dwarfs and planets is the presence of deuterium (heavy hydrogen) in brown dwarfs.",
+    "evidenceExcerpt": "Unlike planets, brown dwarfs contain deuterium (heavy hydrogen).",
+    "pageNumbers": [
+      41,
+      42
+    ],
+    "examUse": "Statement-based question distinguishing brown dwarfs from planets based on chemical composition.",
+    "distractorHooks": [
+      "Planets contain deuterium while brown dwarfs do not.",
+      "Brown dwarfs lack heavy hydrogen entirely."
+    ]
+  }
+]

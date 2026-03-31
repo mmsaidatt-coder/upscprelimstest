@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-Driven",
+      "prompt": "Consider the following statements regarding the Planetary Boundaries framework:\n1. The Planetary Health Check is a scientific assessment released by the Intergovernmental Panel on Climate Change (IPCC).\n2. The framework defines humanity's safe operating space through nine specific ecological thresholds.\n3. Ocean acidification has crossed its safe operating space for the first time in the latest assessment.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The Planetary Health Check 2025 is released by the Potsdam Institute for Climate Impact Research (PIK), not the IPCC. Statement 2 is correct: Planetary Boundaries are 9 ecological thresholds defining humanity's safe operating space. Statement 3 is correct: According to the Planetary Health Check 2025, Ocean Acidification crossed its safe operating space for the first time.",
+      "takeaway": "The Planetary Health Check (PHC) 2025, released by PIK, assesses 9 planetary boundaries. Ocean Acidification has recently crossed its safe operating space for the first time.",
+      "evidenceExcerpt": "The Planetary Health Check (PHC) 2025, released by the Potsdam Institute for Climate Impact Research (PIK), provides a scientific assessment regarding Planetary Boundaries (PBs). PBs are 9 ecological thresholds defining humanity's safe operating space... Ocean Acidification crossed its safe operating space for the first time."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Statement-Driven",
+      "prompt": "According to the Planetary Health Check 2025, which of the following planetary boundaries are currently operating *within* their safe ecological thresholds (i.e., have NOT been transgressed)?\n1. Stratospheric Ozone Depletion\n2. Ocean Acidification\n3. Atmospheric Aerosol Loading\n\nSelect the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "According to the Planetary Health Check 2025, 7 out of the 9 planetary boundaries have been transgressed. The only two boundaries that have NOT been transgressed are Atmospheric Aerosol Loading and Stratospheric Ozone Depletion. Ocean Acidification has recently crossed its safe operating space for the first time.",
+      "takeaway": "Atmospheric Aerosol Loading and Stratospheric Ozone Depletion are the only two planetary boundaries currently operating within humanity's safe operating space.",
+      "evidenceExcerpt": "7 of the 9 PBs have been transgressed except Atmospheric Aerosol Loading & Stratospheric Ozone Depletion and Ocean Acidification crossed its safe operating space for the first time."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "In the context of global environmental governance, the concept of \"Planetary Boundaries\" primarily serves to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "establish legally binding carbon emission quotas for industrialized nations."
+        },
+        {
+          "id": "B",
+          "text": "define ecological thresholds that represent humanity's safe operating space."
+        },
+        {
+          "id": "C",
+          "text": "demarcate marine protected areas in international waters to prevent overfishing."
+        },
+        {
+          "id": "D",
+          "text": "identify specific tipping points for the collapse of global financial systems due to climate risks."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Planetary Boundaries are ecological thresholds defining the safe limits within which humanity can safely operate without triggering irreversible environmental changes.",
+      "takeaway": "The Planetary Boundaries framework defines humanity's safe operating space through specific ecological thresholds.",
+      "evidenceExcerpt": "PBs are ecological thresholds defining the safe limits...",
+      "contextLines": []
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Factual",
+      "prompt": "The \"Planetary Health Check\", which provides scientific assessments on whether critical Earth system processes remain within safe limits, is an initiative of the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Intergovernmental Panel on Climate Change (IPCC)"
+        },
+        {
+          "id": "B",
+          "text": "United Nations Environment Programme (UNEP)"
+        },
+        {
+          "id": "C",
+          "text": "Potsdam Institute for Climate Impact Research (PIK)"
+        },
+        {
+          "id": "D",
+          "text": "International Union for Conservation of Nature (IUCN)"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The Planetary Health Check 2025 is released by the Potsdam Institute for Climate Impact Research (PIK).",
+      "takeaway": "The Potsdam Institute for Climate Impact Research (PIK) is responsible for releasing the Planetary Health Check.",
+      "evidenceExcerpt": "The Planetary Health Check (PHC) 2025, released by the Potsdam Institute for Climate Impact Research (PIK), provides a scientific assessment regarding Planetary Boundaries (PBs).",
+      "contextLines": []
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the components of India's Foreign Exchange Reserves, consider the following statements:\n1. The Reserve Tranche Position (RTP) represents a portion of the member's quota that can be drawn from the IMF without being subject to strict conditionality.\n2. Both Foreign Currency Assets (FCA) and Gold Reserves are exposed to revaluation risks stemming from fluctuations in market prices and exchange rates.\n3. Special Drawing Rights (SDRs), created by the IMF to supplement members' reserves, are non-interest-bearing assets.",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct. The text defines RTP as being 'readily available for withdrawal without strict conditions'. Statement 2 is correct. The text defines 'Revaluation Balances' as unrealized gains/losses from 'exchange rate, gold price and interest rate movements', which directly implies that both FCA (affected by exchange rates) and Gold (affected by gold price) are subject to such revaluation. Statement 3 is incorrect. The text explicitly describes Special Drawing Rights as an 'interest-bearing reserve asset'.",
+      "takeaway": "It is crucial to know the specific characteristics of each component of forex reserves. RTP is a conditional drawing right, FCA and Gold are assets with market risk, and SDRs are interest-bearing reserve assets created by the IMF.",
+      "evidenceExcerpt": "Reserve Tranche Position (RTP): It is the difference between the member's quota and the IMF's holdings of the member's currency that is readily available for withdrawal without strict conditions. Revaluation Balances: The unrealized gains, net of losses, resulting from exchange rate, gold price and interest rate movements. Special Drawing Rights: An interest-bearing reserve asset created by the IMF to supplement members' reserve assets.",
+      "qualityScore": 90,
+      "reviewNotes": "This is an excellent, high-quality question. It effectively tests knowledge of three distinct components of forex reserves. Statement 2 requires a small inferential step, connecting the definition of 'Revaluation Balances' to the assets it applies to, which is a hallmark of a good UPSC question. The statements are precise and the distractors are well-formed."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Applied Concept",
+      "prompt": "A central bank's strategic decision to increase the share of gold in its foreign exchange reserves, while reducing its holdings of foreign currency assets, primarily indicates a preference for:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Maximizing short-term yields and ensuring high asset liquidity."
+        },
+        {
+          "id": "B",
+          "text": "Hedging against long-term inflation and currency volatility over generating regular income."
+        },
+        {
+          "id": "C",
+          "text": "Minimizing the costs associated with the storage and security of reserve assets."
+        },
+        {
+          "id": "D",
+          "text": "Enhancing the speed and ease of asset liquidation during a financial crisis."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The source text highlights that gold is accumulated as a hedge against inflation and to protect against currency volatility. Conversely, it explicitly states that gold yields no interest or dividends (unlike foreign currency assets like bonds) and has reduced liquidity, being slower and costlier to convert to cash. Therefore, a decision to increase gold holdings at the expense of foreign currency assets signifies a strategic prioritization of safety and hedging over income generation and liquidity.",
+      "takeaway": "Understand the strategic trade-offs in managing foreign exchange reserves. Gold serves as a hedge against inflation and currency risk but offers zero yield and lower liquidity compared to foreign currency assets like government bonds.",
+      "evidenceExcerpt": "Hedge against Inflation: Gold is accumulated as a hedge against inflation, helping protect the purchasing power of India’s foreign reserves. Risk Mitigation: Help protect against currency volatility... Zero Yield: Gold yields no interest or dividends, unlike bonds or currency deposits. Reduced Liquidity and Flexibility: Converting large gold holdings to cash... is slower and costlier than liquidating foreign currency assets.",
+      "qualityScore": 85,
+      "reviewNotes": "This is a strong applied concept question that tests the understanding of strategic trade-offs rather than simple fact recall. The options are well-constructed, presenting clear and opposing concepts (yield/liquidity vs. hedge/safety). The wording has been refined for a more formal, UPSC-like tone."
+    }
+  ],
+  "reviewerNotes": "I have selected and rewritten three questions from the candidate pool. The first question is an analytical one on the strategic trade-offs of holding gold. The second is a challenging statement-based question covering multiple components of forex reserves. The third is a conceptual question on the RBI's Contingent Risk Buffer. I rejected one candidate question on gold reserves because it was fact-based and overlapped significantly with the more analytical question that was selected, thereby avoiding redundancy. The chosen set provides good coverage of the source material with varying difficulty and question types, all meeting the UPSC quality standard."
+}

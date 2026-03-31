@@ -1,0 +1,77 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-016-lunar-exploration-and-orbital-docking-section-003-axiom-4-mission-and-the-international-space-station",
+    "claimType": "Factual",
+    "claimText": "Axiom-4 is a private astronaut mission to the International Space Station conducted by Axiom Space in collaboration with NASA and SpaceX.",
+    "evidenceExcerpt": "Ax-4 is a 4th private astronaut mission, to the International Space Station (ISS), of private US Company Axiom Space in collaboration with NASA and SpaceX.",
+    "pageNumbers": [
+      34
+    ],
+    "examUse": "Statement-based question on the nature and collaborators of the Axiom-4 mission.",
+    "distractorHooks": [
+      "Claiming it is a purely government mission by NASA and ISRO",
+      "Claiming it is a mission to the Moon or Mars instead of the ISS"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-016-lunar-exploration-and-orbital-docking-section-003-axiom-4-mission-and-the-international-space-station",
+    "claimType": "Factual",
+    "claimText": "Group Captain Shubhanshu Shukla is the first Indian astronaut to board the International Space Station and the second Indian to travel to space.",
+    "evidenceExcerpt": "Shubhanshu Shukla is the first Indian astronaut to board the ISS and only the second Indian to travel to space after Rakesh Sharma in 1984.",
+    "pageNumbers": [
+      34
+    ],
+    "examUse": "Fact-based statement in a multiple-choice question regarding Indian astronauts' milestones.",
+    "distractorHooks": [
+      "Claiming Rakesh Sharma boarded the ISS",
+      "Claiming Shubhanshu Shukla is the first Indian in space"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-016-lunar-exploration-and-orbital-docking-section-003-axiom-4-mission-and-the-international-space-station",
+    "claimType": "Factual",
+    "claimText": "ISRO executed microgravity research on the Axiom-4 mission involving crop growth, cyanobacteria, space microalgae, myogenesis, and tardigrades.",
+    "evidenceExcerpt": "Key Research and activities executed by ISRO: Crop growth, Cyanobacteria, Space Microalgae, Myogenesis, Tardigrades.",
+    "pageNumbers": [
+      34
+    ],
+    "examUse": "Correct-pair or statement-based question identifying the specific biological research conducted by ISRO on the Ax-4 mission.",
+    "distractorHooks": [
+      "Attributing the research to NASA or ESA instead of ISRO",
+      "Listing incorrect research areas like deep space mining or astrophysics instead of biological research"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-016-lunar-exploration-and-orbital-docking-section-003-axiom-4-mission-and-the-international-space-station",
+    "claimType": "Conceptual",
+    "claimText": "The International Space Station (ISS) is a habitable artificial satellite positioned in Low Earth Orbit (LEO).",
+    "evidenceExcerpt": "About International Space Station (ISS): A habitable artificial satellite in Low Earth orbit (LEO).",
+    "pageNumbers": [
+      34
+    ],
+    "examUse": "Statement-based question on the orbital characteristics of the ISS.",
+    "distractorHooks": [
+      "Placing the ISS in Geostationary Earth Orbit (GEO)",
+      "Placing the ISS in Medium Earth Orbit (MEO)"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-016-lunar-exploration-and-orbital-docking-section-003-axiom-4-mission-and-the-international-space-station",
+    "claimType": "Factual",
+    "claimText": "The International Space Station is a collaborative project partnered by space agencies from Europe (ESA), the USA (NASA), Japan (JAXA), Canada (CSA), and Russia (Roscosmos).",
+    "evidenceExcerpt": "Key partners for ISS: Europe (ESA), the USA (NASA), Japan (JAXA), Canada (CSA) and Russia (Roscosmos).",
+    "pageNumbers": [
+      34
+    ],
+    "examUse": "Multiple-choice question asking to identify the correct participating agencies or countries of the ISS.",
+    "distractorHooks": [
+      "Including ISRO (India) as a key partner of the ISS",
+      "Including CNSA (China) as a key partner of the ISS"
+    ]
+  }
+]

@@ -1,0 +1,149 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the wind energy sector in India: 1. The Approved List of Models and Manufacturers (ALMM) framework for wind energy mandates data localization. 2. India currently ranks second globally in terms of installed wind power capacity. 3. India's wind power potential is estimated to be over 1000 GW at 150 meters above ground level. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The ALMM (Wind) framework updated by MNRE mandates sourcing key components from approved Indian suppliers and requires data localization. Statement 2 is incorrect: India ranks 4th globally in installed wind power capacity, not second. Statement 3 is correct: The National Institute of Wind Energy estimates India's wind potential at 1164 GW at 150 meters above ground level.",
+      "takeaway": "India ranks 4th globally in wind power, with a potential of 1164 GW at 150m AGL. The ALMM (Wind) framework enforces domestic sourcing and data localization.",
+      "evidenceExcerpt": "ALMM Wind mandates sourcing key components from approved Indian suppliers and requires data localization. India ranks 4th in the world for installed wind power capacity... India's wind potential is estimated at 1164 GW at 150 meters above ground level by the National Institute of Wind Energy."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Approved List of Models and Manufacturers (ALMM) for Wind, consider the following statements: 1. It was introduced by the Ministry of New and Renewable Energy (MNRE) by replacing the earlier RLMM system. 2. It allows wind power developers to source key components globally without any domestic sourcing restrictions to accelerate capacity addition. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: MNRE updated its wind turbine approval system, renaming RLMM to Approved List of Models and Manufacturers (Wind) or ALMM (Wind). Statement 2 is incorrect: The ALMM (Wind) framework strictly mandates sourcing key components from approved Indian suppliers, rather than allowing unrestricted global sourcing.",
+      "takeaway": "The ALMM (Wind) policy is designed to promote domestic manufacturing by mandating the sourcing of key components from approved Indian suppliers.",
+      "evidenceExcerpt": "MNRE updated its wind turbine approval system, renaming RLMM to Approved List of Models and Manufacturers (Wind) or ALMM (Wind). It mandates sourcing key components from approved Indian suppliers and data localization."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding India's wind energy profile: 1. Wind power currently contributes more than 10 percent to India's total electricity generation. 2. The National Institute of Wind Energy (NIWE) is the agency that estimates India's wind power potential. 3. The ALMM (Wind) framework explicitly exempts foreign wind turbine manufacturers from data localization requirements. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect: Wind power contributes 4.69% to India's total electricity, not more than 10%. Statement 2 is correct: India's wind potential is estimated at 1164 GW at 150 meters above ground level by the National Institute of Wind Energy. Statement 3 is incorrect: The ALMM (Wind) framework requires data localization and does not exempt manufacturers operating under it.",
+      "takeaway": "Wind energy contributes approximately 4.69% to India's total electricity generation. The NIWE assesses wind potential, and ALMM (Wind) enforces strict data localization.",
+      "evidenceExcerpt": "ALMM Wind mandates... data localization. India ranks 4th globally... contributing 4.69% to total electricity. Wind potential is estimated at 1164 GW... by the National Institute of Wind Energy."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "conceptual",
+      "prompt": "Which of the following best describes the practical application of the 'data localization' mandate under the newly introduced ALMM (Wind) framework?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Wind power developers must ensure that the electricity generated is distributed and consumed exclusively within the local state grid."
+        },
+        {
+          "id": "B",
+          "text": "Manufacturers and developers must store the operational and performance data of wind turbines on servers physically located within India."
+        },
+        {
+          "id": "C",
+          "text": "The assessment of wind energy potential must be conducted by local state agencies rather than the National Institute of Wind Energy."
+        },
+        {
+          "id": "D",
+          "text": "Wind turbine components must be manufactured using raw materials sourced strictly from the immediate geographical vicinity of the project."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Data localization in the context of the ALMM (Wind) framework refers to the requirement that digital operational data generated by wind turbines must be stored on servers within India's borders. This is distinct from local content requirements (which mandate sourcing components from Indian suppliers) or local energy consumption.",
+      "takeaway": "The ALMM (Wind) framework introduces strict compliance measures for wind energy developers, specifically focusing on supply chain security through domestic sourcing and cybersecurity through data localization.",
+      "evidenceExcerpt": "It mandates sourcing key components from approved Indian suppliers and data localization."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "statement-based",
+      "prompt": "Consider the following statements regarding the status and regulation of wind energy in India:\n1. The ALMM (Wind) framework promotes supply chain indigenization by mandating the procurement of key turbine components from approved domestic suppliers.\n2. Despite India ranking fourth globally in installed wind capacity, wind energy contributes less than five percent to the country's total electricity generation.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: The Ministry of New and Renewable Energy (MNRE) updated the approval system to ALMM (Wind), which explicitly mandates sourcing key components from approved Indian suppliers to boost domestic manufacturing. Statement 2 is correct: India holds the 4th position globally in installed wind power capacity, but wind energy currently accounts for only 4.69% (less than 5%) of the total electricity generated.",
+      "takeaway": "India's high global ranking in installed wind capacity contrasts with its relatively low percentage contribution to the overall electricity mix. The ALMM (Wind) policy aims to secure and indigenize the expansion of this sector.",
+      "evidenceExcerpt": "MNRE updated its wind turbine approval system, renaming RLMM to Approved List of Models and Manufacturers (Wind) or ALMM (Wind). It mandates sourcing key components from approved Indian suppliers and data localization. India ranks 4th globally in installed wind power capacity, contributing 4.69% to total electricity."
+    }
+  ]
+}

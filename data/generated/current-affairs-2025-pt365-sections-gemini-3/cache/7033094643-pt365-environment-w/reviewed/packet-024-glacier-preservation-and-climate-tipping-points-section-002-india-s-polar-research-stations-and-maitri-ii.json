@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to India's polar initiatives, consider the following statements:\n1. Maitri II will be established as a green research base powered by renewable energy sources.\n2. India's polar research stations are exclusively located in the Southern Hemisphere.\n3. The Indian Antarctic Act, 2022 provides a legal framework for India's polar activities.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Maitri II is an upcoming research station in Eastern Antarctica that will be established as a green research base powered by solar and wind energy.\nStatement 2 is incorrect: While India has stations in Antarctica (Southern Hemisphere), it also operates the Himadri research station in the Arctic (Northern Hemisphere).\nStatement 3 is correct: The Indian Antarctic Act was enacted in 2022 to provide a legal framework for India's polar activities.",
+      "takeaway": "India's polar program spans both the Arctic and Antarctic regions. The upcoming Maitri II station will focus on sustainability, and the Indian Antarctic Act (2022) provides the overarching legal framework for these activities.",
+      "evidenceExcerpt": "Maitri II... would be established as a green research base powered using renewable energy sources... India’s other Polar research stations: Maitri (Antarctica), Bharati (Antarctica), Dakshin Gangotri... and Himadri (Arctic).\n- The Indian Antarctic Act was enacted in 2022 to provide a legal framework for India's polar activities.",
+      "qualityScore": 88,
+      "reviewNotes": "Combined concepts of spatial distribution, green energy, and legal framework into a single high-quality statement-based question."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Matching",
+      "prompt": "Consider the following pairs regarding India's polar research stations:\n\nResearch Station : Description\n1. Dakshin Gangotri : India's first scientific base station in Antarctica\n2. Himadri : India's active research station in the Arctic\n3. Maitri II : Decommissioned research base in Eastern Antarctica\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: Dakshin Gangotri was India's first scientific base station in Antarctica and is now decommissioned.\nPair 2 is correctly matched: Himadri is India's active research station in the Arctic.\nPair 3 is incorrectly matched: Maitri II is an upcoming (not decommissioned) research base in Eastern Antarctica, expected to be operational by 2029.",
+      "takeaway": "India operates polar research stations in both the Arctic (Himadri) and Antarctica (Maitri, Bharati, and the decommissioned Dakshin Gangotri). Maitri II is an upcoming station in Eastern Antarctica.",
+      "evidenceExcerpt": "Maitri II, new research station in Eastern Antarctica. This will be India’s 4th research base, expected to be operational by January 2029... India’s other Polar research stations: Maitri (Antarctica), Bharati (Antarctica), Dakshin Gangotri (first scientific base station of India situated in Antarctica now decommissioned), and Himadri (Arctic).",
+      "qualityScore": 85,
+      "reviewNotes": "Rewrote as a matching pair question to test knowledge of India's polar stations in a standard UPSC format."
+    }
+  ],
+  "reviewerNotes": "Selected and refined two questions to cover the factual and conceptual aspects of India's polar research stations. The first question uses the modern UPSC matching-pair format to test specific station facts, while the second question tests broader statements regarding India's polar footprint, green energy initiatives, and legal frameworks."
+}

@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the National Air Quality Index (AQI):\n\n1. It categorizes air quality into eight distinct ranges based on severity.\n2. The index monitors exactly eight pollutants, which include Carbon monoxide and Ammonia.\n3. Carbon dioxide (CO2), being a major greenhouse gas, is one of the primary pollutants measured under the AQI.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect: The AQI categorizes air quality into exactly six ranges (Good, Satisfactory, Moderate, Poor, Very Poor, and Severe), not eight.\nStatement 2 is correct: The AQI monitors exactly eight pollutants: PM10, PM2.5, NO2, SO2, CO, O3, NH3, and Pb.\nStatement 3 is incorrect: Carbon dioxide (CO2) is a greenhouse gas but is not among the eight local air pollutants monitored for AQI calculation.",
+      "takeaway": "The National AQI is based on 6 categories and 8 specific pollutants. It focuses on local air quality and health impacts rather than global warming, which is why greenhouse gases like CO2 are excluded.",
+      "evidenceExcerpt": "AQI categorizes air quality into six ranges: Good (0-50), Satisfactory (51-100), Moderate (101-200), Poor (201-300), Very Poor (300-400), and Severe (>400). Monitored Pollutants: PM10, PM2.5, NO2, SO2, CO, O3, NH3, Pb."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Multiple-choice",
+      "prompt": "Which of the following sets of pollutants are entirely covered under the National Air Quality Index (AQI) for measuring air quality?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "PM10, PM2.5, Carbon dioxide, and Sulphur dioxide"
+        },
+        {
+          "id": "B",
+          "text": "Ozone, Ammonia, Lead, and Carbon monoxide"
+        },
+        {
+          "id": "C",
+          "text": "Nitrogen dioxide, Methane, PM2.5, and Ozone"
+        },
+        {
+          "id": "D",
+          "text": "Volatile Organic Compounds (VOCs), Lead, Ammonia, and PM10"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The National AQI monitors exactly 8 pollutants: PM10, PM2.5, NO2, SO2, CO, O3, NH3, and Pb. Option B contains only pollutants from this list. Options A, C, and D contain Carbon dioxide, Methane, and VOCs respectively, none of which are monitored under the AQI.",
+      "takeaway": "Memorizing the specific 8 pollutants (PM10, PM2.5, NO2, SO2, CO, O3, NH3, Pb) is crucial for elimination in AQI-related questions.",
+      "evidenceExcerpt": "Monitored Pollutants: PM10, PM2.5, NO2, SO2, CO, O3, NH3, Pb."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of National Air Quality Index (AQI) categories and their corresponding index ranges:\n\n1. Satisfactory : 51-100\n2. Moderate : 101-200\n3. Poor : 201-300\n4. Severe : >400\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "Only three pairs"
+        },
+        {
+          "id": "D",
+          "text": "All four pairs"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "All four pairs are correctly matched. The AQI categorizes air quality into six ranges: Good (0-50), Satisfactory (51-100), Moderate (101-200), Poor (201-300), Very Poor (300-400), and Severe (>400).",
+      "takeaway": "The AQI is divided into 6 color-coded categories with specific numerical ranges, peaking at 'Severe' for values exceeding 400.",
+      "evidenceExcerpt": "AQI categorizes air quality into six ranges: Good (0-50), Satisfactory (51-100), Moderate (101-200), Poor (201-300), Very Poor (300-400), and Severe (>400)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice - How Many",
+      "prompt": "With reference to the National Air Quality Index (AQI), consider the following pollutants:\n\n1. Ozone\n2. Lead\n3. Ammonia\n4. Carbon monoxide\n\nHow many of the above are explicitly monitored under the AQI framework?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "The National Air Quality Index (AQI) monitors exactly eight pollutants to calculate air quality. These are Particulate Matter (PM10 and PM2.5), Nitrogen Dioxide (NO2), Sulphur Dioxide (SO2), Carbon Monoxide (CO), Ozone (O3), Ammonia (NH3), and Lead (Pb). Therefore, all four listed pollutants are monitored under the AQI.",
+      "takeaway": "While PM2.5 and PM10 are the most frequently discussed pollutants in media reports, the AQI framework is comprehensive and explicitly includes secondary pollutants like Ozone (O3), as well as Ammonia (NH3), Carbon monoxide (CO), and heavy metals like Lead (Pb).",
+      "evidenceExcerpt": "Monitored Pollutants: PM10, PM2.5, NO2, SO2, CO, O3, NH3, Pb."
+    }
+  ]
+}

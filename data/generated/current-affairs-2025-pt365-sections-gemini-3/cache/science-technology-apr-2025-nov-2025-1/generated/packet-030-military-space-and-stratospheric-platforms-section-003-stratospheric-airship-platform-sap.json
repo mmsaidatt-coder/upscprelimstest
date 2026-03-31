@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Stratospheric Airship Platform (SAP) recently tested in India: 1. It operates in the stratosphere, typically between 17 to 22 kilometers above the Earth. 2. It uses helium for buoyancy and solar energy for its power requirements. 3. It has been developed as a joint venture between the Indian Space Research Organisation (ISRO) and the Defence Research and Development Organisation (DRDO). Which of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: SAP operates in the stratosphere, typically between 17 to 22 kilometers above Earth. Statement 2 is correct: It functions as a High-Altitude Pseudo-Satellite (HAPS), using helium for buoyancy and solar energy with onboard batteries for power. Statement 3 is incorrect: It was developed solely by the Aerial Delivery Research and Development Establishment (ADRDE), Agra under DRDO, not as a joint venture with ISRO.",
+      "takeaway": "The Stratospheric Airship Platform (SAP) is a DRDO-developed High-Altitude Pseudo-Satellite (HAPS) that uses helium and solar power to operate in the stratosphere.",
+      "evidenceExcerpt": "SAP was developed by the Aerial Delivery Research and Development Establishment (ADRDE), Agra under DRDO. It operates in the stratosphere, typically between 17 to 22 kilometers above Earth. Functions as a High-Altitude Pseudo-Satellite (HAPS), using helium for buoyancy and solar energy with onboard batteries for power."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "High-Altitude Pseudo-Satellites (HAPS) are increasingly being developed for border monitoring and surveillance. Which of the following best describes the operational advantage of HAPS over traditional satellites and low-altitude drones?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "They provide space-like coverage with faster deployment and lower costs than traditional satellites."
+        },
+        {
+          "id": "B",
+          "text": "They operate in the mesosphere to completely avoid atmospheric drag and weather disturbances."
+        },
+        {
+          "id": "C",
+          "text": "They rely on hydrogen-based propulsion to maintain permanent geostationary orbits."
+        },
+        {
+          "id": "D",
+          "text": "They are limited to short-range, line-of-sight coverage similar to standard tactical drones."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Option A is correct: HAPS bridges the gap between drones and satellites, offering space-like coverage with faster deployment and lower costs. Option B is incorrect: They operate in the stratosphere (17-22 km), not the mesosphere. Option C is incorrect: They use helium for buoyancy and solar energy for power, not hydrogen propulsion for geostationary orbits. Option D is incorrect: They offer space-like, wide-area coverage, unlike standard line-of-sight drones.",
+      "takeaway": "HAPS combines the wide-area coverage of satellites with the flexibility, lower cost, and faster deployment of drones.",
+      "evidenceExcerpt": "HAPS bridges the gap between drones and satellites, offering space-like coverage with faster deployment and lower costs."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding High-Altitude Pseudo-Satellites (HAPS): 1. They are designed to bridge the operational gap between drones and satellites for Intelligence, Surveillance, and Reconnaissance (ISR) missions. 2. They are powered by onboard nuclear micro-reactors to sustain multi-month flights in the stratosphere. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: HAPS bridges the gap between drones and satellites for ISR and border monitoring. Statement 2 is incorrect: HAPS utilizes helium for buoyancy and solar energy with onboard batteries for power, not nuclear micro-reactors.",
+      "takeaway": "HAPS platforms rely on renewable energy (solar) and lighter-than-air gases (helium) to maintain long-endurance flights in the stratosphere for ISR purposes.",
+      "evidenceExcerpt": "Functions as a High-Altitude Pseudo-Satellite (HAPS), using helium for buoyancy and solar energy with onboard batteries for power. HAPS bridges the gap between drones and satellites for ISR and border monitoring."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Paragraph-Identification",
+      "prompt": "Consider the following description:\n\n\"It is an unmanned platform developed by the Aerial Delivery Research and Development Establishment (ADRDE). It operates at an altitude of 17 to 22 kilometers, utilizing solar energy and lighter-than-air gas to maintain prolonged flights. It is designed to offer space-like Intelligence, Surveillance, and Reconnaissance (ISR) coverage at a lower cost and faster deployment rate than traditional orbital assets.\"\n\nWhich of the following defense technologies is best described by the above passage?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Autonomous Flying Wing Technology Demonstrator"
+        },
+        {
+          "id": "B",
+          "text": "Stratospheric Airship Platform (SAP)"
+        },
+        {
+          "id": "C",
+          "text": "High Altitude Long Endurance (HALE) UAV Tapas"
+        },
+        {
+          "id": "D",
+          "text": "Microsat-R Military Satellite"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The passage accurately describes the Stratospheric Airship Platform (SAP). It is an unmanned High-Altitude Pseudo-Satellite (HAPS) developed by ADRDE that operates in the stratosphere using helium and solar power to bridge the gap between conventional drones and satellites.",
+      "takeaway": "The Stratospheric Airship Platform (SAP) is an ADRDE-developed HAPS that utilizes helium and solar power to provide cost-effective, rapidly deployable ISR capabilities from the stratosphere.",
+      "evidenceExcerpt": "DRDO conducted maiden flight-trials of the Stratospheric Airship Platform (SAP), developed by ADRDE, Agra. SAP is an unmanned High-Altitude Pseudo-Satellite (HAPS) operating in the stratosphere (17-22 km). It uses helium for buoyancy and solar energy for power, bridging the gap between drones and satellites for ISR and border monitoring."
+    }
+  ]
+}

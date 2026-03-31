@@ -1,0 +1,77 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-017-commercial-space-and-orbital-mechanics-section-003-isro-missions-in-news-astrosat-vom-xposat-and-aryabhata",
+    "claimType": "Factual",
+    "claimText": "Astrosat is India's first dedicated astronomy mission, placed in Low Earth Orbit (LEO), designed to study celestial objects across X-ray, ultraviolet, and optical wavelengths.",
+    "evidenceExcerpt": "Astrosat is India's first dedicated astronomy mission, placed in LEO, covering X-ray, UV, and optical wavelengths.",
+    "pageNumbers": [
+      36
+    ],
+    "examUse": "Statement-based question on Astrosat's orbit and wavelength coverage.",
+    "distractorHooks": [
+      "Placed in Geosynchronous orbit (GEO)",
+      "Studies only infrared wavelengths"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-017-commercial-space-and-orbital-mechanics-section-003-isro-missions-in-news-astrosat-vom-xposat-and-aryabhata",
+    "claimType": "Factual",
+    "claimText": "The Venus Orbiter Mission (VOM) is proposed to be launched using the LVM-3 launch vehicle and includes payloads such as VARTISS and VODEX to study the Venusian atmosphere and topography.",
+    "evidenceExcerpt": "Venus Orbiter Mission (VOM) will launch via LVM-3 with payloads VARTISS and VODEX to study Venusian atmosphere and topography.",
+    "pageNumbers": [
+      36
+    ],
+    "examUse": "Correct-pair question matching missions to their launch vehicles or payloads.",
+    "distractorHooks": [
+      "Launched via PSLV",
+      "Payloads belong to Mars Orbiter Mission (MOM)"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-017-commercial-space-and-orbital-mechanics-section-003-isro-missions-in-news-astrosat-vom-xposat-and-aryabhata",
+    "claimType": "Factual",
+    "claimText": "XPoSat is India's first and the world's second satellite dedicated to studying X-ray polarization from celestial sources like black holes and neutron stars.",
+    "evidenceExcerpt": "XPoSat is the world's second (after NASA's IXPE) and India's first satellite to study X-ray polarization from celestial sources.",
+    "pageNumbers": [
+      36
+    ],
+    "examUse": "Statement-based question on India's achievements in space and XPoSat's primary objective.",
+    "distractorHooks": [
+      "World's first satellite for X-ray polarization",
+      "Studies ultraviolet emissions instead of X-ray polarization"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-017-commercial-space-and-orbital-mechanics-section-003-isro-missions-in-news-astrosat-vom-xposat-and-aryabhata",
+    "claimType": "Factual",
+    "claimText": "The XPoSat mission carries two primary payloads: POLIX (Polarimeter Instrument in X-rays) and XSPECT.",
+    "evidenceExcerpt": "XPoSat carries POLIX (Polarimeter Instrument in X-rays) and XSPECT payloads.",
+    "pageNumbers": [
+      36
+    ],
+    "examUse": "Correct-pair question matching payloads to their respective missions.",
+    "distractorHooks": [
+      "POLIX is a payload on Astrosat",
+      "XSPECT is used for lunar exploration"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-017-commercial-space-and-orbital-mechanics-section-003-isro-missions-in-news-astrosat-vom-xposat-and-aryabhata",
+    "claimType": "Factual",
+    "claimText": "Aryabhata, India's first satellite, operated in Low Earth Orbit (LEO) and was built for X-ray astronomy, aeronomics, and solar physics.",
+    "evidenceExcerpt": "Aryabhata, India's first satellite, completed 50 years; it operated in LEO for X-ray astronomy and solar physics.",
+    "pageNumbers": [
+      36
+    ],
+    "examUse": "Statement-based question on the historical significance and scientific objectives of Aryabhata.",
+    "distractorHooks": [
+      "Operated in Geostationary orbit",
+      "Built exclusively for communication purposes"
+    ]
+  }
+]

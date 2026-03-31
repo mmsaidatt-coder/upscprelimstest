@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Rare Earth Elements (REEs):\n1. They comprise a set of 17 non-metallic elements in the periodic table.\n2. They are found abundantly in nature but rarely occur in concentrated forms.\n3. Cerium, Yttrium, and Europium are examples of REEs.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: REEs are a set of 17 lustrous, silvery-white, soft heavy metals (not non-metals) in the periodic table.\nStatement 2 is correct: Despite their name, REEs are found abundantly in nature. However, they are difficult to extract because they do not occur in concentrated forms.\nStatement 3 is correct: Cerium (Ce), Yttrium (Y), and Europium (Eu) are examples of Rare Earth Elements.",
+      "takeaway": "REEs are a group of 17 heavy metals that are abundant in the Earth's crust but notoriously difficult to extract due to the lack of concentrated ores.",
+      "evidenceExcerpt": "REEs are a set of 17 lustrous, silvery-white, soft heavy metals in periodic table, e.g., Cerium (Ce), Yttrium (Y), Europium (Eu), etc. Though found abundantly, however, they are difficult to extract as they are not found in concentrated form.",
+      "qualityScore": 90,
+      "reviewNotes": "Excellent use of the modern UPSC 'How many statements' format. It effectively tests common misconceptions, such as REEs being non-metals or genuinely 'rare' in abundance."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-Choice",
+      "prompt": "In the context of global trade and critical minerals, which of the following best explains the strategic vulnerability associated with Rare Earth Elements (REEs)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "They are extremely scarce in the Earth's crust, making their discovery and mining highly unpredictable."
+        },
+        {
+          "id": "B",
+          "text": "They are exclusively found in deep-ocean nodules, requiring advanced and expensive extraction technologies."
+        },
+        {
+          "id": "C",
+          "text": "Despite their abundance, they lack concentrated ores for easy extraction, and their global supply is susceptible to export restrictions by major players like China."
+        },
+        {
+          "id": "D",
+          "text": "They are highly radioactive materials, making their mining and international transport subject to strict nuclear proliferation treaties."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "REEs are found abundantly in nature but are difficult to extract because they do not occur in concentrated forms. Furthermore, their global supply chain is highly vulnerable to geopolitical tensions, as evidenced by China restricting exports in retaliation to US tariffs.",
+      "takeaway": "The strategic vulnerability of REEs stems from a combination of geological extraction challenges (lack of concentrated ores despite general abundance) and the geopolitical concentration of their supply chains.",
+      "evidenceExcerpt": "In retaliation to US tariffs, China restricts exports of Rare Earth Elements (REEs)... Though found abundantly, however, they are difficult to extract as they are not found in concentrated form.",
+      "qualityScore": 88,
+      "reviewNotes": "Strong conceptual question that links the geological properties of REEs with their geopolitical and economic significance. The distractors are highly plausible and parallel."
+    }
+  ],
+  "reviewerNotes": "Selected two distinct questions from the candidate set. Q1 focuses on the scientific properties and geological occurrence of REEs using the modern 'How many statements' format. Q2 tests the geopolitical and economic vulnerabilities associated with REEs, providing strong, plausible distractors that mimic UPSC's style of testing conceptual clarity."
+}

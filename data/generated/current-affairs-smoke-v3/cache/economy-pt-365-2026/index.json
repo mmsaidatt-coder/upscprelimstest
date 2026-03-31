@@ -1,0 +1,76 @@
+{
+  "pages": [
+    {
+      "pageNumber": 1,
+      "classification": "cover",
+      "questionQuota": 0,
+      "topic": "Document Information",
+      "subtopic": "Cover Page",
+      "rationale": "This is the cover page of the document, containing title and publisher information. It is not suitable for question generation.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 2,
+      "classification": "toc",
+      "questionQuota": 0,
+      "topic": "Document Information",
+      "subtopic": "Table of Contents",
+      "rationale": "This page is a table of contents, listing topics and page numbers. It does not contain content suitable for question generation.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 3,
+      "classification": "toc",
+      "questionQuota": 0,
+      "topic": "Document Information",
+      "subtopic": "Table of Contents",
+      "rationale": "This page is a continuation of the table of contents. It does not contain content suitable for question generation.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 4,
+      "classification": "copyright",
+      "questionQuota": 0,
+      "topic": "Document Information",
+      "subtopic": "Introduction and Copyright",
+      "rationale": "This page contains an introductory note to students, a description of the document's features, and copyright information. It is not core content for question generation.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 5,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Banking and Monetary Policy",
+      "subtopic": "RBI Monetary Policy and Economic Capital Framework",
+      "rationale": "This page provides a detailed overview of RBI's monetary policy instruments (quantitative and qualitative) and explains the Economic Capital Framework (ECF) and RBI's surplus transfer. It is highly dense with UPSC-relevant facts and concepts.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 6,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Banking and Monetary Policy",
+      "subtopic": "Forex Reserves and Ombudsman Scheme",
+      "rationale": "This page details components of the Economic Capital Framework, India's Forex Reserves (including reasons for increasing gold and associated risks), and the Reserve Bank - Integrated Ombudsman Scheme, 2021. It is highly dense with UPSC-relevant information.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 7,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Banking and Monetary Policy",
+      "subtopic": "RBI Initiatives and Key Terms",
+      "rationale": "This page elaborates on the RBI Integrated Ombudsman Scheme and introduces several important RBI initiatives and terms like Standing Deposit Facility, Variable Rate Reverse Repo, Switch Auction, and Co-lending norms. It is highly dense with UPSC-relevant information.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 8,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Banking and Monetary Policy",
+      "subtopic": "Payment Systems, RBI Advances, and Digital Initiatives",
+      "rationale": "This page covers co-lending norms, Payment Aggregators, Ways and Means Advances (WMA), and new RBI initiatives such as ULI, CBDC retail sandbox, and Tokenisation of Certificate of Deposits. It is packed with definitions, features, and regulatory aspects relevant for UPSC.",
+      "confidence": 1
+    }
+  ]
+}

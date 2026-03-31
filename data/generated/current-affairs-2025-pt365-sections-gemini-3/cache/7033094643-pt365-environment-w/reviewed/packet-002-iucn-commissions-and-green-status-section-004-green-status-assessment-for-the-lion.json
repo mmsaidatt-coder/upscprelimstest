@@ -1,0 +1,38 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the differences between Asiatic and African lions:\n\n1. Asiatic lions are generally larger in body size than African lions.\n2. Male Asiatic lions have sparser and shorter manes compared to African lions.\n3. A distinctive longitudinal skin fold along the belly is present in Asiatic lions but is usually absent in African lions.\n\nHow many of the statements given above are correct?",
+      "contextLines": [
+        "Difference between Asiatic and African Lions: Asiatic Lion has sparser and shorter mane (ears visible), a distinctive longitudinal skin fold along the belly, and is slightly smaller than African lions."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Asiatic lions are slightly smaller than African lions.\nStatement 2 is correct: Male Asiatic lions have sparser and shorter manes compared to African lions, making their ears almost always visible.\nStatement 3 is correct: Asiatic lions have a distinctive longitudinal skin fold along the belly, which is a key morphological trait usually absent in African lions.",
+      "takeaway": "Asiatic lions differ from African lions by being slightly smaller, having sparser manes (which makes their ears visible), and possessing a distinctive longitudinal belly skin fold.",
+      "evidenceExcerpt": "Difference between Asiatic and African Lions: Asiatic Lion has sparser and shorter mane (ears visible), a distinctive longitudinal skin fold along the belly, and is slightly smaller than African lions.",
+      "qualityScore": 85,
+      "reviewNotes": "Converted to 'How many statements are correct' format to align with recent UPSC trends. The distractors are plausible and test specific morphological differences."
+    }
+  ],
+  "reviewerNotes": "Selected two strong questions covering the morphological differences between Asiatic and African lions, and the conservation status/geographical presence of lions. Both questions were updated to the contemporary 'How many statements are correct' format to match recent UPSC Prelims patterns. The remaining candidates were either redundant or too simplistic."
+}

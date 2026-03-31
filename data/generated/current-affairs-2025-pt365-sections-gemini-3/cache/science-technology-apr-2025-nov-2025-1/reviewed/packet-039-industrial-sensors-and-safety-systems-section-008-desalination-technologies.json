@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding desalination technologies:\n\n1. Thermal desalination is mainly used for brackish water, whereas membrane technology is primarily used for seawater.\n2. Low Temperature Thermal Desalination (LTTD) plants are operational in Lakshadweep for seawater desalination.\n3. The Nemmeli Desalination Plant in Tamil Nadu employs reverse osmosis, which is a membrane-based technology.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Thermal technology is mainly used for seawater desalination, whereas membrane technology is mainly used for brackish water desalination.\nStatement 2 is correct: Low Temperature Thermal Desalination (LTTD) plants are deployed in Lakshadweep for seawater desalination.\nStatement 3 is correct: The Nemmeli Seawater Desalination Plant in Tamil Nadu operates on Reverse Osmosis, which is a type of membrane technology.",
+      "takeaway": "Thermal desalination relies on heating and condensing vapor (mainly for seawater), while membrane desalination filters dissolved solids through semi-permeable membranes (mainly for brackish water).",
+      "evidenceExcerpt": "Thermal Technology: Heating of saline water and collecting the condensed vapor (distillate) to produce pure water. Usage: Mainly for seawater desalination E.g., Low Temperature Thermal Desalination (LTTD) plants, Lakshadweep. Membrane Technology: Feedwater is pumped through semi-permeable membranes to filter out the dissolved solids. Usage: Mainly for brackish water desalination E.g., Nemmeli Seawater Desalination Plant, Tamil Nadu, on Reverse Osmosis.",
+      "qualityScore": 85,
+      "reviewNotes": "Good coverage of the factual and conceptual differences between the two main desalination technologies mentioned in the text."
+    }
+  ],
+  "reviewerNotes": "Selected two questions that cover the core concepts of the section. The first question tests the fundamental differences and applications of thermal and membrane desalination technologies. The second question focuses on a specific recent technological advancement (graphene-based solar evaporators) and tests the underlying scientific principle. Both questions have been refined to match UPSC standards with plausible distractors."
+}

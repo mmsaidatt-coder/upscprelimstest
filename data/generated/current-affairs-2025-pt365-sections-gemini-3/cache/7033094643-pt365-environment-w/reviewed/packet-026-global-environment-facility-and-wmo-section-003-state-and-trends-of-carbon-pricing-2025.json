@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to carbon pricing, consider the following statements:\n\n1. The 'State and Trends of Carbon Pricing' report is released by the World Bank Group.\n2. A carbon tax involves the government setting a cap on greenhouse gas emissions for covered entities.\n3. Carbon crediting mechanisms generate tradable credits through voluntary emission reduction activities.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The 'State and Trends of Carbon Pricing' report is released by the World Bank Group.\nStatement 2 is incorrect: A carbon tax involves the government levying a fee on covered entities for their greenhouse gas emissions. Setting a cap on emissions is the mechanism of an Emissions Trading System (ETS).\nStatement 3 is correct: Carbon crediting mechanisms generate tradable credits through voluntary activities that reduce emissions.",
+      "takeaway": "Carbon pricing instruments include Emissions Trading Systems (cap-based), Carbon Taxes (fee-based), and Carbon Crediting Mechanisms (voluntary tradable credits). The annual State and Trends of Carbon Pricing report is published by the World Bank Group.",
+      "evidenceExcerpt": "The State and Trends of Carbon Pricing 2025 report is released by the World Bank Group. Carbon pricing puts a financial cost on greenhouse gas emissions. Instruments include Emissions Trading Systems (government sets a cap on emissions), Carbon Taxes (government levies a fee on emissions), and Carbon Crediting Mechanisms (tradable credits generated through voluntary emission reduction activities).",
+      "qualityScore": 85,
+      "reviewNotes": "Good coverage of the factual and conceptual elements of the source text. The statements are clear and the distractors are plausible."
+    }
+  ],
+  "reviewerNotes": "Selected two questions that cover the core concepts of the source text. The first question is a standard UPSC statement-based format testing both factual knowledge (the report) and conceptual definitions. The second question is a direct conceptual question that ensures clarity on the specific mechanism of an ETS. Both questions have been refined for clarity and UPSC-style phrasing."
+}

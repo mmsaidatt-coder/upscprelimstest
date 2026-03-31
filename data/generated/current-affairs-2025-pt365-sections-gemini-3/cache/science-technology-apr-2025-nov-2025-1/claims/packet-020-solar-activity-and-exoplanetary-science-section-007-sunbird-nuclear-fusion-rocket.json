@@ -1,0 +1,48 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-020-solar-activity-and-exoplanetary-science-section-007-sunbird-nuclear-fusion-rocket",
+    "claimType": "Factual",
+    "claimText": "Sunbird is a nuclear fusion-based rocket being developed by Pulsar Fusion (UK) and Princeton Satellite Systems (USA).",
+    "evidenceExcerpt": "A nuclear fusion-based rocket being developed by Pulsar Fusion (UK) and Princeton Satellite Systems (USA).",
+    "pageNumbers": [
+      42
+    ],
+    "examUse": "Statement-based question on emerging space technologies and their developers.",
+    "distractorHooks": [
+      "Nuclear fission instead of nuclear fusion",
+      "Developed by NASA or ISRO instead of Pulsar Fusion and Princeton Satellite Systems"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-020-solar-activity-and-exoplanetary-science-section-007-sunbird-nuclear-fusion-rocket",
+    "claimType": "Conceptual",
+    "claimText": "The Dual Direct Fusion Drive (DDFD) technology used in the Sunbird rocket generates both thrust and electricity.",
+    "evidenceExcerpt": "Powered by Dual Direct Fusion Drive (DDFD) technology... DDFD generates both thrust and electricity...",
+    "pageNumbers": [
+      42
+    ],
+    "examUse": "Statement-based question on the capabilities and dual-use nature of DDFD technology in space missions.",
+    "distractorHooks": [
+      "Generates only thrust, requiring separate solar panels or RTGs for electricity",
+      "Uses chemical propulsion instead of direct fusion drive"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-020-solar-activity-and-exoplanetary-science-section-007-sunbird-nuclear-fusion-rocket",
+    "claimType": "Factual",
+    "claimText": "The Sunbird rocket's Dual Direct Fusion Drive is powered by a combination of helium-3 and deuterium.",
+    "evidenceExcerpt": "Using helium-3 and deuterium, DDFD generates both thrust and electricity...",
+    "pageNumbers": [
+      42
+    ],
+    "examUse": "Correct-pair or statement-based question on the specific fuels used in advanced nuclear fusion space propulsion.",
+    "distractorHooks": [
+      "Uses Uranium-235 or Plutonium-239",
+      "Uses liquid hydrogen and liquid oxygen",
+      "Uses Tritium instead of Helium-3"
+    ]
+  }
+]

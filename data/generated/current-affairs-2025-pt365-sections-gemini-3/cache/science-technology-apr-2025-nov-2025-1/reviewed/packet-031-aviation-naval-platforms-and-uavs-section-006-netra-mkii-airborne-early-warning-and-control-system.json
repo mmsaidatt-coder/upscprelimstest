@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the 'Netra MkII' programme:\n\n1. It is India's next-generation Airborne Early Warning and Control System (AWACS).\n2. The system is designed to be integrated into the indigenous Light Combat Aircraft (LCA) Tejas platform.\n3. It functions as a flying command centre to detect, track, and monitor threats across vast distances.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Netra MkII is India's next-generation Airborne Early Warning and Control System (AWACS) programme.\n\nStatement 2 is incorrect: The Netra MkII system will be mounted on the Airbus A321 platform, not the LCA Tejas.\n\nStatement 3 is correct: It is much more than a standard aircraft; it functions as a flying command centre to detect, track, and monitor threats across vast distances.",
+      "takeaway": "Netra MkII is India's next-generation AWACS programme, mounted on the Airbus A321 platform, serving as a flying command centre.",
+      "evidenceExcerpt": "The government has given a go-ahead to the production of next generation airborne early warning and control system (AWACS) India programme also referred to as the Netra MkII. It will be mounted on the Airbus A321 platform. Key Features: Detect, track, and monitor threats across vast distances. Much more than an aircraft as it is a flying command centre.",
+      "qualityScore": 85,
+      "reviewNotes": "Rewrote the question to use the contemporary 'How many statements are correct' format. Modified statement 2 to serve as a plausible distractor by referencing the indigenous LCA Tejas instead of the Airbus A321."
+    }
+  ],
+  "reviewerNotes": "Selected and refined Candidate 1. Upgraded the format to the latest UPSC pattern and introduced a strong distractor for the aircraft platform."
+}

@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the 'Netra MkII' programme recently seen in the news: 1. It is India's next-generation Airborne Early Warning and Control System (AWACS) programme. 2. The system is designed to be mounted on the Airbus A321 platform. 3. It functions primarily as an unmanned combat aerial vehicle for deep penetration strikes. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Netra MkII is India's next-generation Airborne Early Warning and Control System (AWACS) programme. Statement 2 is correct: The system will be mounted on the Airbus A321 platform. Statement 3 is incorrect: It is not an unmanned combat aerial vehicle (UCAV). It is a manned aircraft that functions as a flying command centre to detect, track, and monitor threats across vast distances.",
+      "takeaway": "Netra MkII is an indigenous next-generation AWACS programme mounted on the Airbus A321 platform, serving as a flying command centre.",
+      "evidenceExcerpt": "The government has given a go-ahead to the production of next generation airborne early warning and control system (AWACS) India programme also referred to as the Netra MkII. It will be mounted on the Airbus A321 platform. Key Features: Detect, track, and monitor threats across vast distances. Much more than an aircraft as it is a flying command centre."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "conceptual",
+      "prompt": "Which of the following best describes the primary nature of the 'Netra MkII' programme recently approved by the Government of India?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A ground-based over-the-horizon radar network designed to track low-earth orbit satellites."
+        },
+        {
+          "id": "B",
+          "text": "A next-generation airborne early warning and control system that functions as a flying command centre."
+        },
+        {
+          "id": "C",
+          "text": "A high-altitude long-endurance (HALE) unmanned aerial vehicle for deep penetration strikes."
+        },
+        {
+          "id": "D",
+          "text": "An advanced anti-radiation missile system integrated into fifth-generation fighter aircraft."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Netra MkII is India's next-generation airborne early warning and control system (AWACS) programme. It will be mounted on the Airbus A321 platform and functions as a flying command centre to detect, track, and monitor threats across vast distances.",
+      "takeaway": "Netra MkII is an AWACS platform acting as a flying command centre, distinguishing it from ground radars, UCAVs, or missile systems.",
+      "evidenceExcerpt": "The government has given a go-ahead to the production of next generation airborne early warning and control system (AWACS) India programme also referred to as the Netra MkII... Much more than an aircraft as it is a flying command centre."
+    }
+  ]
+}

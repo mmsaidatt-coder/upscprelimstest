@@ -1,0 +1,80 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-030-military-space-and-stratospheric-platforms-section-004-advanced-medium-combat-aircraft-amca-and-fighter-jet-generations",
+    "claimType": "Factual",
+    "claimText": "India is partnering with French aerospace major Safran to manufacture advanced jet engines for the 5th generation Advanced Medium Combat Aircraft (AMCA).",
+    "evidenceExcerpt": "India is partnering with French aerospace major Safran to manufacture advanced jet engines for the AMCA programme.",
+    "pageNumbers": [
+      60
+    ],
+    "examUse": "Statement-based question on international defence partnerships and technology transfers.",
+    "distractorHooks": [
+      "Partnering with US-based General Electric (GE) instead of Safran",
+      "Partnering with Russian aerospace companies",
+      "Manufacturing engines for 4th generation aircraft instead of 5th generation"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-030-military-space-and-stratospheric-platforms-section-004-advanced-medium-combat-aircraft-amca-and-fighter-jet-generations",
+    "claimType": "Institutional",
+    "claimText": "The Advanced Medium Combat Aircraft (AMCA) programme is led by the Aeronautical Development Agency (ADA) under the DRDO.",
+    "evidenceExcerpt": "The AMCA programme is led by the Aeronautical Development Agency (ADA) under DRDO.",
+    "pageNumbers": [
+      60
+    ],
+    "examUse": "Institution-feature question identifying the nodal agency for indigenous defence projects.",
+    "distractorHooks": [
+      "Led exclusively by Hindustan Aeronautics Limited (HAL)",
+      "Led by the Indian Space Research Organisation (ISRO)"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-030-military-space-and-stratospheric-platforms-section-004-advanced-medium-combat-aircraft-amca-and-fighter-jet-generations",
+    "claimType": "Factual",
+    "claimText": "Currently, only the United States, Russia, and China possess operational 5th generation fighter aircraft.",
+    "evidenceExcerpt": "Only the US (F-22, F-35), Russia (Su-57), and China (J-20) currently have operational 5th generation aircraft.",
+    "pageNumbers": [
+      60
+    ],
+    "examUse": "Statement-based question on global military capabilities and operational 5th generation fighters.",
+    "distractorHooks": [
+      "Including India or France in the list of countries with operational 5th generation aircraft",
+      "Stating that only the US and Russia have operational 5th generation aircraft"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-030-military-space-and-stratospheric-platforms-section-004-advanced-medium-combat-aircraft-amca-and-fighter-jet-generations",
+    "claimType": "Conceptual",
+    "claimText": "5th generation fighter aircraft are characterized by features such as stealth capabilities, twin engines, supercruise, and internal weapons bays.",
+    "evidenceExcerpt": "5th generation fighters feature stealth capabilities, twin engines, supercruise, and internal weapons bays.",
+    "pageNumbers": [
+      60
+    ],
+    "examUse": "Feature-based question identifying the defining characteristics of 5th generation fighter jets.",
+    "distractorHooks": [
+      "External weapons bays instead of internal",
+      "Lack of supercruise capability",
+      "Single engine as a defining feature of 5th generation"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-030-military-space-and-stratospheric-platforms-section-004-advanced-medium-combat-aircraft-amca-and-fighter-jet-generations",
+    "claimType": "Classification",
+    "claimText": "4.5th generation fighter jets, such as the Rafale and Eurofighter Typhoon, incorporate stealth and radar absorbent materials to enhance 4th generation capabilities.",
+    "evidenceExcerpt": "4.5th generation fighters (e.g., Rafale, Eurofighter Typhoon) added stealth and radar absorbent materials to extend 4th generation capabilities.",
+    "pageNumbers": [
+      60
+    ],
+    "examUse": "Correct-pair or comparison question distinguishing between 4.5th and 5th generation fighter jets.",
+    "distractorHooks": [
+      "Classifying the Rafale as a 5th generation fighter",
+      "Stating that 4.5th generation fighters lack radar absorbent materials",
+      "Classifying the MiG-29 or F-16 as 4.5th generation fighters"
+    ]
+  }
+]

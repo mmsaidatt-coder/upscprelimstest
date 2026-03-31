@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Additional Tier 1 (AT1) Bonds:\n1. They are perpetual bonds issued by banks without a fixed maturity date.\n2. They are issued by commercial banks primarily to meet their Cash Reserve Ratio (CRR) requirements.\n3. They include a call option that allows the issuing bank to redeem the bonds.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: AT1 Bonds are perpetual bonds issued by banks without a maturity date.\nStatement 2 is incorrect: They are used by banks to meet capital adequacy requirements (under Basel norms), not Cash Reserve Ratio (CRR) requirements.\nStatement 3 is correct: AT1 bonds include a call option, which allows the issuer to redeem them at their discretion.",
+      "takeaway": "AT1 bonds are perpetual instruments with a call option, utilized by banks to fulfill capital adequacy norms rather than reserve liquidity requirements like CRR.",
+      "evidenceExcerpt": "Additional Tier 1 (AT1) Bonds, or perpetual bonds, are issued by banks without a maturity date but include a call option. They are used by banks to meet capital adequacy requirements.",
+      "qualityScore": 88,
+      "reviewNotes": "Excellent use of the 'How many statements' format. The distractor involving CRR is highly plausible for candidates who confuse capital adequacy with reserve requirements."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to 'Transition Bonds' in the Indian financial market, consider the following statements:\n1. They are classified as a sub-category of green debt securities under the Securities and Exchange Board of India (SEBI) regulations.\n2. They are specifically aimed at helping hard-to-abate sectors raise capital for progressive decarbonization.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Transition Bonds are recognized as a sub-category of green debt securities as per SEBI regulations.\nStatement 2 is correct: They are designed to help hard-to-abate sectors, such as steel and cement, raise capital for progressive decarbonization, distinguishing them from traditional green bonds which typically fund purely green projects.",
+      "takeaway": "Transition Bonds are regulated by SEBI as green debt securities and specifically target hard-to-abate sectors to finance their decarbonization efforts.",
+      "evidenceExcerpt": "Transition Bonds are a sub-category of green debt securities under SEBI, aimed at helping hard-to-abate sectors like steel and cement raise capital for decarbonization.",
+      "qualityScore": 85,
+      "reviewNotes": "A solid, standard UPSC-style statement question that tests the regulatory classification and specific purpose of a niche financial instrument."
+    }
+  ],
+  "reviewerNotes": "Selected two high-quality questions covering the two distinct financial instruments mentioned in the text. Candidate 3 was dropped due to conceptual overlap with Candidate 2, ensuring the final set is diverse and non-repetitive."
+}

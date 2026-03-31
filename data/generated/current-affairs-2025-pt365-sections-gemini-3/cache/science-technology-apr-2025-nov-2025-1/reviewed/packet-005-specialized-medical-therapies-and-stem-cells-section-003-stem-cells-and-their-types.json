@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Applied Scenario",
+      "prompt": "In the context of regenerative medicine, a research team extracts a sample of a patient's skin cells and introduces specific embryonic genes into them. The resulting cells demonstrate the ability to self-renew and differentiate into any cell type of the adult body. Which of the following types of stem cells has the research team successfully generated?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Embryonic Stem Cells (ESCs)"
+        },
+        {
+          "id": "B",
+          "text": "Induced Pluripotent Stem Cells (iPSCs)"
+        },
+        {
+          "id": "C",
+          "text": "Adult Somatic Stem Cells"
+        },
+        {
+          "id": "D",
+          "text": "Mesenchymal Stem Cells"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The scenario describes the creation of Induced Pluripotent Stem Cells (iPSCs). According to the source text, iPSCs are created by introducing embryonic genes into a somatic cell (such as a skin cell) to revert it to a stem cell state. Because they are a type of pluripotent stem cell, they possess the capability to differentiate into all cells of the adult body.",
+      "takeaway": "Induced Pluripotent Stem Cells (iPSCs) offer a way to create pluripotent stem cells directly from a patient's own specialized somatic cells by reprogramming them with embryonic genes.",
+      "evidenceExcerpt": "Induced Pluripotent Stem Cells (iPSCs) are created by introducing embryonic genes into a somatic cell (e.g., skin cell) to revert it to a stem cell state. ... Pluripotent stem cells can differentiate into all cells of the adult body.",
+      "qualityScore": 88,
+      "reviewNotes": "Excellent application-based question that tests the candidate's understanding of the iPSC creation process without relying on rote memorization. Highly reflective of UPSC's approach to Science & Tech."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding stem cells:\n1. Pluripotent stem cells can differentiate into all cell types of the adult human body.\n2. Adult stem cells are generally restricted to yielding specialized cell types of their specific tissue or organ.\n3. Induced Pluripotent Stem Cells (iPSCs) are extracted directly from the early embryo post-fertilization.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Pluripotent stem cells possess the capability to differentiate into all cell types of the adult body. Statement 2 is correct: Adult (or somatic) stem cells are undifferentiated cells in tissues or organs that yield specialized cells of that specific tissue. Statement 3 is incorrect: Embryonic Stem Cells (ESCs) are found in the early embryo 3-5 days post-fertilization. Induced Pluripotent Stem Cells (iPSCs) are artificially created by introducing embryonic genes into a somatic cell (e.g., skin cell) to revert it to a stem cell state.",
+      "takeaway": "Pluripotent stem cells can form any adult cell type, whereas adult stem cells are tissue-specific. iPSCs are reprogrammed somatic cells, not naturally extracted embryonic cells.",
+      "evidenceExcerpt": "Pluripotent stem cells can differentiate into all cells of the adult body. Embryonic Stem Cells (ESCs) are found in the early embryo 3-5 days post-fertilization. Induced Pluripotent Stem Cells (iPSCs) are created by introducing embryonic genes into a somatic cell (e.g., skin cell) to revert it to a stem cell state. Adult Stem Cells (ASCs) are undifferentiated cells in tissues or organs that yield specialized cells of that specific tissue.",
+      "qualityScore": 85,
+      "reviewNotes": "Good coverage of the different types of stem cells. The 'How many' format aligns with recent UPSC trends and effectively tests multiple facts."
+    }
+  ],
+  "reviewerNotes": "Selected three distinct questions that cover the core concepts of the source text: the classification of stem cells, their fundamental properties, and the applied process of creating iPSCs. Rewrote the prompts to match UPSC's tone and formatting, including a 'How many statements' question and an applied scenario."
+}

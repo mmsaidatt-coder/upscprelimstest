@@ -1,0 +1,98 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Applied",
+      "prompt": "A multinational technology firm wants to establish a subsidiary in India. To ensure tax certainty and avoid future litigation over the pricing of intellectual property transferred to the Indian subsidiary, the firm enters into an arrangement with the Indian tax authorities to determine the pricing methodology beforehand. Under the current Indian taxation framework, what is such an arrangement called?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Safe Harbour Provision"
+        },
+        {
+          "id": "B",
+          "text": "Advance Pricing Agreement"
+        },
+        {
+          "id": "C",
+          "text": "Mutual Agreement Procedure"
+        },
+        {
+          "id": "D",
+          "text": "Base Erosion and Profit Shifting (BEPS) Framework"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "An Advance Pricing Agreement (APA) determines the arm's length price of international transactions beforehand, providing certainty to taxpayers in the area of transfer pricing by specifying pricing methods. Safe Harbour Rules, on the other hand, are predefined margins accepted by tax authorities, not a negotiated pricing methodology for complex IP transfers.",
+      "takeaway": "APAs provide certainty to taxpayers by specifying pricing methods and determining the arm's length price of international transactions.",
+      "evidenceExcerpt": "Advance Pricing Agreements (APAs)... aims to provide certainty to taxpayers in the area of transfer pricing by specifying pricing methods and determining the arm's length price of international transactions.",
+      "qualityScore": 90,
+      "reviewNotes": "Excellent applied question testing the practical use-case of APAs versus other tax mechanisms. Distractors are highly plausible."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Safe Harbour Rules' in the context of taxation in India: 1. It is a provision where the tax authority accepts the transfer price declared by the taxpayer to be at arm's length. 2. The Central Board of Direct Taxes (CBDT) has recently reduced the threshold for availing safe harbour to Rs. 100 crore. 3. Lithium-ion batteries used in electric vehicles are explicitly excluded from the definition of core auto components under these rules. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Safe harbour means the tax authority accepts the transfer price declared by the taxpayer to be at arm's length. Statement 2 is incorrect: The CBDT has recently increased the threshold for availing safe harbour from Rs. 200 crore to Rs. 300 crore. Statement 3 is incorrect: Lithium-ion batteries for use in electric or hybrid electric vehicles are now included in the definition of core auto components for safe harbour.",
+      "takeaway": "Safe Harbour Rules provide certainty to taxpayers by ensuring the tax authority accepts their declared transfer price, provided they meet specific thresholds and criteria, which have recently been expanded.",
+      "evidenceExcerpt": "Safe harbour means the tax authority accepts the transfer price declared by the taxpayer to be at arm's length. The threshold for availing safe harbour was increased from Rs. 200 Crore to Rs. 300 Crore. Lithium-Ion Batteries for electric/hybrid vehicles are now included in the definition of core auto components for safe harbour.",
+      "qualityScore": 85,
+      "reviewNotes": "Good coverage of recent amendments to Safe Harbour Rules. Distractors are plausible and test exact factual changes."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Advance Pricing Agreements (APAs) in India: 1. They aim to provide certainty to taxpayers by specifying pricing methods for international transactions. 2. An APA determines the arm's length price of international transactions for a maximum term of five years. 3. A mandatory minimum period of three years is required to enter into an APA. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: APAs aim to provide certainty to taxpayers in the area of transfer pricing by specifying pricing methods. Statement 2 is correct: An APA determines the arm's length price of international transactions for a maximum term of 5 years. Statement 3 is incorrect: There is no minimum period required for an APA.",
+      "takeaway": "APAs provide certainty to taxpayers by specifying pricing methods and determining the arm's length price of international transactions for up to 5 years, with no minimum period.",
+      "evidenceExcerpt": "Advance Pricing Agreements (APAs)... aims to provide certainty to taxpayers in the area of transfer pricing by specifying pricing methods and determining the arm's length price of international transactions. An Advance Pricing Agreement (APA) determines the arm's length price of international transactions for a maximum term of 5 years with no minimum period.",
+      "qualityScore": 85,
+      "reviewNotes": "Tests specific features of APAs, including tenure limits, which is a classic UPSC pattern."
+    }
+  ],
+  "reviewerNotes": "Selected 4 high-quality questions covering Safe Harbour Rules, Transfer Pricing, Arm's Length Principle, and Advance Pricing Agreements. Rewrote prompts to eliminate control characters and ensure a formal UPSC tone. Ensured no conceptual overlap between the questions."
+}

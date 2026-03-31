@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Multiple-Statement Synthesis",
+      "prompt": "Consider the following characteristics:\n1. Presence of a rigid hyoid bone\n2. Webbed hind feet\n3. Endemicity to the Indo-Malayan eco-realm\n\nWhich of the above characteristics apply to the Fishing cat found in India?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: As a small cat species, the Fishing cat possesses a rigid hyoid bone, which allows it to purr continuously rather than roar.\nStatement 2 is correct: The Fishing cat is uniquely adapted to wetland environments (such as the Sundarbans) and features webbed hind feet to aid in swimming.\nStatement 3 is incorrect: It is the Asiatic golden cat that is endemic to the Indo-Malayan eco-realm, not the Fishing cat.",
+      "takeaway": "Species-specific adaptations (like webbed feet for the Fishing cat) and general taxonomic traits (rigid hyoid bone in small cats) frequently combine to define a species' ecological niche. The Asiatic golden cat is the one endemic to the Indo-Malayan eco-realm.",
+      "evidenceExcerpt": "Unlike big cats that have a flexible hyoid bone to roar, small cats have a rigid hyoid bone allowing them to purr. Key species include the Asiatic golden cat (NT, endemic to Indo-Malayan eco-realm)... Fishing cat (VU, wetlands) has webbed hind feet",
+      "qualityScore": 88,
+      "reviewNotes": "Excellent synthesis question that requires the candidate to combine general small cat traits with species-specific adaptations."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding wild cats in India:\n1. Small cats possess a flexible hyoid bone that enables them to roar, whereas big cats have a rigid hyoid bone.\n2. The Rusty-spotted cat, found in India, is recognized as the world's smallest wild cat species.\n3. All small cat species found in India are protected under Schedule I of the Wildlife (Protection) Act, 1972.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The anatomy is reversed. Small cats have a rigid hyoid bone that allows them to purr continuously but prevents them from roaring. Big cats have a flexible hyoid bone that allows them to roar.\nStatement 2 is correct: The Rusty-spotted cat is the world's smallest wild cat species.\nStatement 3 is correct: All 10 small cat species found in India are listed under Schedule I of the Wildlife (Protection) Act, 1972, granting them the highest level of legal protection.",
+      "takeaway": "Small cats differ from big cats physiologically by having a rigid hyoid bone (allowing purring, not roaring). Despite varying IUCN statuses, all small cat species in India enjoy Schedule I protection under the WPA.",
+      "evidenceExcerpt": "Unlike big cats that have a flexible hyoid bone to roar, small cats have a rigid hyoid bone allowing them to purr. Key species include... Rusty-Spotted Cat being the world's smallest... All are WPA Schedule I.",
+      "qualityScore": 85,
+      "reviewNotes": "Good statement-based question testing a mix of physiological, factual, and legal knowledge. Distractors are plausible."
+    }
+  ],
+  "reviewerNotes": "Selected three high-quality questions that cover different aspects of the source text: general characteristics and legal protection, habitat matching, and species-specific traits. Rewrote the prompts and options to align perfectly with UPSC CSE Prelims standards, ensuring plausible distractors and clear, unambiguous language."
+}

@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "Which of the following statements best describes the underlying architecture of Generative Pre-trained Transformer (GPT) models?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "They are built exclusively on traditional rule-based programming without the use of neural networks."
+        },
+        {
+          "id": "B",
+          "text": "They are built on deep learning architecture that utilizes neural networks to process and generate text."
+        },
+        {
+          "id": "C",
+          "text": "They rely entirely on unsupervised learning using only labeled datasets to generate responses."
+        },
+        {
+          "id": "D",
+          "text": "They are a form of Artificial Superintelligence (ASI) that currently surpasses human cognitive abilities in all domains."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "GPT stands for Generative Pre-trained Transformer, which is fundamentally built on deep learning architecture. It uses artificial neural networks to process data and generate human-like text. Option C is contradictory (unsupervised learning uses unlabeled datasets). Option D is incorrect as current GPT models do not qualify as Artificial Superintelligence (ASI).",
+      "takeaway": "GPT models are advanced deep learning systems based on the Transformer architecture, representing a significant application of neural networks in Natural Language Processing (NLP).",
+      "evidenceExcerpt": "GPT stands for Generative Pre-trained Transformer, built on deep learning architecture."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the primary approaches to Machine Learning:\n1. Supervised learning algorithms are trained on datasets where the desired output is already known and explicitly labeled.\n2. Unsupervised learning models are deployed on unlabeled datasets to autonomously discover hidden patterns and structures.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Supervised machine learning relies on labeled datasets to train algorithms to classify data or predict outcomes accurately. Statement 2 is correct: Unsupervised machine learning utilizes unlabeled datasets, allowing the algorithm to discover hidden patterns or data groupings without human intervention.",
+      "takeaway": "Supervised learning requires labeled training data with known outcomes, whereas unsupervised learning works with unlabeled data to find inherent structures.",
+      "evidenceExcerpt": "Supervised learning uses labeled datasets; Unsupervised uses unlabeled datasets."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "With reference to the evolutionary stages of Artificial Intelligence (AI), consider the following pairs:\n\nStage of AI : Defining Characteristic\n1. Artificial Narrow Intelligence (ANI) : Specializes exclusively in a single, defined area or task.\n2. Artificial General Intelligence (AGI) : Surpasses human cognitive abilities across all scientific and creative domains.\n3. Artificial Superintelligence (ASI) : Possesses the capacity to learn continuously and match human-level intelligence.\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Pair 1 is correctly matched: ANI specializes in one specific area (e.g., facial recognition or chess). Pair 2 is incorrectly matched: AGI refers to AI that learns continuously and matches human-level intelligence. Surpassing human cognitive abilities is the definition of ASI. Pair 3 is incorrectly matched: ASI is the stage where AI surpasses human cognitive abilities, not merely matching them.",
+      "takeaway": "The three stages of AI are ANI (narrow/single task), AGI (human-level continuous learning), and ASI (surpassing human cognitive abilities).",
+      "evidenceExcerpt": "ANI specializes in one area; AGI learns continuously like humans; ASI surpasses human cognitive abilities."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Agentic AI', which is gaining prominence in the global technology landscape:\n1. It refers to artificial intelligence systems that can autonomously make decisions and adapt to new environments to achieve complex goals.\n2. 'Kruti' is recognized as India's first agentic AI system.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Agentic AI systems go beyond simple prompt-response interactions by autonomously making decisions and adapting to achieve specific objectives. Statement 2 is correct: Kruti has been developed and recognized as India's first agentic AI.",
+      "takeaway": "Agentic AI represents a shift from reactive models to proactive, autonomous systems capable of decision-making, with 'Kruti' being a notable Indian example.",
+      "evidenceExcerpt": "Agentic AI systems autonomously make decisions and adapt (e.g., India's first agentic AI Kruti)."
+    }
+  ]
+}

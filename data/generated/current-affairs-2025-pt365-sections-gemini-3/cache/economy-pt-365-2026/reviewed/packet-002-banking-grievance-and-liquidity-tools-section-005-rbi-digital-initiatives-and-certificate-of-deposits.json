@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs regarding recent initiatives and instruments in the Indian financial system:\n\n1. Unified Lending Interface : Digital Public Infrastructure for credit delivery\n2. CBDC retail sandbox : Testing environment for fintechs\n3. Certificate of Deposits : Capital market instruments issued at a discount to face value\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: The Unified Lending Interface (ULI) is a Digital Public Infrastructure aimed at enhancing credit delivery. Pair 2 is correctly matched: The RBI has introduced a CBDC retail sandbox specifically for fintechs. Pair 3 is incorrectly matched: Certificate of Deposits (CDs) are money market instruments, not capital market instruments. They are issued at a discount to face value with a maturity of 7 days to one year.",
+      "takeaway": "The RBI's digital initiatives include the ULI for credit delivery and a CBDC sandbox for fintechs. CDs are short-term money market instruments, distinct from long-term capital market instruments.",
+      "evidenceExcerpt": "RBI initiatives include the Unified Lending Interface (ULI), a Digital Public Infrastructure for credit delivery, and a CBDC retail sandbox for fintechs... CDs are negotiable money market instruments issued at a discount to face value...",
+      "qualityScore": 88,
+      "reviewNotes": "Modified the third pair to test the fundamental distinction between money market and capital market instruments, which is a frequent conceptual trap in UPSC Prelims."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Certificate of Deposits (CDs)' in the Indian financial system:\n1. They are negotiable money market instruments issued at a discount to their face value.\n2. All Scheduled Commercial Banks, including Regional Rural Banks, are permitted to issue them.\n3. The maturity period of CDs issued by banks ranges from seven days to one year.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: CDs are negotiable money market instruments issued at a discount to face value. Statement 2 is incorrect: While Scheduled Commercial Banks can issue CDs, Regional Rural Banks (RRBs) and Local Area Banks (LABs) are explicitly excluded from issuing them. Statement 3 is correct: The maturity period of CDs ranges from 7 days to one year.",
+      "takeaway": "Certificate of Deposits are short-term, discounted money market instruments. Regional Rural Banks and Local Area Banks are not permitted to issue them.",
+      "evidenceExcerpt": "CDs are negotiable money market instruments issued at a discount to face value by Scheduled Commercial Banks (excluding RRBs and LABs) and select FIs, with a maturity of 7 days to one year.",
+      "qualityScore": 85,
+      "reviewNotes": "Refined the second statement to explicitly include RRBs as a trap, making it a classic UPSC-style exception-based distractor."
+    }
+  ],
+  "reviewerNotes": "Selected Candidate 1 and Candidate 5. Rewrote Candidate 1 to make the distractor in statement 2 more explicit by mentioning RRBs. Rewrote Candidate 5 to test the distinction between money market and capital market instruments. Both questions are strictly bounded by the provided text and test conceptual clarity without relying on trivial facts."
+}

@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Application",
+      "prompt": "Which of the following situations would most likely prompt the Reserve Bank of India (RBI) to increase the frequency or quantum of its Variable Rate Reverse Repo (VRRR) operations?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A situation of acute liquidity shortage in the inter-bank call money market."
+        },
+        {
+          "id": "B",
+          "text": "A period marked by significant capital outflows leading to pressure on the domestic currency."
+        },
+        {
+          "id": "C",
+          "text": "A surge in foreign capital inflows, necessitating RBI's intervention in the forex market."
+        },
+        {
+          "id": "D",
+          "text": "A large-scale bond issuance by the government to finance its fiscal deficit."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The VRRR is a tool used by the RBI to absorb excess liquidity. A surge in foreign capital inflows (like FPI or FDI) leads to an appreciation pressure on the Indian Rupee. To manage the exchange rate, the RBI often intervenes by purchasing foreign currency (e.g., US dollars) and selling Indian Rupees. This action injects a significant amount of rupee liquidity into the banking system. To sterilize this inflow and prevent potential inflationary pressures, the RBI would need to absorb the excess liquidity, making it a prime scenario to increase the use of VRRR auctions.",
+      "takeaway": "Understanding the interplay between RBI's forex market operations and its domestic liquidity management is crucial. Interventions to manage the exchange rate (buying foreign currency) directly impact domestic liquidity (injecting rupees), which then necessitates the use of sterilization tools like VRRR to maintain monetary stability.",
+      "evidenceExcerpt": "The Variable Rate Reverse Repo (VRRR) is a tool used by the RBI to absorb excess liquidity from the banking system for a short duration.",
+      "qualityScore": 90,
+      "reviewNotes": "Selected Candidate 4 as it was the strongest, testing the application of a concept to macroeconomic scenarios. Rewrote the prompt and options to use more precise economic terminology and create a slightly more challenging question. The new options are all plausible and relate to liquidity management, making the distractors strong. The explanation clearly links forex intervention to domestic liquidity, which is a key concept."
+    }
+  ],
+  "reviewerNotes": "The candidate set provided four questions on VRRR. Candidate 3 was rejected as it required knowledge (auction mechanism) not present in the source text. Candidates 1 and 2 were fact-based and decent, but Candidate 4 was a superior application-based question with a strong UPSC feel. I selected Candidate 4 and rewrote it to enhance its precision and difficulty, making it a high-quality question that tests the connection between forex market intervention and domestic liquidity management."
+}

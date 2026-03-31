@@ -1,0 +1,82 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-023-immunology-amr-and-drug-regulation-section-002-antimicrobial-resistance-amr-and-superbugs",
+    "claimType": "Definition",
+    "claimText": "Superbugs are strains of bacteria, viruses, parasites, and fungi that have evolved to become resistant to most antimicrobials.",
+    "evidenceExcerpt": "Strains of bacteria, viruses, parasites, and fungi that are resistant to most antimicrobials are called Superbugs.",
+    "pageNumbers": [
+      46,
+      47
+    ],
+    "examUse": "Statement-based question identifying the scope of pathogens classified as Superbugs.",
+    "distractorHooks": [
+      "Superbugs refer exclusively to antibiotic-resistant bacteria",
+      "Superbugs are synthetic pathogens created in laboratories"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-023-immunology-amr-and-drug-regulation-section-002-antimicrobial-resistance-amr-and-superbugs",
+    "claimType": "Biological Mechanism",
+    "claimText": "Antimicrobial resistance spreads among microbes through both vertical gene transfer during division and horizontal gene transfer via the exchange of resistance genes.",
+    "evidenceExcerpt": "Spread through vertical gene transfer during bacterial division and through horizontal gene transfer by exchange of resistance genes among microbes.",
+    "pageNumbers": [
+      46,
+      47
+    ],
+    "examUse": "Statement-based question on the genetic mechanisms of AMR transmission.",
+    "distractorHooks": [
+      "AMR spreads exclusively through vertical gene transfer",
+      "Horizontal gene transfer does not occur in antimicrobial resistance"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-023-immunology-amr-and-drug-regulation-section-002-antimicrobial-resistance-amr-and-superbugs",
+    "claimType": "Causation",
+    "claimText": "The use of antimicrobials as growth promoters in intensive farming and the livestock sector is a key driver of Antimicrobial Resistance (AMR).",
+    "evidenceExcerpt": "Key Drivers of AMR: ... Agriculture & Allied Sector (Use of antimicrobials in intensive farming and the Livestock sector used as growth-promoters)",
+    "pageNumbers": [
+      46,
+      47
+    ],
+    "examUse": "Multiple-statement question identifying anthropogenic causes of AMR.",
+    "distractorHooks": [
+      "Antimicrobials used in livestock do not affect human AMR",
+      "AMR is solely driven by human pharmaceutical consumption"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-023-immunology-amr-and-drug-regulation-section-002-antimicrobial-resistance-amr-and-superbugs",
+    "claimType": "Causation",
+    "claimText": "Industrial waste generated from the production of Active Pharmaceutical Ingredients (APIs) is a key driver of Antimicrobial Resistance.",
+    "evidenceExcerpt": "Key Drivers of AMR: ... Pharmaceutical Manufacturing (Industrial waste from the production of Active Pharmaceutical Ingredients)",
+    "pageNumbers": [
+      46,
+      47
+    ],
+    "examUse": "Statement-based question on environmental and industrial factors contributing to AMR.",
+    "distractorHooks": [
+      "API manufacturing waste is sterile and unrelated to AMR",
+      "Only biological waste from healthcare facilities causes AMR"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-023-immunology-amr-and-drug-regulation-section-002-antimicrobial-resistance-amr-and-superbugs",
+    "claimType": "Factual",
+    "claimText": "The World Health Organization (WHO) recognizes Antimicrobial Resistance (AMR) as one of the top ten global health threats, often describing it as a silent pandemic.",
+    "evidenceExcerpt": "WHO recognized AMR as one of the top ten global health threats. It is often described as a silent pandemic.",
+    "pageNumbers": [
+      46,
+      47
+    ],
+    "examUse": "Factual statement in a multi-statement question about global health initiatives and WHO classifications.",
+    "distractorHooks": [
+      "WHO recently removed AMR from its top ten global health threats",
+      "AMR is officially classified by WHO as a localized epidemic rather than a pandemic threat"
+    ]
+  }
+]

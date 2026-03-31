@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to secondary atmospheric pollutants, consider the following statements:\n1. They are formed in the atmosphere through chemical or physical interactions between primary pollutants and other atmospheric components.\n2. They account for nearly one-third of India's PM2.5 pollution.\n3. Ground-level ozone and sulfuric acid are examples of secondary pollutants.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Secondary pollutants are not emitted directly from a source. They are formed in the atmosphere due to chemical or physical interactions between primary pollutants themselves or between primary pollutants and other atmospheric components (such as sunlight and moisture).\nStatement 2 is correct: According to a CREA study, secondary pollutants are a major contributor to particulate matter, accounting for nearly one-third of India's PM2.5 pollution.\nStatement 3 is correct: Ozone (O3), sulfuric acid (H2SO4), and nitric acid (HNO3) are key examples of secondary pollutants.",
+      "takeaway": "Secondary pollutants like ozone, sulfuric acid, and nitric acid form via atmospheric reactions rather than direct emissions, and they significantly contribute to overall PM2.5 levels.",
+      "evidenceExcerpt": "Formed in atmosphere due to chemical/physical interactions between primary pollutants themselves or between primary pollutants and other atmospheric components. Examples: Ozone (O3), sulfuric acid (H2SO4), nitric acid (HNO3). Account for nearly one-third of India's PM2.5 pollution according to a CREA study.",
+      "qualityScore": 85,
+      "reviewNotes": "The question accurately tests the definition, impact, and examples of secondary pollutants using the standard UPSC 'How many statements' format. The statements are directly grounded in the provided text."
+    }
+  ],
+  "reviewerNotes": "Selected and refined Candidate 2 to create a comprehensive statement-based question covering the definition, impact, and examples of secondary pollutants. The wording was adjusted to match the precise tone of UPSC Prelims."
+}

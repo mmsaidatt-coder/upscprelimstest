@@ -48,12 +48,11 @@ Give a CONCISE, HIGH-VALUE strategic analysis in this EXACT JSON format (no mark
     // Extract JSON from the response (Gemini sometimes wraps in ```json)
     const jsonMatch = raw.match(/\{[\s\S]*\}/);
     if (!jsonMatch) {
-      return NextResponse.json({ error: "Invalid response", raw }, { status: 500 });
+      return NextResponse.json({ error: "Invalid response from AI" }, { status: 500 });
     }
     const insights = JSON.parse(jsonMatch[0]);
     return NextResponse.json(insights);
-  } catch (err) {
-    console.error(err);
-    return NextResponse.json({ error: "Failed" }, { status: 500 });
+  } catch {
+    return NextResponse.json({ error: "Failed to generate insights" }, { status: 500 });
   }
 }

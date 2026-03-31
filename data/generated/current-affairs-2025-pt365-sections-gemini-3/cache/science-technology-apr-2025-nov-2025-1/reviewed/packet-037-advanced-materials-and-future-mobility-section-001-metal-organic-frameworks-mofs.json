@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "application-based",
+      "prompt": "Consider the following activities:\n1. Mining rare-earth elements from wastewater\n2. Removing antibiotic residues from water\n3. Capturing carbon dioxide from industrial emissions\n\nHow many of the above can be accomplished using Metal-Organic Frameworks (MOFs)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Metal-Organic Frameworks (MOFs) are highly absorbent, porous materials that act as molecular storehouses. Their unique structure allows them to trap specific chemicals and gases. They are effectively used for extracting pollutants like PFAS and antibiotics from water, mining rare-earth elements from wastewater, and storing gases such as carbon dioxide, hydrogen, and methane. Therefore, all three activities can be accomplished using MOFs.",
+      "takeaway": "MOFs are versatile materials with significant environmental and industrial applications, including pollutant extraction, resource recovery, and carbon capture.",
+      "evidenceExcerpt": "Key applications include... extracting pollutants like PFAS and antibiotics, mining rare-earth elements from wastewater, and storing gases like hydrogen and CO2.",
+      "qualityScore": 85,
+      "reviewNotes": "Rewritten to match the UPSC 'How many of the above' format for application-based questions. The options are mutually exclusive and the explanation directly supports the correct choice."
+    }
+  ],
+  "reviewerNotes": "Selected two questions that effectively test the properties and diverse applications of Metal-Organic Frameworks (MOFs). Rewrote the prompts to align with the latest UPSC CSE 'How many of the above' pattern, ensuring distractors are plausible and explanations are concise and directly tied to the source text."
+}

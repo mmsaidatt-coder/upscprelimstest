@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Cicadas:\n1. They are found exclusively in tropical rainforest biomes.\n2. Their life cycle consists of three stages: egg, nymph, and adult.\n3. They produce loud songs by the rapid buckling and unbuckling of drum-like structures called tymbals.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Cicadas are not exclusive to tropical rainforests; they occur broadly in warm and temperate biomes.\nStatement 2 is correct: The life cycle of a cicada consists of three stages: egg, nymph, and adult.\nStatement 3 is correct: Most cicada species produce an exceptionally loud song by the rapid buckling and unbuckling of drum-like tymbals.",
+      "takeaway": "Cicadas are found in warm and temperate biomes, undergo a three-stage life cycle (egg, nymph, adult), and produce their characteristic loud songs using specialized structures called tymbals.",
+      "evidenceExcerpt": "They occur in warm and temperate biomes and have a life cycle of three stages: egg, nymph, and adult... Most species produce an exceptionally loud song by the rapid buckling and unbuckling of drum-like tymbals.",
+      "qualityScore": 85,
+      "reviewNotes": "Good coverage of the source text. The 'exclusively' distractor is a classic UPSC trap."
+    }
+  ],
+  "reviewerNotes": "Selected Candidate 1 and refined the statements for clarity and UPSC style. The question tests multiple facets of the species (habitat, life cycle, and unique biological traits)."
+}

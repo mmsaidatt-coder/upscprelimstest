@@ -1,0 +1,82 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-033-river-cities-alliance-and-secondary-pollutants-section-005-ground-level-ozone-glo",
+    "claimType": "Factual",
+    "claimText": "Ground-Level Ozone is a secondary, short-lived pollutant that remains in the atmosphere for hours to weeks.",
+    "evidenceExcerpt": "Secondary, short-lived pollutant that remains in atmosphere for only hours to weeks.",
+    "pageNumbers": [
+      68,
+      69
+    ],
+    "examUse": "Statement-based question distinguishing between primary and secondary pollutants.",
+    "distractorHooks": [
+      "Primary pollutant",
+      "Long-lived greenhouse gas"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-033-river-cities-alliance-and-secondary-pollutants-section-005-ground-level-ozone-glo",
+    "claimType": "Conceptual",
+    "claimText": "Ground-Level Ozone is created by chemical reactions between oxides of nitrogen (NOx) and volatile organic compounds (VOCs).",
+    "evidenceExcerpt": "Created by chemical reactions between oxides of nitrogen (NOx) and volatile organic compounds (VOCs).",
+    "pageNumbers": [
+      68,
+      69
+    ],
+    "examUse": "Statement-based question on the precursors of secondary pollutants.",
+    "distractorHooks": [
+      "Directly emitted by vehicles",
+      "Formed by reaction of SO2 and CO2"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-033-river-cities-alliance-and-secondary-pollutants-section-005-ground-level-ozone-glo",
+    "claimType": "Factual",
+    "claimText": "Natural sources contributing to Ground-Level Ozone formation include soil-based NOx emissions, wildfire-induced CO, and biospheric methane.",
+    "evidenceExcerpt": "Natural sources include soil-based NOx emissions, wildfire-induced CO, and biospheric methane.",
+    "pageNumbers": [
+      68,
+      69
+    ],
+    "examUse": "Multiple-choice question identifying natural vs. anthropogenic sources of ozone precursors.",
+    "distractorHooks": [
+      "Only anthropogenic sources exist",
+      "Volcanic SO2 emissions"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-033-river-cities-alliance-and-secondary-pollutants-section-005-ground-level-ozone-glo",
+    "claimType": "Factual",
+    "claimText": "The safe eight-hourly standard for Ground-Level Ozone is 100 micrograms per cubic metre.",
+    "evidenceExcerpt": "Safe eight-hourly ozone standard is 100 micrograms/cubic metre.",
+    "pageNumbers": [
+      68,
+      69
+    ],
+    "examUse": "Fact-based statement in a multi-statement question on air quality standards.",
+    "distractorHooks": [
+      "200 micrograms/cubic metre",
+      "24-hourly standard"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-033-river-cities-alliance-and-secondary-pollutants-section-005-ground-level-ozone-glo",
+    "claimType": "Factual",
+    "claimText": "Ground-Level Ozone is a major component of smog and exacerbates respiratory conditions like bronchitis and asthma.",
+    "evidenceExcerpt": "Worsens bronchitis, triggers asthma, and is a major component of smog.",
+    "pageNumbers": [
+      68,
+      69
+    ],
+    "examUse": "Statement-based question on the health impacts of specific air pollutants.",
+    "distractorHooks": [
+      "Causes waterborne diseases",
+      "Major component of acid rain"
+    ]
+  }
+]

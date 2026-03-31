@@ -1,0 +1,62 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-039-industrial-sensors-and-safety-systems-section-008-desalination-technologies",
+    "claimType": "Factual",
+    "claimText": "Thermal desalination technology involves heating saline water and collecting the condensed vapor, and is primarily used for seawater desalination, such as the LTTD plants in Lakshadweep.",
+    "evidenceExcerpt": "Thermal technology heats saline water and collects condensed vapor, mainly used for seawater (e.g., LTTD in Lakshadweep).",
+    "pageNumbers": [
+      77
+    ],
+    "examUse": "Statement-based question on desalination methods.",
+    "distractorHooks": [
+      "Swapping thermal with membrane technology",
+      "Swapping Lakshadweep with Andaman"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-039-industrial-sensors-and-safety-systems-section-008-desalination-technologies",
+    "claimType": "Conceptual",
+    "claimText": "Membrane desalination technology uses semi-permeable membranes to filter dissolved solids and is mainly used for brackish water desalination.",
+    "evidenceExcerpt": "Membrane technology pumps feedwater through semi-permeable membranes to filter dissolved solids, mainly for brackish water.",
+    "pageNumbers": [
+      77
+    ],
+    "examUse": "Comparison question between thermal and membrane technologies.",
+    "distractorHooks": [
+      "Stating it uses heating",
+      "Stating it is mainly for pure seawater instead of brackish water"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-039-industrial-sensors-and-safety-systems-section-008-desalination-technologies",
+    "claimType": "Factual",
+    "claimText": "The Nemmeli Seawater Desalination Plant in Tamil Nadu utilizes Reverse Osmosis and is the largest in South Asia.",
+    "evidenceExcerpt": "Nemmeli Seawater Desalination Plant in Tamil Nadu uses Reverse Osmosis and is the largest in South Asia.",
+    "pageNumbers": [
+      77
+    ],
+    "examUse": "Correct-pair question matching plants with their respective states or technologies.",
+    "distractorHooks": [
+      "Claiming it uses Thermal Technology",
+      "Locating it in Kerala or Gujarat"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-039-industrial-sensors-and-safety-systems-section-008-desalination-technologies",
+    "claimType": "Factual",
+    "claimText": "IIT Bombay has developed hydrophobic Graphene-based lotus leaf-like solar evaporators for water desalination.",
+    "evidenceExcerpt": "IIT Bombay developed hydrophobic Graphene-based lotus leaf-like solar evaporators for desalination.",
+    "pageNumbers": [
+      77
+    ],
+    "examUse": "Statement-based question on recent technological developments in water purification.",
+    "distractorHooks": [
+      "Attributing the development to IIT Madras or IISc",
+      "Claiming the material is hydrophilic instead of hydrophobic"
+    ]
+  }
+]

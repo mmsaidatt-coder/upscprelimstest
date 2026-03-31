@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Bombay Stock Exchange (BSE), consider the following statements:\n1. Established in the 19th century, it is the oldest stock exchange in Asia.\n2. It is the first stock exchange in India to be listed as a corporate entity.\n3. Its operations are regulated by the Reserve Bank of India (RBI).\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: BSE was established in 1875 as 'The Native Share & Stock Brokers' Association' and is Asia's first stock exchange.\nStatement 2 is correct: In 2017, BSE became India's first listed stock exchange.\nStatement 3 is incorrect: Capital markets and stock exchanges in India, including the BSE, are regulated by the Securities Exchange Board of India (SEBI), not the RBI.",
+      "takeaway": "BSE is Asia's oldest stock exchange (established in 1875) and India's first listed exchange (2017), functioning under the regulatory oversight of SEBI.",
+      "evidenceExcerpt": "Established in 1875 as 'The Native Share & Stock Brokers' Association', it is Asia's first and the world's fastest Stock Exchange. In 2017, it became India's first listed stock exchange. It is regulated by SEBI."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Descriptive",
+      "prompt": "Which of the following statements best describes the historical and structural evolution of the Bombay Stock Exchange (BSE)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It was established post-independence to formalize equity trading and currently operates under the direct regulatory purview of the Reserve Bank of India."
+        },
+        {
+          "id": "B",
+          "text": "It originated in the 19th century as 'The Native Share & Stock Brokers' Association' and eventually transitioned into India's first listed stock exchange."
+        },
+        {
+          "id": "C",
+          "text": "It is recognized as Asia's oldest stock exchange but functions strictly as an unlisted, non-profit market infrastructure institution."
+        },
+        {
+          "id": "D",
+          "text": "It was founded as a statutory body by the Government of India and holds the distinction of being the world's fastest stock exchange."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Option B is correct. The BSE was established in 1875 (the 19th century) as 'The Native Share & Stock Brokers' Association' and became India's first listed stock exchange in 2017. Option A is incorrect because it was established pre-independence and is regulated by SEBI, not the RBI. Option C is incorrect because it is a listed corporate entity, not an unlisted non-profit. Option D is incorrect because it was not founded as a statutory body by the government.",
+      "takeaway": "The BSE has evolved from a 19th-century brokers' association into a modern, publicly listed corporate entity under the regulatory oversight of SEBI.",
+      "evidenceExcerpt": "Established in 1875 as 'The Native Share & Stock Brokers' Association', it is Asia's first and the world's fastest Stock Exchange. In 2017, it became India's first listed stock exchange. It is regulated by SEBI."
+    }
+  ]
+}

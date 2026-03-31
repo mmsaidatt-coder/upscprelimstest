@@ -1,0 +1,814 @@
+{
+  "pages": [
+    {
+      "pageNumber": 1,
+      "classification": "cover",
+      "questionQuota": 0,
+      "topic": "Cover Page",
+      "subtopic": "Economy PT 365 2026",
+      "rationale": "This is the front cover of the document containing only the title and date range.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 2,
+      "classification": "toc",
+      "questionQuota": 0,
+      "topic": "Table of Contents",
+      "subtopic": "Banking, Finance, External Sector",
+      "rationale": "This page lists the table of contents for the first six sections of the document.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 3,
+      "classification": "toc",
+      "questionQuota": 0,
+      "topic": "Table of Contents",
+      "subtopic": "Agriculture, Labour, Infrastructure, Mining",
+      "rationale": "This is a continuation of the table of contents covering sections 6 through 11.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 4,
+      "classification": "copyright",
+      "questionQuota": 0,
+      "topic": "Introduction",
+      "subtopic": "Note to Students and Copyright",
+      "rationale": "Contains introductory remarks from the publisher and legal copyright information.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 5,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Banking and Monetary Policy",
+      "subtopic": "RBI Monetary Policy and Surplus Transfer",
+      "rationale": "Extremely dense with core UPSC concepts: Quantitative/Qualitative tools (Repo, CRR, SLR), Bimal Jalan Committee, and Economic Capital Framework.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 6,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Banking and Monetary Policy",
+      "subtopic": "Forex Reserves and Integrated Ombudsman Scheme",
+      "rationale": "High-value content on Forex components (SDR, RTP), gold reserve logic, and the Integrated Ombudsman Scheme (RB-IOS).",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 7,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Banking and Monetary Policy",
+      "subtopic": "Liquidity Management and Debt Tools",
+      "rationale": "Covers technical liquidity tools like SDF, VRRR, and Switch Auctions, plus co-lending norms which are frequent prelims topics.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 8,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Banking and Monetary Policy",
+      "subtopic": "Payment Systems and Digital Infrastructure",
+      "rationale": "Contains critical details on Ways and Means Advances (WMA), Unified Lending Interface (ULI), CBDC, and Certificate of Deposits.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 9,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Banking and Monetary Policy",
+      "subtopic": "NBFCs and Regional Rural Banks",
+      "rationale": "Detailed comparison between NBFCs and Banks, and the structural/regulatory framework of Regional Rural Banks (RRBs).",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 10,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Banking and Monetary Policy",
+      "subtopic": "Small Finance Banks and Universal Banking",
+      "rationale": "Explains the transition criteria from SFB to Universal Bank and the basic objectives of SFBs.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 11,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Banking and Monetary Policy",
+      "subtopic": "PSL Norms and SARFAESI Act",
+      "rationale": "Discusses significant changes in Priority Sector Lending (PSL) for SFBs and the legal mechanics of the SARFAESI Act for NPA recovery.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 12,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Banking and Monetary Policy",
+      "subtopic": "SWIFT, IPPB, and PCA Framework",
+      "rationale": "Covers international messaging (SWIFT), India Post Payments Bank features, and the Prompt Corrective Action (PCA) framework for UCBs.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 13,
+      "classification": "content",
+      "questionQuota": 1,
+      "topic": "Banking and Monetary Policy",
+      "subtopic": "CAR and Financial Fraud Risk Indicator",
+      "rationale": "Relatively thin page with only two definitions: Capital Adequacy Ratio and the new FRI metric.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 14,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Finance and Taxation",
+      "subtopic": "FRBM Act and Fiscal Consolidation",
+      "rationale": "Detailed overview of the FRBM Act targets, CAG compliance findings, and debt-to-GDP trends.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 15,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Finance and Taxation",
+      "subtopic": "Fiscal Deficits and Tax Structure",
+      "rationale": "High conceptual density regarding types of deficits (Fiscal, Primary, Revenue) and the fundamental differences between Direct and Indirect taxes.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 16,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Finance and Taxation",
+      "subtopic": "Income Tax Act 2025 and Safe Harbour",
+      "rationale": "Covers the new Income Tax Act features (MAT, AMT, Virtual Assets) and Advance Pricing Agreements (APAs).",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 17,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Finance and Taxation",
+      "subtopic": "GST Reform and Transfer Pricing",
+      "rationale": "Very high signal content on the 101st Amendment, GST 1.0 vs 2.0, and technical terms like Arm's Length Pricing and STT.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 18,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Finance and Taxation",
+      "subtopic": "GST Rate Rationalization and GST Council",
+      "rationale": "Details the new two-slab GST structure and the constitutional composition/voting powers of the GST Council (Article 279A).",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 19,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "External Sector & Fiscal Policy",
+      "subtopic": "Trade Remedies and Off-budget Borrowing",
+      "rationale": "Contains clear definitions and distinctions between Anti-Dumping and Safeguard duties, plus a conceptual explanation of off-budget borrowing and its impact on fiscal transparency.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 20,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Financial Market",
+      "subtopic": "Market Structure and SEBI",
+      "rationale": "High-density page comparing Money vs Capital markets with specific instruments, and detailed statutory/governance structure of SEBI including the SWAGAT-FI framework.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 21,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Financial Market",
+      "subtopic": "Investment Vehicles and Derivatives",
+      "rationale": "Covers REITs, InvITs, and a detailed three-category classification of Alternative Investment Funds (AIFs), which are frequent UPSC themes.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 22,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Financial Market",
+      "subtopic": "GIFT City IFSC and Bond Yields",
+      "rationale": "Explains the Foreign Currency Settlement System (FCSS), the regulatory status of GIFT City, and the conceptual 'see-saw' relationship between bond prices and yields.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 23,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Financial Market & Digital Payments",
+      "subtopic": "Bonds and Payments Regulatory Board",
+      "rationale": "Discusses Transition Bonds, AT1 (Perpetual) Bonds, and the specific composition/tenure of the Payments Regulatory Board under the PSS Act 2007.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 24,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Digital Payments & Financial Market",
+      "subtopic": "UPI, NPCI and Credit Ratings",
+      "rationale": "Dense with facts on UPI's international expansion, NPCI's institutional structure, BSE's 150-year history, and the basics of Sovereign Credit Ratings.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 25,
+      "classification": "content",
+      "questionQuota": 1,
+      "topic": "External Sector",
+      "subtopic": "Sovereign Credit Rating Agencies",
+      "rationale": "A thin page continuing the discussion on SCR agencies and their rating grades; limited unique facts compared to previous pages.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 26,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "External Sector",
+      "subtopic": "FDI vs FPI and FDI Routes",
+      "rationale": "Provides a high-quality comparison between FDI and FPI impacts on the market and details the Automatic vs Government routes for FDI.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 27,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "External Sector",
+      "subtopic": "FDI Prohibitions and Rupee Internationalization",
+      "rationale": "Lists prohibited FDI sectors, FPI-to-FDI reclassification rules, and introduces the Special Rupee Vostro Account (SRVA) mechanism.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 28,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "External Sector",
+      "subtopic": "Vostro/Nostro Accounts and Convertibility",
+      "rationale": "Explains the mechanics of Vostro vs Nostro accounts and the distinction between Current and Capital Account convertibility in India.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 29,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "External Sector",
+      "subtopic": "REER, Remittances and LRS",
+      "rationale": "Contains the REER formula, significant remittance statistics for India, and the eligibility/limits of the Liberalised Remittance Scheme (LRS).",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 30,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "External Sector",
+      "subtopic": "India-UK FTA and Trade Hierarchy",
+      "rationale": "Very high signal page detailing the India-UK FTA highlights and the hierarchical classification of trade agreements (PTA, FTA, CEPA, etc.).",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 31,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "External Sector",
+      "subtopic": "India-EFTA TEPA and Export Promotion",
+      "rationale": "Covers the unique binding investment commitments in the India-EFTA deal and the architecture of the new Export Promotion Mission.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 32,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "External Sector",
+      "subtopic": "Export Statistics and Credit Guarantee",
+      "rationale": "Focuses on specific export data for 2024-25 and the Credit Guarantee Scheme for Exporters (CGSE).",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 33,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Growth and Development",
+      "subtopic": "Price Theory and Elasticity",
+      "rationale": "Highly conceptual page explaining supply-demand shifts and the impact of inflation on price elasticity across different good types (Necessity vs Luxury).",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 34,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Growth and Development",
+      "subtopic": "Price Indices (PPI, WPI, CPI)",
+      "rationale": "Features a critical comparison table between WPI, CPI, and the proposed PPI, including measurement points, taxes, and basket composition.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 35,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Growth and Development",
+      "subtopic": "Global Multidimensional Poverty Index",
+      "rationale": "Detailed breakdown of the Global MPI methodology, including the 3 dimensions, 10 indicators, and the calculation of incidence vs intensity.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 36,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Growth and Development",
+      "subtopic": "National MPI and Inequality Indices",
+      "rationale": "Covers India's National MPI (12 indicators) and provides conceptual definitions for the Kuznets Ratio, Palma Ratio, Gini Index, and Lorenz Curve.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 37,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Banking and Finance",
+      "subtopic": "Financial Inclusion Index & Public Debt",
+      "rationale": "Contains detailed parameters and weights of the RBI FI-Index, and the composition/role of the Financial Stability and Development Council (FSDC).",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 38,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Fiscal Policy",
+      "subtopic": "Public Debt Management",
+      "rationale": "High density of facts regarding external debt composition, internal debt percentages, and the legal framework including FRBM Act targets and RBI Act provisions.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 39,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Urban Development & Global Economy",
+      "subtopic": "AMRUT 2.0 & India's GDP Ranking",
+      "rationale": "Detailed components of AMRUT 2.0 (Pey Jal Survekshan, etc.) and IMF World Economic Outlook data on India's global economic standing.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 40,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "National Income Accounting",
+      "subtopic": "GDP Calculation & Capex Survey",
+      "rationale": "Dense conceptual content on GDP calculation methods (SNA 2008), National Income subcategories (NNP, PI, PDI), and the new MoSPI Capex Survey.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 41,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Economic Indicators & International Forums",
+      "subtopic": "Capital Expenditure, ISAR & HDR 2025",
+      "rationale": "Covers the definition of Capex vs Revenue expenditure, the UN ISAR mandate, and India's performance in the Human Development Report 2025.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 42,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "Social Development",
+      "subtopic": "Human Development Index Dimensions",
+      "rationale": "Focuses on the specific indicators and dimensions of the HDI and global trends in inequality.",
+      "confidence": 0.85
+    },
+    {
+      "pageNumber": 43,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Agriculture",
+      "subtopic": "PM Matsya Sampada Yojana (PMMSY)",
+      "rationale": "Extremely dense with targets, achievements, and structural details of PMMSY, plus statistical data on the Indian fisheries sector.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 44,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Agriculture",
+      "subtopic": "PM Dhan Dhaanya Krishi Yojana (PMDDKY)",
+      "rationale": "Detailed breakdown of a major new agricultural scheme, including its financial outlay, target districts, and convergence of 36 existing schemes.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 45,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Agriculture & Irrigation",
+      "subtopic": "M-CADWM & Pulses Mission",
+      "rationale": "Covers the modernization of command area development and the launch of the Mission for Aatmanirbharta in Pulses with specific timelines.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 46,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Agriculture",
+      "subtopic": "Pulses Production & National Turmeric Board",
+      "rationale": "Contains state-wise production data for pulses, the SATHI portal details, and the establishment of the National Turmeric Board.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 47,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Agriculture & Personalities",
+      "subtopic": "Turmeric Sector & MS Swaminathan",
+      "rationale": "High-value content on turmeric GI tags/production and a comprehensive summary of MS Swaminathan's contributions to the Green and Evergreen Revolutions.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 48,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Agriculture",
+      "subtopic": "Makhana & Silk Production",
+      "rationale": "Detailed facts on Makhana (GI tag, production stats) and the four major varieties of natural silk produced in India.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 49,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Agriculture & Regulation",
+      "subtopic": "Cotton, Opium Cultivation & BHARATI",
+      "rationale": "Covers climatic conditions for cotton, the legal framework for opium under the NDPS Act, and the BHARATI initiative for agri-startups.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 50,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Agriculture Infrastructure",
+      "subtopic": "Warehousing Digital Initiatives & CIP",
+      "rationale": "Details several digital platforms (Bhandaran 360, ANNA DARPAN, ASHA) and the International Potato Centre's regional wing in India.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 51,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Agriculture & International Observances",
+      "subtopic": "Kisan Credit Card (KCC) & UN Years",
+      "rationale": "Provides eligibility and features of the KCC scheme and a list of UN-designated international years and decades.",
+      "confidence": 0.85
+    },
+    {
+      "pageNumber": 52,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Labour and Employment",
+      "subtopic": "Labour Law Framework & Key Terms",
+      "rationale": "Explains the consolidation of 29 laws into 4 codes and defines critical terms like Fixed-Term Employment, Layoff, and Retrenchment.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 53,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Labour and Employment",
+      "subtopic": "Code on Wages & Industrial Relations Code",
+      "rationale": "Dense factual and conceptual content on the specific provisions of the Wage Code (2019) and the Industrial Relations Code (2020).",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 54,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Labour and Employment",
+      "subtopic": "Social Security & OSHWC Codes",
+      "rationale": "Covers social security for gig workers, the definition of wages for gratuity, and occupational safety standards for women and migrant workers.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 55,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Labour and Employment",
+      "subtopic": "Periodic Labour Force Survey (PLFS) and Labour Norms",
+      "rationale": "This page contains critical definitions for UPSC Prelims such as LFPR, WPR, Unemployment Rate, and Activity Status (Usual vs CWS), along with updated norms for contract labour.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 56,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Labour and Employment",
+      "subtopic": "Skill Development Schemes and Initiatives",
+      "rationale": "Dense with multiple government schemes including PMKVY 4.0, PM-NAPS, JSS, and DDU-GKY, plus the new India Skills Accelerator initiative with WEF.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 57,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Labour and Employment",
+      "subtopic": "PM-SETU, ITIs, and Global Capability Centres (GCC)",
+      "rationale": "Covers the hub-and-spoke model of PM-SETU, the structure of ITIs, and the economic significance of Global Capability Centres in India.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 58,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "Labour and Employment",
+      "subtopic": "Minimum Wage vs Living Wage",
+      "rationale": "Focuses on the conceptual difference between minimum and living wages, including the constitutional link to Article 43.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 59,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Business and Entrepreneurship",
+      "subtopic": "Competition Commission of India (CCI) and PMMY",
+      "rationale": "Provides institutional details of CCI, recent amendments like Deal Value Threshold, and the introduction to Pradhan Mantri Mudra Yojana.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 60,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Business and Entrepreneurship",
+      "subtopic": "PMMY Categories and Global Innovation Index (GII)",
+      "rationale": "Detailed breakdown of MUDRA loan categories (Shishu, Kishor, Tarun, Tarun Plus) and the introduction to the Global Innovation Index 2025.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 61,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Business and Entrepreneurship",
+      "subtopic": "GII 2025 Highlights and Nobel Prize in Economics 2025",
+      "rationale": "Contains specific rankings for India in GII and detailed conceptual explanations of 'Creative Destruction' and prerequisites for growth from the 2025 Nobel laureates.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 62,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Business and Entrepreneurship",
+      "subtopic": "Intellectual Property Rights (IPR) Framework",
+      "rationale": "Extremely high-value page with a comprehensive table on IPR types (GI, Patents, Copyright, etc.), their terms of protection, and administering ministries.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 63,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Business and Entrepreneurship",
+      "subtopic": "CSR, Reverse Flipping, and Mergers",
+      "rationale": "Explains the legal criteria for Corporate Social Responsibility (CSR) in India and the emerging economic concept of 'Reverse Flipping' for startups.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 64,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Business and Entrepreneurship",
+      "subtopic": "Fugitive Economic Offenders and Women Entrepreneurship",
+      "rationale": "Covers the Fugitive Economic Offenders Act 2018 criteria and the 'We Rise' initiative for women-led MSMEs.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 65,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Infrastructure",
+      "subtopic": "Maritime Sector and Sagarmala Programme",
+      "rationale": "Lists major ports, productivity indicators, and the funding/objectives of the Sagarmala Programme.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 66,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Infrastructure",
+      "subtopic": "Sagarmala Framework and Indian Ports Act 2025",
+      "rationale": "Details the institutional framework (NSAC, SCSC) and key features of the new Indian Ports Act 2025, including the Maritime State Development Council.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 67,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Infrastructure",
+      "subtopic": "Shipping Modernization and International Conventions",
+      "rationale": "High density of regulatory facts: MARPOL, BWM Convention, Hague-Visby Rules, and the suite of 2025 shipping modernization acts.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 68,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Infrastructure",
+      "subtopic": "Vizhinjam Port and National Road Safety Board",
+      "rationale": "Covers India's first deep-water transshipment port (Vizhinjam) and the statutory constitution of the National Road Safety Board.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 69,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Infrastructure",
+      "subtopic": "Road Safety Initiatives and Bharat NCAP",
+      "rationale": "Dense with facts on the Brasilia Declaration, Good Samaritan laws, Cashless Treatment Scheme 2025, and the Bharat NCAP 2.0 framework.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 70,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Infrastructure",
+      "subtopic": "Aviation Regulatory Bodies and ICAO",
+      "rationale": "Detailed institutional profiles of DGCA, AERA, BCAS, AAIB, and the International Civil Aviation Organization (ICAO).",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 71,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Infrastructure",
+      "subtopic": "Accident Governance and National Logistics Policy",
+      "rationale": "Features a comparative table of accident governance across sectors and the targets/engines of the National Logistics Policy 2022.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 72,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Infrastructure",
+      "subtopic": "Logistics Initiatives and Asset Monetization",
+      "rationale": "Covers the LEADS Index, ULIP, SMILE program, and specific models of asset monetization like TOT and DBFOT.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 73,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Infrastructure & Digitalization",
+      "subtopic": "Asset Monetization & Digital India Mission",
+      "rationale": "The page covers specific mechanisms of asset monetization (NLMC, Project-based financing) and the 10th anniversary of the Digital India Mission, including its nine pillars and key achievements like BHASHINI. High factual density for prelims.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 74,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Infrastructure",
+      "subtopic": "Strategic Rail and Tunnel Projects",
+      "rationale": "Contains specific details on strategic infrastructure projects like USBRL (Chenab Bridge), Bairabi-Sairang Rail Link, and Z-Morh Tunnel. Good for location-based or feature-based questions.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 75,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Services Sector",
+      "subtopic": "Employment and GVA Trends",
+      "rationale": "Discusses NITI Aayog reports on the services sector, highlighting GVA contributions versus employment shares and urban-rural/gender disparities. Useful for statement-based conceptual questions.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 76,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Industry",
+      "subtopic": "Annual Survey of Industries (ASI) & IIP",
+      "rationale": "Provides detailed institutional data on the ASI (MoSPI, NSO, legal framework) and its coverage/exclusions. Also introduces the Index of Industrial Production (IIP) with recent frequency updates.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 77,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Industry",
+      "subtopic": "IIP & National Industrial Classification (NIC) 2025",
+      "rationale": "Extremely dense page covering the technical details of IIP (base year, scope, weights) and the significant update to NIC 2025 (6-digit structure, inclusion of digital/green economy). Highly relevant for UPSC.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 78,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Industry",
+      "subtopic": "Manufacturing & Semiconductor Ecosystem",
+      "rationale": "Contains critical data on India's manufacturing GDP share and global standing. Detailed breakdown of the India Semiconductor Mission (ISM) and its various sub-schemes (Fabs, DLI, etc.).",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 79,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Industry & Mining",
+      "subtopic": "Electronics Manufacturing & MMDR Act 2025",
+      "rationale": "Covers the new Electronics Component Manufacturing Scheme (ECMS) with its fiscal incentive structures and introduces the Mines and Minerals (Development and Regulation) Amendment Act, 2025.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 80,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Mining",
+      "subtopic": "MMDR Act Amendments & District Mineral Foundation (DMF)",
+      "rationale": "Detailed amendments to the MMDR Act including the NMEDT, mineral exchanges, and removal of captive mine limits. Also introduces the District Mineral Foundation (DMF).",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 81,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Mining",
+      "subtopic": "DMF, Constitutional Framework & PMKKKY",
+      "rationale": "High-value page covering the constitutional entries for mining (Union vs State list), the regulatory authority for minor minerals, and the specific funding/allocation rules for PMKKKY.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 82,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Mining & Energy",
+      "subtopic": "Atomic Minerals & Metal Distribution",
+      "rationale": "Discusses the Offshore Areas Atomic Minerals Rules 2025 and the geographical distribution of Uranium and Thorium in India. Also covers Bauxite/Aluminium reserves.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 83,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Mining & Energy",
+      "subtopic": "Potash, Halite & Natural Gas Discovery",
+      "rationale": "Covers Copper reserves/production, the first successful auction of Potash and Halite blocks, and the recent discovery of natural gas in the Andaman Basin.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 84,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Energy",
+      "subtopic": "Natural Gas Reserves & PNGRB",
+      "rationale": "Provides a state-wise breakdown of natural gas reserves and details the statutory role and functions of the Petroleum and Natural Gas Regulatory Board (PNGRB).",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 85,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Industry & Energy",
+      "subtopic": "Coal Sector Reforms & New Steel Policy",
+      "rationale": "Dense content on the coal sector (SHAKTI policy, commercial mining, sustainability) and the introduction of the revised Domestically Manufactured Iron & Steel Products (DMI&SP) Policy 2025.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 86,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Industry",
+      "subtopic": "Steel Policy & PM MITRA Scheme",
+      "rationale": "Detailed features of the Steel Policy (Melt & Pour, DVA) and the PM MITRA scheme for textiles, including the 5F vision, SPV structure, and park locations.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 87,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Industry",
+      "subtopic": "Textiles, SEZ Reforms & Hallmarking",
+      "rationale": "Overview of the textile sector's economic contribution, definition of Sunrise Sectors, SEZ Amendment Rules 2025, and the regulatory framework for Hallmarking under BIS.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 88,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Industry & Health",
+      "subtopic": "QCI & MedTech Mission",
+      "rationale": "Covers the Quality Council of India (QCI) governance and the MAHA-MedTech Mission launched by ANRF. Includes data on India's position in the global medical devices market.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 89,
+      "classification": "advertisement",
+      "questionQuota": 0,
+      "topic": "Advertisement",
+      "subtopic": "Vision IAS Achievements",
+      "rationale": "Promotional material regarding Vision IAS results and course schedules.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 90,
+      "classification": "advertisement",
+      "questionQuota": 0,
+      "topic": "Advertisement",
+      "subtopic": "Vision IAS Toppers",
+      "rationale": "Promotional material listing successful candidates and contact information.",
+      "confidence": 1
+    }
+  ]
+}

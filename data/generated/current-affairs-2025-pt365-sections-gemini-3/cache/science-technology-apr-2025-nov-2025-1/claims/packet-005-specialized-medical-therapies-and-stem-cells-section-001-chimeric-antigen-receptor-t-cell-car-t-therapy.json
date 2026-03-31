@@ -1,0 +1,64 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-005-specialized-medical-therapies-and-stem-cells-section-001-chimeric-antigen-receptor-t-cell-car-t-therapy",
+    "claimType": "Conceptual",
+    "claimText": "CAR-T therapy involves genetically modifying a patient's own T cells to add a Chimeric Antigen Receptor (CAR) enabling them to recognize and attack cancer cells.",
+    "evidenceExcerpt": "Patient's own T cells are genetically modified with CAR to recognize and attack cancer cells.",
+    "pageNumbers": [
+      11
+    ],
+    "examUse": "Statement-based question on the mechanism of CAR-T therapy.",
+    "distractorHooks": [
+      "Using donor T cells instead of the patient's own T cells",
+      "Modifying B cells or stem cells instead of T cells",
+      "Using chemical drugs instead of living cells"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-005-specialized-medical-therapies-and-stem-cells-section-001-chimeric-antigen-receptor-t-cell-car-t-therapy",
+    "claimType": "Factual",
+    "claimText": "Qartemi is a CAR T-cell therapy approved by the CDSCO specifically for treating blood cancer.",
+    "evidenceExcerpt": "CDSCO approved Qartemi, a CAR T-cell therapy for treating blood cancer.",
+    "pageNumbers": [
+      11
+    ],
+    "examUse": "Correct-pair or statement-based question on recently approved biotechnology applications in India.",
+    "distractorHooks": [
+      "Approved for treating solid tumors instead of blood cancer",
+      "Approved as a traditional chemotherapy drug",
+      "Approved by FDA instead of CDSCO"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-005-specialized-medical-therapies-and-stem-cells-section-001-chimeric-antigen-receptor-t-cell-car-t-therapy",
+    "claimType": "Conceptual",
+    "claimText": "Cytokine Release Syndrome is a systemic inflammatory response that poses a significant challenge during CAR-T therapy.",
+    "evidenceExcerpt": "Challenges include Cytokine Release Syndrome (a systemic inflammatory response)",
+    "pageNumbers": [
+      11
+    ],
+    "examUse": "Statement-based question on the side effects and challenges of advanced immunotherapies.",
+    "distractorHooks": [
+      "Describing Cytokine Release Syndrome as a beneficial immune boost",
+      "Confusing it with an autoimmune disease caused by genetic mutation"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-005-specialized-medical-therapies-and-stem-cells-section-001-chimeric-antigen-receptor-t-cell-car-t-therapy",
+    "claimType": "Conceptual",
+    "claimText": "Antigen Escape is a limitation of CAR-T therapy where tumors lose the targeted antigens, allowing them to evade the modified T cells.",
+    "evidenceExcerpt": "Challenges include... Antigen Escape (tumors lose targeted antigens).",
+    "pageNumbers": [
+      11
+    ],
+    "examUse": "Statement-based question on the limitations of targeted cancer therapies.",
+    "distractorHooks": [
+      "Defining antigen escape as the patient's body rejecting the infused T-cells",
+      "Stating that the modified T-cells lose their CAR receptors"
+    ]
+  }
+]

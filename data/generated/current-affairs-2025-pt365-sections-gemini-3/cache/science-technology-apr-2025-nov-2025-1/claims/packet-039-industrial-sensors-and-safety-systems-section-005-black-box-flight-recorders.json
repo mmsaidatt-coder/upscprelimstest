@@ -1,0 +1,50 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-039-industrial-sensors-and-safety-systems-section-005-black-box-flight-recorders",
+    "claimType": "factual",
+    "claimText": "An aviation Black Box comprises two critical recording devices: the Flight Data Recorder and the Cockpit Voice Recorder.",
+    "evidenceExcerpt": "Comprise two Critical Flight Recording Devices: Flight Data Recorder and Cockpit Voice Recorder.",
+    "pageNumbers": [
+      76,
+      77
+    ],
+    "examUse": "Statement-based question on the components of a flight recorder.",
+    "distractorHooks": [
+      "Consists only of a voice recorder",
+      "Includes a radar tracking device instead of a data recorder"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-039-industrial-sensors-and-safety-systems-section-005-black-box-flight-recorders",
+    "claimType": "factual",
+    "claimText": "Aviation Black Boxes are painted bright orange, rather than black, to ensure high visibility for recovery after a crash.",
+    "evidenceExcerpt": "Painted bright orange for high visibility, not black.",
+    "pageNumbers": [
+      76,
+      77
+    ],
+    "examUse": "Statement-based question testing common misconceptions about the physical appearance of flight recorders.",
+    "distractorHooks": [
+      "Painted black to absorb heat",
+      "Painted camouflage to avoid tampering"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-039-industrial-sensors-and-safety-systems-section-005-black-box-flight-recorders",
+    "claimType": "factual",
+    "claimText": "Black Boxes are manufactured using strong materials like steel or titanium and are insulated against extreme heat or cold.",
+    "evidenceExcerpt": "Material: Made of strong substances (steel or titanium) and are insulated from extreme heat or cold.",
+    "pageNumbers": [
+      76,
+      77
+    ],
+    "examUse": "Statement-based question on the material composition and survivability features of flight recorders.",
+    "distractorHooks": [
+      "Made of lightweight aluminum to reduce aircraft weight",
+      "Lacks insulation against extreme cold temperatures"
+    ]
+  }
+]

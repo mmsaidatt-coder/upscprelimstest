@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-Statement",
+      "prompt": "Consider the following:\n1. Foreign Currency Assets\n2. Special Drawing Rights\n3. Foreign Direct Investment\n4. Reserve Tranche Position\n5. Gold Reserves\n\nHow many of the above are official components of India's Foreign Exchange Reserves?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only two"
+        },
+        {
+          "id": "B",
+          "text": "Only three"
+        },
+        {
+          "id": "C",
+          "text": "Only four"
+        },
+        {
+          "id": "D",
+          "text": "All five"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "India's Foreign Exchange Reserves consist of exactly four components: Foreign Currency Assets (FCA), Gold Reserves, Special Drawing Rights (SDR), and the Reserve Tranche Position (RTP) with the IMF. Foreign Direct Investment (FDI) represents private or corporate investment flows into the country and is not a component of the central bank's official foreign exchange reserves.",
+      "takeaway": "Forex reserves are sovereign assets managed by the RBI. They strictly comprise FCA, Gold, SDRs, and RTP. Private capital flows like FDI or FPI are not reserve assets.",
+      "evidenceExcerpt": "Components of Foreign Exchange Reserves: Foreign Currency Assets (FCA)... Gold Reserves... Holdings with IMF... Special Drawing Rights... Reserve Tranche Position (RTP)...",
+      "qualityScore": 90,
+      "reviewNotes": "Excellent standard UPSC question testing the exact components of Forex reserves with a highly plausible distractor (FDI)."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-Statement",
+      "prompt": "With reference to India's foreign exchange reserves, consider the following statements:\n1. Gold currently constitutes the largest component of India's total foreign exchange reserves.\n2. The Reserve Bank of India accumulates gold primarily to earn a high regular interest yield on its sovereign assets.\n3. Increasing gold reserves assists the central bank in de-dollarization and hedging against inflation.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect: Gold reserves constitute nearly 15% of India's foreign reserves. Foreign Currency Assets (FCA) form the largest component. Statement 2 is incorrect: One of the primary risks of storing physical gold is that it provides a 'zero yield', unlike foreign sovereign bonds which pay regular interest. Statement 3 is correct: The RBI increases gold reserves for diversification (de-dollarization), risk mitigation, and as a hedge against inflation.",
+      "takeaway": "While gold is a crucial hedge against inflation and currency risks (de-dollarization), it is a non-yielding asset that makes up roughly 15% of India's forex reserves.",
+      "evidenceExcerpt": "According to the Reserve Bank of India's (RBI) latest foreign exchange reserves data, gold reserves have reached to $102.3 billion. This has taken the share of the gold in the foreign reserves to nearly 15%... Why is RBI increasing gold reserves? Diversification (de-dollarization)... Risk Mitigation... Hedge against Inflation... Risk Associated with Storing Gold: Reduced Liquidity and Flexibility... Zero Yield...",
+      "qualityScore": 88,
+      "reviewNotes": "Converted to the latest UPSC 'How many statements' format. Effectively tests the factual share, the conceptual rationale, and the risks of holding gold in a single, comprehensive question."
+    }
+  ],
+  "reviewerNotes": "Selected 2 high-quality questions. The source text is very brief and centers around two main fact clusters: the components of Forex reserves and the specifics of gold holdings (share, rationale, risks). Candidates 3 and 4 were rejected as they were near-duplicates testing the exact same concepts (zero yield, inflation hedge, liquidity) as Candidate 2. Candidate 2 was rewritten into the modern UPSC 'How many statements' format to comprehensively cover the gold-related facts without redundancy."
+}

@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the 'Gaurav' weapon system, recently seen in the news:\n\n1. It is an indigenously developed long-range glide bomb.\n2. It employs a hybrid navigation scheme relying exclusively on indigenous navigation systems.\n3. It is designed in the 1,000 kg weight class with a strike range of up to 100 km.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: 'Gaurav' is an indigenously developed Long-Range Glide Bomb by the Defence Research and Development Organisation (DRDO).\nStatement 2 is incorrect: It does not rely exclusively on indigenous systems. It steers towards the target using a highly accurate hybrid navigation scheme that combines Indian Navigation System (INS) and Global Positioning System (GPS) data.\nStatement 3 is correct: It belongs to the 1,000 kg weight class and has achieved a 100 km range with pinpoint accuracy.",
+      "takeaway": "The 'Gaurav' is a 1,000 kg class long-range glide bomb developed by DRDO. It has a 100 km range and utilizes a hybrid INS and GPS navigation scheme.",
+      "evidenceExcerpt": "DRDO successfully conducts release trials of indigenously developed Long-Range Glide Bomb 'Gaurav'. Glide bomb after launch steer towards the target using highly accurate hybrid navigation scheme with a combination of Indian Navigation System (INS) and Global Positioning System (GPS) data. Weight: 1,000 kg class. Range: 'Gaurav' achieved 100 km range with pinpoint accuracy.",
+      "qualityScore": 85,
+      "reviewNotes": "The question effectively tests the candidate's knowledge of a newly developed indigenous defence platform. The 'exclusively' trap in Statement 2 is a classic UPSC formulation that tests precision in reading and factual recall."
+    }
+  ],
+  "reviewerNotes": "Selected and refined Candidate 1. The 'How many statements' format aligns perfectly with recent UPSC trends. The distractor in Statement 2 uses the absolute word 'exclusively' to test if the candidate knows about the integration of GPS (a foreign system) in the navigation scheme."
+}

@@ -1,0 +1,74 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the management of Tiger Reserves and recent Supreme Court directives, consider the following statements:\n1. Night tourism and tiger safaris are completely banned in the core areas and designated tiger corridors.\n2. In buffer zones, tiger safaris are permitted exclusively on pristine forest lands to promote eco-tourism.\n3. Commercial mining and major hydroelectric projects are prohibited in the buffer areas of a tiger reserve.\n\nHow many of the above statements are correct?",
+      "contextLines": [
+        "The Supreme Court issued directions to protect tiger reserves, banning tiger safaris and night tourism in core/critical habitats.",
+        "Safaris are permitted only on non-forest or degraded forest land in buffer zones.",
+        "Commercial mining and major hydro projects are prohibited in buffer areas."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statements 1 and 3 are correct: The Supreme Court has banned tiger safaris and night tourism in core areas and designated corridors. Furthermore, commercial mining and major hydroelectric projects are prohibited in buffer areas. Statement 2 is incorrect: Safaris in buffer zones are permitted only on non-forest or degraded forest land, not on pristine forest lands.",
+      "takeaway": "Eco-tourism activities like safaris are strictly regulated and pushed towards degraded or non-forest lands within buffer zones to prevent the degradation of intact forest ecosystems.",
+      "evidenceExcerpt": "SC banned tiger safaris and night tourism in core areas/designated tiger corridors. Safaris are permitted only on non-forest or degraded forest land in buffer zones. Commercial mining and major hydro projects are prohibited in buffer areas.",
+      "qualityScore": 88,
+      "reviewNotes": "Strong conceptual question testing the nuances of core vs. buffer zone regulations. The trap in statement 2 is highly plausible."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the declaration and alteration of Tiger Reserves in India:\n1. Tiger Reserves are notified by the State Governments under the Wildlife (Protection) Act, 1972.\n2. The declaration of an area as a Tiger Reserve requires the advice of the National Tiger Conservation Authority (NTCA).\n3. The boundaries of a Tiger Reserve can be altered by the State Government without the approval of the National Board for Wild Life (NBWL).\n\nHow many of the above statements are correct?",
+      "contextLines": [
+        "Tiger Reserves are declared under WPA 1972 by State Governments on NTCA's advice",
+        "boundary alterations require NTCA recommendation and National Board for Wild Life (NBWL) approval."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statements 1 and 2 are correct: Tiger Reserves are notified by the respective State Governments under the Wildlife (Protection) Act, 1972, on the advice of the National Tiger Conservation Authority (NTCA). Statement 3 is incorrect: Any alteration in the boundaries of a Tiger Reserve strictly requires the recommendation of the NTCA and the prior approval of the National Board for Wild Life (NBWL).",
+      "takeaway": "While the declaration of Tiger Reserves is executed by State Governments, it is guided by the NTCA. Altering their boundaries requires high-level central oversight from both the NTCA and the NBWL to prevent arbitrary reduction of protected habitats.",
+      "evidenceExcerpt": "Tiger Reserves are declared under WPA 1972 by State Governments on NTCA's advice, and boundary alterations require NTCA recommendation and National Board for Wild Life (NBWL) approval.",
+      "qualityScore": 85,
+      "reviewNotes": "Good institutional question. Wording refined to match UPSC's standard phrasing for statutory provisions."
+    }
+  ],
+  "reviewerNotes": "Selected all three candidates. Refined the wording to align with UPSC standards. The questions cover institutional mechanisms, Supreme Court directives on core/buffer zones, and the recent policy shift regarding Human-Wildlife Conflicts."
+}

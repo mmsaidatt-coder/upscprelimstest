@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "The Nobel Prize in Physiology or Medicine for the year 2006 was awarded for research in which of the following broad areas?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Prevention of physiological weakening due to ageing"
+        },
+        {
+          "id": "B",
+          "text": "Mechanisms governing the flow of genetic information"
+        },
+        {
+          "id": "C",
+          "text": "Immunology and the development of disease resistance"
+        },
+        {
+          "id": "D",
+          "text": "Therapeutic applications of adult stem cell research"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The 2006 Nobel Prize in Physiology or Medicine was awarded for work related to the flow of genetic information (specifically RNA interference).",
+      "takeaway": "Nobel Prizes in Science are often categorized by the fundamental biological or physical process they elucidate.",
+      "evidenceExcerpt": "What is the broad area in which the Nobel Prize winners for the year 2006 in Physiology or Medicine, worked to get the Prize? (b) Flow of genetic information",
+      "contextLines": []
+    },
+    {
+      "subject": "History",
+      "difficulty": "Easy",
+      "questionType": "Feature-matching",
+      "prompt": "The Nobel Peace Prize is distinct from other Nobel Prizes in terms of its selection process. The committee that selects the winners for the Nobel Peace Prize is located in which country?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sweden"
+        },
+        {
+          "id": "B",
+          "text": "Norway"
+        },
+        {
+          "id": "C",
+          "text": "Denmark"
+        },
+        {
+          "id": "D",
+          "text": "Finland"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "While the other Nobel Prizes are selected and awarded in Sweden, the Nobel Peace Prize is selected by a committee appointed by the Norwegian Parliament and is located in Norway.",
+      "takeaway": "The Nobel Peace Prize is the only Nobel category where the selection committee is based in Norway rather than Sweden.",
+      "evidenceExcerpt": "In which country is the committee which selects winners for Nobel Peace Prize located? (a) Norway (b) Sweden (c) Finland (d) Denmark",
+      "contextLines": []
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Conceptual",
+      "prompt": "The Nobel Prize in Physiology or Medicine for the year 2006 was awarded for research that fundamentally advanced our understanding of which biological process?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The mechanisms governing adult stem cell differentiation"
+        },
+        {
+          "id": "B",
+          "text": "The regulation and flow of genetic information"
+        },
+        {
+          "id": "C",
+          "text": "The development of immunology and disease resistance"
+        },
+        {
+          "id": "D",
+          "text": "The prevention of cellular weakening due to ageing"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The 2006 Nobel Prize in Physiology or Medicine was awarded for the discovery of RNA interference—gene silencing by double-stranded RNA, which pertains to the broad area of the flow of genetic information.",
+      "takeaway": "Scientific Nobel Prizes are often tested on the 'broad area' or fundamental mechanism they address.",
+      "evidenceExcerpt": "What is the broad area in which the Nobel Prize winners for the year 2006 in Physiology or Medicine, worked to get the Prize? (a) Prevention of weakening due to ageing (b) Flow of genetic information (c) Immunology and disease resistance (d) Adult stem cell research",
+      "contextLines": []
+    },
+    {
+      "subject": "History",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Nobel Laureates and their work:\n\n1. Wangari Maathai's Nobel-winning work was primarily focused on international economics and trade.\n2. Gabriel Garcia Marquez achieved global recognition for his research in railway engineering.\n\nWhich of the statements given above is/are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Statement 1 is incorrect because Wangari Maathai is known for her contribution to sustainable development, not international economics. Statement 2 is incorrect because Gabriel Garcia Marquez was a renowned writer who won the Nobel Prize for Literature, not a researcher in railway engineering.",
+      "takeaway": "Distinguishing between the actual achievements of laureates and plausible-sounding distractors is a key skill for award-related questions.",
+      "evidenceExcerpt": "Wangari Maathai... is known for her contribution to... Sustainable development... Gabriel Garcia Marquez... A great writer who won the Nobel Prize for literature.",
+      "contextLines": []
+    }
+  ]
+}

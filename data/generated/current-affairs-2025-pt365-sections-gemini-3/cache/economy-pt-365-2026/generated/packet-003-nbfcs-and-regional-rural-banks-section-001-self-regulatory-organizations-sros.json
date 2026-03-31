@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the regulatory guidelines for Self-Regulatory Organizations (SROs) in the financial sector, consider the following statements: 1. No single entity is permitted to hold 10 percent or more of the paid-up share capital of an SRO. 2. The Chairperson of the Board of Directors of an SRO is exempt from the mandatory independence requirement. 3. SROs are tasked with detecting early warning signals and ensuring regulatory compliance among their members. How many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Regulatory guidelines mandate diversified shareholding for SROs, with no single entity allowed to hold 10% or more of its paid-up share capital. Statement 2 is incorrect: Governance norms require that at least one-third of the Board of Directors, explicitly including the Chairperson, must be independent. Statement 3 is correct: The core responsibilities of an SRO include framing codes of conduct, dispute resolution, ensuring regulatory compliance, and detecting early warning signals.",
+      "takeaway": "SROs require diversified ownership (sub-10% limit per entity) and independent governance (minimum one-third independent board, including the Chairperson) to effectively enforce compliance without conflicts of interest.",
+      "evidenceExcerpt": "SROs must have adequate net worth and diversified shareholding, with no entity holding 10% or more of its paid-up share capital. They are responsible for framing codes of conduct, dispute resolution, ensuring regulatory compliance, and detecting early warning signals. Governance requires at least one-third of the Board of Directors, including the Chairperson, to be independent."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Multiple-statement",
+      "prompt": "Consider the following functions: 1. Framing codes of conduct for members 2. Resolving disputes among participating entities 3. Issuing statutory banking licenses 4. Detecting early warning signals. How many of the above are recognized responsibilities of a Self-Regulatory Organization (SRO)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Functions 1, 2, and 4 are correct. SROs are responsible for framing codes of conduct, resolving disputes, ensuring regulatory compliance, and detecting early warning signals within their sector. Function 3 is incorrect because SROs do not possess the statutory authority to issue banking licenses; such powers remain the exclusive domain of the central banking authority (RBI).",
+      "takeaway": "SROs act as a bridge between the regulator and market players. They focus on self-governance, compliance, early warning detection, and dispute resolution rather than core statutory functions like licensing.",
+      "evidenceExcerpt": "They are responsible for framing codes of conduct, dispute resolution, ensuring regulatory compliance, and detecting early warning signals."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "application",
+      "prompt": "A consortium of financial entities proposes to establish a Self-Regulatory Organization (SRO) to oversee their sector. Based on the regulatory guidelines for SROs, which of the following proposed structural designs would be deemed compliant?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A capital structure where the largest participating entity holds a 12 percent stake to ensure the SRO maintains adequate net worth."
+        },
+        {
+          "id": "B",
+          "text": "A governance model where exactly one-third of the Board of Directors, including the Chairperson, comprises independent directors."
+        },
+        {
+          "id": "C",
+          "text": "A board composition where the Chairperson is an executive from the lead promoter entity, provided that over half the board is independent."
+        },
+        {
+          "id": "D",
+          "text": "An operational mandate focused exclusively on industry advocacy and lobbying, leaving member dispute resolution entirely to statutory courts."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "To ensure impartial governance, regulatory guidelines mandate that at least one-third of an SRO's Board of Directors, including the Chairperson, must be independent. Option A is incorrect because no single entity is permitted to hold 10% or more of the paid-up share capital. Option C is incorrect because the Chairperson must be independent. Option D is incorrect because dispute resolution and ensuring regulatory compliance are core responsibilities of an SRO.",
+      "takeaway": "SROs must maintain diversified shareholding (no entity ≥ 10%) and independent governance (≥ 1/3 independent board, including the Chairperson) to effectively enforce codes of conduct and resolve disputes.",
+      "evidenceExcerpt": "SROs must have adequate net worth and diversified shareholding, with no entity holding 10% or more of its paid-up share capital. They are responsible for framing codes of conduct, dispute resolution... Governance requires at least one-third of the Board of Directors, including the Chairperson, to be independent."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "conceptual",
+      "prompt": "In the context of the financial sector, which of the following best describes the primary operational mandate of a Self-Regulatory Organization (SRO)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "To act as a centralized clearinghouse for inter-bank foreign exchange transactions and government securities."
+        },
+        {
+          "id": "B",
+          "text": "To function as an industry-led body responsible for framing codes of conduct, resolving member disputes, and detecting early warning signals."
+        },
+        {
+          "id": "C",
+          "text": "To serve as a statutory appellate tribunal for challenging the monetary penalties imposed by the central bank."
+        },
+        {
+          "id": "D",
+          "text": "To pool the capital of participating members to bail out systematically important financial institutions in distress."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "An SRO is an industry-led organization that sets and enforces rules and standards relating to the conduct of entities in the industry. Its responsibilities include framing codes of conduct, dispute resolution, ensuring regulatory compliance, and detecting early warning signals. It does not act as a clearinghouse, a statutory appellate tribunal, or a bailout fund.",
+      "takeaway": "SROs bridge the gap between statutory regulators and market participants by handling micro-level compliance, dispute resolution, and early risk detection within their specific industry segment.",
+      "evidenceExcerpt": "They are responsible for framing codes of conduct, dispute resolution, ensuring regulatory compliance, and detecting early warning signals."
+    }
+  ]
+}

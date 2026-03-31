@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the 'Financial Fraud Risk Indicator (FRI)':\n1. It is a risk-based metric launched by the Reserve Bank of India (RBI).\n2. It classifies mobile numbers into Medium, High, or Very High risk categories of financial fraud.\n3. It relies exclusively on the intelligence shared by commercial banks and financial institutions.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect: The Financial Fraud Risk Indicator (FRI) was launched by the Department of Telecommunications' (DoT) Digital Intelligence Unit (DIU), not the Reserve Bank of India (RBI).\n\nStatement 2 is correct: It is a risk-based metric that classifies a mobile number as having a Medium, High, or Very High risk of being associated with financial fraud.\n\nStatement 3 is incorrect: It does not rely exclusively on banks and financial institutions. The classification integrates inputs from various stakeholders, including the Indian Cyber Crime Coordination Centre's (I4C) National Cybercrime Reporting Portal (NCRP), DoT's Chakshu platform, and intelligence shared by banks.",
+      "takeaway": "The FRI is a DoT initiative that targets the telecom-finance nexus by profiling the fraud risk of mobile numbers using a multi-stakeholder data aggregation approach.",
+      "evidenceExcerpt": "Launched in May 2025 by DoT's Digital Intelligence Unit (DIU). A risk-based metric that classifies a mobile number to have been associated with Medium, High, or Very High risk of financial fraud. This classification is an outcome of inputs obtained from various stakeholders including reporting on Indian Cyber Crime Coordination Centre (I4C's) National Cybercrime Reporting Portal (NCRP), DoT's Chakshu platform, and Intelligence shared by banks and financial institutions.",
+      "qualityScore": 85,
+      "reviewNotes": "The question effectively tests the nodal agency, core function, and data sources of the newly launched Financial Fraud Risk Indicator. The distractors use classic UPSC traps (attributing a financial metric to RBI and using an extreme word 'exclusively' for data sources)."
+    }
+  ],
+  "reviewerNotes": "Selected and refined a statement-based question. Improved the wording to match UPSC standards, ensuring the traps (RBI as nodal agency, 'exclusively' for data sources) are plausible and directly test the candidate's conceptual clarity on the topic."
+}

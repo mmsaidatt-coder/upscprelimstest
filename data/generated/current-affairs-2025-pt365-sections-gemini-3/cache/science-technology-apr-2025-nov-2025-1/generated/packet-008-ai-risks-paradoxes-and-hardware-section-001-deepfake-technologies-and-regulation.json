@@ -1,0 +1,149 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the technologies used in the creation of Deepfakes:\n1. Generative Adversarial Networks (GANs) utilize a dual-network architecture comprising a Generator to create synthetic data and an Adversary to detect flaws in it.\n2. Autoencoders facilitate deepfake creation by reconstructing input data from simpler representations.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Generative Adversarial Networks (GANs) consist of two main components—a Generator that creates synthetic data, and an Adversary (or Discriminator) that evaluates the data to detect flaws.\nStatement 2 is correct: Autoencoders are neural networks used in deepfakes that reconstruct input from simpler representations, allowing for facial mapping and replacement.",
+      "takeaway": "Deepfakes primarily rely on AI technologies like Autoencoders (for reconstructing input from simpler representations) and GANs (which pit a Generator against an Adversary to create highly realistic synthetic media).",
+      "evidenceExcerpt": "Deepfakes involve replacing faces and synthesizing speech using technologies like Autoencoders and Generative Adversarial Networks (GANs), which consist of a Generator and an Adversary.\n- Autoencoders reconstruct input from simpler representations.\n- GANs utilize a Generator to create data and an Adversary to detect flaws."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the regulation of deepfakes and synthetic media in India, consider the following statements:\n1. India has enacted a dedicated, standalone legislation specifically to penalize the creation and distribution of deepfakes.\n2. The non-consensual use of an individual's personal data to create deepfakes can be penalized under the Digital Personal Data Protection (DPDP) Act, 2023.\n3. Under the proposed amendments to the Information Technology Rules, 2021, digital platforms are required to label or provide metadata for Synthetically Generated Information (SGI).\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: India currently lacks specific laws dedicated solely to deepfakes.\nStatement 2 is correct: In the absence of specific laws, deepfakes are regulated via the DPDP Act 2023, which penalizes the non-consensual use of personal data.\nStatement 3 is correct: Proposed amendments to the IT Rules 2021 mandate platforms to label or provide metadata for Synthetically Generated Information (SGI).",
+      "takeaway": "While India lacks a specific deepfake law, it utilizes the DPDP Act 2023 to penalize non-consensual personal data use and proposes amendments to the IT Rules 2021 to mandate labelling of Synthetically Generated Information (SGI).",
+      "evidenceExcerpt": "India lacks specific deepfake laws but regulates them via the DPDP Act 2023 (penalizing non-consensual use of personal data) and proposed amendments to the IT Rules 2021, which mandate labelling or metadata for Synthetically Generated Information (SGI)."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs regarding the components of Artificial Intelligence used in deepfake generation:\n1. Generator : Detects anomalies and flaws in the generated synthetic data\n2. Adversary : Creates synthetic data that mimics the original input\n3. Autoencoder : Reconstructs input data from simpler representations\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "None"
+        },
+        {
+          "id": "B",
+          "text": "Only one"
+        },
+        {
+          "id": "C",
+          "text": "Only two"
+        },
+        {
+          "id": "D",
+          "text": "All three"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is incorrectly matched: In a Generative Adversarial Network (GAN), the Generator's role is to create synthetic data, not detect flaws.\nPair 2 is incorrectly matched: The Adversary (or Discriminator) is responsible for detecting flaws in the data created by the Generator.\nPair 3 is correctly matched: Autoencoders are used to reconstruct input from simpler representations.",
+      "takeaway": "In GAN architecture, the Generator creates synthetic data while the Adversary evaluates it. Autoencoders compress data into simpler representations and then reconstruct it.",
+      "evidenceExcerpt": "- Autoencoders reconstruct input from simpler representations.\n- GANs utilize a Generator to create data and an Adversary to detect flaws."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Comparison",
+      "prompt": "Which of the following best describes the fundamental difference in how Autoencoders and Generative Adversarial Networks (GANs) operate in the context of deepfake creation?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Autoencoders reconstruct input data from simpler representations, whereas GANs utilize a dual-network architecture to create synthetic data and detect flaws."
+        },
+        {
+          "id": "B",
+          "text": "Autoencoders are primarily used by adversaries to detect flaws in synthetic media, whereas GANs are used exclusively to reconstruct input data."
+        },
+        {
+          "id": "C",
+          "text": "Autoencoders rely on metadata to label synthetic media, whereas GANs are designed to bypass digital watermarks."
+        },
+        {
+          "id": "D",
+          "text": "Autoencoders synthesize speech without altering facial features, whereas GANs are restricted solely to replacing faces in video content."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Autoencoders function by reconstructing input from simpler representations. In contrast, GANs utilize a Generator to create synthetic data and an Adversary to detect flaws in that data. Both technologies can be used for replacing faces and synthesizing speech.",
+      "takeaway": "Deepfakes rely on different AI architectures: Autoencoders focus on data reconstruction from simpler forms, while GANs use a competitive dual-network (Generator and Adversary) to refine synthetic outputs.",
+      "evidenceExcerpt": "Deepfakes involve replacing faces and synthesizing speech using technologies like Autoencoders and Generative Adversarial Networks (GANs), which consist of a Generator and an Adversary. ... Autoencoders reconstruct input from simpler representations."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Applied Scenario",
+      "prompt": "A digital platform operating in India hosts an AI-generated video that synthesizes the speech of a prominent individual. Under the proposed amendments to the Information Technology Rules, 2021, what is the primary compliance requirement for the platform regarding this specific type of content?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "To completely remove the video from the platform within 24 hours of its upload."
+        },
+        {
+          "id": "B",
+          "text": "To label the video or provide metadata indicating that it is Synthetically Generated Information (SGI)."
+        },
+        {
+          "id": "C",
+          "text": "To obtain explicit consent from the individual before allowing the video to be shared on the network."
+        },
+        {
+          "id": "D",
+          "text": "To permanently ban the user account that uploaded the synthetic media."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The proposed amendments to the IT Rules 2021 specifically mandate that digital platforms must label or provide metadata for Synthetically Generated Information (SGI). Outright removal or banning is not the primary mechanism proposed for SGI under these specific amendments.",
+      "takeaway": "The regulatory approach under the proposed IT Rules 2021 amendments focuses on transparency by requiring platforms to label Synthetically Generated Information (SGI), rather than mandating outright removal.",
+      "evidenceExcerpt": "...proposed amendments to the IT Rules 2021, which mandate labelling or metadata for Synthetically Generated Information (SGI)."
+    }
+  ]
+}

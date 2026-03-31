@@ -1,0 +1,149 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Foreign Currency Settlement System (FCSS) at GIFT IFSC:\n1. It enables the local settlement of foreign currency transactions between IFSC Banking Units.\n2. It is operated by CCIL IFSC Limited.\n3. It is authorized by the Reserve Bank of India under the Foreign Exchange Management Act (FEMA).\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: FCSS enables the local settlement of foreign currency transactions between IFSC Banking Units. Statement 2 is correct: CCIL IFSC Limited is the operator of the FCSS. Statement 3 is incorrect: The FCSS is authorized by the International Financial Services Centres Authority (IFSCA) under the Payment and Settlement Systems Act, 2007, not by the RBI under FEMA.",
+      "takeaway": "The FCSS at GIFT IFSC is operated by CCIL IFSC Ltd and authorized by IFSCA under the Payment and Settlement Systems Act, 2007 to settle foreign currency transactions locally.",
+      "evidenceExcerpt": "Ministry of Finance launched the Foreign Currency Settlement System (FCSS) at GIFT IFSC. It is authorized by IFSCA under the Payment and Settlement Systems Act, 2007, to settle foreign currency transactions locally. CCIL IFSC Limited operates it."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the regulatory and legal framework of the Gujarat International Finance Tec-City (GIFT City), consider the following statements:\n1. It is designated as a non-resident zone under the Foreign Exchange Management Act (FEMA).\n2. The International Financial Services Centres Authority (IFSCA) was established concurrently with GIFT City in 2015 as its unified regulator.\n3. GIFT City is India's first and only International Financial Services Centre (IFSC) established as a Special Economic Zone (SEZ).\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: GIFT City is designated as a non-resident zone under FEMA. Statement 2 is incorrect: While GIFT City was established in 2015, the IFSCA was established later in 2020 under the IFSCA Act, 2019 to regulate financial products and institutions in IFSCs. Statement 3 is correct: GIFT City is India's first and only IFSC, established as an SEZ.",
+      "takeaway": "GIFT City is a non-resident zone under FEMA and operates as an SEZ. Its unified regulator, IFSCA, was established in 2020, five years after the establishment of GIFT City.",
+      "evidenceExcerpt": "GIFT City is India's first and only IFSC, established as an SEZ in 2015 and designated as a non-resident zone under FEMA. IFSCA (established 2020) regulates it."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Implication",
+      "prompt": "Which of the following is the most likely operational implication of the newly launched Foreign Currency Settlement System (FCSS) at the GIFT International Financial Services Centre (IFSC)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It facilitates the direct conversion of Indian Rupees into freely convertible foreign currencies for domestic retail investors."
+        },
+        {
+          "id": "B",
+          "text": "It enables IFSC Banking Units to settle foreign currency transactions locally, thereby reducing reliance on overseas correspondent banks."
+        },
+        {
+          "id": "C",
+          "text": "It allows foreign portfolio investors to bypass the Securities and Exchange Board of India (SEBI) while investing in domestic equity markets."
+        },
+        {
+          "id": "D",
+          "text": "It centralizes the management of India's foreign exchange reserves under the CCIL IFSC Limited."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The FCSS enables the local settlement of foreign currency transactions between IFSC Banking Units. By settling these transactions locally within the IFSC ecosystem, banks no longer need to route their foreign currency trades through correspondent banks located abroad, which significantly reduces settlement time and risk.",
+      "takeaway": "The FCSS at GIFT IFSC allows local settlement of foreign currency transactions among IFSC Banking Units, streamlining operations and reducing external dependencies.",
+      "evidenceExcerpt": "Ministry of Finance launched the Foreign Currency Settlement System (FCSS) at GIFT IFSC... to settle foreign currency transactions locally."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Comparison",
+      "prompt": "How does the regulatory jurisdiction over the Foreign Currency Settlement System (FCSS) at GIFT City differ from typical domestic payment systems in India?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Unlike domestic payment systems regulated by the Reserve Bank of India, the FCSS is authorized and regulated by the IFSCA under the Payment and Settlement Systems Act, 2007."
+        },
+        {
+          "id": "B",
+          "text": "Unlike domestic payment systems which are statutory, the FCSS operates purely as a self-regulatory mechanism among IFSC Banking Units without statutory backing."
+        },
+        {
+          "id": "C",
+          "text": "Unlike domestic payment systems that settle in Indian Rupees, the FCSS is mandated to settle all transactions exclusively in Special Drawing Rights (SDRs)."
+        },
+        {
+          "id": "D",
+          "text": "Unlike domestic payment systems managed by the National Payments Corporation of India (NPCI), the FCSS is directly operated by the Ministry of Finance."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Domestic payment systems in India are typically authorized and regulated by the Reserve Bank of India (RBI) under the Payment and Settlement Systems Act, 2007. However, the FCSS at GIFT IFSC is uniquely authorized by the International Financial Services Centres Authority (IFSCA) under the same Act to settle foreign currency transactions locally.",
+      "takeaway": "IFSCA exercises statutory authority under the Payment and Settlement Systems Act, 2007 to authorize payment systems like the FCSS within the IFSC jurisdiction.",
+      "evidenceExcerpt": "It is authorized by IFSCA under the Payment and Settlement Systems Act, 2007, to settle foreign currency transactions locally."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the institutional framework of India's International Financial Services Centre (IFSC):\n1. The unified regulator for the IFSC was established by a parliamentary statute several years after the IFSC itself was set up.\n2. The clearing and settlement of foreign currency transactions within the IFSC is operated directly by the unified regulator.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: GIFT City (India's first and only IFSC) was established as a Special Economic Zone in 2015, whereas its unified regulator, the IFSCA, was established later in 2020 under the IFSCA Act, 2019. Statement 2 is incorrect: The Foreign Currency Settlement System (FCSS) is operated by CCIL IFSC Limited, not directly by the IFSCA. The IFSCA only authorizes and regulates it.",
+      "takeaway": "The IFSCA was established in 2020 to regulate the IFSC (set up in 2015). Operations like the FCSS are managed by specialized entities such as CCIL IFSC Limited, not the regulator itself.",
+      "evidenceExcerpt": "CCIL IFSC Limited operates it. GIFT City is India's first and only IFSC, established as an SEZ in 2015... IFSCA (established 2020) regulates it."
+    }
+  ]
+}

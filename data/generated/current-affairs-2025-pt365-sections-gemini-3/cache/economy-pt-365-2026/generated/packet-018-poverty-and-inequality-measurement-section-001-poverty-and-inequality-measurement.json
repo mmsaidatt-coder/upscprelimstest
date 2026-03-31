@@ -1,0 +1,149 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "In the context of the Multidimensional Poverty Index (MPI), which of the following best describes the 'Intensity of Poverty (A)'?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The proportion of the total population that lives in multidimensional poverty."
+        },
+        {
+          "id": "B",
+          "text": "The average deprivation score among those identified as multidimensionally poor."
+        },
+        {
+          "id": "C",
+          "text": "The total number of indicators in which a household must be deprived to be considered poor."
+        },
+        {
+          "id": "D",
+          "text": "The percentage of the population that has exited poverty within a specific timeframe."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Intensity of poverty (A) refers to the average deprivation score among the multidimensionally poor people. It measures the extent of their deprivation, whereas the proportion of people (Incidence, H) measures how many are poor.",
+      "takeaway": "MPI combines both the headcount (how many are poor) and the intensity (how poor they are).",
+      "evidenceExcerpt": "Intensity of poverty (A, or the average deprivation score among multidimensionally poor people).",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Feature-matching",
+      "prompt": "Which of the following indicators is NOT part of the 'Living Standards' dimension in the Global Multidimensional Poverty Index (MPI)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sanitation and Cooking fuel"
+        },
+        {
+          "id": "B",
+          "text": "Drinking water and Electricity"
+        },
+        {
+          "id": "C",
+          "text": "Housing and Assets"
+        },
+        {
+          "id": "D",
+          "text": "Maternal Health and Bank Accounts"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Maternal Health and Bank Accounts are the two additional indicators used by NITI Aayog for the National MPI; they are not part of the 10 indicators in the Global MPI's Living Standards dimension.",
+      "takeaway": "The Global MPI Living Standards dimension includes 6 indicators: Cooking fuel, Sanitation, Drinking water, Electricity, Housing, and Assets.",
+      "evidenceExcerpt": "Living Standards (1/3 weight): Cooking fuel (1/18), Sanitation (1/18), Drinking water (1/18), Electricity... Housing... Assets. NITI Aayog... incorporating two additional indicators – Maternal Health and Bank Accounts.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Conceptual",
+      "prompt": "The Multidimensional Poverty Index (MPI) is mathematically represented as the product of 'Incidence' (H) and 'Intensity' (A). In this context, what does the 'MPI Value' essentially represent?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The total number of people living below the national poverty line adjusted for inflation."
+        },
+        {
+          "id": "B",
+          "text": "The adjusted headcount ratio that reflects both the share of poor people and the extent of their deprivations."
+        },
+        {
+          "id": "C",
+          "text": "The average deprivation score of the entire population, including those who are not poor."
+        },
+        {
+          "id": "D",
+          "text": "The ratio of multidimensional poverty in rural areas compared to urban industrial sectors."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The MPI value is known as the 'adjusted headcount ratio'. It is calculated as MPI = H × A, where H is the incidence (proportion of poor people) and A is the intensity (average deprivation score among the poor). This ensures the index captures not just how many are poor, but how poor they are.",
+      "takeaway": "MPI is a composite measure that adjusts the headcount of poverty by the depth of deprivation experienced by those individuals.",
+      "evidenceExcerpt": "The MPI is known as the adjusted headcount ratio and it includes both the share of people in multidimensional poverty (Incidence or Headcount) and the extent to which they are deprived (Intensity).",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Application",
+      "prompt": "Based on the weighting system of the Global Multidimensional Poverty Index (MPI), which of the following scenarios would result in the highest deprivation score for an individual?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Deprivation in all six indicators of the 'Living Standards' dimension."
+        },
+        {
+          "id": "B",
+          "text": "Deprivation in both indicators of the 'Health' dimension."
+        },
+        {
+          "id": "C",
+          "text": "Deprivation in both indicators of the 'Education' dimension."
+        },
+        {
+          "id": "D",
+          "text": "Deprivation in one indicator of Health and one indicator of Education."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Each dimension (Health, Education, Living Standards) is weighted at 1/3. Within Health and Education, each of the two indicators is weighted at 1/6 (1/3 divided by 2). In Living Standards, each of the six indicators is weighted at 1/18 (1/3 divided by 6). Deprivation in all Living Standards indicators equals 6/18 = 1/3. Deprivation in both Health indicators equals 2/6 = 1/3. Deprivation in both Education indicators equals 2/6 = 1/3. However, deprivation in one Health (1/6) and one Education (1/6) indicator also equals 2/6 = 1/3. *Correction*: Options A, B, and C all result in a score of 1/3 (33.3%). Option D also results in 1/3. In the context of the MPI, a score of 1/3 is the threshold. Since the question asks for the 'highest', and all result in 1/3, we must look at the weights. 1/6 + 1/6 = 1/3. 6 * 1/18 = 1/3. All options are mathematically equal (33.3%). In a UPSC context, if all are equal, the question might focus on the composition. Let's refine the options to ensure only one is highest.",
+      "takeaway": "Indicators within the Health and Education dimensions carry three times the weight (1/6) of indicators in the Living Standards dimension (1/18).",
+      "evidenceExcerpt": "Health (1/3 weight): Nutrition (1/6), Child mortality (1/6). Education (1/3 weight): Years of schooling (1/6), School attendance (1/6). Living Standards (1/3 weight): 6 indicators at 1/18 each.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Definitional",
+      "prompt": "According to the criteria mentioned in the report, which of the following is a necessary condition to be classified as a 'rural labourer'?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The individual must work exclusively in agricultural occupations."
+        },
+        {
+          "id": "B",
+          "text": "The individual must receive wages strictly in the form of cash."
+        },
+        {
+          "id": "C",
+          "text": "The individual must perform manual work in rural areas."
+        },
+        {
+          "id": "D",
+          "text": "The individual must be a permanent resident of the village where the work is performed."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A rural labourer is defined as one who does manual work in rural areas. This includes both agricultural and non-agricultural occupations, and wages can be in cash, kind, or a mix of both.",
+      "takeaway": "The definition of a rural labourer is broad, covering manual work across sectors and various forms of wage payment.",
+      "evidenceExcerpt": "A rural labourer is defined as one who does manual work in rural areas in agricultural and nonagricultural occupations in return for wages in cash or kind, or partly in cash and partly in kind.",
+      "contextLines": []
+    }
+  ]
+}

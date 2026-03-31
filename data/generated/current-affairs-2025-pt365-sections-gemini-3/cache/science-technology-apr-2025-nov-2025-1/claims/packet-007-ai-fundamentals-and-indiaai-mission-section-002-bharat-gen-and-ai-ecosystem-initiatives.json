@@ -1,0 +1,82 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-007-ai-fundamentals-and-indiaai-mission-section-002-bharat-gen-and-ai-ecosystem-initiatives",
+    "claimType": "Factual",
+    "claimText": "Bharat Gen is India's first indigenously developed AI-based Multimodal Large Language Model (LLM) designed to support all 22 scheduled Indian languages.",
+    "evidenceExcerpt": "Bharat Gen is India's first indigenously developed AI-based Multimodal LLM for all 22 scheduled Indian languages.",
+    "pageNumbers": [
+      16
+    ],
+    "examUse": "Statement-based question on the features and language support of Bharat Gen.",
+    "distractorHooks": [
+      "Supports only Hindi and English",
+      "Developed by a foreign tech giant",
+      "Is a text-only model, not multimodal"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-007-ai-fundamentals-and-indiaai-mission-section-002-bharat-gen-and-ai-ecosystem-initiatives",
+    "claimType": "Institutional",
+    "claimText": "Bharat Gen is developed under the National Mission on Interdisciplinary Cyber-Physical Systems (NM-ICPS), implemented by IIT Bombay, and funded by the Department of Science and Technology (DST).",
+    "evidenceExcerpt": "Bharat Gen is developed under NM-ICPS and implemented through TIH at IIT Bombay with DST funding.",
+    "pageNumbers": [
+      16
+    ],
+    "examUse": "Correct-pair or statement-based question identifying the implementing institution and funding ministry for Bharat Gen.",
+    "distractorHooks": [
+      "Implemented by IIT Madras",
+      "Funded by the Ministry of Electronics and Information Technology (MeitY)",
+      "Developed under the IndiaAI Mission"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-007-ai-fundamentals-and-indiaai-mission-section-002-bharat-gen-and-ai-ecosystem-initiatives",
+    "claimType": "Institutional",
+    "claimText": "The IndiaAI Mission is implemented by the IndiaAI Independent Business Division (IBD) under the Digital India Corporation of MeitY.",
+    "evidenceExcerpt": "IndiaAI Mission is implemented by the IndiaAI IBD under Digital India Corporation (MeitY).",
+    "pageNumbers": [
+      16
+    ],
+    "examUse": "Statement-based question on the nodal ministry and implementing body of the IndiaAI Mission.",
+    "distractorHooks": [
+      "Implemented by NITI Aayog",
+      "Under the Ministry of Science and Technology",
+      "Implemented directly by the Prime Minister's Office"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-007-ai-fundamentals-and-indiaai-mission-section-002-bharat-gen-and-ai-ecosystem-initiatives",
+    "claimType": "Factual",
+    "claimText": "AIRAWAT is a common compute platform dedicated to facilitating AI research.",
+    "evidenceExcerpt": "AIRAWAT provides a common compute platform for AI research.",
+    "pageNumbers": [
+      16
+    ],
+    "examUse": "Match-the-following or correct-pair question identifying the purpose of AIRAWAT.",
+    "distractorHooks": [
+      "AIRAWAT is an indigenous AI chatbot",
+      "AIRAWAT is a military drone system",
+      "AIRAWAT is a quantum computing framework"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-007-ai-fundamentals-and-indiaai-mission-section-002-bharat-gen-and-ai-ecosystem-initiatives",
+    "claimType": "Factual",
+    "claimText": "The Bletchley Declaration of 2023 is an international agreement signed by 28 countries and the EU to establish a shared understanding of the risks associated with frontier AI.",
+    "evidenceExcerpt": "Bletchley Declaration (2023) establishes a shared understanding of frontier AI risks, signed by 28 countries and the EU.",
+    "pageNumbers": [
+      16
+    ],
+    "examUse": "Statement-based question on international AI governance initiatives and the specific focus of the Bletchley Declaration.",
+    "distractorHooks": [
+      "Bletchley Declaration focuses on cryptocurrency regulation",
+      "Signed exclusively by G7 nations",
+      "Aims to completely ban the development of frontier AI"
+    ]
+  }
+]

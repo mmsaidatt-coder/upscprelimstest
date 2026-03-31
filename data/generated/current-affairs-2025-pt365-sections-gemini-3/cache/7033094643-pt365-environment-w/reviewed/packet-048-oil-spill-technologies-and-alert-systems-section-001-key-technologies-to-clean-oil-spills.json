@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "statement-based",
+      "prompt": "With reference to 'Oilzapper' and 'Oilivorous-S', sometimes seen in the news, consider the following statements:\n\n1. They are bioremediation technologies that use fungi to clean up marine pollution.\n2. They were developed by The Energy and Resources Institute (TERI).\n3. They convert harmful hydrocarbons into harmless carbon dioxide and water.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Oilzapper and Oilivorous-S are bioremediation technologies that use bacteria (not fungi) to degrade hydrocarbons.\nStatement 2 is correct: They were developed by The Energy and Resources Institute (TERI).\nStatement 3 is correct: The bacteria in these technologies feed on hydrocarbon compounds present in crude oil, converting them into harmless carbon dioxide and water.",
+      "takeaway": "Oilzapper and Oilivorous-S are bacterial bioremediation technologies developed by TERI specifically designed to clean up oil spills by metabolizing hydrocarbons into CO2 and water.",
+      "evidenceExcerpt": "Bioremediation: E.g., Oilzapper & Oilivorous-S, developed by The Energy and Resources Institute (TERI); use bacteria to convert harmful hydrocarbons into harmless carbon dioxide and water.",
+      "qualityScore": 88,
+      "reviewNotes": "Strong statement-based question. The substitution of 'fungi' for 'bacteria' in Statement 1 is a standard UPSC trap that tests precise knowledge of environmental technologies."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "correct-pair",
+      "prompt": "Consider the following pairs regarding oil spill remediation technologies:\n\n1. Sorbents : Materials used to absorb oil from the water surface\n2. Oil Booms : Machines deployed to scrape oil from the water surface\n3. Skimmers : Floating barriers used to physically isolate the spill area\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Pair 1 is correctly matched: Sorbents (e.g., Milkweed plant's fiber) are materials used to absorb oil from spills.\nPair 2 is incorrectly matched: Oil booms are large floating barriers with skirts extending into the water to physically isolate the spill area, not machines that scrape oil.\nPair 3 is incorrectly matched: Skimmers are machines that scrape oil from the water surface, not floating barriers. (The descriptions for Oil Booms and Skimmers are swapped).",
+      "takeaway": "Physical methods for oil spill cleanup include Oil Booms (floating barriers to isolate the spill) and Skimmers (machines to scrape oil off the surface). Sorbents are used to absorb the oil.",
+      "evidenceExcerpt": "Sorbents: E.g., Milkweed plant's fiber, commonly found in Rajasthan, can be effectively used as a sorbent material. Oil Boom: Involves using large floating booms with skirts extending into the water to physically isolate the spill area. Skimmers: These machines scrape oil from the water surface.",
+      "qualityScore": 85,
+      "reviewNotes": "A classic UPSC-style matching question. The distractors are plausible and parallel, testing the candidate's clarity on physical oil spill remediation tools."
+    }
+  ],
+  "reviewerNotes": "Selected two high-quality questions that cover different aspects of the source text (physical remediation tools vs. biological remediation technologies). Both questions have been refined to match the tone, structure, and difficulty of actual UPSC Prelims MCQs."
+}

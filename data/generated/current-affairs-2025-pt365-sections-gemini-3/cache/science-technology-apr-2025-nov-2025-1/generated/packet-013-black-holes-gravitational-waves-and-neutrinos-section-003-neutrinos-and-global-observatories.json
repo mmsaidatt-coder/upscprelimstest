@@ -1,0 +1,149 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Neutrinos', often referred to as 'ghost particles':\n1. They are the most abundant particles in the universe.\n2. They possess zero electrical charge and remain undisturbed by magnetic fields.\n3. They interact with matter exclusively through the weak nuclear force and gravity.\n\nWhich of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Neutrinos are the second-most abundant particles in the universe, surpassed only by photons. Statement 2 is correct: Neutrinos have zero electrical charge and are undisturbed by magnetic fields. Statement 3 is correct: They interact with matter only via the weak nuclear force and gravity.",
+      "takeaway": "Neutrinos are subatomic particles with zero charge, tiny mass, and zero size. They are the second-most abundant particles in the universe after photons and interact only via weak nuclear force and gravity.",
+      "evidenceExcerpt": "Neutrinos have zero electrical charge, tiny mass... They are the second-most abundant particle in the universe after photons. Neutrinos interact with matter only via weak nuclear force and gravity, and are undisturbed by magnetic fields."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of Neutrino Observatories and their respective locations:\n\n1. JUNO : Japan\n2. IceCube : South Pole\n3. KATRIN : Germany\n4. INO : Tamil Nadu\n\nHow many pairs given above are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "Only three pairs"
+        },
+        {
+          "id": "D",
+          "text": "All four pairs"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Pair 1 is incorrectly matched: The JUNO observatory is located in China, not Japan. Pair 2 is correctly matched: IceCube is located at the South Pole. Pair 3 is correctly matched: KATRIN is located in Germany. Pair 4 is correctly matched: The India-based Neutrino Observatory (INO) is located in Tamil Nadu. Therefore, exactly three pairs are correctly matched.",
+      "takeaway": "Key global neutrino observatories include JUNO in China, INO in Tamil Nadu (India), IceCube at the South Pole, and KATRIN in Germany.",
+      "evidenceExcerpt": "Key observatories include JUNO (China), INO (Tamil Nadu, India), IceCube (South Pole), and KATRIN (Germany)."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to neutrino research, consider the following statements:\n1. Neutrinos exist in three distinct types: Electron, Muon, and Tau.\n2. The primary objective of the JUNO observatory is to determine the mass hierarchy of these neutrino types.\n3. The India-based Neutrino Observatory (INO) is located in the Bodi West Hills of Kerala.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statements 1 and 2 are correct: There are three types of neutrinos (Electron, Muon, and Tau), and China's JUNO observatory aims to determine their mass hierarchy. Statement 3 is incorrect: The India-based Neutrino Observatory (INO) is located in the Bodi West Hills of Tamil Nadu, not Kerala.",
+      "takeaway": "Neutrinos come in three 'flavors' or types: Electron, Muon, and Tau. The JUNO observatory in China is specifically designed to determine the mass hierarchy of these three types.",
+      "evidenceExcerpt": "The India-based Neutrino Observatory (INO) is located in Bodi West Hills, Tamil Nadu. China's JUNO observatory aims to determine the mass hierarchy of the three neutrino types (Electron, Muon, and Tau)."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice",
+      "prompt": "In the context of astrophysics and particle physics, which of the following best explains why neutrinos are frequently referred to as 'ghost particles'?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They are theoretical particles that have not yet been empirically detected by any global observatory."
+        },
+        {
+          "id": "B",
+          "text": "They possess zero electrical charge, a tiny mass, and interact with matter exclusively via the weak nuclear force and gravity."
+        },
+        {
+          "id": "C",
+          "text": "They are the only subatomic particles capable of traveling significantly faster than the speed of light."
+        },
+        {
+          "id": "D",
+          "text": "They decay instantly upon entering the Earth's atmosphere, leaving no trace for surface detectors."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Neutrinos are called 'ghost particles' because they have zero electrical charge, a tiny mass, and interact with matter only via the weak nuclear force and gravity. This allows them to pass through most matter, including entire planets, completely undetected.",
+      "takeaway": "The 'ghost particle' moniker stems directly from neutrinos' extremely weak interaction with normal matter, their lack of electrical charge, and their tiny mass.",
+      "evidenceExcerpt": "Neutrinos are subatomic 'ghost particles' with zero electrical charge, tiny mass, and zero size... and interact only via weak nuclear force and gravity.",
+      "contextLines": []
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Multiple Choice",
+      "prompt": "In the context of global scientific research, the primary objective of China's Jiangmen Underground Neutrino Observatory (JUNO) is to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Detect the presence of gravitational waves emitted by colliding black holes."
+        },
+        {
+          "id": "B",
+          "text": "Determine the mass hierarchy of the three known types of neutrinos."
+        },
+        {
+          "id": "C",
+          "text": "Study the interaction of high-energy muons with the Earth's magnetic field."
+        },
+        {
+          "id": "D",
+          "text": "Measure the exact speed of neutrinos to prove they travel faster than photons."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Jiangmen Underground Neutrino Observatory (JUNO) in China is specifically designed to determine the mass hierarchy of the three types of neutrinos: Electron, Muon, and Tau.",
+      "takeaway": "Different neutrino observatories have specific scientific goals; JUNO's primary aim is to resolve the neutrino mass hierarchy among its three flavors.",
+      "evidenceExcerpt": "China's JUNO observatory aims to determine the mass hierarchy of the three neutrino types (Electron, Muon, and Tau).",
+      "contextLines": []
+    }
+  ]
+}

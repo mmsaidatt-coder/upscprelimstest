@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Compressed Biogas (CBG):\n1. The purification of raw biogas to produce CBG involves the removal of hydrogen sulfide and carbon dioxide.\n2. The purification process decreases the methane concentration in the gas to make it safer for transportation.\n3. To obtain CBG, the purified biogas is compressed to a pressure of 200-250 bar.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Raw biogas is purified to remove impurities like hydrogen sulfide (H2S), carbon dioxide (CO2), and water vapor.\nStatement 2 is incorrect: The purification process actually increases the methane concentration to about 90%, rather than decreasing it.\nStatement 3 is correct: After purification, the gas is compressed to a high pressure of about 200-250 bar to produce CBG.",
+      "takeaway": "CBG production requires purifying raw biogas to remove H2S, CO2, and water vapor, increasing its methane concentration to 90%, and compressing it to 200-250 bar.",
+      "evidenceExcerpt": "Raw biogas is purified to remove H2S, CO2, and water vapor, increasing methane concentration to 90%, and is then compressed to about 200-250 bar pressure to get CBG."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the initiatives promoting alternative energy in India, consider the following statements:\n1. The SATAT initiative aims to set up Compressed Biogas (CBG) plants to provide an affordable transportation fuel.\n2. The GOBAR-DHAN scheme focuses on converting cattle dung and farm solid waste into Bio-CNG and compost.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: The SATAT (Sustainable Alternative Towards Affordable Transportation) initiative is specifically designed to establish CBG plants to supply affordable transport fuel.\nStatement 2 is correct: The GOBAR-DHAN scheme aims to manage cattle dung and solid waste by converting them into useful Bio-CNG (CBG) and compost.",
+      "takeaway": "India promotes CBG through schemes like GOBAR-DHAN (converting cattle dung/solid waste to Bio-CNG and compost) and SATAT (setting up CBG plants for affordable transportation fuel).",
+      "evidenceExcerpt": "Initiatives taken in India to promote CBG include the GOBAR-DHAN scheme to convert cattle dung and solid waste to Bio-CNG and compost, and the SATAT initiative for setting up CBG plants."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Multiple-Choice",
+      "prompt": "During the processing of raw biogas into Compressed Biogas (CBG), which of the following components are deliberately removed to enrich the fuel?\n1. Hydrogen sulfide\n2. Carbon dioxide\n3. Water vapor\n4. Methane\n\nSelect the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "1, 2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "3 and 4 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2, 3 and 4"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Raw biogas is purified to remove impurities such as hydrogen sulfide (H2S), carbon dioxide (CO2), and water vapor. This purification process is designed to increase the concentration of methane to 90%, not remove it. Therefore, only 1, 2, and 3 are removed.",
+      "takeaway": "The purification of raw biogas eliminates H2S, CO2, and water vapor to yield a high-methane (90%) gas suitable for compression into CBG.",
+      "evidenceExcerpt": "Raw biogas is purified to remove H2S, CO2, and water vapor, increasing methane concentration to 90%..."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Multiple-Choice",
+      "prompt": "Consider the following products:\n1. Bio-CNG\n2. Compost\n\nWhich of the above are the intended primary outputs of the processing of cattle dung and farm solid waste under the GOBAR-DHAN scheme?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The GOBAR-DHAN scheme focuses on managing and converting cattle dung and farm solid waste into useful outputs, specifically Bio-CNG (Compressed Biogas) and compost. Both are intended primary products of the scheme.",
+      "takeaway": "The GOBAR-DHAN scheme promotes a circular economy by converting agricultural and animal waste into clean energy (Bio-CNG) and organic fertilizer (compost).",
+      "evidenceExcerpt": "...the GOBAR-DHAN scheme to convert cattle dung and solid waste to Bio-CNG and compost..."
+    }
+  ]
+}

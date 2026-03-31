@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "In the context of the 'Dhanya M vs State of Kerala & Others' judgement, which principle did the Supreme Court emphasize regarding preventive detention?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Preventive detention can be used as a primary tool for criminal investigation in cases of national security."
+        },
+        {
+          "id": "B",
+          "text": "Preventive detention must not be used as a substitute for criminal prosecution or to bypass bail orders."
+        },
+        {
+          "id": "C",
+          "text": "State legislatures do not have the power to enact preventive detention laws under the Kerala Anti-Social Activities (Prevention) Act."
+        },
+        {
+          "id": "D",
+          "text": "The 24-hour magistrate production rule must be strictly applied to all preventive detention cases."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "In the Dhanya M vs State of Kerala case, the Supreme Court held that preventive detention is an extraordinary measure and should not be used as a shortcut to bypass regular criminal law procedures or bail orders granted by courts.",
+      "takeaway": "The judiciary views preventive detention as a measure of last resort that cannot replace the standard criminal justice process.",
+      "evidenceExcerpt": "Recently, in Dhanya M vs State of Kerala & Others judgement, Supreme Court set aside preventive detention under Kerala Anti-Social Activities (Prevention) Act, 2007 and held that preventive detention must not be used as a substitute for criminal prosecution or to bypass bail orders."
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Comparative",
+      "prompt": "Regarding the Bharatiya Nagarik Suraksha Sanhita (BNSS), 2023, how does the duration of 'preventive action of the police' compare with the standard constitutional limit for preventive detention under Article 22(4)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "BNSS allows for 3 months of custody, whereas Article 22(4) allows for up to 6 months."
+        },
+        {
+          "id": "B",
+          "text": "BNSS limits custody to 24 hours without further authorization, whereas Article 22(4) allows for up to 3 months without an Advisory Board's report."
+        },
+        {
+          "id": "C",
+          "text": "Both BNSS and Article 22(4) limit initial detention to 24 hours before requiring a magistrate's intervention."
+        },
+        {
+          "id": "D",
+          "text": "BNSS does not specify a time limit for preventive action, whereas Article 22(4) specifies a strict 24-hour limit."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Under BNSS 2023 (Sections 168 to 172), no person arrested under preventive action shall be detained for more than 24 hours unless further detention is required under other provisions. In contrast, Article 22(4) of the Constitution allows for preventive detention for up to 3 months before an Advisory Board must approve an extension.",
+      "takeaway": "The BNSS 'preventive action' by police has a much shorter immediate timeframe (24 hours) compared to the broader 'preventive detention' laws governed by Article 22(4).",
+      "evidenceExcerpt": "Bharatiya Nagarik Suraksha Sanhita, 2023: Section 168 to 172 deals with the preventive action of the police. No person arrested under these sections shall be detained in custody for a period exceeding twenty-four hours... Article 22 (4): Detention beyond 3 months requires advisory board approval.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "Based on the judicial interpretation of preventive detention laws in India, which of the following actions by the state would be considered a misuse of such power?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Detaining a person to prevent an activity dangerous to public order."
+        },
+        {
+          "id": "B",
+          "text": "Using preventive detention as a mechanism to circumvent a bail order granted in a criminal prosecution."
+        },
+        {
+          "id": "C",
+          "text": "Communicating the grounds of detention to the detainee at the earliest opportunity."
+        },
+        {
+          "id": "D",
+          "text": "Referring a detention case to an Advisory Board after two months of custody."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "In the Dhanya M vs State of Kerala case, the Supreme Court held that preventive detention must not be used as a substitute for criminal prosecution or to bypass bail orders. Options A, C, and D are either the intended purpose of the law or mandatory constitutional procedures.",
+      "takeaway": "Preventive detention is an extraordinary measure and cannot be used by the executive to nullify judicial decisions like the granting of bail.",
+      "evidenceExcerpt": "Supreme Court set aside preventive detention under Kerala Anti-Social Activities (Prevention) Act, 2007 and held that preventive detention must not be used as a substitute for criminal prosecution or to bypass bail orders.",
+      "contextLines": []
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Flue Gas Desulphurisation (FGD) technology:\n1. It is primarily designed to capture and remove nitrogen oxides (NOx) and carbon monoxide (CO) from the exhaust of coal-fired power plants.\n2. The process generally employs an alkaline reagent, such as a sodium- or calcium-based compound, to scrub the exhaust gases.\n3. Sea water can be utilized as a scrubbing medium in certain types of FGD systems.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Flue Gas Desulphurisation (FGD) is specifically designed to remove Sulphur Dioxide (SO2) from the exhaust gases of coal-fired power plants, not NOx or CO. Statement 2 is correct: The scrubbing technique in FGD typically involves a sodium- or calcium-based alkaline reagent (such as limestone). Statement 3 is correct: Sea Water Based FGD is one of the recognized types of FGD systems, alongside Dry Sorbent Injection and Wet Limestone Based systems.",
+      "takeaway": "FGD systems target Sulphur Dioxide (SO2) emissions from coal plants by using alkaline reagents (like calcium or sodium-based compounds) or sea water to scrub the exhaust gases.",
+      "evidenceExcerpt": "Involves removal of SO2 (Sulphur Dioxide) in exhaust gases from coal-fired power plants before being released to atmosphere. Uses scrubbing technique involving alkaline reagent (typically a sodium- or calcium-based alkaline reagent). Types of FGD Systems: Dry Sorbent Injection, Wet Limestone Based, Sea Water Based, etc."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the policy on Flue Gas Desulphurisation (FGD) in India, consider the following statements:\n1. The 2015 environmental norms mandated the installation of FGD systems across all coal-fired power plants in India.\n2. A recent study commissioned by the Office of the Principal Scientific Adviser recommended restricting the FGD mandate only to plants using imported coal or coal with high sulphur content.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: The 2015 policy originally mandated the installation of FGD systems in all of India's coal-fired plants to curb SO2 emissions. Statement 2 is correct: A study commissioned by the Office of the Principal Scientific Adviser recommended a rollback of this blanket mandate, suggesting that FGD installation be limited to plants using imported coal or high-sulphur coal (>0.5% sulphur).",
+      "takeaway": "Policy shifts regarding pollution control often balance environmental benefits with economic and operational realities, as seen in the recommendation to target high-sulphur and imported coal users for FGD rather than a blanket mandate.",
+      "evidenceExcerpt": "A study commissioned by Office of the Principal Scientific Adviser recommended rollback of 2015 policy mandating installation of FGD systems in all of India's coal-fired plants. Rather, it recommended FGD to only those plants using imported coal or high (>0.5%) sulphur coal."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "In the context of emissions control in coal-fired power plants, what is the primary chemical rationale for utilizing sodium- or calcium-based reagents in Flue Gas Desulphurisation (FGD) systems?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "They act as catalysts to reduce sulphur dioxide into elemental sulphur before it exits the smokestack."
+        },
+        {
+          "id": "B",
+          "text": "They provide an alkaline medium that neutralizes and scrubs the acidic sulphur dioxide from the exhaust gases."
+        },
+        {
+          "id": "C",
+          "text": "They are injected into the boiler to lower combustion temperatures, thereby preventing the initial formation of sulphur dioxide."
+        },
+        {
+          "id": "D",
+          "text": "They selectively bind with particulate matter and heavy metals, allowing sulphur dioxide to be filtered out mechanically."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "FGD involves the removal of SO2 from exhaust gases. Since SO2 is an acidic gas, the scrubbing technique utilizes an alkaline reagent (typically sodium- or calcium-based) to neutralize and absorb it before it is released into the atmosphere.",
+      "takeaway": "FGD relies on acid-base neutralization, where alkaline sorbents like limestone (calcium-based) react with acidic SO2 to form solid compounds, effectively scrubbing the exhaust.",
+      "evidenceExcerpt": "Uses scrubbing technique involving alkaline reagent (typically a sodium- or calcium-based alkaline reagent)."
+    }
+  ]
+}

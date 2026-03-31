@@ -1,0 +1,98 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Conceptual",
+      "prompt": "What is the primary objective behind the Reserve Bank of India's framework for recognizing Self-Regulatory Organisations (SROs) for its regulated entities?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "To delegate the core regulatory and penal functions of the RBI to industry-led bodies."
+        },
+        {
+          "id": "B",
+          "text": "To foster a culture of self-discipline and adherence to best practices within the industry, complementing the RBI's oversight."
+        },
+        {
+          "id": "C",
+          "text": "To create an official channel for financial institutions to collectively negotiate regulatory norms with the RBI."
+        },
+        {
+          "id": "D",
+          "text": "To replace the existing grievance redressal mechanisms with a new system managed entirely by the SROs."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The role of a Self-Regulatory Organisation (SRO) is to establish and enforce industry standards and best practices, thereby promoting self-discipline among its members. This complements the formal regulatory framework of the central authority (like the RBI) rather than replacing or taking over its core functions. Option A is incorrect as core functions are not delegated. Option C is incorrect as the purpose is regulation and discipline, not negotiation. Option D is incorrect as SROs do not replace established mechanisms like the Banking Ombudsman.",
+      "takeaway": "Understand that SROs are meant to supplement, not supplant, the main regulator's role by improving industry conduct and standards from within.",
+      "evidenceExcerpt": "RBI granted Self-Regulatory Organisation status to Finance Industry Development Council (FIDC) to oversee NBFCs. FIDC is a representative body of non-banking financial companies (NBFC) registered with the RBI. About Self-Regulatory Organisation (SRO) Legal Backing: RBI’s Omnibus Framework for recognising Self-Regulatory Organisations (SROs) for Regulated Entities (REs), 2024.",
+      "qualityScore": 90,
+      "reviewNotes": "This is an excellent conceptual question that tests the understanding of an SRO's role, which is implied rather than explicitly defined in the text. The distractors are highly plausible and target common misconceptions about self-regulation."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Payment Aggregators (PAs) in India:\n1. PAs are entities that facilitate payments from customers to merchants, including for transactions involving investment products.\n2. The regulatory framework for non-bank PAs mandates them to seek authorisation under the Payment and Settlement Systems Act, 2007.\n3. To operate as a PA, an entity must be set up as a not-for-profit company under Section 8 of the Companies Act, 2013.\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct. The text states that PAs facilitate payments for the 'purchase of goods, services or investment products'. Statement 2 is correct. The text specifies that the 'New framework mandates non-bank PAs to obtain RBI authorisation under the Payment and Settlement Systems Act, 2007'. Statement 3 is incorrect. The requirement to be a not-for-profit company under Section 8 of the Companies Act, 2013 applies to Self-Regulatory Organisations (SROs), not Payment Aggregators. PAs must be incorporated as a company under the Companies Act, 2013, but not necessarily a Section 8 company. Therefore, only two statements are correct.",
+      "takeaway": "It is crucial to distinguish the specific regulatory requirements for different types of financial entities. While both PAs and SROs are regulated, their incorporation rules and governing acts can differ significantly.",
+      "evidenceExcerpt": "Payment Aggregators * It is an entity that facilitates aggregation of payments made by customers to merchants... for purchase of goods, services or investment products. * It is incorporated as a company under the Companies Act, 2013. * New framework mandates non-bank PAs to obtain RBI authorisation under the Payment and Settlement Systems Act, 2007. Eligibility of SROs: * An SRO shall be setup as a not-for-profit company registered under Section 8 of the Companies Act, 2013.",
+      "qualityScore": 85,
+      "reviewNotes": "This question is strong because it tests multiple facts and includes a well-crafted distractor (Statement 3) that mixes up the requirements for PAs with those for SROs, a concept discussed on the same page. This requires careful reading and differentiation."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "Which one of the following statements best clarifies the relationship between Ways and Means Advances (WMA) and the financing of the government's fiscal deficit?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "WMA is a mechanism for short-term cash flow management for the government and is explicitly not a tool for financing the fiscal deficit."
+        },
+        {
+          "id": "B",
+          "text": "WMA and ad hoc Treasury Bills are interchangeable instruments used by the RBI to finance the government's fiscal deficit."
+        },
+        {
+          "id": "C",
+          "text": "WMA is exclusively used to finance the revenue deficit component, while the capital deficit is financed through market borrowings."
+        },
+        {
+          "id": "D",
+          "text": "While the central government uses WMA for liquidity management, state governments can use it as a source of deficit financing."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "The source text explicitly states that WMA is a 'temporary advance... to cover any mismatch in receipts and payments' and that 'Unlike ad hoc Treasury Bills, the instrument of WMAs is not a source of financing fiscal deficit'. This clearly defines its role as a tool for managing temporary liquidity issues, not for funding a structural deficit. Option B is incorrect as the text contrasts WMA with ad hoc T-Bills in this regard. Options C and D introduce details and exceptions not supported by the text.",
+      "takeaway": "Understand the fundamental distinction between temporary liquidity support (like WMA) and deficit financing. WMA addresses short-term cash flow mismatches, whereas the fiscal deficit represents a structural gap between government's total expenditure and total receipts.",
+      "evidenceExcerpt": "Ways and Means Advances (WMA) * It is a temporary advance given by the RBI to the central government to cover any mismatch in receipts and payments. * Unlike ad hoc Treasury Bills, the instrument of WMAs is not a source of financing fiscal deficit.",
+      "qualityScore": 85,
+      "reviewNotes": "This question effectively tests the core conceptual understanding of WMA's purpose, which is a crucial topic. The options are well-differentiated and target common points of confusion regarding government financing."
+    }
+  ],
+  "reviewerNotes": "The selected set of five questions provides good coverage of the key topics on the page: SROs, Payment Aggregators, Ways and Means Advances, Certificates of Deposit/Tokenisation, and Uniform Asset Classification. The questions have been rewritten to meet UPSC standards, with a mix of conceptual and statement-based formats. The difficulty ranges from Easy to Hard, and the distractors are designed to be plausible and test nuanced understanding. I have prioritized questions that require conceptual clarity (SROs, WMA) and attention to detail (PAs, CDs) over simple fact recall."
+}

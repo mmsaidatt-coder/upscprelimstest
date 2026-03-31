@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Polity",
+      "difficulty": "Easy",
+      "questionType": "Statement-based",
+      "prompt": "According to the CEC and Other Election Commissioners Act, 2023, which of the following is a mandatory qualification for a person to be appointed as a CEC or EC?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The person must have served as a Judge of the Supreme Court or a High Court."
+        },
+        {
+          "id": "B",
+          "text": "The person must hold or have held a post equivalent to the Secretary to the Government of India."
+        },
+        {
+          "id": "C",
+          "text": "The person must be a distinguished jurist in the opinion of the President."
+        },
+        {
+          "id": "D",
+          "text": "The person must have served as the Cabinet Secretary for at least three years."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The 2023 Act specifies that the person must hold or have held a post equivalent to the Secretary to the Government of India and must possess expertise in managing and conducting elections.",
+      "takeaway": "The eligibility criteria for CEC/EC are tied to the rank of Secretary to the Government of India.",
+      "evidenceExcerpt": "Qualifications: For CEC and EC, the person: Must hold/have held post equivalent to Secretary to Government of India. Must possess expertise in managing and conducting elections."
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Institution-feature",
+      "prompt": "Regarding the selection process for the Chief Election Commissioner (CEC) and Election Commissioners (ECs), which of the following correctly describes the role of the Search Committee?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is headed by the Prime Minister and recommends one final name to the President."
+        },
+        {
+          "id": "B",
+          "text": "It is headed by the Leader of Opposition and prepares a panel of three candidates."
+        },
+        {
+          "id": "C",
+          "text": "It is headed by the Minister of Law and Justice and prepares a panel of five candidates."
+        },
+        {
+          "id": "D",
+          "text": "It is headed by the Cabinet Secretary and includes two members of the rank of Secretary to the Government of India."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The Search Committee is headed by the Minister of Law and Justice and includes two other members (Secretary rank or higher). Its primary function is to prepare a panel of five candidates for the consideration of the Select Committee.",
+      "takeaway": "The Search Committee is a preliminary body led by the Law Minister to shortlist five candidates.",
+      "evidenceExcerpt": "Search Committee Leadership: Headed by Minister of Law and Justice. Composition: Two members (Secretary rank or higher). Function: Prepares panel of 5 candidates.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Hard",
+      "questionType": "Feature-matching",
+      "prompt": "Which of the following are members of the 'Select Committee' responsible for recommending names for the appointment of the CEC and ECs to the President?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Prime Minister, Chief Justice of India, and Leader of Opposition."
+        },
+        {
+          "id": "B",
+          "text": "Prime Minister, Leader of Opposition, and a Union Cabinet Minister nominated by the PM."
+        },
+        {
+          "id": "C",
+          "text": "Minister of Law and Justice, Leader of Opposition, and Speaker of the Lok Sabha."
+        },
+        {
+          "id": "D",
+          "text": "Prime Minister, Minister of Law and Justice, and two Secretaries to the Government of India."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Under the 2023 Act, the Select Committee consists of the Prime Minister (Chairperson), the Leader of the Opposition in the Lok Sabha (Member), and a Union Cabinet Minister nominated by the Prime Minister (Member). The Chief Justice of India is not a member of this committee under the new Act.",
+      "takeaway": "The Select Committee for ECI appointments is executive-heavy, consisting of the PM, a PM-nominated Minister, and the LoP.",
+      "evidenceExcerpt": "Select Committee Members: Prime Minister (Chairperson). Leader of Opposition (Member). Union Cabinet Minister nominated by PM (Member). Function: Recommends candidates to President.",
+      "contextLines": []
+    }
+  ]
+}

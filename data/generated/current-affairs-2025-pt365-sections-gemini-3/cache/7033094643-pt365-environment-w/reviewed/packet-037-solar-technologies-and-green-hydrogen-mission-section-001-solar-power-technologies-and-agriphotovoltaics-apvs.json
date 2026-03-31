@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding solar power technologies:\n1. Photovoltaic (PV) cells directly convert sunlight into alternating current (AC).\n2. Concentrated Solar Power (CSP) systems harness energy by focusing sunlight using mirrors and lenses.\n3. Solar Thermal Energy is primarily utilized for generating heat.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Photovoltaic cells produce direct current (DC), which must be converted to alternating current (AC) by an inverter for standard use. Statement 2 is correct: Concentrated Solar Power (CSP) harnesses energy by focusing sunlight using mirrors, lenses, and tracking devices. Statement 3 is correct: Solar Thermal Energy is utilized primarily for heat generation.",
+      "takeaway": "Photovoltaic cells produce DC electricity which requires an inverter for AC conversion, whereas CSP and Solar Thermal Energy rely on focusing sunlight and generating heat, respectively.",
+      "evidenceExcerpt": "Solar power utilizes photovoltaic cells to produce direct current (DC), which is converted to alternating current (AC) by an inverter. Other technologies include Solar Thermal Energy for heat and Concentrated Solar Power (CSP) using mirrors and lenses.",
+      "qualityScore": 85,
+      "reviewNotes": "Rewrote to focus purely on the technical mechanisms of solar power generation, separating it from the APV concept to avoid overlap. The distractors and statements are highly plausible and mimic UPSC's focus on basic science applications."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to Agriphotovoltaics (APVs), consider the following statements:\n1. It is a dual-use model that combines agricultural production and electricity generation on the same land.\n2. It relies exclusively on sun-loving crops that require maximum direct solar irradiation.\n3. The solar panels in APV systems can protect crops against strong winds.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Agriphotovoltaics (APVs) combine agricultural production and electricity generation on the same land area. Statement 2 is incorrect: APV systems utilize shade-tolerant crops, not sun-loving crops, to maximize land-use efficiency under the panels. Statement 3 is correct: The panels in APV systems protect crops against strong solar irradiation and winds.",
+      "takeaway": "Agriphotovoltaics optimize land use by pairing solar electricity generation with shade-tolerant crops, providing a microclimate that shields plants from harsh environmental conditions.",
+      "evidenceExcerpt": "Agriphotovoltaics (APVs) or Solar Farming combines agricultural production and electricity generation on the same land, utilizing solar panels, tracking systems, and shade-tolerant crops to maximize land-use efficiency. APV systems utilize shade-tolerant crops to protect against strong solar irradiation and winds.",
+      "qualityScore": 85,
+      "reviewNotes": "Refined the question to focus entirely on the ecological and agricultural synergies of APV systems. The incorrect statement tests a logical misconception (that solar farms would need sun-loving crops), making it a strong conceptual distractor."
+    }
+  ],
+  "reviewerNotes": "Selected and refined two questions to cover the entire excerpt without overlap. Q1 focuses on the technical mechanisms of solar power generation (PV, CSP, Solar Thermal), while Q2 focuses on the ecological and agricultural applications of Agriphotovoltaics (APVs). Both use the 'How many statements are correct' format typical of recent UPSC prelims."
+}

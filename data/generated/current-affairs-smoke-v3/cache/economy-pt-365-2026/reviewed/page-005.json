@@ -1,0 +1,98 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Application-based",
+      "prompt": "Consider a scenario where the Reserve Bank of India aims to curb speculative lending in a specific economic sector without altering the overall liquidity and credit availability in the system. Which of the following monetary policy instruments would be the most appropriate for achieving this specific objective?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Increasing the Repo Rate"
+        },
+        {
+          "id": "B",
+          "text": "Raising the Cash Reserve Ratio (CRR)"
+        },
+        {
+          "id": "C",
+          "text": "Adjusting the Margin Requirements on loans for that sector"
+        },
+        {
+          "id": "D",
+          "text": "Increasing the Reverse Repo Rate"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The objective is to selectively influence the direction of credit without affecting the overall volume of money supply. Increasing the Repo Rate (A), CRR (B), or Reverse Repo Rate (D) are quantitative tools that would reduce the overall money supply or make credit more expensive across the board. Adjusting Margin Requirements is a qualitative tool designed specifically to curb speculation in targeted sectors by changing the loan-to-value ratio, making it the most appropriate instrument.",
+      "takeaway": "Understand the fundamental difference between quantitative tools (affecting overall credit volume) and qualitative tools (affecting credit direction) and be able to apply the correct tool to a given policy scenario.",
+      "evidenceExcerpt": "QUALITATIVE TOOLS (Direction of Credit) Selectively influence credit flow to specific sectors. MARGIN REQUIREMENTS Changing the loan-to-value (LTV) ratio. Higher margin = less loan amount for collateral. Used to curb speculation.",
+      "qualityScore": 90,
+      "reviewNotes": "This is an excellent application-based question that tests a deep understanding of the strategic purpose behind different monetary policy tools. The scenario is realistic and the distractors are perfectly parallel (all being major quantitative tools), making it a strong test of conceptual clarity."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Cash Reserve Ratio (CRR) and the Statutory Liquidity Ratio (SLR), consider the following statements:\n1. Both CRR and SLR are stipulated as a percentage of a bank's Net Demand and Time Liabilities (NDTL).\n2. While CRR must be maintained in the form of cash with the RBI, SLR is maintained by the banks themselves in specified liquid assets.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct. The source text defines both CRR and SLR as a '% of net demand & time liabilities (NDTL)'. Statement 2 is also correct. The text specifies that CRR is maintained as 'CASH with RBI', whereas SLR requires banks to maintain liquid assets 'by themselves'.",
+      "takeaway": "Clearly distinguish between CRR and SLR based on their calculation base (NDTL for both), the form of assets, and where the assets are held (with RBI vs. with the bank itself).",
+      "evidenceExcerpt": "CRR (Cash Reserve Ratio) % of net demand & time liabilities (NDTL) banks must keep as CASH with RBI. SLR (Statutory Liquidity Ratio) % of NDTL banks must maintain in LIQUID ASSETS (Gold, Bonds, Cash) by themselves.",
+      "qualityScore": 88,
+      "reviewNotes": "This is a strong conceptual question that tests the core differences between two fundamental monetary policy tools. The original candidate question had a statement about earning interest on SLR, which was not explicitly supported by the text. This rewritten version is fully grounded in the source while still testing the key distinctions effectively."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Reserve Bank of India's Economic Capital Framework (ECF), consider the following statements:\n1. The adoption of the ECF was based on the recommendations of the committee chaired by Dr. Bimal Jalan.\n2. The framework provides a methodology for determining the appropriate level of risk provisions and the distribution of surplus profits by the RBI.\n3. The Contingency Fund (CF) is classified as a component of 'Realized Equity' under this framework.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Statement 1 is correct. The source explicitly states that the ECF was adopted based on the recommendations of the Bimal Jalan Committee. Statement 2 is correct, as the ECF's purpose is to provide a methodology for determining risk provisions and profit distribution under Section 47 of the RBI Act, 1934. Statement 3 is also correct, as the text lists the Contingency Fund (CF) as a component of Realized Equity.",
+      "takeaway": "For important frameworks like the ECF, remember the recommending committee (Bimal Jalan), its core purpose (risk provisions and surplus distribution), and its key components (like Realized Equity and its constituents).",
+      "evidenceExcerpt": "Genesis: ECF was adopted by RBI in 2019, based on the recommendations of the Bimal Jalan Committee. Concept: ECF provides a methodology for determining the appropriate level of risk provisions and profit distribution... Components of Economic Capital under ECF: Realized Equity: This consists of RBI’s Capital, Reserve Fund, Contingency Fund (CF), and Asset Development Fund (ADF).",
+      "qualityScore": 85,
+      "reviewNotes": "This question effectively tests multiple facets of the ECF—its origin, purpose, and a key component. The statements are clear, directly supported by the text, and cover the most critical information on the topic. The original candidate question had an incorrect committee name, which was a good trap, but this version tests a broader range of correct knowledge."
+    }
+  ],
+  "reviewerNotes": "I have selected and rewritten four high-quality questions from the candidate pool. The chosen set covers the main topics of the source text: qualitative tools, quantitative tools (CRR/SLR), the Economic Capital Framework, and an application-based question distinguishing between the two types of tools. I rejected questions that were too trivial, definitional, or not fully grounded in the provided source text. The selected questions have been edited for clarity, precision, and adherence to the UPSC style, with plausible distractors and tight explanations."
+}

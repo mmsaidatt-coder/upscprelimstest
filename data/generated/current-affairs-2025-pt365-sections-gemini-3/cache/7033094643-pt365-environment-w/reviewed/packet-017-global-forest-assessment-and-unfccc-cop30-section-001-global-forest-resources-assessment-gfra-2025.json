@@ -1,0 +1,75 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the global distribution of forests:\n1. Forests currently cover more than half of the global land area.\n2. Nearly half of the world's forests are located in the tropics.\n3. Europe accounts for the largest share of the world's total forest area.\n\nHow many of the above statements are correct?",
+      "contextLines": [
+        "1. Forests currently cover more than half of the global land area.",
+        "2. Nearly half of the world's forests are located in the tropics.",
+        "3. Europe accounts for the largest share of the world's total forest area."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: According to the Global Forest Resources Assessment (GFRA) 2025, forests cover 32% of the global land area, which is roughly one-third, not more than half.\nStatement 2 is correct: Nearly half of the world's forests are located in the tropics.\nStatement 3 is correct: Europe has the largest forest area, accounting for 25% of the world's total.",
+      "takeaway": "Forests cover 32% of the global land area, with nearly half located in the tropics. Europe possesses the largest forest area globally (25%).",
+      "evidenceExcerpt": "Key highlights: Forests cover 32% of global land area. Nearly half of the world's forests are located in tropics... Europe has the largest forest area, accounting for 25% of world's total.",
+      "qualityScore": 85,
+      "reviewNotes": "A strong geography/environment question that tests broad, macro-level trends which UPSC frequently targets. The distractors are plausible and well-calibrated."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to global forest monitoring and assessment frameworks, consider the following statements:\n1. The Global Forest Resources Assessment (GFRA) is released by the United Nations Environment Programme (UNEP).\n2. The Global Forest Observations Initiative (GFOI) is a flagship programme of the Group on Earth Observations (GEO).\n3. India is a member of the Group on Earth Observations (GEO).\n\nHow many of the above statements are correct?",
+      "contextLines": [
+        "1. The Global Forest Resources Assessment (GFRA) is released by the United Nations Environment Programme (UNEP).",
+        "2. The Global Forest Observations Initiative (GFOI) is a flagship programme of the Group on Earth Observations (GEO).",
+        "3. India is a member of the Group on Earth Observations (GEO)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The Global Forest Resources Assessment (GFRA) is released by the Food and Agriculture Organization (FAO) every five years, not by UNEP.\nStatement 2 is correct: The Global Forest Observations Initiative (GFOI) is a flagship programme of the Group on Earth Observations (GEO).\nStatement 3 is correct: India is a member of the Group on Earth Observations (GEO).",
+      "takeaway": "The GFRA is a quinquennial assessment published by the FAO. The GFOI is driven by the GEO, an intergovernmental partnership of which India is a member.",
+      "evidenceExcerpt": "Global Forest Resources Assessment (GFRA) 2025 Released by: FAO, every 5 years. This year's edition published during Global Forest Observations Initiative (GFOI) Plenary in Bali, Indonesia. GFOI is a flagship programme of the Group on Earth Observations (GEO) (India is a member).",
+      "qualityScore": 85,
+      "reviewNotes": "Tests important institutional frameworks and India's membership status. The substitution of FAO with UNEP is a classic UPSC-style distractor."
+    }
+  ],
+  "reviewerNotes": "Selected Candidate 2 and Candidate 3 as they cover distinct and highly testable themes (global forest distribution and international environmental institutions). Refined the statements to align with UPSC's typical phrasing, ensuring distractors are plausible and explanations are tight."
+}

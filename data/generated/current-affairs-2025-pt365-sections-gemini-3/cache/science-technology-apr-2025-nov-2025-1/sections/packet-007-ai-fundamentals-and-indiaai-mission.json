@@ -1,0 +1,61 @@
+[
+  {
+    "id": "packet-007-ai-fundamentals-and-indiaai-mission-section-001-artificial-intelligence-fundamentals-terminology",
+    "packetId": "packet-007-ai-fundamentals-and-indiaai-mission",
+    "topic": "IT & Computer",
+    "subtopic": "AI Fundamentals and IndiaAI Mission",
+    "title": "Artificial Intelligence Fundamentals & Terminology",
+    "focus": "Core concepts, stages of AI, Machine Learning types, and LLM architectures.",
+    "pageNumbers": [
+      15
+    ],
+    "questionQuota": 4,
+    "rationale": "Foundational AI terminology is frequently tested in UPSC Prelims Science & Tech section, especially distinguishing between types of machine learning and AI stages.",
+    "sectionExcerpt": "Covers the stages of AI (ANI, AGI, ASI), Machine Learning types (Supervised, Unsupervised), NLP, Neural Networks, Deep Learning, LLMs, GPT architecture, and Agentic AI like India's Kruti.",
+    "evidenceBullets": [
+      "ANI specializes in one area; AGI learns continuously like humans; ASI surpasses human cognitive abilities.",
+      "Supervised learning uses labeled datasets; Unsupervised uses unlabeled datasets.",
+      "GPT stands for Generative Pre-trained Transformer, built on deep learning architecture.",
+      "Agentic AI systems autonomously make decisions and adapt (e.g., India's first agentic AI Kruti)."
+    ]
+  },
+  {
+    "id": "packet-007-ai-fundamentals-and-indiaai-mission-section-002-bharat-gen-and-ai-ecosystem-initiatives",
+    "packetId": "packet-007-ai-fundamentals-and-indiaai-mission",
+    "topic": "IT & Computer",
+    "subtopic": "AI Fundamentals and IndiaAI Mission",
+    "title": "Bharat Gen and AI Ecosystem Initiatives",
+    "focus": "India's indigenous AI initiatives, IndiaAI Mission, and global AI pacts.",
+    "pageNumbers": [
+      16
+    ],
+    "questionQuota": 5,
+    "rationale": "Government missions, implementing agencies, and international declarations are prime targets for UPSC questions. Bharat Gen's implementation details and the Bletchley Declaration are highly relevant.",
+    "sectionExcerpt": "Details the launch of Bharat Gen, an indigenous multimodal LLM for Indian languages under NM-ICPS, implemented by IIT Bombay. Also covers the IndiaAI Mission, AIRAWAT, GPAI, Europe's AI Act, and the Bletchley Declaration.",
+    "evidenceBullets": [
+      "Bharat Gen is India's first indigenously developed AI-based Multimodal LLM for all 22 scheduled Indian languages.",
+      "Bharat Gen is developed under NM-ICPS and implemented through TIH at IIT Bombay with DST funding.",
+      "IndiaAI Mission is implemented by the IndiaAI IBD under Digital India Corporation (MeitY).",
+      "AIRAWAT provides a common compute platform for AI research.",
+      "Bletchley Declaration (2023) establishes a shared understanding of frontier AI risks, signed by 28 countries and the EU."
+    ]
+  },
+  {
+    "id": "packet-007-ai-fundamentals-and-indiaai-mission-section-003-deepfakes",
+    "packetId": "packet-007-ai-fundamentals-and-indiaai-mission",
+    "topic": "IT & Computer",
+    "subtopic": "AI Fundamentals and IndiaAI Mission",
+    "title": "Deepfakes",
+    "focus": "Definition, underlying technology, and recent legislative actions regarding Deepfakes.",
+    "pageNumbers": [
+      16
+    ],
+    "questionQuota": 2,
+    "rationale": "Deepfakes are a major contemporary issue. The underlying technology (deep learning) and recent legislative actions form a distinct, testable micro-topic.",
+    "sectionExcerpt": "Defines Deepfakes as AI-manipulated video, photo, or audio recordings using deep learning techniques, and mentions the US Take It Down Act enacted to tackle harmful deepfakes online.",
+    "evidenceBullets": [
+      "Deepfakes use deep learning techniques to manipulate video, photo, or audio recordings.",
+      "The US recently enacted the Take It Down Act to tackle harmful deepfakes online."
+    ]
+  }
+]

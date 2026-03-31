@@ -1,0 +1,178 @@
+{
+  "questions": [
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Which of the following is an exception to the disqualification rules under the Anti-Defection Law?",
+      "options": [
+        {
+          "id": "A",
+          "text": "If a member is expelled from their original political party."
+        },
+        {
+          "id": "B",
+          "text": "If a member joins another party along with one-third of the members of their original party."
+        },
+        {
+          "id": "C",
+          "text": "If a member, after being elected as the Speaker of Lok Sabha, voluntarily gives up the membership of their party."
+        },
+        {
+          "id": "D",
+          "text": "If a member votes against the party whip and the party condones the action within 30 days."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Option C is a valid exception: The Speaker of Lok Sabha, Deputy Speaker, Chairman of Rajya Sabha, and Deputy Chairman may resign from their party and rejoin after demitting office without being disqualified. Option B is incorrect because the current threshold for a merger is two-thirds, not one-third. Option D is incorrect because condonation must happen within 15 days, not 30.",
+      "takeaway": "Presiding officers are granted specific immunity from disqualification to maintain the neutrality of their office.",
+      "evidenceExcerpt": "Exception: A party merger is allowed if supported by two-thirds of its legislators. Speaker of Lok Sabha, Deputy Speaker, Chairman of Rajya Sabha and Deputy Chairman may resign from party and rejoin after demitting office.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Hard",
+      "questionType": "Conceptual",
+      "prompt": "Regarding the judicial review of disqualification proceedings under the Anti-Defection Law, which of the following statements best reflects the position established by the Supreme Court?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The judiciary can issue a stay on disqualification proceedings as soon as a petition is filed with the Speaker."
+        },
+        {
+          "id": "B",
+          "text": "Courts can intervene only after the Presiding Officer has made a final decision on the disqualification petition."
+        },
+        {
+          "id": "C",
+          "text": "The decision of the Presiding Officer is final and remains outside the ambit of judicial review to maintain parliamentary privilege."
+        },
+        {
+          "id": "D",
+          "text": "The Supreme Court has the power to decide disqualification petitions directly if the Speaker fails to act within 15 days."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "According to the Kihoto Hollohan case (1992) and the source material, while the Speaker's decision is subject to judicial review, the courts cannot intervene at an interlocutory stage. They can only intervene after the Presiding Officer has decided on the matter.",
+      "takeaway": "Judicial review of anti-defection proceedings is reactive, not proactive; it occurs only after the Speaker's adjudication.",
+      "evidenceExcerpt": "Courts can intervene only after Presiding Officer has decided on matter. Kihoto Hollohan vs Zachillhu, 1992: Speaker's decision under anti-defection law is subject to judicial review.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Mechanism-based",
+      "prompt": "Under the Tenth Schedule, a member of a House is disqualified if they vote or abstain from voting contrary to the direction of their political party. However, this disqualification is avoided if the act is condoned by the party within:",
+      "options": [
+        {
+          "id": "A",
+          "text": "7 days"
+        },
+        {
+          "id": "B",
+          "text": "15 days"
+        },
+        {
+          "id": "C",
+          "text": "30 days"
+        },
+        {
+          "id": "D",
+          "text": "3 months"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The law provides a window for reconciliation. If a member votes or abstains against the party whip, they are not disqualified if the political party condones the action within 15 days from the date of such voting or abstention.",
+      "takeaway": "The Anti-Defection Law provides a 15-day condonation period for whip violations.",
+      "evidenceExcerpt": "Disqualification happens if: ... votes/abstain against party whip without condonation within 15 days.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Hard",
+      "questionType": "Case-Law-Application",
+      "prompt": "In the case of Keisham Meghachandra Singh v. Speaker, Manipur Legislative Assembly (2020), the Supreme Court provided a significant recommendation regarding the functioning of the Tenth Schedule. What was this recommendation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Disqualification petitions must be decided by the President of India instead of the Speaker."
+        },
+        {
+          "id": "B",
+          "text": "The Speaker should decide disqualification petitions within a reasonable period, typically three months."
+        },
+        {
+          "id": "C",
+          "text": "A member who defects should be barred from contesting elections for a period of six years."
+        },
+        {
+          "id": "D",
+          "text": "The power of judicial review over the Speaker's decision should be abolished to ensure legislative independence."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "In the Keisham Meghachandra Singh case (2020), the Supreme Court held that disqualification petitions under the Tenth Schedule should be decided within a reasonable period, which it suggested should be three months from the date of filing, unless there are exceptional circumstances.",
+      "takeaway": "The judiciary has sought to curb the 'indefinite delay' tactic used by Speakers by suggesting a three-month timeline for defection cases.",
+      "evidenceExcerpt": "Keisham Meghachandra Singh v. Speaker, Manipur Legislative Assembly, 2020: Disqualification petitions under Tenth Schedule should be decided within a period of three months from date of their filing.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Feature-matching",
+      "prompt": "Which of the following officials are specifically mentioned in the Tenth Schedule as being exempt from disqualification if they voluntarily give up their party membership upon taking office?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The Prime Minister and the Leader of the Opposition."
+        },
+        {
+          "id": "B",
+          "text": "The Attorney General and the Solicitor General."
+        },
+        {
+          "id": "C",
+          "text": "The Speaker and Deputy Speaker of the Lok Sabha, and the Chairman and Deputy Chairman of the Rajya Sabha."
+        },
+        {
+          "id": "D",
+          "text": "Only the Speaker of the Lok Sabha and the Chairman of the Rajya Sabha."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "To protect the neutrality of their offices, the Tenth Schedule allows the Speaker and Deputy Speaker of the Lok Sabha, as well as the Chairman and Deputy Chairman of the Rajya Sabha (and their state counterparts), to resign from their party and rejoin it after they demit office without being disqualified.",
+      "takeaway": "Presiding officers have a specific exemption under the Anti-Defection Law to maintain the dignity and neutrality of their positions.",
+      "evidenceExcerpt": "Exception: ... Speaker of Lok Sabha, Deputy Speaker, Chairman of Rajya Sabha and Deputy Chairman may resign from party and rejoin after demitting office.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "In the context of the Anti-Defection Law, what is the minimum requirement for a 'merger' between two political parties to be recognized as an exception to disqualification?",
+      "options": [
+        {
+          "id": "A",
+          "text": "At least one-third of the members of the party in the House must agree to the merger."
+        },
+        {
+          "id": "B",
+          "text": "At least one-half of the members of the party in the House must agree to the merger."
+        },
+        {
+          "id": "C",
+          "text": "At least two-thirds of the members of the party in the House must agree to the merger."
+        },
+        {
+          "id": "D",
+          "text": "The merger must be approved by the Election Commission of India regardless of the number of legislators."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The Tenth Schedule provides an exception for mergers. A member is not disqualified if their original political party merges with another party, provided that at least two-thirds of the members of the legislature party have agreed to such a merger.",
+      "takeaway": "The threshold for a legal 'merger' under the 10th Schedule was raised from one-third to two-thirds to prevent easy defections.",
+      "evidenceExcerpt": "Exception: A party merger is allowed if supported by two-thirds of its legislators.",
+      "contextLines": []
+    }
+  ]
+}

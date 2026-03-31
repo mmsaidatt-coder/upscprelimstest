@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding dams and reservoirs in India:\n1. Globally, India ranks behind only China and the United States in the number of large dams.\n2. The State with the highest number of large dams in India also hosts the country's largest reservoir by volume.\n3. The Indira Sagar Dam, India's largest reservoir by volume, is located on the Godavari River.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: India is the 3rd largest dam-owning nation globally, following China and the USA. Statement 2 is incorrect: Maharashtra has the highest number of large dams among Indian states, whereas Madhya Pradesh hosts the largest reservoir by volume. Statement 3 is incorrect: The Indira Sagar Dam is located on the Narmada River, not the Godavari River.",
+      "takeaway": "India is the 3rd largest dam-owning nation. Maharashtra has the most large dams, while Madhya Pradesh has the largest reservoir by volume (Indira Sagar on the Narmada River).",
+      "evidenceExcerpt": "India is the 3rd largest dam-owning nation (after China and USA), with Maharashtra having the highest number of large dams and Indira Sagar being the largest by volume... Indira Sagar Dam (Narmada River, MP) is India's largest reservoir by volume.",
+      "qualityScore": 85,
+      "reviewNotes": "Excellent synthesis of geographical facts. The distractors are highly plausible and test the candidate's precision regarding state-wise distribution and river systems."
+    }
+  ],
+  "reviewerNotes": "Selected and refined 4 questions to ensure they meet UPSC standards. Improved the phrasing of statement-based questions to include standard 'How many of the above' and 'Which of the statements' formats. Ensured distractors are plausible and explanations are concise and directly tied to the source text."
+}

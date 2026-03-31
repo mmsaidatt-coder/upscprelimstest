@@ -1,0 +1,219 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding India's Advanced Medium Combat Aircraft (AMCA) programme:\n1. It is a fifth-generation fighter jet programme led by the Aeronautical Development Agency (ADA) under the DRDO.\n2. India is jointly manufacturing advanced jet engines for the AMCA in partnership with a French aerospace company.\n3. The aircraft is designed to feature supercruise capabilities and AI-based avionics.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: The AMCA programme is led by the Aeronautical Development Agency (ADA) under DRDO. Statement 2 is correct: India is partnering with French aerospace major Safran to manufacture advanced jet engines for the AMCA. Statement 3 is correct: AMCA features supercruise, stealth, and AI avionics.",
+      "takeaway": "The AMCA is India's indigenous 5th generation fighter programme, spearheaded by ADA (DRDO) with engine manufacturing support from France's Safran.",
+      "evidenceExcerpt": "India is jointly manufacturing advanced jet engines for its 5th generation Advanced Medium Combat Aircraft (AMCA) with French aerospace major Safran. Led by ADA under DRDO, AMCA features supercruise, stealth, and AI avionics."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the classification of fighter jet generations, consider the following statements:\n1. Fifth-generation fighter jets are primarily characterized by single-engine designs and external weapons bays.\n2. Aircraft such as the Rafale and Eurofighter Typhoon are classified as 4.5th generation as they integrate stealth and radar absorbent materials.\n3. Currently, the United States, Russia, and France are the only countries with operational fifth-generation fighter aircraft.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect: 5th generation fighters feature twin engines and internal weapons bays to maintain stealth. Statement 2 is correct: 4.5th generation fighters (e.g., Rafale, Eurofighter Typhoon) added stealth and radar absorbent materials to extend 4th generation capabilities. Statement 3 is incorrect: Only the US, Russia, and China currently have operational 5th generation aircraft; France operates the 4.5th generation Rafale.",
+      "takeaway": "5th generation fighters are distinguished by twin engines, supercruise, and internal weapons bays. Only the US, Russia, and China currently operate them.",
+      "evidenceExcerpt": "Only the US (F-22, F-35), Russia (Su-57), and China (J-20) currently have operational 5th generation aircraft. 5th generation fighters feature stealth capabilities, twin engines, supercruise, and internal weapons bays. 4.5th generation fighters (e.g., Rafale, Eurofighter Typhoon) added stealth and radar absorbent materials to extend 4th generation capabilities."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of fighter aircraft and their corresponding generation classification:\n1. Su-57 : Fifth generation\n2. Eurofighter Typhoon : 4.5th generation\n3. F-16 : Fourth generation\n4. J-20 : 4.5th generation\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "Only three pairs"
+        },
+        {
+          "id": "D",
+          "text": "All four pairs"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Pairs 1, 2, and 3 are correctly matched. The Russian Su-57 is a 5th generation fighter. The Eurofighter Typhoon is a 4.5th generation fighter. The F-16 is a 4th generation fighter. Pair 4 is incorrectly matched as the Chinese J-20 is an operational 5th generation aircraft, not 4.5th generation.",
+      "takeaway": "Understanding the generational classification of prominent global fighter jets helps distinguish between their technological capabilities, such as the leap from 4th generation (F-16) to 5th generation (Su-57, J-20).",
+      "evidenceExcerpt": "Only the US (F-22, F-35), Russia (Su-57), and China (J-20) currently have operational 5th generation aircraft... compares them with 4th (MiG-29, F-16) and 4.5th (Rafale) generation jets. 4.5th generation fighters (e.g., Rafale, Eurofighter Typhoon)..."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Multiple-choice",
+      "prompt": "Which of the following countries currently possess operational fifth-generation fighter aircraft?\n1. China\n2. France\n3. Russia\n4. United States\n5. India\n\nSelect the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1, 3 and 4 only"
+        },
+        {
+          "id": "B",
+          "text": "2, 3, 4 and 5 only"
+        },
+        {
+          "id": "C",
+          "text": "1, 2 and 4 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 3, 4 and 5 only"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Currently, only the United States (F-22, F-35), Russia (Su-57), and China (J-20) have operational 5th generation fighter aircraft. India is still developing its 5th generation AMCA, and France operates 4.5th generation fighters like the Rafale.",
+      "takeaway": "The club of nations with operational 5th generation fighter jets is currently limited to the US, Russia, and China.",
+      "evidenceExcerpt": "Only the US (F-22, F-35), Russia (Su-57), and China (J-20) currently have operational 5th generation aircraft."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "statement-based",
+      "prompt": "Consider the following statements regarding the technological classification of fighter aircraft:\n\n1. The integration of internal weapons bays is a defining design shift that distinguishes 5th generation fighters from earlier generations.\n2. The application of radar absorbent materials elevates 4th generation platforms like the Rafale directly into the 5th generation category.\n3. India is developing the engine for its 5th generation Advanced Medium Combat Aircraft (AMCA) entirely through indigenous efforts under the DRDO.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [
+        "5th generation fighters feature stealth capabilities, twin engines, supercruise, and internal weapons bays.",
+        "4.5th generation fighters (e.g., Rafale, Eurofighter Typhoon) added stealth and radar absorbent materials to extend 4th generation capabilities.",
+        "India is jointly manufacturing advanced jet engines for its 5th generation Advanced Medium Combat Aircraft (AMCA) with French aerospace major Safran."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: 5th generation fighters are characterized by internal weapons bays, unlike earlier generations. Statement 2 is incorrect: The addition of radar absorbent materials to 4th generation aircraft classifies them as 4.5th generation, not 5th. Statement 3 is incorrect: India is jointly manufacturing the AMCA engines with French aerospace major Safran, not entirely indigenously.",
+      "takeaway": "Understanding the specific technological leaps between fighter generations is crucial; 4.5th generation added radar absorbent materials, while 5th generation introduced internal weapons bays and supercruise.",
+      "evidenceExcerpt": "5th generation fighters feature stealth capabilities, twin engines, supercruise, and internal weapons bays. 4.5th generation fighters (e.g., Rafale, Eurofighter Typhoon) added stealth and radar absorbent materials... India is jointly manufacturing advanced jet engines for its 5th generation Advanced Medium Combat Aircraft (AMCA) with French aerospace major Safran."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "application",
+      "prompt": "Based on their technological features, which of the following fighter aircraft are characterized by the integration of internal weapons bays and supercruise capabilities?\n\n1. J-20\n2. Eurofighter Typhoon\n3. Su-57\n4. F-35\n5. MiG-29\n\nSelect the correct answer using the code given below:",
+      "contextLines": [
+        "5th generation fighters feature stealth capabilities, twin engines, supercruise, and internal weapons bays.",
+        "Only the US (F-22, F-35), Russia (Su-57), and China (J-20) currently have operational 5th generation aircraft.",
+        "4.5th generation fighters (e.g., Rafale, Eurofighter Typhoon) added stealth and radar absorbent materials to extend 4th generation capabilities.",
+        "compares them with 4th (MiG-29, F-16) and 4.5th (Rafale) generation jets."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "1, 2 and 4 only"
+        },
+        {
+          "id": "B",
+          "text": "1, 3 and 4 only"
+        },
+        {
+          "id": "C",
+          "text": "2, 3 and 5 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 3, 4 and 5 only"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Internal weapons bays and supercruise are defining features of 5th generation fighter aircraft. Among the options provided, the J-20 (China), Su-57 (Russia), and F-35 (US) are 5th generation aircraft. The Eurofighter Typhoon is a 4.5th generation fighter, and the MiG-29 is a 4th generation fighter.",
+      "takeaway": "Candidates must be able to link specific technological capabilities (supercruise, internal bays) to their respective generations, and subsequently identify which global aircraft belong to that generation.",
+      "evidenceExcerpt": "Only the US (F-22, F-35), Russia (Su-57), and China (J-20) currently have operational 5th generation aircraft. 5th generation fighters feature stealth capabilities, twin engines, supercruise, and internal weapons bays."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "comparison",
+      "prompt": "Which of the following features represent the technological advancements that explicitly distinguish 5th generation fighter aircraft from 4.5th generation platforms?\n\n1. Internal weapons bays\n2. Supercruise capabilities\n3. Radar absorbent materials\n\nSelect the correct answer using the code given below:",
+      "contextLines": [
+        "5th generation fighters feature stealth capabilities, twin engines, supercruise, and internal weapons bays.",
+        "4.5th generation fighters (e.g., Rafale, Eurofighter Typhoon) added stealth and radar absorbent materials to extend 4th generation capabilities."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "4.5th generation fighters already incorporate stealth and radar absorbent materials to enhance their capabilities. The leap to the 5th generation is defined by the addition of internal weapons bays and supercruise capabilities.",
+      "takeaway": "The evolution of fighter jets is incremental; 4.5th generation introduced stealth coatings (radar absorbent materials) to existing airframes, while 5th generation requires ground-up redesigns for internal weapons bays and supercruise.",
+      "evidenceExcerpt": "5th generation fighters feature stealth capabilities, twin engines, supercruise, and internal weapons bays. 4.5th generation fighters (e.g., Rafale, Eurofighter Typhoon) added stealth and radar absorbent materials to extend 4th generation capabilities."
+    }
+  ]
+}

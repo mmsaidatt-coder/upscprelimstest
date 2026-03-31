@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "History",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the ICC World Test Championship (WTC), consider the following statements: 1. The league standings are determined based on the total number of matches won by each team. 2. The 'Percentage of Points' (PCT) system was adopted to address the disruption of matches caused by the COVID-19 pandemic. 3. In the inaugural cycle, New Zealand ranked ahead of England despite winning fewer matches. Which of the statements given above are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect because the WTC league standings are determined by the percentage of points (PCT) earned, not the total number of matches won. Statement 2 is correct as the ICC introduced the PCT system to ensure a fair ranking after the COVID-19 pandemic disrupted the scheduled matches. Statement 3 is correct; in the inaugural cycle, New Zealand (7 wins) ranked 2nd with a 70% PCT, while England (11 wins) ranked 4th with a 61% PCT, proving that a team with fewer wins could rank higher.",
+      "takeaway": "The WTC ranking system uses the Percentage of Points (PCT) to normalize standings when teams play an unequal number of matches.",
+      "evidenceExcerpt": "The ICC considered percentage of points earned from the contested matches in deciding the finalists of the inaugural World Test Championship (WTC), which had been affected by the COVID-19 pandemic... New Zealand finished in the second spot with 70 percentage of points, including seven wins... while England was at 4th with 61. percentage of points, including 11 wins.",
+      "qualityScore": 88,
+      "reviewNotes": "This question synthesizes the historical context and technical ranking criteria of the WTC, mirroring the depth of UPSC prelims questions. It is grounded in the provided source text and PYQ analysis. ",
+      "contextLines": []
+    }
+  ],
+  "reviewerNotes": "The selected questions are high-quality derivatives of the 2021 PYQ, focusing on the conceptual underpinnings of the PCT system and its practical application. They are grounded in the provided source text and follow the UPSC style."
+}

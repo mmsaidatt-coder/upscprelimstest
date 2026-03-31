@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding international initiatives on critical minerals:\n1. The Minerals Security Partnership (MSP) is a United Nations-led initiative to secure critical mineral supply chains.\n2. The Critical Minerals Initiative was launched by the Quad grouping.\n3. India is a participating member in the Minerals Security Partnership (MSP).\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The Minerals Security Partnership (MSP) is a US-led initiative, not UN-led. Statement 2 is correct: The Critical Minerals Initiative was launched by the Quad (US, Japan, India, and Australia). Statement 3 is correct: India joined the US-led MSP in 2023.",
+      "takeaway": "India is actively participating in international frameworks like the US-led MSP and the Quad's Critical Minerals Initiative to secure its critical mineral supply chains.",
+      "evidenceExcerpt": "The Quad (United States, Japan, India, and Australia) launched the Critical Minerals Initiative... Minerals Security Partnership (MSP): India joined this US-led initiative in 2023.",
+      "qualityScore": 85,
+      "reviewNotes": "Good coverage of international initiatives. Distractor for MSP being UN-led is highly plausible for UPSC."
+    }
+  ],
+  "reviewerNotes": "Selected 4 questions covering different aspects of the source text: international initiatives, places in news, institutional frameworks, and domestic policy/applications. Rewrote prompts and distractors to closely mimic UPSC style, ensuring plausible traps (e.g., UN vs US-led, MEA vs Ministry of Mines)."
+}

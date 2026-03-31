@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Species Description",
+      "prompt": "Consider the following passage:\n\n\"It is a rare and fragrant plant species native to the Himalayan region, known for its white or pink flowers with dark spots and stripes. It is rich in active chemical constituents like alkaloids and furocoumarins, making it valuable for treating conditions such as bronchitis and rheumatism. Currently, it is listed as Critically Endangered by the IUCN.\"\n\nWhich one of the following species is best described by the passage given above?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "*Saussurea obvallata*"
+        },
+        {
+          "id": "B",
+          "text": "*Aconitum heterophyllum*"
+        },
+        {
+          "id": "C",
+          "text": "*Lilium polyphyllum*"
+        },
+        {
+          "id": "D",
+          "text": "*Fritillaria roylei*"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The passage describes the White Himalayan Lily (*Lilium polyphyllum*). It is a critically endangered species native to the Himalayas, characterized by its fragrant white or pink flowers and its rich alkaloid and furocoumarin content used in traditional medicine. The other options are also Himalayan medicinal or culturally significant plants but do not match the specific chemical and morphological description provided.",
+      "takeaway": "Species description questions often rely on a combination of habitat (Himalayas), morphology (white/pink flowers with spots), chemical properties (alkaloids/furocoumarins), and conservation status (CR).",
+      "evidenceExcerpt": "White Himalayan Lily (Lilium polyphyllum). Rare and fragrant lily species native to Himalayan region. Known for white or pink flowers with dark spots and stripes. Rich in active chemical constituents like alkaloids and furocoumarins... IUCN Status: Critically Endangered (CR).",
+      "qualityScore": 92,
+      "reviewNotes": "Excellent paragraph-based species identification question. The distractors are highly plausible as they are all notable Himalayan plant species, making it a rigorous test of specific knowledge."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the White Himalayan Lily (*Lilium polyphyllum*), consider the following statements:\n1. It is a rare plant species naturally endemic to the Western Ghats.\n2. It is rich in active chemical constituents like furocoumarins, which are used in traditional medicine.\n3. It is listed as Critically Endangered on the IUCN Red List.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The White Himalayan Lily (*Lilium polyphyllum*) is native to the Himalayan region, not the Western Ghats.\nStatement 2 is correct: It is rich in active chemical constituents like alkaloids and furocoumarins, which are used for treating conditions like haematemesis, bronchitis, and rheumatism.\nStatement 3 is correct: Its IUCN conservation status is Critically Endangered (CR).",
+      "takeaway": "The White Himalayan Lily is a Critically Endangered medicinal plant native to the Himalayas, valued for its alkaloids and furocoumarins.",
+      "evidenceExcerpt": "Rare and fragrant lily species native to Himalayan region... Rich in active chemical constituents like alkaloids and furocoumarins. Used for treating haematemesis, bronchitis, rheumatism, etc. IUCN Status: Critically Endangered (CR).",
+      "qualityScore": 88,
+      "reviewNotes": "A solid statement-based question with a classic geographical distractor (Western Ghats vs Himalayas) and accurate testing of medicinal properties and conservation status."
+    }
+  ],
+  "reviewerNotes": "Both candidates were strong and well-aligned with UPSC patterns. Candidate 1 was refined to improve the phrasing of the statements. Candidate 2 was formatted into a standard UPSC 'Consider the following passage' style, with scientific names italicized for authenticity."
+}

@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Application",
+      "prompt": "An Indian firm acts as an intermediary, facilitating the supply of services between a foreign company and its international clients. Under the recent Goods and Services Tax (GST) export reforms, how is the 'place of supply' for this intermediary service determined?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "By the location of the Indian intermediary, making the service liable to standard domestic GST."
+        },
+        {
+          "id": "B",
+          "text": "By the location of the recipient of the service, allowing the transaction to qualify for export benefits."
+        },
+        {
+          "id": "C",
+          "text": "By the location where the underlying service is ultimately consumed by the international clients."
+        },
+        {
+          "id": "D",
+          "text": "By the location of the foreign company's headquarters, irrespective of the actual recipient's location."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Under the recent GST export reforms, the place of supply for 'intermediary services' is determined by the location of the recipient of such services. In this scenario, since the recipient is foreign, the place of supply is outside India. This aids Indian exporters by allowing the service to qualify for export benefits, rather than being burdened with domestic GST based on the intermediary's location.",
+      "takeaway": "The shift in determining the place of supply for intermediary services to the recipient's location is a significant reform aimed at boosting service exports by removing domestic tax friction.",
+      "evidenceExcerpt": "Export Benefits: Recommended that the place of supply for 'intermediary services' will be determined as per the location of the recipient of such services... aiding Indian exporters.",
+      "qualityScore": 88,
+      "reviewNotes": "Strong application question. It tests the candidate's understanding of the practical implications of the 'place of supply' rule change, which is highly relevant for UPSC Economy questions."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-Driven",
+      "prompt": "With reference to the recent administrative and export reforms under the Goods and Services Tax (GST) framework, consider the following statements:\n\n1. The Goods and Services Tax Appellate Tribunal (GSTAT) is scheduled to become operational for appeals by September 2025.\n2. A simplified GST registration scheme has been made mandatory for all small and low-risk businesses to enhance compliance.\n3. The place of supply for 'intermediary services' is determined by the location of the recipient of such services.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The Goods and Services Tax Appellate Tribunal (GSTAT) is set to be operational for appeals before the end of September 2025. Statement 2 is incorrect: The simplified GST registration scheme recommended for small and low-risk businesses is optional, not mandatory. Statement 3 is correct: Under recent export benefits, the place of supply for 'intermediary services' is determined as per the location of the recipient of such services, which aids Indian exporters. Therefore, exactly two statements are correct.",
+      "takeaway": "Recent GST reforms focus on ease of doing business through an optional simplified registration scheme for small businesses, operationalizing GSTAT by September 2025, and shifting the place of supply for intermediary services to the recipient's location.",
+      "evidenceExcerpt": "Dispute Resolution: The Goods and Services Tax Appellate Tribunal (GSTAT) is set to be operational for appeals before the end of September 2025. Registration Ease: A simplified, optional GST registration scheme is recommended for small and low-risk businesses. Export Benefits: Recommended that the place of supply for 'intermediary services' will be determined as per the location of the recipient of such services.",
+      "qualityScore": 85,
+      "reviewNotes": "Good coverage of multiple factual points from the text. The distractor in statement 2 (mandatory vs optional) is a classic UPSC trap."
+    }
+  ],
+  "reviewerNotes": "Selected two questions: one statement-based covering the breadth of the reforms, and one application-based focusing deeply on the 'place of supply' concept. Rewrote the options in the application question to be more concise and parallel."
+}

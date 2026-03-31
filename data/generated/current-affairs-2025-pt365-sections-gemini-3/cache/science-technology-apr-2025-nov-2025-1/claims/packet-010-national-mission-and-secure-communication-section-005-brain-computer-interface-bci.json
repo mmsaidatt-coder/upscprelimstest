@@ -1,0 +1,62 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-010-national-mission-and-secure-communication-section-005-brain-computer-interface-bci",
+    "claimType": "Conceptual",
+    "claimText": "Brain-Computer Interface (BCI) technology enables direct brain-to-device communication by translating neural signals into commands, bypassing the need for muscular control.",
+    "evidenceExcerpt": "BCI translates neural signals into commands, allowing device operation via thought alone, bypassing muscular control.",
+    "pageNumbers": [
+      22
+    ],
+    "examUse": "Statement-based question on the fundamental mechanism of BCI technology.",
+    "distractorHooks": [
+      "BCI requires micro-muscular movements to operate devices",
+      "BCI translates vocal cord vibrations into digital commands"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-010-national-mission-and-secure-communication-section-005-brain-computer-interface-bci",
+    "claimType": "Factual",
+    "claimText": "Brain activity for Brain-Computer Interfaces can be acquired using either invasive implants or non-invasive wearable devices.",
+    "evidenceExcerpt": "Can use invasive implants or non-invasive wearables to acquire brain activity.",
+    "pageNumbers": [
+      22
+    ],
+    "examUse": "Statement-based question on the deployment methods of BCI.",
+    "distractorHooks": [
+      "BCI technology exclusively requires invasive surgical implants",
+      "BCI can only be operated through non-invasive external helmets"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-010-national-mission-and-secure-communication-section-005-brain-computer-interface-bci",
+    "claimType": "Factual",
+    "claimText": "Stanford scientists have developed a privacy-focused Brain-Computer Interface that requires a mental password before decoding thoughts.",
+    "evidenceExcerpt": "Stanford developed a privacy-focused BCI requiring a mental password before decoding thoughts.",
+    "pageNumbers": [
+      22
+    ],
+    "examUse": "Current affairs statement on recent advancements in BCI privacy and security.",
+    "distractorHooks": [
+      "BCI systems currently lack any form of password protection",
+      "The mental password BCI requires physical biometric verification"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-010-national-mission-and-secure-communication-section-005-brain-computer-interface-bci",
+    "claimType": "Application",
+    "claimText": "Applications of Brain-Computer Interfaces include restoring mobility for paralysis and stroke patients, speech restoration, mental wellness, and cognitive enhancement.",
+    "evidenceExcerpt": "Applications include restoring mobility/speech, mental wellness, gaming, and cognitive enhancement.",
+    "pageNumbers": [
+      22
+    ],
+    "examUse": "Multiple-statement application question on the potential uses of BCI technology.",
+    "distractorHooks": [
+      "BCI applications are strictly limited to medical rehabilitation",
+      "BCI cannot be used for cognitive enhancement or mental wellness"
+    ]
+  }
+]

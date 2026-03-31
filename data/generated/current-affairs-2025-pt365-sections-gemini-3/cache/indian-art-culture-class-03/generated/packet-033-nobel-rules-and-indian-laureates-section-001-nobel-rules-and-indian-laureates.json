@@ -1,0 +1,33 @@
+{
+  "questions": [
+    {
+      "subject": "History",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Regarding the administration and nature of the Nobel Prize, which of the following is correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The prizes are state-sponsored awards administered by the Swedish government."
+        },
+        {
+          "id": "B",
+          "text": "The Nobel Peace Prize is the only category that can be awarded to an organization."
+        },
+        {
+          "id": "C",
+          "text": "A candidate can nominate themselves if they provide sufficient evidence of their work."
+        },
+        {
+          "id": "D",
+          "text": "The Nobel Prize in Economic Sciences was the first category established in 1901."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Option B is correct: All Nobel prizes are for individuals except the Peace Prize, which can be given to institutions. Option A is incorrect: The prizes are independent of the state. Option C is incorrect: Self-nominations are not allowed. Option D is incorrect: The first prizes were in 1901, but Economic Sciences (Nobel Memorial Prize) was established later (Indian laureates in this field appear from 1998 onwards).",
+      "takeaway": "The Peace Prize is unique among Nobel categories for its eligibility criteria regarding institutions.",
+      "evidenceExcerpt": "All prizes can be conferred to individuals except for the Peace Prize which can be conferred upon an institution as well... Also, the Nobel Prizes are independent of the state.",
+      "contextLines": []
+    }
+  ]
+}

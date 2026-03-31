@@ -1,0 +1,79 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-012-upi-ecosystem-and-credit-ratings-section-001-unified-payments-interface-upi-and-npci",
+    "claimType": "Factual",
+    "claimText": "Namibia is the first African country to adopt the Unified Payments Interface (UPI) system.",
+    "evidenceExcerpt": "Namibia is the first African country to adopt the UPI system for real-time digital payments.",
+    "pageNumbers": [
+      24
+    ],
+    "examUse": "Statement-based question on the internationalization of India's digital payment systems.",
+    "distractorHooks": [
+      "South Africa or Kenya as the first African country",
+      "First European country instead of African"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-012-upi-ecosystem-and-credit-ratings-section-001-unified-payments-interface-upi-and-npci",
+    "claimType": "Conceptual",
+    "claimText": "The Unified Payments Interface (UPI) is built over the Immediate Payment Service (IMPS) infrastructure.",
+    "evidenceExcerpt": "UPI is built over the Immediate Payment Service (IMPS) infrastructure.",
+    "pageNumbers": [
+      24
+    ],
+    "examUse": "Statement-based question on the technical foundation and architecture of UPI.",
+    "distractorHooks": [
+      "Built over NEFT infrastructure",
+      "Built over RTGS infrastructure",
+      "Built over NACH infrastructure"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-012-upi-ecosystem-and-credit-ratings-section-001-unified-payments-interface-upi-and-npci",
+    "claimType": "Factual",
+    "claimText": "NPCI has raised the per-UPI transaction limit to Rs 5 Lakh.",
+    "evidenceExcerpt": "NPCI raised the per-UPI transaction limit to Rs 5 Lakh and the cumulative 24-hour limit to Rs 10 Lakh for Person to Merchant transactions.",
+    "pageNumbers": [
+      24
+    ],
+    "examUse": "Fact-based statement in a multi-statement question on UPI transaction limits.",
+    "distractorHooks": [
+      "Limit raised to Rs 10 Lakh per transaction",
+      "Limit raised to Rs 2 Lakh per transaction"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-012-upi-ecosystem-and-credit-ratings-section-001-unified-payments-interface-upi-and-npci",
+    "claimType": "Institutional",
+    "claimText": "NPCI International Payments Limited (NIPL) is a wholly owned subsidiary of NPCI incorporated to deploy RuPay and UPI outside India.",
+    "evidenceExcerpt": "NIPL is a wholly owned subsidiary of NPCI incorporated in 2020 to deploy RuPay and UPI outside India.",
+    "pageNumbers": [
+      24
+    ],
+    "examUse": "Institution-feature question on NIPL's mandate and ownership.",
+    "distractorHooks": [
+      "NIPL is a direct subsidiary of the RBI",
+      "NIPL manages domestic retail payments instead of international deployment"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-012-upi-ecosystem-and-credit-ratings-section-001-unified-payments-interface-upi-and-npci",
+    "claimType": "Institutional",
+    "claimText": "NPCI is a not-for-profit company initiated by the Reserve Bank of India (RBI) and the Indian Banks' Association (IBA) under the Payment and Settlement Systems Act, 2007.",
+    "evidenceExcerpt": "NPCI is a not-for-profit company initiated by RBI and IBA under the Payment and Settlement Systems Act, 2007.",
+    "pageNumbers": [
+      24
+    ],
+    "examUse": "Statement-based question on the establishment, nature, and statutory backing of NPCI.",
+    "distractorHooks": [
+      "NPCI is a for-profit entity",
+      "Initiated solely by the Ministry of Finance",
+      "Established under the RBI Act, 1934 or Companies Act without PSS Act backing"
+    ]
+  }
+]

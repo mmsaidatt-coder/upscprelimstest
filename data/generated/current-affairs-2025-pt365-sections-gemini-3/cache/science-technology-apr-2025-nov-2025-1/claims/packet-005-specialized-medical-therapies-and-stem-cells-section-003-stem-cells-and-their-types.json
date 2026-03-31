@@ -1,0 +1,77 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-005-specialized-medical-therapies-and-stem-cells-section-003-stem-cells-and-their-types",
+    "claimType": "Conceptual",
+    "claimText": "Stem cells are defined by their dual ability to self-renew indefinitely and differentiate into mature, specialized cells.",
+    "evidenceExcerpt": "Stem cells can self-renew indefinitely and differentiate into mature, specialized cells.",
+    "pageNumbers": [
+      12
+    ],
+    "examUse": "Statement-based question identifying the fundamental defining characteristics of stem cells.",
+    "distractorHooks": [
+      "Stating that stem cells can differentiate but lose the ability to self-renew",
+      "Confusing stem cell self-renewal with the uncontrolled division seen in cancer cells"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-005-specialized-medical-therapies-and-stem-cells-section-003-stem-cells-and-their-types",
+    "claimType": "Factual",
+    "claimText": "Pluripotent stem cells possess the capability to differentiate into all cell types of the adult body.",
+    "evidenceExcerpt": "Pluripotent stem cells can differentiate into all cells of the adult body.",
+    "pageNumbers": [
+      12
+    ],
+    "examUse": "Comparison question distinguishing between the differentiation potential of pluripotent versus adult stem cells.",
+    "distractorHooks": [
+      "Stating that pluripotent stem cells are restricted to forming cells of a single specific organ",
+      "Confusing pluripotent stem cells with unipotent cells"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-005-specialized-medical-therapies-and-stem-cells-section-003-stem-cells-and-their-types",
+    "claimType": "Factual",
+    "claimText": "Embryonic Stem Cells (ESCs) are naturally found in the early embryo 3 to 5 days after fertilization.",
+    "evidenceExcerpt": "Embryonic Stem Cells (ESCs) are found in the early embryo 3-5 days post-fertilization.",
+    "pageNumbers": [
+      12
+    ],
+    "examUse": "Statement-based question on the origin and timeline of Embryonic Stem Cells.",
+    "distractorHooks": [
+      "Claiming ESCs are harvested from the umbilical cord post-delivery",
+      "Stating ESCs are found in adult bone marrow"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-005-specialized-medical-therapies-and-stem-cells-section-003-stem-cells-and-their-types",
+    "claimType": "Process",
+    "claimText": "Induced Pluripotent Stem Cells (iPSCs) are artificially created by introducing embryonic genes into a somatic cell, such as a skin cell, to revert it to a stem cell state.",
+    "evidenceExcerpt": "Induced Pluripotent Stem Cells (iPSCs) are created by introducing embryonic genes into a somatic cell (e.g., skin cell) to revert it to a stem cell state.",
+    "pageNumbers": [
+      12
+    ],
+    "examUse": "Statement-based question on the biotechnology process used to generate iPSCs.",
+    "distractorHooks": [
+      "Stating that iPSCs are naturally occurring stem cells found in adult tissues",
+      "Claiming iPSCs are created by extracting cells directly from an embryo"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-005-specialized-medical-therapies-and-stem-cells-section-003-stem-cells-and-their-types",
+    "claimType": "Factual",
+    "claimText": "Adult Stem Cells (ASCs) are tissue-specific and generally only yield specialized cells of the specific tissue or organ where they are located.",
+    "evidenceExcerpt": "Adult Stem Cells (ASCs) are undifferentiated cells in tissues or organs that yield specialized cells of that specific tissue.",
+    "pageNumbers": [
+      12
+    ],
+    "examUse": "Statement-based question testing the limitations of Adult Stem Cells compared to Pluripotent Stem Cells.",
+    "distractorHooks": [
+      "Asserting that Adult Stem Cells can differentiate into any cell type in the human body",
+      "Claiming Adult Stem Cells are a type of Pluripotent stem cell"
+    ]
+  }
+]

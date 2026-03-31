@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "History",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "In the context of the ICC World Test Championship (WTC), how is the 'Percentage of Points (PCT)' calculated to determine the finalists?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The ratio of total matches won to the total matches lost during the cycle."
+        },
+        {
+          "id": "B",
+          "text": "The percentage of points won out of the total number of points contested by each team."
+        },
+        {
+          "id": "C",
+          "text": "The total points earned divided by the number of series played, regardless of match results."
+        },
+        {
+          "id": "D",
+          "text": "The number of wins expressed as a percentage of the total matches scheduled in the original calendar."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The PCT (Percentage of Points) is the specific metric used by the ICC to rank teams in the World Test Championship. It is calculated as the percentage of points a team actually wins out of the total points that were available (contested) in the matches they played. This ensures that teams playing fewer matches are not unfairly disadvantaged compared to those playing longer series.",
+      "takeaway": "PCT is a relative measure of performance (points won vs points available) rather than an absolute measure (total points or total wins).",
+      "evidenceExcerpt": "PCT is the percentage of points won out of the total number of points contested by each team. The ICC considered percentage of points earned from the contested matches in deciding the finalists of the inaugural World Test Championship (WTC).",
+      "contextLines": []
+    },
+    {
+      "subject": "History",
+      "difficulty": "Hard",
+      "questionType": "Comparison-driven",
+      "prompt": "In the context of the inaugural ICC World Test Championship (WTC), which of the following best explains why New Zealand qualified for the final ahead of England?",
+      "options": [
+        {
+          "id": "A",
+          "text": "New Zealand accumulated a higher total number of points by playing more matches than England."
+        },
+        {
+          "id": "B",
+          "text": "New Zealand achieved a higher percentage of points (PCT) despite winning fewer total matches than England."
+        },
+        {
+          "id": "C",
+          "text": "England was penalized for slow over-rates, which reduced their points below New Zealand's total."
+        },
+        {
+          "id": "D",
+          "text": "The ICC used head-to-head records to break the tie between the two teams in the points table."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "According to the source, New Zealand finished in the second spot with a 70% PCT based on 7 wins. England, despite having 11 wins, finished 4th because their PCT was lower at 61%. This demonstrates that the PCT system allows teams with fewer wins to rank higher if they have played fewer matches and maintained a better points-to-contested-points ratio.",
+      "takeaway": "Under the PCT system, the denominator (total points contested) is as crucial as the numerator (points won) in determining rankings.",
+      "evidenceExcerpt": "New Zealand finished in the second spot with 70 percentage of points, including seven wins and four loses, while England was at 4th with 61. percentage of points, including 11 wins and 7 losses.",
+      "contextLines": []
+    },
+    {
+      "subject": "History",
+      "difficulty": "Moderate",
+      "questionType": "Rationale-based",
+      "prompt": "The 'Percentage of Points' (PCT) system was adopted to decide the finalists of the inaugural ICC World Test Championship (WTC) primarily to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Encourage teams to play more away series to earn bonus points."
+        },
+        {
+          "id": "B",
+          "text": "Standardize the ranking system across different formats of international cricket."
+        },
+        {
+          "id": "C",
+          "text": "Address the disruption of scheduled matches caused by the COVID-19 pandemic."
+        },
+        {
+          "id": "D",
+          "text": "Ensure that matches ending in a draw did not impact the final league standings."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The ICC introduced the PCT system for the inaugural WTC because the COVID-19 pandemic prevented several scheduled series from being completed. This system allowed for a fair comparison between teams that had played an unequal number of matches.",
+      "takeaway": "The PCT system was a pragmatic regulatory response to the logistical disruptions of the COVID-19 pandemic in international sports.",
+      "evidenceExcerpt": "The ICC considered percentage of points earned from the contested matches in deciding the finalists of the inaugural World Test Championship (WTC), which had been affected by the COVID-19 pandemic.",
+      "contextLines": []
+    }
+  ]
+}

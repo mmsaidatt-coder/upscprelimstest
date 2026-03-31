@@ -1,0 +1,149 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding stem cells: 1. Pluripotent stem cells can differentiate into all cell types of the adult human body. 2. Adult stem cells are generally restricted to yielding specialized cell types of their specific tissue or organ. 3. Induced Pluripotent Stem Cells (iPSCs) are extracted directly from the early embryo post-fertilization. Which of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Pluripotent stem cells possess the capability to differentiate into all cell types of the adult body. Statement 2 is correct: Adult (or somatic) stem cells are undifferentiated cells in tissues or organs that yield specialized cells of that specific tissue. Statement 3 is incorrect: Embryonic Stem Cells (ESCs) are found in the early embryo 3-5 days post-fertilization. Induced Pluripotent Stem Cells (iPSCs) are artificially created by introducing embryonic genes into a somatic cell (e.g., skin cell) to revert it to a stem cell state.",
+      "takeaway": "Pluripotent stem cells (ESCs and iPSCs) can form any adult cell type, whereas adult stem cells are tissue-specific. iPSCs are reprogrammed somatic cells, not naturally extracted embryonic cells.",
+      "evidenceExcerpt": "Pluripotent stem cells can differentiate into all cells of the adult body. Embryonic Stem Cells (ESCs) are found in the early embryo 3-5 days post-fertilization. Induced Pluripotent Stem Cells (iPSCs) are created by introducing embryonic genes into a somatic cell (e.g., skin cell) to revert it to a stem cell state. Adult Stem Cells (ASCs) are undifferentiated cells in tissues or organs that yield specialized cells of that specific tissue."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of Stem Cell Types and their Characteristics: 1. Embryonic Stem Cells : Found in the early embryo 3-5 days post-fertilization. 2. Induced Pluripotent Stem Cells : Created by reverting somatic cells to a stem cell state. 3. Somatic Stem Cells : Capable of differentiating into all cells of the adult body. How many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: Embryonic Stem Cells are found in the early embryo 3-5 days post-fertilization. Pair 2 is correctly matched: Induced Pluripotent Stem Cells are created by introducing embryonic genes into a somatic cell to revert it to a stem cell state. Pair 3 is incorrectly matched: Somatic (Adult) Stem Cells yield specialized cell types of their specific tissue or organ, not all cells of the adult body. Pluripotent stem cells are the ones capable of differentiating into all adult body cells.",
+      "takeaway": "Somatic stem cells are synonymous with adult stem cells and are restricted to tissue-specific differentiation, unlike pluripotent stem cells which have universal differentiation potential.",
+      "evidenceExcerpt": "They are categorized into Pluripotent stem cells (Embryonic Stem Cells and Induced Pluripotent Stem Cells) which can differentiate into all adult body cells, and Adult/Somatic Stem Cells which yield specialized cell types of their specific tissue or organ."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the fundamental properties of stem cells, consider the following statements: 1. All stem cells possess the dual ability to self-renew indefinitely and differentiate into mature cells. 2. Unlike pluripotent stem cells, adult stem cells completely lack the capacity for self-renewal. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The defining characteristics of stem cells are their ability to self-renew indefinitely and differentiate into mature, specialized cells. Statement 2 is incorrect: Both pluripotent and adult stem cells possess the capacity for self-renewal. The primary difference between them lies in their differentiation potential (pluripotent can become any cell, while adult stem cells are tissue-specific).",
+      "takeaway": "Self-renewal and differentiation are the two universal hallmarks of all stem cells, regardless of whether they are embryonic, induced pluripotent, or adult/somatic.",
+      "evidenceExcerpt": "Stem cells are unspecialized cells capable of self-renewal and differentiation... Stem cells can self-renew indefinitely and differentiate into mature, specialized cells."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Applied Scenario",
+      "prompt": "A research team is attempting to develop a personalized medical therapy for a patient. They extract a sample of the patient's skin cells and introduce specific embryonic genes into them. The resulting cells demonstrate the ability to self-renew and differentiate into any cell type of the adult body. Which of the following types of stem cells has the research team successfully generated?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Embryonic Stem Cells (ESCs)"
+        },
+        {
+          "id": "B",
+          "text": "Induced Pluripotent Stem Cells (iPSCs)"
+        },
+        {
+          "id": "C",
+          "text": "Adult Somatic Stem Cells"
+        },
+        {
+          "id": "D",
+          "text": "Tissue-specific Stem Cells"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The research team has generated Induced Pluripotent Stem Cells (iPSCs). According to the source, iPSCs are created by introducing embryonic genes into a somatic cell (such as a skin cell) to revert it to a stem cell state. Because they are a type of Pluripotent stem cell, they possess the capability to differentiate into all cells of the adult body.",
+      "takeaway": "Induced Pluripotent Stem Cells (iPSCs) offer a way to create pluripotent stem cells directly from a patient's own specialized somatic cells by reprogramming them with embryonic genes.",
+      "evidenceExcerpt": "Induced Pluripotent Stem Cells (iPSCs) are created by introducing embryonic genes into a somatic cell (e.g., skin cell) to revert it to a stem cell state. ... Pluripotent stem cells can differentiate into all cells of the adult body."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the different categories of stem cells, consider the following statements:\n1. While Embryonic Stem Cells (ESCs) are naturally found in the early embryo, Induced Pluripotent Stem Cells (iPSCs) are artificially created from somatic cells.\n2. Unlike pluripotent stem cells, Adult Stem Cells (ASCs) are generally restricted to yielding specialized cells of the specific tissue or organ in which they reside.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: ESCs are naturally found in the early embryo 3-5 days post-fertilization, whereas iPSCs are created by introducing embryonic genes into a somatic cell. Statement 2 is correct: Pluripotent stem cells can differentiate into all adult body cells, whereas Adult Stem Cells are undifferentiated cells that yield specialized cells only of their specific tissue or organ.",
+      "takeaway": "Stem cells are broadly divided by their differentiation potential: Pluripotent cells (ESCs and iPSCs) can form any adult cell type, while Adult Stem Cells are tissue-specific.",
+      "evidenceExcerpt": "Embryonic Stem Cells (ESCs) are found in the early embryo 3-5 days post-fertilization. Induced Pluripotent Stem Cells (iPSCs) are created by introducing embryonic genes into a somatic cell... Adult/Somatic Stem Cells which yield specialized cell types of their specific tissue or organ."
+    }
+  ]
+}

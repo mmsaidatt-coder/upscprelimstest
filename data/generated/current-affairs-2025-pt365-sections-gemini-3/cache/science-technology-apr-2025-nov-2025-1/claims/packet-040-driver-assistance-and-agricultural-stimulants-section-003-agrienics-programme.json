@@ -1,0 +1,50 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-040-driver-assistance-and-agricultural-stimulants-section-003-agrienics-programme",
+    "claimType": "Factual",
+    "claimText": "The Agrienics Programme is a national initiative of the Ministry of Electronics and Information Technology (MeitY).",
+    "evidenceExcerpt": "A national programme of MeitY involving research, development, deployment, demonstration, and commercialization of technologies",
+    "pageNumbers": [
+      78
+    ],
+    "examUse": "Statement-based question identifying the nodal ministry for the Agrienics Programme.",
+    "distractorHooks": [
+      "Ministry of Agriculture and Farmers Welfare",
+      "Ministry of Environment, Forest and Climate Change",
+      "Ministry of Science and Technology"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-040-driver-assistance-and-agricultural-stimulants-section-003-agrienics-programme",
+    "claimType": "Conceptual",
+    "claimText": "The Agrienics Programme focuses on the research, development, and commercialization of technologies in the agriculture and environment domains.",
+    "evidenceExcerpt": "involving research, development, deployment, demonstration, and commercialization of technologies in agriculture and environment domain.",
+    "pageNumbers": [
+      78
+    ],
+    "examUse": "Statement-based question on the core focus areas and objectives of the Agrienics Programme.",
+    "distractorHooks": [
+      "Space technology and satellite communication",
+      "Defense manufacturing and cybersecurity",
+      "Healthcare and biotechnology"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-040-driver-assistance-and-agricultural-stimulants-section-003-agrienics-programme",
+    "claimType": "Factual",
+    "claimText": "The Centre for Development of Advanced Computing (C-DAC), Kolkata is the Nodal Agency for the Agrienics Programme.",
+    "evidenceExcerpt": "Nodal Agency: Centre for Development of Advanced Computing (C-DAC), Kolkata.",
+    "pageNumbers": [
+      78
+    ],
+    "examUse": "Correct-pair or statement-based question identifying the implementing or nodal agency.",
+    "distractorHooks": [
+      "Indian Council of Agricultural Research (ICAR)",
+      "National Informatics Centre (NIC)",
+      "Council of Scientific and Industrial Research (CSIR)"
+    ]
+  }
+]

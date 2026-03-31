@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding India's Prototype Fast Breeder Reactor (PFBR):\n1. It is constructed and operated by a dedicated government entity called BHAVINI.\n2. Its operationalization marks the beginning of Stage III of India’s three-stage nuclear power program.\n3. India will be the second country after France to have a commercially operating Fast Breeder Reactor.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: BHAVINI was established by the government to construct and operate the PFBR at Kalpakkam. Statement 2 is incorrect: The operationalization of the PFBR marks the beginning of Stage II, not Stage III, of the nuclear program. Statement 3 is incorrect: India will be the second country after Russia (not France) to have a commercial operating Fast Breeder Reactor.",
+      "takeaway": "The PFBR at Kalpakkam is operated by BHAVINI, marks the onset of Stage II of India's nuclear program, and makes India the second country globally, after Russia, to operate a commercial Fast Breeder Reactor.",
+      "evidenceExcerpt": "BHAVINI was established by the government to construct and operate the Prototype Fast Breeder Reactor (PFBR) at Kalpakkam... India will be the second country after Russia to have a commercial operating Fast Breeder Reactor. The operationalization of the PFBR marks the beginning of Stage II of India’s three-stage nuclear power program."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Assertion-Reason",
+      "prompt": "Consider the following Assertion (A) and Reason (R) regarding India's Prototype Fast Breeder Reactor (PFBR):\n\nAssertion (A): The PFBR is classified as a 'breeder' reactor because it generates more fissile material than it consumes during its operation.\nReason (R): The reactor core is surrounded by a Uranium-238 blanket that undergoes nuclear transmutation to produce additional fuel.\n\nWhich one of the following is correct in respect of the above statements?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both Assertion (A) and Reason (R) are correct and Reason (R) is the correct explanation for Assertion (A)"
+        },
+        {
+          "id": "B",
+          "text": "Both Assertion (A) and Reason (R) are correct but Reason (R) is not the correct explanation for Assertion (A)"
+        },
+        {
+          "id": "C",
+          "text": "Assertion (A) is correct but Reason (R) is incorrect"
+        },
+        {
+          "id": "D",
+          "text": "Assertion (A) is incorrect but Reason (R) is correct"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Both statements are correct, and the Reason directly explains the Assertion. A Fast Breeder Reactor is termed a 'breeder' precisely because the fertile Uranium-238 blanket surrounding the core captures neutrons and undergoes nuclear transmutation to produce more fissile fuel than the reactor consumes to operate.",
+      "takeaway": "Breeder reactors achieve their unique capability of producing more fuel than they consume by utilizing a fertile blanket (like Uranium-238) that undergoes nuclear transmutation into fissile material.",
+      "evidenceExcerpt": "Uranium-238 blanket surrounding fuel core will undergo nuclear transmutation to produce more fuel, thus earning the name ‘Breeder’."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs regarding the materials utilized in India's Prototype Fast Breeder Reactor (PFBR) and their primary roles:\n\n1. Uranium-Plutonium Mixed Oxide (MOX) : Primary fuel for the reactor core\n2. Heavy Water : Primary coolant for heat transfer\n3. Thorium : Undergoes transmutation to yield fissile Uranium-233\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: The PFBR uses indigenously produced Uranium-Plutonium Mixed Oxide (MOX) fuel. Pair 2 is incorrectly matched: The PFBR utilizes liquid sodium as a coolant, not heavy water. Pair 3 is correctly matched: In the FBR, Thorium undergoes transmutation to create fissile U-233, which will fuel the third stage of the nuclear program.",
+      "takeaway": "India's PFBR uniquely relies on Uranium-Plutonium MOX fuel and liquid sodium as a coolant, while utilizing Thorium transmutation to bridge the gap to Stage III of the nuclear program.",
+      "evidenceExcerpt": "Uses indigenously produced Uranium-Plutonium Mixed Oxide (MOX) fuel and utilize liquid sodium as a coolant... In the FBR, Thorium will undergo transmutation to create fissile U-233, which will serve as fuel for the third stage of the nuclear program."
+    }
+  ]
+}

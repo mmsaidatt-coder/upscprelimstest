@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the 'Blindsight' technology recently seen in the news, consider the following statements:\n1. It aims to restore vision by repairing the damaged cellular structure of the retina.\n2. It utilizes a microelectrode array to directly stimulate neurons.\n3. It targets the visual cortex, which is the outermost layer of nerve cell tissues responsible for processing visual data.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Blindsight is a Brain-Computer Interface (BCI) implant that aims to restore vision by bypassing the retina entirely, not by repairing it.\nStatement 2 is correct: It consists of a microelectrode array capable of stimulating neurons.\nStatement 3 is correct: The implant directly stimulates the visual cortex, which is the outermost layer of nerve cell tissues responsible for processing visual data.",
+      "takeaway": "Blindsight bypasses the retina to directly stimulate the visual cortex using microelectrode arrays, offering a potential pathway to restore vision.",
+      "evidenceExcerpt": "Blindsight is a BCI implant aiming to restore vision by bypassing the retina. It directly stimulates the visual cortex, the outermost layer of nerve cell tissues responsible for processing visual data. It consists of a microelectrode array embedded in the visual cortex capable of stimulating neurons.",
+      "qualityScore": 85,
+      "reviewNotes": "The question effectively tests the mechanism of a newly emerging technology. The statements are clear, and the distractors are plausible."
+    }
+  ],
+  "reviewerNotes": "Both candidates were strong and adhered well to the UPSC style. Minor refinements were made to the prompts to align them perfectly with standard UPSC phrasing."
+}

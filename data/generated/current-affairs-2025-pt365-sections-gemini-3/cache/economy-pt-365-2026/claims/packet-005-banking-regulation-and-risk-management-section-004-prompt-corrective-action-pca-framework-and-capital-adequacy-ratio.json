@@ -1,0 +1,70 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-005-banking-regulation-and-risk-management-section-004-prompt-corrective-action-pca-framework-and-capital-adequacy-ratio",
+    "claimType": "Applicability",
+    "claimText": "The Prompt Corrective Action (PCA) framework applies to both banks and Non-Banking Financial Companies (NBFCs).",
+    "evidenceExcerpt": "Applicability: It applies to both banks and NBFCs.",
+    "pageNumbers": [
+      12,
+      13
+    ],
+    "examUse": "Statement-based question on the scope and applicability of the PCA framework.",
+    "distractorHooks": [
+      "Applies only to Scheduled Commercial Banks",
+      "Does not apply to NBFCs",
+      "Applies only to public sector banks"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-005-banking-regulation-and-risk-management-section-004-prompt-corrective-action-pca-framework-and-capital-adequacy-ratio",
+    "claimType": "Regulatory Evolution",
+    "claimText": "For Urban Co-operative Banks (UCBs), the Prompt Corrective Action (PCA) framework replaced the Supervisory Action Framework (SAF).",
+    "evidenceExcerpt": "PCA framework for UCBs replaced the existing Supervisory Action Framework (SAF).",
+    "pageNumbers": [
+      12,
+      13
+    ],
+    "examUse": "Statement-based question on the regulatory transition for Urban Co-operative Banks.",
+    "distractorHooks": [
+      "Replaced the Basel III framework",
+      "Replaced the Liquidity Coverage Ratio framework",
+      "SAF replaced the PCA framework for UCBs"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-005-banking-regulation-and-risk-management-section-004-prompt-corrective-action-pca-framework-and-capital-adequacy-ratio",
+    "claimType": "Framework Parameters",
+    "claimText": "The key areas monitored under the Prompt Corrective Action (PCA) framework are Capital Adequacy Ratio (CAR), Asset Quality, and Profitability.",
+    "evidenceExcerpt": "Capital Adequacy Ratio (CAR), Asset Quality and Profitability are the key areas for monitoring.",
+    "pageNumbers": [
+      12,
+      13
+    ],
+    "examUse": "Multiple-choice question identifying the specific parameters used by RBI to trigger PCA.",
+    "distractorHooks": [
+      "Cash Reserve Ratio (CRR)",
+      "Statutory Liquidity Ratio (SLR)",
+      "Credit-Deposit Ratio"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-005-banking-regulation-and-risk-management-section-004-prompt-corrective-action-pca-framework-and-capital-adequacy-ratio",
+    "claimType": "Conceptual Definition",
+    "claimText": "Capital Adequacy Ratio (CAR), also known as Capital to Risk-weighted Asset Ratio (CRAR), is the ratio of total capital to total risk-weighted assets expressed in percentage terms.",
+    "evidenceExcerpt": "CAR is the ratio of total capital to total risk-weighted assets in percentage terms. It is also called Capital to Risk-weighted Asset Ratio (CRAR).",
+    "pageNumbers": [
+      12,
+      13
+    ],
+    "examUse": "Concept-based question on the definition and formula of Capital Adequacy Ratio.",
+    "distractorHooks": [
+      "Ratio of total assets to total liabilities",
+      "Ratio of risk-weighted assets to total deposits",
+      "Ratio of tier 1 capital to total non-performing assets"
+    ]
+  }
+]

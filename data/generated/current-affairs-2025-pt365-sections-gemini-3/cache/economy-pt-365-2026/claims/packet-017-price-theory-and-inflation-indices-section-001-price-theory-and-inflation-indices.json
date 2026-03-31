@@ -1,0 +1,112 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-017-price-theory-and-inflation-indices-section-001-price-theory-and-inflation-indices",
+    "claimType": "Conceptual",
+    "claimText": "An increase in demand shifts the demand curve to the right, leading to an increase in both price and quantity.",
+    "evidenceExcerpt": "Scenario A: Demand Increases - Demand curve shifts right (D1 to D2). Price increases, Quantity increases.",
+    "pageNumbers": [
+      33
+    ],
+    "examUse": "Statement-based question on basic microeconomics and market equilibrium.",
+    "distractorHooks": [
+      "Demand curve shifts left",
+      "Price decreases",
+      "Quantity decreases"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-017-price-theory-and-inflation-indices-section-001-price-theory-and-inflation-indices",
+    "claimType": "Conceptual",
+    "claimText": "An increase in supply shifts the supply curve to the right, resulting in a decrease in price and an increase in quantity.",
+    "evidenceExcerpt": "Scenario C: Supply Increases - Supply curve shifts right (S1 to S2). Price decreases, Quantity increases.",
+    "pageNumbers": [
+      33
+    ],
+    "examUse": "Statement-based question on supply shifts and market equilibrium.",
+    "distractorHooks": [
+      "Supply curve shifts left",
+      "Price increases",
+      "Quantity decreases"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-017-price-theory-and-inflation-indices-section-001-price-theory-and-inflation-indices",
+    "claimType": "Conceptual",
+    "claimText": "Inflation reduces real income and generally increases the price elasticity of demand for non-essential goods, making consumers more price sensitive.",
+    "evidenceExcerpt": "Concept: Inflation (Reduced Real Income) leads to the 'Wallet Squeeze' where consumers become generally more price sensitive (Elasticity Increases) for non-essentials.",
+    "pageNumbers": [
+      33
+    ],
+    "examUse": "Conceptual statement on inflation's impact on consumer behavior and price elasticity.",
+    "distractorHooks": [
+      "Elasticity decreases for non-essentials",
+      "Consumers become less price sensitive",
+      "Inflation increases real income"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-017-price-theory-and-inflation-indices-section-001-price-theory-and-inflation-indices",
+    "claimType": "Conceptual",
+    "claimText": "During periods of inflation, the demand for inferior goods increases as consumers trade down from more expensive options.",
+    "evidenceExcerpt": "INFERIOR GOODS (Trading Down): Normal Behavior: Generic Spam, Instant Noodles (Bought when income is low). Behavior During Inflation: Demand Increases; consumers switch to these from expensive options.",
+    "pageNumbers": [
+      33
+    ],
+    "examUse": "Correct-pair or statement-based question on types of goods and the impact of inflation.",
+    "distractorHooks": [
+      "Demand for inferior goods decreases during inflation",
+      "Consumers switch from inferior goods to luxury goods during inflation"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-017-price-theory-and-inflation-indices-section-001-price-theory-and-inflation-indices",
+    "claimType": "Factual",
+    "claimText": "The Producer Price Index (PPI) measures the average change in the price a producer receives for goods and services sold in the domestic market or as exports.",
+    "evidenceExcerpt": "It measures the average change in the price a producer receives for his goods/services sold in the domestic market/ exports.",
+    "pageNumbers": [
+      34
+    ],
+    "examUse": "Definition/Statement-based question comparing PPI with WPI or CPI.",
+    "distractorHooks": [
+      "Measures the price paid by consumers",
+      "Excludes exports",
+      "Measures only goods and not services"
+    ]
+  },
+  {
+    "id": "claim-006",
+    "sectionId": "packet-017-price-theory-and-inflation-indices-section-001-price-theory-and-inflation-indices",
+    "claimType": "Factual",
+    "claimText": "The Producer Price Index is categorized into Output PPI, measured when goods or services leave the place of production, and Input PPI, measured when they enter the production process.",
+    "evidenceExcerpt": "Two types: o Output PPI: When goods/ services leave the place of production o Input PPI: When goods/ services enter the production process.",
+    "pageNumbers": [
+      34
+    ],
+    "examUse": "Correct-pair question on the types of inflation indices and their measurement points.",
+    "distractorHooks": [
+      "Output PPI is measured at the retail level",
+      "Input PPI is measured at the wholesale market"
+    ]
+  },
+  {
+    "id": "claim-007",
+    "sectionId": "packet-017-price-theory-and-inflation-indices-section-001-price-theory-and-inflation-indices",
+    "claimType": "Conceptual",
+    "claimText": "The Wholesale Price Index (WPI) suffers from an inbuilt bias due to the double or multiple counting of the same product.",
+    "evidenceExcerpt": "Need to replace WPI • WPI has inbuilt bias due to double/ multiple counting of same product.",
+    "pageNumbers": [
+      34
+    ],
+    "examUse": "Reason/Assertion or statement-based question on the limitations of WPI and the rationale for shifting to PPI.",
+    "distractorHooks": [
+      "PPI has an inbuilt bias due to multiple counting",
+      "WPI excludes wholesale markets",
+      "WPI double counts services"
+    ]
+  }
+]

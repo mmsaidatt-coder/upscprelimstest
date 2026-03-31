@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the 'LICOMK++' system recently seen in the news, consider the following statements:\n1. It is an ultra-high-resolution ocean simulation system developed by the World Meteorological Organization (WMO).\n2. It enables scientists to analyze complex ocean processes like eddies and heat transport to improve predictions for extreme weather events.\n\nWhich of the statements given above is/are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: LICOMK++ is a high-resolution ocean simulation system developed by Chinese researchers, not the World Meteorological Organization (WMO). Statement 2 is correct: It is hailed as an ocean 'microscope' due to its ultra-high-resolution capabilities, enabling scientists to analyze complex processes like eddies and heat transport, which improves predictions for extreme weather events.",
+      "takeaway": "LICOMK++ is a Chinese high-resolution ocean simulation system that acts as an ocean 'microscope' to model ocean dynamics, eddies, and heat transport.",
+      "evidenceExcerpt": "Chinese researchers have developed a high-resolution ocean simulation system, named LICOMK++... Enables scientists to analyze complex processes like eddies and heat transport with clarity... improving predictions for extreme weather events.",
+      "contextLines": []
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Direct concept",
+      "prompt": "The term 'LICOMK++' was recently mentioned in the news in the context of:",
+      "options": [
+        {
+          "id": "A",
+          "text": "A new deep-sea submersible deployed to explore polymetallic nodules in the Indian Ocean."
+        },
+        {
+          "id": "B",
+          "text": "A high-resolution ocean simulation system developed to model ocean dynamics and climate patterns."
+        },
+        {
+          "id": "C",
+          "text": "An international early warning system for tsunamis deployed in the Pacific Ring of Fire."
+        },
+        {
+          "id": "D",
+          "text": "A genetically modified marine bacteria used for the bioremediation of oil spills."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "LICOMK++ is a high-resolution ocean simulation system developed by Chinese researchers. It offers enhanced capabilities for modelling ocean dynamics and climate patterns, and is hailed as an ocean 'microscope' for its ability to analyze complex processes.",
+      "takeaway": "LICOMK++ is an advanced ocean simulation system used for modelling complex ocean processes and improving extreme weather predictions.",
+      "evidenceExcerpt": "Chinese researchers have developed a high-resolution ocean simulation system, named LICOMK++, offering enhanced capabilities for modelling ocean dynamics and climate patterns.",
+      "contextLines": []
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Application",
+      "prompt": "The high-resolution ocean simulation system 'LICOMK++' provides enhanced capabilities for modelling ocean dynamics. In this context, the detailed analysis of oceanic 'eddies and heat transport' by such simulation systems primarily assists in:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "identifying commercially viable polymetallic nodule sites in the deep ocean."
+        },
+        {
+          "id": "B",
+          "text": "improving the predictability and forecasting of extreme weather events."
+        },
+        {
+          "id": "C",
+          "text": "mapping the genetic diversity of benthic marine organisms."
+        },
+        {
+          "id": "D",
+          "text": "neutralizing the impact of large-scale marine oil spills."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "LICOMK++ is an ocean simulation system designed to model ocean dynamics and climate patterns. By analyzing complex thermodynamic and hydrodynamic processes like eddies and heat transport, the system directly contributes to understanding climate patterns and improving predictions for extreme weather events. It is not designed for deep-sea mining exploration, genetic mapping, or direct oil spill neutralization.",
+      "takeaway": "Advanced ocean simulators like LICOMK++ track heat transport and eddies, which are critical variables in global climate models used to forecast extreme weather events.",
+      "evidenceExcerpt": "It is hailed as an ocean 'microscope' to analyze complex processes like eddies and heat transport, improving predictions for extreme weather events."
+    }
+  ]
+}

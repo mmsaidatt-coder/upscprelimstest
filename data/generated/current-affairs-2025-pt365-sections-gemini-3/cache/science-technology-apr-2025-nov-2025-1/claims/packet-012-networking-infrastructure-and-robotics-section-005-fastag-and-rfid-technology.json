@@ -1,0 +1,53 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-012-networking-infrastructure-and-robotics-section-005-fastag-and-rfid-technology",
+    "claimType": "Factual",
+    "claimText": "FASTag employs Radio Frequency Identification (RFID) technology to enable toll payments directly from a linked account while the vehicle is in motion.",
+    "evidenceExcerpt": "FASTAG - A device that employs Radio Frequency Identification (RFID) technology for making toll payments directly from account while the vehicle is in motion.",
+    "pageNumbers": [
+      25,
+      26
+    ],
+    "examUse": "Statement-based question on the underlying technology of FASTag.",
+    "distractorHooks": [
+      "Near Field Communication (NFC)",
+      "Global Positioning System (GPS)",
+      "Bluetooth"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-012-networking-infrastructure-and-robotics-section-005-fastag-and-rfid-technology",
+    "claimType": "Conceptual",
+    "claimText": "RFID is a short-range technology that utilizes radio waves to communicate information between tags and nearby readers.",
+    "evidenceExcerpt": "RFID consists of tags and readers and employs radio waves to communicate information of objects or people to nearby readers. - It is a short-range technology.",
+    "pageNumbers": [
+      25,
+      26
+    ],
+    "examUse": "Statement-based question on the characteristics and working principle of RFID.",
+    "distractorHooks": [
+      "Long-range technology",
+      "Uses infrared waves",
+      "Uses ultrasonic waves"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-012-networking-infrastructure-and-robotics-section-005-fastag-and-rfid-technology",
+    "claimType": "Institution",
+    "claimText": "FASTag was developed by the National Payments Corporation of India (NPCI) under the National Electronic Toll Collection (NETC) program.",
+    "evidenceExcerpt": "Developed by: NPCI under National Electronic Toll Collection (NETC) program.",
+    "pageNumbers": [
+      25,
+      26
+    ],
+    "examUse": "Institution-feature question identifying the developing agency of FASTag.",
+    "distractorHooks": [
+      "National Highways Authority of India (NHAI)",
+      "Reserve Bank of India (RBI)",
+      "Centre for Development of Advanced Computing (C-DAC)"
+    ]
+  }
+]

@@ -1,0 +1,149 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Phthalates', frequently mentioned in the context of environmental pollution:\n1. They are chemical additives primarily used to make plastics like polyvinyl chloride (PVC) harder and more rigid.\n2. They are categorized as hazardous endocrine-disrupting chemicals (EDCs) that can negatively affect reproductive health.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Phthalates are used as plasticizers to make plastics like PVC soft and less brittle, not harder and more rigid. Statement 2 is correct: They are hazardous endocrine-disrupting chemicals (EDCs) that affect reproductive health.",
+      "takeaway": "Phthalates are plasticizers that soften PVC but pose significant health risks as endocrine disruptors.",
+      "evidenceExcerpt": "Pthalates: Ortho-phthalates, or “phthalates,” are chemicals used in plastic products (commonly in specific type of plastic named polyvinyl chloride) to make the material soft and less brittle... Categorized as hazardous endocrine-disrupting chemicals (EDCs); affect reproductive health."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to recent developments in plastic waste management and alternatives, consider the following statements:\n1. Ideonella sakaiensis is a species of fungi capable of degrading Polyethylene Terephthalate (PET) plastic.\n2. Polybutylene Adipate Terephthalate (PBAT) is a biodegradable thermoplastic copolymer derived from renewable resources like corn starch and sugarcane.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Ideonella sakaiensis is a plastic-eating bacteria, not a fungus, that can degrade PET. Statement 2 is correct: PBAT is a biodegradable, chemical-free thermoplastic copolymer made from renewable resources like corn starch and sugarcane.",
+      "takeaway": "Ideonella sakaiensis is a notable PET-degrading bacteria, while PBAT offers a biodegradable plastic alternative derived from renewable biomass.",
+      "evidenceExcerpt": "Bacteria Ideonella sakaiensis: Plastic eating bacteria that can degrade PET (Polyethylene Terephthalate)... Polybutylene Adipate Terephthalate (PBAT): Biodegradable, chemical-free thermoplastic copolymer made from renewable resources, like corn starch and sugarcane"
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Application-Based",
+      "prompt": "Consider the following applications in the context of plastic manufacturing and waste management:\n1. Using *Ideonella sakaiensis* for the bioremediation of Polyethylene Terephthalate (PET) waste.\n2. Utilizing ortho-phthalates to manufacture biodegradable thermoplastic copolymers from renewable resources.\n3. Incorporating Polybutylene Adipate Terephthalate (PBAT) as a plasticizer to make Polyvinyl Chloride (PVC) softer and less brittle.\nHow many of the above applications are correctly described?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Application 1 is correct: *Ideonella sakaiensis* is a plastic-eating bacteria capable of degrading PET. Application 2 is incorrect: Ortho-phthalates are hazardous chemical plasticizers used to make conventional plastics like PVC soft, not to manufacture biodegradable plastics. Application 3 is incorrect: PBAT is a standalone biodegradable, chemical-free thermoplastic copolymer made from renewable resources (like corn starch), not a plasticizer additive for PVC.",
+      "takeaway": "*Ideonella sakaiensis* is utilized for PET bioremediation, while PBAT is an inherently biodegradable bioplastic. Phthalates are toxic plasticizers used in conventional plastics like PVC.",
+      "evidenceExcerpt": "Bacteria Ideonella sakaiensis: Plastic eating bacteria that can degrade PET... Polybutylene Adipate Terephthalate (PBAT): Biodegradable, chemical-free thermoplastic copolymer made from renewable resources... Pthalates: Ortho-phthalates... used in plastic products (commonly in specific type of plastic named polyvinyl chloride) to make the material soft and less brittle."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Multiple Choice",
+      "prompt": "Which one of the following best describes the primary health and environmental concern associated with the use of 'ortho-phthalates' in plastic manufacturing?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "They act as persistent organic pollutants that deplete the stratospheric ozone layer."
+        },
+        {
+          "id": "B",
+          "text": "They function as endocrine-disrupting chemicals (EDCs) that can adversely affect reproductive health."
+        },
+        {
+          "id": "C",
+          "text": "They are heavy metals that bioaccumulate in marine ecosystems, causing toxicity in apex predators."
+        },
+        {
+          "id": "D",
+          "text": "They prevent the natural biodegradation of bioplastics like Polybutylene Adipate Terephthalate (PBAT)."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Ortho-phthalates are chemicals used to make plastics like polyvinyl chloride (PVC) soft and less brittle. They are categorized as hazardous endocrine-disrupting chemicals (EDCs) that negatively affect reproductive health.",
+      "takeaway": "Phthalates are widely used plasticizers that pose significant health risks due to their endocrine-disrupting properties.",
+      "evidenceExcerpt": "Pthalates: Ortho-phthalates, or “phthalates,” are chemicals used in plastic products... to make the material soft and less brittle... Categorized as hazardous endocrine-disrupting chemicals (EDCs); affect reproductive health."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-Based",
+      "prompt": "Consider the following statements regarding different types of plastics and their additives:\n1. Polyvinyl chloride (PVC) often requires the addition of ortho-phthalates to reduce its brittleness and increase flexibility.\n2. Polybutylene Adipate Terephthalate (PBAT) is a chemical-free thermoplastic copolymer that is inherently biodegradable.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Ortho-phthalates are chemicals commonly used in specific types of plastic like polyvinyl chloride (PVC) to make the material soft and less brittle. Statement 2 is correct: PBAT is a biodegradable, chemical-free thermoplastic copolymer made from renewable resources like corn starch and sugarcane.",
+      "takeaway": "Conventional plastics like PVC often rely on hazardous additives like phthalates for flexibility, whereas alternatives like PBAT offer chemical-free, biodegradable properties derived from renewable resources.",
+      "evidenceExcerpt": "Polybutylene Adipate Terephthalate (PBAT): Biodegradable, chemical-free thermoplastic copolymer made from renewable resources, like corn starch and sugarcane... Pthalates: Ortho-phthalates, or “phthalates,” are chemicals used in plastic products (commonly in specific type of plastic named polyvinyl chloride) to make the material soft and less brittle."
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Site Directed Nuclease (SDN) technology:\n\n1. SDN-1 technology involves site-directed mutagenesis without the use of a DNA sequence template.\n2. SDN-3 technology involves the insertion of a large DNA sequence using a template.\n3. Under India's biosafety regulations, all three types of SDN genome editing have been approved for general crops.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: SDN-1 involves site-directed mutagenesis without a DNA sequence template.\nStatement 2 is correct: SDN-3 involves the insertion of a gene or large DNA sequence using a template.\nStatement 3 is incorrect: India's biosafety regulations have approved genome editing of only SDN-1 and SDN-2 types for general crops. SDN-3, which involves the insertion of foreign genes (similar to transgenic technology), is not approved for general crops under the same relaxed guidelines.",
+      "takeaway": "SDN-1 and SDN-2 are approved in India for general crops as they do not involve the insertion of large foreign DNA sequences, unlike SDN-3.",
+      "evidenceExcerpt": "SDN-1 involves site-directed mutagenesis without a DNA sequence template. SDN-3 involves the insertion of a gene or large DNA sequence using a template. India's biosafety regulations have approved genome editing of SDN-1 and SDN-2 types for general crops.",
+      "qualityScore": 88,
+      "reviewNotes": "Strong statement-based question that tests both the conceptual understanding of SDN technologies and the current regulatory framework in India."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of Site Directed Nuclease (SDN) categories and their mechanisms:\n\n1. SDN-1 : Mutagenesis using a DNA sequence template\n2. SDN-2 : Mutagenesis without a DNA sequence template\n3. SDN-3 : Insertion of a large DNA sequence using a template\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Pair 1 is incorrectly matched: SDN-1 involves site-directed mutagenesis without a DNA sequence template.\nPair 2 is incorrectly matched: SDN-2 uses a DNA sequence template for mutagenesis.\nPair 3 is correctly matched: SDN-3 involves the insertion of a gene or large DNA sequence using a template.\nTherefore, only one pair is correctly matched.",
+      "takeaway": "SDN-1 operates without a template, SDN-2 uses a template for mutagenesis, and SDN-3 uses a template to insert large DNA sequences or genes.",
+      "evidenceExcerpt": "SDN-1 involves site-directed mutagenesis without a DNA sequence template. SDN-2 uses a DNA sequence template for mutagenesis. SDN-3 involves the insertion of a gene or large DNA sequence using a template.",
+      "qualityScore": 85,
+      "reviewNotes": "Good matching question that tests the precise definitions of the three SDN categories. The swapped definitions for SDN-1 and SDN-2 make for effective distractors."
+    }
+  ],
+  "reviewerNotes": "Selected two high-quality questions. The first covers both the technical definitions and the regulatory status in India, which is highly relevant for UPSC. The second focuses purely on the technical distinctions between the three SDN categories using the 'How many pairs' format."
+}

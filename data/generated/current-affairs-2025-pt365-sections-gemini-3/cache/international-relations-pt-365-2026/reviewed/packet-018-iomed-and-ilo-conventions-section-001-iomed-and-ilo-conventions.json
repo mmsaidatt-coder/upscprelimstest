@@ -1,0 +1,71 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Current Affairs",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the International Organisation for Mediation (IOMed), consider the following statements:\n1. It was formally established by China as a global alternative to the International Court of Justice (ICJ).\n2. Its mandate is restricted to resolving legal disputes between sovereign states only.\n3. Most of its founding members are from Asia, Africa, and the Caribbean.\nWhich of the statements given above are correct?",
+      "contextLines": [
+        "1.18.3. INTERNATIONAL ORGANISATION FOR MEDIATION (IOMED)"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: China formally established the IOMed as a global alternative to traditional institutions such as the International Court of Justice (ICJ) and the Permanent Court of Arbitration. Statement 2 is incorrect: Its scope is not limited to states; it includes disputes between states, disputes between a state and nationals of another country, and international commercial disagreements. Statement 3 is correct: The organization has a non-Western orientation, with most of its 30+ founding members (including Indonesia and Pakistan) coming from Asia, Africa, and the Caribbean.",
+      "takeaway": "IOMed is a China-led mediation alternative to the ICJ with a broad scope that includes non-state actors and commercial disputes.",
+      "evidenceExcerpt": "China formally established the IOMed as a global alternative to traditional institutions such as the International Court of Justice (ICJ)... Scope: Disputes between states, Disputes Between a state and nationals of another country, International commercial disagreements... Most founding members are from Asia, Africa, and the Caribbean.",
+      "qualityScore": 88,
+      "reviewNotes": "Rewritten to standard UPSC statement format. Tests the specific origin, scope, and membership profile of a new international organization."
+    },
+    {
+      "subject": "Current Affairs",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the International Labour Organisation (ILO) and recent developments:\n1. The Biological Hazards in the Working Environment Convention, 2025, is the first international instrument to address biological hazards in the workplace.\n2. The Maritime Labour Convention (MLC), 2006, is a binding international law which India ratified in 2015.\n3. The International Reference Classification of Occupations (ISCO) is a legal framework for determining minimum wages in the platform economy.\nWhich of the statements given above are correct?",
+      "contextLines": [
+        "1.18.4. INTERNATIONAL LABOUR ORGANISATION (ILO)"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The 113th ILC adopted the Biological Hazards in the Working Environment Convention, 2025 (Convention No. 192), which is the first international instrument addressing biological hazards in the working environment. Statement 2 is correct: The MLC is a binding international law, and India ratified it in 2015. Statement 3 is incorrect: ISCO is a statistical system that classifies jobs into groups based on tasks and duties performed; it is not a legal framework for wages.",
+      "takeaway": "The ILO continues to set binding standards like the MLC and new conventions on biological hazards, while tools like ISCO remain statistical rather than regulatory.",
+      "evidenceExcerpt": "Adopted Biological Hazards in the Working Environment Convention, 2025... 1st international instrument addressing biological hazards... MLC is a binding international law. India ratified the MLC in 2015... ISCO is a statistical system that classifies jobs into well-defined groups based on the tasks and duties performed.",
+      "qualityScore": 86,
+      "reviewNotes": "Combines multiple recent ILO updates to test comprehensive knowledge. The distractor for ISCO is plausible as it relates to labor but changes the nature of the tool from statistical to legal."
+    }
+  ],
+  "reviewerNotes": "The selected questions cover the primary topics of the source text: the newly established IOMed and the recent updates from the 113th International Labour Conference. Both questions follow the UPSC statement-based format, utilizing factual details from the text to create plausible distractors."
+}

@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to 'Payment Banks' in India, consider the following statements:\n1. They can accept deposits up to a maximum limit of ₹2 lakh per customer.\n2. They are prohibited from issuing credit cards.\n3. They cannot offer any loan products, including those from third-party financial institutions.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Payment banks are permitted to accept deposits up to a maximum limit of ₹2 lakh per customer. Statement 2 is correct: They are specialized financial institutions that cannot give loans or issue credit cards. Statement 3 is incorrect: While payment banks are prohibited from undertaking direct lending activities, they can provide access to third-party financial products, including loans and insurance.",
+      "takeaway": "Payment banks are restricted from direct lending and credit card issuance to mitigate risk, but they are allowed to act as distributors for third-party loan and insurance products to enhance financial inclusion.",
+      "evidenceExcerpt": "Services offered: Saving/ Current account, Direct Benefits Transfers, Bill and Utility Payments, access to 3rd Party products such as loans, insurance, etc. It can accept deposits (up to 2 lakh), and enable money transfers and bill payments, but cannot give loans or issue credit cards."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the India Post Payments Bank (IPPB):\n1. It is a wholly-owned entity of the Government of India functioning under the Ministry of Finance.\n2. It leverages the postal network to provide basic banking services to the unbanked population.\n3. It is permitted to open both savings and current accounts for its customers.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: IPPB is a 100% government-owned payments bank, but it operates under the Department of Posts, Ministry of Communications, not the Ministry of Finance. Statement 2 is correct: It was designed to leverage the extensive postal network to bring banking services to the doorstep of every citizen. Statement 3 is correct: IPPB offers both savings and current accounts, along with Direct Benefit Transfers (DBT) and utility payments.",
+      "takeaway": "IPPB operates under the Ministry of Communications, utilizing the vast post office network to deliver basic banking services like savings and current accounts without direct lending capabilities.",
+      "evidenceExcerpt": "Genesis: 2018 as a 100% government-owned payments bank under the Department of Posts, Ministry of Communications. Payment banks are specialized financial institutions designed to provide basic banking services to the underbanked and unbanked population. Aim: Leverages the extensive postal network to bring banking services to the doorstep of every citizen. Services offered: Saving/ Current account..."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Applied",
+      "prompt": "A rural artisan wants to utilize the services of a Payment Bank in his village. Which of the following financial activities can he successfully undertake through this bank?\n1. Depositing an amount of ₹2.5 lakh obtained from selling his land.\n2. Receiving Direct Benefit Transfers (DBT) under government welfare schemes.\n3. Opening a current account for his handicraft business.\n4. Availing a direct micro-loan to purchase raw materials.\n\nSelect the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 4 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1, 2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "2, 3 and 4 only"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Payment banks have a maximum deposit limit of ₹2 lakh per customer, making statement 1 incorrect. They offer Direct Benefit Transfers (DBT) services (statement 2 is correct) and can open both savings and current accounts (statement 3 is correct). They are prohibited from giving loans directly from their own balance sheet (statement 4 is incorrect).",
+      "takeaway": "Payment banks are designed for basic banking and remittances; they can open current/savings accounts and handle DBTs, but cannot exceed the ₹2 lakh deposit limit or issue direct loans.",
+      "evidenceExcerpt": "Services offered: Saving/ Current account, Direct Benefits Transfers, Bill and Utility Payments... It can accept deposits (up to 2 lakh), and enable money transfers and bill payments, but cannot give loans or issue credit cards."
+    }
+  ]
+}

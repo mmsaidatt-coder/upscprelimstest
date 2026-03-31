@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "The terms 'arabitol', 'myo-inositol', and 'ribothymidine', sometimes mentioned in the news, are related to:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Active pharmaceutical ingredients used in the treatment of multidrug-resistant tuberculosis"
+        },
+        {
+          "id": "B",
+          "text": "Biochemical markers used to detect kidney complications in diabetic patients"
+        },
+        {
+          "id": "C",
+          "text": "Synthetic enzymes employed in the bioremediation of marine oil spills"
+        },
+        {
+          "id": "D",
+          "text": "Genetically modified proteins used to enhance drought resistance in staple crops"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Arabitol, myo-inositol, and ribothymidine are biochemical markers identified by Indian researchers in blood to detect kidney complications in diabetic patients. Biochemical markers are small molecules (such as sugars, amino acids, and lipids) produced naturally during metabolic processes that are used to ascertain disease risks.",
+      "takeaway": "Biochemical markers are naturally occurring small molecules from metabolic processes used to assess disease risks. Arabitol, myo-inositol, and ribothymidine specifically help in the early detection of kidney complications in individuals with diabetes.",
+      "evidenceExcerpt": "Indian researchers identified biochemical markers in blood to detect kidney complications in diabetic patients. Biochemical markers are small molecules (sugars, amino acids, lipids) produced during metabolic processes used to ascertain disease risks. Components for identifying kidney complications include arabitol, myo-inositol, and ribothymidine.",
+      "qualityScore": 88,
+      "reviewNotes": "Rewrote Candidate 2 to perfectly match the classic UPSC 'terms sometimes seen in the news' format. The distractors are plausible and cover standard UPSC science themes (MDR-TB, bioremediation, GM crops)."
+    }
+  ],
+  "reviewerNotes": "Selected the 'terms in the news' question as it is a highly recurring and authentic UPSC format for specific scientific compounds. Refined the prompt and distractors to ensure they are parallel and plausible."
+}

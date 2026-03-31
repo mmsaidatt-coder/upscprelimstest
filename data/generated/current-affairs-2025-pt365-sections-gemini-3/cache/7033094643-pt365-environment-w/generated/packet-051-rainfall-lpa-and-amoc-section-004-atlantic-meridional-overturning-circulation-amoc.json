@@ -1,0 +1,160 @@
+{
+  "questions": [
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Atlantic Meridional Overturning Circulation (AMOC), consider the following statements:\n1. It is primarily driven by the prevailing surface winds and the Coriolis effect.\n2. It involves the movement of warm tropical water towards the North Atlantic, where it cools, becomes denser, and sinks.\n3. It plays a crucial role in moderating the climate of Europe by transporting heat from the tropics.\n\nWhich of the statements given above are correct?",
+      "contextLines": [
+        "AMOC is driven by differences in water temperature and salinity, circulating warm water north and cold water south.",
+        "Warm tropical water moves towards the poles, cools, becomes dense, and sinks in the North Atlantic before flowing south.",
+        "AMOC... moderates Europe's climate by transporting heat from the tropics."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The AMOC is a thermohaline circulation, meaning it is driven by differences in water temperature and salinity (which affect density), rather than being primarily driven by surface winds and the Coriolis effect. Statements 2 and 3 are correct: It transports warm tropical water to the North Atlantic, where it cools, sinks, and flows south, thereby moderating Europe's climate through heat transport.",
+      "takeaway": "The AMOC is a density-driven (thermohaline) deep-ocean circulation system that is vital for global heat redistribution, particularly in keeping Europe's climate relatively mild.",
+      "evidenceExcerpt": "AMOC: A system of ocean currents that circulates water within the Atlantic Ocean, bringing warm water north and cold water south. Driving Force: Differences in water temperature and salinity... Heat Transport from the tropics to higher latitudes, moderating Europe’s climate."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following potential consequences of a significant slowdown in the Atlantic Meridional Overturning Circulation (AMOC):\n1. Unusually colder temperatures across Europe.\n2. Enhanced uptake of atmospheric carbon dioxide by the oceans.\n3. Accelerated sea-level rise along the eastern coast of the United States.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [
+        "Potential Impacts of AMOC Slowdown: AMOC carbon feedback: Reduction of ocean carbon uptake...",
+        "Colder temperatures in Europe...",
+        "sea-level rise across the U.S. East Coast."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: A slowdown in the AMOC would reduce the transport of tropical heat to higher latitudes, leading to colder temperatures in Europe. Statement 2 is incorrect: A weakening AMOC would lead to a reduction (not enhancement) of the ocean's carbon uptake. Statement 3 is correct: A slowdown is projected to cause sea-level rise across the U.S. East Coast.",
+      "takeaway": "A weakening AMOC has severe global consequences, including regional cooling in Europe, disrupted monsoons, localized sea-level rise on the US East Coast, and a reduced capacity for the ocean to sequester carbon.",
+      "evidenceExcerpt": "Potential Impacts of AMOC Slowdown: AMOC carbon feedback: Reduction of ocean carbon uptake... Colder temperatures in Europe... sea-level rise across the U.S. East Coast."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "Which of the following statements best describes the mechanism of the Atlantic Meridional Overturning Circulation (AMOC)?",
+      "contextLines": [
+        "AMOC: A system of ocean currents that circulates water within the Atlantic Ocean, bringing warm water north and cold water south.",
+        "Driving Force: Differences in water temperature and salinity..."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "It is a wind-driven surface circulation that transports cold Arctic waters to the tropical Atlantic."
+        },
+        {
+          "id": "B",
+          "text": "It is a density-driven ocean current system that circulates warm water northwards and cold water southwards in the Atlantic Ocean."
+        },
+        {
+          "id": "C",
+          "text": "It is an atmospheric circulation cell that influences the trade winds and the Indian monsoon."
+        },
+        {
+          "id": "D",
+          "text": "It is a deep-ocean current system driven exclusively by the Coriolis force, isolating the North Atlantic from tropical heat."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The AMOC is a system of ocean currents driven by differences in water temperature and salinity (density). It functions by bringing warm surface water northwards towards the poles, where it cools, becomes denser, sinks, and then flows southwards at depth.",
+      "takeaway": "AMOC is part of the global thermohaline circulation, fundamentally driven by water density differences (temperature and salinity) rather than wind or atmospheric cells.",
+      "evidenceExcerpt": "AMOC: A system of ocean currents that circulates water within the Atlantic Ocean, bringing warm water north and cold water south. Driving Force: Differences in water temperature and salinity..."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Atlantic Meridional Overturning Circulation (AMOC):\n1. It is primarily driven by differences in water temperature and salinity rather than prevailing surface winds.\n2. Its circulation dynamics have a recognizable influence on global rainfall patterns, including the Indian monsoon.\n3. A slowdown of the AMOC is projected to cause a significant drop in sea levels across the eastern coast of the United States.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The AMOC is a thermohaline circulation driven by differences in water temperature and salinity. Statement 2 is correct: The AMOC influences global climate patterns, including the Indian monsoon. Statement 3 is incorrect: A slowdown in the AMOC is projected to lead to a sea-level rise, not a drop, across the U.S. East Coast.",
+      "takeaway": "The AMOC is a critical ocean current system driven by temperature and salinity gradients. It impacts distant weather systems like the Indian monsoon, and its weakening poses severe regional risks, including sea-level rise on the US East Coast.",
+      "evidenceExcerpt": "Driving Force: Differences in water temperature and salinity... Significance of AMOC: Influences rainfall patterns, including Indian monsoon... Potential Impacts of AMOC Slowdown: ... sea-level rise across the U.S. East Coast."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-Choice",
+      "prompt": "In the context of the Atlantic Meridional Overturning Circulation (AMOC), what is the primary physical mechanism that causes the northward-flowing tropical waters to eventually sink in the North Atlantic?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The convergence of the warm waters with polar easterlies physically forces the surface water downward."
+        },
+        {
+          "id": "B",
+          "text": "As the water travels northward, it loses heat to the atmosphere, increasing its density and causing it to sink."
+        },
+        {
+          "id": "C",
+          "text": "The influx of fresh water from melting Arctic ice significantly increases the salinity and density of the surface water."
+        },
+        {
+          "id": "D",
+          "text": "The Coriolis force at higher latitudes generates a persistent downward vortex that pulls surface water into the deep ocean."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The AMOC is driven by differences in water temperature and salinity (thermohaline circulation). As warm tropical water moves towards the poles, it cools. This loss of heat makes the water denser, causing it to sink in the North Atlantic before flowing south. Option C is incorrect because melting Arctic ice adds fresh water, which decreases salinity and density, thereby threatening to slow the AMOC.",
+      "takeaway": "The sinking of water in the North Atlantic, a key driver of the AMOC, is primarily caused by the increase in density as warm, salty water cools upon reaching higher latitudes.",
+      "evidenceExcerpt": "AMOC is driven by differences in water temperature and salinity... Warm tropical water moves towards the poles, cools, becomes dense, and sinks in the North Atlantic before flowing south."
+    }
+  ]
+}

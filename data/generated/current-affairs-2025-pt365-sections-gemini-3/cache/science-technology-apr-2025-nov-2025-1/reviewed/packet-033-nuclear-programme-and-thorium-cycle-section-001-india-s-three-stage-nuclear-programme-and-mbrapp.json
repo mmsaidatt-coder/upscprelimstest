@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding India's Three-Stage Nuclear Programme:\n1. The first stage utilizes Pressurized Heavy Water Reactors (PHWRs) fuelled by natural uranium to produce plutonium.\n2. The second stage is fuelled by a mix of plutonium and natural uranium, where thorium is introduced to convert it into Uranium-233.\n3. In the third stage, thorium directly undergoes nuclear fission to power the reactors.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Stage 1 uses natural uranium in PHWRs to produce electricity and plutonium. Statement 2 is correct: Stage 2 uses a mix of plutonium and natural uranium, and introduces thorium to convert it to U-233. Statement 3 is incorrect: Thorium does not directly undergo fission to power the reactor; rather, it transmutes to Uranium-233, which then powers the reactor.",
+      "takeaway": "India's three-stage nuclear programme sequentially utilizes natural uranium, plutonium, and thorium. Thorium must be transmuted into Uranium-233 before it can power a reactor.",
+      "evidenceExcerpt": "Stage 1: Heavy water reactors (PHWR) fuelled by natural Uranium produce plutonium. Stage 2: Fuelled by a mix of Plutonium and natural Uranium. With sufficient stocks, thorium is introduced to convert it into U-233. Stage 3: Mix of Thorium and Uranium fuels the Reactors. Thorium transmutes to U 233, which powers the reactor.",
+      "qualityScore": 85,
+      "reviewNotes": "Good coverage of the three stages. Distractors are plausible and test the core mechanism of the thorium cycle."
+    }
+  ],
+  "reviewerNotes": "Selected three high-quality questions covering the factual and conceptual aspects of India's Three-Stage Nuclear Programme and the MBRAPP project. Rewrote the Assertion-Reason question into the modern UPSC Statement-I/Statement-II format to better align with recent exam trends."
+}

@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to carbon pricing instruments and related global initiatives, consider the following statements:\n\n1. The \"State and Trends of Carbon Pricing\" report is a flagship publication released by the United Nations Environment Programme (UNEP).\n2. An Emissions Trading System (ETS) operates by setting a cap on greenhouse gas emissions or emission intensity for covered entities.\n3. Carbon taxes involve the government levying a direct fee on covered entities for their greenhouse gas emissions.\n4. Carbon crediting mechanisms generate tradable credits primarily through voluntary activities that reduce emissions.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is incorrect: The \"State and Trends of Carbon Pricing\" report is released by the World Bank Group, not UNEP.\nStatement 2 is correct: Emissions Trading Systems (ETS) involve the government setting a cap on greenhouse gas (GHG) emissions or emission intensity.\nStatement 3 is correct: Carbon Taxes involve the government levying a fee on covered entities for their GHG emissions.\nStatement 4 is correct: Carbon Crediting Mechanisms generate tradable credits through voluntary activities that reduce emissions.",
+      "takeaway": "Carbon pricing instruments include Emissions Trading Systems (cap-based), Carbon Taxes (fee-based), and Carbon Crediting Mechanisms (voluntary tradable credits). The annual State and Trends of Carbon Pricing report is published by the World Bank Group.",
+      "evidenceExcerpt": "The State and Trends of Carbon Pricing 2025 report is released by the World Bank Group. Carbon pricing puts a financial cost on greenhouse gas emissions. Instruments include Emissions Trading Systems (government sets a cap on emissions), Carbon Taxes (government levies a fee on emissions), and Carbon Crediting Mechanisms (tradable credits generated through voluntary emission reduction activities)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "correct-pair",
+      "prompt": "Consider the following pairs of carbon pricing instruments and their primary mechanisms: 1. Emissions Trading System : Government levies a direct fee on covered entities for their greenhouse gas emissions. 2. Carbon Tax : Government sets a cap on greenhouse gas emissions or emission intensity. 3. Carbon Crediting Mechanism : Tradable credits are generated through voluntary emission reduction activities. How many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Pair 1 is incorrectly matched: An Emissions Trading System (ETS) involves the government setting a cap on greenhouse gas emissions or emission intensity, not levying a direct fee. Pair 2 is incorrectly matched: A Carbon Tax involves the government levying a fee on emissions, not setting a cap. Pair 3 is correctly matched: Carbon Crediting Mechanisms generate tradable credits through voluntary activities that reduce emissions.",
+      "takeaway": "Carbon pricing instruments differ fundamentally in their mechanisms: ETS relies on a regulatory cap, Carbon Taxes rely on a fixed fee, and Crediting Mechanisms rely on voluntary reduction activities.",
+      "evidenceExcerpt": "Instruments include Emissions Trading Systems (government sets a cap on emissions), Carbon Taxes (government levies a fee on emissions), and Carbon Crediting Mechanisms (tradable credits generated through voluntary emission reduction activities)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "comparison",
+      "prompt": "Based on the framework of carbon pricing instruments, which of the following best highlights the fundamental difference between a Carbon Tax and a Carbon Crediting Mechanism?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A carbon tax involves a government-mandated fee on covered entities, whereas a carbon crediting mechanism relies on voluntary emission reduction activities."
+        },
+        {
+          "id": "B",
+          "text": "A carbon tax sets a strict regulatory cap on total emissions, whereas a carbon crediting mechanism allows unlimited emissions for a variable fee."
+        },
+        {
+          "id": "C",
+          "text": "A carbon tax generates tradable emission allowances for international markets, whereas a carbon crediting mechanism is strictly a domestic compliance tool."
+        },
+        {
+          "id": "D",
+          "text": "A carbon tax is exclusively administered by the World Bank, whereas carbon crediting mechanisms are governed by the United Nations Environment Programme."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A carbon tax is a regulatory instrument where the government levies a fee on covered entities for their greenhouse gas emissions. In contrast, carbon crediting mechanisms generate tradable credits through voluntary activities that reduce emissions, rather than through a mandatory government fee.",
+      "takeaway": "The key distinction lies in the mandatory nature of the fee in a Carbon Tax versus the voluntary nature of emission reduction activities in a Carbon Crediting Mechanism.",
+      "evidenceExcerpt": "Carbon Taxes (government levies a fee on emissions), and Carbon Crediting Mechanisms (tradable credits generated through voluntary emission reduction activities)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "conceptual",
+      "prompt": "Which of the following best describes the core mechanism of an Emissions Trading System (ETS) as an instrument to control greenhouse gas emissions?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It establishes a fixed financial penalty per unit of greenhouse gas emitted by covered entities."
+        },
+        {
+          "id": "B",
+          "text": "It involves the government setting a definitive limit on greenhouse gas emissions or emission intensity."
+        },
+        {
+          "id": "C",
+          "text": "It generates tradable credits exclusively through voluntary afforestation and reforestation projects."
+        },
+        {
+          "id": "D",
+          "text": "It provides direct financial subsidies to industries transitioning to renewable energy sources."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "An Emissions Trading System (ETS) operates by having the government set a cap (a definitive limit) on greenhouse gas emissions or emission intensity for covered entities. Option A describes a Carbon Tax, and Option C describes a Carbon Crediting Mechanism.",
+      "takeaway": "ETS is defined by its cap-and-trade structure, where the government sets a strict cap on emissions, distinguishing it from price-based instruments like carbon taxes.",
+      "evidenceExcerpt": "Emissions Trading Systems (government sets a cap on emissions)"
+    }
+  ]
+}

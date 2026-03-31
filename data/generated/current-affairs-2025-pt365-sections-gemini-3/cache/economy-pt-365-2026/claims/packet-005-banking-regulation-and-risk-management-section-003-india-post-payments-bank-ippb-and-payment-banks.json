@@ -1,0 +1,65 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-005-banking-regulation-and-risk-management-section-003-india-post-payments-bank-ippb-and-payment-banks",
+    "claimType": "Institution-Feature",
+    "claimText": "India Post Payments Bank (IPPB) is a 100% government-owned entity operating under the Department of Posts, Ministry of Communications.",
+    "evidenceExcerpt": "Genesis: 2018 as a 100% government-owned payments bank under the Department of Posts, Ministry of Communications.",
+    "pageNumbers": [
+      12
+    ],
+    "examUse": "Statement-based question on the ownership structure and nodal ministry of IPPB.",
+    "distractorHooks": [
+      "Ministry of Finance",
+      "51% government-owned",
+      "Subsidiary of the Reserve Bank of India"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-005-banking-regulation-and-risk-management-section-003-india-post-payments-bank-ippb-and-payment-banks",
+    "claimType": "Regulatory-Limit",
+    "claimText": "Payment banks are permitted to accept deposits up to a maximum limit of Rs. 2 lakh.",
+    "evidenceExcerpt": "It can accept deposits (up to 2 lakh)",
+    "pageNumbers": [
+      12
+    ],
+    "examUse": "Statement-based question on the deposit limits applicable to payment banks.",
+    "distractorHooks": [
+      "Deposits up to 1 lakh",
+      "Deposits up to 5 lakh",
+      "No limit on deposit acceptance"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-005-banking-regulation-and-risk-management-section-003-india-post-payments-bank-ippb-and-payment-banks",
+    "claimType": "Regulatory-Restriction",
+    "claimText": "Payment banks are prohibited from giving loans or issuing credit cards.",
+    "evidenceExcerpt": "cannot give loans or issue credit cards.",
+    "pageNumbers": [
+      12
+    ],
+    "examUse": "Statement-based question on the restricted activities of payment banks.",
+    "distractorHooks": [
+      "Can issue credit cards but not loans",
+      "Can give micro-loans up to 1 lakh",
+      "Can issue both loans and credit cards"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-005-banking-regulation-and-risk-management-section-003-india-post-payments-bank-ippb-and-payment-banks",
+    "claimType": "Service-Feature",
+    "claimText": "Although payment banks cannot issue loans directly, they can provide access to third-party financial products such as loans and insurance.",
+    "evidenceExcerpt": "access to 3rd Party products such as loans, insurance, etc.",
+    "pageNumbers": [
+      12
+    ],
+    "examUse": "Statement-based question distinguishing between direct lending and cross-selling third-party loan products.",
+    "distractorHooks": [
+      "Cannot offer any loan products, including third-party loans",
+      "Can only offer third-party insurance, not loans"
+    ]
+  }
+]

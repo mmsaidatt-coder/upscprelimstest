@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the 'Shinkansen Technology' being introduced in the Mumbai-Ahmedabad Bullet train project, consider the following statements:\n1. It is an indigenous high-speed rail technology of Japan.\n2. To optimize infrastructure costs, these trains will share existing tracks with conventional express trains.\n3. The trains feature aerodynamic optimization specifically designed for vehicle noise reduction.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Shinkansen is Japan's indigenous high-speed bullet train technology, and the next-generation E10 trains are being introduced in India.\nStatement 2 is incorrect: A key feature of the Shinkansen technology is that it operates on a dedicated track for high-speed rail that is completely free of level crossings, rather than sharing tracks with conventional trains.\nStatement 3 is correct: The Shinkansen trains incorporate aerodynamic optimization to reduce vehicle noise during high-speed transit.",
+      "takeaway": "The Shinkansen is Japan's high-speed rail system. Key features include dedicated tracks free of level crossings, an Automatic Train Control (ATC) system, and aerodynamic optimization for noise reduction.",
+      "evidenceExcerpt": "Next generation E10 Shinkansen trains are to be introduced simultaneously in India (Mumbai-Ahmedabad Bullet train project) and Japan. It is Japan's High-speed bullet train. Key Features: Dedicated track for high-speed rail that is free of level crossings... Includes aerodynamic optimization for vehicle noise reduction."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice",
+      "prompt": "The Mumbai-Ahmedabad Bullet Train project is adopting Japan's Shinkansen technology. Which of the following combinations of features best distinguishes the operational infrastructure of this Shinkansen system from conventional railway networks?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Shared broad-gauge tracks, GPS-based manual signaling, and aerodynamic noise reduction."
+        },
+        {
+          "id": "B",
+          "text": "Dedicated tracks free of level crossings, Automatic Train Control (ATC), and aerodynamic optimization."
+        },
+        {
+          "id": "C",
+          "text": "Elevated magnetic levitation guideways, automated level crossings, and regenerative braking."
+        },
+        {
+          "id": "D",
+          "text": "Standard-gauge tracks integrated with freight corridors, Kavach anti-collision system, and manual train control."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Shinkansen high-speed rail technology relies on a completely segregated infrastructure. It utilizes dedicated tracks that are entirely free of level crossings to ensure uninterrupted high-speed travel, operates using an Automatic Train Control (ATC) system rather than conventional manual signaling, and incorporates aerodynamic optimization specifically for vehicle noise reduction.",
+      "takeaway": "Shinkansen technology prioritizes safety and speed through strict infrastructure segregation (no level crossings) and automated control (ATC), distinguishing it from conventional rail systems that often share tracks and rely on manual controls or level crossings.",
+      "evidenceExcerpt": "Key Features: Dedicated track for high-speed rail that is free of level crossings and ATC system (Automatic Train Control System). Includes aerodynamic optimization for vehicle noise reduction."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the deployment of Shinkansen technology in the Mumbai-Ahmedabad high-speed rail project:\n1. To optimize initial capital costs, India will deploy older-generation Shinkansen trains that are currently being phased out in Japan.\n2. The operational safety of the trains will be governed by an Automatic Train Control (ATC) system.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: India is not adopting phased-out technology. The next-generation E10 Shinkansen trains are slated to be introduced simultaneously in both India and Japan. Statement 2 is correct: The Shinkansen system relies on an Automatic Train Control (ATC) system for operational safety and speed regulation.",
+      "takeaway": "Technology transfer in the Mumbai-Ahmedabad project involves cutting-edge, next-generation E10 trains deployed concurrently with Japan, rather than older legacy models.",
+      "evidenceExcerpt": "Next generation E10 Shinkansen trains are to be introduced simultaneously in India (Mumbai-Ahmedabad Bullet train project) and Japan... Key Features: Dedicated track for high-speed rail that is free of level crossings and ATC system"
+    }
+  ]
+}

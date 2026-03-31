@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Solar Tornadoes':\n\n1. Unlike terrestrial tornadoes, they are structured and held in place by magnetic fields.\n2. They are composed of ionized gas that can reach extremely high temperatures.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Both statements are correct. Solar tornadoes (also known as tornado prominences) are massive structures in the solar atmosphere. Unlike Earth's tornadoes, which are driven by wind and atmospheric pressure differences, solar tornadoes are made of ionized gas (plasma) and are held in place by the Sun's powerful magnetic fields. They can reach extreme temperatures, often around 250,000 °C.",
+      "takeaway": "Solar tornadoes are plasma structures governed by magnetic fields, reaching extreme temperatures, distinguishing their driving mechanism entirely from Earth's wind-driven tornadoes.",
+      "evidenceExcerpt": "Solar tornadoes (tornado prominences) are made of ionized gas (plasma) held by magnetic fields and can reach temperatures around 250,000 °C.",
+      "qualityScore": 88,
+      "reviewNotes": "Good comparative statement testing the fundamental difference between terrestrial and solar phenomena."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Mechanism-design",
+      "prompt": "In the context of meteorological phenomena, which of the following best describes a 'Cold Pool'?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A region of the ocean where deep, nutrient-rich cold water upwells to the surface."
+        },
+        {
+          "id": "B",
+          "text": "A mass of evaporatively cooled air that sinks and spreads across the surface beneath precipitating clouds."
+        },
+        {
+          "id": "C",
+          "text": "A localized area of extreme cold in the stratosphere associated with polar vortex expansion."
+        },
+        {
+          "id": "D",
+          "text": "A depression in permafrost regions where dense cold air gets trapped during winter months."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Option B is correct. Cold pools are small-scale meteorological phenomena that form when evaporating rain cools the surrounding air. This cooling makes the air denser and heavier, causing it to sink as a downdraft and spread across the ground like a shallow bubble beneath precipitating clouds. The other options describe upwelling (A), polar vortex dynamics (C), and cold air pooling in valleys (D), which are different phenomena.",
+      "takeaway": "Cold pools are small-scale areas of evaporatively cooled downdraft air that spread on the surface underneath precipitating clouds.",
+      "evidenceExcerpt": "Cold pools form when evaporating rain cools the air, making it heavier, causing it to sink and spread across the ground like a shallow bubble.",
+      "qualityScore": 85,
+      "reviewNotes": "Strong conceptual question. Distractors were rewritten to represent actual, plausible geographical and meteorological phenomena (upwelling, polar vortex, valley cold pools) to test the candidate's precision of knowledge."
+    }
+  ],
+  "reviewerNotes": "Selected the questions on Solar Tornadoes and Cold Pools. Improved the distractors for the Cold Pools question to make them sound like plausible geographical phenomena (upwelling, polar vortex, permafrost). Refined the statements for Solar Tornadoes to ensure clarity and UPSC-style phrasing."
+}

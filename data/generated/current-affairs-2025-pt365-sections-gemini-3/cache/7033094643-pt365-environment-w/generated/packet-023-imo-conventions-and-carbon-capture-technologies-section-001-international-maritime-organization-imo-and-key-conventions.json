@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the International Maritime Organization (IMO):<br>1. It is a specialized agency of the United Nations responsible for shipping safety and preventing marine pollution.<br>2. The Maritime Safety Committee (MSC) serves as its highest technical body.<br>3. The Hong Kong Convention (2009), which deals with safe and environmentally sound ship recycling, is one of its key conventions.<br>How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "All three statements are correct. The IMO is a UN specialized agency responsible for shipping safety and preventing marine pollution. The Maritime Safety Committee (MSC) is its highest technical body. The Hong Kong Convention (2009) is an IMO convention aimed at safe and environmentally sound ship recycling.",
+      "takeaway": "The IMO is a UN specialized agency governing shipping safety and marine pollution through conventions like SOLAS, MARPOL, and the Hong Kong Convention.",
+      "evidenceExcerpt": "The International Maritime Organization (IMO) is a UN specialized agency responsible for shipping safety and preventing marine pollution... Its highest technical body is the Maritime Safety Committee (MSC). Key conventions include SOLAS (1974), MARPOL, and the Hong Kong Convention (2009) for safe and environmentally sound ship recycling."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Multiple-choice",
+      "prompt": "Which of the following best describes the primary objective of the Hong Kong Convention (2009)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "To establish a global framework for the prevention of marine plastic pollution from commercial shipping."
+        },
+        {
+          "id": "B",
+          "text": "To ensure that ship recycling does not pose unnecessary risks to human health, safety, and the environment."
+        },
+        {
+          "id": "C",
+          "text": "To regulate deep-sea mining activities in international waters beyond national jurisdiction."
+        },
+        {
+          "id": "D",
+          "text": "To mandate the use of low-sulphur fuel oil in ships to reduce atmospheric pollution."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Hong Kong Convention (2009) was adopted under the IMO to ensure the safe and environmentally sound recycling of ships.",
+      "takeaway": "The Hong Kong Convention specifically targets the environmental and safety standards of the ship recycling industry.",
+      "evidenceExcerpt": "Key conventions include SOLAS (1974), MARPOL, and the Hong Kong Convention (2009) for safe and environmentally sound ship recycling."
+    }
+  ]
+}

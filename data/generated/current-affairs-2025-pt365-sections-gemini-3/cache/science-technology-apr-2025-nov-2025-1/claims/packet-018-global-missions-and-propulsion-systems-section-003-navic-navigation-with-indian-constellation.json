@@ -1,0 +1,82 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-018-global-missions-and-propulsion-systems-section-003-navic-navigation-with-indian-constellation",
+    "claimType": "Factual",
+    "claimText": "NavIC provides coverage over the Indian landmass and a region extending up to 1500 km beyond it.",
+    "evidenceExcerpt": "NavIC coverage extends up to 1500 km beyond the Indian landmass.",
+    "pageNumbers": [
+      38
+    ],
+    "examUse": "Statement-based question on NavIC's coverage area.",
+    "distractorHooks": [
+      "Global coverage",
+      "Coverage up to 5000 km beyond India",
+      "Coverage restricted only to the Indian landmass"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-018-global-missions-and-propulsion-systems-section-003-navic-navigation-with-indian-constellation",
+    "claimType": "Factual",
+    "claimText": "The NavIC constellation consists of 7 satellites, with 3 in geostationary orbit and 4 in inclined geosynchronous orbit.",
+    "evidenceExcerpt": "The constellation consists of 7 satellites: 3 in geostationary orbit and 4 in inclined geosynchronous orbit.",
+    "pageNumbers": [
+      38
+    ],
+    "examUse": "Statement-based question on satellite configuration.",
+    "distractorHooks": [
+      "4 geostationary and 3 geosynchronous satellites",
+      "Satellites in Low Earth Orbit (LEO)",
+      "Constellation of 9 satellites"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-018-global-missions-and-propulsion-systems-section-003-navic-navigation-with-indian-constellation",
+    "claimType": "Factual",
+    "claimText": "NavIC operates using dual-band signals, specifically L5 and S-band, with the L5 signal encrypted for military use.",
+    "evidenceExcerpt": "NavIC uses dual-band signals (L5 and S-band), with the L5 signal encrypted for military use.",
+    "pageNumbers": [
+      38
+    ],
+    "examUse": "Statement-based question on signal bands and encryption.",
+    "distractorHooks": [
+      "Single-band signals",
+      "Ku-band and Ka-band signals",
+      "S-band encrypted for military use"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-018-global-missions-and-propulsion-systems-section-003-navic-navigation-with-indian-constellation",
+    "claimType": "Factual",
+    "claimText": "NavIC offers Standard Position Service (SPS) for civilian users and Restricted Service (RS) for strategic users.",
+    "evidenceExcerpt": "It offers Standard Position Service (SPS) for civilians and Restricted Service (RS) for strategic users.",
+    "pageNumbers": [
+      38
+    ],
+    "examUse": "Statement-based question on service types.",
+    "distractorHooks": [
+      "Only military use",
+      "SPS for military and RS for civilians"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-018-global-missions-and-propulsion-systems-section-003-navic-navigation-with-indian-constellation",
+    "claimType": "Factual",
+    "claimText": "Global navigation systems equivalent to NavIC include GLONASS (Russia), Galileo (EU), BeiDou (China), and QZSS (Japan).",
+    "evidenceExcerpt": "Global equivalents include GLONASS (Russia), Galileo (EU), BeiDou (China), and QZSS (Japan).",
+    "pageNumbers": [
+      38
+    ],
+    "examUse": "Correct-pair question matching navigation systems to their respective countries or regions.",
+    "distractorHooks": [
+      "GLONASS (EU)",
+      "Galileo (Russia)",
+      "BeiDou (Japan)",
+      "QZSS (China)"
+    ]
+  }
+]

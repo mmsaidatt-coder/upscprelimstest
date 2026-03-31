@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "According to the Digital Personal Data Protection (DPDP) Rules 2025, what is the implementation timeline provided for organizations to adjust their systems?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "6-month immediate compliance period"
+        },
+        {
+          "id": "B",
+          "text": "12-month transition period"
+        },
+        {
+          "id": "C",
+          "text": "18-month phased compliance period"
+        },
+        {
+          "id": "D",
+          "text": "24-month voluntary adoption period"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The DPDP Rules 2025 specify an 18-month phased compliance period. This allows organizations time to adjust their technical systems and adopt the responsible data practices required by the Act.",
+      "takeaway": "The 2025 Rules provide a specific 18-month window for phased implementation.",
+      "evidenceExcerpt": "Implementation timeline: 18-month phased compliance period for organizations to adjust their systems and adopt responsible data practices."
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice",
+      "prompt": "Under the Digital Personal Data Protection (DPDP) Act, 2023, in which of the following scenarios is the 'Consent' of the Data Principal NOT mandatory for processing personal data?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Processing for the purpose of targeted commercial advertising by a private entity."
+        },
+        {
+          "id": "B",
+          "text": "Processing for the provision of any benefit or service by the Government."
+        },
+        {
+          "id": "C",
+          "text": "Processing for academic research by a non-governmental organization."
+        },
+        {
+          "id": "D",
+          "text": "Processing for the creation of a new customer profile by a financial institution."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Act specifies certain 'legitimate uses' where consent is not required. These include government benefits, medical emergencies, and employment-related purposes. Commercial advertising, academic research by NGOs, and general customer profiling do not fall under these specific exemptions.",
+      "takeaway": "Consent is the default requirement, but 'legitimate uses' like government services and emergencies are statutory exceptions.",
+      "evidenceExcerpt": "Data processed only for lawful purpose with consent, withdrawable anytime. Consent not required for legitimate uses (government benefits, medical emergencies, etc.).",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice",
+      "prompt": "In the event of a personal data breach, what is the primary obligation of a 'Data Fiduciary' under the Digital Personal Data Protection (DPDP) Act, 2023?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To inform only the Data Protection Board of India within 72 hours."
+        },
+        {
+          "id": "B",
+          "text": "To inform the Data Protection Board of India and each affected Data Principal."
+        },
+        {
+          "id": "C",
+          "text": "To immediately erase all data related to the breach to prevent further exposure."
+        },
+        {
+          "id": "D",
+          "text": "To compensate the affected Data Principals before notifying the regulatory authorities."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "According to the Act, in the case of a data breach, the Data Fiduciary is obligated to inform both the Data Protection Board of India (DPBI) and the affected individuals (Data Principals).",
+      "takeaway": "Transparency in data breaches is a dual obligation involving notification to both the regulator and the victim.",
+      "evidenceExcerpt": "Obligations of Data Fiduciaries: Inform DPBI and affected persons in case of breach.",
+      "contextLines": []
+    }
+  ]
+}

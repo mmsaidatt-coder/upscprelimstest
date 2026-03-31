@@ -1,0 +1,33 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Which of the following statements best describes the 'ANNA DARPAN' platform introduced by the Food Corporation of India (FCI)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is a blockchain-enabled platform specifically for the traceability of GI-tagged organic products."
+        },
+        {
+          "id": "B",
+          "text": "It is a microservices-based, mobile-first platform that integrates the entire food supply chain from procurement to sales."
+        },
+        {
+          "id": "C",
+          "text": "It is a cloud-based ERP system designed primarily for the internal HR and financial management of the Central Warehousing Corporation."
+        },
+        {
+          "id": "D",
+          "text": "It is a chatbot-based grievance redressal mechanism for beneficiaries of the Pradhan Mantri Garib Kalyan Anna Yojana."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "ANNA DARPAN is a microservices-based, mobile-first platform by FCI that replaces the Depot Online System and integrates procurement, storage, movement, sales, and contract management. Option A refers to BHARATI's focus; Option C refers to Bhandaran 360; Option D refers to the ASHA platform.",
+      "takeaway": "ANNA DARPAN represents the digital shift in FCI's supply chain management from a legacy depot system to a modern integrated dashboard.",
+      "evidenceExcerpt": "ANNA DARPAN: Introduced by FCI, it is a new microservices-based (mobile-first) platform that replaces the existing Depot Online System. It integrates procurement, storage, movement, sales, labour & contract management enabling real-time dashboards.",
+      "contextLines": []
+    }
+  ]
+}

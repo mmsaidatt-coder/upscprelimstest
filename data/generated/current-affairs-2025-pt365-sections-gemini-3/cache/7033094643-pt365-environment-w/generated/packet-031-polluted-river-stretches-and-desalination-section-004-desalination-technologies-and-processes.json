@@ -1,0 +1,95 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Correct-pair",
+      "prompt": "How many of the following pairs of desalination projects/technologies and their associated features are correctly matched?",
+      "contextLines": [
+        "1. Low Temperature Thermal Desalination : Utilizes heating of saline water and collecting condensed vapor",
+        "2. Nemmeli Desalination Plant : Employs thermal desalination technology for seawater",
+        "3. Lotus leaf-like Solar Evaporators : Utilizes a hydrophilic silicon-based material"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Pair 1 is correctly matched: Thermal technology (like LTTD) involves heating saline water and collecting condensed vapor. Pair 2 is incorrectly matched: The Nemmeli plant in Tamil Nadu uses Membrane Technology, not thermal. Pair 3 is incorrectly matched: The solar evaporators developed by IIT Bombay use a hydrophobic graphene-based material, not hydrophilic silicon.",
+      "takeaway": "Differentiating between thermal (LTTD) and membrane (Nemmeli) plants is crucial, as well as knowing the specific advanced materials (hydrophobic graphene) used in new solar evaporators.",
+      "evidenceExcerpt": "Thermal Technology Concept: Heating of saline water and collecting condensed vapor... Membrane Technology Concept... Example: Nemmeli Seawater Desalination Plant... Lotus leaf-like Solar Evaporators... through a new hydrophobic Graphene-based material."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding desalination technologies: 1. Thermal desalination involves the heating of saline water and the collection of condensed vapor. 2. Membrane-based desalination technologies are highly resistant to fouling and ensure the complete removal of Total Dissolved Solids (TDS). 3. Low Temperature Thermal Desalination (LTTD) technology has been successfully deployed in the Lakshadweep islands. How many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Thermal technology involves heating saline water and collecting condensed vapor. Statement 2 is incorrect: Membrane technologies are susceptible to fouling and may not fully remove TDS or pathogens. Statement 3 is correct: LTTD plants are operational in Lakshadweep islands like Kavaratti, Minicoy, and Agatti.",
+      "takeaway": "While membrane desalination is widely used for brackish and seawater, it faces operational challenges like fouling and incomplete pathogen/TDS removal compared to thermal evaporation methods.",
+      "evidenceExcerpt": "Thermal Technology Concept: Heating of saline water and collecting condensed vapor... Example: Low Temperature Thermal Desalination (LTTD) plants in Kavaratti... Membrane technologies are susceptible to fouling and may not fully remove Total Dissolved Solids (TDS) or pathogens."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Mechanism-design",
+      "prompt": "Recently, scientists have developed 'Lotus leaf-like Solar Evaporators' for salt-water treatment. Which of the following best describes the underlying material and mechanism of this technology?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It uses a hydrophilic silicon-based membrane that filters out dissolved solids through reverse osmosis."
+        },
+        {
+          "id": "B",
+          "text": "It utilizes a hydrophobic graphene-based material that facilitates water evaporation for desalination."
+        },
+        {
+          "id": "C",
+          "text": "It employs a low-temperature thermal condensation process using titanium-based alloys."
+        },
+        {
+          "id": "D",
+          "text": "It relies on biological bioreactors containing salt-absorbing microbes to reduce water salinity."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "IIT Bombay scientists developed Lotus leaf-like Solar Evaporators using a new hydrophobic Graphene-based material. This technology relies on solar evaporation rather than membrane filtration, thermal condensation via titanium, or biological processes.",
+      "takeaway": "Innovations in nanotechnology, such as hydrophobic graphene, are being applied to solar evaporation to improve the efficiency of salt-water treatment by mimicking the water-repellent properties of a lotus leaf.",
+      "evidenceExcerpt": "IIT Bombay Scientists develop Lotus leaf-like Solar Evaporators for Salt-water Treatment, through a new hydrophobic Graphene-based material..."
+    }
+  ]
+}

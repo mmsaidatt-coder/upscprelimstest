@@ -1,0 +1,149 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Society for Worldwide Interbank Financial Telecommunication (SWIFT), consider the following statements:\n1. It is a secure messaging network that facilitates global financial transactions between institutions.\n2. It acts as a global clearing house that directly settles international trade transactions.\n3. It is headquartered in Belgium.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: SWIFT is a secure messaging network facilitating global financial transactions between over 11,000 institutions.\nStatement 2 is incorrect: SWIFT provides a secure network for transmitting financial messages and instructions, but it does not act as a clearing house or directly settle funds.\nStatement 3 is correct: SWIFT was founded in 1973 and is headquartered in Belgium.",
+      "takeaway": "SWIFT is purely a messaging infrastructure for financial institutions, not a settlement system or clearing house.",
+      "evidenceExcerpt": "About SWIFT (Society for Worldwide Interbank Financial Telecommunication) It is a secure messaging network facilitating global financial transactions between over 11,000 institutions across 200 countries. Genesis: Founded in 1973 by 239 banks from 15 countries. Headquarters: Belgium."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding recent developments in cross-border financial transactions:\n1. ISO 20022 is a proprietary messaging standard exclusively developed and owned by the central banks of G20 countries.\n2. BRICS Pay is a proposed cross-border payment system designed to replace the domestic currencies of BRICS member nations.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Statement 1 is incorrect: ISO 20022 is an open global standard for financial information, not a proprietary standard owned by G20 central banks.\nStatement 2 is incorrect: BRICS Pay is a proposed cross-border payment system to facilitate trade and reduce dependence on SWIFT; it is not intended to replace the domestic currencies of member nations.",
+      "takeaway": "ISO 20022 is an open global standard adopted by Indian banks. BRICS Pay aims to provide an alternative to SWIFT for cross-border payments among BRICS nations.",
+      "evidenceExcerpt": "The ISO 20022 is an open global standard for financial information... BRICS Pay is a proposed cross-border payment system to facilitate trade and financial transactions among BRICS member to reduce dependence on SWIFT."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Multiple Choice",
+      "prompt": "Which one of the following best describes the primary objective of the proposed 'BRICS Pay' system?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "To establish a single unified currency for all BRICS member nations."
+        },
+        {
+          "id": "B",
+          "text": "To create a cross-border payment system that reduces dependence on the SWIFT messaging network."
+        },
+        {
+          "id": "C",
+          "text": "To provide a centralized clearing house exclusively for the New Development Bank (NDB)."
+        },
+        {
+          "id": "D",
+          "text": "To mandate the use of central bank digital currencies (CBDCs) for all domestic transactions within BRICS nations."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "BRICS Pay is a proposed cross-border payment system aimed at facilitating trade and financial transactions among BRICS members, specifically to reduce their reliance on the Western-dominated SWIFT messaging network.",
+      "takeaway": "Geopolitical shifts are prompting groups like BRICS to develop alternative financial infrastructures, such as BRICS Pay, to bypass traditional networks like SWIFT.",
+      "evidenceExcerpt": "Note: BRICS Pay is a proposed cross-border payment system to facilitate trade and financial transactions among BRICS member to reduce dependence on SWIFT."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding mechanisms for cross-border financial transactions:\n1. While ISO 20022 is an open global standard for financial information, SWIFT is a secure messaging network that facilitates transactions.\n2. BRICS Pay is a proposed cross-border payment system aimed at reducing the dependence of member countries on the SWIFT network.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: ISO 20022 is an open global standard for financial information, whereas SWIFT is the secure messaging network infrastructure that facilitates global financial transactions. Statement 2 is correct: BRICS Pay is a proposed cross-border payment system designed to facilitate trade and financial transactions among BRICS members, explicitly aimed at reducing their dependence on SWIFT.",
+      "takeaway": "ISO 20022 provides the standardization for financial messaging, while SWIFT provides the network infrastructure. BRICS Pay is an alternative payment system proposed to bypass SWIFT.",
+      "evidenceExcerpt": "Indian banks have accelerated adoption of the SWIFT messaging framework, ISO 20022. The ISO 20022 is an open global standard for financial information. About SWIFT... It is a secure messaging network facilitating global financial transactions... BRICS Pay is a proposed cross-border payment system to facilitate trade and financial transactions among BRICS member to reduce dependence on SWIFT."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of terms frequently seen in the news and their primary nature:\n1. SWIFT : Secure messaging network\n2. ISO 20022 : Open global standard for financial information\n3. BRICS Pay : Proposed cross-border payment system\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Pair 1 is correctly matched: SWIFT is a secure messaging network facilitating global financial transactions. Pair 2 is correctly matched: ISO 20022 is an open global standard for financial information adopted by banks. Pair 3 is correctly matched: BRICS Pay is a proposed cross-border payment system to reduce dependence on SWIFT.",
+      "takeaway": "Understanding the distinct roles of financial infrastructure—SWIFT as the network, ISO 20022 as the messaging standard, and BRICS Pay as an alternative payment system—is crucial for global economic awareness.",
+      "evidenceExcerpt": "The ISO 20022 is an open global standard for financial information. About SWIFT... It is a secure messaging network... BRICS Pay is a proposed cross-border payment system..."
+    }
+  ]
+}

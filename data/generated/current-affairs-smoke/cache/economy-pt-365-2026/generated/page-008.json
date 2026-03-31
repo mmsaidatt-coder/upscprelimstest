@@ -1,0 +1,178 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Ways and Means Advances (WMA):\n1. It is a temporary advance provided by the Reserve Bank of India to both the Central and State Governments.\n2. It serves as a source for financing the government's fiscal deficit.\n3. The interest rate on WMA is equivalent to the RBI's repo rate.\n4. The advances are typically required to be paid off within three months.\nWhich of the statements given above are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "1, 3 and 4 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2, 3 and 4"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: WMA is a temporary advance given by the RBI to the central government to cover any mismatch in receipts and payments, and it is also available for state governments and Union Territories.\nStatement 2 is incorrect: The text explicitly states that WMA is not a source of financing fiscal deficit.\nStatement 3 is correct: The interest rate on WMA is the RBI’s repo rate.\nStatement 4 is correct: WMA shall be fully paid off within 3 months from the date of making the WMAs.",
+      "takeaway": "Ways and Means Advances (WMA) are temporary liquidity support from RBI to governments, not a tool for fiscal deficit financing, with specific interest and duration terms.",
+      "evidenceExcerpt": "It is a temporary advance given by the RBI to the central government to cover any mismatch in receipts and payments. o Unlike ad hoc Treasury Bills, the instrument of WMAs is not a source of financing fiscal deficit. o WMA is also available for state governments and Union Territories. Interest rate on WMA is the RBI’s repo rate. Duration: It shall be fully paid off within 3 months from the date of making the WMAs.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to Payment Aggregators (PAs) in India, consider the following statements:\n1. They facilitate payment aggregation from customers to merchants for various transactions.\n2. Non-bank Payment Aggregators are mandated to obtain authorization under the Companies Act, 2013.\n3. Entities like Google Pay and PayPal operate as Payment Aggregators.\nWhich of the statements given above is/are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "2 and 3 only"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Payment Aggregators facilitate aggregation of payments made by customers to merchants.\nStatement 2 is incorrect: While Payment Aggregators are incorporated under the Companies Act, 2013, non-bank PAs are mandated to obtain RBI authorisation under the Payment and Settlement Systems Act, 2007, not the Companies Act, 2013, for authorization.\nStatement 3 is correct: Paytm, Google Pay, and PayPal are given as examples of Payment Aggregators.",
+      "takeaway": "Payment Aggregators streamline transactions between customers and merchants, and non-bank PAs require specific RBI authorization under the Payment and Settlement Systems Act, 2007.",
+      "evidenceExcerpt": "It is an entity that facilitates aggregation of payments made by customers to merchants through payment channels through merchant’s interface (physical / virtual) for purchase of goods, services or investment products. E.g., Paytm, Google Pay, PayPal, etc. It is incorporated as a company under the Companies Act, 2013. New framework mandates non-bank PAs to obtain RBI authorisation under the Payment and Settlement Systems Act, 2007.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following recent initiatives by the Reserve Bank of India:\n1. Unified Lending Interface (ULI): Envisioned as a Digital Public Infrastructure to enhance credit delivery.\n2. Central Bank Digital Currency (CBDC) retail sandbox: A platform for fintech firms to innovate and test solutions for digital fiat currency.\n3. Tokenisation of Certificate of Deposits (CD): Involves creating a digital representation of a real-world asset like a CD on a distributed ledger.\nWhich of the statements given above are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "All three statements accurately describe the respective RBI initiatives as mentioned in the source text.\n1. ULI is indeed envisioned as a Digital Public Infrastructure (DPI) for credit delivery.\n2. The CBDC retail sandbox is for fintech firms to innovate and test solutions related to digital fiat currency.\n3. Tokenisation of CD involves creating a digital representation (token) of a real-world asset like a CD on a distributed ledger.",
+      "takeaway": "RBI is actively pursuing digital transformation in finance through initiatives like ULI for credit, CBDC for digital currency innovation, and tokenization for financial instruments.",
+      "evidenceExcerpt": "Unified Lending Interface (ULI): It is envisioned as a Digital Public Infrastructure (DPI) aiming to enhance delivery of credit. Central Bank Digital Currency (CBDC) retail sandbox: For fintech firms to innovate and test solutions. o CBDC is a digital version of fiat currencies issued by Central Banks. Tokenisation of Certificate of Deposits (CD): Tokenization is the process of creating a digital representation, called a \"token\", of a real-world asset like stocks on a distributed ledger or blockchain.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to Certificate of Deposits (CDs), which of the following statements is/are correct?\n1. They are negotiable money market instruments issued only in dematerialised form.\n2. Regional Rural Banks and Local Area Banks are permitted to issue Certificates of Deposits.\n3. The maturity period for a Certificate of Deposit can range from 7 days to one year.\nSelect the correct answer using the code given below:",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: CDs are issued in dematerialised form *or* as a Promissory Note, not *only* in dematerialised form.\nStatement 2 is incorrect: Scheduled commercial banks *excluding* Regional Rural Banks and Local Area Banks are permitted to issue CDs.\nStatement 3 is correct: The maturity period for a CD is up to one year, with a minimum of 7 days.",
+      "takeaway": "Certificate of Deposits (CDs) are important money market instruments with specific issuance forms, eligible issuers, and maturity periods.",
+      "evidenceExcerpt": "CD is a negotiable money market instrument and issued in dematerialised form or as a Promissory Note against funds deposited at a bank or other eligible financial institution. Issued by: Scheduled commercial banks (excluding Regional Rural Banks and Local Area Banks); select All-India Financial Institutions (FIs) permitted by RBI to raise short-term resources. Its maturity period is up to one year (min- 7 days).",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Regarding Self-Regulatory Organisations (SROs) for Non-Banking Financial Companies (NBFCs) in India, consider the following statements:\n1. The Reserve Bank of India recently granted SRO status to the Finance Industry Development Council (FIDC).\n2. SROs are typically set up as for-profit companies to ensure self-sustainability.\n3. The legal framework for recognising SROs is provided by the Companies Act, 2013.\nWhich of the statements given above is/are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: RBI granted Self-Regulatory Organisation status to Finance Industry Development Council (FIDC).\nStatement 2 is incorrect: An SRO shall be setup as a *not-for-profit* company registered under Section 8 of the Companies Act, 2013.\nStatement 3 is incorrect: The legal backing for recognising SROs is RBI’s Omnibus Framework for recognising Self-Regulatory Organisations (SROs) for Regulated Entities (REs), 2024. While SROs are incorporated under the Companies Act, 2013, the framework for their *recognition* as SROs is distinct.",
+      "takeaway": "Self-Regulatory Organisations (SROs) play a crucial role in overseeing regulated entities like NBFCs, operating as not-for-profit entities under an RBI framework.",
+      "evidenceExcerpt": "RBI granted Self-Regulatory Organisation status to Finance Industry Development Council (FIDC) to oversee NBFCs. Legal Backing: RBI’s Omnibus Framework for recognising Self-Regulatory Organisations (SROs) for Regulated Entities (REs), 2024. An SRO shall be setup as a not-for-profit company registered under Section 8 of the Companies Act, 2013.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Multiple Choice Single Correct",
+      "prompt": "Which of the following statements accurately describes a key aspect of the uniform asset classification system under co-lending norms?",
+      "options": [
+        {
+          "id": "A",
+          "text": "All co-lenders must classify a loan as Non-performing Asset (NPA) only after a consensus decision."
+        },
+        {
+          "id": "B",
+          "text": "If one co-lender classifies a loan as Non-performing Asset (NPA), all other co-lenders are required to do the same."
+        },
+        {
+          "id": "C",
+          "text": "Each co-lender is free to classify a loan as NPA independently based on their own internal policies."
+        },
+        {
+          "id": "D",
+          "text": "The lead co-lender's asset classification decision is binding only if the loan amount exceeds a specified threshold."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The uniform asset classification system under co-lending norms mandates that if one lender tags a loan as Nonperforming Asset (NPA), all other co-lenders must follow suit. This ensures consistency across all lenders involved in a co-lending arrangement.",
+      "takeaway": "Uniform asset classification in co-lending ensures consistency in NPA recognition across all participating lenders, preventing discrepancies in risk assessment.",
+      "evidenceExcerpt": "Uniform asset classification system: If one lender tags a loan as Nonperforming Asset (NPA), other co-lenders must do the same.",
+      "contextLines": []
+    }
+  ]
+}

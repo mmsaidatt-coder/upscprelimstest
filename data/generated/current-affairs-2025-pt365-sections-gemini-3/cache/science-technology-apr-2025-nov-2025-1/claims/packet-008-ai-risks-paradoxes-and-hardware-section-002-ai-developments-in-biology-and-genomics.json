@@ -1,0 +1,63 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-008-ai-risks-paradoxes-and-hardware-section-002-ai-developments-in-biology-and-genomics",
+    "claimType": "Factual",
+    "claimText": "BioEmu is a deep learning system developed by Microsoft that is used for predicting protein shapes.",
+    "evidenceExcerpt": "BioEmu is a deep learning system by Microsoft for predicting protein shapes.",
+    "pageNumbers": [
+      17
+    ],
+    "examUse": "Correct-pair question matching AI models to their developers or specific biological functions.",
+    "distractorHooks": [
+      "Developed by Google DeepMind",
+      "Predicts DNA mutations instead of protein shapes"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-008-ai-risks-paradoxes-and-hardware-section-002-ai-developments-in-biology-and-genomics",
+    "claimType": "Factual",
+    "claimText": "AlphaGenome, developed by Google DeepMind, is an AI tool that predicts how DNA mutations affect health.",
+    "evidenceExcerpt": "AlphaGenome by Google DeepMind predicts how DNA mutations affect health.",
+    "pageNumbers": [
+      17
+    ],
+    "examUse": "Statement-based question on the applications of AI in genomics.",
+    "distractorHooks": [
+      "Developed by Microsoft",
+      "Predicts 3D protein structures"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-008-ai-risks-paradoxes-and-hardware-section-002-ai-developments-in-biology-and-genomics",
+    "claimType": "Factual",
+    "claimText": "AlphaFold is an AI system by DeepMind that predicts 3D protein structures from amino acid sequences.",
+    "evidenceExcerpt": "AlphaFold predicts 3D protein structures from amino acid sequences.",
+    "pageNumbers": [
+      17
+    ],
+    "examUse": "Statement-based question on AI achievements in biology.",
+    "distractorHooks": [
+      "Predicts cellular interactions",
+      "Developed by Yale"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-008-ai-risks-paradoxes-and-hardware-section-002-ai-developments-in-biology-and-genomics",
+    "claimType": "Factual",
+    "claimText": "C2S-SCALE is an AI model developed by Google DeepMind and Yale to interpret complex biological interactions at the cellular level.",
+    "evidenceExcerpt": "C2S-SCALE by Google DeepMind and Yale understands the language of individual cells.",
+    "pageNumbers": [
+      17
+    ],
+    "examUse": "Correct-pair question matching AI tools to their specific biological applications.",
+    "distractorHooks": [
+      "Developed solely by Microsoft",
+      "Predicts DNA mutations",
+      "Operates at the macroscopic level"
+    ]
+  }
+]

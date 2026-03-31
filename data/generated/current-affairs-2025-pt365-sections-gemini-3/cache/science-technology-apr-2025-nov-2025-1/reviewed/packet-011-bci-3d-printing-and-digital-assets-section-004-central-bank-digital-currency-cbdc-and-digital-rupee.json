@@ -1,0 +1,98 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "With reference to digital assets, which one of the following statements best describes the fundamental difference between a Central Bank Digital Currency (CBDC) and a private stablecoin?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A CBDC is backed by a decentralized blockchain network, whereas a stablecoin is centrally managed by commercial banks."
+        },
+        {
+          "id": "B",
+          "text": "A CBDC carries sovereign backing and is recognized as legal tender, whereas a stablecoin lacks a sovereign guarantee."
+        },
+        {
+          "id": "C",
+          "text": "A CBDC is designed exclusively for cross-border wholesale transactions, whereas a stablecoin is restricted to domestic retail payments."
+        },
+        {
+          "id": "D",
+          "text": "A CBDC offers interest payments similar to commercial bank deposits, whereas a stablecoin functions strictly as non-interest-bearing cash."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A CBDC is a digital form of sovereign currency issued by a central bank and recognized as legal tender, offering sovereign backing. In contrast, stablecoins are private digital assets that do not possess sovereign backing and operate outside this direct central bank guarantee.",
+      "takeaway": "The primary distinction between CBDCs and private stablecoins is the presence of sovereign backing and legal tender status in CBDCs.",
+      "evidenceExcerpt": "CBDCs offer sovereign backing and operate within a regulated framework, unlike many stablecoins.",
+      "qualityScore": 88,
+      "reviewNotes": "Excellent conceptual question testing the core difference between CBDCs and stablecoins. Distractors are plausible, parallel, and well-constructed."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Central Bank Digital Currency (CBDC):\n1. A CBDC is recognized as legal tender and possesses sovereign backing.\n2. The use of CBDCs in cross-border transactions increases the reliance on traditional financial messaging systems like SWIFT.\n3. Transactions using the Digital Rupee ensure finality of settlement, similar to physical cash.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: A CBDC is a digital form of sovereign currency issued by a central bank and is recognized as legal tender. Statement 2 is incorrect: The use of CBDCs can simplify international trade payments and reduce (not increase) reliance on intermediaries like SWIFT. Statement 3 is correct: The Digital Rupee offers features similar to physical cash, including the guarantee of the RBI and finality of settlement.",
+      "takeaway": "CBDCs are sovereign-backed digital legal tenders that ensure finality of settlement and can streamline cross-border payments by bypassing traditional intermediaries like SWIFT.",
+      "evidenceExcerpt": "CBDC is a digital form of money issued by a central bank and recognized as legal tender... CBDCs can simplify international trade payments and reduce reliance on intermediaries like SWIFT. Digital Rupee offers features similar to physical cash, including the guarantee of the RBI and finality of settlement.",
+      "qualityScore": 85,
+      "reviewNotes": "Converted to the contemporary 'How many statements' format. Tweaked statement 2 to effectively test the candidate's understanding of CBDC's impact on SWIFT and cross-border transactions."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "In the context of international trade, how is the deployment of Central Bank Digital Currencies (CBDCs) expected to enhance the efficiency of cross-border payments?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "By standardizing the exchange rates of all participating sovereign currencies to eliminate currency risk."
+        },
+        {
+          "id": "B",
+          "text": "By enabling direct settlements and reducing reliance on traditional financial messaging systems like SWIFT."
+        },
+        {
+          "id": "C",
+          "text": "By mandating that all international trade be settled in a single, globally recognized digital currency."
+        },
+        {
+          "id": "D",
+          "text": "By shifting the settlement risk entirely to commercial banks operating in the importing country."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "CBDCs can simplify international trade payments by enabling more direct settlements between central banks or participating institutions, thereby reducing the reliance on traditional financial intermediaries and messaging networks such as SWIFT.",
+      "takeaway": "CBDCs have the potential to streamline cross-border transactions by bypassing traditional intermediary networks like SWIFT.",
+      "evidenceExcerpt": "CBDCs can simplify international trade payments and reduce reliance on intermediaries like SWIFT.",
+      "qualityScore": 85,
+      "reviewNotes": "Tests the macroeconomic application of CBDCs. Distractors are realistic but factually incorrect based on the source text."
+    }
+  ],
+  "reviewerNotes": "Selected three strong questions covering the definition, comparison with stablecoins, and macroeconomic utility of CBDCs. Rewrote the statement-based question to match the latest UPSC 'How many statements' pattern and refined the distractors in the conceptual questions to ensure they are plausible and parallel."
+}

@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Geography",
+      "difficulty": "Hard",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs regarding India's deep-sea exploration regions and their associated resources or status:\n\n1. Carlsberg Ridge : Polymetallic Sulphides\n2. Central Indian Ocean Basin : Polymetallic Nodules\n3. Afanasy-Nikitin Seamount : Pending exploration approval due to overlapping territorial claims\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Pair 1 is correctly matched: India holds a contract for exploring polymetallic sulphides in the Carlsberg Ridge. Pair 2 is correctly matched: India holds a contract for Polymetallic Nodules in the Central Indian Ocean Basin. Pair 3 is correctly matched: Exploration approval for the Afanasy-Nikitin Seamount (ANS) is pending as the territory is claimed by Sri Lanka.",
+      "takeaway": "India's deep-sea exploration spans multiple regions: Carlsberg Ridge (sulphides), Central Indian Ocean Basin (nodules), and the Afanasy-Nikitin Seamount (pending due to Sri Lanka's claim).",
+      "evidenceExcerpt": "India signed a 15-year exploration contract for polymetallic sulphides (PMS) with International Seabed Authority (ISA) in Carlsberg Ridge... Other Indian Contracts: Polymetallic Nodules in the Central Indian Ocean Basin... Yet to be approved: Afanasy-Nikitin Sea (ANS) mount... claimed by Sri Lanka.",
+      "qualityScore": 90,
+      "reviewNotes": "Excellent mapping/pairing question that synthesizes multiple facts from the text into a single, challenging UPSC-style format."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the International Seabed Authority (ISA):\n1. It is an autonomous organization established under the United Nations Convention on the Law of the Sea (UNCLOS).\n2. Its headquarters is located in Geneva, Switzerland.\n3. It has granted India an exploration contract for polymetallic sulphides in the Carlsberg Ridge.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The ISA is an autonomous organization established in 1994 under UNCLOS. Statement 2 is incorrect: The ISA is headquartered in Kingston, Jamaica. Statement 3 is correct: India signed a 15-year exploration contract with the ISA for polymetallic sulphides in the Carlsberg Ridge.",
+      "takeaway": "The ISA is an autonomous UNCLOS body based in Kingston, Jamaica, responsible for organizing and controlling activities in the deep seabed, including granting exploration contracts.",
+      "evidenceExcerpt": "India signed a 15-year exploration contract for polymetallic sulphides (PMS) with International Seabed Authority (ISA) in Carlsberg Ridge... ISA Location: Kingston, Jamaica. Established in 1994 under UNCLOS.",
+      "qualityScore": 85,
+      "reviewNotes": "Classic UPSC-style institutional question. Tests the parent framework, headquarters, and a recent development involving India."
+    }
+  ],
+  "reviewerNotes": "Selected 4 strong questions covering different aspects of the source text: the geological formation of polymetallic sulphides, the institutional framework of the ISA, its initiatives, and India's specific deep-sea exploration contracts. The questions have been refined to match UPSC's tone and formatting, particularly utilizing the 'How many statements/pairs are correct' pattern."
+}

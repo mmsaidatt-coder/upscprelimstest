@@ -1,0 +1,98 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-016-lunar-exploration-and-orbital-docking-section-002-chandrayaan-3-and-lunar-exploration",
+    "claimType": "Factual",
+    "claimText": "Chandrayaan-3's Chandra's Surface Thermophysical Experiment (ChaSTE) payload is the first mission to successfully penetrate the soil of a celestial body to deploy a thermal probe.",
+    "evidenceExcerpt": "Chandra's Surface Thermophysical Experiment (ChaSTE) of Chandrayaan-3 became the first mission to successfully penetrate the soil of a celestial body to deploy a thermal probe.",
+    "pageNumbers": [
+      33,
+      34
+    ],
+    "examUse": "Statement-based question on the specific achievements of Chandrayaan-3 payloads.",
+    "distractorHooks": [
+      "Attributing the thermal probe deployment to a different payload like ILSA or RAMBHA",
+      "Claiming it was the first to penetrate Martian soil instead of a generic celestial body/lunar soil"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-016-lunar-exploration-and-orbital-docking-section-002-chandrayaan-3-and-lunar-exploration",
+    "claimType": "Factual",
+    "claimText": "Chandrayaan-3 is the world's first mission to soft-land near the lunar South Pole, and its landing site is named 'Shiv Shakti' point.",
+    "evidenceExcerpt": "Became the world's first mission to soft-land near the lunar South Pole. The landing site was named as 'Shiv Shakti' point.",
+    "pageNumbers": [
+      33,
+      34
+    ],
+    "examUse": "Fact-based correct-pair or statement question regarding lunar landing sites.",
+    "distractorHooks": [
+      "Naming the landing site 'Tiranga point' or 'Jawahar point'",
+      "Claiming Chandrayaan-3 landed near the lunar North Pole"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-016-lunar-exploration-and-orbital-docking-section-002-chandrayaan-3-and-lunar-exploration",
+    "claimType": "Factual",
+    "claimText": "Japan became the fifth country to soft-land on the Moon with its SLIM mission.",
+    "evidenceExcerpt": "Japan became the fifth country to soft-land on the Moon with its SLIM mission.",
+    "pageNumbers": [
+      33,
+      34
+    ],
+    "examUse": "Correct-pair question matching countries to their respective lunar missions or chronological order of lunar landings.",
+    "distractorHooks": [
+      "Claiming Japan was the fourth country to soft-land on the Moon",
+      "Swapping the SLIM mission with Russia's Luna-25 or another country's mission"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-016-lunar-exploration-and-orbital-docking-section-002-chandrayaan-3-and-lunar-exploration",
+    "claimType": "Factual",
+    "claimText": "NASA's GRAIL Mission created the most detailed map of the Moon's gravity.",
+    "evidenceExcerpt": "NASA's GRAIL Mission created the most detailed map of the Moon's gravity.",
+    "pageNumbers": [
+      33,
+      34
+    ],
+    "examUse": "Correct-pair question matching space missions to their primary objectives.",
+    "distractorHooks": [
+      "Attributing the GRAIL mission to ISRO or ESA",
+      "Claiming the GRAIL mission mapped lunar water ice instead of gravity"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-016-lunar-exploration-and-orbital-docking-section-002-chandrayaan-3-and-lunar-exploration",
+    "claimType": "Comparison",
+    "claimText": "The Moon's nearside, which faces Earth, is warmer and more geologically active than the farside.",
+    "evidenceExcerpt": "The Moon's nearside (facing Earth) is warmer and more geologically active than the farside.",
+    "pageNumbers": [
+      33,
+      34
+    ],
+    "examUse": "Comparison statement question on lunar geography and geological activity.",
+    "distractorHooks": [
+      "Reversing the facts by claiming the farside is warmer and more geologically active than the nearside"
+    ]
+  },
+  {
+    "id": "claim-006",
+    "sectionId": "packet-016-lunar-exploration-and-orbital-docking-section-002-chandrayaan-3-and-lunar-exploration",
+    "claimType": "Conceptual",
+    "claimText": "The far side of the Moon is tidally locked with Earth and features a thicker crust, more craters, and fewer lava plains compared to the near side.",
+    "evidenceExcerpt": "Refers to the hemisphere of the Moon that always faces away from Earth because the Moon is tidally locked with Earth. It has a thicker crust, more craters, and fewer lava plains than near side.",
+    "pageNumbers": [
+      33,
+      34
+    ],
+    "examUse": "Statement-based question on the physical characteristics of the Moon's far side.",
+    "distractorHooks": [
+      "Claiming the far side has a thinner crust than the near side",
+      "Stating the far side has more lava plains (maria) than the near side",
+      "Asserting the far side is not tidally locked with Earth"
+    ]
+  }
+]

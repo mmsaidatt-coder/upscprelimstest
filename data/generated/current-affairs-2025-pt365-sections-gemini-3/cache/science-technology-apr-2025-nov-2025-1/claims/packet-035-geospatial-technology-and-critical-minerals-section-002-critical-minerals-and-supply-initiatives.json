@@ -1,0 +1,77 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-035-geospatial-technology-and-critical-minerals-section-002-critical-minerals-and-supply-initiatives",
+    "claimType": "Factual",
+    "claimText": "The Quad launched the Critical Minerals Initiative.",
+    "evidenceExcerpt": "The Quad (US, Japan, India, Australia) launched the Critical Minerals Initiative.",
+    "pageNumbers": [
+      70
+    ],
+    "examUse": "Statement-based question on Quad initiatives.",
+    "distractorHooks": [
+      "Attributing the initiative to BRICS or G20",
+      "Excluding India from the initiative"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-035-geospatial-technology-and-critical-minerals-section-002-critical-minerals-and-supply-initiatives",
+    "claimType": "Factual",
+    "claimText": "The Ministry of Mines released a list of 30 critical minerals for India.",
+    "evidenceExcerpt": "The Ministry of Mines released a list of 30 critical minerals including Lithium, Cobalt, Nickel, and REEs.",
+    "pageNumbers": [
+      70
+    ],
+    "examUse": "Statement-based question on India's critical minerals policy.",
+    "distractorHooks": [
+      "Ministry of Earth Sciences or Ministry of Coal releasing the list",
+      "Incorrect number of critical minerals"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-035-geospatial-technology-and-critical-minerals-section-002-critical-minerals-and-supply-initiatives",
+    "claimType": "Factual",
+    "claimText": "India joined the US-led Minerals Security Partnership (MSP) in 2023.",
+    "evidenceExcerpt": "India joined the US-led Minerals Security Partnership (MSP) in 2023 to secure critical mineral supply chains.",
+    "pageNumbers": [
+      70
+    ],
+    "examUse": "Statement-based question on international partnerships.",
+    "distractorHooks": [
+      "MSP is led by the UN or EU",
+      "India is not a member of MSP"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-035-geospatial-technology-and-critical-minerals-section-002-critical-minerals-and-supply-initiatives",
+    "claimType": "Institutional",
+    "claimText": "Khanij Bidesh India Limited (KABIL) is a joint venture under the Ministry of Mines to acquire critical minerals globally.",
+    "evidenceExcerpt": "Khanij Bidesh India Limited (KABIL) is a joint venture by the Ministry of Mines to acquire critical minerals globally.",
+    "pageNumbers": [
+      70
+    ],
+    "examUse": "Institution-feature question.",
+    "distractorHooks": [
+      "Under Ministry of External Affairs",
+      "Focused exclusively on domestic mining"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-035-geospatial-technology-and-critical-minerals-section-002-critical-minerals-and-supply-initiatives",
+    "claimType": "Geographical",
+    "claimText": "India's first Nickel-Copper-Platinum Group Element (Ni-Cu-PGE) sulphide discovery was made in the Mahasamund district of Chhattisgarh.",
+    "evidenceExcerpt": "India's first Ni-Cu-PGE sulphide discovery occurred in the Mahasamund district of Chhattisgarh",
+    "pageNumbers": [
+      70
+    ],
+    "examUse": "Correct-pair question matching mineral discovery to the state.",
+    "distractorHooks": [
+      "Discovered in Odisha or Jharkhand",
+      "Discovery of a different mineral group"
+    ]
+  }
+]

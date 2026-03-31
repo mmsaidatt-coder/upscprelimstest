@@ -1,0 +1,48 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-052-deep-ocean-zones-and-ncpor-section-001-deep-ocean-characteristics-and-exploration",
+    "claimType": "Factual",
+    "claimText": "The deep ocean is characterized by an average temperature of 4 degrees Celsius and extreme pressure ranging from 40 to 110 times the Earth's atmospheric pressure.",
+    "evidenceExcerpt": "Average temperature is 4 degrees Celsius with pressure 40 to 110 times Earth's atmosphere.",
+    "pageNumbers": [
+      108
+    ],
+    "examUse": "Statement-based question on deep ocean physical characteristics.",
+    "distractorHooks": [
+      "Average temperature is below freezing (0 degrees Celsius)",
+      "Pressure is 10 to 20 times Earth's atmosphere"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-052-deep-ocean-zones-and-ncpor-section-001-deep-ocean-characteristics-and-exploration",
+    "claimType": "Factual",
+    "claimText": "The Mesopelagic Zone, situated between 200m and 1000m depth, holds about 90 percent of the world's fish by weight.",
+    "evidenceExcerpt": "Mesopelagic Zone (200m-1000m) holds about 90 percent of world's fish by weight.",
+    "pageNumbers": [
+      108
+    ],
+    "examUse": "Correct-pair or statement-based question on ocean zones and marine biodiversity distribution.",
+    "distractorHooks": [
+      "Epipelagic Zone holds 90 percent of the world's fish",
+      "Mesopelagic Zone is located between 1000m and 4000m",
+      "Benthic zone holds the majority of fish by weight"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-052-deep-ocean-zones-and-ncpor-section-001-deep-ocean-characteristics-and-exploration",
+    "claimType": "Conceptual",
+    "claimText": "Deep ocean exploration yields significant resources including energy sources like methane hydrate, polymetallic nodules, and compounds for new drugs.",
+    "evidenceExcerpt": "Exploration yields energy sources like methane hydrate, polymetallic nodules, and new drugs.",
+    "pageNumbers": [
+      108
+    ],
+    "examUse": "Multiple-statement question on the economic and scientific significance of deep ocean exploration.",
+    "distractorHooks": [
+      "Deep ocean exploration is primarily for extracting fossil fuels like coal",
+      "Polymetallic nodules are found exclusively in shallow coastal waters"
+    ]
+  }
+]

@@ -1,0 +1,207 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice (Statements)",
+      "prompt": "With reference to the Economic Capital Framework (ECF) of the Reserve Bank of India (RBI), consider the following statements:1. The ECF was adopted by the RBI based on the recommendations of the Bimal Jalan Committee.2. The ECF provides a methodology for determining the appropriate level of risk provisions and profit distribution under Section 47 of the RBI Act, 1934.3. Revaluation Balances, which are part of Economic Capital, represent realized gains from exchange rate and gold price movements.Which of the statements given above is/are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct. The ECF was adopted by RBI in 2019, based on the recommendations of the Bimal Jalan Committee. Statement 2 is correct. The ECF provides a methodology for determining the appropriate level of risk provisions and profit distribution to be made under Section 47 of the RBI Act, 1934. Statement 3 is incorrect. Revaluation Balances represent unrealized gains, net of losses, resulting from exchange rate, gold price, and interest rate movements, not realized gains.",
+      "takeaway": "Understanding the genesis, purpose, and key components of the RBI's Economic Capital Framework is crucial for monetary policy analysis.",
+      "evidenceExcerpt": "Genesis: ECF was adopted by RBI in 2019, based on the recommendations of the Bimal Jalan Committee. Concept: ECF provides a methodology for determining the appropriate level of risk provisions and profit distribution to be made under Section 47 of the RBI Act, 1934. Revaluation Balances: The unrealized gains, net of losses, resulting from exchange rate, gold price and interest rate movements.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice (Statements)",
+      "prompt": "Consider the following statements regarding the Reserve Bank of India's (RBI) monetary policy tools:1. An increase in the Repo Rate typically leads to a decrease in the money supply in the economy.2. The Cash Reserve Ratio (CRR) requires banks to maintain a percentage of their Net Demand and Time Liabilities (NDTL) as liquid assets with themselves.3. The Reverse Repo Rate is the main signal rate used by the RBI to influence the economy.Which of the statements given above is/are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct. As per the text, an increase in Repo Rate leads to a decrease in money supply. Statement 2 is incorrect. CRR requires banks to keep a percentage of NDTL as cash with RBI, not as liquid assets with themselves. The latter describes SLR. Statement 3 is incorrect. The Repo Rate is described as the \"Main signal rate,\" not the Reverse Repo Rate.",
+      "takeaway": "It is important to distinguish between various quantitative tools and their specific definitions and impacts on money supply or lendable funds.",
+      "evidenceExcerpt": "REPO RATE (Lending Rate): ... ↑ Rate = ↓ Money Supply. CRR (Cash Reserve Ratio): % of net demand & time liabilities (NDTL) banks must keep as CASH with RBI. REPO RATE ... Main signal rate.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Multiple Choice (Statements)",
+      "prompt": "Consider the following statements regarding the Reserve Bank of India's (RBI) monetary policy tools:1. Quantitative tools directly impact the overall money supply, whereas qualitative tools selectively influence credit flow to specific sectors.2. Moral Suasion and Margin Requirements are examples of quantitative tools.3. An increase in Statutory Liquidity Ratio (SLR) is a qualitative tool aimed at curbing speculation.Which of the statements given above is/are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct. The text clearly defines quantitative tools as directly impacting overall money supply and qualitative tools as selectively influencing credit flow. Statement 2 is incorrect. Moral Suasion and Margin Requirements are explicitly listed as qualitative tools. Statement 3 is incorrect. SLR is a quantitative tool, and Margin Requirements (a qualitative tool) are used to curb speculation, not SLR.",
+      "takeaway": "Differentiating between quantitative and qualitative monetary policy tools based on their objective and examples is fundamental.",
+      "evidenceExcerpt": "QUANTITATIVE TOOLS (Volume of Credit) Directly impact the overall money supply QUALITATIVE TOOLS (Direction of Credit) Selectively influence credit flow to specific sectors QUALITATIVE TOOLS ... * MORAL SUASION ... * MARGIN REQUIREMENTS QUANTITATIVE TOOLS ... * SLR (Statutory Liquidity Ratio)",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice (Statements)",
+      "prompt": "Which of the following are components of Economic Capital under the RBI's Economic Capital Framework (ECF)?1. Capital and Reserve Fund2. Contingency Fund (CF)3. Asset Development Fund (ADF)4. Revaluation BalancesSelect the correct answer using the code given below:",
+      "options": [
+        {
+          "id": "A",
+          "text": "1, 2 and 3 only"
+        },
+        {
+          "id": "B",
+          "text": "1, 3 and 4 only"
+        },
+        {
+          "id": "C",
+          "text": "2, 3 and 4 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2, 3 and 4"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "All four listed options are components of Economic Capital under the ECF. Realized Equity consists of RBI’s Capital, Reserve Fund, Contingency Fund (CF), and Asset Development Fund (ADF). Revaluation Balances are also explicitly listed as a component. The Contingent Risk Buffer (CRB), mentioned in the next page snippet, is also a component of realized equity.",
+      "takeaway": "A detailed understanding of the components of RBI's Economic Capital Framework is essential for comprehending its financial resilience.",
+      "evidenceExcerpt": "Components of Economic Capital under ECF: * Realized Equity: This consists of RBI’s Capital, Reserve Fund, Contingency Fund (CF), and Asset Development Fund (ADF). * Revaluation Balances: The unrealized gains, net of losses, resulting from exchange rate, gold price and interest rate movements.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Multiple Choice (Statements)",
+      "prompt": "Consider the following as sources of income for the Reserve Bank of India (RBI):1. Interest on government securities2. Net interest from liquidity management tools3. Profit from currency printing (seigniorage)4. Interest earned on foreign currency investmentsWhich of the statements given above are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "3 and 4 only"
+        },
+        {
+          "id": "C",
+          "text": "1, 2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2, 3 and 4"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "All the listed statements are explicitly mentioned as key sources of RBI's income in the provided text.",
+      "takeaway": "Knowing the various avenues through which the central bank generates its income is important for understanding its financial operations.",
+      "evidenceExcerpt": "Key Sources of RBI’s Income: * Income from interest on government securities, Net interest from liquidity management tools (e.g., Liquidity Adjustment Facility), Loans, seigniorage (profit from currency printing), Interest earned on foreign currency investments.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice (Statements)",
+      "prompt": "With reference to the Reserve Bank of India's (RBI) monetary policy, consider the following statements:1. Cash Reserve Ratio (CRR) refers to the percentage of Net Demand and Time Liabilities (NDTL) that banks must keep as cash with RBI, on which no interest is paid.2. Statutory Liquidity Ratio (SLR) requires banks to maintain a percentage of NDTL in liquid assets like gold, bonds, or cash with themselves.3. An increase in CRR directly reduces the lendable funds available with banks, while an increase in SLR absorbs excess liquidity from the system.Which of the statements given above is/are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct. CRR requires banks to keep cash with RBI, and no interest is paid. Statement 2 is correct. SLR requires banks to maintain liquid assets (gold, bonds, cash) with themselves. Statement 3 is incorrect. While an increase in CRR does reduce lendable funds, the text states that an increase in SLR also reduces \"Lendable Funds.\" The phrase \"Absorbs excess liquidity\" is specifically attributed to the Reverse Repo Rate in the provided text, not SLR. While SLR does reduce overall liquidity, the specific phrasing used for SLR in the text is \"↓ Lendable Funds.\"",
+      "takeaway": "It is crucial to understand the distinct definitions, requirements, and direct impacts of CRR and SLR as quantitative monetary policy tools.",
+      "evidenceExcerpt": "CRR (Cash Reserve Ratio): % of net demand & time liabilities (NDTL) banks must keep as CASH with RBI. No interest paid. ↑ CRR = ↓ Lendable Funds. SLR (Statutory Liquidity Ratio): % of NDTL banks must maintain in LIQUID ASSETS (Gold, Bonds, Cash) by themselves. ↑ SLR = ↓ Lendable Funds. REVERSE REPO RATE (Borrowing Rate): ... Absorbs excess liquidity.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice (Statements)",
+      "prompt": "With reference to the Economic Capital Framework (ECF) of the Reserve Bank of India (RBI), consider the following statements:1. The ECF is reviewed every 5 years as per the recommendations of the Bimal Jalan Committee.2. The framework is primarily designed to determine the appropriate level of risk provisions and profit distribution by the RBI.3. The Contingent Risk Buffer (CRB) is a component of RBI’s realized equity, providing for monetary and financial stability risks.Which of the statements given above are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Statement 1 is correct. The Bimal Jalan Committee recommended that the framework be reviewed every 5 years. Statement 2 is correct. The ECF's concept is to provide a methodology for determining risk provisions and profit distribution. Statement 3 is correct. The Contingent Risk Buffer (CRB) is explicitly stated as a component of RBI's realized equity, providing for various risks including monetary and financial stability.",
+      "takeaway": "A comprehensive understanding of the ECF's operational aspects, including its review cycle, core purpose, and specific components like CRB, is vital.",
+      "evidenceExcerpt": "Tenure: The Committee recommended the framework to be reviewed every 5 years. Concept: ECF provides a methodology for determining the appropriate level of risk provisions and profit distribution to be made under Section 47 of the RBI Act, 1934. Contingent Risk Buffer (CRB): Component of RBI’s realized equity to provide for monetary and financial stability, credit, and operational risks.",
+      "contextLines": []
+    }
+  ]
+}

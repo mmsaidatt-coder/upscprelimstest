@@ -1,0 +1,76 @@
+{
+  "pages": [
+    {
+      "pageNumber": 1,
+      "classification": "cover",
+      "questionQuota": 0,
+      "topic": "Document Information",
+      "subtopic": "Cover Page",
+      "rationale": "This page is the cover of the document, as indicated by both heuristic and OCR classification. It contains no content suitable for question generation.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 2,
+      "classification": "toc",
+      "questionQuota": 0,
+      "topic": "Document Structure",
+      "subtopic": "Table of Contents",
+      "rationale": "This page is a table of contents, listing the topics and subtopics covered in the document. It does not contain any content suitable for question generation.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 3,
+      "classification": "toc",
+      "questionQuota": 0,
+      "topic": "Document Structure",
+      "subtopic": "Table of Contents",
+      "rationale": "This page is a continuation of the table of contents. It does not contain any content suitable for question generation.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 4,
+      "classification": "copyright",
+      "questionQuota": 0,
+      "topic": "Document Information",
+      "subtopic": "Introduction and Copyright",
+      "rationale": "This page contains an introductory note to students, information about the document's features, and a prominent copyright notice. It is not content for question generation, aligning with the OCR hint of 0.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 5,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Banking and Monetary Policy",
+      "subtopic": "RBI Monetary Policy and Economic Capital Framework",
+      "rationale": "This page provides a detailed overview of RBI's monetary policy instruments (quantitative and qualitative) and explains the Economic Capital Framework (ECF), including its components and the Bimal Jalan Committee. This is highly relevant and dense content for UPSC Prelims, warranting a high quota.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 6,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Banking and Monetary Policy",
+      "subtopic": "Forex Reserves and RBI Ombudsman Scheme",
+      "rationale": "This page covers significant topics like the Contingent Risk Buffer, India's foreign exchange reserves (components, reasons for gold increase, risks), and the detailed Reserve Bank - Integrated Ombudsman Scheme, 2021 (objective, coverage, integration, powers). Each section offers multiple potential questions.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 7,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Banking and Monetary Policy",
+      "subtopic": "RBI Initiatives and Key Terms",
+      "rationale": "This page continues the coverage of the RBI Integrated Ombudsman Scheme and then introduces several important RBI initiatives and terms: Standing Deposit Facility (SDF), Variable Rate Reverse Repo (VRRR), Switch Auction, and Co-lending norms. Each of these is a distinct and important concept for UPSC.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 8,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Banking and Monetary Policy",
+      "subtopic": "Payment Systems, RBI Advances, and New Initiatives",
+      "rationale": "This page is packed with critical information, including uniform asset classification, Payment Aggregators, Ways and Means Advances (WMA) with its detailed features, and new RBI initiatives like ULI, CBDC retail sandbox, and Tokenisation of Certificate of Deposits (CD). It also introduces the SRO for NBFCs. This density warrants a high quota.",
+      "confidence": 1
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "In the context of Indian infrastructure, which of the following best describes the concept of 'Asset Monetization' as outlined in recent government strategies?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The mandatory disinvestment of loss-making Public Sector Undertakings to reduce the fiscal deficit."
+        },
+        {
+          "id": "B",
+          "text": "The process of unlocking the economic value of underutilised public assets to create alternative revenue sources without necessarily transferring ownership."
+        },
+        {
+          "id": "C",
+          "text": "The conversion of physical infrastructure into digital assets through the Unified Logistics Interface Platform."
+        },
+        {
+          "id": "D",
+          "text": "The direct sale of land banks owned by the National Highways Authority of India to private developers."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Asset monetization, also known as capital recycling, is the process of creating new revenue sources by unlocking the value of underutilised public assets. Crucially, the source specifies that it does not necessarily mean disinvestment (the sale of the asset/ownership).",
+      "takeaway": "Asset monetization is a value-unlocking mechanism (capital recycling) rather than a simple sale or disinvestment of assets.",
+      "evidenceExcerpt": "It is the process of creating new/alternative sources of revenue by unlocking the economic value of underutilised public assets. It is also known as asset or capital recycling. It does not necessarily mean disinvestment of the asset.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Feature-matching",
+      "prompt": "Consider the following pairs of logistics initiatives and their primary features:\n\n1. SMILE Program: Integrated State and City Logistics Plans in collaboration with the Asian Development Bank.\n2. ULIP: A digital platform for secure API integration across various logistics-related ministries.\n3. LDB 2.0: Real-time tracking of export containers on high seas.\n\nWhich of the pairs given above is/are correctly matched?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "All three pairs are correctly matched. The SMILE program involves collaboration with ADB for state/city plans. ULIP (Unified Logistics Interface Platform) provides a single interface for data from various ministries via API integration. LDB (Logistics Data Bank) 2.0 has introduced tracking for export containers on high seas.",
+      "takeaway": "India's logistics ecosystem is being modernized through a combination of digital integration (ULIP), regional planning (SMILE), and enhanced tracking (LDB).",
+      "evidenceExcerpt": "Integrated State and City Logistics Plans: Under the SMILE programme in collaboration with the Asian Development Bank (ADB). Unified Logistics Interface Platform (ULIP): It has facilitated secure API integration across more than 30 digital systems. Logistics Data Bank (LDB) 2.0: It enables enhanced real-time tracking of container movements, introducing export container tracking on high seas.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Conceptual",
+      "prompt": "In the context of asset monetization models mentioned in the National Highway Authority of India (NHAI) strategy, what is the specific mechanism of 'Project-based Financing'?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The transfer of ownership of a completed highway to a private entity for a fixed tenure."
+        },
+        {
+          "id": "B",
+          "text": "The securitization of future user fee receipts from assets like toll plazas to raise long-term finance from banks."
+        },
+        {
+          "id": "C",
+          "text": "The provision of viability gap funding by the government for new greenfield road projects."
+        },
+        {
+          "id": "D",
+          "text": "A long-term lease where the lessee pays a one-time upfront fee for the right to operate the asset."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Project-based Financing is a model that allows sectors to raise long-term finance from banks by securitizing user fee receipts, such as those from Toll Plazas.",
+      "takeaway": "Project-based financing focuses on leveraging future cash flows (user fees) to secure immediate long-term capital.",
+      "evidenceExcerpt": "Project-based Financing: It allows sectors to raise long-term finance from banks by securitizing user fee receipts. E.g. Toll Plazas",
+      "contextLines": []
+    }
+  ]
+}

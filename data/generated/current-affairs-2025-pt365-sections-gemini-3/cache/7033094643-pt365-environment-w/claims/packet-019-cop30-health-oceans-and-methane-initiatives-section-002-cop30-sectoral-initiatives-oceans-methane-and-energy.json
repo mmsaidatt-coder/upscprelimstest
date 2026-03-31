@@ -1,0 +1,80 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-019-cop30-health-oceans-and-methane-initiatives-section-002-cop30-sectoral-initiatives-oceans-methane-and-energy",
+    "claimType": "Factual",
+    "claimText": "The Oceans Breakthroughs Dashboard tracks progress in five ocean sectors to help reduce emissions by up to 35% by 2050.",
+    "evidenceExcerpt": "Oceans Breakthroughs Dashboard tracks 5 ocean sectors to help cut emissions by up to 35% by 2050.",
+    "pageNumbers": [
+      42
+    ],
+    "examUse": "Statement-based question on ocean-related climate initiatives.",
+    "distractorHooks": [
+      "Wrong number of sectors tracked",
+      "Wrong emission reduction target percentage",
+      "Wrong target year"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-019-cop30-health-oceans-and-methane-initiatives-section-002-cop30-sectoral-initiatives-oceans-methane-and-energy",
+    "claimType": "Factual",
+    "claimText": "The No Organic Waste (NOW) initiative targets a 30% reduction in methane emissions from organic waste by 2030.",
+    "evidenceExcerpt": "No Organic Waste (NOW) initiative is supported by the Global Methane Hub and targets a 30% cut in methane from organic waste by 2030.",
+    "pageNumbers": [
+      42
+    ],
+    "examUse": "Correct-pair question matching initiatives to their specific targets or pollutants.",
+    "distractorHooks": [
+      "Targeting CO2 instead of methane",
+      "Wrong target percentage like 50%",
+      "Wrong target year like 2050"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-019-cop30-health-oceans-and-methane-initiatives-section-002-cop30-sectoral-initiatives-oceans-methane-and-energy",
+    "claimType": "Factual",
+    "claimText": "The Global Carbon Harvest Coalition involves Brazil, India, and Kenya and focuses on soil organic carbon, biochar, and enhanced rock weathering.",
+    "evidenceExcerpt": "Global Carbon Harvest Coalition is a joint effort by Brazil, India, and Kenya focusing on soil organic carbon, biochar, and enhanced rock weathering.",
+    "pageNumbers": [
+      42
+    ],
+    "examUse": "Statement-based question on international coalitions and India's participation.",
+    "distractorHooks": [
+      "Wrong member countries like USA or China",
+      "Wrong focus area like ocean acidification or renewable energy"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-019-cop30-health-oceans-and-methane-initiatives-section-002-cop30-sectoral-initiatives-oceans-methane-and-energy",
+    "claimType": "Factual",
+    "claimText": "The Utilities for Net Zero Alliance (UNEZA) aims to invest approximately USD 1 trillion by 2030 to expand clean energy.",
+    "evidenceExcerpt": "Utilities for Net Zero Alliance (UNEZA) aims to invest approximately USD 1 trillion by 2030 to expand clean energy.",
+    "pageNumbers": [
+      42
+    ],
+    "examUse": "Statement-based question on climate finance and energy transition alliances.",
+    "distractorHooks": [
+      "Wrong investment amount like USD 100 billion",
+      "Wrong target year like 2050",
+      "Wrong sector like agriculture"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-019-cop30-health-oceans-and-methane-initiatives-section-002-cop30-sectoral-initiatives-oceans-methane-and-energy",
+    "claimType": "Factual",
+    "claimText": "The Super Pollutant Country Action Accelerator is a CCAC programme targeting reductions in methane, black carbon, HFCs, and tropospheric ozone.",
+    "evidenceExcerpt": "Super Pollutant Country Action Accelerator is a CCAC programme targeting methane, black carbon, HFCs, and tropospheric ozone.",
+    "pageNumbers": [
+      42
+    ],
+    "examUse": "Statement-based question identifying the specific pollutants targeted by the accelerator.",
+    "distractorHooks": [
+      "Inclusion of CO2 as a target",
+      "Wrong organizing body like UNFCCC instead of CCAC"
+    ]
+  }
+]

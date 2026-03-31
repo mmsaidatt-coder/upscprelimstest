@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the 'C-FLOOD' platform, consider the following statements:\n1. It provides two-day advance flood inundation forecasts up to the village level.\n2. It utilizes advanced 2-D hydrodynamic modelling to generate flood inundation maps.\n3. It was developed jointly by the Central Water Commission (CWC) and the India Meteorological Department (IMD).\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statements 1 and 2 are correct: C-FLOOD is a web-based platform that provides 2-day advance flood inundation forecasts up to the village level using advanced 2-D hydrodynamic modelling.\nStatement 3 is incorrect: It was jointly developed by the Centre for Development of Advanced Computing (C-DAC), the Central Water Commission (CWC), and the National Remote Sensing Centre (NRSC), not the India Meteorological Department (IMD).",
+      "takeaway": "C-FLOOD is a high-resolution (village-level), 2-day advance flood forecasting tool built using 2-D hydrodynamic modelling by a consortium of C-DAC, CWC, and NRSC.",
+      "evidenceExcerpt": "C-FLOOD is a web-based platform providing 2-day advance flood inundation forecasts up to the village level using advanced 2-D hydrodynamic modelling. It was jointly developed by C-DAC, Central Water Commission (CWC), Ministry of Jal Shakti, and National Remote Sensing Centre (NRSC).",
+      "qualityScore": 85,
+      "reviewNotes": "Good statement-based question testing the specific features and developing agencies of the C-FLOOD platform. The IMD distractor is highly plausible for a weather/flood related platform."
+    }
+  ],
+  "reviewerNotes": "Selected and refined two questions. The first is a moderate-difficulty statement-based question that tests the specific technical details and institutional backing of C-FLOOD, using IMD as a strong distractor. The second is an easy-difficulty 'best describes' question that tests the core definition of the platform with plausible, parallel distractors. Both align well with UPSC Prelims standards."
+}

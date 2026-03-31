@@ -1,0 +1,48 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-032-industry-classification-and-hazardous-waste-rules-section-005-smog-eating-technology",
+    "claimType": "Conceptual",
+    "claimText": "Smog-eating technology uses photocatalytic activity driven by light energy to break down harmful pollutants and organic waste.",
+    "evidenceExcerpt": "The technology uses light energy (photocatalytic activity) to break down harmful pollutants and organic waste.",
+    "pageNumbers": [
+      67
+    ],
+    "examUse": "Statement-based question on the mechanism of smog-eating technology.",
+    "distractorHooks": [
+      "Uses thermal energy instead of light energy",
+      "Absorbs pollutants without breaking them down"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-032-industry-classification-and-hazardous-waste-rules-section-005-smog-eating-technology",
+    "claimType": "Factual",
+    "claimText": "Smog-eating coatings typically utilize titanium dioxide (TiO2) as a photocatalyst under UV light to decompose nitrogen oxides (NOx).",
+    "evidenceExcerpt": "It typically utilizes titanium dioxide (TiO2) coatings under UV light to decompose nitrogen oxides (NOx).",
+    "pageNumbers": [
+      67
+    ],
+    "examUse": "Statement-based question on the chemical components of smog-eating coatings.",
+    "distractorHooks": [
+      "Uses sulfur dioxide instead of titanium dioxide",
+      "Operates under infrared light instead of UV light",
+      "Targets ozone instead of NOx"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-032-industry-classification-and-hazardous-waste-rules-section-005-smog-eating-technology",
+    "claimType": "Factual",
+    "claimText": "The primary objective of applying smog-eating photocatalytic coatings on roads is to reduce nitrogen dioxide (NO2) and harmful hydrocarbons in public spaces.",
+    "evidenceExcerpt": "Delhi Government is studying Smog Eating photocatalytic coatings on roads to reduce NO2 and hydrocarbons.",
+    "pageNumbers": [
+      67
+    ],
+    "examUse": "Statement-based question on the target pollutants of smog-eating roads.",
+    "distractorHooks": [
+      "Targets particulate matter (PM2.5/PM10) exclusively",
+      "Targets greenhouse gases like CO2 or methane instead of NO2 and hydrocarbons"
+    ]
+  }
+]

@@ -1,0 +1,98 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Conceptual",
+      "prompt": "The regulatory requirement for non-bank Payment Aggregators (PAs) to obtain authorisation under the Payment and Settlement Systems Act, 2007, is primarily necessitated by which of their core functions?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Their role in innovating and deploying new payment technologies."
+        },
+        {
+          "id": "B",
+          "text": "Their direct involvement in handling and pooling of customer funds during a transaction cycle."
+        },
+        {
+          "id": "C",
+          "text": "Their capacity to issue pre-paid payment instruments to a broad consumer base."
+        },
+        {
+          "id": "D",
+          "text": "Their ability to aggregate merchant-side data for providing credit-related services."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Payment and Settlement Systems Act, 2007, provides for the regulation and supervision of payment systems in India. The core function of a Payment Aggregator is to facilitate payments by aggregating them from customers and settling them with merchants. This process involves the handling and temporary pooling of customer funds. This direct involvement in the flow of funds makes them a payment system operator, necessitating RBI authorisation under the Act to ensure the safety, security, and efficiency of transactions and to protect consumer interests.",
+      "takeaway": "Regulatory frameworks are designed to address the specific risks posed by the functions of financial entities. For Payment Aggregators, the key regulatory concern is their role in the fund flow chain, which brings them under the purview of the Payment and Settlement Systems Act.",
+      "evidenceExcerpt": "It is an entity that facilitates aggregation of payments made by customers to merchants through payment channels... New framework mandates non-bank PAs to obtain RBI authorisation under the Payment and Settlement Systems Act, 2007.",
+      "qualityScore": 90,
+      "reviewNotes": "This is a high-quality conceptual question that requires understanding the 'why' behind a regulation, not just the 'what'. The options are plausible and test analytical skills."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Applied",
+      "prompt": "The development of the Unified Lending Interface (ULI) as a Digital Public Infrastructure is primarily intended to address which one of the following fundamental challenges in the credit ecosystem?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The high concentration of Non-Performing Assets (NPAs) within public sector banks."
+        },
+        {
+          "id": "B",
+          "text": "The lack of a uniform methodology for interest rate calculation across various lenders."
+        },
+        {
+          "id": "C",
+          "text": "The problem of information asymmetry, which impedes accurate credit risk assessment by lenders."
+        },
+        {
+          "id": "D",
+          "text": "The logistical difficulties associated with the physical verification of collateral for secured lending."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The source states that the Unified Lending Interface (ULI) 'aggregates data from multiple data sources which would be made available to lenders for better credit assessment.' This function directly targets the problem of information asymmetry, where lenders have incomplete information about a borrower's creditworthiness. By providing a consolidated data view, ULI enables more informed and efficient credit decisions, potentially expanding credit access to new-to-credit borrowers.",
+      "takeaway": "Digital Public Infrastructures like ULI are designed to solve core market failures. In the credit market, information asymmetry is a key failure that restricts lending. ULI aims to democratize data access for lenders, thereby improving credit delivery and promoting financial inclusion.",
+      "evidenceExcerpt": "Unified Lending Interface (ULI): It is envisioned as a Digital Public Infrastructure (DPI) aiming to enhance delivery of credit. o It aggregates data from multiple data sources which would be made available to lenders for better credit assessment.",
+      "qualityScore": 90,
+      "reviewNotes": "Excellent applied question that connects a new policy initiative (ULI) to a core economic concept (information asymmetry). The distractors are relevant challenges in the banking sector, making the question robust."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Ways and Means Advances (WMA):\n1. The WMA facility is a key source of financing for the fiscal deficit of the government.\n2. The interest rate applicable on WMA is the prevailing repo rate.\n3. This facility is available not only to the Central government but also to State governments and Union Territories.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect. The source explicitly states that WMAs are temporary advances to cover mismatches in receipts and payments and are 'not a source of financing fiscal deficit.' Statement 2 is correct. The source states, 'Interest rate on WMA is the RBI’s repo rate.' Statement 3 is correct. The source mentions that WMA is 'also available for state governments and Union Territories.' Therefore, two statements (2 and 3) are correct.",
+      "takeaway": "WMA is a short-term liquidity management tool for governments, distinct from instruments used for deficit financing. Key features include its purpose, interest rate linkage to the repo rate, and availability to both central and state governments.",
+      "evidenceExcerpt": "It is a temporary advance given by the RBI to the central government to cover any mismatch in receipts and payments. o Unlike ad hoc Treasury Bills, the instrument of WMAs is not a source of financing fiscal deficit. o WMA is also available for state governments and Union Territories. • Interest rate: Interest rate on WMA is the RBI’s repo rate.",
+      "qualityScore": 85,
+      "reviewNotes": "This is a strong, standard UPSC-style question testing core concepts of WMA. The 'how many statements' format is contemporary. The statements are clear and cover purpose, cost, and eligibility."
+    }
+  ],
+  "reviewerNotes": "Selected four high-quality questions covering a diverse range of topics from the provided text: WMA, Certificates of Deposit, Payment Aggregators, and the Unified Lending Interface. The set includes a mix of factual and conceptual questions, with formats commonly seen in the UPSC Prelims. The questions on PAs and ULI are particularly strong as they test the analytical understanding of recent regulatory and technological developments. All questions are tightly grounded in the source material."
+}

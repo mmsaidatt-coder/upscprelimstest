@@ -1,0 +1,92 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-032-nuclear-fission-fusion-and-breeders-section-001-nuclear-fission-and-fusion",
+    "claimType": "Concept Comparison",
+    "claimText": "Nuclear fission involves splitting a larger atom into smaller ones, whereas nuclear fusion involves combining two atoms to form a heavier atom.",
+    "evidenceExcerpt": "Fission occurs when a neutron slams into a larger atom, forcing it to excite and split into two smaller atoms... Fusion occurs when two atoms slam together to form a heavier atom",
+    "pageNumbers": [
+      64
+    ],
+    "examUse": "Statement-based comparison of nuclear processes.",
+    "distractorHooks": [
+      "Swapping the definitions of fission and fusion",
+      "Claiming both processes involve splitting atoms"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-032-nuclear-fission-fusion-and-breeders-section-001-nuclear-fission-and-fusion",
+    "claimType": "Fact Comparison",
+    "claimText": "Nuclear fusion can generate approximately four times more energy per kilogram of fuel compared to nuclear fission.",
+    "evidenceExcerpt": "Fusion could generate four times more energy per kilogram of fuel than fission",
+    "pageNumbers": [
+      64
+    ],
+    "examUse": "Statement-based question on the energy efficiency of nuclear reactions.",
+    "distractorHooks": [
+      "Fission generates more energy per kilogram than fusion",
+      "Fusion and fission generate the same amount of energy per kilogram"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-032-nuclear-fission-fusion-and-breeders-section-001-nuclear-fission-and-fusion",
+    "claimType": "Fact Comparison",
+    "claimText": "Unlike nuclear fission, nuclear fusion does not produce long-lived radioactive nuclear waste, yielding only helium and neutrons.",
+    "evidenceExcerpt": "Fusion on the other hand does not create any long-lived radioactive nuclear waste. Only helium and neutrons.",
+    "pageNumbers": [
+      64
+    ],
+    "examUse": "Statement-based question on the environmental impact and byproducts of nuclear energy.",
+    "distractorHooks": [
+      "Fusion produces long-lived radioactive waste like iodine and caesium",
+      "Fission produces only helium and neutrons"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-032-nuclear-fission-fusion-and-breeders-section-001-nuclear-fission-and-fusion",
+    "claimType": "Fact Comparison",
+    "claimText": "Nuclear fission uses heavy elements like Uranium and Plutonium as fuel, while nuclear fusion generally uses hydrogen isotopes such as Deuterium and Tritium.",
+    "evidenceExcerpt": "Fission uses fuels like Uranium and Plutonium, while fusion generally uses hydrogen isotopes Deuterium (D) and Tritium (T).",
+    "pageNumbers": [
+      64
+    ],
+    "examUse": "Correct-pair or statement-based question identifying fuels for different nuclear reactions.",
+    "distractorHooks": [
+      "Fusion uses Uranium and Plutonium",
+      "Fission uses Deuterium and Tritium"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-032-nuclear-fission-fusion-and-breeders-section-001-nuclear-fission-and-fusion",
+    "claimType": "Fact Technology",
+    "claimText": "Nuclear fusion requires extreme conditions to occur, such as plasma reaching temperatures of 150,000,000 °C within a tokamak device.",
+    "evidenceExcerpt": "Fusion requires extreme conditions, such as plasma reaching 150,000,000 °C in a tokamak.",
+    "pageNumbers": [
+      64
+    ],
+    "examUse": "Statement-based question on the technological requirements of fusion reactors.",
+    "distractorHooks": [
+      "Fusion can easily be achieved at room temperature",
+      "Tokamaks are primarily used for nuclear fission reactions"
+    ]
+  },
+  {
+    "id": "claim-006",
+    "sectionId": "packet-032-nuclear-fission-fusion-and-breeders-section-001-nuclear-fission-and-fusion",
+    "claimType": "Concept",
+    "claimText": "Net Energy Gain (NEG) in the context of commercial nuclear fusion means that the fusion process generates more energy than is consumed to initiate it.",
+    "evidenceExcerpt": "Net Energy Gain (NEG) in commercial fusion implies the process generates more energy than it consumes.",
+    "pageNumbers": [
+      64
+    ],
+    "examUse": "Definition-based statement question on fusion energy viability.",
+    "distractorHooks": [
+      "NEG implies the reactor consumes more energy than it produces",
+      "NEG is a term exclusively used for nuclear fission waste reduction"
+    ]
+  }
+]

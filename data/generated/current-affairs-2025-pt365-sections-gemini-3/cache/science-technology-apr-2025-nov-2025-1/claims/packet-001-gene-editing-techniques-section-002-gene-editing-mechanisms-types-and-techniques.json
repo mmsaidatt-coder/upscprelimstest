@@ -1,0 +1,86 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-001-gene-editing-techniques-section-002-gene-editing-mechanisms-types-and-techniques",
+    "claimType": "Factual",
+    "claimText": "India's first gene-edited sheep was developed by editing the Myostatin gene using CRISPR-Cas9 technology to enhance muscle growth without introducing foreign DNA.",
+    "evidenceExcerpt": "India's first gene-edited sheep was produced by Kashmir University and ICAR using CRISPR-Cas9 to edit the Myostatin gene, boosting muscle growth without adding foreign DNA.",
+    "pageNumbers": [
+      5,
+      6
+    ],
+    "examUse": "Statement-based question on recent biotech achievements in India.",
+    "distractorHooks": [
+      "Introduced foreign DNA (transgenic)",
+      "Edited a different gene",
+      "Developed by a foreign institute"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-001-gene-editing-techniques-section-002-gene-editing-mechanisms-types-and-techniques",
+    "claimType": "Conceptual",
+    "claimText": "Somatic genome editing alters non-reproductive cells and is not heritable, whereas germline genome editing modifies reproductive cells or embryos and can be passed to future generations.",
+    "evidenceExcerpt": "Somatic genome editing alters cells that do not contribute to gamete formation and cannot be passed to offspring. Germline genome editing modifies reproductive cells or embryos, creating changes that can be passed to future generations.",
+    "pageNumbers": [
+      5,
+      6
+    ],
+    "examUse": "Comparison question distinguishing between somatic and germline editing.",
+    "distractorHooks": [
+      "Somatic editing is heritable",
+      "Germline editing only affects the current individual",
+      "Both types are passed to offspring"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-001-gene-editing-techniques-section-002-gene-editing-mechanisms-types-and-techniques",
+    "claimType": "Factual",
+    "claimText": "The CRISPR/Cas9 gene-editing technique utilizes an RNA molecule to guide the Cas9 protein to the specific DNA sequence that needs to be cut.",
+    "evidenceExcerpt": "Key gene-editing techniques include ZFNs, TALENs, CRISPR/Cas9 (uses RNA to guide Cas9 protein), and Homing Endonucleases (Meganucleases).",
+    "pageNumbers": [
+      5,
+      6
+    ],
+    "examUse": "Statement-based question on the mechanism of CRISPR/Cas9.",
+    "distractorHooks": [
+      "Uses DNA to guide the Cas9 protein",
+      "Cas9 is an RNA molecule",
+      "Uses ZFNs to guide the protein"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-001-gene-editing-techniques-section-002-gene-editing-mechanisms-types-and-techniques",
+    "claimType": "Factual",
+    "claimText": "Zinc-Finger Nucleases (ZFNs), Transcription Activator-Like Effector Nucleases (TALENs), and Meganucleases are established techniques used for gene editing alongside CRISPR/Cas9.",
+    "evidenceExcerpt": "Key gene-editing techniques include ZFNs, TALENs, CRISPR/Cas9 (uses RNA to guide Cas9 protein), and Homing Endonucleases (Meganucleases).",
+    "pageNumbers": [
+      5,
+      6
+    ],
+    "examUse": "Multiple-choice question identifying valid gene-editing techniques.",
+    "distractorHooks": [
+      "ELISA",
+      "Polymerase Chain Reaction (PCR)",
+      "Western Blotting"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-001-gene-editing-techniques-section-002-gene-editing-mechanisms-types-and-techniques",
+    "claimType": "Factual",
+    "claimText": "Gene editing applications include CAR-T therapy for cancer treatment, crop improvement, and engineering microbes for bioremediation.",
+    "evidenceExcerpt": "Applications include CAR-T therapy for cancer, crop improvement, and engineering microbes for bioremediation.",
+    "pageNumbers": [
+      5,
+      6
+    ],
+    "examUse": "Statement-based question on the practical applications of gene editing technologies.",
+    "distractorHooks": [
+      "CAR-T therapy is used for viral infections",
+      "Gene editing cannot be used for bioremediation"
+    ]
+  }
+]

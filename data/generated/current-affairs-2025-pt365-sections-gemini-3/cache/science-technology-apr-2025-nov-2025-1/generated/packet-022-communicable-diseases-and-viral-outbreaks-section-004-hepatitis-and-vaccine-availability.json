@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the characteristics of Hepatitis viruses, consider the following statements: 1. Hepatitis D is an incompetent virus that requires co-infection with the Hepatitis B virus for its replication. 2. Unlike other strains, only Hepatitis B, C, and D are capable of causing chronic infections that increase the risk of liver cancer. 3. The World Health Organization (WHO) classifies Hepatitis D as a cancer-causing virus. How many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Hepatitis D is an incompetent virus requiring the Hepatitis B virus (HBV) for replication. Statement 2 is correct: Only Hepatitis B, C, and D lead to chronic infections with a higher risk of liver cirrhosis or cancer. Statement 3 is correct: WHO has classified Hepatitis D as cancer-causing.",
+      "takeaway": "Hepatitis D relies on Hepatitis B for replication, and only strains B, C, and D cause chronic infections linked to liver cancer.",
+      "evidenceExcerpt": "WHO classified Hepatitis D as cancer-causing. Hepatitis D is an incompetent virus requiring Hepatitis B virus (HBV) for replication. Only Hepatitis B, C, and D lead to chronic infections with a higher risk of liver cirrhosis or cancer."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs regarding the availability of vaccines for different Hepatitis strains: 1. Hepatitis A : Preventable by India's first indigenous vaccine 'Havisure'. 2. Hepatitis C : Lacks an approved preventive vaccine. 3. Hepatitis D : Preventable through the administration of the Hepatitis B vaccine. How many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Pair 1 is correctly matched: Havisure is India's first indigenous Hepatitis A vaccine. Pair 2 is correctly matched: There is currently no vaccine available for Hepatitis C. Pair 3 is correctly matched: Because Hepatitis D requires Hepatitis B for replication, Hepatitis B vaccines effectively protect against HDV.",
+      "takeaway": "While vaccines exist for Hepatitis A (e.g., Havisure) and Hepatitis B (which also protects against D), there is no vaccine for Hepatitis C.",
+      "evidenceExcerpt": "There is no vaccine for Hepatitis C. Hepatitis B vaccines protect against HDV. Havisure is India's first indigenous Hepatitis A vaccine."
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "pages": [
+    {
+      "pageNumber": 1,
+      "classification": "cover",
+      "questionQuota": 0,
+      "topic": "Document Information",
+      "subtopic": "Cover Page",
+      "rationale": "This page is the cover of the 'Economy PT 365' document, providing the title and publication period. Cover pages are not suitable for question generation.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 2,
+      "classification": "toc",
+      "questionQuota": 0,
+      "topic": "Document Structure",
+      "subtopic": "Table of Contents",
+      "rationale": "This page presents the initial sections of the Table of Contents for the document. Table of Contents pages are not suitable for question generation.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 3,
+      "classification": "toc",
+      "questionQuota": 0,
+      "topic": "Document Structure",
+      "subtopic": "Table of Contents",
+      "rationale": "This page continues the Table of Contents from the previous page, listing further topics and subtopics. Table of Contents pages are not suitable for question generation.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 4,
+      "classification": "copyright",
+      "questionQuota": 0,
+      "topic": "Document Information",
+      "subtopic": "Introduction and Copyright",
+      "rationale": "This page contains an introductory 'Note to Students' describing the document's features and a full copyright notice. It is not core content for question generation.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 5,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Banking and Monetary Policy",
+      "subtopic": "RBI Monetary Policy and Economic Capital Framework",
+      "rationale": "This page provides detailed explanations of RBI's monetary policy instruments (quantitative and qualitative tools), the recent surplus transfer to the government, and the Economic Capital Framework (ECF), including its genesis, concept, and components. This is highly relevant and dense content for UPSC.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 6,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Banking and Monetary Policy",
+      "subtopic": "Forex Reserves and RBI Ombudsman Scheme",
+      "rationale": "This page continues the discussion on RBI's Economic Capital Framework, then delves into India's Forex reserves, explaining the components, reasons for increasing gold reserves, and associated risks. It also introduces the Reserve Bank - Integrated Ombudsman Scheme, 2021, covering its objective and expanded coverage. This is highly dense and relevant content.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 7,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Banking and Monetary Policy",
+      "subtopic": "RBI Ombudsman Scheme and Key Initiatives",
+      "rationale": "This page elaborates on the coverage, integration, and powers of the RBI Integrated Ombudsman Scheme. It then introduces and explains several important RBI initiatives and terms like Standing Deposit Facility (SDF), Variable Rate Reverse Repo (VRRR), Switch Auction, and Co-lending norms. This is highly dense and relevant content for UPSC.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 8,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Banking and Monetary Policy",
+      "subtopic": "Payment Systems, RBI Initiatives, and NBFC Regulation",
+      "rationale": "This page details co-lending norms, explains Payment Aggregators and their regulation, describes Ways and Means Advances (WMA) including its features and legal framework, and introduces new RBI initiatives like Unified Lending Interface (ULI), CBDC retail sandbox, and Tokenisation of Certificate of Deposits (CD). It concludes by introducing Self-Regulatory Organisations for NBFCs. This is very dense and relevant content.",
+      "confidence": 1
+    }
+  ]
+}

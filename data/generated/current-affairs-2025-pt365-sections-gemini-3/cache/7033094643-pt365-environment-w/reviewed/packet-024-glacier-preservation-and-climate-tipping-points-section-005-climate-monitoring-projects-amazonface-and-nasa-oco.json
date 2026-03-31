@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the carbon sink status of major global biomes based on recent observations:\n1. The Amazon rainforest currently acts as a net carbon sink by absorbing more carbon dioxide than it emits.\n2. Boreal forests in Canada and Russia currently absorb more carbon dioxide than they emit.\n3. Melting permafrost areas in Russia currently emit more carbon dioxide than they absorb.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect: Recent findings from NASA's Orbiting Carbon Observatory (OCO) reveal that the Amazon rainforest currently emits more CO2 than it absorbs, acting as a net carbon source.\nStatement 2 is correct: Boreal forests in Canada and Russia absorb more CO2 than they emit, acting as net carbon sinks.\nStatement 3 is incorrect: According to recent observations, melting permafrost areas in Canada and Russia currently absorb more CO2 than they emit.",
+      "takeaway": "While the Amazon rainforest has transitioned into a net carbon source, boreal forests and melting permafrost areas in regions like Canada and Russia are currently functioning as net carbon sinks.",
+      "evidenceExcerpt": "Key Findings: Amazon rainforest emits more CO2 than it absorbs. Boreal forests in Canada, Russia, and melting permafrost areas absorb more CO2 than they emit.",
+      "qualityScore": 85,
+      "reviewNotes": "Good application of counter-intuitive facts from the text (Amazon as a source, melting permafrost as a sink). The 'How many' format aligns perfectly with recent UPSC trends."
+    }
+  ],
+  "reviewerNotes": "Selected two strong questions. The first tests counter-intuitive findings about carbon sinks (Amazon vs. permafrost), which is highly relevant for UPSC. The second tests the AmazonFACE project, upgraded to a 3-statement 'How many' format to match current exam patterns."
+}

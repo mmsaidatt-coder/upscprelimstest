@@ -1,0 +1,207 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Thorium reserves and India's nuclear programme:\n1. India holds the world's largest reserves of thorium.\n2. In India, monazite sands containing thorium are exclusively found in the coastal regions of Kerala and Odisha.\n3. The Advanced Heavy Water Reactor (AHWR) is being developed by India specifically to utilize its domestic enriched uranium reserves.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: India holds the world's largest reserves of thorium. Statement 2 is incorrect: While Kerala and Odisha have rich reserves, monazite sands are also found in Andhra Pradesh, Tamil Nadu, West Bengal, and Jharkhand. Statement 3 is incorrect: The Advanced Heavy Water Reactor (AHWR) is being developed for the thorium fuel cycle, not exclusively for enriched uranium.",
+      "takeaway": "India holds the world's largest thorium reserves, primarily in monazite sands across multiple states, and is developing the AHWR to utilize this thorium.",
+      "evidenceExcerpt": "India has the world's largest reserves of thorium. Kerala and Odisha have rich reserves of monazite... India is developing the Advanced Heavy Water Reactor (AHWR) and Indian Molten Salt Breeder Reactor (IMSBR) for the thorium fuel cycle."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Thorium Molten Salt Reactor (TMSR), consider the following statements:\n1. It is a fourth-generation nuclear reactor that utilizes high-temperature molten salt as a coolant.\n2. It features a passive safety mechanism where a salt plug melts to stop the nuclear reaction if the reactor overheats.\n3. China recently achieved the world's first thorium to uranium fuel conversion in a TMSR.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: TMSR is a fourth-generation advanced nuclear energy system using high-temperature molten salt as a coolant. Statement 2 is correct: It incorporates passive safety features; if the reactor becomes too hot, a salt plug melts, draining the salt and stopping the reaction. Statement 3 is correct: China successfully achieved the first-ever thorium to uranium fuel conversion in a TMSR.",
+      "takeaway": "The TMSR is a 4th-generation reactor with passive safety features (melting salt plug) that uses molten salt as a coolant. China operates the only current TMSR.",
+      "evidenceExcerpt": "China successfully achieved the first-ever thorium to uranium fuel conversion in a Thorium Molten Salt Reactor (TMSR). It is fourth-generation advanced nuclear energy system that uses high-temperature molten salt as a coolant. Passive Safety Features: If an MSR is too hot, a salt plug melts, stopping the reaction."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements:\n1. Monazite is a naturally occurring mineral that typically contains 8 to 10 percent thorium.\n2. Despite being more abundant than uranium in nature, the commercial utilization of thorium is restricted by high extraction costs.\n3. The Indian Molten Salt Breeder Reactor (IMSBR) is a light water reactor being developed in collaboration with Russia.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Monazite is a mineral that contains about 8-10% thorium. Statement 2 is correct: Thorium is three times more abundant than uranium, but its use is limited by high extraction costs. Statement 3 is incorrect: The Indian Molten Salt Breeder Reactor (IMSBR) is being developed indigenously by India specifically for the thorium fuel cycle, not as a light water reactor with Russia.",
+      "takeaway": "Thorium is highly abundant and found in monazite (8-10% thorium), but extraction costs are high. India is developing the IMSBR for its thorium fuel cycle.",
+      "evidenceExcerpt": "Thorium is three times more abundant than uranium in nature, but its utilization is restricted by high extraction costs... Kerala and Odisha have rich reserves of monazite, which contains about 8 - 10% thorium... India is developing the Advanced Heavy Water Reactor (AHWR) and Indian Molten Salt Breeder Reactor (IMSBR) for the thorium fuel cycle."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice",
+      "prompt": "With reference to the safety mechanisms of advanced nuclear reactors, how does the Thorium Molten Salt Reactor (TMSR) achieve 'passive safety' during an overheating event?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "By automatically injecting pressurized heavy water to rapidly cool the reactor core."
+        },
+        {
+          "id": "B",
+          "text": "By relying on a salt plug that melts at high temperatures, thereby stopping the nuclear reaction."
+        },
+        {
+          "id": "C",
+          "text": "By utilizing gravity-driven control rods that drop into the core when power is lost."
+        },
+        {
+          "id": "D",
+          "text": "By solidifying the molten salt coolant to encapsulate and trap the radioactive materials."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The TMSR features a passive safety mechanism where a salt plug melts if the reactor becomes too hot. This automatically stops the nuclear reaction without requiring active mechanical intervention.",
+      "takeaway": "Fourth-generation TMSRs incorporate passive safety features, such as melting salt plugs, to prevent catastrophic meltdowns during overheating.",
+      "evidenceExcerpt": "Passive Safety Features: If an MSR is too hot, a salt plug melts, stopping the reaction."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements comparing Thorium and Uranium in the context of nuclear energy:\n1. While uranium has multiple naturally occurring isotopes, Thorium-232 is the only naturally occurring isotope of thorium.\n2. Unlike uranium, which can be used directly in conventional reactors, thorium must be converted into Uranium-233 to be used as fuel.\n3. Thorium is significantly less abundant in nature than uranium, which justifies its high extraction costs.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statements 1 and 2 are correct. Thorium-232 is the only naturally occurring isotope of thorium and must be converted to Uranium-233 to act as fuel. Statement 3 is incorrect because thorium is actually three times more abundant than uranium in nature, though its utilization is indeed restricted by high extraction costs.",
+      "takeaway": "Thorium is more abundant than uranium but requires complex conversion to U-233 and involves high extraction costs, limiting its immediate commercial viability.",
+      "evidenceExcerpt": "Thorium has to be converted to Uranium-233 in a reactor before it can be used as fuel. Thorium-232 is the only naturally occurring isotope of thorium. Thorium is three times more abundant than uranium in nature, but its utilization is restricted by high extraction costs."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of nuclear reactor technologies and their primary characteristics:\n1. Thorium Molten Salt Reactor (TMSR) : Employs a passive safety mechanism utilizing a melting salt plug\n2. Advanced Heavy Water Reactor (AHWR) : Being developed by India specifically for the thorium fuel cycle\n3. Indian Molten Salt Breeder Reactor (IMSBR) : A fourth-generation reactor recently developed by China\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pairs 1 and 2 are correctly matched. Pair 3 is incorrectly matched because the Indian Molten Salt Breeder Reactor (IMSBR) is being developed by India, not China. China recently achieved a milestone with the TMSR.",
+      "takeaway": "India is actively developing the AHWR and IMSBR to harness its vast thorium reserves, while China operates the TMSR.",
+      "evidenceExcerpt": "China successfully achieved the first-ever thorium to uranium fuel conversion in a Thorium Molten Salt Reactor (TMSR)... India is developing the Advanced Heavy Water Reactor (AHWR) and Indian Molten Salt Breeder Reactor (IMSBR) for the thorium fuel cycle."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Multiple Choice",
+      "prompt": "Which of the following is the primary reason why the commercial utilization of thorium as a nuclear fuel remains restricted globally, despite it being three times more abundant than uranium?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Thorium ores are exclusively found in ecologically sensitive coastal regions, preventing large-scale mining."
+        },
+        {
+          "id": "B",
+          "text": "Thorium is highly radioactive in its natural state, making its transportation and handling extremely hazardous."
+        },
+        {
+          "id": "C",
+          "text": "The extraction of thorium from its ores involves high costs that limit its economic viability."
+        },
+        {
+          "id": "D",
+          "text": "International nuclear treaties prohibit the extraction and enrichment of thorium for commercial energy production."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Despite its high natural abundance compared to uranium, the commercial utilization of thorium is primarily restricted by the high costs associated with its extraction.",
+      "takeaway": "The economic viability of the thorium fuel cycle is currently hindered by high extraction costs, even though the resource itself is abundant.",
+      "evidenceExcerpt": "Thorium is three times more abundant than uranium in nature, but its utilization is restricted by high extraction costs."
+    }
+  ]
+}

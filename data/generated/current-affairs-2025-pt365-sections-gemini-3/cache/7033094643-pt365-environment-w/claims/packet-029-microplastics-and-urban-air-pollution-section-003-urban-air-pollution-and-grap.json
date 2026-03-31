@@ -1,0 +1,82 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-029-microplastics-and-urban-air-pollution-section-003-urban-air-pollution-and-grap",
+    "claimType": "Institution/Policy",
+    "claimText": "The Graded Response Action Plan (GRAP) is an emergency response mechanism implemented by the Commission for Air Quality Management (CAQM).",
+    "evidenceExcerpt": "GRAP is an emergency response mechanism implemented by CAQM, originally created on Supreme Court directions.",
+    "pageNumbers": [
+      61
+    ],
+    "examUse": "Statement-based question identifying the implementing agency of GRAP.",
+    "distractorHooks": [
+      "Central Pollution Control Board (CPCB)",
+      "National Green Tribunal (NGT)",
+      "Ministry of Environment, Forest and Climate Change (MoEFCC)"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-029-microplastics-and-urban-air-pollution-section-003-urban-air-pollution-and-grap",
+    "claimType": "Factual/Threshold",
+    "claimText": "GRAP Stage 4, classified as the 'Severe +' category, is triggered when the Air Quality Index (AQI) exceeds 451.",
+    "evidenceExcerpt": "GRAP Stage 4 (Severe + category) is triggered when the AQI exceeds 451.",
+    "pageNumbers": [
+      61
+    ],
+    "examUse": "Correct-pair question matching GRAP stages with their respective AQI thresholds.",
+    "distractorHooks": [
+      "AQI exceeds 300",
+      "AQI exceeds 500",
+      "Stage 3"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-029-microplastics-and-urban-air-pollution-section-003-urban-air-pollution-and-grap",
+    "claimType": "Conceptual/Geographical",
+    "claimText": "The street-canyon effect occurs when narrow streets with tall buildings trap pollutants, thereby exacerbating urban air pollution.",
+    "evidenceExcerpt": "The street-canyon effect, caused by narrow streets with tall buildings, traps pollutants and exacerbates urban air pollution.",
+    "pageNumbers": [
+      61
+    ],
+    "examUse": "Concept definition or cause-effect statement in environmental geography questions.",
+    "distractorHooks": [
+      "Urban heat island effect",
+      "Temperature inversion",
+      "Albedo effect"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-029-microplastics-and-urban-air-pollution-section-003-urban-air-pollution-and-grap",
+    "claimType": "Comparison/Standard",
+    "claimText": "India's National Ambient Air Quality Standards (NAAQS) limit for PM2.5 is 40 µg/m³, which is significantly higher than the WHO 2021 guideline of 5 µg/m³.",
+    "evidenceExcerpt": "India's NAAQS limit for PM2.5 is 40 µg/m³, which is significantly higher than the WHO 2021 guideline of 5 µg/m³.",
+    "pageNumbers": [
+      61
+    ],
+    "examUse": "Comparison statement evaluating India's air quality standards against global WHO guidelines.",
+    "distractorHooks": [
+      "India's NAAQS limit is stricter than WHO guidelines",
+      "WHO 2021 guideline for PM2.5 is 15 µg/m³",
+      "India's NAAQS limit for PM2.5 is 60 µg/m³"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-029-microplastics-and-urban-air-pollution-section-003-urban-air-pollution-and-grap",
+    "claimType": "Policy/Initiative",
+    "claimText": "The SATAT initiative aims to curb air pollution by creating a Compressed Bio-Gas (CBG) ecosystem.",
+    "evidenceExcerpt": "The SATAT initiative aims to create a Compressed Bio-Gas (CBG) ecosystem to help curb air pollution.",
+    "pageNumbers": [
+      61
+    ],
+    "examUse": "Correct-pair question matching the SATAT initiative with its primary objective.",
+    "distractorHooks": [
+      "Promotion of electric mobility",
+      "Creation of a Green Hydrogen ecosystem",
+      "Installation of smog towers"
+    ]
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-014-particle-physics-and-cosmic-phenomena-section-001-cern-large-hadron-collider-lhc-and-matter-antimatter-asymmetry",
+    "claimType": "Factual",
+    "claimText": "India holds the status of an Associate Member at CERN, an international scientific organization located on the Franco-Swiss border.",
+    "evidenceExcerpt": "India is an Associate Member of CERN, an international scientific organization located on the Franco-Swiss border.",
+    "pageNumbers": [
+      29
+    ],
+    "examUse": "Statement-based question on India's membership status in international scientific organizations.",
+    "distractorHooks": [
+      "India is a founding member of CERN",
+      "India is a full member of CERN",
+      "CERN is located exclusively in Switzerland"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-014-particle-physics-and-cosmic-phenomena-section-001-cern-large-hadron-collider-lhc-and-matter-antimatter-asymmetry",
+    "claimType": "Factual",
+    "claimText": "Major achievements of CERN include the confirmation of the Higgs boson (God particle) and the development of the World Wide Web.",
+    "evidenceExcerpt": "CERN's LHC confirmed the existence of the Higgs boson (God particle) and developed the World Wide Web.",
+    "pageNumbers": [
+      29
+    ],
+    "examUse": "Correct-pair or statement-based question on scientific discoveries and their associated institutions.",
+    "distractorHooks": [
+      "The World Wide Web was developed by NASA",
+      "The Higgs boson was discovered by Fermilab"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-014-particle-physics-and-cosmic-phenomena-section-001-cern-large-hadron-collider-lhc-and-matter-antimatter-asymmetry",
+    "claimType": "Conceptual",
+    "claimText": "The Large Hadron Collider (LHC) utilizes superconducting magnets to accelerate two high-energy particle beams to speeds approaching the speed of light prior to collision.",
+    "evidenceExcerpt": "The LHC uses superconducting magnets to accelerate two high-energy particle beams close to the speed of light before collision.",
+    "pageNumbers": [
+      29
+    ],
+    "examUse": "Statement-based question on the working mechanism of the Large Hadron Collider.",
+    "distractorHooks": [
+      "The LHC uses conventional electromagnets to accelerate particles",
+      "The LHC accelerates particles faster than the speed of light"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-014-particle-physics-and-cosmic-phenomena-section-001-cern-large-hadron-collider-lhc-and-matter-antimatter-asymmetry",
+    "claimType": "Factual",
+    "claimText": "ATLAS, CMS, ALICE, and LHCb are the four major experimental collaborations operating at CERN's Large Hadron Collider (LHC).",
+    "evidenceExcerpt": "Four experimental collaborations at CERN's LHC include ATLAS, CMS, ALICE, and LHCb.",
+    "pageNumbers": [
+      29
+    ],
+    "examUse": "Correct-pair question matching acronyms to their respective space or physics facilities.",
+    "distractorHooks": [
+      "ATLAS and ALICE are NASA space telescopes",
+      "CMS is a nuclear reactor in India"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-014-particle-physics-and-cosmic-phenomena-section-001-cern-large-hadron-collider-lhc-and-matter-antimatter-asymmetry",
+    "claimType": "Conceptual",
+    "claimText": "Matter-Antimatter Asymmetry refers to the phenomenon where the observable universe consists almost entirely of matter, even though the Big Bang theoretically produced equal amounts of matter and antimatter.",
+    "evidenceExcerpt": "Matter-Antimatter Asymmetry refers to the observable universe consisting almost entirely of matter, despite the Big Bang producing equal amounts of both.",
+    "pageNumbers": [
+      29
+    ],
+    "examUse": "Conceptual statement in a question about cosmology and particle physics.",
+    "distractorHooks": [
+      "The Big Bang produced significantly more matter than antimatter initially",
+      "The observable universe consists equally of matter and antimatter"
+    ]
+  },
+  {
+    "id": "claim-006",
+    "sectionId": "packet-014-particle-physics-and-cosmic-phenomena-section-001-cern-large-hadron-collider-lhc-and-matter-antimatter-asymmetry",
+    "claimType": "Conceptual",
+    "claimText": "CP symmetry dictates that the laws of physics remain unchanged if particles are swapped with their corresponding antiparticles and viewed in a mirror.",
+    "evidenceExcerpt": "CP symmetry implies physics laws remain unchanged if particles are swapped with antiparticles and viewed in a mirror.",
+    "pageNumbers": [
+      29
+    ],
+    "examUse": "Definition-based question on fundamental symmetries in particle physics.",
+    "distractorHooks": [
+      "CP symmetry implies physics laws change when particles are swapped with antiparticles",
+      "CP symmetry only applies to macroscopic objects"
+    ]
+  }
+]

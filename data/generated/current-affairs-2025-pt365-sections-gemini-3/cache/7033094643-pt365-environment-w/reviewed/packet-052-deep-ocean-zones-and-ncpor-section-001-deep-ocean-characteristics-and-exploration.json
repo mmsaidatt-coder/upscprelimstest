@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the deep ocean and its exploration:\n1. The deep ocean is characterized by an average temperature of 4 degrees Celsius and extreme pressure.\n2. The Mesopelagic Zone holds approximately 90 percent of the world's fish by weight.\n3. Methane hydrates found in the deep ocean are primarily harvested to extract compounds for new pharmaceutical drugs.\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The deep ocean is characterized by an average temperature of 4 degrees Celsius and extreme pressure (40 to 110 times Earth's atmosphere). Statement 2 is correct: The Mesopelagic Zone (200m-1000m) holds about 90 percent of the world's fish by weight. Statement 3 is incorrect: Methane hydrates are targeted as potential energy sources, whereas separate biological and chemical compounds are sought for new drugs.",
+      "takeaway": "The deep ocean maintains an average temperature of 4 degrees Celsius. Its Mesopelagic Zone (200m-1000m) is a critical ecological reservoir containing roughly 90% of the world's fish biomass. Exploration targets energy (methane hydrates), minerals (polymetallic nodules), and pharmaceuticals.",
+      "evidenceExcerpt": "Deep ocean conditions include an average temperature of 4 degrees Celsius and extreme pressure. The Mesopelagic Zone (200m-1000m) contains about 90 percent of the world's fish by weight. Exploration yields energy sources like methane hydrate, polymetallic nodules, and new drugs.",
+      "qualityScore": 85,
+      "reviewNotes": "Good combination of factual and conceptual statements. The distractor in statement 3 is plausible and tests careful reading, aligning well with UPSC's pattern of mixing up applications of different resources."
+    }
+  ],
+  "reviewerNotes": "Selected and refined two questions to cover the physical characteristics, biological distribution, and resource exploration of the deep ocean. Improved the distractors to ensure they are plausible and strictly grounded in the provided text."
+}

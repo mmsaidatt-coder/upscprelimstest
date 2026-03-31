@@ -1,0 +1,78 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-009-camel-breeds-and-endangered-species-of-tamil-nadu-section-001-key-camel-breeds-in-india",
+    "claimType": "Species Characteristic",
+    "claimText": "Kharai camels can swim up to 3 km in seawater and survive by grazing on mangroves.",
+    "evidenceExcerpt": "Kharai camels can swim up to 3 km in seawater, survive by grazing on mangroves",
+    "pageNumbers": [
+      21
+    ],
+    "examUse": "Statement-based question on unique animal adaptations in India.",
+    "distractorHooks": [
+      "Swims in freshwater rivers",
+      "Grazes on alpine pastures instead of mangroves"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-009-camel-breeds-and-endangered-species-of-tamil-nadu-section-001-key-camel-breeds-in-india",
+    "claimType": "Tribal Association",
+    "claimText": "The Kharai camel breed is preserved by the Rabari and Fakirani Jat tribes.",
+    "evidenceExcerpt": "preserved by Rabari and Fakirani Jat tribes.",
+    "pageNumbers": [
+      21
+    ],
+    "examUse": "Correct-pair question matching tribes to the specific animal breeds they conserve.",
+    "distractorHooks": [
+      "Preserved by the Toda tribe",
+      "Preserved by the Bishnoi community"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-009-camel-breeds-and-endangered-species-of-tamil-nadu-section-001-key-camel-breeds-in-india",
+    "claimType": "Geographical Distribution",
+    "claimText": "Domestic Bactrian camels are double-humped and found exclusively in the high-altitude cold desert of Ladakh in India.",
+    "evidenceExcerpt": "Domestic Bactrian camels are found exclusively in the high-altitude cold desert of Ladakh in India.",
+    "pageNumbers": [
+      21
+    ],
+    "examUse": "Statement-based question on the geographical distribution of camel breeds in India.",
+    "distractorHooks": [
+      "Found in the Thar desert of Rajasthan",
+      "Single-humped camel found in Ladakh"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-009-camel-breeds-and-endangered-species-of-tamil-nadu-section-001-key-camel-breeds-in-india",
+    "claimType": "Biological Adaptation",
+    "claimText": "The two humps of Bactrian camels act as energy reservoirs by storing fat, rather than storing water.",
+    "evidenceExcerpt": "Bactrian camels have two humps acting as energy (fat) reservoirs, not water.",
+    "pageNumbers": [
+      21
+    ],
+    "examUse": "Statement-based question testing biological misconceptions.",
+    "distractorHooks": [
+      "Humps store water for desert survival",
+      "Humps are used for thermoregulation only"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-009-camel-breeds-and-endangered-species-of-tamil-nadu-section-001-key-camel-breeds-in-india",
+    "claimType": "Conservation Status",
+    "claimText": "The Wild Bactrian Camel (Camelus ferus) is a distinct species listed as Critically Endangered by the IUCN.",
+    "evidenceExcerpt": "Wild Bactrian Camel (Camelus ferus) is a distinct species listed as Critically Endangered by IUCN.",
+    "pageNumbers": [
+      21
+    ],
+    "examUse": "Species-specific question on IUCN conservation status.",
+    "distractorHooks": [
+      "Listed as Vulnerable",
+      "Listed as Extinct in the Wild",
+      "Considered the same species as the domestic Bactrian camel"
+    ]
+  }
+]

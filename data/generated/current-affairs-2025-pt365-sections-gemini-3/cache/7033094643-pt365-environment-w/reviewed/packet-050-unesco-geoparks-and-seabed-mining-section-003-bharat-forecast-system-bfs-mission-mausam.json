@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the 'Bharat Forecast System (BFS)', consider the following statements:\n1. It is the world's first indigenously developed high-resolution weather forecast system.\n2. It relies exclusively on satellite imagery for real-time weather inputs.\n3. It was developed by the Indian Institute of Tropical Meteorology (IITM), Pune.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The Bharat Forecast System (BFS) is the world's first indigenously developed high-resolution weather forecast system. Statement 2 is incorrect: The BFS does not rely exclusively on satellite imagery; it actively integrates real-time inputs from 40 Doppler Weather Radars. Statement 3 is correct: It was developed by the Indian Institute of Tropical Meteorology (IITM), Pune.",
+      "takeaway": "The BFS is an indigenous, high-resolution weather model developed by IITM Pune that utilizes real-time data from Doppler Weather Radars.",
+      "evidenceExcerpt": "Ministry of Earth Sciences unveiled BFS, world's first indigenously developed high-resolution weather forecast systems. Developed by: Indian Institute of Tropical Meteorology (IITM), Pune... Integrates real-time inputs from 40 Doppler Weather Radar.",
+      "qualityScore": 85,
+      "reviewNotes": "Strong statement-based question testing the core features of the BFS. The absolute word 'exclusively' in statement 2 serves as a classic UPSC-style distractor."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding recent meteorological initiatives in India:\n1. The Bharat Forecast System (BFS) positions India ahead of the US and the UK by achieving a weather prediction resolution of 6 km.\n2. Mission Mausam is an initiative launched by the Ministry of Environment, Forest and Climate Change to improve climate services.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The BFS enhances India's weather prediction resolution from 12 km to 6 km, positioning it ahead of countries like the US, UK, and EU. Statement 2 is incorrect: Mission Mausam was launched in 2024 by the Ministry of Earth Sciences (MoES), not the Ministry of Environment, Forest and Climate Change.",
+      "takeaway": "The BFS gives India a 6 km prediction resolution, surpassing the operational models of the US and UK. Mission Mausam is a key initiative of the Ministry of Earth Sciences (MoES).",
+      "evidenceExcerpt": "Enhances India's weather prediction resolution from 12 km to 6 km... Positions India ahead of countries like US, UK, and EU by achieving 6 km resolution... Mission Mausam: Launched in 2024 by Ministry of Earth Sciences (MoES).",
+      "qualityScore": 85,
+      "reviewNotes": "Tests the global standing of India's new forecasting system and uses a standard UPSC ministry-swap distractor for Mission Mausam."
+    }
+  ],
+  "reviewerNotes": "Selected three distinct questions covering the technical features of BFS, the HPC systems powering it, and the broader Mission Mausam initiative. Rewrote the prompts to eliminate factual overlap between questions and refined distractors to match UPSC standards."
+}

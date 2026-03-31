@@ -1,0 +1,82 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-010-market-structure-and-investment-vehicles-section-003-alternative-investment-funds-aifs",
+    "claimType": "Factual",
+    "claimText": "Alternative Investment Funds (AIFs) are privately pooled investment vehicles regulated by the Securities and Exchange Board of India (SEBI).",
+    "evidenceExcerpt": "AIFs are privately pooled investment vehicles regulated by SEBI under the 2012 regulations.",
+    "pageNumbers": [
+      21
+    ],
+    "examUse": "Statement-based question identifying the regulatory body for AIFs.",
+    "distractorHooks": [
+      "Regulated by RBI",
+      "Regulated by Ministry of Finance",
+      "Publicly pooled vehicles"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-010-market-structure-and-investment-vehicles-section-003-alternative-investment-funds-aifs",
+    "claimType": "Factual",
+    "claimText": "Category I AIFs invest in start-ups, early-stage ventures, SMEs, and infrastructure funds.",
+    "evidenceExcerpt": "Category I AIFs invest in start-ups, early-stage ventures, SMEs, and infrastructure funds.",
+    "pageNumbers": [
+      21
+    ],
+    "examUse": "Correct-pair question matching AIF categories with their investment focus.",
+    "distractorHooks": [
+      "Invests in Hedge Funds",
+      "Uses leverage",
+      "Category II AIFs"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-010-market-structure-and-investment-vehicles-section-003-alternative-investment-funds-aifs",
+    "claimType": "Factual",
+    "claimText": "Category II AIFs do not use leverage and include Private Equity Funds, Debt Funds, and Real Estate Funds.",
+    "evidenceExcerpt": "Category II AIFs do not use leverage and include Private Equity Funds, Debt Funds, and Real Estate Funds.",
+    "pageNumbers": [
+      21
+    ],
+    "examUse": "Statement-based question on the characteristics and examples of Category II AIFs.",
+    "distractorHooks": [
+      "Uses leverage",
+      "Includes Hedge Funds",
+      "Category III AIFs"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-010-market-structure-and-investment-vehicles-section-003-alternative-investment-funds-aifs",
+    "claimType": "Factual",
+    "claimText": "Category III AIFs may use leverage and include Hedge Funds and Private investment in public equity (PIPE).",
+    "evidenceExcerpt": "Category III AIFs may use leverage and include Hedge Funds and Private investment in public equity (PIPE).",
+    "pageNumbers": [
+      21
+    ],
+    "examUse": "Statement-based question on which AIF category is permitted to use leverage.",
+    "distractorHooks": [
+      "Do not use leverage",
+      "Includes infrastructure funds",
+      "Category I AIFs"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-010-market-structure-and-investment-vehicles-section-003-alternative-investment-funds-aifs",
+    "claimType": "Factual",
+    "claimText": "The Reserve Bank of India (RBI) exempted the government-backed SWAMIH Fund from tightened Alternative Investment Fund (AIF) rules.",
+    "evidenceExcerpt": "RBI exempted the government-backed SWAMIH Fund from tightened AIF rules.",
+    "pageNumbers": [
+      21
+    ],
+    "examUse": "Statement-based question on regulatory exemptions for specific government-backed funds.",
+    "distractorHooks": [
+      "Exempted by SEBI",
+      "Privately-backed fund",
+      "Subject to tightened AIF rules"
+    ]
+  }
+]

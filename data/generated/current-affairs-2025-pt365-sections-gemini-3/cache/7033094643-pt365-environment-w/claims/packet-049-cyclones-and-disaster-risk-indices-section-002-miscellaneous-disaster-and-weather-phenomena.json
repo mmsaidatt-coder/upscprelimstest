@@ -1,0 +1,64 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-049-cyclones-and-disaster-risk-indices-section-002-miscellaneous-disaster-and-weather-phenomena",
+    "claimType": "Concept",
+    "claimText": "An earthquake swarm is a sequence of multiple earthquakes occurring in a short timeframe without a distinct main shock.",
+    "evidenceExcerpt": "Earthquake Swarm: Sequences of many earthquakes that occur in a relatively short period without a specific main shock.",
+    "pageNumbers": [
+      101
+    ],
+    "examUse": "Statement-based question distinguishing earthquake swarms from typical mainshock-aftershock sequences.",
+    "distractorHooks": [
+      "Features a distinct main shock",
+      "Occurs over a prolonged geological period"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-049-cyclones-and-disaster-risk-indices-section-002-miscellaneous-disaster-and-weather-phenomena",
+    "claimType": "Fact",
+    "claimText": "Swell waves, also referred to as Kallakkadal waves in India, are long-wavelength ocean waves that remain largely unaffected by local winds.",
+    "evidenceExcerpt": "Swell Waves: Long-wavelength ocean waves travelling long distances away from their origin. Largely unaffected by local winds and often go undetected by satellites... Also called Kallakkadal waves in India.",
+    "pageNumbers": [
+      101
+    ],
+    "examUse": "Correct-pair question matching local terminology (Kallakkadal) to oceanographic phenomena.",
+    "distractorHooks": [
+      "Driven primarily by local winds",
+      "Short-wavelength coastal waves",
+      "Easily detected by all satellites"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-049-cyclones-and-disaster-risk-indices-section-002-miscellaneous-disaster-and-weather-phenomena",
+    "claimType": "Concept",
+    "claimText": "A blowout is an industrial accident in an oil or gas well caused by underground pressure forcing hydrocarbons to the surface uncontrollably.",
+    "evidenceExcerpt": "Blowout: Oil/gas well accident where underground pressure forces gas/oil to surface uncontrollably.",
+    "pageNumbers": [
+      101
+    ],
+    "examUse": "Statement-based question on the causes of oil and gas well disasters.",
+    "distractorHooks": [
+      "Controlled flaring of excess gas",
+      "Surface-level pipeline rupture due to external impact"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-049-cyclones-and-disaster-risk-indices-section-002-miscellaneous-disaster-and-weather-phenomena",
+    "claimType": "Concept",
+    "claimText": "A Mesoscale Convective System (MCS) is a large collection of thunderstorms that act together as a system and can persist for over 12 hours.",
+    "evidenceExcerpt": "Mesoscale Convective System (MCS): Collection of thunderstorms that act as a system. Can spread across entire state and last >12 hours.",
+    "pageNumbers": [
+      101
+    ],
+    "examUse": "Statement-based question on the characteristics and duration of mesoscale weather events.",
+    "distractorHooks": [
+      "Isolated, short-lived thunderstorm",
+      "Lasts for less than an hour",
+      "Driven by tectonic activity"
+    ]
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-032-industry-classification-and-hazardous-waste-rules-section-001-classification-of-industries-based-on-pollution-index-pi",
+    "claimType": "Factual",
+    "claimText": "The Pollution Index (PI) for classifying industries ranges from 0 to 100 and is formulated based on the Precautionary Principle.",
+    "evidenceExcerpt": "Pollution Index (PI) ranges from 0 to 100, formulated in 2016 based on the Precautionary Principle evaluating water, air, and hazardous waste.",
+    "pageNumbers": [
+      66
+    ],
+    "examUse": "Statement-based question on the methodology and guiding principle of the Pollution Index.",
+    "distractorHooks": [
+      "Polluter Pays Principle",
+      "Index ranges from 0 to 500 like AQI"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-032-industry-classification-and-hazardous-waste-rules-section-001-classification-of-industries-based-on-pollution-index-pi",
+    "claimType": "Regulatory",
+    "claimText": "Red Category industries have a Pollution Index greater than 80 and are normally not permitted in ecologically fragile or protected areas.",
+    "evidenceExcerpt": "Red Category (PI > 80) industries are normally not permitted in ecologically fragile or protected areas.",
+    "pageNumbers": [
+      66
+    ],
+    "examUse": "Statement-based question on the restrictions applied to Red Category industries.",
+    "distractorHooks": [
+      "Permitted with special Environmental Clearance",
+      "PI greater than 50"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-032-industry-classification-and-hazardous-waste-rules-section-001-classification-of-industries-based-on-pollution-index-pi",
+    "claimType": "Regulatory",
+    "claimText": "White Category industries have a Pollution Index below 25, are considered non-polluting, and do not require Environmental Clearance (EC) or Consent.",
+    "evidenceExcerpt": "White Category (PI < 25) industries are non-polluting and do not require Environmental Clearance (EC) or Consent.",
+    "pageNumbers": [
+      66
+    ],
+    "examUse": "Statement-based or correct-pair question regarding exemptions for White Category industries.",
+    "distractorHooks": [
+      "Require Consent to Establish but no EC",
+      "Green Category industries are exempt from EC"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-032-industry-classification-and-hazardous-waste-rules-section-001-classification-of-industries-based-on-pollution-index-pi",
+    "claimType": "Classification",
+    "claimText": "The Blue Category of industries includes Essential Environmental Services (ESSs) such as Municipal Solid Waste Management and sewage treatment plants.",
+    "evidenceExcerpt": "Blue Category includes Essential Environmental Services (ESSs) like Municipal Solid Waste Management and sewage treatment plants.",
+    "pageNumbers": [
+      66
+    ],
+    "examUse": "Correct-pair question matching industry categories to their respective sectors.",
+    "distractorHooks": [
+      "Blue Category is for water-intensive industries",
+      "Green Category includes ESSs"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-032-industry-classification-and-hazardous-waste-rules-section-001-classification-of-industries-based-on-pollution-index-pi",
+    "claimType": "Historical",
+    "claimText": "The classification of industries based on pollution originated in 1989 with the Doon Valley Notification issued by the MoEFCC.",
+    "evidenceExcerpt": "The classification of industries originated in 1989 with the Doon Valley Notification issued by MoEFCC.",
+    "pageNumbers": [
+      66
+    ],
+    "examUse": "Statement-based question on the historical origin of industry pollution classification in India.",
+    "distractorHooks": [
+      "Originated with the Environment (Protection) Act 1986",
+      "Originated with the establishment of the National Green Tribunal in 2010"
+    ]
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-011-gift-city-and-specialized-bonds-section-001-gift-city-ifsc-and-foreign-currency-settlement-system",
+    "claimType": "Factual",
+    "claimText": "The Foreign Currency Settlement System (FCSS) at GIFT IFSC is authorized by IFSCA under the Payment and Settlement Systems Act, 2007.",
+    "evidenceExcerpt": "It is authorized by IFSCA under the Payment and Settlement Systems Act, 2007, to settle foreign currency transactions locally.",
+    "pageNumbers": [
+      22
+    ],
+    "examUse": "Statement-based question on the authorizing body and legislative backing of the FCSS.",
+    "distractorHooks": [
+      "Authorized by RBI instead of IFSCA",
+      "Authorized under FEMA instead of Payment and Settlement Systems Act"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-011-gift-city-and-specialized-bonds-section-001-gift-city-ifsc-and-foreign-currency-settlement-system",
+    "claimType": "Factual",
+    "claimText": "CCIL IFSC Limited is the operator of the Foreign Currency Settlement System (FCSS) at GIFT IFSC.",
+    "evidenceExcerpt": "CCIL IFSC Limited is the operator of the FCSS.",
+    "pageNumbers": [
+      22
+    ],
+    "examUse": "Fact-based or correct-pair question identifying the operator of the FCSS.",
+    "distractorHooks": [
+      "Operated by NPCI",
+      "Operated by RBI"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-011-gift-city-and-specialized-bonds-section-001-gift-city-ifsc-and-foreign-currency-settlement-system",
+    "claimType": "Factual",
+    "claimText": "GIFT City is India's first and only IFSC and is designated as a non-resident zone under FEMA.",
+    "evidenceExcerpt": "GIFT City is India's first and only IFSC, established as an SEZ in 2015 and designated as a non-resident zone under FEMA.",
+    "pageNumbers": [
+      22
+    ],
+    "examUse": "Statement-based question on the legal and residency status of GIFT City.",
+    "distractorHooks": [
+      "Designated as a resident zone",
+      "Regulated solely under the SEZ Act without FEMA non-resident status"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-011-gift-city-and-specialized-bonds-section-001-gift-city-ifsc-and-foreign-currency-settlement-system",
+    "claimType": "Factual",
+    "claimText": "The International Financial Services Centres Authority (IFSCA) was established in 2020 under the IFSCA Act, 2019 to regulate financial products and institutions in IFSCs.",
+    "evidenceExcerpt": "IFSCA was established in 2020 under the IFSCA Act, 2019 to regulate financial products and institutions in IFSCs.",
+    "pageNumbers": [
+      22
+    ],
+    "examUse": "Statement-based question on the regulatory jurisdiction over IFSCs.",
+    "distractorHooks": [
+      "Regulated by SEBI",
+      "Regulated by RBI",
+      "Established in 2015 along with GIFT City"
+    ]
+  }
+]

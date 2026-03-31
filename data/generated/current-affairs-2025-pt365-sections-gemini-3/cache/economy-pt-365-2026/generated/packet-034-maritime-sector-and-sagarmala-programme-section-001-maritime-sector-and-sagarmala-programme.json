@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Geography",
+      "difficulty": "Easy",
+      "questionType": "Correct-pair",
+      "prompt": "With reference to the major ports in India, which of the following pairs is correctly matched?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Vadhavan Port : Gujarat"
+        },
+        {
+          "id": "B",
+          "text": "Kamarajar Port : Andhra Pradesh"
+        },
+        {
+          "id": "C",
+          "text": "V. O. Chidambaranar Port : Tamil Nadu"
+        },
+        {
+          "id": "D",
+          "text": "Mormugao Port : Karnataka"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A is incorrect: Vadhavan Port is under construction in Maharashtra (Palghar District). B is incorrect: Kamarajar Port (Ennore) is in Tamil Nadu. C is correct: V. O. Chidambaranar Port (Tuticorin) is located in Tamil Nadu. D is incorrect: Mormugao Port is in Goa, not Karnataka.",
+      "takeaway": "Knowing the state-wise distribution of major ports is essential, especially for new developments like Vadhavan.",
+      "evidenceExcerpt": "Vadhavan, Palghar District, Maharashtra... Tuticorin (V. O. Chidambaranar Port Trust) (Tamil Nadu)... Mormugao (Goa)... Ennore (Kamarajar Port) (Tamil Nadu).",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Application-driven",
+      "prompt": "With reference to the scale and impact of the maritime sector on India's economy, which of the following statements is correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Maritime trade accounts for a higher percentage of India's trading by value than by volume."
+        },
+        {
+          "id": "B",
+          "text": "The Sagarmala Programme has led to a decrease in coastal shipping volume over the last decade to prioritize rail connectivity."
+        },
+        {
+          "id": "C",
+          "text": "Approximately 95% of India's trading by volume is conducted through maritime trade."
+        },
+        {
+          "id": "D",
+          "text": "The number of non-major ports in India is currently less than 100."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Option C is correct: 95% of India's trading by volume is done through maritime trade. Option A is incorrect: Volume (95%) is higher than value (70%). Option B is incorrect: Sagarmala achieved 118% growth in coastal shipping. Option D is incorrect: India has approximately 200 non-major ports.",
+      "takeaway": "Maritime trade is the backbone of India's trade volume, accounting for nearly the entire volume of external trade.",
+      "evidenceExcerpt": "95% of India's trading by volume and 70% by value is done through maritime trade... Sagarmala Programme has achieved 118% growth in coastal shipping... approximately 200 non-major ports.",
+      "contextLines": []
+    }
+  ]
+}

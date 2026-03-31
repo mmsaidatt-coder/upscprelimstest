@@ -1,0 +1,153 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "How many of the following pairs of fiscal terms and their descriptions are correctly matched?",
+      "contextLines": [
+        "1. Primary Deficit : Fiscal Deficit minus interest payments",
+        "2. Effective Revenue Deficit : Fiscal Deficit minus grants for creation of capital assets",
+        "3. Revenue Deficit : Excess of revenue expenditure over revenue receipts"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: Primary Deficit is calculated by subtracting interest payments from Fiscal Deficit. Pair 2 is incorrectly matched: Effective Revenue Deficit is calculated by subtracting grants for the creation of capital assets from the Revenue Deficit, not the Fiscal Deficit. Pair 3 is correctly matched: Revenue Deficit is the excess of revenue expenditure over revenue receipts.",
+      "takeaway": "Primary Deficit removes the burden of past debt (interest payments) from the current Fiscal Deficit. Effective Revenue Deficit refines the Revenue Deficit by accounting for capital creation via grants.",
+      "evidenceExcerpt": "Primary Deficit is calculated by subtracting interest payments from Fiscal Deficit. Revenue Deficit is the excess of revenue expenditure over revenue receipts... Effective Revenue Deficit excludes grants for creation of Capital Assets from Revenue Deficit."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the economic implications of government deficits:\n1. A revenue deficit indicates that the government is engaging in net dissaving for present consumption without facilitating capital formation.\n2. The primary deficit is derived by subtracting interest payments from the fiscal deficit, thereby reflecting the current fiscal stance independent of past debt obligations.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Revenue Deficit is the excess of revenue expenditure over revenue receipts, representing net dissaving for present consumption without capital formation. Statement 2 is correct: Primary Deficit is calculated by subtracting interest payments from the Fiscal Deficit, which isolates the current borrowing requirement from the cost of past accumulated debt.",
+      "takeaway": "Revenue Deficit highlights borrowing for daily consumption (dissaving), while Primary Deficit strips away interest payments to show the actual current fiscal gap.",
+      "evidenceExcerpt": "Primary Deficit is Fiscal Deficit minus interest payments. Revenue Deficit is the excess of revenue expenditure over revenue receipts, representing net dissaving for present consumption without capital formation."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "The metric of 'Effective Revenue Deficit' provides a different perspective on government finances compared to the standard 'Revenue Deficit' primarily because it:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "excludes the interest payments made on past borrowings from the total revenue expenditure."
+        },
+        {
+          "id": "B",
+          "text": "deducts grants provided by the government that are specifically utilized for the creation of capital assets."
+        },
+        {
+          "id": "C",
+          "text": "accounts for the shortfall in tax collections such as GST and VAT during an economic slowdown."
+        },
+        {
+          "id": "D",
+          "text": "includes off-budget borrowings utilized for financing long-term infrastructure projects."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Effective Revenue Deficit is calculated by subtracting grants meant for the creation of capital assets from the Revenue Deficit. This acknowledges that while these grants are technically classified as revenue expenditure, they actually contribute to capital formation.",
+      "takeaway": "Effective Revenue Deficit refines the Revenue Deficit figure by removing grants that lead to capital asset creation, presenting a truer picture of consumption-driven borrowing.",
+      "evidenceExcerpt": "Effective Revenue Deficit is Revenue Deficit minus grants for the creation of capital assets."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Applied",
+      "prompt": "Which of the following scenarios are most likely to contribute to 'Fiscal Slippage' in an economy?\n1. Implementation of large-scale farm loan waivers by governments.\n2. Unanticipated shortfalls in the collection of indirect taxes like GST.\n3. Exclusion of grants for the creation of capital assets from revenue expenditure.\n\nSelect the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Fiscal Slippage occurs when actual fiscal performance deviates from targets. This is often caused by unexpected expenditures like farm loan waivers (Statement 1) or revenue shortfalls such as reductions in tax collections like GST and VAT (Statement 2). Statement 3 describes the calculation of Effective Revenue Deficit, not a cause of fiscal slippage.",
+      "takeaway": "Fiscal Slippage represents a failure to meet fiscal targets, typically driven by populist expenditure measures (loan waivers) or revenue shocks (tax shortfalls).",
+      "evidenceExcerpt": "Fiscal Slippage occurs when actual fiscal performance deviates from targets, often due to farm loan waivers or tax cuts... reductions in tax collections like GST and VAT."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Comparison-driven",
+      "prompt": "Consider the following statements comparing key fiscal terms:\n1. In the calculation of the Fiscal Deficit, government borrowings are included as part of the total receipts.\n2. The Effective Revenue Deficit is inherently lower than or equal to the Revenue Deficit, provided there are grants allocated for capital asset creation.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Fiscal Deficit is the difference between total expenditure and total receipts *excluding* borrowing. Statement 2 is correct: Effective Revenue Deficit is calculated by subtracting grants for the creation of capital assets from the Revenue Deficit, making it mathematically lower than the Revenue Deficit when such grants exist.",
+      "takeaway": "Fiscal Deficit explicitly excludes borrowing from total receipts to reveal the true borrowing requirement. Effective Revenue Deficit is a subset of Revenue Deficit, adjusted downward for capital-creating grants.",
+      "evidenceExcerpt": "Fiscal Deficit is the difference between total expenditure and total receipts excluding borrowing... Effective Revenue Deficit is Revenue Deficit minus grants for the creation of capital assets."
+    }
+  ]
+}

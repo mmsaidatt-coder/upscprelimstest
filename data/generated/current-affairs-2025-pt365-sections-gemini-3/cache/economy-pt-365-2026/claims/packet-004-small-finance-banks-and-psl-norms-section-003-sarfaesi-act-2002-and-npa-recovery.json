@@ -1,0 +1,64 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-004-small-finance-banks-and-psl-norms-section-003-sarfaesi-act-2002-and-npa-recovery",
+    "claimType": "Factual",
+    "claimText": "A loan is classified as a Non-Performing Asset (NPA) when the principal or interest remains overdue for more than 90 days.",
+    "evidenceExcerpt": "A loan becomes an NPA when principal or interest remains overdue for more than 90 days.",
+    "pageNumbers": [
+      11
+    ],
+    "examUse": "Statement-based question on NPA classification criteria.",
+    "distractorHooks": [
+      "Overdue for more than 60 days",
+      "Overdue for more than 180 days"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-004-small-finance-banks-and-psl-norms-section-003-sarfaesi-act-2002-and-npa-recovery",
+    "claimType": "Procedural",
+    "claimText": "The SARFAESI Act mandates a 60-day demand notice to borrowers before financial institutions can initiate asset recovery actions.",
+    "evidenceExcerpt": "The Act mandates a 60-day demand notice to borrowers before initiating asset recovery actions.",
+    "pageNumbers": [
+      11
+    ],
+    "examUse": "Statement-based question on SARFAESI Act procedures.",
+    "distractorHooks": [
+      "30-day demand notice",
+      "90-day demand notice",
+      "No notice required for willful defaulters"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-004-small-finance-banks-and-psl-norms-section-003-sarfaesi-act-2002-and-npa-recovery",
+    "claimType": "Institutional",
+    "claimText": "Asset Reconstruction Companies (ARCs) are registered and regulated by the Reserve Bank of India (RBI).",
+    "evidenceExcerpt": "Asset Reconstruction Companies (ARCs) are registered and regulated by the RBI to buy NPAs and clean up bank balance sheets.",
+    "pageNumbers": [
+      11
+    ],
+    "examUse": "Institution-feature question on the regulatory authority of ARCs.",
+    "distractorHooks": [
+      "Regulated by SEBI",
+      "Regulated by the Ministry of Finance",
+      "Regulated by Insolvency and Bankruptcy Board of India (IBBI)"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-004-small-finance-banks-and-psl-norms-section-003-sarfaesi-act-2002-and-npa-recovery",
+    "claimType": "Legal",
+    "claimText": "Under the SARFAESI framework, a contradiction exists regarding redemption rights: Section 13(8) states borrowers lose the right to redeem a secured asset once an auction notice is published, whereas Rules 8 & 9 allow redemption up until the auction date.",
+    "evidenceExcerpt": "Contradiction exists between SARFAESI Act Section 13(8) (borrower loses redemption right upon auction notice publication) and Rules 8 & 9 (redemption allowed until auction date).",
+    "pageNumbers": [
+      11
+    ],
+    "examUse": "Statement-based question on borrower rights and legal provisions under the SARFAESI Act.",
+    "distractorHooks": [
+      "Borrowers lose redemption rights immediately upon NPA classification",
+      "Rules 8 & 9 revoke redemption rights upon notice publication"
+    ]
+  }
+]

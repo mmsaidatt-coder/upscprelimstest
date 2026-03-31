@@ -1,0 +1,178 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to 'Epigenetics', consider the following statements: 1. It involves changes that affect gene function without altering the underlying DNA sequence. 2. Epigenetic changes are typically irreversible once triggered by environmental factors. 3. An individual's behaviors and environment can induce epigenetic modifications. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Epigenetics studies changes that affect gene function without altering the DNA sequence. Statement 2 is incorrect: Epigenetic changes are inherently reversible. Statement 3 is correct: Behaviors and environmental factors are known to cause these reversible epigenetic changes.",
+      "takeaway": "Epigenetics involves reversible changes to gene function, driven by environment and behavior, without changing the underlying DNA sequence itself.",
+      "evidenceExcerpt": "Epigenetics studies how behaviors and environment cause reversible changes that affect gene function without altering the DNA sequence."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Diverse Epigenetic Epidemiology Partnership (DEEP) project: 1. It is a joint initiative led by the World Health Organization (WHO) and the Indian Council of Medical Research (ICMR). 2. Its primary objective is to explore the effects of genomic and environmental diversity on disease risk. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The DEEP project is a five-year initiative led by the University of Bristol and CSIR-CCMB, not the WHO and ICMR. Statement 2 is correct: The project aims to explore the effects of genomic and environmental diversity on disease risk.",
+      "takeaway": "The DEEP project is a collaborative effort between the University of Bristol and CSIR-CCMB focused on understanding how genomic and environmental diversity impact disease risk.",
+      "evidenceExcerpt": "CSIR-CCMB is collaborating on the Diverse Epigenetic Epidemiology Partnership (DEEP) project, a five-year initiative led by the University of Bristol and CSIR-CCMB to explore genomic and environmental diversity effects on disease risk."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "Which one of the following best describes the core mechanism of 'Epigenetics'?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The permanent alteration of the genetic code through the insertion of foreign DNA sequences."
+        },
+        {
+          "id": "B",
+          "text": "The study of how behaviors and environment cause reversible changes that affect how the body reads a DNA sequence."
+        },
+        {
+          "id": "C",
+          "text": "The mapping of the entire human genome to identify inherited genetic mutations."
+        },
+        {
+          "id": "D",
+          "text": "The process of editing defective genes using recombinant DNA technology to cure hereditary diseases."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Epigenetics involves reversible modifications that affect gene function and how the body reads DNA, without altering the underlying DNA sequence itself. These changes can be triggered by behaviors and environmental factors.",
+      "takeaway": "Unlike genetic mutations which permanently alter the DNA sequence, epigenetic changes are reversible modifications influenced by lifestyle and environment.",
+      "evidenceExcerpt": "Epigenetics studies how behaviors and environment cause reversible changes that affect gene function without altering the DNA sequence."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Comparison",
+      "prompt": "Consider the following statements comparing genetic mutations with epigenetic modifications:\n\n1. Unlike genetic mutations, epigenetic modifications do not alter the underlying DNA sequence.\n2. While genetic mutations are generally permanent, epigenetic modifications triggered by environmental factors are reversible.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Epigenetics involves changes that affect gene function without altering the DNA sequence, whereas genetic mutations change the sequence itself. Statement 2 is correct: Epigenetic changes are reversible and can be caused by behaviors and environmental factors.",
+      "takeaway": "Epigenetics studies reversible changes in gene expression caused by environmental factors, distinguishing it from permanent genetic mutations that alter the DNA sequence.",
+      "evidenceExcerpt": "Epigenetics studies how behaviors and environment cause reversible changes that affect gene function without altering the DNA sequence."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Assertion-Reason",
+      "prompt": "Consider the following Assertion (A) and Reason (R):\n\nAssertion (A): An individual's behaviors and environmental exposures can alter their gene function without mutating their DNA.\nReason (R): Epigenetic modifications permanently rewrite the genetic code to adapt to environmental stressors.\n\nWhich one of the following is correct in respect of the above statements?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both Assertion (A) and Reason (R) are correct and Reason (R) is the correct explanation for Assertion (A)"
+        },
+        {
+          "id": "B",
+          "text": "Both Assertion (A) and Reason (R) are correct but Reason (R) is not the correct explanation for Assertion (A)"
+        },
+        {
+          "id": "C",
+          "text": "Assertion (A) is correct but Reason (R) is incorrect"
+        },
+        {
+          "id": "D",
+          "text": "Assertion (A) is incorrect but Reason (R) is correct"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Assertion (A) is correct: Behaviors and environment can cause changes that affect gene function without altering the DNA sequence. Reason (R) is incorrect: Epigenetic changes are reversible and do not rewrite or alter the DNA sequence (the genetic code).",
+      "takeaway": "Epigenetic changes are reversible modifications that affect how genes are read by the body, rather than permanent alterations to the genetic code.",
+      "evidenceExcerpt": "Epigenetics studies how behaviors and environment cause reversible changes that affect gene function without altering the DNA sequence."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Rationale-Implication",
+      "prompt": "Which of the following best explains the rationale behind studying 'environmental diversity' in the context of the Diverse Epigenetic Epidemiology Partnership (DEEP) project?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Environmental factors directly mutate the DNA sequence across populations, leading to new hereditary diseases."
+        },
+        {
+          "id": "B",
+          "text": "Different environments induce distinct, reversible changes in gene function that influence an individual's disease risk."
+        },
+        {
+          "id": "C",
+          "text": "Environmental diversity determines the rate at which permanent genetic mutations are passed to the next generation."
+        },
+        {
+          "id": "D",
+          "text": "Diverse environments are required to identify synthetic genes that can be introduced into the human genome."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The DEEP project aims to explore the effects of genomic and environmental diversity on disease risk. This is because environmental factors and behaviors cause epigenetic changes—reversible modifications that affect gene function without altering the underlying DNA sequence.",
+      "takeaway": "Environmental diversity is crucial in epidemiological studies because varying environments trigger specific, reversible epigenetic changes in gene expression, thereby influencing disease susceptibility.",
+      "evidenceExcerpt": "DEEP aims to explore the effects of genomic and environmental diversity on disease risk. Epigenetics studies how behaviors and environment cause reversible changes that affect gene function without altering the DNA sequence."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to \"Digital Twin Technology\", consider the following statements:\n1. It is a digital representation restricted to inanimate physical objects and cannot model human beings or processes.\n2. It relies on continuous real-time data from sensors to simulate behaviour and monitor operations.\n3. It enables organizations to simulate real-world scenarios and predict outcomes before implementing physical changes.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: A digital twin is a digital representation of a physical object, person, or process. It is not restricted to inanimate objects.\nStatement 2 is correct: It uses real-time data from sensors for behaviour simulation and operation monitoring.\nStatement 3 is correct: It helps organizations simulate real situations and their outcomes, ultimately allowing them to make better decisions.",
+      "takeaway": "Digital twins are dynamic, real-time updated models that can represent objects, people, or processes to simulate outcomes and monitor operations.",
+      "evidenceExcerpt": "A digital twin is a digital representation of a physical object, person, or process, contextualized in a digital version of its environment. It can help an organization simulate real situations and their outcomes... It uses real-time data from sensors for behavior simulation and operation monitoring.",
+      "qualityScore": 88,
+      "reviewNotes": "Rewritten to match the latest UPSC pattern ('How many of the above statements are correct?'). The distractors and statements are tightly aligned with the source text."
+    }
+  ],
+  "reviewerNotes": "Selected the statement-based question and updated it to the recent UPSC 'Only one/Only two' format. The statements test the definition, mechanism, and application of Digital Twin technology effectively."
+}

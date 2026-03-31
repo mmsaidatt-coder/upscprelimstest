@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Paragraph-based",
+      "prompt": "This species is the only mountain ungulate found in southern India and is endemic to the open montane grassland habitats of the Western Ghats. Locally known as 'Varaiaadu', it holds significant cultural value and finds mention in ancient Tamil epics such as Silappathikaram and Sivakasindamani. Currently listed as Endangered, its largest contiguous population is protected in Eravikulam National Park.\n\nWhich one of the following species is described in the passage given above?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Lion-tailed Macaque"
+        },
+        {
+          "id": "B",
+          "text": "Nilgiri Tahr"
+        },
+        {
+          "id": "C",
+          "text": "Indian Gaur"
+        },
+        {
+          "id": "D",
+          "text": "Grizzled Giant Squirrel"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The passage describes the Nilgiri Tahr. It is the only mountain ungulate in southern India, endemic to the open montane grasslands of the Western Ghats. It is locally called 'Varaiaadu' and is mentioned in ancient Tamil literature. Eravikulam National Park in Kerala hosts its largest contiguous population.",
+      "takeaway": "Paragraph-based questions often combine ecological traits (mountain ungulate, montane grasslands) with cultural facts (Varaiaadu, Silappathikaram) and conservation status to identify a flagship species.",
+      "evidenceExcerpt": "Habitat: Open montane grassland habitats. Endemic to Western Ghats. Eravikulam National Park, Kerala has the largest contiguous population. Characteristics: Only mountain ungulate in southern India. Locally known as Varaiaadu. Silappathikaram and Sivakasindamani mention its descriptions. IUCN Status: Endangered (EN).",
+      "qualityScore": 88,
+      "reviewNotes": "Excellent paragraph-based question that integrates ecological, geographical, and cultural information, closely mimicking UPSC's species identification questions."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Nilgiri Tahr:\n1. It is endemic to the open montane grassland habitats of the Western Ghats.\n2. It is the only mountain ungulate found in southern India.\n3. It is recognized as the State animal of Kerala, as the state hosts its largest contiguous population.\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The Nilgiri Tahr is endemic to the open montane grassland habitats of the Western Ghats. Statement 2 is correct: It is the only mountain ungulate in southern India. Statement 3 is incorrect: While Eravikulam National Park in Kerala hosts its largest contiguous population, the Nilgiri Tahr is the State animal of Tamil Nadu, not Kerala.",
+      "takeaway": "UPSC frequently tests geographical paradoxes or cross-state distributions, such as a species being the state animal of one state while its major population resides in a neighboring state.",
+      "evidenceExcerpt": "Habitat: Open montane grassland habitats. Endemic to Western Ghats. Eravikulam National Park, Kerala has the largest contiguous population. Characteristics: Only mountain ungulate in southern India... State animal of Tamil Nadu.",
+      "qualityScore": 85,
+      "reviewNotes": "Strong statement-based question. Statement 3 provides a highly plausible distractor by linking the largest population in Kerala to the state animal status, which is a classic UPSC trap."
+    }
+  ],
+  "reviewerNotes": "Selected two high-quality questions. The first is a paragraph-based species identification question that synthesizes multiple facts into a cohesive narrative. The second is a statement-based question that tests endemism and uses a logical trap regarding the species' state animal status versus its population distribution."
+}

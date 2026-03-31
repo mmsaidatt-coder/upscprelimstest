@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Vehicle-to-Grid (V2G) technology: 1. It enables electric vehicles to function as decentralized energy storage systems through bi-directional power flow. 2. It is designed to isolate electric vehicle charging infrastructure from the main grid to prevent power surges. 3. It assists in grid stability by modulating power to offset the variability of renewable energy sources. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: V2G enables EV batteries to send power back to the grid, acting as decentralized energy storage. Statement 2 is incorrect: V2G integrates EVs with the grid rather than isolating them; it relies on grid connection to send power back and support grid operations. Statement 3 is correct: V2G facilitates the integration of Renewable Energy (RE) and improves grid stability by modulating power against variable RE impacts.",
+      "takeaway": "V2G turns EVs into decentralized storage that can feed power back to the grid, aiding RE integration and demand response.",
+      "evidenceExcerpt": "Vehicle-to-Grid (V2G) technology enables EV batteries to send power back to the grid, acting as decentralized battery energy storage devices when not in use... V2G facilitates the integration of Renewable Energy (RE)... and improves grid stability by modulating power to reduce the impact of variable RE."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "In the context of power grid management, how does Vehicle-to-Grid (V2G) technology primarily support a 'demand response market'?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "By automatically disconnecting electric vehicles from the grid during peak hours to conserve battery life."
+        },
+        {
+          "id": "B",
+          "text": "By enabling electric vehicles to discharge stored energy back to the grid during periods of peak electricity demand."
+        },
+        {
+          "id": "C",
+          "text": "By restricting the charging of electric vehicles exclusively to off-grid renewable energy sources."
+        },
+        {
+          "id": "D",
+          "text": "By utilizing centralized grid-scale batteries to charge electric vehicles during low-demand periods."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "V2G technology supports demand response markets by allowing electric vehicle batteries to send power back to the grid when not in use. This bi-directional flow means EVs can discharge stored energy to the grid during peak demand (acting as decentralized storage) and charge during low demand, thereby balancing the grid.",
+      "takeaway": "Demand response in V2G involves EVs supplying power back to the grid during peak loads, acting as a buffer for grid stability.",
+      "evidenceExcerpt": "V2G enables EV batteries to send power back to the grid... supports demand response markets, and improves grid stability by modulating power"
+    }
+  ]
+}

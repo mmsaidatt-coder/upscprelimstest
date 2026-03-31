@@ -1,0 +1,207 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Ground-Level Ozone (GLO):\n\n1. It is a primary pollutant directly emitted into the atmosphere by vehicular and industrial sources.\n2. It is created by chemical reactions between oxides of nitrogen (NOx) and volatile organic compounds (VOCs).\n3. Biospheric methane and wildfire-induced carbon monoxide can act as natural sources contributing to its formation.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Ground-Level Ozone is a secondary pollutant, meaning it is not directly emitted but formed in the atmosphere. Statement 2 is correct: It is created by chemical reactions between oxides of nitrogen (NOx) and volatile organic compounds (VOCs). Statement 3 is correct: Natural sources contributing to its formation include soil-based NOx emissions, wildfire-induced CO, and biospheric methane.",
+      "takeaway": "Ground-Level Ozone is a secondary pollutant formed by the reaction of NOx and VOCs, with precursors originating from both anthropogenic and natural sources like biospheric methane.",
+      "evidenceExcerpt": "Secondary, short-lived pollutant that remains in atmosphere for only hours to weeks. Created by chemical reactions between oxides of nitrogen (NOx) and volatile organic compounds (VOC). Natural sources include soil-based NOx emissions, wildfire-induced CO, and biospheric methane."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Assertion-Reason",
+      "prompt": "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R):\n\nAssertion (A): Ground-Level Ozone is classified as a secondary pollutant.\nReason (R): It is created by chemical reactions between oxides of nitrogen (NOx) and volatile organic compounds (VOCs) rather than being directly emitted.\n\nIn the context of the above two statements, which one of the following is correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A)."
+        },
+        {
+          "id": "B",
+          "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A)."
+        },
+        {
+          "id": "C",
+          "text": "Assertion (A) is true but Reason (R) is false."
+        },
+        {
+          "id": "D",
+          "text": "Assertion (A) is false but Reason (R) is true."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Assertion (A) is true as Ground-Level Ozone is a secondary pollutant. Reason (R) is also true and correctly explains the assertion, as secondary pollutants are those that form in the atmosphere through chemical reactions between primary pollutants (like NOx and VOCs) rather than being directly emitted.",
+      "takeaway": "The definition of a secondary pollutant relies on its formation through atmospheric chemical reactions rather than direct emission.",
+      "evidenceExcerpt": "Secondary, short-lived pollutant that remains in atmosphere for only hours to weeks. Created by chemical reactions between oxides of nitrogen (NOx) and volatile organic compounds (VOC)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Ground-Level Ozone:\n\n1. It is a short-lived pollutant that remains in the atmosphere for only hours to weeks.\n2. The safe eight-hourly standard for ground-level ozone is 100 micrograms per cubic metre.\n3. It is a major component of smog that is known to trigger asthma and worsen bronchitis.\n\nWhich of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "All statements are correct. Ground-Level Ozone is a short-lived pollutant (hours to weeks). The safe eight-hourly standard is 100 micrograms/cubic metre. It is a major component of smog and has severe respiratory impacts, including worsening bronchitis and triggering asthma.",
+      "takeaway": "Ground-Level Ozone poses significant respiratory health risks and is regulated by specific standards (100 micrograms/cubic metre for an 8-hour period) due to its role in smog formation.",
+      "evidenceExcerpt": "Secondary, short-lived pollutant that remains in atmosphere for only hours to weeks... Safe eight-hourly ozone standard is 100 micrograms/cubic metre. Worsens bronchitis, triggers asthma, and is a major component of smog."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-choice",
+      "prompt": "Consider the following:\n\n1. Soil-based NOx emissions\n2. Wildfire-induced Carbon Monoxide (CO)\n3. Biospheric methane\n\nHow many of the above act as natural sources contributing to the formation of Ground-Level Ozone?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "All three are correct. While Ground-Level Ozone is heavily influenced by anthropogenic emissions, natural sources such as soil-based NOx emissions, wildfire-induced CO, and biospheric methane also provide the necessary precursors for its formation.",
+      "takeaway": "Precursors for Ground-Level Ozone are not exclusively anthropogenic; natural phenomena and biospheric emissions also play a crucial role.",
+      "evidenceExcerpt": "Natural sources include soil-based NOx emissions, wildfire-induced CO, and biospheric methane."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Application",
+      "prompt": "Which of the following is the most scientifically sound strategy to effectively reduce the concentration of Ground-Level Ozone in urban areas?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Installing scrubbers in industrial chimneys to directly capture ozone before it enters the atmosphere."
+        },
+        {
+          "id": "B",
+          "text": "Implementing measures to strictly curtail the emissions of oxides of nitrogen (NOx) and volatile organic compounds (VOCs)."
+        },
+        {
+          "id": "C",
+          "text": "Banning the use of ozone-depleting substances (ODS) like chlorofluorocarbons (CFCs) in refrigeration."
+        },
+        {
+          "id": "D",
+          "text": "Deploying large-scale air purifiers to filter out biospheric methane and carbon monoxide from the ambient air."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Ground-Level Ozone is a secondary pollutant, meaning it is not emitted directly into the air but is created by chemical reactions between precursors, specifically oxides of nitrogen (NOx) and volatile organic compounds (VOCs). Therefore, mitigation must focus on reducing the emissions of these precursors rather than attempting to capture directly emitted ozone.",
+      "takeaway": "Because secondary pollutants are formed in the atmosphere, their mitigation relies entirely on controlling the primary pollutants (precursors) that react to form them.",
+      "evidenceExcerpt": "Secondary, short-lived pollutant... Created by chemical reactions between oxides of nitrogen (Nox) and volatile organic compounds (VOC)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Comparative",
+      "prompt": "Consider the following statements comparing Ground-Level Ozone with other atmospheric pollutants:\n\n1. Unlike primary pollutants that are directly emitted from industrial or vehicular exhausts, Ground-Level Ozone is formed in the atmosphere through reactions between oxides of nitrogen and volatile organic compounds.\n2. In contrast to long-lived atmospheric gases, Ground-Level Ozone is a short-lived pollutant that remains in the atmosphere for only hours to weeks.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Ground-Level Ozone is a secondary pollutant created by chemical reactions between NOx and VOCs, distinguishing it from directly emitted primary pollutants. Statement 2 is correct: It is characterized as a short-lived pollutant, persisting in the atmosphere for only hours to weeks, unlike long-lived greenhouse gases.",
+      "takeaway": "Ground-Level Ozone is distinguished by its secondary formation mechanism and its relatively short atmospheric lifespan.",
+      "evidenceExcerpt": "Secondary, short-lived pollutant that remains in atmosphere for only hours to weeks. Created by chemical reactions between oxides of nitrogen (Nox) and volatile organic compounds (VOC)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Application",
+      "prompt": "A regional environmental agency notices high levels of Ground-Level Ozone in a remote forested area with no vehicular or industrial activity. Based on the known formation mechanisms of Ground-Level Ozone, which of the following combinations of natural factors is most likely contributing to this phenomenon?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Stratospheric ozone intrusion and volcanic sulfur dioxide emissions"
+        },
+        {
+          "id": "B",
+          "text": "Soil-based NOx emissions, biospheric methane, and wildfire-induced carbon monoxide"
+        },
+        {
+          "id": "C",
+          "text": "Direct emission of ozone from the respiration of dense broadleaf forests"
+        },
+        {
+          "id": "D",
+          "text": "Photochemical breakdown of naturally occurring chlorofluorocarbons (CFCs)"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Ground-Level Ozone can form in areas without anthropogenic activity because its precursors can be supplied by natural sources. These natural sources include soil-based NOx emissions, biospheric methane, and wildfire-induced carbon monoxide.",
+      "takeaway": "Ground-Level Ozone formation is not exclusively driven by human activity; natural emissions of NOx, methane, and CO can also act as precursors.",
+      "evidenceExcerpt": "Natural sources include soil-based NOx emissions, wildfire-induced CO, and biospheric methane."
+    }
+  ]
+}

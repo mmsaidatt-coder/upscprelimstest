@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Satellite Internet Services:\n\n1. They typically experience higher latency compared to traditional wired broadband connections due to the physical distance data must travel.\n2. Their infrastructure operates exclusively through space-based satellite constellations, eliminating the need for ground-based gateway stations.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Satellite internet typically has higher latency compared to traditional wired connections because data must travel long distances to and from orbit. Statement 2 is incorrect: Satellite internet infrastructure does not operate exclusively in space; it requires a ground segment that includes satellite measurement and control networks, as well as gateway stations to connect to the broader terrestrial internet.",
+      "takeaway": "Satellite internet infrastructure relies on both a Space Segment (satellite constellations) and a Ground Segment (gateway stations and control networks), and inherently faces higher latency than wired connections.",
+      "evidenceExcerpt": "Infrastructure: Generally includes three segments: Space Segment: It is mainly a constellation system... Ground segment: Includes satellite measurement and control networks, gateway stations, etc. Latency: Satellite internet typically has higher latency compared to traditional wired connections due to the distance data must travel.",
+      "qualityScore": 88,
+      "reviewNotes": "Combined the latency concept and the infrastructure concept into a single, well-rounded conceptual question. The distractors are plausible and test fundamental understanding of how satellite internet operates."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of prominent satellite internet projects and their associated entities/countries:\n\n1. Project Kuiper : Amazon\n2. OneWeb : Eutelsat\n3. Qianfan : Japan\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: Project Kuiper is a satellite internet initiative by Amazon. Pair 2 is correctly matched: OneWeb is operated by the French satellite operator Eutelsat. Pair 3 is incorrectly matched: The Qianfan constellation is a planned Chinese (not Japanese) low-Earth orbit satellite internet megaconstellation.",
+      "takeaway": "Several global players are developing satellite internet megaconstellations, including Amazon (Project Kuiper), SpaceX (Starlink), Eutelsat (OneWeb), and China (Qianfan).",
+      "evidenceExcerpt": "Various prominent Satellite Internet projects: Project Kuiper: by Amazon, Starlink: Launched by SpaceX, OneWeb: By French satellite operator Eutelsat, Qianfan constellation: Planned Chinese low-Earth orbit satellite internet megaconstellation.",
+      "qualityScore": 85,
+      "reviewNotes": "Good factual pair question reflecting recent UPSC trends. Modified the third pair to be incorrect to test the candidate's precision and avoid the predictability of an 'All three' answer."
+    }
+  ],
+  "reviewerNotes": "Selected and refined two high-quality questions. The first tests factual knowledge of global satellite internet projects using the modern UPSC 'How many pairs' format. The second tests conceptual understanding of satellite internet mechanics (latency and infrastructure) by combining two distinct atomic claims into a single statement-based question, eliminating the mutually exclusive statements from the original candidate."
+}

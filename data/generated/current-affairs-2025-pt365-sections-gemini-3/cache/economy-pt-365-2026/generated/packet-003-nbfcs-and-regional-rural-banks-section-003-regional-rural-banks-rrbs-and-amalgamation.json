@@ -1,0 +1,207 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to Regional Rural Banks (RRBs) in India, consider the following statements:\n1. They were established based on the recommendations of the Narasimham Working Group.\n2. The sponsoring commercial bank holds a higher equity share in an RRB than the respective State Government.\n3. Under the Income Tax Act, 1961, they are treated as commercial companies for tax purposes.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: RRBs were established in 1975 based on the recommendations of the Narasimham Working Group. Statement 2 is correct: The ownership of an RRB is divided among the Government of India (50%), the sponsoring commercial bank (35%), and the State Government (15%). Thus, the sponsor bank holds a higher share than the State Government. Statement 3 is incorrect: For tax purposes, RRBs are treated as cooperative societies under the Income Tax Act, 1961, not as commercial companies.",
+      "takeaway": "RRBs have a unique 50:35:15 ownership structure (GoI:Sponsor Bank:State Govt) and enjoy the tax status of cooperative societies despite being scheduled banks.",
+      "evidenceExcerpt": "Established in 1975 on the Narasimham Working Group's recommendation, RRBs are jointly owned by the GoI (50%), State Government (15%), and a sponsoring commercial bank (35%)... treated as cooperative societies for tax purposes."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the regulatory and operational framework of Regional Rural Banks (RRBs):\n1. They are regulated by the National Bank for Agriculture and Rural Development (NABARD) and supervised by the Reserve Bank of India (RBI).\n2. They are mandated to allocate 75% of their Adjusted Net Bank Credit (ANBC) to Priority Sector Lending (PSL).\n3. They are required to maintain a minimum Capital to Risk-Weighted Assets Ratio (CRAR) of 9%.\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The roles are reversed. RRBs are regulated by the Reserve Bank of India (RBI) and supervised by NABARD. Statement 2 is correct: RRBs have a higher Priority Sector Lending (PSL) target of 75% of their ANBC, compared to the 40% target for standard commercial banks. Statement 3 is correct: RRBs must maintain a Capital to Risk-Weighted Assets Ratio (CRAR) of 9%.",
+      "takeaway": "While RBI handles the core regulation of RRBs, NABARD is tasked with their supervision. Their PSL target is strictly set at 75% of ANBC.",
+      "evidenceExcerpt": "They are regulated by RBI, supervised by NABARD... RRBs must allocate 75% of ANBC to Priority Sector Lending (PSL) and maintain a 9% CRAR."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the amalgamation of Regional Rural Banks (RRBs), consider the following statements:\n1. The recent amalgamation of RRBs is being driven by the 'One State One RRB' principle.\n2. Following the amalgamation, the Reserve Bank of India assumes the 15% equity share previously held by the State Governments.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The Central Government has notified the amalgamation of 26 RRBs under the 'One State One RRB' principle to achieve economies of scale. Statement 2 is incorrect: Amalgamation does not alter the statutory ownership structure of RRBs. They remain jointly owned by the GoI (50%), the State Government (15%), and the sponsoring commercial bank (35%). RBI does not hold equity in RRBs.",
+      "takeaway": "The 'One State One RRB' principle aims to consolidate RRBs to improve financial viability, but it does not change their fundamental 50:15:35 ownership structure.",
+      "evidenceExcerpt": "The Central Government notified the amalgamation of 26 RRBs under the 'One State One RRB' principle, reducing the total to 28 RRBs... RRBs are jointly owned by the GoI (50%), State Government (15%), and a sponsoring commercial bank (35%)."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement",
+      "prompt": "Consider the following statements regarding the amalgamation and ownership structure of Regional Rural Banks (RRBs):\n\n1. The 'One State One RRB' amalgamation initiative has reduced the total number of RRBs in the country to 28.\n2. Upon amalgamation, the respective State Government assumes the majority equity stake in the consolidated RRB.",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The Central Government notified the amalgamation of 26 RRBs under the 'One State One RRB' principle, which reduced the total number of RRBs to 28. Statement 2 is incorrect: The ownership structure of RRBs remains fixed regardless of amalgamation. They are jointly owned by the Government of India (50%), the sponsoring commercial bank (35%), and the State Government (15%). The State Government does not assume a majority stake.",
+      "takeaway": "The 'One State One RRB' principle consolidates RRBs but does not alter their statutory shareholding pattern, where the Central Government retains the highest equity share (50%).",
+      "evidenceExcerpt": "The Central Government notified the amalgamation of 26 RRBs under the 'One State One RRB' principle, reducing the total to 28 RRBs... RRBs are jointly owned by the GoI (50%), State Government (15%), and a sponsoring commercial bank (35%)."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice",
+      "prompt": "Which of the following statements accurately reflects the statutory and regulatory framework of Regional Rural Banks (RRBs) in India?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "They are regulated by the Reserve Bank of India, supervised by NABARD, and assessed as cooperative societies under the Income Tax Act."
+        },
+        {
+          "id": "B",
+          "text": "They are regulated by NABARD, supervised by the Reserve Bank of India, and assessed as commercial companies under the Income Tax Act."
+        },
+        {
+          "id": "C",
+          "text": "They are regulated and supervised jointly by the Central and State Governments, with complete exemption from income tax."
+        },
+        {
+          "id": "D",
+          "text": "They are regulated by their sponsoring commercial banks and treated as non-banking financial companies (NBFCs) for tax purposes."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Option A is correct. Regional Rural Banks operate under a dual control structure where they are regulated by the Reserve Bank of India (RBI) but supervised by the National Bank for Agriculture and Rural Development (NABARD). Additionally, for tax purposes, they are treated as cooperative societies under the Income Tax Act, 1961.",
+      "takeaway": "RRBs have a unique institutional design: RBI regulates them, NABARD supervises them, and the Income Tax Act treats them as cooperative societies rather than standard commercial companies.",
+      "evidenceExcerpt": "They are regulated by RBI, supervised by NABARD, and treated as cooperative societies for tax purposes."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Assertion-Reason",
+      "prompt": "Given below are two statements, one labelled as Assertion (A) and the other as Reason (R):\n\nAssertion (A): Regional Rural Banks (RRBs) are mandated to allocate 75% of their Adjusted Net Bank Credit (ANBC) to Priority Sector Lending (PSL).\nReason (R): RRBs are wholly owned entities of the National Bank for Agriculture and Rural Development (NABARD) designed exclusively for agricultural credit.\n\nIn the context of the above two statements, which one of the following is correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A)."
+        },
+        {
+          "id": "B",
+          "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A)."
+        },
+        {
+          "id": "C",
+          "text": "Assertion (A) is true but Reason (R) is false."
+        },
+        {
+          "id": "D",
+          "text": "Assertion (A) is false but Reason (R) is true."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Assertion (A) is correct: RRBs have a strict mandate to allocate 75% of their Adjusted Net Bank Credit (ANBC) to Priority Sector Lending (PSL). Reason (R) is incorrect: RRBs are not wholly owned by NABARD. They are jointly owned by the Government of India (50%), the sponsoring commercial bank (35%), and the respective State Government (15%).",
+      "takeaway": "While RRBs have a high PSL target (75%) to ensure rural credit flow, they are not owned by NABARD; they are joint ventures between the Centre, State, and a Sponsor Bank.",
+      "evidenceExcerpt": "RRBs are jointly owned by the GoI (50%), State Government (15%), and a sponsoring commercial bank (35%)... RRBs must allocate 75% of ANBC to Priority Sector Lending (PSL)"
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Correct-Pair",
+      "prompt": "Consider the following entities and their relationship with Regional Rural Banks (RRBs):\n\n1. Reserve Bank of India : Acts as the regulatory authority\n2. NABARD : Acts as the supervisory authority\n3. Sponsoring Commercial Bank : Holds the largest equity share\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: The RBI is the regulatory authority for RRBs. Pair 2 is correctly matched: NABARD is the supervisory authority for RRBs. Pair 3 is incorrectly matched: The Government of India holds the largest equity share (50%) in an RRB, whereas the sponsoring commercial bank holds 35%.",
+      "takeaway": "The institutional framework of RRBs involves multiple stakeholders: RBI (Regulation), NABARD (Supervision), GoI (50% equity), Sponsor Bank (35% equity), and State Government (15% equity).",
+      "evidenceExcerpt": "RRBs are jointly owned by the GoI (50%), State Government (15%), and a sponsoring commercial bank (35%). They are regulated by RBI, supervised by NABARD"
+    }
+  ]
+}

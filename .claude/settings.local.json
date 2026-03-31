@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls \"/Users/mani/Downloads/\" | grep -i \"ilovepdf_pages\" | grep -v \"zip\" | wc -l && ls \"/Users/mani/Downloads/\" | grep -i \"ilovepdf_pages\" | grep -v \"zip\" | sort -t'\\(' -k2 -n)",
+      "Bash(ls \"/Users/mani/Downloads/ilovepdf_pages-to-jpg \\(61\\)/\")",
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npm run:*)",
+      "Bash(npx tsx:*)",
+      "Bash(find /Users/mani/Desktop/upscprelimstest/src -type f \\\\\\( -name \"*.tsx\" -o -name \"*.ts\" -o -name \"*.json\" \\\\\\) 2>/dev/null | sort)",
+      "Bash(which vercel:*)",
+      "Bash(vercel whoami:*)",
+      "Bash(vercel env:*)",
+      "Bash(vercel --prod 2>&1)",
+      "Bash(npm --version 2>&1)",
+      "Bash(rm /Users/mani/Desktop/upscprelimstest/package-lock.json && npx -y npm@10 install 2>&1 | tail -10)",
+      "Bash(vercel --prod --force 2>&1)",
+      "Bash(npx next:*)",
+      "Bash(vercel ls:*)",
+      "Bash(vercel inspect:*)",
+      "Bash(find /Users/mani/Downloads -maxdepth 2 -name \"*.pdf\" -o -name \"*.jpg\" -o -name \"*.jpeg\" -o -name \"*.png\" 2>/dev/null | grep -i \"upsc\\\\|prelim\\\\|gs.1\\\\|set.a\" | head -10)",
+      "Bash(find /Users/mani/Downloads -maxdepth 1 -name \"*2025*UPSC*\" -o -name \"*UPSC*2025*\" -o -name \"*Set*A*\" -o -name \"*GS*Paper*\" 2>/dev/null | head -10)",
+      "WebSearch",
+      "WebFetch(domain:www.legacyias.com)",
+      "WebFetch(domain:iasbaba.com)",
+      "WebFetch(domain:prepp.in)",
+      "WebFetch(domain:thecoreias.com)",
+      "WebFetch(domain:mentorsdaily.com)",
+      "WebFetch(domain:vishnuias.com)",
+      "Bash(npx vercel:*)",
+      "Bash(find /Users/mani/Desktop/upscprelimstest -maxdepth 1 -type f \\\\\\( -name \".env*\" -o -name \"*.config.*\" \\\\\\) 2>/dev/null | head -20)",
+      "Bash(find:*)",
+      "Bash(grep:*)"
+    ]
+  }
+}

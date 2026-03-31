@@ -1,0 +1,122 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding a 'Thirstwave':\n1. It is a meteorological event defined primarily by aggressive atmospheric moisture demand that rapidly dries out the landscape.\n2. It is classified when the daily evaporative demand exceeds its historical 90th percentile for at least three consecutive days.\n3. It is driven exclusively by high temperatures and low humidity, independent of wind speed.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: A thirstwave involves periods of extreme atmospheric thirst defined by high dryness and aggressive moisture demand.\nStatement 2 is correct: It occurs when daily evaporative demand exceeds its historical 90th percentile for at least 3 consecutive days.\nStatement 3 is incorrect: Factors driving a thirstwave are not limited to temperature and humidity; they also include wind speed and sunshine.",
+      "takeaway": "A thirstwave is driven by a combination of temperature, wind speed, humidity, and sunshine, and is defined by evaporative demand exceeding the 90th percentile for at least 3 days.",
+      "evidenceExcerpt": "A thirstwave involves periods of extreme atmospheric thirst that rapidly dry out the landscape, defined by high dryness and aggressive moisture demand. It occurs when daily evaporative demand exceeds its historical 90th percentile for at least 3 consecutive days. Factors driving this include temperature, wind speed, humidity, and sunshine."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "Which of the following best describes the primary metric used to identify the occurrence of a 'thirstwave'?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Daily temperature exceeding the historical 90th percentile for at least 5 consecutive days."
+        },
+        {
+          "id": "B",
+          "text": "Daily evaporative demand exceeding its historical 90th percentile for at least 3 consecutive days."
+        },
+        {
+          "id": "C",
+          "text": "Atmospheric humidity remaining below the historical 10th percentile for a week."
+        },
+        {
+          "id": "D",
+          "text": "A combination of high sunshine and zero precipitation for at least 10 consecutive days."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A thirstwave is defined by high dryness and aggressive moisture demand. It specifically occurs when daily evaporative demand exceeds its historical 90th percentile for at least 3 consecutive days, differentiating it from standard heatwaves which are primarily defined by temperature anomalies.",
+      "takeaway": "The defining metric of a thirstwave is 'evaporative demand' exceeding the 90th percentile for 3 consecutive days, not just temperature or lack of precipitation.",
+      "evidenceExcerpt": "It occurs when daily evaporative demand exceeds its historical 90th percentile for at least 3 consecutive days."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Multiple-choice",
+      "prompt": "Consider the following atmospheric and meteorological variables:\n1. Temperature\n2. Wind speed\n3. Humidity\n4. Sunshine\n\nHow many of the above variables are recognized as factors that drive a 'thirstwave'?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "A thirstwave is driven by multiple factors that contribute to extreme atmospheric thirst and evaporative demand. According to the criteria, these factors include temperature, wind speed, humidity, and sunshine.",
+      "takeaway": "Evaporative demand during a thirstwave is a composite effect of temperature, wind speed, humidity, and sunshine.",
+      "evidenceExcerpt": "Factors driving this include temperature, wind speed, humidity, and sunshine."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Application",
+      "prompt": "Which of the following meteorological scenarios best represents the occurrence of a 'thirstwave'?",
+      "contextLines": [
+        "It occurs when daily evaporative demand exceeds its historical 90th percentile for at least 3 consecutive days."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "A region experiences a continuous absence of rainfall for over a month, leading to a gradual decline in soil moisture to a 90th percentile deficit."
+        },
+        {
+          "id": "B",
+          "text": "A region records daily maximum temperatures exceeding their historical 90th percentile for at least three consecutive days, regardless of ambient humidity."
+        },
+        {
+          "id": "C",
+          "text": "A region faces three consecutive days where the atmospheric evaporative demand exceeds its historical 90th percentile, driven by factors like high winds and sunshine."
+        },
+        {
+          "id": "D",
+          "text": "A region experiences a sudden drop in relative humidity to below 10 percent for three consecutive days due to the onset of dry, localized katabatic winds."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Option C correctly identifies the specific criteria for a thirstwave: it is defined by daily evaporative demand exceeding its historical 90th percentile for at least 3 consecutive days, driven by variables like wind and sunshine. Option A describes a conventional meteorological/agricultural drought. Option B describes a standard heatwave (based purely on temperature anomalies). Option D describes a dry wind event without referencing the necessary evaporative demand metric.",
+      "takeaway": "Unlike a standard heatwave (temperature-driven) or a long-term drought (precipitation-deficit-driven), a thirstwave is strictly defined by short-term, extreme atmospheric evaporative demand (exceeding the 90th percentile for 3+ days).",
+      "evidenceExcerpt": "It occurs when daily evaporative demand exceeds its historical 90th percentile for at least 3 consecutive days. Factors driving this include temperature, wind speed, humidity, and sunshine."
+    }
+  ]
+}

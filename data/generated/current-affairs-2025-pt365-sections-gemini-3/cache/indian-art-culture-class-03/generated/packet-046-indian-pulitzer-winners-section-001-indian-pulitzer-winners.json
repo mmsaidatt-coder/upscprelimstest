@@ -1,0 +1,67 @@
+{
+  "questions": [
+    {
+      "subject": "History",
+      "difficulty": "Moderate",
+      "questionType": "Feature-matching",
+      "prompt": "Consider the following individuals who have been awarded the Pulitzer Prize:",
+      "contextLines": [
+        "1. Adnan Abidi",
+        "2. Sanna Irshad Mattoo",
+        "3. Amit Dave",
+        "4. Mukhtar Khan"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "They are all recipients in the category of Investigative Reporting."
+        },
+        {
+          "id": "B",
+          "text": "They are all Indian photojournalists who have won the prize."
+        },
+        {
+          "id": "C",
+          "text": "They are all members of the Ghadar Party based in America."
+        },
+        {
+          "id": "D",
+          "text": "They are all recipients of the Padma Bhushan for literature."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The individuals listed—Adnan Abidi, Sanna Irshad Mattoo, Amit Dave, and Mukhtar Khan—are specifically identified in the source as photojournalists who have won the Pulitzer Prize.",
+      "takeaway": "A significant number of recent Indian Pulitzer winners have been recognized in the field of photojournalism.",
+      "evidenceExcerpt": "...and photojournalists Danish Siddiqui, Adnan Abidi, Sanna Irshad Mattoo, Amit Dave, Dar Yasin, and Mukhtar Khan."
+    },
+    {
+      "subject": "History",
+      "difficulty": "Moderate",
+      "questionType": "Direct-Recall",
+      "prompt": "Which of the following prominent members of the Ghadar Party in America became the first Indian to win the Pulitzer Prize?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Tarak Nath Das"
+        },
+        {
+          "id": "B",
+          "text": "Gobind Behari Lal"
+        },
+        {
+          "id": "C",
+          "text": "Lala Har Dayal"
+        },
+        {
+          "id": "D",
+          "text": "Sohan Singh Bhakna"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Gobind Behari Lal, a member of the Ghadar Party in America and a postgraduate from the University of California, Berkeley, became the first Indian to win a Pulitzer Prize in 1937.",
+      "takeaway": "Gobind Behari Lal combined his association with the Ghadar Party with a distinguished career in journalism in the United States, ultimately winning the Pulitzer Prize for reporting.",
+      "evidenceExcerpt": "In 1937, Gobind Behari Lal became the first Indian to win a Pulitzer... A member of the Ghadar Party in America, Gobind Behari Lal was a postgraduate from University of California, Berkeley."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the 'Shinkansen Technology' being introduced in India, consider the following statements:\n1. The Mumbai-Ahmedabad Bullet train project will utilize the next-generation E10 trains simultaneously with Japan.\n2. To optimize infrastructure costs, the system is designed to share existing railway tracks with conventional express trains.\n3. The trains incorporate aerodynamic optimization specifically to reduce vehicle noise.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The Mumbai-Ahmedabad Bullet train project will introduce the next-generation E10 Shinkansen trains simultaneously in India and Japan.\nStatement 2 is incorrect: A key feature of Shinkansen technology is that it operates on a dedicated track for high-speed rail that is completely free of level crossings, rather than sharing tracks with conventional trains.\nStatement 3 is correct: The Shinkansen trains incorporate aerodynamic optimization to reduce vehicle noise during high-speed transit.",
+      "takeaway": "Shinkansen is Japan's high-speed rail system. Key features include dedicated tracks free of level crossings, an Automatic Train Control (ATC) system, and aerodynamic optimization for noise reduction.",
+      "evidenceExcerpt": "Next generation E10 Shinkansen trains are to be introduced simultaneously in India (Mumbai-Ahmedabad Bullet train project) and Japan. It is Japan's High-speed bullet train. Key Features: Dedicated track for high-speed rail that is free of level crossings and ATC system (Automatic Train Control System). Includes aerodynamic optimization for vehicle noise reduction.",
+      "qualityScore": 85,
+      "reviewNotes": "The question effectively tests the candidate's knowledge of the specific features of the Shinkansen technology being introduced in India. The distractors are plausible, and the statements are framed in a standard UPSC format."
+    }
+  ],
+  "reviewerNotes": "Selected and refined Candidate 1. Improved the phrasing of the statements to align with UPSC standards, ensuring the incorrect statement is a plausible misconception (sharing tracks to save costs)."
+}

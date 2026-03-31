@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of international initiatives or reports and their coordinating bodies:\n\n1. Global Atmosphere Watch (GAW) Programme : World Meteorological Organisation\n2. State of Global Water Resources : UN-Water\n3. Greenhouse Gas Bulletin : Intergovernmental Panel on Climate Change (IPCC)\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Pair 1 is correctly matched. The Global Atmosphere Watch (GAW) Programme is coordinated by the World Meteorological Organisation (WMO). Pairs 2 and 3 are incorrectly matched; both the 'State of Global Water Resources' and the 'Greenhouse Gas Bulletin' are published by the WMO, not UN-Water or the IPCC.",
+      "takeaway": "The WMO coordinates the Global Atmosphere Watch (GAW) Programme and publishes key environmental reports including the Greenhouse Gas Bulletin, State of the Global Climate, and State of Global Water Resources.",
+      "evidenceExcerpt": "Coordinates global atmospheric monitoring networks through the Global Atmosphere Watch (GAW) Programme. Publishes the Greenhouse Gas Bulletin, State of the Global Climate, and State of Global Water Resources."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the World Meteorological Organisation (WMO):\n\n1. It is a specialized agency of the United Nations.\n2. It publishes the 'Air Quality and Climate Bulletin'.\n3. India is currently an observer state at the WMO.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statements 1 and 2 are correct. The WMO is a specialized UN agency established in 1950 and publishes the Air Quality and Climate Bulletin. Statement 3 is incorrect because India is a full Member State of the WMO, not an observer.",
+      "takeaway": "The WMO is a specialized UN agency headquartered in Geneva with 193 Member States, including India. It publishes several crucial reports linking climate, air quality, and water resources.",
+      "evidenceExcerpt": "WMO is a specialized UN agency established in 1950, located in Geneva, Switzerland, with 193 Member States including India... Key reports include the Greenhouse Gas Bulletin... and Air Quality and Climate Bulletin."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Greenhouse Gas Bulletin, consider the following statements:\n\n1. It is a flagship publication released by the United Nations Environment Programme (UNEP).\n2. The 2024 edition reported a substantial increase in radiative forcing driven by long-lived greenhouse gases.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect; the Greenhouse Gas Bulletin is published by the World Meteorological Organisation (WMO), not UNEP. Statement 2 is correct; the 2024 bulletin noted a 54% increase in radiative forcing from long-lived greenhouse gases.",
+      "takeaway": "The WMO's Greenhouse Gas Bulletin tracks atmospheric concentrations of GHGs and their impact on radiative forcing, specifically highlighting the long-term warming effect of long-lived greenhouse gases.",
+      "evidenceExcerpt": "Publishes the Greenhouse Gas Bulletin... Greenhouse Gas Bulletin 2024 reported CO2 levels at 423.9 ppm and a 54% increase in radiative forcing from long-lived greenhouse gases."
+    }
+  ]
+}

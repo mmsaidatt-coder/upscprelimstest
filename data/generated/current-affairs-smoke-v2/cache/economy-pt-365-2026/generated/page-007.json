@@ -1,0 +1,323 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice Question - Statement Based",
+      "prompt": "Consider the following statements regarding the Standing Deposit Facility (SDF):\n1. It is a monetary tool used by the Reserve Bank of India to absorb liquidity from commercial banks without providing any collateral.\n2. It has replaced the Fixed Rate Reverse Repo as the ceiling of the Liquidity Adjustment Facility (LAF) corridor.\n3. The facility is available only on working days, excluding holidays and weekends.\n\nWhich of the statements given above is/are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The Standing Deposit Facility (SDF) is indeed a monetary tool that absorbs liquidity from commercial banks without collateral. Statement 2 is incorrect: SDF replaced the Fixed Rate Reverse Repo as the *floor* of the Liquidity Adjustment Facility (LAF) corridor, not the ceiling. Statement 3 is incorrect: SDF is available every day, including holidays and weekends.",
+      "takeaway": "The Standing Deposit Facility (SDF) is a collateral-free liquidity absorption tool that acts as the floor of the LAF corridor and is available daily.",
+      "evidenceExcerpt": "Standing Deposit Facility (SDF)It is a monetary tool that absorbs liquidity from commercial banks without collateral.Features:SDF replaced the Fixed Rate Reverse Repo as the Liquidity Adjustment Facility corridor’s floor.SDF is an overnight liquidity absorption mechanism with the flexibility for the RBI to increase its duration.Any entity that is eligible for LAF can use this facility.SDF will be available every day, including holidays and weekends.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice Question - Statement Based",
+      "prompt": "With reference to the Reserve Bank of India (RBI) Integrated Ombudsman Scheme, consider the following statements:\n1. It integrates only the Banking Ombudsman Scheme and the Ombudsman Scheme for Digital Transactions.\n2. The scheme adopts a 'One Nation One Ombudsman' approach, making the mechanism jurisdiction neutral.\n3. Non-Banking Financial Companies (NBFCs) with an asset size of ₹50 crore or more are covered under this scheme, provided they accept deposits or have customer interface.\n\nWhich of the statements given above is/are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The scheme integrated three Ombudsman schemes of RBI: the Banking Ombudsman Scheme, 2006; the Ombudsman Scheme for Non-Banking Financial Companies, 2018; and the Ombudsman Scheme for Digital Transactions, 2019. Statement 2 is correct: It explicitly adopted the ‘One Nation One Ombudsman’ approach, making the mechanism jurisdiction neutral. Statement 3 is incorrect: NBFCs covered are those with an asset size of ₹100 crore, not ₹50 crore, and they must be authorized to accept deposits or have customer interface.",
+      "takeaway": "The RBI Integrated Ombudsman Scheme unifies three previous schemes under a 'One Nation One Ombudsman' approach, covering a broad range of regulated entities including NBFCs with an asset size of ₹100 crore or more.",
+      "evidenceExcerpt": "It integrated the three Ombudsman schemes of RBI, namely:the Banking Ombudsman Scheme, 2006;the Ombudsman Scheme for Non-Banking Financial Companies, 2018; andthe Ombudsman Scheme for Digital Transactions, 2019.It adopted the ‘One Nation One Ombudsman’ approach by making the RBI Ombudsman mechanism jurisdiction neutral.All Non-Banking Financial Companies (excluding Housing Finance Companies) which are authorised to accept deposits or have customer interface, with an assets size of ₹100 crore.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice Question - Conceptual",
+      "prompt": "Which of the following statements best describes the objective of a 'Switch Auction' conducted by the Reserve Bank of India on behalf of the Government of India?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To absorb excess liquidity from the banking system for short periods."
+        },
+        {
+          "id": "B",
+          "text": "To manage the maturity profile of public debt by replacing short-term securities with longer-dated ones."
+        },
+        {
+          "id": "C",
+          "text": "To facilitate the sale of government securities to foreign institutional investors."
+        },
+        {
+          "id": "D",
+          "text": "To provide temporary advances to the central government to cover mismatches in receipts and payments."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Option B correctly describes the objective of a Switch Auction. It is specifically designed to manage the maturity profile of public debt by swapping short-term securities for longer-dated ones. Option A describes mechanisms like Variable Rate Reverse Repo. Option D describes Ways and Means Advances (WMA). Option C is not the primary objective of a Switch Auction.",
+      "takeaway": "Switch Auctions are a debt management tool used by RBI on behalf of the government to optimize the maturity structure of public debt.",
+      "evidenceExcerpt": "Switch AuctionGenesis: Began in 2019 by the RBI on behalf of the Government of India.Objective: To manage the maturity profile of public debt by replacing short-term securities with longer-dated ones.Mechanism: Market participants sell source securities to the Government of India and simultaneously buy destination securities at quoted prices.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice Question - Statement Based",
+      "prompt": "With reference to the Co-Lending Arrangements (CLA) between banks and Non-banking Financial Companies (NBFCs), consider the following statements:\n1. Under these arrangements, each Regulated Entity (RE) is mandated to retain a minimum 10% share of the loans.\n2. Only the bank, and not the NBFC, can claim Priority Sector Lending (PSL) status for its share under co-lending, even if the loan qualifies as priority sector.\n3. These arrangements are primarily aimed at facilitating short-term interbank lending to manage temporary liquidity mismatches.\n\nWhich of the statements given above is/are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The revised directions for Co-Lending Arrangements stipulate that each Regulated Entity (RE) must retain a minimum 10% share of the loans. Statement 2 is incorrect: The directions state that 'Each lender can claim PSL status for its share under co-lending, if the loan qualifies as priority sector,' meaning both the bank and the NBFC can claim PSL status for their respective shares. Statement 3 is incorrect: Co-Lending Arrangements are for the 'extension of credit to the borrowers,' not primarily for short-term interbank lending to manage liquidity.",
+      "takeaway": "Co-Lending Arrangements enable banks and NBFCs to jointly extend credit, with each entity retaining a minimum share and being eligible for PSL status for their portion if the loan qualifies.",
+      "evidenceExcerpt": "Co-lending normsRecently, RBI issued revised directions for Co-Lending Arrangements (CLA) between banks and Non-bank Financial Companies (NBFCs).Under CLAs, Regulated Entities (REs) can enter a lending arrangement with other REs for extension of credit to the borrowers, subject to compliance with the extant prudential regulations.Key highlights of the revised DirectionsMinimum share: Each RE to retain a minimum 10% share of the loans.Priority Sector Lending (PSL) status: Each lender can claim PSL status for its share under co-lending, if the loan qualifies as priority sector.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice Question - Statement Based",
+      "prompt": "Consider the following statements regarding liquidity absorption mechanisms by the Reserve Bank of India:\n1. The Variable Rate Reverse Repo (VRRR) mechanism involves the RBI absorbing excess money from banks at an interest rate fixed by the RBI.\n2. The Standing Deposit Facility (SDF) allows the RBI to absorb liquidity from commercial banks without providing any collateral.\n3. Unlike the Reverse Repo Rate, the interest rate under VRRR is decided by the market.\n\nWhich of the statements given above is/are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: For Variable Rate Reverse Repo (VRRR), the interest rate is decided by the market, not fixed by the RBI. The Reverse Repo Rate is fixed by the RBI. Statement 2 is correct: The Standing Deposit Facility (SDF) is a monetary tool that absorbs liquidity from commercial banks without collateral. Statement 3 is correct: The text explicitly states that for VRRR, the interest rate is not fixed and is decided by the market, whereas the Reverse Repo Rate is fixed by the RBI.",
+      "takeaway": "Differentiate between various RBI liquidity absorption tools based on their collateral requirements and how their interest rates are determined (fixed by RBI vs. market-determined).",
+      "evidenceExcerpt": "Standing Deposit Facility (SDF)It is a monetary tool that absorbs liquidity from commercial banks without collateral.Variable Rate Reverse Repo (VRRR)It is a method used by the RBI to absorb excess money from banks for a short period.RBI takes money from banks and offers them interest in return.The term variable rate means the interest rate is not fixed and is decided by the market.Reverse Repo Rate, the rate is fixed by RBI.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice Question (MCQ)",
+      "prompt": "Which of the following statements correctly differentiates between the Standing Deposit Facility (SDF) and Variable Rate Reverse Repo (VRRR) as liquidity absorption mechanisms of the RBI?",
+      "options": [
+        {
+          "id": "A",
+          "text": "SDF absorbs liquidity without requiring collateral, whereas VRRR involves the RBI offering government securities as collateral."
+        },
+        {
+          "id": "B",
+          "text": "The interest rate for SDF is fixed by the RBI, while for VRRR it is market-determined."
+        },
+        {
+          "id": "C",
+          "text": "SDF is primarily an overnight facility, while VRRR is designed for longer-term liquidity absorption."
+        },
+        {
+          "id": "D",
+          "text": "SDF is available only on working days, while VRRR can be accessed every day, including holidays."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement B is correct. The Standing Deposit Facility (SDF) is a monetary tool where the RBI absorbs liquidity without providing collateral, and its interest rate is fixed by the RBI. In contrast, the Variable Rate Reverse Repo (VRRR) is a method where the RBI absorbs money from banks, and the interest rate is not fixed but decided by the market. Option A is incorrect because while SDF is without collateral, VRRR as a reverse repo mechanism typically involves collateral (though not explicitly stated for VRRR, it's implied for reverse repo operations, but the key distinction is the rate). Option C is incorrect; SDF is an overnight mechanism with flexibility, and VRRR is for a short period, not necessarily longer-term. Option D is incorrect; SDF is available every day, including holidays and weekends.",
+      "takeaway": "Understanding the key operational differences between RBI's various liquidity absorption tools, such as collateral requirements, interest rate determination, and availability, is crucial for analyzing monetary policy.",
+      "evidenceExcerpt": "Standing Deposit Facility (SDF): It is a monetary tool that absorbs liquidity from commercial banks without collateral. ... SDF is an overnight liquidity absorption mechanism... SDF will be available every day, including holidays and weekends. Variable Rate Reverse Repo (VRRR): ...The term variable rate means the interest rate is not fixed and is decided by the market. Reverse Repo Rate, the rate is fixed by RBI.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based MCQ",
+      "prompt": "Consider the following statements regarding the revised Co-Lending Arrangements (CLA) directions issued by the RBI between banks and Non-Banking Financial Companies (NBFCs):1. Each Regulated Entity (RE) involved in a co-lending arrangement is mandated to retain a minimum 10% share of the loans.2. Only the bank, and not the NBFC, can claim Priority Sector Lending (PSL) status for its share under co-lending, even if the loan qualifies as priority sector.3. These arrangements are primarily aimed at facilitating short-term interbank lending to manage temporary liquidity mismatches.Which of the statements given above is/are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct. The revised directions for Co-Lending Arrangements (CLA) state that 'Each RE to retain a minimum 10% share of the loans.' Statement 2 is incorrect. The directions clarify that 'Each lender can claim PSL status for its share under co-lending, if the loan qualifies as priority sector,' meaning both the bank and the NBFC can claim PSL status for their respective shares. Statement 3 is incorrect. Co-lending arrangements are primarily aimed at extending credit to borrowers, often to enhance credit flow to underserved sectors, not for managing interbank liquidity mismatches.",
+      "takeaway": "Understanding the specific operational guidelines and benefits of RBI's co-lending norms, particularly regarding risk sharing and priority sector lending status, is important for financial sector analysis.",
+      "evidenceExcerpt": "Co-lending norms: ...Key highlights of the revised Directions Minimum share: Each RE to retain a minimum 10% share of the loans. Priority Sector Lending (PSL) status: Each lender can claim PSL status for its share under co-lending, if the loan qualifies as priority sector.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based MCQ",
+      "prompt": "With reference to a 'Switch Auction' conducted by the Reserve Bank of India on behalf of the Government of India, consider the following statements:\n1. Its primary objective is to manage the maturity profile of public debt.2. It involves market participants selling existing short-term securities to the Government and simultaneously buying new longer-dated securities.3. The process is executed through the e-Kuber portal via the Switch Transaction module.Which of the statements given above is/are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1, 2 and 3"
+        },
+        {
+          "id": "D",
+          "text": "1 and 3 only"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct. The objective of a Switch Auction is 'To manage the maturity profile of public debt by replacing short-term securities with longer-dated ones.' Statement 2 is correct. The mechanism involves 'Market participants sell source securities to the Government of India and simultaneously buy destination securities at quoted prices.' Statement 3 is correct. The process 'is executed through the e-Kuber portal via the Switch Transaction module.' Therefore, all three statements are correct.",
+      "takeaway": "Switch Auctions are a key debt management tool used by the government to restructure its debt portfolio, and understanding their objective and mechanism is important for public finance.",
+      "evidenceExcerpt": "Switch Auction: Objective: To manage the maturity profile of public debt by replacing short-term securities with longer-dated ones. Mechanism: Market participants sell source securities to the Government of India and simultaneously buy destination securities at quoted prices. The process is executed through the e-Kuber portal via the Switch Transaction module.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice Question (MCQ)",
+      "prompt": "With reference to the coverage of the RBI Integrated Ombudsman Scheme, which of the following statements is correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "All Non-Banking Financial Companies (NBFCs) are covered, regardless of their asset size or whether they accept deposits."
+        },
+        {
+          "id": "B",
+          "text": "Housing Finance Companies (HFCs) are explicitly included if they have customer interface."
+        },
+        {
+          "id": "C",
+          "text": "Scheduled Primary (Urban) Co-operative Banks with a deposit size of ₹50 crore or more are covered."
+        },
+        {
+          "id": "D",
+          "text": "The scheme covers only deposit-taking entities and explicitly excludes Credit Information Companies."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Option C is correct. The scheme covers 'Scheduled Primary (Urban) Co-operative Banks... with deposits size of ₹50 crore.' Option A is incorrect because NBFCs are covered with specific criteria: 'excluding Housing Finance Companies' and 'with an assets size of ₹100 crore' and 'authorised to accept deposits or have customer interface'. Option B is incorrect as HFCs are explicitly excluded. Option D is incorrect because Credit Information Companies are explicitly covered by the scheme.",
+      "takeaway": "The RBI Integrated Ombudsman Scheme has specific criteria for the inclusion of various financial entities, and understanding these thresholds and exclusions is key to knowing its scope.",
+      "evidenceExcerpt": "All Commercial Banks, Regional Rural Banks, Scheduled Primary (Urban) Co-operative Banks, and Non-Scheduled Primary (Urban) Co-operative Banks with deposits size of ₹50 crore. All Non-Banking Financial Companies (excluding Housing Finance Companies) which are authorised to accept deposits or have customer interface, with an assets size of ₹100 crore. All System Participants... Credit Information Companies.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice Question (MCQ)",
+      "prompt": "What is the primary implication of the Standing Deposit Facility (SDF) replacing the Fixed Rate Reverse Repo as the floor of the Liquidity Adjustment Facility (LAF) corridor?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It signifies a shift towards the RBI primarily using collateralized instruments for liquidity absorption."
+        },
+        {
+          "id": "B",
+          "text": "It allows the RBI to absorb excess liquidity from the banking system even when there is a scarcity of government securities."
+        },
+        {
+          "id": "C",
+          "text": "It implies that the interest rate offered for liquidity absorption will now be entirely market-determined."
+        },
+        {
+          "id": "D",
+          "text": "It restricts the availability of the liquidity absorption mechanism to only working days."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Option B is correct. The Standing Deposit Facility (SDF) is a monetary tool that absorbs liquidity from commercial banks *without collateral*. By replacing the Fixed Rate Reverse Repo as the LAF corridor's floor, SDF provides the RBI with an unconstrained tool to absorb liquidity, which is particularly useful when there is a scarcity of eligible government securities that would otherwise be required for traditional reverse repo operations. Option A is incorrect because SDF is uncollateralized. Option C is incorrect; the SDF rate is fixed by the RBI, unlike VRRR which is market-determined. Option D is incorrect; SDF is available every day, including holidays and weekends.",
+      "takeaway": "The uncollateralized nature of SDF is a critical design feature that enhances RBI's flexibility in liquidity management, especially in situations where collateral availability might be a constraint for traditional tools.",
+      "evidenceExcerpt": "Standing Deposit Facility (SDF): It is a monetary tool that absorbs liquidity from commercial banks without collateral. Features: SDF replaced the Fixed Rate Reverse Repo as the Liquidity Adjustment Facility corridor’s floor.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice Question (MCQ)",
+      "prompt": "Which of the following statements best describes a unique operational feature of the Standing Deposit Facility (SDF) as a liquidity absorption tool?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It operates only during banking hours on weekdays to ensure proper settlement."
+        },
+        {
+          "id": "B",
+          "text": "Its interest rate is determined through a variable rate auction process."
+        },
+        {
+          "id": "C",
+          "text": "It is available every day, including holidays and weekends, providing continuous liquidity management."
+        },
+        {
+          "id": "D",
+          "text": "It requires banks to provide specific government securities as collateral for depositing funds."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Option C is correct. A unique operational feature of the Standing Deposit Facility (SDF) is its availability 'every day, including holidays and weekends,' ensuring continuous liquidity management. Option A is incorrect as it's available daily. Option B is incorrect; the SDF rate is fixed by the RBI, not market-determined or through a variable rate auction (that's VRRR). Option D is incorrect; SDF is explicitly designed to absorb liquidity 'without collateral'.",
+      "takeaway": "The continuous availability of the Standing Deposit Facility (SDF) on all days, including holidays, highlights its role as a flexible and always-on tool for the RBI's liquidity management.",
+      "evidenceExcerpt": "Standing Deposit Facility (SDF): ...SDF will be available every day, including holidays and weekends.",
+      "contextLines": []
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "questions": [
+    {
+      "subject": "Polity",
+      "difficulty": "Hard",
+      "questionType": "Comparison-driven",
+      "prompt": "Compare the mechanisms for the 'Approval' and 'Disapproval of Continuation' of a National Emergency as per the current constitutional framework:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Both approval and disapproval require a special majority of both Houses of Parliament."
+        },
+        {
+          "id": "B",
+          "text": "Approval requires a special majority of both Houses, while disapproval requires only a simple majority of the Lok Sabha."
+        },
+        {
+          "id": "C",
+          "text": "Approval requires a simple majority of both Houses, while disapproval requires a special majority of the Lok Sabha."
+        },
+        {
+          "id": "D",
+          "text": "Both approval and disapproval can be initiated by either House of Parliament using a simple majority."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Under the 44th Amendment, the approval for the proclamation or continuation of emergency requires a special majority (majority of total membership + 2/3rd present and voting) in both Houses. However, the Lok Sabha alone can pass a resolution for the disapproval of its continuation by a simple majority.",
+      "takeaway": "The threshold for ending an emergency (disapproval) is lower than the threshold for starting or extending it (approval).",
+      "evidenceExcerpt": "Majority Required: Special Majority: majority of total membership + 2/3rd of members present and voting. Revocation: ... Lok Sabha may disapprove continuation by simple majority.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Feature-matching",
+      "prompt": "During the operation of a National Emergency, which of the following correctly describes the status of the State Legislature and the Parliament's legislative powers?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The State Legislature is automatically suspended, and Parliament assumes all legislative powers for that state."
+        },
+        {
+          "id": "B",
+          "text": "The State Legislature continues to function, but Parliament gains concurrent power to legislate on items in the State List."
+        },
+        {
+          "id": "C",
+          "text": "Parliament can only legislate on State List subjects if the State Legislature passes a resolution requesting it."
+        },
+        {
+          "id": "D",
+          "text": "The State Legislature is dissolved, and the Governor exercises legislative powers on behalf of the President."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "During a National Emergency, the State Legislature is not suspended. It continues to function, but the Parliament becomes empowered to make laws on any subject mentioned in the State List (Article 250). This effectively makes the legislative power concurrent, with central laws prevailing in case of conflict.",
+      "takeaway": "National Emergency transforms the federal structure into a unitary one without suspending state organs, unlike President's Rule.",
+      "evidenceExcerpt": "Centre–State Relations: Centre may issue executive directions on any subject; Parliament can legislate on State List (Article 250).",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Hard",
+      "questionType": "Application-based",
+      "prompt": "Consider the impact of a National Emergency on the tenure of the Lok Sabha and State Legislative Assemblies. Which of the following is correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Their tenure is automatically extended by one year upon the proclamation of emergency."
+        },
+        {
+          "id": "B",
+          "text": "Parliament may extend their tenure by one year at a time for any length of time."
+        },
+        {
+          "id": "C",
+          "text": "The tenure can be extended only once for a maximum period of one year."
+        },
+        {
+          "id": "D",
+          "text": "Extension of tenure is permitted only for the Lok Sabha and not for State Legislative Assemblies."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "While a National Emergency is in operation, the life of the Lok Sabha and the State Legislative Assemblies may be extended beyond its normal term (five years) by a law of Parliament for one year at a time for any length of time. However, this extension cannot continue beyond a period of six months after the emergency has ceased to operate.",
+      "takeaway": "Parliamentary law is required for tenure extension, and it is not automatic.",
+      "evidenceExcerpt": "Tenure of Legislatures: Lok Sabha & State Legislative Assemblies may be extended one year at a time, but not beyond 6 months after Emergency ends.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Regarding the suspension of Fundamental Rights during a National Emergency, consider the following statements:\n1. Under Article 359, the enforcement of all Fundamental Rights is automatically suspended.\n2. The 44th Amendment restricted the President's power such that the enforcement of Articles 20 and 21 cannot be suspended.",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect because Article 359 does not automatically suspend rights; it empowers the President to suspend the *enforcement* of specified rights via a separate order. Statement 2 is correct; the 44th Amendment mandated that the enforcement of Articles 20 (protection in respect of conviction for offences) and 21 (protection of life and personal liberty) cannot be suspended even during an emergency.",
+      "takeaway": "Articles 20 and 21 are the 'non-derogable' core of the Indian Constitution during emergencies.",
+      "evidenceExcerpt": "Fundamental Rights: Enforcement of FRs may be suspended under Article 359, except Articles 20 & 21.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "The 38th Constitutional Amendment Act of 1975 is significant in the history of Indian Emergency provisions because it:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Substituted the term 'internal disturbance' with 'armed rebellion'."
+        },
+        {
+          "id": "B",
+          "text": "Made the declaration of National Emergency immune to judicial review."
+        },
+        {
+          "id": "C",
+          "text": "Required the President to act only on the written advice of the Cabinet."
+        },
+        {
+          "id": "D",
+          "text": "Limited the duration of an emergency proclamation to six months unless renewed."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The 38th Amendment (1975) made the declaration of emergency 'final and conclusive' and barred judicial review. This was later reversed by the 44th Amendment and judicial pronouncements.",
+      "takeaway": "The 38th Amendment concentrated power by removing judicial oversight, a move later corrected post-emergency.",
+      "evidenceExcerpt": "1975: 38th Amendment - Barred judicial review of Emergency declaration.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Hard",
+      "questionType": "Comparison-driven",
+      "prompt": "Which of the following distinguishes a 'National Emergency' (Article 352) from 'President's Rule' (Article 356)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "National Emergency requires a simple majority for approval, while President's Rule requires a special majority."
+        },
+        {
+          "id": "B",
+          "text": "Under National Emergency, the State Legislature is always dissolved, whereas under President's Rule, it is only suspended."
+        },
+        {
+          "id": "C",
+          "text": "National Emergency can be proclaimed on the grounds of 'armed rebellion', whereas President's Rule is proclaimed due to the breakdown of constitutional machinery."
+        },
+        {
+          "id": "D",
+          "text": "National Emergency affects only the Fundamental Rights of citizens, while President's Rule affects only the financial relations between Centre and States."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "National Emergency is triggered by war, external aggression, or armed rebellion. President's Rule is triggered by the breakdown of constitutional machinery in a state (Art 356) or failure to comply with Union directions (Art 365).",
+      "takeaway": "The grounds for invocation are the primary functional distinction between the two types of emergencies.",
+      "evidenceExcerpt": "National Emergency (Article 352): War or external aggression... Armed rebellion... President's Rule (Article 356): Breakdown of constitutional machinery.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the duration and extension of a National Emergency:\n1. Once approved by Parliament, the emergency remains in force indefinitely unless revoked by the President.\n2. Periodic parliamentary approval for the continuation of emergency every six months was introduced by the 44th Amendment Act.",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect because the emergency does not remain in force indefinitely after a single approval; it must be renewed every six months. Statement 2 is correct; prior to the 44th Amendment, once approved, an emergency could continue indefinitely. The 44th Amendment introduced the requirement for periodic approval every six months to ensure parliamentary control.",
+      "takeaway": "Periodic approval is a key democratic safeguard against the indefinite executive exercise of emergency powers.",
+      "evidenceExcerpt": "Duration: Valid for 6 months; can be extended indefinitely with parliamentary approval every 6 months (44th Constitutional Amendment, 1978).",
+      "contextLines": []
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "With reference to financial instruments, which one of the following best describes a 'Weather Derivative'?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A derivative contract whose payout is determined by a predefined meteorological index rather than the price of a physical asset"
+        },
+        {
+          "id": "B",
+          "text": "A government-backed insurance policy that compensates farmers exclusively for crop yield losses due to natural disasters"
+        },
+        {
+          "id": "C",
+          "text": "A tradable permit that allows industries to adjust their greenhouse gas emissions based on seasonal weather variations"
+        },
+        {
+          "id": "D",
+          "text": "A traditional commodity derivative where the physical delivery of agricultural produce is mandated during extreme weather events"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Weather Derivatives (WD) are financial instruments that utilise meteorological parameters, like rainfall and temperature, as their underlying asset. These parameters are tied to a predefined weather index. Unlike traditional derivatives, which are based on financial assets or physical commodities, WDs do not involve the physical delivery of goods and are settled based on the weather index. They are used to hedge against weather-related risks.",
+      "takeaway": "Weather Derivatives are unique financial instruments where the underlying asset is not a physical good or financial security, but a measurable weather parameter tied to an index.",
+      "evidenceExcerpt": "Unlike traditional derivatives based on financial assets, WD utilise meteorological parameters, like rainfall and temperature, as underlying asset, tied to a predefined weather index.",
+      "qualityScore": 90,
+      "reviewNotes": "Excellent conceptual question. The distractors are highly plausible, mimicking crop insurance, carbon credits, and traditional commodity derivatives, which fits the UPSC style perfectly."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Weather Derivatives' in India:\n\n1. They utilise meteorological parameters such as rainfall and temperature as their underlying asset.\n2. India's first weather derivatives are being developed by the National Bank for Agriculture and Rural Development (NABARD) in partnership with the India Meteorological Department (IMD).\n3. They enable farmers and allied sectors to hedge against financial risks associated with irregular weather events.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Unlike traditional derivatives based on financial assets, Weather Derivatives utilise meteorological parameters (like rainfall and temperature) as their underlying asset, tied to a predefined weather index.\nStatement 2 is incorrect: India's first Weather Derivatives are being launched by the National Commodity and Derivatives Exchange Ltd (NCDEX) in partnership with the India Meteorological Department (IMD), not NABARD.\nStatement 3 is correct: They will help farmers and allied sectors hedge against risks like irregular rainfall, heatwaves, etc.",
+      "takeaway": "India's first Weather Derivatives are being launched by NCDEX and IMD to help the agricultural sector hedge against weather-related risks using meteorological parameters as underlying assets.",
+      "evidenceExcerpt": "India is to launch its first WD, with National Commodity and Derivatives Exchange Ltd (NCDEX) partnering with India Meteorological Department (IMD) to develop rainfall-based derivative products. It will help farmers and allied sectors hedge against risks like irregular rainfall, heatwaves, etc. Unlike traditional derivatives based on financial assets, WD utilise meteorological parameters, like rainfall and temperature, as underlying asset...",
+      "qualityScore": 88,
+      "reviewNotes": "Strong factual and application-based question. Updated to the latest UPSC 'How many statements' format. NABARD serves as an excellent distractor for an agriculture-related financial product."
+    }
+  ],
+  "reviewerNotes": "Selected and refined two questions. Q1 is a conceptual 'best describes' question testing the core definition of Weather Derivatives. Q2 is a statement-based question using the latest UPSC 'How many statements' format, testing the definition, the institutions involved in India's first WD, and its utility. Both questions feature highly plausible distractors and strict adherence to the source text."
+}

@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the 'Arabian Sea Mini Warm Pool':\n1. It is a zone of unusually warm sea surface temperatures that develops in the western Arabian Sea near the Horn of Africa.\n2. It typically forms annually during the pre-monsoon months of April and May.\n3. It acts as a self-correcting mechanism that helps the Indian Summer Monsoon recover from previous El Niño disruptions.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The Arabian Sea Mini Warm Pool forms in the southeastern Arabian Sea near the Kerala coast, not the western Arabian Sea near the Horn of Africa. Statement 2 is correct: It forms annually during April and May, just before the onset of the Indian Summer Monsoon. Statement 3 is correct: It functions as a self-correcting mechanism to help the monsoon recover from previous El Nino disruptions.",
+      "takeaway": "The Arabian Sea Mini Warm Pool is a pre-monsoon phenomenon of elevated sea surface temperatures (>28.5°C) off the Kerala coast that buffers the Indian Summer Monsoon against prior El Nino impacts.",
+      "evidenceExcerpt": "The Arabian Sea Mini Warm Pool (MWP) is a patch of unusually warm sea surface temperatures (exceeding 28.5 degrees Celsius) in the southeastern Arabian Sea near the Kerala coast. It forms annually during April and May before the Indian Summer Monsoon and acts as a self-correcting mechanism to help the monsoon recover from previous El Nino disruptions.",
+      "qualityScore": 85,
+      "reviewNotes": "Rewrote Statement 1 to test the exact geographical location (southeastern vs western Arabian Sea) rather than testing 'low temperatures' for a 'Warm Pool', which was too obvious."
+    }
+  ],
+  "reviewerNotes": "Selected two questions. The first tests the factual and temporal characteristics using a statement-based format, with a refined distractor for location. The second tests the conceptual significance of the phenomenon with strong, parallel distractors."
+}

@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Comparison-driven",
+      "prompt": "Regarding the reporting and administrative structure of the National Commission for Scheduled Castes (NCSC), which of the following is correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The NCSC submits its annual report directly to the Parliament of India."
+        },
+        {
+          "id": "B",
+          "text": "The NCSC submits its annual report to the President of India."
+        },
+        {
+          "id": "C",
+          "text": "The Chairperson of the NCSC is appointed by the Prime Minister's Office."
+        },
+        {
+          "id": "D",
+          "text": "The NCSC is a statutory body functioning under the Ministry of Social Justice and Empowerment."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "As a constitutional body under Article 338, the NCSC submits its annual reports to the President of India. The President then causes these reports to be laid before each House of Parliament. The Chairperson is appointed by the President, and it is a constitutional, not statutory, body.",
+      "takeaway": "Constitutional bodies like the NCSC typically report to the President, who then facilitates parliamentary oversight.",
+      "evidenceExcerpt": "NCSC submitted its Annual Report for 2023-24 to the President of India... Constitutional body under Article 338 of the Constitution... Composition: Chairperson, a Vice-Chairperson, and 3 other members, appointed by the President.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Feature-matching",
+      "prompt": "The National Medical Commission (NMC) operates through several autonomous boards. Which of the following is NOT one of the four autonomous boards established under the NMC Act, 2019?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Under-Graduate Medical Education Board"
+        },
+        {
+          "id": "B",
+          "text": "Medical Assessment & Rating Board"
+        },
+        {
+          "id": "C",
+          "text": "Ethics and Medical Registration Board"
+        },
+        {
+          "id": "D",
+          "text": "Medical Research and Innovation Board"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "The four autonomous boards under the NMC are the Under-Graduate Medical Education Board, Post-Graduate Medical Education Board, Medical Assessment & Rating Board, and Ethics and Medical Registration Board. There is no 'Medical Research and Innovation Board' mentioned in the statutory structure.",
+      "takeaway": "The NMC's functional structure is divided into four specific boards focusing on education levels, institutional rating, and professional ethics.",
+      "evidenceExcerpt": "Four Autonomous boards under NMC: Under- Graduate Medical Education Board, Post- Graduate Medical Education Board, Medical Assessment & Rating Board, Ethics and Medical Registration Board.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Hard",
+      "questionType": "Comparison-driven",
+      "prompt": "In the context of the appointment and composition of national bodies, which of the following comparisons between the NCSC and the NMC is correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Both the NCSC and the NMC members are appointed by the President of India."
+        },
+        {
+          "id": "B",
+          "text": "The NCSC is a statutory body, whereas the NMC is a constitutional body."
+        },
+        {
+          "id": "C",
+          "text": "The NCSC members are appointed by the President, while the NMC members are appointed by the Central Government."
+        },
+        {
+          "id": "D",
+          "text": "The NMC has a smaller total membership than the NCSC due to its technical nature."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The NCSC is a constitutional body (Article 338) whose members are appointed by the President. The NMC is a statutory body whose members (Chairperson, ex-officio, and part-time) are appointed by the Central Government. Option D is incorrect as the NMC (33 members) is larger than the NCSC (5 members).",
+      "takeaway": "Constitutional bodies like NCSC usually involve Presidential appointments, whereas statutory bodies like NMC involve Central Government appointments.",
+      "evidenceExcerpt": "NCSC: Constitutional body... appointed by the President. NMC: Statutory body... appointed by the Central Government.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Feature-matching",
+      "prompt": "Which of the following functions is specifically assigned to the National Medical Commission (NMC) regarding healthcare planning and professional conduct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Adjudicating criminal malpractice lawsuits against medical professionals."
+        },
+        {
+          "id": "B",
+          "text": "Mapping healthcare needs and resources effectively for planning."
+        },
+        {
+          "id": "C",
+          "text": "Providing direct financial subsidies to medical students in private colleges."
+        },
+        {
+          "id": "D",
+          "text": "Conducting the annual recruitment of doctors for State Health Services."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "One of the key functions of the NMC is healthcare planning, which involves mapping healthcare needs and resources. It does not adjudicate criminal cases (which is for courts), provide direct subsidies, or conduct state-level recruitment.",
+      "takeaway": "The NMC's role extends beyond education to strategic healthcare resource mapping.",
+      "evidenceExcerpt": "Healthcare Planning: Maps healthcare needs and resources effectively. Ethics: Enforces professional conduct standards strictly.",
+      "contextLines": []
+    }
+  ]
+}

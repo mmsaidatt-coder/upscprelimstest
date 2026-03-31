@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Application",
+      "prompt": "In the context of the Reserve Bank of India's (RBI) monetary policy, which of the following scenarios would most likely prompt the use of 'Qualitative Tools' rather than 'Quantitative Tools'?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The economy is experiencing generalized inflation due to an excess of overall money supply."
+        },
+        {
+          "id": "B",
+          "text": "There is a need to inject short-term liquidity into the banking system to overcome a systemic cash shortage."
+        },
+        {
+          "id": "C",
+          "text": "The RBI wishes to restrict speculative bank lending to the capital markets without reducing the overall credit available to the manufacturing sector."
+        },
+        {
+          "id": "D",
+          "text": "The central bank aims to decrease the overall lending capacity of all commercial banks simultaneously."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Qualitative tools selectively influence the direction of credit flow to specific sectors without necessarily altering the overall volume of money supply. Scenario C describes a targeted sectoral intervention, which is the exact purpose of qualitative tools like margin requirements or direct action. Scenarios A, B, and D require quantitative tools (like Repo Rate or CRR) that directly impact the overall volume of credit in the economy.",
+      "takeaway": "While quantitative tools manage the overall volume of credit in the economy, qualitative tools are designed to direct or restrict credit flow to specific sectors.",
+      "evidenceExcerpt": "QUANTITATIVE TOOLS (Volume of Credit) - Directly impact the overall money supply... QUALITATIVE TOOLS (Direction of Credit) - Selectively influence credit flow to specific sectors...",
+      "qualityScore": 86,
+      "reviewNotes": "Excellent application question. It moves beyond rote memorization of tool names and tests the candidate's understanding of when and why the RBI deploys different categories of tools."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of monetary policy tools and their primary mechanisms:\n\n1. Cash Reserve Ratio : Mandates banks to keep a percentage of their NDTL as cash with the RBI.\n2. Margin Requirements : Alters the loan-to-value ratio to selectively influence credit flow.\n3. Reverse Repo Rate : The rate at which the RBI lends short-term funds to commercial banks.\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: CRR requires banks to keep a percentage of their NDTL as cash with the RBI. Pair 2 is correctly matched: Margin requirements are a qualitative tool that involves changing the loan-to-value ratio to selectively influence credit flow to specific sectors. Pair 3 is incorrectly matched: The Reverse Repo Rate is the rate at which the RBI borrows from banks, whereas the Repo Rate is the rate at which the RBI lends short-term to banks.",
+      "takeaway": "Understanding the specific mechanisms of the RBI's tools is crucial: Repo is for lending, Reverse Repo is for borrowing, CRR involves cash reserves, and Margin Requirements adjust loan-to-value ratios.",
+      "evidenceExcerpt": "CRR (Cash Reserve Ratio): % of net demand & time liabilities (NDTL) banks must keep as CASH with RBI... Qualitative tools include Moral Suasion, Margin Requirements (changing loan-to-value ratio)... REVERSE REPO RATE (Borrowing Rate): Rate at which RBI borrows from banks.",
+      "qualityScore": 85,
+      "reviewNotes": "Excellent use of the 'How many pairs' format currently favored by UPSC. Tests multiple concepts efficiently."
+    }
+  ],
+  "reviewerNotes": "Selected 4 high-quality questions covering different dimensions of the text: factual rules of CRR/SLR, matching tools to mechanisms, conceptual implications of CRR (opportunity cost), and application of qualitative vs. quantitative tools. Reworded prompts and options to align closely with UPSC's formal tone and difficulty level."
+}

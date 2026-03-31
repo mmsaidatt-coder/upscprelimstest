@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Lichens:\n1. They act as pioneer species that initiate ecological succession on barren rocks by aiding in soil formation.\n2. They are reliable bioindicators of air pollution because they thrive and multiply rapidly in environments with high sulfur dioxide concentrations.\n3. In their symbiotic relationship, the fungal partner is known as the photobiont, which synthesizes food for the organism.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Lichens are pioneer species that act as the first colonizers in ecological succession, aiding in soil formation.\nStatement 2 is incorrect: Lichens act as bioindicators of air pollution because they are highly sensitive to sulfur dioxide (SO2) and heavy metals, meaning their growth is inhibited or they die off, rather than being stimulated, in polluted environments.\nStatement 3 is incorrect: In a lichen, the fungus is the mycobiont (providing structure and moisture absorption), while the alga or cyanobacterium is the photobiont (responsible for photosynthesis).",
+      "takeaway": "Lichens are pioneer species and sensitive bioindicators of SO2. They consist of a fungus (mycobiont) and an alga/cyanobacterium (photobiont).",
+      "evidenceExcerpt": "Lichens are a symbiotic association between a fungus (mycobiont) and an alga or cyanobacterium (photobiont). They act as bioindicators of air pollution (especially SO2) and are pioneer species in ecological succession, aiding in soil formation.",
+      "qualityScore": 90,
+      "reviewNotes": "Excellent conceptual question that tests the understanding of ecological roles, bioindicator mechanisms, and symbiotic terminology. Distractors are highly plausible and follow UPSC patterns of reversing relationships and swapping terms."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the distribution and resilience of Lichens:\n1. They are capable of surviving and remaining metabolically active under simulated Mars-like conditions.\n2. Their natural distribution is strictly limited to extreme environments, covering less than 1% of the Earth's land surface.\n3. India hosts over 2,700 species of lichens, with its first Lichen Park established in Uttarakhand.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Lichens are extremophiles that can survive and remain metabolically active under simulated Mars-like conditions.\nStatement 2 is incorrect: Lichens are widely distributed and cover approximately 8% of the Earth's land surface, including both extreme and normal environments.\nStatement 3 is correct: India hosts over 2,700 species, and its first Lichen Park was established in 2020 in Munsiyari, Uttarakhand.",
+      "takeaway": "Lichens are highly resilient organisms covering 8% of the Earth's land surface. India has significant lichen biodiversity, protected in sites like the Lichen Park in Uttarakhand.",
+      "evidenceExcerpt": "Lichens can survive and remain metabolically active under simulated Mars-like conditions. They cover 8% of land surface, including extreme environments. India hosts over 2,700 species, with its first Lichen Park established in 2020 in Munsiyari, Uttarakhand.",
+      "qualityScore": 85,
+      "reviewNotes": "Strong factual question covering the extremophile nature and distribution of lichens. The distractor in statement 2 effectively tests the candidate's knowledge of their widespread presence versus the misconception that extremophiles only live in isolated niches."
+    }
+  ],
+  "reviewerNotes": "Selected and rewrote 2 high-quality questions from the candidate set. The source text is brief, so creating 3 completely non-overlapping questions would lead to forced or trivial options. The two selected questions comprehensively cover all 5 evidence bullets provided in the text without overlapping concepts. Distractors were refined to match UPSC's style of swapping definitions and testing absolute statements."
+}

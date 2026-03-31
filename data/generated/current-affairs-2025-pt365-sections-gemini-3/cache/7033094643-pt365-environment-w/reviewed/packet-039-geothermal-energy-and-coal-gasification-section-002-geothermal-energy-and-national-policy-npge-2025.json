@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding geothermal energy resources in India:\n1. High-enthalpy geothermal resources are primarily suitable for direct heating applications, whereas low-to-medium enthalpy resources are suited for electricity generation.\n2. Out of the ten identified geothermal provinces in India, the majority are classified as orogenic in nature.\n3. Puga and Chumathang, considered among the most promising geothermal sites in India, are located in Ladakh.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect: High-enthalpy geothermal resources (~200°C) are suitable for electricity generation, while low-to-medium enthalpy resources (100-180°C) are suited for direct use.\nStatement 2 is incorrect: India has 10 Geothermal Provinces, out of which only three (Himalayan, Naga-Lushai, and Andaman Nicobar) are orogenic. The remaining seven are non-orogenic, meaning the majority are non-orogenic.\nStatement 3 is correct: Puga and Chumathang are highly promising geothermal sites located in Ladakh.",
+      "takeaway": "Geothermal resource application depends on enthalpy (heat content). India's most promising sites are in Ladakh, and its geothermal provinces are geologically classified into orogenic (e.g., Himalayan, Naga-Lushai, Andaman Nicobar) and non-orogenic types.",
+      "evidenceExcerpt": "High-enthalpy (~200°C) resources suit electricity generation; low-medium (100-180°C) suit direct use. India's potential is 10,600 MW. GSI identified 381 hot springs and 10 provinces (Himalayan, Naga-Lushai, Andaman are orogenic). Puga and Chumathang in Ladakh are promising.",
+      "qualityScore": 85,
+      "reviewNotes": "Excellent conceptual question combining geography and energy applications. The distractors are plausible and test careful reading."
+    }
+  ],
+  "reviewerNotes": "Selected 5 questions covering geography, policy, and current affairs related to geothermal energy. Rewrote them to align with the latest UPSC 'How many statements are correct' format where appropriate. Ensured distractors are plausible and explanations are tightly coupled with the source text."
+}

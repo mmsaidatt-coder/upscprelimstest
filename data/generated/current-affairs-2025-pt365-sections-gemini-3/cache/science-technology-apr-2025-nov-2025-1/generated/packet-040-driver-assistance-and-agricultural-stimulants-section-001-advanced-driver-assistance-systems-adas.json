@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to Advanced Driver Assistance Systems (ADAS), consider the following statements: 1. It utilizes a combination of sensors such as Lidar, Radar, and cameras to improve vehicle safety. 2. It is designed solely to provide passive alerts to the driver and cannot actively intervene in vehicle operation. 3. Adaptive Cruise Control and Automatic Emergency Braking are among its key features. Which of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: ADAS uses local sensors like Lidar, Radar, and cameras to map the vehicle's surroundings and inform its safety features. Statement 2 is incorrect: ADAS is not limited to passive alerts (like lane departure warnings); it also includes active intervention technologies that take control of the vehicle to prevent collisions, such as Automatic Emergency Braking. Statement 3 is correct: Key features of ADAS include Adaptive Cruise Control, Automatic Emergency Braking, Blind Spot Detection, and Lane Departure Warning.",
+      "takeaway": "ADAS is a built-in suite of coordinated technologies using Lidar, Radar, and cameras to help drivers operate safely through both passive warnings and active interventions.",
+      "evidenceExcerpt": "In ADAS, sensors such as Lidar, Radar, and cameras work together to inform features such as pedestrian detection, and lane departure warning. Features include Adaptive Cruise Control, Automatic Emergency Braking, Blind Spot Detection, and Lane Departure Warning."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Multiple-choice",
+      "prompt": "Consider the following automotive safety features: 1. Adaptive Cruise Control 2. Automatic Emergency Braking 3. Blind Spot Detection 4. Pedestrian detection Which of the features given above are incorporated in Advanced Driver Assistance Systems (ADAS)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1, 2 and 3 only"
+        },
+        {
+          "id": "B",
+          "text": "2, 3 and 4 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 4 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2, 3 and 4"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "All the listed features are components of ADAS. ADAS is a built-in suite of coordinated technologies that help drivers operate their vehicles more safely and avoid human errors. Its features include pedestrian detection, lane departure warning, Adaptive Cruise Control, Automatic Emergency Braking, and Blind Spot Detection.",
+      "takeaway": "ADAS encompasses a wide range of safety features including pedestrian detection, Adaptive Cruise Control, Automatic Emergency Braking, Blind Spot Detection, and Lane Departure Warning.",
+      "evidenceExcerpt": "In ADAS, sensors such as Lidar, Radar, and cameras work together to inform features such as pedestrian detection, and lane departure warning. Features include Adaptive Cruise Control, Automatic Emergency Braking, Blind Spot Detection, and Lane Departure Warning."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "application-based",
+      "prompt": "Consider the following vehicular operations:\n1. Automatically adjusting vehicle speed to maintain a safe distance from vehicles ahead.\n2. Applying brakes without driver input to prevent an imminent collision.\n3. Providing alerts when the vehicle unintentionally drifts across marked road lanes.\n\nWhich of the operations given above are facilitated by Advanced Driver Assistance Systems (ADAS)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Advanced Driver Assistance Systems (ADAS) utilize a suite of sensors to inform various safety features. Statement 1 describes Adaptive Cruise Control, Statement 2 describes Automatic Emergency Braking, and Statement 3 describes Lane Departure Warning. All of these are key functional applications of ADAS designed to avoid human errors.",
+      "takeaway": "ADAS translates sensor data (from Lidar, Radar, cameras) into practical safety interventions like Adaptive Cruise Control, Automatic Emergency Braking, and Lane Departure Warnings.",
+      "evidenceExcerpt": "Features include Adaptive Cruise Control, Automatic Emergency Braking, Blind Spot Detection, and Lane Departure Warning."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "conceptual",
+      "prompt": "Which of the following best describes the fundamental design principle of Advanced Driver Assistance Systems (ADAS) in modern vehicles?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It relies entirely on centralized traffic control systems and vehicle-to-infrastructure communication to dictate vehicle speed."
+        },
+        {
+          "id": "B",
+          "text": "It uses a coordinated suite of local sensors, such as Lidar and Radar, to assist drivers and mitigate human errors."
+        },
+        {
+          "id": "C",
+          "text": "It is designed to completely eliminate the need for a human driver by fully automating all dynamic driving tasks."
+        },
+        {
+          "id": "D",
+          "text": "It functions exclusively by utilizing satellite navigation to provide passive route guidance and traffic updates."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "ADAS is designed to assist human drivers, not to completely replace them (as in fully autonomous vehicles) or rely solely on external centralized systems or GPS. It functions via a built-in suite of local sensors like Lidar, Radar, and cameras working together to improve safety and prevent human errors.",
+      "takeaway": "The core mechanism of ADAS is the coordination of local vehicular sensors (Lidar, Radar, cameras) to assist the driver, distinguishing it from fully autonomous driving or purely GPS-based navigation.",
+      "evidenceExcerpt": "A built-in suite of coordinated technologies that help drivers operate their vehicles more safely and avoid human errors. In ADAS, sensors such as Lidar, Radar, and cameras work together..."
+    }
+  ]
+}

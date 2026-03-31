@@ -1,0 +1,149 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the National Payments Corporation of India (NPCI) and its international operations, consider the following statements: 1. NPCI is a not-for-profit company initiated by the Reserve Bank of India (RBI) and the Indian Banks' Association (IBA). 2. NPCI was established under the provisions of the Payment and Settlement Systems Act, 2007. 3. NPCI International Payments Limited (NIPL) is a wholly owned subsidiary of the RBI incorporated to deploy RuPay and UPI outside India. How many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 and 2 are correct: NPCI is a not-for-profit company initiated by RBI and IBA under the Payment and Settlement Systems Act, 2007. Statement 3 is incorrect: NIPL is a wholly owned subsidiary of NPCI (not the RBI) incorporated in 2020 to deploy RuPay and UPI outside India.",
+      "takeaway": "NPCI is the umbrella organization for operating retail payments and settlement systems in India, backed by the PSS Act 2007. Its international arm, NIPL, is a wholly owned subsidiary of NPCI.",
+      "evidenceExcerpt": "NIPL is a wholly owned subsidiary of NPCI incorporated in 2020 to deploy RuPay and UPI outside India. NPCI is a not-for-profit company initiated by RBI and IBA under the Payment and Settlement Systems Act, 2007."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Unified Payments Interface (UPI) ecosystem: 1. The UPI system is built over the Immediate Payment Service (IMPS) infrastructure. 2. Namibia has recently become the first African country to adopt the UPI system for real-time digital payments. 3. The per-UPI transaction limit for Person to Merchant transactions has been raised to Rs 5 Lakh by the NPCI. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "All statements are correct. UPI is built over the IMPS infrastructure. Namibia is the first African country to adopt the UPI system. NPCI has raised the per-UPI transaction limit to Rs 5 Lakh for Person to Merchant transactions.",
+      "takeaway": "UPI operates on the IMPS architecture, allowing seamless fund routing. Its international footprint is expanding rapidly, with Namibia being the first African adopter.",
+      "evidenceExcerpt": "Namibia is the first African country to adopt the UPI system for real-time digital payments. UPI is built over the Immediate Payment Service (IMPS) infrastructure. NPCI raised the per-UPI transaction limit to Rs 5 Lakh..."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "multiple-choice",
+      "prompt": "The National Payments Corporation of India (NPCI) acts as the umbrella organisation for operating retail payments and settlement systems in India. Consider the following systems:\n1. National Electronic Toll Collection (NETC)\n2. National Automated Clearing House (NACH)\n3. RuPay card payment network\n\nHow many of the above systems are overseen by the NPCI?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The National Payments Corporation of India (NPCI) oversees various retail payment and settlement systems in India, including the RuPay card network, National Electronic Toll Collection (NETC), and National Automated Clearing House (NACH).",
+      "takeaway": "NPCI's mandate extends beyond UPI to include a wide array of retail payment systems such as NACH, NETC, and RuPay, functioning under the Payment and Settlement Systems Act, 2007.",
+      "evidenceExcerpt": "NPCI is a not-for-profit initiative of RBI and IBA under the PSS Act 2007, overseeing retail payments including RuPay, NETC, and NACH."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "statement-based",
+      "prompt": "With reference to the operational features of the Unified Payments Interface (UPI), consider the following statements:\n1. It facilitates seamless fund routing by building upon the National Automated Clearing House (NACH) infrastructure.\n2. The enhanced cumulative 24-hour transaction limit of Rs 10 Lakh is exclusively applicable to Person-to-Merchant (P2M) transactions.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The UPI system is built over the Immediate Payment Service (IMPS) infrastructure, not NACH. Statement 2 is correct: The NPCI has established a cumulative 24-hour transaction limit of Rs 10 Lakh specifically for Person-to-Merchant (P2M) transactions.",
+      "takeaway": "UPI leverages the IMPS infrastructure for real-time fund routing. Transaction limits have been differentially enhanced, with specific higher limits (Rs 5 Lakh per transaction and Rs 10 Lakh cumulative 24-hour limit) applied to Person-to-Merchant (P2M) payments.",
+      "evidenceExcerpt": "Launched by NPCI in 2016 over IMPS infrastructure, UPI allows seamless fund routing. NPCI raised per-UPI transaction limits to Rs 5 Lakh and the cumulative 24-hour limit to Rs 10 Lakh for Person to Merchant transactions."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "multiple-choice",
+      "prompt": "To expand the global footprint of India's digital payment systems, the NPCI International Payments Limited (NIPL) has been deploying UPI and RuPay outside India. In which of the following countries have these systems been adopted or integrated?\n1. United Arab Emirates\n2. France\n3. Namibia\n4. Bhutan\n\nHow many of the countries given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "NPCI International Payments Limited (NIPL) has successfully deployed UPI and RuPay in several countries, including Bhutan, France, and the United Arab Emirates (UAE). Furthermore, Namibia recently became the first African country to adopt the UPI system.",
+      "takeaway": "The internationalization of India's digital public infrastructure is being spearheaded by NIPL (incorporated in 2020), with successful deployments spanning Asia (Bhutan, UAE), Europe (France), and Africa (Namibia).",
+      "evidenceExcerpt": "Namibia became the first African country to adopt UPI... NIPL (incorporated 2020) deploys UPI/RuPay abroad in countries like Bhutan, France, UAE, etc."
+    }
+  ]
+}

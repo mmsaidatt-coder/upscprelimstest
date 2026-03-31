@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Pairs",
+      "prompt": "Consider the following pairs regarding the geospatial sector in India:\n\nInitiative / Body : Associated Entity\n1. Nodal Agency for National Geospatial Policy 2022 : Survey of India (SoI)\n2. Continuously Operating Reference Stations (CORS) Network : Indian Space Research Organisation (ISRO)\n3. Apex body for geospatial data governance : Geospatial Data Promotion and Development Committee\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: The Survey of India (SoI) is the designated nodal agency for the National Geospatial Policy 2022. Pair 2 is incorrectly matched: The Continuously Operating Reference Stations (CORS) Network was launched by the Survey of India (SoI), not ISRO. Pair 3 is correctly matched: The National Geospatial Policy 2022 establishes the Geospatial Data Promotion and Development Committee as the apex body for governance.",
+      "takeaway": "The Survey of India (SoI) plays a central role in India's geospatial ecosystem as the nodal agency for the 2022 policy and the launcher of the CORS network, while the GDPDC serves as the apex governance body.",
+      "evidenceExcerpt": "The National Geospatial Policy 2022 establishes the Geospatial Data Promotion and Development Committee as the apex body. Survey of India (SoI) is the nodal agency for the National Geospatial Policy and launched the Continuously Operating Reference Stations (CORS) Network.",
+      "qualityScore": 85,
+      "reviewNotes": "Converted multiple overlapping statement-based questions into a clean 'Pairs' format, which is highly favored in recent UPSC Prelims for testing institutional frameworks."
+    }
+  ],
+  "reviewerNotes": "Selected 3 high-quality questions from the candidate set. Rewrote Candidate 1 to improve distractors regarding the implementing ministry and geographical scope. Combined Candidates 2 and 4 into a single, robust 'Pairs' question to test the institutional framework of the National Geospatial Policy. Retained Candidate 3 as a foundational conceptual question but improved its phrasing. Rejected Candidate 5 as it relied on rote memorization of five specific states, which is not typical of UPSC unless tied to a specific geographical rationale."
+}

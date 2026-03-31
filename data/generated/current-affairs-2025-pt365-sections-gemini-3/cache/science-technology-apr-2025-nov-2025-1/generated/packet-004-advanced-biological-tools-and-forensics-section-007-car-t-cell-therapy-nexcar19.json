@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'NexCAR19', recently seen in the news: 1. It is India's first indigenously developed Chimeric Antigen Receptor T-cell (CAR-T) therapy. 2. It is specifically designed to target and treat B-cell blood cancers. 3. It was developed exclusively by the Indian Council of Medical Research (ICMR). How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: NexCAR19 is India's first indigenous CAR T-cell therapy. Statement 2 is correct: It is developed specifically for B-cell blood cancers. Statement 3 is incorrect: It was developed by ImmunoACT (incubated under IIT Bombay and Tata Memorial Hospital) with support from DBT and BIRAC, not exclusively by ICMR.",
+      "takeaway": "NexCAR19 represents a major milestone in Indian biotechnology as the first indigenous CAR T-cell therapy, targeting B-cell blood cancers through collaborative development.",
+      "evidenceExcerpt": "NexCAR19 is India's first indigenous Chimeric Antigen Receptor T-cell (CAR-T) therapy. It was developed for B-cell blood cancers by ImmunoACT, supported by DBT and BIRAC."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "Which one of the following best describes the recently developed 'NexCAR19'?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A next-generation mRNA vaccine for emerging viral diseases"
+        },
+        {
+          "id": "B",
+          "text": "An indigenous CAR T-cell therapy for B-cell blood cancers"
+        },
+        {
+          "id": "C",
+          "text": "A gene-editing tool based on CRISPR-Cas9 for agricultural crops"
+        },
+        {
+          "id": "D",
+          "text": "A novel stem cell therapy for neurodegenerative disorders"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "NexCAR19 is India's first indigenous Chimeric Antigen Receptor T-cell (CAR-T) therapy, developed specifically for the treatment of B-cell blood cancers.",
+      "takeaway": "CAR-T cell therapies involve modifying a patient's own T-cells to attack cancer cells. NexCAR19 is India's first indigenous success in this domain.",
+      "evidenceExcerpt": "NexCAR19 is India's first indigenous Chimeric Antigen Receptor T-cell (CAR-T) therapy. It was developed for B-cell blood cancers..."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Institution-feature",
+      "prompt": "The development of India's first indigenous CAR T-cell therapy, NexCAR19, was supported by or involved which of the following institutions/agencies? 1. Tata Memorial Hospital 2. Indian Institute of Technology (IIT) Bombay 3. Biotechnology Industry Research Assistance Council (BIRAC) Select the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "NexCAR19 was developed by ImmunoACT, which was incubated under IIT Bombay and Tata Memorial Hospital. The development was also supported by the Department of Biotechnology (DBT) and the Biotechnology Industry Research Assistance Council (BIRAC). Therefore, all three institutions were involved.",
+      "takeaway": "The successful development of NexCAR19 highlights the importance of academia-industry-government collaboration in advancing cutting-edge medical technologies in India.",
+      "evidenceExcerpt": "Developed by ImmunoACT (incubated under IIT Bombay and Tata Memorial Hospital) with support from DBT and BIRAC."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "correct-pair",
+      "prompt": "Consider the following pairs regarding the development of India's first indigenous CAR-T cell therapy:\n\n1. NexCAR19 : Therapy developed specifically for B-cell blood cancers\n2. ImmunoACT : Government agency providing financial support for the therapy\n3. BIRAC : Academic institution where the therapy was incubated\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Pair 1 is correct: NexCAR19 is India's first indigenous CAR T-cell therapy developed specifically for B-cell blood cancers.\nPair 2 is incorrect: ImmunoACT is the developer of the therapy, not a government funding agency. Financial and institutional support was provided by the Department of Biotechnology (DBT) and BIRAC.\nPair 3 is incorrect: BIRAC (Biotechnology Industry Research Assistance Council) is a supporting agency. The therapy was incubated under academic and medical institutions, specifically IIT Bombay and Tata Memorial Hospital.",
+      "takeaway": "NexCAR19 is India's first indigenous CAR-T therapy for B-cell blood cancers. It was developed by ImmunoACT (incubated at IIT Bombay and Tata Memorial Hospital) with support from DBT and BIRAC.",
+      "evidenceExcerpt": "NexCAR19 is India's first indigenous Chimeric Antigen Receptor T-cell (CAR-T) therapy. It was developed for B-cell blood cancers by ImmunoACT, supported by DBT and BIRAC.\n- Developed by ImmunoACT (incubated under IIT Bombay and Tata Memorial Hospital) with support from DBT and BIRAC."
+    }
+  ]
+}

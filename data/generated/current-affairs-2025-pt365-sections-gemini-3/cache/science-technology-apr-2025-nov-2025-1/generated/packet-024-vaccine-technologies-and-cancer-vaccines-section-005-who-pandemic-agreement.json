@@ -1,0 +1,33 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the WHO Pandemic Agreement, consider the following statements: 1. It is being negotiated under Article 19 of the World Health Organization (WHO) Constitution. 2. It marks the first instance of an international legal agreement being negotiated under this specific constitutional provision. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The WHO Pandemic Agreement is negotiated under Article 19 of the WHO Constitution. Statement 2 is incorrect: It is the second international legal agreement negotiated under this article. The first was the WHO Framework Convention on Tobacco Control, adopted in 2003.",
+      "takeaway": "The WHO Pandemic Agreement is the second international legal agreement negotiated under Article 19 of the WHO Constitution, succeeding the WHO Framework Convention on Tobacco Control (2003).",
+      "evidenceExcerpt": "Second international legal agreement negotiated under Article 19 of the WHO Constitution (first being the WHO Framework Convention on Tobacco Control, 2003)."
+    }
+  ]
+}

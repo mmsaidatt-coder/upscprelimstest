@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Matching",
+      "prompt": "Consider the following pairs of reports related to Sustainable Development Goals (SDGs) and their publishing entities:\n\n1. Sustainable Development Report (SDR) : UN Department of Economic and Social Affairs (UN DESA)\n2. Voluntary National Review (VNR) Report of India : NITI Aayog\n3. National Indicator Framework (NIF) Progress Report : Ministry of Statistics and Programme Implementation (MoSPI)\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is incorrectly matched: The Sustainable Development Report (SDR) is released by the UN Sustainable Development Solutions Network (SDSN). It is the Sustainable Development Goals Report (SDGR) that is prepared by UN DESA.\nPair 2 is correctly matched: NITI Aayog releases India's Voluntary National Review (VNR) Report, along with the SDG India Index.\nPair 3 is correctly matched: MoSPI launched the National Indicator Framework (NIF) Progress Report 2025.",
+      "takeaway": "NITI Aayog and MoSPI are key nodal agencies for SDG monitoring in India. Globally, SDSN publishes the SDR, while UN DESA publishes the official SDGR.",
+      "evidenceExcerpt": "The Sustainable Development Report (SDR) is released by the UN Sustainable Development Solutions Network (SDSN). The Sustainable Development Goals Report (SDGR) is the only official UN report monitoring global progress, prepared by UN DESA. NITI Aayog releases the SDG India Index, District SDG Index for NER, and India's Voluntary National Review (VNR) Report. MoSPI launched the National Indicator Framework (NIF) Progress Report 2025.",
+      "qualityScore": 88,
+      "reviewNotes": "Refined the matching question to use the 'How many pairs' format, which is the current UPSC standard. The distractors test the subtle difference between SDR and SDGR."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Statement",
+      "prompt": "Consider the following statements regarding the Sustainable Development Goals (SDGs) and their monitoring:\n\n1. The SDGs were adopted in 2015 as a successor to the Millennium Development Goals (MDGs).\n2. The Sustainable Development Goals Report (SDGR) is the only official UN report monitoring global progress on the 2030 Agenda.\n3. India entered the top 100 in the Sustainable Development Report (SDR) Index for the first time in 2025.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: The SDGs were adopted in 2015 (comprising 17 goals and 169 targets), succeeding the Millennium Development Goals (MDGs).\nStatement 2 is correct: The Sustainable Development Goals Report (SDGR), prepared by UN DESA, is the only official UN report monitoring global progress.\nStatement 3 is correct: India ranked 99th (with a score of 67/100) in the 10th Sustainable Development Report (SDR) 2025, entering the top 100 for the first time.",
+      "takeaway": "The SDGs succeeded the MDGs in 2015. India recently broke into the top 100 of the SDR Index, and the SDGR (prepared by UN DESA) is the official UN monitoring report.",
+      "evidenceExcerpt": "SDGs were adopted in 2015 (17 goals, 169 targets), succeeding the Millennium Development Goals (MDGs). India ranked 99th (score 67/100) in the 10th Sustainable Development Report (SDR) 2025, entering the top 100 for the first time. The Sustainable Development Goals Report (SDGR) is the only official UN report monitoring global progress, prepared by UN DESA.",
+      "qualityScore": 85,
+      "reviewNotes": "Combined the trivial MDG question with India's ranking and the official UN report to create a standard UPSC-style multiple statement question."
+    }
+  ],
+  "reviewerNotes": "Selected and upgraded two questions. Converted the basic factual question into a multi-statement format covering India's ranking and the MDG transition. Upgraded the matching question to the contemporary 'How many pairs' format, testing the nuanced difference between the SDR and SDGR."
+}

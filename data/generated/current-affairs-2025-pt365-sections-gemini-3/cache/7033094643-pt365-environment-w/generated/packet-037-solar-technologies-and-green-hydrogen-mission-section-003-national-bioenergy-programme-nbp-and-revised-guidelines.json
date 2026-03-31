@@ -1,0 +1,178 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the National Bioenergy Programme (NBP):\n1. It provides an additional 20% Central Financial Assistance (CFA) for projects set up in the North East Region and by SC/ST beneficiaries.\n2. The Waste to Energy component of the programme supports the generation of Syngas through plasma gasification.\n3. The Central Financial Assistance for Waste to Energy projects is disbursed in a single installment upon the commissioning of the project.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The NBP provides 20% extra CFA for special categories like the North East Region, hilly states, and SC/ST beneficiaries. Statement 2 is correct: The Waste to Energy Programme supports projects generating Biogas, BioCNG, Power, or Syngas through technologies like pyrolysis and plasma gasification. Statement 3 is incorrect: The revised guidelines introduce a two-stage CFA release (50% after State Pollution Control Board consent and the remainder after 80% capacity achievement), not a single installment.",
+      "takeaway": "The National Bioenergy Programme utilizes a two-stage CFA disbursal mechanism and supports advanced waste-to-energy technologies like pyrolysis and plasma gasification, with special incentives for marginalized groups and specific regions.",
+      "evidenceExcerpt": "It provides Central Financial Assistance (CFA), with 20% extra for special categories like the North East Region and SC/ST beneficiaries. The NBP has three components: Waste to Energy (using pyrolysis and plasma gasification)... Revised guidelines for Waste to Energy introduce a two-stage CFA release: 50% after State Pollution Control Board consent and the remainder after 80% capacity achievement."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the components of the National Bioenergy Programme, consider the following statements:\n1. Biogas generated under the programme consists entirely of methane and carbon dioxide without any trace gases.\n2. Biomass pellet producers in the National Capital Region (NCR) have the flexibility to choose between the schemes of the Ministry of New and Renewable Energy (MNRE) and the Central Pollution Control Board (CPCB) for stubble burning mitigation.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: While biogas is primarily composed of 95% methane (CH4) and CO2, it is not entirely devoid of other gases; it contains traces of N2, H2, H2S, and O2. Statement 2 is correct: The Biomass Programme supports stubble burning mitigation by allowing pellet producers in the NCR to choose between MNRE or CPCB schemes.",
+      "takeaway": "Biogas is not purely methane and CO2; it contains trace gases like hydrogen sulfide. Additionally, NCR pellet producers are given institutional flexibility between MNRE and CPCB schemes to tackle stubble burning.",
+      "evidenceExcerpt": "Biogas is composed of 95% methane (CH4) and CO2, with traces of N2, H2, H2S, and O2... The Biomass Programme supports stubble burning mitigation by allowing pellet producers in NCR to choose between MNRE or CPCB schemes."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the revised guidelines for the Waste to Energy Programme under the National Bioenergy Programme:\n1. The release of the first installment of the Central Financial Assistance (CFA) is contingent upon obtaining consent from the State Pollution Control Board.\n2. The final installment of the CFA is released only after the project achieves 100% of its targeted capacity.\n3. The guidelines mandate the integration of Internet of Things (IoT) for monitoring the projects.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The revised guidelines mandate a two-stage CFA release, with the first 50% released after obtaining State Pollution Control Board consent. Statement 2 is incorrect: The remainder of the CFA is released after achieving 80% capacity, not 100%. Statement 3 is correct: The revised guidelines include provisions for IoT monitoring.",
+      "takeaway": "The revised guidelines for the Waste to Energy Programme focus on easier approvals, IoT monitoring, and a pragmatic two-stage CFA disbursal linked to SPCB consent and 80% capacity achievement.",
+      "evidenceExcerpt": "Revised guidelines offer easier approvals, two-stage CFA disbursal, IoT monitoring, and stubble burning support... Revised guidelines for Waste to Energy introduce a two-stage CFA release: 50% after State Pollution Control Board consent and the remainder after 80% capacity achievement."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "correct-pair",
+      "prompt": "Consider the following pairs regarding the components of the National Bioenergy Programme (NBP) and their primary focus:\n1. Waste to Energy Programme : Generation of Syngas using plasma gasification\n2. Biomass Programme : Manufacturing of briquettes and pellets\n3. Biogas Programme : Production of a fuel mixture predominantly containing methane and carbon monoxide\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correct: The Waste to Energy component supports generating Biogas, BioCNG, Power, or Syngas through advanced technologies like pyrolysis and plasma gasification. Pair 2 is correct: The Biomass component focuses specifically on the production of briquettes and pellets. Pair 3 is incorrect: Biogas is composed of 95% methane (CH4) and carbon dioxide (CO2), not carbon monoxide.",
+      "takeaway": "The National Bioenergy Programme is divided into three distinct components: Waste to Energy (utilizing pyrolysis/plasma gasification), Biomass (focusing on briquettes/pellets), and Biogas (producing primarily methane and CO2).",
+      "evidenceExcerpt": "The NBP has three components: Waste to Energy (using pyrolysis and plasma gasification), Biomass (briquettes/pellets), and Biogas (95% methane and CO2)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "multiple-choice",
+      "prompt": "Which of the following technologies or processes are explicitly supported under the 'Waste to Energy' component of the National Bioenergy Programme?\n1. Pyrolysis\n2. Plasma gasification\n3. Biomass pelletization\n\nSelect the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "The Waste to Energy Programme supports projects generating energy through advanced thermal technologies like pyrolysis and plasma gasification (Statements 1 and 2 are correct). Biomass pelletization (Statement 3) falls under the separate 'Biomass Programme' component of the NBP, which is dedicated to the production of briquettes and pellets.",
+      "takeaway": "It is important to distinguish between the components of the NBP. Waste to Energy utilizes pyrolysis and plasma gasification to generate Syngas/Power, whereas the Biomass Programme specifically handles the physical processing of biomass into briquettes and pellets.",
+      "evidenceExcerpt": "The NBP has three components: Waste to Energy (using pyrolysis and plasma gasification), Biomass (briquettes/pellets)..."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "multiple-choice",
+      "prompt": "Biogas generated under the National Bioenergy Programme is primarily composed of methane and carbon dioxide. Which of the following gases are also typically found in trace amounts in this biogas?\n1. Nitrogen (N2)\n2. Hydrogen sulfide (H2S)\n3. Oxygen (O2)\n4. Hydrogen (H2)\n\nSelect the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2, 3 and 4 only"
+        },
+        {
+          "id": "C",
+          "text": "1, 2 and 4 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2, 3 and 4"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Biogas produced under the programme is predominantly composed of 95% methane (CH4) and carbon dioxide (CO2). The remaining 5% consists of a mixture of trace gases, which explicitly include Nitrogen (N2), Hydrogen (H2), Hydrogen sulfide (H2S), and Oxygen (O2).",
+      "takeaway": "While methane and carbon dioxide form the bulk (95%) of biogas, it is not entirely pure and contains trace amounts of N2, H2, H2S, and O2, which often require scrubbing before the gas can be upgraded to BioCNG.",
+      "evidenceExcerpt": "Biogas is composed of 95% methane (CH4) and CO2, with traces of N2, H2, H2S, and O2."
+    }
+  ]
+}

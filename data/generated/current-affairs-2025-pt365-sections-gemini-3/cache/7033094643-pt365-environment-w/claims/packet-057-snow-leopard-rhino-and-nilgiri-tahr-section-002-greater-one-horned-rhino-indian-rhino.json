@@ -1,0 +1,99 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-057-snow-leopard-rhino-and-nilgiri-tahr-section-002-greater-one-horned-rhino-indian-rhino",
+    "claimType": "Factual",
+    "claimText": "The IUCN status of the Greater One-Horned Rhino (Indian Rhino) is Vulnerable.",
+    "evidenceExcerpt": "IUCN Status: VU (Vulnerable).",
+    "pageNumbers": [
+      122,
+      123
+    ],
+    "examUse": "Statement-based question on species conservation status",
+    "distractorHooks": [
+      "Critically Endangered",
+      "Endangered",
+      "Near Threatened"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-057-snow-leopard-rhino-and-nilgiri-tahr-section-002-greater-one-horned-rhino-indian-rhino",
+    "claimType": "Factual",
+    "claimText": "Assam holds the world's largest population of the Greater One-Horned Rhino, with over 90% located in Kaziranga National Park.",
+    "evidenceExcerpt": "Assam has the world's largest population. More than 90% of them are in Kaziranga National Park.",
+    "pageNumbers": [
+      122,
+      123
+    ],
+    "examUse": "Statement-based question on habitat distribution",
+    "distractorHooks": [
+      "West Bengal holds the largest population",
+      "Manas National Park holds over 90% of the population"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-057-snow-leopard-rhino-and-nilgiri-tahr-section-002-greater-one-horned-rhino-indian-rhino",
+    "claimType": "Comparison",
+    "claimText": "The Indian Rhino is the largest of all Asian rhino species.",
+    "evidenceExcerpt": "Indian Rhino is the largest of all Asian rhino species.",
+    "pageNumbers": [
+      122,
+      123
+    ],
+    "examUse": "Comparison question among rhino species",
+    "distractorHooks": [
+      "Sumatran rhino is the largest Asian rhino",
+      "Javan rhino is the largest Asian rhino"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-057-snow-leopard-rhino-and-nilgiri-tahr-section-002-greater-one-horned-rhino-indian-rhino",
+    "claimType": "Factual",
+    "claimText": "The Sumatran and Javan rhinos are both listed as Critically Endangered.",
+    "evidenceExcerpt": "3 Asian: Sumatran (Critically Endangered), Javan (Critically Endangered)",
+    "pageNumbers": [
+      122,
+      123
+    ],
+    "examUse": "Correct-pair question matching species to IUCN status",
+    "distractorHooks": [
+      "Sumatran rhino is Vulnerable",
+      "Javan rhino is Near Threatened"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-057-snow-leopard-rhino-and-nilgiri-tahr-section-002-greater-one-horned-rhino-indian-rhino",
+    "claimType": "Comparison",
+    "claimText": "Among African rhinos, the White Rhino is Near Threatened while the Black Rhino is Critically Endangered.",
+    "evidenceExcerpt": "2 African: White Rhino (Near Threatened), Black Rhino (Critically Endangered).",
+    "pageNumbers": [
+      122,
+      123
+    ],
+    "examUse": "Correct-pair or statement-based question on African rhino statuses",
+    "distractorHooks": [
+      "White Rhino is Critically Endangered",
+      "Black Rhino is Near Threatened"
+    ]
+  },
+  {
+    "id": "claim-006",
+    "sectionId": "packet-057-snow-leopard-rhino-and-nilgiri-tahr-section-002-greater-one-horned-rhino-indian-rhino",
+    "claimType": "Conceptual",
+    "claimText": "RhoDIS India is a DNA data library used for profiling rhino horns.",
+    "evidenceExcerpt": "Assam Forest Department started DNA profiling of Rhino horns and add it to Rhino DNA Index System (RhoDIS) India DNA data library.",
+    "pageNumbers": [
+      122,
+      123
+    ],
+    "examUse": "Terminology question on conservation tools",
+    "distractorHooks": [
+      "RhoDIS is a satellite tracking system for rhinos",
+      "RhoDIS is an international anti-poaching task force"
+    ]
+  }
+]

@@ -1,0 +1,98 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the WTO Agreement on Subsidies and Countervailing Measures (SCM), consider the following statements: 1. A subsidy is defined as a financial contribution by a government or public body that confers a benefit. 2. Subsidies contingent upon the use of domestic over imported goods are classified as 'Prohibited' subsidies. 3. 'Actionable' subsidies are those that are prohibited in law or in fact regardless of their trade effects. Which of the statements given above are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct as per Article 1 of the SCM Agreement, which defines a subsidy as a financial contribution by a government or public body conferring a benefit. Statement 2 is correct; the SCM Agreement prohibits subsidies contingent on the use of domestic over imported goods (local content subsidies). Statement 3 is incorrect because 'Prohibited' subsidies are those forbidden regardless of trade effects, whereas 'Actionable' subsidies are not prohibited outright but are subject to challenge if they cause adverse effects or serious prejudice.",
+      "takeaway": "The SCM Agreement distinguishes between Prohibited subsidies (export and local content) and Actionable subsidies (subject to challenge based on trade impact).",
+      "evidenceExcerpt": "Article 1 defines a subsidy as a financial contribution by a government or a public body that confers a benefit. The SCM Agreement creates 2 categories of subsidies: Prohibited and Actionable. Prohibited: ... subsidies contingent ... upon the use of domestic over imported goods. Actionable: They are subject to challenge, either through multilateral dispute settlement or through countervailing action.",
+      "qualityScore": 88,
+      "reviewNotes": "This question tests the technical distinction between subsidy categories under the WTO SCM framework, which is a high-yield area for UPSC Economy.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Case-study based",
+      "prompt": "China has alleged that India's Production Linked Incentive (PLI) schemes for Electric Vehicles (EV) and batteries violate the WTO SCM Agreement. What is the specific legal basis of this allegation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The schemes provide subsidies contingent on export performance."
+        },
+        {
+          "id": "B",
+          "text": "The schemes provide financial benefits contingent on Domestic Value Addition (DVA)."
+        },
+        {
+          "id": "C",
+          "text": "The schemes fail to report implementation to the Council for Trade in Goods."
+        },
+        {
+          "id": "D",
+          "text": "The schemes utilize 'Actionable' subsidies that cause serious injury to China's domestic industry."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "China's allegation specifically targets the Domestic Value Addition (DVA) requirements within India's PLI schemes for EVs and batteries. Under the WTO SCM Agreement, subsidies contingent upon the use of domestic over imported goods (local content requirements) are classified as 'Prohibited' subsidies. China argues that these DVA requirements incentivize the use of domestic goods, thereby violating the agreement.",
+      "takeaway": "Local content requirements, such as Domestic Value Addition (DVA), are classified as 'Prohibited' subsidies under the WTO SCM Agreement.",
+      "evidenceExcerpt": "China alleged that 3 Indian PLI schemes related to EV and battery provide financial benefits to companies operating in India contingent on Domestic Value Addition (DVA). DVA requirements under these PLI schemes incentivise companies to use domestic goods rather than imported goods are a violation of Agreement on Subsidies and Countervailing Measures (“SCM Agreement”) of WTO under prohibited category.",
+      "qualityScore": 87,
+      "reviewNotes": "This question links a current trade dispute to the underlying WTO legal framework, testing applied knowledge of the SCM Agreement.",
+      "contextLines": []
+    },
+    {
+      "subject": "Current Affairs",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the 51st G7 Summit (2025): 1. The summit was held in Kananaskis, Canada, with India participating as an Outreach Country. 2. The Kananaskis Wildfire Charter was adopted to promote sustainable forest management and include Indigenous knowledge. 3. The G7 AI Network (GAIN) was established specifically to secure supply chains for critical minerals. Which of the statements given above is/are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct; India participated as an Outreach Country in the 51st G7 Summit held in Kananaskis, Canada. Statement 2 is correct; the Kananaskis Wildfire Charter adopts a 'whole of society' approach including Indigenous knowledge and sustainable forest management. Statement 3 is incorrect; the G7 AI Network (GAIN) is an initiative related to Artificial Intelligence, while the G7 Critical Minerals Action Plan was the initiative aimed at securing supply chains for critical minerals.",
+      "takeaway": "The 51st G7 Summit focused on environmental resilience (Wildfire Charter), critical mineral security, and AI governance.",
+      "evidenceExcerpt": "India had participated as an Outreach Country in 51st G7 Summit (2025) held in Kananaskis, Canada. Kananaskis Wildfire Charter: Adopted a 'whole of society' approach, including Indigenous knowledge... G7 Critical Minerals Action Plan: Secure sustainable and resilient supply chains... G7 AI Network (GAIN).",
+      "qualityScore": 85,
+      "reviewNotes": "The question accurately reflects the outcomes of the 2025 G7 summit and tests the candidate's ability to distinguish between different thematic initiatives (AI vs Minerals).",
+      "contextLines": []
+    }
+  ],
+  "reviewerNotes": "The selected questions cover the core technical aspects of the WTO SCM Agreement and the G7 summit outcomes as detailed in the source text. The distractors are designed to challenge the candidate's understanding of specific WTO categories (Prohibited vs Actionable) and the specific focus of G7 initiatives (AI vs Minerals). All questions are strictly grounded in the provided excerpt."
+}

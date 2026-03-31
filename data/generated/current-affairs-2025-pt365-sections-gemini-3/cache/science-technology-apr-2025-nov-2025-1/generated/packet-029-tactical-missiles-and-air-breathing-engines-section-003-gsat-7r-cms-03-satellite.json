@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the GSAT-7R (CMS-03) satellite:\n1. It is a dedicated earth observation satellite meant to enhance the maritime domain awareness of the Indian Navy.\n2. It is designed to be placed in a Geostationary Orbit.\n3. Its communication footprint provides global coverage for the Indian armed forces.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: GSAT-7R is a multi-band communication satellite, not an earth observation satellite. Statement 2 is correct: It is launched into a Geosynchronous Transfer Orbit (GTO) to eventually settle in a Geostationary Orbit. Statement 3 is incorrect: It provides telecommunication services across the Indian Ocean Region up to 2,000 km from India's coastline, not global coverage.",
+      "takeaway": "GSAT-7R is a Geostationary communication satellite dedicated to the Indian Navy, providing coverage over the Indian Ocean Region.",
+      "evidenceExcerpt": "GSAT-7R (CMS-03) Satellite was successfully launched aboard the ISRO's LVM3... Launched into the Geosynchronous Transfer Orbit (GTO), it will eventually settle into Geostationary Orbit... It provides multi-band telecommunication services across the Indian Ocean Region up to 2,000 km from India's coastline."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the launch and deployment of the GSAT-7R satellite, consider the following statements:\n1. It was launched aboard the Polar Satellite Launch Vehicle (PSLV).\n2. It was initially injected into a Geosynchronous Transfer Orbit (GTO) before maneuvering into its final orbit.\n3. It is designed with an operational lifespan of 15 years.\n\nWhich of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: GSAT-7R was successfully launched aboard ISRO's LVM3, not PSLV. Statement 2 is correct: It was launched into a Geosynchronous Transfer Orbit (GTO) and will eventually settle into a Geostationary Orbit. Statement 3 is correct: The satellite has a lifespan of 15 years.",
+      "takeaway": "Heavy communication satellites like GSAT-7R are launched via LVM3 into a GTO before settling into a Geostationary Orbit, and typically have a 15-year lifespan.",
+      "evidenceExcerpt": "GSAT-7R (CMS-03) Satellite was successfully launched aboard the ISRO's LVM3... Launched into the Geosynchronous Transfer Orbit (GTO), it will eventually settle into Geostationary Orbit... Lifespan: 15 years"
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "statement-based",
+      "prompt": "Consider the following statements regarding the GSAT-7R (CMS-03) satellite:\n1. It is a dedicated military satellite designed primarily to secure communication links for the Indian Air Force.\n2. Its operational telecommunication footprint covers the Indian Ocean Region up to a maximum range of 2,000 km from India's coastline.\n3. It has been deployed to replace the INSAT-4F (Rukmini) satellite.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The GSAT-7R satellite is primarily designed to strengthen maritime domain awareness and secure communication links for the Indian Navy, not the Indian Air Force. Statement 2 is correct: It provides multi-band telecommunication services across the Indian Ocean Region up to 2,000 km from India's coastline. Statement 3 is correct: It is designed to replace the multi-band communication satellite GSAT-7/INSAT-4F (Rukmini).",
+      "takeaway": "GSAT-7R (CMS-03) is a dedicated naval communication satellite that replaces the older GSAT-7 (Rukmini), providing coverage up to 2,000 km into the Indian Ocean Region.",
+      "evidenceExcerpt": "It provides multi-band telecommunication services across the Indian Ocean Region up to 2,000 km from India's coastline. Lifespan: 15 years and will replace the multi-band communication satellite GSAT-7/INSAT-4F Rukmini. Purpose: Strengthens space-based communication, maritime domain awareness, and secure links among Navy ships..."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "conceptual",
+      "prompt": "Which one of the following statements best reflects the strategic purpose of the GSAT-7R (CMS-03) satellite?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It is a synthetic aperture radar (SAR) satellite designed for all-weather surveillance of India's land borders."
+        },
+        {
+          "id": "B",
+          "text": "It is a multi-band communication satellite dedicated to strengthening the maritime domain awareness of the Indian Navy."
+        },
+        {
+          "id": "C",
+          "text": "It is an early-warning satellite intended to detect hostile ballistic missile launches in the Indo-Pacific region."
+        },
+        {
+          "id": "D",
+          "text": "It is a regional navigation satellite launched to augment the NavIC constellation for the Indian armed forces."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The GSAT-7R (CMS-03) is not an earth observation, early-warning, or navigation satellite. It is specifically a multi-band communication satellite intended to replace the GSAT-7 (Rukmini) to secure communication links among Navy ships and enhance maritime domain awareness.",
+      "takeaway": "Understanding the specific functional category of military satellites is crucial; GSAT-7R is strictly a communication satellite for the Navy, distinguishing it from SAR (like RISAT) or navigation (like NavIC) satellites.",
+      "evidenceExcerpt": "Purpose: Strengthens space-based communication, maritime domain awareness, and secure links among Navy ships..."
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-choice",
+      "prompt": "According to the India State of Forest Report (ISFR) 2023, which of the following groups of states recorded the maximum increase in forest cover?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Madhya Pradesh, Arunachal Pradesh, and Maharashtra"
+        },
+        {
+          "id": "B",
+          "text": "Chhattisgarh, Uttar Pradesh, and Odisha"
+        },
+        {
+          "id": "C",
+          "text": "Mizoram, Meghalaya, and Manipur"
+        },
+        {
+          "id": "D",
+          "text": "Andhra Pradesh, Telangana, and Karnataka"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "According to the ISFR 2023, the maximum increase in forest cover was observed in the states of Chhattisgarh, Uttar Pradesh, Odisha, and Rajasthan.",
+      "takeaway": "Contrary to the dense forest cover found in the North-East, the maximum increase in forest cover in the ISFR 2023 assessment was recorded in states like Chhattisgarh, UP, Odisha, and Rajasthan.",
+      "evidenceExcerpt": "Maximum increase seen in Chhattisgarh, UP, Odisha, and Rajasthan."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the 'Environmental Accounting on Forest 2025' report:\n1. It is published by the Ministry of Environment, Forest and Climate Change (MoEFCC) to track national afforestation targets.\n2. It utilizes the UN System of Environmental Economic Accounts (SEEA) framework to integrate economic and environmental data.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [
+        "Environmental Accounting on Forest 2025 Report released by MoSPI is the first dedicated publication on forest accounting based on the UN System of Environmental Economic Accounts (SEEA) Framework.",
+        "SEEA integrates economic and environmental data."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The 'Environmental Accounting on Forest 2025' report is released by the Ministry of Statistics and Programme Implementation (MoSPI), not the MoEFCC. This is a common point of confusion for environmental reports that focus on statistical accounting. Statement 2 is correct: The report is the first dedicated publication on forest accounting based on the UN SEEA framework, which integrates economic and environmental data.",
+      "takeaway": "Environmental accounting reports that integrate economic data are often published by statistical bodies like MoSPI rather than environmental ministries. The UN SEEA framework is the standard for this integration.",
+      "evidenceExcerpt": "Environmental Accounting on Forest 2025 Report released by MoSPI is the first dedicated publication on forest accounting based on the UN System of Environmental Economic Accounts (SEEA) Framework. SEEA integrates economic and environmental data."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Assertion-Reason",
+      "prompt": "Consider the following Assertion (A) and Reason (R):\n\nAssertion (A): In India, regions with a forest cover exceeding 75 percent of their geographical area are exclusively confined to the North-Eastern states.\nReason (R): According to the ISFR 2023, island territories such as Lakshadweep and the Andaman & Nicobar Islands also possess a forest cover of more than 75 percent.\n\nIn the context of the above statements, which one of the following is correct?",
+      "contextLines": [
+        "8 states/UTs have forest cover above 75 percent, including Mizoram, Lakshadweep, A&N Islands, and Arunachal Pradesh."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both A and R are true and R is the correct explanation of A"
+        },
+        {
+          "id": "B",
+          "text": "Both A and R are true but R is not the correct explanation of A"
+        },
+        {
+          "id": "C",
+          "text": "A is true but R is false"
+        },
+        {
+          "id": "D",
+          "text": "A is false but R is true"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "The Assertion (A) is false because highly dense forest cover (above 75% of geographical area) is not exclusively confined to the North-Eastern states. The Reason (R) is true and provides the exact counter-evidence, noting that island Union Territories like Lakshadweep and the Andaman & Nicobar Islands are among the 8 States/UTs that have a forest cover exceeding 75 percent.",
+      "takeaway": "While North-Eastern states like Mizoram and Arunachal Pradesh are known for high forest cover percentages, India's island territories (Lakshadweep, A&N Islands) also feature forest cover exceeding 75% of their geographical area.",
+      "evidenceExcerpt": "8 states/UTs have forest cover above 75 percent, including Mizoram, Lakshadweep, A&N Islands, and Arunachal Pradesh."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the India State of Forest Report (ISFR) 2023, consider the following statements:\n1. India's combined forest and tree cover accounts for exactly one-third of its total geographical area.\n2. The proportion of geographical area under forest cover is greater than the area under tree cover.\n3. More than five States and Union Territories have over three-fourths of their geographical area under forest cover.\n\nHow many of the statements given above are correct?",
+      "contextLines": [
+        "ISFR 2023 shows total forest and tree cover increased to 25.17 percent of geographical area (21.76 percent Forest cover, 3.41 percent Tree cover).",
+        "8 states/UTs have forest cover above 75 percent, including Mizoram, Lakshadweep, A&N Islands, and Arunachal Pradesh."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: India's total forest and tree cover is 25.17 percent of its geographical area, which is short of the one-third (33 percent) target set by the National Forest Policy. Statement 2 is correct: Forest cover accounts for 21.76 percent, which is significantly greater than the tree cover at 3.41 percent. Statement 3 is correct: 8 States/UTs (which is more than five) have a forest cover above 75 percent (three-fourths) of their area.",
+      "takeaway": "ISFR distinguishes between 'Forest Cover' (21.76%) and 'Tree Cover' (3.41%). Combined, they form 25.17% of India's geographical area, meaning India is still working towards the 33% national target.",
+      "evidenceExcerpt": "ISFR 2023 shows total forest and tree cover increased to 25.17 percent of geographical area (21.76 percent Forest cover, 3.41 percent Tree cover)... 8 states/UTs have forest cover above 75 percent"
+    }
+  ]
+}

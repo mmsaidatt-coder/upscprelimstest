@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Comparison",
+      "prompt": "Consider the following statements regarding the differences between Asian and African elephants:\n1. Asian elephants have a humped or convex back, whereas African elephants have a concave or dipped back.\n2. Asian elephants possess a twin-domed head, whereas African elephants have a rounded single dome.\n3. Both male and female Asian elephants have visible tusks, whereas only male African elephants possess them.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statements 1 and 2 are correct. Asian elephants feature a twin-domed head and a humped/convex back, while African elephants have a single dome and a concave back. Statement 3 is incorrect because only some male Asian elephants have visible tusks, whereas both male and female African elephants have larger tusks.",
+      "takeaway": "Morphological differences are key to distinguishing elephant species: Asian elephants have a twin-domed head, humped back, and only some males have tusks. African elephants have a single-domed head, dipped back, and tusks in both sexes.",
+      "evidenceExcerpt": "Asian elephants have a twin-domed head with a central indent and a humped/convex back, whereas African elephants have a rounded/flat single dome and a concave/dipped back.\n- Only some male Asian elephants have visible tusks, while both male and female African elephants have larger tusks.",
+      "qualityScore": 85,
+      "reviewNotes": "Excellent comparison question. Statement 3 effectively inverts the facts about tusks, which is a classic UPSC distractor technique."
+    }
+  ],
+  "reviewerNotes": "Selected three questions covering biological characteristics, morphological comparison with African elephants, and conservation status/initiatives. Rewrote prompts to align with UPSC standards, ensuring plausible distractors and clear explanations."
+}

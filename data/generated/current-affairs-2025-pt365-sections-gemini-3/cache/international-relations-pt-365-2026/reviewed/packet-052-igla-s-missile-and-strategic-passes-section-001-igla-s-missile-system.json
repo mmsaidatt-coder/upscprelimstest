@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Current Affairs",
+      "difficulty": "Moderate",
+      "questionType": "Multi-statement",
+      "prompt": "Consider the following statements regarding the 'Igla-S' system: 1. It is classified as an improved version of Very Short Range Air Defence Systems (VSHORADS). 2. It is specifically designed for mobile ground units operating in high-threat environments. 3. It has an operational altitude limit of approximately 3.5 km. How many of the statements given above are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: The Igla-S is an improved version of Very Short Range Air Defence Systems (VSHORADS). Statement 2 is correct: It is designed for mobile ground units to provide air defense in high-threat environments. Statement 3 is correct: The system can engage targets at altitudes up to 3.5 km.",
+      "takeaway": "Igla-S serves as a VSHORADS for mobile ground units with specific altitude (3.5 km) and range (6 km) limits.",
+      "evidenceExcerpt": "It is an improved version of Very Short Range Air Defence Systems (VSHORADS)... designed for mobile ground units operating in high-threat environments... altitudes up to 3.5 km.",
+      "qualityScore": 85,
+      "reviewNotes": "Utilizes the 'How many' format common in recent UPSC papers to test comprehensive knowledge of the system's classification and operational parameters.",
+      "contextLines": []
+    }
+  ],
+  "reviewerNotes": "The selected questions cover the origin, technical specifications (guidance, range, altitude), and operational classification of the Igla-S system. The distractors are designed to test precision regarding guidance mechanisms and operational limits, which are common areas of confusion in defense-related MCQs."
+}

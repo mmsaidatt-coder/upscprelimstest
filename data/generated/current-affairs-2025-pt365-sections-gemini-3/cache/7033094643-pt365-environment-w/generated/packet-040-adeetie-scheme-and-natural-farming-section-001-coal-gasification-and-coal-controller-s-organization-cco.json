@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-Choice",
+      "prompt": "Which of the following gases are the primary constituents of 'syngas' produced through the process of coal gasification? 1. Carbon monoxide 2. Hydrogen 3. Carbon dioxide 4. Methane. Select the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "1, 2 and 4 only"
+        },
+        {
+          "id": "C",
+          "text": "2, 3 and 4 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2, 3 and 4"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Syngas (synthesis gas) is a fuel gas mixture consisting primarily of carbon monoxide (CO), hydrogen (H2), carbon dioxide (CO2), methane (CH4), and other gases.",
+      "takeaway": "Coal gasification converts coal into syngas, a versatile mixture of CO, H2, CO2, and CH4, which can be used for electricity generation or chemical production.",
+      "evidenceExcerpt": "Syngas is a mixture of carbon monoxide (CO), hydrogen (H2), carbon dioxide (CO2), methane (CH4), and other gases."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the coal sector in India: 1. The Coal Controller's Organization (CCO) acts as the appellate authority for disputes between consumers and owners regarding the declaration of coal grade and size. 2. The Coal Gasification Financial Incentive Scheme (CGFIS) targets the gasification of 100 million tonnes of coal by the year 2030. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Both statements are correct. The CCO collects coal production data and resolves disputes over coal grade and size. The CGFIS, launched in 2024, aims to achieve 100 million tonnes of coal gasification by 2030.",
+      "takeaway": "The CCO plays a crucial regulatory and appellate role in coal grading disputes, while the CGFIS drives India's energy transition targets for 2030.",
+      "evidenceExcerpt": "CCO acts as the appellate authority for disputes between consumers and owners regarding the declaration of coal grade and size. The Coal Gasification Financial Incentive Scheme (CGFIS) launched in 2024 aims to achieve 100 million tonnes of coal gasification by 2030."
+    }
+  ]
+}

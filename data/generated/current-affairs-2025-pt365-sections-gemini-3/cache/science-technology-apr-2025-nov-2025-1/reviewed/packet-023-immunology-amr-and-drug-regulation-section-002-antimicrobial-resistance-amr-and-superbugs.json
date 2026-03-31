@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Subtle Distinction",
+      "prompt": "With reference to the genetic mechanisms behind the spread of Antimicrobial Resistance (AMR), consider the following statements:\n\n1. Vertical gene transfer involves the exchange of resistance genes among different co-existing microbes.\n2. Horizontal gene transfer occurs when resistance traits are passed on to progeny during bacterial cellular division.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Both statements are incorrect because the definitions have been swapped. Vertical gene transfer occurs during bacterial division (passing genes to progeny), whereas horizontal gene transfer involves the exchange of resistance genes among microbes.",
+      "takeaway": "AMR spreads through two primary genetic mechanisms: vertical gene transfer (during reproduction/division) and horizontal gene transfer (exchange of genes between microbes).",
+      "evidenceExcerpt": "Spread through vertical gene transfer during bacterial division and through horizontal gene transfer by exchange of resistance genes among microbes.",
+      "qualityScore": 88,
+      "reviewNotes": "Swapping definitions is a classic UPSC technique to test conceptual clarity. The distractors are highly plausible and require the candidate to know the exact difference between vertical and horizontal transfer."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Antimicrobial Resistance (AMR) and 'Superbugs':\n\n1. Superbugs are strains of pathogens that have evolved resistance to all known classes of antimicrobials.\n2. The term 'Superbugs' applies exclusively to multi-drug resistant strains of bacteria.\n3. The World Health Organization (WHO) recognizes AMR as one of the top ten global health threats.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect: Superbugs are strains of pathogens that are resistant to *most* antimicrobials, not necessarily all known classes. Statement 2 is incorrect: The term applies to a broad spectrum of pathogens including bacteria, viruses, parasites, and fungi, not just bacteria. Statement 3 is correct: WHO recognizes AMR as one of the top ten global health threats and often describes it as a silent pandemic. Therefore, only one statement is correct.",
+      "takeaway": "Superbugs encompass various pathogens (bacteria, viruses, fungi, parasites) resistant to most antimicrobials. AMR is recognized by the WHO as a top ten global health threat.",
+      "evidenceExcerpt": "AMR occurs when bacteria, viruses, fungi, and parasites evolve to withstand the drugs designed to kill them. Strains of bacteria, viruses, parasites, and fungi that are resistant to most antimicrobials are called Superbugs... WHO recognized AMR as one of the top ten global health threats.",
+      "qualityScore": 85,
+      "reviewNotes": "Good use of absolute terms ('all', 'exclusively') as distractor hooks, which is a common UPSC pattern to test precision in definitions."
+    }
+  ],
+  "reviewerNotes": "Selected three questions that cover the definition of Superbugs, the anthropogenic drivers of AMR, and the genetic mechanisms of resistance spread. Rewrote the questions to align with recent UPSC formats, particularly utilizing the 'How many of the above' structure and definition-swapping techniques."
+}

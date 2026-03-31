@@ -1,0 +1,217 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Reserve Bank of India (RBI): 1. The Economic Capital Framework (ECF) governing the transfer of RBI surplus was adopted based on the recommendations of the Bimal Jalan Committee. 2. The Contingent Risk Buffer (CRB) is a component of the RBI's realized equity intended to provide for monetary and financial stability. 3. Seigniorage is one of the recognized sources of income for the RBI. How many of the above statements are correct?",
+      "contextLines": [
+        "The ECF was adopted in 2019 based on the recommendations of the Bimal Jalan Committee.",
+        "Contingent Risk Buffer (CRB): Component of RBI's realized equity to provide for monetary and financial stability...",
+        "RBI's income sources include interest on government securities, liquidity management tools, seigniorage, and foreign currency investments."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct as the ECF was adopted in 2019 based on the Bimal Jalan Committee's recommendations. Statement 2 is correct as the CRB is a component of realized equity meant for monetary and financial stability. Statement 3 is correct as RBI's income sources include seigniorage, interest on G-secs, and foreign currency investments.",
+      "takeaway": "The ECF, guided by the Bimal Jalan Committee, structures RBI's economic capital into Realized Equity, CRB, and Revaluation Balances, supported by income sources like seigniorage.",
+      "evidenceExcerpt": "The ECF was adopted in 2019 based on the recommendations of the Bimal Jalan Committee. Contingent Risk Buffer (CRB): Component of RBI's realized equity... RBI's income sources include... seigniorage..."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-statement",
+      "prompt": "Which of the following are recognized as components of Economic Capital under the Reserve Bank of India's Economic Capital Framework (ECF)? 1. Realized Equity 2. Contingent Risk Buffer (CRB) 3. Revaluation Balances 4. Statutory Liquidity Ratio (SLR) Select the correct answer using the code given below:",
+      "contextLines": [
+        "Economic Capital components under ECF include Realized Equity, Contingent Risk Buffer (CRB), and Revaluation Balances."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2, 3 and 4 only"
+        },
+        {
+          "id": "C",
+          "text": "1, 2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 3 and 4 only"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Realized Equity, Contingent Risk Buffer (CRB), and Revaluation Balances are the specific components of Economic Capital under the RBI's ECF. The Statutory Liquidity Ratio (SLR) is a monetary policy tool, not a component of the RBI's economic capital.",
+      "takeaway": "The RBI's Economic Capital Framework comprises Realized Equity, the Contingent Risk Buffer, and Revaluation Balances.",
+      "evidenceExcerpt": "Economic Capital components under ECF include Realized Equity, Contingent Risk Buffer (CRB), and Revaluation Balances."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Multiple-statement",
+      "prompt": "Consider the following: 1. Interest on government securities 2. Liquidity management tools 3. Seigniorage 4. Foreign currency investments. How many of the above are sources of income for the Reserve Bank of India?",
+      "contextLines": [
+        "RBI's income sources include interest on government securities, liquidity management tools, seigniorage, and foreign currency investments."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "All four options listed are recognized sources of income for the Reserve Bank of India. Seigniorage refers to the profit made by a government by issuing currency, and the RBI also earns from its foreign currency investments, liquidity management operations, and interest on government securities.",
+      "takeaway": "The RBI generates income through multiple channels including seigniorage, foreign currency investments, liquidity management tools, and interest on government securities.",
+      "evidenceExcerpt": "RBI's income sources include interest on government securities, liquidity management tools, seigniorage, and foreign currency investments."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "With reference to the Reserve Bank of India's Economic Capital Framework, what is the primary purpose of the Contingent Risk Buffer (CRB)?",
+      "contextLines": [
+        "Contingent Risk Buffer (CRB): Component of RBI's realized equity to provide for monetary and financial stability..."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "To act as a reserve fund for the Central Government to finance fiscal deficit overruns."
+        },
+        {
+          "id": "B",
+          "text": "To serve as a component of realized equity to provide for monetary and financial stability."
+        },
+        {
+          "id": "C",
+          "text": "To maintain the minimum capital adequacy ratio required for scheduled commercial banks."
+        },
+        {
+          "id": "D",
+          "text": "To provide a dedicated foreign exchange reserve tranche at the International Monetary Fund."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Contingent Risk Buffer (CRB) is a specific component of the RBI's realized equity. Its primary purpose is to provide a buffer for monetary and financial stability, ensuring the central bank can handle systemic risks.",
+      "takeaway": "The CRB is an essential part of the RBI's realized equity under the Economic Capital Framework, dedicated to ensuring monetary and financial stability.",
+      "evidenceExcerpt": "Contingent Risk Buffer (CRB): Component of RBI's realized equity to provide for monetary and financial stability..."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Assertion-Reason",
+      "prompt": "Assertion (A): The Reserve Bank of India (RBI) does not transfer its entire gross income as surplus to the Central Government.\nReason (R): Under the Economic Capital Framework (ECF), the RBI is required to maintain a Contingent Risk Buffer (CRB) from its realized equity to ensure monetary and financial stability.",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both Assertion (A) and Reason (R) are correct and Reason (R) is the correct explanation for Assertion (A)."
+        },
+        {
+          "id": "B",
+          "text": "Both Assertion (A) and Reason (R) are correct but Reason (R) is not the correct explanation for Assertion (A)."
+        },
+        {
+          "id": "C",
+          "text": "Assertion (A) is correct but Reason (R) is incorrect."
+        },
+        {
+          "id": "D",
+          "text": "Assertion (A) is incorrect but Reason (R) is correct."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "The RBI transfers its surplus to the government based on the Economic Capital Framework (ECF). It does not transfer its entire income because the ECF mandates maintaining risk buffers. Specifically, the Contingent Risk Buffer (CRB) is a component of realized equity intended to provide for monetary and financial stability, which is accounted for before the transferable surplus is arrived at.",
+      "takeaway": "The RBI's surplus transfer is governed by the ECF, which ensures that adequate risk buffers (like the CRB) are maintained for financial stability rather than transferring all earnings to the sovereign.",
+      "evidenceExcerpt": "The transferable surplus for 2024-25 has been arrived at on the basis of the revised Economic Capital Framework (ECF)... Contingent Risk Buffer (CRB): Component of RBI's realized equity to provide for monetary and financial stability..."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "In the context of the Reserve Bank of India's (RBI) Economic Capital Framework (ECF), consider the following statements:\n1. While 'Realized Equity' is a component of the Economic Capital, the 'Contingent Risk Buffer' (CRB) is maintained entirely outside the Economic Capital Framework.\n2. The transferable surplus to the Central Government is determined independently of the RBI's income from foreign currency investments.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Statement 1 is incorrect: The Contingent Risk Buffer (CRB) is an integral component of the RBI's realized equity and falls strictly under the Economic Capital Framework (ECF). Statement 2 is incorrect: The transferable surplus is arrived at based on the ECF, which accounts for the RBI's overall income. Foreign currency investments are a recognized source of the RBI's income, thereby directly influencing the final surplus available for transfer.",
+      "takeaway": "The ECF comprehensively covers the RBI's economic capital components (Realized Equity, CRB, Revaluation Balances) and its surplus is derived from various income sources, including foreign currency investments and seigniorage.",
+      "evidenceExcerpt": "RBI's income sources include interest on government securities, liquidity management tools, seigniorage, and foreign currency investments. Economic Capital components under ECF include Realized Equity, Contingent Risk Buffer (CRB), and Revaluation Balances."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Implication",
+      "prompt": "Which of the following best describes the implication of the Bimal Jalan Committee recommendations on the Reserve Bank of India (RBI)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It mandated the RBI to transfer its entire foreign exchange reserves to the Consolidated Fund of India."
+        },
+        {
+          "id": "B",
+          "text": "It provided the Economic Capital Framework (ECF) that determines the quantum of surplus transfer to the Central Government."
+        },
+        {
+          "id": "C",
+          "text": "It established that seigniorage can no longer be considered a source of income for the central bank."
+        },
+        {
+          "id": "D",
+          "text": "It removed the requirement for the RBI to maintain a Contingent Risk Buffer (CRB) for financial stability."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Economic Capital Framework (ECF) was adopted by the RBI in 2019 based on the recommendations of the Bimal Jalan Committee. This framework governs the mechanism and components involved in calculating the transfer of the RBI's surplus to the Central Government. Options A, C, and D are incorrect as the ECF explicitly includes the CRB for stability, and seigniorage remains a valid income source.",
+      "takeaway": "The Bimal Jalan Committee is fundamentally associated with the formalization of the Economic Capital Framework (ECF), which standardizes how the RBI manages its risk buffers and transfers surplus to the Centre.",
+      "evidenceExcerpt": "The transferable surplus for 2024-25 has been arrived at on the basis of the revised Economic Capital Framework (ECF)... Genesis: ECF was adopted by RBI in 2019, based on the recommendations of the Bimal Jalan Committee."
+    }
+  ]
+}

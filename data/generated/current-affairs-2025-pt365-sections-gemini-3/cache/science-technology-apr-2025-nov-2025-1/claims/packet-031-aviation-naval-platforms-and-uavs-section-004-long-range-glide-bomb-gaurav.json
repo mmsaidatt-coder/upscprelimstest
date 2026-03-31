@@ -1,0 +1,48 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-031-aviation-naval-platforms-and-uavs-section-004-long-range-glide-bomb-gaurav",
+    "claimType": "Fact",
+    "claimText": "'Gaurav' is an indigenously developed Long-Range Glide Bomb developed by the Defence Research and Development Organisation (DRDO).",
+    "evidenceExcerpt": "DRDO successfully conducts release trials of indigenously developed Long-Range Glide Bomb 'Gaurav'.",
+    "pageNumbers": [
+      62
+    ],
+    "examUse": "Statement-based question identifying the developer and nature of the 'Gaurav' weapon system.",
+    "distractorHooks": [
+      "Developed by HAL or a foreign entity like Israel or Russia",
+      "It is a ballistic missile or cruise missile instead of a glide bomb"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-031-aviation-naval-platforms-and-uavs-section-004-long-range-glide-bomb-gaurav",
+    "claimType": "Technology/Feature",
+    "claimText": "The 'Gaurav' glide bomb utilizes a hybrid navigation scheme that combines data from the Indian Navigation System (INS) and the Global Positioning System (GPS).",
+    "evidenceExcerpt": "Glide bomb after launch steer towards the target using highly accurate hybrid navigation scheme with a combination of Indian Navigation System (INS) and Global Positioning System (GPS) data.",
+    "pageNumbers": [
+      62
+    ],
+    "examUse": "Statement-based question on the navigation technology used in indigenous glide bombs.",
+    "distractorHooks": [
+      "Uses only GPS without indigenous systems",
+      "Uses NavIC exclusively without GPS",
+      "Relies solely on active radar homing"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-031-aviation-naval-platforms-and-uavs-section-004-long-range-glide-bomb-gaurav",
+    "claimType": "Specification",
+    "claimText": "The 'Gaurav' glide bomb belongs to the 1,000 kg weight class and has a strike range of 100 km.",
+    "evidenceExcerpt": "Weight: 1,000 kg class. Range: 'Gaurav' achieved 100 km range with pinpoint accuracy.",
+    "pageNumbers": [
+      62
+    ],
+    "examUse": "Correct-pair or statement-based question testing the operational range and payload class of the weapon.",
+    "distractorHooks": [
+      "Range of 500 km or 1000 km",
+      "Weight class of 100 kg or 500 kg"
+    ]
+  }
+]

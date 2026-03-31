@@ -1,0 +1,62 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-007-ai-fundamentals-and-indiaai-mission-section-001-artificial-intelligence-fundamentals-terminology",
+    "claimType": "Conceptual",
+    "claimText": "Artificial Narrow Intelligence (ANI) specializes in a single area, whereas Artificial General Intelligence (AGI) learns continuously like humans, and Artificial Superintelligence (ASI) surpasses human cognitive abilities.",
+    "evidenceExcerpt": "ANI specializes in one area; AGI learns continuously like humans; ASI surpasses human cognitive abilities.",
+    "pageNumbers": [
+      15
+    ],
+    "examUse": "Statement-based question comparing ANI, AGI, and ASI.",
+    "distractorHooks": [
+      "Swapping the definitions of ANI and AGI",
+      "Claiming ASI is currently the standard AI used in smartphones"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-007-ai-fundamentals-and-indiaai-mission-section-001-artificial-intelligence-fundamentals-terminology",
+    "claimType": "Conceptual",
+    "claimText": "Supervised machine learning relies on labeled datasets, whereas unsupervised machine learning utilizes unlabeled datasets.",
+    "evidenceExcerpt": "Supervised learning uses labeled datasets; Unsupervised uses unlabeled datasets.",
+    "pageNumbers": [
+      15
+    ],
+    "examUse": "Correct-pair or statement-based question distinguishing between supervised and unsupervised learning.",
+    "distractorHooks": [
+      "Reversing the definitions so supervised uses unlabeled data",
+      "Confusing unsupervised learning with reinforcement learning"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-007-ai-fundamentals-and-indiaai-mission-section-001-artificial-intelligence-fundamentals-terminology",
+    "claimType": "Factual",
+    "claimText": "GPT (Generative Pre-trained Transformer) is built on deep learning architecture.",
+    "evidenceExcerpt": "GPT stands for Generative Pre-trained Transformer, built on deep learning architecture.",
+    "pageNumbers": [
+      15
+    ],
+    "examUse": "Statement-based question on the underlying technology of GPT models.",
+    "distractorHooks": [
+      "Claiming GPT is based on traditional rule-based programming instead of deep learning",
+      "Expanding GPT as General Purpose Technology"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-007-ai-fundamentals-and-indiaai-mission-section-001-artificial-intelligence-fundamentals-terminology",
+    "claimType": "Factual",
+    "claimText": "Agentic AI systems can autonomously make decisions and adapt, an example of which is India's first agentic AI named Kruti.",
+    "evidenceExcerpt": "Agentic AI systems autonomously make decisions and adapt (e.g., India's first agentic AI Kruti).",
+    "pageNumbers": [
+      15
+    ],
+    "examUse": "Fact-based or correct-pair question identifying Kruti as India's first agentic AI.",
+    "distractorHooks": [
+      "Describing Kruti as a traditional chatbot without autonomous decision-making",
+      "Naming another AI as India's first agentic AI"
+    ]
+  }
+]

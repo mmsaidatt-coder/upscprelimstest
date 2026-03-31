@@ -1,0 +1,98 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice Question - Conceptual",
+      "prompt": "Which of the following statements best explains the 'One Nation One Ombudsman' approach, a key feature of the RBI's Integrated Ombudsman Scheme?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It has led to the centralization of the grievance redressal mechanism in a single office located at the RBI's headquarters."
+        },
+        {
+          "id": "B",
+          "text": "It allows a complainant to file a grievance with any office of the RBI Ombudsman, regardless of the geographical jurisdiction of the financial entity."
+        },
+        {
+          "id": "C",
+          "text": "It integrates the ombudsman schemes of all financial sector regulators, such as SEBI and IRDAI, under the RBI's purview."
+        },
+        {
+          "id": "D",
+          "text": "It establishes a single, uniform compensation limit for all financial grievances, including those related to insurance and securities markets."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The 'One Nation One Ombudsman' approach makes the RBI's ombudsman mechanism 'jurisdiction neutral'. This means a complainant is no longer restricted by the geographical location of the financial entity's office and can file their complaint at any RBI Ombudsman office. Option A is incorrect as it doesn't eliminate regional offices. Option C is incorrect as the scheme integrated three of RBI's own previous schemes, not those of other regulators like SEBI or IRDAI. Option D is incorrect as the compensation limit applies only to the RBI's integrated scheme, not all financial grievances in India.",
+      "takeaway": "The 'One Nation One Ombudsman' approach simplifies grievance redressal for customers of RBI-regulated entities by removing jurisdictional barriers, allowing them to file complaints anywhere in the country.",
+      "evidenceExcerpt": "It adopted the ‘One Nation One Ombudsman’ approach by making the RBI Ombudsman mechanism jurisdiction neutral.",
+      "qualityScore": 90,
+      "reviewNotes": "This is a high-quality conceptual question. The distractors are very plausible and test a precise understanding of the scheme's scope and meaning, distinguishing it from other potential interpretations of 'integration' or 'one nation'."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Multiple Choice Question - Statement Based",
+      "prompt": "With reference to the 'Switch Auctions' conducted by the RBI on behalf of the Government of India, consider the following statements:\n1. The primary objective of these auctions is to manage the maturity profile of public debt by replacing shorter-tenure securities with longer-tenure ones.\n2. The mechanism involves market participants selling 'destination securities' to the government while simultaneously purchasing 'source securities'.\n3. These transactions are executed on the RBI's e-Kuber portal.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct. The stated objective is to manage the public debt's maturity profile by switching from short-term to long-term securities. Statement 2 is incorrect. The mechanism is the reverse of what is stated; participants sell 'source securities' to the government and buy 'destination securities'. Statement 3 is correct. The source text confirms that the process is executed through the e-Kuber portal.",
+      "takeaway": "Switch Auctions are a debt management tool used by the government (via RBI's e-Kuber platform) to lengthen the maturity profile of its debt by selling short-term securities ('source') and buying long-term ones ('destination').",
+      "evidenceExcerpt": "Objective: To manage the maturity profile of public debt by replacing short-term securities with longer-dated ones. Mechanism: Market participants sell source securities to the Government of India and simultaneously buy destination securities at quoted prices. The process is executed through the e-Kuber portal via the Switch Transaction module.",
+      "qualityScore": 88,
+      "reviewNotes": "Excellent question. Statement 2 is a classic UPSC-style trap that reverses key terms, testing careful reading. The prompt and statements are precise and well-grounded in the source. Difficulty is set to Hard due to the specific terminology trap."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice Question - Statement Based",
+      "prompt": "With reference to the Standing Deposit Facility (SDF) of the Reserve Bank of India, consider the following statements:\n1. It is a monetary policy instrument that allows the RBI to absorb liquidity from commercial banks without providing government securities as collateral.\n2. It has replaced the Fixed Rate Reverse Repo as the floor of the Liquidity Adjustment Facility (LAF) corridor.\n3. Under this facility, liquidity is absorbed strictly on an overnight basis, with no provision for the RBI to increase its duration.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct. The SDF is a tool for absorbing liquidity from commercial banks without the need for collateral. Statement 2 is correct. The SDF serves as the new floor for the LAF corridor, replacing the earlier Fixed Rate Reverse Repo. Statement 3 is incorrect. While the SDF is primarily an overnight facility, the source text explicitly mentions that the RBI has the 'flexibility... to increase its duration'.",
+      "takeaway": "The Standing Deposit Facility (SDF) is a collateral-free liquidity absorption tool that acts as the floor of the LAF corridor, offering the RBI flexibility in managing the duration of absorption.",
+      "evidenceExcerpt": "It is a monetary tool that absorbs liquidity from commercial banks without collateral. SDF replaced the Fixed Rate Reverse Repo as the Liquidity Adjustment Facility corridor’s floor. SDF is an overnight liquidity absorption mechanism with the flexibility for the RBI to increase its duration.",
+      "qualityScore": 85,
+      "reviewNotes": "This is a strong question testing key features of the SDF. Statement 3 is a well-crafted trap based on a specific detail in the source text. The wording has been refined to match UPSC standards."
+    }
+  ],
+  "reviewerNotes": "The candidate set provided several good questions. I have selected and rewritten four questions that cover distinct topics from the source text: the Ombudsman scheme, Switch Auctions, Standing Deposit Facility, and Co-lending norms. This ensures good conceptual breadth. The questions were rewritten to enhance clarity, precision, and adherence to the UPSC style. Distractors were refined to be more plausible, and explanations were made more robust. Questions on repetitive topics were rejected to create a balanced and high-quality set."
+}

@@ -1,0 +1,67 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Multiple-choice",
+      "prompt": "How many of the following chemical agents are utilized in the process of cloud seeding?",
+      "contextLines": [
+        "1. Silver Iodide",
+        "2. Potassium Iodide",
+        "3. Sulfur Dioxide",
+        "4. Frozen Carbon Dioxide"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "All four chemicals are used as seeding agents. While Silver Iodide (AgI) is the most common, Potassium Iodide (KI), Sulfur Dioxide (SO2), and frozen carbon dioxide (dry ice) are also utilized to induce precipitation in moisture-bearing clouds.",
+      "takeaway": "Various chemicals, including SO2 and dry ice, can act as seeding agents alongside the more commonly known Silver Iodide and Potassium Iodide.",
+      "evidenceExcerpt": "Seeding Agents: Silver Iodide (AgI), most common material, known for its efficient ice nucleating properties. Other chemicals used are potassium iodide (KI), sulfur dioxide (SO2), frozen carbon dioxide (dry ice)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Statement-based",
+      "prompt": "With reference to 'Cloud Seeding', consider the following statements: 1. It is capable of artificially synthesizing new clouds in the atmosphere to mitigate drought conditions. 2. Silver Iodide is preferred as a seeding agent due to its efficient ice nucleating properties. 3. Frozen carbon dioxide and sulfur dioxide can be utilized as chemical agents in this process. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Cloud seeding is conducted on existing natural clouds and does not create new clouds. Statement 2 is correct: Silver Iodide (AgI) is the most common material, known for its efficient ice nucleating properties. Statement 3 is correct: Other chemicals used include potassium iodide (KI), sulfur dioxide (SO2), and frozen carbon dioxide (dry ice).",
+      "takeaway": "Cloud seeding agents include Silver Iodide, Potassium Iodide, Dry Ice, and Sulfur Dioxide. The process strictly requires pre-existing clouds.",
+      "evidenceExcerpt": "Conducted on existing natural clouds and does not create clouds. Seeding Agents: Silver Iodide (AgI), most common material, known for its efficient ice nucleating properties. Other chemicals used are potassium iodide (KI), sulfur dioxide (SO2), frozen carbon dioxide (dry ice)."
+    }
+  ]
+}

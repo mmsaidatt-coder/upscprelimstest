@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to 'SSI Mantra', recently seen in the news, consider the following statements:\n1. It is an indigenous surgical robotic system developed in India.\n2. It was recently used to perform the world's first cardiac telesurgery across a distance of 10,000 km.\n3. It integrates predictive analytics and 3D high-definition visualization to assist in surgical procedures.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: SSI Mantra is India's indigenous surgical robotic system.\nStatement 2 is correct: It achieved a global milestone by performing the world's first cardiac telesurgery across a distance of 10,000 km.\nStatement 3 is correct: The system's key features include 3D High-Definition Visualization and Predictive Analytics, which enhance surgical precision and safety.",
+      "takeaway": "SSI Mantra represents a significant advancement in India's indigenous medical technology, demonstrating capabilities in advanced robotic surgery and intercontinental telesurgery.",
+      "evidenceExcerpt": "SSI Mantra performed world’s first cardiac telesurgery across 10,000 km. About SSI Mantra - India’s indigenous surgical robotic system. - Key features: 3D High-Definition Visualization, Predictive Analytics, etc.",
+      "qualityScore": 85,
+      "reviewNotes": "The question effectively tests awareness of a significant indigenous technological achievement in the healthcare sector. The statements are clear, unambiguous, and directly supported by the source text, fitting the UPSC pattern well."
+    }
+  ],
+  "reviewerNotes": "Selected and refined the statement-based question. The wording was tightened to sound more like an official UPSC Prelims question, ensuring the statements are precise and the explanation directly addresses each point."
+}

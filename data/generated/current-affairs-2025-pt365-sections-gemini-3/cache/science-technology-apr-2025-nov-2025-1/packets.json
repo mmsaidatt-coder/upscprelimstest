@@ -1,0 +1,436 @@
+[
+  {
+    "id": "packet-001-gene-editing-techniques",
+    "topic": "Biotechnology",
+    "subtopic": "Gene Editing Techniques",
+    "pageNumbers": [
+      5,
+      6
+    ],
+    "questionQuota": 8,
+    "rationale": "Covers foundational DNA/RNA concepts, genome sequencing applications, and specific gene-editing tools like CRISPR-Cas9, ZFNs, and TALENs."
+  },
+  {
+    "id": "packet-002-gm-crops-and-regulatory-framework",
+    "topic": "Biotechnology",
+    "subtopic": "GM Crops and Regulatory Framework",
+    "pageNumbers": [
+      7
+    ],
+    "questionQuota": 5,
+    "rationale": "Focuses on the status of GM crops in India (Bt Cotton, Brinjal, Mustard) and the regulatory roles of GEAC, RCGM, and FSSAI."
+  },
+  {
+    "id": "packet-003-genome-india-and-ge-rice",
+    "topic": "Biotechnology",
+    "subtopic": "Genome India and GE Rice",
+    "pageNumbers": [
+      8
+    ],
+    "questionQuota": 4,
+    "rationale": "Details India's first genome-edited rice varieties and the objectives of the GenomeIndia Project."
+  },
+  {
+    "id": "packet-004-advanced-biological-tools-and-forensics",
+    "topic": "Biotechnology",
+    "subtopic": "Advanced Biological Tools and Forensics",
+    "pageNumbers": [
+      9,
+      10
+    ],
+    "questionQuota": 8,
+    "rationale": "Groups emerging technologies like Organ-on-Chip and RNA silencing with forensic tools like DNA profiling and the SHUKR gene."
+  },
+  {
+    "id": "packet-005-specialized-medical-therapies-and-stem-cells",
+    "topic": "Biotechnology",
+    "subtopic": "Specialized Medical Therapies and Stem Cells",
+    "pageNumbers": [
+      11,
+      12
+    ],
+    "questionQuota": 9,
+    "rationale": "Combines advanced cellular treatments like CAR-T therapy and Mitochondrial Replacement Therapy with stem cell classifications."
+  },
+  {
+    "id": "packet-006-bio-policy-and-epigenetics",
+    "topic": "Biotechnology",
+    "subtopic": "Bio-Policy and Epigenetics",
+    "pageNumbers": [
+      13,
+      14
+    ],
+    "questionQuota": 7,
+    "rationale": "Links the BioE3 policy and National Biobank initiative with the DEEP project's focus on epigenetic epidemiology."
+  },
+  {
+    "id": "packet-007-ai-fundamentals-and-indiaai-mission",
+    "topic": "IT & Computer",
+    "subtopic": "AI Fundamentals and IndiaAI Mission",
+    "pageNumbers": [
+      15,
+      16
+    ],
+    "questionQuota": 9,
+    "rationale": "Covers AI stages, machine learning types, and India's sovereign AI initiatives like Bharat Gen and the IndiaAI Mission."
+  },
+  {
+    "id": "packet-008-ai-risks-paradoxes-and-hardware",
+    "topic": "IT & Computer",
+    "subtopic": "AI Risks, Paradoxes and Hardware",
+    "pageNumbers": [
+      17,
+      18
+    ],
+    "questionQuota": 5,
+    "rationale": "Addresses technical risks like Deepfakes (GANs) alongside specialized hardware (TPU) and economic paradoxes of technology."
+  },
+  {
+    "id": "packet-009-principles-and-macroscopic-phenomena",
+    "topic": "Quantum Technology",
+    "subtopic": "Principles and Macroscopic Phenomena",
+    "pageNumbers": [
+      19,
+      20
+    ],
+    "questionQuota": 10,
+    "rationale": "Explains core quantum principles (superposition, entanglement) and the 2025 Nobel Prize for macroscopic quantum tunnelling."
+  },
+  {
+    "id": "packet-010-national-mission-and-secure-communication",
+    "topic": "Quantum Technology",
+    "subtopic": "National Mission and Secure Communication",
+    "pageNumbers": [
+      21,
+      22
+    ],
+    "questionQuota": 9,
+    "rationale": "Details the National Quantum Mission, QKD protocols, and advanced concepts like quantum scrambling and security chips (QSIP)."
+  },
+  {
+    "id": "packet-011-bci-3d-printing-and-digital-assets",
+    "topic": "IT & Computer",
+    "subtopic": "BCI, 3D Printing and Digital Assets",
+    "pageNumbers": [
+      23,
+      24
+    ],
+    "questionQuota": 8,
+    "rationale": "Groups human-machine interfaces (Neuralink), additive manufacturing, and the regulatory landscape for stablecoins and crypto assets."
+  },
+  {
+    "id": "packet-012-networking-infrastructure-and-robotics",
+    "topic": "IT & Computer",
+    "subtopic": "Networking, Infrastructure and Robotics",
+    "pageNumbers": [
+      25,
+      26
+    ],
+    "questionQuota": 7,
+    "rationale": "Covers connectivity (Bluetooth Mesh), physical infrastructure (Undersea cables, RFID), and industrial applications like Digital Twins and robotic surgery."
+  },
+  {
+    "id": "packet-013-black-holes-gravitational-waves-and-neutrinos",
+    "topic": "Physics",
+    "subtopic": "Black Holes, Gravitational Waves and Neutrinos",
+    "pageNumbers": [
+      27,
+      28
+    ],
+    "questionQuota": 8,
+    "rationale": "Focuses on large-scale astrophysical phenomena and the global network of observatories like LIGO and JUNO."
+  },
+  {
+    "id": "packet-014-particle-physics-and-cosmic-phenomena",
+    "topic": "Physics",
+    "subtopic": "Particle Physics and Cosmic Phenomena",
+    "pageNumbers": [
+      29,
+      30
+    ],
+    "questionQuota": 8,
+    "rationale": "Covers CERN's LHC, the Higgs Boson, matter-antimatter asymmetry, and the role of Fast Radio Bursts in measuring cosmic matter."
+  },
+  {
+    "id": "packet-015-earth-observation-and-human-spaceflight",
+    "topic": "Space Technology",
+    "subtopic": "Earth Observation and Human Spaceflight",
+    "pageNumbers": [
+      31,
+      32
+    ],
+    "questionQuota": 9,
+    "rationale": "Details the NISAR mission, Gaganyaan's human spaceflight goals, and the Aditya-L1 solar mission."
+  },
+  {
+    "id": "packet-016-lunar-exploration-and-orbital-docking",
+    "topic": "Space Technology",
+    "subtopic": "Lunar Exploration and Orbital Docking",
+    "pageNumbers": [
+      33,
+      34
+    ],
+    "questionQuota": 8,
+    "rationale": "Focuses on ISRO's SpaDeX docking technology, Chandrayaan-3 findings, and the private Axiom-4 mission to the ISS."
+  },
+  {
+    "id": "packet-017-commercial-space-and-orbital-mechanics",
+    "topic": "Space Technology",
+    "subtopic": "Commercial Space and Orbital Mechanics",
+    "pageNumbers": [
+      35,
+      36
+    ],
+    "questionQuota": 9,
+    "rationale": "Covers the rise of private EO constellations (Pixxel) and the technical characteristics of different satellite orbits (LEO, MEO, GEO, SSO)."
+  },
+  {
+    "id": "packet-018-global-missions-and-propulsion-systems",
+    "topic": "Space Technology",
+    "subtopic": "Global Missions and Propulsion Systems",
+    "pageNumbers": [
+      37,
+      38
+    ],
+    "questionQuota": 9,
+    "rationale": "Lists international missions (Lucy, Solar Orbiter) and compares cryogenic vs. semi-cryogenic engine technologies."
+  },
+  {
+    "id": "packet-019-launch-infrastructure-and-satellite-internet",
+    "topic": "Space Technology",
+    "subtopic": "Launch Infrastructure and Satellite Internet",
+    "pageNumbers": [
+      39,
+      40
+    ],
+    "questionQuota": 9,
+    "rationale": "Details India's launch vehicle capabilities (PSLV, GSLV, LMLV), analog missions in Ladakh, and global satellite internet projects."
+  },
+  {
+    "id": "packet-020-solar-activity-and-exoplanetary-science",
+    "topic": "Space Technology",
+    "subtopic": "Solar Activity and Exoplanetary Science",
+    "pageNumbers": [
+      41,
+      42
+    ],
+    "questionQuota": 9,
+    "rationale": "Addresses space hazards like CMEs and debris alongside astronomical discoveries like Brown Dwarfs and Super Earths."
+  },
+  {
+    "id": "packet-021-private-space-sector-and-solar-observatories",
+    "topic": "Space Technology",
+    "subtopic": "Private Space Sector and Solar Observatories",
+    "pageNumbers": [
+      43
+    ],
+    "questionQuota": 3,
+    "rationale": "Focuses on the Vikram-1 private launcher and historical solar data from the Kodaikanal Observatory."
+  },
+  {
+    "id": "packet-022-communicable-diseases-and-viral-outbreaks",
+    "topic": "Health",
+    "subtopic": "Communicable Diseases and Viral Outbreaks",
+    "pageNumbers": [
+      44,
+      45
+    ],
+    "questionQuota": 9,
+    "rationale": "Comprehensive coverage of TB (MDR/XDR), HIV prevention, Hepatitis strains, and the Mpox outbreak."
+  },
+  {
+    "id": "packet-023-immunology-amr-and-drug-regulation",
+    "topic": "Health",
+    "subtopic": "Immunology, AMR and Drug Regulation",
+    "pageNumbers": [
+      46,
+      47
+    ],
+    "questionQuota": 9,
+    "rationale": "Links the 2025 Nobel Prize in Medicine (immune tolerance) with the global threat of AMR and the regulation of FDC drugs."
+  },
+  {
+    "id": "packet-024-vaccine-technologies-and-cancer-vaccines",
+    "topic": "Health",
+    "subtopic": "Vaccine Technologies and Cancer Vaccines",
+    "pageNumbers": [
+      48,
+      49
+    ],
+    "questionQuota": 8,
+    "rationale": "Explains various vaccine platforms (Live, Inactivated, Recombinant) and breakthroughs in oncolytic and mRNA cancer vaccines."
+  },
+  {
+    "id": "packet-025-public-health-missions-and-nutrition",
+    "topic": "Health",
+    "subtopic": "Public Health Missions and Nutrition",
+    "pageNumbers": [
+      50,
+      51
+    ],
+    "questionQuota": 8,
+    "rationale": "Details the Universal Immunization Programme, One Health mission, and the global effort to eliminate industrially produced trans fats."
+  },
+  {
+    "id": "packet-026-specialized-diabetes-and-radiation-therapy",
+    "topic": "Health",
+    "subtopic": "Specialized Diabetes and Radiation Therapy",
+    "pageNumbers": [
+      52
+    ],
+    "questionQuota": 3,
+    "rationale": "Covers the newly recognized Type 5 diabetes and advanced cancer treatment using Proton Arc Therapy (SPArc)."
+  },
+  {
+    "id": "packet-027-integrated-air-defence-systems",
+    "topic": "Defence",
+    "subtopic": "Integrated Air Defence Systems",
+    "pageNumbers": [
+      53,
+      54
+    ],
+    "questionQuota": 10,
+    "rationale": "Details India's layered air defence architecture, including S-400, Barak 8, Akash, and the Akashteer control system."
+  },
+  {
+    "id": "packet-028-ballistic-missiles-and-igmdp",
+    "topic": "Defence",
+    "subtopic": "Ballistic Missiles and IGMDP",
+    "pageNumbers": [
+      55,
+      56
+    ],
+    "questionQuota": 8,
+    "rationale": "Compares cruise and ballistic missiles and details the Agni series (including MIRV capability) and the historical IGMDP."
+  },
+  {
+    "id": "packet-029-tactical-missiles-and-air-breathing-engines",
+    "topic": "Defence",
+    "subtopic": "Tactical Missiles and Air-Breathing Engines",
+    "pageNumbers": [
+      57,
+      58
+    ],
+    "questionQuota": 8,
+    "rationale": "Focuses on supersonic/hypersonic missiles like BrahMos and Astra, and the mechanics of Ramjet vs. Scramjet engines."
+  },
+  {
+    "id": "packet-030-military-space-and-stratospheric-platforms",
+    "topic": "Defence",
+    "subtopic": "Military Space and Stratospheric Platforms",
+    "pageNumbers": [
+      59,
+      60
+    ],
+    "questionQuota": 8,
+    "rationale": "Groups dedicated military satellites (GSAT-7 series) with laser-directed energy weapons and HAPS airships."
+  },
+  {
+    "id": "packet-031-aviation-naval-platforms-and-uavs",
+    "topic": "Defence",
+    "subtopic": "Aviation, Naval Platforms and UAVs",
+    "pageNumbers": [
+      61,
+      62,
+      63
+    ],
+    "questionQuota": 9,
+    "rationale": "Covers 5th gen fighters (AMCA), naval jets (Rafale M), indigenous UAVs (Bhargavastra), and the Netra MkII AWACS."
+  },
+  {
+    "id": "packet-032-nuclear-fission-fusion-and-breeders",
+    "topic": "Alternative Energy",
+    "subtopic": "Nuclear Fission, Fusion and Breeders",
+    "pageNumbers": [
+      64,
+      65
+    ],
+    "questionQuota": 10,
+    "rationale": "Compares fission and fusion processes and details India's Tokamak research and the Prototype Fast Breeder Reactor (PFBR)."
+  },
+  {
+    "id": "packet-033-nuclear-programme-and-thorium-cycle",
+    "topic": "Alternative Energy",
+    "subtopic": "Nuclear Programme and Thorium Cycle",
+    "pageNumbers": [
+      66,
+      67
+    ],
+    "questionQuota": 8,
+    "rationale": "Explains India's three-stage nuclear power programme and the strategic importance of the thorium fuel cycle."
+  },
+  {
+    "id": "packet-034-next-gen-battery-technologies",
+    "topic": "Alternative Energy",
+    "subtopic": "Next-Gen Battery Technologies",
+    "pageNumbers": [
+      68
+    ],
+    "questionQuota": 4,
+    "rationale": "Focuses on alternatives to Lithium-ion, specifically Sodium-Ion and Vanadium Redox Flow batteries."
+  },
+  {
+    "id": "packet-035-geospatial-technology-and-critical-minerals",
+    "topic": "Miscellaneous",
+    "subtopic": "Geospatial Technology and Critical Minerals",
+    "pageNumbers": [
+      69,
+      70
+    ],
+    "questionQuota": 9,
+    "rationale": "Links geospatial tools (GIS/GPS) and Operation Dronagiri with the strategic Quad Critical Minerals Initiative."
+  },
+  {
+    "id": "packet-036-rare-earth-elements-and-nanotechnology",
+    "topic": "Miscellaneous",
+    "subtopic": "Rare Earth Elements and Nanotechnology",
+    "pageNumbers": [
+      71,
+      72
+    ],
+    "questionQuota": 9,
+    "rationale": "Covers the distribution of REEs in India and the application of nanotechnology in medicine (Nanozymes) and agriculture (Nano fertilizers)."
+  },
+  {
+    "id": "packet-037-advanced-materials-and-future-mobility",
+    "topic": "Miscellaneous",
+    "subtopic": "Advanced Materials and Future Mobility",
+    "pageNumbers": [
+      73,
+      74
+    ],
+    "questionQuota": 8,
+    "rationale": "Groups Metal-Organic Frameworks (MOFs) with electric vehicle indices, V2G technology, and Hyperloop systems."
+  },
+  {
+    "id": "packet-038-deep-ocean-mission-and-rdi-scheme",
+    "topic": "Miscellaneous",
+    "subtopic": "Deep Ocean Mission and RDI Scheme",
+    "pageNumbers": [
+      75
+    ],
+    "questionQuota": 4,
+    "rationale": "Details the Samudrayaan mission (Matsya-6000) and the Research Development and Innovation (RDI) financing scheme."
+  },
+  {
+    "id": "packet-039-industrial-sensors-and-safety-systems",
+    "topic": "Miscellaneous",
+    "subtopic": "Industrial Sensors and Safety Systems",
+    "pageNumbers": [
+      76,
+      77
+    ],
+    "questionQuota": 9,
+    "rationale": "Covers atmospheric sensors (SODAR), railway safety (Kavach), and new magnetic materials like Altermagnets."
+  },
+  {
+    "id": "packet-040-driver-assistance-and-agricultural-stimulants",
+    "topic": "Miscellaneous",
+    "subtopic": "Driver Assistance and Agricultural Stimulants",
+    "pageNumbers": [
+      78
+    ],
+    "questionQuota": 4,
+    "rationale": "Focuses on Advanced Driver Assistance Systems (ADAS) and the regulation of plant biostimulants."
+  }
+]

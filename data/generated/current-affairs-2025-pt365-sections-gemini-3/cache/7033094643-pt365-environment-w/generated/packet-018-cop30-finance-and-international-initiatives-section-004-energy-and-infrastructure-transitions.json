@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "correct-pair",
+      "prompt": "Consider the following pairs of recent climate initiatives and their associated supporting or tracking entities: 1. Plan to Accelerate Coal Transitions (PACT) : Powering Past Coal Alliance (PPCA) 2. Belém 4x Pledge on Sustainable Fuels : International Energy Agency (IEA) 3. Plan to Accelerate the Expansion and Resilience of Power Grids : Green Grids Initiative (GGI) How many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Pair 1 is correctly matched: The Plan to Accelerate Coal Transitions (PACT) is supported by the Powering Past Coal Alliance (PPCA) to fast-track the transition from coal to clean energy. Pair 2 is correctly matched: The Belém 4x Pledge on Sustainable Fuels aims to quadruple the use of sustainable fuels by 2035, with its progress tracked by the International Energy Agency (IEA). Pair 3 is correctly matched: The Plan to Accelerate the Expansion and Resilience of Power Grids is supported by the Green Grids Initiative (GGI).",
+      "takeaway": "Recent climate initiatives often rely on specific alliances for support and tracking. PACT is supported by PPCA, the Belém 4x Pledge is tracked by the IEA, and Power Grids expansion is supported by GGI.",
+      "evidenceExcerpt": "Plan to Accelerate the Expansion and Resilience of Power Grids: Supported by Green Grids Initiative (GGI). Plan to Accelerate Coal Transitions (PACT): Supported by Powering Past Coal Alliance (PPCA)... Belém 4x Pledge on Sustainable Fuels... with progress tracked by the IEA."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "statement-based",
+      "prompt": "With reference to the 'Belém 4x Pledge', recently seen in the context of international climate negotiations, consider the following statements: 1. It aims to quadruple the use of sustainable fuels such as hydrogen and e-fuels by 2035 compared to 2024 levels. 2. India has opted out of this pledge citing its developmental needs and reliance on conventional fuels. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The Belém 4x Pledge on Sustainable Fuels aims to quadruple the use of sustainable fuels (including hydrogen, biofuels, and e-fuels) by 2035 compared to 2024 levels. Statement 2 is incorrect: India is among the participating countries in the Belém 4x Pledge, alongside Italy, Japan, and Brazil.",
+      "takeaway": "The Belém 4x Pledge is a key international commitment to scale up sustainable fuels by 2035, and India is an active participant in this initiative.",
+      "evidenceExcerpt": "Belém 4x Pledge on Sustainable Fuels: Participants include Italy, Japan, India and Brazil. Objective is to quadruple the use of sustainable fuels (hydrogen, biofuels, e-fuels) by 2035 compared to 2024 levels"
+    }
+  ]
+}

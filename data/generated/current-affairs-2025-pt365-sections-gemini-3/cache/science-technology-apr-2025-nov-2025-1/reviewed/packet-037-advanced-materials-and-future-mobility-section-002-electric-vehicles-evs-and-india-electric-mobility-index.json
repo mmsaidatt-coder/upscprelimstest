@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Statement",
+      "prompt": "Consider the following statements regarding the India Electric Mobility Index (IEMI):\n\n1. It is a joint initiative of NITI Aayog and the World Resources Institute (WRI) India.\n2. It evaluates the progress of states exclusively on the basis of transport electrification and public charging infrastructure.\n3. Delhi topped the inaugural 2024 index for its overall e-mobility progress.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The IEMI was launched by NITI Aayog in collaboration with WRI India to benchmark states' e-mobility progress.\n\nStatement 2 is incorrect: The index tracks 16 indicators across broader categories, which include not just Transport Electrification and Charging Infrastructure, but also EV Research & Innovation.\n\nStatement 3 is correct: Delhi topped the IEMI for 2024, followed by Maharashtra.",
+      "takeaway": "The India Electric Mobility Index (IEMI) is a comprehensive benchmark by NITI Aayog and WRI India that includes EV Research & Innovation alongside infrastructure and electrification metrics.",
+      "evidenceExcerpt": "NITI Aayog, with WRI India, launched the first India Electric Mobility Index (IEMI) to benchmark states' e-mobility progress across 16 indicators. Delhi topped the 2024 index... IEMI tracks 16 indicators across Transport Electrification, Charging Infrastructure, and EV Research & Innovation.",
+      "qualityScore": 85,
+      "reviewNotes": "Converted to the modern 'How many of the above statements are correct?' format. The 'exclusively' trap in statement 2 is a classic UPSC pattern."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Statement",
+      "prompt": "With reference to the initiatives and technologies promoting electric mobility in India, consider the following statements:\n\n1. The PM E-DRIVE Scheme is a Central Sector scheme aimed at supporting e-vehicles and charging infrastructure.\n2. The EVolutionS program is an initiative of the Ministry of Heavy Industries to support electric vehicle startups.\n3. Fuel Cell Electric Vehicles (FCEVs) utilize fuel cell technology to generate electricity onboard for propulsion.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The PM E-DRIVE Scheme is structured as a Central Sector scheme to support various e-vehicles and charging infrastructure.\n\nStatement 2 is incorrect: The EVolutionS program, which supports EV startups, was launched by the Department of Science & Technology (DST), not the Ministry of Heavy Industries.\n\nStatement 3 is correct: Fuel Cell EVs (FCEVs) generate their own electricity for propulsion using fuel cell technology, distinguishing them from Battery EVs that rely solely on external charging.",
+      "takeaway": "India's EV push involves multiple ministries and departments. While the PM E-DRIVE is a Central Sector scheme for infrastructure, R&D and startup support like the EVolutionS program are spearheaded by the Department of Science & Technology (DST).",
+      "evidenceExcerpt": "Fuel Cell EVs utilize fuel cell technology to generate electricity for propulsion. India's EV push includes the PM E-DRIVE Scheme... The PM E-DRIVE Scheme is a Central Sector scheme supporting various e-vehicles and charging infrastructure. The EVolutionS program for EV startups was launched by the Department of Science & Technology (DST).",
+      "qualityScore": 85,
+      "reviewNotes": "Updated to the 'How many statements' format. Tests important distinctions between ministries (DST vs MHI) and scheme types (Central Sector), which are frequent targets in UPSC Prelims."
+    }
+  ],
+  "reviewerNotes": "Both candidate questions were strong and well-grounded in the source text. They have been rewritten to match the recent UPSC trend of 'How many of the above statements are correct?' options. The explanations have been tightened to directly address the statements."
+}

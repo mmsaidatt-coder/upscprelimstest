@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Current Affairs",
+      "difficulty": "Hard",
+      "questionType": "Comparison-based",
+      "prompt": "In the context of international trade regulations, how do 'Safeguard measures' differ from 'Prohibited Subsidies' under the WTO framework?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Safeguards are emergency actions against increased imports, while prohibited subsidies are financial benefits contingent on domestic value addition or export performance."
+        },
+        {
+          "id": "B",
+          "text": "Safeguards are monitored by the Council for Trade in Goods, whereas prohibited subsidies are monitored directly by the IMF."
+        },
+        {
+          "id": "C",
+          "text": "Safeguards apply only to agricultural products, while prohibited subsidies apply only to industrial goods like EVs and batteries."
+        },
+        {
+          "id": "D",
+          "text": "Safeguards require proof of financial contribution by a government, while prohibited subsidies only require proof of serious injury to domestic industry."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Option A is correct. Safeguard measures are defined as emergency actions regarding increased imports that threaten serious injury. Prohibited subsidies (under SCM) are specific financial contributions contingent on either export performance or the use of domestic goods (local content/DVA). Option B is incorrect as both fall under WTO oversight. Option D is incorrect because it swaps the requirements: subsidies require financial contribution, while safeguards require proof of injury.",
+      "takeaway": "Safeguards address import surges generally, while the SCM agreement addresses specific government financial incentives that distort trade.",
+      "evidenceExcerpt": "Safeguard measures are “emergency” actions with respect to increased imports of particular products, which potentially threaten to cause serious injury... Prohibited: 2 categories... export performance... use of domestic over imported goods.",
+      "contextLines": []
+    },
+    {
+      "subject": "Current Affairs",
+      "difficulty": "Hard",
+      "questionType": "Applied-Mechanism",
+      "prompt": "China recently alleged that India's Production Linked Incentive (PLI) schemes for Electric Vehicles (EV) and batteries violate the WTO SCM Agreement. What is the primary legal basis for this allegation according to the agreement's provisions?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The schemes provide subsidies that are 'Actionable' because they cause serious prejudice to China's interests."
+        },
+        {
+          "id": "B",
+          "text": "The schemes include Domestic Value Addition (DVA) requirements, making them 'Prohibited' local content subsidies."
+        },
+        {
+          "id": "C",
+          "text": "The schemes fail to report procedural compliance to the Council for Trade in Goods (CTG)."
+        },
+        {
+          "id": "D",
+          "text": "The schemes constitute 'Safeguard measures' that were implemented without an emergency increase in imports."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The allegation centers on the Domestic Value Addition (DVA) requirements. Under the SCM Agreement, any subsidy contingent upon the use of domestic goods over imported goods is classified as a 'Prohibited' local content subsidy. China argues that India's PLI schemes incentivize the use of domestic goods, thus violating this specific prohibition.",
+      "takeaway": "Local content requirements (like DVA) in subsidy programs are often challenged at the WTO as 'Prohibited Subsidies' under the SCM Agreement.",
+      "evidenceExcerpt": "China alleged that 3 Indian PLI schemes related to EV and battery provide financial benefits... contingent on Domestic Value Addition (DVA)... DVA requirements... are a violation of Agreement on Subsidies and Countervailing Measures (“SCM Agreement”) of WTO under prohibited category.",
+      "contextLines": []
+    }
+  ]
+}

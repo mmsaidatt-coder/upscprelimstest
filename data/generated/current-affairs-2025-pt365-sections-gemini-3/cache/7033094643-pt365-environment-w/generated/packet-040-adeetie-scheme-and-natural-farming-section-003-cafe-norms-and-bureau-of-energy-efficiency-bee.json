@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Corporate Average Fuel Economy (CAFE) norms in India, consider the following statements:\n1. The upcoming CAFE-3 norms are scheduled to come into force from April 2027.\n2. The norms are applicable to passenger cars with a seating capacity not exceeding 9 persons.\n3. Vehicles with a gross vehicle weight exceeding 3,500 kg fall under the purview of these norms.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: CAFE-3 norms will come into force from 1st April 2027 until 31st March 2032. Statement 2 is correct: CAFE norms apply to passenger cars with a seating capacity not exceeding 9 persons. Statement 3 is incorrect: The norms apply to vehicles with a gross vehicle weight not exceeding 3,500 kg, meaning vehicles exceeding this weight do not fall under this specific purview.",
+      "takeaway": "CAFE norms target passenger cars up to 9 seats and a gross weight of 3,500 kg, with the third phase (CAFE-3) set to run from 2027 to 2032.",
+      "evidenceExcerpt": "CAFE-3 norms will come into force from 1st April 2027 until 31st March 2032. CAFE norms apply to passenger cars with a seating capacity not exceeding 9 persons and a gross vehicle weight not exceeding 3,500 kg."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding energy efficiency initiatives in India:\n1. The Bureau of Energy Efficiency (BEE) is a statutory body established under the Energy Conservation Act, 2001.\n2. The State Energy Efficiency Index (SEEI) is jointly developed by the NITI Aayog and the Ministry of Power.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The Bureau of Energy Efficiency (BEE) was established under the legislative framework of the Energy Conservation Act 2001. Statement 2 is incorrect: The State Energy Efficiency Index (SEEI) 2024 was developed by BEE in collaboration with the Alliance for an Energy Efficient Economy, not NITI Aayog and the Ministry of Power.",
+      "takeaway": "BEE operates under the Energy Conservation Act 2001 and collaborates with the Alliance for an Energy Efficient Economy to publish the State Energy Efficiency Index (SEEI).",
+      "evidenceExcerpt": "BEE was established under the legislative framework of the Energy Conservation Act 2001. The State Energy Efficiency Index (SEEI) 2024 was developed by BEE in collaboration with the Alliance for an Energy Efficient Economy."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Correct-Pair",
+      "prompt": "Consider the following pairs regarding energy efficiency frameworks and initiatives in India:\n\n1. Bureau of Energy Efficiency : Established under the Environment (Protection) Act, 1986\n2. State Energy Efficiency Index : Co-developed by the Alliance for an Energy Efficient Economy\n3. CAFE Norms : Applicable to passenger cars with a gross vehicle weight up to 3,500 kg\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is incorrectly matched: The Bureau of Energy Efficiency (BEE) operates under the legislative framework of the Energy Conservation Act, 2001, not the Environment (Protection) Act, 1986.\nPair 2 is correctly matched: The State Energy Efficiency Index (SEEI) 2024 was developed and released by BEE in collaboration with the Alliance for an Energy Efficient Economy.\nPair 3 is correctly matched: Corporate Average Fuel Economy (CAFE) norms apply specifically to passenger cars with a seating capacity not exceeding 9 persons and a gross vehicle weight not exceeding 3,500 kg.",
+      "takeaway": "The Bureau of Energy Efficiency derives its mandate from the Energy Conservation Act, 2001. CAFE norms target lighter passenger vehicles (up to 3,500 kg), and the SEEI is a collaborative effort involving the Alliance for an Energy Efficient Economy.",
+      "evidenceExcerpt": "CAFE norms apply to passenger cars with a seating capacity not exceeding 9 persons and a gross vehicle weight not exceeding 3,500 kg. BEE operates under the Energy Conservation Act 2001. BEE, along with the Alliance for an Energy Efficient Economy, released the State Energy Efficiency Index (SEEI) 2024."
+    }
+  ]
+}

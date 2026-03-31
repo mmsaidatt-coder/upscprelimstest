@@ -1,0 +1,64 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-011-bci-3d-printing-and-digital-assets-section-004-central-bank-digital-currency-cbdc-and-digital-rupee",
+    "claimType": "Factual",
+    "claimText": "A Central Bank Digital Currency (CBDC) is a digital form of sovereign currency issued by a central bank and is recognized as legal tender.",
+    "evidenceExcerpt": "CBDC is a digital form of money issued by a central bank and recognized as legal tender.",
+    "pageNumbers": [
+      24
+    ],
+    "examUse": "Statement-based question on the definition and legal status of CBDC.",
+    "distractorHooks": [
+      "Issued by commercial banks",
+      "Not recognized as legal tender",
+      "Decentralized issuance similar to cryptocurrencies"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-011-bci-3d-printing-and-digital-assets-section-004-central-bank-digital-currency-cbdc-and-digital-rupee",
+    "claimType": "Comparison",
+    "claimText": "CBDCs are distinguished from stablecoins by their sovereign backing and operation within a regulated framework.",
+    "evidenceExcerpt": "CBDCs offer sovereign backing and operate within a regulated framework, unlike many stablecoins.",
+    "pageNumbers": [
+      24
+    ],
+    "examUse": "Comparison question distinguishing CBDCs from private cryptocurrencies and stablecoins.",
+    "distractorHooks": [
+      "Stablecoins possess sovereign backing",
+      "CBDCs operate outside regulated frameworks"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-011-bci-3d-printing-and-digital-assets-section-004-central-bank-digital-currency-cbdc-and-digital-rupee",
+    "claimType": "Application",
+    "claimText": "The use of CBDCs can simplify international trade payments and reduce reliance on traditional financial intermediaries like SWIFT.",
+    "evidenceExcerpt": "CBDCs can simplify international trade payments and reduce reliance on intermediaries like SWIFT.",
+    "pageNumbers": [
+      24
+    ],
+    "examUse": "Statement-based question on the macroeconomic benefits and cross-border utility of CBDCs.",
+    "distractorHooks": [
+      "Increases reliance on SWIFT",
+      "Restricted only to domestic transactions"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-011-bci-3d-printing-and-digital-assets-section-004-central-bank-digital-currency-cbdc-and-digital-rupee",
+    "claimType": "Factual",
+    "claimText": "India's Digital Rupee is issued by the RBI and provides features similar to physical cash, such as finality of settlement and an RBI guarantee.",
+    "evidenceExcerpt": "Digital Rupee offers features similar to physical cash, including the guarantee of the RBI and finality of settlement.",
+    "pageNumbers": [
+      24
+    ],
+    "examUse": "Statement-based question on the specific features and issuing authority of the Digital Rupee.",
+    "distractorHooks": [
+      "Issued by the Ministry of Finance",
+      "Lacks finality of settlement",
+      "Functions like an interest-bearing bank deposit rather than physical cash"
+    ]
+  }
+]

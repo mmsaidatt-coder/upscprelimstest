@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Graded Response Action Plan (GRAP) implemented in the National Capital Region:\n\n1. It is an emergency response mechanism originally formulated on the directions of the Supreme Court of India.\n2. It is implemented by the Commission for Air Quality Management (CAQM) based on the prevailing Air Quality Index (AQI) levels.\n3. Its most severe stage, Stage 4, is invoked when the AQI crosses the threshold of 300.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statements 1 and 2 are correct: GRAP is an emergency response mechanism implemented by the CAQM, originally created on the directions of the Supreme Court. Statement 3 is incorrect: GRAP Stage 4 (Severe + category) is triggered when the AQI exceeds 451. An AQI between 201 and 300 triggers Stage 1 (Poor category).",
+      "takeaway": "GRAP is an emergency mechanism implemented by CAQM, with its most severe stage (Stage 4) activating only when the AQI crosses 451.",
+      "evidenceExcerpt": "Graded Response Action Plan (GRAP)... Emergency response mechanism based on AQI level of Delhi implemented by CAQM... originally created on Supreme Court directions... Stage 1: Poor category (AQI 201 to 300)... Stage 4: Severe + category (AQI 451+)",
+      "qualityScore": 85,
+      "reviewNotes": "Excellent factual check on GRAP. The 'How many' format aligns perfectly with recent UPSC trends."
+    }
+  ],
+  "reviewerNotes": "Selected 4 questions that cover distinct concepts from the source text: meteorological/geographical factors, GRAP specifics, initiative matching, and air quality standards. Rewrote the prompts to ensure they strictly follow UPSC phrasing and formatting conventions."
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-005-specialized-medical-therapies-and-stem-cells-section-004-animal-stem-cell-biobank",
+    "claimType": "Institution Location",
+    "claimText": "India's first animal stem cell biobank and laboratory is located at the National Institute of Animal Biotechnology (NIAB) in Hyderabad.",
+    "evidenceExcerpt": "Located at the National Institute of Animal Biotechnology (NIAB), Hyderabad.",
+    "pageNumbers": [
+      12
+    ],
+    "examUse": "Statement-based question identifying the location of India's first animal stem cell biobank.",
+    "distractorHooks": [
+      "Located at Indian Veterinary Research Institute (IVRI), Bareilly",
+      "Located in Bengaluru"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-005-specialized-medical-therapies-and-stem-cells-section-004-animal-stem-cell-biobank",
+    "claimType": "Application/Objective",
+    "claimText": "The animal stem cell biobank at NIAB focuses on regenerative medicine, cellular therapies for livestock, and disease modeling.",
+    "evidenceExcerpt": "Focuses on regenerative medicine, cellular therapies for livestock, and disease modeling.",
+    "pageNumbers": [
+      12
+    ],
+    "examUse": "Statement-based question on the primary applications of the animal stem cell biobank.",
+    "distractorHooks": [
+      "Focuses exclusively on human regenerative medicine",
+      "Aimed primarily at cloning endangered wildlife species"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-005-specialized-medical-therapies-and-stem-cells-section-004-animal-stem-cell-biobank",
+    "claimType": "Institutional Support",
+    "claimText": "The animal stem cell biobank is supported by the National Biopharma Mission (NBM) under the Department of Biotechnology - BIRAC.",
+    "evidenceExcerpt": "Supported by the National Biopharma Mission (NBM) under the Department of Biotechnology - BIRAC.",
+    "pageNumbers": [
+      12
+    ],
+    "examUse": "Statement-based question on the funding and supporting agency for the biobank.",
+    "distractorHooks": [
+      "Supported by the Indian Council of Agricultural Research (ICAR)",
+      "Supported by the Ministry of Environment, Forest and Climate Change"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-005-specialized-medical-therapies-and-stem-cells-section-004-animal-stem-cell-biobank",
+    "claimType": "Mission Feature",
+    "claimText": "The National Biopharma Mission (NBM) is an industry-academia collaborative mission dedicated to biopharmaceutical development.",
+    "evidenceExcerpt": "NBM is an industry-academia collaborative mission for biopharmaceutical development.",
+    "pageNumbers": [
+      12
+    ],
+    "examUse": "Statement-based question on the nature and objective of the National Biopharma Mission.",
+    "distractorHooks": [
+      "It is a purely academic research initiative without industry involvement",
+      "It focuses exclusively on agricultural biotechnology and genetically modified crops"
+    ]
+  }
+]

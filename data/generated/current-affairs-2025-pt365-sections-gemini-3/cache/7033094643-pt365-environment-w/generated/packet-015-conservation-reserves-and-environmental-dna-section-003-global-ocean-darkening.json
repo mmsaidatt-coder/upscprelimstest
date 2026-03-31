@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Global Ocean Darkening':\n1. It leads to the shrinking of the photic zone, a layer that typically extends up to 200 meters below the ocean surface.\n2. In coastal regions, this phenomenon is primarily driven by nutrient and sediment loading from agricultural runoff.\n3. In open oceans, it is primarily caused by surface warming that triggers algal blooms.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Ocean darkening refers to a reduction in light penetration, which shrinks the photic zone (the sunlit layer up to 200 meters deep where 90% of marine life thrives).\nStatement 2 is correct: Coastal darkening is caused by a combination of nutrient, organic material, and sediment loading from agricultural runoff.\nStatement 3 is correct: In open oceans, darkening is driven by surface warming leading to algal blooms and climate-driven circulation changes.",
+      "takeaway": "Ocean darkening has distinct drivers depending on the region: sediment and nutrient runoff in coastal areas, and surface warming leading to algal blooms in the open ocean.",
+      "evidenceExcerpt": "Ocean darkening shrinks the photic zone, which is the sunlit layer up to 200 meters deep where 90% of marine life thrives. Coastal darkening is caused by nutrient, organic material, and sediment loading from agricultural runoff. Open ocean darkening is driven by surface warming leading to algal blooms and climate-driven circulation changes."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the distribution and impacts of 'Global Ocean Darkening', consider the following statements:\n1. Between 2003 and 2022, the phenomenon was notably observed in the Arctic, Antarctic, and Gulf Stream regions.\n2. It expands the habitat for the majority of marine life by increasing the depth of light penetration.\n3. It negatively affects global climate regulation by limiting ocean productivity.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: A study found that 21% of the global ocean became darker between 2003 and 2022, notably in the Arctic, Antarctic, and Gulf Stream.\nStatement 2 is incorrect: Ocean darkening reduces light penetration, thereby shrinking the photic zone where 90% of marine life thrives, rather than expanding it.\nStatement 3 is correct: The impacts of ocean darkening include limited ocean productivity, declining fish stocks, and disrupted climate regulation.",
+      "takeaway": "Ocean darkening shrinks the photic zone, limiting ocean productivity and negatively impacting marine food webs and climate regulation.",
+      "evidenceExcerpt": "21% of the global ocean became darker between 2003 and 2022, notably in the Arctic, Antarctic, and Gulf Stream. Ocean darkening shrinks the photic zone... Impacts include limited ocean productivity, declining fish stocks, and affected climate regulation."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-Choice",
+      "prompt": "Which of the following is the most likely ecological consequence of the phenomenon known as 'Global Ocean Darkening'?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A vertical compression of the habitat that supports the vast majority of marine organisms."
+        },
+        {
+          "id": "B",
+          "text": "An increase in global ocean productivity due to the expansion of the nutrient-rich aphotic zone."
+        },
+        {
+          "id": "C",
+          "text": "Enhanced light penetration in coastal regions leading to the proliferation of benthic flora."
+        },
+        {
+          "id": "D",
+          "text": "A shift of marine life populations exclusively toward the Arctic and Antarctic regions."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Ocean darkening shrinks the photic zone (the sunlit layer up to 200 meters deep), which is where 90% of marine life thrives. By reducing light penetration, the vertical extent of this critical habitat is compressed, which limits overall ocean productivity and leads to declining fish stocks.",
+      "takeaway": "The shrinking of the photic zone due to ocean darkening restricts the vertical space available for the majority of marine life, limiting overall ocean productivity.",
+      "evidenceExcerpt": "Ocean darkening shrinks the photic zone, which is the sunlit layer up to 200 meters deep where 90% of marine life thrives... Impacts include limited ocean productivity, declining fish stocks, and affected climate regulation."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the drivers of 'Ocean Darkening':\n\n1. In coastal ecosystems, the phenomenon is primarily exacerbated by terrestrial agricultural runoff.\n2. In open oceans, the phenomenon is largely independent of climate-driven circulation changes.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Coastal darkening is caused by nutrient, organic material, and sediment loading from agricultural runoff. Statement 2 is incorrect: Open ocean darkening is actively driven by climate-driven circulation changes and surface warming.",
+      "takeaway": "The drivers of ocean darkening vary geographically: coastal areas are heavily affected by terrestrial runoff, while open oceans are impacted by climate-driven changes like surface warming and circulation shifts.",
+      "evidenceExcerpt": "Coastal darkening is caused by nutrient, organic material, and sediment loading from agricultural runoff. Open ocean darkening is driven by surface warming leading to algal blooms and climate-driven circulation changes."
+    }
+  ]
+}

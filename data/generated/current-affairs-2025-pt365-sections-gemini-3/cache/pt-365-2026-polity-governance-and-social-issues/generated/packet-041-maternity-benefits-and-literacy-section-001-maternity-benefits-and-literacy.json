@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Comparison-driven",
+      "prompt": "Under the Maternity Benefit (Amendment) Act, 2017, which of the following correctly distinguishes the leave entitlements for different categories of mothers?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Biological mothers with one surviving child are entitled to 26 weeks of leave, while commissioning mothers are entitled to 12 weeks."
+        },
+        {
+          "id": "B",
+          "text": "Biological mothers with two surviving children receive 26 weeks of leave, whereas adopting mothers receive 12 weeks."
+        },
+        {
+          "id": "C",
+          "text": "Commissioning mothers and adopting mothers (of children above 3 months) are both entitled to 12 weeks of leave."
+        },
+        {
+          "id": "D",
+          "text": "All categories of mothers, including biological, adopting, and commissioning, are entitled to a uniform 26 weeks of paid leave."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "The 2017 Amendment increased leave to 26 weeks only for women with less than two surviving children. For women who already have two or more children, commissioning mothers, and mothers adopting a child below 3 months, the entitlement is 12 weeks. Option C is incorrect because the 12-week benefit for adopting mothers only applies if the child is below 3 months of age.",
+      "takeaway": "Maternity benefit duration varies based on the number of surviving children and the method of motherhood (biological vs. adopting/commissioning).",
+      "evidenceExcerpt": "Increased paid maternity leave from 12 weeks to 26 weeks for women with less than two surviving children. ... Extension of 12 weeks of maternity benefit to women who are expecting after having 2 children, commissioning mothers and adopting (child below 3 months) mother.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Feature-matching",
+      "prompt": "An establishment in the private sector is evaluating its compliance with the Maternity Benefit (Amendment) Act, 2017. Which of the following sets of conditions is mandatory for the establishment?",
+      "options": [
+        {
+          "id": "A",
+          "text": "If it employs 10 or more women, it must provide a crèche facility and allow 4 visits a day."
+        },
+        {
+          "id": "B",
+          "text": "If it employs 50 or more employees, it must provide a crèche facility and allow 4 visits a day."
+        },
+        {
+          "id": "C",
+          "text": "If it employs 10 or more employees, it must provide work-from-home options to all nursing mothers regardless of the nature of work."
+        },
+        {
+          "id": "D",
+          "text": "If it employs 50 or more women, it must provide 26 weeks of leave to mothers even if they have three surviving children."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Act mandates that any establishment with 50 or more employees (not just women) must have a crèche facility. Section 11A specifies that the employer shall allow 4 visits a day to the crèche. Option A is incorrect because the 10-employee threshold applies to the general applicability of the Act, not the crèche. Option C is incorrect because WFH is dependent on the 'nature of work'. Option D is incorrect as the 26-week rule is limited to those with fewer than two children.",
+      "takeaway": "The crèche facility mandate is triggered by a total employee count of 50, whereas general Act applicability starts at 10 employees.",
+      "evidenceExcerpt": "Any establishment which has 50 or more employees shall have crèche facility. Section 11A states that employer shall allow 4 visits a day to creche by woman employee.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Hard",
+      "questionType": "Applied-logic",
+      "prompt": "A woman employee is planning her maternity leave under the Maternity Benefit (Amendment) Act, 2017. She has no surviving children and expects her delivery on December 1st. According to the Act, what is the maximum period of paid leave she can claim starting before the expected delivery date?",
+      "options": [
+        {
+          "id": "A",
+          "text": "12 weeks"
+        },
+        {
+          "id": "B",
+          "text": "26 weeks"
+        },
+        {
+          "id": "C",
+          "text": "8 weeks"
+        },
+        {
+          "id": "D",
+          "text": "6 weeks"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "While the total paid maternity leave for a woman with less than two surviving children is 26 weeks, the Act specifically stipulates that out of these 26 weeks, not more than 8 weeks shall precede the expected date of delivery.",
+      "takeaway": "The Maternity Benefit Act caps the pre-delivery portion of the 26-week leave at 8 weeks.",
+      "evidenceExcerpt": "Increased paid maternity leave from 12 weeks to 26 weeks for women with less than two surviving children. Out of these 26 weeks, not more than 8 weeks shall be preceding the expected date of delivery.",
+      "contextLines": []
+    }
+  ]
+}

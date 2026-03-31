@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding India's space programmes:\n1. A successful Gaganyaan mission will make India the second Asian nation to launch a crewed spacecraft.\n2. Both the Gaganyaan spacecraft and the planned Bharatiya Antariksh Station (BAS) are designed to operate in Low Earth Orbit (LEO).\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: A successful launch will make India the 4th country globally to launch a crewed spacecraft, after the US, Russia, and China. Since China is the only other Asian nation on this list, India will be the second. Statement 2 is correct: Gaganyaan targets an orbit of 400 km (LEO), and the BAS is planned to orbit at 400-450 km, which is also within Low Earth Orbit.",
+      "takeaway": "India's major upcoming human spaceflight initiatives, including Gaganyaan and BAS, are focused on Low Earth Orbit operations, establishing India as the fourth global and second Asian power in crewed spaceflight.",
+      "evidenceExcerpt": "Successful launch of Gaganyaan will make India only the 4th country (after the US, Russia, and China) that have launched crewed spacecraft. Bharatiya Antariksh Station (BAS)... will orbit around 400 - 450km above the Earth's surface.",
+      "qualityScore": 90,
+      "reviewNotes": "Excellent question that requires candidates to logically deduce India's standing in Asia based on the global list provided in the text, while also testing their understanding of orbital altitudes."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Gaganyaan mission:\n1. It aims to launch a crew of three members to space for a duration of seven days.\n2. The spacecraft will be placed in a Low Earth Orbit (LEO) at an altitude of approximately 400 km.\n3. The launch vehicle for the mission is a three-stage rocket formerly known as GSLV Mk-III.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The mission aims to launch a crew of 3 members for a 3-day mission, not seven days. Statement 2 is correct: The crew will be placed in a Low Earth Orbit (LEO) of 400 km. Statement 3 is correct: The mission utilizes the Launch Vehicle Mark-3 (LVM-3), formerly known as GSLV Mk-III, which is a 3-stage rocket.",
+      "takeaway": "The Gaganyaan mission relies on the 3-stage LVM-3 rocket to carry a 3-member crew to a 400 km Low Earth Orbit for a 3-day mission.",
+      "evidenceExcerpt": "Aim: Demonstration of human spaceflight capability by launching a crew of 3 members to an orbit of 400 km (LEO) for a 3-day mission... Launch Vehicle Mark-3 (LVM-3): Formerly known as GSLV Mk-III, it is a 3-stage rocket.",
+      "qualityScore": 85,
+      "reviewNotes": "Rewrote the first statement to test the specific duration of the mission, creating a strong 'How many statements are correct' format question."
+    }
+  ],
+  "reviewerNotes": "Selected 4 questions covering the Gaganyaan mission parameters, global standing, Vyommitra, and the BAS. Rewrote distractors to ensure they are plausible and parallel, and adjusted statement combinations to strictly adhere to UPSC standards."
+}

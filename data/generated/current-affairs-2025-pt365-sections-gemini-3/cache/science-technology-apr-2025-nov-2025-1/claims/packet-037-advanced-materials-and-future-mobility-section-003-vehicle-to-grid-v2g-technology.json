@@ -1,0 +1,49 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-037-advanced-materials-and-future-mobility-section-003-vehicle-to-grid-v2g-technology",
+    "claimType": "Conceptual",
+    "claimText": "Vehicle-to-Grid (V2G) technology allows electric vehicle batteries to function as decentralized energy storage by sending power back to the electrical grid.",
+    "evidenceExcerpt": "V2G enables EV batteries to send power back to the grid, acting as decentralized energy storage.",
+    "pageNumbers": [
+      74
+    ],
+    "examUse": "Statement-based question on the definition and function of V2G technology.",
+    "distractorHooks": [
+      "Grid-to-Vehicle (G2V) one-way charging only",
+      "Centralized energy storage systems"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-037-advanced-materials-and-future-mobility-section-003-vehicle-to-grid-v2g-technology",
+    "claimType": "Factual",
+    "claimText": "A pilot project for Vehicle-to-Grid (V2G) technology was initiated by the Kerala State Electricity Board (KSEB) and IIT Bombay.",
+    "evidenceExcerpt": "Kerala State Electricity Board (KSEB) and IIT Bombay initiated a pilot project for V2G technology.",
+    "pageNumbers": [
+      74
+    ],
+    "examUse": "Factual statement in a multi-statement question regarding V2G initiatives in India.",
+    "distractorHooks": [
+      "IIT Delhi",
+      "NITI Aayog",
+      "Tata Power"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-037-advanced-materials-and-future-mobility-section-003-vehicle-to-grid-v2g-technology",
+    "claimType": "Conceptual",
+    "claimText": "V2G technology facilitates the integration of Renewable Energy (RE) and improves grid stability by modulating power to reduce the impact of variable RE.",
+    "evidenceExcerpt": "V2G helps modulate power in EV batteries to improve grid stability against variable RE impacts.",
+    "pageNumbers": [
+      74
+    ],
+    "examUse": "Conceptual question on the applications and grid-level benefits of V2G technology.",
+    "distractorHooks": [
+      "Decreases grid stability",
+      "Incompatible with renewable energy",
+      "Increases peak demand load"
+    ]
+  }
+]

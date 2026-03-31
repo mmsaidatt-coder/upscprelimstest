@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Pair-matching",
+      "prompt": "Consider the following pairs of Nobel Prize categories and their respective awarding bodies: 1. Physics: Royal Swedish Academy of Sciences, 2. Medicine or Physiology: Nobel Assembly at Karolinska Institute, 3. Literature: Swedish Academy, 4. Peace: Norwegian Nobel Committee. How many of the pairs given above are correctly matched?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "All four pairs are correctly matched. According to the Nobel Prize administration, the Royal Swedish Academy of Sciences awards the prizes for Physics, Chemistry, and Economics. The Nobel Assembly at Karolinska Institute awards the prize for Medicine or Physiology. The Swedish Academy awards the prize for Literature, and the Norwegian Nobel Committee awards the Peace prize.",
+      "takeaway": "The Nobel Prizes are awarded by different specialized institutions in Sweden and Norway, and distinguishing between them is a common exam requirement.",
+      "evidenceExcerpt": "Physics: Royal Swedish Academy of Sciences; Medicine or Physiology: Nobel Assembly at Karolinska Institute; Literature: Swedish Academy; Peace: Norwegian Nobel Committee.",
+      "qualityScore": 88,
+      "reviewNotes": "This question tests the specific institutional knowledge of the Nobel Prize awarding bodies using the modern 'How many pairs' format favored by UPSC.",
+      "contextLines": []
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Nobel Prizes, consider the following statements: 1. The Royal Swedish Academy of Sciences is responsible for awarding the prizes in Physics, Chemistry, and Economics. 2. The Nobel Prize in Peace is awarded by a committee based in Norway, unlike the other categories which are awarded in Sweden. 3. The Nobel Foundation, which administers the awards, was established based on the last will of Alfred Nobel. Which of the statements given above are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Statement 1 is correct as the Royal Swedish Academy of Sciences handles Physics, Chemistry, and Economics. Statement 2 is correct; the Peace prize is awarded by the Norwegian Nobel Committee, while others are Swedish. Statement 3 is correct; the foundation and prizes are based on Alfred Nobel's 1895 will.",
+      "takeaway": "The Nobel Prize system involves multiple awarding bodies across two countries, all governed by the Nobel Foundation.",
+      "evidenceExcerpt": "Physics: Royal Swedish Academy of Sciences... Economics: Royal Swedish Academy of Sciences... Peace: Norwegian Nobel Committee... administered by the Nobel Foundation... based on the last will of Alfred Nobel.",
+      "qualityScore": 87,
+      "reviewNotes": "A solid statement-based question that covers the administration, geography, and institutional responsibility of the Nobel Prizes.",
+      "contextLines": []
+    }
+  ],
+  "reviewerNotes": "The questions were rewritten to align with UPSC's current testing patterns, specifically the 'How many pairs' format and multi-statement analysis. The content is strictly grounded in the provided text, covering awarding bodies, administration, and specific laureates."
+}

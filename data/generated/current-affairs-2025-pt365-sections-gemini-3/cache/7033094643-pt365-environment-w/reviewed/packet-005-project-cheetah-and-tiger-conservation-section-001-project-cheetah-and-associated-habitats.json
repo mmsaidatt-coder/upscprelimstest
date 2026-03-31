@@ -1,0 +1,98 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Feature-matching",
+      "prompt": "Consider the following features:\n1. It is located in the Khathiar-Gir dry deciduous forest ecoregion.\n2. The River Chambal flows through this protected area.\n3. The Chaturbhuj Nala rock shelters are located within its boundaries.\n\nWhich one of the following protected areas is best described by the features given above?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Kuno National Park"
+        },
+        {
+          "id": "B",
+          "text": "Gandhi Sagar Wildlife Sanctuary"
+        },
+        {
+          "id": "C",
+          "text": "National Chambal Sanctuary"
+        },
+        {
+          "id": "D",
+          "text": "Mukundara Hills National Park"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Gandhi Sagar Wildlife Sanctuary is located in Madhya Pradesh and features the Khathiar-Gir dry deciduous forest, the River Chambal, and the Chaturbhuj Nala rock shelters. The other options are plausible distractors as they are located in the same broader geographical region, but they do not contain all the specific features listed.",
+      "takeaway": "Gandhi Sagar WLS in Madhya Pradesh is an important habitat characterized by the River Chambal, Khathiar-Gir dry deciduous forests, and Chaturbhuj Nala rock shelters.",
+      "evidenceExcerpt": "Gandhi Sagar WLS: Located in MP... features Khathiar-Gir dry deciduous forest, River Chambal, and Chaturbhuj Nala rock shelters.",
+      "qualityScore": 95,
+      "reviewNotes": "Excellent UPSC-style feature-matching question. The distractors are highly plausible as they are all protected areas in the Chambal river basin or nearby regions."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Cheetahs:\n1. The Asiatic Cheetah is classified as Critically Endangered, whereas the African Cheetah is classified as Vulnerable by the IUCN.\n2. In the wild, the Asiatic Cheetah is currently found only in Iran.\n3. Unlike other big cats, cheetahs do not roar.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: The Asiatic Cheetah is Critically Endangered, while the African Cheetah is Vulnerable. Statement 2 is correct: The Asiatic Cheetah is found only in Iran. Statement 3 is correct: Cheetahs are the world's fastest mammals and, unlike other big cats, they do not roar.",
+      "takeaway": "The Asiatic Cheetah (Critically Endangered) is restricted to Iran, whereas the African Cheetah (Vulnerable) is found in Africa. Cheetahs are unique among big cats as they cannot roar.",
+      "evidenceExcerpt": "Asiatic Cheetah: IUCN Critically Endangered... found only in Iran... African Cheetah: IUCN Vulnerable... Cheetahs are the world's fastest mammals and do not roar unlike other big cats.",
+      "qualityScore": 85,
+      "reviewNotes": "Good coverage of species characteristics and conservation status. The statements are clear and unambiguous."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements:\n1. South Africa holds the largest population of the African Cheetah in the wild.\n2. Both the Asiatic and African cheetahs are listed under Appendix I of the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES).\n3. The Asiatic Cheetah was officially declared extinct in India in 1952.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Namibia, not South Africa, holds the largest population of the African Cheetah. Statement 2 is correct: Both the Asiatic and African cheetahs are accorded the highest level of protection under CITES, being listed in Appendix I. Statement 3 is correct: The Asiatic Cheetah was officially declared extinct in India in 1952.",
+      "takeaway": "While the Asiatic and African cheetahs differ in their IUCN conservation status, both are highly protected under CITES Appendix I. Namibia holds the largest African Cheetah population.",
+      "evidenceExcerpt": "Asiatic Cheetah: IUCN Critically Endangered, CITES Appendix I, WPA Schedule I; found only in Iran; extinct in India since 1952. African Cheetah: IUCN Vulnerable, CITES Appendix I; Namibia holds the largest population.",
+      "qualityScore": 85,
+      "reviewNotes": "Good factual question. Changed Statement 1 to be incorrect (South Africa instead of Namibia) to increase difficulty and avoid having 'All three' as the answer for every statement-based question."
+    }
+  ],
+  "reviewerNotes": "Selected 4 high-quality questions. Q2 is a standout feature-matching question with highly plausible distractors. Q1, Q3, and Q4 are solid statement-based questions covering different aspects of the text (species characteristics, project administration, and conservation status). Adjusted some statements in Q3 and Q4 to be incorrect to vary the correct options and increase difficulty."
+}

@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the recently discovered 'SHUKR gene':\n1. It plays a crucial role in managing proteins required for healthy pollen development in plants.\n2. Its evolutionary history provides insights into the sudden rise and diversification of flowering plants.\n3. It was discovered by researchers at the Indian Council of Agricultural Research (ICAR).\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The SHUKR gene controls F-box genes to manage proteins required for healthy pollen development. Statement 2 is correct: Its fast evolution helps explain Darwin's 'abominable mystery' regarding the sudden evolutionary rise of flowering plants. Statement 3 is incorrect: The SHUKR gene was discovered and researched by the Council of Scientific and Industrial Research - Centre for Cellular and Molecular Biology (CSIR-CCMB), Hyderabad, not ICAR.",
+      "takeaway": "The SHUKR gene, discovered by CSIR-CCMB, regulates F-box genes for pollen development and offers evolutionary clues to the rapid diversification of flowering plants.",
+      "evidenceExcerpt": "Researchers from CSIR-CCMB discovered the SHUKR gene, which controls F-box genes to manage proteins for healthy pollen development. It helps explain Darwin's abominable mystery regarding the sudden rise of flowering plants."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the evolution of flowering plants, consider the following statements:\n1. The SHUKR gene is primarily responsible for regulating photosynthesis in high-altitude flowering plants.\n2. The fast evolution of the SHUKR gene is linked to the sudden evolutionary rise of flowering plants, often referred to as Darwin's 'abominable mystery'.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The SHUKR gene is not involved in regulating photosynthesis; rather, it controls F-box genes that manage proteins for healthy pollen development. Statement 2 is correct: The fast evolution of the SHUKR gene helps explain Darwin's 'abominable mystery' about the sudden rise of flowering plants.",
+      "takeaway": "Darwin's 'abominable mystery' refers to the sudden evolutionary appearance and rapid diversification of flowering plants (angiosperms), a phenomenon now better understood through the evolutionary study of genes like SHUKR.",
+      "evidenceExcerpt": "It controls F-box genes involved in developing healthy pollen. Its fast evolution helps explain Darwin's 'abominable mystery' about the sudden rise of flowering plants."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "In the context of evolutionary biology, the phrase \"Darwin's abominable mystery\" is frequently used to describe which of the following phenomena?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The sudden appearance and rapid diversification of flowering plants."
+        },
+        {
+          "id": "B",
+          "text": "The mass extinction of non-avian dinosaurs at the end of the Cretaceous period."
+        },
+        {
+          "id": "C",
+          "text": "The evolutionary transition of aquatic vertebrates to terrestrial tetrapods."
+        },
+        {
+          "id": "D",
+          "text": "The rapid emergence of complex multicellular organisms during the Cambrian explosion."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Charles Darwin referred to the sudden evolutionary rise and rapid diversification of angiosperms (flowering plants) as an 'abominable mystery'. Recent research on the fast evolution of the SHUKR gene has provided new insights to help explain this phenomenon.",
+      "takeaway": "Darwin's 'abominable mystery' specifically refers to the sudden evolutionary rise of flowering plants, a puzzle that modern genetics (like the discovery of the SHUKR gene) is helping to solve.",
+      "evidenceExcerpt": "It helps explain Darwin's abominable mystery regarding the sudden rise of flowering plants."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Applied",
+      "prompt": "If the recently discovered 'SHUKR gene' in a flowering plant is deliberately silenced or mutated using genetic engineering tools, which of the following is the most likely direct consequence?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The plant will lose its ability to perform photosynthesis in low-light conditions."
+        },
+        {
+          "id": "B",
+          "text": "The plant will fail to develop healthy pollen, leading to impaired reproduction."
+        },
+        {
+          "id": "C",
+          "text": "The plant's root system will become incapable of forming symbiotic associations with nitrogen-fixing bacteria."
+        },
+        {
+          "id": "D",
+          "text": "The plant will exhibit uncontrolled cell division, leading to tumor-like growths on its stem."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The SHUKR gene specifically controls F-box genes to manage proteins required for healthy pollen development. Therefore, silencing or mutating this gene would directly impair pollen development, negatively affecting the plant's reproductive capabilities.",
+      "takeaway": "Understanding the specific physiological function of a gene allows scientists to predict the outcomes of its mutation or silencing. The SHUKR gene is fundamentally tied to pollen development.",
+      "evidenceExcerpt": "Researchers from CSIR-CCMB discovered the SHUKR gene, which controls F-box genes to manage proteins for healthy pollen development."
+    }
+  ]
+}

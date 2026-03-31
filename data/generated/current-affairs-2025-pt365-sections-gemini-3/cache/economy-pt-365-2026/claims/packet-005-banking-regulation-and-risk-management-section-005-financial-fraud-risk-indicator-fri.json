@@ -1,0 +1,50 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-005-banking-regulation-and-risk-management-section-005-financial-fraud-risk-indicator-fri",
+    "claimType": "Factual",
+    "claimText": "The Financial Fraud Risk Indicator (FRI) was launched by the Digital Intelligence Unit (DIU) of the Department of Telecommunications (DoT).",
+    "evidenceExcerpt": "Launched in May 2025 by DoT's Digital Intelligence Unit (DIU).",
+    "pageNumbers": [
+      13
+    ],
+    "examUse": "Statement-based question identifying the nodal ministry or agency responsible for FRI.",
+    "distractorHooks": [
+      "Reserve Bank of India (RBI)",
+      "Ministry of Home Affairs (MHA)",
+      "Ministry of Finance"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-005-banking-regulation-and-risk-management-section-005-financial-fraud-risk-indicator-fri",
+    "claimType": "Conceptual",
+    "claimText": "The Financial Fraud Risk Indicator (FRI) is a metric that classifies mobile numbers into Medium, High, or Very High risk categories for financial fraud.",
+    "evidenceExcerpt": "A risk-based metric that classifies a mobile number to have been associated with Medium, High, or Very High risk of financial fraud.",
+    "pageNumbers": [
+      13
+    ],
+    "examUse": "Statement-based question on the specific function and classification tiers of the FRI.",
+    "distractorHooks": [
+      "Classifies bank accounts instead of mobile numbers",
+      "Includes a 'Low' risk category",
+      "Classifies PAN cards or Aadhaar numbers"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-005-banking-regulation-and-risk-management-section-005-financial-fraud-risk-indicator-fri",
+    "claimType": "Factual",
+    "claimText": "The Financial Fraud Risk Indicator (FRI) aggregates data from the National Cybercrime Reporting Portal (NCRP), the Chakshu platform, and intelligence from banks and financial institutions.",
+    "evidenceExcerpt": "This classification is an outcome of inputs obtained from various stakeholders including reporting on Indian Cyber Crime Coordination Centre (I4C's) National Cybercrime Reporting Portal (NCRP), DoT's Chakshu platform, and Intelligence shared by banks and financial institutions.",
+    "pageNumbers": [
+      13
+    ],
+    "examUse": "Multi-statement question regarding the data sources integrated into the FRI.",
+    "distractorHooks": [
+      "Relies exclusively on RBI's Central Fraud Registry",
+      "Does not include telecom-specific platforms like Chakshu",
+      "Uses credit bureau (CIBIL) data"
+    ]
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-002-iucn-commissions-and-green-status-section-003-iucn-world-heritage-outlook-4-report",
+    "claimType": "Factual",
+    "claimText": "The IUCN World Heritage Outlook 4 Report categorizes the Western Ghats, Manas National Park, and Sundarbans National Park as being of 'significant concern'.",
+    "evidenceExcerpt": "It categorises Western Ghats and 2 national parks (NP) in India – Assam’s Manas NP and West Bengal’s Sundarbans NP as being of “significant concern”.",
+    "pageNumbers": [
+      8
+    ],
+    "examUse": "Statement-based question on the conservation status of Indian sites in the IUCN World Heritage Outlook Report.",
+    "distractorHooks": [
+      "Swapping the names of the national parks (e.g., Kaziranga instead of Manas)",
+      "Changing the status category to 'Critical' or 'Good'"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-002-iucn-commissions-and-green-status-section-003-iucn-world-heritage-outlook-4-report",
+    "claimType": "Factual",
+    "claimText": "Khangchendzonga National Park is the only Indian site that remained 'Good' in the Conservation Outlook Rating of the IUCN World Heritage Outlook 4 Report.",
+    "evidenceExcerpt": "Only Khangchendzonga National Park remained ‘Good’ in Conservation Outlook Rating.",
+    "pageNumbers": [
+      8
+    ],
+    "examUse": "Fact-based statement identifying the only 'Good' rated Indian site in the report.",
+    "distractorHooks": [
+      "Naming another prominent national park (e.g., Jim Corbett, Keoladeo) as the only 'Good' site",
+      "Stating that no Indian site achieved a 'Good' rating"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-002-iucn-commissions-and-green-status-section-003-iucn-world-heritage-outlook-4-report",
+    "claimType": "Factual",
+    "claimText": "The conservation outlook status of Sundarbans National Park deteriorated from 'Good with some Concerns' to 'Significant Concerns' between 2020 and 2025.",
+    "evidenceExcerpt": "Sundarbans National Park: Witnessed Deterioration in its conservation outlook status from ‘Good with some Concerns’ to ‘Significant Concerns’ from 2020-2025.",
+    "pageNumbers": [
+      8
+    ],
+    "examUse": "Statement-based question tracking the changing conservation status of major Indian ecological sites.",
+    "distractorHooks": [
+      "Stating the status improved rather than deteriorated",
+      "Attributing this specific deterioration to a different national park like Manas"
+    ]
+  }
+]

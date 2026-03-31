@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Export Promotion Mission (EPM), consider the following statements:\n1. It is implemented by the Directorate General of Foreign Trade (DGFT).\n2. The 'Niryat Protsahan' component focuses on providing financial support for affordable trade finance.\n3. The 'Niryat Disha' component provides non-financial support to enhance market readiness.\nHow many of the statements given above are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "All three statements are correct. The Export Promotion Mission (EPM) is implemented by the DGFT. It operates through two primary tracks: Niryat Protsahan, which handles financial support and affordable trade finance, and Niryat Disha, which focuses on non-financial support and capacity building to improve market readiness for exporters.",
+      "takeaway": "The EPM uses a dual-track approach (Protsahan for finance and Disha for readiness) under the DGFT.",
+      "evidenceExcerpt": "The mission is implemented by the Directorate General of Foreign Trade (DGFT). Niryat Protsahan provides financial support for affordable trade finance, while Niryat Disha provides non-financial support to enhance market readiness.",
+      "qualityScore": 92,
+      "reviewNotes": "This question accurately reflects the institutional framework and the functional distinction between the two components of the EPM as per the source text.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding India's export landscape:\n1. India's share in global exports of goods and services is currently estimated at approximately 5%.\n2. Micro, Small and Medium Enterprises (MSMEs) contribute nearly 45% of India's total exports.\n3. The export sector's contribution to India's overall GDP is approximately 21%.\nWhich of the statements given above are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect because India's share in global exports of goods and services is currently around 2.5%, not 5%. Statement 2 is correct as MSMEs account for 45% of total exports. Statement 3 is correct as the export sector contributes 21% to India's GDP (FY 2024-25).",
+      "takeaway": "While India's domestic export contribution to GDP is significant (21%), its global market share remains relatively low at 2.5%.",
+      "evidenceExcerpt": "India's export sector contributes 21% to overall GDP (FY 2024-25). MSMEs contribute 45% of India's total exports. India's share in global exports of goods and services is currently at around 2.5%.",
+      "qualityScore": 88,
+      "reviewNotes": "The question tests specific macroeconomic data points provided in the text, using plausible but incorrect figures for the global share to challenge the candidate.",
+      "contextLines": []
+    }
+  ],
+  "reviewerNotes": "The selected questions cover both the institutional/programmatic details of the Export Promotion Mission and the broader macroeconomic context of India's trade sector. The distractors are designed to test precision in data and functional definitions."
+}

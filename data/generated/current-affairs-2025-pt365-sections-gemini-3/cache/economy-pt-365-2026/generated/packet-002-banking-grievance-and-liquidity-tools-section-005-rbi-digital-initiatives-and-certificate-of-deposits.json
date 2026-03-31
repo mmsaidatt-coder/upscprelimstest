@@ -1,0 +1,178 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Certificate of Deposits (CDs) in India:\n1. They are negotiable money market instruments issued at a discount to their face value.\n2. All Scheduled Commercial Banks are eligible to issue CDs without any exceptions.\n3. The maturity period of CDs issued by banks ranges from 7 days to one year.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: CDs are negotiable money market instruments issued at a discount to face value. Statement 2 is incorrect: While Scheduled Commercial Banks can issue CDs, Regional Rural Banks (RRBs) and Local Area Banks (LABs) are explicitly excluded. Statement 3 is correct: The maturity period ranges from 7 days to one year.",
+      "takeaway": "Certificate of Deposits are discounted money market instruments with a 7-day to 1-year maturity. RRBs and LABs are not permitted to issue them.",
+      "evidenceExcerpt": "CDs are negotiable money market instruments issued at a discount to face value by Scheduled Commercial Banks (excluding RRBs and LABs) and select FIs, with a maturity of 7 days to one year."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the 'Unified Lending Interface (ULI)', recently seen in the news, consider the following statements:\n1. It is a Digital Public Infrastructure introduced by the Reserve Bank of India to enhance credit delivery.\n2. It provides a retail sandbox environment exclusively for fintech companies to test the Central Bank Digital Currency (CBDC).\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The Unified Lending Interface (ULI) is a Digital Public Infrastructure aimed at enhancing credit delivery. Statement 2 is incorrect: The CBDC retail sandbox for fintechs is a separate initiative by the RBI, distinct from the ULI.",
+      "takeaway": "ULI is focused on credit delivery as a Digital Public Infrastructure, whereas the CBDC sandbox is a separate RBI initiative meant for fintechs.",
+      "evidenceExcerpt": "RBI initiatives include the Unified Lending Interface (ULI), a Digital Public Infrastructure for credit delivery, and a CBDC retail sandbox for fintechs."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Multiple-choice",
+      "prompt": "In the context of the Indian money market, which of the following entities are explicitly excluded from issuing Certificate of Deposits (CDs)?\n1. Regional Rural Banks (RRBs)\n2. Local Area Banks (LABs)\n3. Select Financial Institutions (FIs)\n\nSelect the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Scheduled Commercial Banks and select Financial Institutions (FIs) are permitted to issue Certificate of Deposits. However, Regional Rural Banks (RRBs) and Local Area Banks (LABs) are explicitly excluded from issuing them.",
+      "takeaway": "RRBs and LABs are not permitted to issue Certificate of Deposits, unlike other Scheduled Commercial Banks and select FIs.",
+      "evidenceExcerpt": "CDs are negotiable money market instruments issued at a discount to face value by Scheduled Commercial Banks (excluding RRBs and LABs) and select FIs..."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to Certificate of Deposits (CDs) in the Indian financial system, consider the following statements: 1. They are money market instruments issued at a discount to their face value. 2. The Reserve Bank of India has recently introduced the tokenisation of these instruments. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Certificate of Deposits (CDs) are negotiable money market instruments issued at a discount to their face value. Statement 2 is correct: The tokenisation of Certificate of Deposits has been introduced as part of the RBI's recent digital initiatives.",
+      "takeaway": "CDs are short-term, discounted money market instruments. The RBI is modernizing these instruments by introducing tokenisation to facilitate digital trading and settlement.",
+      "evidenceExcerpt": "Tokenisation of Certificate of Deposits (CDs) is also introduced. CDs are negotiable money market instruments issued at a discount to face value"
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "The Reserve Bank of India has recently introduced various digital and market initiatives. In this context, consider the following pairs: 1. Unified Lending Interface (ULI) : Digital Public Infrastructure for credit delivery. 2. CBDC retail sandbox : Testing environment for fintechs. 3. Certificate of Deposits : Capital market instruments issued by Regional Rural Banks. How many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: ULI is a Digital Public Infrastructure aiming to enhance credit delivery. Pair 2 is correctly matched: A CBDC retail sandbox has been introduced specifically for fintechs. Pair 3 is incorrectly matched: CDs are short-term money market instruments (not capital market instruments), and Regional Rural Banks (RRBs) are explicitly excluded from issuing them.",
+      "takeaway": "It is crucial to distinguish between different RBI initiatives: ULI is for credit delivery, the CBDC sandbox is for fintech testing, and CDs are short-term money market instruments that exclude RRBs and LABs as issuers.",
+      "evidenceExcerpt": "RBI initiatives include the Unified Lending Interface (ULI), a Digital Public Infrastructure for credit delivery, and a CBDC retail sandbox for fintechs... CDs are negotiable money market instruments issued at a discount to face value by Scheduled Commercial Banks (excluding RRBs and LABs)"
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Application-based",
+      "prompt": "A Scheduled Commercial Bank seeks to raise short-term funds to manage its liquidity requirements by issuing a Certificate of Deposit (CD). Based on the regulatory framework, which of the following conditions characterizes this issuance?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The instrument must be issued at a premium to its face value to attract retail investors."
+        },
+        {
+          "id": "B",
+          "text": "The instrument is issued at a discount to its face value and is negotiable in nature."
+        },
+        {
+          "id": "C",
+          "text": "The issuance must be routed exclusively through the Unified Lending Interface (ULI)."
+        },
+        {
+          "id": "D",
+          "text": "The maturity period of the instrument must exceed one year to ensure stable liquidity."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Option B is correct: CDs are negotiable money market instruments issued at a discount to face value. Option A is incorrect because they are issued at a discount, not a premium. Option C is incorrect as ULI is a Digital Public Infrastructure for credit delivery, not for issuing CDs. Option D is incorrect because the maturity period of a CD ranges from 7 days to one year, making it a short-term instrument.",
+      "takeaway": "Certificate of Deposits are short-term (7 days to 1 year), negotiable money market instruments issued at a discount to face value, distinct from credit delivery platforms like ULI.",
+      "evidenceExcerpt": "CDs are negotiable money market instruments issued at a discount to face value by Scheduled Commercial Banks (excluding RRBs and LABs) and select FIs, with a maturity of 7 days to one year."
+    }
+  ]
+}

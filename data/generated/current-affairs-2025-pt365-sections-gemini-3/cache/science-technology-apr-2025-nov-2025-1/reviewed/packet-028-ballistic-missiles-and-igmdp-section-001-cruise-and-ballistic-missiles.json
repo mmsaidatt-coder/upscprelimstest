@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding cruise and ballistic missiles:\n1. Cruise missiles are powered continuously by jet engines, whereas ballistic missiles coast unpowered for the majority of their flight.\n2. Cruise missiles fly at relatively low altitudes within the Earth's atmosphere, whereas ballistic missiles follow a trajectory that arcs upward into the atmosphere before descending.\n3. Ballistic missiles are generally harder to detect early but easier to intercept compared to cruise missiles.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Cruise missiles are powered by jet engines for continuous flight throughout their journey, whereas ballistic missiles are rocket-powered only for the initial boost phase and then coast unpowered for most of their flight.\nStatement 2 is correct: Cruise missiles fly at relatively low altitudes within the Earth's atmosphere. In contrast, ballistic missiles follow a ballistic trajectory, arcing upward into the atmosphere before descending.\nStatement 3 is incorrect: The tactical characteristics are reversed. Cruise missiles are harder to detect early (due to low altitude) but easier to intercept after detection. Ballistic missiles are easier to detect early but harder to intercept due to their high terminal speeds.",
+      "takeaway": "Understanding the trade-offs between missile types is crucial: cruise missiles rely on low-altitude stealth to avoid detection but are vulnerable once found, whereas ballistic missiles rely on sheer speed to defeat interceptors despite early detection.",
+      "evidenceExcerpt": "Cruise Missile: Powered by jet engines for continuous flight throughout their journey... Flies at relatively low altitudes (within the earth's atmosphere)... Ballistic Missile: Rocket-powered for the initial boost phase, then coast unpowered for most of their flight... Follows a ballistic trajectory, arcing upward into the atmosphere before descending... Cruise missiles are harder to detect but easier to intercept after detection, whereas ballistic missiles are easier to detect early but harder to intercept due to speed.",
+      "qualityScore": 88,
+      "reviewNotes": "Converted to the modern 'How many statements are correct' format. The distractors are plausible and test the core conceptual differences between the two primary missile types."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Feature-matching",
+      "prompt": "Consider the following characteristics of a missile system:\n1. It follows a lower trajectory compared to conventional ballistic missiles.\n2. It takes a ballistic trajectory but retains the ability to perform mid-air maneuvers.\n3. It can change its course during flight if required.\n\nWhich of the following missile types is best described by the characteristics given above?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Cruise missile"
+        },
+        {
+          "id": "B",
+          "text": "Quasi-ballistic missile"
+        },
+        {
+          "id": "C",
+          "text": "Intercontinental ballistic missile"
+        },
+        {
+          "id": "D",
+          "text": "Anti-ballistic missile"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The characteristics describe a quasi-ballistic missile. Unlike conventional ballistic missiles that follow a predictable, unpowered arc after their initial boost phase, quasi-ballistic missiles maintain a lower trajectory and can change course or maneuver during flight to evade interception.",
+      "takeaway": "Quasi-ballistic missiles bridge the gap between predictable ballistic trajectories and maneuverable flight paths, making them distinct from standard cruise or ballistic missiles and complicating missile defense systems.",
+      "evidenceExcerpt": "Quasi ballistic missiles are a class of missiles that have low trajectory and take ballistic trajectory but can change course and make maneuvers during the flight if required.",
+      "qualityScore": 85,
+      "reviewNotes": "A classic description-based question that perfectly targets the specific definition of quasi-ballistic missiles provided in the text. The options are parallel and plausible."
+    }
+  ],
+  "reviewerNotes": "Selected two distinct questions from the candidate set. Q1 covers the comparative mechanics and tactical features of cruise vs. ballistic missiles using the modern 'How many statements' format. Q2 is a classic description-based question targeting the specific definition of quasi-ballistic missiles. Both are tightly aligned with the source text and avoid overlapping concepts."
+}

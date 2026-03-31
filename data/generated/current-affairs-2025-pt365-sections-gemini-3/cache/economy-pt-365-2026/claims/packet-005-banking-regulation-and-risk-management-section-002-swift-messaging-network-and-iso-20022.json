@@ -1,0 +1,47 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-005-banking-regulation-and-risk-management-section-002-swift-messaging-network-and-iso-20022",
+    "claimType": "Factual",
+    "claimText": "ISO 20022 is an open global standard for financial information messaging adopted by Indian banks.",
+    "evidenceExcerpt": "The ISO 20022 is an open global standard for financial information.",
+    "pageNumbers": [
+      12
+    ],
+    "examUse": "Statement-based question identifying the purpose of ISO 20022 in banking.",
+    "distractorHooks": [
+      "Confusing ISO 20022 with a domestic payment gateway like UPI",
+      "Describing it as a proprietary closed network instead of an open global standard"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-005-banking-regulation-and-risk-management-section-002-swift-messaging-network-and-iso-20022",
+    "claimType": "Factual",
+    "claimText": "SWIFT is a secure messaging network headquartered in Belgium that facilitates global financial transactions.",
+    "evidenceExcerpt": "It is a secure messaging network facilitating global financial transactions between over 11,000 institutions across 200 countries. Headquarters: Belgium.",
+    "pageNumbers": [
+      12
+    ],
+    "examUse": "Statement-based question on the function and headquarters of SWIFT.",
+    "distractorHooks": [
+      "Claiming SWIFT is a clearing house or central bank rather than a messaging network",
+      "Stating SWIFT is headquartered in the USA or Switzerland"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-005-banking-regulation-and-risk-management-section-002-swift-messaging-network-and-iso-20022",
+    "claimType": "Conceptual",
+    "claimText": "BRICS Pay is a proposed cross-border payment system aimed at reducing the dependence of BRICS member nations on the SWIFT messaging network.",
+    "evidenceExcerpt": "BRICS Pay is a proposed cross-border payment system to facilitate trade and financial transactions among BRICS member to reduce dependence on SWIFT.",
+    "pageNumbers": [
+      12
+    ],
+    "examUse": "Statement-based question on BRICS initiatives and alternatives to the SWIFT system.",
+    "distractorHooks": [
+      "Claiming BRICS Pay is an initiative by the G7 or World Bank",
+      "Stating it is a domestic currency replacement rather than a cross-border payment system"
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the recently discovered 'SHUKR gene':\n1. It controls F-box genes to manage proteins required for healthy pollen development in plants.\n2. Its rapid evolution provides insights into Darwin's 'abominable mystery' regarding the sudden rise of flowering plants.\n3. It was discovered by researchers at the Indian Council of Agricultural Research (ICAR).\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The SHUKR gene controls F-box genes to manage proteins required for healthy pollen development.\nStatement 2 is correct: Its fast evolution helps explain Darwin's 'abominable mystery' regarding the sudden evolutionary rise of flowering plants.\nStatement 3 is incorrect: The SHUKR gene was discovered and researched by the Council of Scientific and Industrial Research - Centre for Cellular and Molecular Biology (CSIR-CCMB), Hyderabad, not ICAR.",
+      "takeaway": "The SHUKR gene, discovered by CSIR-CCMB, regulates F-box genes for pollen development and offers evolutionary clues to the rapid diversification of flowering plants.",
+      "evidenceExcerpt": "Researchers from CSIR-CCMB discovered the SHUKR gene, which controls F-box genes to manage proteins for healthy pollen development. It helps explain Darwin's abominable mystery regarding the sudden rise of flowering plants.",
+      "qualityScore": 85,
+      "reviewNotes": "The question effectively tests factual and conceptual knowledge about a recent scientific discovery. The distractor (ICAR) is highly plausible for a plant-related gene discovery, making it a strong UPSC-style question."
+    }
+  ],
+  "reviewerNotes": "Selected Candidate 1 and refined the statements for better precision. The 'How many statements are correct' format aligns perfectly with recent UPSC trends. The distractor involving ICAR is logical and tests the candidate's exact knowledge of the discovering institution."
+}

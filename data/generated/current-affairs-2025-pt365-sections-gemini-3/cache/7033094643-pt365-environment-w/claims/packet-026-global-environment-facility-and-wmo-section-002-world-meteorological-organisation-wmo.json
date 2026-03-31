@@ -1,0 +1,78 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-026-global-environment-facility-and-wmo-section-002-world-meteorological-organisation-wmo",
+    "claimType": "Institution-Feature",
+    "claimText": "The World Meteorological Organisation (WMO) is a specialized agency of the United Nations headquartered in Geneva, Switzerland.",
+    "evidenceExcerpt": "Established in 1950 as a specialized agency of the United Nations, headquartered in Geneva.",
+    "pageNumbers": [
+      56
+    ],
+    "examUse": "Statement-based question on UN specialized agencies and their headquarters.",
+    "distractorHooks": [
+      "UN principal organ instead of specialized agency",
+      "Headquartered in New York or Paris"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-026-global-environment-facility-and-wmo-section-002-world-meteorological-organisation-wmo",
+    "claimType": "Factual",
+    "claimText": "India is a member state of the World Meteorological Organisation (WMO).",
+    "evidenceExcerpt": "WMO is a specialized UN agency established in 1950, located in Geneva, Switzerland, with 193 Member States including India.",
+    "pageNumbers": [
+      56
+    ],
+    "examUse": "Statement-based question on India's membership in international organizations.",
+    "distractorHooks": [
+      "India is an observer state",
+      "India is not a member"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-026-global-environment-facility-and-wmo-section-002-world-meteorological-organisation-wmo",
+    "claimType": "Institution-Feature",
+    "claimText": "The Global Atmosphere Watch (GAW) Programme is an initiative coordinated by the World Meteorological Organisation (WMO) for global atmospheric monitoring.",
+    "evidenceExcerpt": "Coordinates global atmospheric monitoring networks through the Global Atmosphere Watch (GAW) Programme.",
+    "pageNumbers": [
+      56
+    ],
+    "examUse": "Correct-pair question matching initiatives to their parent organizations.",
+    "distractorHooks": [
+      "UNEP initiative",
+      "UNFCCC initiative"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-026-global-environment-facility-and-wmo-section-002-world-meteorological-organisation-wmo",
+    "claimType": "Factual",
+    "claimText": "The World Meteorological Organisation (WMO) publishes the Greenhouse Gas Bulletin, State of the Global Climate, and State of Global Water Resources reports.",
+    "evidenceExcerpt": "Publishes the Greenhouse Gas Bulletin, State of the Global Climate, and State of Global Water Resources.",
+    "pageNumbers": [
+      56
+    ],
+    "examUse": "Correct-pair or statement-based question on reports and publishing organizations.",
+    "distractorHooks": [
+      "Published by UNEP",
+      "Published by IPCC",
+      "Published by World Bank"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-026-global-environment-facility-and-wmo-section-002-world-meteorological-organisation-wmo",
+    "claimType": "Factual",
+    "claimText": "The Greenhouse Gas Bulletin 2024 reported a 54% increase in radiative forcing from long-lived greenhouse gases.",
+    "evidenceExcerpt": "Greenhouse Gas Bulletin 2024 reported CO2 levels at 423.9 ppm and a 54% increase in radiative forcing from long-lived greenhouse gases.",
+    "pageNumbers": [
+      56
+    ],
+    "examUse": "Statement-based question on recent environmental data and reports.",
+    "distractorHooks": [
+      "Short-lived climate pollutants caused the increase",
+      "Radiative forcing decreased"
+    ]
+  }
+]

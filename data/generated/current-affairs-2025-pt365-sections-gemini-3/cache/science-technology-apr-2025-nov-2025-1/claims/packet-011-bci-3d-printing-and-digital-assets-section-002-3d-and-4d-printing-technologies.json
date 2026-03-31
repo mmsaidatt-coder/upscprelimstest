@@ -1,0 +1,62 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-011-bci-3d-printing-and-digital-assets-section-002-3d-and-4d-printing-technologies",
+    "claimType": "Conceptual",
+    "claimText": "3D printing is an additive manufacturing process that creates three-dimensional objects by laying down successive layers of material.",
+    "evidenceExcerpt": "3D printing is an additive process creating objects by laying down successive layers of material.",
+    "pageNumbers": [
+      23
+    ],
+    "examUse": "Statement-based question distinguishing additive manufacturing from subtractive manufacturing.",
+    "distractorHooks": [
+      "Subtractive manufacturing",
+      "Molding and casting processes"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-011-bci-3d-printing-and-digital-assets-section-002-3d-and-4d-printing-technologies",
+    "claimType": "Factual",
+    "claimText": "3D printing has diverse applications including bioprinting organs, reconstructing fossils, and forensic pathology.",
+    "evidenceExcerpt": "Applications of 3D printing include bioprinting organs (organ on chip), reconstructing fossils, and forensic pathology.",
+    "pageNumbers": [
+      23
+    ],
+    "examUse": "Application-based question identifying valid use cases of 3D printing.",
+    "distractorHooks": [
+      "Inability to use biological materials",
+      "Restricted solely to industrial plastic manufacturing"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-011-bci-3d-printing-and-digital-assets-section-002-3d-and-4d-printing-technologies",
+    "claimType": "Conceptual",
+    "claimText": "4D printing differs from 3D printing by incorporating the dimension of time, allowing objects to transform after being printed.",
+    "evidenceExcerpt": "4D printing evolved from 3D printing by adding the dimension of time.",
+    "pageNumbers": [
+      23
+    ],
+    "examUse": "Comparison question highlighting the difference between 3D and 4D printing.",
+    "distractorHooks": [
+      "Adding a fourth spatial dimension",
+      "Printing using four different materials simultaneously"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-011-bci-3d-printing-and-digital-assets-section-002-3d-and-4d-printing-technologies",
+    "claimType": "Factual",
+    "claimText": "Objects created using 4D printing can change their shape or function in response to environmental stimuli like heat, light, or moisture.",
+    "evidenceExcerpt": "4D printed objects can change shape or function over time in response to environmental stimuli such as heat, light, or moisture.",
+    "pageNumbers": [
+      23
+    ],
+    "examUse": "Statement-based question on the mechanism of transformation in 4D printed objects.",
+    "distractorHooks": [
+      "Transformation requires manual mechanical intervention",
+      "Changes are driven by internal battery-powered motors"
+    ]
+  }
+]

@@ -1,0 +1,129 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Application-based",
+      "prompt": "If the Reserve Bank of India intends to curtail the flow of credit for speculative activities in a particular sector of the economy, without significantly impacting the overall credit availability, which of the following would be its most appropriate instrument?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Increasing the Repo Rate"
+        },
+        {
+          "id": "B",
+          "text": "Raising the Cash Reserve Ratio (CRR)"
+        },
+        {
+          "id": "C",
+          "text": "Modifying the Margin Requirements for that sector"
+        },
+        {
+          "id": "D",
+          "text": "Conducting Open Market Operations to sell government securities"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The scenario requires a tool that can selectively target a specific sector. Margin Requirements are a qualitative (or selective) credit control instrument that allows the RBI to do just this. By increasing the margin requirement for loans to a specific sector, the RBI makes borrowing for that purpose more difficult without tightening overall liquidity. The other options—Repo Rate, CRR, and Open Market Operations—are quantitative instruments that would reduce the overall money supply, affecting all sectors of the economy.",
+      "takeaway": "Qualitative monetary policy instruments like Margin Requirements are used for selective credit control to target specific economic activities, whereas quantitative instruments affect the overall money supply and credit conditions in the economy.",
+      "evidenceExcerpt": "...qualitative tools, which selectively influence credit flow. ... Qualitative tools consist of Moral Suasion, Margin Requirements, and Direct Action.",
+      "qualityScore": 92,
+      "reviewNotes": "This is a high-quality application-based question that tests the understanding of the purpose behind different types of monetary tools, not just their definitions. The prompt was rewritten to create a clearer and more formal scenario."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Conceptual",
+      "prompt": "Which of the following statements most accurately distinguishes between the Statutory Liquidity Ratio (SLR) and the Cash Reserve Ratio (CRR)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "CRR requires banks to hold reserves in cash with themselves, while SLR requires holding government securities with the RBI."
+        },
+        {
+          "id": "B",
+          "text": "Banks earn interest on CRR balances from the RBI, but not on the assets maintained for SLR."
+        },
+        {
+          "id": "C",
+          "text": "CRR mandates holding reserves as cash with the RBI, whereas SLR mandates holding specified liquid assets with the banks themselves."
+        },
+        {
+          "id": "D",
+          "text": "An increase in CRR increases the lending capacity of banks, while an increase in SLR decreases it."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Option C provides the most accurate and complete distinction. CRR involves keeping a percentage of NDTL as cash with the RBI, on which no interest is earned. In contrast, SLR requires banks to maintain a percentage of NDTL in the form of specified liquid assets (like cash, gold, government bonds) with themselves. Option A incorrectly swaps the locations and asset types. Option B is incorrect as banks do not earn interest on CRR, but can earn interest on SLR assets like government bonds. Option D is incorrect as an increase in either CRR or SLR reduces the lending capacity of banks.",
+      "takeaway": "For comparison questions, focus on the precise details of each concept. The key differences between CRR and SLR lie in the form of the reserve (cash vs. liquid assets), the location of the reserve (with RBI vs. with self), and the potential for earning returns (none on CRR vs. potential returns on SLR assets).",
+      "evidenceExcerpt": "CRR is the percentage of Net Demand and Time Liabilities (NDTL) that banks must keep as cash with the RBI, on which no interest is paid. SLR is the percentage of NDTL that banks must maintain in liquid assets like gold, government bonds, and cash by themselves.",
+      "qualityScore": 90,
+      "reviewNotes": "This is an excellent question with a strong 'best-fit' format, typical of UPSC. The distractors are very well-designed, targeting common and specific misconceptions about CRR and SLR. No rewrite was needed."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the monetary policy instruments of the Reserve Bank of India (RBI), consider the following statements:\n1. Quantitative instruments are designed to regulate the overall volume of credit in the economy.\n2. Qualitative instruments are used to direct the flow of credit to specific sectors.\n3. Margin Requirements and Moral Suasion are classified as quantitative instruments.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct. Quantitative instruments, such as the Repo Rate and CRR, are general in nature and affect the total money supply and credit availability in the entire economy. Statement 2 is also correct. Qualitative instruments are selective, targeting credit flows to or away from specific economic sectors or for particular purposes. Statement 3 is incorrect. Margin Requirements and Moral Suasion are examples of qualitative, not quantitative, instruments as they are used for selective credit control.",
+      "takeaway": "It is crucial to understand the fundamental distinction between quantitative and qualitative monetary policy instruments. Quantitative instruments manage the overall money supply, while qualitative instruments are used to direct credit to specific areas.",
+      "evidenceExcerpt": "These are categorized into quantitative tools, which directly impact the overall money supply, and qualitative tools, which selectively influence credit flow. ... Qualitative tools consist of Moral Suasion, Margin Requirements, and Direct Action.",
+      "qualityScore": 85,
+      "reviewNotes": "This is a strong foundational question that tests the core classification of monetary policy tools. The statements are clear, and the third statement effectively tests for common confusion. The wording has been slightly polished for a more formal UPSC tone."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs:\nInstrument : Classification\n1. Repo Rate : Quantitative Instrument\n2. Margin Requirements : Qualitative Instrument\n3. Cash Reserve Ratio : Qualitative Instrument\nHow many of the pairs given above are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: The Repo Rate is a key quantitative instrument used to control the overall money supply. Pair 2 is also correctly matched: Margin Requirements are a qualitative instrument used to influence credit flow for specific purposes. Pair 3 is incorrectly matched: The Cash Reserve Ratio (CRR) is a quantitative instrument, not a qualitative one, as it directly affects the volume of lendable funds in the banking system. Therefore, only two pairs are correctly matched.",
+      "takeaway": "Be able to correctly classify each monetary policy instrument as either quantitative or qualitative. Quantitative instruments (Repo, CRR, SLR) are broad in their impact, while qualitative instruments (Moral Suasion, Margin Requirements) are targeted.",
+      "evidenceExcerpt": "Quantitative tools include the Repo Rate, Reverse Repo Rate, Cash Reserve Ratio (CRR), and Statutory Liquidity Ratio (SLR). Qualitative tools consist of Moral Suasion, Margin Requirements, and Direct Action.",
+      "qualityScore": 85,
+      "reviewNotes": "This question provides good format variety with the 'how many pairs' style, which is common in the exam. It effectively tests the classification of key monetary policy tools. The prompt was slightly reformatted for better clarity."
+    }
+  ],
+  "reviewerNotes": "Selected four questions covering the core concepts of monetary policy instruments with a mix of formats (statement-based, best-fit, application, and pairs). Candidate 1 was polished for formal language. Candidate 4 was accepted as is due to its high quality. Candidate 5 was rewritten to enhance its application-based scenario. Candidate 3 was slightly reformatted for clarity. Rejected a question on 'Moral Suasion vs. Direct Action' as the distinction was not supported by the provided source text, ensuring all questions are strictly grounded in the evidence."
+}

@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-choice",
+      "prompt": "Which of the following have been identified as 'Climate Tipping Points' by the Intergovernmental Panel on Climate Change (IPCC)? 1. Amazon rainforest dieback 2. Permafrost collapse 3. Atlantic Meridional Overturning Circulation (AMOC) slowdown 4. Boreal Forest shift 5. Stratospheric ozone depletion. Select the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1, 2 and 3 only"
+        },
+        {
+          "id": "B",
+          "text": "2, 4 and 5 only"
+        },
+        {
+          "id": "C",
+          "text": "1, 2, 3 and 4 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 3, 4 and 5 only"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The IPCC has identified several climate tipping points, which include Amazon rainforest dieback, permafrost collapse, Atlantic Meridional Overturning Circulation (AMOC) slowdown, Boreal Forest shift, and the collapse risks of Greenland and Antarctic ice sheets. Stratospheric ozone depletion is a separate environmental issue and is not classified as a climate tipping point by the IPCC in this context.",
+      "takeaway": "Key climate tipping points identified by the IPCC include Amazon dieback, permafrost collapse, AMOC slowdown, Boreal forest shift, and ice sheet collapses.",
+      "evidenceExcerpt": "Tipping points identified by IPCC: Amazon rainforest dieback, permafrost collapse, Atlantic Meridional Overturning Circulation (AMOC) slowdown, Boreal Forest shift, Greenland and Antarctic ice sheets collapse risks.",
+      "qualityScore": 88,
+      "reviewNotes": "Expanded the list to 5 items to match the typical UPSC format for such questions, adding a plausible distractor (ozone depletion) to test precise factual recall."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Climate Tipping Points': 1. They are critical thresholds that, when exceeded, lead to significant and often irreversible changes in the state of the climate system. 2. They operate independently, meaning the crossing of one threshold does not influence the stability of others. 3. The Intergovernmental Panel on Climate Change (IPCC) has identified the slowdown of the Atlantic Meridional Overturning Circulation (AMOC) as a climate tipping point. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Climate tipping points are critical thresholds that lead to significant, often irreversible changes when exceeded. Statement 2 is incorrect: Tipping points are interlinked; crossing one may accelerate the collapse of others, creating cascading effects. Statement 3 is correct: The IPCC identifies the AMOC slowdown, along with Amazon dieback and permafrost collapse, as key climate tipping points.",
+      "takeaway": "Climate tipping points are irreversible, interlinked thresholds. The IPCC recognizes several such points, including the AMOC slowdown.",
+      "evidenceExcerpt": "These are critical thresholds in a system that, when exceeded, can lead to a significant change in the state of the system, often with an understanding that the change is irreversible... Tipping points are interlinked, meaning crossing one may accelerate collapse of others... Tipping points identified by IPCC: ... Atlantic Meridional Overturning Circulation (AMOC) slowdown...",
+      "qualityScore": 85,
+      "reviewNotes": "Rewritten to ensure statements are plausible and test both the conceptual definition and specific IPCC examples. The incorrect statement directly tests the 'interlinked' concept."
+    }
+  ],
+  "reviewerNotes": "Selected two strong candidates. Q1 tests the conceptual understanding of tipping points (irreversibility and interlinkage) along with a factual IPCC example. Q2 is a classic UPSC list-based question testing the exact tipping points identified by the IPCC. Both were reformatted to remove control characters and strictly adhere to UPSC phrasing."
+}

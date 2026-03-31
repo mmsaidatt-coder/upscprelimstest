@@ -1,0 +1,92 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-001-rbi-monetary-policy-tools-and-surplus-transfer-section-001-rbi-monetary-policy-instruments",
+    "claimType": "Conceptual",
+    "claimText": "The RBI's monetary policy instruments are classified into quantitative tools, which affect the overall money supply, and qualitative tools, which selectively influence credit flow.",
+    "evidenceExcerpt": "These are categorized into quantitative tools, which directly impact the overall money supply, and qualitative tools, which selectively influence credit flow.",
+    "pageNumbers": [
+      5
+    ],
+    "examUse": "Statement-based question to test the fundamental classification of monetary policy tools.",
+    "distractorHooks": [
+      "Swapping the functions of quantitative and qualitative tools (e.g., quantitative tools are selective).",
+      "Describing both types of tools as having the same impact (e.g., both only affect overall money supply)."
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-001-rbi-monetary-policy-tools-and-surplus-transfer-section-001-rbi-monetary-policy-instruments",
+    "claimType": "Factual",
+    "claimText": "Quantitative monetary policy tools include the Repo Rate, Reverse Repo Rate, Cash Reserve Ratio (CRR), and Statutory Liquidity Ratio (SLR).",
+    "evidenceExcerpt": "Quantitative tools include the Repo Rate, Reverse Repo Rate, Cash Reserve Ratio (CRR), and Statutory Liquidity Ratio (SLR).",
+    "pageNumbers": [
+      5
+    ],
+    "examUse": "Correct-pair or 'which of the following is/are' type questions to identify quantitative tools.",
+    "distractorHooks": [
+      "Including qualitative tools like 'Moral Suasion' or 'Margin Requirements' in the list of quantitative tools."
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-001-rbi-monetary-policy-tools-and-surplus-transfer-section-001-rbi-monetary-policy-instruments",
+    "claimType": "Factual",
+    "claimText": "Qualitative monetary policy tools include Moral Suasion, Margin Requirements, and Direct Action.",
+    "evidenceExcerpt": "Qualitative tools consist of Moral Suasion, Margin Requirements, and Direct Action.",
+    "pageNumbers": [
+      5
+    ],
+    "examUse": "Correct-pair or 'which of the following is/are' type questions to identify qualitative tools.",
+    "distractorHooks": [
+      "Including quantitative tools like 'CRR' or 'Repo Rate' in the list of qualitative tools."
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-001-rbi-monetary-policy-tools-and-surplus-transfer-section-001-rbi-monetary-policy-instruments",
+    "claimType": "Definitional",
+    "claimText": "The Cash Reserve Ratio (CRR) is the percentage of a bank's Net Demand and Time Liabilities (NDTL) that must be kept as cash with the RBI.",
+    "evidenceExcerpt": "CRR is the percentage of Net Demand and Time Liabilities (NDTL) that banks must keep as cash with the RBI...",
+    "pageNumbers": [
+      5
+    ],
+    "examUse": "Statement-based question to test the precise definition of CRR.",
+    "distractorHooks": [
+      "Stating that CRR is kept by banks with themselves.",
+      "Defining it as a percentage of total assets instead of NDTL.",
+      "Confusing it with SLR."
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-001-rbi-monetary-policy-tools-and-surplus-transfer-section-001-rbi-monetary-policy-instruments",
+    "claimType": "Factual",
+    "claimText": "No interest is paid by the RBI to banks on the cash reserves maintained under the CRR.",
+    "evidenceExcerpt": "CRR is the percentage of Net Demand and Time Liabilities (NDTL) that banks must keep as cash with the RBI, on which no interest is paid.",
+    "pageNumbers": [
+      5
+    ],
+    "examUse": "Statement-based question to test a specific feature of CRR.",
+    "distractorHooks": [
+      "Incorrectly stating that RBI pays interest on CRR balances.",
+      "Suggesting the interest paid is equal to the Repo or Reverse Repo rate."
+    ]
+  },
+  {
+    "id": "claim-006",
+    "sectionId": "packet-001-rbi-monetary-policy-tools-and-surplus-transfer-section-001-rbi-monetary-policy-instruments",
+    "claimType": "Definitional",
+    "claimText": "The Statutory Liquidity Ratio (SLR) is the percentage of NDTL that banks must maintain in specified liquid assets like gold, government bonds, and cash with themselves.",
+    "evidenceExcerpt": "SLR is the percentage of NDTL that banks must maintain in liquid assets like gold, government bonds, and cash by themselves.",
+    "pageNumbers": [
+      5
+    ],
+    "examUse": "Comparison question (CRR vs SLR) or a statement-based question on SLR's definition.",
+    "distractorHooks": [
+      "Stating that SLR assets must be kept with the RBI.",
+      "Limiting the eligible assets to only cash or only government bonds.",
+      "Confusing it with CRR."
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-004-advanced-biological-tools-and-forensics-section-005-dna-profiling-dna-fingerprinting",
+    "claimType": "Factual",
+    "claimText": "DNA profiling is primarily based on the variability present in noncoding regions of DNA called Variable Number of Tandem Repeats (VNTRs).",
+    "evidenceExcerpt": "DNA profiling is based on variability in noncoding regions of DNA called Variable Number of Tandem Repeats (VNTRs).",
+    "pageNumbers": [
+      10
+    ],
+    "examUse": "Statement-based question identifying the specific regions of DNA used in fingerprinting.",
+    "distractorHooks": [
+      "DNA profiling is based on coding regions of DNA",
+      "DNA profiling relies on regions with constant tandem repeats"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-004-advanced-biological-tools-and-forensics-section-005-dna-profiling-dna-fingerprinting",
+    "claimType": "Application",
+    "claimText": "Mitochondrial DNA (mtDNA) profiling is specifically used in situations where nuclear DNA is degraded.",
+    "evidenceExcerpt": "Mitochondrial DNA (mtDNA) is used when nuclear DNA is degraded.",
+    "pageNumbers": [
+      10
+    ],
+    "examUse": "Scenario-based question on choosing the appropriate DNA profiling method for degraded forensic samples.",
+    "distractorHooks": [
+      "mtDNA is used when mitochondrial DNA is degraded",
+      "mtDNA is preferred over intact nuclear DNA for standard profiling"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-004-advanced-biological-tools-and-forensics-section-005-dna-profiling-dna-fingerprinting",
+    "claimType": "Conceptual",
+    "claimText": "Y chromosome profiling traces paternal lineage by focusing on Short Tandem Repeats (STRs) inherited from father to son.",
+    "evidenceExcerpt": "Y chromosome profiling focuses on STRs inherited from father to son.",
+    "pageNumbers": [
+      10
+    ],
+    "examUse": "Correct-pair question matching Y chromosome profiling with paternal lineage tracing.",
+    "distractorHooks": [
+      "Y chromosome profiling traces maternal lineage",
+      "Y chromosome STRs are inherited from mother to son"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-004-advanced-biological-tools-and-forensics-section-005-dna-profiling-dna-fingerprinting",
+    "claimType": "Conceptual",
+    "claimText": "Single Nucleotide Polymorphisms (SNPs) are genetic variations consisting of single-base differences that are unique to individuals.",
+    "evidenceExcerpt": "Single Nucleotide Polymorphisms (SNPs) are single-base differences unique to individuals.",
+    "pageNumbers": [
+      10
+    ],
+    "examUse": "Statement-based question defining SNPs in the context of genetic profiling.",
+    "distractorHooks": [
+      "SNPs involve large structural changes in chromosomes",
+      "SNPs are multi-base sequence repeats"
+    ]
+  }
+]

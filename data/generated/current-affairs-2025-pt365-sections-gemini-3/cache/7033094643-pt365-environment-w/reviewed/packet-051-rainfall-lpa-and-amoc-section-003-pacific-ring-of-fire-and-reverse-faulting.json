@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of geological features and their primary associated tectonic mechanisms:\n1. Thrust faulting : Compressional forces\n2. Mariana Trench : Seafloor spreading\n3. East Pacific Rise : Subduction zones\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Pair 1 is correctly matched: Thrust faulting (also known as reverse faulting) is caused by compressional forces pushing one block of Earth's crust over another.\nPair 2 is incorrectly matched: The Mariana Trench is formed by subduction at convergent plate boundaries, not by seafloor spreading.\nPair 3 is incorrectly matched: The East Pacific Rise is a divergent boundary characterized by seafloor spreading and rift valleys, not subduction zones.",
+      "takeaway": "Understanding the distinct landforms associated with different plate boundaries is crucial. Subduction zones (convergent) form trenches, while seafloor spreading (divergent) forms oceanic ridges and rift valleys.",
+      "evidenceExcerpt": "Reverse faulting (thrust faulting) is caused by compressional forces... Convergent boundaries in the Ring of Fire create subduction zones, leading to volcanism and deep ocean trenches like the Mariana Trench. Divergent boundaries, such as the East Pacific Rise, create seafloor spreading and rift valleys...",
+      "qualityScore": 88,
+      "reviewNotes": "Excellent correct-pair question that succinctly tests the candidate's ability to map geological features to their correct tectonic drivers."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to plate tectonics and faulting, consider the following statements:\n1. Reverse faulting occurs when a block of the Earth's crust is pushed up over another due to tensional forces.\n2. Deep ocean trenches are typically formed at convergent plate boundaries where subduction occurs.\n3. Rift valleys and hydrothermal vents are characteristic features of divergent plate boundaries.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Reverse faulting (or thrust faulting) is caused by compressional forces, not tensional forces, which push one block of the Earth's crust over another.\nStatement 2 is correct: Convergent boundaries create subduction zones, leading to the formation of deep ocean trenches like the Mariana Trench.\nStatement 3 is correct: Divergent boundaries, such as the East Pacific Rise, create seafloor spreading and rift valleys featuring hydrothermal vents.",
+      "takeaway": "Reverse faulting is driven by compressional forces. Convergent boundaries are associated with subduction and trenches, while divergent boundaries are associated with seafloor spreading, rift valleys, and hydrothermal vents.",
+      "evidenceExcerpt": "Reverse faulting (or thrust faulting) occurs when a block of Earth's crust is pushed up over another due to compressional forces... Convergent boundaries in the Ring of Fire create subduction zones, leading to volcanism and deep ocean trenches like the Mariana Trench. Divergent boundaries, such as the East Pacific Rise, create seafloor spreading and rift valleys featuring hydrothermal vents.",
+      "qualityScore": 85,
+      "reviewNotes": "Good conceptual coverage of faulting and plate boundaries. The distractors effectively test the candidate's understanding of compressional vs. tensional forces."
+    }
+  ],
+  "reviewerNotes": "Selected three questions that cover the core geological concepts from the text: faulting mechanisms, the Pacific Ring of Fire, and the distinction between convergent and divergent plate boundaries. Rewrote the prompts to align with UPSC's current trends, utilizing both statement-based and correct-pair formats. Ensured distractors are plausible and directly address common misconceptions (e.g., confusing tensional with compressional forces, or subduction with seafloor spreading)."
+}

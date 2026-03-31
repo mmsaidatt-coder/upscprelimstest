@@ -1,0 +1,66 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-005-specialized-medical-therapies-and-stem-cells-section-002-mitochondrial-replacement-therapy-mrt",
+    "claimType": "Factual",
+    "claimText": "Mitochondrial diseases are exclusively inherited from the mother.",
+    "evidenceExcerpt": "Mitochondrial diseases are exclusively inherited from the child's mother.",
+    "pageNumbers": [
+      11,
+      12
+    ],
+    "examUse": "Statement-based question on genetic inheritance patterns.",
+    "distractorHooks": [
+      "Inherited from the father",
+      "Inherited from both parents"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-005-specialized-medical-therapies-and-stem-cells-section-002-mitochondrial-replacement-therapy-mrt",
+    "claimType": "Conceptual",
+    "claimText": "Mitochondria possess their own distinct DNA separate from nuclear DNA and generate over 90% of cellular energy.",
+    "evidenceExcerpt": "Mitochondria generate over 90% of cellular energy and have their own DNA, distinct from nuclear DNA.",
+    "pageNumbers": [
+      11,
+      12
+    ],
+    "examUse": "Statement-based question on cell biology and organelles.",
+    "distractorHooks": [
+      "Mitochondria lack their own DNA",
+      "Mitochondrial DNA is identical to nuclear DNA"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-005-specialized-medical-therapies-and-stem-cells-section-002-mitochondrial-replacement-therapy-mrt",
+    "claimType": "Conceptual",
+    "claimText": "Mitochondrial Replacement Therapy (MRT) creates an embryo containing nuclear DNA from both parents and mitochondrial DNA from a healthy donor.",
+    "evidenceExcerpt": "MRT combines parents' nuclear material with a donor's healthy mitochondria. The child born has three distinct genetic materials, termed a Three-Parent Baby.",
+    "pageNumbers": [
+      11,
+      12
+    ],
+    "examUse": "Concept-based question on the genetic composition of a Three-Parent Baby.",
+    "distractorHooks": [
+      "The donor provides nuclear DNA",
+      "The mother provides the healthy mitochondria"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-005-specialized-medical-therapies-and-stem-cells-section-002-mitochondrial-replacement-therapy-mrt",
+    "claimType": "Factual",
+    "claimText": "In Mitochondrial Replacement Therapy, Pronuclear Transfer is performed after fertilization, whereas Maternal Spindles Transfer is performed before fertilization.",
+    "evidenceExcerpt": "Techniques include Pronuclear Transfer (done after fertilization) and Maternal Spindles Transfer (done before fertilization).",
+    "pageNumbers": [
+      11,
+      12
+    ],
+    "examUse": "Comparison question distinguishing between MRT techniques.",
+    "distractorHooks": [
+      "Pronuclear Transfer is done before fertilization",
+      "Maternal Spindles Transfer is done after fertilization"
+    ]
+  }
+]

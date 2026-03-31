@@ -1,0 +1,33 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Feature-matching",
+      "prompt": "Which of the following is a specific feature of the Offshore Areas Atomic Minerals Operating Right Rules, 2025?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They allow for the automatic grant of production leases to any entity discovering uranium in offshore blocks."
+        },
+        {
+          "id": "B",
+          "text": "They mandate that atomic mineral exploration can only occur if the mineral concentration is above a defined threshold."
+        },
+        {
+          "id": "C",
+          "text": "They completely prohibit the participation of foreign entities in the mining of thorium to ensure strategic autonomy."
+        },
+        {
+          "id": "D",
+          "text": "They transfer the regulatory authority of offshore atomic minerals from the Central Government to the respective coastal State Governments."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The rules specifically state that they will only apply if the concentration of atomic minerals is above a certain minimum level. Option A is wrong as entities must be nominated. Option C is wrong as foreign entities can participate with prior approval. Option D is wrong as the rules are notified under a Central Act (2002) and involve Central Government nomination/approval.",
+      "takeaway": "Regulatory applicability for offshore atomic minerals is contingent upon a minimum concentration threshold, ensuring economic and technical viability.",
+      "evidenceExcerpt": "Rules will only apply if concentration of atomic minerals is above a certain minimum level. Under the rules, entities nominated by the Government can be granted exploration licences or production leases. In case of foreign entities undertaking exploration operations, prior approval shall be obtained.",
+      "contextLines": []
+    }
+  ]
+}

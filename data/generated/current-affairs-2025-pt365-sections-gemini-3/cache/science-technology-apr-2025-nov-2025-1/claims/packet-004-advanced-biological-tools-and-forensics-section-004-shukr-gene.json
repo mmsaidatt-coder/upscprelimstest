@@ -1,0 +1,50 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-004-advanced-biological-tools-and-forensics-section-004-shukr-gene",
+    "claimType": "Factual",
+    "claimText": "The SHUKR gene controls F-box genes to manage proteins required for healthy pollen development.",
+    "evidenceExcerpt": "It controls F-box genes involved in developing healthy pollen.",
+    "pageNumbers": [
+      10
+    ],
+    "examUse": "Statement-based question on the biological function of the SHUKR gene.",
+    "distractorHooks": [
+      "Regulates photosynthesis",
+      "Controls root nodule formation",
+      "Manages seed germination"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-004-advanced-biological-tools-and-forensics-section-004-shukr-gene",
+    "claimType": "Conceptual",
+    "claimText": "The fast evolution of the SHUKR gene helps explain Darwin's 'abominable mystery' regarding the sudden evolutionary rise of flowering plants.",
+    "evidenceExcerpt": "Its fast evolution helps explain Darwin's 'abominable mystery' about the sudden rise of flowering plants.",
+    "pageNumbers": [
+      10
+    ],
+    "examUse": "Statement-based question linking the SHUKR gene to evolutionary biology concepts.",
+    "distractorHooks": [
+      "Sudden rise of gymnosperms",
+      "Extinction of non-flowering plants",
+      "Origin of multicellular organisms"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-004-advanced-biological-tools-and-forensics-section-004-shukr-gene",
+    "claimType": "Factual",
+    "claimText": "The SHUKR gene was discovered and researched by CSIR-CCMB, Hyderabad.",
+    "evidenceExcerpt": "The SHUKR gene was researched by CSIR-CCMB, Hyderabad.",
+    "pageNumbers": [
+      10
+    ],
+    "examUse": "Institution-feature or correct-pair question matching the discovery to the research institute.",
+    "distractorHooks": [
+      "Indian Council of Agricultural Research (ICAR)",
+      "Indian Institute of Science (IISc)",
+      "Tata Institute of Fundamental Research (TIFR)"
+    ]
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-048-oil-spill-technologies-and-alert-systems-section-001-key-technologies-to-clean-oil-spills",
+    "claimType": "Factual",
+    "claimText": "Oilzapper and Oilivorous-S are bioremediation technologies developed by The Energy and Resources Institute (TERI) that use bacteria to convert harmful hydrocarbons into carbon dioxide and water.",
+    "evidenceExcerpt": "Oilzapper and Oilivorous-S are bioremediation technologies developed by TERI that use bacteria to convert hydrocarbons into carbon dioxide and water.",
+    "pageNumbers": [
+      99
+    ],
+    "examUse": "Statement-based questions on environmental technologies or correct-pair matching (Technology vs Developer/Function).",
+    "distractorHooks": [
+      "Developed by DRDO or CSIR instead of TERI",
+      "Uses chemical dispersants instead of bacteria",
+      "Converts hydrocarbons into solid waste instead of CO2 and water"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-048-oil-spill-technologies-and-alert-systems-section-001-key-technologies-to-clean-oil-spills",
+    "claimType": "Factual",
+    "claimText": "Milkweed plant fiber, commonly found in Rajasthan, acts as an effective sorbent material for cleaning oil spills.",
+    "evidenceExcerpt": "Milkweed plant fiber can be effectively used as a sorbent material for oil spills.",
+    "pageNumbers": [
+      99
+    ],
+    "examUse": "Statement-based questions on natural materials used in disaster management.",
+    "distractorHooks": [
+      "Used as a chemical dispersant instead of a sorbent",
+      "Found exclusively in marine environments instead of Rajasthan"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-048-oil-spill-technologies-and-alert-systems-section-001-key-technologies-to-clean-oil-spills",
+    "claimType": "Conceptual",
+    "claimText": "In oil spill management, oil booms physically isolate the spill area using floating barriers, whereas skimmers are machines that scrape the oil from the water surface.",
+    "evidenceExcerpt": "Oil booms physically isolate spills, while skimmers scrape oil from the water surface.",
+    "pageNumbers": [
+      99
+    ],
+    "examUse": "Comparison or correct-pair questions distinguishing between different physical oil spill cleanup methods.",
+    "distractorHooks": [
+      "Swapping the functions of booms and skimmers",
+      "Describing booms or skimmers as biological or chemical treatments rather than physical tools"
+    ]
+  }
+]

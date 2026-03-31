@@ -1,0 +1,265 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Standing Deposit Facility (SDF):\n1. It allows the Reserve Bank of India to absorb liquidity from commercial banks without providing collateral.\n2. It has replaced the Marginal Standing Facility (MSF) as the floor of the Liquidity Adjustment Facility (LAF) corridor.\n3. It is accessible to commercial banks only on the working days of the Reserve Bank of India.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: SDF absorbs liquidity from commercial banks without requiring the RBI to provide government securities as collateral. Statement 2 is incorrect: SDF replaced the Fixed Rate Reverse Repo, not the Marginal Standing Facility (MSF), as the floor of the LAF corridor. Statement 3 is incorrect: SDF is available every day, including holidays and weekends.",
+      "takeaway": "The Standing Deposit Facility (SDF) is a collateral-free liquidity absorption tool that operates continuously (every day) and serves as the floor of the LAF corridor, replacing the Fixed Rate Reverse Repo.",
+      "evidenceExcerpt": "Standing Deposit Facility (SDF) absorbs liquidity without collateral, replacing the Fixed Rate Reverse Repo as the LAF corridor floor. It is available every day."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Variable Rate Reverse Repo (VRRR) auctions, consider the following statements:\n1. It is a tool utilized by the Reserve Bank of India to inject long-term liquidity into the banking system.\n2. The interest rates under VRRR are determined by market forces rather than being fixed by the RBI.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: VRRR is used to absorb excess money for short periods, not to inject long-term liquidity. Statement 2 is correct: Unlike the fixed Reverse Repo Rate, the interest rates for VRRR are decided by the market.",
+      "takeaway": "Variable Rate Reverse Repo (VRRR) is a short-term liquidity absorption tool where the interest rates are market-determined, distinguishing it from the traditional fixed-rate reverse repo.",
+      "evidenceExcerpt": "Variable Rate Reverse Repo (VRRR) absorbs excess money for short periods at market-decided rates."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Switch Auctions' conducted by the Reserve Bank of India:\n1. They are primarily used to manage the maturity profile of public debt.\n2. Under this mechanism, the RBI replaces longer-dated government securities with short-term securities.\n3. These transactions are executed through the e-Kuber portal.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Switch Auctions are utilized to manage public debt maturity. Statement 2 is incorrect: The mechanism involves replacing short-term government securities with longer-dated ones to elongate the maturity profile, not the reverse. Statement 3 is correct: They are conducted via the e-Kuber portal. Therefore, exactly two statements are correct.",
+      "takeaway": "Switch Auctions are a debt management tool used by the RBI via the e-Kuber portal to elongate the maturity profile of government debt by swapping short-term securities for longer-dated ones.",
+      "evidenceExcerpt": "Switch Auctions manage public debt maturity by replacing short-term securities with longer-dated ones via the e-Kuber portal."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of Reserve Bank of India (RBI) tools and their key features:\n1. Standing Deposit Facility : Absorbs liquidity without the need for collateral\n2. Variable Rate Reverse Repo : Interest rates are fixed by the Monetary Policy Committee\n3. Switch Auctions : Replaces short-term government securities with longer-dated ones\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: SDF absorbs liquidity from commercial banks without collateral. Pair 2 is incorrectly matched: VRRR interest rates are decided by the market, unlike the fixed Reverse Repo Rate. Pair 3 is correctly matched: Switch Auctions replace short-term government securities with longer-dated ones to manage debt maturity.",
+      "takeaway": "Understanding the specific mechanisms of RBI's tools is crucial: SDF is collateral-free, VRRR is market-determined, and Switch Auctions elongate debt maturity.",
+      "evidenceExcerpt": "Standing Deposit Facility (SDF) absorbs liquidity without collateral... Variable Rate Reverse Repo (VRRR) absorbs excess money for short periods at market-decided rates. Switch Auctions manage public debt maturity by replacing short-term securities with longer-dated ones"
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Assertion-Reason",
+      "prompt": "Given below are two statements, one labelled as Assertion (A) and the other as Reason (R):\n\nAssertion (A): The Standing Deposit Facility (SDF) allows the Reserve Bank of India to absorb excess liquidity from the banking system without being constrained by its own holding of government securities.\nReason (R): Under the SDF mechanism, the Reserve Bank of India absorbs liquidity from commercial banks without the need to provide collateral.\n\nIn the context of the above two statements, which one of the following is correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A)."
+        },
+        {
+          "id": "B",
+          "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A)."
+        },
+        {
+          "id": "C",
+          "text": "Assertion (A) is true but Reason (R) is false."
+        },
+        {
+          "id": "D",
+          "text": "Assertion (A) is false but Reason (R) is true."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "The SDF absorbs liquidity without requiring the RBI to provide collateral (government securities). This removes the constraint on the RBI's ability to absorb massive surplus liquidity, as it no longer depends on the quantum of government securities in its own portfolio.",
+      "takeaway": "SDF is a collateral-free liquidity absorption tool, which provides the RBI with an unconstrained ability to manage excess liquidity.",
+      "evidenceExcerpt": "SDF absorbs liquidity from commercial banks without collateral"
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Applied",
+      "prompt": "Which one of the following best describes the primary objective of the Reserve Bank of India when it conducts 'Switch Auctions' through the e-Kuber portal?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "To inject overnight liquidity into the banking system to meet statutory reserve requirements."
+        },
+        {
+          "id": "B",
+          "text": "To reduce near-term redemption pressure on the government by replacing short-term debt with longer-dated securities."
+        },
+        {
+          "id": "C",
+          "text": "To swap domestic currency with foreign exchange to curb extreme volatility in the Rupee's exchange rate."
+        },
+        {
+          "id": "D",
+          "text": "To facilitate the exchange of high-risk corporate bonds for sovereign-backed government securities."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Switch Auctions are debt management tools used to manage the maturity profile of public debt. They involve replacing short-term government securities with longer-dated ones, thereby postponing the government's immediate repayment (redemption) burden.",
+      "takeaway": "Switch Auctions help manage public debt maturity by extending the tenure of existing short-term liabilities.",
+      "evidenceExcerpt": "Switch Auctions manage public debt maturity by replacing short-term securities with longer-dated ones via the e-Kuber portal."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Applied",
+      "prompt": "A commercial bank in India experiences a sudden surge in excess deposits on a Sunday. If the bank wishes to immediately park these surplus funds with the Reserve Bank of India to earn interest, which of the following facilities is explicitly designed to be available for this purpose?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Marginal Standing Facility (MSF)"
+        },
+        {
+          "id": "B",
+          "text": "Variable Rate Reverse Repo (VRRR)"
+        },
+        {
+          "id": "C",
+          "text": "Standing Deposit Facility (SDF)"
+        },
+        {
+          "id": "D",
+          "text": "Term Repo Facility"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The Standing Deposit Facility (SDF) is operational and available to commercial banks every day, including weekends and holidays, allowing them to park excess liquidity with the RBI at any time.",
+      "takeaway": "Unlike some other liquidity windows, the SDF provides continuous, everyday access for banks to park surplus funds.",
+      "evidenceExcerpt": "It [SDF] is available every day, including holidays and weekends."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Comparative",
+      "prompt": "Consider the following statements comparing the liquidity management tools of the Reserve Bank of India:\n1. Unlike the Variable Rate Reverse Repo (VRRR), the Standing Deposit Facility (SDF) requires the RBI to provide government securities as collateral to participating banks.\n2. While the Fixed Rate Reverse Repo previously served as the floor of the Liquidity Adjustment Facility (LAF) corridor, it has now been replaced by the SDF.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect because the SDF absorbs liquidity from commercial banks without the need for collateral. Statement 2 is correct as the SDF has replaced the Fixed Rate Reverse Repo as the floor of the LAF corridor.",
+      "takeaway": "The SDF is a collateral-free mechanism that currently serves as the floor of the LAF corridor.",
+      "evidenceExcerpt": "SDF absorbs liquidity without collateral, replacing the Fixed Rate Reverse Repo as the LAF corridor floor."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Applied",
+      "prompt": "If the Reserve Bank of India (RBI) intends to absorb temporary excess liquidity from the banking system while allowing the interest rate for the absorption to be discovered through market participation, which of the following tools is most appropriate?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Standing Deposit Facility (SDF)"
+        },
+        {
+          "id": "B",
+          "text": "Marginal Standing Facility (MSF)"
+        },
+        {
+          "id": "C",
+          "text": "Variable Rate Reverse Repo (VRRR)"
+        },
+        {
+          "id": "D",
+          "text": "Open Market Operations (Outright Purchase)"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The Variable Rate Reverse Repo (VRRR) is used by the RBI to absorb excess liquidity for short periods at interest rates that are decided by the market, rather than being fixed by the central bank.",
+      "takeaway": "VRRR facilitates liquidity absorption at market-determined rates, providing flexibility compared to fixed-rate windows.",
+      "evidenceExcerpt": "Variable Rate Reverse Repo (VRRR) absorbs excess money for short periods at market-decided rates."
+    }
+  ]
+}

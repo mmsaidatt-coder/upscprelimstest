@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to viral hepatitis, consider the following statements: 1. Hepatitis D is an incompetent virus that requires the Hepatitis B virus for its replication. 2. Hepatitis A and Hepatitis E infections typically lead to chronic liver cirrhosis. 3. The World Health Organization (WHO) classifies Hepatitis D as a cancer-causing virus. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Hepatitis D is an incompetent virus requiring the Hepatitis B virus (HBV) for replication. Statement 2 is incorrect: Only Hepatitis B, C, and D lead to chronic infections with a higher risk of liver cirrhosis or cancer. Hepatitis A and E generally cause acute, short-term infections. Statement 3 is correct: WHO has classified Hepatitis D as cancer-causing.",
+      "takeaway": "Hepatitis D relies on Hepatitis B for replication. Only strains B, C, and D cause chronic infections linked to liver cirrhosis and cancer.",
+      "evidenceExcerpt": "WHO classified Hepatitis D as cancer-causing. Hepatitis D is an incompetent virus requiring Hepatitis B virus (HBV) for replication. Only Hepatitis B, C, and D lead to chronic infections with a higher risk of liver cirrhosis or cancer.",
+      "qualityScore": 85,
+      "reviewNotes": "Refined the statements to test the specific strains that cause chronic infections, introducing a plausible distractor (Hepatitis A and E) to match UPSC's testing style."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding vaccines for Hepatitis viruses: 1. 'Havisure' is India's first indigenously developed vaccine for Hepatitis C. 2. Administration of the Hepatitis B vaccine also provides protection against the Hepatitis D virus. 3. Currently, there is no vaccine available for the Hepatitis C virus. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Havisure is India's first indigenous Hepatitis A vaccine, not Hepatitis C. Statement 2 is correct: Because Hepatitis D requires Hepatitis B for replication, Hepatitis B vaccines effectively protect against HDV. Statement 3 is correct: There is currently no vaccine available for Hepatitis C.",
+      "takeaway": "While vaccines exist for Hepatitis A (e.g., Havisure) and Hepatitis B (which also protects against D), there is no vaccine for Hepatitis C.",
+      "evidenceExcerpt": "There is no vaccine for Hepatitis C. Hepatitis B vaccines protect against HDV. Havisure is India's first indigenous Hepatitis A vaccine.",
+      "qualityScore": 85,
+      "reviewNotes": "Converted the clunky pair-based question into a standard statement-based format. Altered statement 1 to serve as a strong distractor."
+    }
+  ],
+  "reviewerNotes": "Selected and rewrote two questions to ensure distinct conceptual coverage (disease characteristics vs. vaccine availability). Both were converted to the standard UPSC 'How many statements are correct' format with plausible distractors."
+}

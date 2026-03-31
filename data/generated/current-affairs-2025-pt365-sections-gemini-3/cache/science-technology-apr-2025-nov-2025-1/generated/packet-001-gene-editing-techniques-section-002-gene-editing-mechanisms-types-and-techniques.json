@@ -1,0 +1,207 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to genome editing technologies, consider the following statements:\n1. Somatic genome editing creates genetic modifications that are restricted to the treated individual and cannot be inherited by their offspring.\n2. Germline genome editing involves the modification of reproductive cells, resulting in changes that are passed down to future generations.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Somatic genome editing alters cells that do not contribute to gamete formation, meaning the changes are confined to the individual and cannot be passed to offspring. Statement 2 is correct: Germline genome editing modifies reproductive cells or embryos, creating heritable changes that can be passed to future generations.",
+      "takeaway": "Somatic editing affects only the patient being treated, whereas germline editing affects all cells in an organism, including eggs and sperm, making the changes heritable.",
+      "evidenceExcerpt": "Somatic genome editing alters cells that do not contribute to gamete formation and cannot be passed to offspring. Germline genome editing modifies reproductive cells or embryos, creating changes that can be passed to future generations."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Multiple-choice",
+      "prompt": "Consider the following:\n1. Zinc-Finger Nucleases (ZFNs)\n2. Transcription Activator-Like Effector Nucleases (TALENs)\n3. Homing Endonucleases\nHow many of the above are recognized techniques used for targeted gene editing?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "All three are established gene-editing techniques. Zinc-Finger Nucleases (ZFNs), Transcription Activator-Like Effector Nucleases (TALENs), and Homing Endonucleases (also known as Meganucleases) are used to create targeted double-strand breaks in DNA, alongside the more recently developed CRISPR-Cas9 system.",
+      "takeaway": "While CRISPR-Cas9 is the most famous, ZFNs, TALENs, and Meganucleases are also important tools in the genetic engineering toolkit.",
+      "evidenceExcerpt": "Key gene-editing techniques include ZFNs, TALENs, CRISPR/Cas9 (uses RNA to guide Cas9 protein), and Homing Endonucleases (Meganucleases)."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the recent developments in biotechnology, consider the following statements regarding gene editing:\n1. India's first gene-edited sheep was developed by editing the Myostatin gene to boost muscle growth without the introduction of any foreign DNA.\n2. The CRISPR-Cas9 system utilizes a specific DNA molecule to guide the Cas9 enzyme to the target site for cleavage.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: India's first gene-edited sheep was produced by Kashmir University and ICAR using CRISPR-Cas9 to edit the Myostatin gene, boosting muscle growth without adding foreign DNA. Statement 2 is incorrect: The CRISPR-Cas9 technique uses an RNA molecule (guide RNA), not a DNA molecule, to guide the Cas9 protein to the specific DNA sequence that needs to be cut.",
+      "takeaway": "Gene editing can enhance traits without introducing foreign DNA (unlike transgenics). CRISPR-Cas9 relies on a guide RNA (gRNA) to direct the Cas9 nuclease to its target.",
+      "evidenceExcerpt": "India's first gene-edited sheep was produced by Kashmir University and ICAR using CRISPR-Cas9 to edit the Myostatin gene, boosting muscle growth without adding foreign DNA. ... CRISPR/Cas9 (uses RNA to guide Cas9 protein)"
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Statement-based",
+      "prompt": "Gene editing technologies can be applied in which of the following areas?\n1. Creating Chimeric Antigen Receptor T-cell (CAR-T) therapies for cancer treatment.\n2. Engineering microbes specifically for the bioremediation of toxic waste.\n3. Improving crop resilience by altering their native genome.\nSelect the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Gene editing has wide-ranging applications across various fields. It is used in medicine (e.g., CAR-T therapy for cancer), agriculture (e.g., crop improvement), and industry/environment (e.g., engineering microbes for bioremediation).",
+      "takeaway": "The versatility of gene editing allows it to be used not just for human health, but also for agricultural enhancements and environmental cleanup.",
+      "evidenceExcerpt": "Applications include CAR-T therapy for cancer, crop improvement, and engineering microbes for bioremediation."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "Which of the following best describes the fundamental difference between traditional transgenic modification and the gene-editing technique used to develop India's first gene-edited sheep?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Transgenic modification relies on RNA guides, whereas the gene-editing technique utilizes DNA guides to alter the genome."
+        },
+        {
+          "id": "B",
+          "text": "Transgenic modification introduces foreign DNA from another species, whereas the gene-editing technique alters the native gene without adding foreign DNA."
+        },
+        {
+          "id": "C",
+          "text": "Transgenic modification is restricted to somatic cells, whereas the gene-editing technique exclusively targets germline cells."
+        },
+        {
+          "id": "D",
+          "text": "Transgenic modification decreases muscle growth for better adaptability, whereas the gene-editing technique boosts muscle growth by introducing foreign genes."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "India's first gene-edited sheep was developed by editing the native Myostatin gene to boost muscle growth without introducing any foreign DNA. This distinguishes it from traditional transgenic organisms, which are created by inserting foreign genetic material from a different species.",
+      "takeaway": "Gene editing can modify an organism's native genome to enhance specific traits without the need to introduce foreign DNA, unlike traditional transgenic technology.",
+      "evidenceExcerpt": "India's first gene-edited sheep was produced by Kashmir University and ICAR using CRISPR-Cas9 to edit the Myostatin gene, boosting muscle growth without adding foreign DNA."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the CRISPR-Cas9 gene editing mechanism:\n1. The Cas9 component acts as a DNA-cutting enzyme that cleaves the genome at a specific target site.\n2. The system utilizes a customized RNA molecule to guide the Cas9 enzyme to the exact location on the DNA.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The CRISPR-Cas9 system works by using a specific RNA molecule to guide the Cas9 protein to the targeted sequence in the genome. Once there, the Cas9 protein functions as a DNA-cutting enzyme (molecular scissor) to make a precise cut.",
+      "takeaway": "In the CRISPR-Cas9 technique, RNA serves as the navigational guide, while the Cas9 protein functions as the enzyme that cuts the DNA.",
+      "evidenceExcerpt": "Details the mechanism of gene editing using guide molecules and DNA-cutting enzymes... CRISPR/Cas9 (uses RNA to guide Cas9 protein)"
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Terminology/Application",
+      "prompt": "The terms 'Zinc-Finger Nucleases (ZFNs)', 'Transcription Activator-Like Effector Nucleases (TALENs)', and 'Meganucleases' are frequently mentioned in the context of:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "developing synthetic RNA vaccines for viral diseases."
+        },
+        {
+          "id": "B",
+          "text": "acting as DNA-cutting enzymes for targeted genome editing."
+        },
+        {
+          "id": "C",
+          "text": "engineering microbes specifically for the bioremediation of heavy metals."
+        },
+        {
+          "id": "D",
+          "text": "serving as viral vectors for transferring foreign genes into agricultural crops."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "ZFNs, TALENs, and Meganucleases (Homing Endonucleases) are key gene-editing techniques that function as DNA-cutting enzymes to make precise modifications in an organism's genome.",
+      "takeaway": "Alongside CRISPR-Cas9, ZFNs, TALENs, and Meganucleases are established enzymatic tools used for targeted gene editing.",
+      "evidenceExcerpt": "Key gene-editing techniques include ZFNs, TALENs, CRISPR/Cas9 (uses RNA to guide Cas9 protein), and Homing Endonucleases (Meganucleases)."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding '3I/ATLAS', recently seen in the news:\n\n1. It is an active comet discovered by a NASA-funded survey telescope.\n2. It is categorized as an interstellar object because it follows a highly elliptical, closed orbital path around the Sun.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: 3I/ATLAS is an active interstellar comet discovered by the NASA-funded ATLAS (Asteroid Terrestrial-impact Last Alert System) survey telescope located in Chile.\n\nStatement 2 is incorrect: It is categorized as an interstellar object specifically because of the hyperbolic shape of its orbital path. Unlike native Solar System bodies, it does not follow a closed orbital path around the Sun, meaning it is not gravitationally bound to our star.",
+      "takeaway": "Interstellar objects like 3I/ATLAS can be identified by their hyperbolic trajectories, which indicate they are not gravitationally bound to the Sun and do not follow closed orbits.",
+      "evidenceExcerpt": "NASA funded ATLAS (Asteroid Terrestrial-impact Last Alert System) survey telescope in Chile discovered an interstellar Comet named 3I/ATLAS. It is an active comet categorized as interstellar because of the hyperbolic shape of its orbital path. It does not follow a closed orbital path about the Sun.",
+      "qualityScore": 88,
+      "reviewNotes": "A strong UPSC-style question that combines a current affairs fact (the discovery of 3I/ATLAS) with a core conceptual test in astronomy (the orbital mechanics that define an 'interstellar' object). The distractor in statement 2 is highly plausible for candidates who confuse highly elliptical orbits of long-period comets with true interstellar trajectories."
+    }
+  ],
+  "reviewerNotes": "Selected and refined Candidate 1. The question effectively tests both the factual awareness of a recent space discovery and the conceptual understanding of what makes a celestial body 'interstellar' (hyperbolic vs. closed orbit). The wording has been polished to match UPSC standards."
+}

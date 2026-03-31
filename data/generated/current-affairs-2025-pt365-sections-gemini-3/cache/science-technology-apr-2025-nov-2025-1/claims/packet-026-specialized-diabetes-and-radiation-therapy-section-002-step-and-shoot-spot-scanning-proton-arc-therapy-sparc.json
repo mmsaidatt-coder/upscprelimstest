@@ -1,0 +1,48 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-026-specialized-diabetes-and-radiation-therapy-section-002-step-and-shoot-spot-scanning-proton-arc-therapy-sparc",
+    "claimType": "Concept/Definition",
+    "claimText": "SPArc (Step-and-Shoot Spot-Scanning Proton Arc Therapy) is an advanced radiation therapy technique that targets tumors with protons while sparing surrounding healthy tissue.",
+    "evidenceExcerpt": "It works by targeting tumours with protons while sparing surrounding tissue.",
+    "pageNumbers": [
+      52
+    ],
+    "examUse": "Statement-based question on the mechanism and benefits of SPArc.",
+    "distractorHooks": [
+      "Uses electrons or X-rays instead of protons",
+      "Damages surrounding healthy tissue equally"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-026-specialized-diabetes-and-radiation-therapy-section-002-step-and-shoot-spot-scanning-proton-arc-therapy-sparc",
+    "claimType": "Mechanism",
+    "claimText": "SPArc functions by damaging the DNA of cancer cells.",
+    "evidenceExcerpt": "SPArc is an advanced radiation therapy technique that damages cancer cells' DNA.",
+    "pageNumbers": [
+      52
+    ],
+    "examUse": "Statement-based question on how proton arc therapy destroys cancer cells.",
+    "distractorHooks": [
+      "Modifies viral RNA",
+      "Starves cancer cells of oxygen",
+      "Promotes rapid cell division"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-026-specialized-diabetes-and-radiation-therapy-section-002-step-and-shoot-spot-scanning-proton-arc-therapy-sparc",
+    "claimType": "Factual/Application",
+    "claimText": "Adenoid Cystic Carcinoma (ACC) is a rare form of cancer that can be treated using SPArc.",
+    "evidenceExcerpt": "For the first time, SPArc has been used to treat an Adenoid Cystic Carcinoma (ACC), a relatively rare form of cancer.",
+    "pageNumbers": [
+      52
+    ],
+    "examUse": "Correct-pair or statement-based question on recent medical applications of SPArc.",
+    "distractorHooks": [
+      "ACC is a common bacterial infection",
+      "SPArc is used exclusively for blood cancers like leukemia"
+    ]
+  }
+]

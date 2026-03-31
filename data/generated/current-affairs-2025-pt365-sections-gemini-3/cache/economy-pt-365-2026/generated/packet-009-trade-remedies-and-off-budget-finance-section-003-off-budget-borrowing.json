@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to 'Off-budget borrowings' by the government, consider the following statements: 1. They are explicitly approved by the legislature along with the Annual Financial Statement. 2. They are typically raised through government-controlled Public Sector Undertakings (PSUs). 3. They are included in the calculation of the official fiscal deficit of the government. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect: Off-budget borrowing is not explicitly included in the official budget or approved by the legislature. Statement 2 is correct: It is typically raised through government-controlled PSUs or entities dependent on budgetary support. Statement 3 is incorrect: Its primary purpose is to keep borrowings off the fiscal deficit books.",
+      "takeaway": "Off-budget borrowings bypass legislative approval and are kept out of the official fiscal deficit. They are usually raised via proxy entities like PSUs.",
+      "evidenceExcerpt": "Off-budget borrowing is not explicitly included in the official budget or approved by the legislature. Raised through government-controlled PSUs... Keeps borrowings off the fiscal deficit books"
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "Which of the following best describes the mechanism of 'Off-budget borrowing' in the context of the Indian Economy?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Borrowings made by the government directly from the Reserve Bank of India through Ways and Means Advances."
+        },
+        {
+          "id": "B",
+          "text": "Borrowings raised by government-controlled entities to fund government schemes, which are not reflected in the official budget."
+        },
+        {
+          "id": "C",
+          "text": "Borrowings raised by the state governments from external multilateral agencies without the consent of the Union government."
+        },
+        {
+          "id": "D",
+          "text": "Borrowings undertaken by private sector corporations that receive interest subvention from the government."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Off-budget borrowing refers to government borrowing not explicitly included in the official budget. It is typically raised through government-controlled PSUs or entities dependent on budgetary support to keep borrowings off the fiscal deficit books.",
+      "takeaway": "Off-budget borrowings are executed through proxy entities like PSUs rather than directly by the government, keeping them out of the official budget.",
+      "evidenceExcerpt": "Off-budget borrowing refers to government borrowing not explicitly included in the official budget. It is typically raised through government-controlled PSUs or entities dependent on budgetary support."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-Statement",
+      "prompt": "Consider the following consequences:\n1. Concealment of the government's true debt burden.\n2. Bypassing of explicit legislative approval for borrowed funds.\n3. Artificial reduction of the reported fiscal deficit.\n\nWhich of the above are direct outcomes of the government resorting to 'off-budget borrowing'?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "All three statements are correct outcomes. Off-budget borrowing is not explicitly approved by the legislature (Statement 2). It keeps borrowings off the fiscal deficit books, artificially reducing the reported deficit (Statement 3). Consequently, it reduces transparency and conceals the true debt burden of the government (Statement 1).",
+      "takeaway": "While off-budget borrowing improves the reported fiscal deficit, it undermines macroeconomic transparency, bypasses legislative scrutiny, and hides actual debt obligations.",
+      "evidenceExcerpt": "Off-budget borrowing is not explicitly included in the official budget or approved by the legislature... Keeps borrowings off the fiscal deficit books to create an impression of fiscal prudence... Concerns include reduced transparency, lack of accountability, and concealment of the true debt burden."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Single-Statement",
+      "prompt": "Which one of the following is the primary reason why 'off-budget borrowings' raise macroeconomic concerns regarding fiscal transparency?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "They are denominated exclusively in foreign currency, exposing the economy to severe exchange rate volatility."
+        },
+        {
+          "id": "B",
+          "text": "They are raised by entities dependent on budgetary support but are excluded from the official fiscal deficit calculations."
+        },
+        {
+          "id": "C",
+          "text": "They are directly monetized by the central bank, leading to unchecked inflationary pressures in the economy."
+        },
+        {
+          "id": "D",
+          "text": "They divert funds away from capital expenditure towards routine administrative expenses of Public Sector Undertakings."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Off-budget borrowings raise transparency concerns because they are raised through government-controlled PSUs or entities dependent on budgetary support, yet they are kept off the fiscal deficit books. This conceals the true debt burden and lacks explicit legislative approval. Options A, C, and D describe other macroeconomic phenomena not related to the fundamental mechanism of off-budget borrowing.",
+      "takeaway": "The core issue with off-budget borrowing is the mismatch between who ultimately bears the liability (the government) and where it is recorded (outside the official budget), leading to a lack of transparency.",
+      "evidenceExcerpt": "Raised through government-controlled PSUs or entities dependent on budgetary support. Keeps borrowings off the fiscal deficit books... Concerns include reduced transparency, lack of accountability, and concealment of the true debt burden."
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Factual",
+      "prompt": "A working group led by Niti Aayog has proposed a roadmap for switching from the Wholesale Price Index (WPI) to the Producer Price Index (PPI) in India. What is a major structural limitation of the WPI that the PPI seeks to address?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "WPI excludes the price of primary articles and fuel."
+        },
+        {
+          "id": "B",
+          "text": "WPI has an inbuilt bias due to the double or multiple counting of the same product."
+        },
+        {
+          "id": "C",
+          "text": "WPI is measured at the retail level, leading to high volatility compared to producer prices."
+        },
+        {
+          "id": "D",
+          "text": "WPI focuses exclusively on services, whereas PPI provides coverage of physical goods."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The text explicitly states that one of the needs to replace WPI is that it has an 'inbuilt bias due to double/ multiple counting of same product.' PPI is designed to measure the price a producer receives, avoiding the compounding effect of multiple wholesale stages.",
+      "takeaway": "The transition to PPI is primarily motivated by the need to eliminate the double-counting bias inherent in the WPI methodology.",
+      "evidenceExcerpt": "Need to replace WPI: WPI has inbuilt bias due to double/ multiple counting of same product.",
+      "qualityScore": 88,
+      "reviewNotes": "This is a high-yield factual question regarding current economic policy and the methodology of inflation indices in India."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Conceptual",
+      "prompt": "With reference to the impact of inflation on consumer behavior and price elasticity, which of the following statements is correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Inflation generally leads to a decrease in the price sensitivity of consumers for non-essential goods."
+        },
+        {
+          "id": "B",
+          "text": "During inflation, the demand for inferior goods typically increases as consumers trade down from more expensive options."
+        },
+        {
+          "id": "C",
+          "text": "Consumers of necessity goods like food and medicine usually stop purchases entirely when prices rise."
+        },
+        {
+          "id": "D",
+          "text": "The demand for luxury goods becomes inelastic during inflation as consumers prioritize status over cost."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The text explains that during inflation (the 'Wallet Squeeze'), consumers switch to inferior goods (Trading Down) from more expensive options, causing demand for these goods to increase. For necessities, consumers switch brands rather than stopping purchases. For luxury goods, demand becomes hyper-elastic (very sensitive to price), and sales plummet.",
+      "takeaway": "Inflation drives consumers toward inferior goods as a cost-saving measure, a phenomenon known as 'trading down'.",
+      "evidenceExcerpt": "INFERIOR GOODS (Trading Down): Normal Behavior: Generic Spam, Instant Noodles (Bought when income is low). Behavior During Inflation: Demand Increases; consumers switch to these from expensive options.",
+      "qualityScore": 86,
+      "reviewNotes": "This question effectively tests the conceptual link between inflation, real income, and the varying elasticity of different types of goods."
+    }
+  ],
+  "reviewerNotes": "The selected questions provide a comprehensive overview of the section, covering microeconomic price theory (supply/demand shifts), the behavioral impact of inflation on different categories of goods (necessities, luxuries, durables, and inferior goods), and the technical transition from WPI to PPI. All distractors are plausible and based on common economic misconceptions or related concepts within the text. The questions adhere to the UPSC style of testing both conceptual clarity and factual accuracy."
+}

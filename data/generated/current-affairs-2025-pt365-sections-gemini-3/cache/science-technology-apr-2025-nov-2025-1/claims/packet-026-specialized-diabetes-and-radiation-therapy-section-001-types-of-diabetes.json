@@ -1,0 +1,62 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-026-specialized-diabetes-and-radiation-therapy-section-001-types-of-diabetes",
+    "claimType": "Factual",
+    "claimText": "Type 5 diabetes, also known as J-type diabetes, is associated with chronic undernutrition and low body weight.",
+    "evidenceExcerpt": "Malnutrition-related diabetes has been officially recognized and named type 5 diabetes at International Diabetes Federation's (IDF) World Diabetes Congress. Also called J-type diabetes, is known to be associated with under nutrition and low weight.",
+    "pageNumbers": [
+      52
+    ],
+    "examUse": "Statement-based question on emerging or lesser-known types of diabetes.",
+    "distractorHooks": [
+      "Associated with obesity and overnutrition",
+      "Autoimmune disease"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-026-specialized-diabetes-and-radiation-therapy-section-001-types-of-diabetes",
+    "claimType": "Conceptual",
+    "claimText": "Type 1 diabetes is characterized by the autoimmune destruction of insulin-producing beta cells.",
+    "evidenceExcerpt": "Type 1: Autoimmune destruction of insulin-producing beta cells.",
+    "pageNumbers": [
+      52
+    ],
+    "examUse": "Correct-pair question matching diabetes types with their physiological causes.",
+    "distractorHooks": [
+      "Caused by insulin resistance due to obesity",
+      "Triggered by malnutrition"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-026-specialized-diabetes-and-radiation-therapy-section-001-types-of-diabetes",
+    "claimType": "Conceptual",
+    "claimText": "Type 2 diabetes is primarily caused by obesity and overnutrition.",
+    "evidenceExcerpt": "Type 2: Mainly caused by obesity and over nutrition.",
+    "pageNumbers": [
+      52
+    ],
+    "examUse": "Comparison question distinguishing between Type 1, Type 2, and Type 5 diabetes.",
+    "distractorHooks": [
+      "Caused by autoimmune destruction of beta cells",
+      "Associated with chronic undernutrition"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-026-specialized-diabetes-and-radiation-therapy-section-001-types-of-diabetes",
+    "claimType": "Factual",
+    "claimText": "Gestational diabetes is a condition characterized by high blood glucose levels occurring specifically during pregnancy.",
+    "evidenceExcerpt": "Gestational: Occurs with high blood glucose during pregnancy.",
+    "pageNumbers": [
+      52
+    ],
+    "examUse": "Statement-based question on pregnancy-related health conditions.",
+    "distractorHooks": [
+      "Occurs due to autoimmune destruction of beta cells",
+      "Is a permanent condition caused by childhood malnutrition"
+    ]
+  }
+]

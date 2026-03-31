@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the State Health Regulatory Excellence Index (SHRESTH) initiative: 1. It was launched by the Union Ministry of Health and Family Welfare. 2. It was proposed by the Central Drugs Standard Control Organisation (CDSCO). 3. Its primary objective is to centralize the drug manufacturing approval process under the Union government. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: SHRESTH was launched by the Union Health Ministry. Statement 2 is correct: It was proposed by the Central Drugs Standard Control Organisation (CDSCO). Statement 3 is incorrect: The initiative does not aim to centralize approvals under the Union government; rather, it aims to benchmark and drive improvements in the performance of state drug regulatory authorities across India to ensure drug safety and quality.",
+      "takeaway": "The SHRESTH initiative, proposed by CDSCO and launched by the Union Health Ministry, focuses on benchmarking and strengthening state-level drug regulatory systems rather than centralizing them.",
+      "evidenceExcerpt": "Union Health Ministry launched State Health Regulatory Excellence Index (SHRESTH), a national initiative to benchmark and strengthens state drug regulatory systems. Proposed by the CDSCO. Aim: To drive improvements in the performance of state drug regulatory authorities across India, ensuring drug safety and quality standards are consistently met."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "conceptual",
+      "prompt": "With reference to drug regulation in India, the 'State Health Regulatory Excellence Index (SHRESTH)', recently seen in the news, is primarily designed to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "centralize the clinical trial approval process for new chemical entities under the Union Health Ministry."
+        },
+        {
+          "id": "B",
+          "text": "evaluate and benchmark the performance of state-level drug regulatory bodies to enhance drug safety standards."
+        },
+        {
+          "id": "C",
+          "text": "monitor the supply chain of active pharmaceutical ingredients (APIs) imported from foreign countries."
+        },
+        {
+          "id": "D",
+          "text": "track the out-of-pocket expenditure on essential medicines by households across different states."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The State Health Regulatory Excellence Index (SHRESTH) is a national initiative launched by the Union Health Ministry and proposed by the CDSCO. Its primary objective is to drive improvements in the performance of state drug regulatory authorities across India through benchmarking, thereby ensuring that drug safety and quality standards are consistently met.",
+      "takeaway": "SHRESTH focuses on capacity building and performance evaluation by benchmarking state drug regulatory authorities, rather than centralising regulatory powers or focusing on supply chain monitoring.",
+      "evidenceExcerpt": "Union Health Ministry launched State Health Regulatory Excellence Index (SHRESTH), a national initiative to benchmark and strengthens state drug regulatory systems... Aim: To drive improvements in the performance of state drug regulatory authorities across India, ensuring drug safety and quality standards are consistently met.",
+      "contextLines": []
+    }
+  ]
+}

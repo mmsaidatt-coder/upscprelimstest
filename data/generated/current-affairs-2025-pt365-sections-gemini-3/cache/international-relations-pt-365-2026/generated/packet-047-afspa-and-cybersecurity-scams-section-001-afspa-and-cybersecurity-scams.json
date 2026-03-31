@@ -1,0 +1,33 @@
+{
+  "questions": [
+    {
+      "subject": "Current Affairs",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "In the context of AFSPA, 1958, what is the mandatory procedural requirement for the armed forces after arresting a person in a disturbed area?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Produce the person before a Military Court within 24 hours."
+        },
+        {
+          "id": "B",
+          "text": "Hand over the person to the nearest police station with the least possible delay."
+        },
+        {
+          "id": "C",
+          "text": "Detain the person for interrogation for up to 7 days before informing civil authorities."
+        },
+        {
+          "id": "D",
+          "text": "Transfer the person to the custody of the Central Bureau of Investigation (CBI)."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Under AFSPA, while the armed forces have the power to arrest without a warrant, they are legally required to hand over any arrested individual to the officer-in-charge of the nearest police station with the 'least possible delay', along with a report of the circumstances of the arrest.",
+      "takeaway": "AFSPA requires immediate handover of arrested suspects to civil police authorities to maintain a link with the regular criminal justice system.",
+      "evidenceExcerpt": "Treatment of arrested person: Armed forces required to hand over the person to the nearest police “with least possible delay.”",
+      "contextLines": []
+    }
+  ]
+}

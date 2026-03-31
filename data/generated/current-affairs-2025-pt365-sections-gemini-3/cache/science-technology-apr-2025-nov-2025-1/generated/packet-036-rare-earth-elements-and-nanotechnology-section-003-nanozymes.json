@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to 'Nanozymes', consider the following statements:\n1. They are naturally occurring biological enzymes extracted from extremophile microorganisms.\n2. They offer higher stability and lower production costs compared to natural enzymes.\n3. Artificial metal-based nanozymes have been developed to treat abnormal blood clotting conditions.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Nanozymes are nanomaterials that inherently possess enzyme-like properties; they are not naturally occurring biological enzymes extracted from microorganisms. Statement 2 is correct: Compared to natural enzymes, nanozymes offer advantages such as high catalytic activity, low cost, and high stability. Statement 3 is correct: Researchers have developed artificial metal-based nanozymes (such as vanadium pentoxide) to treat abnormal blood clotting caused by conditions like pulmonary thromboembolism.",
+      "takeaway": "Nanozymes are synthetic nanomaterials with enzyme-like characteristics that overcome the limitations of natural enzymes, such as high cost and low stability.",
+      "evidenceExcerpt": "Nanozymes are nanomaterials with intrinsic enzyme-like properties. They offer advantages over natural enzymes, including high catalytic activity, low cost, and high stability. Researchers at IISc developed an artificial metal-based nanozyme (vanadium pentoxide or V2O5) to treat abnormal blood clotting..."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Application-based",
+      "prompt": "In the context of recent advancements in nanotechnology, 'Vanadium pentoxide (V2O5)' was recently in the news for its application as a/an:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "artificial nanozyme to treat abnormal blood clotting."
+        },
+        {
+          "id": "B",
+          "text": "nanomaterial used in solid-state batteries for electric vehicles."
+        },
+        {
+          "id": "C",
+          "text": "bio-sensor for detecting heavy metal contamination in groundwater."
+        },
+        {
+          "id": "D",
+          "text": "targeted drug delivery vehicle for cancer therapeutics."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Researchers at IISc have developed an artificial metal-based nanozyme using vanadium pentoxide (V2O5). It is specifically designed to treat abnormal blood clotting caused by conditions like pulmonary thromboembolism (PTE).",
+      "takeaway": "Vanadium pentoxide (V2O5) can act as an artificial nanozyme with medical applications, specifically in addressing abnormal blood clotting.",
+      "evidenceExcerpt": "Researchers at IISc developed an artificial metal-based nanozyme (vanadium pentoxide or V2O5) to treat abnormal blood clotting caused by conditions like pulmonary thromboembolism (PTE)."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "Which one of the following best describes the fundamental characteristic that distinguishes 'Nanozymes' from conventional nanomaterials used in medicine?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "They act exclusively as passive carriers for targeted drug delivery to specific cellular receptors."
+        },
+        {
+          "id": "B",
+          "text": "They inherently catalyze biochemical reactions by mimicking the function of natural biological molecules."
+        },
+        {
+          "id": "C",
+          "text": "They function as physical barriers at the cellular membrane to prevent viral and bacterial entry."
+        },
+        {
+          "id": "D",
+          "text": "They are naturally occurring biological proteins extracted from extremophile microorganisms."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Nanozymes are nanomaterials that possess intrinsic enzyme-like properties. Unlike conventional nanomaterials that may act merely as passive drug delivery vehicles, nanozymes inherently catalyze biochemical reactions, mimicking natural enzymes while offering higher stability and lower costs.",
+      "takeaway": "Nanozymes bridge the gap between nanotechnology and biology by providing artificial nanomaterials that possess intrinsic catalytic (enzyme-like) properties.",
+      "evidenceExcerpt": "Nanozymes are nanomaterials with intrinsic enzyme-like properties. They offer advantages over natural enzymes, including high catalytic activity, low cost, and high stability."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Correct-Pair",
+      "prompt": "Consider the following pairs regarding materials and their characteristics in the context of recent biomedical advancements:\n\n1. Natural enzymes : High stability under extreme physiological conditions\n2. Nanozymes : Intrinsic catalytic activity mimicking biological molecules\n3. Vanadium pentoxide : Artificial nanomaterial utilized for treating abnormal blood clotting\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is incorrectly matched: Natural enzymes generally suffer from lower stability compared to artificial alternatives. High stability is an advantage specifically offered by nanozymes over natural enzymes. Pair 2 is correctly matched: Nanozymes are defined as nanomaterials with intrinsic enzyme-like properties. Pair 3 is correctly matched: Vanadium pentoxide (V2O5) is an artificial metal-based nanozyme developed to treat abnormal blood clotting conditions like pulmonary thromboembolism.",
+      "takeaway": "Nanozymes like Vanadium pentoxide (V2O5) offer a synthetic alternative to natural enzymes, providing superior stability, lower cost, and high catalytic activity for medical treatments.",
+      "evidenceExcerpt": "Nanozymes are nanomaterials with intrinsic enzyme-like properties. They offer advantages over natural enzymes, including high catalytic activity, low cost, and high stability. Researchers at IISc developed an artificial metal-based nanozyme (vanadium pentoxide or V2O5) to treat abnormal blood clotting..."
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Bonobo, a species of great ape: 1. In the wild, they are endemic exclusively to the Democratic Republic of Congo. 2. Their social groups are predominantly peaceful and female-led. 3. They are currently listed as 'Critically Endangered' on the IUCN Red List. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statements 1 and 2 are correct. Bonobos are endemic to the forests of the Democratic Republic of Congo and have a peaceful, female-led social structure. Statement 3 is incorrect as they are listed as 'Endangered' (not Critically Endangered) on the IUCN Red List.",
+      "takeaway": "Bonobos are unique among great apes for their female-led societies and restricted endemic habitat in the DRC. They are classified as Endangered by the IUCN.",
+      "evidenceExcerpt": "Found only in the forests of the Democratic Republic of Congo (DRC)... They are peaceful, female-led... Conservation Status: CITES Appendix I, IUCN Endangered."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Species Identification",
+      "prompt": "Consider the following characteristics: 1. Endemic to the forests of the Democratic Republic of Congo. 2. Social structure is predominantly female-led. 3. Vocal communication exhibits compositionality similar to human language. Which of the following primates is best described by the characteristics given above?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Chimpanzee"
+        },
+        {
+          "id": "B",
+          "text": "Bonobo"
+        },
+        {
+          "id": "C",
+          "text": "Eastern Gorilla"
+        },
+        {
+          "id": "D",
+          "text": "Bornean Orangutan"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The characteristics describe the Bonobo. Unlike chimpanzees, bonobos are female-led and endemic only to the DRC. Recent studies also highlight their complex vocal communication showing compositionality.",
+      "takeaway": "Identifying species based on unique behavioral traits (female-led, vocal compositionality) and specific endemic habitats (DRC) is crucial for species-in-news questions.",
+      "evidenceExcerpt": "A study found that vocal communication between Bonobos shows compositionality, similar to human language. Found only in the forests of the Democratic Republic of Congo (DRC)... They are peaceful, female-led..."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the biological and physical characteristics of Bonobos, consider the following statements: 1. They share over 98 percent of their DNA with humans, making them our closest living relatives alongside chimpanzees. 2. They are generally larger and have a lighter coat color compared to chimpanzees. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct. Bonobos share 98.7% of their DNA with humans, making them our closest living relatives alongside chimpanzees. Statement 2 is incorrect. Bonobos are actually smaller and darker than chimpanzees.",
+      "takeaway": "While closely related to chimpanzees, bonobos are physically distinct (smaller and darker) and behaviorally distinct (peaceful and female-led).",
+      "evidenceExcerpt": "Like Chimpanzees, they share 98.7% of DNA with humans. They are peaceful, female-led, and smaller/darker than chimpanzees."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "statement-based",
+      "prompt": "With reference to the evolutionary and physical comparison between Bonobos and Chimpanzees, consider the following statements:\n1. Both species share the same percentage of their DNA with humans.\n2. Bonobos are physically distinguished from chimpanzees by their generally smaller size and darker coat.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Like chimpanzees, bonobos share 98.7% of their DNA with humans, making them our closest living relatives. Statement 2 is correct: Bonobos are physically distinct, being smaller and having a darker coat compared to chimpanzees.",
+      "takeaway": "Bonobos and chimpanzees are equally related to humans in terms of DNA (98.7%), but bonobos can be distinguished by their smaller size and darker coloration.",
+      "evidenceExcerpt": "Like Chimpanzees, they share 98.7% of DNA with humans. They are peaceful, female-led, and smaller/darker than chimpanzees."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "statement-based",
+      "prompt": "Consider the following statements regarding the Bonobo, a species of great ape:\n1. Its natural distribution is strictly confined to the forests of a single African country.\n2. It is listed in Appendix I of CITES, which generally prohibits international commercial trade of the species.\n3. It is classified as an 'Endangered' species on the IUCN Red List.\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Bonobos are endemic exclusively to the forests of the Democratic Republic of Congo (DRC). Statement 2 is correct: They are listed in CITES Appendix I, providing them the highest level of protection against international commercial trade. Statement 3 is correct: They are classified as Endangered on the IUCN Red List.",
+      "takeaway": "The Bonobo is an Endangered species endemic to the Democratic Republic of Congo and is strictly protected under CITES Appendix I.",
+      "evidenceExcerpt": "Found only in the forests of the Democratic Republic of Congo (DRC)... Conservation Status: CITES Appendix I, IUCN Endangered."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "multiple-choice",
+      "prompt": "Recent scientific observations of the Bonobo have highlighted certain unique behavioral and cognitive traits. Which of the following statements best describes these traits as per recent findings?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "They rely entirely on physical gestures for communication, lacking any complex vocalizations."
+        },
+        {
+          "id": "B",
+          "text": "Their vocal communication exhibits compositionality, a structural feature similar to human language."
+        },
+        {
+          "id": "C",
+          "text": "They exhibit a highly aggressive, male-dominated social hierarchy similar to that of gorillas."
+        },
+        {
+          "id": "D",
+          "text": "They are the only primates known to share exactly 100% of their DNA with modern humans."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A recent study found that vocal communication between Bonobos shows compositionality, a complex trait similar to human language. They are known to be a peaceful, female-led species, and they share 98.7% of their DNA with humans, not 100%.",
+      "takeaway": "Bonobos exhibit advanced cognitive traits, including vocal communication that demonstrates compositionality, analogous to human language.",
+      "evidenceExcerpt": "A study found that vocal communication between Bonobos shows compositionality, similar to human language."
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "multiple-statement",
+      "prompt": "Consider the following statements regarding the Sundarbans Tiger Reserve:\n\n1. It is the largest tiger reserve in India by area.\n2. It is the only mangrove forest in the world that houses a significant tiger population.\n3. It has received accreditation under the Conservation Assured | Tiger Standards (CA|TS).\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Following its recent expansion approved by the National Board for Wildlife (NBWL), the Sundarbans Tiger Reserve is India's second-largest tiger reserve. The Nagarjunasagar-Srisailam Tiger Reserve in Andhra Pradesh remains the largest.\nStatement 2 is correct: The Sundarbans is uniquely the only mangrove forest globally that supports a significant tiger population.\nStatement 3 is correct: The reserve holds multiple international designations, including accreditation under the Conservation Assured | Tiger Standards (CA|TS), UNESCO World Heritage Site, and the MAB Programme.",
+      "takeaway": "The Sundarbans Tiger Reserve is India's second-largest tiger reserve and holds prestigious international designations (UNESCO WHS, MAB, CA|TS). It is globally unique as a tiger-populated mangrove ecosystem.",
+      "evidenceExcerpt": "STR is now India's second largest after expansion of its area was approved by National Board of Wildlife (NBWL). - Now STR is just behind Andhra Pradesh's Nagarjunasagar-Srisailam Tiger Reserve in size... Only mangrove forest (with Bangladesh) housing a significant tiger population... Associated Designations: UNESCO World Heritage Site, CA|TS (Conservation Assured | Tiger Standards), MAB.",
+      "qualityScore": 88,
+      "reviewNotes": "Combined elements from Candidates 1 and 3 to create a standard UPSC 'How many statements are correct' format. Tests the crucial fact about its size ranking, its unique ecosystem, and its international recognition."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "correct-pair",
+      "prompt": "Consider the following pairs regarding the geographical boundaries of the Sundarbans Tiger Reserve:\n\nBoundary : Geographical Feature\n1. Western boundary : River Matla\n2. North-western boundary : River Bidya\n3. Eastern boundary : River Hooghly\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: The River Matla forms the western boundary of the Sundarbans Tiger Reserve.\nPair 2 is correctly matched: The Rivers Bidya and Gomdi form the north-western boundary of the reserve.\nPair 3 is incorrectly matched: The eastern boundary of the Sundarbans Tiger Reserve is formed by the international border with Bangladesh, not the River Hooghly.",
+      "takeaway": "The natural boundaries of the Sundarbans Tiger Reserve include the River Matla to the west, Rivers Bidya and Gomdi to the north-west, the Bay of Bengal to the south, and Bangladesh to the east.",
+      "evidenceExcerpt": "Borders: Bangladesh (east), Bay of Bengal (south), River Matla (west), Rivers Bidya & Gomdi (north-west).",
+      "qualityScore": 85,
+      "reviewNotes": "Refined Candidate 2 by introducing a plausible distractor (River Hooghly) for the eastern boundary to increase the cognitive load and make it a more robust geography question."
+    }
+  ],
+  "reviewerNotes": "Selected and refined two questions. The first question comprehensively covers the environmental and institutional facts about the Sundarbans Tiger Reserve, utilizing the 'How many statements' format. The second question tests the geographical boundaries using the 'How many pairs' format, which is highly relevant for UPSC map-based questions."
+}

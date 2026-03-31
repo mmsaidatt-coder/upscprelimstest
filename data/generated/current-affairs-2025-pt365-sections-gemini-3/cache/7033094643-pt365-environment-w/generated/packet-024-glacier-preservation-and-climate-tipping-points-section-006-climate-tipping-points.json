@@ -1,0 +1,149 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Climate Tipping Points':\n1. They represent critical thresholds that, when exceeded, lead to gradual and reversible changes in the Earth's climate system.\n2. They operate independently, meaning the crossing of one tipping point does not influence the stability of others.\n3. The Intergovernmental Panel on Climate Change (IPCC) identifies the slowdown of the Atlantic Meridional Overturning Circulation (AMOC) as a climate tipping point.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "3 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Climate tipping points lead to significant changes that are often irreversible, not gradual and reversible. Statement 2 is incorrect: Tipping points are interlinked; crossing one may accelerate the collapse of others. Statement 3 is correct: AMOC slowdown is identified by the IPCC as a tipping point.",
+      "takeaway": "Tipping points are critical, often irreversible thresholds that are interlinked, meaning one can trigger cascading effects across planetary systems.",
+      "evidenceExcerpt": "These are critical thresholds in a system that, when exceeded, can lead to a significant change in the state of the system, often with an understanding that the change is irreversible... Tipping points are interlinked, meaning crossing one may accelerate collapse of others... Tipping points identified by IPCC: ... Atlantic Meridional Overturning Circulation (AMOC) slowdown..."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-choice",
+      "prompt": "Which of the following have been identified as 'Climate Tipping Points' by the Intergovernmental Panel on Climate Change (IPCC)?\n1. Amazon rainforest dieback\n2. Permafrost collapse\n3. Stratospheric ozone depletion\n4. Boreal Forest shift\nSelect the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1, 2 and 4 only"
+        },
+        {
+          "id": "B",
+          "text": "2, 3 and 4 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2, 3 and 4"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "The IPCC has identified several climate tipping points, including Amazon rainforest dieback, permafrost collapse, AMOC slowdown, Boreal Forest shift, and ice sheet collapse. Stratospheric ozone depletion is not classified as a climate tipping point in this context.",
+      "takeaway": "Key climate tipping points identified by the IPCC include the Amazon dieback, permafrost collapse, AMOC slowdown, Boreal forest shift, and ice sheet collapses.",
+      "evidenceExcerpt": "Tipping points identified by IPCC: Amazon rainforest dieback, permafrost collapse, Atlantic Meridional Overturning Circulation (AMOC) slowdown, Boreal Forest shift, Greenland and Antarctic ice sheets collapse risks."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the impact of climate change on planetary systems:\n1. Warm-water coral reefs have recently crossed their thermal tipping point, triggering irreversible dieback.\n2. The collapse of the Greenland and Antarctic ice sheets is recognized as a potential climate tipping point by the IPCC.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Warm-water coral reefs have recently crossed their thermal tipping point, triggering irreversible dieback. Statement 2 is correct: The IPCC identifies the collapse risks of Greenland and Antarctic ice sheets as climate tipping points.",
+      "takeaway": "Warm-water coral reefs are already experiencing irreversible dieback due to crossing thermal thresholds, highlighting the immediate reality of climate tipping points.",
+      "evidenceExcerpt": "Warm-water coral reefs have recently crossed their thermal tipping point, triggering irreversible dieback... Tipping points identified by IPCC: ... Greenland and Antarctic ice sheets collapse risks."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Assertion-Reason",
+      "prompt": "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R):\n\nAssertion (A): The crossing of a single climate tipping point can accelerate the collapse of other planetary systems.\n\nReason (R): Climate tipping points are interlinked, meaning that exceeding one critical threshold can create cascading effects.\n\nIn the context of the above two statements, which one of the following is correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both Assertion (A) and Reason (R) are correct and Reason (R) is the correct explanation for Assertion (A)."
+        },
+        {
+          "id": "B",
+          "text": "Both Assertion (A) and Reason (R) are correct but Reason (R) is not the correct explanation for Assertion (A)."
+        },
+        {
+          "id": "C",
+          "text": "Assertion (A) is correct but Reason (R) is incorrect."
+        },
+        {
+          "id": "D",
+          "text": "Assertion (A) is incorrect but Reason (R) is correct."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Assertion (A) is correct because the collapse of one system can indeed hasten the collapse of others. Reason (R) is also correct and provides the valid explanation for (A), as climate tipping points do not exist in isolation; they are interlinked, which allows cascading effects to threaten broader planetary stability.",
+      "takeaway": "Climate tipping points are not isolated phenomena; they are highly interlinked. Crossing one threshold can trigger a domino effect, accelerating the collapse of other critical Earth systems.",
+      "evidenceExcerpt": "Tipping points are interlinked, meaning crossing one may accelerate collapse of others..."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Applied Concept",
+      "prompt": "Which one of the following scenarios best illustrates the concept of a 'Climate Tipping Point'?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A steady and proportional decline in urban air quality due to increased anthropogenic emissions over a decade."
+        },
+        {
+          "id": "B",
+          "text": "The crossing of a thermal threshold by warm-water coral reefs resulting in their irreversible dieback."
+        },
+        {
+          "id": "C",
+          "text": "A temporary reduction in stratospheric ozone concentration during the Antarctic spring."
+        },
+        {
+          "id": "D",
+          "text": "The seasonal melting and refreezing of Arctic sea ice in response to annual temperature variations."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A climate tipping point represents a critical threshold that, when exceeded, leads to a significant and often irreversible change in the state of the system. Option B perfectly illustrates this, as warm-water coral reefs crossing their thermal threshold leads to irreversible dieback. Options A, C, and D describe gradual, temporary, or cyclical environmental changes, which do not fit the definition of a tipping point.",
+      "takeaway": "The defining characteristic of a climate tipping point is the crossing of a critical threshold that triggers a significant, non-linear, and often irreversible state change in an ecosystem or planetary system.",
+      "evidenceExcerpt": "About climate tipping point: These are critical thresholds in a system that, when exceeded, can lead to a significant change in the state of the system, often with an understanding that the change is irreversible... Warm-water coral reefs have recently crossed their thermal tipping point, triggering irreversible dieback."
+    }
+  ]
+}

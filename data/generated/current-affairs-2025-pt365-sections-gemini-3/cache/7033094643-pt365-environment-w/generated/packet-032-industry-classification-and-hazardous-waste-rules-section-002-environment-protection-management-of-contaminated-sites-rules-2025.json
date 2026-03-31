@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-Statement",
+      "prompt": "Consider the following types of environmental contamination: 1. Contamination from radioactive waste 2. Contamination from mining activities 3. Oil spills at sea 4. Contamination from solid waste dumps. How many of the above are explicitly excluded from the purview of the Environment Protection (Management of Contaminated Sites) Rules, 2025?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "The Environment Protection (Management of Contaminated Sites) Rules, 2025 explicitly exclude contamination from radioactive waste, mining, oil spills at sea, and solid waste dumps.",
+      "takeaway": "The 2025 Rules focus primarily on hazardous substances under the Hazardous and Other Wastes Rules, 2016, leaving other specific types of contamination (like radioactive, mining, marine oil spills, and solid waste) to their respective specialized regulatory regimes.",
+      "evidenceExcerpt": "Exclusions: Contamination from radioactive waste, mining, oil spills at sea, and solid waste dumps..."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Multiple-Statement",
+      "prompt": "With reference to the Environment Protection (Management of Contaminated Sites) Rules, 2025, consider the following statements: 1. If a contaminated land parcel is sold, the liability for its remediation remains exclusively with the original polluter. 2. State Pollution Control Boards (SPCBs) are the designated authorities responsible for identifying the polluter. 3. The initial assessment costs for contaminated sites may be covered by the Environmental Relief Fund established under the Environment (Protection) Act, 1986. How many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "None"
+        },
+        {
+          "id": "B",
+          "text": "Only one"
+        },
+        {
+          "id": "C",
+          "text": "Only two"
+        },
+        {
+          "id": "D",
+          "text": "All three"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Under the rules, if the contaminated land is sold, the new owner assumes liability. Statement 2 is correct: SPCBs identify the polluter. Statement 3 is incorrect: The Environmental Relief Fund is established under the Public Liability Insurance Act, 1991, not the Environment (Protection) Act, 1986.",
+      "takeaway": "The rules introduce a 'buyer beware' approach where purchasing contaminated land transfers liability to the new owner. Additionally, the Environmental Relief Fund under the Public Liability Insurance Act, 1991 can be utilized for initial assessment costs.",
+      "evidenceExcerpt": "SPCBs identify the polluter. If land is sold, the new owner is liable... Initial assessment costs may be covered by Central Government from Environmental Relief Fund under Public Liability Insurance Act, 1991."
+    }
+  ]
+}

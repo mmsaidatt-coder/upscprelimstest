@@ -1,0 +1,154 @@
+{
+  "questions": [
+    {
+      "subject": "Polity",
+      "difficulty": "Hard",
+      "questionType": "Feature-matching",
+      "prompt": "Consider the following descriptions of Alternative Dispute Resolution (ADR) mechanisms:",
+      "contextLines": [
+        "1. Conciliation: A neutral third party facilitates discussion but does not suggest settlement options.",
+        "2. Mediation: A flexible, non-binding process where a neutral party actively communicates with parties to find settlement options.",
+        "3. Negotiation: Parties and their counsel communicate directly to reach an agreement without a neutral third party.",
+        "4. Collaborative Law: Parties and their attorneys agree to work together to resolve issues without litigation."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one statement is correct"
+        },
+        {
+          "id": "B",
+          "text": "Only two statements are correct"
+        },
+        {
+          "id": "C",
+          "text": "Only three statements are correct"
+        },
+        {
+          "id": "D",
+          "text": "All four statements are correct"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect because in Conciliation, the neutral party 'actively communicates' to find settlement options. Statement 2 is incorrect because Mediation is described as a process where the neutral party 'facilitates discussion' (the active settlement suggestion is more characteristic of Conciliation in this context). Statements 3 and 4 are correct: Negotiation involves no neutral, and Collaborative Law involves parties and attorneys working together without litigation.",
+      "takeaway": "The primary distinction between Mediation and Conciliation in ADR is the level of intervention by the neutral third party in proposing settlement terms.",
+      "evidenceExcerpt": "Mediation: A flexible, non-binding process where a neutral party facilitates discussion. Conciliation: A neutral third party actively communicates with parties to find settlement options. Negotiation: Parties and their counsel communicate directly to reach an agreement without a neutral. Collaborative Law: Parties and their attorneys agree to work together to resolve issues without litigation."
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Hard",
+      "questionType": "Comparison-driven",
+      "prompt": "In the context of Alternative Dispute Resolution (ADR) mechanisms, which of the following best distinguishes 'Conciliation' from 'Mediation'?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Conciliation results in a binding award, whereas Mediation results in a non-binding suggestion."
+        },
+        {
+          "id": "B",
+          "text": "Conciliation involves an active role of a third party in suggesting settlement options, whereas Mediation focuses on facilitating discussion."
+        },
+        {
+          "id": "C",
+          "text": "Conciliation is governed by the Mediation Act 2023, while Mediation is governed by the Arbitration and Conciliation Act 1996."
+        },
+        {
+          "id": "D",
+          "text": "Conciliation requires the presence of legal counsel, whereas Mediation is conducted solely between the parties."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "As per the definitions, Mediation is a flexible process where a neutral party facilitates discussion. In contrast, Conciliation involves a neutral third party who actively communicates with parties to specifically find and suggest settlement options.",
+      "takeaway": "The primary difference between mediation and conciliation lies in the degree of intervention by the neutral third party in proposing solutions.",
+      "evidenceExcerpt": "Mediation: A flexible, non-binding process where a neutral party facilitates discussion. Conciliation: A neutral third party actively communicates with parties to find settlement options.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Institutional-feature",
+      "prompt": "Consider the following international frameworks and their primary focus areas in the context of Indian legal mechanisms:\n1. Singapore Convention: International Mediation\n2. UNCITRAL Model Law: Domestic Arbitration\n3. Permanent Court of Arbitration: International Arbitration\nWhich of the pairs given above is/are correctly matched?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "India is a party to the Singapore Convention on Mediation. The Arbitration & Conciliation Act, 1996 is based on the UNCITRAL Model Law. India is also a party to the Permanent Court of Arbitration (1899).",
+      "takeaway": "India's ADR framework is deeply integrated with international standards and conventions for both arbitration and mediation.",
+      "evidenceExcerpt": "Domestic Law: Arbitration & Conciliation Act, 1996... based on the UNCITRAL Model Law. Global Bodies: India is a party to the Permanent Court of Arbitration (1899). Singapore Convention on Mediation: Affirms India's commitment to international mediation.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Feature-matching",
+      "prompt": "Which of the following categories of persons are eligible for free legal aid under the legal framework in India?\n1. Victims of trafficking in human beings or beggars.\n2. Persons in custody in a juvenile home or psychiatric hospital.\n3. Mentally ill or otherwise disabled persons.\n4. Members of Scheduled Castes and Scheduled Tribes.\nSelect the correct answer using the code given below:",
+      "options": [
+        {
+          "id": "A",
+          "text": "1, 2 and 4 only"
+        },
+        {
+          "id": "B",
+          "text": "2, 3 and 4 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2, 3 and 4"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "All the listed categories are eligible for free legal aid. This includes victims of trafficking/begging (Art 23), those in custody (juvenile/psychiatric), the disabled, and SC/ST members.",
+      "takeaway": "The scope of free legal aid extends to various vulnerable groups defined by social status, health, and specific circumstances of exploitation.",
+      "evidenceExcerpt": "Eligibility for Free Legal Aid: Members of Scheduled Castes/Scheduled Tribes; Mentally ill or otherwise disabled person; Persons in custody in protective home, juvenile home, or in a psychiatric hospital; Victims of Trafficking in Human beings or beggar.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Hard",
+      "questionType": "Comparison-driven",
+      "prompt": "Which of the following is a distinguishing feature of 'Collaborative Law' as a type of Alternative Dispute Resolution (ADR)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It involves a neutral third party rendering a binding award similar to a court decree."
+        },
+        {
+          "id": "B",
+          "text": "It is a process where parties and their attorneys agree to resolve issues without resorting to litigation."
+        },
+        {
+          "id": "C",
+          "text": "It is the only ADR mechanism that does not involve legal counsel."
+        },
+        {
+          "id": "D",
+          "text": "It is primarily used for resolving disputes between the State and private citizens."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Collaborative Law is defined as a process where parties and their attorneys agree to work together to resolve issues without litigation. Unlike Negotiation, it explicitly mentions the agreement between parties and their attorneys to avoid court.",
+      "takeaway": "Collaborative Law is a specialized ADR form emphasizing attorney-led cooperation to avoid the litigation process.",
+      "evidenceExcerpt": "Collaborative Law: Parties and their attorneys agree to work together to resolve issues without litigation.",
+      "contextLines": []
+    }
+  ]
+}

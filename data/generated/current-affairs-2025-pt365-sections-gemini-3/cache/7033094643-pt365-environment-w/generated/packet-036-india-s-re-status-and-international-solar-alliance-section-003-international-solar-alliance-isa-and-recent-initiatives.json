@@ -1,0 +1,159 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Multiple-choice",
+      "prompt": "Consider the following initiatives:",
+      "contextLines": [
+        "1. SolarX Startup Challenge",
+        "2. STAR-C Initiative",
+        "3. Global Solar Facility",
+        "4. Green Hydrogen Innovation Centre"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "All four listed initiatives are key programs launched under the International Solar Alliance (ISA).",
+      "takeaway": "The ISA has diversified its efforts beyond just solar panel deployment through initiatives like SolarX, STAR-C, Global Solar Facility, and the Green Hydrogen Innovation Centre.",
+      "evidenceExcerpt": "Key ISA initiatives include the SolarX Startup Challenge, STAR-C Initiative, Global Solar Facility, and Green Hydrogen Innovation Centre."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Feature-matching",
+      "prompt": "The 'Towards 1000' strategy of the International Solar Alliance (ISA) sets specific numerical targets for the year 2030. Consider the following parameters:",
+      "contextLines": [
+        "1. Solar energy capacity installation",
+        "2. Carbon dioxide emission mitigation",
+        "3. Energy access delivery",
+        "4. Green hydrogen production"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The 'Towards 1000' strategy includes specific targets of 1,000 GW for solar capacity, mitigating 1,000 million tonnes of CO2, delivering energy access to 1,000 million people, and mobilizing USD 1,000 billion in investments. It does not set a specific '1,000' target for green hydrogen production.",
+      "takeaway": "The 'Towards 1000' strategy focuses on four key pillars: investments, energy access, solar capacity, and CO2 mitigation.",
+      "evidenceExcerpt": "ISA's 'Towards 1000' strategy aims to mobilize USD 1,000 billion in investments, deliver energy access to 1,000 million people, install 1,000 GW of solar capacity, and mitigate 1,000 million tonnes of CO2 annually by 2030."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Application-based",
+      "prompt": "The rapid expansion of solar energy infrastructure globally has raised concerns regarding the disposal of solar panels and batteries. In this context, which of the following initiatives was recently launched at the International Solar Alliance (ISA) Assembly specifically to address the circularity and end-of-life management of these components?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Global Solar Facility"
+        },
+        {
+          "id": "B",
+          "text": "SUNRISE Initiative"
+        },
+        {
+          "id": "C",
+          "text": "STAR-C Initiative"
+        },
+        {
+          "id": "D",
+          "text": "SolarX Challenge"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The SUNRISE (Solar Upcycling Network for Recycling, Innovation & Stakeholder Engagement) is a global initiative launched at the 8th ISA Assembly. It focuses specifically on the circularity and end-of-life (EoL) management of solar photovoltaics (PV) and batteries.",
+      "takeaway": "As solar capacity grows, end-of-life management becomes critical. The ISA's SUNRISE initiative is designed to promote circular economy principles within the solar industry.",
+      "evidenceExcerpt": "Launch of SUNRISE (Solar Upcycling Network for Recycling, Innovation & Stakeholder Engagement) - a global initiative on circularity and end-of-life (EoL) management of solar PV and batteries..."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the International Solar Alliance (ISA), consider the following statements: 1. Following a recent amendment to its Framework Agreement, membership eligibility has been expanded to include all United Nations member states. 2. Mauritius recently became the first African country to sign the ISA's Country Partnership Framework (CPF). Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: A 2020 amendment to the ISA Framework Agreement removed previous geographical restrictions, making all UN member states eligible to join. Statement 2 is correct: Mauritius became the first African country to sign the ISA's Country Partnership Framework.",
+      "takeaway": "The ISA has broadened its global reach by opening membership to all UN states and is actively expanding its partnerships in Africa, as evidenced by Mauritius signing the CPF.",
+      "evidenceExcerpt": "Mauritius Became 1st African Country to sign ISA's CPF... Following 2020 amendment to its Framework Agreement, all UN members are now eligible to join."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Correct-pair",
+      "prompt": "Which of the following correctly pairs a global renewable energy initiative with its primary parent organization?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Green Hydrogen Innovation Centre - International Energy Agency (IEA)"
+        },
+        {
+          "id": "B",
+          "text": "Global Solar Facility - United Nations Environment Programme (UNEP)"
+        },
+        {
+          "id": "C",
+          "text": "STAR-C Initiative - International Solar Alliance (ISA)"
+        },
+        {
+          "id": "D",
+          "text": "SolarX Startup Challenge - World Economic Forum (WEF)"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The STAR-C Initiative, Green Hydrogen Innovation Centre, Global Solar Facility, and SolarX Startup Challenge are all key initiatives operating under the International Solar Alliance (ISA). The other options incorrectly attribute ISA initiatives to different international bodies.",
+      "takeaway": "The ISA's mandate extends beyond basic solar deployment, encompassing startup incubation (SolarX), capacity building (STAR-C), financing (Global Solar Facility), and allied green technologies (Green Hydrogen Innovation Centre).",
+      "evidenceExcerpt": "Key ISA initiatives include the SolarX Startup Challenge, STAR-C Initiative, Global Solar Facility, and Green Hydrogen Innovation Centre."
+    }
+  ]
+}

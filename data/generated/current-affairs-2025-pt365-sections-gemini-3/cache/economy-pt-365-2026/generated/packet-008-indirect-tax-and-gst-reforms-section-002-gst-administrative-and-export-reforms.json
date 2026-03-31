@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-Driven",
+      "prompt": "With reference to the recent administrative and export reforms under the Goods and Services Tax (GST) regime, consider the following statements: 1. The Goods and Services Tax Appellate Tribunal (GSTAT) is scheduled to become operational for appeals by September 2025. 2. A simplified GST registration scheme has been recommended as a mandatory compliance measure for all small and low-risk businesses. 3. The place of supply for 'intermediary services' is determined by the location of the recipient of such services to aid Indian exporters. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The Goods and Services Tax Appellate Tribunal (GSTAT) is set to be operational for appeals before the end of September 2025. Statement 2 is incorrect: The simplified GST registration scheme recommended for small and low-risk businesses is optional, not mandatory. Statement 3 is correct: Under recent export benefits, the place of supply for 'intermediary services' is determined as per the location of the recipient of such services, which aids Indian exporters. Therefore, exactly two statements are correct.",
+      "takeaway": "Recent GST reforms focus on ease of doing business through an optional simplified registration scheme for small businesses, operationalizing GSTAT by September 2025, and shifting the place of supply for intermediary services to the recipient's location.",
+      "evidenceExcerpt": "Dispute Resolution: The Goods and Services Tax Appellate Tribunal (GSTAT) is set to be operational for appeals before the end of September 2025. Registration Ease: A simplified, optional GST registration scheme is recommended for small and low-risk businesses. Export Benefits: Recommended that the place of supply for 'intermediary services' will be determined as per the location of the recipient of such services."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "Which of the following statements is correct regarding the determination of the 'place of supply' for 'intermediary services' under the recent GST export reforms?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It is determined by the location of the intermediary providing the service."
+        },
+        {
+          "id": "B",
+          "text": "It is determined by the location of the recipient of the services."
+        },
+        {
+          "id": "C",
+          "text": "It is determined by the location where the underlying goods are situated."
+        },
+        {
+          "id": "D",
+          "text": "It is determined by the location of the customs port from where the export takes place."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Under the recent GST export reforms, the place of supply for 'intermediary services' is determined as per the location of the recipient of such services. This change is specifically designed to aid Indian exporters.",
+      "takeaway": "To boost exports and simplify compliance, the GST framework now determines the place of supply for intermediary services based on the recipient's location rather than the service provider's location.",
+      "evidenceExcerpt": "Export Benefits: Recommended that the place of supply for 'intermediary services' will be determined as per the location of the recipient of such services."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Application",
+      "prompt": "An Indian business acts as an intermediary, facilitating the supply of services between a foreign software company and its international clients. Under the recent Goods and Services Tax (GST) export reforms, how is the 'place of supply' for this intermediary service determined, and what is its primary implication?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It is determined by the location of the Indian intermediary, making the service liable to standard domestic GST."
+        },
+        {
+          "id": "B",
+          "text": "It is determined by the location of the recipient of the service, thereby aiding the Indian intermediary by treating the transaction as an export."
+        },
+        {
+          "id": "C",
+          "text": "It is determined by the location where the software is ultimately consumed, requiring the intermediary to register in multiple foreign jurisdictions."
+        },
+        {
+          "id": "D",
+          "text": "It is determined by the location of the Indian intermediary, but the business is exempted from GST under the new mandatory small-business scheme."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Under the recent GST export reforms, the place of supply for 'intermediary services' is determined by the location of the recipient of such services. In this scenario, since the recipient is foreign, the place of supply is outside India. This aids Indian exporters by allowing the service to qualify for export benefits, rather than being burdened with domestic GST.",
+      "takeaway": "The shift in determining the place of supply for intermediary services to the recipient's location is a significant reform aimed at boosting service exports by removing domestic tax friction.",
+      "evidenceExcerpt": "Export Benefits: Recommended that the place of supply for 'intermediary services' will be determined as per the location of the recipient of such services... aiding Indian exporters."
+    }
+  ]
+}

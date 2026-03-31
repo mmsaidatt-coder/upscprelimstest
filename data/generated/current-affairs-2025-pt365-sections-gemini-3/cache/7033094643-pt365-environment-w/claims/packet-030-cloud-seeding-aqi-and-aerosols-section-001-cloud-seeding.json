@@ -1,0 +1,48 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-030-cloud-seeding-aqi-and-aerosols-section-001-cloud-seeding",
+    "claimType": "Factual",
+    "claimText": "Cloud seeding is a weather modification technique that can only be conducted on existing natural clouds and cannot create new clouds.",
+    "evidenceExcerpt": "Conducted on existing natural clouds and does not create clouds.",
+    "pageNumbers": [
+      62
+    ],
+    "examUse": "Statement-based question testing the limitations of cloud seeding technology.",
+    "distractorHooks": [
+      "Cloud seeding can create new clouds in clear skies",
+      "Cloud seeding generates artificial clouds from atmospheric gases"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-030-cloud-seeding-aqi-and-aerosols-section-001-cloud-seeding",
+    "claimType": "Factual",
+    "claimText": "Silver Iodide (AgI) is the most common cloud seeding agent due to its efficient ice nucleating properties.",
+    "evidenceExcerpt": "Silver Iodide (AgI), most common material, known for its efficient ice nucleating properties.",
+    "pageNumbers": [
+      62
+    ],
+    "examUse": "Correct-pair or statement-based question identifying primary chemicals used in weather modification.",
+    "distractorHooks": [
+      "Silver Bromide is the most common agent",
+      "Silver Iodide is used to disperse clouds rather than induce precipitation"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-030-cloud-seeding-aqi-and-aerosols-section-001-cloud-seeding",
+    "claimType": "Factual",
+    "claimText": "Chemicals such as potassium iodide, sulfur dioxide, and frozen carbon dioxide (dry ice) are utilized as agents in cloud seeding.",
+    "evidenceExcerpt": "Other chemicals used are potassium iodide (KI), sulfur dioxide (SO2), frozen carbon dioxide (dry ice).",
+    "pageNumbers": [
+      62
+    ],
+    "examUse": "Multiple-choice question asking to identify which chemicals are used in cloud seeding from a given list.",
+    "distractorHooks": [
+      "Carbon monoxide",
+      "Liquid nitrogen",
+      "Silver nitrate"
+    ]
+  }
+]

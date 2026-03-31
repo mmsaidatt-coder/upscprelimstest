@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Step-and-Shoot Spot-Scanning Proton Arc Therapy (SPArc):\n1. It is an advanced radiation therapy technique that utilizes protons to target tumours.\n2. It destroys cancer cells by damaging their DNA.\n3. It has the advantage of sparing surrounding healthy tissues during treatment.\n\nWhich of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Statement 1 is correct: SPArc is an advanced radiation therapy technique that targets tumours with protons.\nStatement 2 is correct: The therapy works by damaging the DNA of cancer cells, thereby destroying them.\nStatement 3 is correct: A key benefit of SPArc is its ability to target tumours precisely while sparing the surrounding healthy tissue.",
+      "takeaway": "SPArc is an advanced proton-based radiation therapy that damages cancer cell DNA while minimizing harm to healthy tissues.",
+      "evidenceExcerpt": "About Step-and-Shoot Proton Arc (SPArc): A kind of advanced radiation therapy technique. It works by targeting tumours with protons while sparing surrounding tissue... SPArc is an advanced radiation therapy technique that damages cancer cells' DNA."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to 'Step-and-Shoot Spot-Scanning Proton Arc Therapy (SPArc)', recently seen in the news, consider the following statements:\n1. It is a novel gene-editing tool used to modify the DNA of cancer cells to prevent their multiplication.\n2. It has been recently used to treat Adenoid Cystic Carcinoma (ACC), a relatively rare form of cancer.\n3. It improves the quality of radiation dose planning for cancers of the head, neck, and brain.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: SPArc is an advanced radiation therapy technique, not a gene-editing tool. While it does damage the DNA of cancer cells to destroy them, it does not 'edit' or 'modify' genes in the manner of tools like CRISPR.\nStatement 2 is correct: For the first time, SPArc has been used to treat Adenoid Cystic Carcinoma (ACC), a rare form of cancer.\nStatement 3 is correct: SPArc improves the quality of radiation dose planning for various cancers, including those of the head, neck, and brain.",
+      "takeaway": "SPArc is a radiation therapy (not a gene-editing tool) that improves dose planning for brain, head, and neck cancers, and was recently used to treat the rare Adenoid Cystic Carcinoma (ACC).",
+      "evidenceExcerpt": "For the first time, SPArc has been used to treat an Adenoid Cystic Carcinoma (ACC), a relatively rare form of cancer. About Step-and-Shoot Proton Arc (SPArc): A kind of advanced radiation therapy technique... Benefits: Improves the quality of radiation dose planning for various cancers like head and neck, brain, etc."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "Which one of the following best describes the core therapeutic mechanism of the recently developed 'Step-and-Shoot Spot-Scanning Proton Arc Therapy (SPArc)'?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It uses targeted proton beams to induce DNA damage in tumor cells while minimizing radiation exposure to adjacent healthy tissues."
+        },
+        {
+          "id": "B",
+          "text": "It deploys engineered bacteriophages to selectively infect and destroy rare malignancies like Adenoid Cystic Carcinoma."
+        },
+        {
+          "id": "C",
+          "text": "It utilizes synchronized electron beams to thermally ablate deep-seated brain tumors without surgical intervention."
+        },
+        {
+          "id": "D",
+          "text": "It relies on the systemic administration of proton-emitting radioisotopes that accumulate specifically in cancerous tissues."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "SPArc is an advanced radiation therapy technique that works by targeting tumors with protons. This process damages the DNA of cancer cells while sparing the surrounding healthy tissue.",
+      "takeaway": "SPArc uses protons (not electrons, bacteriophages, or systemic radioisotopes) to precisely target and damage the DNA of localized tumors while protecting nearby healthy tissue.",
+      "evidenceExcerpt": "About Step-and-Shoot Proton Arc (SPArc): A kind of advanced radiation therapy technique. It works by targeting tumours with protons while sparing surrounding tissue. ... SPArc is an advanced radiation therapy technique that damages cancer cells' DNA."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Application",
+      "prompt": "Consider the following types of malignancies:\n\n1. Adenoid Cystic Carcinoma (ACC)\n2. Brain cancer\n3. Head and neck cancers\n\nFor which of the above is the 'Step-and-Shoot Spot-Scanning Proton Arc Therapy (SPArc)' considered an applicable or beneficial treatment technique?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2, and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "SPArc improves the quality of radiation dose planning for various cancers including head and neck, and brain cancers. Furthermore, it has recently been used for the first time to treat Adenoid Cystic Carcinoma (ACC), a rare form of cancer.",
+      "takeaway": "SPArc is an advanced radiation therapy applicable to rare cancers like ACC, as well as complex tumors in the head, neck, and brain.",
+      "evidenceExcerpt": "For the first time, SPArc has been used to treat an Adenoid Cystic Carcinoma (ACC), a relatively rare form of cancer... Benefits: Improves the quality of radiation dose planning for various cancers like head and neck, brain, etc."
+    }
+  ]
+}

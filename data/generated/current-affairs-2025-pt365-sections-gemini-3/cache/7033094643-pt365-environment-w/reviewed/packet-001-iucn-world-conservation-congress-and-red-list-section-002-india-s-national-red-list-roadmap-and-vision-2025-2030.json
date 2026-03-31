@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding India's National Red List Roadmap and Vision 2025-2030:\n\n1. It aims to publish National Red Data Books for both flora and fauna by 2030.\n2. The National Biodiversity Authority (NBA) is the designated nodal agency for its implementation.\n3. It is internationally aligned with the targets of the Kunming-Montreal Global Biodiversity Framework (KMGBF).\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The roadmap is a 5-year initiative with the goal of publishing National Red Data Books for both flora and fauna by 2030.\nStatement 2 is incorrect: The nodal agency for the roadmap is the Union Ministry of Environment, Forest & Climate Change (MoEFCC), not the National Biodiversity Authority.\nStatement 3 is correct: The initiative is internationally aligned with the Convention on Biological Diversity (CBD) and the Kunming-Montreal Global Biodiversity Framework (KMGBF).",
+      "takeaway": "India's National Red List Roadmap (2025-2030) is a MoEFCC-led initiative aiming to assess ~11,000 species and publish Red Data Books for flora and fauna, aligning with global frameworks like the KMGBF.",
+      "evidenceExcerpt": "Goal to publish National Red Data Books for flora and fauna by 2030.\nNodal Agency: Union Ministry of Environment, Forest & Climate Change.\nInternationally aligned with CBD and Kunming-Montreal Global Biodiversity Framework (KMGBF).",
+      "qualityScore": 85,
+      "reviewNotes": "Rewritten to test the specific deliverables, nodal agency, and international alignment. The distractor (NBA) is highly plausible for biodiversity-related questions."
+    }
+  ],
+  "reviewerNotes": "Both candidates were salvageable and have been rewritten to match the current UPSC Prelims format ('How many of the above'). The distractors were refined to be more plausible (e.g., using NBA instead of MoEFCC, and WWF India instead of UNEP) to increase the cognitive load appropriately."
+}

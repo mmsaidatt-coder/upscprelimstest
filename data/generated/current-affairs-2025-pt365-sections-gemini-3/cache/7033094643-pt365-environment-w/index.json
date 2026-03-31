@@ -1,0 +1,1228 @@
+{
+  "pages": [
+    {
+      "pageNumber": 1,
+      "classification": "cover",
+      "questionQuota": 0,
+      "topic": "Cover Page",
+      "subtopic": "Environment PT 365 (2025)",
+      "rationale": "This is the front cover of the document containing the title and date range.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 2,
+      "classification": "toc",
+      "questionQuota": 0,
+      "topic": "Table of Contents",
+      "subtopic": "Biodiversity and Climate Change",
+      "rationale": "This page contains the table of contents for the document.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 3,
+      "classification": "toc",
+      "questionQuota": 0,
+      "topic": "Table of Contents",
+      "subtopic": "Pollution, Sustainable Development, and Disaster Management",
+      "rationale": "This page continues the table of contents.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 4,
+      "classification": "toc",
+      "questionQuota": 0,
+      "topic": "Table of Contents and Advertisement",
+      "subtopic": "Geography and Places in News",
+      "rationale": "Contains the end of the table of contents and a large advertisement for a foundation course.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 5,
+      "classification": "copyright",
+      "questionQuota": 0,
+      "topic": "Note to Students",
+      "subtopic": "Document Features",
+      "rationale": "Introductory note explaining the features of the document like infographics and thumbnails.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 6,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Biodiversity",
+      "subtopic": "IUCN World Conservation Congress 2025",
+      "rationale": "Contains dense information on the IUCN World Conservation Congress, its resolutions, and India's National Red List Roadmap.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 7,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Biodiversity",
+      "subtopic": "IUCN Red List and Green Status of Species",
+      "rationale": "Detailed explanation of IUCN Red List categories and the newer Green Status of Species assessment framework.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 8,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Biodiversity",
+      "subtopic": "IUCN Commissions and Lion Green Status",
+      "rationale": "Very high density; covers the Kenton Miller Award, SSC, World Heritage Outlook 4, and a detailed comparison between Asiatic and African Lions.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 9,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Biodiversity",
+      "subtopic": "UNESCO World Network of Biosphere Reserves (WNBR)",
+      "rationale": "Covers the MAB programme, designation process, and provides a comprehensive list of Biosphere Reserves in India.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 10,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Biodiversity",
+      "subtopic": "Cold Desert BR and Wildlife Protection Act 1972",
+      "rationale": "Details on the Cold Desert Biosphere Reserve and a summary of the Wildlife Protection Act (WPA) 1972 schedules and institutions.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 11,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Biodiversity",
+      "subtopic": "Biological Diversity Regulation 2025 and CBD",
+      "rationale": "Extremely dense page covering new ABS regulations, Digital Sequence Information (DSI), Nagoya Protocol, and the Convention on Biological Diversity.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 12,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Biodiversity",
+      "subtopic": "BD Act 2002 and CSS-IDWH Scheme",
+      "rationale": "Explains India's legal framework for biodiversity and the Integrated Development of Wildlife Habitats scheme, including a Sloth Bear profile.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 13,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Biodiversity",
+      "subtopic": "Project Cheetah and Gandhi Sagar WLS",
+      "rationale": "Covers the reintroduction of Cheetahs in India, comparison between Asiatic and African Cheetahs, and Gandhi Sagar Wildlife Sanctuary.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 14,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Biodiversity",
+      "subtopic": "Tiger Reserves and Supreme Court Directions",
+      "rationale": "Discusses Supreme Court rulings on tiger safaris and human-wildlife conflict, alongside the legal structure of Tiger Reserves.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 15,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Biodiversity",
+      "subtopic": "International Big Cat Alliance (IBCA) and Small Cats",
+      "rationale": "Details the newly formed IBCA and provides an overview of the status of small cats in India's tiger landscapes.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 16,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Biodiversity",
+      "subtopic": "Small Cat Species and Elephant Population Status",
+      "rationale": "Profiles specific small cats like the Caracal and Fishing Cat, and presents findings from the All India Population Estimation of Elephants.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 17,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Biodiversity",
+      "subtopic": "Asian Elephants and Crocodile Conservation",
+      "rationale": "Very dense content including a detailed comparison of Asian vs African elephants and the history of the Crocodile Conservation Project.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 18,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Biodiversity",
+      "subtopic": "Crocodile Species in India",
+      "rationale": "Detailed profiles of Saltwater Crocodiles, Muggers, and Gharials, including their IUCN status, habitats, and unique biological characteristics.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 19,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Species in News",
+      "subtopic": "River Dolphins (Gangetic and Indus)",
+      "rationale": "Extremely dense page covering the first comprehensive population estimate, comparative characteristics of Gangetic vs Indus dolphins, IUCN/WPA status, and specific conservation projects like Project Dolphin and NDRC.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 20,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Species in News",
+      "subtopic": "Vultures and Camel Policy",
+      "rationale": "Covers the first Pan-India assessment of vultures with specific data on four critically endangered species and their locations. Also introduces the Draft Policy Paper on Camels and population decline drivers.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 21,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Species in News",
+      "subtopic": "Camel Breeds and Wild Yak",
+      "rationale": "Detailed breakdown of Indian camel breeds (especially the swimming Kharai camel) and the first chromosome-level genome assembly of the Indian Yak, including Wild Yak conservation status.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 22,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Species in News / Forests",
+      "subtopic": "TN Endangered Species and Forest Amendment Rules 2025",
+      "rationale": "Details four specific endangered species in Tamil Nadu and introduces the significant Van (Sanrakshan Evam Samvardhan) Amendment Rules 2025 regarding compensatory afforestation.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 23,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Forests",
+      "subtopic": "Forest (Conservation) Amendment Act 2023",
+      "rationale": "Explains the legal definition of forest, the Stage I/II clearance procedure, and specific categories of land exempted from the Act, which are high-probability UPSC topics.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 24,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Forests",
+      "subtopic": "Green India Mission and ISFR 2023",
+      "rationale": "Provides objectives and strategies of the Green India Mission and key findings from the India State of Forest Report (ISFR) 2023 regarding forest cover increases.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 25,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Forests / Wetlands",
+      "subtopic": "ISFR Terms and UN High Seas Treaty",
+      "rationale": "Defines critical forest terms (Carbon Stock, Protected Forests) and provides a detailed overview of the BBNJ Agreement (High Seas Treaty) and its pillars.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 26,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Wetlands and Oceans",
+      "subtopic": "UNCLOS and Ramsar Convention",
+      "rationale": "Detailed explanation of UNCLOS maritime zones (Territorial Sea, EEZ, etc.) and the foundational mandate and 'wise use' principle of the Ramsar Convention.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 27,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Wetlands",
+      "subtopic": "Ramsar Mechanisms and COP15 Outcomes",
+      "rationale": "Dense coverage of Ramsar List criteria, Montreux Record, Wetland City Accreditation, and multiple new initiatives from COP15 like the Victoria Falls Declaration and GWEP.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 28,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Wetlands",
+      "subtopic": "New Ramsar Sites in India",
+      "rationale": "Lists and describes new Ramsar sites in Rajasthan and Bihar, including Khichan, Menar, and Siliserh, with specific wildlife and geographical details.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 29,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Wetlands / Coral Bleaching",
+      "subtopic": "Ramsar Sites and Coral Biology",
+      "rationale": "Continues the list of new Ramsar sites (Gokul, Udaipur, etc.), discusses Vembanad and Dal lakes, and provides a detailed explanation of coral bleaching and symbiotic relationships.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 30,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Wetlands / Mangroves",
+      "subtopic": "Coral Distribution and SAIME Model",
+      "rationale": "Covers coral reef types, distribution in India (Coral Triangle), and the SAIME model for sustainable aquaculture in mangrove ecosystems, including mangrove characteristics.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 31,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Wetlands / International Frameworks",
+      "subtopic": "IPZ, UNFF, and UNOC3",
+      "rationale": "Explains the Island Protection Zone (IPZ) framework, the United Nations Forum on Forests (UNFF), and the outcomes of the Third UN Ocean Conference (UNOC3).",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 32,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Coastal / Species",
+      "subtopic": "Blue Flag Beaches and CAMI",
+      "rationale": "Lists Blue Flag beaches in India, explains the AIM4NatuRe initiative, the Central Asian Mammals Initiative (CAMI), and rare mushroom sightings in Telangana.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 33,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Species / Concepts",
+      "subtopic": "Conservation Reserves and Ocean Darkening",
+      "rationale": "Covers the legal definition of Conservation Reserves under WPA 1972, the Hesaraghatta Grassland, the concept of Global Ocean Darkening, and Environmental DNA (eDNA).",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 34,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Concepts / Species",
+      "subtopic": "Blue Washing, De-extinction, and Ungulates",
+      "rationale": "Defines Blue Washing and Green Washing, explains functional de-extinction (Dire wolves), and summarizes the first-ever survey of ungulates in India.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 35,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Organizations",
+      "subtopic": "CITES and UPOV",
+      "rationale": "Detailed institutional profiles of CITES (including its three appendices) and UPOV, highlighting India's unique sui generis law for plant variety protection.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 36,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Organizations",
+      "subtopic": "IBAT Alliance and NGT",
+      "rationale": "Covers the IBAT Alliance coalition and provides a comprehensive overview of the National Green Tribunal (NGT), its legislative framework, powers, and governance.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 37,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "Reports and Indices",
+      "subtopic": "Global Forest Resources Assessment (GFRA) 2025",
+      "rationale": "The page contains specific data points regarding global forest cover and India's ranking in forest area and rubber plantations, suitable for factual prelims questions.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 38,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Climate Change",
+      "subtopic": "UNFCCC COP30 and Belem Package",
+      "rationale": "High-density content covering the outcomes of COP30, the genesis of UNFCCC, and several new international initiatives like the Belem Mission and TFFF.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 39,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Climate Change",
+      "subtopic": "COP30 Finance and Adaptation Frameworks",
+      "rationale": "Contains detailed information on the Tropical Forest Forever Facility, NCQG targets, and the Global Goal on Adaptation (GGA) measurement framework.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 40,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Climate Change",
+      "subtopic": "International Climate Initiatives and Declarations",
+      "rationale": "Extremely dense page listing multiple specific global initiatives (FINI, PACT, Belem Health Action Plan) with participants and objectives, ideal for matching or statement-based questions.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 41,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Climate Change",
+      "subtopic": "COP30 Outcomes: Health, Governance, and Food Waste",
+      "rationale": "Features a table of significant outcomes including the Systematic Observation Impact Bond and the Food Waste Breakthrough, providing clear factual targets.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 42,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Climate Change",
+      "subtopic": "COP30 Initiatives and Finance Platforms",
+      "rationale": "Dense list of initiatives including the Global Carbon Harvest Coalition (India involved) and Country Platforms for Climate and Nature Finance, which are highly relevant for UPSC.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 43,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Climate Change",
+      "subtopic": "Green Climate Fund and LeadIT",
+      "rationale": "Covers institutional details of the Green Climate Fund and the India-Sweden LeadIT initiative, both recurring themes in UPSC exams.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 44,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Climate Change",
+      "subtopic": "India's NDCs and GEI Target Rules 2025",
+      "rationale": "Critical page detailing India's updated NDC targets, Panchamrit commitments, and the newly notified Greenhouse Gases Emission Intensity Rules.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 45,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Climate Change",
+      "subtopic": "Carbon Credit Trading Scheme and India's Emissions",
+      "rationale": "Provides technical details on the CCTS, India's 4th Biennial Update Report (BUR-4) statistics, and other market mechanisms like PAT and REC.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 46,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Climate Change",
+      "subtopic": "Green Credit Program and Mission LiFE",
+      "rationale": "Detailed explanation of the Green Credit Program, its methodology, nodal agencies, and its distinction from carbon credits, which is a high-probability topic.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 47,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Climate Change",
+      "subtopic": "Article 6 of Paris Agreement and Montreal Protocol",
+      "rationale": "Explains the mechanisms of Article 6 (6.2, 6.4, 6.8) and provides a comparison between the Kyoto Protocol and the Paris Agreement.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 48,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Climate Change",
+      "subtopic": "Montreal Protocol and Net Zero Shipping",
+      "rationale": "Covers the Montreal Protocol, Kigali Amendment, and the new Net-Zero Framework for Global Shipping by the IMO.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 49,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Climate Change",
+      "subtopic": "IMO and Carbon Capture and Utilisation (CCU)",
+      "rationale": "Details on the International Maritime Organization and the technical pathways for Carbon Capture and Utilisation as per India's R&D roadmap.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 50,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Climate Change",
+      "subtopic": "Methane Emissions and Glacier Preservation",
+      "rationale": "Discusses methane as a GHG, the CCAC partnership, and the consequences of glacial loss with specific examples like the Yala Glacier.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 51,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Climate Change",
+      "subtopic": "Polar Research and Sustainability Frameworks",
+      "rationale": "Information on India's new research station Maitri II, the Global Reporting Initiative (GRI), and the Net-Zero Banking Alliance.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 52,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Climate Change",
+      "subtopic": "Climate Tipping Points and Arctic Amplification",
+      "rationale": "High conceptual value regarding climate tipping points identified by IPCC and the scientific factors behind Arctic Amplification.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 53,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Climate Change",
+      "subtopic": "Planetary Boundaries",
+      "rationale": "Explains the nine planetary boundaries and their current status based on the Planetary Health Check 2025.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 54,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Organizations",
+      "subtopic": "United Nations Environment Programme (UNEP)",
+      "rationale": "Comprehensive overview of UNEP, including its genesis, the conventions it hosts, and the major reports it publishes.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 55,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "International Environmental Institutions",
+      "subtopic": "Global Environment Facility (GEF)",
+      "rationale": "Covers the Global Environment Facility (GEF), its location, genesis, and role as a financial mechanism for five major international conventions.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 56,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "International Organizations & Carbon Pricing",
+      "subtopic": "WMO and Carbon Pricing Instruments",
+      "rationale": "Detailed information on the World Meteorological Organisation (WMO), its climate reports, and various carbon pricing instruments like ETS and carbon taxes.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 57,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Environmental Indices & Reports",
+      "subtopic": "Energy Transition, Climate Risk, and Performance Indices",
+      "rationale": "Summarizes multiple global indices including the Energy Transition Index, Climate Risk Index, and Climate Change Performance Index with India's rankings.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 58,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Pollution Conventions",
+      "subtopic": "Basel, Rotterdam, and Stockholm (BRS) Conventions",
+      "rationale": "Dense coverage of the Basel, Rotterdam, and Stockholm (BRS) Conventions, including recent COP outcomes and specific chemical listings.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 59,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Pollution Conventions & Treaties",
+      "subtopic": "Minamata Convention and Global Plastic Pollution Treaty",
+      "rationale": "Detailed coverage of the Minamata Convention on Mercury and the evolution of the Global Plastic Pollution Treaty, including key disagreements among nations.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 60,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Plastic Pollution",
+      "subtopic": "Microplastics and India's Regulatory Framework",
+      "rationale": "Technical details on microplastics, their types and impacts, alongside India's legislative framework for plastic waste management.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 61,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Air Pollution",
+      "subtopic": "Graded Response Action Plan (GRAP) and Air Quality Standards",
+      "rationale": "Comprehensive overview of urban air pollution in India, the Graded Response Action Plan (GRAP) stages, and a comparison of air quality standards.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 62,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Air Quality Management",
+      "subtopic": "AQI, CAQM, and Swachh Vayu Sarveshan",
+      "rationale": "Details on cloud seeding, the National Air Quality Index (AQI) categories, the statutory role of CAQM, and the Swachh Vayu Sarveshan awards.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 63,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Air & Water Pollution",
+      "subtopic": "NCAP, Aerosols, and Polluted River Stretches",
+      "rationale": "Covers the National Clean Air Programme (NCAP) targets, aerosol types and their climatic impacts like the Twomey Effect.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 64,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Water Pollution & Governance",
+      "subtopic": "CPCB and River Rejuvenation Framework",
+      "rationale": "Explains the criteria for Polluted River Stretches (PRS), the statutory functions of the CPCB, and the framework for river rejuvenation.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 65,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Water Technology & Industry Classification",
+      "subtopic": "Desalination Technologies and Industry Categories",
+      "rationale": "Compares thermal and membrane desalination technologies and introduces the revised Pollution Index-based classification of industries.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 66,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Industrial Pollution & Waste Management",
+      "subtopic": "Revised Industry Classification and Contaminated Sites",
+      "rationale": "Detailed breakdown of the revised industry classification (Red, Orange, Green, White, Blue) and new rules for managing contaminated sites.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 67,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Waste Management & Air Quality",
+      "subtopic": "Hazardous Waste Amendment Rules and EPR",
+      "rationale": "Discusses the 2025 Hazardous Waste Amendment Rules, the EPR framework for non-ferrous metals, and global air pollution conferences.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 68,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Water & Waste Management Initiatives",
+      "subtopic": "GOCWI, River Cities Alliance, and Dumpsite Remediation",
+      "rationale": "Covers water investment platforms, the River Cities Alliance, and the Dumpsite Remediation Accelerator Programme (DRAP) under SBM-U 2.0.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 69,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Environmental Pollutants",
+      "subtopic": "Ground-level Ozone, Heavy Metals, and PFAS",
+      "rationale": "Technical information on ground-level ozone formation, secondary pollutants, and the toxicity and sources of various heavy metals.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 70,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Pollution Control Technologies & Zones",
+      "subtopic": "Green Firecrackers, FGD, and Taj Trapezium Zone",
+      "rationale": "Explains the composition and types of green firecrackers, Flue Gas Desulphurisation (FGD) technology, and the Taj Trapezium Zone (TTZ).",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 71,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "Environmental Reports",
+      "subtopic": "State of Global Air and Air Quality Life Index",
+      "rationale": "Summarizes findings from the State of Global Air Report and the Air Quality Life Index regarding the health impacts of pollution.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 72,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Sustainable Development",
+      "subtopic": "SDG Progress and Global Reports",
+      "rationale": "Reviews 10 years of Sustainable Development Goals (SDGs), India's progress, and key global reports monitoring the 2030 Agenda.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 73,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Sustainable Development",
+      "subtopic": "SDG Indices & Financing for Development",
+      "rationale": "The page contains high-value factual data on the SDG India Index (NITI Aayog), the Sevilla Commitment for SDG financing, and specific mechanisms like Debt-for-Development Swaps and the SCALED platform.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 74,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Renewable Energy",
+      "subtopic": "Financing Evolution & India's RE Status",
+      "rationale": "This page is extremely dense, covering the evolution of sustainable financing (Monterrey, Doha, Addis Ababa), India's updated NDC and Panchamrita targets, and detailed statistics on the renewable energy sector.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 75,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Renewable Energy",
+      "subtopic": "International Solar Alliance & Efficiency Norms",
+      "rationale": "Covers the International Solar Alliance (ISA) institutional details, its 'Towards 1000' strategy, and significant regulatory changes in solar panel efficiency norms (ALMM) by MNRE.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 76,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Renewable Energy",
+      "subtopic": "Green Hydrogen Mission & Certification",
+      "rationale": "Highly conceptual and factual page detailing the Green Hydrogen Certification Scheme (GHCI), emission intensity standards, and the classification of hydrogen by color/process.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 77,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Renewable Energy",
+      "subtopic": "National Bioenergy Programme & Green Hydrogen Hubs",
+      "rationale": "Provides details on the SIGHT programme, designated Green Hydrogen Hubs (ports), and the three components of the National Bioenergy Programme (Waste to Energy, Biomass, Biogas).",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 78,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Biofuels",
+      "subtopic": "Ethanol Blending & Biofuel Generations",
+      "rationale": "Dense content on the Ethanol Blended Petrol (EBP) programme, the National Policy on Biofuels, and a clear classification of the four generations of biofuels (1G to 4G).",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 79,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Biofuels",
+      "subtopic": "Bioethanol, E-Methanol & Compressed Biogas",
+      "rationale": "Covers specific alternative fuels including bamboo-based bioethanol, the world's first commercial E-Methanol plant, and India's first cooperative multi-feed CBG plant.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 80,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Geothermal Energy",
+      "subtopic": "National Policy on Geothermal Energy 2025",
+      "rationale": "Details the first National Policy on Geothermal Energy, identifying India's geothermal provinces and the potential for electricity generation and direct-use applications.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 81,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Energy Sector",
+      "subtopic": "Wind Energy & Coal Gasification",
+      "rationale": "Discusses geothermal financing mechanisms, the updated ALMM for wind energy, and the draft guidelines for Underground Coal Gasification (UCG).",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 82,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Energy Efficiency",
+      "subtopic": "ADEETIE Scheme & CAFE Norms",
+      "rationale": "Covers the ADEETIE scheme for MSME energy efficiency, Coal Gasification incentives (CGFIS), and the Corporate Average Fuel Efficiency (CAFE) norms for passenger cars.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 83,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Sustainable Agriculture",
+      "subtopic": "Natural Farming & Bio-Input Resource Centres",
+      "rationale": "Details the National Mission on Natural Farming (NMNF) and the guidelines for setting up 10,000 Bio-Input Resource Centres (BRCs) across India.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 84,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Sustainable Agriculture",
+      "subtopic": "Natural vs Organic Farming & GIAHS",
+      "rationale": "Explains the components of natural farming (Beejamrit, Jivamrit, etc.) and provides a comparative analysis between organic and natural farming systems.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 85,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Sustainable Agriculture",
+      "subtopic": "GIAHS Programme & Agroforestry Rules",
+      "rationale": "Covers the Globally Important Agricultural Heritage Systems (GIAHS) including Indian sites, and the new Model Rules 2025 for tree felling on agricultural land.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 86,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Environmental Governance",
+      "subtopic": "Environment Audit Rules 2025 & EIA",
+      "rationale": "Discusses the newly notified Environment Audit Rules 2025, the role of EAs, and recent Supreme Court observations on Environmental Impact Assessment (EIA).",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 87,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Environmental Governance",
+      "subtopic": "Environmental Clearance & Great Nicobar Project",
+      "rationale": "Explains the categorization of projects for Environmental Clearance and the legal/environmental contentions surrounding the Great Nicobar Island Project.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 88,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Infrastructure & Agriculture",
+      "subtopic": "Dam Safety & Seed Management",
+      "rationale": "Covers reservoir sedimentation findings, the Dam Safety Act 2021 institutional framework, and the introduction of the Draft Seeds Bill 2025.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 89,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Agriculture",
+      "subtopic": "Draft Seeds Bill 2025 & Seed Generations",
+      "rationale": "Highly dense page with a comparative table of seed legislation and a detailed explanation of the three generations of seeds (Breeder, Foundation, Certified).",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 90,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Environment & International Cooperation",
+      "subtopic": "Sand Mining & Global Initiatives",
+      "rationale": "Contains critical Supreme Court observations on sand mining replenishment studies and details on the BRICS Land Restoration Partnership and UN-India capacity building.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 91,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Sustainable Mining & Energy",
+      "subtopic": "RECLAIM, L.I.V.E.S, ARTHA, URET, SEforALL",
+      "rationale": "This page contains multiple distinct frameworks and initiatives like the RECLAIM framework for mines, Green Financing (ARTHA), and international organizations like SEforALL, all highly relevant for UPSC.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 92,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Renewable Energy & Green Finance",
+      "subtopic": "RPO/RCO, Sustainable Aviation Fuel, Green Municipal Bonds",
+      "rationale": "Dense with factual details on energy obligations (RPO vs RCO), feedstocks for SAF, and the first certified Green Municipal Bond in India.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 93,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Energy Resources & Organizations",
+      "subtopic": "Gas Hydrates, International Energy Agency (IEA)",
+      "rationale": "Provides technical details on gas hydrates and comprehensive information on IEA membership, mission, and flagship reports.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 94,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Organizations & Reports",
+      "subtopic": "ICRISAT, SECI, Production Gap Report",
+      "rationale": "Covers key organizations like ICRISAT and SECI along with a table of environmental reports, though some content is slightly less dense than previous pages.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 95,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Disaster Management",
+      "subtopic": "CDRI, ICDRI 2025, Coastal Resilience",
+      "rationale": "Extremely high-signal page covering the Coalition for Disaster Resilient Infrastructure (CDRI), international conferences, and Indian coastal vulnerability initiatives.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 96,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Disaster Management",
+      "subtopic": "DRR Financing, UNDRR, Sendai Framework",
+      "rationale": "Discusses the financing mechanisms for disaster risk reduction in India and the role of UNDRR and the Sendai Framework.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 97,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Disaster Management",
+      "subtopic": "C-FLOOD, Cloudbursts, GLOFs",
+      "rationale": "Contains technical explanations of cloudbursts (orographic lift) and glacial lake outburst floods, which are frequent UPSC topics.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 98,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Disaster Management",
+      "subtopic": "Tsunami, Oil Spills, MARPOL, Calcium Carbide",
+      "rationale": "Very dense page covering tsunami wave characteristics, oil spill regulatory frameworks (MARPOL, BUNKER), and the properties of Calcium Carbide.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 99,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Disaster Management & Geography",
+      "subtopic": "NCMC, RIMES, Weather Derivatives, Oil Spill Tech",
+      "rationale": "Covers diverse topics including bioremediation for oil spills, statutory status of NCMC, and regional early warning systems like RIMES.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 100,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Disaster Management & Concepts",
+      "subtopic": "Alert Systems (SACHET, EW4All), Twister, Grey Rhino",
+      "rationale": "Detailed information on India's alert systems and the UN's EW4All initiative, plus conceptual definitions like Grey Rhino events.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 101,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Geography & Disasters",
+      "subtopic": "Tropical Cyclones, Swell Waves, INCOIS",
+      "rationale": "High factual density regarding regional names for cyclones, the physics of swell waves (Kallakkadal), and the mandate of INCOIS.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 102,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Disaster Indices",
+      "subtopic": "Disaster Risk Index (DRI), District Flood Severity Index",
+      "rationale": "Focuses on specific indices used for disaster assessment; the bottom half is an advertisement, reducing the overall quota.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 103,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Geography & Marine Resources",
+      "subtopic": "UNESCO Global Geoparks, Polymetallic Sulphides",
+      "rationale": "Contains critical information on the Global Geoparks Network and India's exploration contracts for deep-sea minerals with the ISA.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 104,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Geography & Weather Systems",
+      "subtopic": "International Seabed Authority (ISA), Bharat Forecast System",
+      "rationale": "Dense with details on the ISA's mandate and the world's first 6km resolution indigenous weather forecast system (BFS).",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 105,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Geography & Climate",
+      "subtopic": "Long-Period Average (LPA), True Polar Wander (TPW)",
+      "rationale": "Explains the IMD's rainfall categorization and the geophysical phenomenon of True Polar Wander.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 106,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Geography & Oceanography",
+      "subtopic": "Reverse Faulting, Pacific Ring of Fire, AMOC",
+      "rationale": "Provides geological details on faulting, the tectonic features of the Ring of Fire, and the mechanics of AMOC.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 107,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Geography & Tectonics",
+      "subtopic": "AMOC Impacts, Delamination Theory, Solar Tornado",
+      "rationale": "High-value content on the impacts of AMOC slowdown, the new 'Delamination' theory for the Indian plate, and solar phenomena.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 108,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Geography & Oceanography",
+      "subtopic": "Deep Ocean, Polar Anticyclone, Thirstwave, Mercator Map",
+      "rationale": "Dense with diverse geographical concepts including atmospheric 'thirstwaves', polar anticyclones, and map projection distortions.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 109,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Organizations in News",
+      "subtopic": "National Centre of Polar and Ocean Research (NCPOR)",
+      "rationale": "Provides institutional details including genesis, governing body, and key roles in managing India's research stations in Antarctica and the Arctic.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 110,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Places in News",
+      "subtopic": "India - Geographical Features",
+      "rationale": "Extremely dense page covering multiple geographical features like Shipki La, Majuli Island, and Barren Island with specific facts on rivers, locations, and status.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 111,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Places in News",
+      "subtopic": "India - Rivers",
+      "rationale": "High factual density regarding several Indian rivers (Beas, Chenab, Subansiri, etc.), including their origins, tributaries, and associated hydroelectric projects.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 112,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Places in News",
+      "subtopic": "India - Projects & Infrastructure",
+      "rationale": "Covers significant infrastructure and irrigation projects like Kaleshwaram and Pamban Bridge with relevant geographical and environmental context.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 113,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Places in News",
+      "subtopic": "International - Geographical Features",
+      "rationale": "Dense list of international geographical features including Davis Strait, Kamchatka Peninsula, and Drake Passage, suitable for mapping and feature-based questions.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 114,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Places in News",
+      "subtopic": "International - Rivers & Water Bodies",
+      "rationale": "Detailed information on international water bodies like the Aral Sea, Congo River, and Blue Nile, including basin countries and environmental significance.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 115,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Places in News",
+      "subtopic": "International - Disaster Affected Areas",
+      "rationale": "Lists various volcanic eruptions and earthquakes globally, providing specific locations and geographical context for disaster-related questions.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 116,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Places in News",
+      "subtopic": "International - Countries in News",
+      "rationale": "Discusses countries in the context of specific environmental legal developments (ecocide in Vanuatu) and international treaties (Falepili Union Treaty).",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 117,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Protected Areas in News",
+      "subtopic": "Overview Map & List",
+      "rationale": "Provides a comprehensive list of protected areas mentioned in the news, useful for identifying locations and regional distributions.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 118,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Protected Areas in News",
+      "subtopic": "Assam, Goa, HP, Jharkhand, Karnataka",
+      "rationale": "Very high density of information on specific protected areas like Kaziranga and Tsarap Chu, including flora, fauna, and river associations.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 119,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Protected Areas in News",
+      "subtopic": "Kerala, Maharashtra, Manipur, Odisha",
+      "rationale": "Dense content on Keibul Lamjao, Sahyadri, and Similipal, including unique features like Phumdis and specific tribal associations.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 120,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Protected Areas in News",
+      "subtopic": "Tamil Nadu, UP, Uttarakhand",
+      "rationale": "Covers Agasthyamala, Dudhwa, and Salkhan Fossil Park, including significant geological facts like stromatolites and the Great Oxidation Event.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 121,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "Protected Areas in News",
+      "subtopic": "West Bengal (Sundarbans)",
+      "rationale": "Focuses on the expansion and specific designations of the Sundarbans Tiger Reserve.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 122,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Species in News",
+      "subtopic": "Terrestrial Species (Snow Leopard, Rhino)",
+      "rationale": "Detailed profiles of Snow Leopard and Greater One-Horned Rhino, including conservation status across WPA, CITES, and IUCN.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 123,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Species in News",
+      "subtopic": "Terrestrial Species (Rhino, Nilgiri Tahr)",
+      "rationale": "Continuation of Rhino facts and a detailed profile of the Nilgiri Tahr, including its endemic nature and cultural mentions.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 124,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Species in News",
+      "subtopic": "Terrestrial Species (Dhole, Alpine Musk Deer)",
+      "rationale": "Profiles of Dhole and Alpine Musk Deer with specific habitat details and conservation status.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 125,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Species in News",
+      "subtopic": "Terrestrial Species (Grey Wolf, Bonobo)",
+      "rationale": "Information on the Indian Grey Wolf and Bonobo, focusing on habitat, behavior, and genetic significance.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 126,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Species in News",
+      "subtopic": "Avian Species (Hornbill, Flamingo)",
+      "rationale": "Details on the Malabar Grey Hornbill and Greater Flamingo, including breeding grounds and conservation initiatives.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 127,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Species in News",
+      "subtopic": "Aquatic Species: Dugong and Olive Ridley Turtle",
+      "rationale": "This page provides detailed conservation status, habitat, and characteristics for the Dugong and Olive Ridley Turtle, including specific legal protections and international conventions (WPA, CMS, CITES, IUCN).",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 128,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Species in News",
+      "subtopic": "Aquatic Species: Asian Giant Softshell Turtle and New Fish Species",
+      "rationale": "Contains high-density factual information on the Critically Endangered Asian Giant Softshell turtle and two newly discovered endemic fish species in the Western Ghats (Labeo uru and Labeo chekida).",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 129,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Species in News",
+      "subtopic": "Reptiles, Insects, and Lichens",
+      "rationale": "Covers a new beetle species discovery in Arunachal Pradesh and provides significant ecological and distributional facts about Lichens in India, including bioindicator properties.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 130,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Species in News",
+      "subtopic": "Tardigrades and Cicadas",
+      "rationale": "Discusses the unique biological characteristics of Tardigrades (cryptobiosis) and Cicadas, both of which are relevant for science and environment sections of the prelims.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 131,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Species in News",
+      "subtopic": "Plant Species: Red Sanders and Wild Banana",
+      "rationale": "Dense content on Red Sanders (habitat, CITES status, uses) and the discovery of a unique wild banana species in the Andaman and Nicobar Islands.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 132,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Species in News",
+      "subtopic": "Plant Species: White Himalayan Lily and Murikooti Pacha",
+      "rationale": "Details rare and medicinal plant species, their conservation status (CR for Lily), and their therapeutic uses, which are common themes in UPSC species questions.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 133,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Species in News",
+      "subtopic": "Plant Species: Arogyapacha and Conocarpus Trees",
+      "rationale": "Features the Arogyapacha plant (Kani tribe association) and the invasive Conocarpus tree, providing a mix of ethnobotany and environmental management facts.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 134,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Species in News",
+      "subtopic": "Plant Species: Sea Buckthorn and Senna Spectabilis",
+      "rationale": "Covers Sea Buckthorn's ecological significance in high altitudes and the eradication of the invasive Senna Spectabilis in Kerala.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 135,
+      "classification": "advertisement",
+      "questionQuota": 0,
+      "topic": "N/A",
+      "subtopic": "N/A",
+      "rationale": "This page is an advertisement for Vision IAS achievements and foundation courses.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 136,
+      "classification": "advertisement",
+      "questionQuota": 0,
+      "topic": "N/A",
+      "subtopic": "N/A",
+      "rationale": "This page is an advertisement listing successful candidates and center contact information.",
+      "confidence": 1
+    }
+  ]
+}

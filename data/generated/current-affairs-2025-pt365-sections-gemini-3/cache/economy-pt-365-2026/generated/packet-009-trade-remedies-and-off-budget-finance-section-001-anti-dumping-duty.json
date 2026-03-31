@@ -1,0 +1,33 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "conceptual",
+      "prompt": "Which of the following best describes the primary rationale behind a country imposing an 'anti-dumping duty' on foreign imports?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "To offset the impact of direct export subsidies provided by a foreign government to its manufacturers."
+        },
+        {
+          "id": "B",
+          "text": "To act as a protectionist tariff against foreign goods exported at a price significantly lower than their domestic market price."
+        },
+        {
+          "id": "C",
+          "text": "To penalize foreign countries that deliberately devalue their currency to make their exports cheaper."
+        },
+        {
+          "id": "D",
+          "text": "To generate additional tax revenue from imported luxury goods in order to reduce the fiscal deficit."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "An anti-dumping duty is specifically designed as a protectionist tariff imposed on foreign imports that are 'dumped' in the domestic market. Dumping is the practice of exporting a product at a significantly lower price than its domestic market price. Options A, C, and D describe countervailing duties, currency manipulation countermeasures, and revenue tariffs respectively.",
+      "takeaway": "Anti-dumping duties are distinct from countervailing duties (which target subsidies) and are purely aimed at countering the practice of companies exporting goods at prices lower than their home market rates.",
+      "evidenceExcerpt": "An anti-dumping duty is a protectionist tariff imposed on foreign imports dumped in the domestic market. Dumping occurs when a company exports a product at a significantly lower price than its domestic market price."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-039-industrial-sensors-and-safety-systems-section-001-sodar-sonic-detection-and-ranging",
+    "claimType": "Factual",
+    "claimText": "SODAR (Sonic Detection and Ranging) was developed by CSIR-AMPRI, Bhopal.",
+    "evidenceExcerpt": "Developed by CSIR-AMPRI, Bhopal.",
+    "pageNumbers": [
+      76
+    ],
+    "examUse": "Institution-feature or correct-pair question matching technologies with their developing agencies.",
+    "distractorHooks": [
+      "Developed by ISRO",
+      "Developed by DRDO",
+      "Developed by the Indian Meteorological Department (IMD)"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-039-industrial-sensors-and-safety-systems-section-001-sodar-sonic-detection-and-ranging",
+    "claimType": "Conceptual",
+    "claimText": "SODAR operates by transmitting sound pulses and monitoring the intensity and frequency of the returned signals.",
+    "evidenceExcerpt": "Sends sound pulses to monitor intensity and frequency of returned signals.",
+    "pageNumbers": [
+      76
+    ],
+    "examUse": "Statement-based question on the working principle of atmospheric sensors.",
+    "distractorHooks": [
+      "Uses radio waves instead of sound pulses",
+      "Uses laser or light pulses",
+      "Monitors only the speed of the returned signal"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-039-industrial-sensors-and-safety-systems-section-001-sodar-sonic-detection-and-ranging",
+    "claimType": "Factual",
+    "claimText": "SODAR is used to determine the wind profile and temperature structure specifically in the lower atmosphere.",
+    "evidenceExcerpt": "Determines lower-atmosphere wind profile and temperature structure.",
+    "pageNumbers": [
+      76
+    ],
+    "examUse": "Statement-based question testing the scope and atmospheric layer targeted by SODAR.",
+    "distractorHooks": [
+      "Determines upper-atmosphere or ionosphere profiles",
+      "Measures ocean surface temperatures",
+      "Maps the Earth's magnetic field"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-039-industrial-sensors-and-safety-systems-section-001-sodar-sonic-detection-and-ranging",
+    "claimType": "Factual",
+    "claimText": "SODAR provides data on specific atmospheric parameters such as inversion height, fog layer height, and turbulence strength.",
+    "evidenceExcerpt": "Provides data on inversion height, fog layer height, and turbulence strength.",
+    "pageNumbers": [
+      76
+    ],
+    "examUse": "Multiple-statement question identifying the specific meteorological parameters measured by SODAR.",
+    "distractorHooks": [
+      "Measures greenhouse gas concentrations",
+      "Measures ozone layer thickness",
+      "Detects tectonic plate movements"
+    ]
+  }
+]

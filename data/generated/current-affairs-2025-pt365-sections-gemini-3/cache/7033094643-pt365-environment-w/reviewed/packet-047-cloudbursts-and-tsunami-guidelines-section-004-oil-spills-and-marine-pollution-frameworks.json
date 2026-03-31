@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Multiple-statement",
+      "prompt": "Consider the following statements regarding marine oil spills and their regulatory frameworks:\n1. Oil spills disrupt marine food chains primarily by poisoning algae.\n2. Benthic organisms, such as clams and mussels, are largely unaffected by oil spills as the oil remains on the ocean surface.\n3. The BUNKER Convention holds shipowners liable for pollution damage caused by bunker oil and mandates compulsory insurance coverage.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Oil spills poison algae, which disrupts marine food chains. Statement 2 is incorrect: Oil spills negatively impact benthic (bottom-dwelling) organisms such as clams and mussels, as toxic components can sink and accumulate in sediments. Statement 3 is correct: The BUNKER Convention (2001) holds shipowners liable for bunker oil pollution and mandates compulsory insurance coverage.",
+      "takeaway": "Oil spills harm both surface-level algae and bottom-dwelling benthic organisms. The BUNKER Convention specifically targets shipowner liability for bunker oil spills.",
+      "evidenceExcerpt": "BUNKER Convention (2001): Holds shipowners liable for bunker oil pollution and mandates compulsory insurance coverage. Impact: Poisons algae, disrupting food chains; Affect benthic organisms. E.g., clams and mussels.",
+      "qualityScore": 88,
+      "reviewNotes": "Excellent integration of ecological impacts and international environmental law. The distractor regarding surface vs benthic impact is highly plausible and tests conceptual clarity."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-statement",
+      "prompt": "With reference to the management of marine pollution and oil spills in India, consider the following statements:\n1. The Indian Coast Guard is the nodal agency for coordinating oil spill responses in India's maritime zones.\n2. The provisions of the MARPOL conventions are incorporated into Indian domestic law through the Environment (Protection) Act, 1986.\n3. The MARPOL convention specifically establishes the liability of shipowners for bunker oil pollution.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The Indian Coast Guard acts as the nodal agency coordinating oil spill responses under the National Oil Spill Disaster Contingency Plan (1996). Statement 2 is incorrect: The MARPOL conventions are adopted in India through the Merchant Shipping Act (1958), not the Environment (Protection) Act, 1986. Statement 3 is incorrect: It is the BUNKER Convention (2001), not MARPOL, that specifically holds shipowners liable for bunker oil pollution.",
+      "takeaway": "The Indian Coast Guard coordinates oil spill responses. The Merchant Shipping Act (1958) adopts MARPOL, while the BUNKER Convention handles shipowner liability for bunker oil.",
+      "evidenceExcerpt": "Key Framework on Oil Spills: Merchant Shipping Act (1958) adopts MARPOL conventions. National Oil Spill Disaster Contingency Plan (1996): Indian Coast Guard coordinates oil spill response in India's maritime zones as a nodal agency. GLOBAL: MARPOL (1973): International convention preventing marine pollution from ships. BUNKER Convention (2001): Holds shipowners liable for bunker oil pollution.",
+      "qualityScore": 85,
+      "reviewNotes": "Strong UPSC-style 'How many' question. Tests institutional knowledge (Coast Guard) and legal frameworks (MSA vs EPA, MARPOL vs BUNKER), which are frequent themes in Prelims."
+    }
+  ],
+  "reviewerNotes": "Selected and refined three questions to cover chemical hazards (Calcium Carbide), domestic institutional/legal frameworks (Coast Guard, MSA vs EPA), and international conventions/ecological impacts (MARPOL, BUNKER, benthic organisms). Adjusted distractors to match UPSC's typical traps (e.g., ethylene vs acetylene, EPA vs MSA, surface vs benthic impacts)."
+}

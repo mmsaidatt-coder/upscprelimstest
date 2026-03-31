@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to 'phthalates', sometimes mentioned in the news, consider the following statements:\n1. They are chemical additives used to make plastics such as polyvinyl chloride (PVC) harder and more rigid.\n2. They are categorized as hazardous endocrine-disrupting chemicals (EDCs) that can affect reproductive health.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Phthalates (or ortho-phthalates) are used as plasticizers to make plastics like polyvinyl chloride (PVC) soft and less brittle, not harder and more rigid.\nStatement 2 is correct: They are categorized as hazardous endocrine-disrupting chemicals (EDCs) that negatively affect reproductive health.",
+      "takeaway": "Phthalates are plasticizers that soften PVC but pose significant health risks as endocrine disruptors.",
+      "evidenceExcerpt": "Pthalates: Ortho-phthalates, or “phthalates,” are chemicals used in plastic products (commonly in specific type of plastic named polyvinyl chloride) to make the material soft and less brittle... Categorized as hazardous endocrine-disrupting chemicals (EDCs); affect reproductive health.",
+      "qualityScore": 85,
+      "reviewNotes": "A standard UPSC-style question testing the properties and health impacts of a common chemical pollutant. The distractor in statement 1 is plausible and tests conceptual clarity."
+    }
+  ],
+  "reviewerNotes": "Selected two high-quality questions that cover the three main concepts in the source text (Phthalates, Ideonella sakaiensis, and PBAT) without overlapping. The questions have been refined to match the formal tone and distractor style of the UPSC Prelims."
+}

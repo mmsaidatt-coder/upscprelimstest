@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Definition-based",
+      "prompt": "Which one of the following best describes the concept of 'Environmental DNA (eDNA)', sometimes seen in the news?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It is the genetic material synthetically engineered to help endangered organisms adapt to extreme environmental conditions."
+        },
+        {
+          "id": "B",
+          "text": "It is the genetic material shed by organisms into their surroundings, which can be used to track their presence without physical capture."
+        },
+        {
+          "id": "C",
+          "text": "It refers to the complete genetic sequencing of an entire ecosystem's flora to monitor the impacts of climate change."
+        },
+        {
+          "id": "D",
+          "text": "It is the genetic material extracted exclusively from the fossilized remains of extinct species found in sedimentary rocks."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Environmental DNA (eDNA) refers to the genetic material (such as cells, tissues, fluids, and excrement) left by organisms in their environment (e.g., water, soil, air). It is used to map species presence and distribution without needing to physically observe or capture the organisms.\nOption A is incorrect as it describes synthetic biology or genetic engineering.\nOption B is correct as eDNA is naturally shed genetic material found in environmental samples, serving as a biological footprint for species tracking.\nOption C is incorrect as eDNA is not about the complete sequencing of flora for climate change, but rather detecting species presence.\nOption D is incorrect as it describes ancient DNA (aDNA) from fossils, not eDNA from current environments.",
+      "takeaway": "eDNA is naturally shed genetic material found in environmental samples, serving as a biological footprint for species tracking.",
+      "evidenceExcerpt": "It is the genetic material, like DNA from cells, tissues, fluids, and excrement, left by organisms in the environment (e.g., water, soil, Air, etc.). Application: Mapping species presence and distribution, tracking Ecosystems, etc.",
+      "qualityScore": 88,
+      "reviewNotes": "Adapted into the classic UPSC 'best describes' format. The distractors are parallel, plausible, and cover different domains of genetics (synthetic biology, genome sequencing, paleontology) to ensure the candidate truly understands what eDNA is."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Environmental DNA (eDNA)':\n1. It refers to the genetic material extracted directly from the living tissues of an organism after capturing it in its natural habitat.\n2. It can be collected from environmental samples such as water, soil, and air.\n3. It is a non-invasive and cost-effective method used for mapping species presence and tracking ecosystems.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: eDNA is not collected by capturing the organism. It is the genetic material (like DNA from cells, tissues, fluids, and excrement) naturally left behind or shed by organisms in their environment.\nStatement 2 is correct: eDNA can be extracted from various environmental mediums, including water, soil, and air.\nStatement 3 is correct: eDNA analysis is a non-invasive, highly sensitive, rapid, and cost-effective biomonitoring method used for mapping species presence and distribution, and tracking ecosystems.",
+      "takeaway": "eDNA relies on genetic traces left in the environment, allowing scientists to monitor biodiversity without physically capturing or observing the species.",
+      "evidenceExcerpt": "It is the genetic material, like DNA from cells, tissues, fluids, and excrement, left by organisms in the environment (e.g., water, soil, Air, etc.). Application: Mapping species presence and distribution, tracking Ecosystems, etc. Significance: Non-invasive, highly sensitive, rapid and cost-effective.",
+      "qualityScore": 85,
+      "reviewNotes": "Refined the first statement to make it a stronger, more plausible distractor. The question effectively tests the definition, source, and application of eDNA in a standard UPSC 'How many statements' format."
+    }
+  ],
+  "reviewerNotes": "Selected Candidate 1 and Candidate 2. Candidate 1 was refined to make the first statement a stronger distractor. Candidate 2 was refined to match the classic UPSC 'best describes' format with plausible, parallel distractors. Both questions strictly adhere to the provided text and test the core concept of eDNA effectively."
+}

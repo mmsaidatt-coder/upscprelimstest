@@ -1,0 +1,178 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the components of India's Integrated Air Defence Weapon System (IADWS): 1. QRSAM is specifically designed to provide air defence cover to moving armoured columns. 2. VSHORADS is a Man Portable Air Defence System (MANPADS) optimized for neutralizing high-altitude strategic bombers. 3. The system integrates a high-power laser-based Directed Energy Weapon (DEW). Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: QRSAM is a mobile platform meant to protect moving armoured columns. Statement 2 is incorrect: VSHORADS is designed for neutralizing low-altitude aerial threats, not high-altitude bombers. Statement 3 is correct: IADWS features a high-power laser DEW developed by CHESS.",
+      "takeaway": "IADWS integrates various components including QRSAM for armoured columns, VSHORADS for low-altitude threats, and Directed Energy Weapons (DEW) for advanced threat neutralization.",
+      "evidenceExcerpt": "IADWS components include QRSAM (protects moving armoured columns) and VSHORADS (MANPADS for low-altitude threats)... IADWS features a high-power laser-based Directed Energy Weapon (DEW) developed by CHESS."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of indigenous defence projects and their primary nature: 1. Project Kusha : Long-range air defence missile system 2. Anant Shastra : Quick Reaction Surface-to-Air Missile (QRSAM) 3. CHESS : Directed Energy Weapon (DEW) development How many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Pair 1 is correct: Project Kusha (PGLRSAM) is a DRDO initiative for a long-range air defence missile system with an interception range exceeding 600 km in Phase 2. Pair 2 is correct: Anant Shastra is an indigenous QRSAM with a 30 km range. Pair 3 is correct: CHESS is responsible for developing the high-power laser DEW for IADWS.",
+      "takeaway": "India's air defence relies on a tiered approach, utilizing Project Kusha for long-range interception, Anant Shastra for quick-reaction surface-to-air defence, and advanced technologies like DEWs developed by CHESS.",
+      "evidenceExcerpt": "Project Kusha (PGLRSAM) is a DRDO initiative to develop a long-range air defence missile system... Anant Shastra is an indigenous QRSAM system developed by DRDO, BEL, and BDL... IADWS features a high-power laser-based Directed Energy Weapon (DEW) developed by CHESS."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to recent indigenous defence initiatives, consider the following statements: 1. Project Kusha aims to develop a long-range air defence missile system with an interception range exceeding 600 km. 2. Anant Shastra is an indigenous air-to-air missile developed jointly by DRDO and foreign defence contractors. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Project Kusha (PGLRSAM) is a DRDO initiative to develop a long-range air defence missile system with interceptors exceeding 600 km range in Phase 2. Statement 2 is incorrect: Anant Shastra is an indigenous Quick Reaction Surface-to-Air Missile (QRSAM), not an air-to-air missile, and is developed domestically by DRDO, BEL, and BDL.",
+      "takeaway": "Project Kusha represents India's push towards long-range air defence capabilities, while Anant Shastra focuses on quick-reaction surface-to-air defence developed entirely by domestic entities.",
+      "evidenceExcerpt": "Project Kusha (PGLRSAM) is a DRDO initiative to develop a long-range air defence missile system with interceptors exceeding 600 km range in Phase 2. Anant Shastra is an indigenous QRSAM system developed by DRDO, BEL, and BDL with a range of around 30 km."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the architecture of the Integrated Air Defence Weapon System (IADWS):\n\n1. It functions through a Centralized Command Centre developed by the Defence Research and Development Laboratory (DRDL).\n2. Its defensive capabilities are restricted solely to traditional kinetic missile interceptors.",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct; the IADWS integrates surveillance and threat identification through a Centralized Command Centre developed by DRDL. Statement 2 is incorrect; the system employs a layered defence mechanism that includes not only kinetic interceptors (like QRSAM and VSHORADS) but also a high-power laser-based Directed Energy Weapon (DEW) developed by CHESS.",
+      "takeaway": "India's IADWS utilizes a multi-layered approach, combining a centralized command architecture with both kinetic missiles and directed energy weapons.",
+      "evidenceExcerpt": "IADWS integrates surveillance, threat identification, and air defense. Components include a Centralized Command Centre (DRDL)... and a high-power laser DEW (CHESS)."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "With reference to India's indigenous air defence initiatives, consider the following statements:\n\n1. While Project Kusha aims to develop a long-range interception capability exceeding 600 km, Anant Shastra is designed as a short-range Quick Reaction Surface-to-Air Missile (QRSAM).\n2. The Anant Shastra system is being developed through a collaborative effort involving DRDO, Bharat Electronics Limited (BEL), and Bharat Dynamics Limited (BDL).",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct; Project Kusha (PGLRSAM) is a long-range system targeting ranges over 600 km in Phase 2, whereas Anant Shastra is a QRSAM with a range of around 30 km. Statement 2 is correct; Anant Shastra is an indigenous project jointly developed by DRDO, BEL, and BDL.",
+      "takeaway": "India's indigenous air defence projects span various ranges and involve multi-agency consortiums, such as the DRDO-BEL-BDL collaboration for Anant Shastra.",
+      "evidenceExcerpt": "Project Kusha (PGLRSAM) is a DRDO initiative for a long-range air defence missile system (Phase 2 exceeding 600 km). Anant Shastra is an indigenous QRSAM developed by DRDO, BEL, and BDL with a 30 km range."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Application-based",
+      "prompt": "Which of the following best describes the operational niche of the VSHORADS component within the Integrated Air Defence Weapon System (IADWS)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It is a long-range strategic interceptor designed to neutralize ballistic missiles in the exo-atmosphere."
+        },
+        {
+          "id": "B",
+          "text": "It is a man-portable system optimized for providing point defence against low-altitude aerial threats."
+        },
+        {
+          "id": "C",
+          "text": "It is a mobile platform exclusively dedicated to shielding moving armoured columns from high-altitude bombers."
+        },
+        {
+          "id": "D",
+          "text": "It is a high-power laser system intended to disrupt enemy surveillance and communication satellites."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "VSHORADS (Very Short Range Air Defence System) is specifically designed as a Man Portable Air Defence System (MANPADS) to neutralize low-altitude aerial threats. It is not a long-range interceptor, a mobile platform for armoured columns (which is QRSAM), or a laser system (which is the DEW by CHESS).",
+      "takeaway": "VSHORADS provides critical close-in, low-altitude air defence using man-portable technology.",
+      "evidenceExcerpt": "VSHORADS (RCI, MANPADS for low-altitude threats)"
+    }
+  ]
+}

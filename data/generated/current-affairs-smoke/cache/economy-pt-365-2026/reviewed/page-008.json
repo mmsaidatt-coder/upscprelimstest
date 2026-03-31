@@ -1,0 +1,129 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to Ways and Means Advances (WMA), consider the following statements:\n1. These are temporary advances provided by the RBI to the Central Government as well as to State Governments and Union Territories.\n2. The instrument of WMA is explicitly designed as a mechanism for financing the fiscal deficit.\n3. The interest rate applicable to WMA is the prevailing repo rate of the RBI.\n4. Interest on overdraft facilities availed beyond the WMA limit is charged at a rate 2% above the repo rate.\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct as WMA is available to the central government, state governments, and Union Territories. Statement 2 is incorrect; the source explicitly states that WMAs are not a source of financing the fiscal deficit, unlike ad hoc Treasury Bills. Statement 3 is correct as the interest rate on WMA is the RBI's repo rate. Statement 4 is correct as the interest on overdrafts (amounts exceeding WMA limits) is specified as 2% above the repo rate. Therefore, three statements (1, 3, and 4) are correct.",
+      "takeaway": "WMA is a short-term liquidity management tool for governments, not a deficit financing mechanism. Its cost is linked to the repo rate, with a penalty for exceeding the prescribed limits, and it has a mandatory repayment period of three months.",
+      "evidenceExcerpt": "It is a temporary advance given by the RBI to the central government to cover any mismatch in receipts and payments. o Unlike ad hoc Treasury Bills, the instrument of WMAs is not a source of financing fiscal deficit. o WMA is also available for state governments and Union Territories. Interest rate: Interest rate on WMA is the RBI’s repo rate. o However, interest on overdraft (amounts in excess of their WMA limits) is 2 % above the repo rate.",
+      "qualityScore": 85,
+      "reviewNotes": "Rewritten from the candidate question to use the 'How many statements' format, which is a recent UPSC trend. Added a fourth statement on overdraft facilities to increase complexity and comprehensiveness, based on the source text. The statements are clear and test key conceptual aspects of WMA."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the regulatory framework for Payment Aggregators (PAs) in India, consider the following statements:\n1. PAs are entities that facilitate merchants in accepting various payment instruments from customers to complete their payment obligations.\n2. Non-bank PAs are required to obtain operating authorisation from the RBI under the provisions of the Payment and Settlement Systems Act, 2007.\n3. The regulatory framework for PAs applies exclusively to entities facilitating online or virtual transactions.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct; it accurately describes the function of a Payment Aggregator. Statement 2 is correct; the source specifies that non-bank PAs must obtain RBI authorisation under the Payment and Settlement Systems Act, 2007. Statement 3 is incorrect; the source mentions that PAs facilitate payments through a merchant's interface which can be 'physical / virtual', implying the framework is not exclusive to online transactions. Therefore, only statements 1 and 2 are correct.",
+      "takeaway": "The regulatory framework for Payment Aggregators in India involves incorporation under the Companies Act, operational authorization from the RBI under the PSS Act, 2007, and covers both physical and virtual payment interfaces.",
+      "evidenceExcerpt": "It is an entity that facilitates aggregation of payments made by customers to merchants through payment channels through merchant’s interface (physical / virtual) for purchase of goods, services or investment products. New framework mandates non-bank PAs to obtain RBI authorisation under the Payment and Settlement Systems Act, 2007.",
+      "qualityScore": 90,
+      "reviewNotes": "This question was substantially rewritten from the candidate version to introduce a more subtle and challenging third statement based on the source text's mention of '(physical / virtual)'. This tests careful reading. The other statements were rephrased for clarity and precision, typical of UPSC standards."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "With reference to Certificates of Deposit (CDs) in the Indian money market, consider the following statements:\n1. These instruments can be issued only in a dematerialised form.\n2. All Scheduled Commercial Banks, including Regional Rural Banks and Local Area Banks, are eligible to issue CDs.\n3. The maturity period for a CD must be between seven days and one year, inclusive.\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect because CDs can be issued in dematerialised form 'or as a Promissory Note', not 'only' in dematerialised form. Statement 2 is incorrect as the source explicitly states that Scheduled Commercial Banks 'excluding Regional Rural Banks and Local Area Banks' can issue CDs. Statement 3 is correct; the maturity period is a minimum of 7 days and a maximum of one year. Therefore, only one statement is correct.",
+      "takeaway": "Certificates of Deposit are key money market instruments with specific rules regarding their form of issuance, eligible issuers (which exclude RRBs and LABs), and maturity tenure. Precision on these details is crucial.",
+      "evidenceExcerpt": "CD is a negotiable money market instrument and issued in dematerialised form or as a Promissory Note... Issued by: Scheduled commercial banks (excluding Regional Rural Banks and Local Area Banks)... Its maturity period is up to one year (min- 7 days).",
+      "qualityScore": 88,
+      "reviewNotes": "The candidate question was strong. It has been rewritten into the 'How many statements' format to increase the difficulty and align with modern UPSC patterns. The wording of the statements has been made more precise and formal."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With respect to the framework for Self-Regulatory Organisations (SROs) for entities regulated by the RBI, consider the following statements:\n1. The Finance Industry Development Council (FIDC) was recently recognised by the RBI as an SRO for overseeing NBFCs.\n2. An SRO is required to be set up as a not-for-profit company registered under the Companies Act, 2013.\n3. The primary legal backing for the *recognition* of SROs is derived directly from the Companies Act, 2013.\nWhich of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct as the source mentions that RBI granted SRO status to FIDC. Statement 2 is correct, specifying that an SRO must be a not-for-profit company under Section 8 of the Companies Act, 2013. Statement 3 is incorrect. While SROs are registered under the Companies Act, the legal backing for their *recognition* as an SRO comes from the 'RBI’s Omnibus Framework for recognising Self-Regulatory Organisations', not the Companies Act itself. This is a crucial distinction between incorporation and recognition.",
+      "takeaway": "The SRO framework for RBI's regulated entities involves specific criteria, such as being a not-for-profit company, and derives its recognition authority from a dedicated RBI framework, separate from its incorporation statute.",
+      "evidenceExcerpt": "RBI granted Self-Regulatory Organisation status to Finance Industry Development Council (FIDC) to oversee NBFCs. Legal Backing: RBI’s Omnibus Framework for recognising Self-Regulatory Organisations (SROs) for Regulated Entities (REs), 2024. An SRO shall be setup as a not-for-profit company registered under Section 8 of the Companies Act, 2013.",
+      "qualityScore": 85,
+      "reviewNotes": "This question was refined from the candidate version to create a more nuanced set of statements. The original had only one correct statement. This version has two correct statements and one incorrect statement that tests the subtle difference between 'registration' under one act and 'recognition' under another framework, which is a classic UPSC-style trap."
+    }
+  ],
+  "reviewerNotes": "Selected and rewrote 4 out of 6 candidate questions. Rejected two questions (on RBI initiatives and co-lending) for being too simple and direct, lacking the analytical depth expected in UPSC Prelims. The selected questions on WMA, Payment Aggregators, CDs, and SROs were improved by rephrasing for a more formal tone, introducing more subtle distractors, and using challenging formats like 'How many statements are correct?'. The rewritten questions test multiple facets of each topic and require careful reading of nuanced details, aligning them better with UPSC standards. Quality scores have been assigned conservatively."
+}

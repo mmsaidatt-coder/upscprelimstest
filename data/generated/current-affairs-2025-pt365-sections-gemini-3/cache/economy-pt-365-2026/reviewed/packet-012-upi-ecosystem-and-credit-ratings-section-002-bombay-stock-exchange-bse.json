@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Bombay Stock Exchange (BSE), consider the following statements:\n1. Established in the 19th century, it is the oldest stock exchange in Asia.\n2. It is the first stock exchange in India to be listed.\n3. Its operations are regulated by the Reserve Bank of India (RBI).\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The BSE was established in 1875 (the 19th century) as 'The Native Share & Stock Brokers' Association' and is Asia's first stock exchange.\nStatement 2 is correct: In 2017, the BSE became India's first listed stock exchange.\nStatement 3 is incorrect: Capital markets and stock exchanges in India, including the BSE, are regulated by the Securities and Exchange Board of India (SEBI), not the RBI.",
+      "takeaway": "The BSE is Asia's oldest stock exchange (established in 1875) and India's first listed exchange (2017), functioning under the regulatory oversight of SEBI.",
+      "evidenceExcerpt": "Established in 1875 as 'The Native Share & Stock Brokers' Association', it is Asia's first and the world's fastest Stock Exchange. In 2017, it became India's first listed stock exchange. It is regulated by SEBI.",
+      "qualityScore": 88,
+      "reviewNotes": "Strong UPSC-style statement question. Using '19th century' instead of the exact year tests conceptual timeline awareness. The RBI vs SEBI distractor is classic and plausible for beginners."
+    }
+  ],
+  "reviewerNotes": "Selected and refined Candidate 1 into a high-quality 'How many statements' question. Replaced Candidate 2 with a direct historical-origin question to avoid redundancy and test a different angle of the provided text."
+}

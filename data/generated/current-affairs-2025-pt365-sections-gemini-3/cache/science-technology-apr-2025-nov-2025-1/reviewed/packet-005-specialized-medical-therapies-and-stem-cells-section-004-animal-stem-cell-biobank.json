@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to India's first animal stem cell biobank, consider the following statements:\n1. It has been established at the National Institute of Animal Biotechnology (NIAB).\n2. It primarily focuses on the conservation and cloning of endangered wildlife species.\n3. It is supported by the National Biopharma Mission under the Department of Biotechnology.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: India's first state-of-the-art animal stem cell biobank and laboratory was inaugurated at the National Institute of Animal Biotechnology (NIAB), Hyderabad.\nStatement 2 is incorrect: Its primary focus is on regenerative medicine, cellular therapies for livestock, and disease modeling, rather than the cloning of endangered wildlife.\nStatement 3 is correct: It is supported by the National Biopharma Mission (NBM) under the Department of Biotechnology - BIRAC.",
+      "takeaway": "India's first animal stem cell biobank is located at NIAB, Hyderabad, and focuses on livestock regenerative medicine with support from the DBT's National Biopharma Mission.",
+      "evidenceExcerpt": "India's first state-of-the-art animal stem cell biobank and laboratory was inaugurated at the National Institute of Animal Biotechnology (NIAB), Hyderabad. It focuses on regenerative medicine and cellular therapies for livestock and is supported by the National Biopharma Mission (NBM) under the Department of Biotechnology - BIRAC.",
+      "qualityScore": 85,
+      "reviewNotes": "The question effectively tests the location, objective, and funding body of the newly established biobank. The distractor regarding wildlife cloning is highly plausible for an 'animal' biobank, making it a strong UPSC-style statement."
+    }
+  ],
+  "reviewerNotes": "Selected two strong statement-based questions. The first covers the specifics of the animal stem cell biobank, while the second focuses on the supporting mission (NBM). Both questions feature plausible distractors and align well with the UPSC Prelims format."
+}

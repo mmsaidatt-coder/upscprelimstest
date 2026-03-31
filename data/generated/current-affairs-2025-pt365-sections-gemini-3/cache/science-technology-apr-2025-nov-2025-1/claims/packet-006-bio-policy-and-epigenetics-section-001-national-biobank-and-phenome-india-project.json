@@ -1,0 +1,63 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-006-bio-policy-and-epigenetics-section-001-national-biobank-and-phenome-india-project",
+    "claimType": "Factual",
+    "claimText": "The National Biobank was launched under the Phenome India Project (PI-Check) by the Council of Scientific and Industrial Research (CSIR).",
+    "evidenceExcerpt": "Launched under Phenome India Project (PI-Check) by CSIR.",
+    "pageNumbers": [
+      13
+    ],
+    "examUse": "Statement-based question on the implementing agency of the Phenome India Project.",
+    "distractorHooks": [
+      "Launched by the Indian Council of Medical Research (ICMR)",
+      "Launched by the Department of Biotechnology (DBT)",
+      "Launched under the Genome India Project"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-006-bio-policy-and-epigenetics-section-001-national-biobank-and-phenome-india-project",
+    "claimType": "Factual",
+    "claimText": "The National Biobank collects genomic, lifestyle, and clinical data to aid early diagnosis and AI-driven diagnostics.",
+    "evidenceExcerpt": "Collects genomic, lifestyle, and clinical data from 10,000 individuals to aid early diagnosis and AI-driven diagnostics.",
+    "pageNumbers": [
+      13
+    ],
+    "examUse": "Statement-based question on the scope and objectives of the National Biobank.",
+    "distractorHooks": [
+      "Collects only genomic data, excluding lifestyle or clinical data",
+      "Aims solely at cloning research rather than diagnostics"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-006-bio-policy-and-epigenetics-section-001-national-biobank-and-phenome-india-project",
+    "claimType": "Conceptual",
+    "claimText": "A phenome represents the entire set of phenotypes, which are observable physical characteristics, in a cell, tissue, organ, organism, or species.",
+    "evidenceExcerpt": "Phenome is the entire set of phenotypes in a cell, tissue, organ, organism or species.",
+    "pageNumbers": [
+      13
+    ],
+    "examUse": "Definition-based question or correct-pair matching for biological terms.",
+    "distractorHooks": [
+      "Phenome refers only to the genetic makeup of an organism",
+      "Phenome is restricted only to human organisms"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-006-bio-policy-and-epigenetics-section-001-national-biobank-and-phenome-india-project",
+    "claimType": "Conceptual",
+    "claimText": "An organism's phenotype is determined by the interaction between its genotype and environmental influences.",
+    "evidenceExcerpt": "Phenotype is determined by genotype and environmental influences.",
+    "pageNumbers": [
+      13
+    ],
+    "examUse": "Statement-based question on genetics and environmental interaction.",
+    "distractorHooks": [
+      "Phenotype is determined exclusively by genotype",
+      "Environmental factors have no impact on an organism's phenotype"
+    ]
+  }
+]

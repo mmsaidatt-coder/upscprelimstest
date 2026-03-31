@@ -1,6 +1,6 @@
 import crypto from "node:crypto";
 import { NextResponse } from "next/server";
-import { readPyqBank, writePyqBank } from "@/lib/pyq-bank";
+import { createAdminClient } from "@/lib/supabase/admin";
 import type { PyqQuestion, QuestionOption, Subject } from "@/lib/types";
 
 export const runtime = "nodejs";
@@ -498,45 +498,111 @@ export async function POST(request: Request) {
     }
 
     if (!extractedQuestions.length) {
+      const supabase = createAdminClient();
+      const { count } = await supabase
+        .from("questions")
+        .select("*", { count: "exact", head: true })
+        .eq("source", "pyq");
+
       return NextResponse.json({
         ok: true,
         extractedCount: 0,
         insertedCount: 0,
         updatedCount: 0,
         skippedCount: 0,
-        bankSize: (await readPyqBank()).length,
+        bankSize: count ?? 0,
         warnings,
       });
     }
 
-    const bank = await readPyqBank();
-    const byId = new Map<string, PyqQuestion>();
-    bank.forEach((item) => byId.set(item.id, item));
+    const supabase = createAdminClient();
 
     let insertedCount = 0;
     let updatedCount = 0;
     let skippedCount = 0;
 
-    extractedQuestions.forEach((question) => {
-      if (byId.has(question.id)) {
+    for (const question of extractedQuestions) {
+      const normalizedPrompt = question.prompt.trim();
+
+      // Check for existing question by year + prompt text
+      const { data: existing } = await supabase
+        .from("questions")
+        .select("id")
+        .eq("source", "pyq")
+        .eq("year", question.year)
+        .eq("prompt", normalizedPrompt)
+        .limit(1);
+
+      const questionRow = {
+        source: "pyq" as const,
+        subject: question.subject,
+        difficulty: question.difficulty,
+        prompt: normalizedPrompt,
+        context_lines: question.contextLines ?? [],
+        options: question.options,
+        correct_option_id: question.correctOptionId ?? null,
+        explanation: question.explanation ?? null,
+        takeaway: question.takeaway ?? null,
+        marks: question.marks,
+        negative_marks: question.negativeMarks,
+        year: question.year,
+        source_label: question.sourceLabel ?? null,
+      };
+
+      const existingRow = existing?.[0];
+      if (existingRow) {
         if (!overwrite) {
           skippedCount += 1;
-          return;
+          continue;
         }
-        const previous = byId.get(question.id)!;
-        byId.set(question.id, { ...previous, ...question });
-        updatedCount += 1;
-        return;
+        const { error } = await supabase
+          .from("questions")
+          .update({ ...questionRow, updated_at: new Date().toISOString() })
+          .eq("id", existingRow.id);
+        if (error) {
+          warnings.push(`Failed to update question (year=${question.year}): ${error.message}`);
+        } else {
+          updatedCount += 1;
+        }
+      } else {
+        const { data: inserted, error } = await supabase
+          .from("questions")
+          .insert(questionRow)
+          .select("id")
+          .single();
+        if (error) {
+          warnings.push(`Failed to insert question (year=${question.year}): ${error.message}`);
+        } else {
+          insertedCount += 1;
+
+          // Link topics via question_topics junction table
+          if (inserted && question.topics.length > 0) {
+            for (const topicName of question.topics) {
+              // Upsert topic
+              const { data: topicRow } = await supabase
+                .from("topics")
+                .upsert({ name: topicName }, { onConflict: "name_lower" })
+                .select("id")
+                .single();
+              if (topicRow) {
+                await supabase
+                  .from("question_topics")
+                  .upsert(
+                    { question_id: inserted.id, topic_id: topicRow.id },
+                    { onConflict: "question_id,topic_id" },
+                  );
+              }
+            }
+          }
+        }
       }
+    }
 
-      byId.set(question.id, question);
-      insertedCount += 1;
-    });
-
-    const nextBank = Array.from(byId.values()).sort(
-      (left, right) => left.year - right.year || left.id.localeCompare(right.id),
-    );
-    await writePyqBank(nextBank);
+    // Get total count for response
+    const { count: bankSize } = await supabase
+      .from("questions")
+      .select("*", { count: "exact", head: true })
+      .eq("source", "pyq");
 
     return NextResponse.json({
       ok: true,
@@ -544,7 +610,7 @@ export async function POST(request: Request) {
       insertedCount,
       updatedCount,
       skippedCount,
-      bankSize: nextBank.length,
+      bankSize: bankSize ?? 0,
       warnings,
     });
   } catch (error) {

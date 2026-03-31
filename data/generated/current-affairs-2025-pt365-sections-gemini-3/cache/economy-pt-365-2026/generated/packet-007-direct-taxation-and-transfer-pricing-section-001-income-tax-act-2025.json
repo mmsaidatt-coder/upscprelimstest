@@ -1,0 +1,95 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "How-many style",
+      "prompt": "Under the Income Tax Act 2025, a dispute resolution panel is made available for eligible assessees. Which of the following categories of taxpayers are considered eligible assessees for this panel?",
+      "contextLines": [
+        "1. Foreign companies",
+        "2. Non-residents",
+        "3. Entities involved in transfer pricing cases"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "All three categories are correct. The Income Tax Act 2025 provides a dispute resolution panel for eligible assessees, which explicitly includes entities involved in transfer pricing cases, non-residents, and foreign companies.",
+      "takeaway": "The dispute resolution panel under the new Income Tax Act 2025 caters to complex international and cross-border tax issues by including foreign companies, non-residents, and transfer pricing cases.",
+      "evidenceExcerpt": "A dispute resolution panel is available for eligible assessees, including those in transfer pricing cases, non-residents, and foreign companies."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Statement",
+      "prompt": "Consider the following statements regarding the provisions of the Income Tax Act 2025:\n1. Minimum Alternate Tax (MAT) is levied exclusively on non-corporate taxpayers to ensure they pay a baseline amount of tax.\n2. The definition of undisclosed income for search cases has been expanded to encompass virtual digital assets.\n3. Income tax authorities are empowered to access virtual digital spaces, such as email servers and social media, during search and seizure operations.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Under the Income Tax Act 2025, Minimum Alternate Tax (MAT) is applicable exclusively to corporate taxpayers (aimed at 'zero tax companies'), whereas Alternate Minimum Tax (AMT) applies to non-corporate taxpayers. Statement 2 is correct: The definition of undisclosed income has been expanded to include virtual digital assets. Statement 3 is correct: Tax authorities can now access virtual digital spaces during search and seizure proceedings.",
+      "takeaway": "The Income Tax Act 2025 modernizes tax enforcement by including virtual digital assets under undisclosed income and granting access to virtual spaces during searches, while maintaining the corporate/non-corporate distinction between MAT and AMT.",
+      "evidenceExcerpt": "The provisions of MAT are applicable to a corporate taxpayer only. AMT has similar provisions as MAT which is applicable to non-corporate tax payers. Undisclosed Income: The definition of undisclosed income... is expanded to include virtual digital assets. Income tax authorities can access virtual digital spaces (e.g., email servers, social media) during search and seizure proceedings."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Conceptual Distinction",
+      "prompt": "Under the framework of the Income Tax Act 2025, which of the following best describes the primary distinction between Minimum Alternate Tax (MAT) and Alternate Minimum Tax (AMT)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "MAT is levied on domestic entities, whereas AMT is applied exclusively to foreign companies and non-residents."
+        },
+        {
+          "id": "B",
+          "text": "MAT is applicable to corporate taxpayers, whereas AMT is applicable to non-corporate taxpayers."
+        },
+        {
+          "id": "C",
+          "text": "MAT targets undisclosed physical assets, whereas AMT specifically targets virtual digital assets."
+        },
+        {
+          "id": "D",
+          "text": "MAT is calculated on book profits, whereas AMT is a fixed surcharge on the transfer of capital assets."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Income Tax Act 2025 separates the provisions of MAT and AMT. MAT is designed to bring 'zero tax companies' into the tax net and is applicable only to corporate taxpayers. AMT serves a similar purpose but is applicable to non-corporate taxpayers.",
+      "takeaway": "MAT and AMT serve similar conceptual purposes (ensuring a minimum baseline of tax is paid despite exemptions) but are strictly divided by the legal structure of the taxpayer (corporate vs. non-corporate).",
+      "evidenceExcerpt": "The provisions of Minimum Alternate Tax (MAT) and Alternate Minimum Tax (AMT) have been separated into two sub-sections. MAT aims to bring into the tax net 'zero tax companies'... The provisions of MAT are applicable to a corporate taxpayer only. AMT has similar provisions as MAT which is applicable to non-corporate tax payers."
+    }
+  ]
+}

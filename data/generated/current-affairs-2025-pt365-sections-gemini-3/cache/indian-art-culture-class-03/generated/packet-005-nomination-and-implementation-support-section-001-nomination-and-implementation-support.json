@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "History",
+      "difficulty": "Hard",
+      "questionType": "Comparison-driven",
+      "prompt": "In the institutional framework of the UNESCO Memory of the World program, how do the 'Regional and National Committees' differ from the 'UNESCO Secretariat'?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The Secretariat is responsible for ground-level implementation, while National Committees provide administrative support to the International Advisory Committee (IAC)."
+        },
+        {
+          "id": "B",
+          "text": "The Secretariat serves as the primary contact point and program monitor, whereas National Committees are autonomous bodies of local professionals that implement the program on the ground."
+        },
+        {
+          "id": "C",
+          "text": "National Committees are direct administrative branches of the UNESCO Secretariat, whereas the Secretariat is an independent body of heritage professionals."
+        },
+        {
+          "id": "D",
+          "text": "The Secretariat handles only joint international nominations, while National Committees handle individual Member State proposals."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The UNESCO Secretariat provides administrative support, monitors the program, and serves as the primary contact point. In contrast, the Regional and National Committees are described as autonomous from UNESCO, consisting of local heritage professionals who focus on ground-level implementation.",
+      "takeaway": "National and Regional Committees in the MoW framework are characterized by their autonomy and use of local expertise, rather than being mere administrative extensions of the UNESCO headquarters.",
+      "evidenceExcerpt": "The Secretariat at UNESCO: Provides support to the IAC, general administration, and program monitoring. Serves as the primary contact point. Regional and National Committees: Implement the program on the ground. These committees are autonomous from UNESCO and consist of dedicated local heritage professionals.",
+      "contextLines": []
+    },
+    {
+      "subject": "History",
+      "difficulty": "Moderate",
+      "questionType": "Feature-matching",
+      "prompt": "Which of the following is a specific feature of the 'Joint Nomination' mechanism under the Memory of the World program?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It requires the mandatory involvement of at least one National Committee and the UNESCO Secretariat."
+        },
+        {
+          "id": "B",
+          "text": "It allows Member States to bypass their National Commission for UNESCO for direct submission."
+        },
+        {
+          "id": "C",
+          "text": "It permits an unrestricted number of proposals when two or more Member States collaborate on a nomination."
+        },
+        {
+          "id": "D",
+          "text": "It is only available to individuals and organizations, not to government bodies."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The program rules specify a quota of two proposals per Member State for individual nominations, but explicitly state that there are 'unlimited joint nomination proposals' when two or more Member States are involved.",
+      "takeaway": "Joint nominations are a strategic tool in the MoW program as they are not subject to the biennial quota limits applied to individual state submissions.",
+      "evidenceExcerpt": "Two proposals per UNESCO Member State per nomination cycle. Unlimited joint nomination proposals from two or more Member States.",
+      "contextLines": []
+    }
+  ]
+}

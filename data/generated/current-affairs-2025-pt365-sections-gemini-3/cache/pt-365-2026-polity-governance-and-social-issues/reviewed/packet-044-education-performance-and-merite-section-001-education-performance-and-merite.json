@@ -1,0 +1,98 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Polity",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the status of education and its challenges as per recent reports: 1. Rainfall shocks during the first 15 years of life have been found to negatively impact mathematics and non-cognitive skills at age 15. 2. India has shown slow progress in reducing the gender gap in completion rates for upper secondary education. 3. SDG 4 (Quality Education) is currently addressed in less than 5% of transnational climate initiatives. Which of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Statement 1 is correct: Rainfall shocks in the first 15 years negatively affect vocabulary at age five and mathematics/non-cognitive skills at age 15. Statement 2 is correct: While primary out-of-school rates improved fast, slow progress was noted in the gender gap for upper secondary completion. Statement 3 is correct: SDG 4 was addressed in only 2 out of 72 (approx. 2.7%) transnational climate initiatives, which is less than 5%.",
+      "takeaway": "Climate-related shocks have long-term impacts on educational outcomes, and education remains under-represented in global climate agendas.",
+      "evidenceExcerpt": "Rainfall shocks in first 15 years of life negatively affected vocabulary at age five and mathematics & non-cognitive skills at age 15. Slow Progress: In Out-of-school rate (lower secondary), and Gender gap in completion rate (upper secondary). SDG 4 was addressed in only 2 of 72 transnational climate initiatives.",
+      "qualityScore": 92,
+      "reviewNotes": "Integrates socio-environmental factors with educational progress metrics, reflecting the interdisciplinary nature of UPSC questions."
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Performance Grade Index (PGI) 2.0, consider the following statements: 1. It was originally launched in 2017 and subsequently revamped in 2021. 2. It utilizes data from multiple portals including PM-POSHAN, PRABAND, and Vidyanjali. 3. The index structure groups 73 indicators into six specific domains, including 'Teacher Education & Training'. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: PGI was launched in 2017 and revamped as PGI 2.0 in 2021. Statement 2 is correct: Its data sources include UDISE+, NAS, PM-POSHAN, PRABAND, and Vidyanjali portals. Statement 3 is correct: The structure comprises 73 indicators grouped into 6 domains: Learning Outcomes, Access, Infrastructure & Facilities, Equity, Governance Processes, and Teacher Education & Training.",
+      "takeaway": "PGI 2.0 is a comprehensive assessment tool of the Ministry of Education that uses diverse data sources to evaluate school education across 6 domains.",
+      "evidenceExcerpt": "Genesis: PGI was launched in 2017 and later revamped as PGI 2.0 in 2021. Data sources: Unified District Information System for Education Plus (UDISE+), National Achievement Survey (NAS), PM-POSHAN portal, PRABAND portal and Vidyanjali Portal. These categories are further divided into 6 domains, viz., Learning Outcomes (LO), Access (A), Infrastructure & Facilities (IF), Equity (E), Governance Processes (GP) and Teacher Education & Training (TET).",
+      "qualityScore": 88,
+      "reviewNotes": "This question accurately reflects the structure and genesis of PGI 2.0 using the new UPSC 'how many' format."
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Regarding the findings of the Performance Grade Index (PGI) 2.0 for the period 2023-24, which of the following statements is/are correct? 1. No State or Union Territory in India achieved the top four grades, including 'Daksh' and 'Uttam'. 2. The report indicates that inter-state disparity in school education performance has increased compared to previous years. 3. Meghalaya was the only state to be placed in the lowest grade (Akanshi-3). Select the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: No state/UT achieved the top four grades (Daksh, Utkarsh, Atti-Uttam, Uttam). Statement 2 is incorrect: The report highlights that inter-state disparity has reduced. Statement 3 is correct: Meghalaya is the only state in the tenth grade (Akanshi-3).",
+      "takeaway": "While inter-state disparities are reducing, no Indian state has yet reached the highest performance tiers of the PGI 2.0.",
+      "evidenceExcerpt": "No state/UT achieved the top four grades (Daksh, Utkarsh, Atti-Uttam, Uttam). Lowest Performer: Meghalaya is the only state in the tenth grade (Akanshi-3). Inter-State Disparity: The report highlights that this disparity has reduced.",
+      "qualityScore": 85,
+      "reviewNotes": "Tests specific performance outcomes of the PGI 2.0 report, focusing on both top and bottom performers and overall trends."
+    }
+  ],
+  "reviewerNotes": "The selected questions cover the Performance Grade Index (PGI) 2.0, UDISE+ infrastructure trends, and the impact of environmental factors on education as per the provided text. The distractors are designed to test specific knowledge of the report findings and the structure of the index. All questions are grounded in the provided source text."
+}

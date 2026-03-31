@@ -1,0 +1,160 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Goods and Services Tax (GST) framework in India: 1. Under the GST regime, the tax revenue accrues to the state where the goods or services are finally consumed rather than where they are manufactured. 2. Integrated GST (IGST) levied on inter-state transactions is collected by the Central Government and shared with the states. 3. The Next-Gen GST reform (GST 2.0) aims to transition India to a single uniform tax rate for all goods and services. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: GST is a destination-based tax, meaning revenue goes to the state or UT where goods or services are finally consumed. Statement 2 is correct: IGST is levied on inter-state transactions, collected by the Centre, and shared with the states. Statement 3 is incorrect: The 56th GST Council meeting approved GST 2.0, which includes rate rationalization with a simplified two-slab structure, not a single uniform rate.",
+      "takeaway": "GST is a destination-based indirect tax. The proposed GST 2.0 reform focuses on rate rationalization through a simplified two-slab structure rather than a single universal rate.",
+      "evidenceExcerpt": "Destination-Based Tax: Revenue goes to the state/UT where the goods or services are finally consumed... IGST is levied on inter-state transactions, collected by the Centre, and shared with the states... The 56th meeting of the GST Council has approved Next-Gen GST reform (GST 2.0) that includes rate rationalization with a simplified two-slab structure."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the evolution of the Goods and Services Tax (GST) in India, consider the following statements: 1. It was introduced through the 101st Constitutional Amendment Act to subsume various direct and indirect taxes into a unified structure. 2. It eliminated the cascading effect of taxes by subsuming 17 different taxes and 13 cesses. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: While GST was introduced by the 101st Constitutional Amendment Act, 2017, it is strictly a single indirect tax. It did not subsume direct taxes. Statement 2 is correct: GST subsumed 17 different taxes and 13 cesses into one unified tax, which helped eliminate the cascading effect of taxes.",
+      "takeaway": "GST is an indirect tax reform introduced via the 101st Constitutional Amendment Act, 2017. It integrated 17 indirect taxes and 13 cesses to remove the cascading effect, but left direct taxes untouched.",
+      "evidenceExcerpt": "It is a single indirect tax on the supply of goods and services across India. It was Introduced by the 101st Constitutional Amendment Act, 2017. It subsumed 17 different taxes and 13 cesses into one unified tax"
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Assertion-Reason",
+      "prompt": "Assertion (A): The implementation of the Goods and Services Tax (GST) structurally shifted the indirect tax revenue advantage from manufacturing states to consuming states.\nReason (R): Under the GST framework, the tax revenue accrues to the state or Union Territory where the goods or services are finally consumed.",
+      "contextLines": [
+        "Evaluation of GST 1.0 - About GST: It is a single indirect tax on the supply of goods and services across India.",
+        "Destination-Based Tax: Revenue goes to the state/UT where the goods or services are finally consumed."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both Assertion (A) and Reason (R) are correct and Reason (R) is the correct explanation for Assertion (A)."
+        },
+        {
+          "id": "B",
+          "text": "Both Assertion (A) and Reason (R) are correct but Reason (R) is not the correct explanation for Assertion (A)."
+        },
+        {
+          "id": "C",
+          "text": "Assertion (A) is correct but Reason (R) is incorrect."
+        },
+        {
+          "id": "D",
+          "text": "Assertion (A) is incorrect but Reason (R) is correct."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "GST is designed as a destination-based tax, meaning the tax revenue is realized by the jurisdiction where the final consumption occurs, rather than where the goods are produced. This structural design inherently favors consuming states over manufacturing states, which previously benefited from origin-based taxation.",
+      "takeaway": "GST is a destination-based indirect tax. This fundamental design choice shifts revenue benefits to consuming states, contrasting with origin-based taxes that favor manufacturing hubs.",
+      "evidenceExcerpt": "Destination-Based Tax: Revenue goes to the state/UT where the goods or services are finally consumed."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Statement",
+      "prompt": "Consider the following statements regarding the evolution of the Goods and Services Tax (GST) framework in India:\n1. The Next-Gen GST reform (GST 2.0) aims to rationalize the tax structure by transitioning to a simplified two-slab system.\n2. The initial implementation of GST eliminated the cascading effect of taxes by subsuming all major direct and indirect taxes into a unified structure.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [
+        "The 56th meeting of the GST Council has approved Next-Gen GST reform (GST 2.0) that includes rate rationalization with a simplified two-slab structure.",
+        "It is a single indirect tax on the supply of goods and services across India.",
+        "It subsumed 17 different taxes and 13 cesses into one unified tax"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct; the 56th GST Council meeting approved GST 2.0, which includes rate rationalization with a simplified two-slab structure. Statement 2 is incorrect; GST is a single 'indirect' tax that subsumed 17 different indirect taxes and 13 cesses. It did not subsume direct taxes (like Income Tax or Corporate Tax).",
+      "takeaway": "GST 2.0 focuses on rate rationalization through a two-slab structure. GST 1.0 eliminated the cascading effect by subsuming multiple indirect taxes and cesses, but it does not affect direct taxes.",
+      "evidenceExcerpt": "The 56th meeting of the GST Council has approved Next-Gen GST reform (GST 2.0) that includes rate rationalization with a simplified two-slab structure... It is a single indirect tax on the supply of goods and services across India."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Statement",
+      "prompt": "With reference to the administration and structure of the Goods and Services Tax (GST), consider the following statements:\n1. To uphold the destination-based nature of the tax, Integrated GST (IGST) on inter-state transactions is collected directly by the state where the goods are finally consumed.\n2. The introduction of GST through the 101st Constitutional Amendment Act eliminated the cascading effect of taxes by subsuming 17 different taxes and 13 cesses.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [
+        "It was Introduced by the 101st Constitutional Amendment Act, 2017.",
+        "It subsumed 17 different taxes and 13 cesses into one unified tax",
+        "IGST is levied on inter-state transactions, collected by the Centre, and shared with the states."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect; while GST is a destination-based tax, IGST on inter-state transactions is collected by the Central Government and subsequently shared with the states, not collected directly by the destination state. Statement 2 is correct; the 101st Constitutional Amendment Act introduced GST, which subsumed 17 taxes and 13 cesses to eliminate the cascading effect.",
+      "takeaway": "Although GST is a destination-based tax, the administrative mechanism for inter-state trade involves the Centre collecting IGST and then sharing it with the destination state, ensuring seamless credit flow.",
+      "evidenceExcerpt": "It was Introduced by the 101st Constitutional Amendment Act, 2017. It subsumed 17 different taxes and 13 cesses into one unified tax... IGST is levied on inter-state transactions, collected by the Centre, and shared with the states."
+    }
+  ]
+}

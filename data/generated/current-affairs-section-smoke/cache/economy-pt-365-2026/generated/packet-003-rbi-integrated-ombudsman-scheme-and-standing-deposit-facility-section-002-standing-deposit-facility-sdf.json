@@ -1,0 +1,178 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Standing Deposit Facility (SDF):\n\n1. It is a monetary policy instrument designed to inject liquidity into the banking system.\n2. It allows the RBI to absorb liquidity from commercial banks without providing any collateral.\n3. It has replaced the Marginal Standing Facility (MSF) as the floor of the Liquidity Adjustment Facility (LAF) corridor.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The SDF is used by the RBI to absorb liquidity from commercial banks, not inject it. Statement 2 is correct: A key feature of the SDF is that it is a collateral-free instrument for liquidity absorption. Statement 3 is incorrect: The SDF has replaced the Fixed Rate Reverse Repo, not the Marginal Standing Facility (MSF), as the floor of the LAF corridor. The MSF continues to be the ceiling of the corridor.",
+      "takeaway": "The Standing Deposit Facility (SDF) is a collateral-free monetary tool used by the RBI to absorb surplus liquidity from the banking system, and it serves as the floor of the Liquidity Adjustment Facility (LAF) corridor.",
+      "evidenceExcerpt": "The Standing Deposit Facility (SDF) is a monetary policy instrument used by the RBI to absorb liquidity from commercial banks without the need for providing collateral. It has replaced the Fixed Rate Reverse Repo as the floor of the Liquidity Adjustment Facility (LAF) corridor."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the operational framework of the Standing Deposit Facility (SDF), consider the following statements:\n\n1. The SDF is strictly an overnight facility, and its duration cannot be altered by the RBI.\n2. All entities eligible for participation in the Liquidity Adjustment Facility (LAF) can utilize the SDF.\n3. The facility is accessible to eligible entities on all days of the week, including weekends and holidays.\n\nWhich of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: While the SDF is primarily an overnight facility, the source material explicitly states that the RBI has the flexibility to extend its duration. Statement 2 is correct: Eligibility for the SDF is tied to eligibility for the LAF. Statement 3 is correct: The SDF is available for use every day, which enhances its effectiveness as a liquidity management tool.",
+      "takeaway": "The SDF is a flexible and widely accessible tool for liquidity absorption, available daily to all LAF-eligible entities, with the RBI retaining the ability to modify its standard overnight duration.",
+      "evidenceExcerpt": "The SDF is an overnight facility, available daily, with the RBI having the flexibility to extend its duration. Any entity eligible for LAF can utilize this facility. Available every day, including holidays and weekends."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "The introduction of the Standing Deposit Facility (SDF) as the floor of the Liquidity Adjustment Facility (LAF) corridor is significant primarily because it:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "allows the RBI to inject unlimited liquidity without seeking government bonds."
+        },
+        {
+          "id": "B",
+          "text": "narrows the LAF corridor, making the policy rate more effective."
+        },
+        {
+          "id": "C",
+          "text": "empowers the RBI to absorb large amounts of liquidity without being constrained by its holdings of government securities."
+        },
+        {
+          "id": "D",
+          "text": "replaces the repo rate as the main instrument for signaling the monetary policy stance."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The key innovation of the SDF is its collateral-free nature. In the earlier reverse repo mechanism, the RBI had to provide government securities (collateral) to banks to absorb their liquidity. This meant the RBI's ability to absorb liquidity was limited by the stock of government securities it held. The SDF removes this constraint, allowing the RBI to absorb surplus liquidity more effectively, especially in situations of large liquidity overhang.",
+      "takeaway": "The SDF's primary advantage over the fixed-rate reverse repo is its collateral-free mechanism, which removes the constraint on the RBI's ability to absorb liquidity imposed by its own holdings of government securities.",
+      "evidenceExcerpt": "The Standing Deposit Facility (SDF) is a monetary policy instrument used by the RBI to absorb liquidity from commercial banks without the need for providing collateral."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Applied",
+      "prompt": "The primary advantage of the Standing Deposit Facility (SDF) over the traditional Fixed Rate Reverse Repo for absorbing liquidity is that it:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Offers a higher interest rate to banks, thus incentivizing them more effectively."
+        },
+        {
+          "id": "B",
+          "text": "Frees the RBI from the obligation of providing government securities as collateral."
+        },
+        {
+          "id": "C",
+          "text": "Allows for longer-term liquidity absorption compared to the overnight reverse repo."
+        },
+        {
+          "id": "D",
+          "text": "Is accessible to a wider range of financial institutions than the reverse repo."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The key innovation of the Standing Deposit Facility (SDF) is its ability to absorb liquidity without requiring the RBI to provide collateral in the form of government securities. In a standard reverse repo operation, the RBI borrows from banks and provides G-Secs as collateral. The SDF mechanism removes this constraint, allowing the RBI to absorb unlimited amounts of liquidity. The interest rate is a policy decision, not an inherent advantage of the mechanism. Both are primarily overnight facilities, and eligibility is for LAF participants in both cases.",
+      "takeaway": "The SDF is a powerful tool for liquidity management because it is not constrained by the central bank's holdings of government securities, unlike the reverse repo facility.",
+      "evidenceExcerpt": "The Standing Deposit Facility (SDF) is a monetary policy instrument used by the RBI to absorb liquidity from commercial banks without the need for providing collateral."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Comparative",
+      "prompt": "With reference to the RBI's Liquidity Adjustment Facility (LAF) corridor, how does the Standing Deposit Facility (SDF) functionally compare to the Marginal Standing Facility (MSF)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both SDF and MSF are tools for liquidity injection, but operate at different interest rates."
+        },
+        {
+          "id": "B",
+          "text": "The SDF provides a floor for the overnight call money rate by absorbing liquidity, while the MSF provides a ceiling by injecting liquidity."
+        },
+        {
+          "id": "C",
+          "text": "The SDF requires banks to provide collateral to the RBI, whereas the MSF does not require collateral from the RBI."
+        },
+        {
+          "id": "D",
+          "text": "Participation in the SDF is mandatory for all scheduled commercial banks, while participation in the MSF is voluntary."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The SDF and MSF form the floor and ceiling, respectively, of the LAF corridor. The SDF is a tool for absorbing excess liquidity from banks, thereby setting a floor for the interbank call money rate. Conversely, the MSF is a tool for injecting liquidity by allowing banks to borrow from the RBI at a penal rate, which sets the ceiling for the call money rate. They have opposite functions within the monetary policy framework. Both are voluntary, standing facilities.",
+      "takeaway": "The LAF corridor is defined by the MSF rate as the ceiling (for liquidity injection) and the SDF rate as the floor (for liquidity absorption), guiding overnight interbank interest rates.",
+      "evidenceExcerpt": "It has replaced the Fixed Rate Reverse Repo as the floor of the Liquidity Adjustment Facility (LAF) corridor."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Applied",
+      "prompt": "Consider a scenario where the Indian banking system is experiencing an unprecedented surge in liquidity, and the RBI's capacity to absorb this liquidity through reverse repo operations is constrained. In this context, the Standing Deposit Facility (SDF) empowers the RBI primarily by:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Allowing it to conduct open market sales of government securities more aggressively."
+        },
+        {
+          "id": "B",
+          "text": "Enabling it to absorb surplus funds from banks without being limited by its stock of government securities."
+        },
+        {
+          "id": "C",
+          "text": "Forcing commercial banks to increase their Cash Reserve Ratio (CRR) to lock up excess funds."
+        },
+        {
+          "id": "D",
+          "text": "Providing a mechanism to lend to the government to finance its fiscal deficit."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The scenario describes a situation where the RBI might run out of government securities (G-Secs) to offer as collateral for absorbing liquidity via the reverse repo window. The SDF's core design feature is that it allows the RBI to absorb liquidity without providing any collateral. This makes it an unconstrained tool, particularly useful during periods of massive liquidity surplus, as it empowers the RBI to absorb funds without being limited by its holdings of G-Secs.",
+      "takeaway": "The SDF's collateral-free nature provides the RBI with an unconstrained instrument to manage episodes of large liquidity surpluses, a key challenge that was faced with the traditional reverse repo mechanism.",
+      "evidenceExcerpt": "The Standing Deposit Facility (SDF) is a monetary policy instrument used by the RBI to absorb liquidity from commercial banks without the need for providing collateral."
+    }
+  ]
+}

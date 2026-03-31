@@ -1,0 +1,178 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Climate and Clean Air Coalition (CCAC), consider the following statements:\n1. It is an initiative founded within the United Nations Environment Programme (UNEP).\n2. It aims to reduce short-lived climate pollutants such as methane, black carbon, and hydrofluorocarbons.\n3. India is a founding member of the Climate and Clean Air Coalition.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The CCAC was founded in 2012 and is convened within UNEP. Statement 2 is correct: The coalition specifically targets short-lived climate pollutants (SLCPs) including methane, black carbon, HFCs, and tropospheric ozone. Statement 3 is incorrect: The CCAC was founded in 2012, but India joined the coalition later in 2019.",
+      "takeaway": "The CCAC operates under UNEP to target short-lived climate pollutants (SLCPs). India is a member but joined in 2019, not at its inception.",
+      "evidenceExcerpt": "CCAC (founded 2012, convened within UNEP) targets short-lived climate pollutants: methane, black carbon, HFCs, and tropospheric ozone; India joined in 2019."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Methane and its emissions:\n1. It has a shorter atmospheric lifespan compared to carbon dioxide.\n2. Anthropogenic activities account for more than half of the total global methane emissions.\n3. Among natural sources, permafrost thawing is the largest contributor to global methane emissions.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Methane persists in the atmosphere for only 7-12 years, which is much shorter than carbon dioxide. Statement 2 is correct: 60% of methane emissions are human-driven (agriculture, fossil fuels, landfills). Statement 3 is incorrect: Wetlands, not permafrost thawing, constitute the largest natural source of methane emissions.",
+      "takeaway": "While methane is a highly potent greenhouse gas, its atmospheric lifespan is relatively short (7-12 years). Human activities drive 60% of emissions, while wetlands are the primary natural source.",
+      "evidenceExcerpt": "Methane is over 80 times more potent than CO2 over 20 years, but persists for only 7-12 years. 60% of emissions are human-driven (agriculture, fossil fuels, landfills), while wetlands are the largest natural source."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "List-based",
+      "prompt": "Consider the following atmospheric pollutants:\n1. Methane\n2. Black carbon\n3. Hydrofluorocarbons (HFCs)\n4. Tropospheric ozone\n\nHow many of the pollutants given above are explicitly targeted by the Climate and Clean Air Coalition (CCAC)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "The Climate and Clean Air Coalition (CCAC) focuses exclusively on mitigating short-lived climate pollutants (SLCPs). Its mandate explicitly targets methane, black carbon, hydrofluorocarbons (HFCs), and tropospheric ozone.",
+      "takeaway": "The CCAC focuses on short-lived climate pollutants (SLCPs) which include methane, black carbon, HFCs, and tropospheric ozone, distinguishing its mandate from initiatives targeting long-lived gases like CO2.",
+      "evidenceExcerpt": "The CCAC... targets short-lived climate pollutants (methane, black carbon, HFCs, tropospheric ozone)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice",
+      "prompt": "Which one of the following best describes the primary rationale for the establishment of the Climate and Clean Air Coalition (CCAC)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "To facilitate the global phase-out of long-lived greenhouse gases such as carbon dioxide and nitrous oxide."
+        },
+        {
+          "id": "B",
+          "text": "To catalyze rapid reductions in short-lived climate pollutants to slow near-term climate change."
+        },
+        {
+          "id": "C",
+          "text": "To manage the adaptation fund for least developed countries under the United Nations Framework Convention on Climate Change."
+        },
+        {
+          "id": "D",
+          "text": "To monitor and regulate the international trade of hazardous chemicals and ozone-depleting substances."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The CCAC was founded within UNEP to specifically target short-lived climate pollutants (SLCPs) like methane, black carbon, hydrofluorocarbons (HFCs), and tropospheric ozone, which have a significant near-term impact on global warming.",
+      "takeaway": "The Climate and Clean Air Coalition (CCAC) focuses exclusively on short-lived climate pollutants (SLCPs) rather than long-lived greenhouse gases like CO2.",
+      "evidenceExcerpt": "The CCAC, founded in 2012 within UNEP, targets short-lived climate pollutants (methane, black carbon, HFCs, tropospheric ozone)..."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Multiple Choice",
+      "prompt": "The 'Global Methane Status Report', which provides comprehensive tracking of global methane emissions and mitigation efforts, is jointly released by which of the following?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "World Meteorological Organization (WMO) and Global Carbon Project"
+        },
+        {
+          "id": "B",
+          "text": "United Nations Environment Programme (UNEP) and Climate and Clean Air Coalition (CCAC)"
+        },
+        {
+          "id": "C",
+          "text": "Intergovernmental Panel on Climate Change (IPCC) and World Bank"
+        },
+        {
+          "id": "D",
+          "text": "United Nations Framework Convention on Climate Change (UNFCCC) and International Energy Agency (IEA)"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Global Methane Status Report 2025 was released jointly by the United Nations Environment Programme (UNEP) and the Climate and Clean Air Coalition (CCAC).",
+      "takeaway": "UNEP and the CCAC collaborate to publish the Global Methane Status Report, highlighting the status of short-lived climate pollutants.",
+      "evidenceExcerpt": "The Global Methane Status Report 2025 was released by UNEP and the Climate and Clean Air Coalition (CCAC)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Multiple Statement",
+      "prompt": "Consider the following statements regarding global and Indian methane emissions:\n\n1. Wetlands constitute the largest natural source of methane emissions globally.\n2. India is currently the world's largest emitter of methane.\n3. In India, methane emissions are primarily driven by the extraction and processing of fossil fuels.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Wetlands are the largest natural source of methane emissions globally. Statement 2 is incorrect: India is the 3rd largest emitter of methane, not the largest. Statement 3 is incorrect: India's methane emissions are primarily driven by agricultural activities, specifically stubble burning, rather than fossil fuels.",
+      "takeaway": "While 60% of global methane emissions are anthropogenic, wetlands remain the largest natural source. India ranks as the 3rd largest emitter, with stubble burning being a primary driver.",
+      "evidenceExcerpt": "60% of emissions are human-driven (agriculture, fossil fuels, landfills), while wetlands are the largest natural source. India is the 3rd largest emitter, primarily driven by stubble burning."
+    }
+  ]
+}

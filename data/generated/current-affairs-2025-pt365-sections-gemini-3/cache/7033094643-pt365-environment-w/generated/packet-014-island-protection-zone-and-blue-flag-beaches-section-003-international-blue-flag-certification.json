@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the 'Blue Flag Certification': 1. It is an eco-label awarded exclusively to coastal beaches. 2. It is awarded by the Foundation for Environmental Education (FEE) headquartered in Denmark. 3. Maharashtra currently has the highest number of Blue Flag certified beaches in India. How many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect as the certification is awarded to beaches, marinas, and tourism boats, not exclusively to beaches. Statements 2 and 3 are correct; it is awarded by FEE (Denmark) and Maharashtra holds the highest number of such beaches in India.",
+      "takeaway": "The Blue Flag Certification is a comprehensive eco-label applicable to beaches, marinas, and tourism boats, managed by the Denmark-based FEE.",
+      "evidenceExcerpt": "A globally recognized eco-label awarded to beaches, marinas, and tourism boats. Total beaches in India: 18, highest in Maharashtra. Awarded by: Foundation for Environmental Education (FEE) of Denmark since 1985."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of Blue Flag certified beaches and their locations: 1. Shivrajpur Beach : Gujarat 2. Eden Beach : Kerala 3. Rushikonda Beach : Andhra Pradesh 4. Radhanagar Beach : Lakshadweep. How many pairs given above are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "Only three pairs"
+        },
+        {
+          "id": "D",
+          "text": "All four pairs"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched (Gujarat). Pair 2 is incorrectly matched; Eden Beach is in Puducherry. Pair 3 is correctly matched (Andhra Pradesh). Pair 4 is incorrectly matched; Radhanagar Beach is in the Andaman & Nicobar Islands. Thus, only two pairs are correctly matched.",
+      "takeaway": "Prominent Blue Flag beaches in India include Shivrajpur (Gujarat), Radhanagar (A&N Islands), Eden (Puducherry), and Rushikonda (Andhra Pradesh).",
+      "evidenceExcerpt": "List includes Shivrajpur Beach (Gujarat), Radhanagar Beach (Andaman & Nicobar), Eden Beach (Puducherry), and Rushikonda Beach (Andhra Pradesh)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Blue Flag Certification, consider the following statements: 1. The certification criteria are strictly limited to water quality and environmental performance. 2. India currently hosts exactly 18 Blue Flag certified beaches. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect because the 33 rigorous criteria also cover accessibility and environmental education, not just water quality and environmental performance. Statement 2 is correct as India currently has 18 such beaches.",
+      "takeaway": "The Blue Flag criteria are comprehensive, encompassing 33 parameters including accessibility and education, not just environmental metrics.",
+      "evidenceExcerpt": "Certification requires meeting 33 rigorous criteria covering accessibility, education, environmental performance, and water quality. Total beaches in India: 18"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-027-integrated-air-defence-systems-section-002-integrated-air-defence-weapon-system-iadws-and-indigenous-projects",
+    "claimType": "System Feature",
+    "claimText": "The Integrated Air Defence Weapon System (IADWS) includes QRSAM for protecting moving armoured columns and VSHORADS, a MANPADS for low-altitude threats.",
+    "evidenceExcerpt": "IADWS components include QRSAM (protects moving armoured columns) and VSHORADS (MANPADS for low-altitude threats).",
+    "pageNumbers": [
+      53,
+      54
+    ],
+    "examUse": "Statement-based question on the specific roles of IADWS components.",
+    "distractorHooks": [
+      "Swapping the roles of QRSAM and VSHORADS",
+      "Claiming VSHORADS is for high-altitude threats"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-027-integrated-air-defence-systems-section-002-integrated-air-defence-weapon-system-iadws-and-indigenous-projects",
+    "claimType": "Project Details",
+    "claimText": "Project Kusha (PGLRSAM) is a DRDO initiative aimed at developing a long-range air defence missile system with an interception range exceeding 600 km in Phase 2.",
+    "evidenceExcerpt": "Project Kusha (PGLRSAM) is a DRDO initiative to develop a long-range air defence missile system with interceptors exceeding 600 km range in Phase 2.",
+    "pageNumbers": [
+      53,
+      54
+    ],
+    "examUse": "Correct-pair question matching defence projects with their objectives or ranges.",
+    "distractorHooks": [
+      "Attributing Project Kusha to a foreign collaboration like Israel or Russia",
+      "Stating it is a short-range missile system"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-027-integrated-air-defence-systems-section-002-integrated-air-defence-weapon-system-iadws-and-indigenous-projects",
+    "claimType": "Weapon System",
+    "claimText": "Anant Shastra is an indigenous Quick Reaction Surface-to-Air Missile (QRSAM) system developed by DRDO, BEL, and BDL with a range of around 30 km.",
+    "evidenceExcerpt": "Anant Shastra is an indigenous QRSAM system developed by DRDO, BEL, and BDL with a range of around 30 km.",
+    "pageNumbers": [
+      53,
+      54
+    ],
+    "examUse": "Statement-based question on indigenous missile systems and their specifications.",
+    "distractorHooks": [
+      "Describing Anant Shastra as an air-to-air missile",
+      "Claiming it has a long range exceeding 600 km"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-027-integrated-air-defence-systems-section-002-integrated-air-defence-weapon-system-iadws-and-indigenous-projects",
+    "claimType": "Technology Feature",
+    "claimText": "The Integrated Air Defence Weapon System (IADWS) incorporates a high-power laser-based Directed Energy Weapon (DEW) developed by CHESS.",
+    "evidenceExcerpt": "IADWS features a high-power laser-based Directed Energy Weapon (DEW) developed by CHESS.",
+    "pageNumbers": [
+      53,
+      54
+    ],
+    "examUse": "Statement-based question on the advanced technological components of India's IADWS.",
+    "distractorHooks": [
+      "Stating that IADWS relies solely on kinetic interceptors and lacks directed energy weapons",
+      "Attributing the DEW development to a foreign defense contractor"
+    ]
+  }
+]

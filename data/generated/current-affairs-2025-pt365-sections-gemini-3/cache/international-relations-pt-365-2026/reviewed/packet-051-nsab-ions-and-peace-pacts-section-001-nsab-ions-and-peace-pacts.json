@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Current Affairs",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Statement",
+      "prompt": "Consider the following statements regarding the initiatives to combat cyber financial frauds in India:\n1. The Financial Fraud Risk Indicator (FRI) is a risk-based metric introduced by the Reserve Bank of India (RBI) to classify mobile numbers associated with financial fraud.\n2. 'Mulehunter' is an Artificial Intelligence tool deployed by the Department of Telecommunications (DoT) to detect money mules.\n3. The 'Chakshu' facility on the Sanchar Saathi portal allows citizens to report suspected fraud communications.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect: The Financial Fraud Risk Indicator (FRI) was introduced by the Department of Telecommunications (DoT), not the RBI. It classifies mobile numbers into Medium, High, or Very High risk based on inputs from various portals and banks.\nStatement 2 is incorrect: 'Mulehunter' is an AI tool developed by the Reserve Bank of India (RBI), not the DoT, to detect money mules and is advised for use by banks.\nStatement 3 is correct: 'Chakshu' is a facility on the DoT's Sanchar Saathi portal that allows citizens to report suspected fraud calls, SMS, or WhatsApp messages.",
+      "takeaway": "UPSC frequently swaps the implementing agencies of various initiatives. The DoT introduced the FRI and Chakshu, while the RBI deployed the Mulehunter AI tool.",
+      "evidenceExcerpt": "The Department of Telecommunications (DoT) has introduced a Financial Fraud Risk Indicator (FRI) to combat mobile-based cyber fraud... Chakshu on Sanchar Saathi: Allows citizens to report fraud calls, SMS, or WhatsApp messages. Mulehunter: RBI’s AI tool to detect money mules, advised for bank use.",
+      "qualityScore": 88,
+      "reviewNotes": "Rewrote the candidate question into a multiple-statement format to test the specific ministries/agencies behind the FRI, Mulehunter, and Chakshu initiatives, which is a classic UPSC trap."
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Statement",
+      "prompt": "Consider the following statements regarding the National Security Advisory Board (NSAB):\n1. It is a statutory body established under the National Security Act, 1980.\n2. It consists exclusively of serving bureaucrats and military officials to advise the National Security Council.\n3. It is assisted by the National Security Council Secretariat (NSCS).\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect: The NSAB is not a statutory body. It was first constituted in December 1998 as an advisory body.\nStatement 2 is incorrect: The NSAB is an advisory body of eminent persons *outside* the government, including individuals from industry, media, and civil society, rather than exclusively serving bureaucrats and military officials.\nStatement 3 is correct: The NSAB is assisted by the National Security Council Secretariat (NSCS) in undertaking long-term analysis and providing perspectives on national security issues.",
+      "takeaway": "The NSAB is a non-statutory advisory body comprising eminent persons from outside the government, assisted by the NSCS.",
+      "evidenceExcerpt": "It was first constituted in December 1998, as an advisory body of eminent persons outside the government, including industry, media and civil society, among others. It is assisted by the National Security Council Secretariat (NSCS).",
+      "qualityScore": 85,
+      "reviewNotes": "Added a question on the NSAB, focusing on its composition and statutory status, as UPSC frequently tests the nature and composition of advisory bodies."
+    }
+  ],
+  "reviewerNotes": "The original candidate question was too straightforward and its distractors were easily eliminable. I rewrote it into a multiple-statement format that tests the specific agencies behind various cyber fraud initiatives (FRI, Mulehunter, Chakshu), which is a classic UPSC pattern. I also generated two additional questions covering the NSAB's composition and the E-Zero FIR threshold to ensure comprehensive coverage of the source text."
+}

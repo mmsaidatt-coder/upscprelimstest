@@ -1,0 +1,149 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the NISAR (NASA-ISRO Synthetic Aperture Radar) mission:\n1. It is the world's first Earth observation satellite to integrate both L-band and S-band radars on a single platform.\n2. In this joint mission, NASA provided the S-band radar and ISRO contributed the L-band radar.\n3. It marks the first time ISRO has used a Geosynchronous Satellite Launch Vehicle (GSLV) to place a satellite into a Sun-Synchronous Orbit (SSO).\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: NISAR is the world's first Earth observation satellite to integrate both L-band and S-band SAR on a single platform. Statement 2 is incorrect: NASA provided the L-band radar, while ISRO contributed the S-band radar. Statement 3 is correct: It is the first time a GSLV rocket (GSLV-F16) was used to place a satellite into a Sun-Synchronous Orbit.",
+      "takeaway": "NISAR integrates L-band (NASA) and S-band (ISRO) SAR on a single platform and was uniquely launched into an SSO using a GSLV rocket.",
+      "evidenceExcerpt": "It is world's first Earth observation satellite to integrate both L-band and S-band Synthetic Aperture Radar (SAR) on a single platform. NASA provided the L-band radar... ISRO contributed the S-band radar... Launch Vehicle: ISRO’s Geosynchronous Satellite Launch Vehicle (GSLV)-F16. Orbit: Sun Synchronous Polar Orbit. It is the first time a GSLV rocket was used to place a satellite into a Sun-Synchronous orbit (SSO)."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the technical features and capabilities of the NISAR satellite, consider the following statements:\n1. It is a microwave imaging mission capable of acquiring fully polarimetric and interferometric data.\n2. It utilizes SweepSAR technology to provide high-resolution data with a repeat cycle of 12 days.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Both statements are correct. NISAR is a global microwave imaging mission that can acquire fully polarimetric and interferometric data. It uses SweepSAR technology to produce high-resolution, wide-swath images with a repeat cycle of 12 days.",
+      "takeaway": "NISAR employs advanced SweepSAR technology for microwave imaging, enabling high-resolution data acquisition with a 12-day repeat cycle.",
+      "evidenceExcerpt": "NISAR is a global, microwave imaging mission, with capability to acquire fully polarimetric and interferometric data... Technical Features: SweepSAR... Repeat Cycle: Provides high-resolution data every 12 days."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Multiple-choice",
+      "prompt": "Consider the following applications:\n1. Measuring woody biomass\n2. Tracking crop changes\n3. Mapping ice sheets\n4. Characterizing land surface deformation\nHow many of the above are the stated objectives of the NISAR mission?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "All four applications are primary objectives of the NISAR mission, leveraging its dual-band SAR capabilities to monitor Earth's complex processes.",
+      "takeaway": "NISAR's diverse objectives include tracking ecosystem changes, ice sheet dynamics, and land surface deformations.",
+      "evidenceExcerpt": "Objectives include measuring woody biomass, tracking crop changes, mapping ice sheets, and characterizing land surface deformation."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice",
+      "prompt": "Which of the following combinations of technical features and orbital parameters correctly characterizes the NISAR (NASA-ISRO Synthetic Aperture Radar) mission?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Optical imaging capability, Geosynchronous Orbit, and a 24-hour repeat cycle"
+        },
+        {
+          "id": "B",
+          "text": "Microwave imaging capability, Sun-Synchronous Polar Orbit, and a 12-day repeat cycle"
+        },
+        {
+          "id": "C",
+          "text": "Optical imaging capability, Sun-Synchronous Polar Orbit, and a 12-day repeat cycle"
+        },
+        {
+          "id": "D",
+          "text": "Microwave imaging capability, Geosynchronous Orbit, and a 24-hour repeat cycle"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "NISAR is a global, microwave imaging mission placed in a Sun-Synchronous Polar Orbit (SSO). It utilizes SweepSAR technology to provide high-resolution data with a repeat cycle of 12 days. It does not rely on optical imaging, nor is it placed in a Geosynchronous Orbit.",
+      "takeaway": "NISAR is a microwave (not optical) imaging satellite deployed in a Sun-Synchronous Polar Orbit, designed to provide high-resolution data every 12 days.",
+      "evidenceExcerpt": "NISAR is a global, microwave imaging mission... Orbit: Sun Synchronous Polar Orbit... Repeat Cycle: Provides high-resolution data every 12 days."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Pairs",
+      "prompt": "Consider the following pairs regarding the components of the NISAR mission and their respective contributing agencies:\n\n1. L-band Synthetic Aperture Radar : ISRO\n2. S-band Synthetic Aperture Radar : NASA\n3. Launch Vehicle (GSLV-F16) : ISRO\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "None"
+        },
+        {
+          "id": "B",
+          "text": "Only one"
+        },
+        {
+          "id": "C",
+          "text": "Only two"
+        },
+        {
+          "id": "D",
+          "text": "All three"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is incorrectly matched: NASA provided the L-band radar. Pair 2 is incorrectly matched: ISRO contributed the S-band radar. Pair 3 is correctly matched: ISRO provided the Geosynchronous Satellite Launch Vehicle (GSLV)-F16. Therefore, only one pair is correctly matched.",
+      "takeaway": "In the joint NISAR mission, the technological contributions are distinctly divided: NASA provided the L-band radar, while ISRO contributed the S-band radar and the launch vehicle.",
+      "evidenceExcerpt": "NASA provided the L-band radar... ISRO contributed the S-band radar... Launch Vehicle: ISRO’s Geosynchronous Satellite Launch Vehicle (GSLV)-F16."
+    }
+  ]
+}

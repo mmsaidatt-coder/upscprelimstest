@@ -202,7 +202,8 @@ async function main() {
             return ` | ETA ~${eta}m`;
         })() : '';
 
-        process.stdout.write(`\r🔄 [${batchNum}/${totalBatches}] ${batch[0].subject} (${batch[0].year ?? '—'}) | ✅ ${processed} | ❌ ${errored}${etaStr}    `);
+        const first = batch[0];
+        process.stdout.write(`\r🔄 [${batchNum}/${totalBatches}] ${first?.subject ?? '?'} (${first?.year ?? '—'}) | ✅ ${processed} | ❌ ${errored}${etaStr}    `);
 
         for (let attempt = 1; attempt <= 3; attempt++) {
             try {
@@ -211,7 +212,7 @@ async function main() {
                 for (let j = 0; j < batch.length; j++) {
                     const q = batch[j];
                     const e = enriched[j];
-                    if (!e) continue;
+                    if (!q || !e) continue;
 
                     const { error: upErr } = await supabase.from('questions').update({
                         topic: e.topic ?? null,

@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Current Affairs",
+      "difficulty": "Hard",
+      "questionType": "Conceptual",
+      "prompt": "Consider the following international principles regarding the sharing of transboundary water resources:\n1. Helsinki Rules (1966)\n2. Berlin Rules (2004)\n3. UN Convention on the Law of the Non-Navigational Uses of International Watercourses (1997)\nWhich of the above were adopted by the International Law Association (ILA)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "According to the text, both the Helsinki Rules (1966) and the Berlin Rules on Water Resources (2004) were adopted by the International Law Association. The UN Convention (1997) is a multilateral treaty adopted by the United Nations General Assembly, not the ILA.",
+      "takeaway": "The Helsinki and Berlin Rules are ILA products, while the 1997 Convention is a UN instrument.",
+      "evidenceExcerpt": "Helsinki Rules, 1966: Adopted by the International Law Association... Berlin Rules on Water Resources, 2004: Adopted by the International Law Association.",
+      "qualityScore": 87,
+      "reviewNotes": "Tests the institutional origin of international water law frameworks mentioned in the text."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Matching",
+      "prompt": "Consider the following pairs of Hydroelectric Projects (HEP) and the rivers they are located on as per the Indus Waters Treaty context:\n1. Kishenganga HEP : Jhelum River\n2. Ratle HEP : Chenab River\n3. Salal HEP : Ravi River\nWhich of the pairs given above is/are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correct: Kishenganga HEP is a run-of-the-river project that diverts water from the Kishenganga (a tributary) to the Jhelum. Pair 2 is correct: Ratle HEP is located on the Chenab River in Kishtwar, J&K. Pair 3 is incorrect: While not explicitly detailed in the text, the text identifies Ravi as an Eastern River under India's control, but the context of the 'Neutral Expert' inspection specifically links Kishenganga and Ratle to the Western Rivers (Jhelum and Chenab).",
+      "takeaway": "Kishenganga is associated with the Jhelum basin, and Ratle is on the Chenab.",
+      "evidenceExcerpt": "Kishenganga HEP: Run-of-the-river project diverting water from Kishenganga to Jhelum in J&K. Ratle HEP: Located on Chenab River in Kishtwar, J&K.",
+      "qualityScore": 85,
+      "reviewNotes": "Standard UPSC matching question focusing on geography and current infrastructure disputes."
+    }
+  ],
+  "reviewerNotes": "The questions cover the legal, geographic, and institutional aspects of the Indus Waters Treaty and related international developments. The 'abeyance' issue is highlighted as it is the primary 'Why in the News' trigger. Distractors were designed to reflect common UPSC traps (e.g., membership counts, voting rules, and institutional origins)."
+}

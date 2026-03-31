@@ -1,0 +1,48 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-049-cyclones-and-disaster-risk-indices-section-001-tropical-cyclones",
+    "claimType": "Factual",
+    "claimText": "Tropical cyclones require a sea surface temperature greater than 26°C to form.",
+    "evidenceExcerpt": "Always form over oceans where sea surface temperature is greater than 26°C.",
+    "pageNumbers": [
+      101
+    ],
+    "examUse": "Statement-based question on conditions for cyclone formation.",
+    "distractorHooks": [
+      "Temperature less than 26°C",
+      "Can form over landmasses initially"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-049-cyclones-and-disaster-risk-indices-section-001-tropical-cyclones",
+    "claimType": "Conceptual",
+    "claimText": "Tropical cyclones develop at latitudes usually greater than 5° from the equator due to the necessity of the Coriolis force.",
+    "evidenceExcerpt": "Develop at latitudes usually greater than 5° from equator in the presence of Coriolis force.",
+    "pageNumbers": [
+      101
+    ],
+    "examUse": "Statement-based question on the role of Coriolis force and equatorial absence of cyclones.",
+    "distractorHooks": [
+      "Form exactly at the equator",
+      "Do not require Coriolis force"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-049-cyclones-and-disaster-risk-indices-section-001-tropical-cyclones",
+    "claimType": "Factual",
+    "claimText": "Tropical cyclones are known by different regional names, such as Hurricanes in the North Atlantic, Typhoons in the Western North Pacific, and Willy-willies in the Eastern part of the Southern Indian Ocean.",
+    "evidenceExcerpt": "Terms for Tropical Cyclones: Hurricane – North Atlantic, Eastern North Pacific and South Pacific Ocean. Cyclone – Indian Ocean. Typhoon – Western North Pacific Ocean. Willy-willy: Eastern part of the Southern Indian Ocean.",
+    "pageNumbers": [
+      101
+    ],
+    "examUse": "Correct-pair matching question (Cyclone name vs. Region).",
+    "distractorHooks": [
+      "Willy-willy in North Atlantic",
+      "Typhoon in Indian Ocean",
+      "Hurricane in Western North Pacific"
+    ]
+  }
+]

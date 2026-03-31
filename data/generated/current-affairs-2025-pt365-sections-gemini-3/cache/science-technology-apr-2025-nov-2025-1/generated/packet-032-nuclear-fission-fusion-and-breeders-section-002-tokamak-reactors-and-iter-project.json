@@ -1,0 +1,207 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the ITER project: 1. ITER is an international nuclear fusion megaproject located in France. 2. The Institute for Plasma Research (IPR) is the nodal agency for India's participation in ITER. 3. India's contribution to ITER is strictly limited to providing scientific personnel, without any hardware manufacturing responsibilities. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: ITER is located in France and aims to demonstrate fusion as an abundant, safe, carbon-free energy source. Statement 2 is correct: The Institute for Plasma Research in Ahmedabad is the lead Indian institution participating in ITER. Statement 3 is incorrect: India has a significant hardware manufacturing role, having manufactured the cryostat (the enormous chamber housing the tokamak) and cryolines for the project.",
+      "takeaway": "ITER is a major international fusion project in France. India is an active participant, contributing critical hardware like the cryostat and cryolines, with the Institute for Plasma Research (IPR) acting as the lead Indian institution.",
+      "evidenceExcerpt": "ITER is located in France and aims to demonstrate fusion as an abundant, safe, carbon-free energy source. India manufactured the cryostat (chamber housing the tokamak) and cryolines... The Institute for Plasma Research in Ahmedabad is the lead Indian institution participating in ITER."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "With reference to nuclear energy, what is the primary function of a 'Tokamak' device?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "To sustain a controlled nuclear fission chain reaction using fast neutrons."
+        },
+        {
+          "id": "B",
+          "text": "To create and confine high-temperature fusion plasma using strong magnetic fields."
+        },
+        {
+          "id": "C",
+          "text": "To compress fusion fuel pellets using high-energy laser beams."
+        },
+        {
+          "id": "D",
+          "text": "To enrich uranium by separating isotopes using gas centrifuges."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Tokamak is a device designed to harness the energy of fusion. It works by creating and confining high-temperature fusion plasma using strong magnetic fields. It does not use lasers (which is inertial confinement fusion) or rely on nuclear fission.",
+      "takeaway": "A Tokamak reactor utilizes magnetic confinement to hold and shape fusion plasma, enabling the conditions necessary for nuclear fusion to occur.",
+      "evidenceExcerpt": "Tokamak is designed to harness the energy of fusion. In it, fusion plasma is created and confined by strong magnetic fields."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of major global tokamak reactors and their host countries: 1. JET : United Kingdom. 2. EAST : Japan. 3. KSTAR : South Korea. How many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: JET is located in the UK. Pair 2 is incorrectly matched: EAST is located in China, not Japan (Japan hosts JT-60SA along with Europe). Pair 3 is correctly matched: KSTAR is located in South Korea. Therefore, exactly two pairs are correctly matched.",
+      "takeaway": "Major global tokamaks include JET (UK), EAST (China), KSTAR (South Korea), and JT-60SA (Japan/Europe).",
+      "evidenceExcerpt": "Major global tokamaks include JET (UK), EAST (China), KSTAR (South Korea), and JT-60SA (Japan/Europe)."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding nuclear fusion research and technology: 1. ADITYA is India's first indigenously designed domestic tokamak reactor. 2. India manufactured the cryostat, the large vacuum chamber that houses the ITER Tokamak. 3. Cryolines used in the ITER project are designed to carry liquid sodium to cool the superconducting magnets. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: ADITYA is India's first indigenously designed domestic tokamak. Statement 2 is correct: India manufactured the cryostat for the ITER project. Statement 3 is incorrect: The cryolines manufactured by India for ITER carry liquid helium, not liquid sodium, to cool the magnets.",
+      "takeaway": "India's domestic fusion program features the ADITYA and SST-1 tokamaks. For the international ITER project, India supplied the cryostat and cryolines, which utilize liquid helium for cooling.",
+      "evidenceExcerpt": "India manufactured the cryostat (chamber housing the tokamak) and cryolines (carrying liquid helium to cool magnets) for ITER... India's domestic tokamak research includes ADITYA (first indigenously designed), ADITYA-U, and SST-1."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Classification",
+      "prompt": "Consider the following nuclear research facilities:\n1. ADITYA-U\n2. SST-1\n3. JT-60SA\n4. EAST\n\nHow many of the above are part of India's domestic tokamak research program?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "ADITYA-U and SST-1 are part of India's domestic tokamak research program. JT-60SA is a joint project of Japan and Europe, and EAST is a major global tokamak located in China.",
+      "takeaway": "India has an active domestic nuclear fusion research program which includes the development of tokamak reactors such as ADITYA (India's first indigenously designed tokamak), ADITYA-U, and SST-1.",
+      "evidenceExcerpt": "Major global tokamaks include JET (UK), EAST (China), KSTAR (South Korea), and JT-60SA (Japan/Europe). India's domestic tokamak research includes ADITYA (first indigenously designed), ADITYA-U, and SST-1.",
+      "contextLines": []
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "Which of the following statements best describes the primary objective of the international ITER project?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To construct a commercial fast breeder reactor utilizing India's vast thorium reserves."
+        },
+        {
+          "id": "B",
+          "text": "To demonstrate nuclear fusion as an abundant, safe, and carbon-free energy source."
+        },
+        {
+          "id": "C",
+          "text": "To safely dismantle and manage radioactive waste from decommissioned nuclear fission plants."
+        },
+        {
+          "id": "D",
+          "text": "To develop space-based nuclear reactors for deep space exploration missions."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "ITER is an international megaproject located in France that aims to demonstrate the scientific and technological feasibility of fusion energy. Its fundamental goal is to prove that fusion can be an abundant, safe, and carbon-free energy source.",
+      "takeaway": "Unlike traditional nuclear fission reactors that split heavy atoms, ITER focuses on nuclear fusion, aiming to replicate the processes that power the sun to provide a clean and virtually limitless energy source.",
+      "evidenceExcerpt": "ITER is located in France and aims to demonstrate fusion as an abundant, safe, carbon-free energy source.",
+      "contextLines": []
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Mechanism-Design",
+      "prompt": "In the context of the ITER project, what is the specific role of the 'cryolines' manufactured by India?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They inject high-velocity neutral particle beams to heat the fusion plasma."
+        },
+        {
+          "id": "B",
+          "text": "They transport liquid helium to cool the superconducting magnets."
+        },
+        {
+          "id": "C",
+          "text": "They extract tritium gas produced during the fusion reaction."
+        },
+        {
+          "id": "D",
+          "text": "They circulate heavy water to moderate the speed of fast neutrons."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "India manufactured the cryolines for the ITER project. These specialized lines are designed to carry liquid helium, which is required to cool the superconducting magnets to extremely low temperatures so they can generate the strong magnetic fields needed to confine the plasma.",
+      "takeaway": "Cryogenics play a crucial role in Tokamak reactors. Superconducting magnets must be maintained at cryogenic temperatures using liquid helium to function effectively without electrical resistance.",
+      "evidenceExcerpt": "India manufactured the cryostat (chamber housing the tokamak) and cryolines (carrying liquid helium to cool magnets) for ITER.",
+      "contextLines": []
+    }
+  ]
+}

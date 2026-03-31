@@ -1,0 +1,77 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-047-cloudbursts-and-tsunami-guidelines-section-003-tsunamis-and-ndma-guidelines",
+    "claimType": "Factual",
+    "claimText": "Tsunamis are caused by large and sudden displacements of the ocean, which can result from earthquakes, landslides, volcanic eruptions, meteorites, and underwater explosions.",
+    "evidenceExcerpt": "Tsunamis can be caused by earthquakes, landslides, volcanic eruptions, meteorites, and underwater explosions.",
+    "pageNumbers": [
+      98
+    ],
+    "examUse": "Statement-based question identifying the various potential triggers of a tsunami.",
+    "distractorHooks": [
+      "Tsunamis are exclusively caused by underwater earthquakes",
+      "Meteorites cannot trigger tsunamis"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-047-cloudbursts-and-tsunami-guidelines-section-003-tsunamis-and-ndma-guidelines",
+    "claimType": "Conceptual",
+    "claimText": "The speed and wavelength of a tsunami primarily depend on the ocean depth rather than the distance from the wave's source.",
+    "evidenceExcerpt": "The speed and wavelength of a tsunami primarily depend on ocean depth rather than the distance from the wave's source.",
+    "pageNumbers": [
+      98
+    ],
+    "examUse": "Statement-based question testing the physical properties and propagation mechanics of tsunami waves.",
+    "distractorHooks": [
+      "Speed and wavelength primarily depend on the distance from the epicenter",
+      "Ocean depth has no impact on the speed of a tsunami"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-047-cloudbursts-and-tsunami-guidelines-section-003-tsunamis-and-ndma-guidelines",
+    "claimType": "Conceptual",
+    "claimText": "In deep oceans, tsunami waves have a negligible amplitude and often go unnoticed by ships, despite having a long wavelength of approximately 200 km.",
+    "evidenceExcerpt": "In deep oceans, tsunami wave amplitude is negligible and often goes unnoticed by ships.",
+    "pageNumbers": [
+      98
+    ],
+    "examUse": "Statement-based question comparing the characteristics of tsunami waves in deep oceans versus shallow waters.",
+    "distractorHooks": [
+      "Tsunami waves have massive amplitudes in deep oceans",
+      "Ships in deep oceans are highly vulnerable to the massive wave height of passing tsunamis"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-047-cloudbursts-and-tsunami-guidelines-section-003-tsunamis-and-ndma-guidelines",
+    "claimType": "Conceptual",
+    "claimText": "As tsunami waves approach shallow coastal waters, their wavelength decreases and their wave amplitude increases significantly due to a process called shoaling.",
+    "evidenceExcerpt": "As tsunami waves approach shallow coastal waters, their wavelength decreases due to shoaling, and their wave amplitude increases significantly.",
+    "pageNumbers": [
+      98
+    ],
+    "examUse": "Statement-based question on the shoaling effect and how tsunami wave dynamics change near the coast.",
+    "distractorHooks": [
+      "Wavelength increases as tsunamis approach the coast",
+      "Wave amplitude decreases when entering shallow water"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-047-cloudbursts-and-tsunami-guidelines-section-003-tsunamis-and-ndma-guidelines",
+    "claimType": "Factual",
+    "claimText": "NDMA guidelines for tsunamis recommend the development of natural buffers, such as bio-shields and mangrove regeneration, to mitigate impacts.",
+    "evidenceExcerpt": "NDMA guidelines recommend developing natural buffers such as bio-shields and mangrove regeneration to mitigate tsunami impacts.",
+    "pageNumbers": [
+      98
+    ],
+    "examUse": "Statement-based question on NDMA mitigation strategies for coastal hazards.",
+    "distractorHooks": [
+      "NDMA guidelines prohibit the use of natural buffers in favor of concrete sea walls",
+      "Mangrove regeneration is not recognized as a tsunami mitigation strategy by the NDMA"
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the 'Planetary Boundaries' framework:\n1. The Planetary Health Check is a scientific assessment released by the United Nations Environment Programme (UNEP).\n2. The framework defines humanity's safe operating space through nine specific ecological thresholds.\n3. According to the latest assessment, ocean acidification has crossed its safe operating space for the first time.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The Planetary Health Check 2025 is released by the Potsdam Institute for Climate Impact Research (PIK), not UNEP.\nStatement 2 is correct: Planetary Boundaries are 9 ecological thresholds defining humanity's safe operating space.\nStatement 3 is correct: According to the Planetary Health Check 2025, Ocean Acidification crossed its safe operating space for the first time.",
+      "takeaway": "The Planetary Health Check (PHC) 2025, released by PIK, assesses 9 planetary boundaries. Ocean Acidification has recently crossed its safe operating space for the first time.",
+      "evidenceExcerpt": "The Planetary Health Check (PHC) 2025, released by the Potsdam Institute for Climate Impact Research (PIK), provides a scientific assessment regarding Planetary Boundaries (PBs). PBs are ecological thresholds defining the safe limits... 7 of the 9 PBs have been transgressed except Atmospheric Aerosol Loading & Stratospheric Ozone Depletion and Ocean Acidification crossed its safe operating space for the first time.",
+      "qualityScore": 85,
+      "reviewNotes": "Good use of the 'How many statements' format. Tests the publisher, the core definition, and the most recent critical update."
+    }
+  ],
+  "reviewerNotes": "Selected two strong questions. The first tests the overall framework, publisher, and the latest critical update (Ocean Acidification). The second tests the specific boundaries that remain safe, which is a classic UPSC exception-based fact. Both are well-grounded in the provided text."
+}

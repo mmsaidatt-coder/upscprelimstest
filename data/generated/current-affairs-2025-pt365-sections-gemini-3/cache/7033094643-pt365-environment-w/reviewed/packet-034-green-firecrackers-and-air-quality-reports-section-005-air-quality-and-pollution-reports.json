@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to recent global environmental reports, consider the following statements:\n\n1. The Air Quality Life Index (AQLI) specifically measures the impact of particulate air pollution on human life expectancy.\n2. According to the State of Global Air Report (SoGA) 2025, India has the highest exposure to ozone pollution globally.\n3. The AQLI identifies South Asia as the world's most polluted region.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The AQLI measures the impact of particulate air pollution on life expectancy. Statement 2 is incorrect: According to the SoGA 2025 report, India has the third highest exposure to ozone pollution globally, not the highest. Statement 3 is correct: The AQLI highlights that South Asia continues to be the world's most polluted region.",
+      "takeaway": "Different reports focus on distinct aspects of air pollution. The AQLI translates particulate pollution into life expectancy impacts and highlights South Asia's vulnerability, whereas SoGA tracks multiple pollutants, noting India's third-highest global exposure to ozone.",
+      "evidenceExcerpt": "State of Global Air Report (SoGA) 2025... Ozone Pollution: India has third highest exposure. 2025 Annual Update of the Air Quality Life Index (AQLI)... Measures the impact of particulate air pollution on life expectancy... South Asia continues to be World's most polluted region.",
+      "qualityScore": 85,
+      "reviewNotes": "Combines findings from two different reports mentioned in the text. The 'highest' vs 'third highest' trap is a classic UPSC distractor."
+    }
+  ],
+  "reviewerNotes": "Selected and refined three questions to cover the different reports mentioned in the source text. Improved the wording to match UPSC standards, utilizing 'How many of the above' and standard statement-based formats. Ensured distractors are plausible and explanations are tightly aligned with the source evidence."
+}

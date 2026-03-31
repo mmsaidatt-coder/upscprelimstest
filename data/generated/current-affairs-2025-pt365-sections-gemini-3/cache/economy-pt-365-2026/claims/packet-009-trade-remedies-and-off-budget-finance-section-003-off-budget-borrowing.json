@@ -1,0 +1,62 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-009-trade-remedies-and-off-budget-finance-section-003-off-budget-borrowing",
+    "claimType": "Conceptual",
+    "claimText": "Off-budget borrowing refers to government borrowing that is not explicitly included in the official budget and is not approved by the legislature.",
+    "evidenceExcerpt": "Off-budget borrowing is not explicitly included in the official budget or approved by the legislature.",
+    "pageNumbers": [
+      19
+    ],
+    "examUse": "Statement-based question on the definition and legislative oversight of off-budget borrowings.",
+    "distractorHooks": [
+      "Included in the official budget",
+      "Requires direct legislative approval prior to borrowing"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-009-trade-remedies-and-off-budget-finance-section-003-off-budget-borrowing",
+    "claimType": "Factual",
+    "claimText": "Off-budget borrowings are typically raised through government-controlled Public Sector Undertakings (PSUs) or entities dependent on budgetary support.",
+    "evidenceExcerpt": "Raised through government-controlled PSUs or entities dependent on budgetary support.",
+    "pageNumbers": [
+      19
+    ],
+    "examUse": "Statement-based question identifying the vehicles used for off-budget borrowing.",
+    "distractorHooks": [
+      "Raised directly by the Ministry of Finance",
+      "Raised exclusively through foreign sovereign bonds"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-009-trade-remedies-and-off-budget-finance-section-003-off-budget-borrowing",
+    "claimType": "Conceptual",
+    "claimText": "The purpose of off-budget borrowing is to keep borrowings off the fiscal deficit books, which artificially creates an impression of fiscal prudence.",
+    "evidenceExcerpt": "Keeps borrowings off the fiscal deficit books to create an impression of fiscal prudence.",
+    "pageNumbers": [
+      19
+    ],
+    "examUse": "Conceptual question on how off-budget borrowing affects reported fiscal deficit figures.",
+    "distractorHooks": [
+      "Increases the reported fiscal deficit",
+      "Is fully accounted for in the FRBM targets"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-009-trade-remedies-and-off-budget-finance-section-003-off-budget-borrowing",
+    "claimType": "Conceptual",
+    "claimText": "Off-budget borrowing reduces fiscal transparency, lacks accountability, and conceals the true debt burden of the government.",
+    "evidenceExcerpt": "Concerns include reduced transparency, lack of accountability, and concealment of the true debt burden.",
+    "pageNumbers": [
+      19
+    ],
+    "examUse": "Statement-based question on the macroeconomic implications and risks of off-budget borrowing.",
+    "distractorHooks": [
+      "Enhances fiscal transparency",
+      "Reduces the actual debt burden of the government"
+    ]
+  }
+]

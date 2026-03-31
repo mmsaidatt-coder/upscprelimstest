@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Solar Tornadoes': 1. Unlike terrestrial tornadoes, they are primarily held in place by magnetic fields. 2. They are composed of ionized gas rather than atmospheric air. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Both statements are correct. Solar tornadoes (tornado prominences) are made of ionized gas (plasma) and are held in place by magnetic fields, distinguishing their driving mechanism from Earth's wind-driven tornadoes.",
+      "takeaway": "Solar tornadoes are plasma structures governed by magnetic fields, reaching extreme temperatures, unlike Earth's tornadoes which are driven by atmospheric pressure differences.",
+      "evidenceExcerpt": "Solar tornadoes (tornado prominences) are made of ionized gas (plasma) held by magnetic fields and can reach temperatures around 250,000 °C."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Mechanism-design",
+      "prompt": "In the context of atmospheric phenomena, which of the following best describes the formation mechanism of 'Cold Pools'?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The rapid cooling of ocean surface waters due to the upwelling of deep benthic currents."
+        },
+        {
+          "id": "B",
+          "text": "The sinking and spreading of evaporatively cooled air beneath precipitating clouds."
+        },
+        {
+          "id": "C",
+          "text": "The trapping of cold polar winds within high-altitude atmospheric depressions."
+        },
+        {
+          "id": "D",
+          "text": "The sudden drop in temperature in the stratosphere caused by volcanic ash clouds."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Cold pools form when evaporating rain cools the air, making it heavier, causing it to sink and spread across the ground like a shallow bubble.",
+      "takeaway": "Cold pools are small-scale areas of evaporatively cooled downdraft air that spread on the surface underneath precipitating clouds.",
+      "evidenceExcerpt": "Cold pools form when evaporating rain cools the air, making it heavier, causing it to sink and spread across the ground like a shallow bubble."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the 'Deep Ocean' and its zones: 1. The Deep Ocean is typically defined as the sea and seabed beginning below a depth of 200 meters. 2. The 200-meter depth mark signifies the point where sunlight completely vanishes from the water column. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The Deep Ocean is defined as starting below 200 meters. Statement 2 is incorrect: The 200-meter mark is where light rapidly decreases and the Twilight Zone begins, not where it completely vanishes (which happens deeper, in the aphotic zone).",
+      "takeaway": "The Deep Ocean starts at 200 meters, marking the beginning of the Twilight Zone where light rapidly decreases but does not immediately vanish.",
+      "evidenceExcerpt": "The Deep Ocean is typically defined as the sea and seabed below 200 meters, where light rapidly decreases and the Twilight Zone begins."
+    }
+  ]
+}

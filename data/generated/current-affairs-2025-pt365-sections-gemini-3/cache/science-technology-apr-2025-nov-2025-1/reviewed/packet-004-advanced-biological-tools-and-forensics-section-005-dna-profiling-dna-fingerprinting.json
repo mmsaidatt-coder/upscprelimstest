@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the genetic markers used in DNA profiling:\n1. DNA profiling primarily relies on the high variability present in the coding regions of the human genome.\n2. Y-chromosome profiling traces paternal lineage by focusing on Short Tandem Repeats (STRs) inherited from father to son.\n3. Single Nucleotide Polymorphisms (SNPs) are genetic variations involving single-base differences unique to individuals.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: DNA profiling identifies individuals based on the variability of noncoding regions (such as VNTRs), not coding regions. Statement 2 is correct: Y-chromosome profiling focuses on STRs inherited from father to son, making it useful for tracing paternal lineage. Statement 3 is correct: SNPs represent single-base differences that are unique to individuals.",
+      "takeaway": "DNA profiling relies on highly variable noncoding regions (VNTRs/STRs). Y-chromosome markers are strictly paternal, and SNPs are single-base variations.",
+      "evidenceExcerpt": "DNA Profiling identifies individuals by analyzing unique patterns in their DNA, based on the variability of noncoding regions called VNTRs. Key methods include... Y chromosome STRs for paternal lineage, and Single Nucleotide Polymorphisms (SNPs) are single-base differences unique to individuals.",
+      "qualityScore": 88,
+      "reviewNotes": "Strong statement-based question that tests multiple atomic claims from the text. The trap in Statement 1 (coding vs. noncoding) is a classic UPSC-style distractor."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Scenario-based",
+      "prompt": "A forensic anthropology team discovers highly degraded skeletal remains at a historical site. Attempts to extract intact nuclear DNA for standard profiling have failed due to severe environmental exposure. Which of the following DNA profiling techniques is most appropriate to establish the identity of the remains?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Autosomal Short Tandem Repeats (STR) analysis"
+        },
+        {
+          "id": "B",
+          "text": "Mitochondrial DNA (mtDNA) profiling"
+        },
+        {
+          "id": "C",
+          "text": "Y-chromosome STR profiling"
+        },
+        {
+          "id": "D",
+          "text": "Single Nucleotide Polymorphism (SNP) mapping"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Mitochondrial DNA (mtDNA) profiling is specifically utilized in forensic science when standard nuclear DNA is degraded. Because mitochondria are abundant in cells, their DNA is more likely to survive extreme environmental exposure compared to nuclear DNA.",
+      "takeaway": "mtDNA profiling serves as a crucial fallback in forensic science when standard nuclear DNA cannot be extracted from highly degraded samples.",
+      "evidenceExcerpt": "Mitochondrial DNA (mtDNA) is used when nuclear DNA is degraded.",
+      "qualityScore": 85,
+      "reviewNotes": "Good application-based question. The distractors are plausible DNA profiling techniques, but only mtDNA is explicitly highlighted in the text for degraded nuclear DNA."
+    }
+  ],
+  "reviewerNotes": "Selected two high-quality questions. Q1 is a scenario-based application of mtDNA profiling, and Q2 is a comprehensive statement-based question covering VNTRs, Y-chromosome STRs, and SNPs. Dropped the remaining candidates to avoid conceptual overlap and redundancy."
+}

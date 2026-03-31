@@ -1,0 +1,149 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the 'Phenome India Project (PI-Check)' and the 'National Biobank': 1. The project is an initiative spearheaded by the Indian Council of Medical Research (ICMR). 2. The National Biobank collects genomic, lifestyle, and clinical data to aid in AI-driven diagnostics. 3. The project aims to map phenotypes, which are determined exclusively by an individual's genetic makeup. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect: The Phenome India Project (PI-Check) was launched by the Council of Scientific and Industrial Research (CSIR), not ICMR. Statement 2 is correct: The National Biobank collects genomic, lifestyle, and clinical data from 10,000 individuals to aid early diagnosis and AI-driven diagnostics. Statement 3 is incorrect: A phenotype is determined by the interaction of an organism's genotype and environmental influences, not exclusively by its genetic makeup.",
+      "takeaway": "The Phenome India Project (PI-Check) by CSIR establishes a National Biobank based on the UK model to collect diverse health data, recognizing that phenotypes are shaped by both genes and the environment.",
+      "evidenceExcerpt": "The National Biobank, launched under the Phenome India Project (PI-Check) by CSIR... Collects genomic, lifestyle, and clinical data from 10,000 individuals to aid early diagnosis and AI-driven diagnostics... Phenotype is determined by genotype and environmental influences."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to genetics and biotechnology, consider the following statements: 1. A phenotype refers to the observable physical characteristics of an organism. 2. Environmental influences play no role in determining an organism's phenotype. 3. A phenome represents the entire set of phenotypes in a cell, tissue, organ, or organism. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: A phenotype refers to the observable physical characteristics of an organism. Statement 2 is incorrect: An organism's phenotype is determined by the interaction between its genotype and environmental influences. Statement 3 is correct: A phenome is defined as the entire set of phenotypes in a cell, tissue, organ, organism, or species.",
+      "takeaway": "While a genotype is the genetic blueprint, the phenotype is the physical expression of those genes, which is actively influenced by environmental factors. The sum total of these phenotypes is called a phenome.",
+      "evidenceExcerpt": "A phenome is the entire set of phenotypes (observable physical characteristics determined by genotype and environment) in an organism... Phenome is the entire set of phenotypes in a cell, tissue, organ, organism or species."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Feature-matching",
+      "prompt": "Which of the following best describes the primary objective of the National Biobank launched under the Phenome India Project (PI-Check)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "To create a repository of indigenous seed varieties to ensure food security against climate change."
+        },
+        {
+          "id": "B",
+          "text": "To collect genomic, lifestyle, and clinical data of the Indian population to aid early diagnosis and AI-driven diagnostics."
+        },
+        {
+          "id": "C",
+          "text": "To sequence the genomes of endangered wildlife species in India for conservation efforts."
+        },
+        {
+          "id": "D",
+          "text": "To establish a centralized database of synthetic biological organisms created by Indian research institutes."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The National Biobank, launched under the Phenome India Project (PI-Check) by CSIR, aims to collect genomic, lifestyle, and clinical data from 10,000 individuals to aid early diagnosis and AI-driven diagnostics. It is customized for Indian genetic diversity based on the UK Biobank model.",
+      "takeaway": "The National Biobank focuses on human health data (genomic, lifestyle, and clinical) to improve early diagnostics and leverage AI in healthcare, rather than agriculture or wildlife conservation.",
+      "evidenceExcerpt": "The National Biobank, launched under the Phenome India Project (PI-Check) by CSIR, is based on the UK Biobank model customized for Indian diversity. It aims to collect genomic, lifestyle, and clinical data from 10,000 individuals to aid early diagnosis and AI-driven diagnostics."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Statement",
+      "prompt": "With reference to the Phenome India Project (PI-Check), consider the following statements:\n\n1. It is based entirely on an indigenous biobanking model developed independently by the Council of Scientific and Industrial Research (CSIR).\n2. It integrates genomic data with lifestyle parameters to facilitate AI-driven early diagnostics.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: While spearheaded by CSIR, the National Biobank under PI-Check is not an entirely indigenous model; it is based on the UK Biobank model, customized for Indian diversity. Statement 2 is correct: The project collects genomic, lifestyle, and clinical data specifically to aid early diagnosis and AI-driven diagnostics.",
+      "takeaway": "The National Biobank under PI-Check adapts the successful UK Biobank model to the Indian context, utilizing a combination of genetic and lifestyle data for advanced AI diagnostics.",
+      "evidenceExcerpt": "The National Biobank, launched under the Phenome India Project (PI-Check) by CSIR, is based on the UK Biobank model customized for Indian diversity. It aims to collect genomic, lifestyle, and clinical data from 10,000 individuals to aid early diagnosis and AI-driven diagnostics."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "In the context of the Phenome India Project, which of the following best highlights the distinction between an organism's 'genotype' and its 'phenotype'?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A genotype represents the genetic makeup, while a phenotype is the set of observable characteristics shaped by both the genotype and the environment."
+        },
+        {
+          "id": "B",
+          "text": "A genotype is heavily influenced by environmental factors, whereas a phenotype remains constant regardless of external conditions."
+        },
+        {
+          "id": "C",
+          "text": "Genotypic data is collected exclusively through lifestyle monitoring, whereas phenotypic data requires DNA sequencing."
+        },
+        {
+          "id": "D",
+          "text": "A genotype refers to the physical traits of an organism, while a phenotype refers to the underlying genetic sequences within a specific tissue."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Option A is correct. A genotype is the genetic blueprint of an organism, whereas a phenotype consists of the observable physical characteristics that result from the interaction between that genotype and environmental influences. The other options either reverse these definitions or incorrectly attribute environmental influence to the genotype.",
+      "takeaway": "A phenome is the complete set of phenotypes in an organism. Phenotypes are not strictly genetic; they are the observable traits resulting from the interplay between genetics (genotype) and the environment.",
+      "evidenceExcerpt": "A phenome is the entire set of phenotypes (observable physical characteristics determined by genotype and environment) in an organism."
+    }
+  ]
+}

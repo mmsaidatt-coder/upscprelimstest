@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding India's Air Defence System: 1. The Akash Weapon System is an indigenous short-range surface-to-air missile equipped with Electronic Counter-Counter Measures (ECCM). 2. Barak 8 is a medium/long-range surface-to-air missile jointly developed by India and France. 3. The S-400 Triumf system provides 360-degree radar coverage and multi-missile compatibility. How many of the above statements are correct?",
+      "contextLines": [
+        "India's ADS consists of an Integrated Counter UAS Grid featuring S-400 Triumf (Sudarshan Chakra, 360-degree coverage), Barak 8 (MR/LR SAM, joint India-Israel), and Akash Weapon System (indigenous Short Range SAM with ECCM)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Akash is an indigenous short-range SAM with built-in ECCM. Statement 2 is incorrect: Barak 8 is jointly developed by India and Israel, not France. Statement 3 is correct: S-400 Triumf offers 360-degree radar and multi-missile compatibility.",
+      "takeaway": "India's Air Defence System utilizes a mix of indigenous and jointly developed/acquired systems, including the Russia-acquired S-400, the India-Israel Barak 8, and the indigenous Akash SAM.",
+      "evidenceExcerpt": "India's ADS consists of an Integrated Counter UAS Grid featuring S-400 Triumf (Sudarshan Chakra, 360-degree coverage), Barak 8 (MR/LR SAM, joint India-Israel), and Akash Weapon System (indigenous Short Range SAM with ECCM)."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to 'Project Akashteer', recently seen in the news, consider the following statements: 1. It is a new generation of long-range surface-to-air missiles developed by the Defence Research and Development Organisation (DRDO). 2. It is an automated Air Defence Control and Reporting System integrated into the C4ISR framework. 3. It is a fully indigenous system developed by Bharat Electronics Limited (BEL). Which of the statements given above is/are correct?",
+      "contextLines": [
+        "Akashteer is India's fully indigenous, automated Air Defence Control and Reporting System developed by BEL, part of the C4ISR framework, featuring AI-driven mobile vehicle-based solutions."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Akashteer is not a missile system but an automated Air Defence Control and Reporting System. Furthermore, it was developed by BEL, not DRDO. Statements 2 and 3 are correct: It is a fully indigenous automated system developed by BEL that forms part of the C4ISR framework.",
+      "takeaway": "Akashteer is an indigenous, AI-driven Air Defence Control and Reporting System developed by BEL to automate and integrate India's air defence operations.",
+      "evidenceExcerpt": "Akashteer is India's fully indigenous, automated Air Defence Control and Reporting System developed by BEL, part of the C4ISR framework, featuring AI-driven mobile vehicle-based solutions."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of defence systems and their primary characteristics: 1. Sudarshan Chakra : Air defence system offering 360-degree radar coverage 2. Barak 8 : Indigenous short-range surface-to-air missile 3. Akashteer : AI-driven mobile vehicle-based control and reporting solution How many of the above pairs are correctly matched?",
+      "contextLines": [
+        "India's ADS consists of an Integrated Counter UAS Grid featuring S-400 Triumf (Sudarshan Chakra, 360-degree coverage), Barak 8 (MR/LR SAM, joint India-Israel), and Akash Weapon System (indigenous Short Range SAM with ECCM). Akashteer is India's fully indigenous, automated Air Defence Control and Reporting System developed by BEL, part of the C4ISR framework, featuring AI-driven mobile vehicle-based solutions."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: S-400 Triumf is also known as Sudarshan Chakra and offers 360-degree coverage. Pair 2 is incorrectly matched: Barak 8 is a joint India-Israel Medium/Long Range SAM, whereas Akash is the indigenous short-range SAM. Pair 3 is correctly matched: Akashteer features AI-driven mobile vehicle-based solutions for air defence control.",
+      "takeaway": "Understanding the specific operational roles and origins of India's Air Defence Systems (like S-400/Sudarshan Chakra, Barak 8, and Akashteer) is crucial for distinguishing their capabilities.",
+      "evidenceExcerpt": "S-400 Triumf (Sudarshan Chakra, 360-degree coverage), Barak 8 (MR/LR SAM, joint India-Israel)... Akashteer is India's fully indigenous, automated Air Defence Control and Reporting System... featuring AI-driven mobile vehicle-based solutions."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the origin and development of India's air defence assets, consider the following statements:\n1. The S-400 Triumf was acquired from Russia, whereas the Barak 8 system is a joint development between India and Israel.\n2. Both the Akash Weapon System and the Akashteer control system are fully indigenous developments.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: The S-400 Triumf was acquired from Russia, and Barak 8 is a joint India-Israel Medium/Long Range SAM. Statement 2 is correct: The Akash Weapon System is an indigenous short-range SAM, and Akashteer is a fully indigenous system developed by Bharat Electronics Limited (BEL).",
+      "takeaway": "India's air defence architecture relies on a strategic mix of foreign acquisitions (S-400), international joint ventures (Barak 8), and indigenous capabilities (Akash, Akashteer).",
+      "evidenceExcerpt": "S-400 Triumf (Sudarshan Chakra) acquired from Russia... Barak 8 is a joint India-Israel MR/LR SAM... Akash is an indigenous short-range SAM... Akashteer is an indigenous, AI-driven, automated Air Defence Control and Reporting System developed by BEL."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Comparison-driven",
+      "prompt": "Which of the following statements most accurately distinguishes the functional role of 'Akashteer' from the 'Akash' system in India's defence architecture?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Akash is an indigenous surface-to-air missile, whereas Akashteer is an AI-driven automated control and reporting system."
+        },
+        {
+          "id": "B",
+          "text": "Akash provides 360-degree radar coverage, whereas Akashteer is an electronic counter-countermeasure suite."
+        },
+        {
+          "id": "C",
+          "text": "Akash is a land-based interceptor, whereas Akashteer is a maritime variant of the same missile."
+        },
+        {
+          "id": "D",
+          "text": "Akash is jointly developed with foreign partners, whereas Akashteer is a fully indigenous kinetic weapon."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "The Akash Weapon System is a kinetic interceptor (an indigenous short-range Surface-to-Air Missile). In contrast, Akashteer is not a missile but an automated Air Defence Control and Reporting System integrated into the C4ISR framework.",
+      "takeaway": "While similarly named, Akash is the actual weapon system (SAM) that intercepts targets, whereas Akashteer is the overarching command, control, and reporting network that manages air defence operations.",
+      "evidenceExcerpt": "Akash Weapon System (indigenous Short Range SAM with ECCM). Akashteer is India's fully indigenous, automated Air Defence Control and Reporting System developed by BEL, part of the C4ISR framework..."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements comparing the Barak 8 and Akash surface-to-air missile (SAM) systems:\n1. While Barak 8 is designed for medium and long-range interception, the Akash system is a short-range SAM.\n2. Barak 8 features both maritime and land variants, whereas the Akash system is equipped with built-in Electronic Counter-Counter Measures (ECCM).\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Barak 8 is an MR/LR (Medium/Long Range) SAM, while Akash is a Short Range SAM. Statement 2 is correct: Barak 8 is deployed in both maritime and land variants, whereas Akash features built-in Electronic Counter-Counter Measures (ECCM) to resist jamming.",
+      "takeaway": "Different SAM systems in India's arsenal serve distinct operational envelopes, with Barak 8 covering medium/long ranges across naval and land platforms, and Akash providing short-range defence with electronic warfare resilience.",
+      "evidenceExcerpt": "Barak 8 is a joint India-Israel MR/LR SAM with maritime and land variants, and Akash Weapon System (indigenous Short Range SAM with ECCM)."
+    }
+  ]
+}

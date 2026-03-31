@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Feature Identification",
+      "prompt": "Consider the following characteristics of a protected area in India:\n1. It is the northernmost tiger habitat in the Western Ghats.\n2. It was notified by amalgamating the Chandoli National Park and Koyna Wildlife Sanctuary.\n3. The 'Shivsagar' reservoir of the Koyana River is located within its boundaries.\nWhich of the following protected areas is best described by the characteristics given above?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Sahyadri Tiger Reserve"
+        },
+        {
+          "id": "B",
+          "text": "Melghat Tiger Reserve"
+        },
+        {
+          "id": "C",
+          "text": "Kali Tiger Reserve"
+        },
+        {
+          "id": "D",
+          "text": "Bhadra Tiger Reserve"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Sahyadri Tiger Reserve, located in Maharashtra, is the northernmost tiger habitat in the Western Ghats. It was formed in 2010 by amalgamating the Chandoli National Park and Koyna Wildlife Sanctuary. The reserve encompasses the 'Shivsagar' reservoir of the Koyana River and the 'Vasant Sagar' reservoir of the Warana River. Melghat Tiger Reserve is located in the Satpura range, while Kali and Bhadra Tiger Reserves are located further south in the Western Ghats (Karnataka).",
+      "takeaway": "Sahyadri Tiger Reserve holds geographical significance as the northernmost tiger habitat in the Western Ghats and integrates key hydrological features like the Shivsagar and Vasant Sagar reservoirs.",
+      "evidenceExcerpt": "Northern most tiger habitat in Western Ghats. Notified in 2010 by amalgamating the Chandoli National Park and Koyna Wildlife Sanctuary. Reservoirs: 'Shivsagar' reservoir of Koyana River...",
+      "qualityScore": 90,
+      "reviewNotes": "Excellent feature-identification question. The distractors are well-chosen, representing other tiger reserves in Maharashtra or the Western Ghats, which requires the candidate to know the exact geographical nuances."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Sahyadri Tiger Reserve:\n1. It is the northernmost tiger habitat in the Western Ghats.\n2. The 'Vasant Sagar' reservoir of the Warana River is located within this reserve.\n3. It is the destination for a recent tiger translocation project sourced from the Tadoba-Andhari and Pench Tiger Reserves.\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Sahyadri Tiger Reserve is the northernmost tiger habitat in the Western Ghats. Statement 2 is correct: The reserve contains the 'Vasant Sagar' reservoir of the Warana River, along with the 'Shivsagar' reservoir of the Koyana River. Statement 3 is correct: The Ministry of Environment, Forest and Climate Change (MoEFCC) recently granted approval for the translocation of 8 tigers from the Tadoba-Andhari and Pench Tiger Reserves to the Sahyadri Tiger Reserve to boost its tiger population.",
+      "takeaway": "Tiger translocation projects are critical conservation efforts. Knowing the source reserves (Tadoba-Andhari, Pench) and the destination reserve (Sahyadri), along with its geographical and hydrological features, is essential for the exam.",
+      "evidenceExcerpt": "MoEFCC granted approval for Translocation of 8 Tigers from Tadoba-Andhari Tiger Reserve and Pench Tiger Reserve to Sahyadri Tiger Reserve... Northern most tiger habitat in Western Ghats... 'Vasant Sagar' reservoir of Warana River.",
+      "qualityScore": 88,
+      "reviewNotes": "Strong statement-based question using the modern 'How many' format. It effectively tests a good mix of static geography (reservoirs, habitat extremes) and current affairs (translocation)."
+    }
+  ],
+  "reviewerNotes": "Selected and refined two high-quality questions from the candidate set. Question 1 utilizes the classic 'Feature Identification' format, which is a staple in UPSC Prelims for Protected Areas. Question 2 employs the modern 'How many statements are correct' format, blending static geographical facts with recent current affairs regarding tiger translocation. Both questions have plausible distractors and tight explanations."
+}

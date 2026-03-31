@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the International Maritime Organization (IMO):\n1. It is a specialized agency of the United Nations.\n2. India is a member state of the IMO.\n3. The Maritime Safety Committee (MSC) is the highest technical body of the IMO.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: The IMO is a UN specialized agency responsible for shipping safety and preventing marine pollution. Statement 2 is correct: India is one of the 176 member states of the IMO. Statement 3 is correct: The Maritime Safety Committee (MSC) serves as the highest technical body of the IMO.",
+      "takeaway": "The IMO is a UN specialized agency governing shipping safety and marine pollution. India is a member, and its highest technical body is the Maritime Safety Committee (MSC).",
+      "evidenceExcerpt": "The International Maritime Organization (IMO) is a UN specialized agency responsible for shipping safety and preventing marine pollution... it has 176 members, including India. Its highest technical body is the Maritime Safety Committee (MSC).",
+      "qualityScore": 85,
+      "reviewNotes": "Rewrote the statements to separate the IMO's structure and membership from the conventions, allowing for a cleaner statement-based question. The distractors and format align well with recent UPSC trends."
+    }
+  ],
+  "reviewerNotes": "Both questions were accepted and refined. Candidate 1 was adjusted to focus purely on the IMO's institutional framework (UN status, India's membership, and the MSC), while Candidate 2 was rewritten into a standard UPSC convention-matching format focusing on the Hong Kong Convention."
+}

@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding foreign investment in India: 1. Foreign Direct Investment (FDI) involves long-term strategic investments in primary markets with a stake greater than 10 percent. 2. Foreign Portfolio Investment (FPI) involves short-term financial investments in secondary markets. 3. FDI is generally considered 'hot money' as it causes sharp fluctuations in the exchange rate of the Rupee. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: FDI involves long-term strategic investment in primary markets with a stake greater than 10 percent. Statement 2 is correct: FPI involves short-term financial investment in secondary markets with stakes less than 10 percent. Statement 3 is incorrect: It is FPI, not FDI, that acts as 'hot money' and causes capital market volatility and sharp Rupee fluctuations. FDI provides stable capital and a steady impact on the Rupee.",
+      "takeaway": "FDI is a stable, long-term investment (>10% stake) in primary markets, whereas FPI is volatile 'hot money' (<10% stake) traded in secondary markets.",
+      "evidenceExcerpt": "FDI involves long-term strategic investment in primary markets (real assets, >10% stake), providing stable capital and steady Rupee impact. FPI involves short-term financial investment in secondary markets (stocks/bonds, <10% stake), causing high capital market volatility (hot money) and Rupee fluctuations."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Which of the following are the key distinguishing features of Foreign Direct Investment (FDI) as compared to Foreign Portfolio Investment (FPI) in the Indian context? 1. FDI generally enters through primary markets, whereas FPI is primarily routed through secondary markets. 2. FDI involves an equity stake of less than 10 percent in a listed company, whereas FPI requires a stake greater than 10 percent. 3. FDI provides stable capital market foundations, whereas FPI is characterized by daily market volatility. Select the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: FDI involves investment in primary markets (real assets), while FPI involves financial investment in secondary markets (stocks/bonds). Statement 2 is incorrect: The thresholds are reversed. FDI involves a stake greater than 10 percent, whereas FPI involves a stake of less than 10 percent. Statement 3 is correct: FDI provides stable capital and steady Rupee impact without causing daily volatility, whereas FPI acts as 'hot money' driving market volatility.",
+      "takeaway": "The 10 percent equity threshold is a primary differentiator between FDI (>10%) and FPI (<10%) in India, alongside their respective impacts on market stability and the types of markets they target.",
+      "evidenceExcerpt": "FDI involves long-term strategic investment in primary markets (real assets, >10% stake), providing stable capital... FPI involves short-term financial investment in secondary markets (stocks/bonds, <10% stake), causing high capital market volatility."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Feature Matching",
+      "prompt": "Consider the following characteristics regarding foreign capital flows: 1. Investment primarily in real assets 2. Acquisition of an equity stake of less than 10 percent 3. Entry predominantly through primary markets 4. Association with high daily capital market volatility. How many of the above characteristics are specifically associated with Foreign Direct Investment (FDI)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Characteristics 1 and 3 are associated with FDI, which involves long-term strategic investments in real assets through primary markets with a stake greater than 10 percent. Characteristics 2 and 4 are associated with Foreign Portfolio Investment (FPI), which involves stakes of less than 10 percent and causes high capital market volatility ('hot money'). Therefore, only two characteristics apply to FDI.",
+      "takeaway": "FDI is characterized by stakes greater than 10 percent in primary markets (real assets) providing stability, contrasting with FPI's stakes of less than 10 percent in secondary markets causing volatility.",
+      "evidenceExcerpt": "FDI involves long-term strategic investment in primary markets (real assets, >10% stake), providing stable capital... FPI involves short-term financial investment in secondary markets (stocks/bonds, <10% stake), causing high capital market volatility..."
+    }
+  ]
+}

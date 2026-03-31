@@ -1,0 +1,62 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-037-solar-technologies-and-green-hydrogen-mission-section-001-solar-power-technologies-and-agriphotovoltaics-apvs",
+    "claimType": "Factual",
+    "claimText": "Photovoltaic cells produce direct current (DC), which must be converted to alternating current (AC) by an inverter for standard use.",
+    "evidenceExcerpt": "Photovoltaic cells produce direct current (DC) which is converted to alternating current (AC) by an inverter.",
+    "pageNumbers": [
+      76
+    ],
+    "examUse": "Statement-based question on the basic functioning of solar power technologies.",
+    "distractorHooks": [
+      "Stating that photovoltaic cells directly produce alternating current (AC)",
+      "Stating that a transformer is used instead of an inverter to convert DC to AC"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-037-solar-technologies-and-green-hydrogen-mission-section-001-solar-power-technologies-and-agriphotovoltaics-apvs",
+    "claimType": "Conceptual",
+    "claimText": "Concentrated Solar Power (CSP) technology generates energy by focusing sunlight using mirrors, lenses, and tracking devices rather than directly converting light to electricity via photovoltaic effect.",
+    "evidenceExcerpt": "Concentrated Solar Power (CSP) harnesses energy by focusing sunlight using mirrors, lenses, and tracking devices.",
+    "pageNumbers": [
+      76
+    ],
+    "examUse": "Comparison question distinguishing between standard photovoltaic (PV) systems and Concentrated Solar Power (CSP).",
+    "distractorHooks": [
+      "Confusing CSP with standard PV cells by stating CSP directly converts sunlight to electricity without focusing it",
+      "Stating CSP is only used for agricultural shading"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-037-solar-technologies-and-green-hydrogen-mission-section-001-solar-power-technologies-and-agriphotovoltaics-apvs",
+    "claimType": "Conceptual",
+    "claimText": "Agriphotovoltaics (APVs), or Solar Farming, is a dual land-use system that simultaneously combines agricultural crop production and solar electricity generation on the same land area.",
+    "evidenceExcerpt": "Agriphotovoltaics (APVs) combine agricultural production and electricity production on the same land area.",
+    "pageNumbers": [
+      76
+    ],
+    "examUse": "Concept identification or definition-based question on sustainable land-use practices.",
+    "distractorHooks": [
+      "Defining APVs as the use of agricultural biomass to manufacture solar panels",
+      "Stating that APVs require completely separate land parcels for farming and electricity generation"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-037-solar-technologies-and-green-hydrogen-mission-section-001-solar-power-technologies-and-agriphotovoltaics-apvs",
+    "claimType": "Application",
+    "claimText": "Agriphotovoltaic (APV) systems maximize land-use efficiency by utilizing shade-tolerant crops, which are protected from strong solar irradiation and winds by the solar panels.",
+    "evidenceExcerpt": "APV systems utilize shade-tolerant crops to protect against strong solar irradiation and winds.",
+    "pageNumbers": [
+      76
+    ],
+    "examUse": "Statement-based question on the ecological and agricultural synergies of APV systems.",
+    "distractorHooks": [
+      "Stating that APV systems are best suited for crops that require maximum direct sunlight",
+      "Claiming that solar panels in APV systems expose crops to higher wind damage"
+    ]
+  }
+]

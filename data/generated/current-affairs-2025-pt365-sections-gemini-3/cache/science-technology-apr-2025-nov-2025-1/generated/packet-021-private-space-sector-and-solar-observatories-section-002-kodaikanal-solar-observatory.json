@@ -1,0 +1,149 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Kodaikanal Solar Observatory: 1. It is operated by the Indian Space Research Organisation (ISRO). 2. It is geographically located in the Palani Range of hills in Southern India. 3. It is credited with the historical discovery of the Evershed Effect. How many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The Kodaikanal Solar Observatory is operated by the Indian Institute of Astrophysics, which is an autonomous institute of the Department of Science and Technology (DST), not ISRO. Statement 2 is correct: It is located in the Palani Range of hills in Southern India. Statement 3 is correct: The observatory is known for the discovery of the Evershed Effect.",
+      "takeaway": "The Kodaikanal Solar Observatory, located in the Palani Hills, is operated by the Indian Institute of Astrophysics (DST) and is famous for discovering the Evershed Effect.",
+      "evidenceExcerpt": "Operated by the Indian Institute of Astrophysics (an autonomous institute of DST), it is located in the Palani Range of hills in Southern India. It is known for the discovery of the Evershed Effect..."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the 'Evershed Effect' in solar physics, consider the following statements: 1. It is characterized by a nearly horizontal outflow of gases observed in the penumbrae of sunspots. 2. The phenomenon occurs in the outermost layer of the Sun's atmosphere known as the corona. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The Evershed Effect is a nearly horizontal outflow of gases observed in the penumbrae of sunspots. Statement 2 is incorrect: The phenomenon is observed in the photospheric layer (the visible surface of the Sun), not in the solar corona.",
+      "takeaway": "The Evershed Effect describes the horizontal outflow of gases in the penumbrae of sunspots, specifically occurring in the Sun's photosphere.",
+      "evidenceExcerpt": "The Evershed Effect is a nearly horizontal outflow of gases observed in the penumbrae of sunspots in the photospheric layer (visible surface of the Sun)."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding solar observation initiatives in India: 1. The Indian Institute of Astrophysics, which operates the Kodaikanal Solar Observatory, is an autonomous institute under the Ministry of Earth Sciences. 2. Century-old data from the Kodaikanal Solar Observatory was recently utilized to reconstruct the Sun's past polar magnetic behaviour. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The Indian Institute of Astrophysics is an autonomous institute of the Department of Science and Technology (DST), not the Ministry of Earth Sciences. Statement 2 is correct: Researchers from ARIES tapped century-old data from the Kodaikanal Solar Observatory to reconstruct the Sun's past polar magnetic behaviour.",
+      "takeaway": "Historical data from the Kodaikanal Solar Observatory remains highly relevant for modern solar physics, such as reconstructing past polar magnetic behaviour.",
+      "evidenceExcerpt": "Researchers from the Aryabhatta Research Institute of Observational Sciences (ARIES) tapped the century old data from the Kodaikanal Solar Observatory to reconstruct the Sun's past polar magnetic behaviour. Operated by the Indian Institute of Astrophysics (an autonomous institute of DST)..."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "Which of the following best describes the 'Evershed Effect', a phenomenon associated with solar physics?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The rapid heating of the solar corona to temperatures significantly higher than the visible surface."
+        },
+        {
+          "id": "B",
+          "text": "A nearly horizontal outflow of gases observed in the penumbrae of sunspots."
+        },
+        {
+          "id": "C",
+          "text": "The periodic variation in the number of sunspots over an 11-year solar cycle."
+        },
+        {
+          "id": "D",
+          "text": "The ejection of large clouds of plasma and magnetic field from the Sun's outermost layer."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Evershed Effect, discovered at the Kodaikanal Solar Observatory, is defined as a nearly horizontal outflow of gases observed in the penumbrae of sunspots in the photospheric layer.",
+      "takeaway": "The Evershed Effect is a specific gas dynamic phenomenon (horizontal outflow) associated with the penumbrae of sunspots.",
+      "evidenceExcerpt": "It is known for the discovery of the Evershed Effect, which is a nearly horizontal outflow of gases observed in the penumbrae of sunspots in the photospheric layer."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Kodaikanal Solar Observatory, consider the following statements:\n\n1. It is operated by the Aryabhatta Research Institute of Observational Sciences (ARIES).\n2. It functions under the broader administrative framework of the Department of Science and Technology (DST).\n3. Its historical data was recently utilized to reconstruct the Sun's past polar magnetic behaviour.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The Kodaikanal Solar Observatory is operated by the Indian Institute of Astrophysics (IIA), not ARIES. Researchers from ARIES merely utilized its data. Statement 2 is correct: IIA is an autonomous institute of the Department of Science and Technology (DST), placing the observatory under DST's framework. Statement 3 is correct: Century-old data from the observatory was tapped to reconstruct the Sun's past polar magnetic behaviour.",
+      "takeaway": "While ARIES researchers utilized the data, the Kodaikanal Solar Observatory is actually operated by the Indian Institute of Astrophysics (IIA), which falls under the Department of Science and Technology (DST).",
+      "evidenceExcerpt": "Researchers from the Aryabhatta Research Institute of Observational Sciences (ARIES) tapped the century old data from the Kodaikanal Solar Observatory to reconstruct the Sun's past polar magnetic behaviour. Operated by the Indian Institute of Astrophysics (an autonomous institute of DST)..."
+    }
+  ]
+}

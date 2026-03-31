@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Climate Risk Index (CRI), consider the following statements: 1. It is published annually by the United Nations Environment Programme (UNEP). 2. It ranks countries based on the human and economic toll of extreme weather events. 3. India was ranked among the top 10 most affected countries for the period 1995-2024. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The Climate Risk Index is published by Germanwatch, not UNEP. Statement 2 is correct: It ranks countries based on the human and economic toll of extreme weather events. Statement 3 is correct: India was ranked 9th in the CRI for the period 1995-2024.",
+      "takeaway": "The Climate Risk Index, published annually by Germanwatch since 2006, assesses the human and economic toll of extreme weather events.",
+      "evidenceExcerpt": "Published by: Germanwatch - Ranks countries based on human and economic toll of extreme weather events. - India ranked 15th in CRI 2024 and 9th in CRI for 1995-2024."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "multiple_choice",
+      "prompt": "Which one of the following best describes the core focus of the Climate Risk Index (CRI) published by Germanwatch?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Tracking the progress of countries in achieving their Nationally Determined Contributions (NDCs)."
+        },
+        {
+          "id": "B",
+          "text": "Quantifying the human and economic toll resulting from extreme weather events."
+        },
+        {
+          "id": "C",
+          "text": "Assessing the vulnerability of coastal nations to slow-onset events like sea-level rise."
+        },
+        {
+          "id": "D",
+          "text": "Evaluating the transition speed of developing nations towards renewable energy sources."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Climate Risk Index (CRI), published by Germanwatch, specifically ranks countries based on the human and economic toll of extreme weather events. It measures actual impacts rather than mitigation efforts, slow-onset events, or energy transitions.",
+      "takeaway": "The CRI focuses on the realized impacts (human and economic toll) of extreme weather, distinguishing it from indices that measure climate policy, emissions, or long-term slow-onset climate changes.",
+      "evidenceExcerpt": "Published by: Germanwatch - Ranks countries based on human and economic toll of extreme weather events."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "assertion_reason",
+      "prompt": "Given below are two statements, one labelled as Assertion (A) and the other as Reason (R):\n\nAssertion (A): India's long-term vulnerability to climate extremes is highlighted by its 9th rank globally in the Climate Risk Index for the period 1995-2024.\nReason (R): The Climate Risk Index evaluates countries by measuring their historical cumulative greenhouse gas emissions and policy implementation.\n\nIn the context of the above two statements, which one of the following is correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A)."
+        },
+        {
+          "id": "B",
+          "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A)."
+        },
+        {
+          "id": "C",
+          "text": "Assertion (A) is true but Reason (R) is false."
+        },
+        {
+          "id": "D",
+          "text": "Assertion (A) is false but Reason (R) is true."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Assertion (A) is true as India ranked 9th in the CRI for the period 1995-2024, reflecting its high vulnerability to climate impacts. Reason (R) is false because the CRI ranks countries based on the human and economic toll of extreme weather events, not on historical greenhouse gas emissions or policy implementation.",
+      "takeaway": "India's high historical ranking in the CRI (9th for 1995-2024) is driven by the severe human and economic impacts of extreme weather events it has faced, not its emission profile.",
+      "evidenceExcerpt": "Ranks countries based on human and economic toll of extreme weather events... India ranked 15th in CRI 2024 and 9th in CRI for 1995-2024."
+    }
+  ]
+}

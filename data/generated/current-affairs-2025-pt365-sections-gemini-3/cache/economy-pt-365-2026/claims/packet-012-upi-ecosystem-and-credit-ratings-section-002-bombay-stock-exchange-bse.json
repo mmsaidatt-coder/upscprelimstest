@@ -1,0 +1,62 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-012-upi-ecosystem-and-credit-ratings-section-002-bombay-stock-exchange-bse",
+    "claimType": "Factual",
+    "claimText": "The Bombay Stock Exchange (BSE) was established in 1875 as 'The Native Share & Stock Brokers' Association'.",
+    "evidenceExcerpt": "Established in 1875 as 'The Native Share & Stock Brokers' Association'",
+    "pageNumbers": [
+      24
+    ],
+    "examUse": "Statement-based question on the history of Indian financial institutions.",
+    "distractorHooks": [
+      "Established in 1992",
+      "Originally named 'Indian Stock Exchange'"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-012-upi-ecosystem-and-credit-ratings-section-002-bombay-stock-exchange-bse",
+    "claimType": "Factual",
+    "claimText": "The Bombay Stock Exchange (BSE) is Asia's first stock exchange.",
+    "evidenceExcerpt": "it is Asia's first and the world's fastest Stock Exchange.",
+    "pageNumbers": [
+      24
+    ],
+    "examUse": "Fact-based statement in a multi-statement question about Indian capital markets.",
+    "distractorHooks": [
+      "National Stock Exchange (NSE) is Asia's first",
+      "Tokyo Stock Exchange is Asia's first"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-012-upi-ecosystem-and-credit-ratings-section-002-bombay-stock-exchange-bse",
+    "claimType": "Factual",
+    "claimText": "In 2017, the Bombay Stock Exchange (BSE) became India's first listed stock exchange.",
+    "evidenceExcerpt": "In 2017, it became India's first listed stock exchange.",
+    "pageNumbers": [
+      24
+    ],
+    "examUse": "Statement-based question comparing the corporate structure of BSE and NSE.",
+    "distractorHooks": [
+      "NSE was the first listed stock exchange",
+      "BSE is not a listed entity"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-012-upi-ecosystem-and-credit-ratings-section-002-bombay-stock-exchange-bse",
+    "claimType": "Institutional",
+    "claimText": "The Bombay Stock Exchange (BSE) is regulated by the Securities Exchange Board of India (SEBI).",
+    "evidenceExcerpt": "It is regulated by SEBI.",
+    "pageNumbers": [
+      24
+    ],
+    "examUse": "Regulatory oversight question for financial institutions.",
+    "distractorHooks": [
+      "Regulated by the Reserve Bank of India (RBI)",
+      "Regulated directly by the Ministry of Finance"
+    ]
+  }
+]

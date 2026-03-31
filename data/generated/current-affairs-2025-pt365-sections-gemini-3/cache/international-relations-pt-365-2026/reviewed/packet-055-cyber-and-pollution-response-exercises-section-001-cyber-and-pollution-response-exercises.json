@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Current Affairs",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the 'NATPOLREX-X' exercise, consider the following statements:\n1. It is a biennial flagship exercise conducted by the Indian Navy.\n2. Its primary objective is to evaluate and enhance national preparedness to respond to marine oil spill incidents.\n3. The 10th edition of this exercise was recently initiated by the Indian Coast Guard.\n\nHow many of the statements given above are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: NATPOLREX (National Level Pollution Response Exercise) is conducted by the Indian Coast Guard (ICG), not the Indian Navy. Statement 2 is correct: The exercise aims to evaluate and enhance India’s national preparedness to respond to marine oil spill incidents. Statement 3 is correct: The Indian Coast Guard (ICG) recently began the 10th edition (NATPOLREX-X) of this biennial exercise.",
+      "takeaway": "NATPOLREX is a biennial exercise by the Indian Coast Guard specifically for marine oil spill response.",
+      "evidenceExcerpt": "The Indian Coast Guard (ICG) begins the 10th edition of the National Level Pollution Response Exercise (NATPOLREX-X). NATPOLREX is a biennial flagship exercise which aims to evaluate and enhance India’s national preparedness to respond to marine oil spill incidents.",
+      "qualityScore": 88,
+      "reviewNotes": "Classic UPSC trap regarding the lead agency (Navy vs Coast Guard). Statements are grounded in the text.",
+      "contextLines": []
+    },
+    {
+      "subject": "Current Affairs",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Operation Chakra-V':\n1. It was launched by the Central Bureau of Investigation (CBI) to combat transnational organized cybercrime.\n2. It specifically targets the phenomenon of 'Digital Arrests'.\n3. It leverages INTERPOL channels to facilitate a globally coordinated law enforcement response.\n\nWhich of the statements given above are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Statement 1 and 2 are correct: CBI launched Operation Chakra-V against Transnational Organized Cybercrime and Digital Arrests. Statement 3 is correct: As per the context of the Operation Chakra series (specifically mentioned for Chakra-IV and applicable to the series), it is initiated to combat organized cyber-enabled networks through a globally coordinated response leveraging INTERPOL channels.",
+      "takeaway": "Operation Chakra is a CBI-led initiative against cybercrime involving international coordination via INTERPOL.",
+      "evidenceExcerpt": "CBI Launched Operation Chakra-V against Transnational Organized Cybercrime/ Digital Arrests. Earlier Operation Chakra-IV was initiated by CBI to combat organized cyber enabled financial crime networks through a globally coordinated law enforcement response leveraging INTERPOL channels.",
+      "qualityScore": 85,
+      "reviewNotes": "Accurately reflects the role of CBI and the nature of the operation as described in the text.",
+      "contextLines": []
+    }
+  ],
+  "reviewerNotes": "The questions cover all major subtopics in the provided text: Bharat NCX (Cyber), Operation Chakra (CBI/Cyber), NATPOLREX (Pollution), and Army tactical exercises (Siyom Prahar/Yudh Kaushal). The difficulty levels are balanced, and the formats follow recent UPSC trends (Statement-based and 'How many' pairs)."
+}

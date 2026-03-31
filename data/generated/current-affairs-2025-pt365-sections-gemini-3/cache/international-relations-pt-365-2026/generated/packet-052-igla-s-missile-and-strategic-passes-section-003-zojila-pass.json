@@ -1,0 +1,33 @@
+{
+  "questions": [
+    {
+      "subject": "Current Affairs",
+      "difficulty": "Moderate",
+      "questionType": "Feature-based",
+      "prompt": "With reference to the Zojila Tunnel project, which of the following statements is correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is designed to be the longest uni-directional tunnel in the Indian subcontinent."
+        },
+        {
+          "id": "B",
+          "text": "Upon completion, it will be the longest bi-directional tunnel in Asia."
+        },
+        {
+          "id": "C",
+          "text": "The project aims to provide all-weather connectivity between the Drass Valley and the Nubra Valley."
+        },
+        {
+          "id": "D",
+          "text": "It is the first tunnel in India to be constructed at an elevation exceeding 4,000 meters."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "According to the source material, the Zojila tunnel project, launched in 2018, will be the longest bi-directional tunnel in Asia upon completion. Option A is incorrect because it is bi-directional, not uni-directional. Option C is incorrect as it connects Ladakh and Kashmir (specifically Kashmir and Drass valleys). Option D is incorrect as the elevation of the pass itself is approximately 3,528 meters.",
+      "takeaway": "The Zojila Tunnel is distinguished by its scale as the longest bi-directional tunnel in Asia.",
+      "evidenceExcerpt": "In 2018, the Zojila tunnel project was launched. When completed, it will be the longest bi-directional in Asia.",
+      "contextLines": []
+    }
+  ]
+}

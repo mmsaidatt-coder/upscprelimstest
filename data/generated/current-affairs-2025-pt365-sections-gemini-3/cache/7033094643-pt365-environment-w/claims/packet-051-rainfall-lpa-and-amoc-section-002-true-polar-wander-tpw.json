@@ -1,0 +1,48 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-051-rainfall-lpa-and-amoc-section-002-true-polar-wander-tpw",
+    "claimType": "Conceptual",
+    "claimText": "True Polar Wander (TPW) refers to the rotation of the solid Earth, comprising the crust and mantle, about the liquid outer core.",
+    "evidenceExcerpt": "True Polar Wander (TPW) involves the rotation of the solid Earth (crust and mantle) about the liquid outer core to maintain rotational balance.",
+    "pageNumbers": [
+      105
+    ],
+    "examUse": "Statement-based question on the geophysical definition of True Polar Wander.",
+    "distractorHooks": [
+      "Rotation of the inner core relative to the mantle",
+      "Movement of the magnetic poles rather than the solid Earth"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-051-rainfall-lpa-and-amoc-section-002-true-polar-wander-tpw",
+    "claimType": "Factual",
+    "claimText": "Human activities, such as large-scale dam construction, can drive True Polar Wander by shifting the Earth's rotational axis.",
+    "evidenceExcerpt": "A recent study revealed that dam construction has shifted Earth’s rotational axis by over 1 meter since 1835 i.e., they have driven True Polar Wander (TPW).",
+    "pageNumbers": [
+      105
+    ],
+    "examUse": "Statement-based question identifying anthropogenic drivers of Earth's rotational shifts.",
+    "distractorHooks": [
+      "TPW is exclusively driven by natural phenomena like tectonic shifts",
+      "Dam construction only affects local seismicity, not the rotational axis"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-051-rainfall-lpa-and-amoc-section-002-true-polar-wander-tpw",
+    "claimType": "Cause-Effect",
+    "claimText": "The movement of mass from the poles to the equator due to melting ice flattens the Earth slightly, which slows down its spin and leads to longer days.",
+    "evidenceExcerpt": "Shifting poles move mass from the poles to the equator, making the Earth slightly more flattened and slowing its spin, which results in longer days.",
+    "pageNumbers": [
+      105
+    ],
+    "examUse": "Cause-and-effect question on the impact of climate change and ice melt on the length of a day.",
+    "distractorHooks": [
+      "Movement of mass to the equator speeds up Earth's spin",
+      "Melting ice results in shorter days",
+      "Mass shifts make the Earth more perfectly spherical"
+    ]
+  }
+]

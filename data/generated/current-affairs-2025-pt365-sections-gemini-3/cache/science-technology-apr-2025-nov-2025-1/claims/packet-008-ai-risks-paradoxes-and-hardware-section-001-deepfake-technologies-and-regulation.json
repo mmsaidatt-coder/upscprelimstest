@@ -1,0 +1,64 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-008-ai-risks-paradoxes-and-hardware-section-001-deepfake-technologies-and-regulation",
+    "claimType": "Factual",
+    "claimText": "Deepfakes are created using artificial intelligence technologies such as Autoencoders and Generative Adversarial Networks (GANs).",
+    "evidenceExcerpt": "Deepfakes involve replacing faces and synthesizing speech using technologies like Autoencoders and Generative Adversarial Networks (GANs)",
+    "pageNumbers": [
+      17
+    ],
+    "examUse": "Statement-based question identifying the underlying technologies used in deepfake creation.",
+    "distractorHooks": [
+      "Blockchain technology",
+      "Quantum cryptography",
+      "Edge computing"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-008-ai-risks-paradoxes-and-hardware-section-001-deepfake-technologies-and-regulation",
+    "claimType": "Conceptual",
+    "claimText": "Generative Adversarial Networks (GANs) operate using two components: a Generator that creates synthetic data and an Adversary that detects flaws in the generated data.",
+    "evidenceExcerpt": "GANs utilize a Generator to create data and an Adversary to detect flaws.",
+    "pageNumbers": [
+      17
+    ],
+    "examUse": "Correct-pair or statement-based question on the architecture and functioning of GANs.",
+    "distractorHooks": [
+      "Swapping the roles of the Generator and the Adversary",
+      "Confusing GANs with Autoencoders which reconstruct input from simpler representations"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-008-ai-risks-paradoxes-and-hardware-section-001-deepfake-technologies-and-regulation",
+    "claimType": "Legal/Regulatory",
+    "claimText": "India currently lacks specific laws dedicated solely to deepfakes, but penalizes their creation involving personal data without consent under the Digital Personal Data Protection (DPDP) Act 2023.",
+    "evidenceExcerpt": "India lacks specific deepfake laws but regulates them via the DPDP Act 2023 (penalizing non-consensual use of personal data)",
+    "pageNumbers": [
+      17
+    ],
+    "examUse": "Statement-based question on India's legal framework and regulatory approach towards deepfakes.",
+    "distractorHooks": [
+      "India has enacted a specific 'Deepfake Prevention Act'",
+      "Deepfakes are entirely unregulated in India",
+      "The DPDP Act 2023 explicitly exempts AI-generated content"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-008-ai-risks-paradoxes-and-hardware-section-001-deepfake-technologies-and-regulation",
+    "claimType": "Legal/Regulatory",
+    "claimText": "Proposed amendments to the IT Rules 2021 require digital platforms to label or provide metadata for Synthetically Generated Information (SGI).",
+    "evidenceExcerpt": "proposed amendments to the IT Rules 2021, which mandate labelling or metadata for Synthetically Generated Information (SGI).",
+    "pageNumbers": [
+      17
+    ],
+    "examUse": "Statement-based question regarding recent regulatory proposals by MeitY for AI and synthetic media.",
+    "distractorHooks": [
+      "The amendments propose a complete ban on Synthetically Generated Information (SGI)",
+      "The labelling mandate is a provision of the DPDP Act 2023 rather than the IT Rules 2021"
+    ]
+  }
+]

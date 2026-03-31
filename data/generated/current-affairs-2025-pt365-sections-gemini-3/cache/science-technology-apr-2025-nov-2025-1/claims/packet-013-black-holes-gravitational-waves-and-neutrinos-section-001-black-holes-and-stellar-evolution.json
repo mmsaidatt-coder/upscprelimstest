@@ -1,0 +1,77 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-013-black-holes-gravitational-waves-and-neutrinos-section-001-black-holes-and-stellar-evolution",
+    "claimType": "Conceptual",
+    "claimText": "Black holes do not emit or reflect light and are detected indirectly through their gravitational effects on surrounding stars and gas.",
+    "evidenceExcerpt": "Black holes do not emit or reflect light; they are detected by their gravitational effects on surrounding stars and gas.",
+    "pageNumbers": [
+      27
+    ],
+    "examUse": "Statement-based question on black hole properties and detection methods.",
+    "distractorHooks": [
+      "Black holes are detected by the intense light they emit",
+      "Black holes reflect cosmic microwave background radiation"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-013-black-holes-gravitational-waves-and-neutrinos-section-001-black-holes-and-stellar-evolution",
+    "claimType": "Factual",
+    "claimText": "Low- and medium-mass stars, such as the Sun, evolve into White Dwarfs at the end of their life cycle.",
+    "evidenceExcerpt": "Low- and medium-mass stars (like the Sun) evolve into White Dwarfs.",
+    "pageNumbers": [
+      27
+    ],
+    "examUse": "Correct-pair question matching star mass to its final evolutionary stage.",
+    "distractorHooks": [
+      "Low-mass stars evolve into neutron stars",
+      "The Sun will eventually become a black hole"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-013-black-holes-gravitational-waves-and-neutrinos-section-001-black-holes-and-stellar-evolution",
+    "claimType": "Factual",
+    "claimText": "High-mass stars evolve into Neutron Stars following a supernova explosion.",
+    "evidenceExcerpt": "High-mass stars evolve into Neutron Stars after a supernova explosion.",
+    "pageNumbers": [
+      27
+    ],
+    "examUse": "Correct-pair question matching star mass to its final evolutionary stage.",
+    "distractorHooks": [
+      "High-mass stars evolve into white dwarfs",
+      "High-mass stars bypass the supernova stage to become neutron stars"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-013-black-holes-gravitational-waves-and-neutrinos-section-001-black-holes-and-stellar-evolution",
+    "claimType": "Factual",
+    "claimText": "Very high-mass stars collapse into Black Holes after undergoing a supernova explosion.",
+    "evidenceExcerpt": "Very high-mass stars evolve into Black Holes after a supernova explosion.",
+    "pageNumbers": [
+      27
+    ],
+    "examUse": "Statement-based question on the formation of black holes.",
+    "distractorHooks": [
+      "Very high-mass stars evolve into white dwarfs",
+      "Black holes are formed exclusively from the collision of neutron stars"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-013-black-holes-gravitational-waves-and-neutrinos-section-001-black-holes-and-stellar-evolution",
+    "claimType": "Factual",
+    "claimText": "Black holes are classified into types including Stellar-Mass, Intermediate-Mass, and Supermassive Black Holes.",
+    "evidenceExcerpt": "Types of black holes include Stellar-Mass, Intermediate-Mass (IMBH), and Supermassive Black Holes.",
+    "pageNumbers": [
+      27
+    ],
+    "examUse": "Statement-based question on black hole classification.",
+    "distractorHooks": [
+      "Black holes only exist as supermassive entities at the center of galaxies",
+      "There are only two types of black holes: stellar and supermassive"
+    ]
+  }
+]

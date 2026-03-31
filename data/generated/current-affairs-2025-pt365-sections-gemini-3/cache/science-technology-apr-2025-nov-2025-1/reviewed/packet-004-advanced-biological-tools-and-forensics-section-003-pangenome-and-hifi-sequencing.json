@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding a 'Pangenome':\n\n1. It is a collection of genome sequences from multiple individuals of different interacting species.\n2. It can be used to introduce disease-tolerance traits in agricultural crops.\n3. The first pangenome of Asian rice was created using a single-molecule, real-time long-read sequencing method.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: A pangenome is a collection of genome sequences from many individuals of the *same* species, not different interacting species.\nStatement 2 is correct: Pangenomes help introduce disease-tolerance traits in crops by capturing a wider range of genetic variations.\nStatement 3 is correct: The first pangenome of Asian rice was created using 'PacBio high-fidelity' (HiFi) sequencing, which is a single-molecule, real-time (SMRT) long-read sequencing method.",
+      "takeaway": "A pangenome compiles genomes from multiple individuals of the same species, utilizing long-read sequencing methods like PacBio HiFi, to capture genetic diversity for agricultural and medical applications.",
+      "evidenceExcerpt": "A Pangenome is a collection of genome sequences from many individuals of the same species. Chinese scientists created the first Pangenome of Asian rice using 'PacBio high-fidelity' (HiFi) sequencing, a single-molecule, real-time (SMRT) long-read sequencing method. Pangenomes help introduce disease-tolerance traits in crops...",
+      "qualityScore": 88,
+      "reviewNotes": "Good statement-based question testing the definition, application, and underlying technology of pangenomes. The distractor in statement 1 is plausible but factually incorrect based on the text."
+    }
+  ],
+  "reviewerNotes": "Selected and refined two questions. The first uses the 'How many statements are correct' format to test the definition, application, and sequencing method. The second uses the Assertion-Reason (Statement-I/II) format to test the conceptual link between what a pangenome is and why it is useful for human genetics."
+}

@@ -1,0 +1,98 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Paragraph-based Identification",
+      "prompt": "Read the following passage and answer the question that follows:\n\n\"It is situated in a rain-shadow zone representing a cold desert biome. It encompasses the Pin Valley National Park and Chandratal. Its cultural landscape is characterized by Gompas and Mani Walls, and it hosts fauna like the Snow Leopard and Himalayan Ibex.\"\n\nWhich one of the following Biosphere Reserves is best described by the above passage?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Nanda Devi Biosphere Reserve"
+        },
+        {
+          "id": "B",
+          "text": "Cold Desert Biosphere Reserve"
+        },
+        {
+          "id": "C",
+          "text": "Khangchendzonga Biosphere Reserve"
+        },
+        {
+          "id": "D",
+          "text": "Dihang-Dibang Biosphere Reserve"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The passage describes the Cold Desert Biosphere Reserve located in Himachal Pradesh. It lies in a rain-shadow zone (cold desert biome), covers protected areas like Pin Valley National Park and Chandratal, and is noted for its distinct Buddhist culture (Gompas, Mani Walls) and high-altitude fauna such as the Snow Leopard and Himalayan Ibex.",
+      "takeaway": "The Cold Desert Biosphere Reserve integrates unique high-altitude ecology (Snow Leopard, Himalayan Ibex) with a distinct Buddhist cultural landscape (Gompas, Chortens, Mani Walls).",
+      "evidenceExcerpt": "The Cold Desert BR in Himachal Pradesh covers Pin Valley NP, Chandratal, and Sarchu & Kibber WLS. It features a cold desert biome (rain-shadow zone), distinct Buddhist culture (Gompas, Chorten, Mani Walls), and fauna like the Snow Leopard and Himalayan Ibex.",
+      "qualityScore": 90,
+      "reviewNotes": "Excellent paragraph-based identification question that closely mimics the UPSC pattern of describing a protected area's geography, culture, and fauna."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to UNESCO's World Network of Biosphere Reserves (WNBR), consider the following statements:\n1. The Man and the Biosphere (MAB) Programme was launched as an outcome of the 1992 Earth Summit.\n2. The designation of a site to the WNBR is made by the Director-General of UNESCO using the Seville Strategy.\n3. At present, all the Biosphere Reserves notified by the Government of India are recognized under the WNBR.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect: The MAB Programme was launched in 1971, long before the 1992 Earth Summit. Statement 2 is correct: Designations to the WNBR are made by the Director-General of UNESCO following MAB ICC decisions, utilizing the Seville Strategy. Statement 3 is incorrect: India has 13 Biosphere Reserves recognized under the WNBR, which does not include all of its notified Biosphere Reserves.",
+      "takeaway": "The WNBR is managed by the MAB Programme (launched in 1971). Designations are guided by the Seville Strategy, and only a subset (13) of India's Biosphere Reserves are currently recognized under the WNBR.",
+      "evidenceExcerpt": "WNBR (launched 1976) is managed by UNESCO's Man and the Biosphere (MAB) Programme (launched 1971). Designations are made by the Director-General of UNESCO following MAB ICC decisions, using the Seville Strategy. India has 13 Biosphere Reserves recognized under WNBR.",
+      "qualityScore": 85,
+      "reviewNotes": "Strong statement-based question testing the origins of MAB, the designation strategy, and the status of India's Biosphere Reserves."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Multiple-choice",
+      "prompt": "The \"Seville Strategy\", sometimes mentioned in the news, is primarily related to the:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "designation and management of the World Network of Biosphere Reserves"
+        },
+        {
+          "id": "B",
+          "text": "identification of Globally Important Agricultural Heritage Systems"
+        },
+        {
+          "id": "C",
+          "text": "criteria for recognizing Wetlands of International Importance"
+        },
+        {
+          "id": "D",
+          "text": "framework for reducing emissions from deforestation and forest degradation"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "The Seville Strategy is the foundational framework used by the MAB International Coordinating Council (ICC) and the UNESCO Director-General for the designation and management of the World Network of Biosphere Reserves (WNBR).",
+      "takeaway": "The Seville Strategy provides the criteria and framework for designating sites to UNESCO's World Network of Biosphere Reserves.",
+      "evidenceExcerpt": "Designation is by the UNESCO Director-General via the MAB ICC using the Seville Strategy.",
+      "qualityScore": 85,
+      "reviewNotes": "Classic 'term in news' question format. Distractors are well-chosen international environmental frameworks."
+    }
+  ],
+  "reviewerNotes": "Selected 4 high-quality questions. Combined the cultural and geographical features into a single paragraph-based identification question (Q1) to match UPSC's pattern of describing a protected area. Refined the statement-based question on WNBR (Q2) to ensure distractors are plausible. Retained the PA mapping question (Q3) and the 'term in news' question (Q4) with minor wording improvements for formal tone. Dropped the standalone cultural question as it was merged into Q1."
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-015-conservation-reserves-and-environmental-dna-section-004-environmental-dna-edna",
+    "claimType": "Definition",
+    "claimText": "Environmental DNA (eDNA) consists of genetic material left by organisms in environments such as water, soil, or air through cells, tissues, fluids, and excrement.",
+    "evidenceExcerpt": "It is the genetic material, like DNA from cells, tissues, fluids, and excrement, left by organisms in the environment (e.g., water, soil, Air, etc.).",
+    "pageNumbers": [
+      33,
+      34
+    ],
+    "examUse": "Statement-based question on what constitutes eDNA and the mediums from which it can be extracted.",
+    "distractorHooks": [
+      "eDNA can only be extracted directly from living tissue",
+      "eDNA is exclusively found in aquatic environments",
+      "eDNA requires capturing the target organism"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-015-conservation-reserves-and-environmental-dna-section-004-environmental-dna-edna",
+    "claimType": "Application",
+    "claimText": "eDNA analysis is applied in biodiversity conservation for mapping species presence, determining species distribution, and tracking ecosystems.",
+    "evidenceExcerpt": "Application: Mapping species presence and distribution, tracking Ecosystems, etc.",
+    "pageNumbers": [
+      33,
+      34
+    ],
+    "examUse": "Statement-based question on the practical applications of eDNA technology in conservation.",
+    "distractorHooks": [
+      "eDNA is primarily used for cloning extinct species",
+      "eDNA cannot be used to track ecosystem-level changes",
+      "eDNA is only useful for identifying single individuals rather than species distribution"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-015-conservation-reserves-and-environmental-dna-section-004-environmental-dna-edna",
+    "claimType": "Feature",
+    "claimText": "eDNA analysis is a non-invasive, highly sensitive, rapid, and cost-effective biomonitoring method compared to traditional methods.",
+    "evidenceExcerpt": "Significance: Non-invasive, highly sensitive, rapid and cost-effective.",
+    "pageNumbers": [
+      33,
+      34
+    ],
+    "examUse": "Statement-based question comparing the advantages of eDNA to traditional biomonitoring methods.",
+    "distractorHooks": [
+      "eDNA is an invasive method requiring physical capture of species",
+      "eDNA is less sensitive than traditional visual surveys",
+      "eDNA is highly expensive and slow compared to traditional methods"
+    ]
+  }
+]

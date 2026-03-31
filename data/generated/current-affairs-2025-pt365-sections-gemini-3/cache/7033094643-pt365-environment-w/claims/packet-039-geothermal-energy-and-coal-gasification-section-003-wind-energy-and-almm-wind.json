@@ -1,0 +1,65 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-039-geothermal-energy-and-coal-gasification-section-003-wind-energy-and-almm-wind",
+    "claimType": "Policy/Institution",
+    "claimText": "The Ministry of New and Renewable Energy (MNRE) updated its wind turbine approval system by renaming RLMM to the Approved List of Models and Manufacturers (ALMM) for Wind.",
+    "evidenceExcerpt": "MNRE updated the wind turbine approval system from RLMM to ALMM (Wind).",
+    "pageNumbers": [
+      81
+    ],
+    "examUse": "Statement-based question on recent renewable energy policy updates and the nodal ministry.",
+    "distractorHooks": [
+      "Ministry of Power instead of MNRE",
+      "ALMM applies exclusively to solar energy"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-039-geothermal-energy-and-coal-gasification-section-003-wind-energy-and-almm-wind",
+    "claimType": "Policy Feature",
+    "claimText": "The ALMM (Wind) framework mandates the sourcing of key wind turbine components from approved Indian suppliers and enforces data localization requirements.",
+    "evidenceExcerpt": "ALMM Wind mandates sourcing key components from approved Indian suppliers and requires data localization.",
+    "pageNumbers": [
+      81
+    ],
+    "examUse": "Statement-based question on the specific compliance requirements of the ALMM (Wind) policy.",
+    "distractorHooks": [
+      "Allows 100% imported components without restrictions",
+      "Does not require data localization",
+      "Mandates technology transfer instead of data localization"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-039-geothermal-energy-and-coal-gasification-section-003-wind-energy-and-almm-wind",
+    "claimType": "Fact/Statistic",
+    "claimText": "India ranks 4th globally in terms of installed wind power capacity.",
+    "evidenceExcerpt": "India ranks 4th in the world for installed wind power capacity.",
+    "pageNumbers": [
+      81
+    ],
+    "examUse": "Fact-based statement in a multi-statement question about India's global standing in renewable energy.",
+    "distractorHooks": [
+      "India ranks 2nd globally",
+      "India ranks 5th globally",
+      "India ranks 4th in solar power but not wind power"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-039-geothermal-energy-and-coal-gasification-section-003-wind-energy-and-almm-wind",
+    "claimType": "Fact/Statistic",
+    "claimText": "The National Institute of Wind Energy estimates India's wind power potential to be 1164 GW at 150 meters above ground level.",
+    "evidenceExcerpt": "India's wind potential is estimated at 1164 GW at 150 meters above ground level by the National Institute of Wind Energy.",
+    "pageNumbers": [
+      81
+    ],
+    "examUse": "Statement-based question on India's renewable energy potential and the assessing agency.",
+    "distractorHooks": [
+      "Potential assessed at 100 meters instead of 150 meters",
+      "Assessed by the Central Electricity Authority instead of the National Institute of Wind Energy",
+      "Wind potential is estimated at 500 GW"
+    ]
+  }
+]

@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "History",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Regarding the nomination procedure for the UNESCO Memory of the World program, consider the following statements:\n\n1. Any organization or individual is eligible to nominate a documentary item for the register.\n2. Nominations must be submitted via UNESCO Member States through their respective National Commissions for UNESCO.\n3. Joint nominations involving two or more Member States are subject to the same biennial quota as individual state proposals.\n\nWhich of the statements given above are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The program allows any organization or individual to nominate an item. Statement 2 is correct: Nominations are submitted through the National Commission for UNESCO of the relevant Member State. Statement 3 is incorrect: While individual Member States are limited to two proposals per cycle, joint nominations from two or more Member States are unlimited.",
+      "takeaway": "While individual state nominations are capped per cycle, the MoW program incentivizes international cooperation by allowing unlimited joint nominations.",
+      "evidenceExcerpt": "Any organization or individual can nominate a documentary item. Nominations are submitted via UNESCO Member States through their National Commission for UNESCO. Two proposals per UNESCO Member State per nomination cycle. Unlimited joint nomination proposals from two or more Member States.",
+      "qualityScore": 92,
+      "reviewNotes": "This question effectively tests the nuances of the nomination process, specifically the eligibility of non-state actors and the specific exception to the nomination quota for joint proposals.",
+      "contextLines": []
+    },
+    {
+      "subject": "History",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the institutional framework of the UNESCO Memory of the World program, consider the following statements:\n\n1. The UNESCO Secretariat is responsible for program monitoring and providing administrative support to the International Advisory Committee (IAC).\n2. Regional and National Committees are autonomous bodies of local professionals tasked with ground-level implementation of the program.\n\nWhich of the statements given above is/are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: The UNESCO Secretariat provides support to the IAC, handles general administration, and monitors the program. Statement 2 is correct: Unlike the Secretariat, Regional and National Committees are described as autonomous from UNESCO and consist of local heritage professionals who implement the program on the ground.",
+      "takeaway": "The MoW program distinguishes between central administrative support (Secretariat) and autonomous, local implementation (National/Regional Committees).",
+      "evidenceExcerpt": "The Secretariat at UNESCO: Provides support to the IAC, general administration, and program monitoring. Regional and National Committees: Implement the program on the ground. These committees are autonomous from UNESCO and consist of dedicated local heritage professionals.",
+      "qualityScore": 88,
+      "reviewNotes": "This question tests the structural understanding of the program's governance, specifically the distinction between the central Secretariat and the autonomous local committees.",
+      "contextLines": []
+    }
+  ],
+  "reviewerNotes": "The selected questions cover the two primary aspects of the provided text: the institutional roles (Secretariat vs. Committees) and the procedural rules for nominations (eligibility, channels, and quotas). The distractors are designed to target common misconceptions regarding UNESCO's hierarchy and the specific 'unlimited' nature of joint nominations, which is a key detail in the source text."
+}

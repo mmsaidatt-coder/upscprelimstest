@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the 'Greenhouse Gas Bulletin', consider the following statements:\n\n1. It is published by the World Meteorological Organisation (WMO).\n2. It recently reported a significant increase in radiative forcing driven by short-lived climate pollutants.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct. The Greenhouse Gas Bulletin is published by the World Meteorological Organisation (WMO).\n\nStatement 2 is incorrect. The 2024 bulletin reported a 54% increase in radiative forcing from long-lived greenhouse gases (such as CO2), not short-lived climate pollutants.",
+      "takeaway": "The WMO's Greenhouse Gas Bulletin tracks atmospheric concentrations of GHGs and their impact on radiative forcing, specifically highlighting the long-term warming effect of long-lived greenhouse gases.",
+      "evidenceExcerpt": "Greenhouse Gas Bulletin 2024 reported CO2 levels at 423.9 ppm and a 54% increase in radiative forcing from long-lived greenhouse gases.",
+      "qualityScore": 88,
+      "reviewNotes": "Excellent question that tests both the publishing body and a specific, critical finding of the report. The distinction between long-lived greenhouse gases and short-lived climate pollutants is a highly relevant conceptual trap for UPSC."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of reports and their publishing organizations:\n\n1. State of the Global Climate : World Meteorological Organisation\n2. State of Global Water Resources : UN-Water\n3. Greenhouse Gas Bulletin : Intergovernmental Panel on Climate Change (IPCC)\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Pair 1 is correctly matched. The 'State of the Global Climate' report is published by the World Meteorological Organisation (WMO).\n\nPairs 2 and 3 are incorrectly matched. Both the 'State of Global Water Resources' and the 'Greenhouse Gas Bulletin' are also published by the WMO, not UN-Water or the IPCC.",
+      "takeaway": "The World Meteorological Organisation (WMO) publishes several key environmental reports, including the Greenhouse Gas Bulletin, State of the Global Climate, State of Global Water Resources, and Air Quality and Climate Bulletin.",
+      "evidenceExcerpt": "Publishes the Greenhouse Gas Bulletin, State of the Global Climate, and State of Global Water Resources.",
+      "qualityScore": 85,
+      "reviewNotes": "A classic UPSC-style correct-pair question. The distractors (UN-Water and IPCC) are highly plausible for the respective reports, making it a strong test of the candidate's precise knowledge of publishing bodies."
+    }
+  ],
+  "reviewerNotes": "All three questions were rewritten to ensure distinct conceptual coverage (Reports matching, Institutional facts, and Specific report findings). The distractors were sharpened to reflect common UPSC traps, such as plausible alternative organizations (IPCC, UN-Water), membership status (observer vs. member), and scientific nuances (short-lived vs. long-lived pollutants)."
+}

@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Quantum Information Scrambling': 1. It involves the rapid distribution of data across a quantum system via entanglement. 2. Information subjected to scrambling is permanently erased from the quantum system. 3. Scrambled information becomes inaccessible to local measurements. Which of the statements given above is/are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Quantum information scrambling refers to the rapid spread of information across a quantum system via entanglement. Statement 2 is incorrect: The information is not erased; rather, it is hidden globally across the system. Statement 3 is correct: Because the information is distributed globally through entanglement, it becomes inaccessible to local measurements.",
+      "takeaway": "Quantum information scrambling hides data globally across a system via entanglement, making it inaccessible to local measurements without actually erasing it.",
+      "evidenceExcerpt": "Quantum information scrambling refers to the rapid spread of information across a quantum system via entanglement, making it inaccessible to local measurements but hiding it globally rather than erasing it.",
+      "contextLines": []
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Statement-based",
+      "prompt": "With reference to recent developments in technology, consider the following statements: 1. 'Willow' is a newly developed quantum processor that has demonstrated significant speed-up over classical supercomputers. 2. The 'Quantum Echoes' algorithm is used to demonstrate that scrambled quantum information is retained rather than lost. Which of the statements given above is/are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Willow is Google's quantum processor that achieved a ~13,000x speed-up over classical supercomputers. Statement 2 is correct: The Willow processor detected the Quantum Echoes algorithm to prove that information is retained (hidden globally) rather than erased during quantum scrambling.",
+      "takeaway": "Google's Willow quantum processor utilized the Quantum Echoes algorithm to prove that scrambled quantum information is retained globally.",
+      "evidenceExcerpt": "Google's quantum processor Willow achieved a ~13,000x speed-up over classical supercomputers, detecting the Quantum Echoes algorithm to prove information retention.",
+      "contextLines": []
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Multiple Choice",
+      "prompt": "The terms 'Willow' and 'Quantum Echoes', sometimes mentioned in the news, are most appropriately related to which of the following?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Advanced algorithms and processors used to demonstrate information retention in quantum computing."
+        },
+        {
+          "id": "B",
+          "text": "Deep-sea exploration submersibles designed to map the ocean floor using acoustic signals."
+        },
+        {
+          "id": "C",
+          "text": "Next-generation classical supercomputers developed to simulate complex biological neural networks."
+        },
+        {
+          "id": "D",
+          "text": "Space-based observatories launched to detect gravitational waves from merging black holes."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Willow is a quantum processor developed by Google that achieved a massive speed-up over classical supercomputers. It was used to detect the 'Quantum Echoes' algorithm, which proves that quantum information is retained (scrambled) rather than permanently erased.",
+      "takeaway": "Google's Willow processor and the Quantum Echoes algorithm are significant milestones in quantum computing, specifically regarding the study of quantum information scrambling and retention.",
+      "evidenceExcerpt": "Google's quantum processor Willow achieved a ~13,000x speed-up over classical supercomputers, detecting the Quantum Echoes algorithm to prove information retention."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Multiple Choice",
+      "prompt": "Which one of the following best describes the fundamental characteristic of 'information scrambling' in a quantum system?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It preserves information globally through entanglement despite rendering it locally inaccessible."
+        },
+        {
+          "id": "B",
+          "text": "It permanently destroys the information across the entire system to free up computational qubits."
+        },
+        {
+          "id": "C",
+          "text": "It compresses information into a single locally measurable particle to achieve exponential speed-ups."
+        },
+        {
+          "id": "D",
+          "text": "It converts quantum entanglement into classical data streams to prevent data loss."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Quantum information scrambling does not erase information; instead, it spreads the data across the quantum system via entanglement. This makes the information inaccessible to local measurements, but it remains hidden (and preserved) globally.",
+      "takeaway": "Quantum scrambling is fundamentally about the delocalization of information via entanglement, not its destruction. This is a key feature distinguishing quantum information dynamics from simple data erasure.",
+      "evidenceExcerpt": "Quantum information scrambling refers to the rapid spread of information across a quantum system via entanglement, making it inaccessible to local measurements but hiding it globally rather than erasing it."
+    }
+  ]
+}

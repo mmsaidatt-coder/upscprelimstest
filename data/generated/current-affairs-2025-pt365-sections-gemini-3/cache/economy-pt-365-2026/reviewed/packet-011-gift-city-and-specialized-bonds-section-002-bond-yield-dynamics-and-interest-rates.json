@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Scenario-based",
+      "prompt": "If the central bank significantly increases benchmark interest rates to curb inflation, which of the following is the most likely immediate impact on existing fixed-coupon bonds in the secondary market?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Their market prices will rise, leading to a decrease in their effective yield."
+        },
+        {
+          "id": "B",
+          "text": "Their market prices will fall, leading to an increase in their effective yield."
+        },
+        {
+          "id": "C",
+          "text": "Both their market prices and effective yields will decrease simultaneously."
+        },
+        {
+          "id": "D",
+          "text": "Both their market prices and effective yields will increase simultaneously."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The bond market operates on an equilibrium where bank interest rates inversely affect bond prices. When interest rates rise, newly issued bonds offer higher returns, making existing bonds with fixed lower coupons less desirable. Consequently, the market price of these existing bonds falls. Because the coupon payment is fixed, purchasing the bond at a lower market price results in a higher effective yield.",
+      "takeaway": "Bond prices and bond yields have an inverse relationship. When prevailing interest rates rise, existing bond prices fall, which drives their effective yields up.",
+      "evidenceExcerpt": "When bank interest rates rise, existing fixed-coupon bond prices fall, causing their effective yield to rise.",
+      "qualityScore": 85,
+      "reviewNotes": "A classic macroeconomic concept frequently tested by UPSC. The options have been made perfectly parallel to test the inverse relationship clearly."
+    }
+  ],
+  "reviewerNotes": "Selected two strong conceptual questions on bond yield dynamics. Candidate 1 was refined for parallel options, and Candidate 3 was upgraded to the modern UPSC Statement-I/Statement-II format to test causal reasoning."
+}

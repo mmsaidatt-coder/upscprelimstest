@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the hormone Glucagon-like peptide-1 (GLP-1) and related weight-loss drugs: 1. GLP-1 is an intestinal hormone naturally released after eating to induce a feeling of fullness. 2. Semaglutide aids in weight loss primarily by blocking the absorption of dietary fats in the intestines. Which of the statements given above is/are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: GLP-1 is an intestinal hormone released after eating that makes people feel fuller. Statement 2 is incorrect: Semaglutide does not block fat absorption; rather, it acts as an appetite suppressant by imitating the GLP-1 hormone.",
+      "takeaway": "Semaglutide (Wegovy) functions as an appetite suppressant by mimicking the intestinal hormone GLP-1, which naturally signals fullness after eating.",
+      "evidenceExcerpt": "Semaglutide acts as an appetite suppressant by imitating the intestinal hormone glucagon-like peptide-1 (GLP-1). GLP-1 is naturally released after eating and makes people feel fuller.",
+      "contextLines": []
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "With reference to recent advancements in weight management pharmaceuticals, consider the following statements: 1. Semaglutide induces weight loss by imitating the action of the GLP-1 hormone. 2. Tirzepatide differs from semaglutide as it mimics the functions of both GLP-1 and GIP hormones. Which of the statements given above is/are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Both statements are correct. Semaglutide (marketed as Wegovy) acts as an appetite suppressant by imitating GLP-1. Tirzepatide (used in drugs like Mounjaro) differs by mimicking both GLP-1 and GIP functions.",
+      "takeaway": "Different weight-loss drugs target different hormone combinations; semaglutide targets GLP-1, while tirzepatide targets both GLP-1 and GIP.",
+      "evidenceExcerpt": "Semaglutide acts as an appetite suppressant by imitating the intestinal hormone glucagon-like peptide-1 (GLP-1)... Other weight loss drugs like Mounjaro use tirzepatide, which mimics both GLP-1 and GIP functions.",
+      "contextLines": []
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "multiple-choice",
+      "prompt": "Which one of the following best describes the primary mechanism of action of the weight-loss drug 'semaglutide'?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It inhibits the enzymes responsible for the digestion and absorption of dietary fats in the intestines."
+        },
+        {
+          "id": "B",
+          "text": "It imitates the action of an intestinal hormone that is naturally released after eating to induce a feeling of fullness."
+        },
+        {
+          "id": "C",
+          "text": "It directly stimulates the central nervous system to increase the body's basal metabolic rate and accelerate fat oxidation."
+        },
+        {
+          "id": "D",
+          "text": "It blocks the absorption of carbohydrates by inhibiting amylase activity in the digestive tract."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Semaglutide works as an appetite suppressant by imitating glucagon-like peptide-1 (GLP-1), an intestinal hormone released after eating that makes people feel fuller. It does not act by blocking fat or carbohydrate absorption, nor does it primarily increase the basal metabolic rate.",
+      "takeaway": "Modern anti-obesity drugs like Wegovy (semaglutide) target the body's satiety signals by mimicking natural intestinal hormones (GLP-1) rather than altering nutrient absorption or metabolic rates.",
+      "evidenceExcerpt": "Semaglutide, works as an appetite suppressant by imitating a hormone called glucagon-like peptide-1 (GLP-1). GLP-1 is an intestinal hormone released after eating, and usually makes people feel fuller."
+    }
+  ]
+}

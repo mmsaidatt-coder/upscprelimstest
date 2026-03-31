@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Altermagnets', recently seen in the news:\n\n1. They possess a strong net magnetism similar to ferromagnets.\n2. They exhibit intense internal spin polarisation owing to their unique crystal symmetry.\n3. Chromium antimonide (CrSb) is an example of an altermagnetic material.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Like antiferromagnets, altermagnets exhibit alternating spins and therefore have no net magnetism.\nStatement 2 is correct: Due to their unique crystal symmetry, they show intense internal spin polarisation, similar to ferromagnets.\nStatement 3 is correct: Chromium antimonide (CrSb) is a known altermagnet exhibiting strong spin-splitting.",
+      "takeaway": "Altermagnets combine features of ferromagnets (spin polarization due to crystal symmetry) and antiferromagnets (alternating spins, zero net magnetism). Chromium antimonide (CrSb) is a prominent example.",
+      "evidenceExcerpt": "Altermagnets are a new type of magnetic material that combine the best features of ferromagnets and antiferromagnets. Like antiferromagnets, they exhibit alternating spins and therefore have no net magnetism. But due to their unique crystal symmetry, they show intense internal spin polarisation, similar to ferromagnets. Discovered by scientists from S.N. Bose National Centre for Basic Sciences using chromium antimonide (CrSb).",
+      "qualityScore": 85,
+      "reviewNotes": "A standard UPSC-style statement-based question that effectively tests the fundamental properties of altermagnets and a specific material example. The distractors are plausible and the explanation is tight."
+    }
+  ],
+  "reviewerNotes": "Selected two strong questions from the candidate set. Candidate 1 was refined to ensure clarity in the statements, and Candidate 3 was rewritten to sound more like a formal UPSC conceptual question. Both questions accurately reflect the source text and test the core concepts of altermagnets without being overly trivial."
+}

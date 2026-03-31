@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to 3D and 4D printing technologies, consider the following statements:\n1. 3D printing is an additive manufacturing process that creates objects by laying down successive layers of material.\n2. 4D printing allows printed objects to change their shape or function over time in response to environmental stimuli.\n3. The application of 3D printing is currently restricted to industrial manufacturing and cannot utilize biological materials.\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: 3D printing, or additive manufacturing, creates three-dimensional objects from digital files by laying down successive layers of material. Statement 2 is correct: 4D printing evolves from 3D printing by adding the dimension of time, allowing objects to change shape or function in response to environmental stimuli like heat or moisture. Statement 3 is incorrect: 3D printing has diverse applications including healthcare, such as bioprinting organs (organ-on-a-chip).",
+      "takeaway": "3D printing is an additive process with wide applications including bioprinting, while 4D printing adds time-responsiveness to environmental stimuli.",
+      "evidenceExcerpt": "3D printing, or additive manufacturing, creates three-dimensional objects from digital files by laying down successive layers of material. It offers customization, cost-effectiveness, and applications in healthcare (bioprinting)... 4D printing evolves this by adding the dimension of time, allowing objects to change shape or function in response to environmental stimuli like heat or moisture.",
+      "qualityScore": 85,
+      "reviewNotes": "Rewritten to match the recent UPSC 'How many statements are correct' format. Distractors and statements are clear and directly sourced."
+    }
+  ],
+  "reviewerNotes": "Selected 3 questions. Rewrote them to align with the latest UPSC 'How many' format and improved the conceptual comparison question to have stronger distractors. Dropped the 4th candidate question as it was too scenario-based and not typical of UPSC Prelims."
+}

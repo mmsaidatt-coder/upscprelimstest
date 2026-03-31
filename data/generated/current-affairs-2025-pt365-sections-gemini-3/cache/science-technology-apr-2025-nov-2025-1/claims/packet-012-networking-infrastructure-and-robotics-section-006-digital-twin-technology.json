@@ -1,0 +1,47 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-012-networking-infrastructure-and-robotics-section-006-digital-twin-technology",
+    "claimType": "Definition",
+    "claimText": "A digital twin is a digital representation of a physical object, person, or process, contextualized in a digital version of its environment.",
+    "evidenceExcerpt": "A digital twin is a digital representation of a physical object, person, or process, contextualized in a digital version of its environment.",
+    "pageNumbers": [
+      26
+    ],
+    "examUse": "Statement-based question defining Digital Twin technology.",
+    "distractorHooks": [
+      "Confusing it with a purely static 3D model",
+      "Virtual reality without real-world physical counterparts"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-012-networking-infrastructure-and-robotics-section-006-digital-twin-technology",
+    "claimType": "Mechanism",
+    "claimText": "Digital twin technology utilizes real-time data from sensors to simulate behavior and monitor operations.",
+    "evidenceExcerpt": "It uses real-time data from sensors for behavior simulation and operation monitoring.",
+    "pageNumbers": [
+      26
+    ],
+    "examUse": "Statement-based question on the operational mechanism of Digital Twins.",
+    "distractorHooks": [
+      "Claiming it relies solely on historical data",
+      "Stating it does not use real-time sensor data"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-012-networking-infrastructure-and-robotics-section-006-digital-twin-technology",
+    "claimType": "Application",
+    "claimText": "Digital twins enable organizations to simulate real situations and their outcomes to facilitate better decision-making.",
+    "evidenceExcerpt": "It can help an organization simulate real situations and their outcomes, ultimately allowing it to make better decisions.",
+    "pageNumbers": [
+      26
+    ],
+    "examUse": "Application-based question on the utility of Digital Twins.",
+    "distractorHooks": [
+      "Claiming it is only used for post-event analysis",
+      "Stating it cannot simulate future outcomes"
+    ]
+  }
+]

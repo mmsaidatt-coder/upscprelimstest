@@ -1,0 +1,65 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-004-advanced-biological-tools-and-forensics-section-001-organ-on-a-chip-ooc-technology",
+    "claimType": "Conceptual",
+    "claimText": "Organ-on-a-chip (OoC) is a micro-scale system that mimics the human body environment using 3D culture models.",
+    "evidenceExcerpt": "Organ-on-a-chip (OoC) refers to a micro-scale system used for mimicking the human body environment. It is a human-relevant 3D culture model",
+    "pageNumbers": [
+      9
+    ],
+    "examUse": "Statement-based question on the definition and structural nature of OoC technology.",
+    "distractorHooks": [
+      "2D culture models",
+      "Macro-scale systems",
+      "In-vivo animal models"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-004-advanced-biological-tools-and-forensics-section-001-organ-on-a-chip-ooc-technology",
+    "claimType": "Factual",
+    "claimText": "Organ-on-a-chip (OoC) technology is classified as a 'New Approach Method' (NAM).",
+    "evidenceExcerpt": "It is also known as 'New Approach Methods' (NAMs) and uses 3D culture models.",
+    "pageNumbers": [
+      9
+    ],
+    "examUse": "Correct-pair or statement-based question linking OoC to NAMs.",
+    "distractorHooks": [
+      "Traditional animal testing methods",
+      "In-vivo clinical trials"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-004-advanced-biological-tools-and-forensics-section-001-organ-on-a-chip-ooc-technology",
+    "claimType": "Conceptual",
+    "claimText": "In Organ-on-a-chip systems, cells grow into 3D structures on a chip using a polymer that resembles real tissue.",
+    "evidenceExcerpt": "Cells grow into 3D structures on a chip using a polymer resembling real tissue.",
+    "pageNumbers": [
+      9
+    ],
+    "examUse": "Statement-based question on the material composition and cellular growth mechanism of OoC.",
+    "distractorHooks": [
+      "Use of actual human organs",
+      "Use of metallic substrates instead of polymers",
+      "2D cell growth"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-004-advanced-biological-tools-and-forensics-section-001-organ-on-a-chip-ooc-technology",
+    "claimType": "Application",
+    "claimText": "Organ-on-a-chip (OoC) technology provides an ethical and cost-effective platform for accurate drug testing and personalized medicine.",
+    "evidenceExcerpt": "Provides an ethical, cost-effective platform for accurate drug testing and personalized medicine.",
+    "pageNumbers": [
+      9
+    ],
+    "examUse": "Application-based question on the benefits and practical uses of OoC in healthcare.",
+    "distractorHooks": [
+      "Highly expensive compared to traditional methods",
+      "Unethical due to human cloning",
+      "Limited to basic research without clinical application"
+    ]
+  }
+]

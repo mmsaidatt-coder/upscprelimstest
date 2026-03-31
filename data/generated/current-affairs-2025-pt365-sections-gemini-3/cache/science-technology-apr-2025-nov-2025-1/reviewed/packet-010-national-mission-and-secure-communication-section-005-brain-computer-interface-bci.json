@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to Brain-Computer Interface (BCI) technology, consider the following statements:\n1. It enables direct communication between the brain and external devices by translating micro-muscular movements into digital commands.\n2. The acquisition of brain activity for BCI can be achieved through both invasive implants and non-invasive wearables.\n3. Recent advancements in BCI include privacy-focused systems that require a mental password before decoding thoughts.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: BCI enables direct brain-to-device communication by translating neural signals into commands, completely bypassing muscular control. It does not rely on micro-muscular movements.\nStatement 2 is correct: BCI systems can acquire brain activity using either invasive implants or non-invasive wearable devices.\nStatement 3 is correct: Stanford scientists have developed a privacy-focused BCI that requires a mental password before decoding thoughts, ensuring secure communication.",
+      "takeaway": "BCI technology translates neural signals into commands, bypassing muscular control. It can be deployed via invasive or non-invasive methods and has emerging privacy features like mental passwords.",
+      "evidenceExcerpt": "A Brain-Computer Interface (BCI) enables direct brain-to-device communication by translating neural signals into commands, bypassing muscular control. Stanford scientists developed a privacy-focused BCI requiring a mental password... Can use invasive implants or non-invasive wearables to acquire brain activity.",
+      "qualityScore": 85,
+      "reviewNotes": "Converted to the latest UPSC 'How many statements' format. The distractor in statement 1 is plausible but factually incorrect as per the text, testing the core mechanism of BCI."
+    }
+  ],
+  "reviewerNotes": "Both questions were accepted and refined. The first question was updated to the recent UPSC 'How many statements are correct' format, and the distractor was sharpened to test the fundamental mechanism of BCI. The second question is a standard application-based question that accurately reflects UPSC's focus on the broad utility of emerging technologies."
+}

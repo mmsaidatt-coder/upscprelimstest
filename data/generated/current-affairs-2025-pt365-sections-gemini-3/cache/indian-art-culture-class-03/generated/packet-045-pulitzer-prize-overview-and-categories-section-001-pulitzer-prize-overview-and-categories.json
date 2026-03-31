@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "History",
+      "difficulty": "Hard",
+      "questionType": "Application-based",
+      "prompt": "An American author publishes a distinguished, appropriately documented book on the history of the French Revolution. According to the Pulitzer Prize eligibility criteria, which category would this work most likely be eligible for?",
+      "options": [
+        {
+          "id": "A",
+          "text": "History"
+        },
+        {
+          "id": "B",
+          "text": "General Nonfiction"
+        },
+        {
+          "id": "C",
+          "text": "Biography"
+        },
+        {
+          "id": "D",
+          "text": "International Reporting"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The 'History' category is strictly for books on the history of the United States. Since the book is about the French Revolution, it does not qualify for the History category. However, the 'General Nonfiction' category is for a distinguished book of nonfiction by an American author that is not eligible for consideration in any other category, making it the correct fit.",
+      "takeaway": "The Pulitzer Prize for History is geographically restricted to the history of the United States, forcing other historical works into the General Nonfiction category.",
+      "evidenceExcerpt": "History – for a distinguished and appropriately documented book on the history of the United States. General Nonfiction – for a distinguished and appropriately documented book of nonfiction by an American author that is not eligible for consideration in any other category.",
+      "contextLines": []
+    },
+    {
+      "subject": "History",
+      "difficulty": "Moderate",
+      "questionType": "Comparison-based",
+      "prompt": "In the context of the Pulitzer Prize, which of the following correctly compares the eligibility requirements for the 'Music' and 'Drama' categories?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Both categories require the work to have had its first performance or recording in the United States during the year."
+        },
+        {
+          "id": "B",
+          "text": "The Music category requires the composer to be American, while the Drama category is open to playwrights of any nationality."
+        },
+        {
+          "id": "C",
+          "text": "The Drama category has a preference for works dealing with American life, whereas the Music category focuses on the location of the first performance or recording."
+        },
+        {
+          "id": "D",
+          "text": "Music awards are granted only for original verse, while Drama awards are granted for any distinguished play regardless of source."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Option C is correct because the Drama category specifically mentions a preference for plays 'dealing with American life'. The Music category requires the composition to be by an American and to have had its 'first performance or recording in the United States during the year'. Option A is wrong as the performance requirement is specific to Music. Option B is wrong as Drama requires an American playwright. Option D is wrong as verse is for Poetry.",
+      "takeaway": "Pulitzer categories for letters, drama, and music often include specific requirements regarding American authorship and thematic focus on American life.",
+      "evidenceExcerpt": "Drama – for a distinguished play by an American playwright, preferably original in its source and dealing with American life... Pulitzer Prize for Music – for distinguished musical composition by an American that has had its first performance or recording in the United States during the year.",
+      "contextLines": []
+    }
+  ]
+}

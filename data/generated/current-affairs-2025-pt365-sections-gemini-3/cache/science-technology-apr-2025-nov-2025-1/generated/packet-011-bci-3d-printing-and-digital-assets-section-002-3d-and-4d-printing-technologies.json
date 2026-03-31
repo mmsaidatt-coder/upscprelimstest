@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to 3D and 4D printing technologies, consider the following statements:\n1. 3D printing creates three-dimensional objects through a subtractive manufacturing process by removing material from a solid block.\n2. 4D printing incorporates the dimension of time, enabling printed objects to transform in response to environmental stimuli.\n3. The applications of 3D printing are currently limited to industrial manufacturing and cannot utilize biological materials.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: 3D printing is an additive manufacturing process that creates objects by laying down successive layers of material, not a subtractive one. Statement 2 is correct: 4D printing evolves from 3D printing by adding the dimension of time, allowing objects to change shape or function in response to environmental stimuli like heat or moisture. Statement 3 is incorrect: 3D printing has diverse applications including healthcare, such as bioprinting organs (organ-on-a-chip).",
+      "takeaway": "3D printing is an additive process with wide applications including bioprinting, while 4D printing adds time-responsiveness to environmental stimuli.",
+      "evidenceExcerpt": "3D printing, or additive manufacturing, creates three-dimensional objects from digital files by laying down successive layers of material. It offers customization, cost-effectiveness, and applications in healthcare (bioprinting)... 4D printing evolves this by adding the dimension of time, allowing objects to change shape or function in response to environmental stimuli like heat or moisture."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Application-based",
+      "prompt": "Consider the following applications:\n1. Forensic pathology investigations\n2. Bioprinting of 'organ-on-a-chip' models\n3. Reconstruction of ancient fossils\nHow many of the above are recognized applications of 3D printing technology?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "3D printing technology has diverse applications across multiple fields. It is used in healthcare for bioprinting organs (such as organ-on-a-chip), in forensics for forensic pathology, and in paleontology for reconstructing fossils. Therefore, all three are correct applications.",
+      "takeaway": "The utility of 3D printing extends beyond traditional manufacturing into healthcare (bioprinting), forensics, and fossil reconstruction.",
+      "evidenceExcerpt": "Applications of 3D printing include bioprinting organs (organ on chip), reconstructing fossils, and forensic pathology."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "In the context of advanced additive manufacturing, what does the addition of the \"dimension of time\" in 4D printing primarily signify?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The manufacturing process is accelerated to produce objects significantly faster than traditional 3D printing."
+        },
+        {
+          "id": "B",
+          "text": "The printed object possesses the ability to alter its shape or function post-production in response to external stimuli."
+        },
+        {
+          "id": "C",
+          "text": "The technology utilizes predictive algorithms to estimate the exact lifespan and degradation rate of the printed materials."
+        },
+        {
+          "id": "D",
+          "text": "The printing process involves the simultaneous deposition of four different types of materials over a synchronized duration."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "4D printing is an evolution of 3D printing that incorporates the dimension of time. This means that the printed objects are not static; instead, they are designed to change their shape or function over time in response to environmental stimuli such as heat, light, or moisture.",
+      "takeaway": "The 'fourth dimension' in 4D printing refers to time, specifically the ability of smart materials to undergo structural or functional transformations after the printing process is complete.",
+      "evidenceExcerpt": "4D printing evolves this by adding the dimension of time, allowing objects to change shape or function in response to environmental stimuli like heat or moisture."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Applied",
+      "prompt": "A biomedical engineering team wants to design a smart medical implant that can be inserted into the human body in a compact form and subsequently expand to its required shape without any mechanical manipulation. Which of the following technologies is best suited for this purpose, and what is its underlying mechanism?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "3D printing, utilizing subtractive processes to carve the implant to the exact dimensions of the target organ."
+        },
+        {
+          "id": "B",
+          "text": "4D printing, utilizing materials that change their structural configuration in response to environmental stimuli like body heat or moisture."
+        },
+        {
+          "id": "C",
+          "text": "3D bioprinting, utilizing living cells to organically grow the implant over time within a laboratory bioreactor."
+        },
+        {
+          "id": "D",
+          "text": "4D printing, utilizing internal battery-powered micro-motors to drive the physical expansion of the implant."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "4D printing is ideal for creating objects that need to change shape post-production. It uses smart materials that react to environmental stimuli (such as the heat or moisture inside a human body) to trigger a structural change, eliminating the need for mechanical manipulation or internal motors. 3D printing is an additive, not subtractive, process and produces static objects.",
+      "takeaway": "4D printing relies on the inherent properties of smart materials reacting to external triggers (heat, light, moisture) rather than mechanical or electronic components to achieve transformation.",
+      "evidenceExcerpt": "4D printed objects can change shape or function over time in response to environmental stimuli such as heat, light, or moisture."
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Safe Harbour Rules' in the context of taxation in India:\n1. It refers to a legal provision where the tax authority accepts the transfer price declared by the taxpayer to be at arm's length.\n2. The Central Board of Direct Taxes (CBDT) has recently reduced the threshold for availing safe harbour to Rs. 100 Crore.\n3. Lithium-Ion Batteries used in electric vehicles are excluded from the definition of core auto components under these rules.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Safe harbour means the tax authority accepts the transfer price declared by the taxpayer to be at arm's length. Statement 2 is incorrect: The CBDT has increased the threshold for availing safe harbour from Rs. 200 Crore to Rs. 300 Crore. Statement 3 is incorrect: Lithium-Ion Batteries for use in electric or hybrid electric vehicles are now included in the definition of core auto components for safe harbour.",
+      "takeaway": "Safe Harbour Rules provide certainty to taxpayers by ensuring the tax authority accepts their declared transfer price, provided they meet specific thresholds and criteria, which have recently been expanded.",
+      "evidenceExcerpt": "Safe harbour means the tax authority accepts the transfer price declared by the taxpayer to be at arm's length. The threshold for availing safe harbour was increased from Rs. 200 Crore to Rs. 300 Crore. Lithium-Ion Batteries for electric/hybrid vehicles are now included in the definition of core auto components for safe harbour."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to 'Transfer Pricing' and 'Advance Pricing Agreements (APAs)', consider the following statements:\n1. Transfer pricing refers to the price of goods and services exchanged between companies under common ownership or control.\n2. An Advance Pricing Agreement (APA) determines the arm's length price of international transactions for a maximum term of five years.\n3. The Arm's Length Principle requires that prices in related-party transactions must match prices in comparable unrelated-party transactions.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Transfer Pricing refers to the price of goods and services exchanged between companies under common ownership or control. Statement 2 is correct: An APA determines the arm's length price of international transactions for a maximum term of 5 years with no minimum period. Statement 3 is correct: The Arm's Length Principle states that prices in related-party transactions must match prices in comparable unrelated-party transactions.",
+      "takeaway": "Transfer pricing rules and APAs utilize the Arm's Length Principle to ensure that multinational corporations price their internal transactions fairly, preventing tax evasion through profit shifting.",
+      "evidenceExcerpt": "Transfer Pricing refers to the price of goods and services exchanged between companies under common ownership or control. An Advance Pricing Agreement (APA) determines the arm's length price of international transactions for a maximum term of 5 years... The Arm's Length Principle states that prices in related-party transactions must match prices in comparable unrelated-party transactions."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Applied",
+      "prompt": "Company A, a manufacturer based in India, sells its products to Company B, a foreign distributor. Both companies are wholly owned subsidiaries of the same parent multinational corporation. To determine the tax liability in India, the tax authorities require the transaction price to match the price that would have been charged if Company A had sold the products to an independent buyer. Which of the following taxation principles is being applied in this scenario?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Minimum Alternate Tax Principle"
+        },
+        {
+          "id": "B",
+          "text": "Arm's Length Principle"
+        },
+        {
+          "id": "C",
+          "text": "Safe Harbour Principle"
+        },
+        {
+          "id": "D",
+          "text": "Advance Pricing Principle"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Arm's Length Principle states that prices in related-party transactions (such as between subsidiaries under common ownership) must match prices in comparable unrelated-party transactions.",
+      "takeaway": "The Arm's Length Principle ensures that intra-group transactions are priced at market value, preventing profit shifting between related entities.",
+      "evidenceExcerpt": "The Arm's Length Principle states that prices in related-party transactions must match prices in comparable unrelated-party transactions."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Applied",
+      "prompt": "A foreign technology firm wants to establish a subsidiary in India. To ensure tax certainty and avoid future litigation over the pricing of intellectual property transferred to the Indian subsidiary, the firm enters into an arrangement with the Indian tax authorities to determine the pricing methodology beforehand. Under the current Indian framework, what is such an arrangement called, and what is its maximum tenure?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Safe Harbour Agreement, valid for up to 3 years"
+        },
+        {
+          "id": "B",
+          "text": "Advance Pricing Agreement, valid for up to 5 years"
+        },
+        {
+          "id": "C",
+          "text": "Mutual Agreement Procedure, valid for up to 10 years"
+        },
+        {
+          "id": "D",
+          "text": "Transfer Pricing Settlement, valid indefinitely"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "An Advance Pricing Agreement (APA) determines the arm's length price of international transactions for a maximum term of 5 years with no minimum period, providing certainty to taxpayers in the area of transfer pricing.",
+      "takeaway": "APAs provide certainty to taxpayers by specifying pricing methods and determining the arm's length price of international transactions for up to 5 years.",
+      "evidenceExcerpt": "An Advance Pricing Agreement (APA) determines the arm's length price of international transactions for a maximum term of 5 years with no minimum period."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Comparative",
+      "prompt": "Consider the following statements regarding the mechanisms to manage transfer pricing in India:\n1. Under Safe Harbour Rules, the tax authority accepts the transfer price declared by the taxpayer to be at arm's length.\n2. Advance Pricing Agreements (APAs) aim to provide certainty by specifying pricing methods and determining the arm's length price of international transactions.\n3. The recent amendments to the Income-Tax Rules, 1962, have restricted the scope of Safe Harbour Rules by excluding Lithium-Ion Batteries from core auto components.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statements 1 and 2 are correct. Statement 3 is incorrect because the recent amendments by the CBDT expanded the scope of Safe Harbour Rules by including Lithium-Ion Batteries for use in electric or hybrid electric vehicles in the definition of core auto components.",
+      "takeaway": "Both Safe Harbour Rules and APAs are mechanisms to provide tax certainty, with recent amendments expanding the scope of Safe Harbour Rules to include EV batteries.",
+      "evidenceExcerpt": "expand the scope of safe harbour rules... Including Lithium-Ion Batteries for use in electric or hybrid electric vehicles in definition of core auto components... Safe harbour means the tax authority accepts the transfer price declared by the taxpayer to be at arm's length. An Advance Pricing Agreement (APA)... aims to provide certainty to taxpayers in the area of transfer pricing by specifying pricing methods and determining the arm's length price"
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Applied",
+      "prompt": "A domestic manufacturer of electric vehicles (EVs) engages in international transactions with its foreign parent company. The manufacturer seeks to utilize the 'Safe Harbour Rules' to minimize transfer pricing audits. Based on the recent amendments by the Central Board of Direct Taxes (CBDT), which of the following conditions would support the manufacturer's eligibility?\n1. The total value of the international transactions does not exceed the newly increased threshold of Rs. 300 Crore.\n2. The transactions involve the import of Lithium-Ion Batteries, which are now classified as core auto components.\n\nSelect the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The CBDT increased the threshold for availing safe harbour from Rs. 200 Crore to Rs. 300 Crore. Furthermore, Lithium-Ion Batteries for use in electric or hybrid electric vehicles are now included in the definition of core auto components, supporting the manufacturer's eligibility.",
+      "takeaway": "Recent CBDT amendments expanded safe harbour rules by raising the threshold to Rs. 300 Crore and including EV Lithium-Ion Batteries as core auto components.",
+      "evidenceExcerpt": "Increasing threshold for availing safe harbour from Rs. 200 Crore to Rs. 300 Crore. Including Lithium-Ion Batteries for use in electric or hybrid electric vehicles in definition of core auto components"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-039-industrial-sensors-and-safety-systems-section-004-shinkansen-technology",
+    "claimType": "Factual",
+    "claimText": "Shinkansen is Japan's high-speed bullet train technology.",
+    "evidenceExcerpt": "It is Japan's High-speed bullet train.",
+    "pageNumbers": [
+      76
+    ],
+    "examUse": "Statement-based question identifying the origin country of Shinkansen technology.",
+    "distractorHooks": [
+      "China's high-speed rail",
+      "France's TGV",
+      "Germany's ICE"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-039-industrial-sensors-and-safety-systems-section-004-shinkansen-technology",
+    "claimType": "Factual",
+    "claimText": "The Mumbai-Ahmedabad Bullet train project will utilize next-generation E10 Shinkansen trains.",
+    "evidenceExcerpt": "Next generation E10 Shinkansen trains are to be introduced simultaneously in India (Mumbai-Ahmedabad Bullet train project) and Japan.",
+    "pageNumbers": [
+      76
+    ],
+    "examUse": "Statement-based question on the specific technology and train model used in India's first bullet train project.",
+    "distractorHooks": [
+      "Vande Bharat Express",
+      "TGV trains",
+      "Maglev trains"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-039-industrial-sensors-and-safety-systems-section-004-shinkansen-technology",
+    "claimType": "Feature",
+    "claimText": "Shinkansen technology utilizes dedicated tracks that are completely free of level crossings.",
+    "evidenceExcerpt": "Dedicated track for high-speed rail that is free of level crossings",
+    "pageNumbers": [
+      76
+    ],
+    "examUse": "Statement-based question on the safety and infrastructure features of the Shinkansen system.",
+    "distractorHooks": [
+      "Shared tracks with freight trains",
+      "Tracks with automated level crossings"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-039-industrial-sensors-and-safety-systems-section-004-shinkansen-technology",
+    "claimType": "Feature",
+    "claimText": "Shinkansen trains are equipped with an Automatic Train Control (ATC) system.",
+    "evidenceExcerpt": "ATC system (Automatic Train Control System).",
+    "pageNumbers": [
+      76
+    ],
+    "examUse": "Statement-based question regarding the safety and control mechanisms of the Shinkansen.",
+    "distractorHooks": [
+      "Manual Train Control System",
+      "Kavach system exclusively"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-039-industrial-sensors-and-safety-systems-section-004-shinkansen-technology",
+    "claimType": "Feature",
+    "claimText": "Shinkansen trains incorporate aerodynamic optimization to reduce vehicle noise.",
+    "evidenceExcerpt": "Includes aerodynamic optimization for vehicle noise reduction.",
+    "pageNumbers": [
+      76
+    ],
+    "examUse": "Statement-based question on the environmental and design features of Shinkansen trains.",
+    "distractorHooks": [
+      "Acoustic barriers on tracks instead of train optimization",
+      "Aerodynamic optimization solely for speed enhancement"
+    ]
+  }
+]

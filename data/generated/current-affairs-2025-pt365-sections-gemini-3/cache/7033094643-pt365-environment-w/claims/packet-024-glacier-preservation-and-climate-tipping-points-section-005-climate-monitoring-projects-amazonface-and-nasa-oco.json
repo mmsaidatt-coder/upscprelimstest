@@ -1,0 +1,47 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-024-glacier-preservation-and-climate-tipping-points-section-005-climate-monitoring-projects-amazonface-and-nasa-oco",
+    "claimType": "Project Feature",
+    "claimText": "AmazonFACE is a Brazilian project that uses Free-Air CO2 Enrichment to simulate future atmospheric conditions and assess tropical forest adaptation to rising CO2.",
+    "evidenceExcerpt": "AmazonFACE is a Brazilian project simulating future atmospheres to assess how tropical forests adapt to rising CO2 and temperatures.",
+    "pageNumbers": [
+      52
+    ],
+    "examUse": "Correct-pair or statement-based question identifying the purpose and host country of the AmazonFACE project.",
+    "distractorHooks": [
+      "Attributing the project to NASA or the USA",
+      "Describing it as a carbon capture and storage (CCS) technology rather than an adaptation study"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-024-glacier-preservation-and-climate-tipping-points-section-005-climate-monitoring-projects-amazonface-and-nasa-oco",
+    "claimType": "Scientific Finding",
+    "claimText": "Data from NASA's Orbiting Carbon Observatory (OCO) reveals that the Amazon rainforest currently emits more CO2 than it absorbs, acting as a net carbon source.",
+    "evidenceExcerpt": "OCO findings reveal that the Amazon rainforest currently emits more CO2 than it absorbs.",
+    "pageNumbers": [
+      52
+    ],
+    "examUse": "Statement-based question on the current carbon sink status of major global biomes.",
+    "distractorHooks": [
+      "Stating the Amazon rainforest is currently a net carbon sink",
+      "Confusing OCO findings with AmazonFACE objectives"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-024-glacier-preservation-and-climate-tipping-points-section-005-climate-monitoring-projects-amazonface-and-nasa-oco",
+    "claimType": "Scientific Finding",
+    "claimText": "Boreal forests and melting permafrost areas in Canada and Russia currently absorb more CO2 than they emit, acting as net carbon sinks.",
+    "evidenceExcerpt": "Boreal forests and melting permafrost areas in Canada and Russia currently absorb more CO2 than they emit.",
+    "pageNumbers": [
+      52
+    ],
+    "examUse": "Comparison question contrasting the carbon sink status of the Amazon rainforest with boreal forests.",
+    "distractorHooks": [
+      "Claiming boreal forests are net carbon emitters",
+      "Stating that melting permafrost areas in these regions currently emit more CO2 than they absorb"
+    ]
+  }
+]

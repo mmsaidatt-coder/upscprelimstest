@@ -1,0 +1,82 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-017-commercial-space-and-orbital-mechanics-section-002-earth-s-polar-orbit-and-satellite-orbit-characteristics",
+    "claimType": "Factual",
+    "claimText": "Mission Fram2 is the first human spaceflight to cruise directly over Earth's Polar Regions.",
+    "evidenceExcerpt": "Fram2 is the first human spaceflight to cruise directly over Earth's Polar Regions.",
+    "pageNumbers": [
+      35,
+      36
+    ],
+    "examUse": "Statement-based question on recent commercial space missions.",
+    "distractorHooks": [
+      "Artemis II is the first polar human spaceflight",
+      "Fram2 is an unmanned rover mission"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-017-commercial-space-and-orbital-mechanics-section-002-earth-s-polar-orbit-and-satellite-orbit-characteristics",
+    "claimType": "Conceptual",
+    "claimText": "Launching into polar orbits requires more fuel because the launch vehicle cannot harness Earth's rotational speed.",
+    "evidenceExcerpt": "Polar orbits are LEOs (200-1000 km) passing over poles; require greater fuel as they do not harness Earth's rotational speed.",
+    "pageNumbers": [
+      35,
+      36
+    ],
+    "examUse": "Conceptual statement on orbital mechanics and launch efficiency.",
+    "distractorHooks": [
+      "Polar orbits require less fuel due to lower gravity at the poles",
+      "Equatorial launches require more fuel than polar launches"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-017-commercial-space-and-orbital-mechanics-section-002-earth-s-polar-orbit-and-satellite-orbit-characteristics",
+    "claimType": "Factual",
+    "claimText": "Low Earth Orbit (LEO) is situated under 2000 km and is the orbit where the International Space Station (ISS) operates.",
+    "evidenceExcerpt": "Low Earth Orbit (LEO) is under 2000 km; hosts the International Space Station (ISS).",
+    "pageNumbers": [
+      35,
+      36
+    ],
+    "examUse": "Correct-pair question matching orbit types with their hosted spacecraft.",
+    "distractorHooks": [
+      "The ISS operates in Medium Earth Orbit",
+      "LEO extends up to 35,786 km"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-017-commercial-space-and-orbital-mechanics-section-002-earth-s-polar-orbit-and-satellite-orbit-characteristics",
+    "claimType": "Factual",
+    "claimText": "Medium Earth Orbit (MEO) ranges from 2,000 to 36,000 km and is the ideal orbit for navigation satellites.",
+    "evidenceExcerpt": "Medium Earth Orbit (MEO) is 2,000-36,000 km; ideal for navigation satellites.",
+    "pageNumbers": [
+      35,
+      36
+    ],
+    "examUse": "Correct-pair question matching orbit types with their primary applications.",
+    "distractorHooks": [
+      "MEO is primarily used for Earth observation and weather mapping",
+      "Navigation satellites are exclusively placed in Geostationary Orbit"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-017-commercial-space-and-orbital-mechanics-section-002-earth-s-polar-orbit-and-satellite-orbit-characteristics",
+    "claimType": "Factual",
+    "claimText": "Geostationary Orbit (GEO) is located at an altitude of 35,786 km and flies directly above the equator, matching Earth's rotational period.",
+    "evidenceExcerpt": "Geostationary Orbit (GEO) is at 35,786 km; flies above the equator matching Earth's rotation.",
+    "pageNumbers": [
+      35,
+      36
+    ],
+    "examUse": "Statement-based question on the characteristics of Geostationary Orbits.",
+    "distractorHooks": [
+      "GEO satellites pass over the North and South poles",
+      "GEO is located at an altitude of 2,000 km"
+    ]
+  }
+]

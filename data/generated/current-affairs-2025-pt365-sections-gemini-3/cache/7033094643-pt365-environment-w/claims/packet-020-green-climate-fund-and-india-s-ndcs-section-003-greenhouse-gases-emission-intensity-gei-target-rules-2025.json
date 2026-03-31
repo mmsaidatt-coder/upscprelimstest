@@ -1,0 +1,62 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-020-green-climate-fund-and-india-s-ndcs-section-003-greenhouse-gases-emission-intensity-gei-target-rules-2025",
+    "claimType": "Factual",
+    "claimText": "The GEI Target Rules 2025 establish legally binding greenhouse gas emission targets for four primary energy-intensive sectors: aluminium, cement, chlor-alkali, and pulp & paper.",
+    "evidenceExcerpt": "GEI Target Rules 2025 establish legally binding GHG emission targets for four primary sectors: aluminium, cement, chlor-alkali, and pulp & paper.",
+    "pageNumbers": [
+      44
+    ],
+    "examUse": "Statement-based question identifying the specific sectors covered under the GEI Target Rules 2025.",
+    "distractorHooks": [
+      "Including non-covered primary sectors like steel, fertilizers, or power generation",
+      "Stating that the emission targets are voluntary rather than legally binding"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-020-green-climate-fund-and-india-s-ndcs-section-003-greenhouse-gases-emission-intensity-gei-target-rules-2025",
+    "claimType": "Institutional",
+    "claimText": "Under the GEI Target Rules 2025, greenhouse gas emission intensity targets for obligated entities are calculated using a methodology developed by the Bureau of Energy Efficiency (BEE).",
+    "evidenceExcerpt": "GEI targets are calculated using the Bureau of Energy Efficiency's (BEE) methodology specific to each obligated entity.",
+    "pageNumbers": [
+      44
+    ],
+    "examUse": "Correct-pair or statement-based question identifying the agency responsible for the target calculation methodology.",
+    "distractorHooks": [
+      "Attributing the methodology development to the Central Pollution Control Board (CPCB)",
+      "Attributing the methodology to NITI Aayog or the Ministry of Environment, Forest and Climate Change directly"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-020-green-climate-fund-and-india-s-ndcs-section-003-greenhouse-gases-emission-intensity-gei-target-rules-2025",
+    "claimType": "Conceptual",
+    "claimText": "Obligated entities under the GEI Target Rules 2025 can achieve compliance by meeting targets under the Carbon Credit Trading Scheme, 2023, or by purchasing certificates from the Indian Carbon Market (ICM).",
+    "evidenceExcerpt": "Obligated entities must meet targets annually under the Carbon Credit Trading Scheme, 2023, or purchase certificates from the Indian Carbon Market (ICM).",
+    "pageNumbers": [
+      44
+    ],
+    "examUse": "Statement-based question on the compliance mechanisms available to industries under the new emission rules.",
+    "distractorHooks": [
+      "Stating that compliance must be met solely through internal emission reductions without trading",
+      "Claiming that entities must purchase certificates from international carbon markets like the EU ETS"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-020-green-climate-fund-and-india-s-ndcs-section-003-greenhouse-gases-emission-intensity-gei-target-rules-2025",
+    "claimType": "Institutional",
+    "claimText": "The Central Pollution Control Board (CPCB) imposes an environmental compensation equal to twice the average traded price of carbon credit certificates on entities failing to comply with the GEI Target Rules 2025.",
+    "evidenceExcerpt": "Central Pollution Control Board (CPCB) imposes environmental compensation equal to twice the average traded price of carbon credit certificates for non-compliance.",
+    "pageNumbers": [
+      44
+    ],
+    "examUse": "Statement-based question testing knowledge of the penalty mechanism and the enforcing agency for non-compliance.",
+    "distractorHooks": [
+      "Attributing the imposition of environmental compensation to the Bureau of Energy Efficiency (BEE) or the National Green Tribunal (NGT)",
+      "Stating the penalty is a fixed statutory fine rather than a dynamic amount linked to the traded price of carbon credits"
+    ]
+  }
+]

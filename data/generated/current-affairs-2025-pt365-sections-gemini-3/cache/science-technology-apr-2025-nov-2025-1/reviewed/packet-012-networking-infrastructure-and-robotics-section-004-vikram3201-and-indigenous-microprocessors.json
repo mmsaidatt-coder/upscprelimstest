@@ -1,0 +1,42 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to India's indigenous microprocessor development, consider the following statements:\n1. Vikram3201 is a fully 'Make-in-India' 32-bit microprocessor qualified for the harsh environmental conditions of launch vehicles.\n2. It is an advanced version of the 16-bit architecture previously utilized in the avionics systems of ISRO's launch vehicles.\n3. The KALPANA3201 processor was developed by the Defence Research and Development Organisation (DRDO) for missile guidance systems.\nHow many of the statements given above are correct?",
+      "contextLines": [
+        "India’s first 32-bit processor – Vikram3201 – presented to the PM at Semicon India 2025.",
+        "An advanced version of the indigenously designed 16-bit VIKRAM1601 microprocessor which has been flying in the Avionics system of ISRO’s launch vehicles.",
+        "Fully ‘Make-in-India’ 32-bit microprocessor qualified for the harsh environmental conditions of launch vehicles.",
+        "Designed and developed by the Vikram Sarabhai Space Centre of ISRO in collaboration with the Semiconductor Laboratory (SCL) in Chandigarh.",
+        "They have also developed KALPANA3201, another 32-bit microprocessor."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statements 1 and 2 are correct. Vikram3201 is India's first fully 'Make-in-India' 32-bit microprocessor, qualified for the harsh environmental conditions of launch vehicles, and serves as an advanced version of the 16-bit VIKRAM1601. Statement 3 is incorrect because KALPANA3201 was developed by the Vikram Sarabhai Space Centre (ISRO) in collaboration with the Semiconductor Laboratory (SCL), not by DRDO.",
+      "takeaway": "Vikram3201 and KALPANA3201 are 32-bit microprocessors developed collaboratively by VSSC (ISRO) and SCL for space applications, upgrading from the older 16-bit VIKRAM1601.",
+      "evidenceExcerpt": "An advanced version of the indigenously designed 16-bit VIKRAM1601 microprocessor which has been flying in the Avionics system of ISRO’s launch vehicles. Fully ‘Make-in-India’ 32-bit microprocessor qualified for the harsh environmental conditions of launch vehicles... Designed and developed by the Vikram Sarabhai Space Centre of ISRO in collaboration with the Semiconductor Laboratory (SCL) in Chandigarh. They have also developed KALPANA3201, another 32-bit microprocessor.",
+      "qualityScore": 85,
+      "reviewNotes": "Strong statement-based question using the 'How many statements' format. The distractor in statement 3 effectively tests the candidate's knowledge of the specific developing agencies."
+    }
+  ],
+  "reviewerNotes": "Selected two strong questions. The first tests detailed knowledge of the microprocessors and their developing agencies using the modern 'How many statements' format. The second is a classic 'terms in news' question with excellent, parallel distractors."
+}

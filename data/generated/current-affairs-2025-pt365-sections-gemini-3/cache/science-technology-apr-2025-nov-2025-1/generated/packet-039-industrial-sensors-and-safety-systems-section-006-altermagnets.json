@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Altermagnets', recently seen in the news: 1. They possess a strong net macroscopic magnetism similar to ferromagnets. 2. They exhibit intense internal spin polarization owing to their unique crystal symmetry. 3. Chromium antimonide (CrSb) is an example of an altermagnetic material. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Like antiferromagnets, altermagnets exhibit alternating spins and therefore have no net magnetism. Statements 2 and 3 are correct: Due to their unique crystal symmetry, they show intense internal spin polarisation (similar to ferromagnets), and Chromium antimonide (CrSb) is a known altermagnet exhibiting strong spin-splitting.",
+      "takeaway": "Altermagnets combine features of ferromagnets (spin polarization due to crystal symmetry) and antiferromagnets (alternating spins, zero net magnetism).",
+      "evidenceExcerpt": "Like antiferromagnets, they exhibit alternating spins and therefore have no net magnetism. But due to their unique crystal symmetry, they show intense internal spin polarisation, similar to ferromagnets. Discovered by scientists from S.N. Bose National Centre for Basic Sciences using chromium antimonide (CrSb)."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "correct-pair",
+      "prompt": "Consider the following pairs of magnetic material classes and their characteristics:\n\n1. Antiferromagnets : Exhibit alternating spins and lack net magnetism\n2. Ferromagnets : Exhibit intense internal spin polarisation\n3. Altermagnets : Exhibit both alternating spins and intense internal spin polarisation\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "All three pairs are correctly matched. Altermagnets combine the defining features of both conventional classes: they share the alternating spins and lack of net magnetism seen in antiferromagnets, while also exhibiting the intense internal spin polarisation characteristic of ferromagnets.",
+      "takeaway": "Altermagnets bridge the gap between ferromagnets and antiferromagnets by combining their most useful respective properties.",
+      "evidenceExcerpt": "Altermagnets are a new type of magnetic material that combine the best features of ferromagnets and antiferromagnets. Like antiferromagnets, they exhibit alternating spins and therefore have no net magnetism. But due to their unique crystal symmetry, they show intense internal spin polarisation, similar to ferromagnets."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "conceptual",
+      "prompt": "Chromium antimonide (CrSb) was recently studied by scientists for its unique magnetic properties. Which of the following best describes the magnetic behavior of this material?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It aligns all its spins in a single direction, creating a strong permanent magnetic field."
+        },
+        {
+          "id": "B",
+          "text": "It exhibits alternating spins with no net magnetism, yet maintains intense internal spin polarisation."
+        },
+        {
+          "id": "C",
+          "text": "It loses all its magnetic properties at room temperature due to its unique crystal symmetry."
+        },
+        {
+          "id": "D",
+          "text": "It acts as a conventional antiferromagnet with no internal spin polarisation or net magnetism."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Chromium antimonide (CrSb) is an altermagnet. Altermagnets exhibit alternating spins and therefore have no net magnetism, but due to their unique crystal symmetry, they show intense internal spin polarisation. They do not act as conventional antiferromagnets (which lack this polarisation) nor as conventional ferromagnets (which have net magnetism).",
+      "takeaway": "Chromium antimonide (CrSb) is a prominent example of an altermagnetic material, exhibiting the strongest spin-splitting among known altermagnets.",
+      "evidenceExcerpt": "Like antiferromagnets, they exhibit alternating spins and therefore have no net magnetism. But due to their unique crystal symmetry, they show intense internal spin polarisation... Discovered by scientists from S.N. Bose National Centre for Basic Sciences using chromium antimonide (CrSb)."
+    }
+  ]
+}

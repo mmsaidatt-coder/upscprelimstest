@@ -1,0 +1,33 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Feature-matching",
+      "prompt": "The amended MMDR Act provides for the establishment of 'Mineral Exchanges'. Which of the following best describes the regulatory framework for these exchanges?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They are state-level physical marketplaces regulated by the respective State Directorates of Geology and Mining."
+        },
+        {
+          "id": "B",
+          "text": "They are electronic trading platforms where the Central Government frames rules regarding registration and prevention of insider trading."
+        },
+        {
+          "id": "C",
+          "text": "They are autonomous bodies under the NMEDT that exclusively handle the auction of critical minerals."
+        },
+        {
+          "id": "D",
+          "text": "They are international clearing houses designed to facilitate the export of deep-seated minerals to global markets."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Mineral Exchanges are registered electronic trading platforms or marketplaces for trading minerals and metals. The Central Government is empowered to frame rules for these exchanges, including registration, fees, and the prevention of insider trading.",
+      "takeaway": "Mineral Exchanges introduce a formalized, electronically-traded marketplace for minerals, with regulatory oversight centralized under the Union government.",
+      "evidenceExcerpt": "Establishes authority to register and regulate mineral exchanges (a registered electronic trading platform or marketplace for trading minerals and metals). Empowers Central government to frame rules regarding mineral exchanges on matters such as registration, levy of fees, prevention of insider trading etc.",
+      "contextLines": []
+    }
+  ]
+}

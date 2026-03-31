@@ -1,0 +1,63 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-006-bio-policy-and-epigenetics-section-004-deep-project-and-epigenetics",
+    "claimType": "Institution-Feature",
+    "claimText": "The Diverse Epigenetic Epidemiology Partnership (DEEP) project is a collaborative initiative led by the University of Bristol and CSIR-CCMB.",
+    "evidenceExcerpt": "DEEP is a five-year project led by the University of Bristol and CSIR-CCMB in India.",
+    "pageNumbers": [
+      14
+    ],
+    "examUse": "Statement-based question identifying the key institutions involved in the DEEP project.",
+    "distractorHooks": [
+      "Led by the World Health Organization (WHO)",
+      "Led by the Indian Council of Medical Research (ICMR)",
+      "A purely domestic Indian initiative without international collaboration"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-006-bio-policy-and-epigenetics-section-004-deep-project-and-epigenetics",
+    "claimType": "Factual",
+    "claimText": "The DEEP project aims to explore how genomic and environmental diversity affect disease risk.",
+    "evidenceExcerpt": "DEEP aims to explore the effects of genomic and environmental diversity on disease risk.",
+    "pageNumbers": [
+      14
+    ],
+    "examUse": "Statement-based question on the primary objective of the DEEP project.",
+    "distractorHooks": [
+      "Aims to map the entire human genome",
+      "Focuses exclusively on infectious diseases rather than genomic and environmental diversity"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-006-bio-policy-and-epigenetics-section-004-deep-project-and-epigenetics",
+    "claimType": "Conceptual",
+    "claimText": "Epigenetic changes affect gene function without altering the underlying DNA sequence.",
+    "evidenceExcerpt": "Epigenetic changes are reversible and do not change the DNA sequence, but alter how the body reads it.",
+    "pageNumbers": [
+      14
+    ],
+    "examUse": "Statement-based question on the fundamental mechanism of epigenetics.",
+    "distractorHooks": [
+      "Epigenetics involves the mutation or alteration of the DNA sequence",
+      "Epigenetics permanently rewrites the genetic code"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-006-bio-policy-and-epigenetics-section-004-deep-project-and-epigenetics",
+    "claimType": "Conceptual",
+    "claimText": "Epigenetic changes, which can be triggered by behaviors and environmental factors, are reversible.",
+    "evidenceExcerpt": "Epigenetics studies how behaviors and environment cause reversible changes that affect gene function",
+    "pageNumbers": [
+      14
+    ],
+    "examUse": "Statement-based question testing the reversibility and triggers of epigenetic modifications.",
+    "distractorHooks": [
+      "Epigenetic changes are permanent and irreversible",
+      "Epigenetic changes are entirely independent of environmental factors and behaviors"
+    ]
+  }
+]

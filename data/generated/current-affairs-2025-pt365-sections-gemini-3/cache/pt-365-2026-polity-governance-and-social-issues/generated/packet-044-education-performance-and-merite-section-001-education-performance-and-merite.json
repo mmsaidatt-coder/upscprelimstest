@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Polity",
+      "difficulty": "Hard",
+      "questionType": "Feature-matching",
+      "prompt": "The Performance Grade Index (PGI) 2.0 draws data from which of the following sources?",
+      "options": [
+        {
+          "id": "A",
+          "text": "UDISE+, National Achievement Survey (NAS), and PM-POSHAN portal only"
+        },
+        {
+          "id": "B",
+          "text": "UDISE+, Annual Status of Education Report (ASER), and PRABAND portal only"
+        },
+        {
+          "id": "C",
+          "text": "UDISE+, NAS, PM-POSHAN portal, PRABAND portal, and Vidyanjali Portal"
+        },
+        {
+          "id": "D",
+          "text": "NAS, Periodic Labour Force Survey (PLFS), and Vidyanjali Portal"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "PGI 2.0 utilizes multiple data sources for its 73 indicators, including UDISE+, NAS, PM-POSHAN, PRABAND, and Vidyanjali. It does not use ASER (which is a private citizen-led survey) or PLFS.",
+      "takeaway": "PGI 2.0 relies on a diverse set of official government portals and national surveys to ensure a holistic assessment of school education.",
+      "evidenceExcerpt": "Data sources: Unified District Information System for Education Plus (UDISE+), National Achievement Survey (NAS), PM-POSHAN portal, PRABAND portal and Vidyanjali Portal.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Comparison-driven",
+      "prompt": "According to the recent data on Indian school education progress, which of the following areas is categorized as showing 'Slow Progress'?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Out-of-school rate of primary children"
+        },
+        {
+          "id": "B",
+          "text": "Gender gap in completion rate for upper secondary education"
+        },
+        {
+          "id": "C",
+          "text": "Access to girls' toilets in schools"
+        },
+        {
+          "id": "D",
+          "text": "Computer access in primary schools"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The report distinguishes between areas of fast and slow progress. Fast progress was noted in the out-of-school rate for primary children. Slow progress was noted in the out-of-school rate for lower secondary and the gender gap in completion rate for upper secondary.",
+      "takeaway": "While primary education metrics are improving rapidly, secondary education completion and gender parity remain challenges.",
+      "evidenceExcerpt": "Fast Progress: In improving out-of-school rate of primary children. Slow Progress: In Out-of-school rate (lower secondary), and Gender gap in completion rate (upper secondary).",
+      "contextLines": []
+    }
+  ]
+}

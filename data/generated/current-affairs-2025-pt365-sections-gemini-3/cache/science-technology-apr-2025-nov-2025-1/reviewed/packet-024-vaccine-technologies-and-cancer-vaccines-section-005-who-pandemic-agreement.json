@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the WHO Pandemic Agreement, consider the following statements:\n\n1. It is being negotiated under Article 19 of the World Health Organization (WHO) Constitution.\n2. It is the first international legal agreement to be negotiated under this specific constitutional provision.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The WHO Pandemic Agreement is being negotiated under Article 19 of the WHO Constitution, which grants the World Health Assembly the authority to adopt conventions or agreements on matters within WHO's competence.\n\nStatement 2 is incorrect: It is the second international legal agreement negotiated under Article 19. The first was the WHO Framework Convention on Tobacco Control (FCTC), which was adopted in 2003.",
+      "takeaway": "The WHO Pandemic Agreement is the second international legal agreement negotiated under Article 19 of the WHO Constitution, following the WHO Framework Convention on Tobacco Control (2003).",
+      "evidenceExcerpt": "Second international legal agreement negotiated under Article 19 of the WHO Constitution (first being the WHO Framework Convention on Tobacco Control, 2003).",
+      "qualityScore": 88,
+      "reviewNotes": "A strong, factual question testing the legal basis of a major current international agreement. The statements are clear and directly test the candidate's knowledge of the agreement's historical context."
+    }
+  ],
+  "reviewerNotes": "Selected and refined the candidate question to ensure precise UPSC-style phrasing. The question effectively tests both the specific constitutional provision and its historical precedent."
+}

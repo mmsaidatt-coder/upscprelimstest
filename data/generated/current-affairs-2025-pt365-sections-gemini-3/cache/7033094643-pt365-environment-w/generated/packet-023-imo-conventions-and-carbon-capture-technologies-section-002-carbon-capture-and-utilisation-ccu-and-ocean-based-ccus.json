@@ -1,0 +1,207 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Carbon Capture, Utilisation, and Storage (CCUS) initiatives:\n1. India's first R&D Roadmap for Net Zero through CCUS was launched by the Department of Science and Technology (DST).\n2. Direct Air Capture (DAC) technology is primarily designed to capture carbon dioxide from the exhaust flues of heavy industries.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The Department of Science and Technology (DST) launched India's first R&D Roadmap for Net Zero through CCUS. Statement 2 is incorrect: Direct Air Capture (DAC) isolates CO2 directly from ambient air using a gas trapping system, rather than capturing it from industrial point sources like exhaust flues.",
+      "takeaway": "The DST is the nodal body for India's CCUS R&D Roadmap. DAC specifically targets ambient air, distinguishing it from traditional point-source carbon capture at industrial facilities.",
+      "evidenceExcerpt": "The Department of Science and Technology (DST) launched India's first R&D Roadmap for Net Zero through CCUS.\n- Direct Air Capture (DAC) isolates CO2 directly from ambient air using a gas trapping system."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Categorization",
+      "prompt": "In the context of Carbon Capture and Utilisation (CCU), consider the following applications of captured carbon dioxide:\n1. Enhanced Oil Recovery (EOR)\n2. Production of methanol\n3. Manufacturing of mineral carbonates for building materials\n4. Food and healthcare applications\nWhich of the above are categorized as \"CO2-to-Products\" conversion rather than \"Direct Utilisation\"?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 4 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1, 2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "2, 3 and 4 only"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Direct Utilisation of captured CO2 involves using it in its existing state, such as in Enhanced Oil Recovery (EOR) and food/healthcare applications (1 and 4). CO2-to-Products involves chemically converting CO2 into new materials, such as methanol/fuels and mineral carbonates for cement (2 and 3).",
+      "takeaway": "CCU is broadly divided into Direct Utilisation (where CO2 is used as-is, e.g., EOR) and CO2-to-Products (where CO2 is chemically transformed into fuels, chemicals, or building materials).",
+      "evidenceExcerpt": "Direct utilization includes Enhanced Oil Recovery (EOR) and industrial uses [food/healthcare], while CO2-to-Products involves converting CO2 into chemicals (urea, plastics), fuels (methanol via Fischer-Tropsch), and mineral carbonates (cement)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs regarding carbon capture and sequestration technologies:\n1. Direct Air Capture : Isolates CO2 directly from ambient air\n2. Ocean Alkalinity Enhancement : Promotes phytoplankton growth by adding micronutrients\n3. Ocean Fertilisation : Accelerates CO2 absorption by adding pulverized minerals like lime\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Pair 1 is correctly matched. Pair 2 is incorrectly matched: Ocean Alkalinity Enhancement involves adding pulverized minerals like lime to accelerate CO2 absorption. Pair 3 is incorrectly matched: Ocean Fertilisation involves adding micronutrients like phosphorus and nitrogen to promote phytoplankton growth.",
+      "takeaway": "Ocean-based CCUS includes distinct methods: Ocean Alkalinity Enhancement (OAE) alters water chemistry using minerals like lime, whereas Ocean Fertilisation stimulates biological carbon pumps using nutrients.",
+      "evidenceExcerpt": "- Direct Air Capture (DAC) isolates CO2 directly from ambient air using a gas trapping system.\n- Ocean Alkalinity Enhancement (OAE) accelerates CO2 absorption by adding pulverized minerals like lime.\n- Ocean fertilisation promotes phytoplankton growth by adding micronutrients like phosphorus and nitrogen."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Assertion-Reason",
+      "prompt": "Assertion (A): Both Ocean Alkalinity Enhancement (OAE) and Ocean Fertilisation rely on stimulating marine biological processes to increase the ocean's carbon dioxide absorption capacity.\nReason (R): Ocean Alkalinity Enhancement involves adding pulverized minerals like lime, whereas Ocean Fertilisation adds micronutrients like phosphorus and nitrogen to promote phytoplankton growth.",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both A and R are correct and R is the correct explanation of A."
+        },
+        {
+          "id": "B",
+          "text": "Both A and R are correct but R is not the correct explanation of A."
+        },
+        {
+          "id": "C",
+          "text": "A is correct but R is not correct."
+        },
+        {
+          "id": "D",
+          "text": "A is not correct but R is correct."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Assertion (A) is incorrect because Ocean Alkalinity Enhancement (OAE) relies on chemical processes (altering alkalinity by adding minerals) rather than biological processes. Only Ocean Fertilisation relies on biological processes (promoting phytoplankton growth). Reason (R) is correct as it accurately describes the mechanisms of both techniques.",
+      "takeaway": "Ocean-based CCUS includes both chemical methods (OAE using lime) and biological methods (Ocean Fertilisation using micronutrients like phosphorus and nitrogen).",
+      "evidenceExcerpt": "Ocean-based CCUS includes Ocean Alkalinity Enhancement (OAE) and Ocean Fertilisation to boost CO2 absorption.\n- Ocean Alkalinity Enhancement (OAE) accelerates CO2 absorption by adding pulverized minerals like lime.\n- Ocean fertilisation promotes phytoplankton growth by adding micronutrients like phosphorus and nitrogen."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Statement",
+      "prompt": "Consider the following applications of captured carbon dioxide:\n1. Manufacturing of urea\n2. Production of plastics\n3. Synthesis of methanol\n4. Enhanced Oil Recovery (EOR)\n\nHow many of the above involve the chemical conversion of captured carbon dioxide into new products (CO2-to-Products pathway)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The 'CO2-to-Products' pathway involves converting CO2 into chemicals (urea, plastics), fuels (methanol), and mineral carbonates. Enhanced Oil Recovery (EOR) is classified as 'Direct Utilisation' because the CO2 is used directly without undergoing chemical conversion into a new product.",
+      "takeaway": "Carbon Capture and Utilisation (CCU) is divided into Direct Utilisation (e.g., EOR, industrial uses) and CO2-to-Products (e.g., urea, plastics, methanol, cement).",
+      "evidenceExcerpt": "Direct utilization includes Enhanced Oil Recovery (EOR) and industrial uses, while CO2-to-Products involves converting CO2 into chemicals (urea, plastics), fuels (methanol via Fischer-Tropsch), and mineral carbonates (cement)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Multiple Choice",
+      "prompt": "In the context of Carbon Capture and Utilisation (CCU), the 'Fischer-Tropsch synthesis' is primarily associated with:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The isolation of carbon dioxide directly from ambient air using specialized gas trapping systems."
+        },
+        {
+          "id": "B",
+          "text": "The conversion of captured carbon dioxide into synthetic fuels such as methanol."
+        },
+        {
+          "id": "C",
+          "text": "The enhancement of the ocean's natural carbon sink by adding pulverized alkaline minerals."
+        },
+        {
+          "id": "D",
+          "text": "The direct injection of carbon dioxide into depleted reservoirs for Enhanced Oil Recovery (EOR)."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Fischer-Tropsch synthesis is a chemical process used within the 'CO2-to-Products' pathway to convert captured carbon dioxide into fuels, such as methanol.",
+      "takeaway": "Fischer-Tropsch synthesis is a key technology for utilizing captured carbon emissions by transforming them into usable fuels.",
+      "evidenceExcerpt": "CO2-to-Products involves converting CO2 into chemicals (urea, plastics), fuels (methanol via Fischer-Tropsch), and mineral carbonates (cement)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Statement",
+      "prompt": "Consider the following statements regarding Carbon Capture and Utilisation (CCU):\n1. CCU processes can utilize carbon dioxide captured directly from ambient air as a feedstock.\n2. Captured carbon dioxide can be chemically converted into mineral carbonates for use in the cement industry.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: CCU involves capturing CO2 from industrial sources or via Direct Air Capture (DAC) from ambient air to use as a feedstock. Statement 2 is correct: The CO2-to-Products pathway includes converting captured CO2 into mineral carbonates, which are used in building materials like cement.",
+      "takeaway": "CCU is a versatile framework that can source CO2 from both industrial exhaust and ambient air (DAC), and apply it across various sectors including construction (cement).",
+      "evidenceExcerpt": "Carbon Capture and Utilisation (CCU) involves capturing CO2 from industrial sources or via Direct Air Capture (DAC) and using it as feedstock... CO2-to-Products involves converting CO2 into chemicals (urea, plastics), fuels (methanol via Fischer-Tropsch), and mineral carbonates (cement)."
+    }
+  ]
+}

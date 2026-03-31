@@ -1,0 +1,63 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-013-foreign-investment-framework-section-003-foreign-portfolio-investors-fpis-and-reclassification",
+    "claimType": "Factual",
+    "claimText": "FPIs are restricted to holding a maximum of 10 percent of an Indian company's total paid-up equity capital.",
+    "evidenceExcerpt": "FPIs are restricted to holding a maximum of 10 percent of an Indian company's total paid-up equity capital.",
+    "pageNumbers": [
+      27
+    ],
+    "examUse": "Statement-based question on FPI investment limits.",
+    "distractorHooks": [
+      "Limit is 15 percent or 20 percent",
+      "Limit applies to debt capital instead of equity capital"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-013-foreign-investment-framework-section-003-foreign-portfolio-investors-fpis-and-reclassification",
+    "claimType": "Regulatory",
+    "claimText": "If an FPI exceeds the 10 percent equity cap, it must either divest the surplus shares or reclassify the investment as Foreign Direct Investment (FDI).",
+    "evidenceExcerpt": "Upon exceeding the 10 percent cap, FPIs have the option to divest surplus shares or reclassify their investment as FDI.",
+    "pageNumbers": [
+      27
+    ],
+    "examUse": "Statement-based question on the regulatory consequences of breaching FPI limits.",
+    "distractorHooks": [
+      "Mandatory forfeiture of surplus shares",
+      "Automatic conversion to debt instruments",
+      "Reclassification to FDI is not allowed under any circumstance"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-013-foreign-investment-framework-section-003-foreign-portfolio-investors-fpis-and-reclassification",
+    "claimType": "Regulatory",
+    "claimText": "The 2024 RBI and SEBI framework prohibits the reclassification of FPI to FDI in sectors where Foreign Direct Investment is prohibited.",
+    "evidenceExcerpt": "The 2024 RBI and SEBI framework prohibits FPI to FDI reclassification in sectors where FDI is already prohibited.",
+    "pageNumbers": [
+      27
+    ],
+    "examUse": "Statement-based question on sector-specific restrictions for FPI reclassification.",
+    "distractorHooks": [
+      "Reclassification is allowed in FDI-prohibited sectors with special RBI approval",
+      "FPIs can bypass FDI sectoral caps through reclassification"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-013-foreign-investment-framework-section-003-foreign-portfolio-investors-fpis-and-reclassification",
+    "claimType": "Regulatory",
+    "claimText": "Reclassifying FPI to FDI requires government approval for investments from land-bordering countries and mandates the concurrence of the Indian Investee Company.",
+    "evidenceExcerpt": "Reclassification requires government approval for investments from land-bordering countries and mandates the concurrence of the Indian Investee Company.",
+    "pageNumbers": [
+      27
+    ],
+    "examUse": "Statement-based question on approval mechanisms for foreign investments from bordering nations.",
+    "distractorHooks": [
+      "Concurrence of the Indian Investee Company is not required",
+      "Government approval is required for all FPI reclassifications regardless of the country of origin"
+    ]
+  }
+]

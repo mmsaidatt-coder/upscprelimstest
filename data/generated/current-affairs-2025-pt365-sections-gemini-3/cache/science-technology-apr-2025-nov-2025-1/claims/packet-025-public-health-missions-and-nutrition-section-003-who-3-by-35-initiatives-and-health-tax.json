@@ -1,0 +1,34 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-025-public-health-missions-and-nutrition-section-003-who-3-by-35-initiatives-and-health-tax",
+    "claimType": "Factual",
+    "claimText": "The WHO 3 By 35 Initiative aims to raise the prices of tobacco, alcohol, and sugary drinks by at least 50% by the year 2035.",
+    "evidenceExcerpt": "WHO's 3 By 35 Initiative aims to raise prices of tobacco, alcohol, and sugary drinks by at least 50% by 2035.",
+    "pageNumbers": [
+      50
+    ],
+    "examUse": "Statement-based question identifying the target products, percentage increase, and target year of the initiative.",
+    "distractorHooks": [
+      "Targeting 2030 instead of 2035",
+      "Targeting a 35% price increase instead of 50%",
+      "Including ultra-processed foods instead of just tobacco, alcohol, and sugary drinks",
+      "Initiative launched by WTO or FAO instead of WHO"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-025-public-health-missions-and-nutrition-section-003-who-3-by-35-initiatives-and-health-tax",
+    "claimType": "Conceptual",
+    "claimText": "Health taxes are levied on products with negative public health impacts and are recommended by the WHO as a cost-effective tool to address obesity and non-communicable diseases (NCDs).",
+    "evidenceExcerpt": "Health taxes are levied on products with negative public health impacts to address obesity and non-communicable diseases (NCDs).",
+    "pageNumbers": [
+      50
+    ],
+    "examUse": "Statement-based question on the definition and primary objective of health taxes.",
+    "distractorHooks": [
+      "Health taxes are primarily aimed at addressing communicable diseases",
+      "Health taxes are levied on all food products to fund healthcare infrastructure"
+    ]
+  }
+]

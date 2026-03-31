@@ -1,0 +1,34 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-032-industry-classification-and-hazardous-waste-rules-section-006-global-outlook-council-on-water",
+    "claimType": "Factual",
+    "claimText": "The Global Outlook Council on Water was launched by the President of South Africa.",
+    "evidenceExcerpt": "The President of South Africa announced its launch",
+    "pageNumbers": [
+      67
+    ],
+    "examUse": "Statement-based question on the origin and launching authority of international water initiatives.",
+    "distractorHooks": [
+      "Launched by the UN Environment Programme (UNEP)",
+      "Launched by the President of India",
+      "Launched by the World Bank"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-032-industry-classification-and-hazardous-waste-rules-section-006-global-outlook-council-on-water",
+    "claimType": "Institution-feature",
+    "claimText": "The Global Outlook Council on Water was established as a G20 Presidential Legacy Initiative.",
+    "evidenceExcerpt": "announced its launch as a G20 Presidential Legacy Initiative.",
+    "pageNumbers": [
+      67
+    ],
+    "examUse": "Correct-pair or statement-based question identifying the parent framework of the initiative.",
+    "distractorHooks": [
+      "G7 Presidential Legacy Initiative",
+      "UNFCCC COP28 Initiative",
+      "BRICS Water Initiative"
+    ]
+  }
+]

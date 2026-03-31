@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "multiple-choice",
+      "prompt": "Which one of the following best describes the primary mechanism of action of the weight-loss drug 'semaglutide', frequently mentioned in the news?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It inhibits the enzymes responsible for the digestion and absorption of dietary fats in the intestines."
+        },
+        {
+          "id": "B",
+          "text": "It acts as an appetite suppressant by imitating an intestinal hormone that naturally induces a feeling of fullness."
+        },
+        {
+          "id": "C",
+          "text": "It stimulates the central nervous system to increase the body's basal metabolic rate and accelerate fat oxidation."
+        },
+        {
+          "id": "D",
+          "text": "It alters the gut microbiome composition to significantly reduce the extraction of calories from ingested food."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Semaglutide (marketed under brand names like Wegovy) works as an appetite suppressant by imitating a hormone called glucagon-like peptide-1 (GLP-1). GLP-1 is an intestinal hormone released after eating that signals satiety to the brain, making people feel fuller and reducing overall calorie intake. It does not work by inhibiting fat absorption (which is the mechanism of Orlistat), stimulating the central nervous system (like Phentermine), or altering the gut microbiome.",
+      "takeaway": "Modern anti-obesity drugs like semaglutide are GLP-1 receptor agonists. They target the body's satiety signals by mimicking natural intestinal hormones (GLP-1) rather than altering nutrient absorption or artificially boosting metabolic rates.",
+      "evidenceExcerpt": "Semaglutide, works as an appetite suppressant by imitating a hormone called glucagon-like peptide-1 (GLP-1). GLP-1 is an intestinal hormone released after eating, and usually makes people feel fuller.",
+      "qualityScore": 90,
+      "reviewNotes": "Excellent conceptual question. The 'Which one of the following best describes...' format is a staple in UPSC Prelims for testing emerging technologies and pharmaceuticals. The distractors represent actual mechanisms of other weight-loss interventions, making the question highly plausible and rigorous."
+    }
+  ],
+  "reviewerNotes": "Selected and refined the multiple-choice question on the mechanism of action of semaglutide. The distractors were upgraded to represent real alternative mechanisms of weight loss (fat absorption inhibition, CNS stimulation, microbiome alteration), ensuring the question tests precise knowledge of GLP-1 agonists."
+}

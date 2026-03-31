@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the 'Arabian Sea Mini Warm Pool': 1. It typically forms in the southeastern Arabian Sea off the Kerala coast during the months of April and May. 2. It is characterized by unusually low sea surface temperatures that delay the onset of the monsoon. 3. It acts as a self-correcting mechanism that helps the Indian Summer Monsoon recover from previous El Nino disruptions. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The Mini Warm Pool forms annually during April and May in the southeastern Arabian Sea near the Kerala coast, just before the Indian Summer Monsoon. Statement 2 is incorrect: It is characterized by unusually warm sea surface temperatures (exceeding 28.5 degrees Celsius), not low temperatures. Statement 3 is correct: It functions as a self-correcting mechanism to help the monsoon recover from previous El Nino disruptions.",
+      "takeaway": "The Arabian Sea Mini Warm Pool is a pre-monsoon phenomenon (April-May) of elevated sea surface temperatures (>28.5 degrees Celsius) off the Kerala coast that buffers the Indian Summer Monsoon against prior El Nino impacts.",
+      "evidenceExcerpt": "The Arabian Sea Mini Warm Pool (MWP) is a patch of unusually warm sea surface temperatures (exceeding 28.5 degrees Celsius) in the southeastern Arabian Sea near the Kerala coast. It forms annually during April and May before the Indian Summer Monsoon and acts as a self-correcting mechanism to help the monsoon recover from previous El Nino disruptions."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Application",
+      "prompt": "The Arabian Sea Mini Warm Pool (MWP) is considered a crucial oceanographic feature for the Indian subcontinent. In the context of a preceding El Niño year, what would be the most likely consequence if the MWP fails to develop adequately during April and May?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The onset of the Indian Summer Monsoon would be accelerated due to cooler sea surface temperatures."
+        },
+        {
+          "id": "B",
+          "text": "The Indian Summer Monsoon might fail to recover effectively from the disruptions caused by the El Niño."
+        },
+        {
+          "id": "C",
+          "text": "The frequency of pre-monsoon cyclonic storms in the western Arabian Sea would drastically increase."
+        },
+        {
+          "id": "D",
+          "text": "The upwelling process along the Kerala coast would intensify, leading to an early monsoon withdrawal."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Arabian Sea Mini Warm Pool acts as a self-correcting mechanism that helps the Indian Summer Monsoon recover from previous El Niño disruptions. If it fails to develop, the monsoon would likely struggle to recover from these lingering disruptions.",
+      "takeaway": "The Arabian Sea Mini Warm Pool is an essential pre-monsoon thermal feature that buffers the Indian Summer Monsoon against the lingering effects of El Niño.",
+      "evidenceExcerpt": "Acts as a self-correcting mechanism to help the monsoon recover from previous El Nino disruptions."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Easy",
+      "questionType": "Feature-Matching",
+      "prompt": "Consider the following oceanographic features:\n1. It is a localized zone of unusually high sea surface temperatures exceeding 28.5°C.\n2. It develops annually in the southeastern Arabian Sea during the pre-monsoon months.\n3. It acts as a self-correcting mechanism for the Indian Summer Monsoon against El Niño disruptions.\nWhich of the following phenomena is characterized by the above features?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Positive Indian Ocean Dipole"
+        },
+        {
+          "id": "B",
+          "text": "Arabian Sea Mini Warm Pool"
+        },
+        {
+          "id": "C",
+          "text": "Agulhas Leakage"
+        },
+        {
+          "id": "D",
+          "text": "Madden-Julian Oscillation"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Arabian Sea Mini Warm Pool is a patch of unusually warm sea surface temperatures (exceeding 28.5°C) in the southeastern Arabian Sea near the Kerala coast that forms annually during April and May, helping the monsoon recover from El Niño.",
+      "takeaway": "The Arabian Sea Mini Warm Pool forms off the Kerala coast before the monsoon and plays a vital role in monsoon recovery dynamics.",
+      "evidenceExcerpt": "The Arabian Sea Mini Warm Pool (MWP) is a patch of unusually warm sea surface temperatures (exceeding 28.5 degrees Celsius) in the southeastern Arabian Sea near the Kerala coast. It forms annually during April and May... and acts as a self-correcting mechanism..."
+    }
+  ]
+}

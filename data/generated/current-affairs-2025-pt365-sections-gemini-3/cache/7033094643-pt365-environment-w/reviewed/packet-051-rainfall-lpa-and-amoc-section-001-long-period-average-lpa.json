@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Long-Period Average (LPA) of rainfall in India, consider the following statements:\n1. The LPA is the average rainfall recorded over a specific region, typically calculated over a period of 30 to 50 years.\n2. The India Meteorological Department (IMD) currently uses the rainfall data from the period 1971 to 2020 as the baseline.\n3. The current LPA of rainfall, based on the 1971-2020 baseline, is 87 cm.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: The Long-Period Average (LPA) refers to the average rainfall recorded over a specific region during a defined time interval, usually calculated over a long period of 30-50 years.\nStatement 2 is correct: The IMD periodically updates the baseline to reflect changing climatic conditions and is currently using rainfall data from the 1971-2020 period.\nStatement 3 is correct: The current LPA of rainfall, based on the 1971-2020 data, is 87 cm.",
+      "takeaway": "The LPA acts as a benchmark to measure quantitative rainfall deviations. The IMD currently utilizes the 1971-2020 period as the baseline, which sets the LPA at 87 cm.",
+      "evidenceExcerpt": "The India Meteorological Department (IMD) has forecast ‘above normal’ rainfall — 105% of the long-period average (LPA) of 87 cm (1971-2020)... Concept: It refers to the average rainfall recorded over a specific region during a defined time interval. Period: It is calculated over a long period, usually 30-50 years, with the IMD currently using rainfall data from 1971 to 2020.",
+      "qualityScore": 85,
+      "reviewNotes": "Expanded Candidate 1 to include the 87 cm fact from Candidate 3, creating a comprehensive 3-statement question in the latest UPSC 'How many statements' format."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs regarding the categorization of rainfall by the India Meteorological Department (IMD):\n\nRainfall Category : Percentage of Long-Period Average (LPA)\n1. Deficient : Less than 90%\n2. Normal : 96% to 104%\n3. Above Normal : 105% to 110%\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Pair 1 is correctly matched: 'Deficient' rainfall is defined as less than 90% of the LPA, which indicates drought-like conditions.\nPair 2 is correctly matched: 'Normal' rainfall is categorized as 96% to 104% of the LPA, representing ideal, expected rainfall.\nPair 3 is correctly matched: 'Above Normal' rainfall is categorized as 105% to 110% of the LPA.",
+      "takeaway": "The IMD categorizes monsoon performance into specific statistical bands based on the LPA to clearly communicate agricultural and hydrological risks. Rainfall below 90% is deficient, 96-104% is normal, and 105-110% is above normal.",
+      "evidenceExcerpt": "Deficient: < 90% | Meaning: Drought-like conditions... Normal: 96% – 104% | Meaning: Ideal, expected rainfall... Above Normal rainfall is 105% to 110% of the LPA.",
+      "qualityScore": 85,
+      "reviewNotes": "Candidate 2 perfectly captures the IMD's classification bands in the standard UPSC 'How many pairs' format. It tests precise factual knowledge expected of candidates."
+    }
+  ],
+  "reviewerNotes": "Selected two high-quality questions. The first covers the conceptual definition and baseline metrics of the LPA, while the second tests the specific percentage bands used by the IMD for rainfall categorization. Both are formatted to match recent UPSC trends."
+}

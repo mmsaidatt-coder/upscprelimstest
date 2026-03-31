@@ -1,0 +1,178 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Correct-Pair",
+      "prompt": "Consider the following pairs of Protected Areas and their specific designations:\n\n1. Mahuadanr : Wolf Sanctuary\n2. Salkhan : Fossil Park\n3. Tsarap Chu : Biosphere Reserve\n4. Thattekad : Bird Sanctuary\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "Only three pairs"
+        },
+        {
+          "id": "D",
+          "text": "All four pairs"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Pair 1 is correctly matched: Mahuadanr is designated as a Wolf Sanctuary. Pair 2 is correctly matched: Salkhan is designated as a Fossil Park. Pair 3 is incorrectly matched: Tsarap Chu is designated as a Conservation Reserve, not a Biosphere Reserve. Pair 4 is correctly matched: Thattekad is designated as a Bird Sanctuary. Therefore, exactly three pairs are correctly matched.",
+      "takeaway": "Protected areas in India have highly specific designations based on their ecological focus, such as Mahuadanr (Wolf Sanctuary), Salkhan (Fossil Park), and Tsarap Chu (Conservation Reserve).",
+      "evidenceExcerpt": "Tsarap Chu Conservation Reserve... Salkhan Fossil Park... Mahuadanr Wolf Sanctuary... Thattekad Bird Sanctuary"
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Multiple-Statement",
+      "prompt": "Which of the following protected areas are explicitly designated as Tiger Reserves?\n\n1. Sahyadri\n2. Similipal\n3. Mhadei\n4. Keibul Lamjao\n\nSelect the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 4 only"
+        },
+        {
+          "id": "C",
+          "text": "1, 3 and 4 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2, 3 and 4"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Sahyadri and Similipal are designated as Tiger Reserves. Mhadei is designated as a Wildlife Sanctuary, and Keibul Lamjao is designated as a National Park.",
+      "takeaway": "It is crucial to distinguish the specific administrative and ecological designations of protected areas, such as identifying which National Parks or Wildlife Sanctuaries also hold the status of Tiger Reserves.",
+      "evidenceExcerpt": "Keibul Lamjao National Park... Similipal Tiger Reserve... Mhadei Wildlife Sanctuary, Sahyadri Tiger Reserve."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the designations of various protected areas:\n\n1. Bhagirathi is designated as an Eco Sensitive Zone (ESZ).\n2. Male Mahadeshwara (MM) Hills is designated as a Biosphere Reserve.\n3. Agasthyamala is designated as a Biosphere Reserve.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Bhagirathi is designated as an Eco Sensitive Zone (ESZ). Statement 2 is incorrect: Male Mahadeshwara (MM) Hills is designated as a Wildlife Sanctuary, not a Biosphere Reserve. Statement 3 is correct: Agasthyamala is designated as a Biosphere Reserve.",
+      "takeaway": "Different protected areas serve different statutory functions; for instance, Bhagirathi acts as an Eco Sensitive Zone, while Agasthyamala is a Biosphere Reserve.",
+      "evidenceExcerpt": "Bhagirathi Eco Sensitive Zone (ESZ)... Male Mahadeshwara (MM) Hills Wildlife Sanctuary, Agasthyamala Biosphere Reserve"
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the designations of protected areas:\n\n1. Kaziranga is designated as both a National Park and a Tiger Reserve.\n2. Keibul Lamjao is designated as a Wildlife Sanctuary.\n3. Mhadei is designated as a Tiger Reserve.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The text explicitly lists 'Kaziranga National Park and Tiger Reserve'. Statement 2 is incorrect: Keibul Lamjao is designated as a National Park, not a Wildlife Sanctuary. Statement 3 is incorrect: Mhadei is designated as a Wildlife Sanctuary, not a Tiger Reserve.",
+      "takeaway": "It is important to know the exact statutory designation of protected areas, as many are specifically National Parks, Wildlife Sanctuaries, or Tiger Reserves, each carrying different levels of protection.",
+      "evidenceExcerpt": "Kaziranga National Park and Tiger Reserve, Keibul Lamjao National Park... Mhadei Wildlife Sanctuary"
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-choice",
+      "prompt": "Which of the following categories of protected areas are explicitly mentioned in the provided text regarding recent highlights?\n\n1. Conservation Reserve\n2. Fossil Park\n3. Community Reserve\n4. Biosphere Reserve\n\nSelect the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1, 2 and 4 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "2, 3 and 4 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2, 3 and 4"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "The text explicitly mentions Tsarap Chu Conservation Reserve, Salkhan Fossil Park, and Agasthyamala Biosphere Reserve. Community Reserves are not mentioned in the provided text.",
+      "takeaway": "Protected areas in India encompass various specialized categories beyond just National Parks and Wildlife Sanctuaries, such as Conservation Reserves, Biosphere Reserves, and Fossil Parks.",
+      "evidenceExcerpt": "Tsarap Chu Conservation Reserve... Salkhan Fossil Park... Agasthyamala Biosphere Reserve"
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements:\n\n1. Salkhan is designated as a Fossil Park.\n2. Male Mahadeshwara (MM) Hills is designated as a National Park.\n3. Sundarbans is designated as a Tiger Reserve.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Salkhan is designated as a Fossil Park. Statement 3 is correct: Sundarbans is designated as a Tiger Reserve. Statement 2 is incorrect: Male Mahadeshwara (MM) Hills is designated as a Wildlife Sanctuary, not a National Park.",
+      "takeaway": "Differentiating between Wildlife Sanctuaries and National Parks is crucial for geographical mapping and awareness of protected areas.",
+      "evidenceExcerpt": "Salkhan Fossil Park... Sundarbans Tiger Reserve (STR)... Male Mahadeshwara (MM) Hills Wildlife Sanctuary"
+    }
+  ]
+}

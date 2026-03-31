@@ -1,0 +1,79 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-036-india-s-re-status-and-international-solar-alliance-section-002-india-s-renewable-energy-sector-status-and-targets",
+    "claimType": "Factual",
+    "claimText": "India achieved its NDC target of 50% cumulative electric power installed capacity from non-fossil fuels five years ahead of the 2030 deadline.",
+    "evidenceExcerpt": "Achieving 50% of cumulative electric power installed capacity from non-fossil fuel-based energy resources by 2030 (achieved five years ahead)",
+    "pageNumbers": [
+      74
+    ],
+    "examUse": "Statement-based question on India's NDC achievements and timelines.",
+    "distractorHooks": [
+      "Claiming the target is yet to be achieved",
+      "Stating the target was 40% instead of 50%",
+      "Stating the target was achieved exactly in 2030"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-036-india-s-re-status-and-international-solar-alliance-section-002-india-s-renewable-energy-sector-status-and-targets",
+    "claimType": "Factual",
+    "claimText": "Solar power holds the largest share of India's non-fossil fuel installed capacity, followed by Wind and Hydro power.",
+    "evidenceExcerpt": "Solar holds the largest share (39.4%) of India's non-fossil fuel installed capacity, followed by Wind (10.6%) and Hydro (10%).",
+    "pageNumbers": [
+      74
+    ],
+    "examUse": "Descending order arrangement question of renewable energy sources by installed capacity.",
+    "distractorHooks": [
+      "Claiming Wind or Hydro has the largest share",
+      "Swapping the order of Wind and Hydro"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-036-india-s-re-status-and-international-solar-alliance-section-002-india-s-renewable-energy-sector-status-and-targets",
+    "claimType": "Factual",
+    "claimText": "India ranks 4th globally in overall Renewable Energy Installed Capacity and Wind Power capacity, and 3rd in Solar Power capacity.",
+    "evidenceExcerpt": "India ranks 4th globally in Renewable Energy Installed Capacity and Wind Power, and 3rd in Solar Power capacity.",
+    "pageNumbers": [
+      74
+    ],
+    "examUse": "Statement-based question on India's global rankings in various renewable energy sectors.",
+    "distractorHooks": [
+      "Swapping the rankings (e.g., 3rd in Wind, 4th in Solar)",
+      "Claiming India ranks 1st or 2nd globally in RE capacity"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-036-india-s-re-status-and-international-solar-alliance-section-002-india-s-renewable-energy-sector-status-and-targets",
+    "claimType": "Factual",
+    "claimText": "Rajasthan is the top renewable energy state in India, followed by Gujarat and Tamil Nadu.",
+    "evidenceExcerpt": "The top 5 renewable energy states in India are Rajasthan, Gujarat, Tamil Nadu, Karnataka, and Maharashtra.",
+    "pageNumbers": [
+      74
+    ],
+    "examUse": "Arrangement question for Indian states by renewable energy capacity.",
+    "distractorHooks": [
+      "Placing Gujarat or Tamil Nadu at the top",
+      "Including non-top states like Uttar Pradesh or Madhya Pradesh in the top 3"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-036-india-s-re-status-and-international-solar-alliance-section-002-india-s-renewable-energy-sector-status-and-targets",
+    "claimType": "Factual",
+    "claimText": "India's Panchamrita targets for 2030 include reaching 500 GW of non-fossil energy capacity and meeting 50% of energy requirements from renewable energy.",
+    "evidenceExcerpt": "Panchamrita targets for 2030 include meeting 50% of energy requirements from RE and reaching 500 GW of non-fossil energy capacity.",
+    "pageNumbers": [
+      74
+    ],
+    "examUse": "Statement-based question on the specific goals outlined in India's Panchamrita strategy.",
+    "distractorHooks": [
+      "Changing the capacity target to 450 GW or 1000 GW",
+      "Changing the target year to 2047 or 2050",
+      "Stating the target is 100% energy requirements from RE by 2030"
+    ]
+  }
+]

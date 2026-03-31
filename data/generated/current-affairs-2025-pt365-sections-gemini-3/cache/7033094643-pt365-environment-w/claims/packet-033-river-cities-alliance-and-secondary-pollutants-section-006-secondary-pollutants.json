@@ -1,0 +1,48 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-033-river-cities-alliance-and-secondary-pollutants-section-006-secondary-pollutants",
+    "claimType": "Conceptual",
+    "claimText": "Secondary pollutants are formed in the atmosphere through chemical or physical interactions between primary pollutants themselves, or between primary pollutants and other atmospheric components such as sunlight.",
+    "evidenceExcerpt": "Formed in atmosphere due to chemical/physical interactions between primary pollutants themselves or between primary pollutants and other atmospheric components. Formed by interactions between primary pollutants, sunlight, and atmospheric conditions.",
+    "pageNumbers": [
+      69
+    ],
+    "examUse": "Statement-based question on the definition and formation mechanism of secondary pollutants.",
+    "distractorHooks": [
+      "Secondary pollutants are emitted directly from industrial sources",
+      "Secondary pollutants do not require sunlight or atmospheric interactions to form"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-033-river-cities-alliance-and-secondary-pollutants-section-006-secondary-pollutants",
+    "claimType": "Factual",
+    "claimText": "Ozone (O3), sulfuric acid (H2SO4), and nitric acid (HNO3) are classified as secondary pollutants.",
+    "evidenceExcerpt": "Examples: Ozone (O3), sulfuric acid (H2SO4), nitric acid (HNO3).",
+    "pageNumbers": [
+      69
+    ],
+    "examUse": "Correct-pair or classification question distinguishing primary from secondary pollutants.",
+    "distractorHooks": [
+      "Ozone is a primary pollutant",
+      "Sulfuric acid is emitted directly from vehicles",
+      "Carbon monoxide is a secondary pollutant"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-033-river-cities-alliance-and-secondary-pollutants-section-006-secondary-pollutants",
+    "claimType": "Factual",
+    "claimText": "Secondary pollutants account for nearly one-third of India's PM2.5 pollution.",
+    "evidenceExcerpt": "Account for nearly one-third of India's PM2.5 pollution according to a CREA study.",
+    "pageNumbers": [
+      69
+    ],
+    "examUse": "Statement-based question on the contribution of secondary pollutants to overall particulate matter pollution in India.",
+    "distractorHooks": [
+      "Secondary pollutants account for a negligible fraction of India's PM2.5 pollution",
+      "Primary pollutants are the sole constituents of PM2.5 pollution"
+    ]
+  }
+]

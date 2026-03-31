@@ -1,0 +1,82 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-010-forest-conservation-act-and-green-india-mission-section-002-national-mission-for-a-green-india-gim",
+    "claimType": "Factual",
+    "claimText": "The National Mission for a Green India (GIM) is one of the eight missions under the National Action Plan on Climate Change (NAPCC).",
+    "evidenceExcerpt": "GIM is one of the 8 missions under the National Action Plan on Climate Change (NAPCC).",
+    "pageNumbers": [
+      23,
+      24
+    ],
+    "examUse": "Statement-based question identifying missions under NAPCC.",
+    "distractorHooks": [
+      "Launched under a different framework like NDC or CBD",
+      "Not a part of NAPCC"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-010-forest-conservation-act-and-green-india-mission-section-002-national-mission-for-a-green-india-gim",
+    "claimType": "Target",
+    "claimText": "GIM aims to create an additional carbon sink of 2.5 to 3.0 billion tonnes of CO2 equivalent by 2030.",
+    "evidenceExcerpt": "Aims to create an additional carbon sink of 2.5 to 3.0 billion tonnes of CO2 equivalent by 2030.",
+    "pageNumbers": [
+      23,
+      24
+    ],
+    "examUse": "Factual statement in a multi-statement question regarding India's climate targets.",
+    "distractorHooks": [
+      "Target year 2050 or 2070",
+      "Different carbon sink target amount"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-010-forest-conservation-act-and-green-india-mission-section-002-national-mission-for-a-green-india-gim",
+    "claimType": "Funding",
+    "claimText": "Funding for the Green India Mission is partially sourced from the National CAMPA Fund.",
+    "evidenceExcerpt": "Funding is partially sourced from the National CAMPA Fund.",
+    "pageNumbers": [
+      23,
+      24
+    ],
+    "examUse": "Statement-based question on funding sources for environmental missions.",
+    "distractorHooks": [
+      "Funded entirely by the Green Climate Fund",
+      "Funded exclusively by State Governments"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-010-forest-conservation-act-and-green-india-mission-section-002-national-mission-for-a-green-india-gim",
+    "claimType": "Implementation",
+    "claimText": "The implementation of GIM relies on a bottom-up model involving Joint Forest Management Committees (JFMCs).",
+    "evidenceExcerpt": "Implementation relies on a bottom-up model with Joint Forest Management Committees (JFMCs).",
+    "pageNumbers": [
+      23,
+      24
+    ],
+    "examUse": "Statement-based question on governance and implementation mechanisms of GIM.",
+    "distractorHooks": [
+      "Top-down implementation model",
+      "Implemented solely by private corporations"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-010-forest-conservation-act-and-green-india-mission-section-002-national-mission-for-a-green-india-gim",
+    "claimType": "Strategy",
+    "claimText": "GIM strategies include selling carbon credits generated from forestry and agroforestry via voluntary markets.",
+    "evidenceExcerpt": "Strategies include selling carbon credits from forestry and agroforestry via voluntary markets.",
+    "pageNumbers": [
+      23,
+      24
+    ],
+    "examUse": "Statement-based question on GIM strategies and carbon markets.",
+    "distractorHooks": [
+      "Mandatory compliance markets only",
+      "Prohibition of carbon credit sales"
+    ]
+  }
+]

@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-choice",
+      "prompt": "Consider the following entities:\n1. Electricity distribution companies\n2. Captive power producers\n3. Open-access consumers\nHow many of the above entities are mandated to annually purchase a minimum amount of renewable energy under the Renewable Purchase Obligation (RPO)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The Renewable Purchase Obligation (RPO), established under the Electricity Act, 2003, mandates electricity distribution companies, captive power producers, and open-access consumers to annually purchase a certain minimum amount of renewable energy. Therefore, all three entities are covered under the RPO mandate.",
+      "takeaway": "The RPO applies to a broad range of major electricity consumers and distributors, including discoms, captive power producers, and open-access consumers, to ensure a minimum procurement of renewable energy.",
+      "evidenceExcerpt": "RPO, established under Electricity Act, 2003, mandates electricity distribution companies, captive power producers and open-access consumers to annually purchase a certain minimum amount of RE.",
+      "qualityScore": 88,
+      "reviewNotes": "Created a new question based on the source text to replace the redundant Candidate 3. Questions asking about the applicability of regulations to specific entities are very common in UPSC Prelims."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding renewable energy obligations in India:\n1. The Renewable Purchase Obligation (RPO) is mandated under the Electricity Act, 2003.\n2. The Renewable Consumption Obligation (RCO) is notified under the Energy Conservation Act, 2001.\n3. While the RPO focuses on the actual purchase of renewable energy, the RCO focuses on its actual consumption.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: The RPO is established under the Electricity Act, 2003. Statement 2 is correct: The RCO is notified under the Energy Conservation Act (ECA), 2001. Statement 3 is correct: The core distinction is that RPO mandates the actual purchase of renewable energy, whereas RCO focuses on the actual consumption from renewable energy sources.",
+      "takeaway": "India's regulatory framework for renewable energy is transitioning from a purchase-based model (RPO under the Electricity Act) to a consumption-based model (RCO under the Energy Conservation Act).",
+      "evidenceExcerpt": "Ministry of Power issued a revised draft notification on RCO under Energy Conservation Act (ECA) 2001... RPO, established under Electricity Act, 2003... While RPO focuses on actual purchase, RCO focuses on actual consumption from RE sources.",
+      "qualityScore": 85,
+      "reviewNotes": "Refined Candidate 1 to ensure precise wording. The question effectively tests the statutory backing and conceptual difference between RPO and RCO, which is highly relevant for UPSC Prelims."
+    }
+  ],
+  "reviewerNotes": "Selected and refined Candidate 1 and Candidate 2 for better UPSC tone and clarity. Dropped Candidate 3 as it overlapped conceptually with Candidate 1. Created a new question (Q3) based on the source text to test the specific entities covered under the RPO, which diversifies the set and aligns perfectly with UPSC's pattern of asking about the applicability of environmental/economic regulations."
+}

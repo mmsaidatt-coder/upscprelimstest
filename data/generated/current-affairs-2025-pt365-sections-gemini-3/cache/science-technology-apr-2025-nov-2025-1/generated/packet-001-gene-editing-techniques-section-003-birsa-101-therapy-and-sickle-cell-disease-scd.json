@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to 'BIRSA-101', recently seen in the news, consider the following statements:\n1. It is India's first indigenous CRISPR-based gene editing therapy developed for Sickle Cell Disease.\n2. It has been developed by the Indian Council of Medical Research (ICMR) in collaboration with Bharat Biotech.\n3. The disease it targets is a hereditary blood disorder caused by a mutation in the haemoglobin gene.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: BIRSA-101 is India's first indigenous CRISPR-based gene editing therapy for Sickle Cell Disease (SCD). Statement 2 is incorrect: It was developed by CSIR-IGIB, and a technology transfer agreement was signed with the Serum Institute of India, not ICMR and Bharat Biotech. Statement 3 is correct: SCD is a hereditary blood disorder caused by a mutation in the haemoglobin gene.",
+      "takeaway": "BIRSA-101 is a landmark indigenous CRISPR therapy developed by CSIR-IGIB for Sickle Cell Disease, a genetic haemoglobin disorder.",
+      "evidenceExcerpt": "BIRSA-101 is India's 1st indigenous CRISPR-based gene editing therapy for Sickle Cell Disease, developed by CSIR-IGIB. A technology transfer agreement for BIRSA-101 was signed between CSIR-IGIB and Serum Institute of India. Sickle Cell Disease (SCD) is a hereditary blood disorder caused by a mutation in the haemoglobin gene..."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Sickle Cell Disease (SCD) in India:\n1. It is a genetic disorder that predominantly affects the tribal populations in India.\n2. India accounts for more than half of the global Sickle Cell Disease births annually.\n3. The Government of India has set a target to eliminate Sickle Cell Disease by the year 2047.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: SCD is mainly prevalent among tribal populations in India. Statement 2 is incorrect: India accounts for approximately 14.5% of global SCD births (2023), not more than half. Statement 3 is correct: India has set a national target to eliminate Sickle Cell Disease by 2047.",
+      "takeaway": "India bears a significant burden of Sickle Cell Disease (~14.5% of global births), heavily concentrated in tribal populations, and aims to eliminate it by 2047.",
+      "evidenceExcerpt": "India accounts for approximately 14.5% of global SCD births (2023), mainly prevalent among tribal populations. India has set a target to eliminate Sickle Cell Disease by 2047."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Assertion-Reason",
+      "prompt": "Given below are two statements, one labelled as Assertion (A) and the other as Reason (R): Assertion (A): Individuals suffering from Sickle Cell Disease (SCD) frequently experience complications related to the blockage of blood vessels. Reason (R): A hereditary mutation in the haemoglobin gene causes red blood cells to become sickle-shaped, impairing their ability to flow smoothly through the bloodstream. In the context of the above statements, which one of the following is correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both Assertion (A) and Reason (R) are correct and Reason (R) is the correct explanation for Assertion (A)."
+        },
+        {
+          "id": "B",
+          "text": "Both Assertion (A) and Reason (R) are correct but Reason (R) is not the correct explanation for Assertion (A)."
+        },
+        {
+          "id": "C",
+          "text": "Assertion (A) is correct but Reason (R) is incorrect."
+        },
+        {
+          "id": "D",
+          "text": "Assertion (A) is incorrect but Reason (R) is correct."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Sickle Cell Disease (SCD) is a hereditary blood disorder caused by a mutation in the haemoglobin gene. This mutation causes red blood cells to lose their normal shape and become rigid and sickle-shaped. These abnormally shaped cells can get stuck in small blood vessels, blocking blood flow. Thus, the Reason correctly explains the Assertion.",
+      "takeaway": "SCD's primary physiological danger stems from the abnormal sickle shape of red blood cells, which leads to the blockage of blood vessels.",
+      "evidenceExcerpt": "Sickle Cell Disease (SCD) is a hereditary blood disorder caused by a mutation in the haemoglobin gene, resulting in sickle-shaped red blood cells that block blood vessels."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Correct-Pair",
+      "prompt": "Consider the following pairs regarding the indigenous 'BIRSA-101' gene editing therapy: 1. Lead developing institution : CSIR-IGIB 2. Technology transfer partner : Serum Institute of India Which of the pairs given above is/are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Pair 1 is correctly matched: BIRSA-101, India's first indigenous CRISPR-based gene editing therapy for Sickle Cell Disease, was developed by CSIR-IGIB. Pair 2 is correctly matched: A technology transfer agreement for the commercialization of BIRSA-101 was signed between CSIR-IGIB and the Serum Institute of India.",
+      "takeaway": "The successful development and commercialization pathway of indigenous biotechnology like BIRSA-101 relies on institutional partnerships, such as the one between CSIR-IGIB and the Serum Institute of India.",
+      "evidenceExcerpt": "BIRSA-101 is India's 1st indigenous CRISPR-based gene editing therapy for Sickle Cell Disease, developed by CSIR-IGIB. A technology transfer agreement for BIRSA-101 was signed between CSIR-IGIB and Serum Institute of India."
+    }
+  ]
+}

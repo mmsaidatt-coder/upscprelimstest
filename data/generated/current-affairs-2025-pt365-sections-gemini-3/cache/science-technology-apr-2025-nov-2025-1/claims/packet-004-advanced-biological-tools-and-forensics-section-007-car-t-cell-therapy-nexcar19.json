@@ -1,0 +1,50 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-004-advanced-biological-tools-and-forensics-section-007-car-t-cell-therapy-nexcar19",
+    "claimType": "Factual",
+    "claimText": "NexCAR19 is India's first indigenous Chimeric Antigen Receptor T-cell (CAR-T) therapy.",
+    "evidenceExcerpt": "NexCAR19 is India's first indigenous CAR T-cell therapy.",
+    "pageNumbers": [
+      10
+    ],
+    "examUse": "Statement-based question on indigenous biotechnology developments.",
+    "distractorHooks": [
+      "Foreign-developed therapy",
+      "First indigenous mRNA vaccine",
+      "First indigenous stem cell therapy"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-004-advanced-biological-tools-and-forensics-section-007-car-t-cell-therapy-nexcar19",
+    "claimType": "Application",
+    "claimText": "NexCAR19 is developed specifically for the treatment of B-cell blood cancers.",
+    "evidenceExcerpt": "It is developed specifically for B-cell blood cancers.",
+    "pageNumbers": [
+      10
+    ],
+    "examUse": "Correct-pair or statement-based question matching the therapy to its target disease.",
+    "distractorHooks": [
+      "T-cell blood cancers",
+      "Solid tumors",
+      "Autoimmune diseases"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-004-advanced-biological-tools-and-forensics-section-007-car-t-cell-therapy-nexcar19",
+    "claimType": "Institution",
+    "claimText": "NexCAR19 was developed by ImmunoACT, incubated under IIT Bombay and Tata Memorial Hospital, with support from DBT and BIRAC.",
+    "evidenceExcerpt": "Developed by ImmunoACT (incubated under IIT Bombay and Tata Memorial Hospital) with support from DBT and BIRAC.",
+    "pageNumbers": [
+      10
+    ],
+    "examUse": "Institution-feature question identifying the developers and supporting agencies of NexCAR19.",
+    "distractorHooks": [
+      "Developed solely by ICMR",
+      "Developed by Bharat Biotech",
+      "Supported by CSIR instead of DBT/BIRAC"
+    ]
+  }
+]

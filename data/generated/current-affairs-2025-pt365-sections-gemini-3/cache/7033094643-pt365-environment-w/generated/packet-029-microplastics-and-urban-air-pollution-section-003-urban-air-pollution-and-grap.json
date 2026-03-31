@@ -1,0 +1,149 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding urban air pollution:\n1. Winter temperature inversions facilitate the rapid vertical dispersion of pollutants, thereby improving surface air quality.\n2. The 'street-canyon effect' exacerbates urban air pollution by trapping pollutants between tall buildings in narrow streets.\n3. The permissible limit for PM2.5 under India's National Ambient Air Quality Standards (NAAQS) is 5 µg/m³, which aligns with the WHO 2021 guidelines.\nHow many of the above statements are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect: Winter temperature inversions trap pollutants near the surface rather than dispersing them. Statement 2 is correct: The street-canyon effect, caused by narrow streets with tall buildings, traps pollutants. Statement 3 is incorrect: India's NAAQS limit for PM2.5 is 40 µg/m³, which is significantly higher (more relaxed) than the WHO 2021 guideline of 5 µg/m³.",
+      "takeaway": "India's NAAQS limits for particulate matter are significantly more relaxed than the WHO guidelines, and urban geographical features like the street-canyon effect worsen local pollution.",
+      "evidenceExcerpt": "Causes: Winter weather conditions like temperature inversion; Narrow streets with tall buildings (street-canyon effect) trapping pollutants... Comparison of Air Quality Standards: PM2.5 WHO 2021 Guideline is 5 µg/m³, India (NAAQS) is 40 µg/m³",
+      "contextLines": []
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Graded Response Action Plan (GRAP):\n1. It is an emergency response mechanism originally created on the directions of the Supreme Court of India.\n2. It is implemented by the Commission for Air Quality Management (CAQM) based on the Air Quality Index (AQI) levels.\n3. Its Stage 4, classified as the 'Severe +' category, is triggered when the AQI exceeds the threshold of 300.\nHow many of the above statements are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statements 1 and 2 are correct: GRAP is an emergency response mechanism implemented by CAQM, originally created on Supreme Court directions. Statement 3 is incorrect: GRAP Stage 4 (Severe + category) is triggered when the AQI exceeds 451. An AQI of 201 to 300 triggers Stage 1 (Poor category).",
+      "takeaway": "GRAP is an emergency, rather than structural, mechanism implemented by CAQM, with its most severe stage (Stage 4) activating only when AQI crosses 451.",
+      "evidenceExcerpt": "Graded Response Action Plan (GRAP)... Emergency response mechanism based on AQI level of Delhi implemented by CAQM... originally created on Supreme Court directions... Stage 1: Poor category (AQI 201 to 300)... Stage 4: Severe + category (AQI 451+)",
+      "contextLines": []
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of initiatives and their primary objectives related to air pollution mitigation:\n1. SATAT : Creation of a Compressed Bio-Gas (CBG) ecosystem\n2. PM E-DRIVE : Promotion of electric mobility\n3. GRAP : Long-term structural urban planning for emission reduction\nHow many of the above pairs are correctly matched?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correct: The SATAT initiative aims to create a Compressed Bio-Gas (CBG) ecosystem. Pair 2 is correct: The PM E-DRIVE Scheme promotes electric mobility. Pair 3 is incorrect: GRAP is an emergency response mechanism triggered by high AQI levels, not a long-term structural urban planning tool.",
+      "takeaway": "SATAT focuses on Compressed Bio-Gas (CBG) to help curb air pollution, while GRAP serves strictly as an emergency response based on daily AQI thresholds.",
+      "evidenceExcerpt": "Graded Response Action Plan (GRAP)... Emergency response mechanism... Promotion of electric mobility under PM E-DRIVE Scheme... SATAT initiative for creating Compressed Bio-Gas (CBG) ecosystem.",
+      "contextLines": []
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the regulatory standards for particulate matter (PM2.5):\n\n1. The permissible limit for PM2.5 under India's National Ambient Air Quality Standards (NAAQS) is less stringent than the World Health Organization's (WHO) 2021 guidelines.\n2. The NAAQS threshold for PM2.5 is set at exactly eight times the limit recommended by the WHO 2021 guidelines.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: India's NAAQS limit for PM2.5 is 40 µg/m³, which is significantly higher (less stringent) than the WHO 2021 guideline of 5 µg/m³. Statement 2 is correct: 40 µg/m³ is exactly eight times the WHO guideline of 5 µg/m³.",
+      "takeaway": "India's NAAQS limit for PM2.5 (40 µg/m³) remains significantly more relaxed compared to the updated WHO 2021 guidelines (5 µg/m³).",
+      "evidenceExcerpt": "Comparison of Air Quality Standards: PM2.5 WHO 2021 Guideline is 5 µg/m³, India (NAAQS) is 40 µg/m³..."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Graded Response Action Plan (GRAP), consider the following statements:\n\n1. It is a long-term structural urban planning initiative aimed at permanently eradicating air pollution in the National Capital Region.\n2. Its implementation is dynamically based on real-time Air Quality Index (AQI) levels rather than a fixed calendar schedule.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: GRAP is an emergency response mechanism designed to tackle immediate spikes in pollution, not a long-term structural planning initiative. Statement 2 is correct: It is implemented dynamically by the CAQM based on the prevailing AQI levels in Delhi.",
+      "takeaway": "GRAP is strictly an emergency response framework that activates incrementally based on real-time AQI deterioration, rather than serving as a permanent structural solution.",
+      "evidenceExcerpt": "Graded Response Action Plan (GRAP)... Emergency response mechanism based on AQI level of Delhi implemented by CAQM..."
+    }
+  ]
+}

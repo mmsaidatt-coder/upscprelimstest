@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to Red Sanders (Red Sandalwood), consider the following statements:\n\n1. It naturally grows in the dry deciduous forests of the Southern Eastern Ghats.\n2. The National Biodiversity Authority has sanctioned funds for its conservation under the Compensatory Afforestation Fund Management and Planning Authority (CAMPA).\n3. It is listed in Appendix II of the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES).\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Red Sanders is native to the Southern Eastern Ghats of Andhra Pradesh and grows in dry deciduous forests between 150-900 meters altitude.\nStatement 2 is incorrect: The National Biodiversity Authority sanctioned funds for Red Sanders conservation under the Access and Benefit Sharing (ABS) Mechanism, not under CAMPA.\nStatement 3 is correct: Its conservation status is Endangered (EN) on the IUCN Red List, and it is listed in CITES Appendix II.",
+      "takeaway": "Red Sanders is native to the dry deciduous forests of the Southern Eastern Ghats. It is listed in CITES Appendix II, and its conservation is supported by the ABS Mechanism.",
+      "evidenceExcerpt": "National Biodiversity Authority sanctioned fund for Red Sanders Conservation under Access and Benefit Sharing (ABS) Mechanism. Native to Southern Eastern Ghats of Andhra Pradesh. Grows in dry deciduous forests between 150-900 meters altitude... Conservation Status: CITES Appendix II; IUCN Status: EN (Endangered).",
+      "qualityScore": 88,
+      "reviewNotes": "Strong statement-based question testing habitat, conservation governance (ABS vs CAMPA), and international trade status (CITES). The distractors and statements are highly relevant for UPSC Prelims."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Species Identification",
+      "prompt": "It is a tree species native to the Southern Eastern Ghats of Andhra Pradesh, typically growing in dry deciduous forests at an altitude of 150 to 900 meters. The wood of this species contains a characteristic red dye called 'Santalin'. The National Biodiversity Authority has sanctioned funds for its conservation under the Access and Benefit Sharing (ABS) Mechanism.\n\nWhich one of the following species is best described by the passage given above?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Red Sanders"
+        },
+        {
+          "id": "B",
+          "text": "Indian Rosewood"
+        },
+        {
+          "id": "C",
+          "text": "Indian Sandalwood"
+        },
+        {
+          "id": "D",
+          "text": "Indian Kino Tree"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "The passage describes Red Sanders (Red Sandalwood). It is native to the Southern Eastern Ghats of Andhra Pradesh and grows in dry deciduous forests between 150-900 meters altitude. Its wood contains the red dye 'Santalin', which imparts its characteristic colour. Furthermore, the National Biodiversity Authority has sanctioned funds for its conservation under the Access and Benefit Sharing (ABS) Mechanism.",
+      "takeaway": "Red Sanders is an Endangered tree native to the dry deciduous forests of the Southern Eastern Ghats, known for the red dye 'Santalin' and conserved using ABS funds.",
+      "evidenceExcerpt": "National Biodiversity Authority sanctioned fund for Red Sanders Conservation under Access and Benefit Sharing (ABS) Mechanism. Native to Southern Eastern Ghats of Andhra Pradesh. Grows in dry deciduous forests between 150-900 meters altitude. Presence of red dye 'Santalin' imparts its characteristic red colour.",
+      "qualityScore": 85,
+      "reviewNotes": "A classic UPSC-style species identification question. The distractors are plausible, as they are all valuable timber or dye-yielding trees found in India."
+    }
+  ],
+  "reviewerNotes": "Selected two distinct question types: a species identification paragraph and a multi-statement evaluation. Both questions have been refined to match the tone, difficulty, and formatting of the UPSC CSE Prelims. Distractors were improved to ensure they are plausible and parallel."
+}

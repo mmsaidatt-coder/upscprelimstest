@@ -1,0 +1,67 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to 'SSI Mantra', recently seen in the news, consider the following statements:\n1. It is an indigenous surgical robotic system developed in India.\n2. It recently achieved the global milestone of performing the world's first cardiac telesurgery across a distance of 10,000 km.\n3. It integrates advanced features such as predictive analytics and 3D high-definition visualization.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: SSI Mantra is India's indigenous surgical robotic system.\nStatement 2 is correct: It recently performed the world's first cardiac telesurgery across a distance of 10,000 km, marking a significant milestone in remote healthcare.\nStatement 3 is correct: Its key technological features include 3D High-Definition Visualization and Predictive Analytics to assist surgeons during complex procedures.",
+      "takeaway": "SSI Mantra represents a major leap in India's indigenous medical technology, demonstrating capabilities in advanced robotic surgery and intercontinental telesurgery.",
+      "evidenceExcerpt": "SSI Mantra performed world’s first cardiac telesurgery across 10,000 km. About SSI Mantra - India’s indigenous surgical robotic system. - Key features: 3D High-Definition Visualization, Predictive Analytics, etc."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Application-based",
+      "prompt": "Consider the following technological capabilities:",
+      "contextLines": [
+        "1. Performing remote cardiac surgeries across intercontinental distances.",
+        "2. Utilizing predictive analytics for surgical precision.",
+        "3. Providing 3D high-definition visualization of internal organs.",
+        "Which of the following indigenous technological systems is primarily associated with the capabilities mentioned above?"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Param Pravega"
+        },
+        {
+          "id": "B",
+          "text": "SSI Mantra"
+        },
+        {
+          "id": "C",
+          "text": "Vyommitra"
+        },
+        {
+          "id": "D",
+          "text": "Daksh"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "SSI Mantra is India's indigenous surgical robotic system. It recently achieved the global milestone of performing the world's first cardiac telesurgery across a distance of 10,000 km. Its key features include 3D High-Definition Visualization and Predictive Analytics. Param Pravega is a supercomputer, Vyommitra is a spacefaring humanoid robot developed by ISRO, and Daksh is a remotely operated vehicle for bomb recovery developed by DRDO.",
+      "takeaway": "SSI Mantra is a landmark indigenous surgical robotic system in India, notable for long-distance telesurgery and advanced features like predictive analytics.",
+      "evidenceExcerpt": "SSI Mantra performed world’s first cardiac telesurgery across 10,000 km. About SSI Mantra - India’s indigenous surgical robotic system. - Key features: 3D High-Definition Visualization, Predictive Analytics, etc."
+    }
+  ]
+}

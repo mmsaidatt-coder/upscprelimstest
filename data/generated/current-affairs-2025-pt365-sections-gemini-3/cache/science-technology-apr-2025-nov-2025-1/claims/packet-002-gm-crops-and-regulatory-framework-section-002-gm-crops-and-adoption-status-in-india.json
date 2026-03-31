@@ -1,0 +1,62 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-002-gm-crops-and-regulatory-framework-section-002-gm-crops-and-adoption-status-in-india",
+    "claimType": "Conceptual",
+    "claimText": "Transgenic crops are a subset of genetically modified organisms that specifically contain DNA sequences from another species.",
+    "evidenceExcerpt": "Transgenics are a subset containing DNA from another species (e.g., Bt Cotton).",
+    "pageNumbers": [
+      7
+    ],
+    "examUse": "Statement-based question distinguishing between general GMOs and transgenics.",
+    "distractorHooks": [
+      "All GMOs are transgenics",
+      "Transgenics contain altered DNA from the same species"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-002-gm-crops-and-regulatory-framework-section-002-gm-crops-and-adoption-status-in-india",
+    "claimType": "Factual",
+    "claimText": "Bt cotton is the only genetically modified crop currently approved for commercial cultivation in India.",
+    "evidenceExcerpt": "In India, Bt cotton is the only approved GM crop for cultivation.",
+    "pageNumbers": [
+      7
+    ],
+    "examUse": "Fact-based statement in a multi-statement question about the status of GM crops in India.",
+    "distractorHooks": [
+      "Bt brinjal is approved for cultivation",
+      "Multiple GM crops are approved for cultivation in India"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-002-gm-crops-and-regulatory-framework-section-002-gm-crops-and-adoption-status-in-india",
+    "claimType": "Factual",
+    "claimText": "Bt-brinjal is under a moratorium in India despite having received clearance from the GEAC.",
+    "evidenceExcerpt": "Bt-brinjal is under a moratorium despite GEAC clearance.",
+    "pageNumbers": [
+      7
+    ],
+    "examUse": "Statement-based question on the regulatory status and history of specific GM crops.",
+    "distractorHooks": [
+      "Bt-brinjal is approved for commercial cultivation",
+      "GEAC rejected the clearance for Bt-brinjal"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-002-gm-crops-and-regulatory-framework-section-002-gm-crops-and-adoption-status-in-india",
+    "claimType": "Factual",
+    "claimText": "The conditional approval of GM mustard (DMH-11) is currently under review by the Supreme Court of India.",
+    "evidenceExcerpt": "GM mustard (DMH-11) conditional approval is under Supreme Court review.",
+    "pageNumbers": [
+      7
+    ],
+    "examUse": "Current affairs statement in a question about the regulatory status of GM Mustard.",
+    "distractorHooks": [
+      "GM mustard has unconditional approval for cultivation",
+      "GM mustard was rejected by the GEAC without Supreme Court involvement"
+    ]
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-008-river-dolphins-and-vultures-section-002-vultures-in-india-and-conservation-efforts",
+    "claimType": "Species Status",
+    "claimText": "Four vulture species in India, namely the White-rumped, Indian, Slender-billed, and Red-headed vultures, are classified as Critically Endangered (CR).",
+    "evidenceExcerpt": "Four vulture species in India are Critically Endangered (CR): White-rumped, Indian, Slender-billed, and Red-headed vultures.",
+    "pageNumbers": [
+      20
+    ],
+    "examUse": "Statement-based question on the IUCN status of specific vulture species in India.",
+    "distractorHooks": [
+      "Classifying these four species as Endangered (EN) or Vulnerable (VU)",
+      "Including the Egyptian Vulture in the Critically Endangered list"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-008-river-dolphins-and-vultures-section-002-vultures-in-india-and-conservation-efforts",
+    "claimType": "Species Status",
+    "claimText": "The Egyptian Vulture is classified as Endangered (EN), while the Bearded, Cinereous, and Himalayan Griffon vultures are Near Threatened (NT).",
+    "evidenceExcerpt": "The Egyptian Vulture is Endangered (EN), while Bearded, Cinereous, and Himalayan Griffon are Near Threatened (NT).",
+    "pageNumbers": [
+      20
+    ],
+    "examUse": "Correct-pair question matching vulture species to their respective IUCN Red List status.",
+    "distractorHooks": [
+      "Classifying the Egyptian Vulture as Critically Endangered (CR)",
+      "Classifying the Himalayan Griffon as Endangered (EN)"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-008-river-dolphins-and-vultures-section-002-vultures-in-india-and-conservation-efforts",
+    "claimType": "Ecological Threat",
+    "claimText": "The ingestion of toxic non-steroidal anti-inflammatory drugs (NSAIDs) like diclofenac, which are used to treat livestock, is a major threat to vulture populations.",
+    "evidenceExcerpt": "A major threat to vultures is the ingestion of toxic non-steroidal anti-inflammatory drugs (NSAIDs) like diclofenac used to treat livestock.",
+    "pageNumbers": [
+      20
+    ],
+    "examUse": "Statement-based question on the primary causes of the decline in vulture populations in India.",
+    "distractorHooks": [
+      "Stating that antibiotics or vaccines are the primary pharmaceutical threat",
+      "Claiming the decline is primarily due to poaching for feathers"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-008-river-dolphins-and-vultures-section-002-vultures-in-india-and-conservation-efforts",
+    "claimType": "Conservation Initiative",
+    "claimText": "Vulture Conservation Breeding Centres (VCBC) are located at Rani in Assam and Pinjore in Haryana.",
+    "evidenceExcerpt": "Vulture Conservation Breeding Centres (VCBC) are located at Rani (Assam) and Pinjore (Haryana).",
+    "pageNumbers": [
+      20
+    ],
+    "examUse": "Location-based correct-pair question matching conservation centers to their respective states.",
+    "distractorHooks": [
+      "Placing Rani in Haryana and Pinjore in Punjab",
+      "Stating that VCBCs are exclusively located in South India"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-008-river-dolphins-and-vultures-section-002-vultures-in-india-and-conservation-efforts",
+    "claimType": "Habitat Fact",
+    "claimText": "According to the Wildlife Institute of India (WII) assessment, 54% of all documented vulture nests are located within Protected Areas.",
+    "evidenceExcerpt": "Protected Areas hold 54% of all documented vulture nests according to the WII assessment.",
+    "pageNumbers": [
+      20
+    ],
+    "examUse": "Statement-based question regarding the nesting habitats and distribution of vultures in India.",
+    "distractorHooks": [
+      "Claiming that over 90% of vulture nests are found outside Protected Areas",
+      "Stating that vultures do not nest in Protected Areas due to human interference"
+    ]
+  }
+]

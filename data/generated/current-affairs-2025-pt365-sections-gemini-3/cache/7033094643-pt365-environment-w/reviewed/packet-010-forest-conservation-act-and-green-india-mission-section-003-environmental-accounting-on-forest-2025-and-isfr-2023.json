@@ -1,0 +1,73 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Multiple-Statement",
+      "prompt": "With reference to the India State of Forest Report (ISFR) 2023, consider the following statements:\n1. India's combined forest and tree cover accounts for exactly one-third of its total geographical area.\n2. The proportion of geographical area under forest cover is greater than the area under tree cover.\n3. More than five States and Union Territories have over 75 percent of their geographical area under forest cover.\n\nHow many of the above statements are correct?",
+      "contextLines": [
+        "ISFR 2023 shows total forest and tree cover increased to 25.17 percent of geographical area (21.76 percent Forest cover, 3.41 percent Tree cover).",
+        "8 states/UTs have forest cover above 75 percent, including Mizoram, Lakshadweep, A&N Islands, and Arunachal Pradesh."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: India's total forest and tree cover is 25.17 percent of its geographical area, which is short of the one-third (33 percent) target set by the National Forest Policy. Statement 2 is correct: Forest cover accounts for 21.76 percent, which is significantly greater than the tree cover at 3.41 percent. Statement 3 is correct: 8 States/UTs (which is more than five) have a forest cover above 75 percent of their area.",
+      "takeaway": "ISFR distinguishes between 'Forest Cover' (21.76%) and 'Tree Cover' (3.41%). Combined, they form 25.17% of India's geographical area. Furthermore, 8 States/UTs have highly dense forest cover exceeding 75%.",
+      "evidenceExcerpt": "ISFR 2023 shows total forest and tree cover increased to 25.17 percent of geographical area (21.76 percent Forest cover, 3.41 percent Tree cover)... 8 states/UTs have forest cover above 75 percent",
+      "qualityScore": 88,
+      "reviewNotes": "Strong use of the 'How many statements' format. Statement 1 plays on the well-known 33% target vs actual data, making it a classic UPSC-style trap."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the 'Environmental Accounting on Forest 2025' report:\n1. It is the first dedicated publication on forest accounting released by the Ministry of Environment, Forest and Climate Change.\n2. It is based on the UN System of Environmental Economic Accounts (SEEA) framework that integrates economic and environmental data.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [
+        "Environmental Accounting on Forest 2025 Report released by MoSPI is the first dedicated publication on forest accounting based on the UN System of Environmental Economic Accounts (SEEA) Framework.",
+        "SEEA integrates economic and environmental data."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The 'Environmental Accounting on Forest 2025' report is released by the Ministry of Statistics and Programme Implementation (MoSPI), not the Ministry of Environment, Forest and Climate Change (MoEFCC). Statement 2 is correct: It is based on the UN SEEA framework, which integrates economic and environmental data.",
+      "takeaway": "Environmental accounting reports that integrate economic data are often published by statistical bodies like MoSPI rather than environmental ministries. The UN SEEA framework is the standard for this integration.",
+      "evidenceExcerpt": "Environmental Accounting on Forest 2025 Report released by MoSPI is the first dedicated publication on forest accounting based on the UN System of Environmental Economic Accounts (SEEA) Framework. SEEA integrates economic and environmental data.",
+      "qualityScore": 85,
+      "reviewNotes": "Excellent trap testing the publishing ministry. Aspirants naturally assume forest reports are published by MoEFCC, making MoSPI a highly effective and educational distractor."
+    }
+  ],
+  "reviewerNotes": "Selected 3 high-quality questions. Candidate 2 was refined to test the MoSPI vs MoEFCC trap clearly. Candidate 4 was adapted to the latest 'How many statements' format, testing crucial ISFR 2023 data points. Candidate 1 was retained as it uses excellent distractors (confusing highest total area or previous year's growth with current year's growth)."
+}

@@ -1,0 +1,48 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-021-private-space-sector-and-solar-observatories-section-001-3i-atlas",
+    "claimType": "Factual",
+    "claimText": "3I/ATLAS is an interstellar comet discovered by the NASA-funded ATLAS survey telescope located in Chile.",
+    "evidenceExcerpt": "NASA funded ATLAS (Asteroid Terrestrial-impact Last Alert System) survey telescope in Chile discovered an interstellar Comet named 3I/ATLAS.",
+    "pageNumbers": [
+      43
+    ],
+    "examUse": "Statement-based question on recent space discoveries and the location of the ATLAS telescope.",
+    "distractorHooks": [
+      "Discovered by ISRO or ESA",
+      "ATLAS telescope is located in Hawaii or India",
+      "3I/ATLAS is an asteroid"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-021-private-space-sector-and-solar-observatories-section-001-3i-atlas",
+    "claimType": "Conceptual",
+    "claimText": "3I/ATLAS is categorized as an interstellar comet because of the hyperbolic shape of its orbital path.",
+    "evidenceExcerpt": "It is an active comet categorized as interstellar because of the hyperbolic shape of its orbital path.",
+    "pageNumbers": [
+      43
+    ],
+    "examUse": "Conceptual question on the criteria for classifying celestial bodies as interstellar.",
+    "distractorHooks": [
+      "Categorized as interstellar due to its chemical composition",
+      "Has an elliptical or parabolic orbital path"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-021-private-space-sector-and-solar-observatories-section-001-3i-atlas",
+    "claimType": "Factual",
+    "claimText": "The interstellar comet 3I/ATLAS does not follow a closed orbital path around the Sun.",
+    "evidenceExcerpt": "It does not follow a closed orbital path about the Sun.",
+    "pageNumbers": [
+      43
+    ],
+    "examUse": "Statement-based question on the orbital characteristics of interstellar comets.",
+    "distractorHooks": [
+      "Follows a highly elliptical closed orbit around the Sun",
+      "Orbits the Earth instead of the Sun"
+    ]
+  }
+]

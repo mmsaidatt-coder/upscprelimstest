@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Project Waterworth', recently seen in the news:\n1. It is the world's longest subsea cable project initiated by Meta.\n2. It is designed to connect all seven continents using fiber-optic technology.\n3. Its designated landing sites in India are located on both the western and eastern coasts.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Project Waterworth is the world's longest subsea cable project, initiated by Meta. Statement 2 is incorrect: It is designed to connect five major continents, not all seven. Statement 3 is correct: The selected landing sites in India are Mumbai (western coast) and Visakhapatnam (eastern coast).",
+      "takeaway": "Project Waterworth is Meta's subsea fiber-optic cable project connecting five continents, with Indian landing sites in Mumbai and Visakhapatnam.",
+      "evidenceExcerpt": "Meta has selected Mumbai and Visakhapatnam as the landing sites for the undersea cable project, Waterworth. It will connect five major continents. It is the world’s longest subsea cable project."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to international communication infrastructure, consider the following statements:\n1. The backbone of the international internet is formed by fiber-optic cables laid across the ocean floor.\n2. Meta's Project Waterworth establishes its Indian landing sites exclusively on the eastern coast of India.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Undersea fiber-optic cables transmit information and enable worldwide communications, acting as the backbone of the international internet. Statement 2 is incorrect: Project Waterworth has selected both Mumbai (western coast) and Visakhapatnam (eastern coast) as its landing sites in India.",
+      "takeaway": "Undersea fiber-optic cables are the primary infrastructure for global internet connectivity. Project Waterworth utilizes both the eastern and western coasts of India for its landing sites.",
+      "evidenceExcerpt": "Meta has selected Mumbai and Visakhapatnam as the landing sites for the undersea cable project, Waterworth... Undersea cables are fiber-optic cable laid across the ocean floor that transmits information and enables worldwide communications. Significance: Undersea cables are backbone of international internet."
+    }
+  ]
+}

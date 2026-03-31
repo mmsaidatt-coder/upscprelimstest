@@ -1,0 +1,49 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-031-polluted-river-stretches-and-desalination-section-002-central-pollution-control-board-cpcb-and-environmental-compensation",
+    "claimType": "Institution-Feature",
+    "claimText": "The Central Pollution Control Board (CPCB) is a statutory body established under the Water (Prevention and Control of Pollution) Act, 1974.",
+    "evidenceExcerpt": "CPCB is a statutory body established under the Water (Prevention and Control of Pollution) Act, 1974.",
+    "pageNumbers": [
+      64
+    ],
+    "examUse": "Statement-based question identifying the parent legislation of CPCB.",
+    "distractorHooks": [
+      "Established under the Environment (Protection) Act, 1986",
+      "Established under the Air (Prevention and Control of Pollution) Act, 1981",
+      "It is an executive body"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-031-polluted-river-stretches-and-desalination-section-002-central-pollution-control-board-cpcb-and-environmental-compensation",
+    "claimType": "Institution-Feature",
+    "claimText": "In addition to the Water Act, the CPCB is entrusted with powers under the Air (Prevention and Control of Pollution) Act, 1981, and provides technical services under the Environment (Protection) Act, 1986.",
+    "evidenceExcerpt": "CPCB is also entrusted with powers and functions under the Air (Prevention and Control of Pollution) Act, 1981. CPCB provides technical services to the Environment Ministry under the Environment (Protection) Act, 1986.",
+    "pageNumbers": [
+      64
+    ],
+    "examUse": "Multiple-statement question testing the scope of CPCB's statutory mandate across different environmental laws.",
+    "distractorHooks": [
+      "CPCB derives its powers exclusively from the Water Act",
+      "CPCB has no statutory role under the Environment (Protection) Act, 1986"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-031-polluted-river-stretches-and-desalination-section-002-central-pollution-control-board-cpcb-and-environmental-compensation",
+    "claimType": "Legal-Conceptual",
+    "claimText": "Pollution Control Boards (PCBs) can impose Environmental Compensation (EC) under the Water Act, 1974 and Air Act, 1981 specifically for environmental damage or imminent damage, rather than for every violation.",
+    "evidenceExcerpt": "As per Supreme Court ruling, PCBs can impose or collect EC under Water Act, 1974 and Air Act, 1981 in case of environmental damage by erring entity or when damage is imminent, not for every violation.",
+    "pageNumbers": [
+      64
+    ],
+    "examUse": "Statement-based question on the conditions and statutory backing for imposing Environmental Compensation.",
+    "distractorHooks": [
+      "EC can be imposed for any minor administrative violation",
+      "EC is imposed exclusively under the National Green Tribunal Act",
+      "EC is considered a punitive criminal action"
+    ]
+  }
+]

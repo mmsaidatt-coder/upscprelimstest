@@ -1,0 +1,45 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-019-launch-infrastructure-and-satellite-internet-section-001-analog-space-research-stations-and-tso-kar-valley",
+    "claimType": "Factual",
+    "claimText": "India's analog space research, which simulates extraterrestrial environments, is led by ISRO's Human Space Flight Centre (HSFC).",
+    "evidenceExcerpt": "Analog space research is led by ISRO's Human Space Flight Centre (HSFC) to simulate extraterrestrial environments.",
+    "pageNumbers": [
+      39
+    ],
+    "examUse": "Statement-based question on ISRO's organizational structure and responsibilities.",
+    "distractorHooks": [
+      "Attributing the leadership to URSC, VSSC, or IN-SPACe instead of HSFC."
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-019-launch-infrastructure-and-satellite-internet-section-001-analog-space-research-stations-and-tso-kar-valley",
+    "claimType": "Factual",
+    "claimText": "Global analog space research stations include the Mars Desert Research Station in the US, the Flashline Mars Arctic Station in Canada, and BIOS-3 in Russia.",
+    "evidenceExcerpt": "Global analog stations include the Mars Desert Research Station (US), Flashline Mars Arctic Station (Canada), and BIOS-3 (Russia).",
+    "pageNumbers": [
+      39
+    ],
+    "examUse": "Correct-pair question matching analog stations to their respective countries.",
+    "distractorHooks": [
+      "Swapping the countries, such as placing BIOS-3 in Canada or Flashline in Russia."
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-019-launch-infrastructure-and-satellite-internet-section-001-analog-space-research-stations-and-tso-kar-valley",
+    "claimType": "Conceptual",
+    "claimText": "Tso Kar Valley was selected for analog space research because its environment mimics Mars-like conditions, including high UV radiation, low atmospheric pressure, extreme cold, and saline permafrost.",
+    "evidenceExcerpt": "Tso Kar Valley was chosen for its Mars-like conditions, which include high UV radiation, low atmospheric pressure, extreme cold, and saline permafrost.",
+    "pageNumbers": [
+      39
+    ],
+    "examUse": "Statement-based question on the geographical and climatic features of Tso Kar Valley that make it suitable for space simulation.",
+    "distractorHooks": [
+      "Claiming it simulates Venus-like conditions",
+      "Stating it has high atmospheric pressure or low UV radiation"
+    ]
+  }
+]

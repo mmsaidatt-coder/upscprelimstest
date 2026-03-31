@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the '3 By 35 Initiative' recently seen in the news:\n1. It is an initiative launched by the World Health Organization (WHO).\n2. It aims to increase the prices of tobacco, alcohol, and sugary drinks by at least 35% by the year 2030.\n3. It promotes the use of health taxes to address the rising burden of non-communicable diseases (NCDs).\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The 3 By 35 Initiative was launched by the World Health Organization (WHO). Statement 2 is incorrect: The initiative aims to raise the prices of tobacco, alcohol, and sugary drinks by at least 50% (not 35%) by the year 2035 (not 2030). Statement 3 is correct: It recommends health taxes as a cost-effective tool to address population levels of obesity and other related non-communicable diseases (NCDs).",
+      "takeaway": "The WHO's 3 By 35 Initiative targets a 50% price increase on three unhealthy products (tobacco, alcohol, and sugary drinks) by 2035 using health taxes to combat NCDs.",
+      "evidenceExcerpt": "WHO launched 3 By 35 Initiatives, aims to raise prices of any or all of three unhealthy products tobacco, alcohol, and sugary drinks by at least 50% through health taxes by 2035... WHO recommends taxation as one of the most cost-effective tools for addressing population levels of obesity and other related non-communicable diseases (NCDs)."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to 'Health Taxes' as recommended by the World Health Organization (WHO), consider the following statements:\n1. They are levied primarily on products that have a negative public health impact to address non-communicable diseases (NCDs).\n2. They are considered one of the most cost-effective tools for addressing population levels of obesity.\n3. They are exclusively applied to ultra-processed packaged foods and trans-fats.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Health taxes are levied on products with a negative public health impact (e.g., tobacco) to address NCDs. Statement 2 is correct: The WHO recommends taxation as one of the most cost-effective tools for addressing population levels of obesity. Statement 3 is incorrect: Health taxes are not exclusively applied to ultra-processed foods; the WHO specifically targets products like tobacco, alcohol, and sugary drinks under its initiatives.",
+      "takeaway": "Health taxes are a cost-effective WHO-recommended tool levied on unhealthy products like tobacco, alcohol, and sugary drinks to combat obesity and non-communicable diseases.",
+      "evidenceExcerpt": "What is Health Tax? Levied on products that have a negative public health impact e.g. Tobacco, etc. WHO recommends taxation as one of the most cost-effective tools for addressing population levels of obesity and other related non-communicable diseases (NCDs)."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "Which of the following best describes the primary objective of the '3 By 35 Initiative' recently seen in the news?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "To eliminate three major communicable diseases—tuberculosis, malaria, and HIV/AIDS—in 35 high-burden countries."
+        },
+        {
+          "id": "B",
+          "text": "To ensure that 35% of the global population has access to three essential primary healthcare services by 2035."
+        },
+        {
+          "id": "C",
+          "text": "To raise the prices of tobacco, alcohol, and sugary drinks by at least 50% through health taxes by 2035."
+        },
+        {
+          "id": "D",
+          "text": "To reduce out-of-pocket expenditure on healthcare to below 35% of total health spending in developing nations."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The 3 By 35 Initiative, launched by the WHO, aims to raise the prices of any or all of three unhealthy products—tobacco, alcohol, and sugary drinks—by at least 50% through health taxes by the year 2035.",
+      "takeaway": "The '3' in the 3 By 35 Initiative refers to three products (tobacco, alcohol, sugary drinks), and '35' refers to the target year 2035.",
+      "evidenceExcerpt": "WHO launched 3 By 35 Initiatives, aims to raise prices of any or all of three unhealthy products tobacco, alcohol, and sugary drinks by at least 50% through health taxes by 2035."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Multiple-Choice",
+      "prompt": "Which of the following combinations of products is specifically targeted for price increases under the World Health Organization's '3 By 35 Initiative'?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Tobacco, ultra-processed foods, and trans-fats"
+        },
+        {
+          "id": "B",
+          "text": "Tobacco, alcohol, and sugary drinks"
+        },
+        {
+          "id": "C",
+          "text": "Alcohol, red meat, and sodium-rich foods"
+        },
+        {
+          "id": "D",
+          "text": "Sugary drinks, artificial sweeteners, and tobacco"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The WHO's '3 By 35 Initiative' explicitly aims to raise the prices of any or all of three specific unhealthy products: tobacco, alcohol, and sugary drinks, by at least 50% through health taxes by 2035.",
+      "takeaway": "The '3' in the 3 By 35 Initiative refers to the three targeted products: tobacco, alcohol, and sugary drinks.",
+      "evidenceExcerpt": "WHO launched 3 By 35 Initiatives, aims to raise prices of any or all of three unhealthy products tobacco, alcohol, and sugary drinks by at least 50% through health taxes by 2035."
+    }
+  ]
+}

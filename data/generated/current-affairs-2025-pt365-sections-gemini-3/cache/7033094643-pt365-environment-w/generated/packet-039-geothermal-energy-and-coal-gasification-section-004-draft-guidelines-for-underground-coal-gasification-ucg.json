@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Draft Guidelines for Underground Coal Gasification (UCG):\n1. Companies operating UCG blocks are required to maintain an escrow account to ensure scientific mine closure.\n2. This escrow account is mandated to be maintained with the Ministry of Environment, Forest and Climate Change (MoEFCC).\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The Draft Guidelines for Underground Coal Gasification (UCG) deal with the preparation of mining and mine closure plans, requiring companies to maintain an escrow account to ensure scientific mine closure. Statement 2 is incorrect: The escrow account is required to be maintained with the Coal Controller Organization (CCO), not the Ministry of Environment, Forest and Climate Change (MoEFCC).",
+      "takeaway": "Financial security for the scientific closure of Underground Coal Gasification (UCG) mines is ensured through an escrow account maintained with the Coal Controller Organization (CCO).",
+      "evidenceExcerpt": "Draft Guidelines for UCG deal with the preparation of mining and mine closure plans for UCG blocks. To ensure scientific mine closure, companies will be required to maintain an escrow account with the Coal Controller Organization (CCO)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Mechanism-Design",
+      "prompt": "Under the Draft Guidelines for Underground Coal Gasification (UCG), companies are required to maintain an escrow account with the Coal Controller Organization (CCO). What is the primary regulatory objective of mandating this specific account?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "To guarantee the timely payment of coal block royalties and cess to the respective state governments."
+        },
+        {
+          "id": "B",
+          "text": "To ensure the scientific closure of mines and mitigate post-extraction environmental impacts."
+        },
+        {
+          "id": "C",
+          "text": "To create a dedicated corpus for rehabilitating local communities displaced by gasification projects."
+        },
+        {
+          "id": "D",
+          "text": "To fund the research and deployment of integrated carbon capture and storage technologies."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Draft Guidelines for UCG mandate that companies maintain an escrow account with the Coal Controller Organization (CCO) specifically to ensure the scientific closure of mines once operations cease. This acts as a financial mechanism to prevent abandoned mines and ensure environmental remediation.",
+      "takeaway": "In mining and extraction regulations, escrow accounts are frequently utilized as a mechanism design to secure funds upfront for scientific mine closure, ensuring companies do not abandon sites without proper environmental remediation.",
+      "evidenceExcerpt": "Draft Guidelines for UCG deal with the preparation of mining and mine closure plans for UCG blocks. To ensure scientific mine closure, companies will be required to maintain an escrow account with the Coal Controller Organization (CCO)."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the economic paradoxes discussed in the context of new technologies like Artificial Intelligence (AI), consider the following statements:\n\n1. The Jevons Paradox implies that making AI algorithms more computationally efficient will lead to a decrease in the overall demand for computing resources.\n2. The Solow Paradox describes a scenario where the widespread deployment of advanced technologies fails to generate a commensurate increase in economic productivity.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [
+        "The increased global adoption of AI systems has highlighted two economic paradoxes.",
+        "The Jevons Paradox occurs when technological progress makes a resource more efficient, leading to an increase in demand for that resource.",
+        "The Solow Paradox describes a situation where the extensive use of advanced technology, like computers or AI, fails to result in an expected increase in productivity."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The Jevons Paradox occurs when technological progress makes a resource more efficient, which paradoxically leads to an increase (not a decrease) in the overall demand for that resource. Therefore, highly efficient AI algorithms would likely drive up total computing demand rather than reduce it.\n\nStatement 2 is correct: The Solow Paradox refers to the economic phenomenon where the extensive adoption of advanced technologies (like computers or AI) does not immediately or proportionally translate into expected productivity gains.",
+      "takeaway": "Understanding technology economics requires recognizing that efficiency often drives higher consumption (Jevons Paradox) and that technological integration does not automatically guarantee measurable productivity growth (Solow Paradox).",
+      "evidenceExcerpt": "The Jevons Paradox occurs when technological progress makes a resource more efficient, leading to an increase in demand for that resource. The Solow Paradox describes a situation where the extensive use of advanced technology, like computers or AI, fails to result in an expected increase in productivity.",
+      "qualityScore": 88,
+      "reviewNotes": "Candidate 1 effectively tests both economic paradoxes mentioned in the text. The application of the Jevons Paradox to AI computing resources makes it a high-quality, UPSC-style conceptual question."
+    }
+  ],
+  "reviewerNotes": "Selected Candidate 1 as it elegantly covers both the Jevons and Solow paradoxes in a single statement-based question, applying the concepts directly to AI. Candidate 2 was rejected to avoid redundancy, as it only tested the Solow Paradox which is already covered in Candidate 1."
+}

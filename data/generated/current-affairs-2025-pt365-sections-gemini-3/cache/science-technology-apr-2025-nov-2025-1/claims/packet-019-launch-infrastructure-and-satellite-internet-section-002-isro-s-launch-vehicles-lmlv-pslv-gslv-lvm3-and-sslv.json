@@ -1,0 +1,94 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-019-launch-infrastructure-and-satellite-internet-section-002-isro-s-launch-vehicles-lmlv-pslv-gslv-lvm3-and-sslv",
+    "claimType": "Factual",
+    "claimText": "The Lunar Module Launch Vehicle (LMLV) is a three-stage rocket utilizing liquid propellant for its first two stages and a cryogenic propellant for its third stage.",
+    "evidenceExcerpt": "The Lunar Module Launch Vehicle (LMLV), ready by 2035, is a 3-stage vehicle utilizing liquid propellant for the first two stages and cryogenic for the third.",
+    "pageNumbers": [
+      39
+    ],
+    "examUse": "Statement-based question on ISRO's future launch vehicles and their stage compositions.",
+    "distractorHooks": [
+      "Swapping liquid for solid propellant in the first two stages",
+      "Changing the number of stages to four",
+      "Stating cryogenic propellant is used in the first stage"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-019-launch-infrastructure-and-satellite-internet-section-002-isro-s-launch-vehicles-lmlv-pslv-gslv-lvm3-and-sslv",
+    "claimType": "Factual",
+    "claimText": "The Polar Satellite Launch Vehicle (PSLV) is a four-stage vehicle and the first Indian launch vehicle to be equipped with liquid stages.",
+    "evidenceExcerpt": "PSLV is a four-stage vehicle and the first Indian launch vehicle equipped with liquid stages.",
+    "pageNumbers": [
+      39
+    ],
+    "examUse": "Correct-pair or statement-based question on the historical evolution and features of ISRO's launch vehicles.",
+    "distractorHooks": [
+      "Claiming PSLV is an all-solid vehicle",
+      "Claiming GSLV was the first Indian vehicle to use liquid stages",
+      "Stating PSLV has three stages"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-019-launch-infrastructure-and-satellite-internet-section-002-isro-s-launch-vehicles-lmlv-pslv-gslv-lvm3-and-sslv",
+    "claimType": "Factual",
+    "claimText": "The Geosynchronous Satellite Launch Vehicle (GSLV) is a fourth-generation, three-stage vehicle designed to launch 2.0-ton class satellites into Geosynchronous Transfer Orbit (GTO).",
+    "evidenceExcerpt": "GSLV: A fourth-generation, three-stage vehicle designed to launch 2.0-ton class satellites into GTO.",
+    "pageNumbers": [
+      39
+    ],
+    "examUse": "Comparison question between GSLV and LVM3 payload capacities.",
+    "distractorHooks": [
+      "Stating GSLV can carry 4-ton or 10-ton payloads to GTO",
+      "Claiming GSLV is a four-stage vehicle"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-019-launch-infrastructure-and-satellite-internet-section-002-isro-s-launch-vehicles-lmlv-pslv-gslv-lvm3-and-sslv",
+    "claimType": "Factual",
+    "claimText": "The Launch Vehicle Mark-3 (LVM 3) is a heavy-lift, three-stage vehicle capable of carrying 4-ton class satellites to GTO or approximately 10 tons to Low Earth Orbit (LEO).",
+    "evidenceExcerpt": "LVM 3 is a heavy-lift three-stage vehicle capable of carrying 4-ton class satellites to GTO or 10 tons to LEO.",
+    "pageNumbers": [
+      39
+    ],
+    "examUse": "Statement-based question on payload capacities of ISRO's heavy-lift vehicles.",
+    "distractorHooks": [
+      "Swapping the payload capacities (10 tons to GTO, 4 tons to LEO)",
+      "Claiming LVM 3 is a four-stage vehicle"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-019-launch-infrastructure-and-satellite-internet-section-002-isro-s-launch-vehicles-lmlv-pslv-gslv-lvm3-and-sslv",
+    "claimType": "Factual",
+    "claimText": "The Small Satellite Launch Vehicle (SSLV) is a three-stage, all-solid propulsion vehicle designed for launching Mini, Micro, or Nano satellites.",
+    "evidenceExcerpt": "SSLV is a three-stage, all-solid propulsion vehicle designed specifically for Mini, Micro, or Nano satellites.",
+    "pageNumbers": [
+      39
+    ],
+    "examUse": "Statement-based question on the propulsion type and purpose of SSLV.",
+    "distractorHooks": [
+      "Claiming SSLV uses liquid or cryogenic stages",
+      "Stating SSLV is designed for heavy communication satellites"
+    ]
+  },
+  {
+    "id": "claim-006",
+    "sectionId": "packet-019-launch-infrastructure-and-satellite-internet-section-002-isro-s-launch-vehicles-lmlv-pslv-gslv-lvm3-and-sslv",
+    "claimType": "Factual",
+    "claimText": "EOS-09 is an advanced Earth observation satellite equipped with C-band Synthetic Aperture Radar (SAR) technology.",
+    "evidenceExcerpt": "EOS-09 is an advanced Earth observation satellite equipped with C-band SAR technology.",
+    "pageNumbers": [
+      39
+    ],
+    "examUse": "Statement-based question on satellite payloads and applications.",
+    "distractorHooks": [
+      "Claiming EOS-09 is a communication or navigation satellite",
+      "Stating EOS-09 uses optical sensors instead of SAR technology"
+    ]
+  }
+]

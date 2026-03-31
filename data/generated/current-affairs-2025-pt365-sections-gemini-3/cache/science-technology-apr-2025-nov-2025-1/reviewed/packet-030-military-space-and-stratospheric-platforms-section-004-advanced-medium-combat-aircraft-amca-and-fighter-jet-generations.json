@@ -1,0 +1,74 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Multiple-choice",
+      "prompt": "Which of the following technological features explicitly distinguish a fifth-generation fighter aircraft from a 4.5th generation platform?\n1. Internal weapons bays\n2. Supercruise capabilities\n3. Radar-absorbent materials\n\nSelect the correct answer using the code given below:",
+      "contextLines": [
+        "5th generation fighters feature stealth capabilities, twin engines, supercruise, and internal weapons bays.",
+        "4.5th generation fighters (e.g., Rafale, Eurofighter Typhoon) added stealth and radar absorbent materials to extend 4th generation capabilities."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "4.5th generation fighters (such as the Rafale and Eurofighter Typhoon) already incorporate stealth features and radar-absorbent materials to enhance their 4th generation capabilities. The technological leap to the 5th generation is explicitly defined by the addition of internal weapons bays and supercruise capabilities, alongside twin engines and advanced stealth. Therefore, features 1 and 2 distinguish the 5th generation from the 4.5th generation.",
+      "takeaway": "The evolution of fighter jets is incremental; 4.5th generation introduced stealth coatings (radar-absorbent materials) to existing airframes, while 5th generation requires ground-up redesigns for internal weapons bays and supercruise.",
+      "evidenceExcerpt": "5th generation fighters feature stealth capabilities, twin engines, supercruise, and internal weapons bays. 4.5th generation fighters (e.g., Rafale, Eurofighter Typhoon) added stealth and radar absorbent materials to extend 4th generation capabilities.",
+      "qualityScore": 88,
+      "reviewNotes": "Excellent conceptual question. It requires the candidate to understand the incremental technological differences between generations rather than just memorizing features in isolation."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the classification of fighter aircraft:\n1. Fifth-generation fighter jets are primarily characterized by single-engine designs and external weapons bays to maximize payload.\n2. The integration of radar-absorbent materials into existing fourth-generation airframes classifies them as 4.5th generation aircraft.\n3. Currently, the United States, Russia, and China are the only countries possessing operational fifth-generation fighter aircraft.\n\nHow many of the above statements are correct?",
+      "contextLines": [
+        "Only the US (F-22, F-35), Russia (Su-57), and China (J-20) currently have operational 5th generation aircraft.",
+        "5th generation fighters feature stealth capabilities, twin engines, supercruise, and internal weapons bays.",
+        "4.5th generation fighters (e.g., Rafale, Eurofighter Typhoon) added stealth and radar absorbent materials to extend 4th generation capabilities."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Fifth-generation fighters feature twin engines and internal weapons bays to maintain their stealth profile. Statement 2 is correct: 4.5th generation fighters (e.g., Rafale, Eurofighter Typhoon) are essentially 4th generation platforms upgraded with stealth features and radar-absorbent materials. Statement 3 is correct: Only the US (F-22, F-35), Russia (Su-57), and China (J-20) currently have operational 5th generation aircraft.",
+      "takeaway": "Fifth-generation fighters are distinguished by twin engines, supercruise, and internal weapons bays, and are currently operated only by the US, Russia, and China.",
+      "evidenceExcerpt": "Only the US (F-22, F-35), Russia (Su-57), and China (J-20) currently have operational 5th generation aircraft. 5th generation fighters feature stealth capabilities, twin engines, supercruise, and internal weapons bays. 4.5th generation fighters (e.g., Rafale, Eurofighter Typhoon) added stealth and radar absorbent materials to extend 4th generation capabilities.",
+      "qualityScore": 85,
+      "reviewNotes": "Effectively combines conceptual knowledge of fighter jet generations with factual knowledge of global military capabilities. The statements are well-crafted and mimic UPSC's style of testing nuances."
+    }
+  ],
+  "reviewerNotes": "Selected 4 high-quality questions covering the AMCA programme, fighter jet generations, global operational capabilities, and specific technological distinctions. Rewrote prompts and options to align strictly with UPSC Prelims standards, ensuring plausible distractors and clear, unambiguous explanations."
+}

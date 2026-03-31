@@ -1,0 +1,66 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-002-banking-grievance-and-liquidity-tools-section-003-co-lending-norms-and-payment-aggregators",
+    "claimType": "Factual",
+    "claimText": "Under Co-Lending Arrangements between banks and NBFCs, each Regulated Entity must retain a minimum 10 percent share of the loans.",
+    "evidenceExcerpt": "Co-lending norms require each Regulated Entity to retain a minimum 10 percent share of the loans.",
+    "pageNumbers": [
+      7,
+      8
+    ],
+    "examUse": "Statement-based question on Co-lending norms and risk retention.",
+    "distractorHooks": [
+      "Minimum 20 percent share",
+      "Only the lead bank must retain a share"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-002-banking-grievance-and-liquidity-tools-section-003-co-lending-norms-and-payment-aggregators",
+    "claimType": "Factual",
+    "claimText": "Lenders in a Co-Lending Arrangement can claim Priority Sector Lending status for their respective share of the loans.",
+    "evidenceExcerpt": "Lenders can claim Priority Sector Lending status for their share.",
+    "pageNumbers": [
+      7,
+      8
+    ],
+    "examUse": "Statement-based question on Priority Sector Lending eligibility in co-lending.",
+    "distractorHooks": [
+      "Co-lending loans are ineligible for PSL status",
+      "Only banks can claim PSL status for the entire loan amount"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-002-banking-grievance-and-liquidity-tools-section-003-co-lending-norms-and-payment-aggregators",
+    "claimType": "Factual",
+    "claimText": "Co-lenders must uniformly classify assets; if one lender tags a loan as a Non-Performing Asset (NPA), the other lenders must do the same.",
+    "evidenceExcerpt": "Co-lenders must uniformly classify assets; an NPA tag by one requires the same by others.",
+    "pageNumbers": [
+      7,
+      8
+    ],
+    "examUse": "Statement-based question on NPA classification rules in joint lending.",
+    "distractorHooks": [
+      "Independent asset classification applies to each lender",
+      "NPA classification is decided only by the majority stakeholder"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-002-banking-grievance-and-liquidity-tools-section-003-co-lending-norms-and-payment-aggregators",
+    "claimType": "Factual",
+    "claimText": "Non-bank Payment Aggregators must obtain RBI authorisation under the Payment and Settlement Systems Act, 2007.",
+    "evidenceExcerpt": "Non-bank Payment Aggregators must obtain RBI authorisation under the Payment and Settlement Systems Act, 2007.",
+    "pageNumbers": [
+      7,
+      8
+    ],
+    "examUse": "Statement-based question on regulatory frameworks for Payment Aggregators.",
+    "distractorHooks": [
+      "Authorised under the Banking Regulation Act",
+      "Regulated by the National Payments Corporation of India (NPCI) instead of RBI"
+    ]
+  }
+]

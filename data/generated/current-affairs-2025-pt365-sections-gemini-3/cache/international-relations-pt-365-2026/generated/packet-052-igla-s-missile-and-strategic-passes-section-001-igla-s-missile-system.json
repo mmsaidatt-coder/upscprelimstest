@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Current Affairs",
+      "difficulty": "Moderate",
+      "questionType": "Feature-matching",
+      "prompt": "The 'Igla-S' system, recently in the news, is primarily designed for which of the following operational roles?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Long-range strategic nuclear deterrence"
+        },
+        {
+          "id": "B",
+          "text": "Deep-sea anti-submarine warfare"
+        },
+        {
+          "id": "C",
+          "text": "Air defense for mobile ground units in high-threat environments"
+        },
+        {
+          "id": "D",
+          "text": "Precision-guided surface-to-surface artillery strikes"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The Igla-S is a man-portable surface-to-air missile system specifically designed for mobile ground units to provide air defense against aerial threats in high-threat environments.",
+      "takeaway": "Igla-S is a tactical air defense tool for ground forces.",
+      "evidenceExcerpt": "It is a man-portable, shoulder-launched surface-to-air missile (SAM) system designed for mobile ground units operating in high-threat environments.",
+      "contextLines": []
+    },
+    {
+      "subject": "Current Affairs",
+      "difficulty": "Moderate",
+      "questionType": "Comparison-driven",
+      "prompt": "In the context of air defense architecture, how does the Igla-S system differ from Medium Range Surface-to-Air Missile (MRSAM) systems?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Igla-S is a shoulder-launched system for point defense, whereas MRSAM is typically vehicle-mounted for area defense."
+        },
+        {
+          "id": "B",
+          "text": "Igla-S uses radar-based guidance, while MRSAM relies exclusively on infrared heat-seeking technology."
+        },
+        {
+          "id": "C",
+          "text": "Igla-S is designed for exo-atmospheric interception, while MRSAM is restricted to the lower troposphere."
+        },
+        {
+          "id": "D",
+          "text": "Igla-S is an offensive air-to-air missile, whereas MRSAM is a defensive surface-to-air system."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "The Igla-S is a man-portable (MANPADS), shoulder-launched system (VSHORADS) meant for short-range point defense. In contrast, Medium Range systems (MRSAM) are larger, vehicle-mounted, and provide defense over a wider area. Option B is incorrect as Igla-S uses IR homing. Option C is incorrect as Igla-S is limited to 3.5 km altitude. Option D is incorrect as both are surface-to-air systems.",
+      "takeaway": "MANPADS like Igla-S are distinguished by their portability and short-range 'point defense' role compared to larger SAM batteries.",
+      "evidenceExcerpt": "It is a man-portable, shoulder-launched surface-to-air missile (SAM) system designed for mobile ground units operating in high-threat environments. It is an improved version of Very Short Range Air Defence Systems (VSHORADS).",
+      "contextLines": []
+    }
+  ]
+}

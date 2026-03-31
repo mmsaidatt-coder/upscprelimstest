@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Human Papillomavirus (HPV) and cervical cancer:\n1. The human immune system is generally incapable of clearing an HPV infection naturally.\n2. Persistent infection with high-risk HPV is the primary cause of cervical cancer.\n3. India's first indigenously developed HPV test kits were validated by the Department of Biotechnology (DBT).\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The immune system usually clears an HPV infection naturally without medical intervention. Statement 2 is correct: Persistent infection with high-risk HPV can cause abnormal cells leading to cancer, most commonly cervical cancer. Statement 3 is correct: India's first indigenously developed HPV test kits for cervical cancer screening were validated by the Department of Biotechnology (DBT). Therefore, exactly two statements are correct.",
+      "takeaway": "While HPV is a common STI usually cleared by the immune system, persistent high-risk infections cause cervical cancer, for which India now has DBT-validated indigenous test kits.",
+      "evidenceExcerpt": "India's first indigenously developed HPV test kits for cervical cancer screening were validated by DBT... While the immune system usually clears it, persistent infection with high-risk HPV can cause abnormal cells leading to cancer, most commonly cervical cancer."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Human Papillomavirus (HPV) infection, consider the following statements:\n1. It is a sexually transmitted infection that can be cured with a specific course of antiviral drugs.\n2. There is currently no medical treatment available for the HPV infection itself.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect and Statement 2 is correct. HPV is a viral sexually transmitted infection (STI), but there is currently no medical treatment (such as antiviral drugs) for the HPV infection itself. Management focuses on screening and treating the abnormal cells it causes before they develop into cervical cancer.",
+      "takeaway": "There is no direct medical treatment for an active HPV infection, highlighting the critical importance of early screening and preventive measures.",
+      "evidenceExcerpt": "HPV is a common STI... There is currently no treatment for HPV infection."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-006-fiscal-responsibility-and-deficit-management-section-002-key-fiscal-terms-and-deficits",
+    "claimType": "Concept",
+    "claimText": "Fiscal Deficit is calculated as the difference between total expenditure and total receipts, excluding borrowing from the receipts.",
+    "evidenceExcerpt": "Fiscal Deficit is the difference between total expenditure and total receipts excluding borrowing.",
+    "pageNumbers": [
+      15
+    ],
+    "examUse": "Statement-based question on the formula and components of Fiscal Deficit.",
+    "distractorHooks": [
+      "Including borrowing in total receipts",
+      "Confusing Fiscal Deficit with Revenue Deficit"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-006-fiscal-responsibility-and-deficit-management-section-002-key-fiscal-terms-and-deficits",
+    "claimType": "Concept",
+    "claimText": "Primary Deficit is derived by subtracting interest payments from the Fiscal Deficit.",
+    "evidenceExcerpt": "Primary Deficit is calculated by subtracting interest payments from Fiscal Deficit.",
+    "pageNumbers": [
+      15
+    ],
+    "examUse": "Correct-pair or statement-based question identifying deficit formulas.",
+    "distractorHooks": [
+      "Subtracting principal repayment instead of interest payments",
+      "Subtracting interest payments from Revenue Deficit instead of Fiscal Deficit"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-006-fiscal-responsibility-and-deficit-management-section-002-key-fiscal-terms-and-deficits",
+    "claimType": "Concept",
+    "claimText": "Revenue Deficit occurs when revenue expenditure exceeds revenue receipts, representing net dissaving for present consumption without capital formation.",
+    "evidenceExcerpt": "Revenue Deficit represents net dissaving for present consumption without capital formation.",
+    "pageNumbers": [
+      15
+    ],
+    "examUse": "Conceptual statement on the economic implications of Revenue Deficit.",
+    "distractorHooks": [
+      "Stating that Revenue Deficit leads to capital formation",
+      "Confusing net dissaving with net investment"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-006-fiscal-responsibility-and-deficit-management-section-002-key-fiscal-terms-and-deficits",
+    "claimType": "Concept",
+    "claimText": "Effective Revenue Deficit is calculated by excluding grants intended for the creation of capital assets from the Revenue Deficit.",
+    "evidenceExcerpt": "Effective Revenue Deficit excludes grants for creation of Capital Assets from Revenue Deficit.",
+    "pageNumbers": [
+      15
+    ],
+    "examUse": "Statement-based question distinguishing Effective Revenue Deficit from standard Revenue Deficit.",
+    "distractorHooks": [
+      "Subtracting grants for revenue expenditure",
+      "Subtracting capital asset grants from Fiscal Deficit"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-006-fiscal-responsibility-and-deficit-management-section-002-key-fiscal-terms-and-deficits",
+    "claimType": "Cause-Effect",
+    "claimText": "Fiscal Slippage, which is the deviation of actual fiscal performance from targets, can be caused by farm loan waivers or reductions in tax collections like GST and VAT.",
+    "evidenceExcerpt": "Fiscal Slippage can be caused by farm loan waivers or reductions in tax collections like GST and VAT.",
+    "pageNumbers": [
+      15
+    ],
+    "examUse": "Statement-based question on the causes and definition of Fiscal Slippage.",
+    "distractorHooks": [
+      "Attributing Fiscal Slippage to increased tax collections",
+      "Confusing Fiscal Slippage with Fiscal Consolidation"
+    ]
+  }
+]

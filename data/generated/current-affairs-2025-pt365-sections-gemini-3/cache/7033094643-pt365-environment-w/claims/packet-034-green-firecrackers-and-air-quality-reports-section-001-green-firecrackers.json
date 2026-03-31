@@ -1,0 +1,108 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-034-green-firecrackers-and-air-quality-reports-section-001-green-firecrackers",
+    "claimType": "Factual",
+    "claimText": "Green firecrackers do not contain barium, a substance conventionally used in firecrackers to produce a green color.",
+    "evidenceExcerpt": "Does not contain barium substance, used in firecrackers to add green colour.",
+    "pageNumbers": [
+      70
+    ],
+    "examUse": "Statement-based question on the chemical composition of green firecrackers.",
+    "distractorHooks": [
+      "Green firecrackers use barium for green color",
+      "Barium is a mandatory component of green firecrackers"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-034-green-firecrackers-and-air-quality-reports-section-001-green-firecrackers",
+    "claimType": "Factual",
+    "claimText": "Green firecrackers use Potassium Nitrate as an oxidant and contain low amounts of thermite and minimal aluminium.",
+    "evidenceExcerpt": "Composition: Low Thermite amount, minimum usage of Aluminium. Does not contain barium substance, used in firecrackers to add green colour. Uses Potassium Nitrate as oxidant.",
+    "pageNumbers": [
+      70
+    ],
+    "examUse": "Statement-based question on the chemical composition of green firecrackers.",
+    "distractorHooks": [
+      "Uses Potassium Chlorate as oxidant",
+      "Contains high amounts of aluminium for brightness"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-034-green-firecrackers-and-air-quality-reports-section-001-green-firecrackers",
+    "claimType": "Factual",
+    "claimText": "Green firecrackers reduce particulate matter emissions by at least 30% compared to conventional firecrackers.",
+    "evidenceExcerpt": "Benefit: Reduce at least 30 % emissions using particulate matter.",
+    "pageNumbers": [
+      70
+    ],
+    "examUse": "Statement-based question on the environmental benefits of green firecrackers.",
+    "distractorHooks": [
+      "Reduces emissions by 100%",
+      "Eliminates all particulate matter",
+      "Reduces emissions by 10%"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-034-green-firecrackers-and-air-quality-reports-section-001-green-firecrackers",
+    "claimType": "Factual",
+    "claimText": "Green firecrackers are identified and certified by the CSIR NEERI logo.",
+    "evidenceExcerpt": "Identification and Certification: CSIR NEERI Logo.",
+    "pageNumbers": [
+      70
+    ],
+    "examUse": "Institution-feature question regarding the certification authority for green firecrackers.",
+    "distractorHooks": [
+      "Certified by the Ministry of Environment, Forest and Climate Change directly",
+      "Certified by the Central Pollution Control Board (CPCB)"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-034-green-firecrackers-and-air-quality-reports-section-001-green-firecrackers",
+    "claimType": "Conceptual",
+    "claimText": "SWAS (Safe Water & Air Releaser) green firecrackers emit fine water droplets that absorb dust.",
+    "evidenceExcerpt": "SWAS (Safe Water & Air Releaser): Emit very fine water droplets that absorb dust.",
+    "pageNumbers": [
+      70
+    ],
+    "examUse": "Correct-pair question matching green firecracker types (SWAS, SAFAL, STAR) with their specific features.",
+    "distractorHooks": [
+      "SWAS emits minimal smoke without water droplets",
+      "SWAS is free from potassium nitrate"
+    ]
+  },
+  {
+    "id": "claim-006",
+    "sectionId": "packet-034-green-firecrackers-and-air-quality-reports-section-001-green-firecrackers",
+    "claimType": "Factual",
+    "claimText": "STAR (Safe Thermite Cracker) green firecrackers are free from potassium nitrate and sulfur, and emit minimal smoke.",
+    "evidenceExcerpt": "STAR (Safe Thermite Cracker): Free from potassium nitrate and sulfur; emit minimal smoke.",
+    "pageNumbers": [
+      70
+    ],
+    "examUse": "Correct-pair question matching green firecracker types with their chemical exclusions.",
+    "distractorHooks": [
+      "STAR contains safe amounts of aluminium and is quieter",
+      "STAR uses potassium nitrate as an oxidant"
+    ]
+  },
+  {
+    "id": "claim-007",
+    "sectionId": "packet-034-green-firecrackers-and-air-quality-reports-section-001-green-firecrackers",
+    "claimType": "Factual",
+    "claimText": "SAFAL (Safe Minimal Aluminium) green firecrackers contain a safe amount of aluminium and are quieter than conventional crackers.",
+    "evidenceExcerpt": "SAFAL (Safe Minimal Aluminium): Contain safe amount of aluminium & are quieter.",
+    "pageNumbers": [
+      70
+    ],
+    "examUse": "Correct-pair question matching green firecracker types with their specific features.",
+    "distractorHooks": [
+      "SAFAL emits water droplets",
+      "SAFAL is completely free of aluminium"
+    ]
+  }
+]

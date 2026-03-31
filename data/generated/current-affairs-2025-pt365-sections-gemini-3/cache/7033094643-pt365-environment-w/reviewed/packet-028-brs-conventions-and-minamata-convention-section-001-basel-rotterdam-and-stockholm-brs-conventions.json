@@ -1,0 +1,98 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Basel, Rotterdam, and Stockholm (BRS) Conventions:\n1. The Basel Convention regulates the transboundary movement of hazardous wastes but explicitly excludes radioactive wastes from its scope.\n2. The Rotterdam Convention imposes a legally binding global ban on the international trade of hazardous chemicals listed under its Annex III.\n3. India is a party to the Basel and Stockholm Conventions, but is yet to ratify the Rotterdam Convention.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The Basel Convention enforces Prior Informed Consent (PIC) for transboundary hazardous wastes but explicitly excludes radioactive waste. Statement 2 is incorrect: The Rotterdam Convention creates a legally binding PIC procedure for the international trade of certain hazardous chemicals but does not outright ban them. Statement 3 is incorrect: India is a party to all three BRS conventions.",
+      "takeaway": "The Rotterdam Convention facilitates information exchange and informed decision-making (PIC) rather than imposing outright trade bans. India is a party to all three BRS Conventions.",
+      "evidenceExcerpt": "Basel Convention (1989) enforces Prior Informed Consent (PIC) for transboundary hazardous wastes, excludes radioactive waste... Rotterdam Convention (2004) creates a legally binding PIC procedure for international trade of certain hazardous chemicals/pesticides but does not outright ban them... India is a party to all three.",
+      "qualityScore": 88,
+      "reviewNotes": "Excellent statement-based question that tests common misconceptions regarding outright bans and India's ratification status. Formatted to match the latest UPSC 'How many statements' style."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of chemicals recently in the news and the multilateral environmental agreements under which they were recently listed:\n1. Carbosulfan : Rotterdam Convention\n2. Chlorpyrifos : Stockholm Convention\n3. Fenthion : Basel Convention\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: Carbosulfan was added to Annex III of the Rotterdam Convention during COP-12. Pair 2 is correctly matched: Chlorpyrifos was added to Annex A of the Stockholm Convention during COP-12. Pair 3 is incorrectly matched: Fenthion was added to the Rotterdam Convention, not the Basel Convention.",
+      "takeaway": "Recent COP-12 meetings added Carbosulfan and Fenthion to the Rotterdam Convention, while Chlorpyrifos, LC-PFCAs, and MCCPs were added to the Stockholm Convention.",
+      "evidenceExcerpt": "Rotterdam COP-12 added Carbosulfan and Fenthion to Annex III. Stockholm COP-12 added Chlorpyrifos, LC-PFCAs, and MCCPs to Annex A",
+      "qualityScore": 86,
+      "reviewNotes": "Highly relevant current affairs question testing specific additions to the convention annexes. The 'How many pairs' format is perfectly aligned with recent UPSC trends."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-choice",
+      "prompt": "The 'Prior Informed Consent' (PIC) procedure is a core regulatory mechanism explicitly enforced under which of the following multilateral environmental agreements?\n1. Basel Convention\n2. Rotterdam Convention\n3. Stockholm Convention\nSelect the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "The Basel Convention enforces Prior Informed Consent (PIC) for the transboundary movement of hazardous wastes. The Rotterdam Convention creates a legally binding PIC procedure for the international trade of certain hazardous chemicals and pesticides. The Stockholm Convention focuses on eliminating or restricting Persistent Organic Pollutants (POPs) and does not primarily operate on a PIC mechanism for trade.",
+      "takeaway": "Both the Basel and Rotterdam Conventions utilize the Prior Informed Consent (PIC) procedure to ensure countries are informed and consent to the movement or trade of hazardous substances.",
+      "evidenceExcerpt": "Basel enforces Prior Informed Consent (PIC) for transboundary waste... Rotterdam (PIC for hazardous chemicals)... Stockholm aims to protect health and environment from persistent organic pollutants.",
+      "qualityScore": 85,
+      "reviewNotes": "A strong conceptual question that requires candidates to distinguish the core operational mechanisms of the three closely related conventions."
+    }
+  ],
+  "reviewerNotes": "Selected 4 high-quality questions covering the core mandates, recent chemical additions, and specific mechanisms (like PIC) of the BRS Conventions. Rewrote prompts to align with the latest UPSC pattern (e.g., 'How many of the above' format) and ensured distractors are plausible and directly address common misconceptions (such as outright bans vs. informed consent)."
+}

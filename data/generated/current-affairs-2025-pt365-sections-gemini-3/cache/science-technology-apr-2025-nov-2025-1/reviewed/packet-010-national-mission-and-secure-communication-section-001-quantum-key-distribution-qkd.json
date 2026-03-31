@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Quantum Key Distribution (QKD):\n1. It relies on the principles of quantum mechanics to securely distribute encryption keys.\n2. Entanglement-based QKD requires fully trusted and uncompromised endpoint devices to function securely.\n3. Free-space QKD operates without fibre optic cables, making it suitable for deployment in tough terrains.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: QKD leverages quantum mechanics principles to ensure secure distribution of encryption keys. Statement 2 is incorrect: Entanglement-based QKD ensures secure key sharing even with compromised devices, providing a level of device-independent security. Statement 3 is correct: Free-space QKD works without costly fibre optics, making it suitable for tough terrains and dense cities.",
+      "takeaway": "QKD uses quantum mechanics for secure key distribution. Entanglement-based QKD is robust even against compromised endpoint devices, and Free-space QKD offers a cable-free alternative suitable for difficult terrains.",
+      "evidenceExcerpt": "QKD leverages quantum mechanics principles to ensure secure distribution of encryption keys. Entanglement-based QKD ensures secure key sharing even with compromised devices... Free-space QKD works without costly fibre optics, making it suitable for tough terrains and dense cities.",
+      "qualityScore": 88,
+      "reviewNotes": "Excellent coverage of the source text using the latest UPSC 'How many' format. Distractors are plausible and test precise knowledge of QKD features."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "In the context of quantum communication, which one of the following best explains why entanglement-based Quantum Key Distribution (QKD) is highly secure against eavesdropping?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It employs advanced mathematical algorithms that are impossible for classical computers to decrypt."
+        },
+        {
+          "id": "B",
+          "text": "Any attempt to intercept the communication inherently disturbs the transmitted quantum states."
+        },
+        {
+          "id": "C",
+          "text": "It utilizes classical radio frequencies that automatically change channels when tapped."
+        },
+        {
+          "id": "D",
+          "text": "It operates exclusively through air-gapped networks that are physically isolated from the internet."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Entanglement-based QKD detects eavesdropping because, according to the principles of quantum mechanics, any attempt to intercept or measure the quantum states inherently disturbs them. This disturbance alerts the communicating parties to the presence of an eavesdropper. Option A is incorrect because QKD relies on physical quantum states, not mathematical algorithms. Options C and D are incorrect as they describe classical security measures, not quantum ones.",
+      "takeaway": "The security of entanglement-based QKD is rooted in quantum mechanics, where the act of measuring or intercepting a quantum state fundamentally alters it, thereby revealing any eavesdropping attempts.",
+      "evidenceExcerpt": "Entanglement-based QKD ensures secure key sharing even with compromised devices and detects eavesdropping because interception disturbs quantum states.",
+      "qualityScore": 85,
+      "reviewNotes": "Strong conceptual question that tests the fundamental mechanism of quantum security. Distractors effectively contrast quantum principles with classical encryption and networking concepts."
+    }
+  ],
+  "reviewerNotes": "Selected and refined two questions to cover the core concepts of QKD, Entanglement-based QKD, and Free-space QKD. The first question was upgraded to the modern UPSC 'How many statements are correct' format, testing multiple facets of the text. The second question was rewritten into a strong conceptual MCQ focusing on the physical mechanism that makes quantum communication secure against eavesdropping."
+}

@@ -1,0 +1,149 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Gaganyaan Programme:\n1. It will be India's first Human Space Flight mission, aiming to demonstrate human spaceflight capability.\n2. The first uncrewed mission under this programme will be undertaken by a fully autonomous lunar rover.\n3. A successful launch will make India the fourth country globally to launch a crewed spacecraft.\n\nWhich of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Gaganyaan is India's first Human Space Flight mission aimed at demonstrating human spaceflight capability. Statement 2 is incorrect: The first uncrewed mission will be undertaken by Vyommitra, an AI-powered half-humanoid (gynoid), not a rover. Statement 3 is correct: A successful launch will make India the 4th country to launch a crewed spacecraft, after the US, Russia, and China.",
+      "takeaway": "Gaganyaan is India's first human spaceflight mission. The uncrewed test flight will feature Vyommitra, a half-humanoid robot. Success will place India in an elite group of four nations with crewed spaceflight capabilities.",
+      "evidenceExcerpt": "Gaganyaan Programme: It will be India's first Human Space Flight mission. Aim: Demonstration of human spaceflight capability... AI-powered Gynoid (female robot) Vyommitra (half-humanoid) will undertake the first uncrewed mission. Successful launch of Gaganyaan will make India only the 4th country (after the US, Russia, and China) that have launched crewed spacecraft."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the planned Bharatiya Antariksh Station (BAS), consider the following statements:\n1. It is designed to operate in a Geosynchronous Orbit to provide continuous observation of the Indian subcontinent.\n2. The station will be assembled using five distinct modules.\n3. It will orbit at an altitude of 400-450 km above the Earth's surface.\n\nWhich of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The Bharatiya Antariksh Station (BAS) is planned to orbit at 400-450 km, which is a Low Earth Orbit (LEO), not a Geosynchronous Orbit. Statement 2 is correct: The station will consist of five modules. Statement 3 is correct: It will orbit around 400-450 km above the Earth's surface.",
+      "takeaway": "The Bharatiya Antariksh Station (BAS) is India's planned space station. It will operate in a Low Earth Orbit (LEO) at an altitude of 400-450 km and will comprise five modules.",
+      "evidenceExcerpt": "Bharatiya Antariksh Station (BAS) is India's planned space station... It will orbit around 400 - 450km above the Earth's surface. It will have five modules."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the technical parameters of the Gaganyaan mission:\n1. The mission aims to sustain a crew of three members in space for a duration of three days.\n2. The spacecraft will be placed in a Low Earth Orbit (LEO) at an altitude of approximately 400 km.\n3. The mission utilizes the Launch Vehicle Mark-3 (LVM-3), which is a three-stage rocket.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: The mission aims to launch a crew of 3 members for a 3-day mission. Statement 2 is correct: The crew will be placed in an orbit of 400 km (LEO). Statement 3 is correct: The Launch Vehicle Mark-3 (LVM-3), formerly known as GSLV Mk-III, is a 3-stage rocket.",
+      "takeaway": "The Gaganyaan mission relies on the 3-stage LVM-3 rocket to carry a 3-member crew to a 400 km Low Earth Orbit for a 3-day mission.",
+      "evidenceExcerpt": "Aim: Demonstration of human spaceflight capability by launching a crew of 3 members to an orbit of 400 km (LEO) for a 3-day mission and bring them back safely to earth. Components of the Gaganyaan: Launch Vehicle Mark-3 (LVM-3): Formerly known as GSLV Mk-III, it is a 3-stage rocket."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "conceptual",
+      "prompt": "The term \"Vyommitra\", frequently mentioned in the context of India's space endeavors, refers to:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A fully autonomous lunar rover designed to explore the permanently shadowed regions of the Moon."
+        },
+        {
+          "id": "B",
+          "text": "An AI-powered half-humanoid robot developed to undertake the first uncrewed mission of India's human spaceflight programme."
+        },
+        {
+          "id": "C",
+          "text": "A new three-stage heavy-lift launch vehicle developed by ISRO for deploying space stations."
+        },
+        {
+          "id": "D",
+          "text": "A specialized module of the planned Bharatiya Antariksh Station dedicated to microgravity experiments."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Vyommitra is an AI-powered gynoid (half-humanoid female robot) designed to undertake the first uncrewed mission of the Gaganyaan programme, testing systems before the crewed flight.",
+      "takeaway": "Vyommitra will serve as the robotic test pilot for the uncrewed phase of India's first human spaceflight mission.",
+      "evidenceExcerpt": "AI-powered Gynoid (female robot) Vyommitra (half-humanoid) will undertake the first uncrewed mission."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "statement-based",
+      "prompt": "Consider the following statements regarding India's human spaceflight and space station programmes:\n1. A successful Gaganyaan mission will make India the second Asian nation to independently launch a crewed spacecraft.\n2. Both the Gaganyaan crew module and the planned Bharatiya Antariksh Station (BAS) are designed to operate in Low Earth Orbit (LEO).\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: A successful launch will make India the 4th country globally to launch a crewed spacecraft, after the US, Russia, and China. Since China is the only other Asian nation on this list, India will be the second. Statement 2 is correct: Gaganyaan targets an orbit of 400 km (LEO), and the BAS is planned to orbit at 400-450 km, which is also within Low Earth Orbit.",
+      "takeaway": "India's major upcoming human spaceflight initiatives, including Gaganyaan and BAS, are focused on Low Earth Orbit operations, establishing India as the fourth global and second Asian power in crewed spaceflight.",
+      "evidenceExcerpt": "Gaganyaan Programme... launching a crew of 3 members to an orbit of 400 km (LEO)... Successful launch of Gaganyaan will make India only the 4th country (after the US, Russia, and China) that have launched crewed spacecraft. Bharatiya Antariksh Station (BAS)... will orbit around 400 - 450km above the Earth's surface."
+    }
+  ]
+}

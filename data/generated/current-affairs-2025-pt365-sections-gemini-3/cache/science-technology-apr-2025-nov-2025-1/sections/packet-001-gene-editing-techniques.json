@@ -1,0 +1,84 @@
+[
+  {
+    "id": "packet-001-gene-editing-techniques-section-001-basic-genetics-and-genome-sequencing",
+    "packetId": "packet-001-gene-editing-techniques",
+    "topic": "Biotechnology",
+    "subtopic": "Gene Editing Techniques",
+    "title": "Basic Genetics and Genome Sequencing",
+    "focus": "Foundational genetic concepts and the applications of genome sequencing.",
+    "pageNumbers": [
+      5
+    ],
+    "questionQuota": 3,
+    "rationale": "Essential foundational knowledge for biotechnology questions in UPSC, often tested in prelims as basic science concepts.",
+    "sectionExcerpt": "Defines fundamental genetic terms including Gene, DNA, RNA, Genome, Chromosomes, and Gamete. It also outlines Genome Sequencing, which determines the exact order of base pairs in DNA, and its applications in predictive diagnostics, paternity testing, and agriculture.",
+    "evidenceBullets": [
+      "Genes are sections of DNA and units of hereditary information.",
+      "Gametes are mature reproductive cells containing a haploid number of chromosomes (50% genetic material) capable of fusing to form a diploid zygote.",
+      "Genome sequencing determines the exact order of base pairs in an individual's DNA strand.",
+      "Applications of genome sequencing include personalized healthcare, paternity testing, and identifying agricultural traits for climate resilience."
+    ]
+  },
+  {
+    "id": "packet-001-gene-editing-techniques-section-002-gene-editing-mechanisms-types-and-techniques",
+    "packetId": "packet-001-gene-editing-techniques",
+    "topic": "Biotechnology",
+    "subtopic": "Gene Editing Techniques",
+    "title": "Gene Editing: Mechanisms, Types, and Techniques",
+    "focus": "The process of gene editing, its types (somatic vs. germline), and key techniques like CRISPR-Cas9.",
+    "pageNumbers": [
+      5,
+      6
+    ],
+    "questionQuota": 5,
+    "rationale": "Gene editing techniques like CRISPR are highly relevant for UPSC Prelims and Mains, especially distinguishing between somatic and germline editing and understanding various nucleases.",
+    "sectionExcerpt": "Details the mechanism of gene editing using guide molecules and DNA-cutting enzymes. It highlights India's first gene-edited sheep (myostatin gene edited via CRISPR-Cas9 by Kashmir University and ICAR). It distinguishes between somatic (non-heritable) and germline (heritable) editing and lists techniques like ZFNs, TALENs, CRISPR/Cas9, and Meganucleases, along with their medical, agricultural, and industrial applications.",
+    "evidenceBullets": [
+      "India's first gene-edited sheep was produced by Kashmir University and ICAR using CRISPR-Cas9 to edit the Myostatin gene, boosting muscle growth without adding foreign DNA.",
+      "Somatic genome editing alters cells that do not contribute to gamete formation and cannot be passed to offspring.",
+      "Germline genome editing modifies reproductive cells or embryos, creating changes that can be passed to future generations.",
+      "Key gene-editing techniques include ZFNs, TALENs, CRISPR/Cas9 (uses RNA to guide Cas9 protein), and Homing Endonucleases (Meganucleases).",
+      "Applications include CAR-T therapy for cancer, crop improvement, and engineering microbes for bioremediation."
+    ]
+  },
+  {
+    "id": "packet-001-gene-editing-techniques-section-003-birsa-101-therapy-and-sickle-cell-disease-scd",
+    "packetId": "packet-001-gene-editing-techniques",
+    "topic": "Biotechnology",
+    "subtopic": "Gene Editing Techniques",
+    "title": "BIRSA-101 Therapy and Sickle Cell Disease (SCD)",
+    "focus": "India's indigenous CRISPR therapy for Sickle Cell Disease and the characteristics of the disease.",
+    "pageNumbers": [
+      6
+    ],
+    "questionQuota": 4,
+    "rationale": "Health and disease management, especially indigenous technological solutions for prevalent diseases among tribal populations, are high-yield UPSC topics.",
+    "sectionExcerpt": "Covers BIRSA-101, India's first indigenous CRISPR-based gene editing therapy for Sickle Cell Disease (SCD), developed by CSIR-IGIB. It also details SCD, a hereditary blood disorder caused by a haemoglobin gene mutation that leads to sickle-shaped red blood cells, noting its high prevalence among Indian tribal populations and the national target to eliminate it by 2047.",
+    "evidenceBullets": [
+      "BIRSA-101 is India's 1st indigenous CRISPR-based gene editing therapy for Sickle Cell Disease, developed by CSIR-IGIB.",
+      "A technology transfer agreement for BIRSA-101 was signed between CSIR-IGIB and Serum Institute of India.",
+      "Sickle Cell Disease (SCD) is a hereditary blood disorder caused by a mutation in the haemoglobin gene, resulting in sickle-shaped red blood cells that block blood vessels.",
+      "India accounts for approximately 14.5% of global SCD births (2023), mainly prevalent among tribal populations.",
+      "India has set a target to eliminate Sickle Cell Disease by 2047."
+    ]
+  },
+  {
+    "id": "packet-001-gene-editing-techniques-section-004-glowcas9-and-epigenome-editing",
+    "packetId": "packet-001-gene-editing-techniques",
+    "topic": "Biotechnology",
+    "subtopic": "Gene Editing Techniques",
+    "title": "GlowCas9 and Epigenome Editing",
+    "focus": "Recent advancements in CRISPR visualization tools and the concept of epigenome editing.",
+    "pageNumbers": [
+      6
+    ],
+    "questionQuota": 2,
+    "rationale": "Emerging biotechnology tools and concepts like epigenome editing are frequently tested in UPSC Prelims Science & Technology section.",
+    "sectionExcerpt": "Introduces GlowCas9, a luminescent CRISPR protein developed by the Bose Institute that lights up during gene editing using nano-luciferase fragments from deep-sea shrimp. It also defines Epigenome Editing, which regulates gene expression by modifying the epigenome without altering the underlying DNA sequence.",
+    "evidenceBullets": [
+      "GlowCas9 was developed by scientists at the Bose Institute (DST).",
+      "It is a CRISPR protein fused with nano-luciferase fragments from deep-sea shrimp that emits light when performing gene editing.",
+      "Epigenome editing regulates gene expression by modifying the epigenome without changing the actual DNA sequence."
+    ]
+  }
+]

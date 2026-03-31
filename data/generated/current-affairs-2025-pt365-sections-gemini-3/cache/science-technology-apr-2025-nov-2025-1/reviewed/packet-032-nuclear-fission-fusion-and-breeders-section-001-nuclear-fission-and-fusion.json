@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "comparison",
+      "prompt": "With reference to nuclear energy, consider the following statements regarding the differences between nuclear fission and nuclear fusion:\n\n1. While fission utilizes heavy elements such as Uranium and Plutonium, fusion generally relies on hydrogen isotopes like Deuterium and Tritium.\n2. Unlike fission, which produces long-lived radioactive waste, fusion generates only helium and neutrons.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Both statements are correct. Nuclear fission relies on heavy elements (Uranium, Plutonium) and produces long-lived radioactive waste (e.g., iodine, caesium, strontium). Nuclear fusion uses lighter hydrogen isotopes (Deuterium, Tritium) and produces only helium and neutrons, thereby avoiding the generation of long-lived radioactive waste.",
+      "takeaway": "Fusion is considered environmentally cleaner than fission because it does not produce long-lived radioactive nuclear waste, yielding only helium and neutrons.",
+      "evidenceExcerpt": "Fission uses fuels like Uranium and Plutonium, while fusion generally uses hydrogen isotopes Deuterium (D) and Tritium (T)... Fission produces long-lived radioactive waste (e.g., iodine, caesium, strontium), whereas fusion only produces helium and neutrons without long-lived radioactive waste.",
+      "qualityScore": 85,
+      "reviewNotes": "A classic UPSC-style comparison question testing fundamental differences in fuel and waste products between fission and fusion."
+    }
+  ],
+  "reviewerNotes": "Selected two strong questions. One tests the fundamental differences between fission and fusion (fuels and waste), which is a classic UPSC theme. The second tests a specific, highly relevant current affairs/science concept ('Net Energy Gain' in fusion), with plausible distractors. Both are well-grounded in the source text."
+}

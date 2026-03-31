@@ -1,0 +1,149 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Human Immunodeficiency Virus (HIV) and its prevention:\n\n1. Lenacapavir is an antiretroviral medicine used as Pre-Exposure Prophylaxis (PrEP) for HIV prevention.\n2. HIV weakens the human immune system by specifically destroying CD4 T lymphocytes.\n3. HIV can be transmitted through body fluids but cannot be transmitted from an infected mother to her baby.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Lenacapavir is an FDA-approved antiretroviral medicine used as Pre-Exposure Prophylaxis (PrEP) to prevent HIV. Statement 2 is correct: HIV attacks the immune system by destroying CD4 T lymphocytes (white blood cells). Statement 3 is incorrect: HIV can be transmitted through body fluids and can also be transmitted from an infected mother to her baby.",
+      "takeaway": "Lenacapavir is a newly approved PrEP antiretroviral drug. HIV targets CD4 T cells (white blood cells) and can be transmitted vertically from mother to child.",
+      "evidenceExcerpt": "FDA approved Lenacapavir, an antiretroviral medicine used for HIV prevention as Pre-Exposure Prophylaxis (PrEP). HIV attacks the immune system by destroying CD4 T lymphocytes (white blood cells). It transmits through body fluids and from mother to baby."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Assertion-Reason",
+      "prompt": "Given below are two statements, one labelled as Assertion (A) and the other as Reason (R):\n\nAssertion (A): Infection with the Human Immunodeficiency Virus (HIV) leads to a compromised immune system in the human body.\nReason (R): HIV specifically attacks and destroys CD4 T lymphocytes, which are a type of white blood cell.\n\nIn the context of the above two statements, which one of the following is correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A)."
+        },
+        {
+          "id": "B",
+          "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A)."
+        },
+        {
+          "id": "C",
+          "text": "Assertion (A) is true but Reason (R) is false."
+        },
+        {
+          "id": "D",
+          "text": "Assertion (A) is false but Reason (R) is true."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Both statements are true, and Reason (R) correctly explains Assertion (A). HIV causes immunodeficiency precisely because it targets and destroys CD4 T lymphocytes, which are critical white blood cells responsible for orchestrating the immune response.",
+      "takeaway": "The mechanism of HIV involves the destruction of CD4 T lymphocytes, a specific type of white blood cell, which directly results in the weakening of the immune system.",
+      "evidenceExcerpt": "HIV attacks the immune system by destroying CD4 T lymphocytes (white blood cells)."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the management and characteristics of the Human Immunodeficiency Virus (HIV), consider the following statements:\n\n1. It is treated using antiretroviral therapy (ART).\n2. The virus targets CD4 T lymphocytes, which are a type of red blood cell.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: HIV infections are managed and treated using antiretroviral therapy (ART). Statement 2 is incorrect: While HIV does target CD4 T lymphocytes, these are a type of white blood cell, not red blood cells.",
+      "takeaway": "HIV is treated with ART, and its primary targets are CD4 T lymphocytes, which are white blood cells crucial for immunity.",
+      "evidenceExcerpt": "HIV attacks the immune system by destroying CD4 T lymphocytes (white blood cells)... Treated with antiretroviral therapy (ART)."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "In the context of viral disease management, the term 'Pre-Exposure Prophylaxis (PrEP)', recently seen in the news in relation to the drug Lenacapavir, best refers to:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A targeted therapeutic regimen administered exclusively to pregnant women to prevent mother-to-child transmission of viruses."
+        },
+        {
+          "id": "B",
+          "text": "The use of antiretroviral medications by uninfected individuals to prevent the acquisition of a viral infection."
+        },
+        {
+          "id": "C",
+          "text": "A post-exposure vaccine administered immediately after suspected contact with infected body fluids."
+        },
+        {
+          "id": "D",
+          "text": "A specialized gene therapy aimed at restoring destroyed CD4 T lymphocytes in immunodeficient patients."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pre-Exposure Prophylaxis (PrEP) involves the proactive use of antiretroviral medicines to prevent HIV infection in individuals who are at risk. Lenacapavir is a recently approved antiretroviral medicine utilized for this preventive purpose.",
+      "takeaway": "PrEP is a preventive strategy for uninfected individuals, which is distinct from post-exposure prophylaxis (PEP) or therapeutic treatments (like ART) meant for those already infected.",
+      "evidenceExcerpt": "FDA approved Lenacapavir, an antiretroviral medicine used for HIV prevention as Pre-Exposure Prophylaxis (PrEP)."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the management of the Human Immunodeficiency Virus (HIV):\n\n1. While Antiretroviral Therapy (ART) is utilized as a treatment for infected individuals, Pre-Exposure Prophylaxis (PrEP) serves as a preventive measure against HIV.\n2. Lenacapavir is an antiretroviral medicine that functions by stimulating the production of CD4 T lymphocytes to provide lifelong immunity.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: ART is the standard treatment for HIV, whereas PrEP is used for HIV prevention. Statement 2 is incorrect: Lenacapavir is an antiretroviral medicine used as PrEP for prevention, not a vaccine or therapy that stimulates CD4 T lymphocyte production for lifelong immunity. HIV actually destroys CD4 T lymphocytes.",
+      "takeaway": "Understanding the distinction between preventive (PrEP) and therapeutic (ART) applications of antiretroviral medicines is crucial. Lenacapavir is an antiretroviral drug used for prevention, not a curative or immune-stimulating vaccine.",
+      "evidenceExcerpt": "FDA approved Lenacapavir, an antiretroviral medicine used for HIV prevention as Pre-Exposure Prophylaxis (PrEP). HIV attacks the immune system by destroying CD4 T lymphocytes (white blood cells)... Treated with antiretroviral therapy (ART)."
+    }
+  ]
+}

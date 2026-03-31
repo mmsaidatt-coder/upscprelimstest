@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Feature-matching",
+      "prompt": "In the context of the RBI's Financial Inclusion Index, which of the following components is specifically captured under the 'Quality' parameter?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Availability of physical banking infrastructure"
+        },
+        {
+          "id": "B",
+          "text": "Volume of digital and UPI transactions"
+        },
+        {
+          "id": "C",
+          "text": "Financial literacy and grievance redressal mechanisms"
+        },
+        {
+          "id": "D",
+          "text": "Digital penetration across pension and insurance services"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The 'Quality' parameter (20% weight) assesses the qualitative aspects of inclusion, such as financial literacy, consumer protection, and grievance redressal. Option A and D fall under 'Access' (supply-side), and Option B falls under 'Usage' (demand-side).",
+      "takeaway": "The 'Quality' parameter of the FI-Index focuses on the 'depth' and 'safety' of inclusion rather than just the number of accounts or transactions.",
+      "evidenceExcerpt": "Quality (Weight 20%): Assesses quality of financial inclusion and captures efforts to educate citizens on financial services, their rights, and effective grievance redressal mechanisms.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Conceptual",
+      "prompt": "Regarding the composition and structure of Public Debt in India as per recent reports, which of the following statements is correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Public debt includes the total liabilities of the Central and State Governments, including inter-governmental loans."
+        },
+        {
+          "id": "B",
+          "text": "External debt constitutes more than 10% of India's total public debt due to increased sovereign borrowing from international markets."
+        },
+        {
+          "id": "C",
+          "text": "Public debt calculations exclude inter-governmental liabilities to avoid double-counting of the same debt obligations."
+        },
+        {
+          "id": "D",
+          "text": "Internal debt in India is primarily composed of short-term credit from the Reserve Bank of India rather than market-linked securities."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Option C is correct: Public debt includes the debt of Central and State Governments but specifically excludes inter-governmental liabilities. Option A is incorrect for the same reason. Option B is incorrect because internal debt is 96.59%, meaning external debt is less than 4%. Option D is incorrect as the source notes internal debt is the dominant component, but does not suggest it is primarily short-term RBI credit.",
+      "takeaway": "India's public debt is overwhelmingly internal, and standard accounting excludes inter-governmental liabilities to provide a clear picture of the state's total obligations to the public and external creditors.",
+      "evidenceExcerpt": "Public debt includes debt of Central Government and State Governments, excluding inter-Governmental liabilities. Internal debt is 96.59%.",
+      "contextLines": []
+    }
+  ]
+}

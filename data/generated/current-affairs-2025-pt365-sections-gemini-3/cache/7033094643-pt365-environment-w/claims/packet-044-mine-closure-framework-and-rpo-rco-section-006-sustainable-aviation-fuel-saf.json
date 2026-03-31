@@ -1,0 +1,49 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-044-mine-closure-framework-and-rpo-rco-section-006-sustainable-aviation-fuel-saf",
+    "claimType": "Factual",
+    "claimText": "Sustainable Aviation Fuel (SAF) can be blended up to 50% with conventional aviation turbine fuel.",
+    "evidenceExcerpt": "Can be blended up to 50% in conventional aviation turbine fuel (ATF or jet fuel).",
+    "pageNumbers": [
+      92
+    ],
+    "examUse": "Statement-based question on the technical properties and blending limits of SAF.",
+    "distractorHooks": [
+      "SAF can only be blended up to 10% or 20% similar to ethanol",
+      "SAF requires completely modified engines and cannot be blended with conventional ATF"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-044-mine-closure-framework-and-rpo-rco-section-006-sustainable-aviation-fuel-saf",
+    "claimType": "Policy",
+    "claimText": "India has mandated a 1% Sustainable Aviation Fuel (SAF) blending in jet fuel for international airlines starting in 2027.",
+    "evidenceExcerpt": "India mandated 1% SAF blending in jet fuel sold to international airlines from 2027.",
+    "pageNumbers": [
+      92
+    ],
+    "examUse": "Statement-based question on India's renewable energy and aviation emission targets.",
+    "distractorHooks": [
+      "The mandate applies to domestic airlines",
+      "The mandate starts in 2025",
+      "The mandated blending percentage is 5%"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-044-mine-closure-framework-and-rpo-rco-section-006-sustainable-aviation-fuel-saf",
+    "claimType": "Conceptual",
+    "claimText": "Sustainable Aviation Fuel (SAF) is produced from non-petroleum feedstocks, including algae, agricultural residues, and wastewater treatment sludge.",
+    "evidenceExcerpt": "Raw material: Corn grain, Oil seeds, Algae, Agricultural residues, Forestry residues, Wastewater treatment sludge etc.",
+    "pageNumbers": [
+      92
+    ],
+    "examUse": "Multiple-choice question identifying valid feedstocks for sustainable aviation fuel production.",
+    "distractorHooks": [
+      "SAF is a highly refined petroleum product",
+      "Wastewater treatment sludge cannot be used for aviation fuel",
+      "SAF relies exclusively on edible crops"
+    ]
+  }
+]

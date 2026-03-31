@@ -1,0 +1,129 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Polity",
+      "difficulty": "Hard",
+      "questionType": "Multiple Statement",
+      "prompt": "Regarding the implementation of the Armed Forces (Special Powers) Act (AFSPA), consider the following statements: 1. AFSPA was completely lifted from the state of Mizoram in the 1980s. 2. The Armed Forces (Special Powers) Act, 1958, is the primary legislation governing security operations in Jammu and Kashmir. 3. The Act was withdrawn from Tripura and Meghalaya in 2015 and 2018 respectively. Which of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct as AFSPA was lifted from Mizoram in the 1980s. Statement 2 is incorrect because Jammu and Kashmir is governed by the Armed Forces (Jammu and Kashmir) Special Powers Act, 1990, not the 1958 Act. Statement 3 is correct as the Act was lifted from Tripura in 2015 and Meghalaya in 2018.",
+      "takeaway": "AFSPA's application is state-specific, with J&K governed by a separate 1990 Act.",
+      "evidenceExcerpt": "AFSPA also remains in force in Jammu and Kashmir through the Armed Forces (Jammu and Kashmir) Special Powers Act, 1990. ...It was lifted from Tripura in 2015, Meghalaya in 2018 and Mizoram in 1980s.",
+      "qualityScore": 90,
+      "reviewNotes": "Tests geographical and historical nuances of AFSPA implementation."
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Statement",
+      "prompt": "With reference to the Armed Forces (Special Powers) Act (AFSPA), 1958, consider the following statements: 1. The power to declare an area as 'disturbed' is vested solely in the Central Government. 2. Armed forces personnel have the authority to arrest any person without a warrant based on reasonable suspicion. 3. Any person arrested under the Act must be handed over to the nearest police station with the least possible delay. Which of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect because Section 3 of AFSPA allows the Governor of a State, the Administrator of a Union Territory, or the Central Government to declare an area as 'disturbed'. Statement 2 is correct as Section 4 grants the power to arrest without a warrant based on suspicion. Statement 3 is correct as the Act mandates handing over arrested persons to the nearest police station with the least possible delay.",
+      "takeaway": "AFSPA involves shared power between Center and States for declaration and mandates police handover.",
+      "evidenceExcerpt": "Declaration of Disturbed Area (Section 3): Governor, Administrator, or Central Government can declare part or whole state/UT as “disturbed”... Treatment of arrested person: Armed forces required to hand over the person to the nearest police “with least possible delay.”",
+      "qualityScore": 88,
+      "reviewNotes": "Tests the administrative authority and procedural safeguards under AFSPA."
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Statement",
+      "prompt": "Under Section 4 of the Armed Forces (Special Powers) Act, 1958, which of the following powers are granted to the armed forces in a 'disturbed area'? 1. Power to use force, even causing death, against persons acting in contravention of any law. 2. Power to destroy any arms dump or fortified positions used for armed attacks. 3. Power to prohibit the assembly of five or more persons. Which of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "All three statements are correct as per Section 4 of AFSPA, which grants the armed forces the power to use lethal force against law violators, destroy arms dumps or fortified positions, and prohibit the assembly of five or more persons in a disturbed area.",
+      "takeaway": "Section 4 of AFSPA provides extensive operational powers including the use of lethal force and destruction of infrastructure.",
+      "evidenceExcerpt": "Special Powers of the Armed Forces (Section 4): Grants special powers to armed forces personnel in areas declared as “disturbed” - o Use force, including shooting to kill, against anyone violating law. o Prohibit assembly of 5 or more persons. o Destroy any arms dump, fortified position from which armed attacks can be made...",
+      "qualityScore": 86,
+      "reviewNotes": "Tests specific operational powers granted under Section 4 of AFSPA."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Matching",
+      "prompt": "Consider the following pairs of cyber threats and their descriptions: 1. Pig Butchering: Building long-term trust with a victim before committing financial fraud. 2. Juice Jacking: Exploiting public USB charging stations to install malware or steal data. 3. Phantom Hacking: A form of tech support scam that specifically targets senior citizens. How many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "All three pairs are correctly matched. Pig Butchering involves building trust ('fattening') before financial theft ('slaughtering'). Juice Jacking uses public USB ports for data theft. Phantom Hacking is an evolution of tech support scams targeting seniors.",
+      "takeaway": "Modern cyber scams like Pig Butchering and Juice Jacking exploit trust and public infrastructure.",
+      "evidenceExcerpt": "Pig Butchering: The scam’s name reflects the process of “fattening” the victim with trust before “slaughtering” them financially. Phantom Hacking: ...evolution of tech support scams, particularly targeting vulnerable or senior citizens. Juice Jacking: It is a type of cyberattack where public USB charging ports are used to steal data from or install malware on your device.",
+      "qualityScore": 85,
+      "reviewNotes": "Tests knowledge of contemporary cyber threat terminology."
+    }
+  ],
+  "reviewerNotes": "This set of questions covers the legal framework, geographical history, and modern security challenges mentioned in the text. It distinguishes between the 1958 and 1990 Acts and highlights the specific recommendations of the Jeevan Reddy Committee."
+}

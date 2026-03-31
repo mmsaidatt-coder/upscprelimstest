@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "import-pyq": "tsx scripts/import-pyq-csv.ts"
+    "import-pyq": "tsx scripts/import-pyq-csv.ts",
+    "generate-current-affairs": "tsx scripts/generate-current-affairs-bank.ts",
+    "export-current-affairs-content": "tsx scripts/export-structured-content-bundles.ts"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",

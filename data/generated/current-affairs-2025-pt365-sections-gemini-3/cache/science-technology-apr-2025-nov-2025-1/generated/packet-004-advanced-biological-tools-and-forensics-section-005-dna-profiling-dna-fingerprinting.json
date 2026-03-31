@@ -1,0 +1,124 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "How many of the following pairs of DNA profiling techniques and their primary features/applications are correctly matched?",
+      "contextLines": [
+        "1. Mitochondrial DNA (mtDNA) profiling : Analyzing samples where nuclear DNA is highly degraded",
+        "2. Y-chromosome STR profiling : Tracing maternal lineage in genetic genealogy",
+        "3. VNTR profiling : Identifying individuals based on the coding regions of the genome"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Pair 1 is correctly matched: mtDNA is used when nuclear DNA is degraded. Pair 2 is incorrectly matched: Y-chromosome STRs are inherited from father to son and are used to trace paternal lineage, not maternal. Pair 3 is incorrectly matched: VNTR profiling is based on the variability of noncoding regions, not coding regions.",
+      "takeaway": "Different DNA profiling techniques serve specific purposes: mtDNA for degraded nuclear DNA, Y-chromosome STRs for paternal lineage, and VNTRs for analyzing noncoding regions.",
+      "evidenceExcerpt": "DNA Profiling identifies individuals by analyzing unique patterns in their DNA, based on the variability of noncoding regions called VNTRs. Key methods include... Mitochondrial DNA (mtDNA) for degraded nuclear DNA, Y chromosome STRs for paternal lineage..."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Scenario-based",
+      "prompt": "A forensic anthropology team discovers highly degraded skeletal remains from a historical site. Attempts to extract intact nuclear DNA have failed. The team wishes to establish the identity of the remains by comparing genetic material with living maternal relatives. Which of the following DNA profiling techniques is most appropriate in this scenario?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Autosomal Short Tandem Repeats (STR) analysis"
+        },
+        {
+          "id": "B",
+          "text": "Mitochondrial DNA (mtDNA) profiling"
+        },
+        {
+          "id": "C",
+          "text": "Y-chromosome STR profiling"
+        },
+        {
+          "id": "D",
+          "text": "Single Nucleotide Polymorphism (SNP) mapping of the X-chromosome"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Mitochondrial DNA (mtDNA) is specifically utilized in forensic science when standard nuclear DNA is degraded. Furthermore, because mtDNA is inherited exclusively from the mother, it is ideal for tracing maternal lineage and comparing remains with maternal relatives.",
+      "takeaway": "mtDNA profiling is the standard fallback for degraded samples where nuclear DNA cannot be extracted, and it traces maternal lineage.",
+      "evidenceExcerpt": "Mitochondrial DNA (mtDNA) is used when nuclear DNA is degraded."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the genetic markers used in DNA profiling:\n1. The fundamental basis of DNA fingerprinting relies on the high variability present in the coding regions of the human genome.\n2. Single Nucleotide Polymorphisms (SNPs) are genetic variations that involve single-base differences unique to individuals.\n3. Y-chromosome Short Tandem Repeats (STRs) are utilized to trace paternal lineage.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: DNA profiling identifies individuals based on the variability of noncoding regions (such as VNTRs), not coding regions. Statement 2 is correct: SNPs represent single-base differences that are unique to individuals. Statement 3 is correct: Y-chromosome profiling focuses on STRs inherited from father to son, tracing paternal lineage.",
+      "takeaway": "DNA profiling relies on noncoding regions (VNTRs/STRs). SNPs are single-base variations, and Y-chromosome markers are strictly paternal.",
+      "evidenceExcerpt": "DNA Profiling identifies individuals by analyzing unique patterns in their DNA, based on the variability of noncoding regions called VNTRs. Key methods include... Y chromosome STRs for paternal lineage, and Single Nucleotide Polymorphisms (SNPs)... single-base differences unique to individuals."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "In the context of advanced biological tools, what is the primary rationale for utilizing Variable Number of Tandem Repeats (VNTRs) in DNA profiling?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "They are highly conserved coding sequences that prevent genetic mutations during cell division."
+        },
+        {
+          "id": "B",
+          "text": "They are noncoding regions of DNA that exhibit significant variability in repeat patterns among different individuals."
+        },
+        {
+          "id": "C",
+          "text": "They are single-nucleotide variations that determine the phenotypic expression of physical traits."
+        },
+        {
+          "id": "D",
+          "text": "They represent specific segments of mitochondrial DNA that resist degradation in extreme environments."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "VNTRs are noncoding regions of DNA. They are utilized in DNA profiling because the number of tandem repeats varies greatly from person to person, creating a unique genetic 'fingerprint' for identification.",
+      "takeaway": "The effectiveness of DNA profiling hinges on the high variability found in noncoding regions of the genome, specifically VNTRs.",
+      "evidenceExcerpt": "DNA Profiling identifies individuals by analyzing unique patterns in their DNA, based on the variability of noncoding regions called VNTRs."
+    }
+  ]
+}

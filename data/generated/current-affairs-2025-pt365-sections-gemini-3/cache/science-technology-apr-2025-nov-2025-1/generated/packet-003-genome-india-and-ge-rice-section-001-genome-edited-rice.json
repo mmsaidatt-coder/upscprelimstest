@@ -1,0 +1,178 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the recently developed genome-edited (GE) rice varieties in India:\n1. India is the first country in the world to develop genome-edited rice varieties.\n2. These varieties are classified as Genetically Modified (GM) crops because their genome has been artificially altered.\n3. DRR Dhan 100 Kamala, one of the GE varieties, was developed using CRISPR-Cas technology.\n\nWhich of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: India is the first country in the world to develop genome-edited (GE) rice varieties, specifically DRR Rice 100 (Kamla) and Pusa DST Rice. Statement 2 is incorrect: Unlike Genetically Modified (GM) crops, these genome-edited varieties contain no foreign DNA and are therefore not considered GM crops. Statement 3 is correct: They were developed using CRISPR-Cas technology.",
+      "takeaway": "Genome-edited crops (like SDN-1 and SDN-2) that do not involve the insertion of foreign DNA are distinct from GM crops and are not classified as such under Indian regulatory frameworks.",
+      "evidenceExcerpt": "ICAR developed India's first genome-edited (GE) rice varieties: DRR Rice 100 (Kamla) and Pusa DST Rice, making India the first country to do so. Developed using CRISPR-Cas... They contain no foreign DNA and are not considered GM Crops."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Assertion-Reason",
+      "prompt": "Consider the following Assertion (A) and Reason (R):\n\nAssertion (A): The recently developed DRR Rice 100 (Kamla) and Pusa DST Rice are not regulated as Genetically Modified (GM) crops in India.\nReason (R): These rice varieties are developed using CRISPR-Cas technology and do not contain any foreign DNA.\n\nIn the context of the above statements, which one of the following is correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both Assertion (A) and Reason (R) are correct and Reason (R) is the correct explanation of Assertion (A)."
+        },
+        {
+          "id": "B",
+          "text": "Both Assertion (A) and Reason (R) are correct but Reason (R) is not the correct explanation of Assertion (A)."
+        },
+        {
+          "id": "C",
+          "text": "Assertion (A) is correct but Reason (R) is incorrect."
+        },
+        {
+          "id": "D",
+          "text": "Assertion (A) is incorrect but Reason (R) is correct."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Both statements are correct, and Reason (R) is the correct explanation for Assertion (A). Genome-edited crops that do not contain foreign DNA are exempt from the stringent GM regulations in India because they do not introduce exogenous genes, unlike traditional GM crops.",
+      "takeaway": "The presence or absence of foreign DNA is the key distinguishing factor between Genome-Edited (GE) crops and Genetically Modified (GM) crops in regulatory terms.",
+      "evidenceExcerpt": "Developed using CRISPR-Cas... They contain no foreign DNA and are not considered GM Crops."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the agricultural biotechnology developments by the Indian Council of Agricultural Research (ICAR), consider the following statements:\n1. DRR Dhan 100 Kamala is a genome-edited rice variety that targets the Cytokinin Oxidase 2 (CKX2) gene.\n2. Pusa DST Rice 1 is developed by introducing genes from a soil bacterium to provide pest resistance.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: DRR Dhan 100 Kamala targets the CKX2 (Cytokinin Oxidase 2) gene and was developed using CRISPR-Cas. Statement 2 is incorrect: Pusa DST Rice 1 is a genome-edited rice variety (improving MTU1010) and does not contain foreign DNA. Introducing genes from a soil bacterium (like Bacillus thuringiensis) is a characteristic of GM crops (e.g., Bt Cotton), not genome-edited crops.",
+      "takeaway": "India's first GE rice varieties, DRR Dhan 100 Kamala and Pusa DST Rice 1, rely on targeted gene editing (like the CKX2 gene) rather than transgenic insertions.",
+      "evidenceExcerpt": "ICAR developed India's first genome-edited (GE) rice varieties: DRR Rice 100 (Kamla) and Pusa DST Rice... DRR Dhan 100 Kamala targets the CKX2 gene. Pusa DST Rice 1 improves MTU1010. They contain no foreign DNA and are not considered GM Crops."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Comparison",
+      "prompt": "In the context of agricultural biotechnology in India, how does the recently developed DRR Dhan 100 Kamala fundamentally differ from Bt Cotton?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "DRR Dhan 100 Kamala is developed by altering its own genetic sequence without integrating foreign DNA, whereas Bt Cotton involves the insertion of genes from a different organism."
+        },
+        {
+          "id": "B",
+          "text": "DRR Dhan 100 Kamala relies on RNA interference for pest resistance, whereas Bt Cotton utilizes CRISPR-Cas9 technology."
+        },
+        {
+          "id": "C",
+          "text": "DRR Dhan 100 Kamala is a product of traditional mutation breeding, whereas Bt Cotton is a genome-edited crop."
+        },
+        {
+          "id": "D",
+          "text": "DRR Dhan 100 Kamala incorporates genes from wild rice varieties, whereas Bt Cotton incorporates genes from a soil bacterium."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "DRR Dhan 100 Kamala is a genome-edited (GE) rice variety developed using CRISPR-Cas technology. It targets the endogenous CKX2 gene and contains no foreign DNA, meaning it is not considered a transgenic Genetically Modified (GM) crop. In contrast, Bt Cotton is a transgenic GM crop that contains foreign genes inserted from the bacterium Bacillus thuringiensis.",
+      "takeaway": "Genome-edited crops that do not contain foreign DNA are distinct from transgenic GM crops (like Bt Cotton) which contain exogenous genes.",
+      "evidenceExcerpt": "They contain no foreign DNA and are not considered GM Crops."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Mechanism-design",
+      "prompt": "The Indian Council of Agricultural Research (ICAR) recently utilized CRISPR-Cas technology to develop the DRR Dhan 100 Kamala rice variety. Which of the following best describes the specific genetic intervention performed in this variety?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Introduction of a synthetic gene cassette to confer broad-spectrum herbicide tolerance."
+        },
+        {
+          "id": "B",
+          "text": "Targeted modification of the endogenous CKX2 gene to achieve the desired agronomic traits."
+        },
+        {
+          "id": "C",
+          "text": "Insertion of a bacterial gene to produce insecticidal proteins directly within the plant tissues."
+        },
+        {
+          "id": "D",
+          "text": "Transfer of the MTU1010 gene cluster from a related wild species to enhance drought resilience."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "DRR Dhan 100 Kamala is India's first genome-edited rice variety developed by ICAR using CRISPR-Cas technology. The specific genetic intervention involved targeting and modifying the endogenous CKX2 (Cytokinin Oxidase 2) gene. It does not involve the insertion of foreign bacterial genes or synthetic gene cassettes.",
+      "takeaway": "CRISPR-Cas technology allows for precise, targeted modifications of endogenous genes (such as CKX2 in DRR Dhan 100 Kamala) without the need to introduce foreign DNA.",
+      "evidenceExcerpt": "Developed using CRISPR-Cas. DRR Dhan 100 Kamala targets the CKX2 gene."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the genome-edited rice varieties developed by the Indian Council of Agricultural Research (ICAR), consider the following statements: 1. While DRR Dhan 100 Kamala was developed by targeting the CKX2 gene, Pusa DST Rice 1 was developed to improve the MTU1010 variety. 2. Both varieties were developed using CRISPR-Cas technology and are recognized as India's first genome-edited rice varieties. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Both DRR Dhan 100 Kamala and Pusa DST Rice 1 are India's first genome-edited (GE) rice varieties developed by ICAR using CRISPR-Cas technology. DRR Dhan 100 Kamala targets the CKX2 gene, whereas Pusa DST Rice 1 improves the MTU1010 variety.",
+      "takeaway": "ICAR's pioneering work in genome editing has led to the development of specific rice varieties using CRISPR-Cas, each with distinct genetic targets or varietal improvements.",
+      "evidenceExcerpt": "ICAR developed India's first genome-edited (GE) rice varieties: DRR Rice 100 (Kamla) and Pusa DST Rice, making India the first country to do so. Developed using CRISPR-Cas. DRR Dhan 100 Kamala targets the CKX2 gene. Pusa DST Rice 1 improves MTU1010."
+    }
+  ]
+}

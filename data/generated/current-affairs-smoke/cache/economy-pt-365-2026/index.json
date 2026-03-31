@@ -1,0 +1,76 @@
+{
+  "pages": [
+    {
+      "pageNumber": 1,
+      "classification": "blank",
+      "questionQuota": 0,
+      "topic": "N/A",
+      "subtopic": "N/A",
+      "rationale": "The page is blank and contains no content suitable for question generation.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 2,
+      "classification": "toc",
+      "questionQuota": 0,
+      "topic": "N/A",
+      "subtopic": "N/A",
+      "rationale": "This page is a table of contents, listing topics and subtopics. It is not suitable for question generation.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 3,
+      "classification": "toc",
+      "questionQuota": 0,
+      "topic": "N/A",
+      "subtopic": "N/A",
+      "rationale": "This page is a continuation of the table of contents. It is not suitable for question generation.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 4,
+      "classification": "copyright",
+      "questionQuota": 0,
+      "topic": "N/A",
+      "subtopic": "N/A",
+      "rationale": "This page contains introductory notes about the document and copyright information. It does not contain content suitable for UPSC Prelims questions.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 5,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Banking and Monetary Policy",
+      "subtopic": "RBI Monetary Policy Instruments, Surplus Transfer, Economic Capital Framework",
+      "rationale": "This page is highly dense with UPSC-relevant information, detailing RBI's monetary policy instruments (quantitative and qualitative), RBI's surplus transfer to the government, and the Economic Capital Framework (ECF) including its genesis, concept, and components. Multiple questions can be framed on these distinct aspects.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 6,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Banking and Monetary Policy",
+      "subtopic": "Economic Capital Framework, India's Forex Reserves, Integrated Ombudsman Scheme",
+      "rationale": "This page continues the ECF discussion, then delves into India's Forex Reserves (components, reasons for increasing gold, risks of storing gold), and introduces the RBI Integrated Ombudsman Scheme 2021 (its expansion to co-operative banks). All are high-value topics for UPSC.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 7,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Banking and Monetary Policy",
+      "subtopic": "Integrated Ombudsman Scheme, Standing Deposit Facility (SDF), Variable Rate Reverse Repo (VRRR), Switch Auction, Co-lending norms",
+      "rationale": "This page provides further details on the Integrated Ombudsman Scheme and introduces several other key RBI initiatives/terms: Standing Deposit Facility (SDF), Variable Rate Reverse Repo (VRRR), Switch Auction, and Co-lending norms. Each is a distinct and important concept for UPSC.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 8,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Banking and Monetary Policy",
+      "subtopic": "Co-lending norms, Payment Aggregators, Ways and Means Advances (WMA), RBI Initiatives (ULI, CBDC, Tokenisation of CD)",
+      "rationale": "This page continues the discussion on co-lending norms, then covers Payment Aggregators, Ways and Means Advances (WMA) with its features, and new RBI initiatives like Unified Lending Interface (ULI), CBDC retail sandbox, and Tokenisation of Certificate of Deposits (CD). This is a very rich page with multiple distinct concepts.",
+      "confidence": 1
+    }
+  ]
+}

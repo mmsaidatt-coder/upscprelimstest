@@ -1,0 +1,129 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "According to the NITI Aayog reports on India's services sector trends, consider the following statements:\n1. As of 2023-24, the services sector has overtaken the primary sector to become the largest employer in India.\n2. The services sector's contribution to the Gross Value Added (GVA) in 2024-25 was greater than the combined contribution of the primary and secondary sectors.\n3. Between 2018 and 2024, the services sector added more jobs to the economy than any other individual sector.\n\nWhich of the statements given above is/are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The services sector is the second-largest employer (188 million workers), not the largest. Statement 2 is correct: Services contributed 55% of GVA, while the primary (16%) and secondary (29%) sectors combined contributed 45%. Statement 3 is incorrect: While the services sector added ~40 million jobs, it was second only to the construction sector in job creation.",
+      "takeaway": "While the services sector dominates India's GVA, it remains the second-largest employer and lags behind construction in recent job growth.",
+      "evidenceExcerpt": "In 2024-25, the services sector contributed nearly 55% of Gross Value Added (GVA), while the primary and secondary sectors accounted for 16% and 29%, respectively... Added ~40 million jobs in six years, second only to construction.",
+      "qualityScore": 92,
+      "reviewNotes": "The question tests precise rankings and GVA shares which are common UPSC themes.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the employment landscape in India's services sector, consider the following statements:\n1. The proportion of urban workers employed in the services sector is more than triple the proportion of rural workers in the same sector.\n2. Nearly 90% of the workers in the services sector lack social security benefits.\n3. In rural areas, women employed in the services sector earn less than half of what their male counterparts earn.\n\nWhich of the statements given above are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Statement 1 is correct: 60% of urban workers are in services compared to less than 20% of rural workers (60 is more than 3x20). Statement 2 is correct: 87% (nearly 90%) of workers in the sector lack social security. Statement 3 is correct: Rural women in services earn less than 50% of men's wages, highlighting significant gender wage disparity.",
+      "takeaway": "The services sector is characterized by high informality and sharp spatial and gender disparities in both participation and wages.",
+      "evidenceExcerpt": "Spatial: 60% of urban workers, as compared to less than 20% of rural workers in services... Informality: 87% lack social security; rural women earn less than 50% of men’s wages.",
+      "qualityScore": 89,
+      "reviewNotes": "Uses specific data points from NITI Aayog to construct a challenging multi-statement question.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to strategic infrastructure projects in India, consider the following statements:\n1. The Chenab Bridge, the world's highest railway arch bridge, is a critical component of the Udhampur-Srinagar-Baramulla Rail Link (USBRL).\n2. The Bairabi-Sairang Rail Link connects the capital of Mizoram to the national grid and facilitates trade via the Kaladan Multi-Modal Transit Transport Project.\n3. The Z-Morh Tunnel provides all-weather connectivity to Sonamarg and is strategically significant for troop mobility to the Ladakh region.\n\nWhich of the statements given above are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Statement 1 is correct: The Chenab Bridge is 359m above the river bed (higher than the Eiffel Tower) and is a key part of the USBRL project for Kashmir connectivity. Statement 2 is correct: The Bairabi-Sairang Rail Link connects Aizawl (Mizoram) and is linked to the Act East Policy through the Kaladan project. Statement 3 is correct: The Sonamargh (Z-Morh) Tunnel ensures all-weather access to Sonamarg and is crucial for defense logistics to Ladakh.",
+      "takeaway": "Strategic rail and tunnel projects in the Himalayan and North-Eastern regions are designed to integrate remote areas and enhance defense logistics.",
+      "evidenceExcerpt": "Chenab Bridge: Critical component of the USBRL... Bairabi-Sairang Rail Link: Connects Aizawl (Mizoram)... Facilitates trade with Southeast Asia via the upcoming Kaladan Multi-Modal Transit Transport Project. Sonamargh (Z-Morh) Tunnel: Crucial for troop mobility to Ladakh region.",
+      "qualityScore": 88,
+      "reviewNotes": "Accurately reflects the strategic significance of the listed projects as per the source text.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "The NITI Aayog report describes India's services sector as being 'divided' in terms of its employment and productivity landscape. Which of the following best captures this internal division?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A split between public sector essential services and private sector luxury services."
+        },
+        {
+          "id": "B",
+          "text": "A divide between high-value productive services with limited employment and traditional services with high informal employment."
+        },
+        {
+          "id": "C",
+          "text": "A geographic concentration where high-tech services are limited to coastal states while traditional services dominate landlocked states."
+        },
+        {
+          "id": "D",
+          "text": "A regulatory gap between services that are export-oriented and those that cater only to the domestic market."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The report highlights a structural divide: high-value services (IT, finance, healthcare) are highly productive but offer limited employment, whereas traditional services (trade, transport) are the major employers but are characterized by high informality.",
+      "takeaway": "India's services sector growth is bifurcated between high-productivity/low-employment and low-productivity/high-employment segments.",
+      "evidenceExcerpt": "High-value services (IT, finance, healthcare, professional services), productive but limited employment. Traditional services (trade, transport), major employers, yet highly informal.",
+      "qualityScore": 85,
+      "reviewNotes": "Focuses on the qualitative 'insight' provided by the NITI Aayog report.",
+      "contextLines": []
+    }
+  ],
+  "reviewerNotes": "The questions cover both the infrastructure and services sector trends from the provided text. They utilize the specific data points (GVA percentages, employment rankings, and spatial/gender statistics) to create high-standard UPSC-style distractors. The 'second to construction' and 'second largest employer' facts are critical nuances included to test precision."
+}

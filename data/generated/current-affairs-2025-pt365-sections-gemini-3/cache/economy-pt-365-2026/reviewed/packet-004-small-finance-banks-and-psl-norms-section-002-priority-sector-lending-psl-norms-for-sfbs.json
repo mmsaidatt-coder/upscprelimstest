@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Priority Sector Lending (PSL) norms for Small Finance Banks (SFBs):\n1. The total PSL requirement for SFBs has been reduced to 60 percent of their Adjusted Net Bank Credit (ANBC).\n2. The revised norms permit SFBs to use a portion of their PSL allocation for non-PSL secured loans.\n3. The Reserve Bank of India issues PSL rules for SFBs under the provisions of the Reserve Bank of India Act, 1934.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Effective FY 2025-26, the total PSL requirement for SFBs is reduced from 75% to 60% of Adjusted Net Bank Credit (ANBC). Statement 2 is correct: The 60% target comprises a 40% mandatory allocation to PSL sectors and a 20% flexible allocation, which is explicitly usable for non-PSL secured loans. Statement 3 is incorrect: The RBI issued the new PSL rules for SFBs under Section 22(1) of the Banking Regulation Act, 1949, not the Reserve Bank of India Act, 1934.",
+      "takeaway": "The revised PSL target for SFBs is 60% of ANBC (40% mandatory, 20% flexible), regulated under the Banking Regulation Act, 1949.",
+      "evidenceExcerpt": "RBI issued new PSL rules for SFBs under Section 22(1) of the Banking Regulation Act, 1949. Effective FY 2025-26, the total PSL requirement for SFBs is reduced from 75% to 60% of Adjusted Net Bank Credit (ANBC). The 40% mandatory allocation remains, but the flexible allocation is reduced to 20% (usable for non-PSL secured loans).",
+      "qualityScore": 85,
+      "reviewNotes": "Rewrote the second statement to test the nuance of the flexible allocation rather than using an extreme 'completely eliminated' phrasing. This makes the question more analytical and aligned with UPSC standards."
+    }
+  ],
+  "reviewerNotes": "Selected three questions that cover distinct aspects of the Priority Sector Lending (PSL) norms as detailed in the source text. Question 1 tests the recent regulatory changes for Small Finance Banks, including the statutory backing and the nuanced flexible allocation component. Question 2 tests the applicability of the PSL framework across different banking institutions. Question 3 tests the identification of eligible PSL categories. All questions have been refined to match UPSC standards, utilizing standard 'How many' and code-based formats."
+}

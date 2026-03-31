@@ -1,0 +1,63 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-015-conservation-reserves-and-environmental-dna-section-003-global-ocean-darkening",
+    "claimType": "Concept/Definition",
+    "claimText": "Ocean darkening refers to the reduction in light penetration into the oceans, which shrinks the photic zone (the sunlit layer up to 200 meters deep where 90% of marine life thrives).",
+    "evidenceExcerpt": "Ocean darkening shrinks the photic zone, which is the sunlit layer up to 200 meters deep where 90% of marine life thrives.",
+    "pageNumbers": [
+      33
+    ],
+    "examUse": "Statement-based question on the definition of ocean darkening and the depth/significance of the photic zone.",
+    "distractorHooks": [
+      "Expanding the photic zone instead of shrinking it",
+      "Stating the photic zone extends up to 500 or 1000 meters deep",
+      "Claiming the aphotic zone is where 90% of marine life thrives"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-015-conservation-reserves-and-environmental-dna-section-003-global-ocean-darkening",
+    "claimType": "Comparison/Cause-Effect",
+    "claimText": "Coastal ocean darkening is primarily caused by nutrient, organic material, and sediment loading from agricultural runoff, whereas open ocean darkening is driven by surface warming that leads to algal blooms.",
+    "evidenceExcerpt": "Coastal darkening is caused by nutrient, organic material, and sediment loading from agricultural runoff. Open ocean darkening is driven by surface warming leading to algal blooms and climate-driven circulation changes.",
+    "pageNumbers": [
+      33
+    ],
+    "examUse": "Correct-pair or statement-based question distinguishing the specific drivers of coastal versus open ocean darkening.",
+    "distractorHooks": [
+      "Swapping the causes (e.g., stating sediment loading is the primary cause of open ocean darkening)",
+      "Claiming surface cooling causes algal blooms in the open ocean"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-015-conservation-reserves-and-environmental-dna-section-003-global-ocean-darkening",
+    "claimType": "Factual/Geography",
+    "claimText": "Between 2003 and 2022, 21% of the global ocean became darker, with notable occurrences in the Arctic, Antarctic, and Gulf Stream regions.",
+    "evidenceExcerpt": "21% of the global ocean became darker between 2003 and 2022, notably in the Arctic, Antarctic, and Gulf Stream.",
+    "pageNumbers": [
+      33
+    ],
+    "examUse": "Statement-based question on the geographical regions most affected by recent ocean darkening trends.",
+    "distractorHooks": [
+      "Claiming ocean darkening is exclusively a tropical or equatorial phenomenon",
+      "Stating that 100% of the global ocean has become darker"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-015-conservation-reserves-and-environmental-dna-section-003-global-ocean-darkening",
+    "claimType": "Cause-Effect",
+    "claimText": "The impacts of global ocean darkening include limited ocean productivity, declining fish stocks, and disruptions to climate regulation.",
+    "evidenceExcerpt": "Impacts include limited ocean productivity, declining fish stocks, and affected climate regulation.",
+    "pageNumbers": [
+      33
+    ],
+    "examUse": "Multi-statement question evaluating the ecological and environmental consequences of ocean darkening.",
+    "distractorHooks": [
+      "Claiming ocean darkening increases overall marine productivity",
+      "Stating that ocean darkening has no impact on global climate regulation"
+    ]
+  }
+]

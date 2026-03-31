@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Term in News",
+      "prompt": "The 'Take It Down Act', recently seen in the news, is best described as:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A European Union directive aimed at regulating monopolistic practices of big tech companies."
+        },
+        {
+          "id": "B",
+          "text": "A United States legislation enacted to tackle the spread of harmful deepfakes online."
+        },
+        {
+          "id": "C",
+          "text": "An international treaty framework for the immediate removal of hazardous space debris."
+        },
+        {
+          "id": "D",
+          "text": "A cybersecurity protocol adopted by the G20 to take down state-sponsored ransomware networks."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The 'Take It Down Act' is a piece of legislation recently enacted by the United States specifically designed to tackle the proliferation of harmful deepfakes on the internet.",
+      "takeaway": "Legislative measures against AI-manipulated media are evolving globally, with the US Take It Down Act serving as a prominent example of targeting harmful deepfakes.",
+      "evidenceExcerpt": "The US recently enacted the Take It Down Act to tackle harmful deepfakes online."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Deepfakes': 1. They are synthetic media created using deep learning techniques to manipulate video, photo, as well as audio recordings. 2. The 'Take It Down Act', recently enacted by the European Union, provides a legal framework to tackle harmful deepfakes online. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Deepfakes utilize deep learning techniques to manipulate video, photo, or audio recordings. Statement 2 is incorrect: The 'Take It Down Act' was enacted by the United States, not the European Union, to tackle harmful deepfakes online.",
+      "takeaway": "Deepfakes encompass audio, video, and photo manipulation via deep learning. The US has enacted the Take It Down Act to combat them.",
+      "evidenceExcerpt": "Deepfakes use deep learning techniques to manipulate video, photo, or audio recordings. The US recently enacted the Take It Down Act to tackle harmful deepfakes online."
+    }
+  ]
+}

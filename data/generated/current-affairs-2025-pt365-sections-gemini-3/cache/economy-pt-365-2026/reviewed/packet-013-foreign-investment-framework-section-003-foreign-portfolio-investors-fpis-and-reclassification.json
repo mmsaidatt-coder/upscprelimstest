@@ -1,0 +1,98 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Comparative Scenarios",
+      "prompt": "Consider the following scenarios involving a Foreign Portfolio Investor (FPI) that breaches the 10 percent paid-up equity capital limit in an Indian company:\n1. The Indian company operates in a sector where Foreign Direct Investment (FDI) is explicitly prohibited.\n2. The FPI originates from a land-bordering country and the Indian investee company refuses to grant concurrence for reclassification.\nUnder the 2024 RBI and SEBI framework, in which of the above scenarios is the FPI left with no option but to divest its surplus shares?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "In scenario 1, reclassification to FDI is not permitted because the sector is FDI-prohibited, making divestment mandatory. In scenario 2, FPIs from land-bordering countries require both government approval and the investee company's concurrence to reclassify as FDI; without the company's concurrence, reclassification fails, and the FPI must divest the surplus shares.",
+      "takeaway": "Breaching the 10% FPI limit triggers a choice between divestment and reclassification. Reclassification is blocked if the sector prohibits FDI, or if mandatory approvals (like investee concurrence for land-bordering countries) are denied.",
+      "evidenceExcerpt": "The 2024 RBI and SEBI framework states that reclassification is not permitted in FDI-prohibited sectors. Furthermore, FPI investments requiring government approval (especially from land-bordering countries) need the Indian Investee Company's concurrence for reclassification.",
+      "qualityScore": 90,
+      "reviewNotes": "Very strong conceptual question. It tests multiple conditions under which the reclassification option is invalidated, forcing divestment."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Applied Scenario",
+      "prompt": "An FPI currently holds 9.5% of the paid-up equity capital of an Indian company engaged in a sector where Foreign Direct Investment (FDI) is prohibited. If the FPI acquires an additional 1.5% equity, breaching the 10% threshold, what is the legally mandated course of action under the 2024 RBI and SEBI framework?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The FPI must divest the surplus shares, as reclassification to FDI is not permitted in this sector."
+        },
+        {
+          "id": "B",
+          "text": "The FPI can reclassify the entire 11% as FDI provided it obtains the concurrence of the Indian investee company."
+        },
+        {
+          "id": "C",
+          "text": "The FPI must reclassify the investment as FDI but will be stripped of voting rights for the surplus shares."
+        },
+        {
+          "id": "D",
+          "text": "The FPI is allowed to retain the 11% holding as portfolio investment subject to a special penalty imposed by SEBI."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "FPIs are restricted to a maximum of 10% of an Indian company's paid-up equity. Upon exceeding this cap, they must either divest the surplus or reclassify as FDI. However, the 2024 framework strictly prohibits reclassification in FDI-prohibited sectors, leaving divestment of the surplus shares as the only legally permissible option.",
+      "takeaway": "The option to reclassify an FPI holding into FDI upon breaching the 10% threshold is not absolute; it is explicitly blocked in sectors where FDI is prohibited.",
+      "evidenceExcerpt": "If they exceed this cap, they must either divest the surplus shares or reclassify as Foreign Direct Investment (FDI). The 2024 RBI and SEBI framework states that reclassification is not permitted in FDI-prohibited sectors.",
+      "qualityScore": 88,
+      "reviewNotes": "Excellent applied question that tests the candidate's understanding of the intersection between FPI limits and FDI sectoral prohibitions."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Foreign Portfolio Investors (FPIs) in India:\n1. An FPI is permitted to hold a maximum of 10 percent of the total paid-up equity capital of an Indian company.\n2. If an FPI exceeds the prescribed investment limit, it must mandatorily divest the surplus shares as reclassification to Foreign Direct Investment (FDI) is not permitted.\n3. Reclassification of an FPI to FDI requires government approval if the investment originates from a land-bordering country.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: FPIs are restricted to holding a maximum of 10 percent of an Indian company's total paid-up equity capital. Statement 2 is incorrect: Upon exceeding the 10 percent cap, FPIs are not mandatorily required to divest; they have the option to either divest the surplus shares or reclassify their investment as FDI. Statement 3 is correct: Reclassification requires government approval for investments from land-bordering countries.",
+      "takeaway": "FPIs face a 10 percent equity cap in Indian companies. Breaching this allows for divestment or reclassification to FDI, though reclassification from land-bordering countries requires government approval.",
+      "evidenceExcerpt": "FPIs are restricted to holding a maximum of 10 percent of an Indian company's total paid-up equity capital. Upon exceeding the 10 percent cap, FPIs have the option to divest surplus shares or reclassify their investment as FDI... Reclassification requires government approval for investments from land-bordering countries...",
+      "qualityScore": 85,
+      "reviewNotes": "Standard UPSC format. Tests the core limits and exceptions clearly without ambiguity."
+    }
+  ],
+  "reviewerNotes": "Selected three high-quality questions that cover the core concepts of FPI limits, reclassification rules, and exceptions. The questions have been refined to match UPSC's tone, ensuring distractors are plausible and the explanations are tightly aligned with the source text."
+}

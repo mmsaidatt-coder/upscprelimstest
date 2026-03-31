@@ -1,0 +1,129 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "History",
+      "difficulty": "Hard",
+      "questionType": "Comparison-driven",
+      "prompt": "Which of the following features distinguishes the Booker Prize (formerly Man Booker Prize) from the International Booker Prize?\n\n1. The Booker Prize is awarded for novels originally written in English, whereas the International Booker Prize is for translated fiction.\n2. The Booker Prize is restricted to authors of Commonwealth nations, while the International Booker Prize is open to any nationality.\n3. Both prizes require the work to be published in the United Kingdom or Ireland.\n\nSelect the correct answer using the code given below:",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1 and 3 only"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The Booker Prize is for the best novel originally written in English, while the International Booker Prize is for translated fiction. Statement 2 is incorrect: According to the text, the Booker Prize is open to authors of ANY nationality. Statement 3 is incorrect as a distinguishing feature: Both prizes actually share this requirement (publication in UK/Ireland), so it does not distinguish one from the other. The question asks for features that distinguish them.",
+      "takeaway": "The primary distinction between the two prizes is the language of the original work and the distribution of prize money, not the publication location or author nationality.",
+      "evidenceExcerpt": "Booker Prize: For Best Novel in English. Originally written in English. Authors of ANY Nationality. Published in UK/Ireland. International Booker Prize: For Best Translated Fiction. ANY Language, Translated to English. Published in UK/Ireland.",
+      "qualityScore": 92,
+      "reviewNotes": "This is a high-level conceptual question that requires careful reading of the 'distinguishes' constraint. Statement 3 is a commonality, not a distinction.",
+      "contextLines": []
+    },
+    {
+      "subject": "History",
+      "difficulty": "Hard",
+      "questionType": "Categorization",
+      "prompt": "Consider the following Indian authors:\n\n1. Arundhati Roy\n2. Salman Rushdie\n3. Aravind Adiga\n4. Geetanjali Shree\n\nHow many of the above authors have won the Booker Prize (formerly Man Booker Prize) for a novel originally written in English?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "According to the text, Arundhati Roy (1997), Aravind Adiga (2008), and Salman Rushdie (1981) are winners of the Booker Prize, which is awarded for novels originally written in English. Geetanjali Shree won the International Booker Prize (2022), which is specifically for translated fiction. Therefore, only three of the listed authors won the Booker Prize for an original English work.",
+      "takeaway": "It is essential to distinguish between Indian winners of the original Booker Prize (English) and the International Booker Prize (Translated).",
+      "evidenceExcerpt": "Indian Winners (Booker Prize): Arundhati Roy - \"The God of Small Things\" (1997); Aravind Adiga - \"The White Tiger\" (2008); Salman Rushdie - \"Midnight's Children\" (1981). Indian Connection (International Booker Prize): Geetanjali Shree - \"Tomb of Sand\" (2022).",
+      "qualityScore": 90,
+      "reviewNotes": "Uses the modern UPSC 'How many' format to test the classification of winners between the two distinct awards.",
+      "contextLines": []
+    },
+    {
+      "subject": "History",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the International Booker Prize, consider the following statements:\n\n1. It was introduced in 2004 to complement the Booker Prize, which was then known as the Man Booker Prize.\n2. Since its inception in 2005, the award has been given annually to a single work of fiction.\n3. The prize money is shared equally between the author and the translator of the winning work.\n\nWhich of the statements given above are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: The introduction of the International Prize to complement the Man Booker Prize was announced in June 2004. Statement 2 is incorrect: While it started in 2005, it has been awarded annually only since 2016. Statement 3 is correct: The £50,000 prize for the winning title is shared equally between the author and the translator.",
+      "takeaway": "The International Booker Prize became an annual award in 2016 and uniquely recognizes the collaborative effort of authors and translators.",
+      "evidenceExcerpt": "The introduction of the International Prize to complement the Man Booker Prize... was announced in June 2004. Since 2016, the award has been given annually... shared equally between author and translator.",
+      "qualityScore": 88,
+      "reviewNotes": "This question tests the institutional history and specific prize mechanics, distinguishing between its start date and the start of its annual frequency.",
+      "contextLines": []
+    },
+    {
+      "subject": "History",
+      "difficulty": "Moderate",
+      "questionType": "Fact-based",
+      "prompt": "Regarding the 2022 International Booker Prize winner, consider the following statements:\n\n1. Geetanjali Shree's 'Tomb of Sand' was the first Hindi novel to win the award.\n2. The work was originally written in Hindi under the title 'Ret Samadhi'.\n3. The translator, Daisy Rockwell, is an Indian citizen based in the United States.\n\nWhich of the statements given above are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Geetanjali Shree's 'Tomb of Sand' was the first Hindi novel to win the International Booker Prize. Statement 2 is correct: The original Hindi title is 'Ret Samadhi'. Statement 3 is incorrect: While Daisy Rockwell is from the United States, the text does not state she is an Indian citizen; she is listed under 'Translator Country: United States'.",
+      "takeaway": "Geetanjali Shree's win for 'Tomb of Sand' marked a historic milestone for Hindi literature on the global stage.",
+      "evidenceExcerpt": "2022 Winner Details: Author: Geetanjali Shree; Country: India; Translator: Daisy Rockwell; Translator Country: United States; Work: Tomb of Sand (रेत समाधि); Original Language: Hindi. ... 1st Hindi Novel to Win!",
+      "qualityScore": 85,
+      "reviewNotes": "Standard factual question with a distractor regarding the translator's nationality/origin.",
+      "contextLines": []
+    }
+  ],
+  "reviewerNotes": "The questions cover the historical context, structural differences, and specific Indian achievements related to the Booker prizes as detailed in the source text. Phrasing has been adjusted to match the formal tone of UPSC Prelims."
+}

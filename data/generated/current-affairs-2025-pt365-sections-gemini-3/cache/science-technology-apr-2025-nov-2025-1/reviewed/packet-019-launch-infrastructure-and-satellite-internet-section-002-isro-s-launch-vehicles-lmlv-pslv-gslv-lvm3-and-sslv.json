@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Multiple-choice",
+      "prompt": "Consider the following launch vehicles developed by ISRO:\n1. Polar Satellite Launch Vehicle (PSLV)\n2. Geosynchronous Satellite Launch Vehicle (GSLV)\n3. Launch Vehicle Mark-3 (LVM3)\n4. Small Satellite Launch Vehicle (SSLV)\n\nHow many of the above are configured as three-stage launch vehicles?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The GSLV, LVM3, and SSLV are all configured as three-stage launch vehicles. The PSLV, however, is a four-stage vehicle. Therefore, exactly three of the listed vehicles are three-stage rockets.",
+      "takeaway": "While PSLV uses a four-stage architecture, most of ISRO's other operational vehicles (GSLV, LVM3, SSLV) utilize a three-stage design.",
+      "evidenceExcerpt": "PSLV: ...a four-stage vehicle... GSLV: A fourth-generation, three-stage vehicle... LVM 3: A heavy-lift, three-stage vehicle... SSLV: Three-stage, all-solid propulsion vehicle...",
+      "qualityScore": 88,
+      "reviewNotes": "A very clean, factual question that perfectly mimics the recent UPSC trend of 'How many of the above' formats."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding ISRO's launch vehicles:\n1. The Small Satellite Launch Vehicle (SSLV) is a three-stage vehicle configured entirely with solid propulsion stages.\n2. The Polar Satellite Launch Vehicle (PSLV) was the first Indian launch vehicle to be equipped with liquid stages.\n3. The Launch Vehicle Mark-3 (LVM3) is capable of placing a 10-ton class satellite into a Geosynchronous Transfer Orbit (GTO).\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: SSLV is a three-stage, all-solid propulsion vehicle designed for smaller payloads. Statement 2 is correct: PSLV is a four-stage vehicle and the first Indian launch vehicle equipped with liquid stages. Statement 3 is incorrect: LVM3 is capable of carrying 4-ton class satellites to GTO or about 10 tons to Low Earth Orbit (LEO), not 10 tons to GTO.",
+      "takeaway": "LVM3 is ISRO's heavy-lift vehicle with a capacity of 4 tons to GTO and 10 tons to LEO. SSLV uses all-solid propulsion, unlike PSLV and LVM3 which use a mix of propellants.",
+      "evidenceExcerpt": "PSLV: ISRO's workhorse... first Indian launch vehicle to be equipped with liquid stages... LVM 3: A heavy-lift, three-stage vehicle capable of carrying 4-ton class satellites to GTO or about 10 tons to LEO. SSLV: Three-stage, all-solid propulsion vehicle...",
+      "qualityScore": 85,
+      "reviewNotes": "Excellent UPSC-style statement question testing specific payload capacities and propulsion types."
+    }
+  ],
+  "reviewerNotes": "Selected 5 high-quality questions covering different aspects of ISRO's launch vehicles (PSLV, GSLV, LVM3, SSLV, LMLV) and the EOS-09 mission. Rewrote prompts to ensure strict adherence to UPSC phrasing and eliminated any ambiguity in the distractors."
+}

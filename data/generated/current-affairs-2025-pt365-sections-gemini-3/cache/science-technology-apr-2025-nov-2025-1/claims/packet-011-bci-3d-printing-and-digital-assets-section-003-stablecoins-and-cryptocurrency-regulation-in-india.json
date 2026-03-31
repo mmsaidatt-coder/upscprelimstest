@@ -1,0 +1,82 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-011-bci-3d-printing-and-digital-assets-section-003-stablecoins-and-cryptocurrency-regulation-in-india",
+    "claimType": "Conceptual",
+    "claimText": "Stablecoins are a type of cryptocurrency whose value is pegged to another currency, commodity, or financial instrument to maintain stability.",
+    "evidenceExcerpt": "Stablecoins are pegged to currencies, commodities, or financial instruments to maintain value.",
+    "pageNumbers": [
+      23,
+      24
+    ],
+    "examUse": "Statement-based question on the definition and purpose of stablecoins.",
+    "distractorHooks": [
+      "Stablecoins are completely unpegged and highly volatile",
+      "Stablecoins are issued exclusively by central banks"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-011-bci-3d-printing-and-digital-assets-section-003-stablecoins-and-cryptocurrency-regulation-in-india",
+    "claimType": "Factual",
+    "claimText": "The three primary types of stablecoins are fiat-collateralized, crypto-collateralized, and non-collateralized (algorithmic).",
+    "evidenceExcerpt": "There are three primary types of stablecoins: fiat-collateralized, crypto-collateralized, and non-collateralized (algorithmic).",
+    "pageNumbers": [
+      23,
+      24
+    ],
+    "examUse": "Correct-pair or statement-based question identifying valid types of stablecoins.",
+    "distractorHooks": [
+      "Algorithmic stablecoins are backed by physical gold",
+      "All stablecoins must be fiat-collateralized"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-011-bci-3d-printing-and-digital-assets-section-003-stablecoins-and-cryptocurrency-regulation-in-india",
+    "claimType": "Factual",
+    "claimText": "The Finance Act of 2022 imposed a 30% tax on capital gains arising from Virtual Digital Assets (VDAs) in India.",
+    "evidenceExcerpt": "India imposed a 30% tax on capital gains from Virtual Digital Assets (VDAs) via the Finance Act, 2022.",
+    "pageNumbers": [
+      23,
+      24
+    ],
+    "examUse": "Statement-based question on the taxation and legal status of cryptocurrencies in India.",
+    "distractorHooks": [
+      "VDAs are completely tax-exempt in India",
+      "The tax rate on VDAs is 10%"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-011-bci-3d-printing-and-digital-assets-section-003-stablecoins-and-cryptocurrency-regulation-in-india",
+    "claimType": "Factual",
+    "claimText": "Virtual Digital Assets (VDAs) were brought under the purview of the Prevention of Money-laundering Act (PMLA), 2002, in the year 2023.",
+    "evidenceExcerpt": "In 2023, VDAs were brought under the purview of the Prevention and Money-laundering Act, 2002.",
+    "pageNumbers": [
+      23,
+      24
+    ],
+    "examUse": "Statement-based question regarding the regulatory framework and anti-money laundering compliance for crypto assets in India.",
+    "distractorHooks": [
+      "VDAs are exempt from the Prevention of Money-laundering Act",
+      "VDAs are regulated by the RBI under the FEMA Act instead of PMLA"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-011-bci-3d-printing-and-digital-assets-section-003-stablecoins-and-cryptocurrency-regulation-in-india",
+    "claimType": "Conceptual",
+    "claimText": "Cryptocurrencies are based on blockchain technology, which functions as a distributed public ledger, and are typically created through a process called mining.",
+    "evidenceExcerpt": "Cryptocurrency is based on blockchain, a distributed public ledger, and created via mining.",
+    "pageNumbers": [
+      23,
+      24
+    ],
+    "examUse": "Statement-based question on the underlying technology of cryptocurrencies.",
+    "distractorHooks": [
+      "Blockchain is a centralized private ledger controlled by a single entity",
+      "Cryptocurrencies are printed by central banks"
+    ]
+  }
+]

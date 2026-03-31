@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Research Development and Innovation (RDI) Scheme:\n\n1. It is administered by the NITI Aayog with a fund allocation of ₹1 lakh crore.\n2. It primarily finances transformative projects at lower Technology Readiness Levels (TRLs) to support basic research.\n3. A Special Purpose Fund (SPF) established within the Anusandhan National Research Foundation (ANRF) acts as the custodian of its funds.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect: The RDI Scheme is administered by the Department of Science and Technology (DST), not the NITI Aayog, with a fund allocation of ₹1 lakh crore.\nStatement 2 is incorrect: A key objective of the scheme is to finance transformative projects at higher Technology Readiness Levels (TRLs), encouraging the private sector to scale up RDI in sunrise domains rather than focusing solely on basic research.\nStatement 3 is correct: The scheme features a two-tiered funding mechanism where a Special Purpose Fund (SPF) is established within the Anusandhan National Research Foundation (ANRF), acting as the custodian of funds.",
+      "takeaway": "The RDI Scheme (₹1 lakh crore allocation) is under the DST. It targets private sector scale-up in sunrise domains at higher TRLs, using the ANRF as the fund custodian.",
+      "evidenceExcerpt": "Nodal Department: Department of Science and Technology Fund allocation: 1 lakh crore... Finance transformative projects at higher Technology Readiness Levels, etc... Special Purpose Fund (SPF): Established within the Anusandhan National Research Foundation (ANRF), acting as the custodian of funds.",
+      "qualityScore": 85,
+      "reviewNotes": "Refined the distractors to make them more plausible. Changed the nodal agency to NITI Aayog and the target to lower TRLs to test the candidate's precise knowledge of the scheme's objectives."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the funding mechanism of the Research Development and Innovation (RDI) Scheme, consider the following statements:\n\n1. It provides long-term financing or refinancing at low or nil interest rates to spur private investments.\n2. It operates through a two-tiered funding mechanism where the Reserve Bank of India acts as the primary custodian of funds.\n3. Under the scheme, Second Level Fund Managers can allocate funds as equity funding for startups.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The scheme aims to provide long-term financing or refinancing with long tenors at low or nil interest rates to spur private investments in sunrise domains.\nStatement 2 is incorrect: While the scheme uses a two-tiered funding mechanism, the Special Purpose Fund (SPF) acting as the custodian of funds is established within the Anusandhan National Research Foundation (ANRF), not the Reserve Bank of India.\nStatement 3 is correct: Second Level Fund Managers allocate funds as long-term concessional loans or equity funding for startups.",
+      "takeaway": "The RDI Scheme utilizes a two-tiered funding mechanism where the ANRF acts as the custodian of funds, and Second Level Fund Managers provide long-term concessional loans or equity funding to startups.",
+      "evidenceExcerpt": "Aim: Provide long-term financing or refinancing with long tenors at low/nil interest rates... Two-Tiered Funding Mechanism Special Purpose Fund (SPF): Established within the Anusandhan National Research Foundation (ANRF), acting as the custodian of funds... Second Level Fund Managers allocate funds as long-term concessional loans or equity funding for startups.",
+      "qualityScore": 85,
+      "reviewNotes": "Good coverage of the financial architecture of the scheme. Replaced the single-window distractor with a more nuanced two-tiered RBI distractor to increase the difficulty and match UPSC style."
+    }
+  ],
+  "reviewerNotes": "Selected two statement-based questions. Q1 focuses on the nodal agency, target TRLs, and the fund custodian. Q2 focuses on the financial mechanisms, including interest rates, the two-tiered structure, and the role of Second Level Fund Managers. Both questions have been refined to match UPSC standards with plausible distractors."
+}

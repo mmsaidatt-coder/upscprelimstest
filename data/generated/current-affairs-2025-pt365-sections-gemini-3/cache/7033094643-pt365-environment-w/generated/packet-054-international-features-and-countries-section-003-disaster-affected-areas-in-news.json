@@ -1,0 +1,149 @@
+{
+  "questions": [
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of volcanoes recently in the news and their respective countries:\n1. Mount Etna : Italy\n2. Mount Lewotobi Laki-laki : Indonesia\n3. Hayli Gubbi : Ethiopia\n4. Kilauea : Japan\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "Only three pairs"
+        },
+        {
+          "id": "D",
+          "text": "All four pairs"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Pair 1 is correct: Mount Etna is Europe's largest active volcano, located in Italy. Pair 2 is correct: Mount Lewotobi Laki-laki is located in Indonesia. Pair 3 is correct: Hayli Gubbi is located in Ethiopia. Pair 4 is incorrect: Kilauea is located in Hawaii, United States, not Japan.",
+      "takeaway": "Kilauea is a highly active volcano in Hawaii (USA), while Hayli Gubbi is in Ethiopia, and Mount Lewotobi Laki-laki is in Indonesia.",
+      "evidenceExcerpt": "Mount Etna (Italy): Volcanic Eruption... Mount Lewotobi Laki-laki (Indonesia): Volcanic Eruption... Kilauea volcano (Hawaii, U.S.)... Hayli Gubbi (Ethiopia)..."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding geographical events and features recently in the news:\n1. Mount Semeru is a stratovolcano and the highest volcano on Sumatra Island.\n2. Cyclone Asna is a tropical cyclone that developed in the Arabian Sea along the west coast.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Mount Semeru is a stratovolcano and the highest volcano on Java Island, not Sumatra Island. Statement 2 is correct: Cyclone Asna is a tropical cyclone that developed along the west coast in the Arabian Sea.",
+      "takeaway": "Mount Semeru is the highest volcano on Java Island, Indonesia. Cyclone Asna was a notable tropical cyclone that formed in the Arabian Sea.",
+      "evidenceExcerpt": "Cyclone Asna: Tropical cyclone along the west coast, Arabian Sea... Mount Semeru is a stratovolcano and the highest volcano on Java Island, Indonesia."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Hard",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of active volcanoes and the specific islands they are located on:\n1. Mount Etna : Sicily Island\n2. Mount Lewotobi Laki-laki : Flores Island\n3. Mount Semeru : Java Island\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "None"
+        },
+        {
+          "id": "B",
+          "text": "Only one"
+        },
+        {
+          "id": "C",
+          "text": "Only two"
+        },
+        {
+          "id": "D",
+          "text": "All three"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Pair 1 is correct: Mount Etna is Europe's largest active volcano, located on Sicily Island, Italy. Pair 2 is correct: Mount Lewotobi Laki-laki is located on Flores Island, Indonesia. Pair 3 is correct: Mount Semeru is the highest volcano on Java Island, Indonesia.",
+      "takeaway": "Indonesia has numerous active volcanoes across its archipelago, including Mount Semeru on Java and Mount Lewotobi Laki-laki on Flores. Mount Etna is located on the Italian island of Sicily.",
+      "evidenceExcerpt": "Mount Etna is Europe's largest active volcano, located on Sicily Island, Italy. Mount Lewotobi Laki-laki is a volcano located on Flores Island, Indonesia... Mount Semeru is a stratovolcano and the highest volcano on Java Island, Indonesia."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Easy",
+      "questionType": "multiple-choice",
+      "prompt": "Which of the following best describes Cyclone Asna, recently seen in the news?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A tropical cyclone that developed along the west coast in the Arabian Sea"
+        },
+        {
+          "id": "B",
+          "text": "An extratropical cyclone that affected the Mediterranean region near Sicily"
+        },
+        {
+          "id": "C",
+          "text": "A tropical cyclone that originated in the Bay of Bengal and crossed the east coast"
+        },
+        {
+          "id": "D",
+          "text": "A temperate cyclone that brought unseasonal rains to the Horn of Africa"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Cyclone Asna is a tropical cyclone that developed in the Arabian Sea along the west coast.",
+      "takeaway": "Tracking the origin basin (Arabian Sea vs. Bay of Bengal) and the nature (tropical vs. extratropical) of recent cyclones is important for disaster management studies.",
+      "evidenceExcerpt": "Cyclone Asna: Tropical cyclone along the west coast, Arabian Sea..."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "statement-based",
+      "prompt": "Consider the following statements regarding volcanoes recently in the news:\n\n1. Mount Etna is recognised as Europe's largest active volcano.\n2. Mount Semeru is a shield volcano located in Indonesia.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct as Mount Etna is Europe's largest active volcano. Statement 2 is incorrect because Mount Semeru is a stratovolcano, not a shield volcano.",
+      "takeaway": "Volcanoes are classified by their structure and eruptive patterns; knowing whether a prominent volcano is a stratovolcano or a shield volcano helps in understanding its hazard profile.",
+      "evidenceExcerpt": "Mount Etna is Europe's largest active volcano, located on Sicily Island, Italy... Mount Semeru is a stratovolcano and the highest volcano on Java Island, Indonesia."
+    }
+  ]
+}

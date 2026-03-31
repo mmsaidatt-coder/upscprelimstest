@@ -1,0 +1,62 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-001-gene-editing-techniques-section-001-basic-genetics-and-genome-sequencing",
+    "claimType": "Factual",
+    "claimText": "Genes are specific sections of DNA that serve as the fundamental units of hereditary information.",
+    "evidenceExcerpt": "Genes are sections of DNA and units of hereditary information.",
+    "pageNumbers": [
+      5
+    ],
+    "examUse": "Statement-based question on basic genetic terminology.",
+    "distractorHooks": [
+      "Stating genes are made of proteins",
+      "Confusing genes with entire chromosomes"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-001-gene-editing-techniques-section-001-basic-genetics-and-genome-sequencing",
+    "claimType": "Conceptual",
+    "claimText": "Gametes are mature reproductive cells that contain a haploid number of chromosomes, representing half the genetic material required to form a diploid zygote.",
+    "evidenceExcerpt": "Gametes are mature reproductive cells containing a haploid number of chromosomes (50% genetic material) capable of fusing to form a diploid zygote.",
+    "pageNumbers": [
+      5
+    ],
+    "examUse": "Statement-based question distinguishing between haploid and diploid cells.",
+    "distractorHooks": [
+      "Stating gametes are diploid cells",
+      "Claiming gametes contain 100 percent of the parent genetic material"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-001-gene-editing-techniques-section-001-basic-genetics-and-genome-sequencing",
+    "claimType": "Factual",
+    "claimText": "Genome sequencing is the technique used to determine the exact order of base pairs in an individual DNA strand.",
+    "evidenceExcerpt": "Genome sequencing determines the exact order of base pairs in an individual's DNA strand.",
+    "pageNumbers": [
+      5
+    ],
+    "examUse": "Definition-based statement in a multiple-choice question.",
+    "distractorHooks": [
+      "Confusing genome sequencing with gene editing or modification",
+      "Stating it determines the order of amino acids in a protein"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-001-gene-editing-techniques-section-001-basic-genetics-and-genome-sequencing",
+    "claimType": "Application",
+    "claimText": "Genome sequencing has diverse applications including personalized healthcare, predictive diagnostics, paternity testing, and identifying climate-resilient traits in agriculture.",
+    "evidenceExcerpt": "Applications of genome sequencing include personalized healthcare, paternity testing, and identifying agricultural traits for climate resilience.",
+    "pageNumbers": [
+      5
+    ],
+    "examUse": "Multi-statement application question on the uses of biotechnology.",
+    "distractorHooks": [
+      "Claiming genome sequencing is only applicable to human health and not agriculture",
+      "Confusing trait identification with the actual creation of transgenic crops"
+    ]
+  }
+]

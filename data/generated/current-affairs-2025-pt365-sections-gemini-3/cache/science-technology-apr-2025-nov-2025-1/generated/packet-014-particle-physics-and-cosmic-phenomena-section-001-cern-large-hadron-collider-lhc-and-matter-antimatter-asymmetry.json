@@ -1,0 +1,236 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the European Organization for Nuclear Research (CERN):\n1. India is a full member state of CERN.\n2. The Large Hadron Collider (LHC) at CERN uses superconducting magnets to accelerate particle beams.\n3. The World Wide Web was developed at CERN.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: India is an Associate Member of CERN, not a full member state. Statement 2 is correct: The LHC uses superconducting magnets to accelerate two high-energy particle beams close to the speed of light. Statement 3 is correct: Major achievements of CERN include confirming the Higgs boson and developing the World Wide Web.",
+      "takeaway": "CERN is an international scientific organization on the Franco-Swiss border where India holds Associate Member status. It is credited with the development of the World Wide Web and the confirmation of the Higgs boson.",
+      "evidenceExcerpt": "India is an Associate Member of CERN, an international scientific organization located on the Franco-Swiss border. Major achievements include confirming the Higgs boson (God particle) and developing the World Wide Web. The LHC is the world's largest particle accelerator using superconducting magnets."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Terminology",
+      "prompt": "The terms 'ATLAS, CMS, ALICE, and LHCb', sometimes mentioned in the news, refer to:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Earth observation satellites launched by the European Space Agency"
+        },
+        {
+          "id": "B",
+          "text": "Experimental collaborations at the Large Hadron Collider"
+        },
+        {
+          "id": "C",
+          "text": "Exoplanets recently discovered by the James Webb Space Telescope"
+        },
+        {
+          "id": "D",
+          "text": "Next-generation nuclear reactors being developed in India"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "ATLAS, CMS, ALICE, and LHCb are the four major experimental collaborations operating at CERN's Large Hadron Collider (LHC).",
+      "takeaway": "The Large Hadron Collider hosts several large-scale particle physics experiments, with ATLAS, CMS, ALICE, and LHCb being the primary collaborations.",
+      "evidenceExcerpt": "Four experimental collaborations at CERN's LHC include ATLAS, CMS, ALICE, and LHCb."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "With reference to 'Matter-Antimatter Asymmetry' and fundamental physics, consider the following statements:\n1. The observable universe consists almost entirely of matter, even though the Big Bang theoretically produced equal amounts of matter and antimatter.\n2. CP symmetry implies that the laws of physics remain unchanged if particles are swapped with their antiparticles and viewed in a mirror.\n3. The Large Hadron Collider accelerates high-energy particle beams to speeds faster than the speed of light to study this asymmetry.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Matter-Antimatter Asymmetry refers to the imbalance where the universe is mostly matter, despite the Big Bang producing equal amounts. Statement 2 is correct: CP symmetry dictates that physics laws are unchanged if particles are swapped with antiparticles (Charge conjugation) and viewed in a mirror (Parity). Statement 3 is incorrect: The LHC accelerates particles *close* to the speed of light, not faster than it, as exceeding the speed of light violates the laws of physics.",
+      "takeaway": "Understanding CP violation is crucial to explaining why the universe is dominated by matter rather than antimatter, a key focus of experiments at the LHC.",
+      "evidenceExcerpt": "The LHC uses superconducting magnets to accelerate two high-energy particle beams close to the speed of light before collision. Matter-Antimatter Asymmetry refers to the observable universe consisting almost entirely of matter, despite the Big Bang producing equal amounts of both. CP symmetry implies physics laws remain unchanged if particles are swapped with antiparticles and viewed in a mirror."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Assertion-Reason",
+      "prompt": "Given below are two statements, one labelled as Assertion (A) and the other as Reason (R):\n\nAssertion (A): The observable universe today consists almost entirely of matter rather than antimatter.\nReason (R): The Big Bang produced significantly more matter than antimatter at the very beginning of the universe.\n\nIn the context of the above two statements, which one of the following is correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both Assertion (A) and Reason (R) are correct and Reason (R) is the correct explanation for Assertion (A)"
+        },
+        {
+          "id": "B",
+          "text": "Both Assertion (A) and Reason (R) are correct but Reason (R) is not the correct explanation for Assertion (A)"
+        },
+        {
+          "id": "C",
+          "text": "Assertion (A) is correct but Reason (R) is not correct"
+        },
+        {
+          "id": "D",
+          "text": "Assertion (A) is not correct but Reason (R) is correct"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Assertion (A) is correct: The observable universe consists almost entirely of matter. Reason (R) is incorrect: Theoretically, the Big Bang produced equal amounts of matter and antimatter. The current imbalance is known as Matter-Antimatter Asymmetry, which physicists study through phenomena like CP violation.",
+      "takeaway": "The fundamental mystery of matter-antimatter asymmetry stems from the fact that the Big Bang should have created equal amounts of both, yet our universe is overwhelmingly made of matter.",
+      "evidenceExcerpt": "Matter-Antimatter Asymmetry refers to the observable universe consisting almost entirely of matter, despite the Big Bang producing equal amounts of both."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "In the context of particle physics, the observation of 'CP violation' is primarily significant because it provides a theoretical framework to explain:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "the mechanism by which fundamental particles acquire mass."
+        },
+        {
+          "id": "B",
+          "text": "why the observable universe consists almost entirely of matter rather than antimatter."
+        },
+        {
+          "id": "C",
+          "text": "the continuous expansion of the universe at an accelerating rate."
+        },
+        {
+          "id": "D",
+          "text": "the ability to accelerate particle beams close to the speed of light using superconducting magnets."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "CP violation is a crucial concept in understanding matter-antimatter asymmetry. It explains why the observable universe is dominated by matter, despite the Big Bang theoretically producing equal amounts of matter and antimatter.",
+      "takeaway": "CP violation provides the necessary rationale for the imbalance between matter and antimatter in the universe, a major milestone observed by CERN.",
+      "evidenceExcerpt": "Matter-Antimatter Asymmetry refers to the imbalance between matter and antimatter in the universe, despite the Big Bang theoretically producing equal amounts. CERN observed CP violation in baryons, a major milestone in understanding this asymmetry."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to fundamental symmetries in particle physics, consider the following statements:\n1. CP symmetry implies that the laws of physics remain unchanged if particles are swapped with their antiparticles and viewed in a mirror.\n2. The observation of CP violation in baryons provides a crucial explanation for the equal distribution of matter and antimatter in the observable universe.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: CP symmetry implies that physics laws remain unchanged if particles are swapped with antiparticles and viewed in a mirror. Statement 2 is incorrect: CP violation explains the *imbalance* (asymmetry) between matter and antimatter, not an equal distribution, as the observable universe consists almost entirely of matter.",
+      "takeaway": "CP symmetry involves swapping particles with antiparticles and mirroring them. Its violation is key to explaining why the universe is matter-dominated rather than equally distributed.",
+      "evidenceExcerpt": "Matter-Antimatter Asymmetry refers to the imbalance between matter and antimatter in the universe... CERN observed CP violation in baryons, a major milestone in understanding this asymmetry. CP symmetry implies physics laws remain unchanged if particles are swapped with antiparticles and viewed in a mirror."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Institution-Feature",
+      "prompt": "Consider the following scientific milestones:\n1. Development of the World Wide Web\n2. Confirmation of the existence of the Higgs boson\n3. Observation of CP violation in baryons\n\nHow many of the above milestones are attributed to the European Organization for Nuclear Research (CERN)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "All three milestones are attributed to CERN. CERN developed the World Wide Web, its Large Hadron Collider confirmed the existence of the Higgs boson, and it observed CP violation in baryons.",
+      "takeaway": "CERN is responsible for several monumental scientific achievements, spanning both fundamental physics (Higgs boson, CP violation) and applied technology (World Wide Web).",
+      "evidenceExcerpt": "Major achievements include confirming the Higgs boson (God particle) and developing the World Wide Web... CERN observed CP violation in baryons, a major milestone in understanding this asymmetry."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Factual",
+      "prompt": "The Breakthrough Prize 2025 was recently awarded to researchers at the Large Hadron Collider (LHC) primarily for their discoveries related to:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "the mapping of the cosmic microwave background radiation."
+        },
+        {
+          "id": "B",
+          "text": "the development of the World Wide Web."
+        },
+        {
+          "id": "C",
+          "text": "matter-antimatter asymmetry."
+        },
+        {
+          "id": "D",
+          "text": "the synthesis of room-temperature superconducting magnets."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The Breakthrough Prize 2025 was awarded to researchers at CERN's Large Hadron Collider for their discoveries including matter-antimatter asymmetry.",
+      "takeaway": "Recent recognition in fundamental physics highlights the ongoing importance of research into matter-antimatter asymmetry at the LHC.",
+      "evidenceExcerpt": "Breakthrough Prize 2025 awarded to researchers at CERN's Large Hadron Collider (LHC) for discoveries including matter-antimatter asymmetry."
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Polity",
+      "difficulty": "Hard",
+      "questionType": "Conceptual",
+      "prompt": "Regarding the judicial interpretation of the Anti-Defection Law, which of the following statements is/are correct?\n1. In the Kihoto Hollohan case (1992), the Supreme Court ruled that the Speaker's decision is subject to judicial review.\n2. Courts can intervene in disqualification proceedings at the interlocutory stage to prevent delays.\n3. The Supreme Court has suggested that disqualification petitions should ideally be decided within three months.",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Kihoto Hollohan vs Zachillhu (1992) established that the Speaker's decision is subject to judicial review. Statement 2 is incorrect: The text explicitly states that courts can intervene only after the Presiding Officer has decided on the matter, meaning they cannot intervene at an interlocutory stage. Statement 3 is correct: In Keisham Meghachandra Singh v. Speaker (2020), the SC suggested a three-month timeline for deciding such petitions.",
+      "takeaway": "Judicial review of defection cases is reactive (post-decision) rather than proactive, despite recent judicial suggestions for timely disposal.",
+      "evidenceExcerpt": "Kihoto Hollohan vs Zachillhu, 1992: Speaker's decision under anti-defection law is subject to judicial review. Courts can intervene only after Presiding Officer has decided on matter. Keisham Meghachandra Singh v. Speaker... 2020: Disqualification petitions... should be decided within a period of three months.",
+      "qualityScore": 90,
+      "reviewNotes": "Integrates multiple landmark cases mentioned in the text to test procedural understanding.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "In the context of the Tenth Schedule, which of the following scenarios would lead to the disqualification of a member?\n1. A nominated member joins a political party five months after taking their seat.\n2. A member of the Lok Sabha is elected as the Deputy Speaker and resigns from their political party.\n3. A member of a party with 30 MLAs joins another party along with 15 other MLAs from the same party.",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "2 and 3 only"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Scenario 1 does not lead to disqualification because a nominated member is allowed to join a party within the first six months. Scenario 2 does not lead to disqualification because the Deputy Speaker is specifically exempted if they resign from their party. Scenario 3 leads to disqualification because 16 out of 30 members (15 others + the member) is only 53.3%, which is less than the required two-thirds (20 members) for a valid merger exception.",
+      "takeaway": "The two-thirds threshold for mergers and the six-month window for nominated members are critical quantitative benchmarks in the Anti-Defection Law.",
+      "evidenceExcerpt": "A nominated member joins any political party after six months of taking a seat. Exception: A party merger is allowed if supported by two-thirds of its legislators. Speaker... Deputy Speaker... may resign from party.",
+      "qualityScore": 89,
+      "reviewNotes": "Uses application-based scenarios to test the 2/3rd merger rule and the nominated member timeline.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the disqualification of a sitting lawmaker under the Representation of the People Act (RPA), 1951, consider the following statements:\n1. A legislator is disqualified from continuing in office upon conviction for any criminal offense.\n2. The disqualification is triggered only if the conviction carries a sentence of imprisonment for two years or more.",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Section 8(3) of the RPA 1951 specifies that disqualification occurs for 'certain' criminal offenses, not any offense. Statement 2 is correct: The law explicitly states that the conviction must involve a sentence of imprisonment for two years or more to trigger disqualification from contesting or continuing in office.",
+      "takeaway": "Disqualification under RPA 1951 Section 8(3) requires a minimum two-year prison sentence.",
+      "evidenceExcerpt": "RPA, 1951: Section 8(3) of RPA, legislators is disqualified from contesting elections or continuing in office upon conviction for certain criminal offenses with imprisonment of two years or more.",
+      "qualityScore": 85,
+      "reviewNotes": "Focuses on the specific legal threshold for criminal disqualification as per the source text.",
+      "contextLines": []
+    }
+  ],
+  "reviewerNotes": "The questions were developed by synthesizing the atomic claims regarding the 10th Schedule and RPA 1951. I focused on the nuances of timelines (15 days for condonation, 6 months for nominated members, 3 months for judicial suggestion) and the specific exceptions for presiding officers. The 'How many' and statement-based formats were used to align with current UPSC trends."
+}

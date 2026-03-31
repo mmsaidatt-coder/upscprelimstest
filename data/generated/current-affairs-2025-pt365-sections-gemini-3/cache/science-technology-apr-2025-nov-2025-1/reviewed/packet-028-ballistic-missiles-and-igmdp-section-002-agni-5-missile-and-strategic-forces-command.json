@@ -1,0 +1,98 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements:\n1. India is the only Asian nation to possess Multiple Independently Targetable Reentry Vehicle (MIRV)-capable Intercontinental Ballistic Missiles (ICBMs).\n2. The Agni-5 missile utilizes a combination of solid and liquid propellant stages to achieve its maximum range.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Both statements are incorrect. Statement 1 is incorrect because China also possesses MIRV-capable ICBMs, meaning India is not the only Asian nation with this capability. The other nations with this capability are the US, Russia, and France. Statement 2 is incorrect because the Agni-5 missile is powered entirely by a three-stage solid-fuel engine, not a combination of solid and liquid propellants.",
+      "takeaway": "Agni-5 relies entirely on a three-stage solid-fuel engine. Globally, nations like the US, Russia, China, France, and India possess MIRV-capable ICBMs.",
+      "evidenceExcerpt": "Places India among few nations (US, Russia, China, France) with Multiple Independently Targetable Reentry Vehicle (MIRV)-capable ICBMs... powered by a three-stage solid fuel engine.",
+      "qualityScore": 88,
+      "reviewNotes": "Excellent conceptual question. Statement 1 cleverly tests the list of MIRV nations by framing it geographically, which is a common UPSC trick."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Agni-5 missile, consider the following statements:\n1. It is a surface-to-surface ballistic missile powered by a three-stage solid-fuel engine.\n2. It has a strike range of over 5,000 km.\n3. It is equipped with Multiple Independently Targetable Reentry Vehicle (MIRV) technology.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "All three statements are correct. Agni-5 is a nuclear-capable Surface-to-Surface Ballistic Missile (SSBM) powered by a three-stage solid fuel engine. It has a range of over 5,000 km and features Multiple Independently Targetable Reentry Vehicle (MIRV) capability, which allows a single missile to deploy multiple warheads at different targets.",
+      "takeaway": "Agni-5 is a 3-stage solid-fueled, surface-to-surface ballistic missile with a >5000 km range and MIRV technology.",
+      "evidenceExcerpt": "A Nuclear-capable Surface-to-Surface Ballistic Missile (SSBM) and is powered by a three-stage solid fuel engine. Range: Over 5,000 km... Places India among few nations (US, Russia, China, France) with Multiple Independently Targetable Reentry Vehicle (MIRV)-capable ICBMs.",
+      "qualityScore": 85,
+      "reviewNotes": "Standard UPSC-style statement question covering the core specifications of the Agni-5 missile."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Strategic Forces Command (SFC) in India:\n1. It functions as a part of India's Nuclear Command Authority.\n2. It is responsible for the management and administration of the country's tactical and strategic nuclear weapons stockpile.\n3. It is the nodal agency for the research and development of India's ballistic missile systems.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statements 1 and 2 are correct. The SFC forms part of India's Nuclear Command Authority and manages the country's tactical and strategic nuclear weapons stockpile. Statement 3 is incorrect; research and development of ballistic missiles is primarily the mandate of the Defence Research and Development Organisation (DRDO), whereas the SFC is responsible for the administration and operational launch of the stockpile.",
+      "takeaway": "The Strategic Forces Command (SFC) operates under the Nuclear Command Authority to manage India's nuclear arsenal, while R&D is handled by separate agencies like DRDO.",
+      "evidenceExcerpt": "The launch was carried out under the Strategic Forces Command (SFC). SFC forms part of India's Nuclear Command Authority and is responsible for the management and administration of the country's tactical and strategic nuclear weapons stockpile.",
+      "qualityScore": 85,
+      "reviewNotes": "Good institutional question. Statement 3 uses a classic UPSC distractor technique by conflating operational command with R&D."
+    }
+  ],
+  "reviewerNotes": "Selected 3 strong questions. Candidate 4 was dropped as it was too factual and its core concept (MIRV nations) was better tested in Candidate 3. The selected questions cover the missile's specifications, the institutional framework (SFC), and global context (MIRV nations)."
+}

@@ -1,0 +1,98 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Aircraft Accident Investigation Bureau (AAIB) in India, consider the following statements:\n\n1. It is an attached office under the Union Ministry of Civil Aviation established to facilitate independent accident investigations.\n2. It has the authority for immediate and unrestricted access to evidence without requiring prior consent from judicial bodies.\n3. It investigates all serious incidents involving aircraft, regardless of the aircraft's weight or engine type.\n\nHow many of the above statements are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: AAIB was established in 2012 as an attached office under the Ministry of Civil Aviation. Statement 2 is correct: It is mandated for immediate and unrestricted access to all relevant evidence from any agency without seeking prior consent from judicial or government authorities. Statement 3 is incorrect: AAIB investigates accidents and serious incidents involving aircraft with an All-up Weight (AUW) of more than 2250 kg or Turbojet aircraft. Serious incidents involving aircraft of 2250 kg or less are investigated by the DGCA.",
+      "takeaway": "AAIB has significant evidentiary powers but its investigative scope is defined by aircraft weight (AUW > 2250 kg) and engine type (Turbojet).",
+      "evidenceExcerpt": "Aircraft Accident Investigation Bureau (AAIB)... established in 2012 as an attached office under the Union Ministry of Civil Aviation... Mandated for immediate and unrestricted access to all relevant evidence... without seeking prior consent from judicial bodies... All Accidents and Serious Incidents involving aircraft with an All-up Weight (AUW) of more than 2250 kg or Turbojet aircraft are investigated by AAIB. Investigations into... 2250 Kg or less... are carried out by DGCA.",
+      "qualityScore": 92,
+      "reviewNotes": "The weight threshold and the division of labor between AAIB and DGCA are precise technical details that align with UPSC's difficulty level for regulatory bodies.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding aviation regulatory bodies in India:\n\n1. The Directorate General of Civil Aviation (DGCA) is the primary body for enforcing airworthiness standards and coordinating regulatory functions with the International Civil Aviation Organisation (ICAO).\n2. The Bureau of Civil Aviation Security (BCAS) functions as an independent department under the Ministry of Home Affairs.\n3. The Airports Economic Regulatory Authority of India (AERA) is mandated to regulate tariffs for aeronautical services at all domestic and international airports in India.\n\nHow many of the above statements are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The DGCA is the regulatory body for civil aviation safety, air transport services, and airworthiness standards, and it coordinates with the ICAO. Statement 2 is incorrect: While BCAS is an independent department, it operates under the Ministry of Civil Aviation, not the Ministry of Home Affairs. Statement 3 is incorrect: AERA regulates tariffs and monitors performance standards specifically for 'major airports,' not all airports in India.",
+      "takeaway": "DGCA handles safety and airworthiness under the Ministry of Civil Aviation, while AERA's tariff regulation is restricted to major airports.",
+      "evidenceExcerpt": "Directorate General of Civil Aviation (DGCA)... Responsibility: Regulation of air transport services... enforcement of civil air regulations, air safety, and airworthiness standards. Also coordinates all regulatory functions with the International Civil Aviation Organisation (ICAO). Bureau of Civil Aviation Security (BCAS)... independent department under the Ministry of Civil Aviation in 1987. Airports Economic Regulatory Authority of India (AERA)... To regulate tariffs for aeronautical services... at major airports.",
+      "qualityScore": 88,
+      "reviewNotes": "The question tests institutional jurisdiction and specific mandates, common in UPSC. The distractor regarding the Ministry of Home Affairs is a classic trap for security-related bodies.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding international aviation conventions and their implementation in India:\n\n1. The Carriage by Air Act, 1972, provides the legal framework to give effect to the Montreal Convention, 1999.\n2. Annexe 17 to the Chicago Convention provides the standards for safeguarding international civil aviation against acts of unlawful interference.\n3. The International Civil Aviation Organization (ICAO) was established by the Montreal Convention of 1999.\n\nHow many of the above statements are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The Carriage by Air Act, 1972, is the primary act for airways accident-related governance and gives effect to the Montreal Convention, 1999. Statement 2 is correct: Annexe 17 to the Chicago Convention (Convention on International Civil Aviation) specifically deals with security and safeguarding against unlawful interference. Statement 3 is incorrect: The ICAO was established by the Chicago Convention in 1944, not the Montreal Convention.",
+      "takeaway": "The Chicago Convention (1944) is the foundation of ICAO and security standards, while the Montreal Convention (1999) governs liability.",
+      "evidenceExcerpt": "Carriage by Air Act, 1972 (giving effect to Montreal Convention, 1999). Bureau of Civil Aviation Security (BCAS)... lays down Aviation Security Standards per Annexe 17 to the Chicago Convention of ICAO... for Safeguarding International Civil Aviation Against Acts of Unlawful Interference. ICAO Genesis: In 1944 by Convention on International Civil Aviation (Chicago Convention).",
+      "qualityScore": 85,
+      "reviewNotes": "Tests the distinction between the two major aviation conventions (Chicago vs. Montreal) and their specific roles in Indian law.",
+      "contextLines": []
+    }
+  ],
+  "reviewerNotes": "The selected questions cover the full range of aviation governance mentioned in the text: regulatory bodies (DGCA, BCAS, AERA), accident investigation (AAIB), and the international legal framework (Chicago/Montreal Conventions). The 'How many' format is utilized to reflect recent UPSC trends. All facts are strictly grounded in the provided excerpt."
+}

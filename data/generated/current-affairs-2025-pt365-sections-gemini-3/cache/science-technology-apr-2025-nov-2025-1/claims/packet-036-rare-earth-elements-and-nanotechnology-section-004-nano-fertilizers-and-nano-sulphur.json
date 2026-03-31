@@ -1,0 +1,63 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-036-rare-earth-elements-and-nanotechnology-section-004-nano-fertilizers-and-nano-sulphur",
+    "claimType": "Conceptual",
+    "claimText": "Nano fertilizers use nanomaterials measuring 100 nanometres or less to encapsulate nutrients, allowing for their controlled release and slow diffusion into the soil.",
+    "evidenceExcerpt": "Nano fertilizers encapsulate nutrients within nanomaterials (100 nm or less) for controlled release and slow diffusion into soil.",
+    "pageNumbers": [
+      72
+    ],
+    "examUse": "Statement-based question on the mechanism and size criteria of nano fertilizers.",
+    "distractorHooks": [
+      "Rapid release of nutrients",
+      "Size greater than 1000 nm",
+      "Prevents diffusion into soil"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-036-rare-earth-elements-and-nanotechnology-section-004-nano-fertilizers-and-nano-sulphur",
+    "claimType": "Factual",
+    "claimText": "IFFCO launched Nano Liquid Urea in 2021 and Nano-DAP in 2023, and is establishing its first overseas plant in Brazil.",
+    "evidenceExcerpt": "IFFCO, which launched Nano Liquid Urea (2021) and Nano-DAP (2023), is setting up its first overseas plant in Brazil.",
+    "pageNumbers": [
+      72
+    ],
+    "examUse": "Factual statement in a multi-statement question about India's fertilizer sector or IFFCO's global expansion.",
+    "distractorHooks": [
+      "First overseas plant in USA or Africa",
+      "Launched by a private foreign MNC instead of IFFCO"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-036-rare-earth-elements-and-nanotechnology-section-004-nano-fertilizers-and-nano-sulphur",
+    "claimType": "Factual",
+    "claimText": "Scientists at TERI developed a green nano sulphur using biological agents such as plant-promoting bacteria.",
+    "evidenceExcerpt": "TERI scientists developed a green nano sulphur using biological agents (plant-promoting bacteria)",
+    "pageNumbers": [
+      72
+    ],
+    "examUse": "Correct-pair or statement-based question identifying the institution behind green nano sulphur or the method of its production.",
+    "distractorHooks": [
+      "Developed by ICAR or CSIR",
+      "Synthesized using heavy metals or toxic chemicals instead of biological agents"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-036-rare-earth-elements-and-nanotechnology-section-004-nano-fertilizers-and-nano-sulphur",
+    "claimType": "Factual",
+    "claimText": "The green nano sulphur developed by TERI possesses antibacterial and insecticidal properties and has been shown to increase mustard yield.",
+    "evidenceExcerpt": "which has antibacterial and insecticidal properties and increased mustard yield by 30-40%.",
+    "pageNumbers": [
+      72
+    ],
+    "examUse": "Statement-based question on the dual benefits of nano sulphur as both a nutrient and a pest control agent.",
+    "distractorHooks": [
+      "Only acts as a nutrient with no pest control properties",
+      "Decreases crop yield due to toxicity"
+    ]
+  }
+]

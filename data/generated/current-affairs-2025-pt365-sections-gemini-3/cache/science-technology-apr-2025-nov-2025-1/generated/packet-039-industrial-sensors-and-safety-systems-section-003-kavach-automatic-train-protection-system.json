@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the 'KAVACH' system recently seen in the news: 1. It is an indigenously developed Automatic Train Protection (ATP) system. 2. It tracks the position of trains primarily using optical cameras installed on the locomotives. 3. It is capable of automatically applying brakes if the loco pilot fails to do so. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: KAVACH is an indigenously developed Automatic Train Protection system. Statement 2 is incorrect: It uses Radio Frequency Identification (RFID) tags placed throughout the entire track length to track train positions, not optical cameras. Statement 3 is correct: It assists loco pilots and automatically applies the brakes if the pilot fails to do so.",
+      "takeaway": "KAVACH is an indigenous ATP system that uses RFID technology along the tracks for positioning and features automatic braking to assist loco pilots in preventing accidents.",
+      "evidenceExcerpt": "Indigenously Automatic Train Protection system designed to improve train safety and efficiency. The Kavach assists loco pilots by displaying signals in the train and automatically applying the brakes if the pilot fails to do so. Radio Frequency Identification (RFID) tags are placed throughout the entire track length to enable the Kavach to track train positions"
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the operational capabilities of the KAVACH train safety system, consider the following statements: 1. It is designed to operate smoothly even in extreme weather conditions such as dense fog. 2. It is a fully autonomous driving system that eliminates the need for a loco pilot. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: KAVACH operates smoothly in extreme weather conditions like fog, ensuring safety when visibility is low. Statement 2 is incorrect: It is an Automatic Train Protection system that assists loco pilots by displaying signals and intervening with brakes only if the pilot fails to do so; it does not eliminate the need for a loco pilot.",
+      "takeaway": "KAVACH enhances railway safety by assisting human pilots and functioning reliably in adverse weather conditions, rather than replacing pilots with fully autonomous driving.",
+      "evidenceExcerpt": "The Kavach assists loco pilots by displaying signals in the train and automatically applying the brakes if the pilot fails to do so... Operates smoothly in extreme weather conditions like fog."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Multiple Choice",
+      "prompt": "In the context of the KAVACH train safety system, which of the following technologies is primarily deployed along the entire track length to enable the continuous tracking of train positions?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Global Navigation Satellite System (GNSS) receivers"
+        },
+        {
+          "id": "B",
+          "text": "Radio Frequency Identification (RFID) tags"
+        },
+        {
+          "id": "C",
+          "text": "Light Detection and Ranging (LiDAR) sensors"
+        },
+        {
+          "id": "D",
+          "text": "Optical Character Recognition (OCR) cameras"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "KAVACH relies on Radio Frequency Identification (RFID) tags placed throughout the entire track length to track train positions and detect potential safety issues, rather than relying solely on satellite navigation or optical sensors.",
+      "takeaway": "RFID tags are the foundational track-side infrastructure used by KAVACH for precise train positioning.",
+      "evidenceExcerpt": "Radio Frequency Identification (RFID) tags are placed throughout the entire track length to enable the Kavach to track train positions and detect any potential safety issues along the route."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice",
+      "prompt": "Which of the following best describes the functional intervention mechanism of the KAVACH system during a potential collision scenario?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It overrides the manual controls permanently and switches the train to a fully autonomous driving mode."
+        },
+        {
+          "id": "B",
+          "text": "It alerts the nearest station master to remotely halt the train using centralized track-switching."
+        },
+        {
+          "id": "C",
+          "text": "It displays signals inside the locomotive and automatically applies the brakes only if the loco pilot fails to do so."
+        },
+        {
+          "id": "D",
+          "text": "It physically disconnects the locomotive's power supply from the overhead equipment to initiate an emergency halt."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "KAVACH is an Automatic Train Protection system designed to assist loco pilots. It displays signals within the train cabin and automatically applies the brakes if the pilot fails to do so, rather than making the train fully autonomous or cutting overhead power.",
+      "takeaway": "KAVACH acts as an active assist and fail-safe mechanism, stepping in to apply brakes only when the human operator fails to respond to signals.",
+      "evidenceExcerpt": "The Kavach assists loco pilots by displaying signals in the train and automatically applying the brakes if the pilot fails to do so."
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Correct-Pair",
+      "prompt": "Consider the following pairs of Artificial Intelligence (AI) models and their primary biological applications: 1. BioEmu : Predicting protein shapes 2. AlphaGenome : Predicting 3D protein structures from amino acid sequences 3. C2S-SCALE : Interpreting complex biological interactions at the cellular level. How many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: BioEmu is a deep learning system by Microsoft for predicting protein shapes. Pair 2 is incorrectly matched: AlphaGenome predicts how DNA mutations affect health, whereas AlphaFold predicts 3D protein structures. Pair 3 is correctly matched: C2S-SCALE interprets complex biological interactions at the cellular level.",
+      "takeaway": "AI models in biology have distinct functions: BioEmu and AlphaFold for proteins, AlphaGenome for DNA mutations, and C2S-SCALE for cellular interactions.",
+      "evidenceExcerpt": "BioEmu is a deep learning system by Microsoft for predicting protein shapes. AlphaGenome by Google DeepMind predicts how DNA mutations affect health. AlphaFold predicts 3D protein structures... C2S-SCALE... understands the language of individual cells."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to recent Artificial Intelligence (AI) tools developed for biological and genomic predictions, consider the following statements: 1. BioEmu is a deep learning system developed by Google DeepMind for predicting protein shapes. 2. AlphaFold is an AI system that predicts three-dimensional protein structures from amino acid sequences. 3. C2S-SCALE was developed collaboratively to understand the language of individual cells. Which of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: BioEmu is a deep learning system developed by Microsoft, not Google DeepMind. Statement 2 is correct: AlphaFold, developed by DeepMind, predicts 3D protein structures from amino acid sequences. Statement 3 is correct: C2S-SCALE was developed by Google DeepMind and Yale to understand the language of individual cells.",
+      "takeaway": "While Google DeepMind developed AlphaFold, AlphaGenome, and co-developed C2S-SCALE, BioEmu is a Microsoft development.",
+      "evidenceExcerpt": "BioEmu is a deep learning system by Microsoft for predicting protein shapes... AlphaFold predicts 3D protein structures from amino acid sequences. C2S-SCALE by Google DeepMind and Yale understands the language of individual cells."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Multiple Choice",
+      "prompt": "Which of the following Artificial Intelligence models is specifically designed to predict how DNA mutations affect human health?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "BioEmu"
+        },
+        {
+          "id": "B",
+          "text": "AlphaFold"
+        },
+        {
+          "id": "C",
+          "text": "AlphaGenome"
+        },
+        {
+          "id": "D",
+          "text": "C2S-SCALE"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "AlphaGenome is developed by Google DeepMind to predict how DNA mutations affect health. BioEmu and AlphaFold focus on protein shapes and structures, while C2S-SCALE interprets cellular interactions.",
+      "takeaway": "AlphaGenome focuses on the genomic level (DNA mutations), distinguishing it from protein-folding models like AlphaFold and BioEmu.",
+      "evidenceExcerpt": "AlphaGenome by Google DeepMind predicts how DNA mutations affect health."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Application",
+      "prompt": "A team of researchers is investigating how specific genetic alterations influence human health outcomes, while another team is focused on understanding the complex communication and interactions between individual cells. Which of the following combinations of Artificial Intelligence (AI) models would be most appropriate for these respective research tasks?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "AlphaFold and BioEmu"
+        },
+        {
+          "id": "B",
+          "text": "AlphaGenome and C2S-SCALE"
+        },
+        {
+          "id": "C",
+          "text": "BioEmu and AlphaGenome"
+        },
+        {
+          "id": "D",
+          "text": "C2S-SCALE and AlphaFold"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "AlphaGenome is designed by Google DeepMind to predict how DNA mutations (genetic alterations) affect health. C2S-SCALE, developed collaboratively by DeepMind and Yale, interprets complex biological interactions at the cellular level (understanding the language of individual cells).",
+      "takeaway": "Different AI models target specific biological scales: AlphaGenome focuses on DNA mutations and health impacts, whereas C2S-SCALE focuses on cellular-level interactions.",
+      "evidenceExcerpt": "AlphaGenome by Google DeepMind predicts how DNA mutations affect health... C2S-SCALE by Google DeepMind and Yale understands the language of individual cells."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding recent applications of Artificial Intelligence (AI) in genomics and biology:\n\n1. Microsoft's BioEmu and Google DeepMind's AlphaFold are both primarily focused on predicting protein configurations.\n2. AlphaGenome is an AI model designed to predict three-dimensional protein structures from amino acid sequences.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: BioEmu is a deep learning system used for predicting protein shapes, and AlphaFold predicts 3D protein structures. Statement 2 is incorrect: AlphaGenome predicts how DNA mutations affect health, whereas AlphaFold is the model that predicts 3D protein structures from amino acid sequences.",
+      "takeaway": "While BioEmu and AlphaFold both analyze proteins, AlphaGenome is specifically tailored for analyzing DNA mutations and their health implications.",
+      "evidenceExcerpt": "Recent AI developments in biology include Microsoft's BioEmu for predicting protein shapes, and Google DeepMind's AlphaGenome for predicting DNA mutation impacts. AlphaFold, also by DeepMind, predicts 3D protein structures..."
+    }
+  ]
+}

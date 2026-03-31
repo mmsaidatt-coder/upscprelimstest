@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Statement",
+      "prompt": "Consider the following statements regarding the provisions of the Income Tax Act 2025:\n1. Minimum Alternate Tax (MAT) is applicable exclusively to non-corporate taxpayers.\n2. The definition of undisclosed income for search cases has been expanded to encompass virtual digital assets.\n3. Income tax authorities are empowered to access virtual digital spaces, such as email servers and social media, during search and seizure operations.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Under the Income Tax Act 2025, Minimum Alternate Tax (MAT) is applicable exclusively to corporate taxpayers (aimed at 'zero tax companies'), whereas Alternate Minimum Tax (AMT) applies to non-corporate taxpayers.\nStatement 2 is correct: The definition of undisclosed income has been expanded to include virtual digital assets.\nStatement 3 is correct: Tax authorities can now access virtual digital spaces during search and seizure proceedings.",
+      "takeaway": "The Income Tax Act 2025 modernizes tax enforcement by including virtual digital assets under undisclosed income and granting access to virtual spaces during searches, while maintaining the corporate/non-corporate distinction between MAT and AMT.",
+      "evidenceExcerpt": "The provisions of MAT are applicable to a corporate taxpayer only. AMT has similar provisions as MAT which is applicable to non-corporate tax payers. Undisclosed Income: The definition of undisclosed income... is expanded to include virtual digital assets. Income tax authorities can access virtual digital spaces (e.g., email servers, social media) during search and seizure proceedings.",
+      "qualityScore": 85,
+      "reviewNotes": "Excellent coverage of the text. Good distractor in Statement 1 (swapping MAT and AMT). Fits UPSC style perfectly."
+    }
+  ],
+  "reviewerNotes": "Selected Candidates 1 and 2. Candidate 3 was rejected because its core concept (MAT vs AMT distinction) is already effectively tested as a distractor in Candidate 2, and Candidate 2 provides a more comprehensive test of the source text."
+}

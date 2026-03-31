@@ -1,0 +1,178 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding solar phenomena: 1. Solar flares are classified on a scale where X-class flares are the most intense and A-class flares are the least intense. 2. Coronal Mass Ejections (CMEs) primarily consist of large expulsions of plasma and magnetic fields from the Sun's corona. 3. The frequency of solar flares remains constant throughout the Sun's 11-year magnetic cycle. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Solar flares are classified from smallest to largest as A, B, C, M, and X-class flares. Statement 2 is correct: CMEs are large expulsions of plasma and magnetic fields from the Sun's corona. Statement 3 is incorrect: Flares occur more frequently during the solar maximum, which is the peak of the 11-year solar cycle, rather than remaining constant.",
+      "takeaway": "Solar flares peak during the solar maximum of the 11-year cycle and are classified from A (smallest) to X (largest). CMEs involve the expulsion of plasma and magnetic fields.",
+      "evidenceExcerpt": "The biggest flares are known as 'X-class flares'. The smallest ones are A-class... Flares occur more frequently during the solar maximum (peak of the 11-year solar cycle). Coronal Mass Ejections (CMEs): They are large expulsions of plasma and magnetic field from the Sun's corona."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to recent space observations, consider the following statements: 1. The Chandrayaan-2 Lunar Orbiter made the first-ever observation of the effects of a Coronal Mass Ejection (CME) on the Moon. 2. Coronal Mass Ejections are phenomena originating from the Sun's core that expel only radiation and light. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The Chandrayaan-2 Lunar Orbiter (CHACE-2) made the first-ever observation of the effects of a CME on the moon. Statement 2 is incorrect: CMEs originate from the Sun's corona (not the core) and involve large expulsions of plasma and magnetic fields, not just radiation and light.",
+      "takeaway": "Chandrayaan-2's CHACE-2 payload achieved a milestone by observing CME effects on the Moon. CMEs are expulsions of plasma and magnetic fields from the corona.",
+      "evidenceExcerpt": "Coronal Mass Ejections (CMEs): They are large expulsions of plasma and magnetic field from the Sun's corona. Recently, Chandrayaan-2 Lunar Orbiter (CHACE-2) has made first-ever observation of effects of sun's Coronal Mass Ejection (CME) on moon."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Comparison-driven",
+      "prompt": "Consider the following statements regarding Solar Flares and Coronal Mass Ejections (CMEs): 1. While solar flares are giant explosions sending energy and light into space, Coronal Mass Ejections involve the expulsion of plasma and magnetic fields. 2. The occurrence of solar flares is independent of the 11-year solar cycle, whereas Coronal Mass Ejections strictly peak during the solar minimum. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Solar flares are explosions sending energy, light, and high-speed particles, whereas CMEs are expulsions of plasma and magnetic fields. Statement 2 is incorrect: Solar flares are not independent of the solar cycle; they occur more frequently during the solar maximum (the peak of the 11-year solar cycle).",
+      "takeaway": "Both solar flares and CMEs are distinct solar phenomena. Flares are bursts of light and energy, while CMEs involve plasma and magnetic fields. Flare frequency is closely tied to the 11-year solar cycle, peaking at the solar maximum.",
+      "evidenceExcerpt": "Solar flares are giant explosions on the sun that send energy, light and high speed particles into space... Flares occur more frequently during the solar maximum (peak of the 11-year solar cycle). Coronal Mass Ejections (CMEs): They are large expulsions of plasma and magnetic field from the Sun's corona."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Assertion-Reason",
+      "prompt": "Given below are two statements, one labelled as Assertion (A) and the other as Reason (R):\n\nAssertion (A): Space weather monitoring systems are likely to record a higher incidence of X-class solar flares during the solar maximum phase.\nReason (R): The solar maximum marks the peak of the Sun's 11-year magnetic cycle, during which the overall frequency of all solar flares increases.\n\nIn the context of the above two statements, which one of the following is correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both Assertion (A) and Reason (R) are correct and Reason (R) is the correct explanation for Assertion (A)."
+        },
+        {
+          "id": "B",
+          "text": "Both Assertion (A) and Reason (R) are correct but Reason (R) is not the correct explanation for Assertion (A)."
+        },
+        {
+          "id": "C",
+          "text": "Assertion (A) is correct but Reason (R) is not correct."
+        },
+        {
+          "id": "D",
+          "text": "Assertion (A) is not correct but Reason (R) is correct."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "X-class flares are the most intense category of solar flares. Because the overall frequency of solar flares peaks during the solar maximum (the height of the 11-year solar cycle), the probability and incidence of observing X-class flares also correspondingly increase during this phase.",
+      "takeaway": "Solar flare frequency is directly tied to the 11-year solar cycle, peaking at the solar maximum, which increases the likelihood of all flare classes, including the most intense X-class.",
+      "evidenceExcerpt": "Classification: The biggest flares are known as \"X-class flares\"... Frequency: Flares occur more frequently during the solar maximum (peak of the 11-year solar cycle)."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding solar phenomena and their observation:\n\n1. The classification of solar flares from smallest to largest follows the sequence A, B, C, M, and X.\n2. The frequency of solar flares is inversely proportional to the progression of the Sun's 11-year magnetic cycle towards its maximum.\n3. The Chandra's Atmospheric Composition Explorer-2 (CHACE-2) payload on the Chandrayaan-2 Lunar Orbiter recorded the first-ever observation of the effects of a Coronal Mass Ejection on the Moon.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct; solar flares are classified from smallest (A-class) to largest (X-class). Statement 2 is incorrect; the frequency of solar flares is directly proportional to the solar cycle's progression toward its maximum, as they occur more frequently during the solar maximum. Statement 3 is correct; the CHACE-2 payload on the Chandrayaan-2 Lunar Orbiter made this historic observation.",
+      "takeaway": "Familiarity with the A-to-X classification scale of solar flares and the specific achievements of India's lunar missions (like CHACE-2 on Chandrayaan-2) is crucial for space technology questions.",
+      "evidenceExcerpt": "The smallest ones are A-class (near background levels), followed by B, C, M and X. Frequency: Flares occur more frequently during the solar maximum... Recently, Chandrayaan-2 Lunar Orbiter (CHACE-2) has made first-ever observation of effects of sun’s Coronal Mass Ejection (CME) on moon."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs regarding solar phenomena and their characteristics:\n\n1. A-class flares : Giant explosions representing the most intense category of solar flares\n2. Coronal Mass Ejections : Expulsions of plasma and magnetic field originating from the Sun's corona\n3. Solar maximum : The peak phase of the 11-year solar cycle characterized by higher flare frequency\n\nHow many of the pairs given above are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is incorrectly matched; A-class flares are the smallest flares (near background levels), whereas X-class flares are the most intense. Pair 2 is correctly matched; CMEs are large expulsions of plasma and magnetic fields from the corona. Pair 3 is correctly matched; the solar maximum is the peak of the 11-year cycle where flare frequency is highest.",
+      "takeaway": "Distinguishing between the extremes of the solar flare classification scale (A-class vs. X-class) and understanding the composition of CMEs are foundational space weather concepts.",
+      "evidenceExcerpt": "The biggest flares are known as \"X-class flares\". The smallest ones are A-class... Flares occur more frequently during the solar maximum... Coronal Mass Ejections (CMEs): They are large expulsions of plasma and magnetic field from the Sun’s corona."
+    }
+  ]
+}

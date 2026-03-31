@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Feature-Matching",
+      "prompt": "\"It is located in North Goa along the Western Ghats, sharing borders with two neighbouring states. A major west-flowing river passes through it. The forest cover comprises moist deciduous and evergreen species, and it is notable for hosting the rare Ashoka tree with peculiar saffron-coloured flowers.\"\n\nWhich of the following protected areas is best described in the passage given above?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Bhagwan Mahavir Wildlife Sanctuary"
+        },
+        {
+          "id": "B",
+          "text": "Mhadei Wildlife Sanctuary"
+        },
+        {
+          "id": "C",
+          "text": "Cotigao Wildlife Sanctuary"
+        },
+        {
+          "id": "D",
+          "text": "Netravali Wildlife Sanctuary"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The passage describes the Mhadei Wildlife Sanctuary.\n- Location: It is situated in North Goa along the Western Ghats, bordering the states of Karnataka and Maharashtra.\n- Hydrology: The Mahadei (Mandovi) River, a major west-flowing river in Goa, flows through the sanctuary.\n- Flora: The sanctuary features moist deciduous and evergreen vegetation, and is uniquely known for the rare Ashoka tree with saffron-coloured flowers.\n\nBhagwan Mahavir, Cotigao, and Netravali are also protected areas in Goa, but the specific combination of bordering two states, the Mandovi river, and the rare Ashoka tree points to Mhadei.",
+      "takeaway": "Mhadei Wildlife Sanctuary is a crucial Western Ghats habitat in North Goa, drained by the Mandovi River and characterized by moist deciduous and evergreen forests.",
+      "evidenceExcerpt": "Located in North Goa along Western Ghats, bordering Karnataka and Maharashtra. River: Mahadei (Mondovi) River flows through wildlife sanctuary... Forest type: Moist deciduous vegetation and some evergreen species, e.g. rare Ashoka tree with peculiar saffron colored flowers.",
+      "qualityScore": 90,
+      "reviewNotes": "The feature-matching format is highly representative of UPSC Prelims. The distractors are all protected areas in Goa, making it challenging for candidates who only know the state but not the specific geographical and ecological features."
+    }
+  ],
+  "reviewerNotes": "Selected the feature-matching question as it perfectly mimics the UPSC 'identify the protected area from the description' format. Improved the distractors by making them all Goan wildlife sanctuaries to increase the plausibility and difficulty."
+}

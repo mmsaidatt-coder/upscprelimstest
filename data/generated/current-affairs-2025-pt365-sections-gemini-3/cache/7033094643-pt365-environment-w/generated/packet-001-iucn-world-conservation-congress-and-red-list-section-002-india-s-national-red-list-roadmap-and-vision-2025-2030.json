@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding India's National Red List Roadmap and Vision 2025-2030:\n1. It is a five-year initiative aimed at assessing the extinction risk of approximately 11,000 species.\n2. The nodal agency responsible for the implementation of this roadmap is the National Biodiversity Authority.\n3. The initiative aligns with India's commitments under the Kunming-Montreal Global Biodiversity Framework (KMGBF).\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: It is a 5-year initiative aiming to assess the extinction risk of approximately 11,000 species. Statement 2 is incorrect: The nodal agency is the Union Ministry of Environment, Forest & Climate Change (MoEFCC), not the National Biodiversity Authority. Statement 3 is correct: The roadmap is internationally aligned with the Convention on Biological Diversity (CBD) and the Kunming-Montreal Global Biodiversity Framework (KMGBF).",
+      "takeaway": "India's National Red List Roadmap (2025-2030) is a MoEFCC-led 5-year initiative to assess ~11,000 species, aligning with global biodiversity frameworks like the KMGBF.",
+      "evidenceExcerpt": "It is a 5-year initiative aiming to assess the extinction risk of approximately 11,000 species... Nodal Agency: Union Ministry of Environment, Forest & Climate Change... Internationally aligned with CBD and Kunming-Montreal Global Biodiversity Framework (KMGBF)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Institution-feature",
+      "prompt": "Which of the following institutions collaborated to prepare India's National Red List Roadmap and Vision 2025-2030?\n1. Zoological Survey of India (ZSI)\n2. Botanical Survey of India (BSI)\n3. Centre for Species Survival\n4. United Nations Environment Programme (UNEP)\nSelect the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1, 2 and 3 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "C",
+          "text": "3 and 4 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2, 3 and 4"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "The National Red List Roadmap and Vision 2025-2030 was prepared by the Zoological Survey of India (ZSI) and Botanical Survey of India (BSI) in collaboration with IUCN India and the Centre for Species Survival. UNEP was not involved in its preparation.",
+      "takeaway": "The roadmap is a collaborative effort between India's premier taxonomic institutions (ZSI and BSI) and specialized conservation bodies like IUCN India and the Centre for Species Survival.",
+      "evidenceExcerpt": "Prepared by ZSI and BSI in collaboration with IUCN India and Centre for Species Survival."
+    }
+  ]
+}

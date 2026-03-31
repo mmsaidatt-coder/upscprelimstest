@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Axiom-4 (Ax-4) mission, consider the following statements:\n1. It is a private astronaut mission to the International Space Station (ISS) conducted by Axiom Space in collaboration with NASA and SpaceX.\n2. It marked the first instance of an Indian citizen travelling to space.\n3. The Indian Space Research Organisation (ISRO) executed microgravity research involving tardigrades during this mission.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Ax-4 is the 4th private astronaut mission to the ISS, organized by the private US company Axiom Space in collaboration with NASA and SpaceX. Statement 2 is incorrect: Group Captain Shubhanshu Shukla is the first Indian astronaut to board the ISS, but he is the second Indian to travel to space after Rakesh Sharma in 1984. Statement 3 is correct: ISRO executed microgravity research on the mission, which included studies on crop growth, cyanobacteria, space microalgae, myogenesis, and tardigrades.",
+      "takeaway": "The Axiom-4 mission is a private mission to the ISS carrying the first Indian to board the ISS, where ISRO conducted specific microgravity biological experiments.",
+      "evidenceExcerpt": "Ax-4 is a 4th private astronaut mission, to the International Space Station (ISS), of private US Company Axiom Space in collaboration with NASA and SpaceX. Shubhanshu Shukla is the first Indian astronaut to board the ISS and only the second Indian to travel to space after Rakesh Sharma in 1984. Key Research and activities executed by ISRO: Crop growth, Cyanobacteria, Space Microalgae, Myogenesis, Tardigrades.",
+      "qualityScore": 85,
+      "reviewNotes": "Rewritten to match the latest UPSC 'How many of the above' format. The statements test a good mix of mission details, historical facts, and specific scientific contributions."
+    }
+  ],
+  "reviewerNotes": "Selected three questions that cover different aspects of the source text: the Axiom-4 mission details, the ISS partnership, and ISRO's specific microgravity experiments. Rewrote the prompts and options to align with the latest UPSC 'How many of the above' format. Ensured all distractors are plausible and explanations are tightly coupled with the source text."
+}

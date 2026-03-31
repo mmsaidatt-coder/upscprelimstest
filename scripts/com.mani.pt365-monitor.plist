@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.mani.pt365-monitor</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/zsh</string>
+    <string>/Users/mani/Desktop/upscprelimstest/scripts/monitor-current-affairs-gemini3-once.sh</string>
+  </array>
+
+  <key>StartInterval</key>
+  <integer>600</integer>
+
+  <key>RunAtLoad</key>
+  <true/>
+
+  <key>WorkingDirectory</key>
+  <string>/Users/mani/Desktop/upscprelimstest</string>
+
+  <key>StandardOutPath</key>
+  <string>/tmp/pt365-launchagent.log</string>
+
+  <key>StandardErrorPath</key>
+  <string>/tmp/pt365-launchagent.err</string>
+</dict>
+</plist>

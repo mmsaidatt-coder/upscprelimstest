@@ -1,0 +1,294 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Ways and Means Advances (WMA):\n1. The WMA facility is a primary instrument used by the central government to finance its fiscal deficit.\n2. The interest rate charged on WMA is linked to the RBI's repo rate.\n3. This facility is available to both the Central and State governments.\nHow many of the above statements are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect. WMA is a temporary advance to cover mismatches in receipts and payments, not to finance the fiscal deficit. The text explicitly states it is 'not a source of financing fiscal deficit'. Statement 2 is correct. The interest rate on WMA is the RBI’s repo rate. Statement 3 is correct. The facility is available for the central government, state governments, and Union Territories. Therefore, two statements (2 and 3) are correct.",
+      "takeaway": "Understand the purpose, terms, and eligibility of Ways and Means Advances as a short-term liquidity tool for governments, and distinguish it from deficit financing instruments.",
+      "evidenceExcerpt": "It is a temporary advance given by the RBI to the central government to cover any mismatch in receipts and payments. o Unlike ad hoc Treasury Bills, the instrument of WMAs is not a source of financing fiscal deficit. o WMA is also available for state governments and Union Territories. ... Interest rate on WMA is the RBI’s repo rate.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to Certificates of Deposit (CDs) in the Indian money market, consider the following statements:\n1. They can be issued by all Scheduled Commercial Banks, including Regional Rural Banks.\n2. They are negotiable instruments issued at a discount to their face value.\n3. The maturity period for a CD ranges from a minimum of seven days to a maximum of one year.\nWhich of the statements given above are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect. The text explicitly states that CDs are issued by Scheduled commercial banks *excluding* Regional Rural Banks and Local Area Banks. Statement 2 is correct. The source mentions that a CD is a 'negotiable money market instrument' and is 'Issued by at a discount on face value.' Statement 3 is correct. The maturity period is specified as 'up to one year (min- 7 days)'. Therefore, statements 2 and 3 are correct.",
+      "takeaway": "Key features of money market instruments like Certificates of Deposit, including issuer eligibility, pricing mechanism, and maturity periods, are important for understanding the financial system.",
+      "evidenceExcerpt": "CD is a negotiable money market instrument... Issued by: Scheduled commercial banks (excluding Regional Rural Banks and Local Area Banks)... Issued by at a discount on face value. Its maturity period is up to one year (min- 7 days).",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Payment Aggregators (PAs) in India:\n1. A Payment Aggregator must be incorporated as a company under the Companies Act, 2013.\n2. The regulatory framework mandates that all entities acting as PAs, including banks, must obtain a separate authorisation from the RBI under the Payment and Settlement Systems Act, 2007.\n3. PAs facilitate payments for the purchase of goods and services, as well as for investment products.\nWhich of the statements given above is/are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct as the text states, 'It is incorporated as a company under the Companies Act, 2013.' Statement 2 is incorrect. The framework specifically mandates 'non-bank PAs' to obtain RBI authorisation, implying that banks operating as PAs may follow a different regulatory path. Statement 3 is correct. The source mentions that PAs facilitate payments for 'purchase of goods, services or investment products.' Thus, statements 1 and 3 are correct.",
+      "takeaway": "The regulatory framework for Payment Aggregators distinguishes between bank and non-bank entities and covers a broad range of transactions, including investments.",
+      "evidenceExcerpt": "It is incorporated as a company under the Companies Act, 2013. • New framework mandates non-bank PAs to obtain RBI authorisation under the Payment and Settlement Systems Act, 2007. ... facilitates aggregation of payments made by customers to merchants ... for purchase of goods, services or investment products.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the framework for Self-Regulatory Organisations (SROs) for RBI's Regulated Entities, consider the following statements:\n1. An SRO must be established as a not-for-profit company under Section 8 of the Companies Act, 2013.\n2. The Finance Industry Development Council (FIDC), recently granted SRO status, is a statutory body created by the RBI to oversee NBFCs.\nWhich of the statements given above is/are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct. The eligibility criteria for an SRO mandate that it 'shall be setup as a not-for-profit company registered under Section 8 of the Companies Act, 2013.' Statement 2 is incorrect. The FIDC is described as a 'representative body of non-banking financial companies (NBFC) registered with the RBI,' not a statutory body created by the RBI. It is an industry association that has been recognized as an SRO.",
+      "takeaway": "Understand the nature and legal structure of Self-Regulatory Organisations (SROs) in the financial sector. They are typically industry-led bodies operating within a framework set by the primary regulator (like RBI), not statutory government bodies themselves.",
+      "evidenceExcerpt": "An SRO shall be setup as a not-for-profit company registered under Section 8 of the Companies Act, 2013. ... FIDC is a representative body of non-banking financial companies (NBFC) registered with the RBI.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair matching",
+      "prompt": "Consider the following pairs regarding recent initiatives by the RBI:\n1. Unified Lending Interface (ULI) : A Digital Public Infrastructure for aggregating data from multiple sources to improve credit assessment by lenders.\n2. CBDC retail sandbox : A program for fintech firms to innovate and test solutions related to the Central Bank Digital Currency.\n3. Tokenisation of Certificate of Deposits : A process to issue physical certificates for digital assets held on a blockchain.\nHow many of the pairs given above are correctly matched?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched. The ULI is a DPI that 'aggregates data from multiple data sources which would be made available to lenders for better credit assessment.' Pair 2 is correctly matched. The text states the CBDC retail sandbox is 'For fintech firms to innovate and test solutions.' Pair 3 is incorrectly matched. Tokenisation is the process of creating a *digital representation* (a token) of a *real-world asset* (like a CD), not issuing physical certificates for digital assets. The description is reversed. Therefore, only two pairs are correctly matched.",
+      "takeaway": "Be clear about the specific purpose and mechanism of new digital initiatives in the financial sector, such as ULI, CBDC sandboxes, and tokenization.",
+      "evidenceExcerpt": "Unified Lending Interface (ULI): It is envisioned as a Digital Public Infrastructure (DPI) ... aggregates data from multiple data sources which would be made available to lenders for better credit assessment. • Central Bank Digital Currency (CBDC) retail sandbox: For fintech firms to innovate and test solutions. • Tokenisation of Certificate of Deposits (CD): Tokenization is the process of creating a digital representation, called a “token”, of a real-world asset like stocks on a distributed ledger or blockchain.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Which of the following statements most accurately distinguishes between the Ways and Means Advances (WMA) facility and the associated overdraft facility provided by the RBI?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The interest rate for overdrafts is set at a punitive rate higher than the repo rate, whereas the WMA interest rate is equivalent to the repo rate."
+        },
+        {
+          "id": "B",
+          "text": "WMA is exclusively available to the Central government, while the overdraft facility can be availed by both Central and State governments."
+        },
+        {
+          "id": "C",
+          "text": "The repayment period for an overdraft is significantly longer than the three-month period stipulated for WMA."
+        },
+        {
+          "id": "D",
+          "text": "WMA is considered a source for financing the fiscal deficit, unlike the overdraft facility which is only for temporary liquidity management."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "The primary distinction lies in the interest rate structure. The interest rate on WMA is the RBI's repo rate. However, for overdrafts, which are amounts drawn in excess of the WMA limit, the interest rate is 2% above the repo rate, making it a more expensive, punitive measure. Both facilities are available to the Centre and States. WMA is explicitly not a source for financing the fiscal deficit.",
+      "takeaway": "Understanding the nuanced differences between related financial instruments like WMA and overdrafts, particularly their cost and purpose, is crucial. WMA is a standard liquidity tool, while overdraft is a more costly, emergency measure.",
+      "evidenceExcerpt": "Interest rate: Interest rate on WMA is the RBI’s repo rate. However, interest on overdraft (amounts in excess of their WMA limits) is 2 % above the repo rate."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Conceptual",
+      "prompt": "The RBI's mandate for non-bank Payment Aggregators (PAs) to obtain authorisation under the Payment and Settlement Systems Act, 2007, is primarily driven by which functional aspect of these entities?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Their role in developing new payment technologies for the digital economy."
+        },
+        {
+          "id": "B",
+          "text": "Their function of handling and pooling customer funds before settlement with merchants."
+        },
+        {
+          "id": "C",
+          "text": "Their ability to issue pre-paid payment instruments to a wide customer base."
+        },
+        {
+          "id": "D",
+          "text": "Their exclusive access to merchant-side data for credit assessment purposes."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The core function of a Payment Aggregator is to facilitate the aggregation of payments from customers and transfer them to merchants. This involves handling customer funds, which places them within the purview of payment systems regulation. The PSS Act, 2007, governs systems that enable payment and settlement, and since PAs handle funds, their regulation is necessary to ensure the safety and efficiency of these transactions and protect consumer interests.",
+      "takeaway": "Regulatory frameworks are designed based on the specific functions and risks associated with financial entities. For Payment Aggregators, the key regulatory concern is their involvement in the flow of funds between customers and merchants, necessitating oversight under the PSS Act.",
+      "evidenceExcerpt": "It is an entity that facilitates aggregation of payments made by customers to merchants through payment channels... New framework mandates non-bank PAs to obtain RBI authorisation under the Payment and Settlement Systems Act, 2007."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Applied",
+      "prompt": "The introduction of the Unified Lending Interface (ULI) as a Digital Public Infrastructure is primarily aimed at addressing which of the following challenges in the Indian credit market?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The high incidence of Non-Performing Assets (NPAs) in the public sector banking system."
+        },
+        {
+          "id": "B",
+          "text": "The lack of a standardized interest rate framework across different categories of lenders."
+        },
+        {
+          "id": "C",
+          "text": "Information asymmetry that hinders effective credit assessment, especially for new-to-credit borrowers."
+        },
+        {
+          "id": "D",
+          "text": "The operational delays caused by the physical verification of collateral for secured loans."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The ULI is designed to aggregate data from multiple sources and make it available to lenders. This directly addresses the problem of information asymmetry, where lenders lack sufficient data to accurately assess a borrower's creditworthiness. By providing a more comprehensive view of a borrower's financial standing, ULI aims to enable 'better credit assessment,' which is particularly beneficial for individuals and businesses with limited formal credit history.",
+      "takeaway": "Digital Public Infrastructure like ULI aims to solve fundamental market failures. In the credit market, a key failure is information asymmetry. ULI's goal is to democratize access to data for lenders, thereby improving credit delivery and financial inclusion.",
+      "evidenceExcerpt": "Unified Lending Interface (ULI): It is envisioned as a Digital Public Infrastructure (DPI) aiming to enhance delivery of credit. It aggregates data from multiple data sources which would be made available to lenders for better credit assessment."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Conceptual",
+      "prompt": "What is the most significant functional advantage of 'tokenising' a money market instrument like a Certificate of Deposit (CD)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It guarantees a higher rate of return by linking the instrument's value to a blockchain-based asset."
+        },
+        {
+          "id": "B",
+          "text": "It converts the dematerialised instrument into a physical promissory note, enhancing its legal validity."
+        },
+        {
+          "id": "C",
+          "text": "It enhances the instrument's negotiability and transferability by representing it as a programmable digital asset on a distributed ledger."
+        },
+        {
+          "id": "D",
+          "text": "It allows the RBI to bypass commercial banks and issue CDs directly to retail investors."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Tokenization is the process of creating a digital representation of a real-world asset on a blockchain. The primary advantage of this for a financial instrument like a CD is that it can be easily and quickly transferred between parties on the ledger, enhancing its liquidity and negotiability. This digital representation can also be programmed for automated actions (like interest payments) and could potentially facilitate fractional ownership, making the market more efficient.",
+      "takeaway": "Tokenization is a key innovation in financial markets. Its main benefit is not changing the underlying asset's value but improving how it is owned, traded, and managed by creating a secure, programmable, and easily transferable digital version.",
+      "evidenceExcerpt": "Tokenisation of Certificate of Deposits (CD): Tokenization is the process of creating a digital representation, called a “token”, of a real-world asset like stocks on a distributed ledger or blockchain. ... CD is a negotiable money market instrument..."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Factual-Analytical",
+      "prompt": "With reference to the issuers of Certificates of Deposit (CDs) in India, which of the following statements is correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "All financial institutions, including Regional Rural Banks, are permitted to issue CDs to raise short-term resources."
+        },
+        {
+          "id": "B",
+          "text": "Only Scheduled Commercial Banks are authorised to issue CDs, while All-India Financial Institutions are excluded."
+        },
+        {
+          "id": "C",
+          "text": "While most Scheduled Commercial Banks can issue CDs, Regional Rural Banks and Local Area Banks are specifically excluded."
+        },
+        {
+          "id": "D",
+          "text": "CDs can be issued by any company registered under the Companies Act, 2013, as a form of short-term borrowing."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The regulations for issuing Certificates of Deposit are specific. They can be issued by Scheduled Commercial Banks and select All-India Financial Institutions. However, the rules explicitly exclude Regional Rural Banks (RRBs) and Local Area Banks (LABs) from the category of Scheduled Commercial Banks that are permitted to issue CDs. Other companies cannot issue CDs; they issue Commercial Papers.",
+      "takeaway": "Financial instruments are governed by specific eligibility criteria for issuers. It is important to note not just who is included but also who is explicitly excluded from participating in certain market activities.",
+      "evidenceExcerpt": "Issued by: Scheduled commercial banks (excluding Regional Rural Banks and Local Area Banks); select All-India Financial Institutions (FIs) permitted by RBI to raise short-term resources."
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Aditya-L1 mission and Lagrange points:\n1. The spacecraft is placed in a halo orbit around the Lagrange point 1 (L1), which is approximately 1.5 million km from the Earth.\n2. At Lagrange points, the gravitational pull of two large masses completely cancels each other out, resulting in a zero-gravity environment.\n3. Positioning a satellite at the L1 point of the Sun-Earth system allows for continuous, uninterrupted observation of the Sun.\n\nWhich of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Aditya-L1 is placed in a halo orbit around the Lagrange point 1 (L1) of the Sun-Earth system, about 1.5 million km from Earth. Statement 2 is incorrect: Lagrange points are not zero-gravity zones where forces cancel out entirely; rather, they are positions where the gravitational pull of two large masses precisely equals the centripetal force required for a small object to move with them. Statement 3 is correct: The L1 point allows continuous, uninterrupted observation of the Sun without any occultation or eclipses.",
+      "takeaway": "Lagrange points represent a balance between gravitational pull and centripetal force, not a true 'zero-gravity' vacuum. L1 provides an uninterrupted view of the Sun.",
+      "evidenceExcerpt": "It placed in a halo orbit around the Lagrange point 1 (L1) of the Sun-Earth system, which is about 1.5 million km from the Earth. At Lagrange points, the gravitational pull of two large masses precisely equals the centripetal force required for a small object to move with them. These points allow continuous, uninterrupted observation of the Sun."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the payloads carried by India's Aditya-L1 mission, consider the following statements:\n1. The mission carries exclusively remote sensing payloads to observe the Sun from a safe distance.\n2. The Solar Ultraviolet Imaging Telescope (SUIT) is an in-situ payload used to measure solar wind particles.\n3. The Aditya Solar wind Particle Experiment (ASPEX) is an in-situ payload.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "3 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Aditya-L1 carries a total of 7 payloads, which include both remote sensing and in-situ instruments. Statement 2 is incorrect: SUIT is a remote sensing payload, not an in-situ one. Statement 3 is correct: ASPEX is an in-situ payload designed to measure solar wind particles directly at the L1 point.",
+      "takeaway": "Aditya-L1 uses a combination of remote sensing payloads (like VELC and SUIT) to observe the Sun and in-situ payloads (like ASPEX) to sample the local space environment at L1.",
+      "evidenceExcerpt": "7 payloads: Remote Sensing Payloads: VELC, Solar Ultraviolet Imaging Telescope (SUIT), etc. In-situ Payloads: Aditya Solar wind Particle Experiment (ASPEX), etc."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of solar observation missions and the countries/agencies that launched them:\n\n1. Hinotori (ASTRO-A) : Japan\n2. Parker Solar Probe : United States\n3. Aditya-L1 : India\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "All three pairs are correctly matched. Hinotori (ASTRO-A) was launched by Japan. The Parker Solar Probe was launched by the United States. Aditya-L1 is India's first dedicated solar mission.",
+      "takeaway": "Understanding the major global solar missions and their respective space agencies is important for mapping international efforts in space exploration.",
+      "evidenceExcerpt": "About Aditya-L1 Mission: India’s first dedicated solar mission... Other Major Solar Missions: Hinotori (ASTRO-A) launched by Japan. Parker Solar Probe launched by US (first spacecraft to fly through the corona)."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding global solar exploration missions:\n1. Aditya-L1 is the first spacecraft globally to fly through the Sun's corona to study coronal heating.\n2. The Parker Solar Probe was launched by the United States and holds the distinction of being the first spacecraft to fly through the corona.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Aditya-L1 observes the Sun from the L1 Lagrange point, which is 1.5 million km from Earth, and does not fly through the Sun's corona. Statement 2 is correct: The Parker Solar Probe, launched by the US, is the first spacecraft to fly directly through the Sun's corona.",
+      "takeaway": "While Aditya-L1 observes the Sun from a safe distance at the L1 point, the Parker Solar Probe physically entered the Sun's corona to gather data.",
+      "evidenceExcerpt": "It placed in a halo orbit around the Lagrange point 1 (L1) of the Sun-Earth system, which is about 1.5 million km from the Earth... Parker Solar Probe launched by US (first spacecraft to fly through the corona)."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "multiple_choice",
+      "prompt": "Which of the following best describes the physical mechanism that defines a Lagrange point in a two-body system, such as the Sun and the Earth?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It is a point where the gravitational forces of the two large bodies completely cancel each other out, resulting in a zero-gravity vacuum."
+        },
+        {
+          "id": "B",
+          "text": "It is a position where the combined gravitational pull of the two large masses precisely equals the centripetal force required for a small object to move with them."
+        },
+        {
+          "id": "C",
+          "text": "It is a location where the magnetic fields of the two bodies neutralize each other, shielding spacecraft from intense solar radiation."
+        },
+        {
+          "id": "D",
+          "text": "It is an orbital node where a spacecraft can utilize the atmosphere of the larger body to perform an aerobraking maneuver."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "At Lagrange points, the gravitational pull of two large masses precisely equals the centripetal force required for a small object to move with them. It is not a zero-gravity environment, but rather an equilibrium of forces.",
+      "takeaway": "Lagrange points are positions of orbital equilibrium where gravitational and centripetal forces balance, allowing a spacecraft to maintain its position relative to the two large bodies with minimal fuel.",
+      "evidenceExcerpt": "At Lagrange points, the gravitational pull of two large masses precisely equals the centripetal force required for a small object to move with them."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "statement_based",
+      "prompt": "With reference to India's Aditya-L1 mission, consider the following statements:\n1. Its primary objectives include understanding coronal heating and solar wind acceleration.\n2. It relies on remote sensing payloads like the Visible Emission Line Coronagraph (VELC) to directly sample solar wind particles in the spacecraft's immediate vicinity.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct as the mission aims to understand Coronal Heating and Solar Wind Acceleration. Statement 2 is incorrect because VELC is a remote sensing payload (which observes from a distance), whereas directly sampling particles in the vicinity is the function of in-situ payloads like ASPEX.",
+      "takeaway": "Space missions utilize a combination of remote sensing payloads (to observe distant phenomena) and in-situ payloads (to measure the local environment directly).",
+      "evidenceExcerpt": "Objectives: To understand Coronal Heating and Solar Wind Acceleration... Remote Sensing Payloads: VELC, Solar Ultraviolet Imaging Telescope (SUIT), etc. In-situ Payloads: Aditya Solar wind Particle Experiment (ASPEX), etc."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "statement_based",
+      "prompt": "Consider the following statements regarding global solar exploration missions:\n1. While the Parker Solar Probe physically flies through the Sun's corona, India's Aditya-L1 mission observes the Sun from a halo orbit approximately 1.5 million kilometers from Earth.\n2. Both the Aditya-L1 mission and Japan's Hinotori (ASTRO-A) mission are designed to operate from the Sun-Earth Lagrange point 1 (L1).\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct; the Parker Solar Probe is the first spacecraft to fly through the corona, whereas Aditya-L1 is stationed at L1. Statement 2 is incorrect; while Hinotori is a major Japanese solar mission, only Aditya-L1 is noted as being placed at the L1 point.",
+      "takeaway": "Different solar missions employ distinct operational strategies: some observe from stable vantage points like L1 (Aditya-L1), while others perform close-proximity flybys of the solar atmosphere (Parker Solar Probe).",
+      "evidenceExcerpt": "It placed in a halo orbit around the Lagrange point 1 (L1) of the Sun-Earth system, which is about 1.5 million km from the Earth... Other Major Solar Missions: Hinotori (ASTRO-A) launched by Japan. Parker Solar Probe launched by US (first spacecraft to fly through the corona)."
+    }
+  ]
+}

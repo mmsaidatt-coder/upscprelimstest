@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Geography",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the courses of rivers recently in the news:\n1. The Mandovi River originates in the Western Ghats and flows through Goa, Karnataka, and Maharashtra.\n2. The Subarnarekha River flows through the states of Jharkhand, Odisha, and West Bengal.\n3. The Kopili River flows exclusively through the state of Assam.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct. The Mandovi (or Mahadayi) River originates in Bhimgad in the Western Ghats and flows through Goa, Karnataka, and Maharashtra. Statement 2 is correct. The Subarnarekha River flows through Jharkhand, Odisha, and West Bengal. Statement 3 is incorrect. The Kopili River flows through both Meghalaya and Assam.",
+      "takeaway": "The Mandovi flows through Goa, Karnataka, and Maharashtra. Subarnarekha flows through Jharkhand, Odisha, and West Bengal. Kopili is shared by Meghalaya and Assam.",
+      "evidenceExcerpt": "Mandovi/Mahadayi River originates in Bhimgad (Western Ghats), flows through Goa, Karnataka, and Maharashtra... Subarnarekha River flows through Jharkhand, Odisha, and West Bengal... Kopili (NW-57, Meghalaya/Assam)",
+      "qualityScore": 85,
+      "reviewNotes": "Excellent use of the 'How many statements' format to test precise knowledge of river courses and state boundaries."
+    }
+  ],
+  "reviewerNotes": "Selected 5 distinct questions covering different aspects of the source text: river origins, inter-state tribunals, river courses, feature identification, and infrastructure projects. Rewrote prompts to align perfectly with UPSC Prelims phrasing and formatting. Ensured all distractors are plausible and grounded in the provided text."
+}

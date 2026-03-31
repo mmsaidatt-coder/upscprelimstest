@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of dedicated military satellites and their primary user agencies:\n1. GSAT-7 (Rukmini) : Indian Navy\n2. GSAT-7A (Angry Bird) : Indian Air Force\n3. GSAT-7B : Indian Army\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "All three pairs are correctly matched. GSAT-7 (Rukmini) is used by the Indian Navy. GSAT-7A (Angry Bird) is utilized by the Indian Air Force (IAF) to connect platforms like AWACS and UAVs. GSAT-7B is being developed for the Indian Army to enhance border surveillance and communication.",
+      "takeaway": "The GSAT-7 series provides dedicated communication and surveillance capabilities tailored to the specific needs of different branches of the Indian Armed Forces.",
+      "evidenceExcerpt": "GSAT-7 (Rukmini) is India's first officially dedicated military satellite, used by the Navy. GSAT-7A (Angry Bird) helps the IAF connect platforms like AWACS, UAVs, and aircraft. GSAT-7B is being developed for the Army to enhance surveillance and communication in border areas."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to India's military space capabilities, consider the following statements:\n1. GSAT-7 (Rukmini) is India's first officially dedicated military satellite.\n2. GSAT-7C is being developed to provide real-time, secure communication specifically for the Indian Army.\n3. The GSAT-7 series satellites are dual-use platforms shared equally between civilian telecommunications and military forces.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: GSAT-7 (Rukmini) is India's first officially dedicated military satellite. Statement 2 is incorrect: GSAT-7C is being developed for the Indian Air Force, not the Army (GSAT-7B is for the Army). Statement 3 is incorrect: The GSAT-7 series are dedicated military communication and surveillance satellites, not dual-use civilian platforms.",
+      "takeaway": "The GSAT-7 series are not dual-use; they are strictly dedicated military satellites. GSAT-7C will feature ground hubs for real-time, secure communication for the Air Force.",
+      "evidenceExcerpt": "Dedicated military communication and surveillance satellites for the Indian Armed Forces. ... GSAT-7 (Rukmini) is India's first officially dedicated military satellite, used by the Navy. ... GSAT-7C is being developed for the Air Force and includes ground hubs for real-time, secure communication."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the GSAT-7 series satellites:\n1. GSAT-7A is designed to interconnect platforms such as Airborne Warning and Control Systems (AWACS) and Unmanned Aerial Vehicles (UAVs) for the Indian Air Force.\n2. GSAT-7B is being developed to enhance surveillance and communication capabilities in border areas for the Indian Army.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Both statements are correct. GSAT-7A (Angry Bird) connects IAF platforms like AWACS, UAVs, and aircraft. GSAT-7B is being developed specifically for the Indian Army to enhance border surveillance and communication.",
+      "takeaway": "GSAT-7A focuses on aerial platform connectivity for the IAF, while GSAT-7B focuses on border surveillance and communication for the Army.",
+      "evidenceExcerpt": "GSAT-7A (Angry Bird) helps the IAF connect platforms like AWACS, UAVs, and aircraft. GSAT-7B is being developed for the Army to enhance surveillance and communication in border areas."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Comparison-driven",
+      "prompt": "Which of the following best describes the primary operational distinction between the GSAT-7A and GSAT-7B satellites?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "GSAT-7A is designed to interconnect airborne platforms such as AWACS and UAVs, whereas GSAT-7B is focused on enhancing border surveillance for ground forces."
+        },
+        {
+          "id": "B",
+          "text": "GSAT-7A provides dedicated maritime navigation for naval fleets, whereas GSAT-7B serves as a dual-use meteorological and military communication platform."
+        },
+        {
+          "id": "C",
+          "text": "GSAT-7A is India's first officially dedicated military satellite, whereas GSAT-7B is an experimental anti-satellite (ASAT) weapon system."
+        },
+        {
+          "id": "D",
+          "text": "GSAT-7A establishes ground hubs for real-time secure communication for the Army, whereas GSAT-7B connects fighter aircraft for the Air Force."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "GSAT-7A (Angry Bird) is utilized by the Indian Air Force to connect platforms like AWACS, UAVs, and aircraft. In contrast, GSAT-7B is being developed for the Indian Army to specifically enhance surveillance and communication capabilities in border areas.",
+      "takeaway": "Each satellite in the GSAT-7 series is tailored to the operational domain of its user agency: airborne interconnection for the IAF (7A) versus border surveillance for the Army (7B).",
+      "evidenceExcerpt": "GSAT-7A (Angry Bird) helps the IAF connect platforms like AWACS, UAVs, and aircraft. GSAT-7B is being developed for the Army to enhance surveillance and communication in border areas."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Securities Transaction Tax (STT) in India, consider the following statements:\n1. It is a direct tax introduced under the Finance Act to curb tax evasion in the securities market.\n2. It is applicable only to transactions conducted through recognized stock exchanges in India.\n3. Transactions involving units of equity-oriented mutual funds are exempt from STT.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: STT is a direct tax introduced under the Finance Act, 2004, with the primary aim of curbing tax evasion in the securities market. Statement 2 is correct: It is levied specifically on transactions of securities conducted through a recognized stock exchange in India (off-market transactions are not covered). Statement 3 is incorrect: Taxable securities under STT explicitly include equity, derivatives, and units of equity-oriented mutual funds.",
+      "takeaway": "STT is a direct tax levied on transactions (including equities, derivatives, and equity-oriented mutual funds) conducted on recognized stock exchanges, aimed at preventing tax evasion.",
+      "evidenceExcerpt": "Securities Transaction Tax (STT) - It is a direct tax levied on transactions of securities conducted through a recognized stock exchange in India. Taxable securities include equity, derivatives, and unit of equity-oriented mutual fund... Introduced under the Finance Act, 2004. Aim: to curb tax evasion in the securities market.",
+      "qualityScore": 85,
+      "reviewNotes": "Strong statement-based question that tests the nature, applicability, and scope of STT. Distractors are plausible and well-aligned with UPSC patterns."
+    }
+  ],
+  "reviewerNotes": "Selected two questions. Q1 is a statement-based question testing the nature, applicability, and exemptions of STT. Q2 is a conceptual question testing the fundamental definition and objective of the tax. Both are well-grounded in the source text and use plausible distractors."
+}

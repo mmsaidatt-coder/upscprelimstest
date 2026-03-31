@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding water quality monitoring in India:\n\n1. The assessment report on 'Polluted River Stretches for Restoration of Water Quality' is released by the Central Water Commission.\n2. The National Water Quality Monitoring Programme (NWMP) is executed by the Central Pollution Control Board (CPCB) in collaboration with State Pollution Control Boards.\n3. The identification of polluted river stretches in the country by the CPCB has been ongoing since 2009.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The assessment report on 'Polluted River Stretches for Restoration of Water Quality' is released by the Central Pollution Control Board (CPCB), not the Central Water Commission (CWC).\nStatement 2 is correct: The CPCB executes the National Water Quality Monitoring Programme (NWMP) in collaboration with State Pollution Control Boards (SPCBs) and Pollution Control Committees (PCCs).\nStatement 3 is correct: The CPCB has been identifying the country's Polluted River Stretches since 2009.",
+      "takeaway": "The CPCB is the primary agency responsible for executing the NWMP and identifying polluted river stretches in India, a process it has been conducting since 2009.",
+      "evidenceExcerpt": "Central Pollution Control Board (CPCB) released assessment report on Polluted River Stretches for Restoration of Water Quality - 2025. CPCB executes National Water Quality Monitoring Programme (NWMP) with State Pollution Control Boards/Pollution Control Committees and has been identifying the country's Polluted River Stretches since 2009.",
+      "qualityScore": 85,
+      "reviewNotes": "The question effectively tests the institutional responsibilities for water quality monitoring in India, a common theme in UPSC Environment questions. The distractors are plausible, and the format aligns with recent UPSC trends."
+    }
+  ],
+  "reviewerNotes": "Selected and refined the statement-based question. It tests institutional mandates clearly and uses the 'How many statements' format typical of recent UPSC Prelims. The distractors (like CWC instead of CPCB) are highly plausible for aspirants."
+}

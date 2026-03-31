@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Compressed Biogas (CBG):\n1. The purification of raw biogas to produce CBG involves the removal of hydrogen sulphide, carbon dioxide, and water vapour.\n2. The purification process reduces the methane concentration to prevent auto-ignition during high-pressure storage.\n3. To obtain CBG, the purified biogas is compressed to a pressure of 200-250 bar.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Raw biogas is purified to remove impurities such as hydrogen sulphide (H2S), carbon dioxide (CO2), and water vapour.\nStatement 2 is incorrect: The purification process does not reduce methane concentration; rather, it increases the methane concentration to about 90% to enrich the fuel.\nStatement 3 is correct: After purification, the gas is compressed to a high pressure of about 200-250 bar to produce CBG.",
+      "takeaway": "CBG production requires purifying raw biogas to remove H2S, CO2, and water vapour, which increases its methane concentration to 90%. It is then compressed to 200-250 bar.",
+      "evidenceExcerpt": "Raw biogas is purified to remove H2S, CO2, and water vapor, increasing methane concentration to 90%, and is then compressed to about 200-250 bar pressure to get CBG.",
+      "qualityScore": 85,
+      "reviewNotes": "Rewrote Statement 2 to provide a plausible distractor hook (preventing auto-ignition) rather than a weak, obvious falsehood. The question now tests both the chemical and physical processing of CBG effectively."
+    }
+  ],
+  "reviewerNotes": "Selected two questions that cover the technical process of CBG production and the government schemes promoting it. Improved the distractors in the first question to make it more analytical and aligned with UPSC standards."
+}

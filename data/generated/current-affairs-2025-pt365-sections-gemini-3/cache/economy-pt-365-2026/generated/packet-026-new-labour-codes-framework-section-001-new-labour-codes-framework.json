@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Comparison-driven",
+      "prompt": "In the context of the new labour framework, which of the following best describes the distinction between 'Fixed-Term Employment' (FTE) and 'Contract Labour'?",
+      "options": [
+        {
+          "id": "A",
+          "text": "FTE involves workers engaged through an intermediary, whereas contract labour involves a direct contract with the employer."
+        },
+        {
+          "id": "B",
+          "text": "FTE requires a mandatory notice period for retrenchment, whereas contract labour can be terminated without notice."
+        },
+        {
+          "id": "C",
+          "text": "FTE involves a direct contract between the worker and employer for a fixed duration, while contract labour involves engagement through a contractor."
+        },
+        {
+          "id": "D",
+          "text": "FTE is applicable only to the unorganized sector, while contract labour is restricted to the organized sector."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "According to the source, Fixed-Term Employees (FTE) are workers employed for a fixed duration based on a contract signed directly between the worker and the employer. Contract Labour, however, is when a worker is engaged in an establishment through a contractor or intermediary rather than being directly on the payroll of the principal employer.",
+      "takeaway": "The primary distinction between FTE and Contract Labour lies in the directness of the employment relationship and the use of intermediaries.",
+      "evidenceExcerpt": "Fixed-Term Employees (FTE): Refers to workers employed for a fixed duration based on a contract signed directly between the worker and the employer... Contract Labour is when a worker is engaged in an establishment through a contractor or intermediary rather than being directly on the payroll of the principal employer.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Feature-based",
+      "prompt": "In the context of the New Labour Codes, which of the following is a specific legal feature of 'Fixed-Term Employment' (FTE)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The worker must be engaged through a licensed intermediary or contractor."
+        },
+        {
+          "id": "B",
+          "text": "The contract must be for a minimum duration of five years to be legally valid."
+        },
+        {
+          "id": "C",
+          "text": "No notice is required for retrenchment upon the completion of the contracted term."
+        },
+        {
+          "id": "D",
+          "text": "FTE workers are ineligible for statutory benefits like the Employees’ Provident Fund."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Under the definition of Fixed-Term Employment (FTE), employment lapses automatically upon the completion of the term. A key feature is that no notice is required for retrenchment when the term expires.",
+      "takeaway": "FTE provides flexibility to employers by removing the notice requirement for retrenchment at the end of a fixed contract.",
+      "evidenceExcerpt": "Fixed-Term Employees (FTE): Refers to workers employed for a fixed duration based on a contract signed directly between the worker and the employer... No notice is required for retrenchment upon the completion of the term.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Definition-based",
+      "prompt": "Under the new labour framework, the term 'Floor Wage' refers to:",
+      "options": [
+        {
+          "id": "A",
+          "text": "The maximum wage a state government can mandate for the unorganized sector."
+        },
+        {
+          "id": "B",
+          "text": "A central government benchmark set to ensure a minimum subsistence level across the country."
+        },
+        {
+          "id": "C",
+          "text": "The minimum basic pay required to be eligible for the Employees' Provident Fund (EPF)."
+        },
+        {
+          "id": "D",
+          "text": "A wage rate determined by collective bargaining between unions and the Chief Labour Commission."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Floor Wage is a benchmark set by the Central Government to ensure that workers across the country receive a minimum level of wages necessary for subsistence.",
+      "takeaway": "The Floor Wage acts as a national baseline for minimum wages.",
+      "evidenceExcerpt": "Floor wage: A central government benchmark set to ensure a minimum subsistence level across the country.",
+      "contextLines": []
+    }
+  ]
+}

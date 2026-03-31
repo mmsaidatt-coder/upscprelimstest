@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding disaster alert systems in India:\n1. SACHET is an SMS-based alert system operationalized by the India Meteorological Department (IMD).\n2. SACHET was developed utilizing the Common Alerting Protocol (CAP).\n3. Cell Broadcast alerts are delivered directly to all mobile phones in an affected area and are faster than traditional SMS.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: SACHET is operationalized by the National Disaster Management Authority (NDMA), not the IMD.\nStatement 2 is correct: It was developed by the Centre for Development of Telematics (C-DOT) using the Common Alerting Protocol (CAP).\nStatement 3 is correct: Cell Broadcast alerts are faster than SMS and are broadcast directly to all mobile phones in an affected area.",
+      "takeaway": "SACHET is India's SMS-based alert system operationalized by NDMA and developed by C-DOT using CAP. Cell Broadcast is a faster alternative that pushes alerts directly to all phones in a specific area.",
+      "evidenceExcerpt": "SACHET (India's SMS-Based Alert System): Operationalized by National Disaster Management Authority (NDMA). Developed by Centre of Development of Telematics C-DOT using the Common Alerting Protocol (CAP)... Cell Broadcast (Near Real-Time Emergency Alerts): Being developed by C-DOT, CB alerts are faster than SMS and are broadcast directly to all mobile phones in affected area..."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the 'Early Warnings for All (EW4All)' initiative, consider the following statements:\n1. It aims to ensure universal protection from hazardous climate events through early warning systems by the year 2030.\n2. It was officially launched at the UNFCCC COP27 in 2022.\n3. The International Telecommunication Union (ITU) and the International Federation of Red Cross and Red Crescent Societies (IFRC) are among its joint leads.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The initiative aims to ensure universal protection by 2027, not 2030.\nStatement 2 is correct: EW4All was launched at COP27 of the UNFCCC in 2022.\nStatement 3 is correct: The initiative is jointly led by the WMO, UNDRR, ITU, and IFRC.",
+      "takeaway": "The EW4All initiative was launched at COP27 (2022) with the target of achieving universal early warning system coverage by 2027. It is co-led by WMO, UNDRR, ITU, and IFRC.",
+      "evidenceExcerpt": "Early Warnings for All (EW4All): Aim: Ensure universal protection... by 2027. Launched: At COP27 of UNFCCC in 2022... Jointly led by WMO, UNDRR, ITU and IFRC."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "conceptual",
+      "prompt": "Which of the following best describes the primary operational advantage of 'Cell Broadcast' technology over traditional SMS-based systems like SACHET during a disaster?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It bypasses terrestrial telecom networks by delivering alerts directly via satellite communication."
+        },
+        {
+          "id": "B",
+          "text": "It broadcasts alerts simultaneously to all mobile phones within a specific geographical area, making it faster than individual SMS delivery."
+        },
+        {
+          "id": "C",
+          "text": "It automatically activates the GPS on mobile devices to transmit the exact location of stranded individuals to rescue agencies."
+        },
+        {
+          "id": "D",
+          "text": "It functions exclusively through a dedicated mobile application that operates offline using Bluetooth mesh networking."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Cell Broadcast technology delivers near real-time emergency alerts directly to all mobile phones in an affected area simultaneously. This mechanism is significantly faster and more efficient than traditional sequential SMS delivery (used by systems like SACHET), as it avoids the network congestion that typically hinders individual SMS messages during a crisis.",
+      "takeaway": "Cell Broadcast allows for geographically targeted, near real-time mass alerting by broadcasting to all devices connected to local cell towers, providing a critical speed advantage over traditional SMS during disasters.",
+      "evidenceExcerpt": "Cell Broadcast (Near Real-Time Emergency Alerts): Being developed by C-DOT, CB alerts are broadcast directly to all mobile phones in affected area... faster than SMS."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "correct-pair",
+      "prompt": "Consider the following pairs of disaster alert initiatives and the primary organizations associated with their operationalization, development, or leadership:\n\n1. SACHET : National Disaster Management Authority (NDMA)\n2. Cell Broadcast alerts : Centre for Development of Telematics (C-DOT)\n3. Early Warnings for All (EW4All) : World Meteorological Organization (WMO)\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "All three pairs are correctly matched. SACHET is an SMS-based alert system operationalized by the NDMA. The Cell Broadcast system for near real-time alerts is being developed by C-DOT. The global 'Early Warnings for All' (EW4All) initiative is jointly led by the WMO, along with UNDRR, ITU, and IFRC.",
+      "takeaway": "India's domestic alert systems (SACHET, Cell Broadcast) are technologically supported by C-DOT and operationalized by disaster management bodies like NDMA, while global initiatives like EW4All rely on a coalition of UN and international organizations.",
+      "evidenceExcerpt": "SACHET (India's SMS-Based Alert System): Operationalized by National Disaster Management Authority (NDMA)... Cell Broadcast (Near Real-Time Emergency Alerts): Being developed by C-DOT... Early Warnings for All (EW4All)... Jointly led by WMO, UNDRR, ITU and IFRC."
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Paragraph-based Identification",
+      "prompt": "Consider the following passage:\n\nThis wildlife sanctuary is characterized by vegetation that includes Gorad, Babul, and Bamboo. Its fauna comprises species such as Sambar, chital, and chinkara. Located in Gujarat, it is currently emerging as a crucial secondary habitat for the conservation of Asiatic Lions.\n\nWhich of the following protected areas is described in the passage given above?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Narayan Sarovar Sanctuary"
+        },
+        {
+          "id": "B",
+          "text": "Barda Wildlife Sanctuary"
+        },
+        {
+          "id": "C",
+          "text": "Shoolpaneshwar Wildlife Sanctuary"
+        },
+        {
+          "id": "D",
+          "text": "Jessore Sloth Bear Sanctuary"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Barda Wildlife Sanctuary, located in Porbandar and Devbhumi Dwarka districts of Gujarat, is emerging as a second home for Asiatic Lions. Its key flora includes Gorad, Babul, and Bamboo, and its fauna includes Sambar, chital, and chinkara.",
+      "takeaway": "Barda Wildlife Sanctuary is being developed as an alternative habitat for Asiatic Lions to reduce the risks associated with a single isolated population in Gir.",
+      "evidenceExcerpt": "Barda Wildlife Sanctuary (Porbandar and Devbhumi Dwarka, Gujarat) is emerging as a second home for Asiatic Lions... Barda's key flora includes Gorad, Babul, and Bamboo, and fauna includes Sambar, chital, and chinkara.",
+      "qualityScore": 90,
+      "reviewNotes": "Excellent paragraph-based identification question. It perfectly mimics UPSC's style of describing a protected area's flora, fauna, and geographical context, and asking candidates to identify it."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice",
+      "prompt": "With reference to the Wildlife (Protection) Amendment Act, 2022, which of the following statements correctly describes the status of species listed under the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "They are distributed across Schedules I and II based on their threat perception in India."
+        },
+        {
+          "id": "B",
+          "text": "They are placed under Schedule IV of the Act to align domestic laws with international trade regulations."
+        },
+        {
+          "id": "C",
+          "text": "They are categorized under Schedule V to permit regulated hunting and culling."
+        },
+        {
+          "id": "D",
+          "text": "They are exempt from the schedules of the Act and governed by a separate management authority."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Wildlife (Protection) Amendment Act, 2022 introduced a dedicated schedule for species protected under CITES. Under this amendment, CITES-listed species are placed under Schedule IV of the Act.",
+      "takeaway": "The WPA 2022 amendment streamlined the schedules of the Act and specifically designated Schedule IV for the implementation of CITES provisions in India.",
+      "evidenceExcerpt": "Under the WPA 2022 amendment, CITES-listed species are now under Schedule IV.",
+      "qualityScore": 88,
+      "reviewNotes": "Strong conceptual question testing a recent and significant legislative change. The distractors are highly plausible and parallel, making it a standard UPSC-level question."
+    }
+  ],
+  "reviewerNotes": "Selected two high-quality questions that cover different aspects of the source text. The first is a classic paragraph-based identification question on Barda Wildlife Sanctuary. The second tests a crucial legislative update regarding the WPA 2022 amendment and CITES. Both questions have been refined for formal UPSC tone and clarity."
+}

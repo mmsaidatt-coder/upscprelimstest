@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Polity",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the constitutional provisions for assent to bills in India:\n1. The Constitution of India explicitly mentions that the Governor of a State acts in his own discretion in certain spheres.\n2. The President of India has the power to independently take up a State bill for consideration if it is deemed to be against the national interest.\n3. A writ of mandamus can be issued by the High Court to the Governor to compel the grant of assent to a bill passed by the State Legislature.\nWhich of the statements given above is/are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Article 163(2) of the Constitution explicitly mentions that the Governor acts in his/her own discretion in certain spheres. Statement 2 is incorrect: The Constitution does not empower the President to independently (suo motu) take up a State bill; it must first be reserved and forwarded by the Governor. Statement 3 is incorrect: While inaction can be challenged, a writ of mandamus cannot be issued against the President of India or State Governors.",
+      "takeaway": "The Governor has explicit constitutional discretion that the President lacks regarding state bills, and both enjoy immunity from writs of mandamus.",
+      "evidenceExcerpt": "Constitution of India (under Article 163 (2)) explicitly mentions that in certain spheres the Governor of a State acts in his/her own discretion. However, Constitution does not empower President to independently (suo motu) take up a State bill unless it has first been reserved and forwarded by the Governor. ... Writ of mandamus cannot be issued: ... against President of India or State Governors.",
+      "qualityScore": 88,
+      "reviewNotes": "This question tests the nuances of Article 163 vs Article 200/201 and the judicial limits on executive powers, which is a classic UPSC theme.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Comparison-driven",
+      "prompt": "With reference to the reconsideration of bills by a State Legislature, which of the following statements highlights a key constitutional difference between the powers of the Governor and the President?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The Governor can return a Money Bill for reconsideration, whereas the President cannot."
+        },
+        {
+          "id": "B",
+          "text": "If the Legislature passes a bill again after reconsideration, the Governor is obligated to grant assent, whereas the President is not."
+        },
+        {
+          "id": "C",
+          "text": "The President must decide on a reconsidered bill within a fixed period of six months, whereas no such timeline exists for the Governor."
+        },
+        {
+          "id": "D",
+          "text": "The Governor can reserve a bill for the President's consideration only after it has been returned for reconsideration once."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Under Article 200, if the State Legislature passes a bill again (with or without changes) after it was returned by the Governor, the Governor MUST give assent. However, under Article 201, even if the Legislature passes a bill again after it was returned by the President, the President is not obligated to grant assent and can still withhold it.",
+      "takeaway": "The Governor's suspensive veto is limited by the re-passage of a bill, but the President's power over reserved state bills remains discretionary even after re-enactment.",
+      "evidenceExcerpt": "If the Legislature passes the bill again (with or without changes), the Governor MUST give assent. ... Key Difference: Unlike Governor, President is NOT obligated to give assent to reconsidered Bills.",
+      "qualityScore": 85,
+      "reviewNotes": "Focuses on the critical procedural distinction between Article 200 and 201, a high-yield area for Prelims.",
+      "contextLines": []
+    }
+  ],
+  "reviewerNotes": "The questions cover the core constitutional provisions (Articles 200, 201, 163), the procedural differences between the Governor and President, and the judicial limitations (Mandamus). The distractors are designed to reflect common misconceptions about discretionary powers and timelines."
+}

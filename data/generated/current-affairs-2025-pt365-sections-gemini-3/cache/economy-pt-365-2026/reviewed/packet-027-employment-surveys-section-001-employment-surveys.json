@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Conceptual Definitions",
+      "prompt": "In the context of the Periodic Labour Force Survey (PLFS), consider the following statements regarding employment indicators: 1. The Labour Force Participation Rate (LFPR) is the percentage of persons in the labour force in the total population. 2. The Worker Population Ratio (WPR) is the percentage of employed persons in the total population. 3. The Unemployment Rate (UR) is the percentage of unemployed persons in the total population. Which of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: LFPR is defined as the percentage of persons in the labour force (those working, seeking, or available for work) in the total population. Statement 2 is correct: WPR is defined as the percentage of employed persons in the total population. Statement 3 is incorrect: The Unemployment Rate (UR) is defined as the percentage of persons unemployed among the persons in the labour force, not the total population. The denominator for UR is the labour force, whereas for LFPR and WPR, it is the population.",
+      "takeaway": "A critical distinction in employment statistics is the denominator: LFPR and WPR use the total population, while the Unemployment Rate uses only the labour force.",
+      "evidenceExcerpt": "Labor Force Participation Rate (LFPR): It is defined as percentage of persons in labor force... in the population. Worker Population Ratio (WPR): WPR is defined as the percentage of employed persons in population. Unemployment Rate (UR): UR is defined as percentage of persons unemployed among the persons in the labour force.",
+      "qualityScore": 88,
+      "reviewNotes": "This question addresses a fundamental conceptual trap in economic indicators by testing the student's understanding of the denominator used for different employment rates."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Institutional and Operational",
+      "prompt": "With reference to the Periodic Labour Force Survey (PLFS) in India, consider the following statements: 1. It is conducted by the National Statistical Office (NSO) under the Ministry of Statistics and Programme Implementation. 2. It aims to estimate key employment indicators in the 'Current Weekly Status' (CWS) for both urban and rural areas every three months. 3. It provides annual estimates of employment and unemployment indicators in both 'Usual Status' and 'Current Weekly Status' for both rural and urban areas. Which of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Statement 1 is correct: The PLFS is conducted by the National Statistical Office (NSO) under the Ministry of Statistics and Programme Implementation (MoSPI). Statement 2 is correct: One of the primary objectives of the PLFS is to estimate key employment and unemployment indicators in the short time interval of three months for urban areas, and the survey now includes rural areas as well in the 'Current Weekly Status' (CWS). Statement 3 is correct: The PLFS also estimates employment and unemployment indicators in both 'Usual Status' (ps+ss) and CWS in both rural and urban areas on an annual basis.",
+      "takeaway": "The PLFS provides both high-frequency (quarterly) data for urban and rural areas in CWS and comprehensive annual data for both areas in Usual and Weekly status.",
+      "evidenceExcerpt": "Conducting agency: National Statistics Office (NSO). Ministry: Introduced in 2017 by the Ministry of Statistics and Programme Implementation. Objectives: To estimate the key employment and unemployment indicators in the short time interval of three months for the urban areas only (Now rural area also included) in the ‘Current Weekly Status’ (CWS). To estimate employment and unemployment indicators in both ‘Usual Status’ (ps+ss) and CWS in both rural and urban areas annually.",
+      "qualityScore": 85,
+      "reviewNotes": "This question accurately reflects the institutional framework and the dual-frequency objectives of the PLFS as described in the source text, including the recent expansion of the quarterly scope."
+    }
+  ],
+  "reviewerNotes": "The selected questions cover the institutional framework of the Periodic Labour Force Survey (PLFS), recent regulatory changes in labour norms (contract labour and working hours), and the technical definitions of key employment indicators (LFPR, WPR, UR). The distractors are designed to test precision in understanding denominators (population vs labour force) and the specific scope of surveys (urban vs rural, quarterly vs annual) as presented in the source text."
+}

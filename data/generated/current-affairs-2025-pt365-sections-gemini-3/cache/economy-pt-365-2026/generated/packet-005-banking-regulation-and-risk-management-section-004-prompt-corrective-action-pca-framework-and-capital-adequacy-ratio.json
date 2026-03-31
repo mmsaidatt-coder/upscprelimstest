@@ -1,0 +1,149 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Prompt Corrective Action (PCA) framework of the Reserve Bank of India:\n1. It is applicable to Scheduled Commercial Banks, Urban Co-operative Banks, and Non-Banking Financial Companies (NBFCs).\n2. For Urban Co-operative Banks, the PCA framework has replaced the earlier Supervisory Action Framework (SAF).\n3. The framework relies solely on the Capital Adequacy Ratio (CAR) to initiate supervisory intervention.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The PCA framework applies to both banks (including SCBs and UCBs) and NBFCs. Statement 2 is correct: The PCA framework for UCBs replaced the existing Supervisory Action Framework (SAF). Statement 3 is incorrect: The framework does not rely solely on CAR; Capital Adequacy Ratio (CAR), Asset Quality, and Profitability are the key areas for monitoring.",
+      "takeaway": "The PCA framework applies to banks and NBFCs, replacing the SAF for UCBs, and monitors CAR, Asset Quality, and Profitability.",
+      "evidenceExcerpt": "Applicability: It applies to both banks and NBFCs. Capital Adequacy Ratio (CAR), Asset Quality and Profitability are the key areas for monitoring... PCA framework for UCBs replaced the existing Supervisory Action Framework (SAF)."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Capital Adequacy Ratio (CAR), consider the following statements:\n1. It is calculated as the ratio of a bank's total risk-weighted assets to its total capital.\n2. It is one of the key indicators monitored under the Reserve Bank of India's Prompt Corrective Action (PCA) framework.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: CAR is the ratio of total capital to total risk-weighted assets, not the other way around. Statement 2 is correct: CAR is one of the key areas monitored under the PCA framework, alongside Asset Quality and Profitability.",
+      "takeaway": "CAR (or CRAR) is the ratio of total capital to total risk-weighted assets. It is a vital parameter in the RBI's PCA framework.",
+      "evidenceExcerpt": "Capital Adequacy Ratio (CAR), Asset Quality and Profitability are the key areas for monitoring. CAR is the ratio of total capital to total risk-weighted assets in percentage terms."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Multiple-choice",
+      "prompt": "The Reserve Bank of India monitors certain key parameters to trigger the Prompt Corrective Action (PCA) framework for financial institutions. Which of the following are included in these key monitoring areas?\n1. Asset Quality\n2. Profitability\n3. Capital Adequacy Ratio (CAR)\n4. Credit-Deposit Ratio\nSelect the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "B",
+          "text": "1, 2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "2, 3 and 4 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2, 3 and 4"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The key areas monitored under the RBI's PCA framework are Capital Adequacy Ratio (CAR), Asset Quality, and Profitability. The Credit-Deposit Ratio is not listed as a key monitoring area for triggering PCA.",
+      "takeaway": "The RBI uses CAR, Asset Quality, and Profitability as the primary metrics to evaluate whether a bank or NBFC should be placed under the PCA framework.",
+      "evidenceExcerpt": "Capital Adequacy Ratio (CAR), Asset Quality and Profitability are the key areas for monitoring."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Applied Concept",
+      "prompt": "Consider a scenario where a bank rapidly expands its portfolio of high-risk, uncollateralized loans without raising any additional capital. Based on the Reserve Bank of India's regulatory definitions, what is the most likely mathematical and supervisory outcome of this action?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Its Capital Adequacy Ratio (CAR) will increase, reducing the likelihood of supervisory intervention."
+        },
+        {
+          "id": "B",
+          "text": "Its Capital Adequacy Ratio (CAR) will decrease, potentially triggering the Prompt Corrective Action (PCA) framework."
+        },
+        {
+          "id": "C",
+          "text": "The bank will be automatically shifted from the Prompt Corrective Action (PCA) framework to the Supervisory Action Framework (SAF)."
+        },
+        {
+          "id": "D",
+          "text": "Its total risk-weighted assets will decrease, directly improving its overall profitability metrics under the PCA."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Capital Adequacy Ratio (CAR) is calculated as the ratio of total capital to total risk-weighted assets. If a bank issues high-risk loans, its total risk-weighted assets (the denominator) increase. Without a proportional increase in capital (the numerator), the CAR will mathematically decrease. Since CAR is a key monitoring area under the Prompt Corrective Action (PCA) framework, a declining CAR can trigger supervisory intervention by the RBI.",
+      "takeaway": "Understanding the mathematical relationship in CAR (Capital / Risk-Weighted Assets) is crucial for understanding how banks trigger regulatory actions like PCA when taking on excessive risk.",
+      "evidenceExcerpt": "Capital Adequacy Ratio (CAR), Asset Quality and Profitability are the key areas for monitoring. CAR is the ratio of total capital to total risk-weighted assets in percentage terms."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Conceptual Distinction",
+      "prompt": "In the context of the Reserve Bank of India's monitoring parameters for financial institutions, how does the Capital to Risk-weighted Asset Ratio (CRAR) differ from the Capital Adequacy Ratio (CAR)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "CRAR is applied exclusively to Non-Banking Financial Companies (NBFCs), whereas CAR is applied to Scheduled Commercial Banks."
+        },
+        {
+          "id": "B",
+          "text": "CRAR measures a bank's asset quality, whereas CAR measures its core profitability."
+        },
+        {
+          "id": "C",
+          "text": "CRAR is simply an alternative terminology for CAR, both representing the ratio of total capital to total risk-weighted assets."
+        },
+        {
+          "id": "D",
+          "text": "CRAR is the specific threshold of risk-weighted assets that triggers the Supervisory Action Framework (SAF) for cooperative banks."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "There is no difference between the two terms. Capital Adequacy Ratio (CAR) and Capital to Risk-weighted Asset Ratio (CRAR) are synonymous in banking terminology and both represent the ratio of a bank's total capital to its total risk-weighted assets.",
+      "takeaway": "UPSC often tests whether candidates know that two different acronyms refer to the exact same economic concept to prevent confusion in complex statements.",
+      "evidenceExcerpt": "CAR is the ratio of total capital to total risk-weighted assets in percentage terms. It is also called Capital to Risk-weighted Asset Ratio (CRAR)."
+    }
+  ]
+}

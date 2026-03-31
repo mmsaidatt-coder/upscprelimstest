@@ -1,0 +1,67 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-031-aviation-naval-platforms-and-uavs-section-003-uavs-and-anti-drone-systems",
+    "claimType": "Factual",
+    "claimText": "Rudrastra is a Hybrid Vertical Take-Off and Landing (VTOL) UAV equipped with precision-guided anti-personnel warheads.",
+    "evidenceExcerpt": "Rudrastra is a Hybrid VTOL UAV equipped with precision-guided anti-personnel warheads.",
+    "pageNumbers": [
+      61,
+      62
+    ],
+    "examUse": "Correct-pair or statement-based question identifying the specific classification and payload of Rudrastra.",
+    "distractorHooks": [
+      "Describing Rudrastra as an anti-drone system instead of a UAV",
+      "Describing Rudrastra as a traditional fixed-wing aircraft without VTOL capabilities",
+      "Claiming it is an unarmed surveillance drone"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-031-aviation-naval-platforms-and-uavs-section-003-uavs-and-anti-drone-systems",
+    "claimType": "Factual",
+    "claimText": "Bhargavastra is an indigenous 'hard kill' anti-drone system that utilizes a two-layer security system comprising unguided micro-rockets and guided micro-missiles to neutralize drone swarms.",
+    "evidenceExcerpt": "Bhargavastra is an indigenous 'hard kill' anti-drone system with a two-layer security system (unguided micro-rockets and guided micro-missiles).",
+    "pageNumbers": [
+      61,
+      62
+    ],
+    "examUse": "Statement-based question distinguishing between 'hard kill' and 'soft kill' anti-drone systems and identifying Bhargavastra's mechanism.",
+    "distractorHooks": [
+      "Classifying Bhargavastra as a 'soft kill' system that uses electronic jamming",
+      "Describing Bhargavastra as an offensive drone swarm rather than an anti-drone system"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-031-aviation-naval-platforms-and-uavs-section-003-uavs-and-anti-drone-systems",
+    "claimType": "Conceptual",
+    "claimText": "Fiber optic drones are immune to electronic warfare (EW) jamming and interception because they rely on physical glass tube cables rather than radio links for operation.",
+    "evidenceExcerpt": "Fiber optic drones use glass tube cables instead of radio links, making them immune to electronic warfare (EW) jamming.",
+    "pageNumbers": [
+      61,
+      62
+    ],
+    "examUse": "Conceptual statement-based question on the tactical advantages of fiber optic drones in electronic warfare environments.",
+    "distractorHooks": [
+      "Stating that fiber optic drones use highly encrypted radio frequencies to avoid jamming",
+      "Claiming that fiber optic drones are highly susceptible to radio frequency interception"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-031-aviation-naval-platforms-and-uavs-section-003-uavs-and-anti-drone-systems",
+    "claimType": "Conceptual",
+    "claimText": "The use of fiber optic cables in drones allows for faster communication speeds, longer operational distances, and simultaneous communications on different wavelengths.",
+    "evidenceExcerpt": "Fiber optic cables allow faster speeds, longer distances, and simultaneous communications on different wavelengths.",
+    "pageNumbers": [
+      61,
+      62
+    ],
+    "examUse": "Statement-based question evaluating the technical benefits of fiber optic communication over traditional radio links in UAVs.",
+    "distractorHooks": [
+      "Asserting that fiber optic cables limit the operational distance of drones compared to radio links",
+      "Claiming fiber optic cables only support single-wavelength communication"
+    ]
+  }
+]

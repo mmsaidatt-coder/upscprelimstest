@@ -1,0 +1,106 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Reserve Bank of India (RBI):\n1. The Economic Capital Framework (ECF) governing the transfer of RBI surplus was adopted based on the recommendations of the Bimal Jalan Committee.\n2. The Contingent Risk Buffer (CRB) is a component of the RBI's realized equity intended to provide for monetary and financial stability.\n3. Seigniorage is one of the recognized sources of income for the RBI.\n\nHow many of the above statements are correct?",
+      "contextLines": [
+        "The ECF was adopted in 2019 based on the recommendations of the Bimal Jalan Committee.",
+        "Contingent Risk Buffer (CRB): Component of RBI's realized equity to provide for monetary and financial stability...",
+        "RBI's income sources include interest on government securities, liquidity management tools, seigniorage, and foreign currency investments."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: The Economic Capital Framework (ECF) was adopted by the RBI in 2019 based on the recommendations of the Bimal Jalan Committee to govern surplus transfers to the Central Government. Statement 2 is correct: The Contingent Risk Buffer (CRB) is a specific component of the RBI's realized equity under the ECF, maintained to ensure monetary and financial stability. Statement 3 is correct: The RBI's income sources include interest on government securities, liquidity management tools, seigniorage, and foreign currency investments.",
+      "takeaway": "The RBI's Economic Capital Framework (ECF), guided by the Bimal Jalan Committee, structures its economic capital into Realized Equity (including the CRB) and Revaluation Balances. The RBI generates income through various channels, including seigniorage.",
+      "evidenceExcerpt": "The ECF was adopted in 2019 based on the recommendations of the Bimal Jalan Committee. Contingent Risk Buffer (CRB): Component of RBI's realized equity to provide for monetary and financial stability... RBI's income sources include interest on government securities, liquidity management tools, seigniorage, and foreign currency investments.",
+      "qualityScore": 88,
+      "reviewNotes": "Excellent coverage of the ECF, CRB, and RBI income sources. The 'How many of the above' format aligns perfectly with recent UPSC trends."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "With reference to the Reserve Bank of India's (RBI) Economic Capital Framework (ECF), what is the primary purpose of the 'Contingent Risk Buffer' (CRB)?",
+      "contextLines": [
+        "Contingent Risk Buffer (CRB): Component of RBI's realized equity to provide for monetary and financial stability..."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "To act as a reserve fund to cover the depreciation of the Rupee against major foreign currencies."
+        },
+        {
+          "id": "B",
+          "text": "To serve as a component of realized equity to provide for monetary and financial stability."
+        },
+        {
+          "id": "C",
+          "text": "To maintain a corpus for recapitalizing weak public sector banks under the Prompt Corrective Action framework."
+        },
+        {
+          "id": "D",
+          "text": "To provide a dedicated buffer for the Central Government to finance fiscal deficit overruns."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Under the RBI's Economic Capital Framework (ECF), the Contingent Risk Buffer (CRB) is a specific component of the central bank's realized equity. Its primary purpose is to provide a buffer to ensure monetary and financial stability, allowing the RBI to handle systemic risks. It is not meant for recapitalizing banks, covering fiscal deficits, or specifically targeting currency depreciation.",
+      "takeaway": "The Contingent Risk Buffer (CRB) is an essential part of the RBI's realized equity under the Economic Capital Framework, dedicated to ensuring monetary and financial stability.",
+      "evidenceExcerpt": "Contingent Risk Buffer (CRB): Component of RBI's realized equity to provide for monetary and financial stability...",
+      "qualityScore": 86,
+      "reviewNotes": "Strong conceptual question. The distractors have been rewritten to be highly plausible, referencing other economic concepts like PCA, fiscal deficit, and currency depreciation, which makes the question much more robust."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-statement",
+      "prompt": "Consider the following:\n1. Interest on government securities\n2. Liquidity management tools\n3. Seigniorage\n4. Foreign currency investments\n\nHow many of the above are recognized as sources of income for the Reserve Bank of India (RBI)?",
+      "contextLines": [
+        "RBI's income sources include interest on government securities, liquidity management tools, seigniorage, and foreign currency investments."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "All four items listed are recognized sources of income for the Reserve Bank of India. The RBI earns interest on its holdings of domestic government securities and foreign currency investments. It also generates income through its liquidity management operations and seigniorage (the profit made by a government/central bank by issuing currency).",
+      "takeaway": "The RBI generates income through multiple channels, primarily interest on government securities, foreign currency investments, liquidity management tools, and seigniorage.",
+      "evidenceExcerpt": "RBI's income sources include interest on government securities, liquidity management tools, seigniorage, and foreign currency investments.",
+      "qualityScore": 85,
+      "reviewNotes": "A straightforward but highly relevant factual question. The options have been formatted to match the contemporary UPSC 'How many of the above' style."
+    }
+  ],
+  "reviewerNotes": "Selected three strong questions covering the Bimal Jalan Committee/ECF, RBI's income sources, and the conceptual definition of the Contingent Risk Buffer. Rewrote the distractors in the conceptual question to make them more plausible and aligned the statement-based questions with the latest UPSC 'How many of the above' format."
+}

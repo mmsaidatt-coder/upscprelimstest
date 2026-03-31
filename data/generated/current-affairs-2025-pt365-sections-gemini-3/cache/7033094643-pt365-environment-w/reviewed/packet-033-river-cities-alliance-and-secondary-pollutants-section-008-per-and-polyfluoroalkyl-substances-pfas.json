@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Per- and Polyfluoroalkyl Substances (PFAS):\n1. They are characterized by strong carbon-fluorine bonds that make them highly resistant to environmental degradation.\n2. They are widely used in the manufacturing of non-stick cookware and water-resistant fabrics.\n3. Currently, no biological organisms are known to be capable of breaking down these chemicals.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: PFAS contain very strong carbon-fluorine bonds that do not degrade easily.\nStatement 2 is correct: Because they resist grease, oil, water, and heat, they are commonly used in cookware, food packaging, fabrics, and foams.\nStatement 3 is incorrect: Researchers have recently discovered nearly 20 species of bacteria capable of breaking them down.",
+      "takeaway": "PFAS are highly persistent chemicals used in various consumer goods, but recent discoveries show certain bacteria can degrade them.",
+      "evidenceExcerpt": "Chemicals having carbon-fluorine bonds, which are very strong and do not degrade easily. They resist grease, oil, water, and heat. Commonly used in cookware, food packaging, fabrics, and foams. Researchers recently discovered nearly 20 species of bacteria capable of breaking them down.",
+      "qualityScore": 88,
+      "reviewNotes": "A well-structured statement-based question that tests the properties, applications, and recent scientific developments regarding PFAS. The distractors and statements align perfectly with UPSC patterns."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "The term 'Forever Chemicals', frequently seen in the news, refers to which of the following?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Radioactive isotopes with extremely long half-lives that contaminate groundwater."
+        },
+        {
+          "id": "B",
+          "text": "Synthetic compounds containing carbon-fluorine bonds that persist indefinitely in the environment."
+        },
+        {
+          "id": "C",
+          "text": "Heavy metals that bioaccumulate in the marine food web and cannot be metabolized."
+        },
+        {
+          "id": "D",
+          "text": "Long-lived greenhouse gases that remain in the upper atmosphere for centuries."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Per- and Polyfluoroalkyl Substances (PFAS) are known as 'Forever Chemicals' due to their extreme persistence in the environment. They contain strong carbon-fluorine bonds that do not degrade easily.",
+      "takeaway": "The nickname 'Forever Chemicals' specifically denotes PFAS due to their environmental persistence driven by strong carbon-fluorine bonds.",
+      "evidenceExcerpt": "Chemicals having carbon-fluorine bonds, which are very strong and do not degrade easily... Impact: Persists in environment (known as ‘Forever Chemicals’).",
+      "qualityScore": 85,
+      "reviewNotes": "A classic UPSC 'term in news' question. The distractors are highly plausible and parallel, representing other types of persistent environmental pollutants."
+    }
+  ],
+  "reviewerNotes": "Selected two strong questions covering the properties, applications, and terminology associated with PFAS. The first question is a standard statement-based format testing multiple facets, while the second is a direct conceptual question with excellent distractors."
+}

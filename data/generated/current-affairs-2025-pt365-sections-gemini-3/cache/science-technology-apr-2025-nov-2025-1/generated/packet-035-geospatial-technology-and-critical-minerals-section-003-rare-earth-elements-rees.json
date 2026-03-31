@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Rare Earth Elements (REEs):\n1. Despite their name, Rare Earth Elements are found abundantly in nature.\n2. They comprise a group of 17 non-metallic elements in the periodic table.\n3. The extraction of REEs is difficult primarily because they do not occur in concentrated forms.\n\nWhich of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Though named 'rare', REEs are found abundantly in nature.\nStatement 2 is incorrect: REEs are a set of 17 lustrous, silvery-white, soft heavy metals (not non-metals) in the periodic table. Examples include Cerium, Yttrium, and Europium.\nStatement 3 is correct: They are difficult to extract because they are not found in concentrated forms, making mining and processing complex.",
+      "takeaway": "REEs are a group of 17 heavy metals that are abundant in the Earth's crust but are notoriously difficult to extract because they lack concentrated ores.",
+      "evidenceExcerpt": "REEs are a set of 17 lustrous, silvery-white, soft heavy metals in periodic table, e.g., Cerium (Ce), Yttrium (Y), Europium (Eu), etc. Though found abundantly, however, they are difficult to extract as they are not found in concentrated form."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-Choice",
+      "prompt": "Consider the following elements: 1. Cerium 2. Yttrium 3. Europium. How many of the above are classified as soft heavy metals belonging to the Rare Earth Elements (REEs) group?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Rare Earth Elements (REEs) are a set of 17 lustrous, silvery-white, soft heavy metals in the periodic table. Cerium, Yttrium, and Europium are all examples of REEs.",
+      "takeaway": "REEs are not non-metals; they are a specific group of 17 soft heavy metals that include elements like Cerium, Yttrium, and Europium.",
+      "evidenceExcerpt": "REEs are a set of 17 lustrous, silvery-white, soft heavy metals in periodic table, e.g., Cerium (Ce), Yttrium (Y), Europium (Eu), etc."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "In the context of the global supply chain for critical minerals, which of the following best describes the vulnerability associated with Rare Earth Elements (REEs)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Their extraction is hindered by their lack of concentrated occurrence in nature, and their supply is susceptible to retaliatory export restrictions by major players like China."
+        },
+        {
+          "id": "B",
+          "text": "They are extremely scarce in the Earth's crust, making them highly expensive to mine despite being found in highly concentrated ores."
+        },
+        {
+          "id": "C",
+          "text": "They are primarily non-metallic elements that are exclusively consumed by the United States, leading to frequent tariff wars."
+        },
+        {
+          "id": "D",
+          "text": "Their extraction requires advanced deep-sea mining technologies, as they are not found abundantly in terrestrial environments."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "REEs are found abundantly in nature but are difficult to extract because they do not occur in concentrated forms. Furthermore, their global supply chain is highly vulnerable to geopolitical tensions, as evidenced by China restricting exports in retaliation to US tariffs.",
+      "takeaway": "The strategic vulnerability of REEs stems from a combination of geological extraction challenges (lack of concentrated ores despite general abundance) and the geopolitical concentration of their supply chains.",
+      "evidenceExcerpt": "In retaliation to US tariffs, China restricts exports of Rare Earth Elements (REEs)... Though found abundantly, however, they are difficult to extract as they are not found in concentrated form."
+    }
+  ]
+}

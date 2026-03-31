@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding water quality monitoring of rivers in India:\n\n1. The assessment report on 'Polluted River Stretches for Restoration of Water Quality' is periodically released by the Central Water Commission (CWC).\n2. The National Water Quality Monitoring Programme (NWMP) is executed by the Central Pollution Control Board (CPCB) in collaboration with State Pollution Control Boards.\n3. The formal identification of polluted river stretches in the country by the CPCB has been ongoing since 2009.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The assessment report on Polluted River Stretches for Restoration of Water Quality is released by the Central Pollution Control Board (CPCB), not the Central Water Commission (CWC).\nStatement 2 is correct: The CPCB executes the National Water Quality Monitoring Programme (NWMP) in collaboration with State Pollution Control Boards (SPCBs) and Pollution Control Committees (PCCs).\nStatement 3 is correct: The CPCB has been identifying the country's Polluted River Stretches since 2009.",
+      "takeaway": "The CPCB is the nodal agency for executing the National Water Quality Monitoring Programme (NWMP) alongside SPCBs, and it has been identifying polluted river stretches since 2009.",
+      "evidenceExcerpt": "Central Pollution Control Board (CPCB) released assessment report on Polluted River Stretches for Restoration of Water Quality - 2025. CPCB executes National Water Quality Monitoring Programme (NWMP) with State Pollution Control Boards/Pollution Control Committees and has been identifying the country's Polluted River Stretches since 2009."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Paragraph-based Identification",
+      "prompt": "It is an organization that executes the National Water Quality Monitoring Programme (NWMP) in collaboration with state-level entities. It has been identifying the country's polluted river stretches since 2009 and recently released the assessment report on 'Polluted River Stretches for Restoration of Water Quality - 2025'.\n\nWhich of the following organizations is described in the paragraph given above?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Central Water Commission (CWC)"
+        },
+        {
+          "id": "B",
+          "text": "Central Pollution Control Board (CPCB)"
+        },
+        {
+          "id": "C",
+          "text": "National Mission for Clean Ganga (NMCG)"
+        },
+        {
+          "id": "D",
+          "text": "Central Ground Water Board (CGWB)"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Central Pollution Control Board (CPCB) executes the National Water Quality Monitoring Programme (NWMP) in collaboration with State Pollution Control Boards and Pollution Control Committees. It has been identifying the country's Polluted River Stretches since 2009 and is responsible for releasing the assessment report on Polluted River Stretches for Restoration of Water Quality.",
+      "takeaway": "The CPCB is the nodal agency at the central level for executing the NWMP and identifying polluted river stretches, working in tandem with state pollution control bodies.",
+      "evidenceExcerpt": "Central Pollution Control Board (CPCB) released assessment report on Polluted River Stretches for Restoration of Water Quality - 2025. CPCB executes National Water Quality Monitoring Programme (NWMP) with State Pollution Control Boards/Pollution Control Committees and has been identifying the country's Polluted River Stretches since 2009."
+    }
+  ]
+}

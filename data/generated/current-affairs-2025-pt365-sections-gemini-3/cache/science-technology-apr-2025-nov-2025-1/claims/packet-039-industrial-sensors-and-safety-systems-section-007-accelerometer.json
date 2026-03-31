@@ -1,0 +1,47 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-039-industrial-sensors-and-safety-systems-section-007-accelerometer",
+    "claimType": "Factual",
+    "claimText": "An accelerometer is capable of measuring both static acceleration, such as gravity, and dynamic acceleration, such as movement or crashes.",
+    "evidenceExcerpt": "Measures both static acceleration (gravity) and dynamic acceleration (movement/crashes).",
+    "pageNumbers": [
+      77
+    ],
+    "examUse": "Statement-based question on the capabilities of sensors.",
+    "distractorHooks": [
+      "Can only measure dynamic acceleration",
+      "Cannot measure static gravity"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-039-industrial-sensors-and-safety-systems-section-007-accelerometer",
+    "claimType": "Conceptual",
+    "claimText": "Accelerometers function based on Newton's law of motion, where the force on an object is equal to its mass times its acceleration.",
+    "evidenceExcerpt": "Works on Newton's law of motion (force equals mass times acceleration).",
+    "pageNumbers": [
+      77
+    ],
+    "examUse": "Statement-based question linking sensors to their underlying physical principles.",
+    "distractorHooks": [
+      "Works on the principle of electromagnetic induction",
+      "Based on Bernoulli's principle"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-039-industrial-sensors-and-safety-systems-section-007-accelerometer",
+    "claimType": "Application",
+    "claimText": "Accelerometers are utilized in systems such as Google's Android Earthquake Alert system, vehicle airbags, and drone stabilization.",
+    "evidenceExcerpt": "Used in Google's Android Earthquake Alert system to detect earthquakes. Applications include rotating smartphone displays, triggering vehicle airbags, and stabilizing drones.",
+    "pageNumbers": [
+      77
+    ],
+    "examUse": "Multiple-statement question asking which of the given applications utilize an accelerometer.",
+    "distractorHooks": [
+      "Used primarily for GPS location tracking",
+      "Used to measure atmospheric pressure in drones"
+    ]
+  }
+]

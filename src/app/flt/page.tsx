@@ -1,4 +1,11 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Full Length Tests — UPSCPRELIMSTEST",
+  description:
+    "Take 100-question full-length tests that simulate real UPSC Prelims exam conditions with timed sessions and detailed analytics.",
+};
 
 export default function FltPage() {
   return (

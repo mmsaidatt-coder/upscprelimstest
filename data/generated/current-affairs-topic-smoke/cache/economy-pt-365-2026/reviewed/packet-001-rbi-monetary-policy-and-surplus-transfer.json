@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Reserve Bank of India's Economic Capital Framework (ECF):\n1. It was adopted based on the recommendations of the Bimal Jalan Committee to provide a methodology for the distribution of RBI's profits.\n2. The ECF is an integral component of the RBI's broader Enterprise-wide Risk Management framework.\n3. Under the ECF, 'Realized Equity' is a component of economic capital that includes the RBI's Contingency Fund and Asset Development Fund.",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "All three statements are correct. Statement 1 is correct as the ECF was based on the Bimal Jalan Committee's recommendations for determining risk provisions and profit distribution. Statement 2 is correct; the source explicitly mentions that the ECF is an integral part of the Enterprise-wide Risk Management (ERM) framework. Statement 3 is also correct, as the text lists the Contingency Fund (CF) and Asset Development Fund (ADF) as parts of Realized Equity.",
+      "takeaway": "The Economic Capital Framework (ECF) is a crucial mechanism governing the RBI's financial resilience and its surplus transfer to the government. Key facts to remember are its origin (Bimal Jalan Committee), its integration with the ERM framework, and its main components like Realized Equity.",
+      "evidenceExcerpt": "Genesis: ECF was adopted by RBI in 2019, based on the recommendations of the Bimal Jalan Committee. ... The ECF is an integral part of the Enterprise-wide Risk Management (ERM) framework (2012). ... Components of Economic Capital under ECF: o Realized Equity: This consists of RBI’s Capital, Reserve Fund, Contingency Fund (CF), and Asset Development Fund (ADF).",
+      "qualityScore": 90,
+      "reviewNotes": "Excellent question on a specific and important topic. It tests multiple factual details accurately. The statements are well-phrased, and the question requires a careful reading of the source material, which is characteristic of a high-quality UPSC question. The difficulty is appropriately rated as Hard."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Cash Reserve Ratio (CRR) and the Statutory Liquidity Ratio (SLR), consider the following statements:\n1. Both CRR and SLR are determined as a percentage of a bank's Net Demand and Time Liabilities (NDTL).\n2. The assets maintained under SLR can be held by the banks themselves, whereas CRR must be maintained as cash deposits with the RBI.\n3. The RBI pays interest to commercial banks on the balances maintained under CRR to compensate for the opportunity cost.",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct as both CRR and SLR are calculated based on a bank's NDTL. Statement 2 is also correct; CRR involves parking cash with the RBI, while SLR requires banks to maintain specified liquid assets (like gold, government securities) with themselves. Statement 3 is incorrect. The source text explicitly states that no interest is paid by the RBI on CRR balances.",
+      "takeaway": "CRR and SLR are key quantitative tools for liquidity management. It is crucial to understand their differences regarding the form of assets, where they are held, and the payment of interest. The RBI does not pay any interest on CRR deposits.",
+      "evidenceExcerpt": "CRR (Cash Reserve Ratio): % of net demand & time liabilities (NDTL) banks must keep as CASH with RBI. No interest paid. SLR (Statutory Liquidity Ratio): % of NDTL banks must maintain in LIQUID ASSETS (Gold, Bonds, Cash) by themselves.",
+      "qualityScore": 85,
+      "reviewNotes": "This is a strong, fundamental question that tests the core differences between two key monetary policy tools. The statements are clear, and statement 3 is a common point of confusion, making it a good discriminator. The question adheres to the UPSC style."
+    }
+  ],
+  "reviewerNotes": "Selected four questions that cover different aspects of the provided text: fundamental concepts (CRR/SLR), a specific contemporary framework (ECF), application of policy tools, and factual knowledge (RBI income). The questions have been rewritten to align with UPSC's style, featuring a mix of statement-based, applied, and 'how many' formats. The difficulty ranges from Easy to Hard, providing a balanced set. Rejected other candidates as they were either too simplistic (classification of tools) or redundant in conceptual coverage."
+}

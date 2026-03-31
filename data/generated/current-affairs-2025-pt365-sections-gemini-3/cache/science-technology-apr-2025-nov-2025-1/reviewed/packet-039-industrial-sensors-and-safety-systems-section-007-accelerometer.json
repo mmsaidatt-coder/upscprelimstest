@@ -1,0 +1,72 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Application-based",
+      "prompt": "Consider the following applications:\n\nIn how many of the above applications is an accelerometer primarily utilized?",
+      "contextLines": [
+        "1. Deployment of airbags in vehicles during a crash",
+        "2. Detection of earthquakes via smartphone networks",
+        "3. Stabilization of drones during flight",
+        "4. Automatic rotation of smartphone displays"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "All four are valid applications of accelerometers. They trigger airbags by detecting sudden dynamic acceleration (such as a crash), detect earthquakes (such as in Google's Android Earthquake Alert system), stabilize drones mid-flight, and rotate smartphone displays by sensing static acceleration (gravity).",
+      "takeaway": "Accelerometers are versatile sensors used for detecting both movement (dynamic acceleration) and orientation (static acceleration) across devices like vehicles, smartphones, and drones.",
+      "evidenceExcerpt": "Key Applications: smartphones, Laptops, digital cameras... Vehicles: Used to trigger airbags. Drones: to stabilize their orientation mid-flight... Used in Google's Android Earthquake Alert system to detect earthquakes. Applications include rotating smartphone displays",
+      "qualityScore": 90,
+      "reviewNotes": "Excellent application-based question matching the recent UPSC trend of 'how many' options. The applications are directly sourced and distinct."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Passage-based Identification",
+      "prompt": "A sensing device works on the principle of Newton's laws of motion. It is capable of measuring both the constant force of gravity acting upon it and the rapid changes in velocity during movement. It is widely utilized in stabilizing drones mid-flight and serves as the primary sensor in crowdsourced earthquake detection networks using smartphones. Which of the following devices is best described by the passage given above?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Gyroscope"
+        },
+        {
+          "id": "B",
+          "text": "Accelerometer"
+        },
+        {
+          "id": "C",
+          "text": "Magnetometer"
+        },
+        {
+          "id": "D",
+          "text": "Barometer"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The passage describes an accelerometer. Accelerometers function based on Newton's law of motion (Force = mass x acceleration) to measure both static (gravity) and dynamic (movement/crashes) acceleration. They are used to stabilize drones and are the core sensors utilized in Google's Android Earthquake Alert system.",
+      "takeaway": "The fundamental working principle of an accelerometer is Newton's second law of motion, allowing it to detect seismic waves (earthquakes) and stabilize flight orientations.",
+      "evidenceExcerpt": "Accelerometers work according to Newton's law of motion, the force on an object is equal to its mass times its acceleration... Used in Google's Android Earthquake Alert system to detect earthquakes... Drones: to stabilize their orientation mid-flight.",
+      "qualityScore": 88,
+      "reviewNotes": "Strong passage-based identification question. Distractors are highly plausible as they are all sensors commonly found in smartphones and drones."
+    }
+  ],
+  "reviewerNotes": "Selected two distinct question formats (Application 'how many' and Passage-based identification) to cover the core concepts of accelerometers without redundancy. Distractors in the second question are well-calibrated."
+}

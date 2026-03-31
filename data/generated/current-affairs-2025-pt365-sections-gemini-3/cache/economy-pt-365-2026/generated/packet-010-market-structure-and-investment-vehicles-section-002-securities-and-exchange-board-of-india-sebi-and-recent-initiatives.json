@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Application",
+      "prompt": "In the context of the Indian financial markets, the 'SWAGAT-FI' framework recently introduced by SEBI is primarily associated with the regulation of:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Domestic retail investors participating in Initial Public Offerings (IPOs)"
+        },
+        {
+          "id": "B",
+          "text": "Foreign Portfolio Investors (FPIs) and Foreign Venture Capital Investors (FVCIs)"
+        },
+        {
+          "id": "C",
+          "text": "Non-Banking Financial Companies (NBFCs) issuing green bonds"
+        },
+        {
+          "id": "D",
+          "text": "Sovereign Wealth Funds investing in Infrastructure Investment Trusts (InvITs)"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The SWAGAT-FI framework was specifically introduced by SEBI to regulate and facilitate Foreign Portfolio Investors (FPIs) and Foreign Venture Capital Investors (FVCIs).",
+      "takeaway": "SWAGAT-FI is a SEBI initiative targeted at foreign investment vehicles, specifically FPIs and FVCIs.",
+      "evidenceExcerpt": "Recently, SEBI introduced the SWAGAT-FI framework for Foreign Portfolio Investors (FPIs) and Foreign Venture Capital Investors (FVCIs)."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Securities and Exchange Board of India (SEBI): 1. It was originally constituted as a non-statutory body and later acquired statutory status. 2. It possesses the powers of a civil court under the Code of Civil Procedure, 1908, for enforcement purposes. 3. Its governing board includes nominees from the Union Government, but excludes representation from the Reserve Bank of India to maintain regulatory independence. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: SEBI was established in 1988 and became a statutory body later under the SEBI Act of 1992. Statement 2 is correct: SEBI possesses civil court powers for enforcement. Statement 3 is incorrect: The SEBI Board includes one member from the RBI, along with two from the Finance Ministry and five Union Government nominees.",
+      "takeaway": "SEBI's transition to a statutory body in 1992 granted it civil court powers, and its board is designed to include cross-regulatory representation, including the RBI and the Finance Ministry.",
+      "evidenceExcerpt": "SEBI was established in 1988 and became a statutory body under the SEBI Act of 1992. It has civil court powers for enforcement. Its board includes nominees from the Union Government, Finance Ministry, and RBI."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Comparison",
+      "prompt": "With reference to investment vehicles regulated by the Securities and Exchange Board of India (SEBI), consider the following statements: 1. Real Estate Investment Trusts (REITs) have recently been reclassified by SEBI as equity instruments. 2. While REITs primarily invest in income-producing real estate, Infrastructure Investment Trusts (InvITs) are designed to invest in assets such as roads and power lines. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: SEBI recently reclassified Real Estate Investment Trusts (REITs) as Equity and relaxed IPO norms. Statement 2 is correct: REITs allow investment in income-producing real estate, whereas InvITs are similar but invest in infrastructure assets like roads and power lines.",
+      "takeaway": "Both REITs and InvITs pool capital for specific asset classes, but SEBI's recent reclassification of REITs as equity reflects their risk-return profile tied to income-producing real estate.",
+      "evidenceExcerpt": "It also reclassified Real Estate Investment Trusts (REITs) as Equity and relaxed IPO norms. InvITs are similar to REITs but invest in infrastructure... REITs allow investment in income-producing real estate, while InvITs invest in infrastructure assets like roads and power lines."
+    }
+  ]
+}

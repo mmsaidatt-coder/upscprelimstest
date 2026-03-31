@@ -1,0 +1,66 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-034-next-gen-battery-technologies-section-002-vanadium-redox-flow-battery-and-flow-batteries",
+    "claimType": "Factual",
+    "claimText": "India's first MWh-Scale Vanadium Redox Flow Battery (VRFB) was inaugurated at NTPC NETRA.",
+    "evidenceExcerpt": "India's first MWh-Scale VRFB was inaugurated at NTPC NETRA.",
+    "pageNumbers": [
+      68
+    ],
+    "examUse": "Fact-based statement in a multi-statement question regarding recent renewable energy infrastructure developments in India.",
+    "distractorHooks": [
+      "Inaugurated at ISRO or DRDO",
+      "First VRFB in the world instead of India",
+      "Inaugurated by a private entity like Reliance"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-034-next-gen-battery-technologies-section-002-vanadium-redox-flow-battery-and-flow-batteries",
+    "claimType": "Conceptual",
+    "claimText": "Flow batteries generate power through reduction-oxidation (redox) reactions using two different liquid electrolytes and a porous membrane.",
+    "evidenceExcerpt": "Powered by reduction-oxidation (redox) reactions using two different liquid electrolytes and a porous membrane.",
+    "pageNumbers": [
+      68
+    ],
+    "examUse": "Concept-based statement on the working mechanism of next-generation batteries.",
+    "distractorHooks": [
+      "Uses solid state electrolytes",
+      "Uses a single liquid electrolyte",
+      "Operates without a porous membrane"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-034-next-gen-battery-technologies-section-002-vanadium-redox-flow-battery-and-flow-batteries",
+    "claimType": "Conceptual",
+    "claimText": "Flow batteries are designed for grid-scale energy storage and operate without using flammable or polluting materials.",
+    "evidenceExcerpt": "Suitable for grid-scale applications, storing large amounts of energy without using flammable or polluting materials.",
+    "pageNumbers": [
+      68
+    ],
+    "examUse": "Feature-based statement comparing flow batteries to conventional lithium-ion batteries, focusing on safety and scale.",
+    "distractorHooks": [
+      "Unsuitable for grid-scale applications",
+      "Uses highly flammable materials",
+      "Primarily designed for small portable electronics"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-034-next-gen-battery-technologies-section-002-vanadium-redox-flow-battery-and-flow-batteries",
+    "claimType": "Factual",
+    "claimText": "Vanadium Redox, Zinc-Bromine, and Iron-Salt/Organic systems are types of flow batteries.",
+    "evidenceExcerpt": "Types of flow batteries include Vanadium Redox, Zinc-Bromine, and Iron-Salt/Organic systems.",
+    "pageNumbers": [
+      68
+    ],
+    "examUse": "Classification or correct-pair question identifying examples of flow battery technologies.",
+    "distractorHooks": [
+      "Lithium-ion as a flow battery",
+      "Nickel-Cadmium as a flow battery",
+      "Lead-Acid as a flow battery"
+    ]
+  }
+]

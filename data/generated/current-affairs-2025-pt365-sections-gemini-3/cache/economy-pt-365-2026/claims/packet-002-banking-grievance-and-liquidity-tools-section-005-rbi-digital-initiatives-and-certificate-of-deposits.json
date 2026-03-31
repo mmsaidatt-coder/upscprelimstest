@@ -1,0 +1,62 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-002-banking-grievance-and-liquidity-tools-section-005-rbi-digital-initiatives-and-certificate-of-deposits",
+    "claimType": "Factual",
+    "claimText": "The Unified Lending Interface (ULI) is a Digital Public Infrastructure introduced by the RBI to enhance credit delivery.",
+    "evidenceExcerpt": "Unified Lending Interface (ULI) is a Digital Public Infrastructure aiming to enhance credit delivery.",
+    "pageNumbers": [
+      8
+    ],
+    "examUse": "Statement-based question on RBI digital initiatives.",
+    "distractorHooks": [
+      "Stating ULI is for deposit collection",
+      "Confusing ULI with UPI for retail payments"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-002-banking-grievance-and-liquidity-tools-section-005-rbi-digital-initiatives-and-certificate-of-deposits",
+    "claimType": "Conceptual",
+    "claimText": "Certificate of Deposits (CDs) are negotiable money market instruments issued at a discount to their face value.",
+    "evidenceExcerpt": "CDs are negotiable money market instruments issued at a discount to face value",
+    "pageNumbers": [
+      8
+    ],
+    "examUse": "Statement-based question on the features of money market instruments.",
+    "distractorHooks": [
+      "Stating CDs are capital market instruments",
+      "Stating CDs are issued at a premium or face value with fixed interest"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-002-banking-grievance-and-liquidity-tools-section-005-rbi-digital-initiatives-and-certificate-of-deposits",
+    "claimType": "Factual",
+    "claimText": "Regional Rural Banks (RRBs) and Local Area Banks (LABs) are excluded from issuing Certificate of Deposits (CDs).",
+    "evidenceExcerpt": "Certificate of Deposits (CDs) are issued by Scheduled Commercial Banks, excluding Regional Rural Banks and Local Area Banks.",
+    "pageNumbers": [
+      8
+    ],
+    "examUse": "Statement-based question on eligible issuers of money market instruments.",
+    "distractorHooks": [
+      "Stating RRBs and LABs are permitted to issue CDs",
+      "Stating only the RBI can issue CDs"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-002-banking-grievance-and-liquidity-tools-section-005-rbi-digital-initiatives-and-certificate-of-deposits",
+    "claimType": "Factual",
+    "claimText": "The maturity period for Certificate of Deposits (CDs) ranges from 7 days to one year.",
+    "evidenceExcerpt": "CDs are issued at a discount on face value with a maturity period ranging from 7 days to one year.",
+    "pageNumbers": [
+      8
+    ],
+    "examUse": "Statement-based question on the tenure of Certificate of Deposits.",
+    "distractorHooks": [
+      "Stating the maturity period is 1 to 3 years",
+      "Stating the minimum maturity period is 14 days"
+    ]
+  }
+]

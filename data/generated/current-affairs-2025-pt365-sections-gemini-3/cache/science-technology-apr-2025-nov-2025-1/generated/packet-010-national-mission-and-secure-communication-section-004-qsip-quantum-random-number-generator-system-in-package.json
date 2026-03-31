@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the 'QSIP' (Quantum Random Number Generator System in Package), recently seen in the news: 1. It is a hardware-based quantum security chip. 2. It relies on classical pseudo-random number generation to secure cryptographic algorithms. 3. It is designed to offer protection against future quantum-based cyber attacks. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: QSIP is a quantum security chip. Statement 2 is incorrect: It provides quantum-certified randomness, which is fundamentally different from and superior to classical pseudo-random number generation. Statement 3 is correct: It ensures defense against both current cyber threats and future quantum attacks.",
+      "takeaway": "QSIP is a hardware chip that utilizes quantum mechanics to generate true randomness, securing cryptographic algorithms against future quantum computing threats.",
+      "evidenceExcerpt": "QSIP is a quantum security chip dedicated to the nation by the Prime Minister. It provides quantum-certified randomness for cryptographic algorithms, ensuring defense against cyber threats and future quantum attacks."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "The term 'QSIP', recently mentioned in the context of national security and technology, refers to:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A quantum security chip providing quantum-certified randomness for cryptographic algorithms."
+        },
+        {
+          "id": "B",
+          "text": "A satellite-based quantum communication network established by ISRO."
+        },
+        {
+          "id": "C",
+          "text": "A software framework developed to simulate quantum computing environments."
+        },
+        {
+          "id": "D",
+          "text": "A new class of post-quantum cryptographic algorithms standardized by the government."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "QSIP stands for Quantum Random Number Generator System in Package. It is a quantum security chip that provides quantum-certified randomness for cryptographic algorithms to defend against cyber threats.",
+      "takeaway": "In the context of emerging technologies, QSIP is a specific hardware solution (a chip) rather than a software protocol, algorithm, or satellite network.",
+      "evidenceExcerpt": "QSIP is a quantum security chip dedicated to the nation by the Prime Minister. It provides quantum-certified randomness for cryptographic algorithms"
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the functional applications of the QSIP (Quantum Random Number Generator System in Package) chip, consider the following statements:\n1. It functions as a hardware firewall to actively filter out malicious traffic in defense networks.\n2. It strengthens cryptographic algorithms by supplying quantum-certified randomness.\n3. It is designed to upgrade classical computers to perform complex quantum computations.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect: QSIP is a security chip focused on cryptographic key generation, not a hardware firewall for filtering network traffic.\nStatement 2 is correct: QSIP provides quantum-certified randomness for cryptographic algorithms, which is essential for secure data encryption.\nStatement 3 is incorrect: QSIP is a specialized Quantum Random Number Generator (QRNG) used for security purposes; it does not turn classical computers into quantum computers or perform general quantum computations.",
+      "takeaway": "QSIP's role in cybersecurity is specifically tied to generating unpredictable, quantum-certified randomness for cryptographic algorithms, ensuring robust defense against both current cyber threats and future quantum attacks.",
+      "evidenceExcerpt": "QSIP is a quantum security chip dedicated to the nation by the Prime Minister. It provides quantum-certified randomness for cryptographic algorithms, ensuring defense against cyber threats and future quantum attacks."
+    }
+  ]
+}

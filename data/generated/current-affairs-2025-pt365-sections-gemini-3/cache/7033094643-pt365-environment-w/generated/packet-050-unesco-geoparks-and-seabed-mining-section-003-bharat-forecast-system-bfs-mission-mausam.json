@@ -1,0 +1,178 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the 'Bharat Forecast System (BFS)', consider the following statements:\n1. It is an indigenously developed model that improves India's weather prediction resolution to 6 km.\n2. It has been developed by the Indian Institute of Tropical Meteorology (IITM), Pune.\n3. It relies exclusively on satellite imagery and does not integrate ground-based radar data.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statements 1 and 2 are correct. The Bharat Forecast System (BFS) is the world's first indigenously developed high-resolution weather forecast system, created by IITM, Pune, which enhances India's weather prediction resolution from 12 km to 6 km. Statement 3 is incorrect because the BFS actively integrates real-time inputs from 40 Doppler Weather Radars.",
+      "takeaway": "The Bharat Forecast System (BFS) is a high-resolution (6 km) weather forecast model developed by IITM Pune that integrates real-time data from 40 Doppler Weather Radars.",
+      "evidenceExcerpt": "Developed by: Indian Institute of Tropical Meteorology (IITM), Pune... Enhances India's weather prediction resolution from 12 km to 6 km... Integrates real-time inputs from 40 Doppler Weather Radar."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Terminology",
+      "prompt": "The terms 'Arka' and 'Arunika', recently seen in the news in the context of India's scientific advancements, refer to:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "High-Performance Computing (HPC) systems used for weather forecasting."
+        },
+        {
+          "id": "B",
+          "text": "Indigenous Doppler Weather Radars deployed along the eastern coast."
+        },
+        {
+          "id": "C",
+          "text": "Earth observation satellites launched by ISRO for Mission Mausam."
+        },
+        {
+          "id": "D",
+          "text": "Deep ocean submersibles developed under the Deep Ocean Mission."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Arka and Arunika are High-Performance Computing (HPC) systems that power the Bharat Forecast System (BFS). Arka is located at IITM Pune, and Arunika is housed at the National Centre for Medium Range Weather Forecasting (NCMRWF), Delhi.",
+      "takeaway": "Arka and Arunika are advanced High-Performance Computing (HPC) systems dedicated to powering India's high-resolution weather forecasting models.",
+      "evidenceExcerpt": "Powered by High-Performance Computing (HPC) systems - Arka (IITM Pune) and Arunika (National Centre for Medium Range Weather Forecasting, Delhi)."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding recent meteorological initiatives in India:\n1. Mission Mausam is a flagship initiative launched by the Ministry of Environment, Forest and Climate Change.\n2. The Bharat Forecast System (BFS) positions India ahead of countries like the US and the UK in terms of weather prediction resolution.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect. Mission Mausam was launched in 2024 by the Ministry of Earth Sciences (MoES), not the Ministry of Environment, Forest and Climate Change. Statement 2 is correct. The BFS enhances India's weather prediction resolution to 6 km, positioning it ahead of the models currently used by countries like the US, UK, and the EU.",
+      "takeaway": "Mission Mausam is an initiative of the Ministry of Earth Sciences (MoES). The BFS gives India a 6 km prediction resolution, surpassing the operational models of the US and UK.",
+      "evidenceExcerpt": "Positions India ahead of countries like US, UK, and EU by achieving 6 km resolution... Mission Mausam: Launched in 2024 by Ministry of Earth Sciences (MoES)."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Applied",
+      "prompt": "Doppler Weather Radars (DWR) are integrated into high-resolution weather prediction models like the Bharat Forecast System (BFS). What is the primary advantage of using DWRs in such forecasting systems?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "They can penetrate dense cloud cover to map the underlying topography of a region."
+        },
+        {
+          "id": "B",
+          "text": "They use the Doppler effect to gather velocity data of atmospheric particles, helping track storm movement."
+        },
+        {
+          "id": "C",
+          "text": "They measure the exact chemical composition of greenhouse gases in the troposphere."
+        },
+        {
+          "id": "D",
+          "text": "They rely on geostationary satellites to provide a continuous global view of weather patterns."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Conventional radars track the presence and intensity of precipitation. Doppler Weather Radars additionally use the Doppler effect to gather velocity data from moving particles (like raindrops), allowing meteorologists to determine the speed and direction of wind and storm systems.",
+      "takeaway": "The Bharat Forecast System (BFS) integrates real-time inputs from 40 Doppler Weather Radars to enhance its high-resolution forecasting capabilities.",
+      "evidenceExcerpt": "Integrates real-time inputs from 40 Doppler Weather Radar... which use the Doppler effect to gather velocity data from particles."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Bharat Forecast System (BFS):\n1. It operates at a spatial resolution of 6 km, which is finer than the standard 9-14 km range of major global weather models.\n2. Its computational requirements are handled exclusively by the 'Arunika' supercomputer located at the Indian Institute of Tropical Meteorology (IITM).\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: BFS improves India's weather prediction resolution to 6 km, positioning it ahead of global models from the US, UK, and EU that operate at 9-14 km. Statement 2 is incorrect: BFS is powered by two High-Performance Computing (HPC) systems—Arka (located at IITM Pune) and Arunika (located at NCMRWF, Delhi).",
+      "takeaway": "BFS represents a major leap in India's meteorological capabilities, supported by distributed High-Performance Computing infrastructure across key MoES institutions.",
+      "evidenceExcerpt": "BFS improves India's weather prediction resolution from 12 km to 6 km, which is ahead of global models that operate at 9-14 km... Powered by High-Performance Computing (HPC) systems - Arka (IITM Pune) and Arunika (National Centre for Medium Range Weather Forecasting, Delhi)."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Easy",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of High-Performance Computing (HPC) systems powering India's weather forecast models and their host institutions:\n1. Arka : Indian Institute of Tropical Meteorology (IITM)\n2. Arunika : National Centre for Medium Range Weather Forecasting (NCMRWF)\nWhich of the pairs given above is/are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Both pairs are correctly matched. Arka is hosted at IITM Pune, and Arunika is hosted at NCMRWF Delhi. Together, these HPC systems provide the computational power required for the Bharat Forecast System (BFS).",
+      "takeaway": "India's advanced weather forecasting capabilities rely on dedicated supercomputers located at specialized meteorological institutions under the Ministry of Earth Sciences.",
+      "evidenceExcerpt": "Powered by High-Performance Computing (HPC) systems - Arka (IITM Pune) and Arunika (National Centre for Medium Range Weather Forecasting, Delhi)."
+    }
+  ]
+}

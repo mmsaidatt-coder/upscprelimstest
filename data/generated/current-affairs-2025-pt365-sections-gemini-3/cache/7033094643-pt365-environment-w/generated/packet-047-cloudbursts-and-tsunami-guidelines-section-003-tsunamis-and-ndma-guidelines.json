@@ -1,0 +1,178 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the characteristics of Tsunami waves:\n1. The speed and wavelength of a tsunami wave primarily depend on the depth of the ocean rather than the distance from its source.\n2. In deep oceans, tsunami waves are characterized by a high wave amplitude and a short wavelength.\n3. As tsunami waves approach shallow coastal waters, their wavelength decreases due to a process known as shoaling.\n\nWhich of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: The speed and wavelength of a tsunami primarily depend on ocean depth, not the distance from the wave's source. Statement 2 is incorrect: In deep oceans, tsunamis have a long wavelength (approximately 200 km) and negligible amplitude, often going unnoticed by ships. Statement 3 is correct: As they approach shallow water, the wavelength decreases to less than 20 km and amplitude increases significantly due to shoaling.",
+      "takeaway": "Tsunami wave dynamics are dictated by ocean depth. Deep waters see long, fast, low-amplitude waves, while shallow coastal waters cause 'shoaling'—slowing the wave, shortening its length, and drastically increasing its height.",
+      "evidenceExcerpt": "Speed & wavelength primarily depends on ocean depth, not distance from wave's source. Wavelength in deep ocean is ~200 km and reduces to less than 20 km near coast due to shoaling. Wave Height (Amplitude): Not noticed by ships in deep oceans because their amplitude is negligible. When it approach shallow water, wave amplitude increases."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Assertion-Reason",
+      "prompt": "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R):\n\nAssertion (A): Tsunami waves often go unnoticed by ships in deep oceans but can cause massive destruction upon reaching the coast.\nReason (R): As tsunami waves approach shallow coastal waters, their wavelength decreases and wave amplitude increases significantly due to shoaling.\n\nIn the context of the above two statements, which one of the following is correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A)."
+        },
+        {
+          "id": "B",
+          "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A)."
+        },
+        {
+          "id": "C",
+          "text": "Assertion (A) is true but Reason (R) is false."
+        },
+        {
+          "id": "D",
+          "text": "Assertion (A) is false but Reason (R) is true."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Both statements are correct. In deep oceans, the amplitude of a tsunami is negligible, so ships do not notice the passing wave. However, as the wave enters shallow coastal waters, the physical process of shoaling causes the wavelength to decrease and the amplitude (wave height) to increase dramatically. This sudden increase in wave height is what leads to coastal destruction. Thus, Reason (R) correctly explains Assertion (A).",
+      "takeaway": "The destructiveness of a tsunami is not apparent in the open ocean due to its negligible amplitude; the danger manifests only when shoaling occurs near the coast.",
+      "evidenceExcerpt": "Wave Height (Amplitude): Not noticed by ships in deep oceans because their amplitude is negligible. When it approach shallow water, wave amplitude increases... Wavelength in deep ocean is ~200 km and reduces to less than 20 km near coast due to shoaling."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Tsunamis and their mitigation:\n1. Tsunamis are exclusively caused by large-scale earthquakes below or near the ocean floor.\n2. The National Disaster Management Authority (NDMA) guidelines recommend the development of natural bio-shields, such as mangroves, to mitigate tsunami impacts.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: While tsunamis are usually the result of earthquakes, they can also be caused by landslides, volcanic eruptions, meteorites, and underwater explosions. Statement 2 is correct: NDMA guidelines mandate a multi-tiered institutional structure and explicitly recommend developing natural buffers like bio-shields and mangrove regeneration to blunt the impact of incoming waves.",
+      "takeaway": "Tsunamis have multiple potential triggers beyond just earthquakes. Mitigation strategies under NDMA emphasize ecological buffers like mangroves alongside institutional structures.",
+      "evidenceExcerpt": "Causes: Earthquakes, landslides, volcanic eruptions, meteorites, underwater explosions... NDMA Guidelines for Tsunami: Mandate a multi-tiered institutional structure... Developing Natural buffers like bio shields, mangrove regeneration etc."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Easy",
+      "questionType": "multiple-choice",
+      "prompt": "Consider the following events:\n1. Submarine landslides\n2. Volcanic eruptions\n3. Meteorite impacts\n4. Underwater explosions\n\nWhich of the events given above can potentially cause a tsunami?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2, 3 and 4 only"
+        },
+        {
+          "id": "C",
+          "text": "1, 3 and 4 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2, 3 and 4"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Tsunamis are a series of extremely long waves caused by a large and sudden displacement of the ocean. While they are usually the result of an earthquake below or near the ocean floor, they can also be triggered by other events that displace massive volumes of water, including submarine landslides, volcanic eruptions, meteorite impacts, and underwater explosions.",
+      "takeaway": "Tsunamis are not exclusively caused by seismic activity (earthquakes); any phenomenon resulting in a large and sudden displacement of ocean water can trigger a tsunami.",
+      "evidenceExcerpt": "Causes: Earthquakes, landslides, volcanic eruptions, meteorites, underwater explosions."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "multiple-choice",
+      "prompt": "In the context of coastal disaster management, which of the following interventions are recommended by the National Disaster Management Authority (NDMA) guidelines for mitigating the impacts of tsunamis?\n1. Establishment of a multi-tiered institutional structure\n2. Development of natural bio-shields\n3. Regeneration of mangrove ecosystems\n\nSelect the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "The NDMA guidelines for tsunamis mandate a multi-tiered institutional structure to handle disasters effectively. Furthermore, they emphasize nature-based ecological measures, such as developing natural buffers like bio-shields and regenerating mangroves, to absorb wave energy and mitigate the impact of tsunami waves on coastal communities.",
+      "takeaway": "NDMA guidelines advocate for a combination of structural/institutional frameworks and nature-based solutions (like mangroves and bio-shields) for comprehensive tsunami mitigation.",
+      "evidenceExcerpt": "NDMA Guidelines for Tsunami: Mandate a multi-tiered institutional structure... Developing Natural buffers like bio shields, mangrove regeneration etc."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "scenario-based",
+      "prompt": "A maritime research vessel is stationed in the deep ocean, directly in the path of a propagating tsunami wave generated by a distant underwater earthquake. Which of the following is the most likely observation made by the crew regarding the tsunami?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The vessel will experience a sudden and massive increase in wave height, posing a severe threat to its stability."
+        },
+        {
+          "id": "B",
+          "text": "The wave will pass largely unnoticed by the vessel due to its negligible amplitude and extremely long wavelength."
+        },
+        {
+          "id": "C",
+          "text": "The wave's speed will drastically decrease as it passes under the vessel due to its vast distance from the earthquake's epicenter."
+        },
+        {
+          "id": "D",
+          "text": "The vessel will observe a series of short, high-frequency waves that rapidly dissipate their energy."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "In deep oceans, tsunami waves have an extremely long wavelength (approximately 200 km) but their wave height (amplitude) is negligible. Because of this low amplitude and long wavelength, tsunamis often go unnoticed by ships in deep waters. The wave amplitude only increases significantly when the tsunami approaches shallow coastal waters due to a process called shoaling.",
+      "takeaway": "Tsunami waves are virtually undetectable in the deep ocean because their energy is spread through the entire water column, resulting in a very small surface amplitude despite their immense speed and wavelength.",
+      "evidenceExcerpt": "Wavelength in deep ocean is ~200 km... Wave Height (Amplitude): Not noticed by ships in deep oceans because their amplitude is negligible."
+    }
+  ]
+}

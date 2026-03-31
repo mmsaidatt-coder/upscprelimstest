@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice",
+      "prompt": "In the context of energy storage technologies, which one of the following best explains why Sodium-Ion Batteries (SIBs) offer a better safety profile during transportation compared to Lithium-ion batteries?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "They utilize a non-flammable solid-state electrolyte instead of liquid solvents."
+        },
+        {
+          "id": "B",
+          "text": "They can be fully discharged and transported at zero voltage."
+        },
+        {
+          "id": "C",
+          "text": "Sodium ions are inherently less reactive with atmospheric oxygen than lithium ions."
+        },
+        {
+          "id": "D",
+          "text": "They possess a higher energy density, requiring fewer volatile cells per battery pack."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Option B is correct: According to recent developments, Sodium-Ion Batteries (SIBs) offer better safety because they can be transported at zero voltage (fully discharged). This significantly reduces the risk of fire during transit. Option D is incorrect because SIBs generally have a lower energy density than Lithium-ion batteries. Options A and C are plausible-sounding distractors but do not represent the primary safety advantage highlighted for SIBs.",
+      "takeaway": "A major advantage of Sodium-Ion Batteries over Lithium-ion variants is their ability to be safely discharged to zero voltage for transportation, mitigating the risk of thermal runaway and fire.",
+      "evidenceExcerpt": "They generally have lower energy density than Li-ion but offer better safety as they can be transported at zero voltage, reducing fire risks.",
+      "qualityScore": 85,
+      "reviewNotes": "Strong conceptual question that tests a specific, unique advantage of SIBs. The distractors are highly plausible and parallel, mimicking UPSC's style of testing technical nuances."
+    }
+  ],
+  "reviewerNotes": "Selected two questions. The first is a statement-based question covering the general characteristics and recent indigenous developments of SIBs. The second focuses specifically on the safety advantage of SIBs during transport, using plausible distractors related to battery technology."
+}

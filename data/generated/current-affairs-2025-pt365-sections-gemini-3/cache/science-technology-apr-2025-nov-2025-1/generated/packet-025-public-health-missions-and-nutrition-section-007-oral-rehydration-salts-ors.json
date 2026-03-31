@@ -1,0 +1,37 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Correct-pair",
+      "prompt": "How many of the following pairs of ORS components and their primary physiological functions are correctly matched?",
+      "contextLines": [
+        "1. Anhydrous glucose : Enhances the intestinal absorption of sodium and water",
+        "2. Potassium chloride : Replaces essential electrolyte losses",
+        "3. Trisodium citrate : Acts as an antimicrobial preservative to increase shelf life"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: Glucose facilitates the absorption of sodium and water. Pair 2 is correctly matched: Sodium and potassium replace essential electrolyte losses. Pair 3 is incorrectly matched: Trisodium citrate is included to correct dehydration-related acidosis, not as a preservative.",
+      "takeaway": "Each component of the WHO-recommended ORS has a specific medical function: glucose for absorption, salts for electrolyte replacement, and citrate for acidosis correction.",
+      "evidenceExcerpt": "WHO recommended ORS salts composition: Sodium chloride, glucose (anhydrous), potassium chloride, and trisodium citrate (dihydrate). Functions: Glucose enhances sodium and water absorption, sodium and potassium replace essential electrolyte losses, and citrate helps correct dehydration-related acidosis."
+    }
+  ]
+}

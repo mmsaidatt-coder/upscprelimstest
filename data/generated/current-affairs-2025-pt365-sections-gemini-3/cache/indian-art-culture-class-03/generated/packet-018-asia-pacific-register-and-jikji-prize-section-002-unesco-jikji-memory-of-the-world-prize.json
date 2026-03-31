@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "History",
+      "difficulty": "Moderate",
+      "questionType": "Feature-matching",
+      "prompt": "Which of the following entities are eligible to submit nominations for the UNESCO/Jikji Memory of the World Prize?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only governments of UNESCO Member States"
+        },
+        {
+          "id": "B",
+          "text": "Only international non-governmental organizations"
+        },
+        {
+          "id": "C",
+          "text": "Both governments of Member States and international NGOs in formal relations with UNESCO"
+        },
+        {
+          "id": "D",
+          "text": "Any individual or institution involved in the preservation of documentary heritage"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The prize is open to nominations from the governments of Member States, in consultation with their National Commissions, as well as from international non-governmental organizations (NGOs) that maintain formal relations with UNESCO.",
+      "takeaway": "Eligibility for nominating candidates for the Jikji Prize is restricted to Member State governments and specific international NGOs with formal UNESCO ties.",
+      "evidenceExcerpt": "Open to governments of Member States and international NGOs maintaining formal relations with UNESCO.",
+      "contextLines": []
+    },
+    {
+      "subject": "History",
+      "difficulty": "Hard",
+      "questionType": "Conceptual",
+      "prompt": "The 'Buljo jikji simche yojeol', the namesake of a UNESCO prize, is historically significant primarily because:",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is the earliest known manuscript written in the Hangul script of Korea."
+        },
+        {
+          "id": "B",
+          "text": "It is the oldest surviving book printed using movable metal type, predating the Gutenberg Bible."
+        },
+        {
+          "id": "C",
+          "text": "It was the first document to be inscribed on the UNESCO Memory of the World Register."
+        },
+        {
+          "id": "D",
+          "text": "It represents the first use of woodblock printing for religious texts in East Asia."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Jikji was created in 1377, which makes it the oldest extant book printed with movable metal type. This technology predates the Gutenberg Bible (printed in the 1450s), making it a milestone in the history of printing technology.",
+      "takeaway": "The Jikji's significance lies in its status as the oldest extant example of movable metal type printing, a key technological precursor to modern printing.",
+      "evidenceExcerpt": "Named after the oldest extant book printed with movable metal type, created in 1377 in Korea (Buljo jikji simche yojeol).",
+      "contextLines": []
+    }
+  ]
+}

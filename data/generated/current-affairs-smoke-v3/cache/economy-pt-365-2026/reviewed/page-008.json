@@ -1,0 +1,160 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to Certificate of Deposits (CDs) in India, consider the following statements:\n1. Tokenisation refers to the creation of a digital representation of a real-world asset, such as a CD, on a distributed ledger.\n2. Both Regional Rural Banks and Local Area Banks are permitted by the RBI to issue Certificates of Deposit.\n3. A CD is a negotiable money market instrument issued at a discount to its face value with a maturity period of up to one year.\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct. The text defines tokenization as the process of creating a digital representation of a real-world asset on a distributed ledger. Statement 2 is incorrect. The text explicitly states that Scheduled commercial banks *excluding* Regional Rural Banks and Local Area Banks are eligible to issue CDs. Statement 3 is correct. The text mentions that a CD is a negotiable money market instrument, issued at a discount on face value, and its maturity period is up to one year. Therefore, only two statements are correct.",
+      "takeaway": "Understand the key features of Certificate of Deposits (CDs), including which institutions are eligible to issue them, their issuance method, and maturity. Also, be familiar with modern concepts like tokenisation of financial assets.",
+      "evidenceExcerpt": "Tokenization is the process of creating a digital representation, called a \"token\", of a real-world asset like stocks on a distributed ledger or blockchain. ... CD is a negotiable money market instrument ... Issued by: Scheduled commercial banks (excluding Regional Rural Banks and Local Area Banks) ... Issued by at a discount on face value. Its maturity period is up to one year (min- 7 days).",
+      "qualityScore": 90,
+      "reviewNotes": "Excellent question. It effectively tests a specific exclusion clause (RRBs and LABs), which is a classic UPSC-style detail. The combination of a conceptual statement (tokenisation) and factual statements about the instrument makes it robust."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the framework for Self-Regulatory Organisations (SROs) for Regulated Entities in India, consider the following statements:\n1. The primary objective of establishing an SRO is to replace the direct regulatory oversight of the RBI for the sector it represents.\n2. As per the RBI's framework, an SRO must be set up as a for-profit company to ensure its operational independence.\n3. The Finance Industry Development Council (FIDC), a representative body of NBFCs, has been recognised as an SRO for the NBFC sector.\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect. SROs are meant to supplement and improve the quality of regulation, not replace the primary regulator like the RBI. Statement 2 is incorrect. The framework explicitly requires an SRO to be a not-for-profit company registered under Section 8 of the Companies Act, 2013. Statement 3 is correct. The text mentions that the RBI granted SRO status to FIDC to oversee NBFCs and that FIDC is a representative body of NBFCs. Therefore, only one statement is correct.",
+      "takeaway": "SROs function as a first level of oversight to complement, not replace, the primary regulator (RBI). They have a specific legal structure, being not-for-profit entities, to ensure their objectives are aligned with regulatory goals rather than profit motives.",
+      "evidenceExcerpt": "RBI granted Self-Regulatory Organisation status to Finance Industry Development Council (FIDC) to oversee NBFCs. FIDC is a representative body of non-banking financial companies (NBFC) registered with the RBI. ... An SRO shall be setup as a not-for-profit company registered under Section 8 of the Companies Act, 2013.",
+      "qualityScore": 90,
+      "reviewNotes": "This is a high-quality question that tests the nuanced understanding of the role and structure of SROs. The distractors are plausible but conceptually flawed, which is ideal for a hard-difficulty question."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Matched-Pairs",
+      "prompt": "Consider the following pairs regarding recent initiatives by the Reserve Bank of India:\n1. Unified Lending Interface (ULI) : A platform for fintech firms to test solutions for Central Bank Digital Currency.\n2. CBDC Retail Sandbox : A digital public infrastructure to aggregate data for better credit assessment by lenders.\n3. Tokenisation of CDs : The process of creating a digital representation of the instrument on a distributed ledger.\nHow many of the pairs given above are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Pair 1 is incorrectly matched. The objective described belongs to the CBDC Retail Sandbox. The ULI is a Digital Public Infrastructure for enhancing credit delivery by aggregating data for lenders. Pair 2 is incorrectly matched. The objective described belongs to the Unified Lending Interface (ULI). The CBDC Retail Sandbox is for fintech firms to test solutions. Pair 3 is correctly matched. Tokenization is accurately defined as the process of creating a digital representation of an asset like a CD on a distributed ledger. Therefore, only one pair is correctly matched.",
+      "takeaway": "It is important to have precise knowledge of the specific objectives of different digital initiatives launched by the RBI, as their names can sometimes be confusing. ULI is for credit, CBDC Sandbox is for testing digital currency solutions, and Tokenisation is for creating digital assets.",
+      "evidenceExcerpt": "Unified Lending Interface (ULI): It is envisioned as a Digital Public Infrastructure (DPI) aiming to enhance delivery of credit. o It aggregates data from multiple data sources which would be made available to lenders for better credit assessment. • Central Bank Digital Currency (CBDC) retail sandbox: For fintech firms to innovate and test solutions. • Tokenisation of Certificate of Deposits (CD): Tokenization is the process of creating a digital representation, called a \"token\", of a real-world asset like stocks on a distributed ledger or blockchain.",
+      "qualityScore": 88,
+      "reviewNotes": "This is a strong 'matched pairs' question that effectively tests the candidate's ability to differentiate between similar-sounding recent initiatives. Swapping the objectives of the first two pairs is a classic and effective way to create confusion and test precise knowledge."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Ways and Means Advances (WMA) facility, consider the following statements:\n1. It is available to both the Central and State governments to manage temporary mismatches in cash flow.\n2. The interest rate charged on WMA is equivalent to the RBI's repo rate, while overdrafts beyond the WMA limit attract a penal rate.\n3. Unlike ad hoc Treasury Bills, the WMA facility is not intended to be a source of financing the fiscal deficit.\n4. The advances under this facility must be repaid within a maximum period of three months.\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "All four statements are correct. Statement 1 is correct as the text states WMA is a temporary advance for the central government and is also available for state governments and UTs. Statement 2 is correct as the interest rate is the repo rate, but overdrafts are charged at 2% above the repo rate. Statement 3 is correct as the text explicitly mentions that WMAs are not a source of financing the fiscal deficit, unlike ad hoc Treasury Bills. Statement 4 is correct as the duration for repayment is within 3 months.",
+      "takeaway": "Ways and Means Advances (WMA) are a crucial short-term liquidity management tool for governments, distinct from deficit financing, with specific RBI-stipulated interest rates and repayment timelines.",
+      "evidenceExcerpt": "It is a temporary advance given by the RBI to the central government to cover any mismatch in receipts and payments. ... WMA is also available for state governments and Union Territories. ... Unlike ad hoc Treasury Bills, the instrument of WMAs is not a source of financing fiscal deficit. ... Interest rate on WMA is the RBI’s repo rate. However, interest on overdraft (amounts in excess of their WMA limits) is 2 % above the repo rate. ... It shall be fully paid off within 3 months from the date of making the WMAs.",
+      "qualityScore": 85,
+      "reviewNotes": "This is a comprehensive question covering all key aspects of WMA mentioned in the text. The 'How many correct?' format requires precise knowledge of each statement, making it a strong question."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-Choice",
+      "prompt": "With reference to the regulatory framework for non-bank Payment Aggregators (PAs) in India, which one of the following statements is correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "They are primarily regulated by the Securities and Exchange Board of India due to their role in facilitating investment products."
+        },
+        {
+          "id": "B",
+          "text": "They require authorisation from the Reserve Bank of India under the provisions of the Payment and Settlement Systems Act, 2007."
+        },
+        {
+          "id": "C",
+          "text": "They must be incorporated as a not-for-profit company under the Companies Act, 2013, similar to Self-Regulatory Organisations."
+        },
+        {
+          "id": "D",
+          "text": "They are exempt from direct RBI authorisation as long as they partner with a scheduled commercial bank for settlements."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement B is correct. The source text explicitly states that the new framework mandates non-bank PAs to obtain RBI authorisation under the Payment and Settlement Systems Act, 2007. Statement A is incorrect; the regulator for payment systems is the RBI, not SEBI. Statement C is incorrect; while PAs are incorporated under the Companies Act, 2013, there is no mention of a 'not-for-profit' requirement, which is a condition for SROs. Statement D is incorrect as the text mandates authorisation for non-bank PAs.",
+      "takeaway": "Non-bank Payment Aggregators are a critical part of the digital payments ecosystem and are directly regulated by the RBI under the Payment and Settlement Systems Act, 2007, requiring specific authorisation to operate.",
+      "evidenceExcerpt": "New framework mandates non-bank PAs to obtain RBI authorisation under the Payment and Settlement Systems Act, 2007. ... It is incorporated as a company under the Companies Act, 2013.",
+      "qualityScore": 85,
+      "reviewNotes": "This is a solid conceptual question. The distractors are well-crafted and plausible, testing the candidate's knowledge of the correct regulator (RBI vs. SEBI) and corporate structure (confusing with SROs), which are common areas of confusion."
+    }
+  ],
+  "reviewerNotes": "I have selected and rewritten five questions from the candidate pool. The chosen set covers a diverse range of topics from the source text: WMA, Payment Aggregators, CDs & Tokenisation, SROs, and other new RBI initiatives. The question formats are varied (MCQ, 'How many correct?', Matched Pairs) to reflect UPSC patterns. I have rejected weaker or repetitive questions, such as the simpler statement-based questions on WMA and RBI initiatives, in favor of more conceptually demanding alternatives. The rewritten questions have improved wording for a more formal, UPSC-like tone, and the distractors are designed to be plausible and challenging. All questions are strictly grounded in the provided source text."
+}

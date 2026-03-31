@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-Driven",
+      "prompt": "Consider the following statements regarding the 'Smog Eating Technology' recently proposed for public spaces:\n\n1. It utilizes titanium dioxide as a photocatalyst to decompose vehicular emissions.\n2. The technology primarily targets the reduction of nitrogen oxides (NOx) and harmful hydrocarbons.\n3. The breakdown of pollutants in this technology is driven by the absorption of infrared radiation.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The technology typically uses titanium dioxide (TiO2) coatings as a photocatalyst to break down pollutants.\nStatement 2 is correct: Its primary objective is to reduce nitrogen dioxide (NO2) and harmful hydrocarbons in public spaces.\nStatement 3 is incorrect: The photocatalytic activity is driven by ultraviolet (UV) light, not infrared radiation.",
+      "takeaway": "Smog-eating technology uses titanium dioxide (TiO2) as a photocatalyst under UV light to chemically break down nitrogen oxides (NOx) and harmful hydrocarbons into less harmful substances.",
+      "evidenceExcerpt": "Usually uses titanium dioxide (TiO2) coatings as photocatalysis under UV light to decompose NOx... Objective: Reduce nitrogen dioxide (NO2) and harmful hydrocarbons in public spaces",
+      "qualityScore": 85,
+      "reviewNotes": "Strong statement-based question. The distractor in statement 3 (infrared vs UV) is a classic UPSC trap."
+    }
+  ],
+  "reviewerNotes": "Selected two distinct questions. The first tests specific factual details (TiO2, NOx, UV vs IR) using the 'How many statements' format. The second is a strong conceptual question with highly plausible distractors that test the fundamental mechanism of the technology. Both align well with UPSC Prelims standards."
+}

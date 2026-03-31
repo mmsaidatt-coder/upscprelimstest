@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Alternative Investment Funds (AIFs) in India:\n1. They are privately pooled investment vehicles regulated by the Securities and Exchange Board of India (SEBI).\n2. The government-backed SWAMIH Fund was exempted by the Reserve Bank of India (RBI) from its tightened AIF rules.\n3. Private investment in public equity (PIPE) funds are classified as Category I AIFs to promote early-stage ventures.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Alternative Investment Funds (AIFs) are privately pooled investment vehicles regulated by SEBI.\nStatement 2 is correct: The RBI exempted the government-backed SWAMIH Fund from its tightened AIF rules.\nStatement 3 is incorrect: Private investment in public equity (PIPE) funds are classified as Category III AIFs, not Category I. Category I AIFs invest in start-ups, SMEs, and infrastructure.",
+      "takeaway": "While SEBI regulates AIFs, the RBI also issues rules affecting regulated entities' exposure to them (e.g., exempting the SWAMIH Fund). PIPE and Hedge Funds fall under Category III AIFs.",
+      "evidenceExcerpt": "Alternative Investment Funds (AIFs) are privately pooled investment vehicles regulated by SEBI. RBI exempted the government-backed SWAMIH Fund from tightened AIF rules... Category III may use leverage and includes Hedge Funds and PIPE.",
+      "qualityScore": 88,
+      "reviewNotes": "Combined multiple atomic claims into a cohesive statement-based question that tests both regulatory oversight (SEBI vs RBI) and specific fund classification (PIPE)."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the classification of Alternative Investment Funds (AIFs) in India, consider the following statements:\n1. Category I AIFs primarily invest in start-ups, Small and Medium Enterprises (SMEs), and infrastructure.\n2. Category II AIFs are permitted to use leverage and include Private Equity and Real Estate Funds.\n3. Category III AIFs may use leverage and include Hedge Funds.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Category I AIFs invest in start-ups, early-stage ventures, SMEs, and infrastructure funds.\nStatement 2 is incorrect: Category II AIFs do not use leverage. They include Private Equity Funds, Debt Funds, and Real Estate Funds.\nStatement 3 is correct: Category III AIFs may use leverage and include Hedge Funds and Private investment in public equity (PIPE).",
+      "takeaway": "SEBI classifies AIFs into three categories. Category I focuses on start-ups and infrastructure; Category II includes non-leveraged funds like Private Equity and Real Estate; Category III includes leveraged funds like Hedge Funds and PIPE.",
+      "evidenceExcerpt": "Category I invests in start-ups, SMEs, and infrastructure; Category II does not use leverage (e.g., Private Equity, Debt, Real Estate Funds); Category III may use leverage and includes Hedge Funds and PIPE.",
+      "qualityScore": 85,
+      "reviewNotes": "Rewrote the candidate question to focus purely on the classification and characteristics of the three AIF categories, ensuring the distractors are plausible and the format matches recent UPSC trends."
+    }
+  ],
+  "reviewerNotes": "Selected and refined two questions to cover the entirety of the source text. The first question focuses strictly on the three categories of AIFs and their leverage rules. The second question tests the regulatory framework, the SWAMIH fund exemption, and the specific classification of PIPE funds. Both use the modern 'How many statements are correct' format."
+}

@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Correct-Pair",
+      "prompt": "Consider the following pairs of recently declared 'dead' glaciers and their respective locations: 1. Yala Glacier : Nepal 2. Pizol Glacier : Switzerland 3. Ayoloco Glacier : Peru 4. Okjokull Glacier : Iceland. How many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "Only three pairs"
+        },
+        {
+          "id": "D",
+          "text": "All four pairs"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Yala Glacier is in Nepal, Pizol is in Switzerland, and Okjokull is in Iceland. Ayoloco is located in Mexico, not Peru. Therefore, exactly three pairs are correctly matched.",
+      "takeaway": "Several glaciers worldwide have been declared dead due to climate change, including Yala (Nepal), Pizol (Switzerland), Ayoloco (Mexico), Clark (US), and Okjokull (Iceland).",
+      "evidenceExcerpt": "Nepal's Yala Glacier was recently declared dead after shrinking 66% since the 1970s. Other dead glaciers include Pizol (Switzerland), Clark (US), Ayoloco (Mexico), and Okjokull (Iceland)"
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding glaciers and the consequences of their melting: 1. Glaciers currently store nearly three-quarters of the Earth's freshwater. 2. Glacial loss leads to an increased albedo effect, which directly contributes to higher heat absorption. 3. Melting glaciers have contributed to approximately 2 cm of global sea-level rise since 2001. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Glaciers store nearly 75% of Earth's freshwater. Statement 3 is correct: Melting has contributed to a 2 cm global sea level rise since 2001. Statement 2 is incorrect: Glacial loss leads to a REDUCED albedo effect (less reflectivity), which is what causes the increased heat absorption.",
+      "takeaway": "Glacial loss reduces the Earth's albedo effect, increasing heat absorption. Glaciers are critical freshwater reservoirs, holding about 75% of the global supply.",
+      "evidenceExcerpt": "Consequences of glacial loss include reduced albedo effect (increasing heat absorption), a 2 cm global sea level rise since 2001, loss of freshwater (glaciers store nearly 75% of Earth's freshwater)"
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice",
+      "prompt": "Which of the following best explains why the continuous loss of glaciers, such as the recently declared 'dead' Yala and Okjokull glaciers, leads to an accelerated rate of global warming?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The melting ice releases significant quantities of trapped methane and carbon dioxide into the atmosphere."
+        },
+        {
+          "id": "B",
+          "text": "The disappearance of reflective ice surfaces reduces the Earth's albedo, resulting in increased heat absorption."
+        },
+        {
+          "id": "C",
+          "text": "The influx of cold freshwater into the oceans disrupts global ocean currents, trapping heat in the lower atmosphere."
+        },
+        {
+          "id": "D",
+          "text": "The reduction in ice mass decreases the Earth's gravitational pull on the atmosphere, allowing greenhouse gases to expand."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Glaciers act as highly reflective surfaces that bounce solar radiation back into space (the albedo effect). As glaciers melt, they expose darker land or water surfaces, which absorb more heat. This reduced albedo effect increases overall heat absorption, creating a positive feedback loop that accelerates global warming.",
+      "takeaway": "The albedo effect is a crucial climate regulation mechanism; its reduction due to glacial loss directly amplifies global heat absorption.",
+      "evidenceExcerpt": "Consequences of glacial loss include reduced albedo effect (increasing heat absorption)..."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the environmental implications of glacial loss, consider the following statements:\n1. The reduction in the albedo effect due to glacial melting creates a positive feedback loop that further increases heat absorption.\n2. The melting of glaciers enhances long-term water security by continuously replenishing the Earth's available liquid freshwater reservoirs.\n3. Glacial loss increases the vulnerability of downstream mountainous regions to sudden, high-impact events like Glacial Lake Outburst Floods (GLOFs).\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Glacial loss reduces the Earth's albedo (reflectivity), leading to increased heat absorption and further warming. Statement 2 is incorrect: Glaciers store nearly 75% of the Earth's freshwater; their loss threatens long-term water security rather than enhancing it, as the freshwater is eventually lost to the oceans. Statement 3 is correct: The melting process increases the risk of avalanches and the formation of unstable lakes, leading to Glacial Lake Outburst Floods (GLOFs).",
+      "takeaway": "Glacial loss poses severe environmental risks, including amplifying global warming through reduced albedo, threatening freshwater supplies, and increasing the frequency of GLOFs.",
+      "evidenceExcerpt": "Consequences of glacial loss include reduced albedo effect (increasing heat absorption)... loss of freshwater (glaciers store nearly 75% of Earth's freshwater), and increased risks of Glacial Lake Outburst Floods (GLOFs) and avalanches."
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice Question - Statement Based",
+      "prompt": "With reference to the Standing Deposit Facility (SDF), consider the following statements:\n1. It is a monetary tool used by the RBI to absorb liquidity from commercial banks without providing any collateral.\n2. SDF functions as the floor of the Liquidity Adjustment Facility (LAF) corridor, replacing the Fixed Rate Reverse Repo.\n3. The facility is available only for overnight liquidity absorption and cannot be extended for longer durations.\nWhich of the statements given above is/are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct. SDF is a monetary tool that absorbs liquidity from commercial banks without collateral.\nStatement 2 is correct. SDF replaced the Fixed Rate Reverse Repo as the Liquidity Adjustment Facility corridor’s floor.\nStatement 3 is incorrect. While SDF is an overnight liquidity absorption mechanism, it has the flexibility for the RBI to increase its duration.",
+      "takeaway": "The Standing Deposit Facility (SDF) is a key monetary policy tool for liquidity absorption, operating without collateral and serving as the LAF corridor's floor, with flexibility in duration.",
+      "evidenceExcerpt": "It is a monetary tool that absorbs liquidity from commercial banks without collateral. SDF replaced the Fixed Rate Reverse Repo as the Liquidity Adjustment Facility corridor’s floor. SDF is an overnight liquidity absorption mechanism with the flexibility for the RBI to increase its duration.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice Question - Statement Based",
+      "prompt": "Consider the following statements regarding Variable Rate Reverse Repo (VRRR):\n1. VRRR is a mechanism used by the RBI to inject liquidity into the banking system for a short period.\n2. Under VRRR, the interest rate offered by RBI to banks is fixed by the central bank.\n3. It is a tool to absorb excess money from banks, with the interest rate decided by market forces.\nWhich of the statements given above is/are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "D",
+          "text": "2 and 3 only"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect. VRRR is a method used by the RBI to absorb excess money from banks, not inject liquidity.\nStatement 2 is incorrect. The term 'variable rate' means the interest rate is not fixed and is decided by the market. The Reverse Repo Rate is fixed by RBI, but VRRR is variable.\nStatement 3 is correct. VRRR absorbs excess money from banks, and the interest rate is determined by the market.",
+      "takeaway": "Variable Rate Reverse Repo (VRRR) is an RBI tool for short-term liquidity absorption, where the interest rate is market-determined, distinguishing it from the fixed Reverse Repo Rate.",
+      "evidenceExcerpt": "It is a method used by the RBI to absorb excess money from banks for a short period. The term variable rate means the interest rate is not fixed and is decided by the market. Reverse Repo Rate, the rate is fixed by RBI.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice Question - Statement Based",
+      "prompt": "With reference to 'Switch Auction' conducted by the Reserve Bank of India, consider the following statements:\n1. Its primary objective is to manage the maturity profile of public debt by replacing short-term securities with longer-dated ones.\n2. It involves market participants selling destination securities to the Government of India and simultaneously buying source securities.\n3. The process is executed through the e-Kuber portal via the Switch Transaction module.\nWhich of the statements given above is/are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "2 and 3 only"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct. The objective of Switch Auction is to manage the maturity profile of public debt by replacing short-term securities with longer-dated ones.\nStatement 2 is incorrect. Market participants sell source securities to the Government of India and simultaneously buy destination securities, not the other way around.\nStatement 3 is correct. The process is executed through the e-Kuber portal via the Switch Transaction module.",
+      "takeaway": "Switch Auctions are a debt management tool used by RBI on behalf of the Government to optimize the maturity profile of public debt by swapping short-term for long-term securities via the e-Kuber portal.",
+      "evidenceExcerpt": "Objective: To manage the maturity profile of public debt by replacing short-term securities with longer-dated ones. Mechanism: Market participants sell source securities to the Government of India and simultaneously buy destination securities at quoted prices. The process is executed through the e-Kuber portal via the Switch Transaction module.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice Question - Statement Based",
+      "prompt": "Regarding the Co-Lending Arrangements (CLAs) revised by the RBI, consider the following statements:\n1. CLAs permit Regulated Entities (REs) to enter into lending arrangements with other REs for credit extension.\n2. Under the revised norms, each Regulated Entity is required to retain a minimum 5% share of the loans.\n3. Each co-lender can claim Priority Sector Lending (PSL) status for its share, provided the loan qualifies as priority sector.\nWhich of the statements given above is/are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "2 and 3 only"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct. Under CLAs, Regulated Entities (REs) can enter a lending arrangement with other REs for extension of credit to the borrowers.\nStatement 2 is incorrect. Each RE is required to retain a minimum 10% share of the loans, not 5%.\nStatement 3 is correct. Each lender can claim Priority Sector Lending (PSL) status for its share under co-lending, if the loan qualifies as priority sector.",
+      "takeaway": "RBI's Co-Lending Arrangements (CLAs) facilitate joint lending by regulated entities, requiring a minimum 10% retention share per lender and allowing individual claims for Priority Sector Lending status.",
+      "evidenceExcerpt": "Under CLAs, Regulated Entities (REs) can enter a lending arrangement with other REs for extension of credit to the borrowers... Minimum share: Each RE to retain a minimum 10% share of the loans. Priority Sector Lending (PSL) status: Each lender can claim PSL status for its share under co-lending, if the loan qualifies as priority sector.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Applied",
+      "prompt": "What is the primary implication of the 'One Nation One Ombudsman' approach adopted by the Reserve Bank of India's Integrated Ombudsman Scheme?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It centralizes all grievance redressal at the RBI headquarters, eliminating regional offices."
+        },
+        {
+          "id": "B",
+          "text": "It ensures that a complainant can file a complaint at any RBI Ombudsman office, irrespective of the entity's location or jurisdiction."
+        },
+        {
+          "id": "C",
+          "text": "It merges the functions of all financial sector regulators' ombudsman schemes into one unified body."
+        },
+        {
+          "id": "D",
+          "text": "It mandates a uniform compensation limit across all types of financial services grievances in India."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The 'One Nation One Ombudsman' approach makes the RBI Ombudsman mechanism jurisdiction neutral. This means a complainant can file a complaint at any RBI Ombudsman office, regardless of where the financial service provider is located or where the grievance originated. It does not centralize all redressal at headquarters, nor does it merge schemes of other regulators, nor does it mandate a uniform compensation limit across all financial services (only for the integrated scheme).",
+      "takeaway": "The 'One Nation One Ombudsman' initiative aims to simplify grievance redressal by removing jurisdictional barriers, making the process more accessible and efficient for complainants.",
+      "evidenceExcerpt": "It adopted the ‘One Nation One Ombudsman’ approach by making the RBI Ombudsman mechanism jurisdiction neutral.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Applied",
+      "prompt": "What is the primary benefit for the Government of India in conducting 'Switch Auctions' through the Reserve Bank of India?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To increase the overall volume of public debt by issuing new securities."
+        },
+        {
+          "id": "B",
+          "text": "To reduce the short-term borrowing costs by offering higher yields on short-dated securities."
+        },
+        {
+          "id": "C",
+          "text": "To extend the maturity profile of public debt, thereby reducing refinancing risk."
+        },
+        {
+          "id": "D",
+          "text": "To primarily facilitate liquidity injection into the banking system by buying back government securities."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The primary objective of Switch Auctions is to manage the maturity profile of public debt by replacing short-term securities with longer-dated ones. This action effectively extends the average maturity of the government's debt, which helps in reducing the refinancing risk associated with frequent rollovers of short-term debt.",
+      "takeaway": "Switch Auctions are a debt management strategy employed by the government to optimize its debt portfolio by extending maturities and mitigating refinancing risks.",
+      "evidenceExcerpt": "Switch Auction: Objective: To manage the maturity profile of public debt by replacing short-term securities with longer-dated ones.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Applied",
+      "prompt": "The Reserve Bank of India revised directions for Co-Lending Arrangements (CLAs) between banks and Non-bank Financial Companies (NBFCs). Which of the following best describes an underlying objective of these arrangements?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To allow NBFCs to completely offload their loan portfolios to banks, reducing their risk exposure to zero."
+        },
+        {
+          "id": "B",
+          "text": "To enhance credit flow to the unserved and underserved sectors by leveraging the strengths of both banks and NBFCs, particularly for Priority Sector Lending."
+        },
+        {
+          "id": "C",
+          "text": "To enable banks to bypass strict prudential regulations by routing a significant portion of their lending through NBFCs."
+        },
+        {
+          "id": "D",
+          "text": "To centralize all lending decisions at the bank level, with NBFCs acting merely as sourcing and recovery agents."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Co-Lending Arrangements (CLAs) are designed to combine the strengths of banks (lower cost of funds) and NBFCs (reach in remote areas, specialized lending expertise) to enhance credit flow. The provision that each lender can claim Priority Sector Lending (PSL) status for its share, if the loan qualifies, strongly indicates an objective to boost lending to priority sectors, which often include unserved and underserved segments. Options A, C, and D misrepresent the nature or regulatory intent of CLAs.",
+      "takeaway": "Co-lending aims to improve credit delivery, especially to priority sectors, by fostering collaboration between banks and NBFCs while maintaining regulatory compliance and shared risk.",
+      "evidenceExcerpt": "Co-lending norms: Under CLAs, Regulated Entities (REs) can enter a lending arrangement with other REs for extension of credit to the borrowers, subject to compliance with the extant prudential regulations. Key highlights of the revised Directions: Priority Sector Lending (PSL) status: Each lender can claim PSL status for its share under co-lending, if the loan qualifies as priority sector.",
+      "contextLines": []
+    }
+  ]
+}

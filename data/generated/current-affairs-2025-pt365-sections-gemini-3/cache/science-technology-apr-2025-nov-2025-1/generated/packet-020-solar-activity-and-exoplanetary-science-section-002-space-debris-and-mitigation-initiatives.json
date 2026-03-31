@@ -1,0 +1,152 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding space debris and its mitigation:\n1. Space debris encompasses all functional and non-functional man-made objects, including their fragments, in Earth orbit.\n2. India has set a target to achieve Debris Free Space Missions (DFSM) by the year 2030.",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Space debris specifically includes all non-functional, man-made objects, including fragments and elements thereof, in Earth orbit. Functional satellites are not considered space debris. Statement 2 is correct: India's initiatives to tackle space debris include the Debris Free Space Missions (DFSM) with a target year of 2030.",
+      "takeaway": "Space debris is strictly defined as non-functional man-made objects and their fragments. India is actively pursuing the Debris Free Space Missions (DFSM) 2030 target to ensure space sustainability.",
+      "evidenceExcerpt": "SPACE DEBRIS... Includes all non-functional, man-made objects, including fragments and elements thereof, in Earth orbit... India: Debris Free Space Missions (DFSM) 2030"
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of initiatives and their primary operational scope as mentioned in the context of space debris mitigation:\n1. Inter-Agency Debris Coordination Committee (IADC) : Global initiative\n2. Project NETRA : Indian initiative\n3. Zero Debris Charter : Indian initiative\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: The Inter-Agency Debris Coordination Committee (IADC) is a global initiative. Pair 2 is correctly matched: Project Network for Space Object Tracking and Analysis (NETRA) is an Indian initiative. Pair 3 is incorrectly matched: The Zero Debris Charter is a global initiative, not an Indian one.",
+      "takeaway": "Global initiatives for space debris mitigation include the IADC and the Zero Debris Charter, while India's dedicated efforts include Project NETRA, IS4OM, and DFSM 2030.",
+      "evidenceExcerpt": "Initiatives taken to tackle Space Debris: Global: Inter-Agency Debris Coordination Committee (IADC)... Zero Debris Charter... India: Debris Free Space Missions (DFSM) 2030; ISRO System for Safe and Sustainable Operations Management (IS4OM); Project Network for Space Object Tracking and Analysis (NETRA)."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to India's space sustainability efforts, consider the following statements:\n1. The ISRO System for Safe and Sustainable Operations Management (IS4OM) is an initiative designed to tackle space debris.\n2. Project NETRA is a global initiative led by the Inter-Agency Debris Coordination Committee (IADC) for space object tracking.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: IS4OM is an Indian initiative aimed at safe and sustainable operations management, which includes tackling space debris. Statement 2 is incorrect: Project Network for Space Object Tracking and Analysis (NETRA) is an Indian initiative, not a global one led by the IADC.",
+      "takeaway": "Project NETRA and IS4OM are key Indian national initiatives dedicated to space object tracking and sustainable space operations.",
+      "evidenceExcerpt": "Initiatives taken to tackle Space Debris: Global: Inter-Agency Debris Coordination Committee (IADC)... India: ... ISRO System for Safe and Sustainable Operations Management (IS4OM); Project Network for Space Object Tracking and Analysis (NETRA)."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "The term 'Kessler Syndrome', sometimes seen in the news, is discussed in the context of:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The physiological degradation of astronauts during prolonged deep space missions."
+        },
+        {
+          "id": "B",
+          "text": "A theoretical scenario where collisions in Earth orbit generate a cascading effect of space debris."
+        },
+        {
+          "id": "C",
+          "text": "The interference of solar flares with satellite communication networks."
+        },
+        {
+          "id": "D",
+          "text": "The accumulation of greenhouse gases in the upper atmosphere due to frequent rocket launches."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Kessler Syndrome is a theoretical scenario where collisions between non-functional man-made objects in Earth orbit generate more debris, leading to a cascade of further collisions that could make certain orbits unusable.",
+      "takeaway": "The Kessler Syndrome highlights the severe long-term risks of accumulating space debris in Earth's orbit, emphasizing the need for mitigation initiatives.",
+      "evidenceExcerpt": "...contribute to Kessler Syndrome, a theoretical scenario where collisions generate more debris, making certain orbits unusable."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Assertion-Reason",
+      "prompt": "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R):",
+      "contextLines": [
+        "Assertion (A): The continuous accumulation of space debris poses a significant risk of rendering certain Earth orbits completely unusable for future space missions.",
+        "Reason (R): The Kessler Syndrome postulates a scenario where collisions between existing space debris generate further fragments, creating a self-sustaining cascade of collisions."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both Assertion (A) and Reason (R) are correct and Reason (R) is the correct explanation of Assertion (A)"
+        },
+        {
+          "id": "B",
+          "text": "Both Assertion (A) and Reason (R) are correct but Reason (R) is not the correct explanation of Assertion (A)"
+        },
+        {
+          "id": "C",
+          "text": "Assertion (A) is correct but Reason (R) is not correct"
+        },
+        {
+          "id": "D",
+          "text": "Assertion (A) is not correct but Reason (R) is correct"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Both statements are correct. The accumulation of space debris increases the density of objects in orbit. According to the Kessler Syndrome, this high density leads to collisions that generate even more debris, creating a runaway cascade effect. This cascading generation of fragments is the precise reason why certain orbits could become too hazardous and practically unusable for future missions.",
+      "takeaway": "The Kessler Syndrome highlights the systemic risk of space debris, where the exponential growth of fragments through collisions directly threatens the long-term viability of orbital operations.",
+      "evidenceExcerpt": "...contribute to Kessler Syndrome, a theoretical scenario where collisions generate more debris, making certain orbits unusable."
+    }
+  ]
+}

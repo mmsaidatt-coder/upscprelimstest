@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Sovereign Credit Ratings:\n1. An improvement in a country's sovereign credit rating generally leads to a reduction in its borrowing costs in international capital markets.\n2. According to major global rating agencies like S&P and Fitch, a rating of 'BBB-' is classified as a speculative-grade rating.\n3. Recently, India's long-term sovereign credit rating was upgraded to the highest possible investment grade.\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Favorable sovereign credit ratings indicate lower credit risk, which facilitates access to global capital markets and reduces borrowing costs. Statement 2 is incorrect: Investment grade ratings range from BBB- to AAA for S&P and Fitch. Therefore, BBB- is an investment-grade rating, not speculative. Ratings below BBB- are considered speculative grade. Statement 3 is incorrect: S&P upgraded India's long-term Sovereign Credit Rating to 'BBB' with a Stable Outlook, which is an investment grade but not the highest possible grade (which is AAA).",
+      "takeaway": "Sovereign credit ratings evaluate a country's creditworthiness. Investment grades range from BBB- to AAA (S&P/Fitch), and favorable ratings lower borrowing costs. India's rating was recently upgraded to 'BBB'.",
+      "evidenceExcerpt": "S&P upgraded India's long-term Sovereign Credit Rating to 'BBB' and short-term to 'A-2' with a Stable Outlook... Investment grade ratings range from BBB- to AAA for S&P and Fitch... Favorable ratings facilitate global capital market access and reduce borrowing costs.",
+      "qualityScore": 85,
+      "reviewNotes": "Rewrote the statements to make them more plausible and aligned with UPSC's pattern of testing conceptual understanding alongside current affairs facts."
+    }
+  ],
+  "reviewerNotes": "Selected and refined two questions. Candidate 1 was rewritten to improve the quality of the statements and align with the 'How many statements are correct' format. Candidate 2 was refined to ensure distractors are plausible and test applied knowledge of rating downgrades. Candidate 3 was rejected as it focused too heavily on trivial nomenclature differences (AAA vs Aaa) between rating agencies, which is not a typical UPSC focus area."
+}

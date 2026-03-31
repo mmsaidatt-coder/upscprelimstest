@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the 'Gaurav' weapon system recently seen in the news:\n\n1. It is an indigenously developed long-range glide bomb by the Defence Research and Development Organisation (DRDO).\n2. It steers towards its target using a hybrid navigation scheme that relies exclusively on indigenous navigation systems.\n3. It belongs to the 1,000 kg weight class and can strike targets at a range of up to 100 km.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: 'Gaurav' is an indigenously developed Long-Range Glide Bomb by DRDO.\nStatement 2 is incorrect: It does not rely exclusively on indigenous systems. It uses a highly accurate hybrid navigation scheme combining Indian Navigation System (INS) and Global Positioning System (GPS) data.\nStatement 3 is correct: It belongs to the 1,000 kg weight class and has achieved a 100 km range with pinpoint accuracy.",
+      "takeaway": "'Gaurav' is a 1,000 kg class long-range glide bomb developed by DRDO with a 100 km range, utilizing a hybrid INS and GPS navigation scheme.",
+      "evidenceExcerpt": "DRDO successfully conducts release trials of indigenously developed Long-Range Glide Bomb 'Gaurav'. Glide bomb after launch steer towards the target using highly accurate hybrid navigation scheme with a combination of Indian Navigation System (INS) and Global Positioning System (GPS) data. Weight: 1,000 kg class. Range: 'Gaurav' achieved 100 km range with pinpoint accuracy."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Multiple Choice",
+      "prompt": "Recently, the term 'Gaurav' was mentioned in the news in the context of the affairs of India. What is it?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A nuclear-powered ballistic missile submarine"
+        },
+        {
+          "id": "B",
+          "text": "An indigenously developed long-range glide bomb"
+        },
+        {
+          "id": "C",
+          "text": "A next-generation anti-radiation missile"
+        },
+        {
+          "id": "D",
+          "text": "A high-altitude pseudo-satellite (HAPS) for surveillance"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Gaurav is an indigenously developed Long-Range Glide Bomb by the Defence Research and Development Organisation (DRDO). It is not a submarine, anti-radiation missile, or pseudo-satellite.",
+      "takeaway": "UPSC frequently asks direct 'What is X?' questions for newly tested indigenous defence platforms. 'Gaurav' is a 1,000 kg class long-range glide bomb.",
+      "evidenceExcerpt": "DRDO successfully conducts release trials of indigenously developed Long-Range Glide Bomb 'Gaurav'."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the 'Gaurav' munition recently tested by the Defence Research and Development Organisation (DRDO):\n\n1. It is a powered cruise missile designed to strike targets at a range of 100 km.\n2. Its guidance system relies on a hybrid combination of the Indian Navigation System and the Global Positioning System.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: 'Gaurav' is a long-range glide bomb, not a powered cruise missile, though it does have a range of 100 km. Statement 2 is correct: It steers towards its target using a highly accurate hybrid navigation scheme combining Indian Navigation System (INS) and Global Positioning System (GPS) data.",
+      "takeaway": "Understanding the fundamental classification of a weapon (e.g., glide bomb vs. powered cruise missile) is crucial for UPSC prelims. Glide bombs rely on aerodynamics and gravity after release, whereas cruise missiles have their own propulsion systems.",
+      "evidenceExcerpt": "DRDO successfully conducts release trials of indigenously developed Long-Range Glide Bomb 'Gaurav'. Glide bomb after launch steer towards the target using highly accurate hybrid navigation scheme with a combination of Indian Navigation System (INS) and Global Positioning System (GPS) data."
+    }
+  ]
+}

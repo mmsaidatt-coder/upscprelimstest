@@ -1,0 +1,153 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Feature-matching",
+      "prompt": "Which one of the following Biosphere Reserves possesses all the characteristics given below?",
+      "contextLines": [
+        "1. It is situated in a rain-shadow zone representing a cold desert biome.",
+        "2. It encompasses the Pin Valley National Park and Kibber Wildlife Sanctuary.",
+        "3. It is recognized under UNESCO's World Network of Biosphere Reserves."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Nanda Devi Biosphere Reserve"
+        },
+        {
+          "id": "B",
+          "text": "Cold Desert Biosphere Reserve"
+        },
+        {
+          "id": "C",
+          "text": "Khangchendzonga Biosphere Reserve"
+        },
+        {
+          "id": "D",
+          "text": "Dehang-Dibang Biosphere Reserve"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Cold Desert Biosphere Reserve is located in a rain-shadow zone (cold desert biome), covers Pin Valley NP and Kibber WLS, and is designated under UNESCO's WNBR.",
+      "takeaway": "Identifying Biosphere Reserves requires mapping their unique biomes, constituent protected areas, and international designations.",
+      "evidenceExcerpt": "UNESCO designated India's Cold Desert Biosphere Reserve to the WNBR. The Cold Desert BR in Himachal Pradesh covers Pin Valley NP, Chandratal, and Sarchu & Kibber WLS. It features a cold desert biome (rain-shadow zone)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "statement-based",
+      "prompt": "With reference to UNESCO's World Network of Biosphere Reserves (WNBR), consider the following statements:\n1. The Man and the Biosphere (MAB) Programme, which manages the WNBR, was launched as an outcome of the 1992 Earth Summit.\n2. Designations to the WNBR are made by the Director-General of UNESCO based on the Seville Strategy.\n3. All Biosphere Reserves notified by the Government of India are currently recognized under the WNBR.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect: The MAB Programme was launched in 1971, well before the 1992 Earth Summit. Statement 2 is correct: Designations are made by the Director-General of UNESCO following MAB ICC decisions, using the Seville Strategy. Statement 3 is incorrect: India has 13 Biosphere Reserves recognized under the WNBR, which is not all of its notified Biosphere Reserves.",
+      "takeaway": "The WNBR is managed by the MAB Programme (1971). Designations utilize the Seville Strategy. India currently has 13 BRs in the WNBR.",
+      "evidenceExcerpt": "WNBR (launched 1976) is managed by UNESCO's Man and the Biosphere (MAB) Programme (launched 1971). Designations are made by the Director-General of UNESCO following MAB ICC decisions, using the Seville Strategy. India has 13 Biosphere Reserves recognized under WNBR."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "multiple-choice",
+      "prompt": "Consider the following protected areas:\n1. Pin Valley National Park\n2. Chandratal\n3. Kibber Wildlife Sanctuary\n4. Hemis National Park\n\nHow many of the above are encompassed within the Cold Desert Biosphere Reserve?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The Cold Desert Biosphere Reserve in Himachal Pradesh covers Pin Valley National Park, Chandratal, and Sarchu & Kibber Wildlife Sanctuaries. Hemis National Park is located in Ladakh and is not part of this Biosphere Reserve.",
+      "takeaway": "The Cold Desert BR is located in Himachal Pradesh and integrates specific high-altitude protected areas including Pin Valley NP, Chandratal, and Sarchu & Kibber WLS.",
+      "evidenceExcerpt": "Cold Desert BR (Himachal Pradesh) covers Pin Valley NP, Chandratal, and Sarchu & Kibber WLS."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "multiple-choice",
+      "prompt": "In the context of India's protected areas, the terms \"Gompas, Chortens, and Mani Walls\" are prominently associated with the cultural landscape of which of the following Biosphere Reserves?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Nanda Devi Biosphere Reserve"
+        },
+        {
+          "id": "B",
+          "text": "Cold Desert Biosphere Reserve"
+        },
+        {
+          "id": "C",
+          "text": "Khangchendzonga Biosphere Reserve"
+        },
+        {
+          "id": "D",
+          "text": "Dehang-Dibang Biosphere Reserve"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Cold Desert Biosphere Reserve in Himachal Pradesh is noted for its distinct Buddhist culture, characterized by the presence of Gompas, Chortens, and Mani Walls.",
+      "takeaway": "Biosphere Reserves protect not just ecology but also cultural landscapes. The Cold Desert BR is specifically noted for its Buddhist cultural heritage.",
+      "evidenceExcerpt": "It features a cold desert biome (rain-shadow zone), distinct Buddhist culture (Gompas, Chorten, Mani Walls)..."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "multiple-choice",
+      "prompt": "The \"Seville Strategy\", sometimes seen in the news, is primarily related to:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The management and designation of the World Network of Biosphere Reserves."
+        },
+        {
+          "id": "B",
+          "text": "The identification of Globally Important Agricultural Heritage Systems (GIAHS)."
+        },
+        {
+          "id": "C",
+          "text": "The criteria for recognizing Wetlands of International Importance under the Ramsar Convention."
+        },
+        {
+          "id": "D",
+          "text": "The framework for reducing emissions from deforestation and forest degradation (REDD+)."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "The Seville Strategy is the framework used by the MAB International Coordinating Council (ICC) and the UNESCO Director-General for the designation and management of the World Network of Biosphere Reserves (WNBR).",
+      "takeaway": "The Seville Strategy is the foundational strategic document guiding the UNESCO World Network of Biosphere Reserves.",
+      "evidenceExcerpt": "Designation is by the UNESCO Director-General via the MAB ICC using the Seville Strategy."
+    }
+  ]
+}

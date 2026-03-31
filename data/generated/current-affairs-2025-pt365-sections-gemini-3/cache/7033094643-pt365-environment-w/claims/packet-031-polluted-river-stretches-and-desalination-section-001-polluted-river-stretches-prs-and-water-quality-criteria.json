@@ -1,0 +1,65 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-031-polluted-river-stretches-and-desalination-section-001-polluted-river-stretches-prs-and-water-quality-criteria",
+    "claimType": "Conceptual",
+    "claimText": "A river stretch is identified as a Polluted River Stretch (PRS) if its Biochemical Oxygen Demand (BOD) exceeds 3 milligrams/litre (mg/L).",
+    "evidenceExcerpt": "The primary criterion for identifying a Polluted River Stretch is a Biochemical Oxygen Demand (BOD) exceeding 3 mg/L.",
+    "pageNumbers": [
+      64
+    ],
+    "examUse": "Statement-based question on water quality criteria and pollution indicators.",
+    "distractorHooks": [
+      "Chemical Oxygen Demand (COD) exceeding 3 mg/L",
+      "Dissolved Oxygen (DO) falling below 3 mg/L",
+      "BOD exceeding 10 mg/L"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-031-polluted-river-stretches-and-desalination-section-001-polluted-river-stretches-prs-and-water-quality-criteria",
+    "claimType": "Factual",
+    "claimText": "Polluted River Stretches are categorized into five priority classes (I to V) based on the maximum Biochemical Oxygen Demand (BOD) observed.",
+    "evidenceExcerpt": "PRS are categorized into Five Priority Classes (I to V) based on the maximum BOD observed.",
+    "pageNumbers": [
+      64
+    ],
+    "examUse": "Statement-based question on the classification methodology of polluted rivers.",
+    "distractorHooks": [
+      "Categorized based on heavy metal concentration",
+      "Categorized based on the length of the polluted stretch",
+      "Categorized into three priority classes"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-031-polluted-river-stretches-and-desalination-section-001-polluted-river-stretches-prs-and-water-quality-criteria",
+    "claimType": "Factual",
+    "claimText": "The total number of Polluted River Stretches (PRS) in India has decreased between 2018 and 2025.",
+    "evidenceExcerpt": "The total number of PRS in India has decreased from 351 in 2018 to 296 in 2025.",
+    "pageNumbers": [
+      64
+    ],
+    "examUse": "Statement-based question on environmental trends regarding river pollution in India.",
+    "distractorHooks": [
+      "The number of PRS has continuously increased since 2018",
+      "The number of PRS has remained stagnant over the last decade"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-031-polluted-river-stretches-and-desalination-section-001-polluted-river-stretches-prs-and-water-quality-criteria",
+    "claimType": "Factual",
+    "claimText": "Maharashtra has the highest number of Polluted River Stretches in India.",
+    "evidenceExcerpt": "Maharashtra has the highest number of Polluted River Stretches (54) in India.",
+    "pageNumbers": [
+      64
+    ],
+    "examUse": "Fact-based or correct-pair question on state-wise river pollution data.",
+    "distractorHooks": [
+      "Uttar Pradesh has the highest number of PRS",
+      "West Bengal has the highest number of PRS",
+      "Bihar has the highest number of PRS"
+    ]
+  }
+]

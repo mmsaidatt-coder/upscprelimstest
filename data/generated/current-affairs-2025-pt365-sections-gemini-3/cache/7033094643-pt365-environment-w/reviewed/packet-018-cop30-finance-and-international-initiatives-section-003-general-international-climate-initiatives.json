@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the 'Belem Declaration for Green Industrialization':\n1. It is an international agreement aimed primarily at halting deforestation in the Amazon basin.\n2. It focuses on promoting green industrialization and accelerating the decarbonization of heavy-emitting industries.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: While the city of Belem is famously associated with Amazon conservation declarations (such as the 2023 ACTO Belem Declaration), the specific 'Belem Declaration for Green Industrialization' is not primarily about halting deforestation. Statement 2 is correct: It specifically focuses on accelerating the decarbonization of heavy-emitting industries and promoting green industrialization.",
+      "takeaway": "It is important to distinguish between different declarations signed in the same location; the Belem Declaration 'for Green Industrialization' targets heavy industry decarbonization rather than forest conservation.",
+      "evidenceExcerpt": "Belem Declaration for Green Industrialization: Accelerating decarbonization of heavy emitting industries and promoting green industrialization.",
+      "qualityScore": 88,
+      "reviewNotes": "Excellent use of the 'Belem' keyword to create a plausible distractor regarding the Amazon basin, testing the candidate's precise knowledge of the declaration's actual focus on heavy industries."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-choice",
+      "prompt": "Consider the following international climate initiatives:\n1. Fostering Investible National Implementation (FINI)\n2. Open Coalition on Compliance Carbon Markets\n3. Belem Declaration for Green Industrialization\n\nWhich of the initiatives given above is/are primarily directed towards 'climate adaptation' rather than 'climate mitigation'?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "FINI focuses on making National Adaptation Plans (NAPs) investible and developing adaptation investment pipelines. In contrast, the Open Coalition focuses on carbon markets and MRV (mitigation/accounting), while the Belem Declaration focuses on decarbonizing heavy industries (mitigation).",
+      "takeaway": "Distinguishing between adaptation and mitigation initiatives is crucial. FINI targets adaptation finance, whereas the Belem Declaration and Open Coalition target mitigation and carbon accounting.",
+      "evidenceExcerpt": "FINI (Fostering Investible National Implementation): Supported by IDB and GCF to make NAPs investible and develop USD 1 trillion in adaptation investment pipelines by 2028. Open Coalition... harmonize carbon pricing... Belem Declaration... decarbonization of heavy emitting industries",
+      "qualityScore": 85,
+      "reviewNotes": "Strong conceptual question that requires candidates to categorize recent initiatives into adaptation versus mitigation, a core theme in UPSC environment questions."
+    }
+  ],
+  "reviewerNotes": "Selected three distinct questions that cover the three initiatives mentioned in the source text without overlapping formats. Candidate 3 was chosen for its excellent distractor regarding the Amazon basin. Candidate 4 was selected to test the conceptual difference between adaptation and mitigation. Candidate 6 was refined with a stronger distractor (Climate Club) to test specific knowledge of carbon market initiatives."
+}

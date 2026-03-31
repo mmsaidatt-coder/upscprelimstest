@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "The Inter-State River Water Disputes (Amendment) Bill, 2019 aims to streamline the resolution process. Which of the following is NOT a feature of this Bill as per the proposed measures?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Establishment of a Dispute Resolution Committee (DRC) to resolve disputes amicably."
+        },
+        {
+          "id": "B",
+          "text": "Creation of a central-level data bank for each river basin."
+        },
+        {
+          "id": "C",
+          "text": "Transfer of water from surplus regions to deficit regions via the National River Linking Project."
+        },
+        {
+          "id": "D",
+          "text": "Setting a strict timeline for the completion of the tribunal's award."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "While the National River Linking Project is mentioned as a 'measure taken to resolve ISWD', it is a separate project/initiative and not a specific legislative feature of the Inter-State River Water Disputes (Amendment) Bill, 2019. The Bill specifically focuses on the DRC, the single Tribunal, timelines, and the data bank.",
+      "takeaway": "The 2019 Amendment Bill focuses on institutional and procedural reforms (DRC, Single Tribunal, Data Bank) rather than physical infrastructure projects like river linking.",
+      "evidenceExcerpt": "Inter-State River Water Disputes (Amendment) Bill, 2019: Disputes Resolution Committee... single Inter-State River Water Disputes Tribunal... Strict timeline... Data bank at the central level. [Separate bullet] National River Linking Project: Transfer water from surplus region to deficit region."
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Hard",
+      "questionType": "Conceptual",
+      "prompt": "In the context of fiscal federalism in India, which of the following components are classified under the 'State's Own Tax Revenue'?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Taxes on income, Property and Capital transactions, and Commodities and Services."
+        },
+        {
+          "id": "B",
+          "text": "Tax devolution from the Centre and Revenue Deficit Grants."
+        },
+        {
+          "id": "C",
+          "text": "Dividends and Profits from Public Sector Enterprises (PSEs) and Administrative fees."
+        },
+        {
+          "id": "D",
+          "text": "Disaster Relief Grants and Grants for Local Bodies."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "State's own tax revenue includes Taxes on income, Taxes on Property and Capital transactions, and Taxes on Commodities and Services. Tax devolution from the Centre is a separate category of Tax Revenue. Dividends and fees are Non-Tax Revenue. Grants (Disaster, Local Bodies, Revenue Deficit) are categorized as Grants from the Union Government.",
+      "takeaway": "Distinguishing between a State's own tax revenue, non-tax revenue, and transfers from the Union is essential for understanding fiscal federalism.",
+      "evidenceExcerpt": "State's own tax revenue: Taxes on income, Taxes on Property and Capital transactions, Taxes on Commodities and Services. Non-Tax Revenue: Dividends and Profits from PSEs, Fee for Administrative services. Grants from Union Government: Disaster Relief Grants, Grants for Local Bodies, Revenue Deficit Grants.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Comparison-based",
+      "prompt": "Regarding the resolution of inter-state water disputes, how does the role of the Supreme Court differ from that of a Tribunal established under the Inter-State River Water Disputes Act, 1956?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The Supreme Court has original jurisdiction to adjudicate water sharing, whereas the Tribunal only provides advisory opinions."
+        },
+        {
+          "id": "B",
+          "text": "The Supreme Court cannot adjudicate the original dispute but can interpret the decisions of the Tribunal."
+        },
+        {
+          "id": "C",
+          "text": "The Tribunal's award is subject to mandatory ratification by the Supreme Court before it becomes binding."
+        },
+        {
+          "id": "D",
+          "text": "The Supreme Court resolves disputes between states, while the Tribunal only resolves disputes between the Centre and a State."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Under Article 262, Parliament may by law exclude the jurisdiction of the Supreme Court in inter-state water disputes. While the Supreme Court cannot adjudicate the original dispute (which is the domain of the Tribunal), it retains the power to interpret the decisions of a tribunal and can direct parties back to the tribunal for clarification.",
+      "takeaway": "While Article 262 allows for the exclusion of courts from original adjudication, the Supreme Court maintains a role in interpreting tribunal awards.",
+      "evidenceExcerpt": "Note: While the Supreme Court cannot adjudicate the original dispute, it can interpret the decisions of a tribunal, and may direct parties back to the tribunal for further clarification if needed.",
+      "contextLines": []
+    }
+  ]
+}

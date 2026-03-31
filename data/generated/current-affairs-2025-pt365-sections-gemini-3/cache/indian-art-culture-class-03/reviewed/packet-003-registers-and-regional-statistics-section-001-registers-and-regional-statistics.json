@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "History",
+      "difficulty": "Hard",
+      "questionType": "Comparative-Analysis",
+      "prompt": "Based on the regional statistics of the UNESCO Memory of the World Register as of April 2025, consider the following observations:\n\n1. Europe and North America account for more than 50% of the total 570 pieces of documentary heritage inscribed in the Register.\n2. The number of inscriptions from the Asia and the Pacific region is more than double the number of inscriptions from the Latin America and the Caribbean region.\n3. Among the geographical regions, the Arab States have the lowest number of inscriptions.\n\nWhich of the statements given above are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Statement 1 is correct: Europe and North America have 315 inscriptions. Out of a total of 570, this represents approximately 55.2%, which is more than half. Statement 2 is correct: Asia and the Pacific has 180 inscriptions, while Latin America and the Caribbean has 83. Since 180 > 166 (83 x 2), it is more than double. Statement 3 is correct: Comparing the geographical regions—Africa (41), Arab States (24), Asia and the Pacific (180), Europe and North America (315), and Latin America and the Caribbean (83)—the Arab States have the lowest count (24). Note: International Organizations (10) is a category but not a geographical region.",
+      "takeaway": "The distribution of the MoW Register is heavily skewed towards Europe and North America, followed by Asia and the Pacific.",
+      "evidenceExcerpt": "As of April 2025, 570 pieces of documentary heritage - inscribed in the International Register. Memory of the World Register – Africa | 41; Arab States | 24; Asia and the Pacific | 180; Europe and North America | 315; Latin America and the Caribbean | 83; International Organizations | 10.",
+      "qualityScore": 92,
+      "reviewNotes": "This question requires precise data interpretation and comparison, a hallmark of difficult UPSC prelims questions on international reports and registers. The distinction between 'geographical region' and 'International Organizations' adds a layer of analytical depth.",
+      "contextLines": []
+    },
+    {
+      "subject": "History",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the 'Memory of the World' (MoW) International Register of UNESCO, consider the following statements:\n\n1. The selection of documentary heritage for the Register is based on the criteria of 'world significance' and 'outstanding universal value'.\n2. Documentary heritage is recommended for the Register by the Director-General of UNESCO and subsequently endorsed by the International Advisory Committee.\n3. The first inscriptions on the International Register were made in 1997.\n\nWhich of the statements given above are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: The text explicitly mentions that the Register uses the selection criteria 'world significance and outstanding universal value.' Statement 2 is incorrect: The process is the reverse—heritage is recommended by the International Advisory Committee and endorsed by the Director-General of UNESCO. Statement 3 is correct: The first inscriptions on the International Register were made in 1997.",
+      "takeaway": "The MoW Register follows a specific institutional process involving recommendation by an Advisory Committee and endorsement by the Director-General.",
+      "evidenceExcerpt": "It catalogues documentary heritage that has been recommended by the International Advisory Committee and endorsed by the Director-General of UNESCO, using the selection criteria 'world significance and outstanding universal value.' First inscriptions on the International Register were made in 1997.",
+      "qualityScore": 88,
+      "reviewNotes": "This question tests the institutional mechanism and timeline of the MoW Register, using a common UPSC distractor (swapping roles of bodies/officials).",
+      "contextLines": []
+    }
+  ],
+  "reviewerNotes": "The selected questions cover both the institutional framework and the statistical distribution of the MoW Register. The first question uses a procedural swap as a distractor, while the second requires quantitative analysis and careful reading of categories (geographical vs. organizational). Both are grounded strictly in the provided text."
+}

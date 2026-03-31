@@ -1,0 +1,80 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-013-black-holes-gravitational-waves-and-neutrinos-section-003-neutrinos-and-global-observatories",
+    "claimType": "Conceptual",
+    "claimText": "Neutrinos are subatomic particles that possess zero electrical charge, a tiny mass, and interact with matter exclusively through the weak nuclear force and gravity.",
+    "evidenceExcerpt": "Neutrinos have zero electrical charge, tiny mass... interact with matter only via weak nuclear force and gravity, and are undisturbed by magnetic fields.",
+    "pageNumbers": [
+      28
+    ],
+    "examUse": "Statement-based question on the fundamental properties of neutrinos.",
+    "distractorHooks": [
+      "Neutrinos have zero mass",
+      "Neutrinos interact via electromagnetic force",
+      "Neutrinos are deflected by magnetic fields"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-013-black-holes-gravitational-waves-and-neutrinos-section-003-neutrinos-and-global-observatories",
+    "claimType": "Factual",
+    "claimText": "Neutrinos are the second-most abundant particle in the universe, surpassed only by photons.",
+    "evidenceExcerpt": "They are the second-most abundant particle in the universe after photons.",
+    "pageNumbers": [
+      28
+    ],
+    "examUse": "Fact-based statement in a multiple-choice question regarding particle abundance.",
+    "distractorHooks": [
+      "Neutrinos are the most abundant particle in the universe",
+      "Neutrinos are less abundant than electrons"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-013-black-holes-gravitational-waves-and-neutrinos-section-003-neutrinos-and-global-observatories",
+    "claimType": "Conceptual",
+    "claimText": "Neutrino observatories are constructed deep underground to utilize the Earth's crust as a shield against interfering particles such as muons.",
+    "evidenceExcerpt": "Neutrino observatories are built underground because the Earth's crust helps block interfering particles like muons.",
+    "pageNumbers": [
+      28
+    ],
+    "examUse": "Assertion-Reason question explaining the location of neutrino observatories.",
+    "distractorHooks": [
+      "Observatories are built at high altitudes to capture cosmic rays",
+      "Underground construction is to avoid atmospheric pressure"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-013-black-holes-gravitational-waves-and-neutrinos-section-003-neutrinos-and-global-observatories",
+    "claimType": "Factual",
+    "claimText": "Major global neutrino observatories include JUNO in China, INO in India, IceCube at the South Pole, and KATRIN in Germany.",
+    "evidenceExcerpt": "Key observatories include JUNO (China), INO (Tamil Nadu, India), IceCube (South Pole), and KATRIN (Germany).",
+    "pageNumbers": [
+      28
+    ],
+    "examUse": "Correct-pair matching question associating observatories with their respective locations.",
+    "distractorHooks": [
+      "IceCube is located at the North Pole",
+      "JUNO is located in Japan",
+      "KATRIN is located in Russia"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-013-black-holes-gravitational-waves-and-neutrinos-section-003-neutrinos-and-global-observatories",
+    "claimType": "Factual",
+    "claimText": "There are three types of neutrinos: Electron, Muon, and Tau, and the JUNO observatory aims to determine their mass hierarchy.",
+    "evidenceExcerpt": "China's JUNO observatory aims to determine the mass hierarchy of the three neutrino types (Electron, Muon, and Tau).",
+    "pageNumbers": [
+      28
+    ],
+    "examUse": "Statement-based question on neutrino flavors and specific observatory objectives.",
+    "distractorHooks": [
+      "There are only two types of neutrinos",
+      "JUNO aims to study gravitational waves",
+      "INO aims to determine the mass hierarchy"
+    ]
+  }
+]

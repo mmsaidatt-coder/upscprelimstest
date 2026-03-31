@@ -1,0 +1,178 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding biofuel feedstocks:\n1. Bamboo is considered a second-generation (2G) ethanol feedstock due to its high lignocellulose content.\n2. First-generation (1G) biofuels are primarily produced from non-food crops and agricultural residues.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Bamboo is an attractive 2G ethanol feedstock due to its high lignocellulose content and non-food nature. Statement 2 is incorrect: Second-generation (2G) biofuels, not first-generation, are derived from non-food biomass and agricultural residues.",
+      "takeaway": "Bamboo's high lignocellulose content and non-food nature classify it as a second-generation (2G) biofuel feedstock.",
+      "evidenceExcerpt": "Bamboo is an attractive 2G ethanol feedstock due to its high lignocellulose content and non-food nature."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to 'E-Methanol', recently seen in the news, consider the following statements:\n1. It is synthesized by combining green hydrogen with captured carbon dioxide.\n2. The green hydrogen required for its production is typically obtained through the anaerobic digestion of biomass.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: E-Methanol is a low-carbon fuel produced by combining green hydrogen with captured carbon dioxide. Statement 2 is incorrect: The green hydrogen used in this process is derived from water electrolysis, whereas anaerobic digestion of biomass produces biogas.",
+      "takeaway": "E-Methanol is a low-carbon fuel created by combining captured CO2 with green hydrogen, which is derived from water electrolysis.",
+      "evidenceExcerpt": "E-Methanol is produced by combining green hydrogen (from water electrolysis) with captured CO2."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the 'Methanol Economy' Programme in India:\n1. It is spearheaded by the Ministry of Petroleum and Natural Gas to reduce India's oil import bill.\n2. It promotes the blending of Di-methyl Ether (DME) with Liquefied Petroleum Gas (LPG).\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The 'Methanol Economy' Programme is spearheaded by NITI Aayog, not the Ministry of Petroleum and Natural Gas. Statement 2 is correct: The programme actively promotes the blending of Di-methyl Ether (DME) in LPG.",
+      "takeaway": "NITI Aayog is the nodal agency spearheading the 'Methanol Economy' Programme in India, which includes initiatives like blending DME in LPG.",
+      "evidenceExcerpt": "NITI Aayog spearheads the 'Methanol Economy' Programme in India, promoting blending of DME (Di-methyl Ether) in LPG."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding biogas:\n1. It is produced through the aerobic decomposition of organic matter.\n2. Methane constitutes more than half of the total volume of raw biogas.\n3. Hydrogen sulfide is completely absent in raw biogas.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect: Raw biogas is produced by the anaerobic (oxygen-free) digestion of biomass. Statement 2 is correct: Biogas primarily consists of Methane, making up 55-60% of its volume. Statement 3 is incorrect: Raw biogas contains impurities, including Hydrogen sulfide (H2S).",
+      "takeaway": "Raw biogas is generated via anaerobic digestion and is primarily composed of Methane (55-60%) and Carbon dioxide (35-40%), along with trace impurities like H2S.",
+      "evidenceExcerpt": "Raw biogas is produced by anaerobic digestion of biomass and waste sources. Biogas primarily consists of Methane (55-60%) and Carbon dioxide (35-40%), along with impurities like H2S."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "correct-pair",
+      "prompt": "Consider the following pairs regarding recent milestone projects in the alternative biofuels sector:\n\n1. India's first Bamboo-based Bio-Ethanol Plant : Assam\n2. India's first Cooperative Multi-Feed Compressed Biogas (CBG) Plant : Maharashtra\n3. World's first commercial E-Methanol plant : Denmark\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "All three pairs are correctly matched. India's first Bamboo-based Bio-Ethanol Plant was inaugurated in Assam. India's First Cooperative Multi-Feed CBG Plant was opened in Maharashtra. The world's first commercial E-Methanol plant was inaugurated in Denmark.",
+      "takeaway": "Tracking the locations of first-of-their-kind renewable energy and biofuel plants is important for Prelims, as these represent significant milestones in the global and national energy transition.",
+      "evidenceExcerpt": "India's first Bamboo-based Bio-Ethanol Plant was inaugurated in Assam... The world's first commercial E-Methanol plant opened in Denmark... India's First Cooperative Multi-Feed CBG Plant opened in Maharashtra."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "comparison-driven",
+      "prompt": "Which one of the following best describes the fundamental difference in the production processes of E-Methanol and Compressed Biogas (CBG)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "E-Methanol is synthesized by combining green hydrogen with captured carbon dioxide, whereas CBG is generated through the anaerobic digestion of biomass."
+        },
+        {
+          "id": "B",
+          "text": "E-Methanol is derived from the aerobic fermentation of high-lignocellulose feedstocks, whereas CBG is produced by water electrolysis."
+        },
+        {
+          "id": "C",
+          "text": "E-Methanol production relies on blending Di-methyl Ether (DME) with natural gas, whereas CBG is extracted directly from fossil fuel reserves."
+        },
+        {
+          "id": "D",
+          "text": "E-Methanol is produced by the methanation of agricultural residues, whereas CBG is synthesized by combining atmospheric nitrogen with green hydrogen."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "E-Methanol is a synthetic low-carbon fuel produced by combining green hydrogen (obtained via water electrolysis) with captured carbon dioxide. In contrast, Compressed Biogas (CBG) is derived from raw biogas, which is produced biologically through the anaerobic digestion of biomass and waste sources.",
+      "takeaway": "Understanding the distinct production pathways of emerging alternative fuels—such as synthetic fuels (E-Methanol) versus biologically derived fuels (CBG)—is crucial for evaluating their role in decarbonization.",
+      "evidenceExcerpt": "E-Methanol is produced by combining green hydrogen (from water electrolysis) with captured CO2... CBG is prepared from raw biogas (anaerobic digestion of biomass), which mainly contains 55-60% Methane and 35-40% Carbon dioxide."
+    }
+  ]
+}

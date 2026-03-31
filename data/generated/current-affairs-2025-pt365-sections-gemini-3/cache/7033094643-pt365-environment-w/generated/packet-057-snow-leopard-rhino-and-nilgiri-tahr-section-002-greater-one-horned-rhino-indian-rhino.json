@@ -1,0 +1,123 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Greater One-Horned Rhino (Indian Rhino):\n1. It is the largest of all Asian rhino species.\n2. It is typically a solitary animal.\n3. It is listed as Critically Endangered on the IUCN Red List.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The Indian Rhino is the largest of all Asian rhino species. Statement 2 is correct: It is usually a solitary animal. Statement 3 is incorrect: The Greater One-Horned Rhino is listed as Vulnerable (VU) on the IUCN Red List, not Critically Endangered.",
+      "takeaway": "The Greater One-Horned Rhino is the largest Asian rhino, typically solitary, and holds a Vulnerable status on the IUCN Red List.",
+      "evidenceExcerpt": "IUCN Status: VU (Vulnerable)... Characteristics: One among 5 species of rhino... Indian Rhino is the largest of all Asian rhino species. Usually solitary."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of Rhino species and their IUCN Red List status:\n1. White Rhino : Near Threatened\n2. Black Rhino : Critically Endangered\n3. Sumatran Rhino : Vulnerable\n4. Javan Rhino : Critically Endangered\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "Only three pairs"
+        },
+        {
+          "id": "D",
+          "text": "All four pairs"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Pair 1 is correctly matched: The White Rhino is Near Threatened. Pair 2 is correctly matched: The Black Rhino is Critically Endangered. Pair 3 is incorrectly matched: The Sumatran Rhino is Critically Endangered, not Vulnerable. Pair 4 is correctly matched: The Javan Rhino is Critically Endangered.",
+      "takeaway": "Among the 5 rhino species, the White Rhino is Near Threatened, the Indian Rhino is Vulnerable, and the Black, Sumatran, and Javan rhinos are all Critically Endangered.",
+      "evidenceExcerpt": "2 African: White Rhino (Near Threatened), Black Rhino (Critically Endangered). 3 Asian: Sumatran (Critically Endangered), Javan (Critically Endangered), and Indian Rhino."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements:\n1. The Rhino DNA Index System (RhoDIS) India is a DNA data library used for the profiling of rhino horns.\n2. The New Delhi Declaration on Asian Rhinos 2019 is a conservation initiative focused exclusively on the Greater One-Horned Rhino.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Assam Forest Department started DNA profiling of Rhino horns to add to the RhoDIS India DNA data library. Statement 2 is incorrect: The New Delhi Declaration on Asian Rhinos 2019 focuses on 'Asian Rhinos', which includes not just the Greater One-Horned Rhino, but also the Sumatran and Javan rhinos.",
+      "takeaway": "RhoDIS India is utilized for DNA profiling of rhino horns. The New Delhi Declaration targets all Asian rhino species, not just the Indian Rhino.",
+      "evidenceExcerpt": "Assam Forest Department started DNA profiling of Rhino horns and add it to Rhino DNA Index System (RhoDIS) India DNA data library... Conservation initiatives: National Rhino Conservation Strategy 2019; New Delhi Declaration on Asian Rhinos 2019; Indian Rhino Vision 2020."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Assertion-Reason",
+      "prompt": "Given below are two statements, one labelled as Assertion (A) and the other as Reason (R):",
+      "contextLines": [
+        "Assertion (A): The Greater One-Horned Rhino is accorded the highest degree of protection from hunting and trade under India's Wildlife (Protection) Act, 1972.",
+        "Reason (R): The global population of the Greater One-Horned Rhino has declined to such an extent that it is now classified as Critically Endangered on the IUCN Red List."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both Assertion (A) and Reason (R) are correct and Reason (R) is the correct explanation for Assertion (A)."
+        },
+        {
+          "id": "B",
+          "text": "Both Assertion (A) and Reason (R) are correct but Reason (R) is not the correct explanation for Assertion (A)."
+        },
+        {
+          "id": "C",
+          "text": "Assertion (A) is correct but Reason (R) is incorrect."
+        },
+        {
+          "id": "D",
+          "text": "Assertion (A) is incorrect but Reason (R) is correct."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Assertion (A) is correct because the Greater One-Horned Rhino is listed under Schedule I of the Wildlife (Protection) Act, 1972, which provides absolute protection. Reason (R) is incorrect because the Greater One-Horned Rhino is listed as Vulnerable (VU) on the IUCN Red List, not Critically Endangered.",
+      "takeaway": "While the Greater One-Horned Rhino receives maximum legal protection in India (WPA Schedule I), its global IUCN status is Vulnerable, distinguishing it from its Critically Endangered Asian counterparts.",
+      "evidenceExcerpt": "Conservation Status: WPA, 1972: Schedule I; CITES: Appendix I; IUCN Status: VU (Vulnerable)."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Project Waterworth', recently seen in the news:\n1. It is the world's longest subsea cable project.\n2. It is designed to connect all the continents of the world using fiber-optic technology.\n3. In India, its designated landing sites are located on both the western and eastern coasts.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Project Waterworth, initiated by Meta, is the world's longest subsea cable project.\nStatement 2 is incorrect: It is designed to connect five major continents, not all seven continents of the world.\nStatement 3 is correct: The selected landing sites in India are Mumbai (western coast) and Visakhapatnam (eastern coast).",
+      "takeaway": "Project Waterworth is Meta's subsea fiber-optic cable project connecting five continents, with Indian landing sites in Mumbai and Visakhapatnam.",
+      "evidenceExcerpt": "Meta has selected Mumbai and Visakhapatnam as the landing sites for the undersea cable project, Waterworth. It will connect five major continents. It is the world’s longest subsea cable project.",
+      "qualityScore": 88,
+      "reviewNotes": "The question effectively tests knowledge of a major infrastructure project. Framing the landing sites conceptually (western and eastern coasts) rather than just naming the cities elevates the question to UPSC standards. The distractor regarding 'all continents' is highly plausible given it is the 'world's longest' project."
+    }
+  ],
+  "reviewerNotes": "Selected and refined Candidate 1. Improved the wording of the statements to sound more formal and conceptual, particularly by testing the geographical distribution of the landing sites in India."
+}

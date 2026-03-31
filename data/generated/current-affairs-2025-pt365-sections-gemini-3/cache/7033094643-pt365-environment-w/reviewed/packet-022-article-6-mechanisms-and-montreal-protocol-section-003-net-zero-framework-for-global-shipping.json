@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the regulation of emissions from international shipping, consider the following statements:\n1. The global shipping industry accounts for more than 10 percent of global greenhouse gas (GHG) emissions.\n2. The Net-Zero Framework for Global Shipping will be incorporated into Annex VI of the MARPOL Convention.\n3. It is the first framework globally to combine mandatory emissions limits and GHG pricing across an entire sector.\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Shipping accounts for almost 3 percent of global GHG emissions, not more than 10 percent.\nStatement 2 is correct: The Framework will be included in Annex VI of MARPOL (International Convention for the Prevention of Pollution from Ships).\nStatement 3 is correct: It is uniquely the first framework to combine mandatory emissions limits and GHG pricing across an entire sector.",
+      "takeaway": "Shipping contributes ~3% to global GHG emissions. The IMO's new framework under MARPOL Annex VI is pioneering for combining mandatory emission limits with sector-wide GHG pricing.",
+      "evidenceExcerpt": "Shipping accounts for almost 3 percent of global GHG emissions. The Framework will be included in Annex VI of MARPOL... It is the first framework to combine mandatory emissions limits and GHG pricing across an entire sector.",
+      "qualityScore": 85,
+      "reviewNotes": "Good use of the 'How many statements' format. Statement 1 tests a common misconception (overestimating shipping emissions), making it a strong distractor."
+    }
+  ],
+  "reviewerNotes": "Selected three questions that cover different aspects of the Net-Zero Framework for Global Shipping: the basic applicability and fuel standards, the MARPOL Annex VI integration and sector-wide pricing, and the specific distinction of MARPOL Annex VI's scope. Improved distractors to align with UPSC standards."
+}

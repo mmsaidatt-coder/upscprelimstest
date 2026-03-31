@@ -1,0 +1,50 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-036-rare-earth-elements-and-nanotechnology-section-005-metal-organic-framework-mof",
+    "claimType": "Factual",
+    "claimText": "The 2025 Nobel Prize in Chemistry was awarded for the development of Metal-Organic Frameworks (MOFs).",
+    "evidenceExcerpt": "The 2025 Nobel Prize in Chemistry was awarded for the development of Metal-Organic Frameworks (MOFs).",
+    "pageNumbers": [
+      72
+    ],
+    "examUse": "Statement-based question on recent Nobel Prizes in science.",
+    "distractorHooks": [
+      "Nobel Prize in Physics",
+      "Awarded for Quantum Dots",
+      "Awarded for Graphene"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-036-rare-earth-elements-and-nanotechnology-section-005-metal-organic-framework-mof",
+    "claimType": "Conceptual",
+    "claimText": "Metal-Organic Frameworks (MOFs) are composed of metal ions acting as joints and organic carbon-based molecules acting as links.",
+    "evidenceExcerpt": "MOFs are special materials made of metal ions (acting as joints) and organic carbon-based molecules (acting as links).",
+    "pageNumbers": [
+      72
+    ],
+    "examUse": "Statement-based question on the structural composition of MOFs.",
+    "distractorHooks": [
+      "Composed entirely of inorganic metals",
+      "Organic molecules act as joints and metal ions as links",
+      "Made of polymers without metal ions"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-036-rare-earth-elements-and-nanotechnology-section-005-metal-organic-framework-mof",
+    "claimType": "Feature",
+    "claimText": "Metal-Organic Frameworks (MOFs) are highly porous materials that form 1D, 2D, or 3D network structures containing cavities.",
+    "evidenceExcerpt": "They join through chemical bonds to form 1D, 2D, or 3D network structures. These structures contain cavities, making the material highly porous.",
+    "pageNumbers": [
+      72
+    ],
+    "examUse": "Feature-based question on the physical properties of MOFs.",
+    "distractorHooks": [
+      "MOFs are highly dense and non-porous",
+      "MOFs can only form 2D structures",
+      "MOFs lack internal cavities"
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs:\n1. Primary Deficit : Fiscal Deficit minus interest payments\n2. Effective Revenue Deficit : Fiscal Deficit minus grants for creation of capital assets\n3. Revenue Deficit : Excess of revenue expenditure over revenue receipts\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: Primary Deficit is calculated by subtracting interest payments from the Fiscal Deficit. Pair 2 is incorrectly matched: Effective Revenue Deficit is calculated by subtracting grants for the creation of capital assets from the Revenue Deficit, not the Fiscal Deficit. Pair 3 is correctly matched: Revenue Deficit is the excess of revenue expenditure over revenue receipts.",
+      "takeaway": "Primary Deficit removes the burden of past debt (interest payments) from the current Fiscal Deficit. Effective Revenue Deficit refines the Revenue Deficit by accounting for capital creation via grants.",
+      "evidenceExcerpt": "Primary Deficit is calculated by subtracting interest payments from Fiscal Deficit. Revenue Deficit is the excess of revenue expenditure over revenue receipts... Effective Revenue Deficit excludes grants for creation of Capital Assets from Revenue Deficit.",
+      "qualityScore": 85,
+      "reviewNotes": "Good correct-pair question testing precise definitions of fiscal terms. Distractor for pair 2 is highly plausible."
+    }
+  ],
+  "reviewerNotes": "Selected three questions that cover the definitions of deficits, their implications, and the concept of fiscal slippage. Rewrote prompts to strictly adhere to UPSC formatting and combined statements to increase rigor."
+}

@@ -1,0 +1,65 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the WHO Global Conference on Air Pollution and Health:\n\n1. It was organized exclusively by the World Health Organization (WHO) to address the health impacts of climate change.\n2. The participating countries committed to reducing the health impacts of air pollution by 50% by the year 2040.\n3. India reaffirmed its commitment to this global target under the National Clean Air Programme (NCAP).\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The conference was not organized exclusively by the WHO. It was co-organized by the WHO, Columbia, and other UN Agencies such as UNEP and WMO.\nStatement 2 is correct: Over 50 countries committed to the shared goal of reducing the health impacts of air pollution by 50% by 2040.\nStatement 3 is correct: India reaffirmed its commitment to this 2040 goal under its domestic National Clean Air Programme (NCAP).",
+      "takeaway": "The WHO Global Conference on Air Pollution and Health saw over 50 countries, including India (under NCAP), commit to halving the health impacts of air pollution by 2040. It was a collaborative effort involving multiple UN agencies.",
+      "evidenceExcerpt": "Co-organized by WHO and Columbia and other UN Agencies like UNEP, WMO etc. Objectives: Accelerating action for clean air, clean energy access and climate change mitigation. Key Highlights: Over 50 countries, committed to shared goal of reducing health impacts of air pollution by 50% by 2040. India reaffirmed its commitment by 2040 under National Clean Air Programme."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Assertion-Reason",
+      "prompt": "Consider the following Assertion (A) and Reason (R) regarding the WHO Global Conference on Air Pollution and Health:",
+      "contextLines": [
+        "Assertion (A): The conference was co-organized by non-health United Nations agencies such as the United Nations Environment Programme (UNEP) and the World Meteorological Organization (WMO).",
+        "Reason (R): The mandate of the conference extends beyond medical interventions to include accelerating action for clean energy access and climate change mitigation."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both A and R are correct and R is the correct explanation of A."
+        },
+        {
+          "id": "B",
+          "text": "Both A and R are correct but R is not the correct explanation of A."
+        },
+        {
+          "id": "C",
+          "text": "A is correct but R is not correct."
+        },
+        {
+          "id": "D",
+          "text": "A is not correct but R is correct."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Both statements are correct. The involvement of environmental and meteorological agencies (UNEP, WMO) is a direct consequence of the conference's broader objectives, which integrate clean energy access and climate change mitigation with public health outcomes.",
+      "takeaway": "Addressing the health impacts of air pollution requires a multi-agency approach that bridges public health, environmental protection, and meteorological monitoring.",
+      "evidenceExcerpt": "Co-organized by WHO and Columbia and other UN Agencies like UNEP, WMO etc. Objectives: Accelerating action for clean air, clean energy access and climate change mitigation."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Mercator map projection:\n1. It is a conformal map projection that preserves local shapes and angles.\n2. It accurately represents the relative geographical area of landmasses across all latitudes.\n3. The African Union has endorsed the 'Correct the Map' campaign to replace it with the Equal Earth map.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The Mercator projection is a conformal map that preserves local shapes and angles, making it historically useful for navigation.\nStatement 2 is incorrect: It distorts scale, making polar landmasses appear significantly larger and equatorial regions smaller (e.g., Africa appears roughly the size of Greenland despite being 14 times larger).\nStatement 3 is correct: The African Union endorsed the 'Correct the Map' campaign to replace the Mercator projection with equal-area alternatives like the Equal Earth map.",
+      "takeaway": "While the Mercator projection is useful for navigation due to its preservation of angles, its severe area distortion at high latitudes has led to campaigns for equal-area alternatives.",
+      "evidenceExcerpt": "Designed in 1569 by Gerardus Mercator, this conformal map preserves local shapes and angles but distorts scale, making polar landmasses appear larger and equatorial regions smaller... The African Union endorsed the Correct the Map campaign to replace it with alternatives like the Equal Earth map.",
+      "qualityScore": 85,
+      "reviewNotes": "Good coverage of the conceptual and factual aspects of the Mercator projection. The statements are clear and the distractors are plausible."
+    }
+  ],
+  "reviewerNotes": "Selected two strong questions. Candidate 1 was retained with minor refinements to the explanation. Candidate 2 was rewritten from an older Assertion-Reason format into the contemporary Statement-I/Statement-II format used in recent UPSC Prelims."
+}

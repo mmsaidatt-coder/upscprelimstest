@@ -210,7 +210,7 @@ function KpiCard({ label, value, sub }: { label: string; value: string | number;
 }
 
 function CustomTooltip({ active, payload }: { active?: boolean; payload?: { name: string; value: number }[] }) {
-  if (!active || !payload?.length) return null;
+  if (!active || !payload?.length || !payload[0]) return null;
   return (
     <div className="rounded-xl bg-[#1a1a1a] border border-[#333] px-4 py-3 shadow-xl text-sm min-w-[140px]">
       <p className="text-[10px] font-bold uppercase tracking-wider text-[var(--muted)] mb-1">{payload[0].name}</p>
@@ -459,7 +459,7 @@ function SubjectAnalyseDashboard() {
   const router = useRouter();
   const subject = searchParams.get("subject") ?? "History";
   
-  const [topics, setTopics] = useState<TopicRow[]>(SUBJECT_TOPICS[subject] ?? SUBJECT_TOPICS["History"]);
+  const [topics, setTopics] = useState<TopicRow[]>(SUBJECT_TOPICS[subject] ?? SUBJECT_TOPICS["History"] ?? []);
   const [loadingMatrix, setLoadingMatrix] = useState(false);
 
   useEffect(() => {
@@ -479,7 +479,7 @@ function SubjectAnalyseDashboard() {
 
   const [selectedTopic, setSelectedTopic] = useState<string | null>(null);
   const [selectedYear, setSelectedYear] = useState<number | null>(null);
-  const [selectedBarColor, setSelectedBarColor] = useState<string>(BAR_COLORS[0]);
+  const [selectedBarColor, setSelectedBarColor] = useState<string>(BAR_COLORS[0] ?? "#a3e635");
 
   // Derived ──────────────────────────────────────────
   const sortedTopics = [...topics].sort((a, b) => getTotal(b) - getTotal(a));
@@ -497,7 +497,7 @@ function SubjectAnalyseDashboard() {
 
   const handleBarClick = (data: unknown, index: number) => {
     const d = data as { topic: string };
-    setSelectedBarColor(BAR_COLORS[index % BAR_COLORS.length]);
+    setSelectedBarColor(BAR_COLORS[index % BAR_COLORS.length] ?? "#a3e635");
     setSelectedYear(null);
     setSelectedTopic(d.topic);
   };
@@ -577,7 +577,7 @@ function SubjectAnalyseDashboard() {
                 />
                 <Tooltip
                   content={({ active, payload }) => {
-                    if (!active || !payload?.length) return null;
+                    if (!active || !payload?.length || !payload[0]) return null;
                     const d = payload[0].payload;
                     return (
                       <div className="rounded-xl bg-[#1a1a1a] border border-[#333] px-4 py-3 shadow-xl text-sm">
@@ -651,7 +651,7 @@ function SubjectAnalyseDashboard() {
                       className="cursor-pointer hover:bg-white/[0.02] transition-colors"
                       onClick={() => {
                         const idx = sortedTopics.findIndex(s => s.topic === t.topic);
-                        setSelectedBarColor(BAR_COLORS[idx % BAR_COLORS.length]);
+                        setSelectedBarColor(BAR_COLORS[idx % BAR_COLORS.length] ?? "#a3e635");
                         setSelectedYear(null);
                         setSelectedTopic(t.topic);
                       }}
@@ -676,7 +676,7 @@ function SubjectAnalyseDashboard() {
                                 if (v === 0) return;
                                 e.stopPropagation();
                                 const idx = sortedTopics.findIndex(s => s.topic === t.topic);
-                                setSelectedBarColor(BAR_COLORS[idx % BAR_COLORS.length]);
+                                setSelectedBarColor(BAR_COLORS[idx % BAR_COLORS.length] ?? "#a3e635");
                                 setSelectedYear(y);
                                 setSelectedTopic(t.topic);
                               }}

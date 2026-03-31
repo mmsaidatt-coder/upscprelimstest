@@ -1,0 +1,80 @@
+[
+  {
+    "id": "packet-008-ai-risks-paradoxes-and-hardware-section-001-deepfake-technologies-and-regulation",
+    "packetId": "packet-008-ai-risks-paradoxes-and-hardware",
+    "topic": "IT & Computer",
+    "subtopic": "AI Risks, Paradoxes and Hardware",
+    "title": "Deepfake Technologies and Regulation",
+    "focus": "Technical components of deepfakes (GANs, Autoencoders) and India's regulatory approach (DPDP Act, IT Rules 2021).",
+    "pageNumbers": [
+      17
+    ],
+    "questionQuota": 3,
+    "rationale": "Deepfakes are a major current affairs topic. Questions can target the underlying tech (GANs) or the specific Indian regulations (DPDP Act, IT Rules amendments).",
+    "sectionExcerpt": "Deepfakes involve replacing faces and synthesizing speech using technologies like Autoencoders and Generative Adversarial Networks (GANs), which consist of a Generator and an Adversary. India lacks specific deepfake laws but regulates them via the DPDP Act 2023 (penalizing non-consensual use of personal data) and proposed amendments to the IT Rules 2021, which mandate labelling or metadata for Synthetically Generated Information (SGI).",
+    "evidenceBullets": [
+      "Autoencoders reconstruct input from simpler representations.",
+      "GANs utilize a Generator to create data and an Adversary to detect flaws.",
+      "DPDP Act 2023 penalizes deepfake creation involving personal data without consent.",
+      "MeitY proposed IT Rules 2021 amendments require platforms to label Synthetically Generated Information (SGI)."
+    ]
+  },
+  {
+    "id": "packet-008-ai-risks-paradoxes-and-hardware-section-002-ai-developments-in-biology-and-genomics",
+    "packetId": "packet-008-ai-risks-paradoxes-and-hardware",
+    "topic": "IT & Computer",
+    "subtopic": "AI Risks, Paradoxes and Hardware",
+    "title": "AI Developments in Biology and Genomics",
+    "focus": "Recent AI models developed for biological and genomic predictions (BioEmu, AlphaGenome, AlphaFold, C2S-SCALE).",
+    "pageNumbers": [
+      17
+    ],
+    "questionQuota": 3,
+    "rationale": "Highly examinable for UPSC Sci & Tech (match the following or statement-based questions on AI applications in biology).",
+    "sectionExcerpt": "Recent AI developments in biology include Microsoft's BioEmu for predicting protein shapes, and Google DeepMind's AlphaGenome for predicting DNA mutation impacts. AlphaFold, also by DeepMind, predicts 3D protein structures and earned Nobel laureates Demis Hassabis and John Jumper recognition. C2S-SCALE, developed by DeepMind and Yale, interprets complex biological interactions at the cellular level.",
+    "evidenceBullets": [
+      "BioEmu is a deep learning system by Microsoft for predicting protein shapes.",
+      "AlphaGenome by Google DeepMind predicts how DNA mutations affect health.",
+      "AlphaFold predicts 3D protein structures from amino acid sequences.",
+      "C2S-SCALE by Google DeepMind and Yale understands the language of individual cells."
+    ]
+  },
+  {
+    "id": "packet-008-ai-risks-paradoxes-and-hardware-section-003-ai-hardware-and-space-computing-initiatives",
+    "packetId": "packet-008-ai-risks-paradoxes-and-hardware",
+    "topic": "IT & Computer",
+    "subtopic": "AI Risks, Paradoxes and Hardware",
+    "title": "AI Hardware and Space Computing Initiatives",
+    "focus": "Google's initiatives in AI hardware (Ironwood, TPU) and space-based AI computing (Project Suncatcher).",
+    "pageNumbers": [
+      17,
+      18
+    ],
+    "questionQuota": 2,
+    "rationale": "Hardware and novel computing environments are distinct tech concepts suitable for prelims factual questions.",
+    "sectionExcerpt": "Google launched Project Suncatcher to explore AI computing in space using solar-powered satellites in low-Earth orbit. Google also developed Ironwood, its 7th-generation Tensor Processing Unit (TPU). A TPU is an Application-Specific Integrated Circuit (ASIC) specialized for AI model performance.",
+    "evidenceBullets": [
+      "Project Suncatcher explores AI computing in space via solar-powered satellites.",
+      "Ironwood is Google's 7th-generation Tensor Processing Unit (TPU).",
+      "A TPU is an Application-Specific Integrated Circuit (ASIC) developed by Google for AI."
+    ]
+  },
+  {
+    "id": "packet-008-ai-risks-paradoxes-and-hardware-section-004-economic-paradoxes-in-ai-adoption",
+    "packetId": "packet-008-ai-risks-paradoxes-and-hardware",
+    "topic": "IT & Computer",
+    "subtopic": "AI Risks, Paradoxes and Hardware",
+    "title": "Economic Paradoxes in AI Adoption",
+    "focus": "Definitions of the Jevons Paradox and Solow Paradox in the context of AI.",
+    "pageNumbers": [
+      18
+    ],
+    "questionQuota": 2,
+    "rationale": "Economic concepts applied to emerging tech are classic UPSC material, perfect for conceptual questions.",
+    "sectionExcerpt": "The increased global adoption of AI systems has highlighted two economic paradoxes. The Jevons Paradox occurs when technological progress makes a resource more efficient, leading to an increase in demand for that resource. The Solow Paradox describes a situation where the extensive use of advanced technology, like computers or AI, fails to result in an expected increase in productivity.",
+    "evidenceBullets": [
+      "Jevons Paradox states that increased resource efficiency leads to increased demand for that resource.",
+      "Solow Paradox describes the phenomenon where advanced technology adoption does not yield expected productivity gains."
+    ]
+  }
+]

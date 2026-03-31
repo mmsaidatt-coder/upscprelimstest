@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to 'Analog Space Research' in India, consider the following statements:\n1. It is spearheaded by the Indian Space Research Organisation's (ISRO) Human Space Flight Centre (HSFC).\n2. It involves simulating extraterrestrial environments on Earth to test human survival protocols and equipment.\n3. Tso Kar Valley has been selected for this research as its high atmospheric pressure and extreme cold closely mimic Venus-like conditions.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: India's analog space research is led by ISRO's Human Space Flight Centre (HSFC).\nStatement 2 is correct: The primary objective is to simulate extraterrestrial environments, such as those on the Moon and Mars, to test human survival, health protocols, and equipment.\nStatement 3 is incorrect: Tso Kar Valley was chosen for its Mars-like (not Venus-like) conditions, which include low atmospheric pressure (not high), high UV radiation, extreme cold, and saline permafrost.",
+      "takeaway": "Analog space research in India is led by ISRO's HSFC to prepare for human spaceflight by simulating extraterrestrial conditions on Earth. Tso Kar Valley serves as a Martian analog due to its low pressure, extreme cold, and saline permafrost.",
+      "evidenceExcerpt": "Led by: ISRO’s Human Space Flight Centre (HSFC)... Simulates extraterrestrial environments like the Moon and Mars. Enables testing of human survival, health protocols, and equipment... Why Tso Kar Valley was chosen? Mars-like conditions: High UV radiation, Low atmospheric pressure, Extreme cold and Saline permafrost.",
+      "qualityScore": 85,
+      "reviewNotes": "Converted to the recent 'How many statements' format. The distractors in statement 3 are plausible but factually inverted (high vs low pressure, Venus vs Mars), which is a classic UPSC trap."
+    }
+  ],
+  "reviewerNotes": "Selected two strong questions. Candidate 1 was upgraded to the 'How many statements are correct' format to match recent UPSC trends, with a well-crafted distractor in statement 3. Candidate 2 is a solid factual pair-matching question."
+}

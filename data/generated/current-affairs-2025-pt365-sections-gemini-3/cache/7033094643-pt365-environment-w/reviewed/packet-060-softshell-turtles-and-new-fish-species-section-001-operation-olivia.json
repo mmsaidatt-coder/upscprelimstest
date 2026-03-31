@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Operation Olivia':\n1. It is an initiative of the Indian Coast Guard aimed at marine turtle conservation.\n2. It is conducted round-the-year along the eastern coast of India to protect nesting sites.\n3. Its primary focus areas include the Gahirmatha beach and the Devi river mouth.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Operation Olivia was initiated in the 1980s by the Indian Coast Guard for turtle conservation in Odisha.\nStatement 2 is incorrect: The operation is not conducted round-the-year; it is conducted annually from November to May, which coincides with the turtle breeding and nesting season.\nStatement 3 is correct: The operation focuses on key nesting sites in Odisha, specifically Gahirmatha Beach, Rushikulya River Mouth, and Devi River Mouth.",
+      "takeaway": "Operation Olivia is an Indian Coast Guard initiative conducted annually from November to May, focusing on protecting turtles at Odisha's key nesting sites: Gahirmatha, Rushikulya, and Devi river mouths.",
+      "evidenceExcerpt": "Initiated in 1980s by Indian Coast Guard, conducted every year from November to May. Focuses on Gahirmatha Beach, Rushikulya River Mouth, and Devi River Mouth.",
+      "qualityScore": 85,
+      "reviewNotes": "A strong UPSC-style statement question that tests the implementing agency, the specific timing (which is a common trap in UPSC where seasonal operations are stated as round-the-year), and the geographical focus of the conservation effort."
+    }
+  ],
+  "reviewerNotes": "Selected and refined Candidate 1. Adjusted the statements to test the implementing agency, the operational timing (changing it to a 'round-the-year' distractor to test precision), and the geographical locations. The distractors are plausible and align well with UPSC's pattern of testing environmental initiatives."
+}

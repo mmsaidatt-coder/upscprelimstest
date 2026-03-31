@@ -1,0 +1,49 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-060-softshell-turtles-and-new-fish-species-section-001-operation-olivia",
+    "claimType": "Factual",
+    "claimText": "Operation Olivia was initiated in the 1980s by the Indian Coast Guard.",
+    "evidenceExcerpt": "Initiated in 1980s by Indian Coast Guard",
+    "pageNumbers": [
+      128
+    ],
+    "examUse": "Statement-based question on the implementing agency of Operation Olivia.",
+    "distractorHooks": [
+      "Initiated by the Indian Navy",
+      "Initiated by the Ministry of Environment, Forest and Climate Change",
+      "Initiated in the 2000s"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-060-softshell-turtles-and-new-fish-species-section-001-operation-olivia",
+    "claimType": "Factual",
+    "claimText": "Operation Olivia is conducted annually from November to May.",
+    "evidenceExcerpt": "conducted every year from November to May.",
+    "pageNumbers": [
+      128
+    ],
+    "examUse": "Statement-based question on the timing and frequency of Operation Olivia.",
+    "distractorHooks": [
+      "Conducted from June to October",
+      "Conducted biennially"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-060-softshell-turtles-and-new-fish-species-section-001-operation-olivia",
+    "claimType": "Geographical",
+    "claimText": "Operation Olivia focuses on Gahirmatha Beach, Rushikulya River Mouth, and Devi River Mouth.",
+    "evidenceExcerpt": "Focuses on Gahirmatha Beach, Rushikulya River Mouth, and Devi River Mouth.",
+    "pageNumbers": [
+      128
+    ],
+    "examUse": "Location-based correct-pair or statement question regarding the operational areas of Operation Olivia.",
+    "distractorHooks": [
+      "Focuses on the Gulf of Mannar",
+      "Focuses on the Sundarbans",
+      "Focuses on the Malabar Coast"
+    ]
+  }
+]

@@ -1,0 +1,98 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Statement",
+      "prompt": "Consider the following statements regarding the Padma Awards:\n1. The Padma Awards Committee is headed by the Cabinet Secretary.\n2. The recommendations of the Committee are submitted to both the Prime Minister and the President of India for approval.\n3. The total number of Padma awards given in a year is capped at 120, excluding posthumous awards and those given to non-resident Indians (NRIs).\n4. A higher category Padma award can be granted to an individual only after a mandatory five-year gap from the previous award, with no exceptions permitted.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: The Padma Awards Committee is headed by the Cabinet Secretary and includes the Home Secretary, Secretary to the President, and four to six eminent persons.\nStatement 2 is correct: The recommendations made by the Committee are submitted to the Prime Minister and the President of India for approval.\nStatement 3 is correct: The total number of awards in a year is capped at 120. This limit strictly excludes posthumous awards and those given to non-residents.\nStatement 4 is incorrect: While a higher category Padma award can normally be granted only after a five-year gap from the previous award, exceptions can be made by the Awards Committee for highly deserving cases.",
+      "takeaway": "The Padma Awards Committee is headed by the Cabinet Secretary. The awards have a strict cap of 120 per year (excluding posthumous/NRIs), and while a 5-year gap is standard for higher awards, exceptions are allowed.",
+      "evidenceExcerpt": "- It is headed by the Cabinet Secretary and includes Home Secretary, Secretary to the President and four to six eminent persons as members\n- Recommendations are then submitted to the Prime Minister and the President of India for approval.\n- A higher category Padma award can be granted only after a five-year gap from the previous award, but exceptions can be made by the Awards Committee for deserving cases.\n- The total number of awards in a year (excluding posthumous and to non-residents) is capped at 120.",
+      "qualityScore": 90,
+      "reviewNotes": "Excellent multi-statement question covering procedural nuances, caps, and exceptions. Distractors are plausible and test careful reading."
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Applied",
+      "prompt": "According to the eligibility criteria for the Padma Awards, which of the following individuals is eligible to receive the award?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A serving officer of the Indian Administrative Service (IAS)"
+        },
+        {
+          "id": "B",
+          "text": "A scientist working in a Public Sector Undertaking (PSU)"
+        },
+        {
+          "id": "C",
+          "text": "A Managing Director of a Navratna PSU"
+        },
+        {
+          "id": "D",
+          "text": "A senior official in the Ministry of External Affairs"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "All persons without distinction of race, occupation, position, or sex are eligible for the Padma Awards. However, government servants, including those working with Public Sector Undertakings (PSUs), are generally not eligible for these awards. A specific exception is made for doctors and scientists, making a scientist working in a PSU eligible for the award, while IAS officers, PSU Managing Directors, and Ministry officials are excluded.",
+      "takeaway": "Government servants and PSU employees are generally excluded from receiving Padma Awards to prevent conflicts of interest, but doctors and scientists are explicitly exempted from this restriction.",
+      "evidenceExcerpt": "- All persons without distinction of race, occupation, position or sex are eligible for these awards.\n- However, Government servants including those working with PSUs, except doctors and scientists, are not eligible for these Awards.",
+      "qualityScore": 88,
+      "reviewNotes": "Great applied question derived from Candidate 1. It tests the specific eligibility exception for doctors and scientists among government servants in a practical scenario."
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Easy",
+      "questionType": "Multiple Statement",
+      "prompt": "With reference to the Padma Awards and their protocol, consider the following statements:\n1. The Padma Awards amount to a title under Article 18 of the Constitution of India.\n2. Awardees are strictly prohibited from using the award name as a prefix or suffix to their names.\n3. The awards are presented by the President of India and comprise a Sanad (certificate) and a medallion.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The Padma Awards do not amount to a title under Article 18 of the Constitution of India.\nStatement 2 is correct: Awardees cannot use the award name as a prefix or suffix (e.g., \"Padma Shri ABCD\" is not allowed). They may, however, indicate it descriptively, such as \"ABCD (Padma Shri awarded by the President)\".\nStatement 3 is correct: The President of India presents the award, which comprises a Sanad (certificate) and a medallion.",
+      "takeaway": "Padma Awards are not titles under Article 18 and cannot be used as prefixes or suffixes to names, though descriptive use indicating the receipt of the award is permitted.",
+      "evidenceExcerpt": "- The President presents the award comprising a Sanad (certificate) and a medallion.\n- It is not a title under Article 18.\nWHAT IS NOT ALLOWED\n* Padma Shri \"ABCD\"\nYES! IT IS ALLOWED\n* \"ABCD\" (Padma Shri awarded by the President)",
+      "qualityScore": 85,
+      "reviewNotes": "Good conceptual clarity question linking the awards to Article 18 and testing the specific protocol for name usage."
+    }
+  ],
+  "reviewerNotes": "Selected and refined 3 high-quality questions. Q1 tests the procedural aspects of the Padma Awards Committee, including the approval process, caps, and gaps. Q2 focuses on the constitutional aspect (Article 18) and the protocol for using the award name. Q3 is an applied question derived from Candidate 1, testing the specific eligibility exception for doctors and scientists among government servants. All questions strictly adhere to the provided source text and reflect the standard of UPSC Prelims."
+}

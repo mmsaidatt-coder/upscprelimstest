@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Uniform Asset Classification System for co-lenders, which of the following statements is correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "If any single lender in a consortium classifies a loan as a Non-Performing Asset (NPA), all other co-lenders are mandated to do the same."
+        },
+        {
+          "id": "B",
+          "text": "A loan is uniformly classified as an NPA only after a majority of the lenders in the consortium agree on the classification."
+        },
+        {
+          "id": "C",
+          "text": "Only the classification by the lead bank in a co-lending arrangement is binding on the other participating lenders."
+        },
+        {
+          "id": "D",
+          "text": "Co-lenders can independently classify the same loan asset, but must report any divergence to the Reserve Bank of India."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "The Uniform Asset Classification System is designed to ensure consistency in asset classification among multiple lenders financing a single project or entity. The core rule is that the classification of an asset as an NPA by any one lender in the consortium automatically triggers the same classification by all other co-lenders. This prevents a situation where the same asset is treated differently by different banks. The decision is not based on a majority vote, the lead bank's exclusive decision, or independent classification.",
+      "takeaway": "The Uniform Asset Classification System mandates that if one co-lender classifies a loan as an NPA, all other lenders in the consortium must follow suit, ensuring consistent and transparent reporting of stressed assets.",
+      "evidenceExcerpt": "The uniform asset classification system mandates that if one lender in a consortium tags a loan as a Non-performing Asset (NPA), all other co-lenders must also classify it as an NPA."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Applied Concept",
+      "prompt": "What is the primary rationale behind mandating a uniform asset classification system for co-lenders in a consortium?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "To ensure consistent risk assessment and prevent divergence in asset quality reporting for the same loan account."
+        },
+        {
+          "id": "B",
+          "text": "To centralize the decision-making power regarding NPA classification exclusively with the lead bank of the consortium."
+        },
+        {
+          "id": "C",
+          "text": "To automatically trigger collective insolvency proceedings against the borrower as soon as one lender declares the asset as an NPA."
+        },
+        {
+          "id": "D",
+          "text": "To simplify the loan restructuring process for the borrower by creating a single point of contact for negotiation."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "The primary objective of the uniform asset classification system is to ensure that all lenders in a consortium have a consistent view of the risk associated with a particular loan. If one lender identifies stress and classifies an account as an NPA, this rule prevents other lenders from continuing to classify the same account as 'standard'. This promotes transparency, ensures uniform provisioning for bad loans, and prevents regulatory arbitrage, thereby reflecting a more accurate picture of the banking system's health.",
+      "takeaway": "The uniform asset classification system in consortium lending is a regulatory measure to enforce consistent risk recognition and reporting among multiple lenders exposed to the same borrower. It prevents the masking of NPAs and ensures that if one lender identifies an asset as non-performing, all co-lenders must follow suit.",
+      "evidenceExcerpt": "The uniform asset classification system mandates that if one lender in a consortium tags a loan as a Non-performing Asset (NPA), all other co-lenders must also classify it as an NPA."
+    }
+  ]
+}

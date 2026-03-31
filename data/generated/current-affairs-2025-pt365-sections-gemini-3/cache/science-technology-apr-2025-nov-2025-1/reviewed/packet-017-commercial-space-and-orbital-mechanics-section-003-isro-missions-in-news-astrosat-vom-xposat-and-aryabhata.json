@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice",
+      "prompt": "Which of the following Indian space missions included the study or observation of X-rays from celestial sources as part of their scientific objectives?\n1. Aryabhata\n2. Astrosat\n3. XPoSat\nSelect the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Aryabhata, India's first satellite, was built for X-ray astronomy, aeronomics, and solar physics. Astrosat studies celestial objects across X-ray, UV, and optical wavelengths. XPoSat measures X-ray emission and polarization from black holes and neutron stars. Thus, all three missions included X-ray observation as a core scientific objective.",
+      "takeaway": "India has a long history of X-ray astronomy, starting from its very first satellite (Aryabhata) to its recent dedicated multi-wavelength (Astrosat) and polarimetry (XPoSat) missions.",
+      "evidenceExcerpt": "Astrosat is India's first dedicated astronomy mission in LEO, studying celestial objects across X-ray, UV, and optical wavelengths... XPoSat is ISRO's first dedicated satellite to measure X-ray emission from black holes and neutron stars... Aryabhata, India's first satellite, completed 50 years; it was built for X-ray astronomy, aeronomics, and solar physics in LEO.",
+      "qualityScore": 88,
+      "reviewNotes": "Excellent conceptual question that connects historical and contemporary ISRO missions through a common scientific objective."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs:\nPayload : Associated Mission\n1. VARTISS : Venus Orbiter Mission\n2. POLIX : Astrosat\n3. XSPECT : XPoSat\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: VARTISS is a payload on the Venus Orbiter Mission (VOM). Pair 2 is incorrectly matched: POLIX (Polarimeter Instrument in X-rays) is a payload on XPoSat, not Astrosat. Pair 3 is correctly matched: XSPECT is a payload on XPoSat.",
+      "takeaway": "The Venus Orbiter Mission (VOM) includes payloads like VARTISS and VODEX. XPoSat carries the POLIX and XSPECT payloads.",
+      "evidenceExcerpt": "Venus Orbiter Mission (VOM) is proposed to study Venusian dust, airglow, and topography using LVM-3 and payloads like VARTISS and VODEX. XPoSat is ISRO's first dedicated satellite to measure X-ray emission from black holes and neutron stars, carrying POLIX and XSPECT payloads.",
+      "qualityScore": 85,
+      "reviewNotes": "Classic UPSC-style correct-pair question testing knowledge of specific scientific payloads and their respective missions."
+    }
+  ],
+  "reviewerNotes": "Selected 4 high-quality questions that cover different aspects of the source text. Rewrote them to ensure standard UPSC formatting, eliminated overlapping facts (such as testing Astrosat's orbit twice), and ensured distractors are plausible and grounded in the text."
+}

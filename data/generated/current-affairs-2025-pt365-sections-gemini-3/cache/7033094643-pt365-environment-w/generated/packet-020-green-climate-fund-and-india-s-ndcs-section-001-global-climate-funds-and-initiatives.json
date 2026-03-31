@@ -1,0 +1,236 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Green Climate Fund (GCF): 1. It was established under the United Nations Framework Convention on Climate Change (UNFCCC) at the Paris Climate Conference (COP 21). 2. Its investment framework mandates a 50:50 allocation split between climate change mitigation and adaptation activities. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect. The Green Climate Fund (GCF) was established at COP 16 in Cancun (2010), not at COP 21 in Paris. Statement 2 is correct. The GCF uniquely mandates a 50:50 investment split between mitigation and adaptation efforts.",
+      "takeaway": "The Green Climate Fund was established at COP 16 (Cancun) and mandates an equal funding split for mitigation and adaptation.",
+      "evidenceExcerpt": "Green Climate Fund (GCF) was established at COP 16 in Cancun (2010) and mandates a 50:50 investment split between mitigation and adaptation."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of international climate initiatives and their associated launching partners or implementing agencies: 1. Leadership Group for Industry Transition (LeadIT) : India and Sweden 2. Blue NDC Challenge : Brazil and France 3. ARISE investment program : Green Climate Fund (GCF) How many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched. LeadIT was launched jointly by India and Sweden. Pair 2 is correctly matched. The Blue NDC Challenge was launched by Brazil and France. Pair 3 is incorrectly matched. The ARISE investment program is implemented through the Climate Investment Funds (CIF), not the Green Climate Fund.",
+      "takeaway": "LeadIT is an India-Sweden initiative, Blue NDC is by Brazil and France, and ARISE is implemented via the Climate Investment Funds (CIF).",
+      "evidenceExcerpt": "ARISE is implemented through Climate Investment Funds (CIF)... Blue NDC Challenge was launched by Brazil and France... Leadership Group for Industry Transition (LeadIT) was launched jointly by India and Sweden..."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the 'Blue NDC Challenge', consider the following statements: 1. It was launched to place oceans at the heart of Nationally Determined Contributions (NDCs). 2. It recognizes that terrestrial forests act as larger carbon sinks, absorbing up to four times more carbon dioxide than oceans. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct. The Blue NDC Challenge aims to integrate oceans into NDCs. Statement 2 is incorrect. It recognizes oceans as carbon sinks that absorb up to 4 times more CO2 than terrestrial forests, not the other way around.",
+      "takeaway": "The Blue NDC Challenge highlights the critical role of oceans as massive carbon sinks, absorbing significantly more CO2 than terrestrial forests.",
+      "evidenceExcerpt": "Blue NDC Challenge was launched by Brazil and France to place oceans at the heart of NDCs, recognizing oceans as carbon sinks that absorb up to 4 times more CO2 than terrestrial forests."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Leadership Group for Industry Transition (LeadIT): 1. It focuses on achieving net-zero carbon emissions specifically from high-emitting industries. 2. It targets the year 2070 to align with India's national net-zero commitment. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct. LeadIT focuses on transitioning high-emitting industries to net-zero. Statement 2 is incorrect. The initiative targets net-zero carbon emissions by 2050, not 2070.",
+      "takeaway": "LeadIT, launched by India and Sweden, specifically targets high-emitting industries to reach net-zero emissions by 2050.",
+      "evidenceExcerpt": "Leadership Group for Industry Transition (LeadIT) was launched jointly by India and Sweden in 2019 to achieve net-zero carbon emissions from high-emitting industries by 2050."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "Which of the following best describes the primary ecological rationale behind the launch of the 'Blue NDC Challenge' by Brazil and France?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Coastal mangroves and wetlands are more vulnerable to anthropogenic climate change than inland forests."
+        },
+        {
+          "id": "B",
+          "text": "Oceans possess a carbon sequestration capacity that significantly exceeds that of terrestrial forests."
+        },
+        {
+          "id": "C",
+          "text": "Marine ecosystems provide the primary livelihood for the majority of populations in developing island nations."
+        },
+        {
+          "id": "D",
+          "text": "Ocean acidification can only be mitigated by restricting deep-sea mining activities globally."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Blue NDC Challenge was launched to place oceans at the heart of Nationally Determined Contributions (NDCs). The underlying ecological rationale is the recognition that oceans act as massive carbon sinks, absorbing up to four times more carbon dioxide than terrestrial forests.",
+      "takeaway": "Understanding the comparative carbon sequestration capacity of different ecosystems is crucial; oceans absorb significantly more CO2 than terrestrial forests, driving initiatives like the Blue NDC Challenge.",
+      "evidenceExcerpt": "Blue NDC Challenge was launched by Brazil and France to place oceans at the heart of NDCs, recognizing oceans as carbon sinks that absorb up to 4 times more CO2 than terrestrial forests."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Institution-feature",
+      "prompt": "The 'Clean Technology Fund' and the 'Strategic Climate Fund' are the constituent components of which of the following international climate finance mechanisms?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Green Climate Fund (GCF)"
+        },
+        {
+          "id": "B",
+          "text": "Climate Investment Funds (CIF)"
+        },
+        {
+          "id": "C",
+          "text": "Global Environment Facility (GEF)"
+        },
+        {
+          "id": "D",
+          "text": "Adaptation Fund (AF)"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Climate Investment Funds (CIF) is a multilateral climate finance mechanism that comprises two main trust funds: the Clean Technology Fund and the Strategic Climate Fund. Programs like ARISE are implemented through the CIF.",
+      "takeaway": "The Climate Investment Funds (CIF) structurally consists of the Clean Technology Fund and the Strategic Climate Fund, distinguishing it from other mechanisms like the GCF or GEF.",
+      "evidenceExcerpt": "ARISE is implemented through Climate Investment Funds (CIF), which comprises the Clean Technology Fund and Strategic Climate Fund."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Feature-matching",
+      "prompt": "Consider the following international climate initiatives:\n1. Leadership Group for Industry Transition (LeadIT)\n2. Blue NDC Challenge\n3. ARISE investment program\n\nWhich of the initiatives given above is/are specifically designed to drive the transition of high-emitting industrial sectors towards net-zero carbon emissions?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "The Leadership Group for Industry Transition (LeadIT) was launched jointly by India and Sweden in 2019 specifically to achieve net-zero carbon emissions from high-emitting industries by 2050. The Blue NDC Challenge focuses on integrating oceans into climate pledges, while ARISE is a broader investment program.",
+      "takeaway": "Different climate initiatives target distinct sectors. LeadIT is uniquely focused on the heavy industry and high-emitting sectors, aiming for net-zero by 2050.",
+      "evidenceExcerpt": "Leadership Group for Industry Transition (LeadIT) was launched jointly by India and Sweden in 2019 to achieve net-zero carbon emissions from high-emitting industries by 2050."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Institution-feature",
+      "prompt": "Among the various multilateral climate finance mechanisms, which of the following explicitly mandates a 50:50 investment allocation split between climate change mitigation and adaptation activities?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Strategic Climate Fund"
+        },
+        {
+          "id": "B",
+          "text": "Clean Technology Fund"
+        },
+        {
+          "id": "C",
+          "text": "Green Climate Fund (GCF)"
+        },
+        {
+          "id": "D",
+          "text": "Global Environment Facility (GEF)"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The Green Climate Fund (GCF), established at COP 16 in Cancun, operates under a specific mandate to maintain a 50:50 investment split between climate mitigation and adaptation, ensuring balanced support for developing countries.",
+      "takeaway": "The 50:50 split between mitigation and adaptation is a defining structural feature of the Green Climate Fund (GCF).",
+      "evidenceExcerpt": "Green Climate Fund (GCF) was established at COP 16 in Cancun (2010) and mandates a 50:50 investment split between mitigation and adaptation."
+    }
+  ]
+}

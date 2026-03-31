@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Corporate Average Fuel Economy (CAFE) norms in India, consider the following statements:\n1. The CAFE-3 norms are scheduled to come into effect from April 2027.\n2. They are applicable to passenger cars with a seating capacity not exceeding nine persons.\n3. The norms cover passenger vehicles with a gross vehicle weight of up to 5,000 kg.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The CAFE-3 norms will come into force from 1st April 2027 and remain applicable until 31st March 2032.\nStatement 2 is correct: CAFE norms apply to passenger cars with a seating capacity not exceeding 9 persons.\nStatement 3 is incorrect: The norms apply to passenger cars with a gross vehicle weight not exceeding 3,500 kg, not 5,000 kg.",
+      "takeaway": "CAFE norms target passenger cars up to 9 seats and a gross weight of 3,500 kg, with the third phase (CAFE-3) set to run from 2027 to 2032.",
+      "evidenceExcerpt": "CAFE-3 norms will come into force from 1st April 2027 until 31st March 2032. CAFE norms apply to passenger cars with a seating capacity not exceeding 9 persons and a gross vehicle weight not exceeding 3,500 kg.",
+      "qualityScore": 85,
+      "reviewNotes": "Refined the third statement to provide a plausible but incorrect weight limit (5,000 kg) to better test the candidate's factual clarity."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements:\n1. The Bureau of Energy Efficiency (BEE) was established under the legislative framework of the Environment (Protection) Act, 1986.\n2. The State Energy Efficiency Index (SEEI) is developed by the BEE in collaboration with the Alliance for an Energy Efficient Economy.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The Bureau of Energy Efficiency (BEE) is a statutory body established under the Energy Conservation Act, 2001, not the Environment (Protection) Act, 1986.\nStatement 2 is correct: The State Energy Efficiency Index (SEEI) 2024 was developed by the BEE in collaboration with the Alliance for an Energy Efficient Economy.",
+      "takeaway": "The Bureau of Energy Efficiency (BEE) operates under the Energy Conservation Act, 2001, and collaborates with the Alliance for an Energy Efficient Economy to publish the State Energy Efficiency Index (SEEI).",
+      "evidenceExcerpt": "BEE was established under the legislative framework of the Energy Conservation Act 2001. The State Energy Efficiency Index (SEEI) 2024 was developed by BEE in collaboration with the Alliance for an Energy Efficient Economy.",
+      "qualityScore": 85,
+      "reviewNotes": "Modified the first statement to test the statutory backing of BEE using a common distractor (EPA 1986). The second statement correctly identifies the publishers of the SEEI."
+    }
+  ],
+  "reviewerNotes": "Selected two questions. Candidate 1 was refined to test the specific weight limits of CAFE norms more effectively. Candidate 2 was modified to test the statutory backing of BEE and the publishers of SEEI. Candidate 3 was dropped due to factual overlap with Candidate 2."
+}

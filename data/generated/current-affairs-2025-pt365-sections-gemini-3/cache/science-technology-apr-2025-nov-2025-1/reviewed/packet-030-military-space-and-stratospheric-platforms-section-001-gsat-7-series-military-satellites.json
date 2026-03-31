@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the GSAT-7 series of satellites, consider the following statements:\n1. They are dual-use platforms designed to serve both civilian telecommunications and military forces.\n2. GSAT-7 (Rukmini) is India's first officially dedicated military satellite, utilized by the Indian Navy.\n3. GSAT-7C is being developed to provide real-time, secure communication specifically for the Indian Army.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect: The GSAT-7 series consists of dedicated military communication and surveillance satellites, not dual-use civilian platforms.\nStatement 2 is correct: GSAT-7 (Rukmini) is India's first officially dedicated military satellite and is used by the Navy.\nStatement 3 is incorrect: GSAT-7C is being developed for the Indian Air Force, not the Army (GSAT-7B is being developed for the Army).",
+      "takeaway": "The GSAT-7 series are strictly dedicated military satellites. While GSAT-7B is meant for the Army, GSAT-7C will feature ground hubs for real-time, secure communication for the Air Force.",
+      "evidenceExcerpt": "Dedicated military communication and surveillance satellites for the Indian Armed Forces. ... GSAT-7 (Rukmini) is India's first officially dedicated military satellite, used by the Navy. ... GSAT-7C is being developed for the Air Force and includes ground hubs for real-time, secure communication.",
+      "qualityScore": 85,
+      "reviewNotes": "Good use of distractors. Testing the 'dual-use' vs 'dedicated' concept is a classic UPSC trap. Swapping the user agency for GSAT-7C also makes for a strong statement."
+    }
+  ],
+  "reviewerNotes": "Selected Candidate 1 for a standard 'How many pairs' factual check on the satellite-user mapping. Selected Candidate 2 for a conceptual check on the 'dedicated' nature of the satellites and specific upcoming variants. Both were rewritten to ensure the tone, formatting, and distractors align perfectly with UPSC Prelims standards."
+}

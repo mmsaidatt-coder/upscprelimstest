@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Current Affairs",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "In the context of international extradition law, which of the following best describes the 'Principle of Speciality'?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A person can only be extradited if the act is a crime in both the requesting and the requested states."
+        },
+        {
+          "id": "B",
+          "text": "A person cannot be extradited if they have already been tried and punished for the same offense."
+        },
+        {
+          "id": "C",
+          "text": "An extradited person can be prosecuted only for the specific offenses for which their extradition was granted."
+        },
+        {
+          "id": "D",
+          "text": "A state may refuse extradition if the fugitive is likely to face an unfair trial in the requesting state."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The Principle of Speciality dictates that the requesting state can only prosecute the extradited individual for the specific crimes for which the extradition was requested and granted. Option A refers to Double Criminality, Option B to Double Jeopardy, and Option D to the Fair Trial principle.",
+      "takeaway": "The Principle of Speciality is a safeguard that prevents a state from requesting extradition for one crime but prosecuting for another.",
+      "evidenceExcerpt": "Speciality: Limits prosecution to specified offenses in extradition.",
+      "contextLines": []
+    },
+    {
+      "subject": "Current Affairs",
+      "difficulty": "Hard",
+      "questionType": "Comparison-based",
+      "prompt": "With reference to the Chemical Weapons Convention (CWC), which of the following features distinguishes it from many other multilateral disarmament agreements?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is the only treaty that prohibits the use of weapons of mass destruction during active interstate conflicts."
+        },
+        {
+          "id": "B",
+          "text": "It is the first agreement to provide for the elimination of an entire category of weapons of mass destruction within a fixed time frame."
+        },
+        {
+          "id": "C",
+          "text": "It is the only disarmament treaty where the implementing agency has been awarded a Nobel Peace Prize."
+        },
+        {
+          "id": "D",
+          "text": "It allows for the use of chemical agents for domestic riot control purposes without any oversight from the implementing agency."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The CWC is uniquely recognized as the world's first multilateral disarmament agreement that provides for the total elimination of an entire category of weapons of mass destruction (chemical weapons) within a specific, fixed time frame. While the OPCW did win the Nobel Peace Prize (2013), other organizations related to disarmament (like ICAN or the IAEA) have also been recognized, making B the most definitive distinguishing feature mentioned in the text.",
+      "takeaway": "The CWC is unique for its mandate to eliminate an entire class of WMDs within a set timeline.",
+      "evidenceExcerpt": "It is the World’s first multilateral disarmament agreement to provide for the elimination of an entire category of weapons of mass destruction within a fixed time frame.",
+      "contextLines": []
+    },
+    {
+      "subject": "Current Affairs",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "In the context of international extradition law, the principle of 'Double Criminality' refers to which of the following requirements?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The fugitive must have committed the same crime in two different countries simultaneously."
+        },
+        {
+          "id": "B",
+          "text": "The act for which extradition is requested must be a crime in both the requesting and the requested states."
+        },
+        {
+          "id": "C",
+          "text": "The person cannot be tried for a second time for the same offense once they are extradited."
+        },
+        {
+          "id": "D",
+          "text": "The requesting state must provide double the evidence required for a local trial to justify extradition."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Double Criminality is a fundamental principle of extradition which stipulates that the conduct for which extradition is sought must constitute a criminal offense under the laws of both the requesting country and the country where the fugitive is located (the requested state).",
+      "takeaway": "Double Criminality ensures that a state is not forced to extradite someone for an act that it does not consider a crime.",
+      "evidenceExcerpt": "Double Criminality: Requires the act to be a crime in both jurisdictions.",
+      "contextLines": []
+    },
+    {
+      "subject": "Current Affairs",
+      "difficulty": "Hard",
+      "questionType": "Feature-matching",
+      "prompt": "The 'OPCW-The Hague Award' was recently conferred upon the Indian Chemical Council (ICC). Which of the following statements correctly describes the significance of this award?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is the highest civilian honor given by the Netherlands to foreign industrial bodies for environmental protection."
+        },
+        {
+          "id": "B",
+          "text": "It marks the first time a chemical industry body anywhere in the world has received this honor from the OPCW."
+        },
+        {
+          "id": "C",
+          "text": "The award was given specifically for the ICC's role in the 26/11 Mumbai terror attack investigation."
+        },
+        {
+          "id": "D",
+          "text": "It is a biennial award given to the National Authority of the country that destroys the most chemical stockpiles."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "In 2024, the Indian Chemical Council (ICC) was awarded the OPCW-The Hague Award. This was a significant milestone as it marked the first time a chemical industry body globally received this honor, acknowledging its contributions to safety, security, and the goals of the CWC.",
+      "takeaway": "The ICC is the first industry body globally to receive the OPCW-The Hague Award.",
+      "evidenceExcerpt": "In 2024, Indian Chemical Council (ICC) was awarded the OPCW-The Hague Award, marking the first time a chemical industry body anywhere in the world received this honour.",
+      "contextLines": []
+    }
+  ]
+}

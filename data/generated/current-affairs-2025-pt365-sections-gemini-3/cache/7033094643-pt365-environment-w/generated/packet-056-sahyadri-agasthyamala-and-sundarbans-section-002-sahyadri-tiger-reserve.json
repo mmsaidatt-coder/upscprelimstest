@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Feature Identification",
+      "prompt": "Consider the following characteristics of a protected area in India:\n1. It is the northernmost tiger habitat in the Western Ghats.\n2. It was notified by amalgamating the Chandoli National Park and Koyna Wildlife Sanctuary.\n3. The 'Shivsagar' reservoir of the Koyana River is located within its boundaries.\nWhich of the following protected areas is described by the characteristics given above?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Sahyadri Tiger Reserve"
+        },
+        {
+          "id": "B",
+          "text": "Melghat Tiger Reserve"
+        },
+        {
+          "id": "C",
+          "text": "Kali Tiger Reserve"
+        },
+        {
+          "id": "D",
+          "text": "Bhadra Tiger Reserve"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Sahyadri Tiger Reserve is the northernmost tiger habitat in the Western Ghats. It was formed in 2010 by amalgamating Chandoli National Park and Koyna Wildlife Sanctuary. The reserve contains the 'Shivsagar' reservoir of the Koyana River and the 'Vasant Sagar' reservoir of the Warana River.",
+      "takeaway": "Sahyadri Tiger Reserve (Maharashtra) is geographically significant as the northernmost tiger habitat in the Western Ghats and integrates key hydrological features like the Shivsagar and Vasant Sagar reservoirs.",
+      "evidenceExcerpt": "Northern most tiger habitat in Western Ghats. Notified in 2010 by amalgamating the Chandoli National Park and Koyna Wildlife Sanctuary. Reservoirs: 'Shivsagar' reservoir of Koyana River..."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Sahyadri Tiger Reserve, consider the following statements:\n1. It was notified by amalgamating the Sanjay Gandhi National Park and the Koyna Wildlife Sanctuary.\n2. It represents the southernmost tiger habitat in the Western Ghats.\n3. The Vasant Sagar reservoir of the Warana River is situated within this reserve.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Sahyadri Tiger Reserve was notified by amalgamating the Chandoli National Park (not Sanjay Gandhi National Park) and Koyna Wildlife Sanctuary. Statement 2 is incorrect: It is the northernmost (not southernmost) tiger habitat in the Western Ghats. Statement 3 is correct: The Vasant Sagar reservoir of the Warana River is located within the reserve.",
+      "takeaway": "Always verify the specific national parks and sanctuaries that make up a Tiger Reserve, as well as its geographical extremes (e.g., northernmost vs. southernmost habitat).",
+      "evidenceExcerpt": "Northern most tiger habitat in Western Ghats. Notified in 2010 by amalgamating the Chandoli National Park and Koyna Wildlife Sanctuary. Reservoirs: ... 'Vasant Sagar' reservoir of Warana River."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding recent tiger conservation efforts in Maharashtra:\n1. The Ministry of Environment, Forest and Climate Change has approved the translocation of tigers to the Sahyadri Tiger Reserve.\n2. The translocated tigers are being sourced from the Tadoba-Andhari and Pench Tiger Reserves.\n3. The Sahyadri Tiger Reserve is the northernmost tiger habitat in the Western Ghats.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "All three statements are correct. The MoEFCC recently granted approval for the translocation of 8 tigers from the Tadoba-Andhari Tiger Reserve and Pench Tiger Reserve to the Sahyadri Tiger Reserve, which is noted as the northernmost tiger habitat in the Western Ghats.",
+      "takeaway": "Tiger translocation projects are critical current affairs topics. Knowing the source reserves (Tadoba-Andhari, Pench) and the destination reserve (Sahyadri) is essential for prelims.",
+      "evidenceExcerpt": "MoEFCC granted approval for Translocation of 8 Tigers from Tadoba-Andhari Tiger Reserve and Pench Tiger Reserve to Sahyadri Tiger Reserve... Northern most tiger habitat in Western Ghats."
+    }
+  ]
+}

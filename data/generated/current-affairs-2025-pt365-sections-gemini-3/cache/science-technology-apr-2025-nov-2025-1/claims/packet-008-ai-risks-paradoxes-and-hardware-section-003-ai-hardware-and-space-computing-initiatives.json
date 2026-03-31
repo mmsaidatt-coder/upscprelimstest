@@ -1,0 +1,51 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-008-ai-risks-paradoxes-and-hardware-section-003-ai-hardware-and-space-computing-initiatives",
+    "claimType": "Factual",
+    "claimText": "Project Suncatcher is a Google initiative that explores AI computing in space using solar-powered satellites in low-Earth orbit.",
+    "evidenceExcerpt": "Google launched Project Suncatcher to explore AI computing in space using solar-powered satellites in low-Earth orbit.",
+    "pageNumbers": [
+      17,
+      18
+    ],
+    "examUse": "Statement-based question on recent space and AI initiatives.",
+    "distractorHooks": [
+      "Attributing Project Suncatcher to NASA, SpaceX, or ISRO",
+      "Stating it uses nuclear-powered satellites",
+      "Stating it operates in geostationary orbit instead of low-Earth orbit"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-008-ai-risks-paradoxes-and-hardware-section-003-ai-hardware-and-space-computing-initiatives",
+    "claimType": "Factual",
+    "claimText": "Ironwood is the 7th-generation Tensor Processing Unit (TPU) developed by Google.",
+    "evidenceExcerpt": "Google also developed Ironwood, its 7th-generation Tensor Processing Unit (TPU).",
+    "pageNumbers": [
+      17,
+      18
+    ],
+    "examUse": "Correct-pair question matching AI hardware codenames to their respective companies.",
+    "distractorHooks": [
+      "Attributing Ironwood to Microsoft, OpenAI, or NVIDIA",
+      "Describing Ironwood as a software model rather than a hardware TPU"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-008-ai-risks-paradoxes-and-hardware-section-003-ai-hardware-and-space-computing-initiatives",
+    "claimType": "Definition",
+    "claimText": "A Tensor Processing Unit (TPU) is an Application-Specific Integrated Circuit (ASIC) specialized for AI model performance.",
+    "evidenceExcerpt": "A TPU is an Application-Specific Integrated Circuit (ASIC) specialized for AI model performance.",
+    "pageNumbers": [
+      17,
+      18
+    ],
+    "examUse": "Conceptual statement-based question on AI hardware architectures.",
+    "distractorHooks": [
+      "Defining TPU as a general-purpose processor like a CPU",
+      "Confusing ASIC with Field-Programmable Gate Arrays (FPGAs)"
+    ]
+  }
+]

@@ -1,0 +1,149 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs regarding the generations of biofuels and their primary feedstocks:\n1. First Generation : Food-grade oils and wheat\n2. Second Generation : Lignocellulosic biomass and animal fats\n3. Third Generation : Genetically engineered Escherichia coli\n4. Fourth Generation : Microalgae and cyanobacteria\n\nHow many pairs given above are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "Only three pairs"
+        },
+        {
+          "id": "D",
+          "text": "All four pairs"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: First-generation biofuels use edible feedstocks like wheat, corn, sugarcane, and food-grade oils. Pair 2 is correctly matched: Second-generation biofuels utilize lignocellulosic biomass and waste, such as animal fats and used cooking oil. Pair 3 is incorrectly matched: Third-generation biofuels are derived from microalgae and cyanobacteria biomass, not genetically engineered microorganisms. Pair 4 is incorrectly matched: Fourth-generation biofuels involve genetically engineered microorganisms like Escherichia coli, not microalgae.",
+      "takeaway": "Biofuel generations are classified by feedstock: 1G (edible), 2G (non-edible/waste), 3G (algae/cyanobacteria), and 4G (genetically engineered microbes).",
+      "evidenceExcerpt": "1st Generation uses edible feedstocks like wheat, corn, sugarcane, and food-grade oils. 2nd Generation utilizes lignocellulosic biomass and waste, such as wheat bran, animal fats, used cooking oil, and Jatropha. 3rd Generation is derived from microalgae and cyanobacteria biomass. 4th Generation involves genetically engineered microorganisms like Escherichia coli and Saccharomyces cerevisiae."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the classification of biofuels, consider the following statements:\n1. First-generation biofuels are produced primarily from non-edible crops and waste materials.\n2. Second-generation biofuels utilize feedstocks such as Jatropha curcas and used cooking oil.\n3. Fourth-generation biofuels are produced using genetically engineered microorganisms.\n\nWhich of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: First-generation biofuels use edible feedstocks like wheat, corn, sugarcane, and food-grade oils, whereas non-edible crops and waste are used for second-generation biofuels. Statement 2 is correct: Second-generation biofuels utilize lignocellulosic biomass and waste, including Jatropha and used cooking oil. Statement 3 is correct: Fourth-generation biofuels involve genetically engineered microorganisms such as Escherichia coli and Saccharomyces cerevisiae.",
+      "takeaway": "The distinction between 1G and 2G biofuels lies in the edibility of the feedstock, while 4G relies on advanced genetic engineering of microorganisms.",
+      "evidenceExcerpt": "1st Generation uses edible feedstocks like wheat, corn, sugarcane, and food-grade oils. 2nd Generation utilizes lignocellulosic biomass and waste, such as wheat bran, animal fats, used cooking oil, and Jatropha... 4th Generation involves genetically engineered microorganisms like Escherichia coli and Saccharomyces cerevisiae."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-choice list",
+      "prompt": "Which of the following feedstocks are categorized under Second Generation (2G) biofuels?\n1. Sugarcane\n2. Wheat bran\n3. Animal fats\n4. Microalgae\n\nSelect the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 4 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "2, 3 and 4 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3 only"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Sugarcane is an edible feedstock used for First Generation (1G) biofuels. Microalgae is the primary feedstock for Third Generation (3G) biofuels. Wheat bran and animal fats are non-edible waste/biomass utilized for Second Generation (2G) biofuels.",
+      "takeaway": "Second Generation (2G) biofuels are strictly derived from non-edible lignocellulosic biomass and waste products, avoiding the food-vs-fuel conflict inherent in 1G biofuels.",
+      "evidenceExcerpt": "1st Generation uses edible feedstocks like wheat, corn, sugarcane, and food-grade oils. 2nd Generation utilizes lignocellulosic biomass and waste, such as wheat bran, animal fats, used cooking oil, and Jatropha. 3rd Generation is derived from microalgae..."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Application-Based",
+      "prompt": "Consider the following processes of biofuel production:\n1. Conversion of used cooking oil into biodiesel.\n2. Extraction of biofuels from cyanobacteria biomass.\n3. Utilization of genetically engineered Escherichia coli for fuel synthesis.\n\nWhich of the following correctly represents the generations of biofuels for the processes given above, respectively?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1st Generation, 2nd Generation, and 3rd Generation"
+        },
+        {
+          "id": "B",
+          "text": "2nd Generation, 3rd Generation, and 4th Generation"
+        },
+        {
+          "id": "C",
+          "text": "2nd Generation, 4th Generation, and 3rd Generation"
+        },
+        {
+          "id": "D",
+          "text": "3rd Generation, 2nd Generation, and 4th Generation"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Process 1 represents 2nd Generation biofuels, which utilize waste materials such as used cooking oil, animal fats, and lignocellulosic biomass. Process 2 represents 3rd Generation biofuels, which are derived from microalgae and cyanobacteria biomass. Process 3 represents 4th Generation biofuels, which involve the use of genetically engineered microorganisms like Escherichia coli and Saccharomyces cerevisiae.",
+      "takeaway": "Biofuel generations are classified by feedstock: 1G uses edible crops, 2G uses waste and non-edible biomass, 3G uses algal/cyanobacteria biomass, and 4G uses genetically engineered microorganisms.",
+      "evidenceExcerpt": "2nd Generation utilizes lignocellulosic biomass and waste, such as wheat bran, animal fats, used cooking oil, and Jatropha. 3rd Generation is derived from microalgae and cyanobacteria biomass. 4th Generation involves genetically engineered microorganisms like Escherichia coli and Saccharomyces cerevisiae."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-Based",
+      "prompt": "With reference to the evolution of biofuel technologies, consider the following statements:\n1. The primary distinction between first and second-generation biofuels is that the former uses edible feedstocks while the latter utilizes non-edible biomass and waste.\n2. Unlike the second generation which relies on lignocellulosic biomass, the third generation is derived from microalgae and cyanobacteria.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: 1st Generation biofuels use edible feedstocks (wheat, corn, sugarcane), whereas 2nd Generation biofuels utilize non-edible lignocellulosic biomass and waste (wheat bran, used cooking oil, Jatropha). Statement 2 is correct: 2nd Generation relies on lignocellulosic biomass, while 3rd Generation shifts to utilizing microalgae and cyanobacteria biomass.",
+      "takeaway": "The transition across biofuel generations reflects a shift from food crops (1G) to waste/non-edible plants (2G), to aquatic/microbial biomass (3G), and finally to genetically engineered organisms (4G).",
+      "evidenceExcerpt": "1st Generation uses edible feedstocks like wheat, corn, sugarcane, and food-grade oils. 2nd Generation utilizes lignocellulosic biomass and waste... 3rd Generation is derived from microalgae and cyanobacteria biomass."
+    }
+  ]
+}

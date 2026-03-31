@@ -1,0 +1,96 @@
+{
+  "questions": [
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Pair-matching",
+      "prompt": "How many of the following pairs of tropical cyclone terminology and their corresponding regions are correctly matched?",
+      "contextLines": [
+        "1. Hurricane : North Atlantic Ocean",
+        "2. Typhoon : Eastern part of the Southern Indian Ocean",
+        "3. Willy-willy : Western North Pacific Ocean",
+        "4. Cyclone : Indian Ocean"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "Only three pairs"
+        },
+        {
+          "id": "D",
+          "text": "All four pairs"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched (Hurricanes occur in the North Atlantic, Eastern North Pacific, and South Pacific). Pair 2 is incorrectly matched (Typhoons occur in the Western North Pacific). Pair 3 is incorrectly matched (Willy-willies occur in the Eastern part of the Southern Indian Ocean). Pair 4 is correctly matched (Cyclones occur in the Indian Ocean). Thus, only two pairs (1 and 4) are correct.",
+      "takeaway": "The regional terminology for tropical cyclones includes Hurricanes (Atlantic/East Pacific/South Pacific), Typhoons (West Pacific), Cyclones (Indian Ocean), and Willy-willies (Eastern part of the Southern Indian Ocean).",
+      "evidenceExcerpt": "Terms for Tropical Cyclones: Hurricane – North Atlantic, Eastern North Pacific and South Pacific Ocean. Cyclone – Indian Ocean. Typhoon – Western North Pacific Ocean. Willy-willy: Eastern part of the Southern Indian Ocean."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Easy",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the conditions required for the formation of tropical cyclones, consider the following statements: 1. They can initiate over both warm ocean waters and heated coastal landmasses. 2. A sea surface temperature greater than 26 degrees Celsius is a prerequisite for their formation. Which of the statements given above is/are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect as tropical cyclones always form over oceans, not landmasses. Statement 2 is correct as they require a sea surface temperature greater than 26 degrees Celsius.",
+      "takeaway": "Tropical cyclones strictly require warm ocean waters (SST > 26°C) for their genesis and do not form over land.",
+      "evidenceExcerpt": "Always form over oceans where sea surface temperature is greater than 26°C.",
+      "contextLines": []
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the regional terminology of tropical cyclones: 1. A tropical storm originating in the Eastern part of the Southern Indian Ocean is locally referred to as a Willy-willy. 2. The term Typhoon is exclusively used for tropical cyclones forming in the North Atlantic Ocean. Which of the statements given above is/are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct; tropical cyclones are called Willy-willies in the Eastern part of the Southern Indian Ocean. Statement 2 is incorrect; Typhoons occur in the Western North Pacific Ocean, while those in the North Atlantic are called Hurricanes.",
+      "takeaway": "Cyclone terminology varies by ocean basin: Hurricanes (North Atlantic/Eastern Pacific), Typhoons (Western North Pacific), and Willy-willies (Eastern Southern Indian Ocean).",
+      "evidenceExcerpt": "Terms for Tropical Cyclones: Hurricane – North Atlantic... Typhoon – Western North Pacific Ocean. Willy-willy: Eastern part of the Southern Indian Ocean.",
+      "contextLines": []
+    }
+  ]
+}

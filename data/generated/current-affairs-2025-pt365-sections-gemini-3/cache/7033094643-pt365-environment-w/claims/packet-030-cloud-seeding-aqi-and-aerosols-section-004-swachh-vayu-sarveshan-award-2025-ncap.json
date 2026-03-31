@@ -1,0 +1,68 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-030-cloud-seeding-aqi-and-aerosols-section-004-swachh-vayu-sarveshan-award-2025-ncap",
+    "claimType": "Factual",
+    "claimText": "The Swachh Vayu Sarveshan Award is announced by the MoEFCC, with Indore ranking 1st in Category 1 (population >10 lakh) for 2025.",
+    "evidenceExcerpt": "Awards announced by MoEFCC recognizing best-performing cities among 130 NCAP cities. Category 1 (>10 lakh) won by Indore",
+    "pageNumbers": [
+      62,
+      63
+    ],
+    "examUse": "Statement-based question on the nodal ministry and top-performing cities in air quality.",
+    "distractorHooks": [
+      "Announced by MoHUA instead of MoEFCC",
+      "Surat or Bhopal instead of Indore"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-030-cloud-seeding-aqi-and-aerosols-section-004-swachh-vayu-sarveshan-award-2025-ncap",
+    "claimType": "Target",
+    "claimText": "The National Clean Air Programme (NCAP) targets up to a 40% reduction in PM10 levels or achieving national ambient air quality standards by 2025-26 from 2019-20 levels.",
+    "evidenceExcerpt": "NCAP targets up to a 40% reduction in PM10 levels by 2025-26 from 2019-20 levels.",
+    "pageNumbers": [
+      62,
+      63
+    ],
+    "examUse": "Statement-based question on specific environmental targets and base years.",
+    "distractorHooks": [
+      "Targeting PM2.5 instead of PM10",
+      "Targeting 50% reduction",
+      "Base year 2014-15 instead of 2019-20"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-030-cloud-seeding-aqi-and-aerosols-section-004-swachh-vayu-sarveshan-award-2025-ncap",
+    "claimType": "Factual",
+    "claimText": "NCAP covers 131 non-attainment and Million Plus Cities across 24 States/UTs.",
+    "evidenceExcerpt": "NCAP covers 131 non-attainment and Million Plus Cities across 24 States/UTs.",
+    "pageNumbers": [
+      62,
+      63
+    ],
+    "examUse": "Statement-based question on the scope and coverage of NCAP.",
+    "distractorHooks": [
+      "Covers all cities in India",
+      "Covers only Tier-1 cities"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-030-cloud-seeding-aqi-and-aerosols-section-004-swachh-vayu-sarveshan-award-2025-ncap",
+    "claimType": "Institution-Feature",
+    "claimText": "NCAP is implemented by the Central Pollution Control Board (CPCB) and its implementation is monitored via the PRANA portal.",
+    "evidenceExcerpt": "Implemented by CPCB and monitored via the PRANA portal.",
+    "pageNumbers": [
+      62,
+      63
+    ],
+    "examUse": "Correct-pair or statement-based question matching environmental programs with their monitoring portals.",
+    "distractorHooks": [
+      "Monitored via SAFAR portal",
+      "Monitored via PARIVESH portal",
+      "Implemented by NITI Aayog"
+    ]
+  }
+]

@@ -1,0 +1,236 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the classification of forests in India:\n1. The classification of 'Forest Cover' requires the land to be legally recorded as a forest or government-owned.\n2. A land must have a minimum tree canopy density of 10% and an area of at least one hectare to be classified under 'Forest Cover'.\n3. 'Tree Cover' comprises tree patches smaller than one hectare located outside recorded forest areas.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: 'Forest Cover' includes all lands with a tree canopy density of 10% or more and an area of 1 hectare or more, irrespective of land ownership or legal status. Statement 2 is correct: These are the exact threshold criteria for Forest Cover. Statement 3 is correct: 'Tree Cover' is defined as tree patches smaller than 1 hectare that are located outside of recorded forest areas.",
+      "takeaway": "Forest Cover is determined by physical characteristics (canopy density and area) rather than legal status or ownership, whereas Tree Cover captures smaller patches outside recorded forests.",
+      "evidenceExcerpt": "Forest Cover requires >= 1 hectare area and >= 10% tree canopy, irrespective of ownership. Tree cover comprises patches < 1 hectare outside recorded forest areas."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the forest cover rankings of States and Union Territories in India:\n1. Madhya Pradesh has the largest forest cover by area in India.\n2. Among all States and Union Territories, Lakshadweep has the highest forest cover as a percentage of its geographical area.\n3. Arunachal Pradesh has a larger forest cover by area than Chhattisgarh.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Madhya Pradesh holds the largest forest cover by area. Statement 2 is correct: Lakshadweep has the highest forest cover by percentage (91.33%), followed by Mizoram and the Andaman & Nicobar Islands. Statement 3 is correct: The top three states by forest area are Madhya Pradesh, Arunachal Pradesh, and Chhattisgarh, meaning Arunachal Pradesh has a larger forest area than Chhattisgarh.",
+      "takeaway": "It is important to distinguish between absolute forest area rankings (led by Madhya Pradesh, Arunachal Pradesh, and Chhattisgarh) and percentage-based rankings (led by Lakshadweep, Mizoram, and A&N Islands).",
+      "evidenceExcerpt": "Top 3 states by forest area: Madhya Pradesh, Arunachal Pradesh, Chhattisgarh. Top 3 states by forest percentage: Lakshadweep (91.33%), Mizoram, Andaman & Nicobar Islands."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the status of mangrove cover in India as per the latest ISFR data:\n1. The total mangrove cover in the country has witnessed a net increase.\n2. Gujarat experienced a decline in its mangrove cover.\n3. Maharashtra and Andhra Pradesh recorded an increase in their mangrove cover.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The total mangrove cover in India decreased by 7.43 sq km to 4,992 sq km. Statement 2 is correct: Gujarat experienced a decrease in its mangrove cover. Statement 3 is correct: Both Andhra Pradesh and Maharashtra saw an increase in their mangrove cover.",
+      "takeaway": "While India's overall mangrove cover saw a slight decrease, regional variations exist, with states like Gujarat losing cover and others like Maharashtra and Andhra Pradesh gaining.",
+      "evidenceExcerpt": "Total Mangrove cover decreased by 7.43 sq km to 4,992 sq km (Gujarat decreased; AP and Maharashtra increased)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Application",
+      "prompt": "As per the definitions used in the India State of Forest Report (ISFR), consider the following land parcels:\n1. A 2-hectare privately-owned agroforestry plantation with a 15% tree canopy density.\n2. A 0.5-hectare patch of natural forest with a 40% canopy density located within a legally recorded forest area.\n3. A 0.8-hectare cluster of trees located in a community land outside any recorded forest area.\n\nWhich of the above land parcels would be specifically classified under 'Tree Cover'?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "3 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Parcel 1 meets the criteria for 'Forest Cover' (>= 1 hectare and >= 10% canopy), which is assessed irrespective of private ownership. Parcel 2 is less than 1 hectare but is located within a legally recorded forest area, meaning it cannot be classified as 'Tree Cover'. Parcel 3 is less than 1 hectare and is located outside recorded forest areas, fitting the exact definition of 'Tree Cover'.",
+      "takeaway": "Tree Cover is strictly defined as patches of trees smaller than 1 hectare that are located outside of legally recorded forest areas.",
+      "evidenceExcerpt": "Forest Cover requires >= 1 hectare area and >= 10% tree canopy, irrespective of ownership. Tree cover comprises patches < 1 hectare outside recorded forest areas."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the definitions used in India's forest assessments, consider the following statements:\n1. A reduction in the legally recorded forest area of a State automatically results in a proportional decrease in its assessed 'Forest Cover'.\n2. A newly developed 2-hectare agroforestry plantation on private land with a 15% tree canopy density will be classified under 'Forest Cover' rather than 'Tree Cover'.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect because 'Forest Cover' is assessed based on physical tree canopy (>= 10%) and area (>= 1 hectare) irrespective of legal ownership or recorded status. Therefore, changes in legal records do not automatically dictate physical forest cover. Statement 2 is correct because the plantation meets the minimum area and canopy density thresholds for 'Forest Cover', and is thus not classified as 'Tree Cover' (which only applies to patches smaller than 1 hectare).",
+      "takeaway": "Forest Cover is a physical assessment independent of land ownership, while Tree Cover is restricted to small patches (<1 ha) outside recorded forest areas.",
+      "evidenceExcerpt": "Forest Cover requires >= 1 hectare area and >= 10% tree canopy, irrespective of ownership. Tree cover comprises patches < 1 hectare outside recorded forest areas."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding mangrove cover in India as per the latest ISFR data:\n1. Despite an overall national decrease in mangrove cover, the eastern and western coasts both contain states that recorded an increase in their mangrove cover.\n2. The total mangrove cover in India has fallen below 5,000 square kilometers.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct as Andhra Pradesh (located on the East Coast) and Maharashtra (located on the West Coast) both recorded an increase in mangrove cover, despite a national net decrease. Statement 2 is correct as the total mangrove cover decreased by 7.43 sq km to 4,992 sq km, which is below the 5,000 sq km mark.",
+      "takeaway": "India's total mangrove cover stands at 4,992 sq km, reflecting a net decrease driven by states like Gujarat, though mitigated by gains in Maharashtra and Andhra Pradesh.",
+      "evidenceExcerpt": "Total Mangrove cover decreased by 7.43 sq km to 4,992 sq km (Gujarat decreased; AP and Maharashtra increased)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of States/Union Territories and their distinguishing feature in the latest forest assessment:\n\n1. Madhya Pradesh : Largest forest cover by absolute area\n2. Lakshadweep : Highest forest cover as a percentage of geographical area\n3. Gujarat : Recorded an increase in mangrove cover\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: Madhya Pradesh has the largest forest cover by area. Pair 2 is correctly matched: Lakshadweep has the highest forest cover by percentage (91.33%). Pair 3 is incorrectly matched: Gujarat experienced a decrease in its mangrove cover.",
+      "takeaway": "Madhya Pradesh and Lakshadweep lead in absolute forest area and percentage respectively, while Gujarat saw a decline in mangrove cover.",
+      "evidenceExcerpt": "Top 3 states by forest area: Madhya Pradesh, Arunachal Pradesh, Chhattisgarh. Top 3 states by forest percentage: Lakshadweep (91.33%), Mizoram, Andaman & Nicobar Islands. Total Mangrove cover decreased by 7.43 sq km to 4,992 sq km (Gujarat decreased; AP and Maharashtra increased)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Assertion-Reason",
+      "prompt": "Given below are two statements, one labelled as Assertion (A) and the other as Reason (R):\n\nAssertion (A): A 0.5-hectare patch of dense trees located inside a legally recorded forest area is not assessed under 'Tree Cover' in India.\nReason (R): The classification of 'Tree Cover' is strictly limited to tree patches smaller than one hectare that are situated outside recorded forest areas.\n\nIn the context of the above statements, which one of the following is correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both A and R are correct and R is the correct explanation of A"
+        },
+        {
+          "id": "B",
+          "text": "Both A and R are correct but R is not the correct explanation of A"
+        },
+        {
+          "id": "C",
+          "text": "A is correct but R is not correct"
+        },
+        {
+          "id": "D",
+          "text": "A is not correct but R is correct"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "The assertion is correct because 'Tree Cover' excludes any tree patches located inside legally recorded forest areas, regardless of their size. The reason correctly explains this by providing the exact definition of Tree Cover, which mandates that the patch must be both less than 1 hectare and located outside recorded forest areas.",
+      "takeaway": "Tree Cover acts as a supplementary metric to capture small patches of trees (<1 ha) that exist outside the formal boundaries of recorded forest areas.",
+      "evidenceExcerpt": "Tree cover comprises patches < 1 hectare outside recorded forest areas."
+    }
+  ]
+}

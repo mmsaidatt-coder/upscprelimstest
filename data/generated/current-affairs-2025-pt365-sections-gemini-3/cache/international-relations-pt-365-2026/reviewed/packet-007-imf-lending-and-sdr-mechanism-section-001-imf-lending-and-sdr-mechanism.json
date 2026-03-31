@@ -1,0 +1,129 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Special Drawing Rights (SDR) of the International Monetary Fund (IMF), consider the following statements:\n1. It is an international reserve asset created to supplement the official reserves of its member countries.\n2. It serves as a unit of account for the IMF and can be held and traded by private entities.\n3. The Chinese Renminbi is one of the currencies included in the basket used to determine its value.\nHow many of the statements given above are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The SDR was created by the IMF in 1969 as an international reserve asset to supplement member countries' official reserves. Statement 2 is incorrect: While it serves as a unit of account, individuals and private entities cannot hold SDRs. Statement 3 is correct: The SDR basket consists of five currencies: US Dollar, Euro, Chinese Renminbi, Japanese Yen, and British Pound Sterling.",
+      "takeaway": "SDRs are reserve assets and units of account, but they are not currencies and cannot be held by private entities.",
+      "evidenceExcerpt": "Special Drawing Rights (SDR): It is an international reserve asset, created by the IMF in 1969 to supplement its member countries’ official reserves. It is not a currency but serves as the unit of account of the IMF... Individuals and private entities cannot hold SDRs. Its value is based on a basket of five currencies: US Dollar, Euro, Chinese Renminbi, Japanese Yen, and British Pound Sterling.",
+      "qualityScore": 92,
+      "reviewNotes": "Standard UPSC format for 2023/24. Tests both the nature of the asset and its composition.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the governance and membership of the International Monetary Fund (IMF):\n1. A country must be a member of the IMF before it can apply for membership in the World Bank.\n2. The voting power of a member in the IMF is determined solely by the financial quota assigned to it.\n3. The Board of Governors is the highest decision-making body and consists of one governor from each member country.\nWhich of the statements given above is/are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: To become a member of the World Bank, a country must first join the IMF. Statement 2 is incorrect: A member's voting power is the sum of its 'basic votes' (which are equally distributed among all members) and its 'quota-based votes'. Therefore, it is not determined solely by the quota. Statement 3 is correct: The Board of Governors is the highest decision-making body, composed of one governor and one alternate governor from each member country.",
+      "takeaway": "IMF membership is a prerequisite for World Bank membership, and voting power is a hybrid of equal basic votes and wealth-weighted quota votes.",
+      "evidenceExcerpt": "To become a member of the World Bank, a country must first join the IMF. Board of Governors: Highest decision-making body of IMF composed of 1 governor and 1 alternate governor from each member countries. The votes of each member are equal to the sum of its basic votes (equally distributed among all members) and quota-based votes.",
+      "qualityScore": 88,
+      "reviewNotes": "Tests the institutional relationship between Bretton Woods twins and the specific voting mechanics which is a common area of confusion.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the International Monetary Fund (IMF), consider the following statements:\n1. It was established alongside the World Bank following the Bretton Woods Conference in 1944.\n2. Its primary mandate is to provide long-term loans for infrastructure development in developing nations.\n3. The General Resources Account (GRA) is the IMF's window for lending on non-concessional terms.\nWhich of the statements given above are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: The IMF and World Bank were established at the Bretton Woods Conference in 1944. Statement 2 is incorrect: The IMF's mandate is to promote global macroeconomic stability and provide short-to-medium term loans for balance of payments problems; long-term infrastructure lending is the mandate of the World Bank. Statement 3 is correct: The General Resources Account (GRA) provides lending on non-concessional terms to resolve BoP problems.",
+      "takeaway": "Distinguishing between the mandates of the IMF (macro-stability/BoP) and the World Bank (development/infrastructure) is crucial.",
+      "evidenceExcerpt": "Genesis: Established in the United Nations Monetary and Financial Conference, 1944 (also known as Bretton Woods Conference) along with the World Bank. Mandate: Promoting global macroeconomic and financial stability. Providing short-and medium-term loans to help countries that are experiencing balance of payments problems. General Resources Account (GRA): Lending on non-concessional terms.",
+      "qualityScore": 87,
+      "reviewNotes": "Classic UPSC comparison between the two Bretton Woods institutions.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "The 'Extended Fund Facility' (EFF), often seen in the news in the context of IMF lending, is primarily intended to assist countries facing:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Short-term seasonal fluctuations in the balance of payments due to commodity price volatility."
+        },
+        {
+          "id": "B",
+          "text": "Serious medium-term balance of payments problems arising from structural impediments."
+        },
+        {
+          "id": "C",
+          "text": "Immediate liquidity crises caused by sudden capital flight in middle-income economies."
+        },
+        {
+          "id": "D",
+          "text": "Long-term infrastructure projects aimed at poverty reduction in least-developed countries."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The EFF is a lending facility of the IMF designed to assist countries experiencing serious payment imbalances because of structural impediments or slow growth and an inherently weak balance-of-payments position. Unlike short-term facilities, it addresses medium-term issues that require fundamental economic reforms.",
+      "takeaway": "The EFF is the IMF's tool for addressing structural, rather than just temporary, balance of payment issues.",
+      "evidenceExcerpt": "EFF: It assists countries experiencing serious payment imbalances because of structural impediments or slow growth and an inherently weak balance-of-payments position.",
+      "qualityScore": 85,
+      "reviewNotes": "Directly links the news context (Pakistan) to the underlying economic concept of structural vs. temporary BoP issues.",
+      "contextLines": []
+    }
+  ],
+  "reviewerNotes": "The selected questions cover the institutional profile, governance, specific lending instruments (EFF/GRA), and the technical nature of SDRs. I have ensured that the distractors are plausible and that the statements test specific nuances found in the text, such as the 'basic votes' vs 'quota votes' and the 'private entity' restriction on SDRs. The wording has been adjusted to match the formal tone of UPSC Prelims."
+}

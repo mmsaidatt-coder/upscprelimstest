@@ -1,0 +1,94 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-010-market-structure-and-investment-vehicles-section-001-indian-financial-market-structure-money-vs-capital-market",
+    "claimType": "Factual",
+    "claimText": "The Money Market caters to short-term financial needs with a duration of less than one year.",
+    "evidenceExcerpt": "The Money Market caters to short-term needs (less than 1 year)",
+    "pageNumbers": [
+      20
+    ],
+    "examUse": "Statement-based question distinguishing the duration of money market versus capital market.",
+    "distractorHooks": [
+      "Duration greater than 1 year",
+      "Medium-term needs up to 3 years"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-010-market-structure-and-investment-vehicles-section-001-indian-financial-market-structure-money-vs-capital-market",
+    "claimType": "Institutional",
+    "claimText": "The Money Market in India is regulated by the Reserve Bank of India (RBI).",
+    "evidenceExcerpt": "The Money Market... is regulated by RBI",
+    "pageNumbers": [
+      20
+    ],
+    "examUse": "Correct-pair or statement-based question on financial market regulators.",
+    "distractorHooks": [
+      "Regulated by SEBI",
+      "Regulated by the Ministry of Finance"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-010-market-structure-and-investment-vehicles-section-001-indian-financial-market-structure-money-vs-capital-market",
+    "claimType": "Classification",
+    "claimText": "Treasury Bills, Call Money, Commercial Paper, and Certificate of Deposits are instruments of the Money Market.",
+    "evidenceExcerpt": "Money Market instruments include Treasury Bills (T-Bills), Call Money, Commercial Paper (CP), and Certificate of Deposits (CDs).",
+    "pageNumbers": [
+      20
+    ],
+    "examUse": "Multiple-choice question identifying money market instruments from a mixed list.",
+    "distractorHooks": [
+      "Shares",
+      "Bonds",
+      "Debentures"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-010-market-structure-and-investment-vehicles-section-001-indian-financial-market-structure-money-vs-capital-market",
+    "claimType": "Factual",
+    "claimText": "The Capital Market caters to long-term wealth creation with a duration of greater than one year and involves high risk.",
+    "evidenceExcerpt": "Capital Market duration is greater than 1 year, involves high risk",
+    "pageNumbers": [
+      20
+    ],
+    "examUse": "Statement-based question on the characteristics and risk profile of the capital market.",
+    "distractorHooks": [
+      "Duration less than 1 year",
+      "Involves low risk"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-010-market-structure-and-investment-vehicles-section-001-indian-financial-market-structure-money-vs-capital-market",
+    "claimType": "Institutional",
+    "claimText": "The Capital Market in India is regulated by the Securities and Exchange Board of India (SEBI).",
+    "evidenceExcerpt": "The Capital Market... is regulated by SEBI",
+    "pageNumbers": [
+      20
+    ],
+    "examUse": "Correct-pair question matching financial markets to their respective regulatory bodies.",
+    "distractorHooks": [
+      "Regulated by RBI",
+      "Regulated by IRDAI"
+    ]
+  },
+  {
+    "id": "claim-006",
+    "sectionId": "packet-010-market-structure-and-investment-vehicles-section-001-indian-financial-market-structure-money-vs-capital-market",
+    "claimType": "Classification",
+    "claimText": "The Capital Market includes the Primary Market for new issues like IPOs and the Secondary Market for trading existing shares and bonds.",
+    "evidenceExcerpt": "Capital Market includes the Primary Market for new issues (IPO) and the Secondary Market for trading shares and bonds.",
+    "pageNumbers": [
+      20
+    ],
+    "examUse": "Statement-based question distinguishing the functions of primary and secondary markets.",
+    "distractorHooks": [
+      "Primary market is for trading existing shares",
+      "Secondary market is for issuing new IPOs",
+      "Money market includes the Primary Market"
+    ]
+  }
+]

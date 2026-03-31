@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the '3 By 35 Initiative' recently seen in the news:\n1. It is a global initiative launched by the World Health Organization (WHO).\n2. It aims to raise the prices of tobacco, alcohol, and sugary drinks by at least 35% by the year 2035.\n3. It recommends the imposition of health taxes as a cost-effective tool to address population levels of obesity.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The '3 By 35 Initiative' was launched by the World Health Organization (WHO).\nStatement 2 is incorrect: The initiative aims to raise the prices of any or all of three unhealthy products—tobacco, alcohol, and sugary drinks—by at least 50% (not 35%) by the year 2035. The '3' refers to the three products, and '35' refers to the target year 2035.\nStatement 3 is correct: It promotes the use of health taxes, which the WHO recommends as one of the most cost-effective tools for addressing population levels of obesity and other related non-communicable diseases (NCDs).",
+      "takeaway": "The WHO's 3 By 35 Initiative targets a 50% price increase on three unhealthy products (tobacco, alcohol, and sugary drinks) by 2035 using health taxes to combat NCDs.",
+      "evidenceExcerpt": "WHO launched 3 By 35 Initiatives, aims to raise prices of any or all of three unhealthy products tobacco, alcohol, and sugary drinks by at least 50% through health taxes by 2035. What is Health Tax? Levied on products that have a negative public health impact e.g. Tobacco, etc. WHO recommends taxation as one of the most cost-effective tools for addressing population levels of obesity and other related non-communicable diseases (NCDs).",
+      "qualityScore": 85,
+      "reviewNotes": "Selected Candidate 1. Refined Statement 2 to use '35%' as a distractor for the price increase, playing on the '35' in the initiative's name, which is a classic UPSC trap. Ensured the explanation clearly breaks down the meaning of '3 By 35'."
+    }
+  ],
+  "reviewerNotes": "Selected and refined one strong statement-based question focusing on the WHO 3 By 35 Initiative. The distractor effectively plays on the numerical values in the initiative's name."
+}

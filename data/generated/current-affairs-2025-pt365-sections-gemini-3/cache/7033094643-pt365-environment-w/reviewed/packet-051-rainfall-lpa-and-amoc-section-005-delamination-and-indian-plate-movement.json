@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Indian Continental Plate:\n\n1. It is bordered by the Eurasian, Arabian, African, and Australian Plates.\n2. Recent research proposes that the plate is splitting apart due to a tectonic process known as 'delamination'.\n3. During delamination, the upper continental crust of the Indian Plate peels away and sinks into the Earth's mantle.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The Indian Continental Plate is bordered by four major plates: the Eurasian, Arabian, African, and Australian Plates.\nStatement 2 is correct: New research suggests that the Indian Continental Plate is splitting apart and proposes the theory of 'delamination' to explain its movement.\nStatement 3 is incorrect: Delamination is the process where the plate's dense lower section (not the upper crust) peels away and sinks into the Earth's mantle as it slides beneath the Eurasian plate.",
+      "takeaway": "The Indian Continental Plate interacts with the Eurasian, Arabian, African, and Australian Plates. Its movement and splitting are explained by a newly proposed theory called 'delamination', where its dense lower section sinks into the mantle.",
+      "evidenceExcerpt": "New research suggests that Indian Continental Plate is splitting apart and proposes a new theory explaining movement of the Indian Plate called ‘Delamination’. About Delamination: It is where the Indian plate's dense lower section peels away and sinks into Earth's mantle as it slides beneath the Eurasian plate... The Indian Continental Plate is bordered by four major plates: the Eurasian, Arabian, African, and Australian Plates.",
+      "qualityScore": 88,
+      "reviewNotes": "Strong statement-based question that tests both geographical boundaries and the specific mechanics of the newly proposed delamination theory. The distractor in statement 3 (upper vs. lower crust) is a classic UPSC trap."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of tectonic processes associated with plate convergence and their characteristics:\n\n1. Delamination : The dense lower section of a plate peels away and sinks into the mantle.\n2. Underplating : The denser lower crust of a plate slides beneath the overriding crust.\n3. Subduction : An entire tectonic plate slides beneath another plate.\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Pair 1 is correctly matched: Delamination is a process where the dense lower section of a tectonic plate peels away and sinks into the Earth's mantle.\nPair 2 is correctly matched: Underplating occurs when the denser lower crust of one plate slides beneath the crust of another (e.g., the Indian lower crust sliding beneath the Eurasian crust).\nPair 3 is correctly matched: Subduction is the traditional process where one entire tectonic plate slides beneath another.",
+      "takeaway": "Tectonic convergence can involve different mechanisms: subduction (an entire plate sliding beneath another), underplating (the lower crust sliding beneath), or delamination (the lower section peeling away and sinking).",
+      "evidenceExcerpt": "About Delamination: It is where the Indian plate's dense lower section peels away and sinks into Earth's mantle as it slides beneath the Eurasian plate... Two traditional theories explain this: Underplating: The denser Indian lower crust slides beneath the Eurasian crust. Subduction: One plate slides beneath another.",
+      "qualityScore": 85,
+      "reviewNotes": "A clean, conceptual matching question that requires the candidate to distinguish between three closely related geomorphic processes mentioned in the source text."
+    }
+  ],
+  "reviewerNotes": "Selected and refined two distinct questions from the candidates. The first focuses on the geographical boundaries of the Indian Plate and the specific mechanics of the delamination theory. The second is a conceptual 'Pairs' question that tests the subtle differences between delamination, underplating, and subduction. Both adhere strictly to the provided text and mimic the UPSC Prelims style."
+}

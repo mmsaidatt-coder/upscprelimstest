@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-Driven",
+      "prompt": "Consider the following statements regarding Trachoma:\n1. It is a bacterial infection of the eye that can lead to irreversible blindness.\n2. It is recognized as a Neglected Tropical Disease (NTD) by the World Health Organization.\n3. India recently became the first Southeast Asian country to eliminate Trachoma as a public health problem.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Trachoma is an eye disease caused by the bacterium Chlamydia trachomatis, which can lead to irreversible blindness.\nStatement 2 is correct: It is categorized as a Neglected Tropical Disease (NTD) by the WHO.\nStatement 3 is incorrect: India was awarded the WHO Certificate of Elimination of Trachoma as a Public Health Problem, becoming the third (not the first) Southeast Asian country to achieve this milestone.",
+      "takeaway": "Trachoma is a bacterial Neglected Tropical Disease (NTD) causing irreversible blindness. India is the 3rd Southeast Asian country to eliminate it as a public health problem.",
+      "evidenceExcerpt": "India was awarded the WHO Certificate of Elimination of Trachoma as a Public Health Problem, becoming the 3rd SE Asian country to do so. Trachoma is an eye disease caused by Chlamydia trachomatis, categorized as a Neglected Tropical Disease (NTD), leading to irreversible blindness.",
+      "qualityScore": 85,
+      "reviewNotes": "Rewritten to match the latest UPSC 'How many statements' format. The distractors are plausible, testing the candidate's attention to detail regarding the causative agent and India's regional standing."
+    }
+  ],
+  "reviewerNotes": "Selected and refined two questions to cover different aspects of the source text. The first question tests factual knowledge about the disease and India's regional achievement using the 'How many statements' format. The second question tests conceptual understanding of public health terminology (elimination vs. eradication) and institutional integration."
+}

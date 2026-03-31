@@ -1,0 +1,47 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-051-rainfall-lpa-and-amoc-section-005-delamination-and-indian-plate-movement",
+    "claimType": "Conceptual",
+    "claimText": "Delamination is a tectonic process where the dense lower section of a plate peels away and sinks into the Earth's mantle.",
+    "evidenceExcerpt": "Delamination is a process where the dense lower section of a tectonic plate peels away and sinks into the Earth's mantle.",
+    "pageNumbers": [
+      107
+    ],
+    "examUse": "Statement-based question on tectonic processes.",
+    "distractorHooks": [
+      "Confusing delamination with subduction or underplating",
+      "Stating the upper crust peels away instead of the dense lower section"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-051-rainfall-lpa-and-amoc-section-005-delamination-and-indian-plate-movement",
+    "claimType": "Factual",
+    "claimText": "The Indian Continental Plate is bordered by the Eurasian, Arabian, African, and Australian Plates.",
+    "evidenceExcerpt": "The Indian Continental Plate is bordered by four major plates: the Eurasian, Arabian, African, and Australian Plates.",
+    "pageNumbers": [
+      107
+    ],
+    "examUse": "Correct-pair or multiple-statement question on plate boundaries.",
+    "distractorHooks": [
+      "Including the Pacific Plate or Antarctic Plate as a direct border",
+      "Omitting the Arabian Plate"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-051-rainfall-lpa-and-amoc-section-005-delamination-and-indian-plate-movement",
+    "claimType": "Comparison",
+    "claimText": "In the context of the Indian-Eurasian plate convergence, underplating involves the denser lower crust sliding beneath the Eurasian crust, whereas subduction involves an entire plate sliding beneath another.",
+    "evidenceExcerpt": "Traditional theories for the Indian-Eurasian plate convergence are underplating (lower crust sliding beneath) and subduction (one plate sliding beneath another).",
+    "pageNumbers": [
+      107
+    ],
+    "examUse": "Comparison question distinguishing between underplating, subduction, and delamination.",
+    "distractorHooks": [
+      "Swapping the definitions of underplating and subduction",
+      "Claiming underplating involves the upper crust"
+    ]
+  }
+]

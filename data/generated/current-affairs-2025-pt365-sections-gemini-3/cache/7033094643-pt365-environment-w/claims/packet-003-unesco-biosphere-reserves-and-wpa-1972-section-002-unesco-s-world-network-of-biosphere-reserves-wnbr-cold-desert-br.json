@@ -1,0 +1,82 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-003-unesco-biosphere-reserves-and-wpa-1972-section-002-unesco-s-world-network-of-biosphere-reserves-wnbr-cold-desert-br",
+    "claimType": "Factual",
+    "claimText": "The World Network of Biosphere Reserves (WNBR) is managed by UNESCO's Man and the Biosphere (MAB) Programme, which was launched in 1971.",
+    "evidenceExcerpt": "WNBR (launched 1976) is managed by UNESCO's Man and the Biosphere (MAB) Programme (launched 1971).",
+    "pageNumbers": [
+      9,
+      10
+    ],
+    "examUse": "Statement-based question on UNESCO MAB and WNBR origins.",
+    "distractorHooks": [
+      "Managed by UNEP or IUCN instead of UNESCO",
+      "MAB launched in 1992 (Earth Summit) instead of 1971"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-003-unesco-biosphere-reserves-and-wpa-1972-section-002-unesco-s-world-network-of-biosphere-reserves-wnbr-cold-desert-br",
+    "claimType": "Process",
+    "claimText": "Designations to the WNBR are made by the Director-General of UNESCO following decisions by the MAB International Coordinating Council (ICC) using the Seville Strategy.",
+    "evidenceExcerpt": "Designations are made by the Director-General of UNESCO following MAB ICC decisions, using the Seville Strategy.",
+    "pageNumbers": [
+      9,
+      10
+    ],
+    "examUse": "Statement-based question on the procedure and strategy used for WNBR designation.",
+    "distractorHooks": [
+      "Designations made by the UN General Assembly",
+      "Uses the Madrid Action Plan or Aichi Targets instead of the Seville Strategy"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-003-unesco-biosphere-reserves-and-wpa-1972-section-002-unesco-s-world-network-of-biosphere-reserves-wnbr-cold-desert-br",
+    "claimType": "Factual",
+    "claimText": "India has 13 Biosphere Reserves recognized under UNESCO's World Network of Biosphere Reserves (WNBR).",
+    "evidenceExcerpt": "India has 13 Biosphere Reserves recognized under WNBR.",
+    "pageNumbers": [
+      9,
+      10
+    ],
+    "examUse": "Fact-based statement in a multi-statement question on India's Biosphere Reserves.",
+    "distractorHooks": [
+      "India has 18 BRs recognized under WNBR",
+      "India has 14 BRs recognized under WNBR"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-003-unesco-biosphere-reserves-and-wpa-1972-section-002-unesco-s-world-network-of-biosphere-reserves-wnbr-cold-desert-br",
+    "claimType": "Geographical",
+    "claimText": "The Cold Desert Biosphere Reserve in Himachal Pradesh encompasses Pin Valley National Park, Chandratal, and the Sarchu and Kibber Wildlife Sanctuaries.",
+    "evidenceExcerpt": "Cold Desert BR (Himachal Pradesh) covers Pin Valley NP, Chandratal, and Sarchu & Kibber WLS.",
+    "pageNumbers": [
+      9,
+      10
+    ],
+    "examUse": "Correct-pair or statement-based question mapping protected areas to their respective Biosphere Reserves.",
+    "distractorHooks": [
+      "Located in Ladakh or Uttarakhand instead of Himachal Pradesh",
+      "Includes Hemis National Park instead of Pin Valley NP"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-003-unesco-biosphere-reserves-and-wpa-1972-section-002-unesco-s-world-network-of-biosphere-reserves-wnbr-cold-desert-br",
+    "claimType": "Ecological",
+    "claimText": "The Cold Desert Biosphere Reserve is located in a rain-shadow zone and is characterized by a distinct Buddhist culture and fauna such as the Snow Leopard and Himalayan Ibex.",
+    "evidenceExcerpt": "Cold Desert BR lies in a rain-shadow zone with distinct Buddhist culture (Gompas, Chorten) and fauna like Snow Leopard and Himalayan Ibex.",
+    "pageNumbers": [
+      9,
+      10
+    ],
+    "examUse": "Feature-based identification question describing a specific Biosphere Reserve.",
+    "distractorHooks": [
+      "Located in a high-rainfall zone",
+      "Fauna includes the Red Panda or Clouded Leopard"
+    ]
+  }
+]

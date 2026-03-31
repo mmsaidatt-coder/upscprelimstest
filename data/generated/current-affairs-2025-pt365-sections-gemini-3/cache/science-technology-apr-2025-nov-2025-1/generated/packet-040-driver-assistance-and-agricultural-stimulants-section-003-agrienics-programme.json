@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the 'Agrienics Programme' recently seen in the news:\n1. It is a national initiative of the Ministry of Agriculture and Farmers Welfare.\n2. It involves the commercialization of technologies in both the agriculture and environment domains.\n3. The Centre for Development of Advanced Computing (C-DAC) is the nodal agency for this programme.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The Agrienics Programme is a national initiative of the Ministry of Electronics and Information Technology (MeitY), not the Ministry of Agriculture and Farmers Welfare. The prefix 'Agri' makes it a common trap.\nStatement 2 is correct: It involves the research, development, deployment, demonstration, and commercialization of technologies in the agriculture and environment domains.\nStatement 3 is correct: The Centre for Development of Advanced Computing (C-DAC), Kolkata is the designated Nodal Agency for the programme.",
+      "takeaway": "The Agrienics Programme is an initiative of MeitY, implemented by C-DAC, focusing on technological interventions in agriculture and environment.",
+      "evidenceExcerpt": "A national programme of MeitY involving research, development, deployment, demonstration, and commercialization of technologies in agriculture and environment domain. Nodal Agency: Centre for Development of Advanced Computing (C-DAC), Kolkata."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "best_description",
+      "prompt": "Which one of the following statements best describes the 'Agrienics Programme', recently seen in the news?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It is a dedicated fund created by the National Bank for Agriculture and Rural Development (NABARD) to support rural agritech startups."
+        },
+        {
+          "id": "B",
+          "text": "It is an initiative of the Ministry of Electronics and Information Technology (MeitY) for the development and commercialization of technologies in the agriculture and environment domains."
+        },
+        {
+          "id": "C",
+          "text": "It is a collaborative research framework between the Indian Council of Agricultural Research (ICAR) and foreign universities to promote precision farming."
+        },
+        {
+          "id": "D",
+          "text": "It is a national mission under the Ministry of Environment, Forest and Climate Change to integrate traditional ecological knowledge with modern agricultural practices."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Agrienics Programme is a national initiative of the Ministry of Electronics and Information Technology (MeitY), not the Ministry of Agriculture or Environment. It focuses on the research, development, deployment, demonstration, and commercialization of technologies in the agriculture and environment domains. The Centre for Development of Advanced Computing (C-DAC), Kolkata, serves as its nodal agency.",
+      "takeaway": "The Agrienics Programme bridges electronics and information technology with agriculture and environmental management, making MeitY (and C-DAC) the driving forces rather than traditional agricultural ministries.",
+      "evidenceExcerpt": "A national programme of MeitY involving research, development, deployment, demonstration, and commercialization of technologies in agriculture and environment domain. Nodal Agency: Centre for Development of Advanced Computing (C-DAC), Kolkata."
+    }
+  ]
+}

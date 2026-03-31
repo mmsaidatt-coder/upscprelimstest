@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Energy Transition Index (ETI) 2025: 1. It is released by the International Energy Agency (IEA). 2. Its assessment framework evaluates countries on System Performance and Transition Readiness. 3. India's ranking in the index improved in 2025 as compared to 2024. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect: The Energy Transition Index is released by the World Economic Forum (WEF), not the IEA. Statement 2 is correct: The index takes into account two main aspects: System Performance (energy security, equity, and sustainability) and Transition Readiness (regulation, infrastructure, investment, etc.). Statement 3 is incorrect: India's rank dropped from 63 in 2024 to 71 in 2025.",
+      "takeaway": "The ETI is a WEF publication assessing System Performance and Transition Readiness, in which India's rank recently declined.",
+      "evidenceExcerpt": "Released by: World Economic Forum (WEF) - India's rank dropped from rank 63 in 2024 to rank 71 in 2025. - Takes into account two main aspects: System Performance (energy security, equity & sustainability) and Transition Readiness (regulation, infrastructure, investment etc.)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Correct-pair",
+      "prompt": "The Energy Transition Index (ETI) evaluates countries across various dimensions. Consider the following pairs of assessment dimensions and their corresponding primary aspects in the ETI framework: 1. Energy security : System Performance 2. Infrastructure : Transition Readiness 3. Equity : Transition Readiness How many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: Energy security is part of System Performance. Pair 2 is correctly matched: Infrastructure is evaluated under Transition Readiness. Pair 3 is incorrectly matched: Equity is considered under System Performance, not Transition Readiness.",
+      "takeaway": "The ETI divides its assessment into System Performance (energy security, equity, sustainability) and Transition Readiness (regulation, infrastructure, investment).",
+      "evidenceExcerpt": "Takes into account two main aspects: System Performance (energy security, equity & sustainability) and Transition Readiness (regulation, infrastructure, investment etc.)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "statement-based",
+      "prompt": "Consider the following statements regarding the Energy Transition Index (ETI) 2025:\n1. It is a global assessment published by the International Renewable Energy Agency (IRENA).\n2. It evaluates a country's energy transition progress by measuring both current system performance and the enabling environment for future transition.\n3. In the 2025 assessment, India's rank declined compared to the previous year.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The Energy Transition Index (ETI) is released by the World Economic Forum (WEF), not IRENA. Statement 2 is correct: The index evaluates progress based on two main aspects: System Performance (current state) and Transition Readiness (enabling environment). Statement 3 is correct: India's rank dropped from 63 in 2024 to 71 in 2025.",
+      "takeaway": "The ETI is a WEF publication that tracks global progress from fossil fuels to clean energy. India experienced a drop in its ranking in the 2025 edition.",
+      "evidenceExcerpt": "Energy Transition Index (ETI), 2025 - Released by: World Economic Forum (WEF)... India's rank dropped from rank 63 in 2024 to rank 71 in 2025. - Takes into account two main aspects: System Performance... and Transition Readiness..."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "conceptual",
+      "prompt": "Which of the following best describes the scope of the 'Transition Readiness' parameter used in the Energy Transition Index (ETI)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It measures the historical reduction of greenhouse gas emissions from fossil fuel power plants."
+        },
+        {
+          "id": "B",
+          "text": "It assesses the presence of an enabling environment, including regulations and investments, for shifting to clean energy."
+        },
+        {
+          "id": "C",
+          "text": "It evaluates the current affordability and equitable distribution of electricity across different socio-economic groups."
+        },
+        {
+          "id": "D",
+          "text": "It quantifies the absolute volume of fossil fuels imported by a country to meet its energy security needs."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Option B is correct: 'Transition Readiness' in the ETI evaluates the enabling environment for the energy transition, taking into account factors like regulation, infrastructure, and investment. Options C and D relate to 'System Performance', which covers equity and energy security. Option A is not the defining scope of Transition Readiness.",
+      "takeaway": "The ETI divides its assessment into 'System Performance' (security, equity, sustainability) and 'Transition Readiness' (the structural and regulatory enablers for future transition).",
+      "evidenceExcerpt": "Takes into account two main aspects: System Performance (energy security, equity & sustainability) and Transition Readiness (regulation, infrastructure, investment etc.)."
+    }
+  ]
+}

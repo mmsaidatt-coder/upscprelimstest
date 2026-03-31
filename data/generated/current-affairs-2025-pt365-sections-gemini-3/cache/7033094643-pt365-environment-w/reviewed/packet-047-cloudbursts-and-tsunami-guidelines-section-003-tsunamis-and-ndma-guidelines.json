@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the propagation of tsunami waves: 1. The speed of a tsunami wave in the open ocean is primarily determined by the depth of the water rather than the distance from its source. 2. In deep ocean waters, tsunami waves are characterized by short wavelengths and massive wave amplitudes. 3. As a tsunami approaches the coast, its wavelength decreases and wave amplitude increases due to the shoaling effect. Which of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: The speed and wavelength of a tsunami primarily depend on ocean depth, not the distance from the wave's source. Statement 2 is incorrect: In deep oceans, tsunamis have a long wavelength (approximately 200 km) and negligible amplitude, often going unnoticed by ships. Statement 3 is correct: As they approach shallow water, the wavelength decreases to less than 20 km and amplitude increases significantly due to shoaling.",
+      "takeaway": "Tsunami wave dynamics are dictated by ocean depth. Deep waters see long, fast, low-amplitude waves, while shallow coastal waters cause 'shoaling' which slows the wave, shortens its length, and drastically increases its height.",
+      "evidenceExcerpt": "Speed & wavelength primarily depends on ocean depth, not distance from wave's source. Wavelength in deep ocean is ~200 km and reduces to less than 20 km near coast due to shoaling. Wave Height (Amplitude): Not noticed by ships in deep oceans because their amplitude is negligible. When it approach shallow water, wave amplitude increases.",
+      "qualityScore": 85,
+      "reviewNotes": "Strong conceptual question testing the physical properties of tsunamis. Distractors are plausible and directly address common misconceptions about wave amplitude in deep oceans."
+    }
+  ],
+  "reviewerNotes": "Selected two strong questions covering different aspects of the source text: wave dynamics and disaster management guidelines. Rewrote the prompts to eliminate newlines and improved the distractors to align with UPSC standards."
+}

@@ -1,0 +1,178 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the regulatory framework for Genetically Modified (GM) crops and food in India:\n1. The Review Committee on Genetic Manipulation (RCGM), responsible for monitoring R&D projects involving GMOs, functions under the Ministry of Environment, Forest and Climate Change.\n2. The import, manufacture, use, or sale of GM food in India requires mandatory approval from the Food Safety and Standards Authority of India (FSSAI).\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The Review Committee on Genetic Manipulation (RCGM) operates under the Department of Biotechnology (DBT), not the Ministry of Environment, Forest and Climate Change. Statement 2 is correct: Under the Food Safety and Standards Act, 2006, FSSAI approval is mandatory for the import, manufacture, use, or sale of GM food.",
+      "takeaway": "RCGM monitors R&D under the DBT, while FSSAI regulates the commercial aspects (import, sale, manufacture) of GM food.",
+      "evidenceExcerpt": "The regulatory framework includes the Food Safety and Standards Act, 2006, which requires FSSAI approval for GM food. FSSAI approval is mandatory for import, manufacture, use, or sale of GM food. The Review Committee on Genetic Manipulation (RCGM) under the DBT monitors R&D."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the institutional framework for regulating Genetically Modified Organisms (GMOs) in India, consider the following statements:\n1. The State Biotechnology Coordination Committee (SBCC) is empowered to review safety and control measures for GMOs at the state level.\n2. The District Level Committee (DLC) inspects GMO compliance and submits its reports directly to the Union Ministry of Agriculture and Farmers Welfare.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The State Biotechnology Coordination Committee (SBCC) reviews safety and control measures for GMOs in institutions at the state level. Statement 2 is incorrect: The District Level Committee (DLC) inspects and reports compliance to the SBCC or the Genetic Engineering Appraisal Committee (GEAC), not the Ministry of Agriculture.",
+      "takeaway": "Decentralized monitoring of GMOs involves the SBCC at the state level and the DLC at the district level, which reports upwards to the SBCC or GEAC.",
+      "evidenceExcerpt": "The State Biotechnology Coordination Committee (SBCC) reviews safety in institutions, and the District Level Committee (DLC) inspects and reports compliance to SBCC or GEAC."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of regulatory bodies and their primary functions or jurisdictions concerning Genetically Modified Organisms (GMOs) in India:\n1. Review Committee on Genetic Manipulation (RCGM) : Monitors research and development projects involving GMOs\n2. State Biotechnology Coordination Committee (SBCC) : Grants final approval for the commercial cultivation of GM crops\n3. District Level Committee (DLC) : Inspects compliance and reports to the SBCC or GEAC\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: RCGM monitors R&D projects involving GMOs. Pair 2 is incorrectly matched: SBCC reviews safety and control measures at the state level, but it does not grant final approval for commercial cultivation. Pair 3 is correctly matched: DLC inspects compliance and reports to the SBCC or GEAC.",
+      "takeaway": "The regulatory framework for GMOs in India distributes specific roles: RCGM for R&D, SBCC for state-level safety review, and DLC for district-level compliance inspection.",
+      "evidenceExcerpt": "The Review Committee on Genetic Manipulation (RCGM) under the DBT monitors R&D. The State Biotechnology Coordination Committee (SBCC) reviews safety in institutions, and the District Level Committee (DLC) inspects and reports compliance to SBCC or GEAC."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Applied Scenario",
+      "prompt": "A multinational corporation plans to introduce a packaged food product containing genetically modified (GM) ingredients into the Indian retail market. According to the regulatory framework in India, which of the following is the primary mandatory requirement for the import and sale of this product?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Clearance from the Review Committee on Genetic Manipulation (RCGM) under the Department of Biotechnology."
+        },
+        {
+          "id": "B",
+          "text": "Mandatory approval from the Food Safety and Standards Authority of India (FSSAI) under the Food Safety and Standards Act, 2006."
+        },
+        {
+          "id": "C",
+          "text": "Safety certification from the State Biotechnology Coordination Committee (SBCC) of the state where the product is first imported."
+        },
+        {
+          "id": "D",
+          "text": "A compliance inspection report submitted by the District Level Committee (DLC) to the Genetic Engineering Appraisal Committee (GEAC)."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Under the Food Safety and Standards Act, 2006, FSSAI approval is mandatory for the import, manufacture, use, or sale of GM food in India. RCGM is responsible for monitoring R&D, while SBCC and DLC handle institutional safety and compliance reporting, not commercial food import approvals.",
+      "takeaway": "Commercial activities involving GM food (import, manufacture, use, sale) fall under the jurisdiction of the FSSAI, distinct from the bodies that monitor agricultural R&D and field trials.",
+      "evidenceExcerpt": "The regulatory framework includes the Food Safety and Standards Act, 2006, which requires FSSAI approval for GM food. FSSAI approval is mandatory for import, manufacture, use, or sale of GM food."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Assertion-Reason",
+      "prompt": "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R):\n\nAssertion (A): The regulatory architecture for Genetically Modified (GM) products in India separates the oversight of scientific research from the regulation of commercial food safety.\nReason (R): The Review Committee on Genetic Manipulation (RCGM) monitors R&D projects, whereas the Food Safety and Standards Authority of India (FSSAI) mandates approval for the import and sale of GM food.\n\nIn the context of the above two statements, which one of the following is correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A)."
+        },
+        {
+          "id": "B",
+          "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A)."
+        },
+        {
+          "id": "C",
+          "text": "Assertion (A) is true but Reason (R) is false."
+        },
+        {
+          "id": "D",
+          "text": "Assertion (A) is false but Reason (R) is true."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "The Assertion correctly identifies that India's GM regulatory framework divides responsibilities between research oversight and food safety. The Reason provides the exact institutional mechanism for this separation: RCGM (under DBT) handles R&D, while FSSAI handles commercial food approvals. Thus, the Reason directly explains the Assertion.",
+      "takeaway": "India's GM regulation is multi-nodal, assigning specific lifecycle stages of a GM product to specialized bodies like RCGM for research and FSSAI for consumption safety.",
+      "evidenceExcerpt": "The regulatory framework includes the Food Safety and Standards Act, 2006, which requires FSSAI approval for GM food. The Review Committee on Genetic Manipulation (RCGM) under the DBT monitors R&D."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Matching / Sequential Application",
+      "prompt": "Consider the following stages in the lifecycle of a Genetically Modified (GM) crop or food product in India:\n1. Monitoring of laboratory research and development projects involving GMOs.\n2. Approval for the import, manufacture, or sale of GM food products.\n3. Reviewing safety and control measures in institutions at the state level.\n\nWhich of the following bodies are primarily responsible for the above stages, respectively?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Genetic Engineering Appraisal Committee (GEAC), Ministry of Agriculture, State Pollution Control Board"
+        },
+        {
+          "id": "B",
+          "text": "Review Committee on Genetic Manipulation (RCGM), Food Safety and Standards Authority of India (FSSAI), State Biotechnology Coordination Committee (SBCC)"
+        },
+        {
+          "id": "C",
+          "text": "Department of Biotechnology (DBT), Genetic Engineering Appraisal Committee (GEAC), District Level Committee (DLC)"
+        },
+        {
+          "id": "D",
+          "text": "Review Committee on Genetic Manipulation (RCGM), Genetic Engineering Appraisal Committee (GEAC), District Level Committee (DLC)"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "RCGM monitors R&D projects involving GMOs. FSSAI is responsible for approving the import, manufacture, use, or sale of GM food. SBCC reviews safety and control measures for GMOs at the state level within institutions.",
+      "takeaway": "Understanding the specific jurisdiction of each regulatory body (RCGM for R&D, FSSAI for food trade/consumption, SBCC for state-level institutional safety) is crucial for navigating India's GM framework.",
+      "evidenceExcerpt": "The regulatory framework includes the Food Safety and Standards Act, 2006, which requires FSSAI approval for GM food. The Review Committee on Genetic Manipulation (RCGM) under the DBT monitors R&D. The State Biotechnology Coordination Committee (SBCC) reviews safety in institutions..."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-004-advanced-biological-tools-and-forensics-section-006-jumping-genes-transposable-elements",
+    "claimType": "Conceptual",
+    "claimText": "Transposable elements, or jumping genes, are DNA sequences that can move from one location to another within the genome.",
+    "evidenceExcerpt": "Jumping genes (transposable elements) are DNA sequences that move from one location to another on the genome.",
+    "pageNumbers": [
+      10
+    ],
+    "examUse": "Statement-based question on the definition of jumping genes.",
+    "distractorHooks": [
+      "RNA sequences that exit the nucleus",
+      "Stationary proteins on the chromosome",
+      "Extrachromosomal plasmids found only in bacteria"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-004-advanced-biological-tools-and-forensics-section-006-jumping-genes-transposable-elements",
+    "claimType": "Factual",
+    "claimText": "More than 50 percent of the human genome is composed of transposable elements.",
+    "evidenceExcerpt": "More than 50% of the human genome is composed of transposable elements.",
+    "pageNumbers": [
+      10
+    ],
+    "examUse": "Fact-based statement in a multi-statement question regarding human genome composition.",
+    "distractorHooks": [
+      "Less than 2 percent of the human genome",
+      "Only found in plant genomes, not humans",
+      "Make up exactly 10 percent of the human genome"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-004-advanced-biological-tools-and-forensics-section-006-jumping-genes-transposable-elements",
+    "claimType": "Conceptual",
+    "claimText": "Jumping genes move across the genome by either physically cutting and pasting or copying themselves to new locations.",
+    "evidenceExcerpt": "They move by either physically cutting and pasting or copying themselves to new locations.",
+    "pageNumbers": [
+      10
+    ],
+    "examUse": "Statement-based question on the mechanism of transposable elements.",
+    "distractorHooks": [
+      "Move exclusively via viral vectors",
+      "Move by degrading adjacent genes",
+      "Move by transforming into RNA permanently"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-004-advanced-biological-tools-and-forensics-section-006-jumping-genes-transposable-elements",
+    "claimType": "Factual",
+    "claimText": "LINE-1 is a jumping gene that binds to cellular DNA during brief periods of cell division.",
+    "evidenceExcerpt": "LINE-1 is a jumping gene that binds to cellular DNA during brief periods of cell division.",
+    "pageNumbers": [
+      10
+    ],
+    "examUse": "Correct-pair question matching LINE-1 to its biological function or classification.",
+    "distractorHooks": [
+      "LINE-1 is a restriction endonuclease",
+      "LINE-1 is a synthetic cloning vector",
+      "LINE-1 binds to DNA during apoptosis"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-004-advanced-biological-tools-and-forensics-section-006-jumping-genes-transposable-elements",
+    "claimType": "Conceptual",
+    "claimText": "The movement of transposable elements can affect gene expression and cause mutations in the genome.",
+    "evidenceExcerpt": "affecting gene expression by cutting and pasting or copying themselves. They can cause mutations",
+    "pageNumbers": [
+      10
+    ],
+    "examUse": "Statement-based question on the genetic impact of jumping genes.",
+    "distractorHooks": [
+      "Jumping genes stabilize the genome and prevent mutations",
+      "Jumping genes have no impact on gene expression",
+      "Jumping genes only repair damaged DNA"
+    ]
+  }
+]

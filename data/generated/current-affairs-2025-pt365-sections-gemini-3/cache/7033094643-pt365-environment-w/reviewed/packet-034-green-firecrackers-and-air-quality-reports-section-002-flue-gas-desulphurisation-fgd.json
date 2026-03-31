@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Flue Gas Desulphurisation (FGD) technology:\n1. It is primarily designed to capture and remove nitrogen oxides and carbon monoxide from the exhaust of coal-fired power plants.\n2. The process generally employs an alkaline reagent, such as a sodium- or calcium-based compound, to scrub the exhaust gases.\n3. Sea water can be utilized as a scrubbing medium in certain types of FGD systems.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Flue Gas Desulphurisation (FGD) is specifically designed to remove Sulphur Dioxide (SO2) from the exhaust gases of coal-fired power plants, not nitrogen oxides (NOx) or carbon monoxide (CO). Statement 2 is correct: The scrubbing technique in FGD typically involves a sodium- or calcium-based alkaline reagent to neutralize the acidic SO2. Statement 3 is correct: Sea Water Based FGD is one of the recognized types of FGD systems, alongside Dry Sorbent Injection and Wet Limestone Based systems.",
+      "takeaway": "FGD systems target Sulphur Dioxide (SO2) emissions from coal plants by using alkaline reagents (like calcium or sodium-based compounds) or sea water to scrub the exhaust gases.",
+      "evidenceExcerpt": "Involves removal of SO2 (Sulphur Dioxide) in exhaust gases from coal-fired power plants before being released to atmosphere. Uses scrubbing technique involving alkaline reagent (typically a sodium- or calcium-based alkaline reagent). Types of FGD Systems: Dry Sorbent Injection, Wet Limestone Based, Sea Water Based, etc.",
+      "qualityScore": 85,
+      "reviewNotes": "A strong conceptual question that tests the target pollutant and mechanism of FGD, using the 'How many statements are correct' format typical of recent UPSC Prelims."
+    }
+  ],
+  "reviewerNotes": "Selected two strong questions. The first tests the technical and conceptual aspects of FGD, while the second tests the policy and regulatory framework surrounding it. Both are highly relevant for the UPSC Environment section."
+}

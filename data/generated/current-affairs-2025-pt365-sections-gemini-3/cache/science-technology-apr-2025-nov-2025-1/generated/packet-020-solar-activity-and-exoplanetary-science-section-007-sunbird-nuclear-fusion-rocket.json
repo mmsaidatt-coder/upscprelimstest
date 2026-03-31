@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the 'Sunbird' rocket, recently mentioned in the news:\n1. It employs a Dual Direct Fusion Drive (DDFD) technology that generates both thrust and electricity.\n2. Its propulsion system is powered by the nuclear fission of enriched uranium.\n3. It is being jointly developed by the European Space Agency (ESA) and the Indian Space Research Organisation (ISRO).\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Sunbird uses Dual Direct Fusion Drive (DDFD) technology to generate both thrust and electricity. Statement 2 is incorrect: It is a nuclear fusion-based rocket, not fission-based, and it is powered by a combination of helium-3 and deuterium. Statement 3 is incorrect: It is being developed by private entities Pulsar Fusion (UK) and Princeton Satellite Systems (USA), not by ESA and ISRO.",
+      "takeaway": "The Sunbird rocket represents an advancement in deep space propulsion, utilizing nuclear fusion (helium-3 and deuterium) via a Dual Direct Fusion Drive to simultaneously produce thrust and electrical power.",
+      "evidenceExcerpt": "SUNBIRD. Sunbird, a nuclear fusion powered rocket could help reach Pluto in just 4 years as per reports... A nuclear fusion-based rocket being developed by Pulsar Fusion (UK) and Princeton Satellite Systems (USA). Powered by Dual Direct Fusion Drive (DDFD) technology. Using helium-3 and deuterium, DDFD generates both thrust and electricity..."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "The term 'Dual Direct Fusion Drive (DDFD)', recently seen in the context of space technology, is best described as:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A chemical propulsion engine utilizing liquid hydrogen and liquid oxygen for deep space missions."
+        },
+        {
+          "id": "B",
+          "text": "A nuclear fusion-based propulsion system that uses helium-3 and deuterium to produce both thrust and electrical power."
+        },
+        {
+          "id": "C",
+          "text": "A solar electric propulsion mechanism that relies on large photovoltaic arrays to accelerate xenon ions."
+        },
+        {
+          "id": "D",
+          "text": "A radioisotope thermoelectric generator (RTG) designed exclusively to provide electricity for rovers on Mars."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Dual Direct Fusion Drive (DDFD) is a nuclear fusion-based technology. As demonstrated in the Sunbird rocket project, it uses helium-3 and deuterium to generate both thrust for propulsion and electricity for spacecraft systems, significantly reducing interplanetary travel times.",
+      "takeaway": "Unlike traditional chemical rockets or RTGs (which only provide electricity via radioactive decay), DDFD leverages nuclear fusion to provide a dual-purpose solution: high-speed propulsion and onboard electrical power.",
+      "evidenceExcerpt": "Powered by Dual Direct Fusion Drive (DDFD) technology. Using helium-3 and deuterium, DDFD generates both thrust and electricity..."
+    }
+  ]
+}

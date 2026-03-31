@@ -1,0 +1,66 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-028-ballistic-missiles-and-igmdp-section-001-cruise-and-ballistic-missiles",
+    "claimType": "Factual",
+    "claimText": "Cruise missiles are powered by jet engines for continuous flight and operate at relatively low altitudes within the Earth's atmosphere.",
+    "evidenceExcerpt": "Cruise missiles are powered by jet engines for continuous flight and fly at low altitudes within the atmosphere.",
+    "pageNumbers": [
+      55
+    ],
+    "examUse": "Statement-based question comparing the propulsion and flight profile of cruise and ballistic missiles.",
+    "distractorHooks": [
+      "Powered only during the initial boost phase",
+      "Fly outside the Earth's atmosphere",
+      "Follow an arcing ballistic trajectory"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-028-ballistic-missiles-and-igmdp-section-001-cruise-and-ballistic-missiles",
+    "claimType": "Factual",
+    "claimText": "Ballistic missiles are rocket-powered only during their initial boost phase and coast unpowered for the majority of their flight.",
+    "evidenceExcerpt": "Ballistic missiles are rocket-powered initially, then coast unpowered in a ballistic trajectory arcing into the atmosphere.",
+    "pageNumbers": [
+      55
+    ],
+    "examUse": "Statement-based question on the mechanics of ballistic missile flight.",
+    "distractorHooks": [
+      "Powered continuously throughout their journey",
+      "Powered by jet engines",
+      "Fly at low altitudes to evade radar"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-028-ballistic-missiles-and-igmdp-section-001-cruise-and-ballistic-missiles",
+    "claimType": "Comparison",
+    "claimText": "Cruise missiles are harder to detect but easier to intercept after detection, whereas ballistic missiles are easier to detect early but harder to intercept due to their high speed.",
+    "evidenceExcerpt": "Cruise missiles are harder to detect but easier to intercept after detection, whereas ballistic missiles are easier to detect early but harder to intercept due to speed.",
+    "pageNumbers": [
+      55
+    ],
+    "examUse": "Comparison question testing the tactical advantages and vulnerabilities of different missile types.",
+    "distractorHooks": [
+      "Ballistic missiles are harder to detect early",
+      "Cruise missiles are harder to intercept after detection",
+      "Both missile types are equally easy to intercept"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-028-ballistic-missiles-and-igmdp-section-001-cruise-and-ballistic-missiles",
+    "claimType": "Conceptual",
+    "claimText": "Quasi ballistic missiles follow a low ballistic trajectory but retain the ability to maneuver and change course during flight.",
+    "evidenceExcerpt": "Quasi ballistic missiles follow a low ballistic trajectory but can maneuver and change course during flight.",
+    "pageNumbers": [
+      55
+    ],
+    "examUse": "Correct-pair or statement-based question defining quasi ballistic missiles.",
+    "distractorHooks": [
+      "Cannot change course once launched",
+      "Follow a high-altitude arcing trajectory without maneuverability",
+      "Are identical to cruise missiles in flight profile"
+    ]
+  }
+]

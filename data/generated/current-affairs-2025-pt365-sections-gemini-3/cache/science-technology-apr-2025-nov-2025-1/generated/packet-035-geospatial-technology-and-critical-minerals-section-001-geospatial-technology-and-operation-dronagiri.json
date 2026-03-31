@@ -1,0 +1,149 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Operation Dronagiri': 1. It is a pilot project aimed at demonstrating the potential applications of geospatial technologies. 2. It is being implemented by the Indian Space Research Organisation (ISRO). 3. Its first phase is being implemented simultaneously across all states and Union Territories in India. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Operation Dronagiri is a pilot project under the National Geospatial Policy 2022 to demonstrate the potential applications of geospatial technologies. Statement 2 is incorrect: It is implemented by the Geospatial Innovation Cell under the Department of Science and Technology, not ISRO. Statement 3 is incorrect: The first phase is being implemented only in Uttar Pradesh, Haryana, Assam, Andhra Pradesh, and Maharashtra, not pan-India.",
+      "takeaway": "Operation Dronagiri is a DST initiative (not ISRO) currently in its pilot phase across five specific states to showcase geospatial technology applications.",
+      "evidenceExcerpt": "Operation Dronagiri is a pilot project under the National Geospatial Policy 2022, implemented by the Geospatial Innovation Cell, Department of Science and Technology. Purpose: To demonstrate the potential applications of geospatial technologies. The first phase of Operation Dronagiri is being implemented in UP, Haryana, Assam, Andhra Pradesh, and Maharashtra."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the National Geospatial Policy 2022, consider the following statements: 1. The Survey of India (SoI) is designated as the nodal agency for the policy. 2. The Geospatial Data Promotion and Development Committee acts as the apex body under the policy. 3. The Continuously Operating Reference Stations (CORS) Network was launched by the Survey of India. Which of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Statement 1 is correct: The Survey of India (SoI) is the nodal agency for the National Geospatial Policy 2022. Statement 2 is correct: The policy establishes the Geospatial Data Promotion and Development Committee as the apex body. Statement 3 is correct: The Continuously Operating Reference Stations (CORS) Network was launched by the Survey of India.",
+      "takeaway": "The Survey of India (SoI) plays a central role in India's geospatial ecosystem, acting as the nodal agency for the 2022 policy and launching the CORS network. The apex governance body is the Geospatial Data Promotion and Development Committee.",
+      "evidenceExcerpt": "The National Geospatial Policy 2022 establishes the Geospatial Data Promotion and Development Committee as the apex body. Survey of India (SoI) is the nodal agency for the National Geospatial Policy and launched the Continuously Operating Reference Stations (CORS) Network."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Multiple-choice",
+      "prompt": "Which of the following are considered components of Geospatial Technology? 1. Geographic Information System (GIS) 2. Global Positioning System (GPS) 3. Light Detection and Ranging (LiDAR) 4. Cartography. Select the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1, 2 and 4 only"
+        },
+        {
+          "id": "B",
+          "text": "1, 3 and 4 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2, 3 and 4"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "All the given options are components of Geospatial Technology. Geospatial technology refers to a set of tools and techniques used to collect, analyze, and visualize spatial and geographic data. Its components include Geographic Information System (GIS), Global Positioning System (GPS), Remote Sensing (such as LiDAR), and Cartography.",
+      "takeaway": "Geospatial technology is a broad field encompassing GIS, GPS, Remote Sensing (including LiDAR and radar), and traditional Cartography.",
+      "evidenceExcerpt": "Geospatial technology refers to a set of tools and techniques used to collect, analyze, and visualize spatial and geographic data. Components of Geospatial Technology: Geographic Information System (GIS), Global Positioning System (GPS), Remote Sensing (RS), Cartography."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the governance and implementation of geospatial initiatives in India, consider the following statements:\n1. The Geospatial Data Promotion and Development Committee serves as the nodal agency for the National Geospatial Policy 2022.\n2. The Continuously Operating Reference Stations (CORS) Network was launched by the Geospatial Innovation Cell.\n3. Operation Dronagiri is being implemented by the Survey of India (SoI).\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Statement 1 is incorrect: The Survey of India (SoI) is the nodal agency for the National Geospatial Policy 2022, while the Geospatial Data Promotion and Development Committee acts as the apex body. Statement 2 is incorrect: The Continuously Operating Reference Stations (CORS) Network was launched by the Survey of India (SoI), not the Geospatial Innovation Cell. Statement 3 is incorrect: Operation Dronagiri is a pilot project implemented by the Geospatial Innovation Cell under the Department of Science and Technology.",
+      "takeaway": "Distinguishing the specific roles of institutions is crucial: SoI is the nodal agency and launched CORS; GDPDC is the apex body; and the Geospatial Innovation Cell implements Operation Dronagiri.",
+      "evidenceExcerpt": "Operation Dronagiri: A pilot project under National Geospatial Policy 2022, and will be implemented by Geospatial Innovation Cell, Department of Science and Technology... National Geospatial Policy 2022... Nodal Agency: Survey of India (SoI)... establishes the Geospatial Data Promotion and Development Committee as the apex body... Survey of India (SoI) is the nodal agency for the National Geospatial Policy and launched the Continuously Operating Reference Stations (CORS) Network."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Multiple Choice",
+      "prompt": "The first phase of 'Operation Dronagiri', a pilot project aimed at demonstrating the potential applications of geospatial technologies, is being implemented in which of the following groups of states?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Kerala, Tamil Nadu, Karnataka, Telangana, and Odisha"
+        },
+        {
+          "id": "B",
+          "text": "Uttar Pradesh, Haryana, Assam, Andhra Pradesh, and Maharashtra"
+        },
+        {
+          "id": "C",
+          "text": "Gujarat, Rajasthan, Punjab, Uttarakhand, and Himachal Pradesh"
+        },
+        {
+          "id": "D",
+          "text": "Madhya Pradesh, Chhattisgarh, Jharkhand, Bihar, and West Bengal"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The first phase of Operation Dronagiri is being implemented in the states of Uttar Pradesh, Haryana, Assam, Andhra Pradesh, and Maharashtra.",
+      "takeaway": "Operation Dronagiri is being rolled out in a phased manner, starting with a diverse set of states including UP, Haryana, Assam, AP, and Maharashtra to demonstrate geospatial technology applications.",
+      "evidenceExcerpt": "The first phase of Operation Dronagiri is being implemented in UP, Haryana, Assam, Andhra Pradesh, and Maharashtra."
+    }
+  ]
+}

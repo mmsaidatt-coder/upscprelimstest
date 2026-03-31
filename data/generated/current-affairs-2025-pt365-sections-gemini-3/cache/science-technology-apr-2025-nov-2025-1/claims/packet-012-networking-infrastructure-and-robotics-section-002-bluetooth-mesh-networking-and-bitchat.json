@@ -1,0 +1,80 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-012-networking-infrastructure-and-robotics-section-002-bluetooth-mesh-networking-and-bitchat",
+    "claimType": "Factual",
+    "claimText": "Bitchat utilizes Bluetooth Low Energy Mesh Networking to enable communication.",
+    "evidenceExcerpt": "Bitchat relies on Bluetooth Low Energy Mesh Networking to enable communication.",
+    "pageNumbers": [
+      25
+    ],
+    "examUse": "Statement-based question on the underlying technology of Bitchat.",
+    "distractorHooks": [
+      "Uses Wi-Fi Direct",
+      "Relies on cellular networks",
+      "Uses traditional hub-and-spoke Bluetooth"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-012-networking-infrastructure-and-robotics-section-002-bluetooth-mesh-networking-and-bitchat",
+    "claimType": "Conceptual",
+    "claimText": "A mesh network, also known as a multi-hop network, allows many-to-many communication where data can travel from any device to all others.",
+    "evidenceExcerpt": "Mesh network, also known as ‘multi-hop network’, is a networking topology. In it, data can travel from any device to all others, achieving many-to-many communication.",
+    "pageNumbers": [
+      25
+    ],
+    "examUse": "Definition/feature-based question on network topologies.",
+    "distractorHooks": [
+      "Allows only one-to-one communication",
+      "Requires a central router to relay data",
+      "Known as a single-hop network"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-012-networking-infrastructure-and-robotics-section-002-bluetooth-mesh-networking-and-bitchat",
+    "claimType": "Conceptual",
+    "claimText": "In a mesh network topology, the network continues to function even if a single device fails because messages are broadcast and relayed by other nodes.",
+    "evidenceExcerpt": "Even if one device fails, the network keeps working. Messages are broadcast and relayed by nodes until they reach the intended destination.",
+    "pageNumbers": [
+      25
+    ],
+    "examUse": "Statement-based question on the resilience of mesh networks.",
+    "distractorHooks": [
+      "Network fails if the central node fails",
+      "Failure of one device disrupts the entire network"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-012-networking-infrastructure-and-robotics-section-002-bluetooth-mesh-networking-and-bitchat",
+    "claimType": "Factual",
+    "claimText": "Bitchat operates without a central database, storing messages entirely on users' devices for a short period to prioritize privacy.",
+    "evidenceExcerpt": "No central database: Messages are stored entirely on users’ devices and are deleted after a short period. This design is created to priorities users’ privacy.",
+    "pageNumbers": [
+      25
+    ],
+    "examUse": "Statement-based question on data storage and privacy features of Bitchat.",
+    "distractorHooks": [
+      "Messages are stored on a central cloud server",
+      "Messages are permanently archived on a central database"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-012-networking-infrastructure-and-robotics-section-002-bluetooth-mesh-networking-and-bitchat",
+    "claimType": "Factual",
+    "claimText": "Bitchat provides anonymous communication by using end-to-end encryption and not requiring user registration via email or phone number.",
+    "evidenceExcerpt": "Messages are end-to-end encrypted and do not leave the network. No registration required: Users are not required to create accounts using their email or phone number, making the communication anonymous.",
+    "pageNumbers": [
+      25
+    ],
+    "examUse": "Feature-based question on the security and anonymity of Bitchat.",
+    "distractorHooks": [
+      "Requires Aadhaar or phone number for registration",
+      "Messages are not end-to-end encrypted",
+      "Requires email verification"
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the HANSA-3 (NG) aircraft, consider the following statements:\n1. It has been developed by the CSIR-National Aerospace Laboratories (NAL).\n2. It is primarily designed as an unmanned aerial vehicle (UAV) for high-altitude reconnaissance.\n3. It is equipped with an advanced fuel-efficient engine to support the flying training ecosystem.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The HANSA-3 (NG) trainer aircraft has been developed by CSIR-National Aerospace Laboratories (NAL), which recently signed a technology transfer deal with a private firm for its manufacture.\nStatement 2 is incorrect: It is not a UAV or reconnaissance aircraft; it is a trainer plane aimed at strengthening India's flying training ecosystem.\nStatement 3 is correct: It is powered by an advanced fuel-efficient Rotax 912 iSc3 Sports engine, making it suitable for cost-effective flying training.",
+      "takeaway": "HANSA-3 (NG) is an indigenous trainer aircraft developed by CSIR-NAL, designed with a fuel-efficient engine to boost the domestic aviation industry and flying training ecosystem.",
+      "evidenceExcerpt": "CSIR-National Aerospace Laboratories (NAL) signs technology transfer deal with a private firm to manufacture HANSA trainer-planes. Powered by an advanced fuel-efficient Rotax 912 iSc3 Sports engine. Aims to strengthen India's aviation industry and flying training ecosystem."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Statement",
+      "prompt": "With reference to the HANSA-3 (NG) aircraft, consider the following statements:\n\n1. It is primarily designed to strengthen India's flying training ecosystem.\n2. It is powered by an indigenous cryogenic engine for high-altitude endurance.\n3. Its manufacturing is undertaken by a private firm through a technology transfer from CSIR-National Aerospace Laboratories (NAL).\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The primary aim of the HANSA-3 (NG) is to strengthen India's aviation industry and flying training ecosystem. Statement 2 is incorrect: It is powered by an advanced fuel-efficient Rotax 912 iSc3 Sports engine, not a cryogenic engine (which is typically used in space launch vehicles). Statement 3 is correct: CSIR-NAL signed a technology transfer deal with a private firm to manufacture the trainer-planes.",
+      "takeaway": "The HANSA-3 (NG) is a trainer aircraft featuring a fuel-efficient Rotax engine, manufactured by a private firm under technology transfer from CSIR-NAL.",
+      "evidenceExcerpt": "CSIR-National Aerospace Laboratories (NAL) signs technology transfer deal with a private firm to manufacture HANSA trainer-planes. Powered by an advanced fuel-efficient Rotax 912 iSc3 Sports engine. Aims to strengthen India's aviation industry and flying training ecosystem."
+    }
+  ]
+}

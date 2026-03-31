@@ -1,0 +1,178 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "statement-based",
+      "prompt": "With reference to Metal-Organic Frameworks (MOFs), consider the following statements:\n1. They are highly porous materials inspired by the structure of diamond.\n2. They exhibit lower absorbency compared to traditional porous materials like zeolites.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: MOFs are highly absorbent, porous materials inspired by diamond structures. Statement 2 is incorrect: They are actually more absorbent than naturally occurring zeolites, making them highly effective molecular storehouses.",
+      "takeaway": "MOFs are advanced porous materials with a diamond-inspired structure that offer superior absorbency compared to traditional materials like zeolites.",
+      "evidenceExcerpt": "MOFs are highly absorbent, porous materials inspired by diamond structures... MOFs are inspired by the structure of diamond and are more absorbent than zeolites."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "application-based",
+      "prompt": "Consider the following applications:\n1. Mining rare-earth elements from wastewater\n2. Removing antibiotic residues from water\n3. Capturing carbon dioxide from industrial emissions\nHow many of the above can be accomplished using Metal-Organic Frameworks (MOFs)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "All three applications are correct. MOFs are highly versatile materials capable of extracting pollutants like PFAS and antibiotics from water, mining rare-earth elements from wastewater, and acting as molecular storehouses for capturing gases such as carbon dioxide, hydrogen, and methane.",
+      "takeaway": "The unique trapping capabilities of MOFs allow them to be used for environmental remediation (pollutant extraction), resource recovery (rare-earth mining), and carbon capture.",
+      "evidenceExcerpt": "Key applications include... extracting pollutants like PFAS and antibiotics, mining rare-earth elements from wastewater, and storing gases like hydrogen and CO2."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "statement-based",
+      "prompt": "Regarding the applications of Metal-Organic Frameworks (MOFs), consider the following statements:\n1. They can capture water vapour directly from desert air to address water scarcity.\n2. They are used in food packaging to accelerate the ripening of fruits by releasing ethylene gas.\n3. They act as molecular storehouses capable of storing light gases such as hydrogen.\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: MOFs can capture water vapour directly from dry or desert air. Statement 2 is incorrect: In food processing, MOF-based packaging is used to absorb ethylene gas, which delays ripening and increases shelf life, rather than releasing it to accelerate ripening. Statement 3 is correct: They act as molecular storehouses for gases such as hydrogen, carbon dioxide, and methane.",
+      "takeaway": "MOFs are utilized to absorb ethylene gas to extend food shelf life, capture water from dry air, and store essential gases like hydrogen.",
+      "evidenceExcerpt": "Key applications include water collection from dry air, extending food shelf life by absorbing ethylene gas... and storing gases like hydrogen and CO2."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Mechanism-based",
+      "prompt": "How do Metal-Organic Frameworks (MOFs) incorporated into advanced food packaging materials help in extending the shelf life of fresh agricultural produce?",
+      "options": [
+        {
+          "id": "A",
+          "text": "By releasing ethylene gas in a controlled manner to ensure uniform ripening during transit."
+        },
+        {
+          "id": "B",
+          "text": "By acting as highly porous traps that selectively absorb ethylene gas emitted by the produce."
+        },
+        {
+          "id": "C",
+          "text": "By generating a continuous supply of oxygen to prevent the anaerobic decomposition of tissues."
+        },
+        {
+          "id": "D",
+          "text": "By forming an impermeable barrier that completely blocks the exchange of all atmospheric gases."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "MOFs are highly absorbent, porous materials. In food processing, MOF-based packaging absorbs ethylene gas (a natural ripening agent emitted by fruits and vegetables) to delay the ripening process and increase shelf life, rather than releasing it or blocking all gases.",
+      "takeaway": "MOFs can selectively trap specific chemicals like ethylene, making them useful in agricultural supply chains to delay ripening and extend the shelf life of perishables.",
+      "evidenceExcerpt": "In food processing, MOF-based packaging absorbs ethylene gas to increase shelf life.",
+      "contextLines": []
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Assertion-Reason",
+      "prompt": "Given below are two statements, one labelled as Assertion (A) and the other as Reason (R): Assertion (A): Metal-Organic Frameworks (MOFs) can be deployed as a technological intervention to generate drinking water in arid desert environments. Reason (R): MOFs possess highly absorbent, porous structures capable of capturing water vapour directly from dry air. In the context of the above two statements, which one of the following is correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A)."
+        },
+        {
+          "id": "B",
+          "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A)."
+        },
+        {
+          "id": "C",
+          "text": "Assertion (A) is true but Reason (R) is false."
+        },
+        {
+          "id": "D",
+          "text": "Assertion (A) is false but Reason (R) is true."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "MOFs are highly porous materials that act as molecular storehouses. Their exceptional ability to capture water vapour directly from dry or desert air makes them a viable and innovative solution for water collection in arid regions.",
+      "takeaway": "The structural porosity and high absorbency of MOFs allow them to extract moisture even from low-humidity desert air, offering potential solutions for global water scarcity.",
+      "evidenceExcerpt": "MOFs are highly absorbent, porous materials... They can capture water vapour directly from desert air.",
+      "contextLines": []
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Rationale-based",
+      "prompt": "In the context of the clean energy transition, Metal-Organic Frameworks (MOFs) are considered highly promising for handling gases like hydrogen and carbon dioxide. What is the primary mechanism that enables this application?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They chemically react with these gases to permanently convert them into stable solid ores."
+        },
+        {
+          "id": "B",
+          "text": "They possess a highly porous architecture that acts as a molecular storehouse to trap specific gases."
+        },
+        {
+          "id": "C",
+          "text": "They act as photocatalysts that convert carbon dioxide and hydrogen directly into synthetic natural gas."
+        },
+        {
+          "id": "D",
+          "text": "They form an impermeable superconducting shield that prevents the leakage of volatile gases."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "MOFs are highly porous materials inspired by diamond structures. They do not permanently convert or block gases; rather, they act as molecular storehouses capable of efficiently trapping and storing specific gases like hydrogen, carbon dioxide, and methane.",
+      "takeaway": "The structural porosity of MOFs allows them to act as efficient, reversible storage mediums for critical gases, which is highly valuable for clean energy applications and carbon capture.",
+      "evidenceExcerpt": "They act as molecular storehouses capable of trapping specific gases... storing gases like hydrogen and CO2.",
+      "contextLines": []
+    }
+  ]
+}

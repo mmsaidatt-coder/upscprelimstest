@@ -1,0 +1,62 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-012-networking-infrastructure-and-robotics-section-003-project-waterworth-undersea-cables",
+    "claimType": "Factual",
+    "claimText": "Mumbai and Visakhapatnam are the selected landing sites in India for Meta's undersea cable project, Waterworth.",
+    "evidenceExcerpt": "Meta has selected Mumbai and Visakhapatnam as the landing sites for the undersea cable project, Waterworth.",
+    "pageNumbers": [
+      25
+    ],
+    "examUse": "Statement-based question on the locations of major infrastructure projects in India.",
+    "distractorHooks": [
+      "Chennai and Kochi",
+      "Google or Amazon instead of Meta"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-012-networking-infrastructure-and-robotics-section-003-project-waterworth-undersea-cables",
+    "claimType": "Factual",
+    "claimText": "Project Waterworth is the world's longest subsea cable project.",
+    "evidenceExcerpt": "It is the world’s longest subsea cable project.",
+    "pageNumbers": [
+      25
+    ],
+    "examUse": "Fact-based statement in a multi-statement question about global internet infrastructure.",
+    "distractorHooks": [
+      "World's deepest subsea cable",
+      "Second longest subsea cable"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-012-networking-infrastructure-and-robotics-section-003-project-waterworth-undersea-cables",
+    "claimType": "Factual",
+    "claimText": "Project Waterworth will connect five major continents using fiber-optic cables.",
+    "evidenceExcerpt": "It will connect five major continents using fiber-optic cables.",
+    "pageNumbers": [
+      25
+    ],
+    "examUse": "Statement-based question on the scope of Project Waterworth.",
+    "distractorHooks": [
+      "Connects only Asia and Europe",
+      "Connects all seven continents"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-012-networking-infrastructure-and-robotics-section-003-project-waterworth-undersea-cables",
+    "claimType": "Conceptual",
+    "claimText": "Undersea cables are fiber-optic cables laid across the ocean floor that act as the backbone of the international internet.",
+    "evidenceExcerpt": "Undersea cables are fiber-optic cable laid across the ocean floor that transmits information and enables worldwide communications. Significance: Undersea cables are backbone of international internet.",
+    "pageNumbers": [
+      25
+    ],
+    "examUse": "Conceptual statement on the technology behind global internet connectivity.",
+    "distractorHooks": [
+      "Use copper wires instead of fiber-optic",
+      "Rely primarily on satellite communication for the internet backbone"
+    ]
+  }
+]

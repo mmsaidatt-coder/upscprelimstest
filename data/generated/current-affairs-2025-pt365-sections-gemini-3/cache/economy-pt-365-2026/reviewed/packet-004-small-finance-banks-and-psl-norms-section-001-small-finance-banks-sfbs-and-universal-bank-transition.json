@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Statement",
+      "prompt": "Consider the following conditions regarding the eligibility criteria for a Small Finance Bank (SFB) to transition into a Universal Bank:\n1. It must have a minimum net worth of ₹1,000 crore.\n2. It must have held scheduled bank status for at least five years.\n3. Its shares must be listed on a recognized stock exchange.\n4. It must have recorded net profits in the last two financial years.\n\nHow many of the above conditions are mandatory as per the Reserve Bank of India (RBI) guidelines?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "All four conditions are correct. To transition to a Universal Bank, an SFB must meet several strict eligibility criteria prescribed by the RBI. These include having a scheduled status for at least 5 years, mandatory stock exchange listing, a minimum net worth of ₹1,000 crore, and having recorded net profits in the last two financial years. Additionally, it must maintain Gross NPAs ≤ 3% and Net NPAs ≤ 1% over the last two financial years.",
+      "takeaway": "The transition of an SFB to a Universal Bank requires robust financial health, including a ₹1,000 crore net worth, 5 years of scheduled status, stock listing, and consistent profitability.",
+      "evidenceExcerpt": "Eligibility criteria include scheduled status for 5 years, stock listing, minimum net worth of ₹1,000 crore, net profits in the last two FYs, and gross/net NPAs ≤3% and ≤1% respectively.",
+      "qualityScore": 88,
+      "reviewNotes": "Expanded the original 3-statement question into a 4-statement 'How many of the above' format to better match recent UPSC trends and comprehensively cover the transition criteria mentioned in the text."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Statement",
+      "prompt": "With reference to Small Finance Banks (SFBs) in India, consider the following statements:\n1. They are registered as companies under the Companies Act, 2013.\n2. They are granted banking licenses under the Reserve Bank of India Act, 1934.\n3. An Urban Cooperative Bank (UCB) transitioning into an SFB is initially permitted to operate with a minimum paid-up equity capital of ₹100 crore.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: SFBs are registered as companies under the Companies Act, 2013. Statement 2 is incorrect: They are licensed under Section 22 of the Banking Regulation Act, 1949, not the RBI Act, 1934. Statement 3 is correct: While the minimum paid-up voting equity capital required for setting up a new SFB is ₹200 crore, UCBs transitioning to SFBs are initially allowed a lower threshold of ₹100 crore.",
+      "takeaway": "SFBs operate under a dual statutory framework—registered under the Companies Act but licensed under the Banking Regulation Act. Transitioning UCBs enjoy a relaxed initial capital requirement compared to new SFBs.",
+      "evidenceExcerpt": "SFBs were announced in the 2014-15 budget, registered under the Companies Act 2013, and licensed under Section 22 of the Banking Regulation Act 1949. Minimum paid-up equity capital is ₹200 crore (₹100 crore initially for UCBs transitioning to SFBs).",
+      "qualityScore": 85,
+      "reviewNotes": "Merged the unique insights from Candidate 2 and Candidate 3 into a single, strong 'How many of the above' question. The distractor in Statement 2 (RBI Act vs BR Act) is a classic UPSC trap."
+    }
+  ],
+  "reviewerNotes": "Selected Candidate 1 and Candidate 2, heavily rewriting them to match the latest UPSC 'How many of the above' format and to ensure comprehensive coverage of the source text. Candidate 3 was rejected as its unique information (UCB transition capital) was integrated into the rewritten Candidate 2, avoiding redundancy. The distractors and statements are now strictly grounded in the provided text and reflect the precise legal and financial nuances expected in the exam."
+}

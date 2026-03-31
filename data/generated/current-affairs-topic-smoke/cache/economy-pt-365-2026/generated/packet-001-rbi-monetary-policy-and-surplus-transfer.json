@@ -1,0 +1,236 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Classification",
+      "prompt": "Which of the following are categorized as 'Qualitative Tools' of monetary policy by the Reserve Bank of India?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Repo Rate and Reverse Repo Rate"
+        },
+        {
+          "id": "B",
+          "text": "Cash Reserve Ratio and Moral Suasion"
+        },
+        {
+          "id": "C",
+          "text": "Moral Suasion and Margin Requirements"
+        },
+        {
+          "id": "D",
+          "text": "Statutory Liquidity Ratio and Direct Action"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The RBI's monetary policy tools are divided into quantitative and qualitative tools. Quantitative tools (like Repo Rate, CRR, SLR) impact the overall volume of credit. Qualitative tools (like Moral Suasion, Margin Requirements, Direct Action) selectively influence the direction of credit. Both Moral Suasion and Margin Requirements fall under the qualitative category.",
+      "takeaway": "Monetary policy tools are either quantitative (affecting credit volume, e.g., CRR, SLR, Repo) or qualitative (affecting credit direction, e.g., Moral Suasion, Margin Requirements).",
+      "evidenceExcerpt": "QUALITATIVE TOOLS (Direction of Credit) Selectively influence credit flow to specific sectors. MORAL SUASION... MARGIN REQUIREMENTS... DIRECT ACTION..."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "In the context of the RBI's monetary policy, what is the primary objective of using 'Margin Requirements' as a tool?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "To directly influence the overall volume of credit available in the banking system."
+        },
+        {
+          "id": "B",
+          "text": "To persuade banks to align their lending practices with the RBI's policy stance through dialogue."
+        },
+        {
+          "id": "C",
+          "text": "To curb speculative lending by altering the loan amount that can be granted against a specific collateral."
+        },
+        {
+          "id": "D",
+          "text": "To impose penalties on banks that do not comply with regulatory directives."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Margin Requirement is a qualitative tool that involves changing the loan-to-value (LTV) ratio. By increasing the margin (the portion of the loan the borrower has to finance themselves), the RBI can reduce the loan amount available for a given collateral. This is specifically used to discourage lending for speculative purposes in certain sectors without affecting the overall credit supply.",
+      "takeaway": "Margin Requirement is a selective credit control tool used to discourage lending against specific collaterals, primarily to curb speculation in sensitive sectors like real estate or capital markets.",
+      "evidenceExcerpt": "MARGIN REQUIREMENTS: Changing the loan-to-value (LTV) ratio. Higher margin = less loan amount for collateral. Used to curb speculation."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Cash Reserve Ratio (CRR) and Statutory Liquidity Ratio (SLR), consider the following statements:\n1. Both CRR and SLR are calculated as a percentage of a bank's Net Demand and Time Liabilities (NDTL).\n2. While CRR must be maintained in the form of cash with the RBI, SLR assets can be held by the banks themselves in forms like gold or government securities.\n3. Banks earn interest from the RBI on their CRR deposits, but not on their SLR holdings.",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct as both CRR and SLR are defined as a percentage of NDTL. Statement 2 is also correct; CRR is cash kept with the RBI, while SLR involves liquid assets (gold, bonds, cash) maintained by the banks themselves. Statement 3 is incorrect. The RBI does not pay any interest on CRR balances. Banks can earn interest on SLR assets like government securities, but not from the RBI on the ratio itself.",
+      "takeaway": "Understanding the fundamental differences between CRR and SLR is crucial. Key distinctions include the form of assets, where they are held, and the potential for earning returns on them. Both are quantitative tools used by the RBI to manage liquidity.",
+      "evidenceExcerpt": "CRR (Cash Reserve Ratio): % of net demand & time liabilities (NDTL) banks must keep as CASH with RBI. No interest paid. SLR (Statutory Liquidity Ratio): % of NDTL banks must maintain in LIQUID ASSETS (Gold, Bonds, Cash) by themselves.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Applied",
+      "prompt": "If the Reserve Bank of India aims to contract the money supply in the economy to combat inflation, which of the following policy combinations would be most effective?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Increasing the Repo Rate and decreasing the Cash Reserve Ratio (CRR)."
+        },
+        {
+          "id": "B",
+          "text": "Decreasing the Repo Rate and increasing the Statutory Liquidity Ratio (SLR)."
+        },
+        {
+          "id": "C",
+          "text": "Increasing the Repo Rate and increasing the Cash Reserve Ratio (CRR)."
+        },
+        {
+          "id": "D",
+          "text": "Decreasing the Statutory Liquidity Ratio (SLR) and increasing the Reverse Repo Rate."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "To contract the money supply, the RBI needs to make borrowing more expensive and reduce the lendable funds with banks. Increasing the Repo Rate makes borrowing from the RBI costlier for banks, thus reducing money supply. Increasing the CRR directly reduces the amount of funds available for banks to lend. Both actions work in the same direction to tighten liquidity. The other options present contradictory actions (e.g., decreasing CRR/SLR increases money supply, and decreasing the Repo Rate also increases it).",
+      "takeaway": "Monetary policy tools have specific impacts on money supply. An increase in policy rates (Repo, Reverse Repo) or reserve ratios (CRR, SLR) leads to a contraction in money supply (tight/dear money policy), while a decrease leads to an expansion (easy/cheap money policy).",
+      "evidenceExcerpt": "REPO RATE (Lending Rate)... ↑ Rate = ↓ Money Supply. CRR (Cash Reserve Ratio)... ↑ CRR = ↓ Lendable Funds.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Reserve Bank of India's Economic Capital Framework (ECF), consider the following statements:\n1. The framework was adopted based on the recommendations of the Bimal Jalan Committee to determine RBI's surplus transfer to the government.\n2. It operates independently of the Enterprise-wide Risk Management framework of the RBI.\n3. The 'Realized Equity' component under this framework includes funds such as the Contingency Fund and the Asset Development Fund.",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct. The ECF was adopted in 2019 based on the Bimal Jalan Committee's recommendations for determining profit distribution. Statement 2 is incorrect. The text explicitly states that the ECF is an integral part of the Enterprise-wide Risk Management (ERM) framework. Statement 3 is correct. The text lists the components of Realized Equity as RBI’s Capital, Reserve Fund, Contingency Fund (CF), and Asset Development Fund (ADF).",
+      "takeaway": "The Economic Capital Framework (ECF) is a critical mechanism governing the RBI's financial resilience and its surplus transfer to the government. It is important to know its origin (Bimal Jalan Committee), purpose (risk provisioning and profit distribution), and key components (Realized Equity).",
+      "evidenceExcerpt": "Genesis: ECF was adopted by RBI in 2019, based on the recommendations of the Bimal Jalan Committee. o The ECF is an integral part of the Enterprise-wide Risk Management (ERM) framework (2012). ... Components of Economic Capital under ECF: o Realized Equity: This consists of RBI’s Capital, Reserve Fund, Contingency Fund (CF), and Asset Development Fund (ADF).",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Comparative",
+      "prompt": "Which of the following statements best distinguishes between the Quantitative and Qualitative tools of the RBI's monetary policy?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Quantitative tools are legally binding on banks, whereas all Qualitative tools are advisory in nature."
+        },
+        {
+          "id": "B",
+          "text": "Quantitative tools aim to influence the overall volume of credit, while Qualitative tools aim to influence the direction of credit."
+        },
+        {
+          "id": "C",
+          "text": "Quantitative tools like Repo Rate are used frequently, while Qualitative tools are reserved for severe economic crises."
+        },
+        {
+          "id": "D",
+          "text": "Quantitative tools directly impact the RBI's balance sheet, whereas Qualitative tools only impact the commercial banks' balance sheets."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The most fundamental distinction lies in their objective. Quantitative tools (like Repo, CRR, SLR) are designed to regulate the total amount or volume of money supply and credit in the economy. Qualitative tools (like Moral Suasion, Margin Requirements) are selective in nature and are used to channel credit towards or away from specific sectors of the economy. Option A is incorrect because 'Direct Action' is a qualitative tool that is binding and involves penalties. Options C and D make generalizations that are not universally true or supported by the text.",
+      "takeaway": "The core difference between quantitative and qualitative monetary policy tools is their scope of impact: quantitative tools affect the overall 'volume' of credit, while qualitative tools affect the specific 'direction' or use of credit.",
+      "evidenceExcerpt": "QUANTITATIVE TOOLS (Volume of Credit): Directly impact the overall money supply. QUALITATIVE TOOLS (Direction of Credit): Selectively influence credit flow to specific sectors.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following as sources of income for the Reserve Bank of India:\n1. Seigniorage\n2. Interest on foreign currency investments\n3. Net interest from Liquidity Adjustment Facility (LAF) operations\nHow many of the above are correct sources of RBI's income?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "All three listed items are key sources of income for the RBI. Seigniorage is the profit made from printing currency. The RBI earns interest on its large holdings of foreign currency assets. The Liquidity Adjustment Facility (LAF), which includes repo and reverse repo operations, generates net interest income for the RBI. The provided text explicitly mentions all these sources.",
+      "takeaway": "The RBI has diverse income streams, primarily from its operations as a central bank. These include returns on domestic and foreign assets, interest on loans to the government and banks, and the unique profit from currency issuance known as seigniorage.",
+      "evidenceExcerpt": "Key Sources of RBI’s Income: • Income from interest on government securities, Net interest from liquidity management tools (e.g., Liquidity Adjustment Facility), Loans, seigniorage (profit from currency printing), Interest earned on foreign currency investments.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Comparative",
+      "prompt": "In the context of the RBI's qualitative monetary policy tools, how does 'Moral Suasion' fundamentally differ from 'Direct Action'?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Moral Suasion is applied to all banks uniformly, while Direct Action targets only specific non-compliant banks."
+        },
+        {
+          "id": "B",
+          "text": "Moral Suasion is a preventive measure, whereas Direct Action is a corrective measure."
+        },
+        {
+          "id": "C",
+          "text": "Moral Suasion relies on persuasion and is non-binding, whereas Direct Action involves imposing penalties for non-compliance."
+        },
+        {
+          "id": "D",
+          "text": "Moral Suasion is used to control inflation, while Direct Action is used to manage bank solvency."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The core difference between the two tools lies in their mechanism and enforceability. Moral Suasion involves the RBI using persuasion, advice, and dialogue to encourage banks to follow its policy direction; it is not legally binding. In contrast, Direct Action is a punitive measure where the RBI imposes penalties, restrictions, or sanctions on banks that fail to comply with its guidelines. This makes it a binding and enforceable tool.",
+      "takeaway": "Qualitative tools vary in their degree of force. Moral Suasion represents the 'soft power' of the central bank, relying on influence, while Direct Action represents its 'hard power' to enforce discipline and compliance within the banking system.",
+      "evidenceExcerpt": "MORAL SUASION: Persuading and advising banks to follow policy directives through dialogue and letters. Non-binding but effective. DIRECT ACTION: Penalties, restrictions, or sanctions imposed on banks for non-compliance with RBI guidelines.",
+      "contextLines": []
+    }
+  ]
+}

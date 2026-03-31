@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Site Directed Nuclease (SDN) technology: 1. SDN-1 technology involves site-directed mutagenesis without the use of a DNA sequence template. 2. SDN-3 technology involves the insertion of a large DNA sequence using a template. 3. India's biosafety regulations have approved all three types of SDN genome editing for general crops. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: SDN-1 involves mutagenesis without a DNA template. Statement 2 is correct: SDN-3 involves the insertion of a gene or large DNA sequence using a template. Statement 3 is incorrect: India's biosafety regulations have approved genome editing of only SDN-1 and SDN-2 types for general crops, not SDN-3.",
+      "takeaway": "SDN-1 and SDN-2 are approved in India for general crops as they do not involve the insertion of large foreign DNA sequences, unlike SDN-3.",
+      "evidenceExcerpt": "SDN-1 involves site-directed mutagenesis without a DNA sequence template. SDN-3 involves the insertion of a gene or large DNA sequence using a template. India's biosafety regulations have approved genome editing of SDN-1 and SDN-2 types for general crops."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Correct-pair",
+      "prompt": "How many of the following pairs of Site Directed Nuclease (SDN) categories and their mechanisms are correctly matched? 1. SDN-1 : Mutagenesis using a DNA sequence template 2. SDN-2 : Mutagenesis without a DNA sequence template 3. SDN-3 : Insertion of a gene or large DNA sequence using a template Select the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Pair 1 is incorrectly matched: SDN-1 involves site-directed mutagenesis without a DNA sequence template. Pair 2 is incorrectly matched: SDN-2 uses a DNA sequence template for mutagenesis. Pair 3 is correctly matched: SDN-3 involves the insertion of a gene or large DNA sequence using a template. Therefore, only one pair is correctly matched.",
+      "takeaway": "SDN-1 operates without a template, SDN-2 uses a template for mutagenesis, and SDN-3 uses a template to insert large DNA sequences or genes.",
+      "evidenceExcerpt": "SDN-1 involves site-directed mutagenesis without a DNA sequence template. SDN-2 uses a DNA sequence template for mutagenesis. SDN-3 involves the insertion of a gene or large DNA sequence using a template."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the regulatory framework for genome-edited crops in India, consider the following statements: 1. SDN-2 technology utilizes a DNA sequence template to perform site-directed mutagenesis. 2. Genome editing of SDN-1 and SDN-2 types has been approved for general crops under India's biosafety regulations. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: SDN-2 uses a DNA sequence template for mutagenesis, distinguishing it from SDN-1 which does not. Statement 2 is correct: India's biosafety regulations have approved genome editing of SDN-1 and SDN-2 types for general crops.",
+      "takeaway": "The Indian regulatory framework distinguishes between different types of genome editing, granting approval to SDN-1 and SDN-2 for general crops.",
+      "evidenceExcerpt": "SDN-2 uses a DNA sequence template for mutagenesis. India's biosafety regulations have approved genome editing of SDN-1 and SDN-2 types for general crops."
+    }
+  ]
+}

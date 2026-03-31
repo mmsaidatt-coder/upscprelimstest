@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Application",
+      "prompt": "As per the definitions used in the India State of Forest Report (ISFR), consider the following land parcels:\n1. A 2-hectare privately-owned agroforestry plantation with a 15% tree canopy density.\n2. A 0.5-hectare patch of natural forest with a 40% canopy density located within a legally recorded forest area.\n3. A 0.8-hectare cluster of trees located on community land outside any recorded forest area.\n\nWhich of the above land parcels would be specifically classified under 'Tree Cover'?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "3 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Parcel 1 meets the criteria for 'Forest Cover' (area ≥ 1 hectare and canopy density ≥ 10%), which is assessed irrespective of private ownership. Parcel 2 is less than 1 hectare but is located within a legally recorded forest area, meaning it cannot be classified as 'Tree Cover'. Parcel 3 is less than 1 hectare and is located outside recorded forest areas, fitting the exact definition of 'Tree Cover'.",
+      "takeaway": "Tree Cover is strictly defined as patches of trees smaller than 1 hectare that are located outside of legally recorded forest areas, whereas Forest Cover requires at least 1 hectare and 10% canopy density irrespective of ownership.",
+      "evidenceExcerpt": "Forest Cover requires >= 1 hectare area and >= 10% tree canopy, irrespective of ownership. Tree cover comprises patches < 1 hectare outside recorded forest areas.",
+      "qualityScore": 90,
+      "reviewNotes": "Excellent application question that tests the nuanced differences between Forest Cover and Tree Cover definitions rather than just rote memorization."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding mangrove cover in India as per the India State of Forest Report (ISFR):\n1. The total mangrove cover in India has fallen below 5,000 square kilometres.\n2. Despite an overall national decrease in mangrove cover, both the eastern and western coasts of India have states that recorded an increase.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: The total mangrove cover in India decreased by 7.43 sq km to 4,992 sq km, which is below the 5,000 sq km mark. Statement 2 is correct: While there was a net national decrease (driven by states like Gujarat on the west coast), Maharashtra (west coast) and Andhra Pradesh (east coast) both recorded an increase in their mangrove cover.",
+      "takeaway": "India's total mangrove cover stands at 4,992 sq km, reflecting a net decrease. However, regional variations exist, with gains in states like Maharashtra and Andhra Pradesh mitigating losses in Gujarat.",
+      "evidenceExcerpt": "Total Mangrove cover decreased by 7.43 sq km to 4,992 sq km (Gujarat decreased; AP and Maharashtra increased).",
+      "qualityScore": 85,
+      "reviewNotes": "Strong analytical framing. It forces the candidate to synthesize factual data (4,992 sq km) and geographical knowledge (AP on the east coast, Maharashtra on the west coast) to evaluate the statements."
+    }
+  ],
+  "reviewerNotes": "Selected three distinct questions covering the core concepts of the excerpt: definitions of forest/tree cover, mangrove trends, and state rankings. Rewrote the application question to be highly rigorous and analytical. Ensured the mangrove question tests geographical synthesis rather than just rote facts."
+}

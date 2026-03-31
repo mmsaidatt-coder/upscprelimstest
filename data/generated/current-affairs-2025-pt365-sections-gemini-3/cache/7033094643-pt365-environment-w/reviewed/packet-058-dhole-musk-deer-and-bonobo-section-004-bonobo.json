@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Species Identification",
+      "prompt": "Consider the following characteristics:\n1. It is endemic to the forests of the Democratic Republic of Congo.\n2. Its social structure is predominantly peaceful and female-led.\n3. Its vocal communication exhibits compositionality, similar to human language.\nWhich one of the following primates is best described by the characteristics given above?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Chimpanzee"
+        },
+        {
+          "id": "B",
+          "text": "Bonobo"
+        },
+        {
+          "id": "C",
+          "text": "Eastern Gorilla"
+        },
+        {
+          "id": "D",
+          "text": "Bornean Orangutan"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The characteristics describe the Bonobo. Unlike chimpanzees, bonobos are female-led and endemic only to the Democratic Republic of Congo (DRC). Recent studies also highlight their complex vocal communication showing compositionality, a trait similar to human language.",
+      "takeaway": "Identifying species based on unique behavioral traits (female-led, vocal compositionality) and specific endemic habitats (DRC) is crucial for species-in-news questions.",
+      "evidenceExcerpt": "A study found that vocal communication between Bonobos shows compositionality, similar to human language. Found only in the forests of the Democratic Republic of Congo (DRC)... They are peaceful, female-led...",
+      "qualityScore": 90,
+      "reviewNotes": "Excellent species identification question. The distractors are all well-known great apes, making the options highly plausible. The clues are specific and directly grounded in the source text."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Bonobo, a species of great ape, consider the following statements:\n1. Like chimpanzees, they share more than 98 percent of their DNA with humans.\n2. They are physically distinguished from chimpanzees by their generally larger size and lighter coat.\n3. They are listed in Appendix I of the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES).\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Like chimpanzees, bonobos share 98.7% of their DNA with humans, making them our closest living relatives. Statement 2 is incorrect: Bonobos are physically distinct from chimpanzees by being smaller and having a darker coat, not larger and lighter. Statement 3 is correct: They are listed in CITES Appendix I, providing them the highest level of protection against international commercial trade.",
+      "takeaway": "Bonobos and chimpanzees are equally related to humans in terms of DNA (98.7%), but bonobos can be distinguished by their smaller size and darker coloration. They are highly protected under CITES Appendix I.",
+      "evidenceExcerpt": "Like Chimpanzees, they share 98.7% of DNA with humans. They are peaceful, female-led, and smaller/darker than chimpanzees. Conservation Status: CITES Appendix I, IUCN Endangered.",
+      "qualityScore": 88,
+      "reviewNotes": "Strong statement-based question that tests biological characteristics and conservation status. The incorrect statement is a classic UPSC-style reversal (larger/lighter instead of smaller/darker)."
+    }
+  ],
+  "reviewerNotes": "Selected two distinct questions: one focusing on species identification based on behavioral and habitat traits, and another testing biological comparisons and conservation status. Both questions have been refined to match the tone, structure, and difficulty of actual UPSC Prelims."
+}

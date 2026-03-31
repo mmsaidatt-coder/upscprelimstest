@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the 'Switch Auction' conducted by the Reserve Bank of India (RBI), consider the following statements:\n1. The primary objective is to replace short-term government securities with longer-dated ones.\n2. It involves the simultaneous sale of 'destination securities' and purchase of 'source securities' by market participants.\n3. These auctions are conducted by the RBI on behalf of the Government of India.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct. The main goal of a Switch Auction is to manage the public debt maturity profile by exchanging short-term securities for long-term ones, thus reducing rollover risk. Statement 3 is also correct. The RBI, as the debt manager for the government, conducts these auctions on behalf of the Government of India. Statement 2 is incorrect as it reverses the terminology. Market participants sell their short-term 'source securities' and simultaneously purchase long-term 'destination securities', not the other way around.",
+      "takeaway": "A Switch Auction is a crucial debt management operation where the government, through the RBI, exchanges its short-term securities held by the market for its own long-term securities. This helps in smoothening the redemption profile of public debt and reducing the pressure of frequent repayments.",
+      "evidenceExcerpt": "A Switch Auction, initiated by the RBI in 2019 on behalf of the Government of India, is a mechanism to manage the maturity profile of public debt. The objective is to replace short-term government securities with longer-dated ones. In this process, market participants sell their short-term 'source securities' to the government and simultaneously purchase long-term 'destination securities'."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Applied/Conceptual",
+      "prompt": "What is the primary economic rationale for the Government of India, through the RBI, to conduct a 'Switch Auction' for its securities?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "To increase the overall money supply in the economy by purchasing securities from the market."
+        },
+        {
+          "id": "B",
+          "text": "To reduce its immediate interest payment burden by refinancing high-cost debt with low-cost debt."
+        },
+        {
+          "id": "C",
+          "text": "To manage its debt redemption profile and mitigate near-term rollover risks."
+        },
+        {
+          "id": "D",
+          "text": "To create a more attractive market for foreign investors by offering a diverse range of securities."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The primary objective of a Switch Auction is to manage the maturity profile of public debt. By replacing securities that are maturing in the short term with securities that will mature in the long term, the government can avoid a large concentration of repayments in the near future. This process reduces the pressure to refinance or 'roll over' its debt frequently, thus mitigating rollover risk and smoothening the redemption calendar.",
+      "takeaway": "Switch Auctions are a crucial debt management tool for governments, used not for raising new funds or managing liquidity, but for restructuring existing debt to ensure a smoother repayment schedule over time by extending the maturity profile.",
+      "evidenceExcerpt": "A Switch Auction, initiated by the RBI in 2019 on behalf of the Government of India, is a mechanism to manage the maturity profile of public debt. The objective is to replace short-term government securities with longer-dated ones."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Applied/Comparative",
+      "prompt": "From the perspective of a market participant, such as a commercial bank, engaging in an RBI 'Switch Auction', the transaction is functionally equivalent to:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A reverse repo operation, where it lends funds to the central bank against collateral."
+        },
+        {
+          "id": "B",
+          "text": "An open market operation (OMO), where it sells securities to the central bank for cash."
+        },
+        {
+          "id": "C",
+          "text": "An asset portfolio adjustment, where it exchanges a near-maturity asset for a longer-maturity one."
+        },
+        {
+          "id": "D",
+          "text": "A currency swap, where it exchanges principal amounts of two different currencies."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "In a Switch Auction, a market participant sells its short-term 'source securities' and simultaneously buys long-term 'destination securities'. This action does not involve a net cash inflow or outflow like an OMO, nor is it a short-term lending/borrowing operation like a repo. It is a direct exchange of one asset (a short-term G-sec) for another (a long-term G-sec), thereby altering the maturity structure of the participant's asset portfolio.",
+      "takeaway": "It is important to differentiate between various RBI operations. While OMOs and repos are primarily for liquidity management, Switch Auctions are for debt/asset portfolio management, involving a swap of securities rather than an exchange for cash.",
+      "evidenceExcerpt": "In this process, market participants sell their short-term 'source securities' to the government and simultaneously purchase long-term 'destination securities'."
+    }
+  ]
+}

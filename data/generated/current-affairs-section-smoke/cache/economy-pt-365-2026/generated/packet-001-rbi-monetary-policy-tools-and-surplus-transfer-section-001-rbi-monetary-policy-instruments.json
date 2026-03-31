@@ -1,0 +1,236 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the monetary policy instruments of the Reserve Bank of India (RBI):\n1. Quantitative tools are primarily aimed at influencing the overall supply of money and credit in the economy.\n2. Qualitative tools are selective in nature and are used to influence the flow of credit to particular sectors.\n3. Moral suasion and margin requirements are examples of quantitative tools.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct. Quantitative tools are general instruments that affect the total volume of credit in the economy. Statement 2 is also correct. Qualitative tools are selective and are used to regulate credit for specific purposes or sectors. Statement 3 is incorrect. Moral suasion and margin requirements are examples of qualitative tools, not quantitative ones.",
+      "takeaway": "It is crucial to understand the fundamental distinction between quantitative and qualitative monetary policy tools. Quantitative tools manage the overall money supply (e.g., Repo Rate, CRR), while qualitative tools direct credit to specific areas (e.g., Moral Suasion, Margin Requirements).",
+      "evidenceExcerpt": "These are categorized into quantitative tools, which directly impact the overall money supply, and qualitative tools, which selectively influence credit flow. ... Qualitative tools consist of Moral Suasion, Margin Requirements, and Direct Action."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Cash Reserve Ratio (CRR) and the Statutory Liquidity Ratio (SLR), consider the following statements:\n1. Both CRR and SLR are determined as a percentage of a bank's Net Demand and Time Liabilities (NDTL).\n2. While CRR must be maintained in the form of cash with the RBI, SLR assets are kept by the banks themselves in specified liquid forms.\n3. The RBI pays interest to commercial banks on the deposits maintained under the CRR.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct as both CRR and SLR are calculated based on a bank's NDTL. Statement 2 is also correct; it accurately describes the key difference in how and where the reserves for CRR and SLR are maintained. Statement 3 is incorrect because the RBI does not pay any interest on the cash reserves that banks maintain with it under the CRR requirement.",
+      "takeaway": "Understanding the specific differences between CRR and SLR is essential. Key distinctions include the form of assets (cash vs. liquid assets like gold/bonds), the custodian of the assets (RBI vs. the bank itself), and the payment of interest (none for CRR).",
+      "evidenceExcerpt": "CRR is the percentage of Net Demand and Time Liabilities (NDTL) that banks must keep as cash with the RBI, on which no interest is paid. SLR is the percentage of NDTL that banks must maintain in liquid assets like gold, government bonds, and cash by themselves."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs:\n1. Repo Rate : Quantitative Tool\n2. Margin Requirements : Qualitative Tool\n3. Cash Reserve Ratio : Qualitative Tool\nHow many of the pairs given above are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: The Repo Rate is a key quantitative tool used to control the overall money supply. Pair 2 is also correctly matched: Margin Requirements are a qualitative tool used to influence credit flow for specific purposes. Pair 3 is incorrectly matched: The Cash Reserve Ratio (CRR) is a quantitative tool, not a qualitative one, as it directly affects the volume of lendable funds in the banking system. Therefore, only two pairs are correctly matched.",
+      "takeaway": "Be able to correctly classify each monetary policy instrument as either quantitative or qualitative. Quantitative tools (Repo, CRR, SLR) are broad, while qualitative tools (Moral Suasion, Margin Requirements) are targeted.",
+      "evidenceExcerpt": "Quantitative tools include the Repo Rate, Reverse Repo Rate, Cash Reserve Ratio (CRR), and Statutory Liquidity Ratio (SLR). Qualitative tools consist of Moral Suasion, Margin Requirements, and Direct Action."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Which of the following statements most accurately distinguishes between the Statutory Liquidity Ratio (SLR) and the Cash Reserve Ratio (CRR)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "CRR requires banks to hold reserves in cash with themselves, while SLR requires holding government securities with the RBI."
+        },
+        {
+          "id": "B",
+          "text": "Banks earn interest on CRR balances from the RBI, but not on the assets maintained for SLR."
+        },
+        {
+          "id": "C",
+          "text": "CRR mandates holding reserves as cash with the RBI, whereas SLR mandates holding specified liquid assets with the banks themselves."
+        },
+        {
+          "id": "D",
+          "text": "An increase in CRR increases the lending capacity of banks, while an increase in SLR decreases it."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Option C provides the most accurate and complete distinction. CRR involves keeping a percentage of NDTL as cash with the RBI. In contrast, SLR requires banks to maintain a percentage of NDTL in the form of liquid assets (like cash, gold, government bonds) with themselves. Option A incorrectly swaps the locations and asset types. Option B is incorrect as banks do not earn interest on CRR, but can earn interest on SLR assets like government bonds. Option D is incorrect as an increase in either CRR or SLR reduces the lending capacity of banks.",
+      "takeaway": "For comparison questions, focus on the precise details of each concept. The key differences between CRR and SLR lie in the form of the reserve (cash vs. liquid assets), the location of the reserve (with RBI vs. with self), and the potential for earning returns (none on CRR vs. potential returns on SLR assets).",
+      "evidenceExcerpt": "CRR is the percentage of Net Demand and Time Liabilities (NDTL) that banks must keep as cash with the RBI, on which no interest is paid. SLR is the percentage of NDTL that banks must maintain in liquid assets like gold, government bonds, and cash by themselves."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Application",
+      "prompt": "If the Reserve Bank of India aims to curb speculative credit flow into a specific sector, such as real estate, without affecting the overall credit availability for other productive sectors, which of the following instruments would be the most targeted and appropriate?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Increasing the Repo Rate"
+        },
+        {
+          "id": "B",
+          "text": "Raising the Cash Reserve Ratio (CRR)"
+        },
+        {
+          "id": "C",
+          "text": "Adjusting Margin Requirements for loans to that sector"
+        },
+        {
+          "id": "D",
+          "text": "Selling government securities through Open Market Operations"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Margin Requirements are a qualitative or selective credit control tool. By increasing the margin requirement for loans to the real estate sector, the RBI can make borrowing for that specific purpose more difficult without tightening overall liquidity. The other options (Repo Rate, CRR, OMO) are quantitative tools that would reduce the overall money supply, affecting all sectors of the economy, not just the targeted one.",
+      "takeaway": "Qualitative monetary policy tools like Margin Requirements are used for selective credit control to target specific economic activities, whereas quantitative tools affect the overall money supply and credit conditions in the economy.",
+      "evidenceExcerpt": "...qualitative tools, which selectively influence credit flow. ... Qualitative tools consist of Moral Suasion, Margin Requirements, and Direct Action."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Comparative Analysis",
+      "prompt": "From the perspective of a commercial bank's operational profitability, what is the most significant difference between the Statutory Liquidity Ratio (SLR) and the Cash Reserve Ratio (CRR)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "SLR is maintained as a percentage of Net Demand and Time Liabilities (NDTL), while CRR is based on total assets."
+        },
+        {
+          "id": "B",
+          "text": "Assets maintained to meet SLR requirements can generate returns for the bank, whereas CRR balances with the RBI earn no interest."
+        },
+        {
+          "id": "C",
+          "text": "The RBI has the authority to penalize non-compliance with CRR but not with SLR."
+        },
+        {
+          "id": "D",
+          "text": "CRR is a quantitative tool, whereas SLR is considered a qualitative tool of monetary policy."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Banks must maintain CRR as cash with the RBI, on which no interest is paid, making it an idle, non-earning asset. In contrast, SLR can be maintained in the form of income-generating assets like government securities and bonds, which earn interest. This difference directly impacts a bank's profitability. Both are quantitative tools, based on NDTL, and non-compliance with either can attract penalties.",
+      "takeaway": "The composition of assets for CRR and SLR has direct implications for a bank's profitability. CRR is a non-earning asset, while SLR assets (like G-secs) can be interest-bearing.",
+      "evidenceExcerpt": "CRR is the percentage of Net Demand and Time Liabilities (NDTL) that banks must keep as cash with the RBI, on which no interest is paid. SLR is the percentage of NDTL that banks must maintain in liquid assets like gold, government bonds, and cash by themselves."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Conceptual Distinction",
+      "prompt": "Which of the following scenarios best illustrates the distinction between the RBI's use of 'Moral Suasion' and 'Direct Action'?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Moral Suasion involves setting higher loan-to-value ratios for a sector, while Direct Action involves increasing the Repo Rate."
+        },
+        {
+          "id": "B",
+          "text": "Moral Suasion is a quantitative tool for general credit control, while Direct Action is a qualitative tool for specific sectors."
+        },
+        {
+          "id": "C",
+          "text": "Moral Suasion involves persuading banks through discussions to follow a particular lending policy, while Direct Action involves imposing penalties on a non-compliant bank."
+        },
+        {
+          "id": "D",
+          "text": "Moral Suasion is applied to commercial banks only, whereas Direct Action can be applied to any financial institution including NBFCs."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "'Moral Suasion' refers to the use of persuasion and informal requests by the RBI to encourage banks to adhere to its policy stance. 'Direct Action' is a more coercive step taken against banks that do not comply with RBI's directives, which can include penalties or restrictions. Option C correctly captures this difference between persuasion (suasion) and punitive measures (action). Both are qualitative tools.",
+      "takeaway": "Within the category of qualitative tools, Moral Suasion is a non-punitive persuasive instrument, while Direct Action is a coercive measure used to enforce compliance with central bank directives.",
+      "evidenceExcerpt": "Qualitative tools consist of Moral Suasion, Margin Requirements, and Direct Action."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the composition of assets mandated under RBI's monetary policy, consider the following statements:\n1. The assets maintained for the Cash Reserve Ratio (CRR) are limited exclusively to cash balances held with the Reserve Bank of India.\n2. The portfolio of assets eligible for meeting the Statutory Liquidity Ratio (SLR) includes government securities and gold, which are held by the banks themselves.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Both statements are correct. The CRR must be maintained in the form of cash with the RBI. The SLR requirement can be met by banks holding specified liquid assets, such as cash, gold, or government-approved securities, with themselves. This highlights the difference in both the composition and the location of the reserved assets.",
+      "takeaway": "A key distinction between CRR and SLR lies in the type of assets permitted and where they are held. CRR is strictly cash with the RBI, while SLR includes a broader category of liquid assets like G-secs and gold held by the banks themselves.",
+      "evidenceExcerpt": "CRR is the percentage of Net Demand and Time Liabilities (NDTL) that banks must keep as cash with the RBI... SLR is the percentage of NDTL that banks must maintain in liquid assets like gold, government bonds, and cash by themselves."
+    }
+  ]
+}

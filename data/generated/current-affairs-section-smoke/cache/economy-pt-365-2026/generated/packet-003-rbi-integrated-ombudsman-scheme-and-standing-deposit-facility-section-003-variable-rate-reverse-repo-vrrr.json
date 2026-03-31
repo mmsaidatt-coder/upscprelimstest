@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Variable Rate Reverse Repo (VRRR):\n\n1. It is a tool used by the Reserve Bank of India to absorb excess liquidity from the banking system.\n2. The interest rate associated with it is variable and determined through a market-based process.\n3. Under this mechanism, the RBI lends money to commercial banks for a short duration.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct; VRRR is an instrument used by the RBI to absorb surplus liquidity. Statement 2 is also correct; the interest rate is not fixed but is determined by the market through auctions. Statement 3 is incorrect; under a reverse repo operation, the RBI borrows money from banks, it does not lend to them. Lending by the RBI to banks occurs under repo operations.",
+      "takeaway": "The Variable Rate Reverse Repo (VRRR) is a key short-term liquidity absorption tool. Its two defining features are that the RBI borrows from banks (absorbing liquidity) and the interest rate paid by the RBI is market-determined, unlike the fixed standard Reverse Repo Rate.",
+      "evidenceExcerpt": "The Variable Rate Reverse Repo (VRRR) is a tool used by the RBI to absorb excess liquidity from the banking system for a short duration. Under this mechanism, the RBI borrows money from banks and pays them interest. The key feature is that the interest rate is variable and determined by the market..."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Conceptual/Comparative",
+      "prompt": "What is the primary distinction between the Variable Rate Reverse Repo (VRRR) and the standard Reverse Repo facility offered by the Reserve Bank of India?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "VRRR is used for injecting liquidity, whereas the standard Reverse Repo is for absorbing it."
+        },
+        {
+          "id": "B",
+          "text": "The tenor of VRRR is always long-term, while the standard Reverse Repo is for overnight liquidity."
+        },
+        {
+          "id": "C",
+          "text": "The interest rate for VRRR is market-determined, while the standard Reverse Repo Rate is a fixed policy rate."
+        },
+        {
+          "id": "D",
+          "text": "Only public sector banks can participate in VRRR, while all scheduled commercial banks can use the standard Reverse Repo."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The fundamental difference between the two instruments lies in the determination of the interest rate. In a VRRR auction, the rate is discovered through a market-based bidding process by the participating banks. In contrast, the standard Reverse Repo Rate is a fixed rate announced by the RBI as part of its monetary policy.",
+      "takeaway": "Understanding the rate-setting mechanism is crucial to differentiate between various RBI liquidity management tools. The market-determined rate of VRRR allows the RBI to manage liquidity more dynamically based on prevailing market conditions compared to the fixed-rate reverse repo.",
+      "evidenceExcerpt": "The key feature is that the interest rate is variable and determined by the market, unlike the standard Reverse Repo Rate, which is fixed by the RBI."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Applied Concept",
+      "prompt": "The Variable Rate Reverse Repo (VRRR) is characterized by an interest rate that is 'determined by the market'. In the context of RBI's liquidity operations, which of the following statements best explains this mechanism?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The interest rate is automatically pegged to the weighted average call money rate of the previous day."
+        },
+        {
+          "id": "B",
+          "text": "Commercial banks submit competitive bids indicating the rate at which they are willing to lend funds to the RBI, which then decides the cut-off rate."
+        },
+        {
+          "id": "C",
+          "text": "The RBI announces a benchmark rate, and banks can park any amount of funds at that pre-determined rate."
+        },
+        {
+          "id": "D",
+          "text": "The rate is determined through monthly negotiations between the RBI and the Indian Banks' Association."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The term 'determined by the market' in the context of VRRR refers to an auction process. The RBI invites bids from commercial banks for a specified amount and tenure. Banks quote the interest rates at which they are willing to lend their surplus funds to the RBI. The RBI then accepts bids up to the notified amount, with the cut-off rate being determined by the auction dynamics. This allows for a market-based discovery of the price for short-term liquidity.",
+      "takeaway": "The Variable Rate Reverse Repo (VRRR) uses a market-based auction mechanism to determine the interest rate for absorbing liquidity, unlike the standard Reverse Repo where the rate is fixed by the RBI. This allows the central bank to manage liquidity more dynamically.",
+      "evidenceExcerpt": "The key feature is that the interest rate is variable and determined by the market, unlike the standard Reverse Repo Rate, which is fixed by the RBI."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Application",
+      "prompt": "In which of the following economic scenarios would the Reserve Bank of India (RBI) most likely intensify its use of Variable Rate Reverse Repo (VRRR) auctions?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A period of significant credit crunch in the inter-bank market."
+        },
+        {
+          "id": "B",
+          "text": "A sustained depreciation of the domestic currency due to large capital outflows."
+        },
+        {
+          "id": "C",
+          "text": "A sudden and large inflow of foreign portfolio investment into the Indian market."
+        },
+        {
+          "id": "D",
+          "text": "The government undertaking a large-scale disinvestment program by selling its shares to the public."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The primary function of the Variable Rate Reverse Repo (VRRR) is to absorb excess liquidity from the banking system. A large inflow of foreign portfolio investment leads the RBI to purchase foreign currency (like US dollars) to prevent sharp appreciation of the rupee. In doing so, it releases an equivalent amount of Indian Rupees into the banking system, creating excess liquidity. To manage this surplus and prevent inflationary pressures, the RBI would intensify its use of absorption tools like VRRR.",
+      "takeaway": "Monetary policy tools like VRRR are used in response to specific economic conditions. Understanding the function of a tool (e.g., liquidity absorption) allows one to predict its use in scenarios that create excess liquidity (like large capital inflows) and its non-use in scenarios of liquidity deficit (like capital outflows).",
+      "evidenceExcerpt": "The Variable Rate Reverse Repo (VRRR) is a tool used by the RBI to absorb excess liquidity from the banking system for a short duration."
+    }
+  ]
+}

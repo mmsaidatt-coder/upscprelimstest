@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Application",
+      "prompt": "Which of the following scenarios best illustrates the practice of 'Front Running' in financial markets?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A corporate insider trading in their company's stock based on undisclosed financial results."
+        },
+        {
+          "id": "B",
+          "text": "A broker buying shares for their personal account ahead of executing a large institutional client order."
+        },
+        {
+          "id": "C",
+          "text": "A trader simultaneously buying and selling the same asset in different markets to profit from price discrepancies."
+        },
+        {
+          "id": "D",
+          "text": "A group of investors artificially inflating the price of a stock to sell it to retail investors at a profit."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Front running is an illegal market manipulation practice where a security is purchased based on advanced non-public information regarding an expected large transaction. Option B perfectly illustrates this, as the broker uses non-public knowledge of an impending large client order to profit personally before the client's trade impacts the market price. Option A describes insider trading, Option C describes arbitrage, and Option D describes a 'pump and dump' scheme.",
+      "takeaway": "Front running involves exploiting advanced, non-public knowledge of a large pending transaction to trade for one's own account ahead of that transaction, thereby undermining market integrity.",
+      "evidenceExcerpt": "Front Running is an illegal market manipulation practice where a security is purchased based on advanced non-public information regarding an expected large transaction, undermining market integrity.",
+      "qualityScore": 90,
+      "reviewNotes": "Excellent application question that tests the exact definition of front running against other common market malpractices. It requires conceptual clarity rather than rote memorization, fitting the UPSC style perfectly."
+    }
+  ],
+  "reviewerNotes": "Selected the application-based question on Front Running. Rewrote the distractors to represent other well-known market practices (insider trading, arbitrage, pump and dump) to make it a robust conceptual test."
+}

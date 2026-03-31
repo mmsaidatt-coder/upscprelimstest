@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Species Identification",
+      "prompt": "Consider the following statements:\n1. It is a solitary and shy herbivore that inhabits alpine meadows and fir forests.\n2. It uniquely possesses fangs but lacks antlers and a gall bladder.\n3. It is severely threatened by poaching for its pods, which are used in perfumes and traditional medicines.\nWhich one of the following species is best described by the statements given above?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Kashmir Stag (Hangul)"
+        },
+        {
+          "id": "B",
+          "text": "Alpine Musk Deer"
+        },
+        {
+          "id": "C",
+          "text": "Swamp Deer (Barasingha)"
+        },
+        {
+          "id": "D",
+          "text": "Indian Muntjac (Barking Deer)"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The given characteristics perfectly describe the Alpine Musk Deer. It is native to India, Nepal, Bhutan, and China, inhabiting alpine meadows and fir forests. It is solitary, shy, and herbivorous. Uniquely among deer, it possesses fangs but lacks antlers and a gall bladder. It is highly threatened by poaching for its muskpods.",
+      "takeaway": "The Alpine Musk Deer is distinguished by its lack of antlers and gall bladder, the presence of fangs, and the muskpods for which it is heavily poached.",
+      "evidenceExcerpt": "Native to India, Nepal, Bhutan, and China, it inhabits alpine meadows and fir forests. It is solitary, shy, and herbivorous, uniquely possessing fangs but lacking antlers and a gall bladder. Threatened by poaching for muskpods used in perfumes and traditional medicines.",
+      "qualityScore": 90,
+      "reviewNotes": "Classic UPSC species identification format. Distractors are other well-known deer species in India, making the options plausible and parallel."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Alpine Musk Deer, consider the following statements:\n1. It is endemic to the alpine regions of the Indian Himalayas.\n2. It is a unique deer species that possesses fangs but lacks antlers and a gall bladder.\n3. It is listed as 'Endangered' on the IUCN Red List.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The Alpine Musk Deer is not endemic to India; it is naturally found in India, Nepal, Bhutan, and China. Statement 2 is correct: It uniquely possesses fangs but lacks antlers and a gall bladder. Statement 3 is correct: Its conservation status is 'Endangered' on the IUCN Red List, and it is protected under WPA Schedule I.",
+      "takeaway": "The Alpine Musk Deer is an Endangered species native to multiple Himalayan countries (India, Nepal, Bhutan, China) and is known for its unique physical traits like fangs and the absence of antlers.",
+      "evidenceExcerpt": "Native to India, Nepal, Bhutan, and China... uniquely possessing fangs but lacking antlers and a gall bladder... Conservation Status: WPA Schedule I, CITES Appendix I, IUCN Endangered.",
+      "qualityScore": 88,
+      "reviewNotes": "Tests geographical distribution (endemicity trap), unique physical characteristics, and conservation status, which are standard UPSC testing areas."
+    }
+  ],
+  "reviewerNotes": "Selected two strong questions. One is a species identification question based on unique traits and threats, which perfectly mimics UPSC's pattern. The second is a statement-based question testing endemicity, physical traits, and IUCN status. Both are well-grounded in the source text and feature plausible distractors."
+}

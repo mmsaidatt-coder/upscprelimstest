@@ -1,0 +1,98 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Pairs",
+      "prompt": "With reference to the new financing mechanisms announced under the Sevilla Commitment, consider the following pairs:\n\nInitiative : Primary Feature\n1. SCALED : A blended finance platform combining public, philanthropic, and private capital.\n2. Debt Swaps for Development Hub : Led by the International Monetary Fund to restructure sovereign debt.\n3. Coalition for Global Solidarity Levies : Aims to tax premium-class flying and private jets for climate action.\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: SCALED is a blended finance platform combining public, philanthropic, and private capital for sustainable development. Pair 2 is incorrectly matched: The Debt Swaps for Development Hub is led by Spain and the World Bank (not the IMF) to scale up debt swaps and lower debt service burdens. Pair 3 is correctly matched: The Coalition for Global Solidarity Levies, led by France, Kenya, and Barbados, aims to tax premium-class flying and private jets for climate action.",
+      "takeaway": "FFD4 introduced several innovative financing mechanisms, including SCALED, the Debt Swaps for Development Hub (Spain/World Bank), and the Coalition for Global Solidarity Levies.",
+      "evidenceExcerpt": "New financing mechanisms announced: ... Debt Swaps for Development Hub (led by Spain and the World Bank) ... Blended finance platform SCALED ... Coalition for Global Solidarity Levies (led by France, Kenya and Barbados) aims to tax premium-class flying and private jets.",
+      "qualityScore": 92,
+      "reviewNotes": "Combined elements from Candidates 3, 4, and 6 to create a highly representative UPSC 'pairs' question covering multiple factual dimensions of the FFD4 outcomes."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the 'Sevilla Commitment', recently seen in the news:\n\n1. It was adopted at the 4th International Conference on Financing for Development (FFD4) to address the Sustainable Development Goals (SDG) financing gap.\n2. It was adopted by consensus with the participation of all United Nations member states.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The Sevilla Commitment (Compromiso de Sevilla) was adopted at FFD4 to lay out a path to close the $4 trillion annual SDG financing gap in developing countries. Statement 2 is incorrect: While it was adopted by consensus, the United States decided to exit the process entirely, meaning not all UN member states participated in the final adoption.",
+      "takeaway": "The Sevilla Commitment aims to bridge the $4 trillion SDG financing gap, though it faced geopolitical challenges such as the withdrawal of the United States.",
+      "evidenceExcerpt": "Recently, the 4th International Conference on Financing for Development (FFD4) adopted the final outcome document Compromiso de Sevilla... to address the SDG financing gap... Adopted by consensus, lays out a path to close the $4 trillion annual SDG financing gap. United States decided to exit the process entirely.",
+      "qualityScore": 88,
+      "reviewNotes": "Rewrote Candidate 5 into a standard UPSC statement-based question, incorporating the crucial detail about the US exit to create a strong distractor."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "In the context of international development finance, which one of the following best describes the mechanism of a 'Debt-for-Development Swap'?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The exchange of high-interest sovereign debt for low-interest commercial loans by multilateral development banks."
+        },
+        {
+          "id": "B",
+          "text": "The cancellation or reduction of external debt by creditors in exchange for the debtor government's commitment to spend on domestic development goals."
+        },
+        {
+          "id": "C",
+          "text": "A system where developing nations trade their debt obligations for carbon credits on the international market."
+        },
+        {
+          "id": "D",
+          "text": "The transfer of national infrastructure assets to private creditors to liquidate outstanding sovereign debt."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A Debt-for-Development Swap involves creditors canceling or reducing a portion of a developing country's debt. In exchange, the debtor government commits to mobilizing domestic resources equivalent to the canceled amount for specific development projects or goals, such as climate action or education.",
+      "takeaway": "Debt-for-development swaps are innovative financial tools designed to alleviate debt burdens while simultaneously ensuring domestic investment in Sustainable Development Goals (SDGs).",
+      "evidenceExcerpt": "Debt-for-Development Swap Programme cancels or reduces debt in exchange for government spending on development goals.",
+      "qualityScore": 85,
+      "reviewNotes": "Refined Candidate 1 to ensure the prompt and options match the formal tone of UPSC conceptual questions."
+    }
+  ],
+  "reviewerNotes": "Selected and heavily refined 3 questions from the candidate set. Shifted the subject to 'Economy' as international financing mechanisms align better with the macroeconomic syllabus of UPSC Prelims. Ensured distractors are plausible and explanations are tightly bound to the source text."
+}

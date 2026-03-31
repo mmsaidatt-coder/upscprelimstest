@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Applied",
+      "prompt": "Which one of the following best describes the purpose of 'Switch Auctions' conducted by the Reserve Bank of India?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "To inject overnight liquidity into the banking system to help banks meet their statutory reserve requirements."
+        },
+        {
+          "id": "B",
+          "text": "To manage the maturity profile of public debt by replacing short-term government securities with longer-dated ones."
+        },
+        {
+          "id": "C",
+          "text": "To swap domestic currency with foreign exchange to curb extreme volatility in the exchange rate."
+        },
+        {
+          "id": "D",
+          "text": "To facilitate the exchange of non-performing assets of commercial banks for sovereign-backed bonds."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Switch Auctions are debt management tools used by the RBI via the e-Kuber portal. They manage public debt maturity by replacing short-term government securities with longer-dated ones, thereby postponing the government's immediate repayment burden.",
+      "takeaway": "Switch Auctions help manage public debt maturity by extending the tenure of existing short-term liabilities.",
+      "evidenceExcerpt": "Switch Auctions manage public debt maturity by replacing short-term securities with longer-dated ones via the e-Kuber portal.",
+      "qualityScore": 88,
+      "reviewNotes": "Excellent applied question. The distractors are highly plausible as they describe other actual or hypothetical central banking functions (LAF, forex swaps, bad banks)."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Standing Deposit Facility (SDF):\n1. It allows the Reserve Bank of India to absorb liquidity from commercial banks without providing collateral.\n2. It has replaced the Marginal Standing Facility (MSF) as the floor of the Liquidity Adjustment Facility (LAF) corridor.\n3. It is operational on all days, including weekends and holidays.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: SDF absorbs liquidity from commercial banks without requiring the RBI to provide collateral. Statement 2 is incorrect: SDF replaced the Fixed Rate Reverse Repo, not the Marginal Standing Facility (MSF), as the floor of the LAF corridor. Statement 3 is correct: SDF is available every day, including holidays and weekends.",
+      "takeaway": "The Standing Deposit Facility (SDF) is a collateral-free liquidity absorption tool that operates continuously (every day) and serves as the floor of the LAF corridor, replacing the Fixed Rate Reverse Repo.",
+      "evidenceExcerpt": "Standing Deposit Facility (SDF) absorbs liquidity without collateral, replacing the Fixed Rate Reverse Repo as the LAF corridor floor. It is available every day.",
+      "qualityScore": 85,
+      "reviewNotes": "Rewrote the options to match the latest UPSC 'How many statements' format. The distractors are plausible and test precise knowledge of the LAF corridor structure."
+    }
+  ],
+  "reviewerNotes": "Selected three distinct questions covering the three core concepts in the text: SDF, Switch Auctions, and VRRR. Rewrote the SDF question to align with the latest UPSC 'How many statements' format. The Switch Auctions question is a strong conceptual definition test with highly plausible distractors. The VRRR question effectively tests the distinction between market-determined and policy-fixed rates."
+}

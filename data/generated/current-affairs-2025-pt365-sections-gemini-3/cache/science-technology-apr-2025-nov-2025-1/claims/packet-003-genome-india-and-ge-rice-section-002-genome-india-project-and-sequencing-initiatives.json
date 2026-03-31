@@ -1,0 +1,80 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-003-genome-india-and-ge-rice-section-002-genome-india-project-and-sequencing-initiatives",
+    "claimType": "Factual",
+    "claimText": "The Genome India Project was initiated by the Department of Biotechnology (DBT) to map the genetic diversity of India.",
+    "evidenceExcerpt": "GenomeIndia Project was initiated by the Department of Biotechnology (DBT) to map India's genetic diversity.",
+    "pageNumbers": [
+      8
+    ],
+    "examUse": "Statement-based question identifying the nodal agency for the Genome India Project.",
+    "distractorHooks": [
+      "Department of Science and Technology (DST)",
+      "Council of Scientific and Industrial Research (CSIR)",
+      "Indian Council of Medical Research (ICMR)"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-003-genome-india-and-ge-rice-section-002-genome-india-project-and-sequencing-initiatives",
+    "claimType": "Factual",
+    "claimText": "The Indian Biological Data Centre (IBDC) located at Faridabad is India's first national life science data repository.",
+    "evidenceExcerpt": "Data is stored at the Indian Biological Data Centre (IBDC) at Faridabad, India's first national life science data repository.",
+    "pageNumbers": [
+      8
+    ],
+    "examUse": "Fact-based location or 'first of its kind' statement question.",
+    "distractorHooks": [
+      "Located in Hyderabad or Bengaluru",
+      "It is a private data repository",
+      "It is India's second life science repository"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-003-genome-india-and-ge-rice-section-002-genome-india-project-and-sequencing-initiatives",
+    "claimType": "Factual",
+    "claimText": "The IndiGen program is a genome sequencing initiative launched by the Council of Scientific and Industrial Research (CSIR).",
+    "evidenceExcerpt": "IndiGen program was initiated by CSIR.",
+    "pageNumbers": [
+      8
+    ],
+    "examUse": "Correct-pair question matching the initiative with its nodal agency.",
+    "distractorHooks": [
+      "Department of Biotechnology (DBT)",
+      "Indian Council of Medical Research (ICMR)"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-003-genome-india-and-ge-rice-section-002-genome-india-project-and-sequencing-initiatives",
+    "claimType": "Factual",
+    "claimText": "The One Day One Genome Initiative was launched by the Department of Biotechnology (DBT).",
+    "evidenceExcerpt": "One Day One Genome Initiative was initiated by DBT.",
+    "pageNumbers": [
+      8
+    ],
+    "examUse": "Correct-pair question matching the initiative with its nodal agency.",
+    "distractorHooks": [
+      "Council of Scientific and Industrial Research (CSIR)",
+      "Ministry of Health and Family Welfare"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-003-genome-india-and-ge-rice-section-002-genome-india-project-and-sequencing-initiatives",
+    "claimType": "Factual",
+    "claimText": "The International HapMap Project analyzes genetic variants across African, Asian, and European ancestry groups.",
+    "evidenceExcerpt": "International HapMap Project analyzes variants in African, Asian, and European ancestry groups.",
+    "pageNumbers": [
+      8
+    ],
+    "examUse": "Statement-based question on the scope of international genetic projects.",
+    "distractorHooks": [
+      "Focuses exclusively on Indian genomes",
+      "Maps only plant and agricultural genomes",
+      "Restricted to European ancestry groups"
+    ]
+  }
+]

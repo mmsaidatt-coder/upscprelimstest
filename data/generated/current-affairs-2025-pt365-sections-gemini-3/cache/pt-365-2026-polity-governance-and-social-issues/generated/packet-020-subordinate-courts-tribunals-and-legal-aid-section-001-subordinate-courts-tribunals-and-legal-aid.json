@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Polity",
+      "difficulty": "Hard",
+      "questionType": "Comparison-driven",
+      "prompt": "With reference to the constitutional provisions for Tribunals under Articles 323A and 323B, which of the following statements is correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Both Articles 323A and 323B allow for the establishment of tribunals by both Parliament and State Legislatures."
+        },
+        {
+          "id": "B",
+          "text": "Article 323A is limited to administrative matters, whereas Article 323B covers matters such as taxation, foreign exchange, and land reforms."
+        },
+        {
+          "id": "C",
+          "text": "Tribunals established under Article 323B have exclusive jurisdiction, and their decisions cannot be challenged in High Courts."
+        },
+        {
+          "id": "D",
+          "text": "The Central Administrative Tribunal (CAT) was established under Article 323B to handle service matters of public servants."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement B is correct. Article 323A is specifically for Administrative Tribunals (like CAT), while 323B is for tribunals for other matters (taxation, land reforms, etc.). Statement A is incorrect because 323A can only be invoked by Parliament. Statement C is incorrect as appeals generally lie with High Courts. Statement D is incorrect because CAT is under 323A.",
+      "takeaway": "Article 323A is restricted to administrative/service matters and Parliament only, while 323B covers a wider range of subjects and allows for both Parliament and State Legislature involvement.",
+      "evidenceExcerpt": "Article 323A (Administrative Tribunals; CAT established under this). Article 323B (Tribunals for other matters). Supreme Court, 2010: Matters under Article 323B are not exclusive; legislatures can create tribunals on subjects in the Seventh Schedule.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Comparison-driven",
+      "prompt": "Which of the following best distinguishes the procedural requirements of Tribunals from those of traditional Courts in India?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Courts are bound by the principles of natural justice, whereas Tribunals are strictly bound by the Code of Civil Procedure."
+        },
+        {
+          "id": "B",
+          "text": "Tribunals are not bound by the specific procedures of the Evidence Act, while traditional Courts must strictly adhere to it."
+        },
+        {
+          "id": "C",
+          "text": "Courts can only decide on civil matters, while Tribunals have the exclusive power to decide on both civil and criminal cases."
+        },
+        {
+          "id": "D",
+          "text": "Tribunals are established by the Constitution's original text, whereas Courts are established only through Parliamentary Acts."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "According to the comparison, Tribunals are not bound by specific procedures like the Code of Civil Procedure or the Evidence Act, but are guided by the principles of natural justice. Traditional courts, conversely, are bound by these formal procedural codes.",
+      "takeaway": "Tribunals enjoy procedural flexibility (Natural Justice) compared to the rigid statutory procedural requirements of traditional Courts.",
+      "evidenceExcerpt": "Tribunals: Not bound by specific procedure (like CPC or Evidence Act) but by principles of natural justice. Courts: Bound by all the rules of evidence and procedure (CPC).",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Hard",
+      "questionType": "Comparison-driven",
+      "prompt": "In the context of the legislative competence to establish Tribunals under the Indian Constitution, which of the following statements is correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only the Parliament can establish tribunals under both Article 323A and Article 323B."
+        },
+        {
+          "id": "B",
+          "text": "Article 323A allows for the establishment of tribunals by both Parliament and State Legislatures, while 323B is exclusive to Parliament."
+        },
+        {
+          "id": "C",
+          "text": "Administrative tribunals under Article 323A can only be established by Parliament, whereas tribunals under Article 323B can be established by both Parliament and State Legislatures."
+        },
+        {
+          "id": "D",
+          "text": "The Supreme Court has ruled that matters under Article 323B are the exclusive jurisdiction of the Union government."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Article 323A (Administrative Tribunals) is restricted to establishment by Parliament only. Article 323B (Tribunals for other matters) allows for establishment by both Parliament and State Legislatures within their respective legislative competence.",
+      "takeaway": "Article 323A is a central power (Parliament), while Article 323B is a shared power between Parliament and State Legislatures.",
+      "evidenceExcerpt": "Article 323A (Administrative Tribunal both at centre and state level) - established only by Parliament. Article 323B (Tribunals for other matters) - established by both Parliament and state legislatures.",
+      "contextLines": []
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the National Green Tribunal (NGT): 1. It was established as a statutory body under the Environment (Protection) Act, 1986. 2. The members of the NGT hold office for a term of five years and are eligible for re-appointment. 3. Appeals against the orders of the NGT can be made to the Supreme Court within ninety days. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "3 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The NGT was established in 2010 under its own specific legislation, the NGT Act, not the Environment (Protection) Act. Statement 2 is incorrect: Members hold office for 5 years but are explicitly not eligible for re-appointment. Statement 3 is correct: Orders of the NGT are binding but not final, and appeals can be made to the Supreme Court within 90 days.",
+      "takeaway": "The NGT is a statutory body created by the NGT Act 2010. Its members serve a non-renewable 5-year term to ensure independence, and its decisions are appealable directly to the Supreme Court within a 90-day window.",
+      "evidenceExcerpt": "Established in 2010 under the NGT Act. ... Members: Hold office for 5 years, but shall not be eligible for re-appointment. Appeal: Orders are binding but not final (appeal could be made in SC within ninety days)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Application-based",
+      "prompt": "A civil society organization wishes to approach the National Green Tribunal (NGT) to seek compensation for environmental damage. Under which of the following legislations does the NGT have the jurisdiction to entertain such civil cases? 1. The Public Liability Insurance Act 2. The Biological Diversity Act 3. The Environment (Protection) Act Select the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "The legislative framework and jurisdiction of the NGT cover 7 specific environmental Acts. These include the Environment (Protection) Act, the Public Liability Insurance Act, and the Biological Diversity Act, along with the Water Act, Air Act, and Forest Act.",
+      "takeaway": "The NGT's civil jurisdiction is explicitly defined and limited to cases arising out of 7 specific environmental enactments, allowing it to act as a specialized forum for these laws.",
+      "evidenceExcerpt": "Legislative Framework: Water Act, Forest Act, Air Act, Environment (Protection) Act, Public Liability Insurance Act, Biological Diversity Act."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Feature-based",
+      "prompt": "Consider the following statements regarding the powers and structure of the National Green Tribunal (NGT): 1. It possesses the powers of a Civil Court. 2. Its principal place of sitting is New Delhi, and it does not have any other places of sitting. 3. It was established as a specialized body for the effective and expeditious disposal of cases relating to environmental protection. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The NGT has the powers of a Civil Court. Statement 2 is incorrect: While its principal place of sitting is New Delhi, it has four other sitting places (Bhopal, Pune, Kolkata, Chennai) to ensure wider accessibility. Statement 3 is correct: It is a specialized body aimed at the effective and expeditious disposal of environmental cases. Therefore, exactly two statements are correct.",
+      "takeaway": "The NGT exercises civil court powers and operates through multiple regional benches across India (Bhopal, Pune, Kolkata, Chennai) in addition to its principal bench in New Delhi to ensure accessible and speedy environmental justice.",
+      "evidenceExcerpt": "A Statutory and specialized body aimed at effective and expeditious disposal of cases relating to environmental protection. ... Principal sitting place is New Delhi, with four others: Bhopal, Pune, Kolkata, Chennai. ... Powers: Has power of a Civil Court."
+    }
+  ]
+}

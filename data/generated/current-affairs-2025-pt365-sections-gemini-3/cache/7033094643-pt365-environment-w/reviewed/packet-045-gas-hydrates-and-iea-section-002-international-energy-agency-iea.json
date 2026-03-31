@@ -1,0 +1,98 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the criteria for a country to become a full member of the International Energy Agency (IEA):\n1. The country must be a member of the Organisation for Economic Co-operation and Development (OECD).\n2. The country must maintain crude oil reserves equivalent to 90 days of its previous year's total domestic consumption.\n3. The country must have a demand restraint programme to reduce national oil consumption by up to 10%.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: OECD membership is a mandatory prerequisite for full IEA membership. Statement 2 is incorrect: A country must maintain crude oil reserves equivalent to 90 days of the previous year's *net imports*, not total domestic consumption. Statement 3 is correct: Prospective members must have a demand restraint programme capable of reducing oil consumption by up to 10%.",
+      "takeaway": "IEA full membership requires OECD membership, a 90-day strategic reserve based on net imports (not consumption), and a 10% demand restraint capability.",
+      "evidenceExcerpt": "To be a full member, a country must be an OECD member, maintain crude oil reserves equivalent to 90 days of the previous year's net imports, and have a demand restraint programme to reduce oil consumption by up to 10%.",
+      "qualityScore": 90,
+      "reviewNotes": "Excellent UPSC-style question. The distinction between 'net imports' and 'total domestic consumption' is exactly the kind of nuanced detail UPSC tests."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the International Energy Agency (IEA):\n1. It was founded in 1974 primarily to ensure the security of global oil supplies.\n2. Its headquarters is located in Paris, France.\n3. India is currently a full member of the IEA.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The IEA was established in 1974 with the primary mandate of ensuring the security of oil supplies. Statement 2 is correct: The IEA is headquartered in Paris, France. Statement 3 is incorrect: India is an associate member of the IEA, not a full member.",
+      "takeaway": "The IEA was founded in 1974 for oil supply security and is headquartered in Paris. India holds associate member status, not full membership.",
+      "evidenceExcerpt": "The International Energy Agency (IEA), located in Paris, France, was founded in 1974 to ensure the security of oil supplies. It has 32 Member countries and 13 Association countries, with India being an associate member.",
+      "qualityScore": 85,
+      "reviewNotes": "Good foundational question covering the genesis, location, and India's membership status. The distractor for statement 3 is a standard UPSC trap."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of reports and their publishing organizations:\n1. World Energy Outlook : International Energy Agency\n2. Global Methane Tracker : United Nations Environment Programme\n3. Global EV Outlook : World Economic Forum\n\nHow many of the pairs given above are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Only pair 1 is correctly matched. The World Energy Outlook is published by the International Energy Agency (IEA). Pairs 2 and 3 are incorrectly matched, as both the Global Methane Tracker and the Global EV Outlook are also flagship publications of the IEA, not UNEP or WEF.",
+      "takeaway": "The International Energy Agency (IEA) publishes several flagship reports, including the World Energy Outlook, Global Methane Tracker, Delivering Sustainable Fuels, and Global EV Outlook.",
+      "evidenceExcerpt": "Flagship publications include the World Energy Outlook, Global Methane Tracker, Delivering Sustainable Fuels, and Global EV Outlook.",
+      "qualityScore": 85,
+      "reviewNotes": "Standard correct-pair question matching international reports to their publishing organizations. Distractors are plausible global bodies."
+    }
+  ],
+  "reviewerNotes": "Selected three distinct questions covering the genesis and membership of the IEA, the specific criteria for full membership, and its flagship reports. The questions have been rewritten to align with the latest UPSC Prelims format, ensuring plausible distractors and tight explanations."
+}

@@ -1,0 +1,63 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-036-india-s-re-status-and-international-solar-alliance-section-004-solar-panel-efficiency-norms-and-almm",
+    "claimType": "Factual",
+    "claimText": "The Ministry of New and Renewable Energy (MNRE) has eased solar panel efficiency norms to 18% specifically for off-grid rural projects below 200W.",
+    "evidenceExcerpt": "MNRE eased solar panel efficiency norms to 18% for both Crystalline silicon and Cadmium Telluride technologies for off-grid rural projects below 200W.",
+    "pageNumbers": [
+      75
+    ],
+    "examUse": "Statement-based question on the scope and specific limits of the new solar efficiency norms.",
+    "distractorHooks": [
+      "Claiming the relaxed norms apply to on-grid projects",
+      "Claiming the norms apply to projects above 200W",
+      "Claiming the efficiency norm was increased rather than eased"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-036-india-s-re-status-and-international-solar-alliance-section-004-solar-panel-efficiency-norms-and-almm",
+    "claimType": "Institution-feature",
+    "claimText": "The Approved List of Models and Manufacturers (ALMM) is a list of solar PV modules and manufacturers approved by the Ministry of New and Renewable Energy (MNRE).",
+    "evidenceExcerpt": "The Approved List of Models and Manufacturers (ALMM) is an MNRE-approved list of solar PV modules and manufacturers.",
+    "pageNumbers": [
+      75
+    ],
+    "examUse": "Definition or correct-pair question identifying the nodal ministry and purpose of the ALMM.",
+    "distractorHooks": [
+      "Claiming ALMM is maintained by the Ministry of Power or NITI Aayog",
+      "Claiming ALMM applies to wind energy components or electric vehicles"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-036-india-s-re-status-and-international-solar-alliance-section-004-solar-panel-efficiency-norms-and-almm",
+    "claimType": "Conceptual",
+    "claimText": "The relaxed 18% efficiency norms for solar panels do not apply to larger systems such as rooftop solar or solar pumps.",
+    "evidenceExcerpt": "The relaxed efficiency norms apply only to off-grid applications like solar lanterns and micro solar grids, and do not affect larger systems like rooftop solar or pumps.",
+    "pageNumbers": [
+      75
+    ],
+    "examUse": "Statement-based question testing the exceptions and exclusions of the relaxed efficiency policy.",
+    "distractorHooks": [
+      "Claiming the relaxed norms apply universally to all solar installations",
+      "Claiming rooftop solar and agricultural pumps are included in the relaxed norms"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-036-india-s-re-status-and-international-solar-alliance-section-004-solar-panel-efficiency-norms-and-almm",
+    "claimType": "Factual",
+    "claimText": "A Distributed Renewable Energy (DRE) category was introduced to support smaller manufacturers and promote wider rural electrification.",
+    "evidenceExcerpt": "A new Distributed Renewable Energy (DRE) category was introduced to support smaller manufacturers and promote wider rural electrification.",
+    "pageNumbers": [
+      75
+    ],
+    "examUse": "Statement-based question on the purpose and target beneficiaries of the newly introduced DRE category.",
+    "distractorHooks": [
+      "Claiming DRE was introduced to support large-scale utility solar parks",
+      "Claiming DRE is aimed at foreign manufacturers to boost imports"
+    ]
+  }
+]

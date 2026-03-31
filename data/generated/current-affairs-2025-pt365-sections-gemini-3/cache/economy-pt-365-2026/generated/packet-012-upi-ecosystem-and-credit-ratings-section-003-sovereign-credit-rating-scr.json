@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Sovereign Credit Ratings (SCR): 1. A favorable Sovereign Credit Rating generally increases the borrowing costs for a country in the international market. 2. In the rating scales used by S&P and Fitch, a rating of 'BBB-' is classified as an investment-grade rating. 3. S&P recently upgraded India's long-term Sovereign Credit Rating to the highest possible investment grade of 'AAA'. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect because a favorable Sovereign Credit Rating reduces, rather than increases, a country's borrowing costs. Statement 2 is correct as investment-grade ratings range from BBB- to AAA for S&P and Fitch. Statement 3 is incorrect because S&P upgraded India's long-term Sovereign Credit Rating to 'BBB', not 'AAA'. Therefore, only one statement is correct.",
+      "takeaway": "Investment grade ratings range from BBB- to AAA for S&P and Fitch. India's current long-term rating by S&P is 'BBB' with a Stable Outlook.",
+      "evidenceExcerpt": "S&P upgraded India's long-term Sovereign Credit Rating to 'BBB' with a Stable Outlook. ... Investment grade ratings range from BBB- to AAA for S&P and Fitch ... Favorable SCRs reduce borrowing costs and facilitate access to global capital markets and foreign investment."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Applied",
+      "prompt": "If a sovereign nation's credit rating is downgraded below the 'BBB-' threshold by Standard & Poor's (S&P), which of the following is the most likely macroeconomic implication based on credit rating classifications?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Its sovereign bonds are reclassified from speculative grade to investment grade."
+        },
+        {
+          "id": "B",
+          "text": "Its sovereign debt transitions into speculative grade, likely increasing its borrowing costs in global markets."
+        },
+        {
+          "id": "C",
+          "text": "It automatically loses its borrowing privileges from international financial institutions."
+        },
+        {
+          "id": "D",
+          "text": "Its short-term sovereign credit rating is mandatorily upgraded to 'A-2' to compensate for the long-term downgrade."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "According to S&P and Fitch, investment grade ratings range from BBB- to AAA. A rating below BBB- falls into the speculative grade. Because favorable ratings (investment grade) reduce borrowing costs and facilitate capital market access, a downgrade to speculative grade would likely increase borrowing costs and restrict access to global capital markets.",
+      "takeaway": "Understanding the boundary between investment grade (BBB- and above for S&P/Fitch) and speculative grade is crucial, as crossing this threshold significantly impacts a nation's borrowing costs.",
+      "evidenceExcerpt": "Investment grade ratings range from BBB- to AAA for S&P and Fitch... Ratings are broadly investment grade... or speculative grade. Favorable ratings facilitate global capital market access and reduce borrowing costs."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Comparative",
+      "prompt": "Consider the following statements regarding the evaluation of Sovereign Credit Ratings (SCR) by major global agencies: 1. While Standard & Poor's (S&P) and Fitch use a scale peaking at 'AAA' for their highest investment grade, Moody's utilizes a scale peaking at 'Aaa'. 2. A rating upgrade by these agencies typically restricts a developing country's access to global capital markets to prevent sovereign debt traps. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct as S&P and Fitch use the BBB- to AAA scale for investment grades, whereas Moody's uses Baa3 to Aaa. Statement 2 is incorrect because favorable SCRs facilitate, rather than restrict, access to global capital markets and foreign investment.",
+      "takeaway": "Different credit rating agencies use slightly different nomenclature for their rating scales, though they serve the same function of evaluating creditworthiness and influencing capital access.",
+      "evidenceExcerpt": "Investment grade ratings range from BBB- to AAA for S&P and Fitch, and Baa3 to Aaa for Moody's. Favorable SCRs reduce borrowing costs and facilitate access to global capital markets and foreign investment."
+    }
+  ]
+}

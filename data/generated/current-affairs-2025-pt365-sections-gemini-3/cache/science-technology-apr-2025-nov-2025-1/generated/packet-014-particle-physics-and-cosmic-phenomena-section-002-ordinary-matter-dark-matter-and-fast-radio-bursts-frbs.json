@@ -1,0 +1,149 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Ordinary Matter and Dark Matter:\n1. While ordinary matter interacts with electromagnetic radiation, dark matter does not.\n2. While ordinary matter exerts gravitational force, dark matter lacks mass and does not exert gravity.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Ordinary matter (baryonic matter) interacts with electromagnetic radiation, whereas dark matter remains invisible as it doesn't interact with light. Statement 2 is incorrect: Both ordinary matter and dark matter exert gravitational force, and dark matter has mass.",
+      "takeaway": "Dark matter makes up about 27% of the cosmos and exerts gravitational force just like ordinary matter, but it is invisible because it does not interact with electromagnetic radiation.",
+      "evidenceExcerpt": "Dark matter makes up about 27% of the cosmos, remains invisible as it doesn't interact with light, but exerts gravitational force like ordinary matter."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Fast Radio Bursts (FRBs):\n1. They are continuous blasts of gamma-ray radiation that last for several years.\n2. They act as cosmic flashlights that help astronomers detect the missing ordinary matter in the universe.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: FRBs are transient blasts of electromagnetic radiation in the form of radio waves, lasting only from milliseconds to seconds. Statement 2 is correct: Researchers use FRBs to detect the universe's missing ordinary matter, as they disperse into different wavelengths to reveal the amount of matter in their path.",
+      "takeaway": "Fast Radio Bursts are millisecond-duration radio wave blasts that help map the distribution of missing ordinary matter in the cosmic web.",
+      "evidenceExcerpt": "Researchers detected the universe's missing ordinary matter using Fast Radio Bursts (FRBs)... FRBs are blasts of electromagnetic radiation (radio waves) lasting milliseconds to seconds. They act as cosmic flashlights..."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Multiple Statement",
+      "prompt": "Consider the following statements regarding the distribution and properties of matter in the universe:\n1. Baryonic matter is composed of particles such as protons and neutrons.\n2. More than seventy percent of ordinary matter is located within galaxies.\n3. Dark matter constitutes about 27% of the cosmos.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Ordinary matter (baryonic matter) is composed of baryons like protons and neutrons. Statement 2 is incorrect: Only 9% of ordinary matter is within galaxies; 76% is distributed in the intergalactic medium (IGM), and 15% in galaxy halos. Statement 3 is correct: Dark matter makes up about 27% of the cosmos.",
+      "takeaway": "The vast majority of ordinary (baryonic) matter in the universe is not found in stars or planets within galaxies, but rather as thin gas in the intergalactic medium.",
+      "evidenceExcerpt": "Ordinary matter (baryonic matter) includes gas, dust, stars, and planets... It is distributed 76% in the intergalactic medium, 15% in galaxy halos, and 9% within galaxies. Dark matter makes up about 27% of the cosmos..."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "Astronomers utilize Fast Radio Bursts (FRBs) to detect 'missing' ordinary matter in the universe. Which of the following best describes the underlying mechanism that makes this possible?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "FRBs emit high-energy gamma rays that ionize dark matter, making it temporarily visible to radio telescopes."
+        },
+        {
+          "id": "B",
+          "text": "As FRBs travel through space, their radio waves disperse into different wavelengths depending on the amount of matter they pass through."
+        },
+        {
+          "id": "C",
+          "text": "FRBs generate strong gravitational waves that perturb the intergalactic medium, revealing hidden gas clouds."
+        },
+        {
+          "id": "D",
+          "text": "The continuous emission of radio waves from FRBs illuminates the galaxy halos where most ordinary matter resides."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Fast Radio Bursts (FRBs) act as 'cosmic flashlights.' As their radio waves travel through space, they disperse into different wavelengths. The extent of this dispersion allows astronomers to measure the amount of matter in their path, helping detect missing ordinary matter.",
+      "takeaway": "FRBs are transient blasts of radio waves that disperse into different wavelengths as they travel, allowing astronomers to map the distribution of matter across the cosmic web.",
+      "evidenceExcerpt": "FRBs act as cosmic flashlights, dispersing into different wavelengths to reveal the amount of matter in their path."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "In the context of astrophysics, which of the following best describes 'baryonic matter'?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It is the invisible matter that constitutes the majority of the universe's mass and interacts only via gravity."
+        },
+        {
+          "id": "B",
+          "text": "It is the ordinary matter composed of particles like protons and neutrons that interacts with electromagnetic radiation."
+        },
+        {
+          "id": "C",
+          "text": "It is the theoretical form of energy responsible for the accelerated expansion of the universe."
+        },
+        {
+          "id": "D",
+          "text": "It is the highly dense matter found exclusively within the event horizon of black holes."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Baryonic matter refers to ordinary matter, which includes gas, dust, stars, and planets. It is composed of baryons such as protons and neutrons and interacts with electromagnetic radiation, unlike dark matter.",
+      "takeaway": "Ordinary matter is also known as baryonic matter. It interacts with electromagnetic radiation and is composed of particles like protons and neutrons.",
+      "evidenceExcerpt": "Ordinary matter (baryonic matter) interacts with electromagnetic radiation and is composed of baryons like protons and neutrons."
+    }
+  ]
+}

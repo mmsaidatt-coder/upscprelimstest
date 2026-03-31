@@ -1,0 +1,62 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-005-banking-regulation-and-risk-management-section-001-asset-reconstruction-companies-arc-and-sarfaesi-act",
+    "claimType": "Institution-Feature",
+    "claimText": "Asset Reconstruction Companies (ARCs) are incorporated under the Companies Act and registered with the RBI under the SARFAESI Act.",
+    "evidenceExcerpt": "ARC is a company incorporated under the Companies Act and registered with RBI under SARFAESI Act.",
+    "pageNumbers": [
+      12
+    ],
+    "examUse": "Statement-based question on the regulatory framework and incorporation of ARCs.",
+    "distractorHooks": [
+      "Registered with SEBI instead of RBI",
+      "Incorporated directly under the SARFAESI Act instead of the Companies Act"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-005-banking-regulation-and-risk-management-section-001-asset-reconstruction-companies-arc-and-sarfaesi-act",
+    "claimType": "Legal Provision",
+    "claimText": "Under the SARFAESI Act, secured creditors can take possession and sell assets without judicial approval, but this provision does not apply to agricultural land.",
+    "evidenceExcerpt": "Secured creditors like banks and financial institutions, can take possession and sell assets except for agricultural land under Section 13 without judicial approval.",
+    "pageNumbers": [
+      12
+    ],
+    "examUse": "Statement-based question testing exceptions to the SARFAESI Act's court-free enforcement powers.",
+    "distractorHooks": [
+      "Requires prior approval from the Debt Recovery Tribunal",
+      "Applies to all types of assets including agricultural land"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-005-banking-regulation-and-risk-management-section-001-asset-reconstruction-companies-arc-and-sarfaesi-act",
+    "claimType": "Institution-Feature",
+    "claimText": "Debt Recovery Tribunals (DRTs), where borrowers can address grievances against creditors, are established under the Recovery of Debts and Bankruptcy Act, 1993.",
+    "evidenceExcerpt": "Borrowers can approach the Debt Recovery Tribunal (DRT) to rectify their grievances against the creditor or authorised officer. DRT are established under the Recovery of Debts and Bankruptcy Act, 1993.",
+    "pageNumbers": [
+      12
+    ],
+    "examUse": "Correct-pair or statement-based question on the statutory origin of DRTs.",
+    "distractorHooks": [
+      "Established under the SARFAESI Act",
+      "Established under the RBI Act"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-005-banking-regulation-and-risk-management-section-001-asset-reconstruction-companies-arc-and-sarfaesi-act",
+    "claimType": "Conceptual",
+    "claimText": "A Central Registry is established under the SARFAESI framework for the registration of transactions involving the securitisation and reconstruction of financial assets.",
+    "evidenceExcerpt": "Central Database: Established Central Registry for registration of transaction of securitisation and reconstruction of financial assets.",
+    "pageNumbers": [
+      12
+    ],
+    "examUse": "Statement-based question on the institutional mechanisms created for asset reconstruction.",
+    "distractorHooks": [
+      "Central Registry is maintained by the Supreme Court",
+      "Registration of securitisation transactions is strictly voluntary and decentralized"
+    ]
+  }
+]

@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-Driven",
+      "prompt": "Consider the following statements regarding Trachoma:\n1. It is an eye disease caused by a viral infection.\n2. It is classified as a Neglected Tropical Disease (NTD) by the World Health Organization.\n3. India is the third Southeast Asian country to eliminate Trachoma as a public health problem.\n4. In India, Trachoma elimination efforts are integrated under the National Vector Borne Disease Control Programme.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Trachoma is an eye disease caused by the bacterium Chlamydia trachomatis, not a virus.\nStatement 2 is correct: It is categorized as a Neglected Tropical Disease (NTD) by the WHO.\nStatement 3 is correct: India was awarded the WHO Certificate of Elimination of Trachoma as a Public Health Problem, becoming the 3rd SE Asian country to do so.\nStatement 4 is incorrect: In India, Trachoma elimination efforts are integrated under the National Programme for Control of Blindness and Visual Impairment (NPCBVI), not the National Vector Borne Disease Control Programme.",
+      "takeaway": "Trachoma is a bacterial Neglected Tropical Disease. India is the 3rd SE Asian country to eliminate it as a public health problem, integrating its elimination efforts under the NPCBVI.",
+      "evidenceExcerpt": "India was awarded the WHO Certificate of Elimination of Trachoma as a Public Health Problem, becoming the 3rd SE Asian country to do so. Trachoma is an eye disease caused by Chlamydia trachomatis, categorized as a Neglected Tropical Disease (NTD), leading to irreversible blindness. Integrated under the NPCBVI."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Statement-Driven",
+      "prompt": "With reference to the elimination of Trachoma in India, consider the following statements:\n1. Trachoma is an infection caused by the bacterium Chlamydia trachomatis that leads to irreversible blindness.\n2. The disease control and elimination efforts for Trachoma are integrated under the National Programme for Control of Blindness and Visual Impairment (NPCBVI).\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Trachoma is an eye disease caused by the bacterium Chlamydia trachomatis, which leads to irreversible blindness.\nStatement 2 is correct: Trachoma elimination efforts in India are integrated under the National Programme for Control of Blindness and Visual Impairment (NPCBVI).",
+      "takeaway": "Trachoma is a bacterial infection causing irreversible blindness, and its elimination in India is managed under the NPCBVI.",
+      "evidenceExcerpt": "Trachoma is an eye disease caused by Chlamydia trachomatis... leading to irreversible blindness. Integrated under the NPCBVI."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-Statement",
+      "prompt": "With reference to India receiving the WHO Certificate for Trachoma, consider the following statements:\n\n1. The certification implies the complete eradication of the Chlamydia trachomatis pathogen from India's geographical boundaries.\n2. The disease is classified as a Neglected Tropical Disease (NTD) by the World Health Organization.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: India was awarded the WHO Certificate of Elimination of Trachoma as a 'Public Health Problem'. This indicates that the disease is no longer a major public health threat, not that the pathogen has been completely eradicated. Statement 2 is correct: Trachoma is categorized as a Neglected Tropical Disease (NTD) by the WHO.",
+      "takeaway": "The WHO certifies the 'elimination as a public health problem' for certain Neglected Tropical Diseases like Trachoma, which is distinct from the complete global or regional eradication of the pathogen.",
+      "evidenceExcerpt": "India was awarded the WHO Certificate of Elimination of Trachoma as a Public Health Problem... categorized as a Neglected Tropical Disease (NTD)"
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Multiple-Choice",
+      "prompt": "Which of the following best describes Trachoma, for which India recently received a WHO elimination certificate?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A viral infection of the respiratory tract that secondarily affects the optic nerve."
+        },
+        {
+          "id": "B",
+          "text": "A bacterial eye infection categorized as a Neglected Tropical Disease that can lead to irreversible blindness."
+        },
+        {
+          "id": "C",
+          "text": "A genetic disorder prevalent in tropical regions causing progressive visual impairment."
+        },
+        {
+          "id": "D",
+          "text": "A fungal infection of the cornea managed under the National Vector Borne Disease Control Programme."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Trachoma is an eye disease caused by the bacterium Chlamydia trachomatis. It is classified by the WHO as a Neglected Tropical Disease (NTD) and can lead to irreversible blindness. It is not a viral, genetic, or fungal disease.",
+      "takeaway": "Trachoma is a bacterial Neglected Tropical Disease (NTD) that targets the eyes and causes irreversible blindness.",
+      "evidenceExcerpt": "Trachoma is an eye disease caused by Chlamydia trachomatis, categorized as a Neglected Tropical Disease (NTD), leading to irreversible blindness."
+    }
+  ]
+}

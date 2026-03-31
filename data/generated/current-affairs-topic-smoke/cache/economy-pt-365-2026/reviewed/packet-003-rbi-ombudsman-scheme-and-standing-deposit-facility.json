@@ -1,0 +1,98 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Application-based",
+      "prompt": "Consider the following statements regarding the Co-Lending Arrangements (CLA) as per the revised directions of the Reserve Bank of India:\n1. Under this arrangement, each of the regulated entities involved in co-lending must retain a minimum of 10% share of the individual loans on their respective books.\n2. A bank participating in a co-lending arrangement can claim Priority Sector Lending (PSL) status for the entire loan amount, provided the loan qualifies under PSL norms.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct. The RBI's revised directions for Co-Lending Arrangements mandate that each Regulated Entity (RE), which includes both banks and NBFCs, must retain a minimum 10% share of the loans on their books. This ensures that both parties have skin in the game. Statement 2 is incorrect. The guidelines specify that each lender can claim Priority Sector Lending (PSL) status only for its respective share of the co-lent loan, not the entire amount. This ensures proportional recognition of PSL contribution.",
+      "takeaway": "The co-lending model is designed to facilitate joint lending with specific prudential norms, including a minimum 10% risk retention for each partner and pro-rata classification of loans under Priority Sector Lending.",
+      "evidenceExcerpt": "Minimum share: Each RE to retain a minimum 10% share of the loans. Priority Sector Lending (PSL) status: Each lender can claim PSL status for its share under co-lending, if the loan qualifies as priority sector.",
+      "qualityScore": 86,
+      "reviewNotes": "This question is a rewrite of a candidate question into a more rigorous multi-statement format. It tests two precise details of the co-lending norms, requiring careful reading. The distractors are based on plausible misinterpretations of the rules, making it a high-quality question."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "With reference to the Standing Deposit Facility (SDF) of the Reserve Bank of India, consider the following statements:\n1. It is a monetary tool for absorbing liquidity from commercial banks that requires them to provide government securities as collateral.\n2. It has replaced the Fixed Rate Reverse Repo as the floor of the Liquidity Adjustment Facility (LAF) corridor.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect. A key feature of the Standing Deposit Facility (SDF) is that it is a collateral-free instrument for absorbing liquidity. Banks can park their excess funds with the RBI without needing to provide government securities as collateral. Statement 2 is correct. The SDF was introduced to replace the Fixed Rate Reverse Repo (FRRR) as the new floor of the LAF corridor, establishing a formalised, collateral-free liquidity absorption mechanism.",
+      "takeaway": "The Standing Deposit Facility (SDF) is a crucial monetary policy tool that allows the RBI to absorb excess liquidity from the banking system without the constraint of providing collateral. It serves as the floor of the LAF corridor.",
+      "evidenceExcerpt": "It is a monetary tool that absorbs liquidity from commercial banks without collateral. ... SDF replaced the Fixed Rate Reverse Repo as the Liquidity Adjustment Facility corridor’s floor.",
+      "qualityScore": 85,
+      "reviewNotes": "This question effectively tests two critical and distinct features of the SDF. The first statement is a classic trap, as most repo/reverse repo operations involve collateral. The second statement tests its role in the monetary policy framework. The question is well-grounded in the source and has a good UPSC feel."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "Consider the following statements regarding the Reserve Bank - Integrated Ombudsman Scheme (RB-IOS):\n1. It integrated the erstwhile separate ombudsman schemes for banks, NBFCs, and digital transactions.\n2. The scheme is based on a 'One Nation One Ombudsman' approach, making the grievance redressal mechanism jurisdiction-neutral.\n3. The Ombudsman's power to award compensation is limited to the amount disputed by the complainant and does not cover aspects like mental harassment.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statements 1 and 2 are correct. The RB-IOS integrated the three separate schemes for Banking, NBFCs, and Digital Transactions into a single framework. It also adopted the 'One Nation One Ombudsman' approach, allowing a customer to file a complaint from anywhere, irrespective of the location of the bank branch. Statement 3 is incorrect. The Ombudsman can award compensation up to ₹20 lakh for the dispute, and additionally, up to ₹1 lakh for the complainant's time, expenses, and mental distress or harassment.",
+      "takeaway": "The RBI's Integrated Ombudsman Scheme centralizes grievance redressal for various regulated entities, making it jurisdiction-neutral and empowering it to award compensation for both the direct financial loss and the associated mental anguish.",
+      "evidenceExcerpt": "It integrated the three Ombudsman schemes of RBI...It adopted the ‘One Nation One Ombudsman’ approach by making the RBI Ombudsman mechanism jurisdiction neutral. Power: The Ombudsman can award up to ₹20 lakh in compensation, plus up to ₹1 lakh for the complainant’s time, expenses, and any mental distress or harassment.",
+      "qualityScore": 85,
+      "reviewNotes": "This question tests multiple key features of the integrated ombudsman scheme. Statement 3 is a well-crafted distractor that tests a specific detail about the compensation powers. The question covers the major reforms mentioned in the source text effectively."
+    }
+  ],
+  "reviewerNotes": "The candidate set provided two questions. The first question on 'Switch Auction' was well-formed and has been accepted with minor edits. The second question on 'Co-lending' was good but was rewritten into a more rigorous multi-statement format to better test the nuances of the regulations. To ensure better coverage of the source text, two new questions were created on the 'Standing Deposit Facility' and the 'Integrated Ombudsman Scheme', both of which are important topics. The final set of four questions covers different concepts, has a good mix of difficulties, and adheres to the UPSC CSE Prelims standard."
+}

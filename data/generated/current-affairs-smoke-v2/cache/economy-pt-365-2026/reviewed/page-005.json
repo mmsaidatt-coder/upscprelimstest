@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Multiple Choice, Statement-based",
+      "prompt": "With reference to the Economic Capital Framework (ECF) of the Reserve Bank of India, consider the following statements:\n1. It provides a methodology for determining the appropriate level of risk provisions and profit distribution.\n2. It was adopted based on the recommendations of the Bimal Jalan Committee.\n3. It is an integral part of the RBI's broader Enterprise-wide Risk Management (ERM) framework.\nWhich of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "All three statements are correct and directly supported by the source text. Statement 1 accurately describes the core concept of the ECF. Statement 2 correctly identifies its genesis, linking it to the Bimal Jalan Committee recommendations. Statement 3 correctly places the ECF within the larger institutional framework of the RBI, noting it is part of the ERM framework established in 2012.",
+      "takeaway": "Understand the key features of the RBI's Economic Capital Framework, including its purpose, the committee behind its recommendation, and its relationship with the broader Enterprise-wide Risk Management (ERM) framework.",
+      "evidenceExcerpt": "Concept: ECF provides a methodology for determining the appropriate level of risk provisions and profit distribution... Genesis: ECF was adopted by RBI in 2019, based on the recommendations of the Bimal Jalan Committee... The ECF is an integral part of the Enterprise-wide Risk Management (ERM) framework (2012).",
+      "qualityScore": 88,
+      "reviewNotes": "This question was created by combining two weaker candidate questions. It synthesizes multiple key facts about the ECF into a single, comprehensive question that effectively tests the candidate's detailed knowledge of the topic."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Multiple Choice, Statement-based",
+      "prompt": "Consider the following statements regarding the operational impact of the Reserve Bank of India's monetary policy tools:\n1. An increase in the Repo Rate typically leads to a contraction of the money supply in the economy.\n2. A rise in the Cash Reserve Ratio (CRR) results in an expansion of the lendable resources of commercial banks.\n3. The imposition of higher margin requirements is a qualitative tool used to stimulate credit flow towards specific sectors.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "3 only"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct. An increase in the Repo Rate makes borrowing from the RBI more expensive for commercial banks, which in turn reduces their lending capacity and leads to a decrease in the overall money supply. Statement 2 is incorrect. An increase in the CRR requires banks to hold more cash with the RBI, which reduces, not expands, their lendable funds. Statement 3 is incorrect. Higher margin requirements mean a smaller loan amount is given for a certain value of collateral. This is used to curb or restrict credit flow, particularly for speculative purposes, not to stimulate it.",
+      "takeaway": "A clear understanding of the mechanism and directional impact of each monetary policy tool is essential. Quantitative tools affect the overall volume of money, while qualitative tools affect its direction, and it's important to know whether a specific action is contractionary or expansionary.",
+      "evidenceExcerpt": "REPO RATE (Lending Rate)... ↑ Rate = ↓ Money Supply. CRR (Cash Reserve Ratio)... ↑ CRR = ↓ Lendable Funds. MARGIN REQUIREMENTS... Higher margin = less loan amount for collateral. Used to curb speculation.",
+      "qualityScore": 85,
+      "reviewNotes": "This is a strong, application-oriented question that tests the candidate's understanding of the consequences of monetary policy actions, rather than just their definitions. The statements are well-formed with clear, logical errors in the incorrect options."
+    }
+  ],
+  "reviewerNotes": "I have selected and rewritten four questions from the candidate pool. The rejected questions were either too simplistic, repetitive, or based on information not present in the provided source text. The selected questions have been refined for clarity, accuracy, and adherence to the UPSC CSE Prelims style. They cover a range of concepts from the source text, including reserve ratios (CRR/SLR), the Economic Capital Framework (ECF), the operational impact of policy tools, and the classification of these tools. The difficulty ranges from Moderate to Hard, providing a balanced set."
+}

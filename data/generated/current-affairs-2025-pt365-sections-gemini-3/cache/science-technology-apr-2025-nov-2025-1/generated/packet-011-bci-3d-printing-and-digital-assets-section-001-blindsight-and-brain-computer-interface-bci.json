@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the 'Blindsight' technology, recently mentioned in the context of Brain-Computer Interfaces (BCI): 1. It aims to restore vision by repairing the damaged cellular structure of the retina. 2. It utilizes a microelectrode array to directly stimulate neurons. 3. It targets the visual cortex, which is the outermost layer of nerve cell tissues responsible for processing visual data. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Blindsight is a BCI implant that aims to restore vision by bypassing the retina entirely, not by repairing it. Statement 2 is correct: It consists of a microelectrode array capable of stimulating neurons. Statement 3 is correct: The implant directly stimulates the visual cortex, which is the outermost layer of nerve cell tissues responsible for processing visual data.",
+      "takeaway": "Blindsight bypasses the retina to directly stimulate the visual cortex using microelectrode arrays, offering a potential pathway to restore vision.",
+      "evidenceExcerpt": "Blindsight is a BCI implant aiming to restore vision by bypassing the retina. It directly stimulates the visual cortex, the outermost layer of nerve cell tissues responsible for processing visual data. It consists of a microelectrode array embedded in the visual cortex capable of stimulating neurons."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Multiple Choice",
+      "prompt": "Which one of the following statements best describes the mechanism of the 'Blindsight' technology, recently seen in the news?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It is a gene-editing therapy designed to regenerate the damaged photoreceptor cells of the retina."
+        },
+        {
+          "id": "B",
+          "text": "It is a Brain-Computer Interface that restores vision by directly stimulating the visual cortex via a microelectrode array."
+        },
+        {
+          "id": "C",
+          "text": "It is an artificial intelligence tool that translates visual data into auditory signals for the visually impaired."
+        },
+        {
+          "id": "D",
+          "text": "It is a non-invasive wearable device that enhances the light-gathering capacity of the optic nerve."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Blindsight is a Brain-Computer Interface (BCI) implant that aims to restore vision. It bypasses the retina and directly stimulates the visual cortex (the outermost layer of nerve cell tissues responsible for processing visual data) using a microelectrode array embedded in it.",
+      "takeaway": "Neuralink's Blindsight is a BCI implant that uses microelectrode arrays to stimulate the visual cortex directly, bypassing the retina to restore vision.",
+      "evidenceExcerpt": "Blindsight is a BCI implant aiming to restore vision by bypassing the retina. It directly stimulates the visual cortex... It consists of a microelectrode array embedded in the visual cortex capable of stimulating neurons."
+    }
+  ]
+}

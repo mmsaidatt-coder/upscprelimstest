@@ -1,0 +1,178 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the key instruments of the International Union for Conservation of Nature (IUCN):\n1. The IUCN Red List of Threatened Species classifies species into nine distinct categories ranging from 'Not Evaluated' to 'Extinct'.\n2. The IUCN Green Status of Species was introduced in 2021 as a complementary framework to measure species recovery and conservation success.\n3. The IUCN Green Status utilizes the exact same nine categories as the Red List to assign a Green Score.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The IUCN Red List divides species into 9 categories (from Not Evaluated to Extinct). Statement 2 is correct: The IUCN Green Status of Species was launched in 2021 to complement the Red List by measuring conservation success and recovery. Statement 3 is incorrect: The Green Status includes 8 categories (not 9) and uses a Green Score from 0 to 100% to indicate proximity to full recovery.",
+      "takeaway": "While the IUCN Red List (9 categories) measures extinction risk, the newer IUCN Green Status (8 categories) measures conservation success and species recovery using a 0-100% Green Score.",
+      "evidenceExcerpt": "The IUCN Red List of Threatened Species, established in 1964, divides species into 9 categories from Not Evaluated to Extinct... The IUCN Green Status of Species, launched in 2021, complements the Red List by measuring conservation success and recovery across 8 categories, using a Green Score from 0 to 100%."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of species and their recently updated status on the IUCN Red List:\n1. Indian Roller : Near Threatened\n2. Long-billed Grasshopper-warbler : Endangered\n3. Green Sea Turtle : Critically Endangered\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: The Indian Roller was recently uplisted to Near Threatened. Pair 2 is correctly matched: The Long-billed Grasshopper-warbler was uplisted to Endangered. Pair 3 is incorrectly matched: The Green Sea Turtle's status improved from Endangered to Least Concern, not Critically Endangered.",
+      "takeaway": "Recent IUCN updates have seen Indian birds like the Indian Courser and Indian Roller uplisted to Near Threatened, while the Green Sea Turtle represents a conservation success, improving to Least Concern.",
+      "evidenceExcerpt": "Recent updates uplisted Indian birds like the Indian Courser and Indian Roller to Near Threatened, and the Long-billed Grasshopper-warbler to Endangered... Green Sea Turtle improved from Endangered to Least Concern."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Assertion-Reason",
+      "prompt": "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R):\n\nAssertion (A): The IUCN Green Status of Species was launched to complement the Red List by evaluating the effectiveness of past conservation actions.\nReason (R): The Green Status assigns a Green Score ranging from 0 to 100%, which indicates a species' proximity to full recovery.\n\nIn the context of the above two statements, which one of the following is correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A)."
+        },
+        {
+          "id": "B",
+          "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A)."
+        },
+        {
+          "id": "C",
+          "text": "Assertion (A) is true but Reason (R) is false."
+        },
+        {
+          "id": "D",
+          "text": "Assertion (A) is false but Reason (R) is true."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "The IUCN Green Status of Species (launched in 2021) complements the Red List by measuring conservation success. It achieves this by utilizing a Green Score (0-100%) that indicates how close a species is to full recovery, thereby serving as a metric to evaluate the effectiveness of conservation actions.",
+      "takeaway": "The IUCN Green Status measures conservation success and proximity to full recovery using an 8-category system and a Green Score (0-100%).",
+      "evidenceExcerpt": "The IUCN Green Status of Species, launched in 2021, complements the Red List by measuring conservation success and recovery across 8 categories, using a Green Score from 0 to 100%."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding recent species status updates on the IUCN Red List:\n\n1. The Long-billed Grasshopper-warbler has been uplisted to the 'Endangered' category.\n2. The Green Sea Turtle has been assessed as 'Least Concern' following an improvement in its conservation status.\n3. The Indian Courser and Indian Roller have been categorized as 'Critically Endangered'.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statements 1 and 2 are correct: The Long-billed Grasshopper-warbler was uplisted to Endangered, and the Green Sea Turtle improved from Endangered to Least Concern. Statement 3 is incorrect: The Indian Courser and Indian Roller were uplisted to 'Near Threatened', not 'Critically Endangered'.",
+      "takeaway": "Recent IUCN updates include the uplisting of the Indian Courser, Indian Roller, and Rufous-tailed Lark to Near Threatened, the Long-billed Grasshopper-warbler to Endangered, and the improvement of the Green Sea Turtle to Least Concern.",
+      "evidenceExcerpt": "Recent updates uplisted Indian birds like the Indian Courser and Indian Roller to Near Threatened, and the Long-billed Grasshopper-warbler to Endangered. ... Green Sea Turtle improved from Endangered to Least Concern."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Comparison",
+      "prompt": "Consider the following statements comparing the IUCN Red List and the IUCN Green Status of Species:\n\n1. While the Red List categorizes species into nine distinct categories, the Green Status evaluates them across eight categories.\n2. While the Red List primarily assesses the risk of a species going extinct, the Green Status measures its proximity to full recovery.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Both statements are correct. The IUCN Red List divides species into 9 categories (ranging from Not Evaluated to Extinct) to assess extinction risk. In contrast, the Green Status, launched in 2021, uses 8 categories and a Green Score to measure conservation success and a species' proximity to full recovery.",
+      "takeaway": "The Red List (9 categories) focuses on extinction risk, whereas the complementary Green Status (8 categories) focuses on recovery and conservation success.",
+      "evidenceExcerpt": "The IUCN Red List of Threatened Species, established in 1964, divides species into 9 categories from Not Evaluated to Extinct. ... The IUCN Green Status of Species, launched in 2021, complements the Red List by measuring conservation success and recovery across 8 categories..."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Conceptual",
+      "prompt": "In the context of the IUCN Red List of Threatened Species, which of the following best describes the implication of a species being 'uplisted' (e.g., from Least Concern to Near Threatened)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The species has experienced a successful population recovery due to targeted conservation efforts."
+        },
+        {
+          "id": "B",
+          "text": "The species has been moved to an appendix with stricter international trade regulations under CITES."
+        },
+        {
+          "id": "C",
+          "text": "The species has been reassessed and is now recognized as facing a higher risk of extinction."
+        },
+        {
+          "id": "D",
+          "text": "The species has been transferred from the Red List to the Green Status framework for recovery monitoring."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "In IUCN terminology, 'uplisting' refers to moving a species to a higher threat category (e.g., to Near Threatened or Endangered), which indicates an increased risk of extinction. Conversely, when a species' status 'improves' (downlisting), its threat level is reduced, as seen with the Green Sea Turtle moving to Least Concern.",
+      "takeaway": "Uplisting on the IUCN Red List denotes a deterioration in a species' conservation status (higher extinction risk), while downlisting or improving denotes recovery.",
+      "evidenceExcerpt": "Recent updates uplisted Indian birds like the Indian Courser and Indian Roller to Near Threatened, and the Long-billed Grasshopper-warbler to Endangered. ... Green Sea Turtle improved from Endangered to Least Concern."
+    }
+  ]
+}

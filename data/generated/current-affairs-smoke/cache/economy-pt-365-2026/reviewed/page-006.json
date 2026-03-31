@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the rationale for the Reserve Bank of India (RBI) augmenting its gold reserves:\n\n1. It is a measure to diversify the foreign currency asset base and reduce dependency on a single currency.\n2. It serves as a hedge against inflation, thereby protecting the purchasing power of the reserves.\n3. It enhances the overall liquidity and flexibility of the foreign exchange stockpile.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statements 1 and 2 are correct. The RBI increases gold reserves to diversify its foreign currency assets and reduce dependency on the US dollar. Gold is also considered a hedge against inflation, protecting the value of the reserves. Statement 3 is incorrect. Storing gold is associated with reduced liquidity and flexibility, as converting large gold holdings into cash is typically slower and more costly compared to liquidating foreign currency assets like government bonds.",
+      "takeaway": "While holding gold offers benefits like diversification and inflation hedging for a central bank, it also comes with trade-offs, most notably lower liquidity and zero yield compared to other reserve assets.",
+      "evidenceExcerpt": "Why is RBI increasing gold reserves? • Diversification: Diversify the foreign currency assets base and reduce dependency on the US dollar (de-dollarization). • Hedge against Inflation: Gold is accumulated as a hedge against inflation, helping protect the purchasing power of India’s foreign reserves. Risk Associated with Storing Gold • Reduced Liquidity and Flexibility: Converting large gold holdings to cash during is slower and costlier than liquidating foreign currency assets.",
+      "qualityScore": 85,
+      "reviewNotes": "This question effectively tests the conceptual understanding of forex reserve management. It correctly frames a key disadvantage (reduced liquidity) as a plausible but incorrect reason, making it a strong question."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the components of India's Foreign Exchange Reserves, consider the following statements:\n\n1. Special Drawing Rights (SDRs) are an interest-bearing international reserve asset created by the International Monetary Fund (IMF).\n2. The Reserve Tranche Position (RTP) represents a claim on the IMF that can be drawn upon by a member country without facing strict conditions.\n3. Foreign Currency Assets (FCA) are primarily composed of gold reserves and holdings of SDRs.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statements 1 and 2 are correct. The source defines Special Drawing Rights (SDRs) as an interest-bearing reserve asset created by the IMF. It also defines the Reserve Tranche Position (RTP) as the difference between a member's quota and the IMF's holdings of its currency, which is readily available for withdrawal without strict conditions. Statement 3 is incorrect. Foreign Currency Assets (FCA), Gold Reserves, and SDRs are distinct and separate components of the foreign exchange reserves. FCA consists of assets held in foreign currencies like the US dollar, euro, etc., not gold or SDRs.",
+      "takeaway": "India's Foreign Exchange Reserves are composed of four main components: Foreign Currency Assets (FCA), Gold Reserves, Special Drawing Rights (SDRs), and the Reserve Tranche Position (RTP) with the IMF. It is important not to confuse their definitions and compositions.",
+      "evidenceExcerpt": "Components of Foreign Exchange Reserves • Foreign Currency Assets (FCA): These are maintained in currencies like the US dollar, euro, pound sterling, Australian dollar, and Japanese yen. • Gold Reserves held with RBI. • Holdings with IMF o Special Drawing Rights: An interest-bearing reserve asset created by the IMF to supplement members’ reserve assets. o Reserve Tranche Position (RTP): It is the difference between the member’s quota and the IMF’s holdings of the member’s currency that is readily available for withdrawal without strict conditions.",
+      "qualityScore": 88,
+      "reviewNotes": "Excellent question testing detailed knowledge of the components of forex reserves. The third statement is a well-crafted distractor that combines different components, requiring precise understanding from the candidate."
+    }
+  ],
+  "reviewerNotes": "I have selected and refined four high-quality questions from the candidate set. I rejected one question for being too trivial, one for being repetitive with another selected question, and one for relying on information not present in the provided source text. The selected questions cover different aspects of the source material, are well-worded, have plausible distractors, and align with the standards of the UPSC CSE Prelims examination."
+}

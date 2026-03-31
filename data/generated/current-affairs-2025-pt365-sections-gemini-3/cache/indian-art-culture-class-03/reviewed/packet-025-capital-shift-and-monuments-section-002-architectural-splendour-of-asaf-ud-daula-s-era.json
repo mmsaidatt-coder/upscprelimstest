@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "History",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the architectural heritage of Lucknow during the era of Asaf-ud-Daula, consider the following statements: 1. The Bara Imambara is notable for its central hall, which is one of the largest arched structures built without internal support beams. 2. The Rumi Darwaza was designed as an imposing gateway inspired by the architecture of Istanbul. Which of the statements given above is/are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: The Bara Imambara's central hall is a significant engineering achievement, being one of the largest arched halls in the world built without any external support from beams or pillars. Statement 2 is correct: The Rumi Darwaza, also known as the Turkish Gate, was modeled after the architecture of Istanbul (the capital of the Ottoman Empire).",
+      "takeaway": "The architectural style of Lucknow under Asaf-ud-Daula is defined by its unique engineering (pillar-less halls) and international stylistic influences (Istanbul).",
+      "evidenceExcerpt": "The Bara Imambara features one of the largest arched halls built without support beams. The Rumi Darwaza is an imposing gateway inspired by Istanbul's architecture.",
+      "qualityScore": 88,
+      "reviewNotes": "This question effectively combines two distinct architectural facts about the Lucknow monuments into a standard UPSC statement-based format. It is grounded in the provided text.",
+      "contextLines": []
+    },
+    {
+      "subject": "History",
+      "difficulty": "Hard",
+      "questionType": "Feature-based",
+      "prompt": "In the context of Indian architectural history, the 'Bara Imambara' of Lucknow is distinguished from many other contemporary structures primarily by which of the following engineering characteristics?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The use of iron girders to reinforce the vaulted ceilings of the main hall."
+        },
+        {
+          "id": "B",
+          "text": "The construction of a massive arched hall that maintains its span without any internal pillars or support beams."
+        },
+        {
+          "id": "C",
+          "text": "The implementation of the 'Double Dome' technique borrowed from the Safavid dynasty."
+        },
+        {
+          "id": "D",
+          "text": "The exclusive use of red sandstone and marble as the primary load-bearing materials."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Bara Imambara is celebrated for its central arched hall, which is unique because it spans a massive area without the use of internal pillars or support beams. While Mughal architecture often used red sandstone and marble, the monuments of Lucknow (Awadh style) typically used brick and lime-plaster (stucco), a distinction tested in the UPSC 2018 Prelims. Distractor D is specifically designed to reflect the material-based inquiry mentioned in the source text.",
+      "takeaway": "The structural hallmark of the Bara Imambara is its massive, pillar-less arched hall construction.",
+      "evidenceExcerpt": "Bara Imambara features one of the largest arched halls built without support beams. UPSC 2018 PYQ specifically tested the building materials (red sandstone and marble) used in Bara Imambara and Rumi Darwaza.",
+      "qualityScore": 86,
+      "reviewNotes": "This question targets the specific engineering uniqueness of the Bara Imambara, using building materials as a distractor to reflect the 2018 PYQ context mentioned in the source. Distractors are parallel and plausible.",
+      "contextLines": []
+    }
+  ],
+  "reviewerNotes": "The selected questions focus on the architectural innovations of the Asaf-ud-Daula era in Lucknow, specifically the engineering of the Bara Imambara and the stylistic inspiration of the Rumi Darwaza. Distractors are designed to be plausible by referencing other common architectural styles or the specific materials tested in previous UPSC exams. All control tokens have been removed as requested."
+}

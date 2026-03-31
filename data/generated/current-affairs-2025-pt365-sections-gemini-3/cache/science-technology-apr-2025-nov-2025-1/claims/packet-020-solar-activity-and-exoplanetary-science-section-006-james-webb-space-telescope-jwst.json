@@ -1,0 +1,66 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-020-solar-activity-and-exoplanetary-science-section-006-james-webb-space-telescope-jwst",
+    "claimType": "Factual",
+    "claimText": "The James Webb Space Telescope (JWST) was launched jointly by NASA, the European Space Agency (ESA), and the Canadian Space Agency.",
+    "evidenceExcerpt": "Launched jointly by NASA, ESA and Canadian Space Agency.",
+    "pageNumbers": [
+      42
+    ],
+    "examUse": "Statement-based question identifying the collaborating space agencies.",
+    "distractorHooks": [
+      "ISRO",
+      "JAXA",
+      "Roscosmos"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-020-solar-activity-and-exoplanetary-science-section-006-james-webb-space-telescope-jwst",
+    "claimType": "Factual",
+    "claimText": "The James Webb Space Telescope (JWST) functions as an orbiting infrared observatory.",
+    "evidenceExcerpt": "Type: Orbiting infrared observatory.",
+    "pageNumbers": [
+      42
+    ],
+    "examUse": "Statement-based question on the primary electromagnetic spectrum observed by JWST.",
+    "distractorHooks": [
+      "Ultraviolet observatory",
+      "X-ray observatory",
+      "Radio telescope"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-020-solar-activity-and-exoplanetary-science-section-006-james-webb-space-telescope-jwst",
+    "claimType": "Factual",
+    "claimText": "JWST orbits the Sun at the second Lagrange point (L2), approximately 1.5 million kilometers away from Earth.",
+    "evidenceExcerpt": "Orbits the Sun 1.5 million kilometers away from the Earth at second Lagrange point or L2.",
+    "pageNumbers": [
+      42
+    ],
+    "examUse": "Statement-based question on the specific orbit and Lagrange point of JWST.",
+    "distractorHooks": [
+      "Low Earth Orbit (LEO)",
+      "First Lagrange point (L1)",
+      "Orbits the Earth instead of the Sun"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-020-solar-activity-and-exoplanetary-science-section-006-james-webb-space-telescope-jwst",
+    "claimType": "Factual",
+    "claimText": "The James Webb Space Telescope (JWST) discovered biosignatures on the exoplanet K2-18 b.",
+    "evidenceExcerpt": "Cambridge Scientists discovered Biosignatures on Exoplanet K2-18 b, using James Webb Space Telescope (JWST)",
+    "pageNumbers": [
+      42
+    ],
+    "examUse": "Match-the-following or statement-based question on recent space discoveries.",
+    "distractorHooks": [
+      "Hubble Space Telescope",
+      "Kepler Space Telescope",
+      "Mars"
+    ]
+  }
+]

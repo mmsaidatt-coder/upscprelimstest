@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Directed Energy Weapons (DEWs):\n1. They neutralize targets by transferring concentrated electromagnetic or particle energy rather than relying on kinetic impact.\n2. Their operational effectiveness is largely independent of atmospheric conditions such as fog and storms.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Directed Energy Weapons (DEWs) use concentrated electromagnetic or particle energy rather than kinetic energy to destroy or disrupt targets. Statement 2 is incorrect: The operational effectiveness of DEWs is limited by adverse weather conditions like fog and storms, as atmospheric moisture and particulates can scatter or absorb the energy beam.",
+      "takeaway": "While DEWs offer advantages over conventional kinetic weapons by using electromagnetic or particle energy, they are highly susceptible to environmental factors like fog and storms.",
+      "evidenceExcerpt": "DEWs use concentrated electromagnetic or particle energy rather than kinetic energy, but are less effective in weather conditions like fog and storms.",
+      "qualityScore": 85,
+      "reviewNotes": "Strong conceptual question testing the fundamental working principle and limitations of DEWs. Wording refined to match UPSC standards."
+    }
+  ],
+  "reviewerNotes": "Selected all three candidates. They cover the conceptual basis of DEWs, global examples, and India's specific indigenous system. Wording was refined to align with UPSC Prelims phrasing."
+}

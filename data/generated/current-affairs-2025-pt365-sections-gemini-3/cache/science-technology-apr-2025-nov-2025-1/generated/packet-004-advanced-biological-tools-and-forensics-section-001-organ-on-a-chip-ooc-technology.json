@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Organ-on-a-Chip (OoC)' technology: 1. It involves growing cells into three-dimensional structures on a polymer substrate that resembles real tissue. 2. It is classified as a 'New Approach Method' (NAM) aimed at providing an ethical platform for drug testing. 3. It requires the extraction and embedding of intact miniature organs from human donors onto microchips. Which of the statements given above is/are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: OoC uses a polymer resembling real tissue to grow cells into 3D structures. Statement 2 is correct: It is known as a New Approach Method (NAM) and provides an ethical, cost-effective platform for accurate drug testing. Statement 3 is incorrect: It does not use intact organs extracted from donors; rather, it is a micro-scale system where cells are cultured to grow into 3D structures that mimic the human body environment.",
+      "takeaway": "Organ-on-a-chip (OoC) is a micro-scale 3D culture system (NAM) that uses polymers to mimic human organs, offering an ethical alternative for drug testing and personalized medicine.",
+      "evidenceExcerpt": "Organ-on-a-chip (OoC) refers to a micro-scale system used for mimicking the human body environment. It is a human-relevant 3D culture model (New Approach Methods). Cells grow into 3D structures on a chip using a polymer resembling real tissue.",
+      "contextLines": []
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to 'New Approach Methods' (NAMs) in biotechnology, consider the following statements: 1. They include micro-scale systems that mimic the human body environment for personalized medicine. 2. They primarily rely on traditional two-dimensional (2D) cell culture models to evaluate drug toxicity. Which of the statements given above is/are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: NAMs include Organ-on-a-Chip (OoC) technology, which mimics the human body environment and provides a platform for personalized medicine. Statement 2 is incorrect: NAMs like OoC utilize human-relevant 3D culture models, not traditional 2D models, to better replicate real tissue structures and functions.",
+      "takeaway": "NAMs leverage advanced 3D culture models to provide an accurate, ethical, and cost-effective alternative to traditional drug testing methods.",
+      "evidenceExcerpt": "It is also known as 'New Approach Methods' (NAMs) and uses 3D culture models. Provides an ethical, cost-effective platform for accurate drug testing and personalized medicine.",
+      "contextLines": []
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "Which one of the following best describes the underlying mechanism by which 'Organ-on-a-Chip' (OoC) systems replicate human organ functions for personalized medicine?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "By cultivating cells into three-dimensional structures on a polymer substrate that mimics real tissue."
+        },
+        {
+          "id": "B",
+          "text": "By integrating miniaturized mechanical pumps that replace the need for biological cellular growth."
+        },
+        {
+          "id": "C",
+          "text": "By utilizing two-dimensional cell cultures on silicon wafers to simulate rapid drug absorption."
+        },
+        {
+          "id": "D",
+          "text": "By extracting microscopic tissue fragments from human organs and sustaining them in a cryogenic state."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Organ-on-a-Chip (OoC) technology works by growing cells into 3D structures on a microchip using a polymer that resembles real tissue. This creates a micro-scale system that mimics the human body environment. It does not rely on 2D cultures, cryogenic preservation of extracted fragments, or purely mechanical pumps devoid of biological cells.",
+      "takeaway": "The core design of an Organ-on-a-Chip involves the 3D cultivation of cells on specialized polymers to simulate the physiological and mechanical environment of human organs.",
+      "evidenceExcerpt": "Organ-on-a-chip (OoC) refers to a micro-scale system used for mimicking the human body environment... Cells grow into 3D structures on a chip using a polymer resembling real tissue."
+    }
+  ]
+}

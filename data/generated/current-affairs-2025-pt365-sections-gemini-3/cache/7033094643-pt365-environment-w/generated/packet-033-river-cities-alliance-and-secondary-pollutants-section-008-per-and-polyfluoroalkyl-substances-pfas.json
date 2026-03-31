@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Per- and Polyfluoroalkyl Substances (PFAS):\n1. They are characterized by strong carbon-fluorine bonds that make them highly resistant to environmental degradation.\n2. They are widely used in the manufacturing of non-stick cookware and water-resistant fabrics.\n3. Currently, no biological organisms are known to be capable of breaking down these chemicals.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: PFAS contain very strong carbon-fluorine bonds that do not degrade easily.\nStatement 2 is correct: Because they resist grease, oil, water, and heat, they are commonly used in cookware, food packaging, fabrics, and foams.\nStatement 3 is incorrect: Researchers have recently discovered nearly 20 species of bacteria capable of breaking them down.",
+      "takeaway": "PFAS are highly persistent chemicals used in various consumer goods, but recent discoveries show certain bacteria can degrade them.",
+      "evidenceExcerpt": "Chemicals having carbon-fluorine bonds, which are very strong and do not degrade easily. They resist grease, oil, water, and heat. Commonly used in cookware, food packaging, fabrics, and foams. Researchers recently discovered nearly 20 species of bacteria capable of breaking them down."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "The term 'Forever Chemicals', frequently seen in the news, refers to which of the following?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Radioactive isotopes with extremely long half-lives that contaminate groundwater."
+        },
+        {
+          "id": "B",
+          "text": "Synthetic compounds containing carbon-fluorine bonds that persist indefinitely in the environment."
+        },
+        {
+          "id": "C",
+          "text": "Heavy metals that bioaccumulate in the marine food web and cannot be metabolized."
+        },
+        {
+          "id": "D",
+          "text": "Long-lived greenhouse gases that remain in the upper atmosphere for centuries."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Per- and Polyfluoroalkyl Substances (PFAS) are known as 'Forever Chemicals' due to their extreme persistence in the environment. They contain strong carbon-fluorine bonds that do not degrade easily.",
+      "takeaway": "The nickname 'Forever Chemicals' specifically denotes PFAS due to their environmental persistence driven by strong carbon-fluorine bonds.",
+      "evidenceExcerpt": "Chemicals having carbon-fluorine bonds, which are very strong and do not degrade easily... Impact: Persists in environment (known as ‘Forever Chemicals’)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Application",
+      "prompt": "Due to their unique chemical properties, Per- and Polyfluoroalkyl Substances (PFAS) are utilized in various commercial applications. Which of the following products commonly use PFAS?\n1. Non-stick cookware\n2. Grease-resistant food packaging\n3. Water-resistant fabrics\n\nSelect the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "PFAS resist grease, oil, water, and heat. Because of these properties, they are commonly used in a wide variety of everyday products, including non-stick cookware, food packaging, fabrics, and foams.",
+      "takeaway": "PFAS are ubiquitous in modern consumer goods that require resistance to heat, water, and grease.",
+      "evidenceExcerpt": "They can resist grease, oil, water, and heat. Commonly used in cookware, food packaging, fabrics, and foams."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "Per- and Polyfluoroalkyl Substances (PFAS) are extensively utilized in the manufacturing of specialized firefighting foams as well as grease-resistant food packaging. Which of the following fundamental chemical properties best explains their suitability for such diverse industrial applications?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The presence of weak intermolecular forces that allow them to easily transition between solid and gaseous states under stress."
+        },
+        {
+          "id": "B",
+          "text": "The presence of highly stable carbon-fluorine bonds that provide exceptional simultaneous resistance to heat, water, and lipids."
+        },
+        {
+          "id": "C",
+          "text": "Their high solubility in both aqueous and organic solvents, enabling rapid dispersion in emergency and commercial settings."
+        },
+        {
+          "id": "D",
+          "text": "Their ability to rapidly biodegrade into harmless organic compounds when exposed to high temperatures or biological matter."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The diverse applications of PFAS stem directly from their chemical structure. They contain very strong carbon-fluorine bonds that do not degrade easily. This unique stability allows them to resist grease and oil (useful for food packaging) as well as water and heat (useful for firefighting foams).",
+      "takeaway": "The utility of PFAS in consumer and industrial products is a direct consequence of the carbon-fluorine bond, which is one of the strongest in organic chemistry, conferring multi-stressor resistance.",
+      "evidenceExcerpt": "Chemicals having carbon-fluorine bonds, which are very strong and do not degrade easily. They can resist grease, oil, water, and heat... Commonly used in cookware, food packaging, fabrics, and foams."
+    }
+  ]
+}

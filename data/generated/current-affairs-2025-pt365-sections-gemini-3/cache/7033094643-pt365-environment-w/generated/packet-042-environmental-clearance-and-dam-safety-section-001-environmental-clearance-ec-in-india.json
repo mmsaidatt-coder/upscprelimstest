@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Assertion-Reason",
+      "prompt": "Given below are two statements, one labelled as Assertion (A) and the other as Reason (R):\n\nAssertion (A): Under the environmental governance framework in India, environmental clearance for listed projects must be obtained prior to commencement, and retrospective clearance is invalid.\nReason (R): The Supreme Court of India has ruled that ex post facto environmental clearance is alien to environmental jurisprudence.\n\nIn the context of the above two statements, which one of the following is correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A)."
+        },
+        {
+          "id": "B",
+          "text": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A)."
+        },
+        {
+          "id": "C",
+          "text": "Assertion (A) is true, but Reason (R) is false."
+        },
+        {
+          "id": "D",
+          "text": "Assertion (A) is false, but Reason (R) is true."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Both statements are true. The EIA Notification, 2006 mandates prior environmental clearance for listed activities. The Supreme Court in Common Cause v. UoI (2017) reinforced this by ruling that ex post facto clearance is alien to environmental jurisprudence. However, Reason (R) is not the correct explanation for Assertion (A), as the mandate for prior clearance originates from the statutory EIA Notification of 2006, not the 2017 judicial ruling, which merely upheld and interpreted the existing law.",
+      "takeaway": "Prior environmental clearance is a statutory mandate under the EIA Notification, 2006, and the Supreme Court has strictly invalidated the practice of granting ex post facto clearances.",
+      "evidenceExcerpt": "Prior clearance is mandatory, and the Supreme Court (Common Cause v. UoI, 2017) ruled that ex post facto or retrospective clearance is alien to environmental jurisprudence."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the categorization of projects under the Environmental Impact Assessment (EIA) Notification, 2006:\n1. The notification centralizes the environmental clearance process by mandating that all listed projects be appraised exclusively by the Ministry of Environment, Forest and Climate Change (MoEF&CC).\n2. Category B projects are handled at the State level by the State Environment Impact Assessment Authority (SEIAA).\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The EIA Notification, 2006 does not centralize the process for all projects. It divides jurisdiction, assigning Category A projects to the Central level (MoEF&CC) and Category B projects to the State level.\nStatement 2 is correct: Category B projects are appraised and handled by the State Environment Impact Assessment Authority (SEIAA).",
+      "takeaway": "The EIA Notification, 2006 decentralizes environmental clearance by dividing projects into Category A (Central level) and Category B (State level).",
+      "evidenceExcerpt": "Projects are categorized into Category A (Central level, MoEF&CC) and Category B (State level, SEIAA)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "In the context of environmental governance in India, which of the following best describes the legal standing of 'ex post facto' environmental clearance?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It is a legally valid mechanism for projects of national importance, provided a compensatory penalty is paid."
+        },
+        {
+          "id": "B",
+          "text": "It is permitted only for Category B projects that are appraised by the State Environment Impact Assessment Authority (SEIAA)."
+        },
+        {
+          "id": "C",
+          "text": "It is considered alien to environmental jurisprudence and is legally invalid, as prior clearance is mandatory."
+        },
+        {
+          "id": "D",
+          "text": "It is allowed for all projects under the EIA Notification, 2006, provided the project proponent restores the environmental damage."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The Supreme Court of India, in the case of Common Cause v. UoI (2017), explicitly ruled that ex post facto or retrospective environmental clearance is alien to environmental jurisprudence. Prior clearance is a mandatory requirement under the EIA Notification, 2006.",
+      "takeaway": "Retrospective or 'ex post facto' environmental clearance has no legal standing in India, ensuring that environmental impact is assessed before a project commences.",
+      "evidenceExcerpt": "Prior clearance is mandatory, and the Supreme Court (Common Cause v. UoI, 2017) ruled that ex post facto or retrospective clearance is alien to environmental jurisprudence."
+    }
+  ]
+}

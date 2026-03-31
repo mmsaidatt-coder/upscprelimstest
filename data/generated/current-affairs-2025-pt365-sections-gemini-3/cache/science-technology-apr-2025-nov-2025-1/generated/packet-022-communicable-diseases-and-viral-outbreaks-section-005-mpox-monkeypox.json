@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Mpox (Monkeypox): 1. It is a viral zoonotic disease caused by a pathogen belonging to the Orthopoxvirus genus. 2. It is primarily diagnosed using the Reverse Transcription Polymerase Chain Reaction (RT-PCR) test. 3. A specific and proven antiviral treatment is widely administered to cure the disease. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Mpox is a viral zoonotic disease caused by the Monkeypox virus, which belongs to the Orthopoxvirus genus. Statement 2 is correct: Diagnostic testing for Mpox is conducted using RT-PCR. Statement 3 is incorrect: Currently, there is no proven specific treatment for Mpox.",
+      "takeaway": "Mpox is an Orthopoxvirus diagnosed primarily via RT-PCR, and it currently lacks a proven specific treatment.",
+      "evidenceExcerpt": "Mpox is a viral zoonotic disease caused by the Monkeypox virus (Orthopoxvirus genus)... Diagnosed via RT-PCR; no proven treatment exists."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to Mpox, consider the following statements: 1. It is primarily transmitted to humans through vector-borne mechanisms such as mosquito bites. 2. The presence of swollen lymph nodes is one of the characteristic clinical symptoms of the disease. 3. The World Health Organization (WHO) currently classifies the Mpox outbreak in Africa as an active global health emergency. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Mpox transmits through close contact with infected entities, not via mosquito vectors. Statement 2 is correct: Symptoms of Mpox include fever and swollen lymph nodes. Statement 3 is incorrect: While it was previously declared a Public Health Emergency of International Concern (PHEIC) by the WHO, the outbreak in Africa is no longer considered a global health emergency.",
+      "takeaway": "Mpox spreads via close contact rather than insect vectors, features swollen lymph nodes, and its outbreak in Africa is no longer classified as an active global health emergency.",
+      "evidenceExcerpt": "It transmits through close contact with infected entities. Symptoms include fever and swollen lymph nodes. It was declared a PHEIC by WHO, though the outbreak in Africa is no longer a global health emergency."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Applied Scenario",
+      "prompt": "A patient presents with fever and swollen lymph nodes after close contact with an infected entity. The physician suspects Mpox. Based on the current medical understanding of the disease, which of the following clinical management or diagnostic steps is most appropriate?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Administering a specific, proven antiviral treatment immediately to neutralize the Orthopoxvirus."
+        },
+        {
+          "id": "B",
+          "text": "Confirming the diagnosis using Reverse Transcription Polymerase Chain Reaction (RT-PCR) as there is no proven treatment."
+        },
+        {
+          "id": "C",
+          "text": "Isolating the patient in a negative pressure room due to its primary transmission via airborne aerosols."
+        },
+        {
+          "id": "D",
+          "text": "Initiating broad-spectrum antibiotics, as Mpox is a bacterial zoonotic disease."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Mpox is a viral zoonotic disease caused by the Monkeypox virus (Orthopoxvirus genus). It is definitively diagnosed using RT-PCR. Currently, there is no proven specific treatment for the disease, making supportive care and accurate diagnosis via RT-PCR the appropriate clinical steps. It primarily transmits through close contact rather than airborne aerosols, and antibiotics are ineffective as it is a viral, not bacterial, infection.",
+      "takeaway": "Clinical management of Mpox relies heavily on RT-PCR for accurate diagnosis and supportive care, as no specific proven antiviral treatment currently exists.",
+      "evidenceExcerpt": "Mpox is a viral zoonotic disease caused by the Monkeypox virus (Orthopoxvirus genus). It transmits through close contact with infected entities. Symptoms include fever and swollen lymph nodes... Diagnosed via RT-PCR; no proven treatment exists."
+    }
+  ]
+}

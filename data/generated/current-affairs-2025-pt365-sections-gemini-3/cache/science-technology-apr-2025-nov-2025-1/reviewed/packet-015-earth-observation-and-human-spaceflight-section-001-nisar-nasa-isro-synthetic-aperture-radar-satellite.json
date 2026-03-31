@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the NISAR (NASA-ISRO Synthetic Aperture Radar) mission:\n1. It is the world's first Earth observation satellite to integrate both L-band and S-band radars on a single platform.\n2. Under this joint mission, NASA provided the S-band radar while ISRO contributed the L-band radar.\n3. It marks the first instance of ISRO using a Geosynchronous Satellite Launch Vehicle (GSLV) to place a satellite into a Sun-Synchronous Orbit (SSO).\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: NISAR is the world's first Earth observation satellite to integrate both L-band and S-band Synthetic Aperture Radar (SAR) on a single platform.\nStatement 2 is incorrect: The contributions are reversed. NASA provided the L-band radar, while ISRO contributed the S-band radar.\nStatement 3 is correct: The mission marks the first time a GSLV rocket (GSLV-F16) was used to place a satellite into a Sun-Synchronous Polar Orbit (SSO).",
+      "takeaway": "NISAR integrates L-band (NASA) and S-band (ISRO) SAR on a single platform and was uniquely launched into an SSO using a GSLV rocket.",
+      "evidenceExcerpt": "It is world's first Earth observation satellite to integrate both L-band and S-band Synthetic Aperture Radar (SAR) on a single platform. NASA provided the L-band radar... ISRO contributed the S-band radar... Launch Vehicle: ISRO’s Geosynchronous Satellite Launch Vehicle (GSLV)-F16. Orbit: Sun Synchronous Polar Orbit. It is the first time a GSLV rocket was used to place a satellite into a Sun-Synchronous orbit (SSO).",
+      "qualityScore": 85,
+      "reviewNotes": "Good factual coverage of the mission's unique aspects. Statement 2 uses a classic UPSC swap."
+    }
+  ],
+  "reviewerNotes": "Selected three distinct questions covering the launch/agency details, technical imaging features, and mission applications. Rewrote the technical question to test the difference between microwave and optical imaging, which is a highly relevant concept for UPSC."
+}

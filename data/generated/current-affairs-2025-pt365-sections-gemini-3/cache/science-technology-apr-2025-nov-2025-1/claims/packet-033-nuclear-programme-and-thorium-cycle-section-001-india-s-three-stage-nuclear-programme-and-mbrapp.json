@@ -1,0 +1,82 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-033-nuclear-programme-and-thorium-cycle-section-001-india-s-three-stage-nuclear-programme-and-mbrapp",
+    "claimType": "Factual",
+    "claimText": "Stage 1 of India's three-stage nuclear programme utilizes Pressurized Heavy Water Reactors (PHWRs) fuelled by natural Uranium to produce electricity and Plutonium.",
+    "evidenceExcerpt": "Stage 1 of India's nuclear program uses Natural Uranium in PHWRs to produce 10 GWe electricity, Depleted Uranium, and Plutonium.",
+    "pageNumbers": [
+      66
+    ],
+    "examUse": "Statement-based question on the specific fuel and byproduct of Stage 1 of the nuclear programme.",
+    "distractorHooks": [
+      "Enriched Uranium is used in Stage 1",
+      "Light Water Reactors are used in Stage 1",
+      "Uranium-233 is the byproduct of Stage 1"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-033-nuclear-programme-and-thorium-cycle-section-001-india-s-three-stage-nuclear-programme-and-mbrapp",
+    "claimType": "Factual",
+    "claimText": "Stage 2 of India's nuclear programme employs Fast Breeder Reactors fuelled by a mix of Plutonium and natural Uranium, and introduces Thorium to convert it into Uranium-233.",
+    "evidenceExcerpt": "Stage 2 uses Plutonium and Natural Uranium in Fast Breeders, introducing Thorium to convert it to U-233.",
+    "pageNumbers": [
+      66
+    ],
+    "examUse": "Statement-based question on the fuel mix and the specific stage where Thorium is introduced for conversion.",
+    "distractorHooks": [
+      "Thorium is the primary fuel in Stage 2",
+      "Stage 2 produces Plutonium instead of U-233",
+      "Stage 2 uses Pressurized Heavy Water Reactors"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-033-nuclear-programme-and-thorium-cycle-section-001-india-s-three-stage-nuclear-programme-and-mbrapp",
+    "claimType": "Conceptual",
+    "claimText": "Stage 3 of India's nuclear programme is powered by Uranium-233, which is produced by the transmutation of Thorium in a mixed Thorium-Uranium fuel cycle.",
+    "evidenceExcerpt": "Stage 3 uses a mix of Thorium and Uranium, where Thorium transmutes to U-233 to power the reactor.",
+    "pageNumbers": [
+      66
+    ],
+    "examUse": "Statement-based question on the ultimate mechanism of the Thorium cycle in Stage 3.",
+    "distractorHooks": [
+      "Thorium directly undergoes fission to power the reactor",
+      "Plutonium is the primary fuel in Stage 3",
+      "Stage 3 relies entirely on imported Enriched Uranium"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-033-nuclear-programme-and-thorium-cycle-section-001-india-s-three-stage-nuclear-programme-and-mbrapp",
+    "claimType": "Factual",
+    "claimText": "The Mahi Banswara Rajasthan Atomic Power Project (MBRAPP) is being developed by ASHVINI, a joint venture between Nuclear Power Corporation India Limited (NPCIL) and National Thermal Power Corporation Limited (NTPC).",
+    "evidenceExcerpt": "MBRAPP is a 4 x 700 MWe PHWR project developed by ASHVINI, a joint venture between NPCIL and NTPC.",
+    "pageNumbers": [
+      66
+    ],
+    "examUse": "Institution-feature or correct-pair question on joint ventures in India's nuclear energy sector.",
+    "distractorHooks": [
+      "Developed solely by NPCIL",
+      "Joint venture between NPCIL and BHEL",
+      "MBRAPP is a Light Water Reactor project"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-033-nuclear-programme-and-thorium-cycle-section-001-india-s-three-stage-nuclear-programme-and-mbrapp",
+    "claimType": "Conceptual",
+    "claimText": "India's nuclear 'fleet mode' initiative involves the construction of multiple identical 700 MW reactors under a uniform design to streamline development.",
+    "evidenceExcerpt": "MBRAPP is part of India's fleet mode initiative to build ten identical 700 MW reactors under uniform design.",
+    "pageNumbers": [
+      66
+    ],
+    "examUse": "Statement-based question defining the 'fleet mode' initiative in India's nuclear sector.",
+    "distractorHooks": [
+      "Fleet mode refers to the deployment of nuclear-powered submarines",
+      "Fleet mode involves importing foreign reactors of varying capacities",
+      "Fleet mode is exclusively for Fast Breeder Reactors"
+    ]
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-009-principles-and-macroscopic-phenomena-section-002-nobel-prize-in-physics-2025-macroscopic-quantum-phenomena",
+    "claimType": "Factual",
+    "claimText": "The 2025 Nobel Prize in Physics was awarded for the discovery of macroscopic quantum mechanical tunnelling and energy quantisation in an electric circuit.",
+    "evidenceExcerpt": "John Clarke, Michel H. Devoret and John M. Martinis have been awarded Nobel Prize in Physics for the discovery of macroscopic quantum mechanical tunnelling and energy quantisation in an electric circuit.",
+    "pageNumbers": [
+      20
+    ],
+    "examUse": "Statement-based question on recent Nobel Prize discoveries in Science and Technology.",
+    "distractorHooks": [
+      "Awarded for quantum entanglement",
+      "Awarded for the discovery of the Higgs boson",
+      "Awarded in the field of Chemistry"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-009-principles-and-macroscopic-phenomena-section-002-nobel-prize-in-physics-2025-macroscopic-quantum-phenomena",
+    "claimType": "Conceptual",
+    "claimText": "A Josephson Junction is constructed using two superconductors separated by an insulator.",
+    "evidenceExcerpt": "They built an electric circuit using two superconductors separated by an insulator - a Josephson Junction.",
+    "pageNumbers": [
+      20
+    ],
+    "examUse": "Correct-pair or definition-based question on quantum technology components.",
+    "distractorHooks": [
+      "Two insulators separated by a superconductor",
+      "Two semiconductors separated by a conductor"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-009-principles-and-macroscopic-phenomena-section-002-nobel-prize-in-physics-2025-macroscopic-quantum-phenomena",
+    "claimType": "Conceptual",
+    "claimText": "Energy quantisation is the principle where particles absorb and emit energy in discrete packets, existing only in fixed energy levels.",
+    "evidenceExcerpt": "Quantisation of energy means particles absorb and emit energy in discrete packets (quanta) and exist only in fixed energy levels.",
+    "pageNumbers": [
+      20
+    ],
+    "examUse": "Conceptual statement in a multiple-choice question on quantum mechanics.",
+    "distractorHooks": [
+      "Energy is absorbed and emitted in a continuous spectrum",
+      "Particles can exist at any arbitrary energy level"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-009-principles-and-macroscopic-phenomena-section-002-nobel-prize-in-physics-2025-macroscopic-quantum-phenomena",
+    "claimType": "Conceptual",
+    "claimText": "Quantum tunnelling enables a particle to pass through a potential energy barrier, a process classically observed in radioactive alpha decay.",
+    "evidenceExcerpt": "Quantum tunnelling allows a particle to pass through a potential energy barrier, a phenomenon classically seen in radioactive alpha decay.",
+    "pageNumbers": [
+      20
+    ],
+    "examUse": "Application-based or conceptual statement question on quantum phenomena.",
+    "distractorHooks": [
+      "Quantum tunnelling prevents particles from crossing energy barriers",
+      "It is classically observed in beta decay only",
+      "Confusing tunnelling with quantum superposition"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-009-principles-and-macroscopic-phenomena-section-002-nobel-prize-in-physics-2025-macroscopic-quantum-phenomena",
+    "claimType": "Factual",
+    "claimText": "In macroscopic quantum systems like the Josephson Junction, charged particles called Cooper Pairs behave collectively as a single quantum particle.",
+    "evidenceExcerpt": "The experiment demonstrated that charged particles (Cooper Pairs) in the circuit behaved collectively as a single quantum particle.",
+    "pageNumbers": [
+      20
+    ],
+    "examUse": "Statement-based question on superconductivity and macroscopic quantum behavior.",
+    "distractorHooks": [
+      "Cooper Pairs behave as independent classical particles",
+      "Cooper Pairs are uncharged particles",
+      "Confusing Cooper Pairs with individual photons"
+    ]
+  }
+]

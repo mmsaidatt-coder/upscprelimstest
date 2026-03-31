@@ -1,0 +1,100 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the declaration and alteration of Tiger Reserves in India:\n1. Tiger Reserves are declared by the State Governments under the Wildlife (Protection) Act, 1972.\n2. The declaration of a Tiger Reserve requires the advice of the National Tiger Conservation Authority (NTCA).\n3. The boundaries of a Tiger Reserve can be altered by the State Government without the approval of the National Board for Wild Life (NBWL).\n\nHow many of the above statements are correct?",
+      "contextLines": [
+        "Tiger Reserves are declared under WPA 1972 by State Governments on NTCA's advice",
+        "boundary alterations require NTCA recommendation and National Board for Wild Life (NBWL) approval."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statements 1 and 2 are correct: Tiger Reserves are notified by State Governments under the WPA 1972 on the advice of the NTCA. Statement 3 is incorrect: Boundary alterations of Tiger Reserves strictly require the recommendation of the NTCA and the approval of the National Board for Wild Life (NBWL).",
+      "takeaway": "The declaration of Tiger Reserves is a State function guided by the NTCA, but altering their boundaries requires high-level central oversight from both the NTCA and the NBWL to prevent arbitrary reduction of protected habitats.",
+      "evidenceExcerpt": "Tiger Reserves are declared under WPA 1972 by State Governments on NTCA's advice, and boundary alterations require NTCA recommendation and National Board for Wild Life (NBWL) approval."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the management of Tiger Reserves and recent Supreme Court directives, consider the following statements:\n1. Night tourism is completely banned in the core areas and designated tiger corridors.\n2. Tiger safaris are permitted in buffer zones exclusively on pristine forest lands to promote eco-tourism.\n3. Commercial mining and major hydroelectric projects are prohibited in the buffer areas.\n\nHow many of the above statements are correct?",
+      "contextLines": [
+        "The Supreme Court issued directions to protect tiger reserves, banning tiger safaris and night tourism in core/critical habitats.",
+        "Safaris are permitted only on non-forest or degraded forest land in buffer zones.",
+        "Commercial mining and major hydro projects are prohibited in buffer areas."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statements 1 and 3 are correct: The Supreme Court banned night tourism in core areas and corridors, and commercial mining/major hydro projects are prohibited in buffer areas. Statement 2 is incorrect: Safaris in buffer zones are permitted only on non-forest or degraded forest land, not on pristine forest lands.",
+      "takeaway": "Eco-tourism activities like safaris are strictly regulated and pushed towards degraded or non-forest lands within buffer zones to prevent the degradation of intact forest ecosystems.",
+      "evidenceExcerpt": "SC banned tiger safaris and night tourism in core areas/designated tiger corridors. Safaris are permitted only on non-forest or degraded forest land in buffer zones. Commercial mining and major hydro projects are prohibited in buffer areas."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the policy framework for Human-Wildlife Conflicts (HWCs) in India:\n1. HWCs have been granted the status of Natural Disasters.\n2. A uniform ex-gratia of ₹10 lakh is mandated for human deaths resulting from such conflicts.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [
+        "Human-Wildlife Conflicts (HWCs) are to be treated as Natural Disasters with a uniform 10 lakh ex-gratia for human deaths."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Both statements are correct. Treating Human-Wildlife Conflicts as Natural Disasters standardizes the response mechanism and ensures a uniform ex-gratia payment of ₹10 lakh across the country for human fatalities.",
+      "takeaway": "Classifying Human-Wildlife Conflicts as Natural Disasters is a significant policy shift aimed at providing standardized, timely, and adequate compensation to affected families.",
+      "evidenceExcerpt": "Human-Wildlife Conflicts (HWCs) to be granted Natural Disaster status with 10 lakh ex-gratia for human deaths."
+    }
+  ]
+}

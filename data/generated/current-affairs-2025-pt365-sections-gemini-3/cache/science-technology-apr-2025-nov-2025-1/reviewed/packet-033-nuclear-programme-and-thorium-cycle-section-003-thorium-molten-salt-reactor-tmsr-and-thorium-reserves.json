@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Thorium as a nuclear fuel:\n1. Thorium-232 is the only naturally occurring isotope of thorium.\n2. Thorium is a fissile material that can be directly used as fuel in conventional nuclear reactors.\n3. In nature, thorium is significantly more abundant than uranium.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Thorium-232 is the only naturally occurring isotope of thorium. Statement 2 is incorrect: Thorium is fertile, not fissile. It cannot be used directly as fuel and must first be converted to Uranium-233 in a reactor. Statement 3 is correct: Thorium is three times more abundant than uranium in nature, though its commercial utilization is restricted by high extraction costs.",
+      "takeaway": "Thorium is more abundant than uranium but requires conversion to U-233 to be used as fuel, and its commercial viability is currently limited by high extraction costs.",
+      "evidenceExcerpt": "Thorium has to be converted to Uranium-233 in a reactor before it can be used as fuel. Thorium-232 is the only naturally occurring isotope of thorium. Thorium is three times more abundant than uranium in nature, but its utilization is restricted by high extraction costs.",
+      "qualityScore": 88,
+      "reviewNotes": "Excellent conceptual question testing the fundamental difference between fertile and fissile materials, which is a core concept in nuclear physics for UPSC."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Thorium reserves and India's nuclear programme:\n1. India holds the world's largest reserves of thorium, primarily extracted from monazite sands.\n2. In India, monazite sands are exclusively found in the coastal regions of Kerala and Odisha.\n3. The Advanced Heavy Water Reactor (AHWR) is being developed by India specifically for the thorium fuel cycle.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: India holds the world's largest reserves of thorium, which are primarily found in monazite sands. Statement 2 is incorrect: While Kerala and Odisha have rich reserves, monazite sands are not exclusive to them; they are also found in Andhra Pradesh, Tamil Nadu, West Bengal, and Jharkhand. Statement 3 is correct: The Advanced Heavy Water Reactor (AHWR) is being developed by India specifically to utilize its thorium reserves in the thorium fuel cycle.",
+      "takeaway": "India has the world's largest thorium reserves, found in monazite sands across multiple states, and is developing the AHWR to utilize this resource.",
+      "evidenceExcerpt": "India has the world's largest reserves of thorium. Kerala and Odisha have rich reserves of monazite... primarily found in monazite sands in Kerala, Odisha, Andhra Pradesh, Tamil Nadu, West Bengal, and Jharkhand. India is developing the Advanced Heavy Water Reactor (AHWR) and Indian Molten Salt Breeder Reactor (IMSBR) for the thorium fuel cycle.",
+      "qualityScore": 85,
+      "reviewNotes": "Good geographical and technological coverage. The 'exclusively' trap in statement 2 is a classic UPSC distractor."
+    }
+  ],
+  "reviewerNotes": "Selected 3 high-quality questions that cover the geographical, technological, and scientific aspects of the text. Rewrote distractors to be more plausible and aligned with UPSC's 'How many of the above statements are correct?' format. Dropped repetitive or overly simplistic questions to maintain a high quality bar."
+}

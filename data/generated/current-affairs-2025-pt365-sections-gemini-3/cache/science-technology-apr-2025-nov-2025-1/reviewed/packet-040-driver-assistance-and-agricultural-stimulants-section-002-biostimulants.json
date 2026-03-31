@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Biostimulants' used in agriculture:\n\n1. In India, they are regulated under the Environment (Protection) Act, 1986.\n2. Liquid manure composting and beneficial fungi are recognized as biostimulants.\n3. They are primarily used to control pests and diseases in crops.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Only Statement 2 is correct.\nStatement 1 is incorrect: In India, biostimulants are regulated under the Fertiliser (Inorganic, Organic or Mixed) (Control) Order, 1985, not the Environment (Protection) Act, 1986.\nStatement 2 is correct: Examples of biostimulants include humic acids, seaweed extracts, liquid manure composting, and beneficial bacteria and fungi.\nStatement 3 is incorrect: Unlike pesticides, biostimulants do not control pests. Their primary function is to stimulate natural processes to benefit crop quality independently of their nutrient content.",
+      "takeaway": "Biostimulants are regulated under the Fertiliser Control Order, 1985. They include substances like seaweed extracts and beneficial fungi, and function by stimulating natural processes rather than controlling pests or directly supplying nutrients.",
+      "evidenceExcerpt": "Substances and/or microorganisms whose function when applied to plants or the rhizosphere is to stimulate natural processes to benefit crop quality, independently of its nutrient content. Unlike fertilisers, it does not supply nutrients directly, and unlike pesticides, it does not control pests. They are regulated under Fertiliser (Inorganic, Organic or Mixed) (Control) Order, 1985. Examples include humic acids, seaweed extracts, liquid manure composting, and beneficial bacteria and fungi.",
+      "qualityScore": 90,
+      "reviewNotes": "Rewrote the statement-based question to use the 'How many statements are correct' format, which aligns with recent UPSC trends. The distractors test the regulatory framework and the functional distinction from pesticides."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "Which one of the following statements best describes how 'Biostimulants' differ from traditional fertilizers in agriculture?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Biostimulants supply essential macronutrients directly to the plant, whereas fertilizers primarily improve soil texture."
+        },
+        {
+          "id": "B",
+          "text": "Biostimulants stimulate natural processes to benefit crop quality independently of their nutrient content, whereas fertilizers supply nutrients directly."
+        },
+        {
+          "id": "C",
+          "text": "Biostimulants are exclusively synthetic chemicals, whereas fertilizers are derived solely from organic sources."
+        },
+        {
+          "id": "D",
+          "text": "Biostimulants are used to eradicate soil-borne pathogens, whereas fertilizers are used to enhance water retention."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Option B is correct: Biostimulants are substances or microorganisms whose function is to stimulate natural processes to benefit crop quality, independently of their nutrient content. Unlike fertilizers, they do not supply nutrients directly to the plants.\nOptions A, C, and D are incorrect as they misrepresent the functions and nature of both biostimulants and fertilizers. Biostimulants do not supply macronutrients directly, are not exclusively synthetic, and do not act as pesticides to eradicate pathogens.",
+      "takeaway": "The defining characteristic of a biostimulant is its ability to enhance crop quality through the stimulation of natural processes, distinguishing it from fertilizers (which supply nutrients directly) and pesticides (which control pests).",
+      "evidenceExcerpt": "Substances and/or microorganisms whose function when applied to plants or the rhizosphere is to stimulate natural processes to benefit crop quality, independently of its nutrient content. Unlike fertilisers, it does not supply nutrients directly...",
+      "qualityScore": 85,
+      "reviewNotes": "Refined the conceptual question to focus on the core distinction between biostimulants and fertilizers. The distractors are plausible and parallel, testing common misconceptions about agricultural inputs."
+    }
+  ],
+  "reviewerNotes": "Selected and refined two questions from the candidate set. Q1 covers the regulatory framework, examples, and distinction from pesticides using the modern 'How many' format. Q2 tests the core conceptual difference between biostimulants and fertilizers. Both questions are rigorous, unambiguous, and closely mimic the UPSC Prelims style."
+}

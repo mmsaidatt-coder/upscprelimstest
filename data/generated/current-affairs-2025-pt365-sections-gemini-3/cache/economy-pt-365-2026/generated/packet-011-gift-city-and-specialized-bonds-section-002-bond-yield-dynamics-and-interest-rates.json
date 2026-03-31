@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Scenario-based",
+      "prompt": "Suppose the central bank significantly increases benchmark interest rates to curb inflation. Which of the following is the most likely immediate impact on existing fixed-coupon bonds in the secondary market?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Their market prices will rise, leading to a decrease in their effective yield."
+        },
+        {
+          "id": "B",
+          "text": "Their market prices will fall, leading to an increase in their effective yield."
+        },
+        {
+          "id": "C",
+          "text": "Both their market prices and effective yields will decrease simultaneously."
+        },
+        {
+          "id": "D",
+          "text": "Their market prices will remain stable, but their effective yields will decline."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The bond market operates on an equilibrium where bank interest rates inversely affect bond prices. When interest rates rise, existing bonds with fixed lower coupons become less desirable compared to new higher-yielding instruments. Consequently, the market price of these existing bonds falls. Because the coupon payment is fixed, a lower purchase price results in a higher effective yield.",
+      "takeaway": "Bond prices and bond yields have an inverse relationship, driven by prevailing bank interest rates.",
+      "evidenceExcerpt": "When bank interest rates rise, existing fixed-coupon bond prices fall, causing their effective yield to rise."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding bond market dynamics: 1. An increase in prevailing bank interest rates makes existing fixed-coupon bonds more desirable to investors. 2. There is a direct, positive correlation between the market price of a bond and its effective yield. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Statement 1 is incorrect: Higher interest rates make existing bonds with fixed lower coupons less desirable, which drops their price. Statement 2 is incorrect: The market price of a bond and its effective yield have an inverse relationship. When bond prices rise, their effective yield falls, and vice versa.",
+      "takeaway": "Higher prevailing interest rates reduce the attractiveness of older, lower-coupon bonds, driving their prices down and their yields up.",
+      "evidenceExcerpt": "Higher interest rates make existing bonds with fixed lower coupons less desirable, dropping their price. ...when bank interest rates fall, existing bond prices rise, resulting in a lower yield."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Assertion-Reason",
+      "prompt": "Given below are two statements, one labelled as Assertion (A) and the other as Reason (R): Assertion (A): A general decline in bank interest rates results in a lower effective yield for existing fixed-coupon bonds. Reason (R): Falling bank interest rates cause the market prices of existing fixed-coupon bonds to rise. In the context of the above two statements, which one of the following is correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both (A) and (R) are correct and (R) is the correct explanation of (A)."
+        },
+        {
+          "id": "B",
+          "text": "Both (A) and (R) are correct but (R) is not the correct explanation of (A)."
+        },
+        {
+          "id": "C",
+          "text": "(A) is correct but (R) is not correct."
+        },
+        {
+          "id": "D",
+          "text": "(A) is not correct but (R) is correct."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "When bank interest rates fall, newly issued bonds offer lower returns. This makes existing bonds (which have higher fixed coupons) more attractive, driving up their market prices (Reason R is correct). Because an investor now has to pay a higher price to receive the same fixed coupon, the effective yield of the bond decreases (Assertion A is correct). Thus, the rise in bond prices is the direct mathematical reason for the fall in effective yields.",
+      "takeaway": "The effective yield of a bond adjusts to prevailing interest rates through changes in the bond's market price.",
+      "evidenceExcerpt": "Conversely, when bank interest rates fall, existing bond prices rise, resulting in a lower yield."
+    }
+  ]
+}

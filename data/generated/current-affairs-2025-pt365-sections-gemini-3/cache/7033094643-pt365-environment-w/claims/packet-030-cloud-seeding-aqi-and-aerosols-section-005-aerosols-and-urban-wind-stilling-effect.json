@@ -1,0 +1,63 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-030-cloud-seeding-aqi-and-aerosols-section-005-aerosols-and-urban-wind-stilling-effect",
+    "claimType": "Conceptual",
+    "claimText": "Secondary aerosols are formed from gases through chemical reactions, whereas primary aerosols are directly emitted into the atmosphere.",
+    "evidenceExcerpt": "Secondary aerosols are formed from gases through chemical reactions, such as sulfates from industrial emissions.",
+    "pageNumbers": [
+      63
+    ],
+    "examUse": "Statement-based question distinguishing between primary and secondary aerosols.",
+    "distractorHooks": [
+      "Swapping the definitions of primary and secondary aerosols",
+      "Claiming sea spray is a secondary aerosol"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-030-cloud-seeding-aqi-and-aerosols-section-005-aerosols-and-urban-wind-stilling-effect",
+    "claimType": "Factual",
+    "claimText": "Aerosols act as condensation nuclei, causing cloud droplets to be smaller and longer-lived, which leads to solar dimming.",
+    "evidenceExcerpt": "Aerosols act as condensation nuclei, causing cloud droplets to be smaller and longer-lived.",
+    "pageNumbers": [
+      63
+    ],
+    "examUse": "Cause-and-effect statement on the climate impact of aerosols.",
+    "distractorHooks": [
+      "Claiming aerosols make cloud droplets larger",
+      "Claiming aerosols make cloud droplets shorter-lived",
+      "Stating aerosols lead to solar brightening instead of dimming"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-030-cloud-seeding-aqi-and-aerosols-section-005-aerosols-and-urban-wind-stilling-effect",
+    "claimType": "Conceptual",
+    "claimText": "The Twomey Effect describes the phenomenon where increased anthropogenic aerosols make clouds brighter by creating more tiny droplets that reflect more sunlight.",
+    "evidenceExcerpt": "The Twomey Effect describes how increased anthropogenic aerosols make clouds brighter by creating more tiny droplets that reflect more sunlight.",
+    "pageNumbers": [
+      63
+    ],
+    "examUse": "Correct-pair or definition-based question on atmospheric effects.",
+    "distractorHooks": [
+      "Defining the Twomey Effect as the darkening of clouds",
+      "Associating the Twomey Effect with greenhouse gas absorption rather than aerosol reflection"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-030-cloud-seeding-aqi-and-aerosols-section-005-aerosols-and-urban-wind-stilling-effect",
+    "claimType": "Conceptual",
+    "claimText": "The Urban Wind Stilling Effect creates Urban Aerosol Clean Islands by weakening surface winds, which blocks long-range dust and pollutants and results in lower aerosol levels than nearby rural areas.",
+    "evidenceExcerpt": "The Urban Wind Stilling Effect creates Urban Aerosol Clean Islands by acting as an invisible barrier that slows long-range dust and pollutant entry into cities.",
+    "pageNumbers": [
+      63
+    ],
+    "examUse": "Statement-based question on urban microclimates and pollution distribution.",
+    "distractorHooks": [
+      "Claiming the Urban Wind Stilling Effect increases wind speeds in cities",
+      "Stating that urban areas always have higher aerosol levels than rural areas due to this effect"
+    ]
+  }
+]

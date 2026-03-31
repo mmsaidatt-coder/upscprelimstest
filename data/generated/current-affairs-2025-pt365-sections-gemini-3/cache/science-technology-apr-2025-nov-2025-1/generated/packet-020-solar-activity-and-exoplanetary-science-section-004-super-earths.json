@@ -1,0 +1,33 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Term Recognition",
+      "prompt": "The term 'TOI-1846', sometimes mentioned in the news, refers to:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A newly developed reusable launch vehicle by NASA."
+        },
+        {
+          "id": "B",
+          "text": "A super-Earth exoplanet discovered by the Transiting Exoplanet Survey Satellite."
+        },
+        {
+          "id": "C",
+          "text": "An Earth-observation satellite placed in a sun-synchronous orbit."
+        },
+        {
+          "id": "D",
+          "text": "A deep-space radio telescope array used to study solar activity."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "TOI-1846 is a newly discovered super-Earth exoplanet found by astronomers using data from NASA's Transiting Exoplanet Survey Satellite (TESS).",
+      "takeaway": "NASA's TESS mission is actively discovering new exoplanets, including Super-Earths like TOI-1846.",
+      "evidenceExcerpt": "Astronomers using data from NASA's Transiting Exoplanet Survey Satellite (TESS) have found a new super-Earth named TOI-1846."
+    }
+  ]
+}

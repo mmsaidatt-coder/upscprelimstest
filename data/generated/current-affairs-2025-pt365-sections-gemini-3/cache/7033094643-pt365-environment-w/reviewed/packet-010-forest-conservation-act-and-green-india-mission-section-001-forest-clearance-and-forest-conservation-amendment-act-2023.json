@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the definition and scope of 'forest' under Indian law:\n1. The Forest (Conservation) Amendment Act, 2023 extends statutory protection to all lands recorded as 'forest' in government records prior to October 25, 1980.\n2. The Supreme Court has directed that the dictionary meaning of 'forest', as established in the 1996 Godavarman judgment, must be followed until the formal identification of forest land is complete.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The Forest (Conservation) Amendment Act, 2023 defines a forest as land notified under laws like the Indian Forest Act 1927 or recorded in government records on or after October 25, 1980, not prior to it.\nStatement 2 is correct: The Supreme Court directed authorities to continue following the 1996 Godavarman dictionary meaning of 'forest' until the identification process is complete.",
+      "takeaway": "The 2023 Amendment restricts the definition of forests to notified lands and those recorded on or after October 25, 1980, but the Supreme Court has ordered the interim continuation of the broader Godavarman dictionary definition.",
+      "evidenceExcerpt": "The Forest (Conservation) Amendment Act, 2023 defines forest as land notified under laws like Indian Forest Act 1927 or recorded in govt records on/after Oct 25, 1980. ... Supreme Court directed following the 1996 Godavarman dictionary meaning until identification is complete.",
+      "qualityScore": 88,
+      "reviewNotes": "Strong conceptual question that contrasts the statutory definition in the new Act with the judicial mandate from the Supreme Court."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following categories of land:\n1. Forest land situated within 100 km of international borders or the Line of Actual Control (LAC) proposed for national security projects.\n2. Forest land up to 10 hectares proposed for defence or public utility projects in Left-Wing Extremism (LWE) affected areas.\n3. Land whose use was changed from forest to non-forest purposes before the year 1996.\n\nHow many of the above are exempted from the requirement of prior forest clearance under the Forest (Conservation) Amendment Act, 2023?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The 2023 Act exempts forest land within 100 km of international borders or the LAC for national security projects.\nStatement 2 is incorrect: The exemption in Left-Wing Extremism (LWE) affected areas for defence or public utility projects is up to 5 hectares, not 10 hectares. (Up to 10 hectares is exempted for security infrastructure generally).\nStatement 3 is correct: The Act explicitly exempts land that was changed to non-forest use before 1996.",
+      "takeaway": "The 2023 Amendment introduces specific strategic exemptions, including a 100 km border buffer for national security, 10 ha for security infrastructure, and 5 ha for public utilities in LWE areas.",
+      "evidenceExcerpt": "It exempts land changed to non-forest use before 1996. ... Exemptions include land within 100 km of borders for national security, up to 10 ha for security infrastructure, and up to 5 ha in LWE areas.",
+      "qualityScore": 85,
+      "reviewNotes": "Excellent question testing the nuances of the recent amendment. The distractor in statement 2 is highly plausible and tests attention to detail."
+    }
+  ],
+  "reviewerNotes": "All three candidate questions were of high quality, covering distinct and highly relevant aspects of the Forest (Conservation) Amendment Act, 2023. Minor rewording was applied to the prompts and statements to ensure they perfectly mimic the formal tone and structure of UPSC Prelims questions."
+}

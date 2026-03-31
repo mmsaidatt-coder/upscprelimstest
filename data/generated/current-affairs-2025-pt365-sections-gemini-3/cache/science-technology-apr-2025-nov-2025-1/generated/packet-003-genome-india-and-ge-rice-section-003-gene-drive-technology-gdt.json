@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Gene-Drive Technology': 1. It is a genetic engineering technique that alters normal Mendelian inheritance patterns. 2. It decreases the likelihood of a specific gene being passed onto the next generation to eliminate mutations. 3. It can be utilized to control agricultural pests and vector-borne diseases. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Gene-Drive Technology (GDT) is a genetic engineering technique that modifies genes to alter normal Mendelian inheritance. Statement 2 is incorrect: Rather than decreasing the likelihood, GDT increases the likelihood that a particular suite of genes will be passed onto the next generation, allowing a trait to spread rapidly through a population. Statement 3 is correct: GDT can be used to stop insects from spreading vector-borne diseases (like mosquitoes) and to control agricultural pests.",
+      "takeaway": "Gene-Drive Technology bypasses traditional Mendelian inheritance rules to ensure a specific modified gene is passed to almost all offspring, making it a powerful tool for controlling pest populations and vector-borne diseases.",
+      "evidenceExcerpt": "Gene-Drive Technology (GDT) can stop insects from spreading vector-borne diseases and pests. It is a genetic engineering technique that modifies genes to alter normal Mendelian inheritance, increasing the likelihood that a particular suite of genes will be passed onto the next generation."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "Which one of the following statements best describes the core mechanism of 'Gene-Drive Technology'?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It involves the introduction of sterile male insects to naturally crash the population of disease vectors without altering their genome."
+        },
+        {
+          "id": "B",
+          "text": "It modifies genes to alter normal inheritance, ensuring a specific trait spreads rapidly through a population."
+        },
+        {
+          "id": "C",
+          "text": "It strictly adheres to Mendelian inheritance principles to preserve the genetic diversity of endangered species."
+        },
+        {
+          "id": "D",
+          "text": "It is a traditional selective breeding method used to enhance the yield of pest-resistant agricultural crops."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Option B is correct. Gene-Drive Technology is a genetic engineering technique that alters normal Mendelian inheritance, increasing the likelihood that a particular suite of genes will be passed onto the next generation. Option A describes the Sterile Insect Technique (SIT), not Gene-Drive. Option C is incorrect because GDT explicitly alters or bypasses normal Mendelian inheritance. Option D is incorrect as GDT is a genetic engineering technique, not traditional selective breeding.",
+      "takeaway": "The defining feature of Gene-Drive Technology is its ability to 'drive' a specific gene through a population by altering standard Mendelian inheritance probabilities.",
+      "evidenceExcerpt": "It is a genetic engineering technique that modifies genes to alter normal Mendelian inheritance, increasing the likelihood that a particular suite of genes will be passed onto the next generation."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Application",
+      "prompt": "If a genetic trait designed to control agricultural pests is introduced into a wild population using Gene-Drive Technology (GDT), which of the following best describes its expected inheritance pattern compared to natural reproduction?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The trait will spread through the population at a rate higher than predicted by standard Mendelian genetics."
+        },
+        {
+          "id": "B",
+          "text": "The trait will be inherited by exactly half of the offspring in each generation, preserving natural genetic equilibrium."
+        },
+        {
+          "id": "C",
+          "text": "The trait will decrease in frequency over successive generations to prevent ecological imbalance."
+        },
+        {
+          "id": "D",
+          "text": "The trait will only be expressed in the initially modified individuals and cannot be passed onto the next generation."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Gene-Drive Technology is specifically designed to alter normal Mendelian inheritance. Under normal Mendelian genetics, a gene has a 50% chance of being passed on (Option B). GDT increases the likelihood that a particular suite of genes will be passed onto the next generation, meaning it spreads at a much higher rate than standard Mendelian genetics would predict.",
+      "takeaway": "The defining feature of Gene-Drive Technology is its ability to 'drive' a gene through a population by ensuring it is inherited by more than the standard 50% of offspring, breaking Mendelian rules.",
+      "evidenceExcerpt": "It is a genetic engineering technique that modifies genes to alter normal Mendelian inheritance, increasing the likelihood that a particular suite of genes will be passed onto the next generation."
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'NexCAR19', recently seen in the news:\n\n1. It is India's first indigenously developed Chimeric Antigen Receptor T-cell (CAR-T) therapy.\n2. It is specifically designed to target and treat B-cell blood cancers.\n3. It was developed under the aegis of the Indian Council of Medical Research (ICMR).\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: NexCAR19 is India's first indigenous CAR T-cell therapy.\nStatement 2 is correct: It is developed specifically for B-cell blood cancers.\nStatement 3 is incorrect: It was developed by ImmunoACT (incubated under IIT Bombay and Tata Memorial Hospital) with support from the Department of Biotechnology (DBT) and BIRAC, not ICMR.",
+      "takeaway": "NexCAR19 represents a major milestone in Indian biotechnology as the first indigenous CAR T-cell therapy, targeting B-cell blood cancers.",
+      "evidenceExcerpt": "NexCAR19 is India's first indigenous Chimeric Antigen Receptor T-cell (CAR-T) therapy. It was developed for B-cell blood cancers by ImmunoACT, supported by DBT and BIRAC.",
+      "qualityScore": 88,
+      "reviewNotes": "Good statement-based question testing the core facts and the developing agency, which is a common UPSC trap."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "The term 'NexCAR19', sometimes mentioned in the news, refers to:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A next-generation mRNA vaccine for emerging viral diseases"
+        },
+        {
+          "id": "B",
+          "text": "An indigenously developed therapy for B-cell blood cancers"
+        },
+        {
+          "id": "C",
+          "text": "A gene-editing tool based on CRISPR-Cas9 for agricultural crops"
+        },
+        {
+          "id": "D",
+          "text": "A novel stem cell therapy for neurodegenerative disorders"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "NexCAR19 is India's first indigenous Chimeric Antigen Receptor T-cell (CAR-T) therapy. It was developed specifically for the treatment of B-cell blood cancers by ImmunoACT, supported by DBT and BIRAC.",
+      "takeaway": "CAR-T cell therapies involve modifying a patient's own T-cells to attack cancer cells. NexCAR19 is India's first indigenous success in this domain.",
+      "evidenceExcerpt": "NexCAR19 is India's first indigenous Chimeric Antigen Receptor T-cell (CAR-T) therapy. It was developed for B-cell blood cancers...",
+      "qualityScore": 85,
+      "reviewNotes": "Classic UPSC 'term in news' format. Distractors are plausible biotechnology applications."
+    }
+  ],
+  "reviewerNotes": "Selected two strong questions. The first is a standard statement-based question that tests the core facts and the developing agency (a common UPSC trap). The second is a classic 'term in news' question with plausible distractors."
+}

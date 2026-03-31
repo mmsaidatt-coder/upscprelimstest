@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Feature-matching",
+      "prompt": "Regarding the appointment and tenure of the Director of the Central Bureau of Investigation (CBI), which of the following statements is correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The Director is selected by a committee comprising the Prime Minister, the Home Minister, and the Chief Justice of India."
+        },
+        {
+          "id": "B",
+          "text": "The tenure of the Director is strictly fixed at two years and cannot be extended under any circumstances."
+        },
+        {
+          "id": "C",
+          "text": "The selection committee includes the Leader of Opposition in the Lok Sabha or the leader of the largest opposition party."
+        },
+        {
+          "id": "D",
+          "text": "Recent ordinances allow for the extension of the Director's tenure up to a maximum of three years."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Option A is incorrect because the Home Minister is not part of the committee; it includes the Leader of Opposition. Option B is incorrect because the tenure can now be extended. Option C is correct as the committee consists of the PM, LoP, and CJI (or a nominee). Option D is incorrect because the 2021 ordinances allow for an extension up to 5 years, not 3.",
+      "takeaway": "The CBI Director's appointment involves a high-level committee including the judiciary and the opposition to ensure impartiality.",
+      "evidenceExcerpt": "Appointment of Director: Selected by a committee comprising the Prime Minister, Leader of Opposition, and Chief Justice of India (or a Supreme Court judge nominated by them). Tenure Extension: 2021 ordinances allow extension of CBI (and ED) Director's tenure up to 5 years (earlier fixed at 2 years).",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Identification",
+      "prompt": "Operations 'Megh Chakra' and 'Carbon', conducted by the Central Bureau of Investigation (CBI), are primarily aimed at:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dismantling global networks involved in the online sexual exploitation of children."
+        },
+        {
+          "id": "B",
+          "text": "Tracking the illegal movement of narcotics through the dark web."
+        },
+        {
+          "id": "C",
+          "text": "Investigating high-value economic fugitives in Interpol member countries."
+        },
+        {
+          "id": "D",
+          "text": "Countering the rise of state-sponsored cyber-espionage on critical infrastructure."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "According to the source, Operation Megh Chakra (2022) and Operation Carbon (2021) were conducted by the CBI in relation to a global cybercrime network involved in the online sexual exploitation of children.",
+      "takeaway": "The CBI conducts specialized operations (like Megh Chakra and Carbon) to tackle specific high-technology and cyber offences, particularly those involving child exploitation.",
+      "evidenceExcerpt": "Operations conducted by CBI: Operation Hawk 2025, Operation Megh Chakra 2022, and Operation Carbon 2021 related to global cybercrime network involved in online sexual exploitation of children.",
+      "contextLines": []
+    }
+  ]
+}

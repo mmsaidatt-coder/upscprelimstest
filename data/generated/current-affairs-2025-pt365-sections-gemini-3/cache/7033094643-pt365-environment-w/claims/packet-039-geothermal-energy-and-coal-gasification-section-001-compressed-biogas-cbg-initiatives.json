@@ -1,0 +1,63 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-039-geothermal-energy-and-coal-gasification-section-001-compressed-biogas-cbg-initiatives",
+    "claimType": "Process/Composition",
+    "claimText": "Compressed Biogas (CBG) is produced by purifying raw biogas to remove hydrogen sulfide, carbon dioxide, and water vapor, achieving a methane concentration of 90%.",
+    "evidenceExcerpt": "Raw biogas is purified to remove H2S, CO2, and water vapor, increasing methane concentration to 90%",
+    "pageNumbers": [
+      80
+    ],
+    "examUse": "Statement-based question on the composition and purification process of CBG.",
+    "distractorHooks": [
+      "Methane concentration is 50%",
+      "Removes oxygen and nitrogen instead of H2S and CO2"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-039-geothermal-energy-and-coal-gasification-section-001-compressed-biogas-cbg-initiatives",
+    "claimType": "Process/Physical Property",
+    "claimText": "To produce Compressed Biogas (CBG), purified biogas is compressed to a pressure of 200-250 bar.",
+    "evidenceExcerpt": "and is then compressed to about 200-250 bar pressure to get CBG.",
+    "pageNumbers": [
+      80
+    ],
+    "examUse": "Statement-based question on the physical properties and production of CBG.",
+    "distractorHooks": [
+      "Compressed to 50-100 bar",
+      "Compressed to 500 bar"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-039-geothermal-energy-and-coal-gasification-section-001-compressed-biogas-cbg-initiatives",
+    "claimType": "Government Scheme",
+    "claimText": "The GOBAR-DHAN scheme aims to convert cattle dung and farm solid waste into Bio-CNG (CBG) and compost.",
+    "evidenceExcerpt": "The GOBAR-DHAN scheme focuses on converting cattle dung and farm solid waste into Bio-CNG (CBG) and compost.",
+    "pageNumbers": [
+      80
+    ],
+    "examUse": "Correct-pair or statement-based question matching schemes to their objectives.",
+    "distractorHooks": [
+      "Converts waste to ethanol",
+      "Focuses on solar energy",
+      "Converts plastic waste"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-039-geothermal-energy-and-coal-gasification-section-001-compressed-biogas-cbg-initiatives",
+    "claimType": "Government Scheme",
+    "claimText": "The SATAT initiative is designed to establish Compressed Biogas (CBG) plants to provide an affordable transportation fuel.",
+    "evidenceExcerpt": "The SATAT initiative aims to set up Compressed Biogas (CBG) plants for affordable transportation.",
+    "pageNumbers": [
+      80
+    ],
+    "examUse": "Correct-pair or statement-based question matching schemes to their objectives.",
+    "distractorHooks": [
+      "SATAT is for solar panel manufacturing",
+      "SATAT is for electric vehicle charging stations"
+    ]
+  }
+]

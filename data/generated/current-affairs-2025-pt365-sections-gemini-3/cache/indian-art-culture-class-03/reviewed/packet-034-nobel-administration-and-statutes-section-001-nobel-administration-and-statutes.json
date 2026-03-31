@@ -1,0 +1,129 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "History",
+      "difficulty": "Moderate",
+      "questionType": "Matching",
+      "prompt": "Consider the following pairs of Nobel Prize categories and their conferring institutions:\n1. Economic Sciences : Royal Swedish Academy of Sciences\n2. Physiology or Medicine : Karolinska Institute\n3. Literature : Swedish Academy\n4. Peace : Norwegian Nobel Committee\nHow many of the pairs given above are correctly matched?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Pair 1 is correctly matched: The Royal Swedish Academy of Sciences awards the prizes for Chemistry, Physics, and Economic Sciences. Pair 2 is correctly matched: The Karolinska Institute confers the prize for physiology or medicine. Pair 3 is correctly matched: The Swedish Academy confers the prize for literature. Pair 4 is correctly matched: The Nobel Peace Prize is conferred by the Norwegian Nobel Committee based in Oslo.",
+      "takeaway": "Different Swedish and Norwegian institutions are responsible for awarding Nobel Prizes across the six categories.",
+      "evidenceExcerpt": "The Royal Swedish Academy of Sciences awards the prizes for Chemistry, Physics and Economic Sciences, the Karolinska Institute confers the prize for physiology or medicine, and the The Swedish Academy confers the prize for literature. the Nobel Peace Prize is conferred by the Norwegian Nobel Committee based in Oslo.",
+      "qualityScore": 90,
+      "reviewNotes": "Uses the modern UPSC 'How many pairs' format. All institutions and their respective categories are accurately sourced from the text.",
+      "contextLines": []
+    },
+    {
+      "subject": "History",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Statement",
+      "prompt": "With reference to the statutes of the Nobel Foundation regarding the division of the prize, consider the following statements:\n1. A prize amount may be equally divided between two distinct works, each of which is considered to merit a prize.\n2. If a work being rewarded has been produced by two or three persons, the prize shall be awarded to them jointly.\n3. The statutes permit a prize amount to be divided between a maximum of four persons in exceptional cases.\nWhich of the statements given above are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The statutes of the Nobel Foundation explicitly state that a prize amount may be equally divided between two works. Statement 2 is correct: If a work is produced by two or three persons, the prize is awarded to them jointly. Statement 3 is incorrect: The statutes strictly state that in no case may a prize amount be divided between more than three persons.",
+      "takeaway": "The Nobel Prize can be shared by a maximum of three individuals or divided between two works.",
+      "evidenceExcerpt": "The statutes of the Nobel Foundation says that a prize amount may be equally divided between two works, each of which is considered to merit a prize. If a work that is being rewarded has been produced by two or three persons, the prize shall be awarded to them jointly. In no case may a prize amount be divided between more than three persons.",
+      "qualityScore": 88,
+      "reviewNotes": "Rewritten from candidate to follow UPSC's multiple-statement format. Correctly tests the specific numerical limits and conditions set by the Foundation's statutes.",
+      "contextLines": []
+    },
+    {
+      "subject": "History",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Statement",
+      "prompt": "Consider the following statements regarding the administration of the Nobel Prize:\n1. The Nobel Foundation was established post the death of Alfred Nobel to carry out the provisions of his will.\n2. Since its inception in 1901, the Nobel Prizes have been awarded every year without exception.\n3. A Nobel Prize winner receives a gold medal, a diploma, and a monetary award in Swedish Kronor.\nWhich of the statements given above are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: The Nobel Foundation was established after Alfred Nobel's death to administer the funds and carry out his will. Statement 2 is incorrect: The text states that since 1901, there have been some years when the Nobel Prizes have not been awarded. Statement 3 is correct: Winners receive a gold medal, diploma, and 10 million Swedish Kronor.",
+      "takeaway": "The Nobel Foundation manages the legacy of Alfred Nobel, though the prizes are not necessarily awarded every single year.",
+      "evidenceExcerpt": "Post the death of Alfred Nobel, the Nobel Foundation was established to carry out the provisions of his will and to administer the funds... Since the start, in 1901, there are some years when the Nobel Prizes have not been awarded... The winner of the Nobel Prize takes home a gold medal, diploma and 10 million Swedish Kronor.",
+      "qualityScore": 87,
+      "reviewNotes": "Tests general administrative facts and corrects a common misconception about the continuity of the awards.",
+      "contextLines": []
+    },
+    {
+      "subject": "History",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Statement",
+      "prompt": "Regarding the Nobel Prize in Economic Sciences, consider the following statements:\n1. It was not part of the original categories listed in Alfred Nobel’s will.\n2. It was established by the Bank of Sweden in memory of Alfred Nobel.\n3. The first prize in this category was awarded in 1901 along with the other five categories.\nWhich of the statements given above are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Economic Sciences was not originally listed in Alfred Nobel’s will. Statement 2 is correct: It was established in 1968 by the Bank of Sweden. Statement 3 is incorrect: While the other prizes began in 1901, the Economic Sciences prize was first awarded in 1969.",
+      "takeaway": "The Economic Sciences prize is a later addition to the Nobel family, established by the Bank of Sweden rather than Alfred Nobel's original will.",
+      "evidenceExcerpt": "The sixth category, Economic Sciences, was not originally listed in Alfred Nobel’s will. It was established in 1968 by the Bank of Sweden in memory of Alfred Nobel and was first awarded in 1969.",
+      "qualityScore": 85,
+      "reviewNotes": "Focuses on the distinct history of the Economics prize compared to the original five. Clear distinction between establishment and first award dates.",
+      "contextLines": []
+    }
+  ],
+  "reviewerNotes": "The questions cover the administrative structure, the specific institutions involved, the history of the Economic Sciences category, and the statutes governing the division of the prize. All distractors are plausible and based on the provided text. The candidate question was successfully converted into a more rigorous statement-based format."
+}

@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "The term 'Grey Rhino' is sometimes mentioned in the news in the context of risk assessment and disaster management. Which of the following statements best describes it?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "An unprecedented and unpredictable event that causes massive systemic disruptions."
+        },
+        {
+          "id": "B",
+          "text": "A highly probable, high-impact threat that is often neglected until it strikes."
+        },
+        {
+          "id": "C",
+          "text": "A localized, low-impact anomaly that occurs frequently but unpredictably."
+        },
+        {
+          "id": "D",
+          "text": "An event that has a very low probability of occurrence but carries catastrophic consequences."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A 'Grey Rhino' event is defined as a highly probable, high-impact systemic disruption that is neglected. It is not a random surprise. Options A and D describe characteristics of 'Black Swan' events (unpredictable or low probability but high impact). Option C describes routine low-impact events.",
+      "takeaway": "Grey Rhino events are highly probable, high-impact systemic disruptions that are neglected, distinguishing them from unpredictable Black Swan events.",
+      "evidenceExcerpt": "GREY RHINO EVENT: Defined as highly probable, high impact but yet neglected systemic disruptions. These are not random surprises (like Black Swan events)...",
+      "qualityScore": 88,
+      "reviewNotes": "Excellent conceptual question that mirrors UPSC's 'term in news' format. The distractors are plausible and effectively contrast the Grey Rhino concept with the Black Swan concept."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Twisters':\n\n1. They are violently spinning, funnel-shaped columns of air stretching from dark thunderclouds to the ground.\n2. They typically develop when a dry and warm air mass collides with a moist and cold air mass.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Twisters are violently spinning, funnel-shaped columns of air stretching from dark thunderclouds to the ground.\nStatement 2 is incorrect: They develop when moist and warm air collides with dry and cold air, not dry/warm and moist/cold. The collision creates atmospheric instability and strong updrafts.",
+      "takeaway": "The formation of a twister requires atmospheric instability, which is typically triggered when moist, warm air collides with dry, cold air.",
+      "evidenceExcerpt": "TWISTER: Violently spinning (250 Miles/Hr), funnel-shaped columns of air stretching from dark thunderclouds to ground... Develop when moist and warm air collides with dry and cold air...",
+      "qualityScore": 85,
+      "reviewNotes": "A solid geography question that tests a specific meteorological mechanism. Swapping the air mass characteristics in Statement 2 creates a classic UPSC-style trap."
+    }
+  ],
+  "reviewerNotes": "Selected two strong questions from the candidate set. The first is a conceptual 'term in news' question on Grey Rhino, and the second is a statement-based geography question on Twisters. Both have been refined to match UPSC's tone, with plausible distractors and precise explanations."
+}

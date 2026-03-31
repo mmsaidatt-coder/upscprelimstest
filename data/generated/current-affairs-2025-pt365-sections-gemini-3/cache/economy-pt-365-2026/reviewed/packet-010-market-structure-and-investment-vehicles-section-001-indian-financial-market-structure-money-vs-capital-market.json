@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Indian Financial Market, consider the following statements:\n1. The Money Market caters to short-term financial needs of less than one year and is regulated by the Reserve Bank of India (RBI).\n2. The Capital Market involves long-term wealth creation and generally carries a higher risk compared to the Money Market.\n3. The Secondary Market deals exclusively with the issuance of new securities to the public.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The Money Market caters to short-term needs (less than 1 year) and is regulated by the RBI. Statement 2 is correct: The Capital Market is for long-term wealth creation (greater than 1 year) and inherently involves high risk. Statement 3 is incorrect: The Primary Market deals with new issues (like IPOs), whereas the Secondary Market is for trading existing shares and bonds.",
+      "takeaway": "The Indian Financial Market is divided into the RBI-regulated Money Market (short-term, lower risk) and the SEBI-regulated Capital Market (long-term, higher risk), which further comprises the Primary (new issues) and Secondary (trading) markets.",
+      "evidenceExcerpt": "The Money Market caters to short-term needs (less than 1 year), is regulated by RBI... Capital Market duration is greater than 1 year, involves high risk, and is regulated by SEBI. Capital Market includes the Primary Market for new issues (IPO) and the Secondary Market for trading shares and bonds.",
+      "qualityScore": 85,
+      "reviewNotes": "Converted a standard 2-statement question into a 3-statement 'How many' format to align with current UPSC trends. It comprehensively tests the core distinctions between money/capital and primary/secondary markets."
+    }
+  ],
+  "reviewerNotes": "Selected two strong candidates and upgraded their formats to match the latest UPSC 'How many of the above' style. The questions now rigorously test the conceptual boundaries between the Money Market and Capital Market, their regulators, and their constituent instruments without relying on trivial facts."
+}

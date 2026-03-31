@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "Which one of the following best describes the concept of 'Functional De-extinction'?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Cloning exact genetic replicas of extinct species by extracting intact DNA from permafrost fossils."
+        },
+        {
+          "id": "B",
+          "text": "Genetically engineering modern species to express specific traits of extinct organisms to restore lost ecological functions."
+        },
+        {
+          "id": "C",
+          "text": "Selectively breeding closely related extant species over multiple generations to recreate the physical appearance of extinct species."
+        },
+        {
+          "id": "D",
+          "text": "Introducing non-native extant species into a degraded habitat to artificially mimic the ecological niche of a recently extinct species."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Functional de-extinction focuses on reviving the ecological roles and traits of extinct species rather than creating exact genetic replicas. It involves genetically engineering living species (proxy species) to closely resemble and function like extinct species. Option A refers to traditional de-extinction concepts. Option C refers to back-breeding. Option D refers to taxon substitution.",
+      "takeaway": "Functional de-extinction prioritizes ecological restoration over genetic purity, using tools like CRISPR to engineer proxy species to fill vacant ecological niches.",
+      "evidenceExcerpt": "Functional de-extinction focuses on reviving the ecological roles and traits of extinct species rather than creating exact replicas. Revived organisms are not exact replicas but genetically engineered to closely resemble extinct species...",
+      "qualityScore": 90,
+      "reviewNotes": "Excellent conceptual question. The distractors are highly plausible and represent real, distinct ecological/biological concepts (traditional cloning, back-breeding, taxon substitution), making it a perfect UPSC-style MCQ."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to 'Functional De-extinction', consider the following statements:\n1. It relies exclusively on traditional selective breeding to recreate the physical appearance of extinct species.\n2. CRISPR gene editing and genome mapping are among the key techniques used in this process.\n3. The wooly mammoth and the dodo are among the planned candidates for this initiative.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Functional de-extinction relies on advanced biotechnology such as CRISPR gene editing, cloning, and genome mapping, rather than exclusively on traditional selective breeding (which is known as back-breeding). Statement 2 is correct: These genetic tools are used to engineer modern proxy species to carry traits of extinct ones. Statement 3 is correct: Planned candidates for functional de-extinction include the wooly mammoth, moa, thylacine, and dodo.",
+      "takeaway": "Functional de-extinction utilizes modern genetic engineering tools like CRISPR to revive the ecological roles of extinct species, with several iconic species like the wooly mammoth and dodo targeted for future initiatives.",
+      "evidenceExcerpt": "Techniques used: CRISPR gene editing, cloning, and genome mapping. Other planned candidates for functional de-extinction include the wooly mammoth, moa, thylacine, and dodo.",
+      "qualityScore": 85,
+      "reviewNotes": "Rewrote the statements to test the techniques and examples of functional de-extinction, ensuring it complements the conceptual question without overlapping too much."
+    }
+  ],
+  "reviewerNotes": "Selected two strong questions that cover different aspects of the source text. The first question tests the techniques and examples associated with functional de-extinction, while the second tests the core conceptual definition using well-crafted, parallel distractors."
+}

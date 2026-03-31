@@ -1,0 +1,94 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-005-project-cheetah-and-tiger-conservation-section-002-tiger-reserves-and-supreme-court-directives",
+    "claimType": "Factual",
+    "claimText": "The Supreme Court has banned tiger safaris and night tourism in the core areas and designated tiger corridors of tiger reserves.",
+    "evidenceExcerpt": "SC banned tiger safaris and night tourism in core areas/designated tiger corridors.",
+    "pageNumbers": [
+      14
+    ],
+    "examUse": "Statement-based question on permitted activities in core vs. buffer zones of tiger reserves.",
+    "distractorHooks": [
+      "Safaris are allowed in core areas under strict regulation",
+      "Night tourism is permitted in core areas for research purposes"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-005-project-cheetah-and-tiger-conservation-section-002-tiger-reserves-and-supreme-court-directives",
+    "claimType": "Factual",
+    "claimText": "Tiger safaris are permitted only on non-forest or degraded forest land within the buffer zones of tiger reserves.",
+    "evidenceExcerpt": "Safaris are permitted only on non-forest or degraded forest land in buffer zones.",
+    "pageNumbers": [
+      14
+    ],
+    "examUse": "Statement-based question on conditions for safaris in tiger reserves.",
+    "distractorHooks": [
+      "Safaris are permitted on pristine forest land in buffer zones",
+      "Safaris are allowed anywhere in the buffer zone"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-005-project-cheetah-and-tiger-conservation-section-002-tiger-reserves-and-supreme-court-directives",
+    "claimType": "Factual",
+    "claimText": "Commercial mining and major hydroelectric projects are prohibited in the buffer areas of tiger reserves.",
+    "evidenceExcerpt": "Commercial mining and major hydro projects are prohibited in buffer areas.",
+    "pageNumbers": [
+      14
+    ],
+    "examUse": "Statement-based question on restricted activities in buffer zones.",
+    "distractorHooks": [
+      "Commercial mining is allowed in buffer zones with NTCA approval",
+      "Major hydro projects are permitted in buffer zones"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-005-project-cheetah-and-tiger-conservation-section-002-tiger-reserves-and-supreme-court-directives",
+    "claimType": "Factual",
+    "claimText": "Human-Wildlife Conflicts (HWCs) are to be treated as Natural Disasters, providing a uniform 10 lakh ex-gratia for human deaths.",
+    "evidenceExcerpt": "Human-Wildlife Conflicts (HWCs) to be granted Natural Disaster status with 10 lakh ex-gratia for human deaths.",
+    "pageNumbers": [
+      14
+    ],
+    "examUse": "Statement-based question on the classification and compensation for HWCs.",
+    "distractorHooks": [
+      "HWCs are treated as man-made disasters",
+      "Compensation varies by state without a uniform mandate"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-005-project-cheetah-and-tiger-conservation-section-002-tiger-reserves-and-supreme-court-directives",
+    "claimType": "Institutional",
+    "claimText": "Tiger Reserves are notified by State Governments under the Wildlife Protection Act (WPA) 1972 on the advice of the National Tiger Conservation Authority (NTCA).",
+    "evidenceExcerpt": "Reserves are notified by State Governments under WPA 1972 on the advice of NTCA.",
+    "pageNumbers": [
+      14
+    ],
+    "examUse": "Statement-based question on the authority responsible for declaring tiger reserves.",
+    "distractorHooks": [
+      "Declared by the Central Government",
+      "Declared by the MoEFCC directly",
+      "Declared under the Environment Protection Act 1986"
+    ]
+  },
+  {
+    "id": "claim-006",
+    "sectionId": "packet-005-project-cheetah-and-tiger-conservation-section-002-tiger-reserves-and-supreme-court-directives",
+    "claimType": "Institutional",
+    "claimText": "Altering the boundaries of a Tiger Reserve requires the recommendation of the NTCA and the approval of the National Board for Wild Life (NBWL).",
+    "evidenceExcerpt": "Boundary alterations of Tiger Reserves require NTCA recommendation and NBWL approval.",
+    "pageNumbers": [
+      14
+    ],
+    "examUse": "Statement-based question on the statutory requirements for altering tiger reserve boundaries.",
+    "distractorHooks": [
+      "Requires only State Government approval",
+      "Requires Parliament approval",
+      "Requires only NTCA approval"
+    ]
+  }
+]

@@ -16,10 +16,17 @@ async function main() {
         console.log('Sample question:', JSON.stringify(data[0], null, 2));
     }
     
-    // Check year distribution
-    const { data: years } = await supabase.from('questions').select('year').eq('source', 'pyq');
+    // Check year distribution using exact counts so we do not stop at the first 1000 rows.
     const yearCounts: Record<string, number> = {};
-    years?.forEach((r: any) => { yearCounts[r.year] = (yearCounts[r.year] || 0) + 1; });
+    for (let year = 2014; year <= 2025; year += 1) {
+        const { count: yearCount } = await supabase
+            .from('questions')
+            .select('*', { count: 'exact', head: true })
+            .eq('source', 'pyq')
+            .eq('year', year);
+
+        yearCounts[String(year)] = yearCount ?? 0;
+    }
     console.log('\nYear distribution:', JSON.stringify(yearCounts, null, 2));
 }
 main();

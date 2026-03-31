@@ -1,0 +1,128 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Polluted River Stretches (PRS) in India:\n1. A river stretch is designated as a Polluted River Stretch (PRS) if its Dissolved Oxygen (DO) falls below 3 mg/L.\n2. The classification of PRS into five priority classes is determined by the maximum Biochemical Oxygen Demand (BOD) observed.\n3. Maharashtra currently has the highest number of identified Polluted River Stretches among all Indian states.\n\nHow many of the above statements are correct?",
+      "contextLines": [
+        "Criteria: Biochemical Oxygen Demand (BOD) exceeds 3 milligrams/litre (mg/L).",
+        "Categories: Five Priority Classes (I to V) based on maximum BOD observed...",
+        "Geographic Distribution: Maharashtra has highest number (54) of PRS."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The primary criterion for identifying a Polluted River Stretch is a Biochemical Oxygen Demand (BOD) exceeding 3 mg/L, not Dissolved Oxygen falling below 3 mg/L. Statement 2 is correct: PRS are categorized into Five Priority Classes (I to V) based on the maximum BOD observed. Statement 3 is correct: Maharashtra has the highest number of Polluted River Stretches (54) in India.",
+      "takeaway": "The identification of Polluted River Stretches relies on BOD levels exceeding 3 mg/L. These stretches are grouped into five priority classes based on their maximum BOD, with Maharashtra currently recording the highest number of such stretches.",
+      "evidenceExcerpt": "Criteria: Biochemical Oxygen Demand (BOD) exceeds 3 milligrams/litre (mg/L)... Categories: Five Priority Classes (I to V) based on maximum BOD observed... Geographic Distribution: Maharashtra has highest number (54) of PRS."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Statement-based",
+      "prompt": "With reference to water quality criteria and Polluted River Stretches (PRS), consider the following statements:\n1. A PRS is identified when two or more polluted locations occur in a continuous sequence on a river.\n2. Biochemical Oxygen Demand (BOD) is an indicator of water quality that measures the oxygen needed to break down organic matter.\n3. The total number of identified PRS in India has shown a continuous upward trend between 2018 and 2025.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [
+        "Two or more polluted locations on a river in a continuous sequence are considered as stretch and identified as PRS.",
+        "BOD is an indicator of water quality, measuring oxygen needed to break down organic matter.",
+        "Total number of PRS has decreased from 351 (in 2018) to 296 (in 2025)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: A stretch is identified as a PRS when two or more polluted locations occur in a continuous sequence. Statement 2 is correct: BOD measures the oxygen required to break down organic matter in water. Statement 3 is incorrect: The total number of PRS in India has actually decreased from 351 in 2018 to 296 in 2025.",
+      "takeaway": "A Polluted River Stretch requires a continuous sequence of at least two polluted locations. Despite ongoing pollution challenges, the overall number of identified PRS in India has decreased between 2018 and 2025.",
+      "evidenceExcerpt": "Two or more polluted locations on a river in a continuous sequence are considered as stretch and identified as PRS... BOD is an indicator of water quality, measuring oxygen needed to break down organic matter... Total number of PRS has decreased from 351 (in 2018) to 296 (in 2025)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "Which of the following best explains why Biochemical Oxygen Demand (BOD) is used as the primary criterion for identifying and classifying Polluted River Stretches (PRS) in India?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It provides a direct measurement of the concentration of heavy metals and toxic chemicals in the water."
+        },
+        {
+          "id": "B",
+          "text": "It indicates the amount of oxygen required to break down organic matter, reflecting the organic pollution load."
+        },
+        {
+          "id": "C",
+          "text": "It measures the exact volume of dissolved oxygen available for the survival of aquatic flora and fauna."
+        },
+        {
+          "id": "D",
+          "text": "It determines the physical turbidity and the presence of suspended particulate matter in the river."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "BOD is an indicator of water quality that measures the amount of oxygen needed by microorganisms to break down organic matter. A higher BOD indicates a higher organic pollution load, which is why a BOD exceeding 3 mg/L is used to identify a Polluted River Stretch (PRS).",
+      "takeaway": "Biochemical Oxygen Demand (BOD) measures the oxygen required to decompose organic matter, making it a key indicator of organic pollution in water bodies.",
+      "evidenceExcerpt": "Criteria: Biochemical Oxygen Demand (BOD) exceeds 3 milligrams/litre (mg/L). BOD is an indicator of water quality, measuring oxygen needed to break down organic matter."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Application",
+      "prompt": "Under the current water quality criteria, which of the following scenarios would lead to the identification of a Polluted River Stretch (PRS)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A single isolated location on a river recording a Biochemical Oxygen Demand (BOD) of 5 mg/L."
+        },
+        {
+          "id": "B",
+          "text": "Two continuous locations on a river recording a Biochemical Oxygen Demand (BOD) exceeding 3 mg/L."
+        },
+        {
+          "id": "C",
+          "text": "A continuous river stretch where the Dissolved Oxygen (DO) level remains consistently above 3 mg/L."
+        },
+        {
+          "id": "D",
+          "text": "Multiple isolated locations across different tributaries recording a Biochemical Oxygen Demand (BOD) below 3 mg/L."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A PRS is identified when two or more polluted locations occur in a continuous sequence on a river. The primary criterion for a location to be considered polluted in this context is a Biochemical Oxygen Demand (BOD) exceeding 3 mg/L. A single isolated location does not constitute a stretch.",
+      "takeaway": "The identification of a PRS requires both a continuous sequence of at least two polluted locations and a BOD exceeding the 3 mg/L threshold.",
+      "evidenceExcerpt": "Two or more polluted locations on a river in a continuous sequence are considered as stretch and identified as PRS. Criteria: Biochemical Oxygen Demand (BOD) exceeds 3 milligrams/litre (mg/L)."
+    }
+  ]
+}

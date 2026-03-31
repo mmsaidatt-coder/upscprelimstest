@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "Which one of the following best describes the core therapeutic mechanism of the recently developed 'Step-and-Shoot Spot-Scanning Proton Arc Therapy (SPArc)'?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It uses targeted proton beams to induce DNA damage in tumour cells while minimizing radiation exposure to adjacent healthy tissues."
+        },
+        {
+          "id": "B",
+          "text": "It deploys engineered bacteriophages to selectively infect and destroy rare malignancies like Adenoid Cystic Carcinoma."
+        },
+        {
+          "id": "C",
+          "text": "It utilizes synchronized electron beams to thermally ablate deep-seated brain tumours without surgical intervention."
+        },
+        {
+          "id": "D",
+          "text": "It relies on the systemic administration of proton-emitting radioisotopes that accumulate specifically in cancerous tissues."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "SPArc is an advanced radiation therapy technique that works by targeting tumours with protons. This process damages the DNA of cancer cells while sparing the surrounding healthy tissue.",
+      "takeaway": "SPArc uses protons (not electrons, bacteriophages, or systemic radioisotopes) to precisely target and damage the DNA of localized tumours while protecting nearby healthy tissue.",
+      "evidenceExcerpt": "About Step-and-Shoot Proton Arc (SPArc): A kind of advanced radiation therapy technique. It works by targeting tumours with protons while sparing surrounding tissue. ... SPArc is an advanced radiation therapy technique that damages cancer cells' DNA.",
+      "qualityScore": 88,
+      "reviewNotes": "Excellent conceptual question. The distractors are highly plausible and parallel, testing the exact mechanism of the therapy (protons vs. electrons/radioisotopes/bacteriophages)."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to 'Step-and-Shoot Spot-Scanning Proton Arc Therapy (SPArc)', recently seen in the news, consider the following statements:\n1. It is a novel gene-editing tool used to modify the DNA of cancer cells to prevent their multiplication.\n2. It has been recently used to treat Adenoid Cystic Carcinoma (ACC), a relatively rare form of cancer.\n3. It improves the quality of radiation dose planning for cancers of the head, neck, and brain.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: SPArc is an advanced radiation therapy technique, not a gene-editing tool. It destroys cancer cells by damaging their DNA using protons, rather than editing their genetic sequence.\nStatement 2 is correct: For the first time, SPArc has been used to treat Adenoid Cystic Carcinoma (ACC), a rare form of cancer.\nStatement 3 is correct: SPArc improves the quality of radiation dose planning for various cancers, including those of the head, neck, and brain.",
+      "takeaway": "SPArc is a proton-based radiation therapy that damages cancer cell DNA and improves dose planning for complex tumours. It was recently applied to treat Adenoid Cystic Carcinoma (ACC).",
+      "evidenceExcerpt": "For the first time, SPArc has been used to treat an Adenoid Cystic Carcinoma (ACC), a relatively rare form of cancer. About Step-and-Shoot Proton Arc (SPArc): A kind of advanced radiation therapy technique... damages cancer cells' DNA... Benefits: Improves the quality of radiation dose planning for various cancers like head and neck, brain, etc.",
+      "qualityScore": 85,
+      "reviewNotes": "Good use of the 'How many statements' format. The distractor in statement 1 is plausible for candidates who confuse DNA damage with gene editing."
+    }
+  ],
+  "reviewerNotes": "Selected two strong questions. Question 1 tests factual applications and basic understanding using the 'How many statements' format. Question 2 tests the core mechanism with excellent, parallel distractors typical of UPSC science and technology questions."
+}

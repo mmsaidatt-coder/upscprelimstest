@@ -1,0 +1,72 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Statements",
+      "prompt": "Consider the following statements regarding Rare Earth Elements (REE):\n\n1. They are critical components in the manufacturing of renewable energy infrastructure and defence equipment.\n2. China controls more than 80 percent of the global REE supply chain but holds less than half of the world's natural reserves.\n3. India holds larger REE reserves than Brazil.\n\nHow many of the above statements are correct?",
+      "contextLines": [
+        "Rare Earth Elements (REE) are used in electronics, renewable energy, and defence.",
+        "China dominates global production (over 2/3rd) and supply chain (85%), holding 49% of world reserves, followed by Brazil (23%) and India (8%)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: REEs are widely used in electronics, renewable energy, and defence. Statement 2 is correct: China controls 85% of the global supply chain and holds 49% (less than half) of the world's reserves. Statement 3 is incorrect: Brazil holds 23% of global reserves, which is significantly larger than India's 8%.",
+      "takeaway": "China dominates the REE supply chain (85%) despite holding 49% of reserves. Brazil (23%) holds more reserves than India (8%).",
+      "evidenceExcerpt": "Rare Earth Elements (REE) are used in electronics, renewable energy, and defence. China dominates global production (over 2/3rd) and supply chain (85%), holding 49% of world reserves, followed by Brazil (23%) and India (8%).",
+      "qualityScore": 88,
+      "reviewNotes": "Combines applications, supply chain vs reserves nuance, and comparative global reserves into a solid UPSC-style statement question."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "List Count",
+      "prompt": "Consider the following states in India:\n\n1. Andhra Pradesh\n2. Kerala\n3. Madhya Pradesh\n4. Odisha\n\nHow many of the above states are known for hosting significant reserves of Rare Earth Elements (REE) in the form of monazite sands?",
+      "contextLines": [
+        "In India, REE reserves are mostly found in monazite sands in coastal states like Tamil Nadu, Kerala, Andhra Pradesh, and Odisha."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "In India, REE reserves are mostly found in monazite sands located in coastal states. Andhra Pradesh, Kerala, and Odisha are coastal states with significant deposits. Madhya Pradesh is an inland state and is not noted as a primary source of monazite sand REE deposits.",
+      "takeaway": "India's REE reserves are primarily found in monazite sands along coastal states such as Tamil Nadu, Kerala, Andhra Pradesh, and Odisha.",
+      "evidenceExcerpt": "In India, REE reserves are mostly found in monazite sands in coastal states like Tamil Nadu, Kerala, Andhra Pradesh, and Odisha.",
+      "qualityScore": 85,
+      "reviewNotes": "A classic UPSC geography list-count question testing the distribution of strategic minerals."
+    }
+  ],
+  "reviewerNotes": "Selected two high-quality questions that cover the entire source text without overlapping. Question 1 focuses on global geopolitics and reserves, while Question 2 focuses on the geographical distribution of REE in India. The remaining candidates were either too trivial or redundant."
+}

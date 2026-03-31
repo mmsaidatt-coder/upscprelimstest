@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Solid-State Batteries (SSBs): 1. They require a thicker physical separator between the anode and cathode compared to conventional batteries. 2. They are less prone to leakage and combustion than liquid electrolyte batteries. 3. They have a higher energy density, allowing them to store more energy in the same volume. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: SSBs use solid electrolyte solutions, which inherently act as a barrier, thereby eliminating the need for a different separator. Statement 2 is correct: They offer improved safety as solid electrolytes are less prone to leakage or combustion compared to liquid electrolytes. Statement 3 is correct: SSBs have the potential to store more energy in the same volume or weight, indicating a higher energy density.",
+      "takeaway": "Solid-State Batteries replace liquid electrolytes with solid ones, acting as both the conductor and separator. This structural change improves safety and energy density.",
+      "evidenceExcerpt": "Solid-State Batteries use solid electrolyte solutions, eliminating the need for a different separator. They offer improved safety as solid electrolytes are less prone to leakage or combustion. SSBs also have the potential to store more energy in the same volume or weight"
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Comparison",
+      "prompt": "With reference to the differences between Solid-State Batteries (SSBs) and conventional liquid electrolyte batteries, consider the following statements: 1. While conventional batteries require a separate separator to prevent short circuits, SSBs eliminate this need. 2. SSBs generally have a lower energy density than liquid electrolyte batteries due to the use of heavy solid materials. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: SSBs use solid electrolyte solutions, eliminating the need for a different separator, which is required in liquid electrolyte batteries. Statement 2 is incorrect: SSBs actually have the potential to store more energy in the same volume or weight, meaning they have a higher energy density, not lower.",
+      "takeaway": "SSBs offer higher energy density and eliminate the need for a separate separator, making them more compact and efficient than traditional liquid electrolyte batteries.",
+      "evidenceExcerpt": "Solid-State Batteries use solid electrolyte solutions, eliminating the need for a different separator... SSBs also have the potential to store more energy in the same volume or weight"
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Application",
+      "prompt": "An electric vehicle manufacturer decides to replace its conventional liquid electrolyte battery packs with Solid-State Batteries (SSBs) of the exact same physical volume. Based on the characteristics of SSBs, which of the following is the most likely outcome?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The vehicle's maximum driving range will decrease due to the lower energy density of solid materials."
+        },
+        {
+          "id": "B",
+          "text": "The battery pack will take significantly less time to reach a full charge."
+        },
+        {
+          "id": "C",
+          "text": "The manufacturer must install an additional physical separator to prevent internal short circuits."
+        },
+        {
+          "id": "D",
+          "text": "The battery system will become more susceptible to leakage during high-speed operations."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Option B is correct: SSBs are capable of recharging 4 to 6 times faster than conventional liquid electrolyte batteries. Option A is incorrect because SSBs have a higher energy density, meaning they can store more energy in the same volume, which would likely increase the driving range. Option C is incorrect because solid electrolytes eliminate the need for a separate separator. Option D is incorrect because solid electrolytes are less prone to leakage compared to liquid ones.",
+      "takeaway": "Solid-State Batteries offer multiple applied advantages for electric vehicles, including significantly faster charging times, higher energy density per volume, and improved safety due to the lack of leak-prone liquid electrolytes.",
+      "evidenceExcerpt": "Solid-State Batteries use solid electrolyte solutions, eliminating the need for a different separator. They offer improved safety as solid electrolytes are less prone to leakage or combustion. SSBs also have the potential to store more energy in the same volume or weight and can recharge 4 to 6 times faster than liquid electrolyte batteries."
+    }
+  ]
+}

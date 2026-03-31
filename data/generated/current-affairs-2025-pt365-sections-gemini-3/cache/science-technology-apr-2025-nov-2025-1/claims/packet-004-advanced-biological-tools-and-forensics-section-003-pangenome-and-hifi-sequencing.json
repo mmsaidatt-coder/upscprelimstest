@@ -1,0 +1,50 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-004-advanced-biological-tools-and-forensics-section-003-pangenome-and-hifi-sequencing",
+    "claimType": "Concept",
+    "claimText": "A Pangenome is a collection of genome sequences from multiple individuals of the same species.",
+    "evidenceExcerpt": "A Pangenome is a collection of genome sequences from many individuals of the same species.",
+    "pageNumbers": [
+      9,
+      10
+    ],
+    "examUse": "Statement-based question distinguishing a pangenome from a traditional single reference genome.",
+    "distractorHooks": [
+      "A collection of genomes from different interacting species",
+      "A single, highly accurate reference genome of one individual"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-004-advanced-biological-tools-and-forensics-section-003-pangenome-and-hifi-sequencing",
+    "claimType": "Technology",
+    "claimText": "PacBio HiFi sequencing is a single-molecule, real-time (SMRT) long-read sequencing method.",
+    "evidenceExcerpt": "PacBio HiFi sequencing is a single-molecule, real-time (SMRT) long-read sequencing method.",
+    "pageNumbers": [
+      9,
+      10
+    ],
+    "examUse": "Correct-pair or statement-based question on modern sequencing technologies and their characteristics.",
+    "distractorHooks": [
+      "A short-read sequencing method",
+      "A method that requires extensive PCR amplification prior to sequencing"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-004-advanced-biological-tools-and-forensics-section-003-pangenome-and-hifi-sequencing",
+    "claimType": "Application",
+    "claimText": "Pangenomes can be used to introduce disease-tolerance traits in crops and identify population-specific genetic markers in humans.",
+    "evidenceExcerpt": "Pangenomes help introduce disease-tolerance traits in crops and identify population-specific genetic markers in humans.",
+    "pageNumbers": [
+      9,
+      10
+    ],
+    "examUse": "Application-based question on the utility of pangenome sequencing in agriculture and human genetics.",
+    "distractorHooks": [
+      "Pangenomes are exclusively used for human genetic mapping",
+      "Pangenomes cannot identify population-specific markers due to high genetic variation"
+    ]
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-003-rbi-integrated-ombudsman-scheme-and-standing-deposit-facility-section-004-switch-auction",
+    "claimType": "Factual",
+    "claimText": "The Reserve Bank of India (RBI) initiated Switch Auctions in 2019 on behalf of the Government of India.",
+    "evidenceExcerpt": "A Switch Auction, initiated by the RBI in 2019 on behalf of the Government of India, is a mechanism to manage the maturity profile of public debt.",
+    "pageNumbers": [
+      7
+    ],
+    "examUse": "Statement-based question testing the initiating body and year.",
+    "distractorHooks": [
+      "Initiated by the Ministry of Finance",
+      "Initiated by SEBI",
+      "Initiated in a different year like 2020 or 2018"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-003-rbi-integrated-ombudsman-scheme-and-standing-deposit-facility-section-004-switch-auction",
+    "claimType": "Conceptual",
+    "claimText": "The objective of a Switch Auction is to manage the maturity profile of public debt by replacing short-term government securities with longer-dated ones.",
+    "evidenceExcerpt": "The objective is to manage the maturity profile of public debt. The objective is to replace short-term government securities with longer-dated ones.",
+    "pageNumbers": [
+      7
+    ],
+    "examUse": "Statement-based question about the purpose of the mechanism.",
+    "distractorHooks": [
+      "To increase short-term liquidity",
+      "To replace long-term securities with short-term ones",
+      "To manage corporate debt instead of public debt"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-003-rbi-integrated-ombudsman-scheme-and-standing-deposit-facility-section-004-switch-auction",
+    "claimType": "Procedural",
+    "claimText": "In a Switch Auction, market participants sell their short-term 'source securities' to the government and simultaneously purchase long-term 'destination securities'.",
+    "evidenceExcerpt": "In this process, market participants sell their short-term 'source securities' to the government and simultaneously purchase long-term 'destination securities'.",
+    "pageNumbers": [
+      7
+    ],
+    "examUse": "Correct-pair or statement-based question on the transaction's mechanics.",
+    "distractorHooks": [
+      "Participants buy short-term and sell long-term securities",
+      "The transactions are not simultaneous",
+      "Only selling of securities occurs"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-003-rbi-integrated-ombudsman-scheme-and-standing-deposit-facility-section-004-switch-auction",
+    "claimType": "Factual",
+    "claimText": "Switch Auction transactions are executed through the RBI's e-Kuber portal.",
+    "evidenceExcerpt": "The transactions are executed through the e-Kuber portal.",
+    "pageNumbers": [
+      7
+    ],
+    "examUse": "Institution-feature question matching the platform to the transaction.",
+    "distractorHooks": [
+      "Executed through the NDS-OM platform",
+      "Executed on commercial bank portals",
+      "Executed on stock exchanges like NSE or BSE"
+    ]
+  }
+]

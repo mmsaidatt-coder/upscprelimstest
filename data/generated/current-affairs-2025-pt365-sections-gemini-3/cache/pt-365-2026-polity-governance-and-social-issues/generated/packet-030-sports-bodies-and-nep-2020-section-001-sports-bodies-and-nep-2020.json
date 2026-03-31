@@ -1,0 +1,162 @@
+{
+  "questions": [
+    {
+      "subject": "Polity",
+      "difficulty": "Hard",
+      "questionType": "Feature-matching",
+      "prompt": "Regarding the composition of the Executive Committee of a National Sports Body, which of the following requirements are mandatory as per the regulatory framework?",
+      "contextLines": [
+        "1. A minimum of fifteen members in total.",
+        "2. At least four women members.",
+        "3. At least two sportspersons.",
+        "4. Two members specifically from the Athletes Committee."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one and two"
+        },
+        {
+          "id": "B",
+          "text": "Only two and three"
+        },
+        {
+          "id": "C",
+          "text": "Only one, three, and four"
+        },
+        {
+          "id": "D",
+          "text": "All one, two, three, and four"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "According to the structure of National Sports Bodies, the Executive Committee must have: at least fifteen members, at least 4 women, at least 2 sportspersons, and 2 members from the athletes committee, along with ex officio and other members.",
+      "takeaway": "The Executive Committee of a National Sports Body has specific diversity and representation quotas for women and active/former athletes.",
+      "evidenceExcerpt": "Executive Committee: Atleast fifteen members, (atleast 4 women), atleast 2 sportspersons, 2 from athletes committee and ex officio and other members."
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "With reference to the institutional reforms under NEP 2020, which of the following pairs is/are correctly matched?",
+      "contextLines": [
+        "1. PARAKH : National assessment and standard-setting body",
+        "2. ABC : Digital storehouse of academic credits for higher education",
+        "3. HECI : Regulatory body for school education standards"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: PARAKH is the national assessment body. Pair 2 is correctly matched: ABC (Academic Bank of Credits) is for higher education. Pair 3 is incorrectly matched: HECI (Higher Education Commission of India) is for Higher Education regulatory reform, not school education.",
+      "takeaway": "NEP 2020 distinguishes between bodies for school assessment (PARAKH) and higher education regulation (HECI).",
+      "evidenceExcerpt": "Assessment Reforms: PARAKH as national assessment and standard-setting body... Academic Bank of Credits (ABC)... Regulatory Reform: Higher Education Commission of India (HECI) with four verticals."
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following targets and standards set under the National Education Policy (NEP) 2020 for school education:",
+      "contextLines": [
+        "1. Achieving Foundational Literacy and Numeracy (FLN) for all children by Grade 5.",
+        "2. Maintaining a Pupil-Teacher Ratio (PTR) of less than or equal to 30:1.",
+        "3. Ensuring a minimum of 50 hours of Continuous Professional Development (CPD) for teachers annually."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one statement is correct"
+        },
+        {
+          "id": "B",
+          "text": "Only two statements are correct"
+        },
+        {
+          "id": "C",
+          "text": "All three statements are correct"
+        },
+        {
+          "id": "D",
+          "text": "None of the statements are correct"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The target for Foundational Literacy & Numeracy (FLN) is Grade 3, not Grade 5. Statement 2 is correct: The policy aims for a PTR ≤ 30:1. Statement 3 is correct: Teachers are expected to undergo a minimum of 50 hours of CPD annually.",
+      "takeaway": "FLN targets are focused on the early primary years (Grade 3), while teacher standards emphasize both ratio and continuous training.",
+      "evidenceExcerpt": "Foundational Literacy & Numeracy (FLN): Reading with comprehension and basic math by Grade 3... Teachers: Pupil-Teacher Ratio ≤ 30:1; minimum 50 hours Continuous Professional Development annually."
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "Which of the following best describes the 'Academic Bank of Credits' (ABC) as envisioned under the National Education Policy 2020?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A financial repository providing low-interest loans to students in Quality Institutions."
+        },
+        {
+          "id": "B",
+          "text": "A digital facility to store academic credits to facilitate multiple entry and exit options in higher education."
+        },
+        {
+          "id": "C",
+          "text": "A centralized database for tracking the 50-hour annual professional development of teachers."
+        },
+        {
+          "id": "D",
+          "text": "A regulatory vertical under the Higher Education Commission of India for monitoring vocational integration."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Academic Bank of Credits (ABC) is designed to support the 3/4-year undergraduate degree structure by allowing students to store credits digitally, enabling them to exit and re-enter the higher education system at different stages.",
+      "takeaway": "The ABC is a structural tool for flexibility in higher education, distinct from financial or teacher-training platforms.",
+      "evidenceExcerpt": "Quality Institutions: 3/4-year UG degrees with multiple exit options; Academic Bank of Credits (ABC).",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Hard",
+      "questionType": "Pair-matching",
+      "prompt": "Consider the following pairs of institutional reforms under NEP 2020 and their primary functions:\n1. PARAKH: National assessment and standard-setting body.\n2. HECI: Regulatory body for higher education with four verticals.\n3. NCIVE: Integration of vocational education.\n4. NETF: Technology-driven teacher recruitment and training.\n\nHow many of the above pairs are correctly matched?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "Only three pairs"
+        },
+        {
+          "id": "D",
+          "text": "All four pairs"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Pairs 1, 2, and 3 are correctly matched. PARAKH is the assessment body. HECI is the higher education regulator with four verticals. NCIVE is for vocational integration. Pair 4 is incorrectly matched; while NETF (National Educational Technology Forum) deals with ed-tech integration, teacher training is specifically mentioned as being facilitated via SWAYAM/DIKSHA and the National Mission for Mentoring.",
+      "takeaway": "NEP 2020 creates specialized bodies for assessment (PARAKH), regulation (HECI), and vocational integration (NCIVE).",
+      "evidenceExcerpt": "Assessment Reforms: PARAKH as national assessment and standard-setting body. ... Regulatory Reform: Higher Education Commission of India (HECI) with four verticals. ... Other Areas: NCIVE for vocational integration; NETF for ed-tech integ...",
+      "contextLines": []
+    }
+  ]
+}

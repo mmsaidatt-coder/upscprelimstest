@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Environmental Flow (E-Flow)' in river systems:\n1. It refers exclusively to the minimum volume of water that must be released from a reservoir to prevent downstream drying.\n2. It aims to sustain both freshwater ecosystems and the human livelihoods dependent on them.\n3. Its maintenance is crucial for preserving the ecological integrity of rivers, including their estuaries.\n\nWhich of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: E-Flow is not limited to just the minimum volume (quantity) of water; it comprehensively refers to the quantity, timing, and quality of water flow. Statement 2 is correct: E-Flow is required to sustain freshwater ecosystems and the livelihoods that depend on them. Statement 3 is correct: Maintaining E-Flow is essential for the ecological integrity of both rivers and their estuaries.",
+      "takeaway": "E-Flow is a comprehensive concept encompassing the quantity, timing, and quality of water flow vital for ecosystems, dependent livelihoods, and estuaries.",
+      "evidenceExcerpt": "E-Flow: Refers to quantity, timing, and quality of water flow required to sustain freshwater ecosystems and livelihoods that depend on them. Benefits: Maintains ecological integrity of rivers and their estuaries."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Multiple Choice",
+      "prompt": "Based on the comprehensive parameters that define the Environmental Flow (E-Flow) of a river system, which of the following anthropogenic interventions can severely impact it?\n\n1. Construction of dams\n2. Discharge of pollution\n3. Riverbank encroachments\n\nSelect the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "All three interventions impact the E-Flow and ecological balance of a river. Dams alter the 'quantity' and 'timing' of the flow. Pollution degrades the 'quality' of the water flow (which is a core component of E-Flow). Encroachments alter the physical flow dynamics and floodplain interactions, severely impacting the river's ecological balance.",
+      "takeaway": "Because E-Flow encompasses quantity, timing, and quality, threats to E-Flow are not limited to water extraction or damming; they also include pollution (affecting quality) and encroachments.",
+      "evidenceExcerpt": "Extensive interventions in river flow like construction of dams, pollution, and encroachments have severely impacted ecological balance of rivers."
+    }
+  ]
+}

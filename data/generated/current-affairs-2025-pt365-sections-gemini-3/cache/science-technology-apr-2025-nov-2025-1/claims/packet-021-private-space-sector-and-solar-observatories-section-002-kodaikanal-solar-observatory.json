@@ -1,0 +1,67 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-021-private-space-sector-and-solar-observatories-section-002-kodaikanal-solar-observatory",
+    "claimType": "Institution-Feature",
+    "claimText": "The Kodaikanal Solar Observatory is operated by the Indian Institute of Astrophysics, an autonomous institute of the Department of Science and Technology (DST).",
+    "evidenceExcerpt": "Operated by the Indian Institute of Astrophysics (an autonomous institute of DST)",
+    "pageNumbers": [
+      43
+    ],
+    "examUse": "Statement-based question on the administrative control of Indian space and astronomical observatories.",
+    "distractorHooks": [
+      "Operated by ISRO",
+      "Operated by the Ministry of Earth Sciences",
+      "Operated by CSIR"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-021-private-space-sector-and-solar-observatories-section-002-kodaikanal-solar-observatory",
+    "claimType": "Geographical Location",
+    "claimText": "The Kodaikanal Solar Observatory is located in the Palani Range of hills in Southern India.",
+    "evidenceExcerpt": "Located in the Palani Range of hills in Southern India.",
+    "pageNumbers": [
+      43
+    ],
+    "examUse": "Correct-pair question matching observatories to their specific hill ranges or geographical locations.",
+    "distractorHooks": [
+      "Nilgiri Hills",
+      "Anaimalai Hills",
+      "Cardamom Hills"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-021-private-space-sector-and-solar-observatories-section-002-kodaikanal-solar-observatory",
+    "claimType": "Scientific Discovery",
+    "claimText": "The Kodaikanal Solar Observatory is credited with the discovery of the Evershed Effect.",
+    "evidenceExcerpt": "Known for the discovery of the Evershed Effect.",
+    "pageNumbers": [
+      43
+    ],
+    "examUse": "Statement-based question linking Indian observatories to their historical scientific discoveries.",
+    "distractorHooks": [
+      "Raman Effect",
+      "Chandrasekhar Limit",
+      "Discovery made by ARIES observatory"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-021-private-space-sector-and-solar-observatories-section-002-kodaikanal-solar-observatory",
+    "claimType": "Conceptual",
+    "claimText": "The Evershed Effect refers to a nearly horizontal outflow of gases observed in the penumbrae of sunspots within the Sun's photospheric layer.",
+    "evidenceExcerpt": "The Evershed Effect is a nearly horizontal outflow of gases observed in the penumbrae of sunspots in the photospheric layer (visible surface of the Sun).",
+    "pageNumbers": [
+      43
+    ],
+    "examUse": "Conceptual statement-based question on solar phenomena and sunspot characteristics.",
+    "distractorHooks": [
+      "Vertical inflow of gases",
+      "Observed in the solar corona",
+      "Observed in the chromosphere",
+      "Associated with solar flares instead of sunspots"
+    ]
+  }
+]

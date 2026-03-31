@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Bluetooth Low Energy Mesh Networking:\n1. It employs a multi-hop topology that enables many-to-many communication by allowing devices to relay messages.\n2. It relies on a central database to temporarily store and route messages between nodes.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct. A mesh network, or 'multi-hop network', allows data to travel from any device to all others, achieving many-to-many communication. Statement 2 is incorrect. It operates without a central database; messages are stored entirely on users' devices.",
+      "takeaway": "Bluetooth Mesh Networking is a decentralized topology where nodes relay messages for each other, eliminating the need for a central routing database and preventing a single point of failure.",
+      "evidenceExcerpt": "Mesh network, also known as ‘multi-hop network’, is a networking topology. In it, data can travel from any device to all others, achieving many-to-many communication... No central database: Messages are stored entirely on users’ devices and are deleted after a short period."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Mechanism-design",
+      "prompt": "Consider the following features regarding the architecture of decentralized communication platforms like Bitchat:\n1. Messages are stored entirely on the users' devices rather than on a central server.\n2. End-to-end encryption is achieved by routing messages through a designated master node.\n3. The platform ensures anonymity by not requiring user registration via email or phone numbers.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct. Messages are stored entirely on users' devices and deleted after a short period to prioritize privacy. Statement 2 is incorrect. Messages are broadcast and relayed by nodes in a decentralized manner without relying on a designated master node. Statement 3 is correct. Users are not required to create accounts using email or phone numbers, ensuring anonymity.",
+      "takeaway": "Platforms utilizing Bluetooth Mesh Networking prioritize privacy by avoiding central databases, storing data locally, and enabling anonymous, registration-free communication.",
+      "evidenceExcerpt": "No central database: Messages are stored entirely on users’ devices and are deleted after a short period... Messages are broadcast and relayed by nodes until they reach the intended destination... No registration required: Users are not required to create accounts using their email or phone number, making the communication anonymous."
+    }
+  ]
+}

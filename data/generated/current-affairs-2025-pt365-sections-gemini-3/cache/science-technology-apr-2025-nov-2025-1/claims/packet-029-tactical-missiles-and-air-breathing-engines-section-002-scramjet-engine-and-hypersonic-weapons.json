@@ -1,0 +1,82 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-029-tactical-missiles-and-air-breathing-engines-section-002-scramjet-engine-and-hypersonic-weapons",
+    "claimType": "Comparison",
+    "claimText": "Ramjet engines operate at Mach 3 to 6 with subsonic combustion, whereas Scramjet engines operate above Mach 6 with supersonic combustion.",
+    "evidenceExcerpt": "Ramjet engines operate at Mach 3 to 6 with subsonic combustion, while Scramjet engines operate above Mach 6 with supersonic combustion.",
+    "pageNumbers": [
+      57,
+      58
+    ],
+    "examUse": "Statement-based question comparing Ramjet and Scramjet engine characteristics.",
+    "distractorHooks": [
+      "Swapping subsonic and supersonic combustion between Ramjet and Scramjet",
+      "Altering the Mach speed ranges"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-029-tactical-missiles-and-air-breathing-engines-section-002-scramjet-engine-and-hypersonic-weapons",
+    "claimType": "Technical Feature",
+    "claimText": "Both Ramjet and Scramjet engines cannot produce thrust at zero airspeed and require assisted take-off.",
+    "evidenceExcerpt": "Both Ramjets and Scramjets require assisted take-off (e.g., by a rocket) as they cannot produce thrust at zero airspeed.",
+    "pageNumbers": [
+      57,
+      58
+    ],
+    "examUse": "Statement-based question on the operational limitations of air-breathing engines.",
+    "distractorHooks": [
+      "Claiming Scramjets can take off independently from a standstill",
+      "Stating only Ramjets require assisted take-off"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-029-tactical-missiles-and-air-breathing-engines-section-002-scramjet-engine-and-hypersonic-weapons",
+    "claimType": "Conceptual",
+    "claimText": "Scramjet engines are more efficient than traditional rockets because they utilize atmospheric oxygen for combustion rather than carrying an onboard oxidizer.",
+    "evidenceExcerpt": "Scramjets are more efficient than rockets because they use atmospheric oxygen for combustion instead of carrying an oxidizer.",
+    "pageNumbers": [
+      57,
+      58
+    ],
+    "examUse": "Reason-Assertion question on why air-breathing engines are preferred for certain flight profiles.",
+    "distractorHooks": [
+      "Stating Scramjets carry their own oxidizer",
+      "Claiming rockets use atmospheric oxygen"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-029-tactical-missiles-and-air-breathing-engines-section-002-scramjet-engine-and-hypersonic-weapons",
+    "claimType": "Technical Feature",
+    "claimText": "Hypersonic weapons travel at speeds of Mach 5 or faster and fly at lower altitudes compared to ballistic missiles, making them more difficult to track.",
+    "evidenceExcerpt": "Hypersonic weapons travel at Mach 5 or faster and fly at lower altitudes than ballistic missiles, making them harder to track.",
+    "pageNumbers": [
+      57,
+      58
+    ],
+    "examUse": "Statement-based question on the advantages and flight profile of hypersonic weapons.",
+    "distractorHooks": [
+      "Claiming hypersonic weapons fly at higher altitudes than ballistic missiles",
+      "Stating hypersonic weapons travel below Mach 5"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-029-tactical-missiles-and-air-breathing-engines-section-002-scramjet-engine-and-hypersonic-weapons",
+    "claimType": "Comparison",
+    "claimText": "Hypersonic Glide Vehicles (HGV) glide to their targets after being launched from rockets, whereas Hypersonic Cruise Missiles (HCM) are powered throughout their flight by Scramjet engines.",
+    "evidenceExcerpt": "Hypersonic Glide Vehicles (HGV) are launched from rockets and glide to targets, whereas Hypersonic Cruise Missiles (HCM) are powered throughout flight by Scramjet engines.",
+    "pageNumbers": [
+      57,
+      58
+    ],
+    "examUse": "Correct-pair or statement-based question distinguishing between types of hypersonic weapons.",
+    "distractorHooks": [
+      "Swapping the definitions of HGV and HCM",
+      "Claiming HGVs are powered by Scramjets throughout their flight"
+    ]
+  }
+]

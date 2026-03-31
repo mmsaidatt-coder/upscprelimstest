@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Securities and Exchange Board of India (SEBI):\n1. It was originally constituted as a non-statutory body and later acquired statutory status.\n2. For the purpose of enforcement, it possesses the powers of a civil court.\n3. To maintain regulatory independence, its governing board excludes representation from the Reserve Bank of India (RBI).\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: SEBI was established in 1988 as a non-statutory body and became a statutory body later under the SEBI Act of 1992. Statement 2 is correct: SEBI possesses civil court powers under the Code of Civil Procedure, 1908, for enforcement purposes. Statement 3 is incorrect: The SEBI Board includes one member from the RBI, along with two from the Finance Ministry and five Union Government nominees.",
+      "takeaway": "SEBI's transition to a statutory body in 1992 granted it civil court powers. Its board is designed to include cross-regulatory representation, including the RBI and the Finance Ministry.",
+      "evidenceExcerpt": "SEBI was established in 1988 and became a statutory body under the SEBI Act of 1992. It has civil court powers for enforcement. Its board includes nominees from the Union Government, Finance Ministry, and RBI.",
+      "qualityScore": 85,
+      "reviewNotes": "Excellent use of the 'How many statements are correct' format. The distractor in statement 3 uses a logical but incorrect premise ('to maintain regulatory independence') which is a classic UPSC trap."
+    }
+  ],
+  "reviewerNotes": "All three questions were retained and refined to better match the UPSC CSE Prelims style. The options in the first question were made more parallel and formal. The second question effectively utilizes the 'How many statements' format with a strong distractor. The third question accurately tests the conceptual differences and recent regulatory updates regarding REITs and InvITs."
+}

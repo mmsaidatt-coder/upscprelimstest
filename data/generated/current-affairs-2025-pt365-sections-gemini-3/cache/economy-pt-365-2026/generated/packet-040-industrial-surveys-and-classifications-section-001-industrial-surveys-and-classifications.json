@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Comparison-driven",
+      "prompt": "Based on the Annual Survey of Industries (ASI) 2023-24, which of the following statements correctly distinguishes the performance of Indian states in terms of Gross Value Added (GVA) and Employment?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Gujarat is the top-performing state in both Gross Value Added (GVA) and total industrial employment."
+        },
+        {
+          "id": "B",
+          "text": "Maharashtra leads in Gross Value Added (GVA), while Tamil Nadu leads in the share of industrial employment."
+        },
+        {
+          "id": "C",
+          "text": "Tamil Nadu ranks first in Gross Value Added (GVA), whereas Maharashtra leads in employment growth."
+        },
+        {
+          "id": "D",
+          "text": "Uttar Pradesh and Karnataka are among the top three states in both GVA and industrial employment."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "According to the ASI 2023-24 highlights, Maharashtra (16%) is the top state by GVA, followed by Gujarat and Tamil Nadu. However, in terms of employment share, Tamil Nadu is the leading state, followed by Gujarat and Maharashtra. Uttar Pradesh and Karnataka are in the top five for both, but not the top three for both (UP is 4th/5th).",
+      "takeaway": "While Maharashtra dominates industrial value addition (GVA), Tamil Nadu remains the leader in industrial employment generation.",
+      "evidenceExcerpt": "Top States (GVA): Maharashtra (16%), Gujarat, Tamil Nadu, Karnataka, and Uttar Pradesh... Top 5 States (Employment): Tamil Nadu, Gujarat, Maharashtra, Uttar Pradesh, and Karnataka had the highest employment share."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "In the context of industrial surveys in India, how is 'Net Value Added' (NVA) calculated as per the definitions used in the Annual Survey of Industries (ASI)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Total Output minus Total Input"
+        },
+        {
+          "id": "B",
+          "text": "Total Output minus Depreciation"
+        },
+        {
+          "id": "C",
+          "text": "Total Output minus Total Input minus Depreciation"
+        },
+        {
+          "id": "D",
+          "text": "Gross Value Added plus Fixed Capital"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "As per the ASI definitions: Gross Value Added (GVA) is Total Output minus Total Input. Net Value Added (NVA) is derived by subtracting Depreciation from the GVA (which is Total Output - Total Input). Therefore, NVA = Total Output - Total Input - Depreciation.",
+      "takeaway": "Net Value Added (NVA) accounts for the consumption of fixed capital (depreciation) unlike Gross Value Added (GVA).",
+      "evidenceExcerpt": "Gross Value Added (GVA): Additional Value created in production = total output - total input. Net Value Added (NVA): total output - total input - depreciation.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Comparison-driven",
+      "prompt": "In the context of industrial data collection in India, how does the Annual Survey of Industries (ASI) differ from the Index of Industrial Production (IIP)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ASI measures the short-term volume of production, whereas IIP provides insights into long-term structural changes in manufacturing."
+        },
+        {
+          "id": "B",
+          "text": "ASI is compiled by the Ministry of Commerce and Industry, while IIP is compiled by the Ministry of Statistics and Programme Implementation."
+        },
+        {
+          "id": "C",
+          "text": "ASI includes departmental units like railway workshops, whereas IIP excludes them."
+        },
+        {
+          "id": "D",
+          "text": "ASI captures comprehensive value-added and capital formation data, whereas IIP is a composite indicator of production volume."
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Option D is correct because the ASI is designed to provide meaningful insights into changes in composition, growth, and structure (including value added and capital formation), while the IIP is a short-term indicator measuring the volume of production. Option A is the reverse of the truth. Option B is incorrect as both are under MoSPI. Option C is incorrect because ASI specifically excludes departmental units like railway workshops.",
+      "takeaway": "ASI is a structural, value-based annual survey, whereas IIP is a high-frequency volume-based monthly indicator.",
+      "evidenceExcerpt": "ASI: It aims to provide meaningful insights into changes in the composition, growth, and structure of manufacturing industries, including output, value added, employment, and capital formation. IIP: Composite indicator measuring the short-term changes in the volume of production of a basket of industrial products.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "In the methodology of the Annual Survey of Industries (ASI), the term 'Fixed Capital' is defined as:",
+      "options": [
+        {
+          "id": "A",
+          "text": "The total value of output minus the total value of input and depreciation."
+        },
+        {
+          "id": "B",
+          "text": "The depreciated value of long-term assets used in the production process."
+        },
+        {
+          "id": "C",
+          "text": "The total investment in raw materials and wages for a single accounting year."
+        },
+        {
+          "id": "D",
+          "text": "The gross value of all assets before accounting for any depreciation."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "As per the ASI definitions, Fixed Capital refers to the depreciated value of long-term assets such as buildings, machines, and land used in production. Option A describes Net Value Added (NVA).",
+      "takeaway": "Fixed Capital in industrial surveys specifically refers to the net (depreciated) value of physical long-term assets.",
+      "evidenceExcerpt": "Fixed Capital: Depreciated value of long-term assets (buildings, machines, land) used in production.",
+      "contextLines": []
+    }
+  ]
+}

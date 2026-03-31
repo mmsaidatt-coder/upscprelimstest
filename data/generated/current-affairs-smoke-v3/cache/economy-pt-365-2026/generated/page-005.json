@@ -1,0 +1,294 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Regarding the qualitative tools of the Reserve Bank of India's monetary policy, which of the following statements is/are correct?1. Moral Suasion involves issuing binding directives to banks to ensure compliance with policy objectives.2. Margin Requirements are primarily used to influence the loan-to-value ratio, thereby curbing speculative activities.3. Direct Action refers to the selective influence on the overall volume of credit in the economy.",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect. Moral Suasion is described as 'non-binding but effective' persuasion and advising, not binding directives. Statement 2 is correct. Margin Requirements involve 'Changing the loan-to-value (LTV) ratio' and are 'Used to curb speculation'. Statement 3 is incorrect. Qualitative tools 'Selectively influence credit flow to specific sectors' (direction of credit), whereas quantitative tools 'Directly impact the overall money supply' (volume of credit). Direct Action is a qualitative tool, hence it influences the direction, not the overall volume of credit.",
+      "takeaway": "Differentiate between the nature and objectives of various qualitative monetary policy tools, especially their non-binding nature and focus on the direction of credit.",
+      "evidenceExcerpt": "QUALITATIVE TOOLS (Direction of Credit)Selectively influence credit flow to specific sectorsMORAL SUASIONPersuading and advising banks to follow policy directives through dialogue and letters. Non-binding but effective.MARGIN REQUIREMENTSChanging the loan-to-value (LTV) ratio. Higher margin = less loan amount for collateral. Used to curb speculation.DIRECT ACTIONPenalties, restrictions, or sanctions imposed on banks for non-compliance with RBI guidelines."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Comparison-based",
+      "prompt": "Which of the following statements correctly distinguishes between quantitative and qualitative tools of the RBI's monetary policy?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Quantitative tools directly impact the overall money supply, while qualitative tools selectively influence credit flow to specific sectors."
+        },
+        {
+          "id": "B",
+          "text": "Quantitative tools are non-binding recommendations, while qualitative tools involve direct penalties for non-compliance."
+        },
+        {
+          "id": "C",
+          "text": "Quantitative tools include Margin Requirements and Moral Suasion, while qualitative tools include Repo Rate and CRR."
+        },
+        {
+          "id": "D",
+          "text": "Quantitative tools aim for price stability, while qualitative tools primarily target economic growth."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Option A correctly states the fundamental distinction: Quantitative tools (like Repo, CRR, SLR) 'Directly impact the overall money supply' (volume of credit), while Qualitative tools (like Moral Suasion, Margin Requirements, Direct Action) 'Selectively influence credit flow to specific sectors' (direction of credit). Option B is incorrect as quantitative tools are binding, and qualitative tools are not all about penalties. Option C incorrectly swaps the examples of quantitative and qualitative tools. Option D is incorrect as both types of tools contribute to the overall objective of price stability and economic growth.",
+      "takeaway": "Understand the core distinction between quantitative and qualitative monetary policy tools based on their primary impact on credit volume versus credit direction.",
+      "evidenceExcerpt": "QUANTITATIVE TOOLS (Volume of Credit)Directly impact the overall money supplyQUALITATIVE TOOLS (Direction of Credit)Selectively influence credit flow to specific sectors"
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Regarding the Reserve Bank of India's Economic Capital Framework (ECF), consider the following statements:\n1. The ECF was adopted in 2019 based on the recommendations of the Urjit Patel Committee.2. It provides a methodology for determining risk provisions and profit distribution under Section 47 of the RBI Act, 1934.3. The Contingency Fund (CF) is a component of RBI's Realized Equity under the ECF.Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect. The ECF was adopted in 2019 based on the recommendations of the Bimal Jalan Committee, not the Urjit Patel Committee. Statement 2 is correct. The ECF 'provides a methodology for determining the appropriate level of risk provisions and profit distribution to be made under Section 47 of the RBI Act, 1934'. Statement 3 is correct. The Contingency Fund (CF) is explicitly listed as a component of 'Realized Equity' under ECF.",
+      "takeaway": "Remember the genesis, purpose, and key components of the Economic Capital Framework, including the committee that recommended it.",
+      "evidenceExcerpt": "About the Economic Capital Framework (ECF)Genesis: ECF was adopted by RBI in 2019, based on the recommendations of the Bimal Jalan Committee.Concept: ECF provides a methodology for determining the appropriate level of risk provisions and profit distribution to be made under Section 47 of the RBI Act, 1934.Components of Economic Capital under ECF:Realized Equity: This consists of RBI’s Capital, Reserve Fund, Contingency Fund (CF), and Asset Development Fund (ADF)."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Feature-matching",
+      "prompt": "Which of the following are components of 'Realized Equity' under the Reserve Bank of India's Economic Capital Framework (ECF)?1. RBI's Capital2. Reserve Fund3. Contingency Fund (CF)4. Asset Development Fund (ADF)Select the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1, 2 and 3 only"
+        },
+        {
+          "id": "B",
+          "text": "1, 2, 3 and 4"
+        },
+        {
+          "id": "C",
+          "text": "2, 3 and 4 only"
+        },
+        {
+          "id": "D",
+          "text": "1 and 4 only"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The source explicitly states: 'Realized Equity: This consists of RBI’s Capital, Reserve Fund, Contingency Fund (CF), and Asset Development Fund (ADF).' Therefore, all four listed options are components of Realized Equity under the ECF.",
+      "takeaway": "Familiarize yourself with the specific components that constitute 'Realized Equity' within the RBI's Economic Capital Framework.",
+      "evidenceExcerpt": "Components of Economic Capital under ECF:Realized Equity: This consists of RBI’s Capital, Reserve Fund, Contingency Fund (CF), and Asset Development Fund (ADF)."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Objective-based",
+      "prompt": "The Economic Capital Framework (ECF) adopted by the Reserve Bank of India primarily aims to:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Determine the appropriate level of foreign exchange reserves for the country."
+        },
+        {
+          "id": "B",
+          "text": "Provide a methodology for determining risk provisions and profit distribution to the government."
+        },
+        {
+          "id": "C",
+          "text": "Regulate the lending rates of commercial banks to ensure price stability."
+        },
+        {
+          "id": "D",
+          "text": "Establish guidelines for the management of public debt by the Central Government."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The ECF's concept is clearly stated as providing 'a methodology for determining the appropriate level of risk provisions and profit distribution to be made under Section 47 of the RBI Act, 1934.' Options A, C, and D describe other functions or objectives related to the RBI or economic policy but are not the primary aim of the ECF itself.",
+      "takeaway": "Understand the core purpose of the Economic Capital Framework, which is distinct from other RBI functions like foreign exchange management or monetary policy rate setting.",
+      "evidenceExcerpt": "Concept: ECF provides a methodology for determining the appropriate level of risk provisions and profit distribution to be made under Section 47 of the RBI Act, 1934."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Applied/Comparative",
+      "prompt": "Which of the following statements best highlights a key difference in the operational nature between 'Moral Suasion' and 'Direct Action' as qualitative monetary policy tools of the RBI?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Moral Suasion involves issuing binding directives, whereas Direct Action relies on persuasive dialogue."
+        },
+        {
+          "id": "B",
+          "text": "Direct Action primarily influences the loan-to-value ratio, while Moral Suasion targets specific sectors."
+        },
+        {
+          "id": "C",
+          "text": "Moral Suasion is non-binding and relies on persuasion, whereas Direct Action involves imposing penalties for non-compliance."
+        },
+        {
+          "id": "D",
+          "text": "Both tools are primarily used to absorb excess liquidity from the banking system."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Moral Suasion is a non-binding tool where the RBI persuades banks through dialogue and letters. In contrast, Direct Action involves imposing penalties, restrictions, or sanctions on banks for non-compliance, making it a binding and punitive measure.",
+      "takeaway": "Understand the distinct operational mechanisms and enforceability of different qualitative monetary policy tools like Moral Suasion and Direct Action.",
+      "evidenceExcerpt": "MORAL SUASION: Persuading and advising banks to follow policy directives through dialogue and letters. Non-binding but effective. DIRECT ACTION: Penalties, restrictions, or sanctions imposed on banks for non-compliance with RBI guidelines."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Applied/Comparative",
+      "prompt": "With reference to the Reserve Bank of India's quantitative monetary policy tools, consider the following statements regarding Cash Reserve Ratio (CRR) and Statutory Liquidity Ratio (SLR):1. Funds maintained under CRR are kept with the RBI, while funds under SLR are maintained by banks themselves.2. Banks earn interest on the funds maintained under SLR, but not on funds under CRR.Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: CRR requires banks to keep a percentage of NDTL as cash with the RBI, while SLR requires banks to maintain a percentage of NDTL in liquid assets (gold, bonds, cash) by themselves. Statement 2 is also correct: No interest is paid on CRR funds, whereas SLR assets (like government bonds) typically earn interest.",
+      "takeaway": "Differentiate between CRR and SLR based on where the funds are held and whether they earn interest, understanding their distinct impact on bank liquidity.",
+      "evidenceExcerpt": "CRR (Cash Reserve Ratio): % of net demand & time liabilities (NDTL) banks must keep as CASH with RBI. No interest paid. SLR (Statutory Liquidity Ratio): % of NDTL banks must maintain in LIQUID ASSETS (Gold, Bonds, Cash) by themselves."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Rationale/Implication",
+      "prompt": "Under the Reserve Bank of India's Economic Capital Framework (ECF), the 'Realized Equity' components (comprising RBI’s Capital, Reserve Fund, Contingency Fund, and Asset Development Fund) primarily serve which of the following functions?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "To facilitate the government's short-term borrowing requirements from the market."
+        },
+        {
+          "id": "B",
+          "text": "To provide a methodology for determining appropriate risk provisions and profit distribution."
+        },
+        {
+          "id": "C",
+          "text": "To absorb unforeseen losses and maintain financial resilience for the central bank."
+        },
+        {
+          "id": "D",
+          "text": "To manage the day-to-day liquidity operations of commercial banks."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Realized Equity components like Capital, Reserve Fund, Contingency Fund, and Asset Development Fund represent the RBI's own funds and reserves. Their primary function is to provide a buffer against various risks and unforeseen losses, thereby ensuring the financial resilience and stability of the central bank.",
+      "takeaway": "Understand the strategic purpose of 'Realized Equity' within the ECF, which is to bolster the RBI's financial strength and capacity to absorb risks.",
+      "evidenceExcerpt": "Components of Economic Capital under ECF: o Realized Equity: This consists of RBI’s Capital, Reserve Fund, Contingency Fund (CF), and Asset Development Fund (ADF)."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Applied/Scenario",
+      "prompt": "If the Reserve Bank of India identifies excessive speculative activity in a specific sector of the economy, but does not intend to significantly alter the overall money supply, which of the following monetary policy tools would it most appropriately employ?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Increasing the Repo Rate to make credit more expensive across the board."
+        },
+        {
+          "id": "B",
+          "text": "Raising the Cash Reserve Ratio (CRR) to reduce the lendable funds of banks generally."
+        },
+        {
+          "id": "C",
+          "text": "Implementing higher Margin Requirements for loans against collateral in that specific sector."
+        },
+        {
+          "id": "D",
+          "text": "Engaging in Reverse Repo operations to absorb excess liquidity from the banking system."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The prompt specifies targeting a 'specific sector' and 'not significantly altering overall money supply.' Quantitative tools like Repo Rate, CRR, and Reverse Repo operations impact the overall volume of credit/money supply. Margin Requirements, a qualitative tool, selectively influence credit flow by changing the loan-to-value ratio, directly curbing speculation in targeted sectors without broad monetary impact.",
+      "takeaway": "Distinguish between quantitative and qualitative tools based on their impact (overall money supply vs. selective credit flow) and apply the appropriate tool to a given policy objective.",
+      "evidenceExcerpt": "QUALITATIVE TOOLS (Direction of Credit): Selectively influence credit flow to specific sectors. MARGIN REQUIREMENTS: Changing the loan-to-value (LTV) ratio. Higher margin = less loan amount for collateral. Used to curb speculation."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Comparative/Distinction",
+      "prompt": "With reference to the Economic Capital Framework (ECF) of the Reserve Bank of India, consider the following statements:\n1. The ECF was adopted based on the recommendations of the Bimal Jalan Committee.2. The ECF is an integral part of the Enterprise-wide Risk Management (ERM) framework.Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Both statements are correct. The ECF was indeed adopted in 2019 based on the recommendations of the Bimal Jalan Committee. Additionally, the ECF is explicitly stated to be an integral part of the Enterprise-wide Risk Management (ERM) framework, which was established in 2012.",
+      "takeaway": "Understand both the genesis (Bimal Jalan Committee recommendations) and the contextual integration (part of ERM framework) of the RBI's Economic Capital Framework.",
+      "evidenceExcerpt": "Genesis: ECF was adopted by RBI in 2019, based on the recommendations of the Bimal Jalan Committee. o The ECF is an integral part of the Enterprise-wide Risk Management (ERM) framework (2012)."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Applied Concept",
+      "prompt": "A central bank's decision to significantly increase the proportion of gold in its foreign exchange reserves, at the expense of foreign currency assets, implies a strategic prioritization of which of the following?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Maximizing short-term yield and ensuring high liquidity."
+        },
+        {
+          "id": "B",
+          "text": "Hedging against inflation and currency volatility over generating regular income."
+        },
+        {
+          "id": "C",
+          "text": "Reducing the costs associated with storage and security of reserve assets."
+        },
+        {
+          "id": "D",
+          "text": "Enhancing the ease and speed of liquidating assets during a financial crisis."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The text states that gold is accumulated as a hedge against inflation and to protect against currency volatility. However, it also notes that gold yields no interest (unlike bonds, which are a major part of foreign currency assets) and has reduced liquidity. Therefore, choosing to hold more gold implies prioritizing its hedging properties over the income generation (regular income) and high liquidity offered by other assets.",
+      "takeaway": "Understand the strategic trade-offs involved in managing foreign exchange reserves, particularly the distinct characteristics of gold (hedge, zero yield, lower liquidity) versus foreign currency assets (yield-bearing, high liquidity).",
+      "evidenceExcerpt": "Hedge against Inflation: Gold is accumulated as a hedge against inflation... Risk Mitigation: Help protect against currency volatility... Zero Yield: Gold yields no interest or dividends... Reduced Liquidity and Flexibility: Converting large gold holdings to cash... is slower and costlier than liquidating foreign currency assets."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Reserve Bank of India's management of gold within its foreign exchange reserves:\n1. One of the primary objectives of increasing gold reserves is to reduce dependency on the US dollar.\n2. Unlike foreign currency assets held in government bonds, gold reserves do not generate any interest or dividend income.\n3. Holding physical gold enhances the overall liquidity of the forex reserves, allowing for quicker conversion to cash in emergencies.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct as the text mentions diversification to 'reduce dependency on the US dollar (de-dollarization)'. Statement 2 is correct as the text explicitly states 'Zero Yield: Gold yields no interest or dividends'. Statement 3 is incorrect; the text highlights 'Reduced Liquidity and Flexibility' as a risk, noting that converting gold to cash is slower and costlier than liquidating foreign currency assets.",
+      "takeaway": "Be clear about the rationale, benefits (diversification, hedge), and drawbacks (zero yield, lower liquidity, storage costs) of a central bank holding gold as part of its forex reserves.",
+      "evidenceExcerpt": "Diversification: Diversify the foreign currency assets base and reduce dependency on the US dollar (de-dollarization)... Zero Yield: Gold yields no interest or dividends, unlike bonds or currency deposits... Reduced Liquidity and Flexibility: Converting large gold holdings to cash during is slower and costlier than liquidating foreign currency assets."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the components of India's Foreign Exchange Reserves, consider the following statements:\n1. The Reserve Tranche Position (RTP) represents the portion of a member's quota that can be withdrawn from the IMF without facing strict conditionality.\n2. Both Foreign Currency Assets (FCA) and Gold Reserves are subject to revaluation risks arising from price and exchange rate movements.\n3. Special Drawing Rights (SDRs) are created by the IMF and function as a claim on the freely usable currencies of member countries, but they are not interest-bearing.",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct as the text defines RTP as being 'readily available for withdrawal without strict conditions'. Statement 2 is also correct. The text mentions 'Revaluation Balances' result from 'exchange rate, gold price and interest rate movements', which affect both FCA and Gold. It also cites risk mitigation against 'currency volatility and the resulting revaluation risks'. Statement 3 is incorrect because the text explicitly states that Special Drawing Rights are an 'interest-bearing reserve asset'.",
+      "takeaway": "Understand the distinct characteristics of each component of forex reserves. RTP is a drawing right related to a member's quota, both FCA and Gold are assets subject to market price fluctuations (revaluation), and SDRs are interest-bearing assets created by the IMF.",
+      "evidenceExcerpt": "Reserve Tranche Position (RTP): It is the difference between the member's quota and the IMF's holdings of the member's currency that is readily available for withdrawal without strict conditions... Revaluation Balances: The unrealized gains, net of losses, resulting from exchange rate, gold price and interest rate movements... Special Drawing Rights: An interest-bearing reserve asset created by the IMF..."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Institution-Function",
+      "prompt": "Which of the following best describes the primary function of the Contingent Risk Buffer (CRB) within the Reserve Bank of India's economic capital framework?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "To account for unrealized gains from fluctuations in gold prices and exchange rates."
+        },
+        {
+          "id": "B",
+          "text": "To act as a provision for mitigating risks to monetary and financial stability."
+        },
+        {
+          "id": "C",
+          "text": "To supplement the Special Drawing Rights (SDRs) allocated by the IMF."
+        },
+        {
+          "id": "D",
+          "text": "To cover the costs associated with the storage and security of physical gold reserves."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The source text explicitly defines the Contingent Risk Buffer (CRB) as a component of RBI's realized equity 'to provide for monetary and financial stability, credit, and operational risks.' Option B is the most accurate summary of this function. Option A describes the role of 'Revaluation Balances'. Option C is incorrect as CRB is an internal RBI buffer, unrelated to IMF allocations. Option D is an operational cost, which might fall under operational risk, but the primary function of CRB is much broader, focusing on overall stability.",
+      "takeaway": "Distinguish between the different components of the RBI's economic capital. The Contingent Risk Buffer (CRB) is part of realized equity to cover actual risks, while Revaluation Balances handle unrealized, mark-to-market gains/losses.",
+      "evidenceExcerpt": "Contingent Risk Buffer (CRB): Component of RBI's realized equity to provide for monetary and financial stability, credit, and operational risks."
+    }
+  ]
+}

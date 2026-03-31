@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Reserve Bank of India's (RBI) revised directions for Co-Lending Arrangements (CLAs):\n\n1. These arrangements facilitate joint credit extension by both banks and Non-bank Financial Companies (NBFCs).\n2. Each participating lender is mandated to retain a minimum of 10% of the individual loan on its own books.\n3. In a co-lent loan that qualifies under Priority Sector Lending (PSL) norms, only the share held by the bank is eligible for PSL status.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct. Co-Lending Arrangements (CLAs) are designed for Regulated Entities (REs) like banks and Non-bank Financial Companies (NBFCs) to jointly extend credit to borrowers. Statement 2 is correct. The revised RBI guidelines explicitly state that each lending entity must retain a minimum of 10% of the loan's share on its books. Statement 3 is incorrect. The guidelines allow each lender, not just the bank, to claim Priority Sector Lending (PSL) status for its respective share of the loan, provided the loan itself qualifies under PSL norms.",
+      "takeaway": "The Co-Lending Arrangement (CLA) is a framework by the RBI that allows banks and NBFCs to jointly finance borrowers. Key features include a minimum 10% loan retention by each lender on their books and the eligibility for both lenders to claim Priority Sector Lending (PSL) status for their respective loan shares.",
+      "evidenceExcerpt": "The RBI has issued revised directions for Co-Lending Arrangements (CLAs) between Regulated Entities (REs) like banks and Non-bank Financial Companies (NBFCs). ... Key revised guidelines state that each lending entity must retain a minimum of 10% share of the loans on its books. Additionally, each lender can claim Priority Sector Lending (PSL) status for its respective share of the loan, provided the loan qualifies under PSL norms."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "What is the most logical regulatory objective behind the RBI's stipulation that in a Co-Lending Arrangement, each participating entity must retain a minimum share of the loan on its own books?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "To ensure both lenders maintain 'skin in the game', thereby encouraging prudent credit assessment and monitoring."
+        },
+        {
+          "id": "B",
+          "text": "To restrict the flow of credit from banks to the NBFC sector to prevent systemic risk concentration."
+        },
+        {
+          "id": "C",
+          "text": "To enable NBFCs to transfer their entire credit risk to banks while retaining customer relationships."
+        },
+        {
+          "id": "D",
+          "text": "To guarantee that the Priority Sector Lending benefits are exclusively claimed by the banks."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "The requirement for each lender to retain a portion of the loan on their books (minimum 10% as per the source) is a standard regulatory tool to ensure that all parties involved in lending have a vested interest in the quality of the loan. This is often referred to as 'skin in the game'. It discourages reckless lending, as the originating or participating entity cannot simply pass on all the risk to another party.",
+      "takeaway": "Co-lending models are designed to leverage the strengths of both banks and NBFCs, but with safeguards like minimum risk retention to ensure responsible lending practices from all participants.",
+      "evidenceExcerpt": "Key revised guidelines state that each lending entity must retain a minimum of 10% share of the loans on its books."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Application",
+      "prompt": "Under the RBI's Co-Lending Arrangements, a bank and an NBFC jointly fund a loan that qualifies under Priority Sector Lending (PSL) norms. The bank contributes 70% of the loan amount and the NBFC contributes 30%. Which of the following accurately reflects how PSL status would be applied to this loan?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The entire loan amount will be treated as PSL for the bank, as it is the majority contributor."
+        },
+        {
+          "id": "B",
+          "text": "Both the bank and the NBFC can claim PSL status for their respective shares of the loan."
+        },
+        {
+          "id": "C",
+          "text": "Only the bank's share will be eligible for PSL status, as NBFCs are not mandated to meet PSL targets."
+        },
+        {
+          "id": "D",
+          "text": "The loan will lose its PSL status because it is originated through a co-lending arrangement."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The RBI guidelines for Co-Lending Arrangements specify that if a co-lent loan qualifies under Priority Sector Lending norms, each of the participating lenders can claim PSL status for their respective share of the credit. In this scenario, the bank can claim PSL status for its 70% contribution, and the NBFC can claim it for its 30% contribution.",
+      "takeaway": "The co-lending model allows both banks and NBFCs to benefit from Priority Sector Lending classification on their respective shares of a qualifying loan, encouraging lending to these priority sectors.",
+      "evidenceExcerpt": "Additionally, each lender can claim Priority Sector Lending (PSL) status for its respective share of the loan, provided the loan qualifies under PSL norms."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-029-tactical-missiles-and-air-breathing-engines-section-003-gsat-7r-cms-03-satellite",
+    "claimType": "Launch Vehicle and Orbit",
+    "claimText": "GSAT-7R (CMS-03) was launched aboard ISRO's LVM3 and is designed to eventually settle in a Geostationary Orbit.",
+    "evidenceExcerpt": "GSAT-7R (CMS-03) was launched aboard ISRO's LVM3 into a Geosynchronous Transfer Orbit (GTO) to eventually settle in Geostationary Orbit.",
+    "pageNumbers": [
+      58
+    ],
+    "examUse": "Statement-based question on the launch vehicle and final orbit of the GSAT-7R satellite.",
+    "distractorHooks": [
+      "Launched via PSLV instead of LVM3",
+      "Settles in Low Earth Orbit (LEO) or Sun-Synchronous Orbit instead of Geostationary Orbit"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-029-tactical-missiles-and-air-breathing-engines-section-003-gsat-7r-cms-03-satellite",
+    "claimType": "Coverage and Range",
+    "claimText": "GSAT-7R provides multi-band telecommunication services across the Indian Ocean Region up to 2,000 km from India's coastline.",
+    "evidenceExcerpt": "It provides multi-band telecommunication services across the Indian Ocean Region up to 2,000 km from India's coastline.",
+    "pageNumbers": [
+      58
+    ],
+    "examUse": "Statement-based question testing the geographical coverage and range of the satellite's services.",
+    "distractorHooks": [
+      "Provides global coverage",
+      "Covers the Pacific Ocean region",
+      "Range is limited to 500 km from the coastline"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-029-tactical-missiles-and-air-breathing-engines-section-003-gsat-7r-cms-03-satellite",
+    "claimType": "Predecessor Replacement",
+    "claimText": "GSAT-7R has a 15-year lifespan and replaces the GSAT-7/INSAT-4F Rukmini satellite.",
+    "evidenceExcerpt": "It has a 15-year lifespan and replaces the GSAT-7/INSAT-4F Rukmini satellite.",
+    "pageNumbers": [
+      58
+    ],
+    "examUse": "Correct-pair or statement-based question identifying the predecessor satellite that GSAT-7R is replacing.",
+    "distractorHooks": [
+      "Replaces GSAT-7A (Angry Bird)",
+      "Replaces the RISAT series of satellites",
+      "Has a 5-year lifespan"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-029-tactical-missiles-and-air-breathing-engines-section-003-gsat-7r-cms-03-satellite",
+    "claimType": "Primary Beneficiary and Purpose",
+    "claimText": "The primary purpose of GSAT-7R is to strengthen maritime domain awareness and secure communication links specifically for the Indian Navy.",
+    "evidenceExcerpt": "Its primary purpose is to strengthen maritime domain awareness and secure communication links for the Indian Navy.",
+    "pageNumbers": [
+      58
+    ],
+    "examUse": "Statement-based question on the specific armed force benefiting from the GSAT-7R satellite.",
+    "distractorHooks": [
+      "Dedicated exclusively to the Indian Air Force",
+      "Dedicated to the Indian Army",
+      "Primarily a civilian telecommunication satellite"
+    ]
+  }
+]

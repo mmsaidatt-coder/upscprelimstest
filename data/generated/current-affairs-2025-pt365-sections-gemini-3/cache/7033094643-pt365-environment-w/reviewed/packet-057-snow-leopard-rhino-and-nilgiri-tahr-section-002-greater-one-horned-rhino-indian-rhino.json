@@ -1,0 +1,98 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Greater One-Horned Rhino, consider the following statements:\n1. It is listed under Appendix I of the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES).\n2. The Rhino DNA Index System (RhoDIS) India is a DNA data library used for the profiling of rhino horns.\n3. Assam holds the world's largest population of this species.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: The Greater One-Horned Rhino is listed under Schedule I of the Wildlife (Protection) Act, 1972, and Appendix I of CITES. Statement 2 is correct: The Assam Forest Department started DNA profiling of Rhino horns to add to the Rhino DNA Index System (RhoDIS) India DNA data library. Statement 3 is correct: Assam has the world's largest population of the Greater One-Horned Rhino, with more than 90% of them in Kaziranga National Park.",
+      "takeaway": "The Greater One-Horned Rhino is highly protected (WPA Schedule I, CITES Appendix I). Assam holds the largest global population, and RhoDIS India is used for DNA profiling of their horns.",
+      "evidenceExcerpt": "Assam Forest Department started DNA profiling of Rhino horns and add it to Rhino DNA Index System (RhoDIS) India DNA data library. Conservation Status: WPA, 1972: Schedule I; CITES: Appendix I... Habitat: Assam has the world's largest population.",
+      "qualityScore": 90,
+      "reviewNotes": "Rewrote the original candidate to remove a weak 'exclusively' distractor. The new statements comprehensively cover CITES status, the RhoDIS DNA library, and habitat distribution."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Greater One-Horned Rhino (Indian Rhino):\n1. It is the largest of all Asian rhino species.\n2. It is typically a solitary animal.\n3. It is listed as Critically Endangered on the IUCN Red List.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The Indian Rhino is the largest of all Asian rhino species. Statement 2 is correct: It is usually a solitary animal. Statement 3 is incorrect: The Greater One-Horned Rhino is listed as Vulnerable (VU) on the IUCN Red List, not Critically Endangered.",
+      "takeaway": "The Greater One-Horned Rhino is the largest Asian rhino, typically solitary, and holds a Vulnerable status on the IUCN Red List.",
+      "evidenceExcerpt": "IUCN Status: VU (Vulnerable)... Characteristics: One among 5 species of rhino... Indian Rhino is the largest of all Asian rhino species. Usually solitary.",
+      "qualityScore": 85,
+      "reviewNotes": "Good standard UPSC question testing species characteristics and conservation status. Distractors are plausible."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of Rhino species and their IUCN Red List status:\n1. White Rhino : Near Threatened\n2. Black Rhino : Critically Endangered\n3. Sumatran Rhino : Vulnerable\n4. Javan Rhino : Critically Endangered\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "Only three pairs"
+        },
+        {
+          "id": "D",
+          "text": "All four pairs"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Pair 1 is correctly matched: The White Rhino is Near Threatened. Pair 2 is correctly matched: The Black Rhino is Critically Endangered. Pair 3 is incorrectly matched: The Sumatran Rhino is Critically Endangered, not Vulnerable. Pair 4 is correctly matched: The Javan Rhino is Critically Endangered.",
+      "takeaway": "Among the 5 rhino species, the White Rhino is Near Threatened, the Indian Rhino is Vulnerable, and the Black, Sumatran, and Javan rhinos are all Critically Endangered.",
+      "evidenceExcerpt": "2 African: White Rhino (Near Threatened), Black Rhino (Critically Endangered). 3 Asian: Sumatran (Critically Endangered), Javan (Critically Endangered), and Indian Rhino.",
+      "qualityScore": 85,
+      "reviewNotes": "Excellent factual question testing the comparison of global rhino species statuses. Very aligned with recent UPSC trends."
+    }
+  ],
+  "reviewerNotes": "Selected and refined three questions. Question 1 tests the characteristics and IUCN status of the Indian Rhino. Question 2 is a correct-pair question testing the IUCN statuses of other global rhino species. Question 3 was rewritten to cover CITES status, the RhoDIS DNA library, and habitat distribution, removing the weak 'exclusively' distractor from the original candidate."
+}

@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Current Affairs",
+      "difficulty": "Hard",
+      "questionType": "Conceptual",
+      "prompt": "The 'Extended Fund Facility' (EFF) of the International Monetary Fund is specifically designed to assist countries facing which of the following economic challenges?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Short-term seasonal fluctuations in the balance of payments due to commodity price volatility."
+        },
+        {
+          "id": "B",
+          "text": "Serious payment imbalances arising from structural impediments or inherently weak balance-of-payments positions."
+        },
+        {
+          "id": "C",
+          "text": "Immediate liquidity crises caused by sudden capital flight in middle-income economies."
+        },
+        {
+          "id": "D",
+          "text": "Funding for long-term infrastructure projects aimed at poverty reduction in least-developed countries."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The EFF is intended for countries with serious medium-term balance of payments problems because of structural weaknesses that require time to address. Option A describes short-term facilities; Option D describes the role of the World Bank or concessional trusts like PRGT.",
+      "takeaway": "The EFF targets structural impediments rather than just temporary liquidity issues.",
+      "evidenceExcerpt": "EFF: It assists countries experiencing serious payment imbalances because of structural impediments or slow growth and an inherently weak balance-of-payments position.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "In the context of the IMF's governance, how is the voting power of a member country determined?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Each member country has exactly one vote, ensuring sovereign equality regardless of economic size."
+        },
+        {
+          "id": "B",
+          "text": "Voting power is solely determined by the amount of Special Drawing Rights (SDR) held by the country's central bank."
+        },
+        {
+          "id": "C",
+          "text": "It is the sum of basic votes, which are equally distributed, and additional votes based on the member's quota."
+        },
+        {
+          "id": "D",
+          "text": "The Executive Board assigns voting weights annually based on the country's share of global GDP."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The IMF's voting system is not purely equal (one-country-one-vote) nor purely based on wealth. It combines 'basic votes' (equal for all) and 'quota-based votes' (reflecting the member's financial commitment/quota).",
+      "takeaway": "IMF voting power is a hybrid of egalitarian basic votes and wealth-weighted quota votes.",
+      "evidenceExcerpt": "The votes of each member are equal to the sum of its basic votes (equally distributed among all members) and quota-based votes, so that a member’s quota determines its voting power.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Comparison-driven",
+      "prompt": "Which of the following best describes the difference between the IMF's General Resources Account (GRA) and its other lending facilities like the Poverty Reduction and Growth Trust (PRGT)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "GRA provides grants that do not require repayment, while PRGT provides high-interest commercial loans."
+        },
+        {
+          "id": "B",
+          "text": "GRA lending is conducted on non-concessional terms, whereas facilities like PRGT are typically concessional."
+        },
+        {
+          "id": "C",
+          "text": "GRA is only available to non-member countries, while PRGT is reserved for the 191 member states."
+        },
+        {
+          "id": "D",
+          "text": "GRA funds are disbursed in local currencies, while PRGT funds are disbursed exclusively in Gold."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The General Resources Account (GRA) involves lending on non-concessional terms (market-based interest rates). While the source text for PRGT is truncated, in the context of IMF lending instruments, the GRA is the standard non-concessional window, contrasted with concessional windows like PRGT for low-income countries.",
+      "takeaway": "The GRA is the IMF's primary non-concessional lending window for Balance of Payments support.",
+      "evidenceExcerpt": "General Resources Account (GRA): Lending on non-concessional terms through the Financial Transactions Plan mechanism. Aim: To resolve a country’s balance of payments (BoP) problems.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Identification",
+      "prompt": "The value of the Special Drawing Right (SDR) is currently based on a basket of five currencies. Which of the following is NOT included in this basket?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chinese Renminbi"
+        },
+        {
+          "id": "B",
+          "text": "Japanese Yen"
+        },
+        {
+          "id": "C",
+          "text": "Swiss Franc"
+        },
+        {
+          "id": "D",
+          "text": "British Pound Sterling"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The SDR basket consists of the US Dollar, Euro, Chinese Renminbi, Japanese Yen, and British Pound Sterling. The Swiss Franc is not part of the basket.",
+      "takeaway": "The SDR basket represents the world's most widely used and traded currencies, which currently excludes the Swiss Franc.",
+      "evidenceExcerpt": "Its value is based on a basket of five currencies: US Dollar, Euro, Chinese Renminbi, Japanese Yen, and British Pound Sterling.",
+      "contextLines": []
+    }
+  ]
+}

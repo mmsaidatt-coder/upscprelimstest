@@ -1,0 +1,77 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-037-advanced-materials-and-future-mobility-section-001-metal-organic-frameworks-mofs",
+    "claimType": "Factual",
+    "claimText": "Metal-Organic Frameworks (MOFs) are highly absorbent, porous materials inspired by diamond structures and are more absorbent than zeolites.",
+    "evidenceExcerpt": "MOFs are inspired by the structure of diamond and are more absorbent than zeolites.",
+    "pageNumbers": [
+      73
+    ],
+    "examUse": "Statement-based question comparing MOFs with zeolites or asking about their structural inspiration.",
+    "distractorHooks": [
+      "Inspired by graphite structures",
+      "Less absorbent than zeolites"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-037-advanced-materials-and-future-mobility-section-001-metal-organic-frameworks-mofs",
+    "claimType": "Application",
+    "claimText": "MOFs can be used to capture water vapour directly from dry or desert air.",
+    "evidenceExcerpt": "They can capture water vapour directly from desert air.",
+    "pageNumbers": [
+      73
+    ],
+    "examUse": "Application-based question on the uses of MOFs in water scarcity solutions.",
+    "distractorHooks": [
+      "Only work in highly humid environments",
+      "Cannot capture water vapour from air"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-037-advanced-materials-and-future-mobility-section-001-metal-organic-frameworks-mofs",
+    "claimType": "Application",
+    "claimText": "In food processing, MOF-based packaging increases shelf life by absorbing ethylene gas.",
+    "evidenceExcerpt": "In food processing, MOF-based packaging absorbs ethylene gas to increase shelf life.",
+    "pageNumbers": [
+      73
+    ],
+    "examUse": "Statement-based question on agricultural and food processing applications of MOFs.",
+    "distractorHooks": [
+      "Releases ethylene gas to ripen fruits faster",
+      "Absorbs oxygen to prevent oxidation but ignores ethylene"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-037-advanced-materials-and-future-mobility-section-001-metal-organic-frameworks-mofs",
+    "claimType": "Application",
+    "claimText": "MOFs are capable of extracting pollutants like PFAS and antibiotics from water, as well as mining rare-earth elements from wastewater.",
+    "evidenceExcerpt": "MOFs are used to extract pollutants like PFAS and antibiotics from water, and to mine rare-earth elements from wastewater.",
+    "pageNumbers": [
+      73
+    ],
+    "examUse": "Multiple-statement question on environmental and industrial applications of MOFs.",
+    "distractorHooks": [
+      "Cannot filter complex pollutants like PFAS",
+      "Used to add rare-earth elements to water"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-037-advanced-materials-and-future-mobility-section-001-metal-organic-frameworks-mofs",
+    "claimType": "Conceptual",
+    "claimText": "MOFs act as molecular storehouses that can trap and store specific gases such as hydrogen, carbon dioxide, and methane.",
+    "evidenceExcerpt": "They act as molecular storehouses for gases such as hydrogen, carbon dioxide, and methane.",
+    "pageNumbers": [
+      73
+    ],
+    "examUse": "Statement-based question on the gas storage capabilities of MOFs for clean energy and carbon capture.",
+    "distractorHooks": [
+      "Cannot store light gases like hydrogen",
+      "Only store liquids, not gases"
+    ]
+  }
+]

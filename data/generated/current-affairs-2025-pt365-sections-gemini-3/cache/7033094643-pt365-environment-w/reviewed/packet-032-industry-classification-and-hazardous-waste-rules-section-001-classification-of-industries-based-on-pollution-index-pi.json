@@ -1,0 +1,98 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-choice",
+      "prompt": "In the context of the classification of industries by the Central Pollution Control Board (CPCB), the term 'Blue Category' refers to:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "highly water-intensive industries that are mandated to achieve zero liquid discharge."
+        },
+        {
+          "id": "B",
+          "text": "marine and coastal industries regulated under the Coastal Regulation Zone (CRZ) notification."
+        },
+        {
+          "id": "C",
+          "text": "facilities providing Essential Environmental Services (ESSs) such as municipal solid waste management."
+        },
+        {
+          "id": "D",
+          "text": "practically non-polluting industries that are exempt from obtaining Environmental Clearance."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Option C is correct: The 'Blue' category in the CPCB's industrial classification framework specifically includes Essential Environmental Services (ESSs) for the management of waste, such as Municipal Solid Waste Management and sewage treatment plants.\nOptions A and B are incorrect as they are plausible distractors playing on the word 'Blue' (associating it with water or oceans), but do not reflect the CPCB classification.\nOption D is incorrect as it describes the 'White' category (PI < 25), not the Blue category.",
+      "takeaway": "The 'Blue Category' is a specialized classification under the CPCB framework dedicated to Essential Environmental Services (ESSs) that manage waste, distinguishing them from traditional manufacturing industries.",
+      "evidenceExcerpt": "Blue: Includes Essential Environmental Services (ESSs) for management of waste...",
+      "qualityScore": 90,
+      "reviewNotes": "Excellent conceptual question. The distractors are highly plausible because 'Blue' is often associated with water or marine environments in environmental parlance (e.g., Blue Economy, Blue Carbon). This tests genuine familiarity with the CPCB classification."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the classification of industries by the Central Pollution Control Board (CPCB):\n1. The categorization of industries based on their pollution load originated with the Doon Valley Notification.\n2. The Pollution Index (PI) used for this classification is formulated on the basis of the 'Polluter Pays Principle'.\n3. The Pollution Index (PI) score ranges from 0 to 100, with a higher value indicating a greater degree of pollution load.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: The classification of industries based on pollution originated in 1989 with the Doon Valley (Uttarakhand) Notification issued by the MoEFCC.\nStatement 2 is incorrect: The Pollution Index (PI) is determined based on the 'Precautionary Principle', not the 'Polluter Pays Principle'.\nStatement 3 is correct: The revised methodology uses a Pollution Index (PI) that ranges from 0 to 100, where an increasing value indicates an increased degree of pollution load.",
+      "takeaway": "The CPCB's industrial classification system traces its roots to the 1989 Doon Valley Notification. It uses a Pollution Index (0-100) grounded in the Precautionary Principle to categorize industries.",
+      "evidenceExcerpt": "Revised methodology followed based on Pollution Index (PI) - ranges from 0 to 100 with increasing value indicating increased degree of pollution load. PI is determined based on Precautionary Principle... Originated in 1989 with Doon Valley (Uttarakhand) Notification.",
+      "qualityScore": 85,
+      "reviewNotes": "Strong statement-based question that tests the historical origin, the guiding environmental principle, and the basic methodology of the Pollution Index. The distractor 'Polluter Pays Principle' is highly plausible for UPSC candidates."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs regarding the classification of industries based on the Pollution Index (PI):\n\nIndustry Category : Associated Feature\n1. Red Category : Normally prohibited in ecologically fragile areas\n2. White Category : Requires Consent to Establish but exempt from Environmental Clearance\n3. Blue Category : Includes Essential Environmental Services for waste management\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: Red category industries (PI > 80) have the highest pollution load and are normally not permitted in ecologically fragile areas.\nPair 2 is incorrectly matched: White category industries (PI < 25) are considered practically non-polluting and are entirely exempt from requiring both Environmental Clearance (EC) and Consent.\nPair 3 is correctly matched: The Blue category specifically includes Essential Environmental Services (ESSs) for the management of waste, such as sewage treatment plants.",
+      "takeaway": "Red category industries face strict location restrictions. White category industries are uniquely exempt from both Environmental Clearance and Consent requirements to promote ease of doing business for non-polluting sectors.",
+      "evidenceExcerpt": "Red (PI > 80): No Red category industries shall normally be permitted in ecologically fragile area... White (PI < 25): Non-polluting; do not require Environmental Clearance (EC) and Consent. Blue: Includes Essential Environmental Services (ESSs) for management of waste...",
+      "qualityScore": 85,
+      "reviewNotes": "Effectively uses the UPSC 'How many pairs' format to test the specific regulatory implications of different industry categories. The distractor in Pair 2 is subtle and tests precise knowledge of exemptions."
+    }
+  ],
+  "reviewerNotes": "Selected three high-quality questions that comprehensively cover the CPCB's industrial classification framework. Q1 tests the foundational methodology and history. Q2 tests the regulatory features of the categories using the modern pairs format. Q3 is a targeted conceptual question on the 'Blue Category' with very strong, UPSC-style distractors."
+}

@@ -1,0 +1,178 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Financial Fraud Risk Indicator (FRI):\n1. It is a risk-based metric launched by the Reserve Bank of India (RBI).\n2. It classifies mobile numbers into Medium, High, or Very High risk of financial fraud.\n3. It relies entirely on intelligence shared by commercial banks and non-banking financial companies.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect: FRI was launched by the Department of Telecommunications' (DoT) Digital Intelligence Unit (DIU), not the RBI. Statement 2 is correct: It classifies mobile numbers into Medium, High, or Very High risk categories. Statement 3 is incorrect: It does not rely entirely on banks; it also uses inputs from I4C's National Cybercrime Reporting Portal (NCRP) and DoT's Chakshu platform.",
+      "takeaway": "FRI is a DoT initiative that classifies mobile numbers into Medium, High, and Very High risk categories using multi-stakeholder data.",
+      "evidenceExcerpt": "Launched in May 2025 by DoT's Digital Intelligence Unit (DIU). A risk-based metric that classifies a mobile number to have been associated with Medium, High, or Very High risk of financial fraud. This classification is an outcome of inputs obtained from various stakeholders including reporting on Indian Cyber Crime Coordination Centre (I4C's) National Cybercrime Reporting Portal (NCRP), DoT's Chakshu platform, and Intelligence shared by banks and financial institutions."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of digital initiatives/platforms and their associated nodal entities:\n1. Chakshu platform : Department of Telecommunications\n2. National Cybercrime Reporting Portal : Indian Cyber Crime Coordination Centre\n3. Financial Fraud Risk Indicator : Digital Intelligence Unit\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "All three pairs are correctly matched. The Chakshu platform is under the DoT. The National Cybercrime Reporting Portal (NCRP) is under the Indian Cyber Crime Coordination Centre (I4C). The Financial Fraud Risk Indicator (FRI) was launched by the Digital Intelligence Unit (DIU).",
+      "takeaway": "Multiple agencies collaborate to combat financial fraud, including DoT's DIU and Chakshu platform, and I4C's NCRP.",
+      "evidenceExcerpt": "...reporting on Indian Cyber Crime Coordination Centre (I4C's) National Cybercrime Reporting Portal (NCRP), DoT's Chakshu platform... Launched in May 2025 by DoT's Digital Intelligence Unit (DIU)."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "The 'Financial Fraud Risk Indicator (FRI)', recently seen in the news, is best described as:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A metric used by the Reserve Bank of India to assess the systemic risk of commercial banks."
+        },
+        {
+          "id": "B",
+          "text": "A classification system for mobile numbers associated with financial fraud."
+        },
+        {
+          "id": "C",
+          "text": "An index published by the Ministry of Finance to rank states based on cybercrime vulnerability."
+        },
+        {
+          "id": "D",
+          "text": "A credit scoring model for individuals with a history of loan defaults."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Financial Fraud Risk Indicator (FRI) is a risk-based metric that classifies mobile numbers into different risk categories (Medium, High, Very High) based on their association with financial fraud.",
+      "takeaway": "FRI specifically targets mobile numbers used in financial frauds, rather than bank accounts or individual credit scores.",
+      "evidenceExcerpt": "A risk-based metric that classifies a mobile number to have been associated with Medium, High, or Very High risk of financial fraud."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-choice",
+      "prompt": "The Financial Fraud Risk Indicator (FRI) classifies mobile numbers associated with financial fraud into specific risk categories. Which of the following categories are included in this classification?\n1. Low\n2. Medium\n3. High\n4. Very High\nSelect the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1, 2 and 3 only"
+        },
+        {
+          "id": "B",
+          "text": "2, 3 and 4 only"
+        },
+        {
+          "id": "C",
+          "text": "1, 3 and 4 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2, 3 and 4"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The FRI classifies mobile numbers into Medium, High, or Very High risk of financial fraud. It does not include a 'Low' risk category.",
+      "takeaway": "The FRI classification intentionally omits a 'Low' risk category, focusing only on Medium, High, and Very High risk mobile numbers.",
+      "evidenceExcerpt": "A risk-based metric that classifies a mobile number to have been associated with Medium, High, or Very High risk of financial fraud."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "conceptual",
+      "prompt": "With reference to the operational mechanism of the Financial Fraud Risk Indicator (FRI), consider the following statements:\n1. It evaluates the transaction history of individual bank accounts to assign a financial fraud risk score.\n2. It functions on a cross-sectoral intelligence model that integrates inputs from telecom platforms, cybercrime portals, and financial institutions.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The FRI is a risk-based metric that classifies mobile numbers, not bank accounts or transaction histories, based on their association with financial fraud.\nStatement 2 is correct: The classification is an outcome of inputs from multiple stakeholders across sectors, including the DoT's Chakshu platform (telecom), I4C's National Cybercrime Reporting Portal (law enforcement/cybercrime), and intelligence shared by banks and financial institutions.",
+      "takeaway": "The FRI targets the telecom-finance nexus by profiling the risk of mobile numbers using a multi-stakeholder data aggregation approach rather than relying on traditional banking transaction histories.",
+      "evidenceExcerpt": "A risk-based metric that classifies a mobile number to have been associated with Medium, High, or Very High risk of financial fraud. This classification is an outcome of inputs obtained from various stakeholders including reporting on Indian Cyber Crime Coordination Centre (I4C's) National Cybercrime Reporting Portal (NCRP), DoT's Chakshu platform, and Intelligence shared by banks and financial institutions."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "applied",
+      "prompt": "Which of the following scenarios best illustrates the intended application of the Financial Fraud Risk Indicator (FRI) in India's digital ecosystem?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A credit information company lowering an individual's credit score due to repeated loan defaults."
+        },
+        {
+          "id": "B",
+          "text": "A digital payment platform evaluating the fraud probability of a transaction based on the risk category of the user's registered mobile number."
+        },
+        {
+          "id": "C",
+          "text": "The Reserve Bank of India imposing prompt corrective action on a bank for high non-performing assets."
+        },
+        {
+          "id": "D",
+          "text": "A telecom operator automatically blocking international roaming services on devices suspected of spam calling."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Financial Fraud Risk Indicator (FRI) is a metric that classifies a mobile number as having a Medium, High, or Very High risk of being associated with financial fraud. Its intended application is to help stakeholders, such as financial institutions and digital platforms, assess the risk of fraud linked to a specific mobile number (Option B), rather than evaluating creditworthiness (Option A), bank health (Option C), or general telecom spam (Option D).",
+      "takeaway": "The FRI bridges telecom and financial security by allowing institutions to gauge fraud risk based on the mobile number associated with a user or transaction.",
+      "evidenceExcerpt": "A risk-based metric that classifies a mobile number to have been associated with Medium, High, or Very High risk of financial fraud."
+    }
+  ]
+}

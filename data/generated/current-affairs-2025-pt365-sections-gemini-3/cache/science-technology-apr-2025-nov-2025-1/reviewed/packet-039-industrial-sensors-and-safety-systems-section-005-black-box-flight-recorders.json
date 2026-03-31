@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the 'Black Box' (Flight Recorder) used in aircraft:\n\n1. It consists of two critical recording devices: the Flight Data Recorder and the Cockpit Voice Recorder.\n2. It is painted bright orange to ensure high visibility during search and recovery operations.\n3. It is primarily manufactured using lightweight aluminium to minimize the aircraft's operational weight.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: A Black Box comprises two critical devices, the Flight Data Recorder and the Cockpit Voice Recorder.\nStatement 2 is correct: Despite the name, they are painted bright orange to ensure high visibility among crash debris.\nStatement 3 is incorrect: They are made of strong substances like steel or titanium to survive massive impact forces and are insulated from extreme heat or cold, rather than lightweight aluminium which would not survive a crash.",
+      "takeaway": "Black Boxes consist of a Flight Data Recorder and a Cockpit Voice Recorder, are painted bright orange for visibility, and are built from high-strength materials like steel or titanium to withstand extreme crash conditions.",
+      "evidenceExcerpt": "Comprise two Critical Flight Recording Devices: Flight Data Recorder and Cockpit Voice Recorder. Colour: Bright orange to ensure high visibility. Material: Made of strong substances (steel or titanium) and are insulated from extreme heat or cold.",
+      "qualityScore": 85,
+      "reviewNotes": "Converted to the latest UPSC 'How many statements' format. The question effectively covers the entire source text in a single, well-structured MCQ."
+    }
+  ],
+  "reviewerNotes": "Selected one comprehensive question that covers all the key facts from the very brief source text. Converted it to the current UPSC 'How many statements are correct' format. Rejected the other candidates to avoid redundancy."
+}

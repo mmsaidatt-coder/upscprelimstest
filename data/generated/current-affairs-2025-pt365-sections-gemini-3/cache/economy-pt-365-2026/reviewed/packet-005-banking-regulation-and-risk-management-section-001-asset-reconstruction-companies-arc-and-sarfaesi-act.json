@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Applied",
+      "prompt": "A scheduled commercial bank intends to recover its dues from a defaulting borrower by enforcing its security interest without the intervention of a court under the SARFAESI Act. Which of the following pledged assets can the bank legally take possession of under this mechanism?\n1. A residential apartment\n2. Agricultural land\n3. Heavy machinery installed in a factory\n\nSelect the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Under Section 13 of the SARFAESI Act, secured creditors (such as banks and financial institutions) are empowered to take possession of and sell pledged assets without judicial approval to recover their dues.\nHowever, this court-free enforcement power explicitly excludes agricultural land. Therefore, the bank cannot take possession of agricultural land without court intervention.\nResidential apartments and heavy machinery are commercial/personal assets that fall under the purview of the Act and can be legally seized.\nThus, only assets 1 and 3 can be taken possession of under this mechanism.",
+      "takeaway": "The SARFAESI Act allows secured creditors to bypass standard civil courts for asset recovery, but agricultural land is explicitly protected from such summary possession.",
+      "evidenceExcerpt": "Court-Free Enforcement: Secured creditors like banks and financial institutions, can take possession and sell assets except for agricultural land under Section 13 without judicial approval.",
+      "qualityScore": 88,
+      "reviewNotes": "An excellent applied question that tests a specific and important exception in the SARFAESI Act. The scenario-based format aligns perfectly with recent UPSC trends."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the framework for the resolution of stressed assets in India:\n1. Asset Reconstruction Companies (ARCs) are incorporated under the Companies Act and registered with the Reserve Bank of India.\n2. A Central Registry is established under the SARFAESI Act for the registration of transactions related to the securitisation and reconstruction of financial assets.\n3. Debt Recovery Tribunals (DRTs), which handle borrower grievances, are established under the SARFAESI Act.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Asset Reconstruction Companies (ARCs) are incorporated as companies under the Companies Act and are registered with the Reserve Bank of India (RBI) under the SARFAESI Act.\nStatement 2 is correct: The SARFAESI framework provides for a Central Registry to act as a central database for registering transactions of securitisation and reconstruction of financial assets.\nStatement 3 is incorrect: While borrowers can approach Debt Recovery Tribunals (DRTs) to rectify grievances against creditors, DRTs are established under the Recovery of Debts and Bankruptcy Act, 1993, not the SARFAESI Act.",
+      "takeaway": "ARCs are incorporated under the Companies Act but regulated by the RBI. The SARFAESI Act establishes a Central Registry for securitisation transactions, while DRTs are established under the Recovery of Debts and Bankruptcy Act, 1993.",
+      "evidenceExcerpt": "ARC is a company incorporated under the Companies Act and registered with RBI under SARFAESI Act. Central Database: Established Central Registry for registration of transaction of securitisation and reconstruction of financial assets. Borrower Rights: Borrowers can approach the Debt Recovery Tribunal (DRT) to rectify their grievances against the creditor or authorised officer. DRT are established under the Recovery of Debts and Bankruptcy Act, 1993.",
+      "qualityScore": 85,
+      "reviewNotes": "A solid statement-based question that tests the institutional and regulatory framework of asset reconstruction. The distractor in statement 3 is plausible and tests a common misconception about the statutory origin of DRTs."
+    }
+  ],
+  "reviewerNotes": "Selected two high-quality questions from the candidate set. The first question was rewritten to combine the best elements of the statement-based candidates, testing the regulatory framework of ARCs, the Central Registry, and DRTs. The second question was refined to present a clear, applied scenario testing the agricultural land exception under the SARFAESI Act. Both questions are strictly grounded in the provided text and feature plausible distractors."
+}

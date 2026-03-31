@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the 'Blue Flag' certification:\n\n1. It is an internationally recognized eco-label awarded by the United Nations Environment Programme (UNEP).\n2. The certification can be awarded to marinas and sustainable boating tourism operators, in addition to beaches.\n3. Among the Indian States and Union Territories, Maharashtra currently has the highest number of Blue Flag certified beaches.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The Blue Flag certification is awarded by the Foundation for Environmental Education (FEE), a non-governmental organization based in Denmark, not by UNEP.\nStatement 2 is correct: It is a globally recognized eco-label that is awarded not just to beaches, but also to marinas and tourism boats that meet its rigorous criteria.\nStatement 3 is correct: India currently has 18 Blue Flag beaches, with the highest number located in the state of Maharashtra.",
+      "takeaway": "The Blue Flag Certification is a comprehensive eco-label applicable to beaches, marinas, and tourism boats, managed by the Denmark-based Foundation for Environmental Education (FEE).",
+      "evidenceExcerpt": "A globally recognized eco-label awarded to beaches, marinas, and tourism boats. Total beaches in India: 18, highest in Maharashtra. Awarded by: Foundation for Environmental Education (FEE) of Denmark since 1985.",
+      "qualityScore": 90,
+      "reviewNotes": "Strong UPSC-style statement question. Distractor for UNEP is highly plausible. Tests scope and factual distribution effectively."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of Blue Flag certified beaches and the State/Union Territory they are located in:\n\n1. Shivrajpur Beach : Gujarat\n2. Eden Beach : Puducherry\n3. Rushikonda Beach : Odisha\n4. Radhanagar Beach : Lakshadweep\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "Only three pairs"
+        },
+        {
+          "id": "D",
+          "text": "All four pairs"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: Shivrajpur Beach is located in Gujarat.\nPair 2 is correctly matched: Eden Beach is located in Puducherry.\nPair 3 is incorrectly matched: Rushikonda Beach is located in Andhra Pradesh, not Odisha.\nPair 4 is incorrectly matched: Radhanagar Beach is located in the Andaman & Nicobar Islands, not Lakshadweep.\n\nTherefore, only two pairs are correctly matched.",
+      "takeaway": "Prominent Blue Flag beaches in India include Shivrajpur (Gujarat), Radhanagar (Andaman & Nicobar Islands), Eden (Puducherry), and Rushikonda (Andhra Pradesh).",
+      "evidenceExcerpt": "List includes Shivrajpur Beach (Gujarat), Radhanagar Beach (Andaman & Nicobar), Eden Beach (Puducherry), and Rushikonda Beach (Andhra Pradesh).",
+      "qualityScore": 85,
+      "reviewNotes": "Classic UPSC matching question. The distractors (Odisha and Lakshadweep) are plausible coastal regions that test the candidate's exact geographical knowledge of these certified beaches."
+    }
+  ],
+  "reviewerNotes": "Selected two high-quality questions. Q1 covers the awarding body, scope, and state-wise distribution in India, utilizing a strong distractor (UNEP). Q2 is a classic location-matching question for prominent Blue Flag beaches. Both are highly relevant for the UPSC Prelims Environment section. The third candidate was dropped due to overlapping concepts with Q1."
+}

@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding recent developments in biotechnology:\n1. India's first gene-edited sheep was developed by editing the Myostatin gene to boost muscle growth without introducing foreign DNA.\n2. In the CRISPR-Cas9 gene-editing technique, a specific DNA molecule is used to guide the Cas9 protein to the target sequence.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: India's first gene-edited sheep was produced by Kashmir University and ICAR using CRISPR-Cas9 to edit the Myostatin gene, boosting muscle growth without adding foreign DNA. Statement 2 is incorrect: The CRISPR-Cas9 technique uses an RNA molecule (guide RNA), not a DNA molecule, to guide the Cas9 protein to the specific DNA sequence that needs to be cut.",
+      "takeaway": "Gene editing can enhance traits without introducing foreign DNA (unlike transgenics). CRISPR-Cas9 relies on a guide RNA (gRNA) to direct the Cas9 nuclease to its target.",
+      "evidenceExcerpt": "India's first gene-edited sheep was produced by Kashmir University and ICAR using CRISPR-Cas9 to edit the Myostatin gene, boosting muscle growth without adding foreign DNA. ... CRISPR/Cas9 (uses RNA to guide Cas9 protein)",
+      "qualityScore": 85,
+      "reviewNotes": "Combines a current affairs fact (India's first gene-edited sheep) with a core conceptual detail (RNA vs DNA guide in CRISPR), making it a highly probable UPSC question."
+    }
+  ],
+  "reviewerNotes": "Selected 5 high-quality questions covering different aspects of the source text: somatic vs germline editing, alternative gene-editing tools (ZFNs, TALENs), CRISPR mechanism combined with a current affairs fact, applications of gene editing, and the conceptual difference between transgenics and gene editing. Rewrote prompts and options to align closely with UPSC phrasing and difficulty."
+}

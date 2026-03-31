@@ -1,0 +1,236 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding ISRO's launch vehicles:\n1. The Small Satellite Launch Vehicle (SSLV) is a three-stage vehicle configured with all-solid propulsion stages.\n2. The Polar Satellite Launch Vehicle (PSLV) is the first Indian launch vehicle to be equipped with liquid stages.\n3. The Launch Vehicle Mark-3 (LVM 3) is capable of placing a 10-ton class satellite into a Geosynchronous Transfer Orbit (GTO).\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: SSLV is a three-stage, all-solid propulsion vehicle designed for smaller payloads. Statement 2 is correct: PSLV is a four-stage vehicle and the first Indian launch vehicle equipped with liquid stages. Statement 3 is incorrect: LVM 3 is capable of carrying 4-ton class satellites to GTO or about 10 tons to LEO.",
+      "takeaway": "LVM 3 is ISRO's heavy-lift vehicle with a capacity of 4 tons to GTO and 10 tons to LEO. SSLV uses all-solid propulsion, unlike PSLV and LVM 3 which use a mix of propellants.",
+      "evidenceExcerpt": "PSLV: ISRO's workhorse... first Indian launch vehicle to be equipped with liquid stages... LVM 3: A heavy-lift, three-stage vehicle capable of carrying 4-ton class satellites to GTO or about 10 tons to LEO. SSLV: Three-stage, all-solid propulsion vehicle..."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "How many of the following pairs of ISRO's launch vehicles and their characteristics are correctly matched?\n\n1. PSLV : Four-stage vehicle\n2. SSLV : All-solid propulsion vehicle\n3. LMLV : Cryogenic propellant in the first stage\n4. GSLV : Three-stage vehicle\n\nSelect the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "Only three pairs"
+        },
+        {
+          "id": "D",
+          "text": "All four pairs"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Pair 1 is correct: PSLV is a four-stage vehicle. Pair 2 is correct: SSLV is a three-stage, all-solid propulsion vehicle. Pair 3 is incorrect: The upcoming Lunar Module Launch Vehicle (LMLV) utilizes liquid propellant for its first two stages and a cryogenic propellant for its third stage. Pair 4 is correct: GSLV is a three-stage vehicle.",
+      "takeaway": "The upcoming Lunar Module Launch Vehicle (LMLV) will use liquid propellants for its lower stages and a cryogenic upper stage, unlike the GSLV Mk III (LVM3) which uses solid boosters.",
+      "evidenceExcerpt": "LMLV... 3 Stages: Liquid propellant for its first two stages and a cryogenic propellant for its third stage. PSLV... a four-stage vehicle... GSLV: A fourth-generation, three-stage vehicle... SSLV: Three-stage, all-solid propulsion vehicle..."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Lunar Module Launch Vehicle (LMLV), consider the following statements:\n1. It is planned to be ISRO's heaviest rocket, expected to be ready by 2035.\n2. It is designed as a three-stage vehicle utilizing solid propellants for its first two stages.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: LMLV is planned to be ISRO's heaviest rocket and will be ready by 2035. Statement 2 is incorrect: It is a 3-stage vehicle utilizing liquid propellant (not solid) for its first two stages and a cryogenic propellant for its third stage.",
+      "takeaway": "LMLV is a future heavy-lift launch vehicle by ISRO featuring liquid propulsion in its lower stages and a cryogenic upper stage.",
+      "evidenceExcerpt": "ISRO’s heaviest rocket Lunar Module Launch Vehicle (LMLV) will be ready by 2035... 3 Stages: Liquid propellant for its first two stages and a cryogenic propellant for its third stage."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the EOS-09 satellite and its launch mission:\n1. EOS-09 is an advanced Earth observation satellite equipped with C-band Synthetic Aperture Radar (SAR) technology.\n2. The PSLV-C61 mission carrying the EOS-09 satellite failed due to a technical malfunction during its first stage.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: EOS-09 is an advanced Earth observation satellite equipped with C-band SAR technology. Statement 2 is incorrect: The PSLV-C61/EOS-09 Mission failed due to a technical malfunction during the third stage, not the first stage.",
+      "takeaway": "EOS-09 utilizes C-band SAR technology for Earth observation. The PSLV-C61 mission experienced a failure in its third stage.",
+      "evidenceExcerpt": "EOS-09 is an advanced Earth observation satellite equipped with C-band SAR technology... PSLV-C61/EOS-09 Mission failed due to a technical malfunction during the third stage."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements comparing the Geosynchronous Satellite Launch Vehicle (GSLV) and the Launch Vehicle Mark-3 (LVM 3):\n1. While the GSLV is designed to place 2.0-ton class satellites into Geosynchronous Transfer Orbit (GTO), the LVM 3 can carry 4-ton class satellites to the same orbit.\n2. Unlike the GSLV, which is a three-stage vehicle, the LVM 3 utilizes a four-stage configuration to achieve its higher payload capacity.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: GSLV is designed for 2.0-ton class satellites to GTO, while LVM 3 can carry 4-ton class satellites to GTO. Statement 2 is incorrect: Both GSLV and LVM 3 are configured as three-stage vehicles.",
+      "takeaway": "LVM 3 provides double the GTO payload capacity of the GSLV, but both rely on a three-stage propulsion architecture.",
+      "evidenceExcerpt": "GSLV: A fourth-generation, three-stage vehicle designed to launch 2.0-ton class satellites into GTO. LVM 3: A heavy-lift, three-stage vehicle capable of carrying 4-ton class satellites to GTO or about 10 tons to LEO."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the propulsion systems of ISRO's launch vehicles:\n1. The Small Satellite Launch Vehicle (SSLV) differs from the Polar Satellite Launch Vehicle (PSLV) by utilizing an all-solid propulsion system across its three stages.\n2. The upcoming Lunar Module Launch Vehicle (LMLV) is designed to use liquid propellants for its lower stages and a cryogenic propellant for its upper stage.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: SSLV is a three-stage, all-solid propulsion vehicle, whereas PSLV is a four-stage vehicle and was the first Indian launch vehicle to be equipped with liquid stages. Statement 2 is correct: LMLV will feature liquid propellant for its first two stages and a cryogenic propellant for its third stage.",
+      "takeaway": "ISRO employs diverse propulsion strategies, ranging from the all-solid SSLV for small payloads to the liquid-cryogenic mix planned for the heavy-lift LMLV.",
+      "evidenceExcerpt": "LMLV... Liquid propellant for its first two stages and a cryogenic propellant for its third stage. PSLV... first Indian launch vehicle to be equipped with liquid stages... SSLV: Three-stage, all-solid propulsion vehicle..."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Multiple-choice",
+      "prompt": "Consider the following launch vehicles developed by ISRO:\n1. Polar Satellite Launch Vehicle (PSLV)\n2. Geosynchronous Satellite Launch Vehicle (GSLV)\n3. Launch Vehicle Mark-3 (LVM 3)\n4. Small Satellite Launch Vehicle (SSLV)\n\nHow many of the above are configured as three-stage launch vehicles?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The GSLV, LVM 3, and SSLV are all configured as three-stage launch vehicles. The PSLV, however, is a four-stage vehicle. Therefore, exactly three of the listed vehicles are three-stage rockets.",
+      "takeaway": "While PSLV uses a four-stage architecture, most of ISRO's other operational vehicles (GSLV, LVM 3, SSLV) utilize a three-stage design.",
+      "evidenceExcerpt": "PSLV: ...a four-stage vehicle... GSLV: A fourth-generation, three-stage vehicle... LVM 3: A heavy-lift, three-stage vehicle... SSLV: Three-stage, all-solid propulsion vehicle..."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Polar Satellite Launch Vehicle (PSLV) and its recent missions:\n1. The PSLV holds the historical distinction of being the first Indian launch vehicle to incorporate liquid propulsion stages.\n2. The PSLV-C61 mission, which carried the EOS-09 Earth observation satellite, experienced a technical malfunction during the operation of its third stage.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: PSLV is the first Indian launch vehicle to be equipped with liquid stages. Statement 2 is correct: The PSLV-C61/EOS-09 mission failed due to a technical malfunction during its third stage.",
+      "takeaway": "The PSLV introduced liquid stages to India's space program, but like all launch vehicles, remains susceptible to stage-specific technical anomalies, as seen in the PSLV-C61 mission.",
+      "evidenceExcerpt": "PSLV: ISRO's workhorse... first Indian launch vehicle to be equipped with liquid stages... PSLV-C61/EOS-09 Mission failed due to a technical malfunction during the third stage."
+    }
+  ]
+}

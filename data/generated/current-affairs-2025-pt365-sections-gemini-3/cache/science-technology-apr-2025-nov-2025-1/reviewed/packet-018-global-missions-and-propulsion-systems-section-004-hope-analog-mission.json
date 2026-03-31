@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Himalayan Outpost for Planetary Exploration (HOPE) recently seen in the news:\n\n1. It is an analog mission inaugurated by the Indian Space Research Organisation (ISRO).\n2. It is located in the Tso Kar Valley of Ladakh.\n3. It is an uncrewed facility exclusively designed for testing robotic rovers.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The Himalayan Outpost for Planetary Exploration (HOPE) is an analog mission inaugurated by the Indian Space Research Organisation (ISRO).\n\nStatement 2 is correct: The mission is located in the Tso Kar Valley, Ladakh, which provides a suitable terrain for simulating planetary exploration.\n\nStatement 3 is incorrect: It is not an uncrewed facility. The mission infrastructure includes a specially designed Habitat Module for crew living and an interconnected Utility Module for operations and support systems.",
+      "takeaway": "ISRO's HOPE Analog Mission in Ladakh's Tso Kar Valley simulates planetary exploration conditions, featuring interconnected modules for crew habitation and operations.",
+      "evidenceExcerpt": "ISRO inaugurated Himalayan Outpost for Planetary Exploration (HOPE) Analog Mission in Tso Kar Valley, Ladakh. A specially designed Habitat Module for crew living and a Utility Module for operations and support systems which are interconnected for seamless workflow.",
+      "qualityScore": 85,
+      "reviewNotes": "The question effectively tests the candidate's knowledge of ISRO's new analog mission. Statement 3 serves as a strong distractor by testing whether the candidate knows it involves crew habitation rather than just robotic testing."
+    }
+  ],
+  "reviewerNotes": "Selected Candidate 1 and refined the statements to better test the specific features of the HOPE mission. Replaced the UAE distractor with a functional distractor about the crewed vs. uncrewed nature of the facility, which is more relevant to the source text's emphasis on the Habitat Module."
+}

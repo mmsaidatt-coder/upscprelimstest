@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the 'Agni Prime' missile, consider the following statements:\n1. It is a two-stage, solid-fueled, canister-launched ballistic missile.\n2. It is capable of carrying both conventional and nuclear warheads.\n3. It is the first of the new generation of missiles developed under the Integrated Guided Missile Development Programme (IGMDP).\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Agni Prime is a two-stage, solid-fueled, canister-launched ballistic missile. Statement 2 is correct: It is capable of carrying both conventional and nuclear warheads. Statement 3 is incorrect: It is the first of the new generation of missiles developed *after the end* of the IGMDP, not under it.",
+      "takeaway": "Agni Prime is a post-IGMDP, two-stage, solid-fueled, canisterized ballistic missile with dual payload capability (conventional and nuclear).",
+      "evidenceExcerpt": "Two-stage, solid-fueled, canister-launched ballistic missile. It can carry both conventional and nuclear warheads. First of the new generation of missiles after the end of the IGMDP.",
+      "qualityScore": 85,
+      "reviewNotes": "A strong statement-based question that tests both the technical specifications and the developmental timeline (post-IGMDP) of the Agni Prime missile, mimicking UPSC's habit of tweaking programmatic affiliations."
+    }
+  ],
+  "reviewerNotes": "Selected three questions that cover the core concepts of the source text: the technical features of Agni Prime, the list of missiles under IGMDP, and the specific operational roles of IGMDP missiles. Rewrote them to strictly adhere to UPSC's current formatting, including 'How many' options and precise statement phrasing."
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-034-green-firecrackers-and-air-quality-reports-section-002-flue-gas-desulphurisation-fgd",
+    "claimType": "Factual",
+    "claimText": "Flue Gas Desulphurisation (FGD) is a process used to remove Sulphur Dioxide (SO2) from the exhaust gases of coal-fired power plants.",
+    "evidenceExcerpt": "FGD involves the removal of Sulphur Dioxide (SO2) from the exhaust gases of coal-fired power plants.",
+    "pageNumbers": [
+      70
+    ],
+    "examUse": "Statement-based question on the purpose and target pollutant of FGD systems.",
+    "distractorHooks": [
+      "Targeting Nitrogen Oxides (NOx) or Carbon Monoxide (CO) instead of SO2",
+      "Used in natural gas plants instead of coal-fired plants"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-034-green-firecrackers-and-air-quality-reports-section-002-flue-gas-desulphurisation-fgd",
+    "claimType": "Conceptual",
+    "claimText": "The FGD process utilizes a scrubbing technique that typically involves sodium-based or calcium-based alkaline reagents.",
+    "evidenceExcerpt": "It uses a scrubbing technique that typically involves a sodium- or calcium-based alkaline reagent.",
+    "pageNumbers": [
+      70
+    ],
+    "examUse": "Statement-based question on the chemical mechanism and reagents used in FGD.",
+    "distractorHooks": [
+      "Using acidic reagents instead of alkaline reagents",
+      "Using iron-based or copper-based reagents instead of sodium or calcium"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-034-green-firecrackers-and-air-quality-reports-section-002-flue-gas-desulphurisation-fgd",
+    "claimType": "Policy",
+    "claimText": "A recent study recommended limiting the mandatory installation of FGD systems to coal plants using imported coal or high-sulphur coal (greater than 0.5 percent sulphur) rather than all plants.",
+    "evidenceExcerpt": "A recent study recommended limiting the FGD mandate to plants using imported or high-sulphur (>0.5%) coal rather than all plants.",
+    "pageNumbers": [
+      70
+    ],
+    "examUse": "Current affairs statement-based question on environmental policy changes regarding coal plants.",
+    "distractorHooks": [
+      "Mandating FGD for all coal plants without exception",
+      "Limiting FGD to plants using domestic low-sulphur coal"
+    ]
+  }
+]

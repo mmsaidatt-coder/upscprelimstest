@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Vikram-1', recently seen in the news:\n1. It is an orbital-class launch vehicle developed jointly by the Indian Space Research Organisation (ISRO) and a private startup.\n2. It is designed primarily to place heavy communication satellites into Geosynchronous Transfer Orbit (GTO).\n3. It is a four-stage rocket that utilizes a combination of solid and liquid propellants.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect: Vikram-1 is India's new private orbital-class launch vehicle developed independently by Skyroot Aerospace, a private Indian space-startup, rather than jointly with ISRO.\nStatement 2 is incorrect: Its purpose is to launch small satellites and rideshare missions into Low Earth Orbit (LEO) or Sun-Synchronous Orbit (SSO), not heavy communication satellites into GTO.\nStatement 3 is correct: It is a four-stage rocket where the first three stages use solid-fuel boosters, and the final stage uses a liquid-propellant Raman engine.",
+      "takeaway": "Vikram-1 is a private orbital-class launch vehicle developed by Skyroot Aerospace, designed to launch small satellites into LEO/SSO using a four-stage solid and liquid propulsion system.",
+      "evidenceExcerpt": "Prime Minister unveiled Vikram-1, which is India's new private orbital-class launch vehicle. It is developed by Skyroot Aerospace... Its purpose is to launch satellites into LEO or SSO, serving small satellites and rideshare missions. It is a four-stage rocket where the first three stages use solid-fuel boosters, and the final stage uses a liquid-propellant Raman engine.",
+      "qualityScore": 85,
+      "reviewNotes": "Good use of modern UPSC 'How many statements' format. Tests the core mission profile and developer of the launch vehicle with plausible distractors."
+    }
+  ],
+  "reviewerNotes": "Selected and refined two questions to cover different aspects of the Vikram-1 launch vehicle. The first focuses on its developer, payload, and orbit, while the second delves into its structural materials and propulsion technology. Both use the modern UPSC 'How many statements are correct' format and feature plausible distractors."
+}

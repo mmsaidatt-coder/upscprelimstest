@@ -1,0 +1,62 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-039-industrial-sensors-and-safety-systems-section-006-altermagnets",
+    "claimType": "Conceptual",
+    "claimText": "Altermagnets exhibit alternating spins and possess no net magnetism, a characteristic they share with antiferromagnets.",
+    "evidenceExcerpt": "Like antiferromagnets, they exhibit alternating spins and therefore have no net magnetism.",
+    "pageNumbers": [
+      77
+    ],
+    "examUse": "Statement-based question on the fundamental properties of altermagnets.",
+    "distractorHooks": [
+      "Claiming altermagnets have a strong net magnetism",
+      "Confusing their spin structure with ferromagnets"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-039-industrial-sensors-and-safety-systems-section-006-altermagnets",
+    "claimType": "Conceptual",
+    "claimText": "Due to their unique crystal symmetry, altermagnets display intense internal spin polarisation similar to ferromagnets.",
+    "evidenceExcerpt": "But due to their unique crystal symmetry, they show intense internal spin polarisation, similar to ferromagnets.",
+    "pageNumbers": [
+      77
+    ],
+    "examUse": "Statement-based question comparing altermagnets to ferromagnets.",
+    "distractorHooks": [
+      "Attributing spin polarisation to external magnetic fields instead of crystal symmetry",
+      "Stating altermagnets lack internal spin polarisation"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-039-industrial-sensors-and-safety-systems-section-006-altermagnets",
+    "claimType": "Factual",
+    "claimText": "Chromium antimonide (CrSb) is an altermagnetic material that exhibits the strongest spin-splitting among known altermagnets.",
+    "evidenceExcerpt": "CrSb exhibits the strongest spin-splitting among known altermagnets.",
+    "pageNumbers": [
+      77
+    ],
+    "examUse": "Fact-based statement or correct-pair question identifying specific altermagnetic materials.",
+    "distractorHooks": [
+      "Naming a different compound as the strongest altermagnet",
+      "Stating CrSb has weak or no spin-splitting"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-039-industrial-sensors-and-safety-systems-section-006-altermagnets",
+    "claimType": "Factual",
+    "claimText": "Scientists from the S.N. Bose National Centre for Basic Sciences discovered the altermagnetic properties using chromium antimonide (CrSb).",
+    "evidenceExcerpt": "Discovered by scientists from S.N. Bose National Centre for Basic Sciences using chromium antimonide (CrSb).",
+    "pageNumbers": [
+      77
+    ],
+    "examUse": "Institution-feature question regarding recent scientific discoveries in India.",
+    "distractorHooks": [
+      "Attributing the discovery to IISc, ISRO, or DRDO",
+      "Claiming the discovery was made using a traditional ferromagnetic material"
+    ]
+  }
+]

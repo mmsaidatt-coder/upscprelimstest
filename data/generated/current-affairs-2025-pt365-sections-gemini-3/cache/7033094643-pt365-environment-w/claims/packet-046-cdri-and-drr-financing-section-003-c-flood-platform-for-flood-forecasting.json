@@ -1,0 +1,50 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-046-cdri-and-drr-financing-section-003-c-flood-platform-for-flood-forecasting",
+    "claimType": "Factual",
+    "claimText": "C-FLOOD is a web-based platform that provides 2-day advance flood inundation forecasts up to the village level.",
+    "evidenceExcerpt": "C-FLOOD provides 2-day advance flood inundation forecasts up to the village level.",
+    "pageNumbers": [
+      96
+    ],
+    "examUse": "Statement-based question on the forecast duration and geographical granularity of the C-FLOOD platform.",
+    "distractorHooks": [
+      "7-day advance forecast",
+      "District-level granularity",
+      "Block-level granularity"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-046-cdri-and-drr-financing-section-003-c-flood-platform-for-flood-forecasting",
+    "claimType": "Technical",
+    "claimText": "The C-FLOOD platform utilizes advanced 2-D hydrodynamic modelling to generate flood inundation maps and water level predictions.",
+    "evidenceExcerpt": "The platform utilizes advanced 2-D hydrodynamic modelling for flood inundation maps and water level predictions.",
+    "pageNumbers": [
+      96
+    ],
+    "examUse": "Statement-based question on the underlying technology used for flood forecasting in C-FLOOD.",
+    "distractorHooks": [
+      "3-D hydrodynamic modelling",
+      "Statistical regression models",
+      "Machine learning based predictive modelling"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-046-cdri-and-drr-financing-section-003-c-flood-platform-for-flood-forecasting",
+    "claimType": "Institutional",
+    "claimText": "C-FLOOD was jointly developed by C-DAC, the Central Water Commission (CWC) under the Ministry of Jal Shakti, and the National Remote Sensing Centre (NRSC).",
+    "evidenceExcerpt": "It was jointly developed by C-DAC, Central Water Commission (CWC), Ministry of Jal Shakti, and NRSC.",
+    "pageNumbers": [
+      96
+    ],
+    "examUse": "Institution-feature or correct-pair question identifying the collaborative agencies behind C-FLOOD.",
+    "distractorHooks": [
+      "Developed solely by the National Disaster Management Authority (NDMA)",
+      "Developed by the Indian Meteorological Department (IMD)",
+      "Developed by the Ministry of Earth Sciences"
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Central Bank Digital Currency (CBDC) pilot projects in India:\n1. The pilot projects for both retail and wholesale CBDCs are being conducted by the National Payments Corporation of India (NPCI).\n2. Wholesale CBDC is designed for interbank payments and securities transactions among licensed financial institutions.\n3. Retail CBDC is accessible to the general public primarily through digital wallets.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The Reserve Bank of India (RBI), not the National Payments Corporation of India (NPCI), is currently conducting the pilot projects for both retail and wholesale CBDCs.\nStatement 2 is correct: Wholesale CBDC is used among banks and other licensed financial institutions specifically for interbank payments and securities transactions.\nStatement 3 is correct: Retail CBDC is available to the general public via digital wallets, smartphone apps, etc.",
+      "takeaway": "The RBI conducts CBDC pilots in two categories: Retail (for the general public via apps) and Wholesale (for interbank and securities transactions among licensed institutions).",
+      "evidenceExcerpt": "The RBI is currently conducting pilot projects of two types of CBDCs – retail and wholesale. Retail CBDC: It is available to the general public via digital wallets, smartphone apps, etc. Wholesale CBDCs: Used among banks and other licensed financial institutions for interbank payments and securities transactions.",
+      "qualityScore": 85,
+      "reviewNotes": "Selected Candidate 1 and updated it to the latest UPSC 'How many statements are correct' format. The question effectively tests the nodal agency (a classic UPSC trap) and the fundamental distinctions between retail and wholesale CBDCs."
+    }
+  ],
+  "reviewerNotes": "Rewrote Candidate 1 to align with the recent UPSC trend of 'How many statements' questions. The distractors are plausible, and the explanation tightly justifies the correct answer based on the provided text."
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-010-market-structure-and-investment-vehicles-section-004-equity-derivatives-and-front-running",
+    "claimType": "Concept",
+    "claimText": "A derivative is a financial instrument whose value is derived from an underlying asset such as equity, commodities, or currencies.",
+    "evidenceExcerpt": "Derivatives derive their value from underlying assets such as equity shares, commodities, or currencies.",
+    "pageNumbers": [
+      21
+    ],
+    "examUse": "Statement-based question on the definition and nature of financial derivatives.",
+    "distractorHooks": [
+      "Derivatives have intrinsic value independent of any underlying asset",
+      "Derivatives are exclusively linked to equity shares"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-010-market-structure-and-investment-vehicles-section-004-equity-derivatives-and-front-running",
+    "claimType": "Fact",
+    "claimText": "Futures and Options are common types of equity derivative products.",
+    "evidenceExcerpt": "Futures and Options are the most commonly-traded equity derivatives products.",
+    "pageNumbers": [
+      21
+    ],
+    "examUse": "Classification question identifying types of financial instruments.",
+    "distractorHooks": [
+      "Futures and Options are primary debt instruments",
+      "Futures and Options are types of mutual funds"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-010-market-structure-and-investment-vehicles-section-004-equity-derivatives-and-front-running",
+    "claimType": "Concept",
+    "claimText": "Front Running is an illegal market manipulation practice where trading is done based on advanced non-public information about a large pending transaction.",
+    "evidenceExcerpt": "Front Running is an illegal practice of trading based on advanced non-public information about a large pending transaction to manipulate prices.",
+    "pageNumbers": [
+      21
+    ],
+    "examUse": "Statement-based question on market malpractices and SEBI regulations.",
+    "distractorHooks": [
+      "Front Running is a legal hedging strategy",
+      "Front Running refers to high-frequency algorithmic trading without non-public information"
+    ]
+  }
+]

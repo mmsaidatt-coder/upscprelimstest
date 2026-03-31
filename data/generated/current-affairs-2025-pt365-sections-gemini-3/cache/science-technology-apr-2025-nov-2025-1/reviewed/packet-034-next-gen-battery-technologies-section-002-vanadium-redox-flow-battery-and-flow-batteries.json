@@ -1,0 +1,42 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-Choice",
+      "prompt": "Consider the following battery systems:",
+      "contextLines": [
+        "1. Vanadium Redox",
+        "2. Zinc-Bromine",
+        "3. Iron-Salt",
+        "4. Nickel-Cadmium",
+        "How many of the above are examples of flow battery technologies?"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Flow batteries are powered by redox reactions involving two different liquid electrolytes. Types of flow batteries include Vanadium Redox, Zinc-Bromine, and Iron-Salt/Organic systems. Nickel-Cadmium is a conventional solid-electrode rechargeable battery, not a flow battery. Therefore, exactly three of the given systems are flow batteries.",
+      "takeaway": "Major types of flow batteries include Vanadium Redox, Zinc-Bromine, and Iron-Salt systems, which differ from conventional solid-state batteries.",
+      "evidenceExcerpt": "Types include Vanadium Redox, Zinc-Bromine, and Iron-Salt/Organic systems.",
+      "qualityScore": 85,
+      "reviewNotes": "Effectively uses the 'How many of the above' format to test the classification of next-generation battery technologies against a well-known conventional battery."
+    }
+  ],
+  "reviewerNotes": "Selected and refined two questions. The first tests the classification of flow battery technologies using the 'How many of the above' format. The second evaluates both the working mechanism and recent current affairs related to VRFBs in India, ensuring distractors are plausible and statements are strictly grounded in the source text."
+}

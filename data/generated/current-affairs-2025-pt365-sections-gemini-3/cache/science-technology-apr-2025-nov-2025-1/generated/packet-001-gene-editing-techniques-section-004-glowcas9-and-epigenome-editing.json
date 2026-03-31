@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'GlowCas9', recently seen in the news: 1. It is a luminescent CRISPR protein that emits light while performing gene editing. 2. Its luminescent property is derived from nano-luciferase fragments obtained from deep-sea shrimp. 3. It was indigenously developed by the Council of Scientific and Industrial Research (CSIR). How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statements 1 and 2 are correct. GlowCas9 is a CRISPR protein fused with nano-luciferase fragments from deep-sea shrimp that emits light when performing gene editing. Statement 3 is incorrect. It was developed by scientists at the Bose Institute (under the Department of Science and Technology), not the Council of Scientific and Industrial Research (CSIR).",
+      "takeaway": "GlowCas9 is a novel visual CRISPR tool developed by the Bose Institute using deep-sea shrimp nano-luciferase to track gene editing in real-time.",
+      "evidenceExcerpt": "GlowCas9 was developed by scientists at the Bose Institute (DST). It is a CRISPR protein fused with nano-luciferase fragments from deep-sea shrimp that emits light when performing gene editing."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to 'Epigenome Editing', consider the following statements: 1. It regulates gene expression by modifying the epigenome without altering the underlying DNA sequence. 2. It necessarily involves the insertion of foreign genetic material to induce permanent mutations in the target genome. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct. Epigenome editing regulates gene expression by modifying the epigenome without changing the actual DNA sequence. Statement 2 is incorrect. Because it does not alter the underlying DNA sequence, it does not involve inducing permanent mutations in the genetic code, unlike traditional gene editing or transgenic methods.",
+      "takeaway": "Epigenome editing changes how genes are read and expressed (turning them on or off) without altering the fundamental DNA sequence.",
+      "evidenceExcerpt": "Epigenome editing regulates gene expression by modifying the epigenome without changing the actual DNA sequence."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Comparison",
+      "prompt": "Which of the following best describes the fundamental difference between traditional genome editing and 'Epigenome Editing'?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Traditional genome editing modifies the physical structure of the chromosome, whereas epigenome editing only alters the resulting RNA transcripts."
+        },
+        {
+          "id": "B",
+          "text": "Traditional genome editing permanently alters the underlying DNA sequence, whereas epigenome editing regulates gene expression without changing the actual DNA sequence."
+        },
+        {
+          "id": "C",
+          "text": "Traditional genome editing relies on luminescent proteins to locate target genes, whereas epigenome editing relies exclusively on guide RNA."
+        },
+        {
+          "id": "D",
+          "text": "Traditional genome editing is used to silence existing genes, whereas epigenome editing is required to insert foreign genetic material into the genome."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Epigenome editing is a technique that regulates gene expression by modifying the epigenome (chemical compounds and proteins that attach to DNA) without changing the actual underlying DNA sequence. In contrast, traditional genome editing (like standard CRISPR-Cas9) involves making direct cuts and changes to the DNA sequence itself.",
+      "takeaway": "Epigenome editing offers a way to turn genes on or off without permanently altering the genetic code, distinguishing it from traditional DNA-altering techniques.",
+      "evidenceExcerpt": "Epigenome editing regulates gene expression by modifying the epigenome without changing the actual DNA sequence."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Mechanism-Design",
+      "prompt": "What is the primary functional advantage of integrating nano-luciferase fragments from deep-sea shrimp into the CRISPR system, as seen in the indigenous development of 'GlowCas9'?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It allows the CRISPR protein to remain stable and function effectively in high-pressure marine environments."
+        },
+        {
+          "id": "B",
+          "text": "It enables the real-time visual tracking of the gene editing process by emitting light when editing occurs."
+        },
+        {
+          "id": "C",
+          "text": "It prevents the CRISPR system from making unintended off-target cuts by acting as a biological inhibitor."
+        },
+        {
+          "id": "D",
+          "text": "It facilitates the modification of the epigenome without altering the underlying DNA sequence."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "GlowCas9, developed by the Bose Institute, is a luminescent CRISPR protein. By fusing the CRISPR protein with nano-luciferase fragments derived from deep-sea shrimp, the tool emits light during the gene editing process, allowing scientists to visually track the editing activity.",
+      "takeaway": "GlowCas9 serves as a visualization tool in biotechnology, utilizing bioluminescent fragments to light up when gene editing is actively taking place.",
+      "evidenceExcerpt": "Introduces GlowCas9, a luminescent CRISPR protein developed by the Bose Institute that lights up during gene editing using nano-luciferase fragments from deep-sea shrimp."
+    }
+  ]
+}

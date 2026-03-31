@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding India's external sector and remittances:\n1. India is the largest recipient of remittances globally.\n2. The United States is the top source country for remittances to India.\n3. Maharashtra receives the highest share of inward remittances among Indian states.\n4. Remittance inflows account for less than 5% of India's gross current account inflows.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statements 1, 2, and 3 are correct: India is the top recipient country for remittances globally. The top source country for remittances to India in 2023-24 was the US, and the top recipient state was Maharashtra. Statement 4 is incorrect: Remittances accounted for over 10% of India's gross current account inflows, not less than 5%.",
+      "takeaway": "India leads globally in remittance receipts, with the US and Maharashtra being the top source country and recipient state, respectively. Remittances form a significant part (>10%) of India's gross current account inflows.",
+      "evidenceExcerpt": "Top source countries: US, UAE, UK. Top recipient states: Maharashtra, Kerala, Tamil Nadu. India tops the global list of recipient countries. Remittances accounted for over 10% of India's gross current account inflows..."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Liberalised Remittance Scheme (LRS) of the Reserve Bank of India, consider the following statements:\n1. It allows resident individuals, including minors, to freely remit up to USD 250,000 per financial year.\n2. The scheme is available to corporates and partnership firms for overseas investments.\n3. Hindu Undivided Families (HUFs) and Trusts are explicitly excluded from utilizing this scheme.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The LRS allows resident individuals, including minors, to remit up to USD 250,000 per financial year. Statement 2 is incorrect and Statement 3 is correct: The scheme is strictly not available to corporates, partnership firms, Hindu Undivided Families (HUFs), or Trusts.",
+      "takeaway": "The LRS is an outward remittance facility strictly for resident individuals (including minors) up to USD 250,000 per financial year. It cannot be used by corporates, partnership firms, HUFs, or Trusts.",
+      "evidenceExcerpt": "Liberalised Remittance Scheme (LRS), introduced in 2004 by RBI, allows resident individuals (including minors) to remit up to USD 250,000 per financial year. It is not available to corporates, partnership firms, HUFs, or Trusts."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Multiple-Choice",
+      "prompt": "Consider the following categories of entities:\n1. Corporates\n2. Partnership firms\n3. Hindu Undivided Families (HUFs)\n4. Resident minors\n\nHow many of the above are explicitly excluded from utilizing the Liberalised Remittance Scheme (LRS)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The Liberalised Remittance Scheme (LRS) is available to resident individuals, which explicitly includes minors. However, it is strictly not available to corporates, partnership firms, Hindu Undivided Families (HUFs), or Trusts. Therefore, three of the listed entities (Corporates, Partnership firms, and HUFs) are excluded.",
+      "takeaway": "The LRS is designed specifically for resident individuals (including minors) and cannot be used by corporate entities, partnerships, HUFs, or Trusts.",
+      "evidenceExcerpt": "Liberalised Remittance Scheme (LRS)... allows resident individuals (including minors) to remit up to USD 250,000 per financial year. It is not available to corporates, partnership firms, HUFs, or Trusts."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-Choice",
+      "prompt": "Consider the following statements regarding India's cross-border remittances:\n1. Inward remittances account for more than one-tenth of India's gross current account inflows.\n2. The Liberalised Remittance Scheme (LRS) was introduced by the Reserve Bank of India to govern outward remittances.\n3. Under the LRS, a resident individual can remit up to USD 250,000 per calendar year.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct; remittances account for over 10% of India's gross current account inflows. Statement 2 is correct; the LRS was introduced in 2004 by the RBI to allow resident individuals to remit funds outwards. Statement 3 is incorrect; the LRS limit of USD 250,000 applies per financial year, not per calendar year.",
+      "takeaway": "Pay close attention to regulatory timeframes: the LRS limit of USD 250,000 is strictly assessed on a financial year basis (April-March), not a calendar year.",
+      "evidenceExcerpt": "Remittances accounted for over 10% of India's gross current account inflows... Liberalised Remittance Scheme (LRS), introduced in 2004 by RBI, allows resident individuals (including minors) to remit up to USD 250,000 per financial year."
+    }
+  ]
+}

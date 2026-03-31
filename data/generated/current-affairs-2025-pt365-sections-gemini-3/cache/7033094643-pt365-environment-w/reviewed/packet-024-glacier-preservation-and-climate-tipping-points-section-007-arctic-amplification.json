@@ -1,0 +1,75 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Statement",
+      "prompt": "With reference to 'Arctic Amplification', consider the following statements:\n1. The lapse rate feedback in the Arctic causes greenhouse gas warming to be most pronounced near the surface.\n2. The 'Water Vapour Triple Effect' in the region mitigates warming by increasing the reflection of incoming solar radiation.\n3. It impacts the Indian subcontinent by disrupting the Indian Monsoon.\n\nHow many of the statements given above are correct?",
+      "contextLines": [
+        "Lapse rate feedback (warming from GHG most pronounced near the surface...)",
+        "Water Vapour Triple Effect contributes to amplification by creating more cloud cover and acting as a greenhouse gas.",
+        "Impacts on India: Disruption of Indian Monsoon; Sea level rise etc."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The lapse rate feedback in the Arctic concentrates greenhouse gas warming near the surface.\nStatement 2 is incorrect: The 'Water Vapour Triple Effect' contributes to Arctic Amplification (warming) by creating more cloud cover and acting as a greenhouse gas, rather than mitigating it.\nStatement 3 is correct: The rapid warming of the Arctic has far-reaching impacts, including the disruption of the Indian Monsoon and contributing to sea-level rise.",
+      "takeaway": "Water vapour in the Arctic acts as a positive feedback mechanism by functioning as a greenhouse gas and altering cloud cover to trap heat. Furthermore, Arctic Amplification has global teleconnections, including disrupting the Indian Monsoon.",
+      "evidenceExcerpt": "Lapse rate feedback (warming from GHG most pronounced near the surface...); Water Vapour Triple Effect contributes to amplification by creating more cloud cover and acting as a greenhouse gas... Impacts on India: Disruption of Indian Monsoon; Sea level rise etc.",
+      "qualityScore": 88,
+      "reviewNotes": "Excellent use of the contemporary UPSC 'How many statements' format. It effectively combines physical geography concepts (lapse rate, water vapour effects) with regional impacts (Indian Monsoon)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice",
+      "prompt": "Consider the following factors:\n1. Reduced surface albedo due to the melting of reflective ice\n2. Atmospheric heat transport from the tropics to the polar regions\n3. Pronounced greenhouse gas warming in the upper atmosphere due to lapse rate feedback\n\nWhich of the factors given above contribute to 'Arctic Amplification'?",
+      "contextLines": [
+        "Factors for Arctic Amplification: Reduced Albedo due to melting of reflective ice...",
+        "Lapse rate feedback (warming from GHG most pronounced near the surface...)",
+        "Atmospheric Heat transport from tropics."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The melting of reflective ice reduces surface albedo, leading to greater absorption of solar radiation and further warming.\nStatement 2 is correct: Atmospheric heat transport from the tropics to the Arctic is a key driver of Arctic Amplification.\nStatement 3 is incorrect: Lapse rate feedback in the Arctic causes greenhouse gas warming to be most pronounced near the surface, unlike in the tropics where it may be more pronounced aloft.",
+      "takeaway": "Arctic Amplification is driven by multiple factors, including reduced albedo, atmospheric heat transport from the tropics, and a unique lapse rate feedback that traps heat near the Arctic surface.",
+      "evidenceExcerpt": "Factors for Arctic Amplification: Reduced Albedo due to melting of reflective ice... Lapse rate feedback (warming from GHG most pronounced near the surface...); ... Atmospheric Heat transport from tropics.",
+      "qualityScore": 85,
+      "reviewNotes": "Strong conceptual question that tests the specific mechanisms of Arctic Amplification. The distractor in statement 3 is highly plausible and tests careful reading of the lapse rate feedback mechanism."
+    }
+  ],
+  "reviewerNotes": "Selected and refined two questions to cover the mechanisms and impacts of Arctic Amplification. Rewrote them to match the tone, difficulty, and formatting of recent UPSC Prelims, ensuring distractors are plausible and explanations are tightly aligned with the source text."
+}

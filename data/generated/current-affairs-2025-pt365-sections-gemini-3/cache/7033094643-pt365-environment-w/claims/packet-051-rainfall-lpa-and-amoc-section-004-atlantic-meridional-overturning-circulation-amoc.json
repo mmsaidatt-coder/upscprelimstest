@@ -1,0 +1,85 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-051-rainfall-lpa-and-amoc-section-004-atlantic-meridional-overturning-circulation-amoc",
+    "claimType": "Concept/Mechanism",
+    "claimText": "The Atlantic Meridional Overturning Circulation (AMOC) is driven by differences in water temperature and salinity.",
+    "evidenceExcerpt": "AMOC is driven by differences in water temperature and salinity, circulating warm water north and cold water south.",
+    "pageNumbers": [
+      106,
+      107
+    ],
+    "examUse": "Statement-based question on the driving forces of deep ocean currents.",
+    "distractorHooks": [
+      "Driven primarily by surface wind patterns",
+      "Driven by the Coriolis effect alone",
+      "Circulates cold water north and warm water south"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-051-rainfall-lpa-and-amoc-section-004-atlantic-meridional-overturning-circulation-amoc",
+    "claimType": "Geographical Process",
+    "claimText": "During the AMOC process, warm tropical water moves towards the poles, cools, becomes denser, and sinks in the North Atlantic before flowing south.",
+    "evidenceExcerpt": "Warm tropical water moves towards the poles, cools, becomes dense, and sinks in the North Atlantic before flowing south.",
+    "pageNumbers": [
+      106,
+      107
+    ],
+    "examUse": "Process-based question on the thermohaline circulation mechanism.",
+    "distractorHooks": [
+      "Water becomes less dense as it cools",
+      "Water sinks in the tropical Atlantic",
+      "Cold water moves towards the poles and warms"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-051-rainfall-lpa-and-amoc-section-004-atlantic-meridional-overturning-circulation-amoc",
+    "claimType": "Climatic Impact",
+    "claimText": "AMOC moderates Europe's climate by transporting heat from the tropics to higher latitudes.",
+    "evidenceExcerpt": "AMOC... moderates Europe's climate by transporting heat from the tropics.",
+    "pageNumbers": [
+      106,
+      107
+    ],
+    "examUse": "Assertion-Reason question linking AMOC to European climate anomalies.",
+    "distractorHooks": [
+      "AMOC cools Europe's climate by bringing Arctic water south",
+      "AMOC transports heat from higher latitudes to the tropics"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-051-rainfall-lpa-and-amoc-section-004-atlantic-meridional-overturning-circulation-amoc",
+    "claimType": "Global Impact",
+    "claimText": "The AMOC influences global climate patterns, including the Indian monsoon.",
+    "evidenceExcerpt": "AMOC influences global climate patterns, including the Indian monsoon",
+    "pageNumbers": [
+      106,
+      107
+    ],
+    "examUse": "Statement-based question on the distant factors influencing the Indian Monsoon.",
+    "distractorHooks": [
+      "AMOC's influence is strictly confined to the Atlantic Ocean",
+      "AMOC has no impact on the Indian monsoon"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-051-rainfall-lpa-and-amoc-section-004-atlantic-meridional-overturning-circulation-amoc",
+    "claimType": "Environmental Consequence",
+    "claimText": "A slowdown in the AMOC could lead to colder temperatures in Europe, reduced ocean carbon uptake, and sea-level rise across the U.S. East Coast.",
+    "evidenceExcerpt": "A slowdown in AMOC could lead to colder temperatures in Europe, reduced ocean carbon uptake, and sea-level rise across the U.S. East Coast.",
+    "pageNumbers": [
+      106,
+      107
+    ],
+    "examUse": "Multi-statement question on the potential impacts of climate change on ocean circulation.",
+    "distractorHooks": [
+      "A slowdown would lead to warmer temperatures in Europe",
+      "A slowdown would increase ocean carbon uptake",
+      "A slowdown would cause sea-level drop on the U.S. East Coast"
+    ]
+  }
+]

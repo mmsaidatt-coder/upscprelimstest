@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Applied",
+      "prompt": "A rural artisan wants to utilize the services of a Payment Bank in his village. Which of the following financial activities can he successfully undertake through this bank?\n1. Depositing an amount of ₹2.5 lakh obtained from selling his goods.\n2. Receiving Direct Benefit Transfers (DBT) under government welfare schemes.\n3. Opening a current account for his handicraft business.\n4. Availing a direct micro-loan to purchase raw materials.\n\nSelect the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 4 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1, 2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "2, 3 and 4 only"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Activity 1 is incorrect: Payment banks have a maximum deposit limit of ₹2 lakh per customer. Therefore, a deposit of ₹2.5 lakh cannot be accepted.\nActivity 2 is correct: Payment banks offer Direct Benefit Transfers (DBT) services, enabling customers to receive government subsidies directly into their accounts.\nActivity 3 is correct: Payment banks are permitted to open both savings and current accounts.\nActivity 4 is incorrect: Payment banks are prohibited from giving loans directly or issuing credit cards. They can only provide access to third-party loan products.",
+      "takeaway": "Payment banks are designed for basic banking and remittances; they can open current/savings accounts and handle DBTs, but cannot exceed the ₹2 lakh deposit limit or issue direct loans.",
+      "evidenceExcerpt": "Services offered: Saving/ Current account, Direct Benefits Transfers, Bill and Utility Payments... It can accept deposits (up to 2 lakh), and enable money transfers and bill payments, but cannot give loans or issue credit cards.",
+      "qualityScore": 92,
+      "reviewNotes": "Excellent applied question that tests multiple regulatory constraints of Payment Banks in a practical, real-world scenario."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the India Post Payments Bank (IPPB):\n1. It is a wholly-owned entity of the Government of India functioning under the Ministry of Finance.\n2. It is permitted to open both savings and current accounts for its customers.\n3. It can provide access to third-party loan products despite being prohibited from direct lending.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: IPPB is a 100% government-owned payments bank, but it operates under the Department of Posts, Ministry of Communications, not the Ministry of Finance.\nStatement 2 is correct: IPPB offers both savings and current accounts, along with Direct Benefit Transfers (DBT) and utility payments.\nStatement 3 is correct: While payment banks like IPPB cannot give loans directly from their own balance sheet, they can provide access to third-party financial products, including loans and insurance.",
+      "takeaway": "IPPB operates under the Ministry of Communications. Payment banks can open savings/current accounts and distribute third-party loans/insurance, but cannot lend directly.",
+      "evidenceExcerpt": "Genesis: 2018 as a 100% government-owned payments bank under the Department of Posts, Ministry of Communications... Services offered: Saving/ Current account, Direct Benefits Transfers, Bill and Utility Payments, access to 3rd Party products such as loans, insurance, etc. It can accept deposits (up to 2 lakh), and enable money transfers and bill payments, but cannot give loans or issue credit cards.",
+      "qualityScore": 88,
+      "reviewNotes": "Good statement-based question. The trap on the Ministry of Finance is classic UPSC, as banking entities are often assumed to be under MoF."
+    }
+  ],
+  "reviewerNotes": "Selected two strong questions. The first tests the specific institutional framework of IPPB using the modern 'How many statements' format. The second is a highly practical applied question that tests the regulatory limits of Payment Banks in a scenario-based format, which aligns perfectly with recent UPSC trends."
+}

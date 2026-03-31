@@ -1,0 +1,149 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Statement",
+      "prompt": "With reference to the physical characteristics of the Moon, consider the following statements: 1. The near side of the Moon is relatively cooler and less geologically active compared to the far side. 2. The far side of the Moon possesses a thicker crust and more craters than the near side. 3. Lava plains are more abundant on the far side of the Moon than on the near side. How many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect: The Moon's nearside (facing Earth) is warmer and more geologically active than the farside. Statement 2 is correct: The far side has a thicker crust and more craters. Statement 3 is incorrect: The far side has fewer lava plains than the near side. Therefore, only Statement 2 is correct.",
+      "takeaway": "The Moon's near side is warmer and more geologically active, while the far side has a thicker crust, more craters, and fewer lava plains.",
+      "evidenceExcerpt": "The Moon's nearside (facing Earth) is warmer and more geologically active than the farside. About the far side of the Moon: ... It has a thicker crust, more craters, and fewer lava plains than near side."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement Combination",
+      "prompt": "Consider the following statements regarding the Chandrayaan-3 mission: 1. It is the world's first mission to successfully soft-land near the lunar South Pole. 2. Its ChaSTE payload was primarily designed to map the Moon's gravity. 3. The designated landing site of the mission on the lunar surface is named 'Shiv Shakti' point. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Chandrayaan-3 is the world's first mission to soft-land near the lunar South Pole. Statement 2 is incorrect: The ChaSTE payload was designed to deploy a thermal probe by penetrating the soil, whereas NASA's GRAIL mission mapped the Moon's gravity. Statement 3 is correct: The landing site was named 'Shiv Shakti' point.",
+      "takeaway": "Chandrayaan-3 made history by soft-landing near the lunar South Pole at 'Shiv Shakti' point, and its ChaSTE payload successfully deployed a thermal probe into the lunar soil.",
+      "evidenceExcerpt": "Chandra's Surface Thermophysical Experiment (ChaSTE) of Chandrayaan-3 became the first mission to successfully penetrate the soil of a celestial body to deploy a thermal probe. Became the world's first mission to soft-land near the lunar South Pole. The landing site was named as 'Shiv Shakti' point."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Correct Pair",
+      "prompt": "Consider the following pairs of space missions or payloads and their associated descriptions: 1. SLIM Mission : Made Japan the fifth country to soft-land on the Moon. 2. GRAIL Mission : European Space Agency's mission that created the most detailed map of the Moon's gravity. 3. ChaSTE : First mission payload to successfully penetrate the soil of a celestial body to deploy a thermal probe. How many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: Japan's SLIM mission made it the fifth country to soft-land on the Moon. Pair 2 is incorrectly matched: The GRAIL Mission was launched by NASA, not the European Space Agency, to map the Moon's gravity. Pair 3 is correctly matched: ChaSTE (on Chandrayaan-3) became the first to penetrate the soil of a celestial body to deploy a thermal probe.",
+      "takeaway": "NASA's GRAIL mission mapped lunar gravity, Japan's SLIM achieved a soft landing, and India's ChaSTE payload achieved a historic thermal probe deployment.",
+      "evidenceExcerpt": "Chandra's Surface Thermophysical Experiment (ChaSTE) of Chandrayaan-3 became the first mission to successfully penetrate the soil of a celestial body to deploy a thermal probe... Japan became the fifth country to soft-land on the Moon with its SLIM mission. NASA's GRAIL Mission created the most detailed map of the Moon's gravity."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "conceptual",
+      "prompt": "Which of the following statements best describes the unique technological milestone achieved by the Chandra's Surface Thermophysical Experiment (ChaSTE) payload of the Chandrayaan-3 mission?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It successfully mapped the uneven gravitational field of the Moon's South Pole for the first time."
+        },
+        {
+          "id": "B",
+          "text": "It became the first mission instrument to successfully penetrate the soil of a celestial body to deploy a thermal probe."
+        },
+        {
+          "id": "C",
+          "text": "It was the first payload to extract and analyze subsurface water ice from the permanently shadowed regions of the Moon."
+        },
+        {
+          "id": "D",
+          "text": "It successfully demonstrated the first automated orbital docking maneuver around a celestial body."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The ChaSTE payload on Chandrayaan-3 achieved a historic first by successfully penetrating the soil of a celestial body to deploy a thermal probe. Mapping the Moon's gravity was the primary objective of NASA's GRAIL mission, not ChaSTE.",
+      "takeaway": "ChaSTE's successful deployment of a thermal probe by physically penetrating lunar soil marks a significant global first in planetary exploration.",
+      "evidenceExcerpt": "Chandra's Surface Thermophysical Experiment (ChaSTE) of Chandrayaan-3 became the first mission to successfully penetrate the soil of a celestial body to deploy a thermal probe."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "conceptual",
+      "prompt": "The far side of the Moon always faces away from the Earth because the Moon is 'tidally locked' with our planet. In the context of orbital mechanics, what does tidal locking imply?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The celestial body's rotational period around its own axis is exactly equal to its orbital period around its partner."
+        },
+        {
+          "id": "B",
+          "text": "The celestial body ceases to rotate on its axis entirely due to the overwhelming gravitational pull of its partner."
+        },
+        {
+          "id": "C",
+          "text": "The celestial body's orbit becomes perfectly circular, eliminating any variations in gravitational force."
+        },
+        {
+          "id": "D",
+          "text": "The celestial body is forced into a stationary position relative to the background stars."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Tidal locking occurs when a celestial body's rotational period matches its orbital period around its partner. This synchronization results in the body always showing the same hemisphere to the object it orbits, which is why the Moon's far side always faces away from Earth.",
+      "takeaway": "The Moon's far side remains permanently hidden from Earth's view because tidal locking synchronizes its rotation on its axis with its revolution around the Earth.",
+      "evidenceExcerpt": "About the far side of the Moon: Refers to the hemisphere of the Moon that always faces away from Earth because the Moon is tidally locked with Earth."
+    }
+  ]
+}

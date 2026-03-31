@@ -1,0 +1,178 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding basic genetic concepts: 1. Genes are specific sections of DNA that act as the fundamental units of hereditary information. 2. Gametes are mature reproductive cells that carry the complete set of chromosomes of an organism. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Genes are specific sections of DNA that serve as the fundamental units of hereditary information. Statement 2 is incorrect: Gametes do not carry the complete set of chromosomes; they contain a haploid number of chromosomes (50% of the genetic material) and fuse to form a diploid zygote.",
+      "takeaway": "Gametes are haploid reproductive cells, meaning they contain half the genetic material of a normal cell. They fuse during fertilization to create a diploid zygote.",
+      "evidenceExcerpt": "Genes are sections of DNA and units of hereditary information. Gametes are mature reproductive cells containing a haploid number of chromosomes (50% genetic material) capable of fusing to form a diploid zygote."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to 'Genome Sequencing', consider the following statements: 1. It is the technique used to determine the exact order of base pairs in an individual's DNA strand. 2. Its applications are restricted to human healthcare and predictive diagnostics. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Genome sequencing determines the exact order of base pairs in a DNA strand. Statement 2 is incorrect: The applications of genome sequencing are not restricted to human healthcare; it is also widely used in agriculture to identify traits for climate resilience.",
+      "takeaway": "Genome sequencing maps the exact sequence of DNA base pairs and has broad applications spanning personalized medicine, diagnostics, paternity testing, and agricultural biotechnology.",
+      "evidenceExcerpt": "Genome sequencing determines the exact order of base pairs in an individual's DNA strand. Applications of genome sequencing include personalized healthcare, paternity testing, and identifying agricultural traits for climate resilience."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Application-based",
+      "prompt": "Consider the following fields: 1. Personalized healthcare 2. Paternity testing 3. Development of climate-resilient agriculture. In how many of the above fields can 'Genome Sequencing' be applied?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Genome sequencing has diverse applications. It is used in personalized healthcare and predictive diagnostics to tailor medical treatments. It is used in paternity testing to establish biological relationships. It is also applied in agriculture to identify specific genetic traits that confer climate resilience to crops.",
+      "takeaway": "The utility of genome sequencing extends beyond human health into forensics and agricultural improvements.",
+      "evidenceExcerpt": "Applications of genome sequencing include personalized healthcare, paternity testing, and identifying agricultural traits for climate resilience."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice",
+      "prompt": "In the context of biotechnology, how does genome sequencing primarily contribute to the development of climate-resilient agriculture?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "By directly modifying the base pairs of a plant's DNA to introduce synthetic environmental resistance."
+        },
+        {
+          "id": "B",
+          "text": "By identifying specific agricultural traits within a plant's DNA that confer resilience to climate stressors."
+        },
+        {
+          "id": "C",
+          "text": "By increasing the number of chromosomes in plant gametes to enhance their survival in extreme weather."
+        },
+        {
+          "id": "D",
+          "text": "By fusing the gametes of different crop species to create a new diploid zygote with climate-resilient properties."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Genome sequencing is an analytical technique used to determine the exact order of base pairs in an organism's DNA. In agriculture, this allows scientists to identify existing genetic traits that confer climate resilience. It does not involve directly modifying genes (which is gene editing) or fusing gametes (which is hybridization).",
+      "takeaway": "Genome sequencing is an observational and analytical tool used for identifying traits and mapping base pairs, distinct from techniques that actively edit or alter the genetic code.",
+      "evidenceExcerpt": "Genome sequencing determines the exact order of base pairs in an individual's DNA strand. Applications of genome sequencing include... identifying agricultural traits for climate resilience."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Correct-Pair",
+      "prompt": "Consider the following pairs of genetic terms and their characteristics:\n\n1. Gene : A specific section of DNA acting as a unit of hereditary information.\n2. Gamete : A mature reproductive cell containing a diploid number of chromosomes.\n3. Genome Sequencing : A technique used to determine the exact order of base pairs in a DNA strand.\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched. Pair 2 is incorrectly matched because gametes contain a haploid (not diploid) number of chromosomes, representing 50% of the genetic material. Pair 3 is correctly matched.",
+      "takeaway": "Understanding the distinction between haploid (gametes) and diploid (zygotes) cells is foundational to basic genetics.",
+      "evidenceExcerpt": "Genes are sections of DNA and units of hereditary information. Gametes are mature reproductive cells containing a haploid number of chromosomes... Genome sequencing determines the exact order of base pairs in an individual's DNA strand."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding basic genetic concepts:\n\n1. A gene represents the entire DNA strand of an organism, whereas a genome refers to a specific section of DNA.\n2. Gametes are capable of fusing to form a haploid zygote during reproduction.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Statement 1 is incorrect because it reverses the definitions; a gene is a specific section of DNA, while the genome encompasses the entire DNA sequence of an organism. Statement 2 is incorrect because the fusion of two haploid gametes forms a diploid (not haploid) zygote.",
+      "takeaway": "Genes are localized sections of DNA that carry hereditary information, whereas the genome is the complete set of DNA. Zygotes are inherently diploid, formed by haploid gametes.",
+      "evidenceExcerpt": "Genes are sections of DNA and units of hereditary information. Gametes are mature reproductive cells containing a haploid number of chromosomes (50% genetic material) capable of fusing to form a diploid zygote."
+    }
+  ]
+}

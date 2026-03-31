@@ -1,0 +1,47 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-002-gm-crops-and-regulatory-framework-section-001-epigenome-editing",
+    "claimType": "Conceptual",
+    "claimText": "The epigenome consists of chemical compounds that modify or regulate gene expression.",
+    "evidenceExcerpt": "Epigenome consists of chemical compounds that modify or regulate gene expression.",
+    "pageNumbers": [
+      7
+    ],
+    "examUse": "Statement-based question on the definition and function of the epigenome.",
+    "distractorHooks": [
+      "Epigenome alters the underlying DNA sequence",
+      "Epigenome consists of structural proteins that protect DNA from mutations"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-002-gm-crops-and-regulatory-framework-section-001-epigenome-editing",
+    "claimType": "Factual",
+    "claimText": "Epigenome editing controls gene expression without cutting the underlying DNA.",
+    "evidenceExcerpt": "Epigenome editing allows for precise control over gene expression with reversible changes without cutting DNA",
+    "pageNumbers": [
+      7
+    ],
+    "examUse": "Comparison question between traditional gene editing (which cuts DNA) and epigenome editing.",
+    "distractorHooks": [
+      "Epigenome editing involves cutting and replacing DNA segments",
+      "Epigenome editing permanently deletes target genes"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-002-gm-crops-and-regulatory-framework-section-001-epigenome-editing",
+    "claimType": "Factual",
+    "claimText": "Changes made to gene expression via epigenome editing are reversible.",
+    "evidenceExcerpt": "Epigenome editing allows for precise control over gene expression with reversible changes",
+    "pageNumbers": [
+      7
+    ],
+    "examUse": "Statement-based question on the characteristics and safety profile of epigenome editing.",
+    "distractorHooks": [
+      "Changes made via epigenome editing are permanent and irreversible",
+      "Epigenome editing causes irreversible mutations in the genome"
+    ]
+  }
+]

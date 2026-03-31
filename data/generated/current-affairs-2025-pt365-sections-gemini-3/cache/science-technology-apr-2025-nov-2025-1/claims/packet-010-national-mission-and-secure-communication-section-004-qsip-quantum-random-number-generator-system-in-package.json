@@ -1,0 +1,34 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-010-national-mission-and-secure-communication-section-004-qsip-quantum-random-number-generator-system-in-package",
+    "claimType": "Factual",
+    "claimText": "QSIP (Quantum Random Number Generator System in Package) is a quantum security chip that provides quantum-certified randomness for cryptographic algorithms.",
+    "evidenceExcerpt": "QSIP is a quantum security chip providing quantum-certified randomness. It is used in cryptographic algorithms",
+    "pageNumbers": [
+      22
+    ],
+    "examUse": "Statement-based question identifying the purpose and nature of QSIP.",
+    "distractorHooks": [
+      "QSIP is a classical pseudo-random number generator",
+      "QSIP is a quantum computer processor",
+      "QSIP is a software-based encryption protocol"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-010-national-mission-and-secure-communication-section-004-qsip-quantum-random-number-generator-system-in-package",
+    "claimType": "Conceptual",
+    "claimText": "The primary application of QSIP is to ensure defense against current cyber threats and future quantum attacks.",
+    "evidenceExcerpt": "ensuring defense against cyber threats and future quantum attacks.",
+    "pageNumbers": [
+      22
+    ],
+    "examUse": "Application-based question on the utility of QSIP in cybersecurity.",
+    "distractorHooks": [
+      "QSIP is vulnerable to future quantum attacks",
+      "QSIP is used exclusively for physical border security",
+      "QSIP is a malware detection software"
+    ]
+  }
+]

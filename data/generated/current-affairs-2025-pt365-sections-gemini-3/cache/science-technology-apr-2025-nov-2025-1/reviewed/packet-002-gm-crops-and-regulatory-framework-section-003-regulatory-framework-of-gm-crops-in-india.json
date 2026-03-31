@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of regulatory bodies and their primary functions concerning Genetically Modified Organisms (GMOs) in India:\n\n1. Review Committee on Genetic Manipulation (RCGM) : Monitors research and development projects involving GMOs\n2. State Biotechnology Coordination Committee (SBCC) : Grants final approval for the commercial release of GM crops\n3. District Level Committee (DLC) : Inspects compliance and reports to the SBCC or GEAC\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: The Review Committee on Genetic Manipulation (RCGM) operates under the Department of Biotechnology (DBT) and monitors R&D projects involving GMOs.\nPair 2 is incorrectly matched: The State Biotechnology Coordination Committee (SBCC) reviews safety and control measures for GMOs in institutions at the state level. It does not grant final approval for the commercial release of GM crops.\nPair 3 is correctly matched: The District Level Committee (DLC) inspects GMO compliance and reports its findings to the SBCC or the Genetic Engineering Appraisal Committee (GEAC).",
+      "takeaway": "The regulatory framework for GMOs in India distributes specific roles: RCGM for R&D, SBCC for state-level institutional safety review, and DLC for district-level compliance inspection.",
+      "evidenceExcerpt": "The Review Committee on Genetic Manipulation (RCGM) under the DBT monitors R&D. The State Biotechnology Coordination Committee (SBCC) reviews safety in institutions, and the District Level Committee (DLC) inspects and reports compliance to SBCC or GEAC.",
+      "qualityScore": 85,
+      "reviewNotes": "Excellent use of the 'How many pairs' format to test the decentralized institutional framework for GMO regulation. Distractor for SBCC is highly plausible."
+    }
+  ],
+  "reviewerNotes": "Selected Candidate 1 and Candidate 3. Rewrote them to align perfectly with UPSC phrasing. Candidate 1 tests the knowledge of the nodal ministries/departments and the statutory backing for GM food regulation. Candidate 2 uses the 'How many pairs' format to test the decentralized institutional framework (RCGM, SBCC, DLC) for GMO regulation in India. Both questions are strictly grounded in the provided text."
+}

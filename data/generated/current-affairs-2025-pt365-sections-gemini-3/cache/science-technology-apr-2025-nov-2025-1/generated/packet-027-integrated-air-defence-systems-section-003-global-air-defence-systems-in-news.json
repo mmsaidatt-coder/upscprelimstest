@@ -1,0 +1,207 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "correct-pair",
+      "prompt": "Consider the following pairs of Air Defence Systems and the countries they belong to:\n1. Barak Magen : Israel\n2. HQ-9 : China\n3. Golden Dome : United States of America\n4. Arrow : Russia\n\nHow many of the pairs given above are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "Only three pairs"
+        },
+        {
+          "id": "D",
+          "text": "All four pairs"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Pairs 1, 2, and 3 are correctly matched. Barak Magen is an advanced naval air defence system of Israel. HQ-9 is a Chinese system inspired by the Russian S-300. Golden Dome is an upcoming satellite-based system of the USA. Pair 4 is incorrectly matched as the Arrow system belongs to Israel, not Russia.",
+      "takeaway": "Global air defence systems include Israel's Barak Magen and Arrow, China's HQ-9, and the USA's Golden Dome.",
+      "evidenceExcerpt": "Israel's systems include Iron Dome (short range), David's Sling (short to medium/long), Arrow (long range), and Barak Magen (advanced naval). USA's systems include... the upcoming Golden Dome (surveillance and interceptor satellites). China's HQ-9 system is inspired by the Russian S-300."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "statement-based",
+      "prompt": "With reference to the air defence systems of the United States, consider the following statements:\n1. Terminal High Altitude Area Defense (THAAD) is primarily designed to intercept ballistic missiles.\n2. The PATRIOT system is an advanced naval air defence system.\n3. The upcoming Golden Dome system will utilize a network of surveillance and interceptor satellites.\n\nWhich of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: THAAD is designed to intercept ballistic missiles. Statement 3 is correct: Golden Dome is an upcoming system using surveillance and interceptor satellites. Statement 2 is incorrect: The PATRIOT system is a mobile surface-to-air missile (SAM) defence system, whereas Barak Magen (Israel) is an advanced naval air defence system.",
+      "takeaway": "The USA operates THAAD for ballistic missile interception, the PATRIOT mobile SAM system, and is developing the satellite-based Golden Dome.",
+      "evidenceExcerpt": "USA's systems include THAAD (intercepts ballistic missiles), PATRIOT (mobile SAM), and the upcoming Golden Dome (surveillance and interceptor satellites)."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "sequencing",
+      "prompt": "Consider the following Israeli air defence systems:\n1. Arrow\n2. Iron Dome\n3. David's Sling\n\nWhich of the following represents the correct sequence of these systems in the increasing order of their operational range?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "2 - 3 - 1"
+        },
+        {
+          "id": "B",
+          "text": "2 - 1 - 3"
+        },
+        {
+          "id": "C",
+          "text": "3 - 2 - 1"
+        },
+        {
+          "id": "D",
+          "text": "1 - 3 - 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "The correct increasing order of range is Iron Dome (short range), followed by David's Sling (short to medium/long range), and finally Arrow (long range).",
+      "takeaway": "Israel employs a multi-tiered air defence architecture with Iron Dome for short range, David's Sling for intermediate ranges, and Arrow for long-range threats.",
+      "evidenceExcerpt": "Israel's systems include Iron Dome (short range), David's Sling (short to medium/long), Arrow (long range)..."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "statement-based",
+      "prompt": "Consider the following statements regarding global air defence systems:\n1. The HQ-9 air defence system of China is technologically inspired by the Russian S-300 system.\n2. Barak Magen is an advanced naval air defence system developed by Israel.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Both statements are correct. China's HQ-9 system draws inspiration from the Russian S-300. Barak Magen is an advanced naval air defence system belonging to Israel.",
+      "takeaway": "China's HQ-9 is based on the Russian S-300, while Israel's Barak Magen provides advanced naval air defence capabilities.",
+      "evidenceExcerpt": "Israel's systems include... Barak Magen (advanced naval)... China's HQ-9 system is inspired by the Russian S-300."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Applied",
+      "prompt": "A nation's military requires a mobile surface-to-air missile (SAM) defence system to protect its deployed ground forces, rather than a system dedicated exclusively to intercepting incoming ballistic missiles or utilizing space-based assets. Based on the air defence systems developed by the United States, which of the following is most suited for this specific requirement?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Terminal High Altitude Area Defense (THAAD)"
+        },
+        {
+          "id": "B",
+          "text": "PATRIOT"
+        },
+        {
+          "id": "C",
+          "text": "Golden Dome"
+        },
+        {
+          "id": "D",
+          "text": "HQ-9"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The PATRIOT system is a mobile surface-to-air missile (SAM) defence system developed by the United States, making it suitable for mobile ground protection. THAAD is specifically designed to intercept ballistic missiles, while the upcoming Golden Dome will utilize surveillance and interceptor satellites. HQ-9 is a Chinese system, not an American one.",
+      "takeaway": "The US PATRIOT system serves as a mobile SAM defence platform, distinguishing it from specialized anti-ballistic systems like THAAD and space-based systems like the Golden Dome.",
+      "evidenceExcerpt": "USA's systems include THAAD (intercepts ballistic missiles), PATRIOT (mobile SAM), and the upcoming Golden Dome (surveillance and interceptor satellites)."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Comparative",
+      "prompt": "Consider the following statements regarding the 'Iron Dome' and 'Golden Dome' air defence systems recently in the news:\n\n1. Both systems are developed by Israel to provide overlapping layers of ground-based air defence.\n2. While the Iron Dome is designed for short-range interception, the Golden Dome is an upcoming system that relies on surveillance and interceptor satellites.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect because the Golden Dome is an upcoming system developed by the United States, not Israel. Statement 2 is correct; the Iron Dome is an Israeli short-range system, whereas the US Golden Dome will utilize surveillance and interceptor satellites.",
+      "takeaway": "Despite the similar nomenclature, the Iron Dome is an operational short-range Israeli system, while the Golden Dome is a future US space-based interception network.",
+      "evidenceExcerpt": "Israel's systems include Iron Dome (short range)... USA's systems include... the upcoming Golden Dome (surveillance and interceptor satellites)."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Factual",
+      "prompt": "The development of modern air defence systems often involves drawing technological inspiration from established foreign platforms. In this context, which of the following air defence systems is technologically inspired by the Russian S-300 system?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Terminal High Altitude Area Defense (THAAD)"
+        },
+        {
+          "id": "B",
+          "text": "PATRIOT"
+        },
+        {
+          "id": "C",
+          "text": "HQ-9"
+        },
+        {
+          "id": "D",
+          "text": "Barak Magen"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "China's HQ-9 air defence system is technologically inspired by the Russian S-300 system. THAAD and PATRIOT are US systems, while Barak Magen is an advanced naval system from Israel.",
+      "takeaway": "The Chinese HQ-9 surface-to-air missile system traces its technological lineage to the Russian S-300 system.",
+      "evidenceExcerpt": "China's HQ-9 system is inspired by the Russian S-300."
+    }
+  ]
+}

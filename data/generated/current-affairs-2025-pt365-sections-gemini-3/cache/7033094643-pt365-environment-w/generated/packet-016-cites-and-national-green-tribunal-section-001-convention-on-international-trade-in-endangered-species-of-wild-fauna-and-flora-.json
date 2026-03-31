@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES):\n1. It is a voluntary international agreement that is not legally binding on its Parties.\n2. It does not take the place of national laws of the member countries.\n3. India ratified the convention in the year 1976.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: CITES is a voluntary international agreement between governments, but it is legally binding on its Parties.\nStatement 2 is correct: Although legally binding, CITES does not take the place of national laws.\nStatement 3 is correct: India ratified CITES in 1976.",
+      "takeaway": "CITES is a legally binding agreement that requires Parties to implement it through their own domestic legislation, rather than replacing national laws.",
+      "evidenceExcerpt": "Voluntary international agreement between governments ensuring international trade in wild animals and plants does not threaten their survival. Legally binding on Parties, but does not take the place of national laws. 185 parties (including India - ratified in 1976)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the classification of species under the Appendices of CITES:\n1. Appendix I covers species that are protected in at least one country which has asked for assistance in controlling the trade.\n2. Appendix II covers species that are not necessarily threatened with extinction but need trade control.\n3. Appendix III covers species that are threatened with extinction.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect: Appendix I covers species threatened with extinction. Appendix III covers species protected in at least one country asking for assistance.\nStatement 2 is correct: Appendix II covers species needing trade control.\nStatement 3 is incorrect: Appendix III covers species protected in at least one country asking for assistance.",
+      "takeaway": "CITES classifies species into three Appendices based on the degree of protection needed: Appendix I (threatened with extinction), Appendix II (needing trade control), and Appendix III (protected in at least one country asking for assistance).",
+      "evidenceExcerpt": "CITES Three Appendices: Based on degree of protection needed. Appendix I covers species threatened with extinction; Appendix II covers species needing trade control; Appendix III covers species protected in at least one country asking for assistance."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Multiple-choice",
+      "prompt": "Which of the following initiatives or reports are associated with the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES)?\n1. Monitoring the Illegal Killing of Elephants (MIKE) Programme\n2. CITES Tree Species Programme (CTSP)\n3. World Wildlife Trade Report\n4. International Consortium on Combating Wildlife Crime (ICCWC)\nSelect the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1, 2 and 3 only"
+        },
+        {
+          "id": "B",
+          "text": "2, 3 and 4 only"
+        },
+        {
+          "id": "C",
+          "text": "1, 2 and 4 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2, 3 and 4"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "All four are associated with CITES. Key initiatives of CITES include the MIKE Programme, CITES Tree Species Programme (CTSP), and the International Consortium on Combating Wildlife Crime (ICCWC). Additionally, CITES publishes the World Wildlife Trade Report.",
+      "takeaway": "CITES undertakes several key initiatives such as MIKE, CTSP, and ICCWC, and publishes the World Wildlife Trade Report to monitor and combat illegal wildlife trade.",
+      "evidenceExcerpt": "Key Initiatives of CITES: MIKE Programme to monitor illegal killing of elephants; CITES Tree Species Programme (CTSP); International Consortium on Combating Wildlife Crime (ICCWC), 2010.\n- CITES publishes the World Wildlife Trade Report."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Applied Scenario",
+      "prompt": "A member country of CITES has enacted strict domestic legislation to protect a specific bird species found within its borders. However, it faces challenges in preventing the illegal smuggling of this bird to other countries. Under the CITES framework, which of the following is the most appropriate step for this country to secure international cooperation in controlling this trade?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Propose the inclusion of the species in Appendix I to declare it globally threatened with extinction."
+        },
+        {
+          "id": "B",
+          "text": "List the species in Appendix III to formally ask other member countries for assistance in controlling its trade."
+        },
+        {
+          "id": "C",
+          "text": "Request the International Consortium on Combating Wildlife Crime (ICCWC) to override the importing countries' national laws."
+        },
+        {
+          "id": "D",
+          "text": "Transfer the species to the MIKE Programme for continuous cross-border monitoring."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Appendix III covers species that are protected in at least one country which has asked other CITES Parties for assistance in controlling the trade. Listing the species in Appendix III is the designated mechanism for a country to seek such international assistance.",
+      "takeaway": "Appendix III of CITES is uniquely designed for species that are protected within a specific country that requires the cooperation of other member states to prevent unsustainable or illegal exploitation.",
+      "evidenceExcerpt": "Appendix III covers species protected in at least one country asking for assistance."
+    }
+  ]
+}

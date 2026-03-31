@@ -1,0 +1,125 @@
+{
+  "questions": [
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Rare Earth Elements (REE): 1. China controls more than 85 percent of the global REE supply chain. 2. India accounts for approximately 8 percent of the global REE reserves. 3. In India, REE deposits are primarily extracted from bauxite ores located in the central Indian plateau. How many of the above statements are correct?",
+      "contextLines": [
+        "China dominates global production (over 2/3rd) and supply chain (85%), holding 49% of world reserves, followed by Brazil (23%) and India (8%).",
+        "In India, REE reserves are mostly found in monazite sands in coastal states like Tamil Nadu, Kerala, Andhra Pradesh, and Odisha."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: China controls more than 85% of the global REE supply chain. Statement 2 is correct: India holds about 8% of the global REE reserves. Statement 3 is incorrect: In India, REE reserves are mostly found in monazite sands in coastal states (such as Tamil Nadu, Kerala, Andhra Pradesh, and Odisha), not in bauxite ores in the central plateau.",
+      "takeaway": "China dominates the global REE supply chain (85%) and reserves (49%). India holds a significant 8% of global reserves, primarily located in the monazite sands of its coastal states.",
+      "evidenceExcerpt": "China dominates global production (over 2/3rd) and supply chain (85%), holding 49% of world reserves, followed by Brazil (23%) and India (8%). In India, REE reserves are mostly found in monazite sands in coastal states like Tamil Nadu, Kerala, Andhra Pradesh, and Odisha."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Easy",
+      "questionType": "Arrangement",
+      "prompt": "Arrange the following countries in the decreasing order of their share in the global reserves of Rare Earth Elements (REE): 1. India 2. Brazil 3. China. Select the correct answer using the code given below:",
+      "contextLines": [
+        "China dominates global production (over 2/3rd) and supply chain (85%), holding 49% of world reserves, followed by Brazil (23%) and India (8%)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "3 - 1 - 2"
+        },
+        {
+          "id": "B",
+          "text": "3 - 2 - 1"
+        },
+        {
+          "id": "C",
+          "text": "2 - 3 - 1"
+        },
+        {
+          "id": "D",
+          "text": "1 - 2 - 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "According to the global distribution of REE reserves, China holds the largest share at 49%, followed by Brazil at 23%, and India at 8%. Therefore, the correct decreasing order is China, Brazil, India (3 - 2 - 1).",
+      "takeaway": "The top three holders of global Rare Earth Element reserves mentioned are China (49%), Brazil (23%), and India (8%).",
+      "evidenceExcerpt": "holding 49% of world reserves, followed by Brazil (23%) and India (8%)."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Statements",
+      "prompt": "Consider the following statements regarding Rare Earth Elements (REE):\n\n1. They are critical components in the manufacturing of renewable energy infrastructure and defence equipment.\n2. The primary source of REE in India is monazite sands, which are predominantly found along the coastal plains.\n3. China holds over 80% of the world's natural REE reserves, which explains its dominance in global production.\n\nHow many of the above statements are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct; REEs are widely used in electronics, renewable energy, and defence. Statement 2 is correct; India's REE reserves are mostly found in monazite sands in coastal states. Statement 3 is incorrect; China holds 49% of the world's reserves, not over 80%, although it controls 85% of the supply chain.",
+      "takeaway": "While China controls 85% of the REE supply chain, it holds only about 49% of global reserves. In India, REEs are strategically extracted from coastal monazite sands.",
+      "evidenceExcerpt": "Rare Earth Elements (REE) are used in electronics, renewable energy, and defence. China dominates global production (over 2/3rd) and supply chain (85%), holding 49% of world reserves... In India, REE reserves are mostly found in monazite sands in coastal states...",
+      "contextLines": []
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Easy",
+      "questionType": "List Count",
+      "prompt": "Consider the following states in India:\n\n1. Kerala\n2. Odisha\n3. Andhra Pradesh\n4. Madhya Pradesh\n\nHow many of the above states are known for hosting significant reserves of Rare Earth Elements (REE) in the form of monazite sands?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "India's REE reserves are primarily found in monazite sands located in coastal states. Kerala, Odisha, and Andhra Pradesh are coastal states with significant deposits. Madhya Pradesh is an inland state and is not noted as a primary source of monazite sand REE deposits.",
+      "takeaway": "Monazite sands, the primary source of REE in India, are concentrated along the coastal states such as Tamil Nadu, Kerala, Andhra Pradesh, and Odisha.",
+      "evidenceExcerpt": "In India, REE reserves are mostly found in monazite sands in coastal states like Tamil Nadu, Kerala, Andhra Pradesh, and Odisha.",
+      "contextLines": []
+    }
+  ]
+}

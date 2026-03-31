@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to uranium enrichment, consider the following statements:\n\n1. Uranium enrichment is primarily done using centrifuges to increase the proportion of the uranium-238 isotope.\n2. Civilian nuclear power reactors typically use uranium enriched to 3 to 5 percent of uranium-235.\n3. Uranium enriched to approximately 90 percent of uranium-235 is required to produce weapons-grade material.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Uranium enrichment involves taking naturally found uranium and increasing the proportion of the fissile uranium-235 isotope while removing uranium-238. This process is primarily done using centrifuges.\nStatement 2 is correct: Civilian nuclear power reactors typically use low-enriched uranium, containing 3 to 5 percent of uranium-235.\nStatement 3 is correct: Weapons-grade uranium is highly enriched to approximately 90 percent uranium-235, which makes it compact and efficient for nuclear arms. (Note: Uranium enriched to >20% is classified as Highly Enriched Uranium or HEU).",
+      "takeaway": "Uranium enrichment uses centrifuges to increase the U-235 isotope. Civilian reactors use 3-5% U-235, HEU is >20% U-235, and weapons-grade uranium is ~90% U-235.",
+      "evidenceExcerpt": "To enrich uranium means taking the naturally found element and increasing the proportion of uranium-235 while removing uranium-238. Method: Mainly done using centrifuges. Enrichment Levels & Uses: (3-5%) U-235: Civilian nuclear power reactors. (>20%) U-235: Highly enriched uranium (HEU), potential for weapons. (~90%) U-235: Weapons-grade, compact and efficient for nuclear arms.",
+      "qualityScore": 85,
+      "reviewNotes": "Rewrote Candidate 1 to cover the entire excerpt comprehensively. Statement 1 tests the fundamental definition and method, while Statements 2 and 3 test the specific enrichment thresholds. Since the source text is extremely brief, a second question would inevitably be a near-duplicate, so only one high-quality question is retained."
+    }
+  ],
+  "reviewerNotes": "The source text is very short (only 5 lines). I have consolidated the key facts into a single, strong statement-based question. Generating a second question would violate the rule against near-duplicates on a single fact cluster."
+}

@@ -1,0 +1,522 @@
+[
+  {
+    "subject": "Economy",
+    "difficulty": "Hard",
+    "questionType": "Application-based",
+    "prompt": "Consider a scenario where the Reserve Bank of India aims to curb speculative lending in a specific economic sector without altering the overall liquidity and credit availability in the system. Which of the following monetary policy instruments would be the most appropriate for achieving this specific objective?",
+    "contextLines": [],
+    "options": [
+      {
+        "id": "A",
+        "text": "Increasing the Repo Rate"
+      },
+      {
+        "id": "B",
+        "text": "Raising the Cash Reserve Ratio (CRR)"
+      },
+      {
+        "id": "C",
+        "text": "Adjusting the Margin Requirements on loans for that sector"
+      },
+      {
+        "id": "D",
+        "text": "Increasing the Reverse Repo Rate"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "The objective is to selectively influence the direction of credit without affecting the overall volume of money supply. Increasing the Repo Rate (A), CRR (B), or Reverse Repo Rate (D) are quantitative tools that would reduce the overall money supply or make credit more expensive across the board. Adjusting Margin Requirements is a qualitative tool designed specifically to curb speculation in targeted sectors by changing the loan-to-value ratio, making it the most appropriate instrument.",
+    "takeaway": "Understand the fundamental difference between quantitative tools (affecting overall credit volume) and qualitative tools (affecting credit direction) and be able to apply the correct tool to a given policy scenario.",
+    "evidenceExcerpt": "QUALITATIVE TOOLS (Direction of Credit) Selectively influence credit flow to specific sectors. MARGIN REQUIREMENTS Changing the loan-to-value (LTV) ratio. Higher margin = less loan amount for collateral. Used to curb speculation.",
+    "qualityScore": 90,
+    "reviewNotes": "This is an excellent application-based question that tests a deep understanding of the strategic purpose behind different monetary policy tools. The scenario is realistic and the distractors are perfectly parallel (all being major quantitative tools), making it a strong test of conceptual clarity.",
+    "source": "subject",
+    "year": 2025,
+    "exam": "PT365 Current Affairs 2025",
+    "questionNumber": 1,
+    "sourcePdf": "Economy PT 365 2026.pdf",
+    "sourcePage": 5,
+    "sourceTopic": "Banking and Monetary Policy",
+    "sourceSubtopic": "RBI Monetary Policy and Economic Capital Framework",
+    "id": "ca-2025-5973b0f90e95"
+  },
+  {
+    "subject": "Economy",
+    "difficulty": "Moderate",
+    "questionType": "Statement-based",
+    "prompt": "With reference to the Cash Reserve Ratio (CRR) and the Statutory Liquidity Ratio (SLR), consider the following statements:\n1. Both CRR and SLR are stipulated as a percentage of a bank's Net Demand and Time Liabilities (NDTL).\n2. While CRR must be maintained in the form of cash with the RBI, SLR is maintained by the banks themselves in specified liquid assets.\nWhich of the statements given above is/are correct?",
+    "contextLines": [],
+    "options": [
+      {
+        "id": "A",
+        "text": "1 only"
+      },
+      {
+        "id": "B",
+        "text": "2 only"
+      },
+      {
+        "id": "C",
+        "text": "Both 1 and 2"
+      },
+      {
+        "id": "D",
+        "text": "Neither 1 nor 2"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "Statement 1 is correct. The source text defines both CRR and SLR as a '% of net demand & time liabilities (NDTL)'. Statement 2 is also correct. The text specifies that CRR is maintained as 'CASH with RBI', whereas SLR requires banks to maintain liquid assets 'by themselves'.",
+    "takeaway": "Clearly distinguish between CRR and SLR based on their calculation base (NDTL for both), the form of assets, and where the assets are held (with RBI vs. with the bank itself).",
+    "evidenceExcerpt": "CRR (Cash Reserve Ratio) % of net demand & time liabilities (NDTL) banks must keep as CASH with RBI. SLR (Statutory Liquidity Ratio) % of NDTL banks must maintain in LIQUID ASSETS (Gold, Bonds, Cash) by themselves.",
+    "qualityScore": 88,
+    "reviewNotes": "This is a strong conceptual question that tests the core differences between two fundamental monetary policy tools. The original candidate question had a statement about earning interest on SLR, which was not explicitly supported by the text. This rewritten version is fully grounded in the source while still testing the key distinctions effectively.",
+    "source": "subject",
+    "year": 2025,
+    "exam": "PT365 Current Affairs 2025",
+    "questionNumber": 2,
+    "sourcePdf": "Economy PT 365 2026.pdf",
+    "sourcePage": 5,
+    "sourceTopic": "Banking and Monetary Policy",
+    "sourceSubtopic": "RBI Monetary Policy and Economic Capital Framework",
+    "id": "ca-2025-092388ab3bf7"
+  },
+  {
+    "subject": "Economy",
+    "difficulty": "Moderate",
+    "questionType": "Statement-based",
+    "prompt": "With reference to the Reserve Bank of India's Economic Capital Framework (ECF), consider the following statements:\n1. The adoption of the ECF was based on the recommendations of the committee chaired by Dr. Bimal Jalan.\n2. The framework provides a methodology for determining the appropriate level of risk provisions and the distribution of surplus profits by the RBI.\n3. The Contingency Fund (CF) is classified as a component of 'Realized Equity' under this framework.\nWhich of the statements given above is/are correct?",
+    "contextLines": [],
+    "options": [
+      {
+        "id": "A",
+        "text": "1 and 2 only"
+      },
+      {
+        "id": "B",
+        "text": "2 and 3 only"
+      },
+      {
+        "id": "C",
+        "text": "1 and 3 only"
+      },
+      {
+        "id": "D",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "Statement 1 is correct. The source explicitly states that the ECF was adopted based on the recommendations of the Bimal Jalan Committee. Statement 2 is correct, as the ECF's purpose is to provide a methodology for determining risk provisions and profit distribution under Section 47 of the RBI Act, 1934. Statement 3 is also correct, as the text lists the Contingency Fund (CF) as a component of Realized Equity.",
+    "takeaway": "For important frameworks like the ECF, remember the recommending committee (Bimal Jalan), its core purpose (risk provisions and surplus distribution), and its key components (like Realized Equity and its constituents).",
+    "evidenceExcerpt": "Genesis: ECF was adopted by RBI in 2019, based on the recommendations of the Bimal Jalan Committee. Concept: ECF provides a methodology for determining the appropriate level of risk provisions and profit distribution... Components of Economic Capital under ECF: Realized Equity: This consists of RBI’s Capital, Reserve Fund, Contingency Fund (CF), and Asset Development Fund (ADF).",
+    "qualityScore": 85,
+    "reviewNotes": "This question effectively tests multiple facets of the ECF—its origin, purpose, and a key component. The statements are clear, directly supported by the text, and cover the most critical information on the topic. The original candidate question had an incorrect committee name, which was a good trap, but this version tests a broader range of correct knowledge.",
+    "source": "subject",
+    "year": 2025,
+    "exam": "PT365 Current Affairs 2025",
+    "questionNumber": 3,
+    "sourcePdf": "Economy PT 365 2026.pdf",
+    "sourcePage": 5,
+    "sourceTopic": "Banking and Monetary Policy",
+    "sourceSubtopic": "RBI Monetary Policy and Economic Capital Framework",
+    "id": "ca-2025-172901d83140"
+  },
+  {
+    "subject": "Economy",
+    "difficulty": "Hard",
+    "questionType": "Analytical",
+    "prompt": "Which one of the following statements best distinguishes between the different components of India's Foreign Exchange Reserves in terms of their primary function or characteristic?",
+    "contextLines": [],
+    "options": [
+      {
+        "id": "A",
+        "text": "Foreign Currency Assets (FCA) are held primarily for liquidity and intervention, whereas Gold Reserves serve as a long-term hedge against systemic risks and inflation."
+      },
+      {
+        "id": "B",
+        "text": "The Reserve Tranche Position (RTP) can be drawn upon only with strict conditionality, unlike Special Drawing Rights (SDR) which are unconditional."
+      },
+      {
+        "id": "C",
+        "text": "Gold Reserves offer a consistent interest yield, while Foreign Currency Assets are non-interest bearing but highly liquid."
+      },
+      {
+        "id": "D",
+        "text": "Special Drawing Rights (SDR) are physical assets held in RBI vaults, whereas the Reserve Tranche Position (RTP) is a book-entry claim."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Option A is the most accurate distinction. FCA are held in major convertible currencies, implying their use for managing day-to-day liquidity and intervening in currency markets. The text explicitly states that gold is accumulated as a 'Hedge against Inflation' and for 'Risk Mitigation' against volatility, indicating its role as a strategic, long-term asset. Option B is incorrect; the text states RTP is 'readily available for withdrawal without strict conditions'. Option C is incorrect; the text clearly states gold yields 'no interest or dividends'. Option D is incorrect as neither SDR nor RTP are physical assets.",
+    "takeaway": "Each component of the foreign exchange reserves serves a distinct purpose, from providing immediate liquidity (FCA) to acting as a long-term store of value and hedge against uncertainty (Gold), and facilitating interactions with the IMF (SDR, RTP).",
+    "evidenceExcerpt": "Foreign Currency Assets (FCA): These are maintained in currencies like the US dollar, euro... Why is RBI increasing gold reserves? ... Risk Mitigation: Help protect against currency volatility... Hedge against Inflation... Risk Associated with Storing Gold... Zero Yield: Gold yields no interest or dividends... Reserve Tranche Position (RTP): ...readily available for withdrawal without strict conditions.",
+    "qualityScore": 90,
+    "reviewNotes": "This is an excellent, high-difficulty question. It requires a nuanced, comparative understanding of all four components, forcing the candidate to evaluate the primary function of each. The distractors are well-crafted and target common misconceptions.",
+    "source": "subject",
+    "year": 2025,
+    "exam": "PT365 Current Affairs 2025",
+    "questionNumber": 4,
+    "sourcePdf": "Economy PT 365 2026.pdf",
+    "sourcePage": 6,
+    "sourceTopic": "Banking and Monetary Policy",
+    "sourceSubtopic": "Forex Reserves and Ombudsman Scheme",
+    "id": "ca-2025-dab7092f03b9"
+  },
+  {
+    "subject": "Economy",
+    "difficulty": "Hard",
+    "questionType": "Applied/Conceptual",
+    "prompt": "In the context of managing India's foreign exchange reserves, which of the following statements best captures an inherent trade-off associated with increasing the proportion of gold holdings?",
+    "contextLines": [],
+    "options": [
+      {
+        "id": "A",
+        "text": "Gold serves as a hedge against inflation and currency volatility but offers lower liquidity compared to foreign currency assets."
+      },
+      {
+        "id": "B",
+        "text": "Gold diversifies the reserve base away from the US dollar but is subject to higher revaluation risks than sovereign bonds."
+      },
+      {
+        "id": "C",
+        "text": "Gold yields no interest, yet its storage and security costs are typically lower than the transaction costs of managing foreign currency assets."
+      },
+      {
+        "id": "D",
+        "text": "Gold offers potential for high capital appreciation but is not considered a part of a country's official reserve assets by the IMF."
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Option A correctly identifies the trade-off. The source text states that the RBI increases gold reserves to 'Hedge against Inflation' and for 'Risk Mitigation' against 'currency volatility'. However, it also lists 'Reduced Liquidity and Flexibility' as a risk, noting that converting gold to cash is 'slower and costlier than liquidating foreign currency assets'. This highlights the trade-off between safety/hedging and liquidity. Option B is incorrect because gold helps mitigate, not increase, revaluation risks. Option C is incorrect as the text highlights storage and security costs as a disadvantage, not an advantage. Option D is incorrect as gold is a key component of official foreign exchange reserves.",
+    "takeaway": "Management of foreign exchange reserves involves balancing competing objectives. While gold provides a strategic hedge against inflation and currency risks, this benefit comes at the cost of lower liquidity and a lack of interest income compared to foreign currency assets like government bonds.",
+    "evidenceExcerpt": "Why is RBI increasing gold reserves? ... Hedge against Inflation: Gold is accumulated as a hedge against inflation... Risk Mitigation: Help protect against currency volatility... Risk Associated with Storing Gold: Reduced Liquidity and Flexibility: Converting large gold holdings to cash is slower and costlier than liquidating foreign currency assets. Zero Yield: Gold yields no interest or dividends...",
+    "qualityScore": 85,
+    "reviewNotes": "This is a strong conceptual question that requires the candidate to synthesize information about both the benefits and risks of holding gold to identify a 'trade-off', which is a higher-order thinking skill.",
+    "source": "subject",
+    "year": 2025,
+    "exam": "PT365 Current Affairs 2025",
+    "questionNumber": 5,
+    "sourcePdf": "Economy PT 365 2026.pdf",
+    "sourcePage": 6,
+    "sourceTopic": "Banking and Monetary Policy",
+    "sourceSubtopic": "Forex Reserves and Ombudsman Scheme",
+    "id": "ca-2025-871aa860fedd"
+  },
+  {
+    "subject": "Economy",
+    "difficulty": "Moderate",
+    "questionType": "Multiple Choice Question - Conceptual",
+    "prompt": "Which of the following statements best explains the 'One Nation One Ombudsman' approach, a key feature of the RBI's Integrated Ombudsman Scheme?",
+    "contextLines": [],
+    "options": [
+      {
+        "id": "A",
+        "text": "It has led to the centralization of the grievance redressal mechanism in a single office located at the RBI's headquarters."
+      },
+      {
+        "id": "B",
+        "text": "It allows a complainant to file a grievance with any office of the RBI Ombudsman, regardless of the geographical jurisdiction of the financial entity."
+      },
+      {
+        "id": "C",
+        "text": "It integrates the ombudsman schemes of all financial sector regulators, such as SEBI and IRDAI, under the RBI's purview."
+      },
+      {
+        "id": "D",
+        "text": "It establishes a single, uniform compensation limit for all financial grievances, including those related to insurance and securities markets."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "The 'One Nation One Ombudsman' approach makes the RBI's ombudsman mechanism 'jurisdiction neutral'. This means a complainant is no longer restricted by the geographical location of the financial entity's office and can file their complaint at any RBI Ombudsman office. Option A is incorrect as it doesn't eliminate regional offices. Option C is incorrect as the scheme integrated three of RBI's own previous schemes, not those of other regulators like SEBI or IRDAI. Option D is incorrect as the compensation limit applies only to the RBI's integrated scheme, not all financial grievances in India.",
+    "takeaway": "The 'One Nation One Ombudsman' approach simplifies grievance redressal for customers of RBI-regulated entities by removing jurisdictional barriers, allowing them to file complaints anywhere in the country.",
+    "evidenceExcerpt": "It adopted the ‘One Nation One Ombudsman’ approach by making the RBI Ombudsman mechanism jurisdiction neutral.",
+    "qualityScore": 90,
+    "reviewNotes": "This is a high-quality conceptual question. The distractors are very plausible and test a precise understanding of the scheme's scope and meaning, distinguishing it from other potential interpretations of 'integration' or 'one nation'.",
+    "source": "subject",
+    "year": 2025,
+    "exam": "PT365 Current Affairs 2025",
+    "questionNumber": 6,
+    "sourcePdf": "Economy PT 365 2026.pdf",
+    "sourcePage": 7,
+    "sourceTopic": "Banking and Monetary Policy",
+    "sourceSubtopic": "RBI Initiatives and Key Terms",
+    "id": "ca-2025-f051b04cfc6f"
+  },
+  {
+    "subject": "Economy",
+    "difficulty": "Hard",
+    "questionType": "Multiple Choice Question - Statement Based",
+    "prompt": "With reference to the 'Switch Auctions' conducted by the RBI on behalf of the Government of India, consider the following statements:\n1. The primary objective of these auctions is to manage the maturity profile of public debt by replacing shorter-tenure securities with longer-tenure ones.\n2. The mechanism involves market participants selling 'destination securities' to the government while simultaneously purchasing 'source securities'.\n3. These transactions are executed on the RBI's e-Kuber portal.\nWhich of the statements given above is/are correct?",
+    "contextLines": [],
+    "options": [
+      {
+        "id": "A",
+        "text": "1 and 3 only"
+      },
+      {
+        "id": "B",
+        "text": "2 and 3 only"
+      },
+      {
+        "id": "C",
+        "text": "1 only"
+      },
+      {
+        "id": "D",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Statement 1 is correct. The stated objective is to manage the public debt's maturity profile by switching from short-term to long-term securities. Statement 2 is incorrect. The mechanism is the reverse of what is stated; participants sell 'source securities' to the government and buy 'destination securities'. Statement 3 is correct. The source text confirms that the process is executed through the e-Kuber portal.",
+    "takeaway": "Switch Auctions are a debt management tool used by the government (via RBI's e-Kuber platform) to lengthen the maturity profile of its debt by selling short-term securities ('source') and buying long-term ones ('destination').",
+    "evidenceExcerpt": "Objective: To manage the maturity profile of public debt by replacing short-term securities with longer-dated ones. Mechanism: Market participants sell source securities to the Government of India and simultaneously buy destination securities at quoted prices. The process is executed through the e-Kuber portal via the Switch Transaction module.",
+    "qualityScore": 88,
+    "reviewNotes": "Excellent question. Statement 2 is a classic UPSC-style trap that reverses key terms, testing careful reading. The prompt and statements are precise and well-grounded in the source. Difficulty is set to Hard due to the specific terminology trap.",
+    "source": "subject",
+    "year": 2025,
+    "exam": "PT365 Current Affairs 2025",
+    "questionNumber": 7,
+    "sourcePdf": "Economy PT 365 2026.pdf",
+    "sourcePage": 7,
+    "sourceTopic": "Banking and Monetary Policy",
+    "sourceSubtopic": "RBI Initiatives and Key Terms",
+    "id": "ca-2025-449bbedf09f0"
+  },
+  {
+    "subject": "Economy",
+    "difficulty": "Moderate",
+    "questionType": "Multiple Choice Question - Statement Based",
+    "prompt": "With reference to the Standing Deposit Facility (SDF) of the Reserve Bank of India, consider the following statements:\n1. It is a monetary policy instrument that allows the RBI to absorb liquidity from commercial banks without providing government securities as collateral.\n2. It has replaced the Fixed Rate Reverse Repo as the floor of the Liquidity Adjustment Facility (LAF) corridor.\n3. Under this facility, liquidity is absorbed strictly on an overnight basis, with no provision for the RBI to increase its duration.\nWhich of the statements given above is/are correct?",
+    "contextLines": [],
+    "options": [
+      {
+        "id": "A",
+        "text": "1 and 3 only"
+      },
+      {
+        "id": "B",
+        "text": "2 only"
+      },
+      {
+        "id": "C",
+        "text": "1 and 2 only"
+      },
+      {
+        "id": "D",
+        "text": "1, 2 and 3"
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "Statement 1 is correct. The SDF is a tool for absorbing liquidity from commercial banks without the need for collateral. Statement 2 is correct. The SDF serves as the new floor for the LAF corridor, replacing the earlier Fixed Rate Reverse Repo. Statement 3 is incorrect. While the SDF is primarily an overnight facility, the source text explicitly mentions that the RBI has the 'flexibility... to increase its duration'.",
+    "takeaway": "The Standing Deposit Facility (SDF) is a collateral-free liquidity absorption tool that acts as the floor of the LAF corridor, offering the RBI flexibility in managing the duration of absorption.",
+    "evidenceExcerpt": "It is a monetary tool that absorbs liquidity from commercial banks without collateral. SDF replaced the Fixed Rate Reverse Repo as the Liquidity Adjustment Facility corridor’s floor. SDF is an overnight liquidity absorption mechanism with the flexibility for the RBI to increase its duration.",
+    "qualityScore": 85,
+    "reviewNotes": "This is a strong question testing key features of the SDF. Statement 3 is a well-crafted trap based on a specific detail in the source text. The wording has been refined to match UPSC standards.",
+    "source": "subject",
+    "year": 2025,
+    "exam": "PT365 Current Affairs 2025",
+    "questionNumber": 8,
+    "sourcePdf": "Economy PT 365 2026.pdf",
+    "sourcePage": 7,
+    "sourceTopic": "Banking and Monetary Policy",
+    "sourceSubtopic": "RBI Initiatives and Key Terms",
+    "id": "ca-2025-cc9e063058fc"
+  },
+  {
+    "subject": "Economy",
+    "difficulty": "Moderate",
+    "questionType": "Statement-based",
+    "prompt": "With reference to Certificate of Deposits (CDs) in India, consider the following statements:\n1. Tokenisation refers to the creation of a digital representation of a real-world asset, such as a CD, on a distributed ledger.\n2. Both Regional Rural Banks and Local Area Banks are permitted by the RBI to issue Certificates of Deposit.\n3. A CD is a negotiable money market instrument issued at a discount to its face value with a maturity period of up to one year.\nHow many of the statements given above are correct?",
+    "contextLines": [],
+    "options": [
+      {
+        "id": "A",
+        "text": "Only one"
+      },
+      {
+        "id": "B",
+        "text": "Only two"
+      },
+      {
+        "id": "C",
+        "text": "All three"
+      },
+      {
+        "id": "D",
+        "text": "None"
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Statement 1 is correct. The text defines tokenization as the process of creating a digital representation of a real-world asset on a distributed ledger. Statement 2 is incorrect. The text explicitly states that Scheduled commercial banks *excluding* Regional Rural Banks and Local Area Banks are eligible to issue CDs. Statement 3 is correct. The text mentions that a CD is a negotiable money market instrument, issued at a discount on face value, and its maturity period is up to one year. Therefore, only two statements are correct.",
+    "takeaway": "Understand the key features of Certificate of Deposits (CDs), including which institutions are eligible to issue them, their issuance method, and maturity. Also, be familiar with modern concepts like tokenisation of financial assets.",
+    "evidenceExcerpt": "Tokenization is the process of creating a digital representation, called a \"token\", of a real-world asset like stocks on a distributed ledger or blockchain. ... CD is a negotiable money market instrument ... Issued by: Scheduled commercial banks (excluding Regional Rural Banks and Local Area Banks) ... Issued by at a discount on face value. Its maturity period is up to one year (min- 7 days).",
+    "qualityScore": 90,
+    "reviewNotes": "Excellent question. It effectively tests a specific exclusion clause (RRBs and LABs), which is a classic UPSC-style detail. The combination of a conceptual statement (tokenisation) and factual statements about the instrument makes it robust.",
+    "source": "subject",
+    "year": 2025,
+    "exam": "PT365 Current Affairs 2025",
+    "questionNumber": 9,
+    "sourcePdf": "Economy PT 365 2026.pdf",
+    "sourcePage": 8,
+    "sourceTopic": "Banking and Monetary Policy",
+    "sourceSubtopic": "Payment Systems, RBI Advances, and Digital Initiatives",
+    "id": "ca-2025-ee5ded96d546"
+  },
+  {
+    "subject": "Economy",
+    "difficulty": "Hard",
+    "questionType": "Statement-based",
+    "prompt": "With reference to the framework for Self-Regulatory Organisations (SROs) for Regulated Entities in India, consider the following statements:\n1. The primary objective of establishing an SRO is to replace the direct regulatory oversight of the RBI for the sector it represents.\n2. As per the RBI's framework, an SRO must be set up as a for-profit company to ensure its operational independence.\n3. The Finance Industry Development Council (FIDC), a representative body of NBFCs, has been recognised as an SRO for the NBFC sector.\nHow many of the statements given above are correct?",
+    "contextLines": [],
+    "options": [
+      {
+        "id": "A",
+        "text": "Only one"
+      },
+      {
+        "id": "B",
+        "text": "Only two"
+      },
+      {
+        "id": "C",
+        "text": "All three"
+      },
+      {
+        "id": "D",
+        "text": "None"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Statement 1 is incorrect. SROs are meant to supplement and improve the quality of regulation, not replace the primary regulator like the RBI. Statement 2 is incorrect. The framework explicitly requires an SRO to be a not-for-profit company registered under Section 8 of the Companies Act, 2013. Statement 3 is correct. The text mentions that the RBI granted SRO status to FIDC to oversee NBFCs and that FIDC is a representative body of NBFCs. Therefore, only one statement is correct.",
+    "takeaway": "SROs function as a first level of oversight to complement, not replace, the primary regulator (RBI). They have a specific legal structure, being not-for-profit entities, to ensure their objectives are aligned with regulatory goals rather than profit motives.",
+    "evidenceExcerpt": "RBI granted Self-Regulatory Organisation status to Finance Industry Development Council (FIDC) to oversee NBFCs. FIDC is a representative body of non-banking financial companies (NBFC) registered with the RBI. ... An SRO shall be setup as a not-for-profit company registered under Section 8 of the Companies Act, 2013.",
+    "qualityScore": 90,
+    "reviewNotes": "This is a high-quality question that tests the nuanced understanding of the role and structure of SROs. The distractors are plausible but conceptually flawed, which is ideal for a hard-difficulty question.",
+    "source": "subject",
+    "year": 2025,
+    "exam": "PT365 Current Affairs 2025",
+    "questionNumber": 10,
+    "sourcePdf": "Economy PT 365 2026.pdf",
+    "sourcePage": 8,
+    "sourceTopic": "Banking and Monetary Policy",
+    "sourceSubtopic": "Payment Systems, RBI Advances, and Digital Initiatives",
+    "id": "ca-2025-7652d483b8fd"
+  },
+  {
+    "subject": "Economy",
+    "difficulty": "Moderate",
+    "questionType": "Matched-Pairs",
+    "prompt": "Consider the following pairs regarding recent initiatives by the Reserve Bank of India:\n1. Unified Lending Interface (ULI) : A platform for fintech firms to test solutions for Central Bank Digital Currency.\n2. CBDC Retail Sandbox : A digital public infrastructure to aggregate data for better credit assessment by lenders.\n3. Tokenisation of CDs : The process of creating a digital representation of the instrument on a distributed ledger.\nHow many of the pairs given above are correctly matched?",
+    "contextLines": [],
+    "options": [
+      {
+        "id": "A",
+        "text": "Only one"
+      },
+      {
+        "id": "B",
+        "text": "Only two"
+      },
+      {
+        "id": "C",
+        "text": "All three"
+      },
+      {
+        "id": "D",
+        "text": "None"
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Pair 1 is incorrectly matched. The objective described belongs to the CBDC Retail Sandbox. The ULI is a Digital Public Infrastructure for enhancing credit delivery by aggregating data for lenders. Pair 2 is incorrectly matched. The objective described belongs to the Unified Lending Interface (ULI). The CBDC Retail Sandbox is for fintech firms to test solutions. Pair 3 is correctly matched. Tokenization is accurately defined as the process of creating a digital representation of an asset like a CD on a distributed ledger. Therefore, only one pair is correctly matched.",
+    "takeaway": "It is important to have precise knowledge of the specific objectives of different digital initiatives launched by the RBI, as their names can sometimes be confusing. ULI is for credit, CBDC Sandbox is for testing digital currency solutions, and Tokenisation is for creating digital assets.",
+    "evidenceExcerpt": "Unified Lending Interface (ULI): It is envisioned as a Digital Public Infrastructure (DPI) aiming to enhance delivery of credit. o It aggregates data from multiple data sources which would be made available to lenders for better credit assessment. • Central Bank Digital Currency (CBDC) retail sandbox: For fintech firms to innovate and test solutions. • Tokenisation of Certificate of Deposits (CD): Tokenization is the process of creating a digital representation, called a \"token\", of a real-world asset like stocks on a distributed ledger or blockchain.",
+    "qualityScore": 88,
+    "reviewNotes": "This is a strong 'matched pairs' question that effectively tests the candidate's ability to differentiate between similar-sounding recent initiatives. Swapping the objectives of the first two pairs is a classic and effective way to create confusion and test precise knowledge.",
+    "source": "subject",
+    "year": 2025,
+    "exam": "PT365 Current Affairs 2025",
+    "questionNumber": 11,
+    "sourcePdf": "Economy PT 365 2026.pdf",
+    "sourcePage": 8,
+    "sourceTopic": "Banking and Monetary Policy",
+    "sourceSubtopic": "Payment Systems, RBI Advances, and Digital Initiatives",
+    "id": "ca-2025-be614aa73a32"
+  },
+  {
+    "subject": "Economy",
+    "difficulty": "Moderate",
+    "questionType": "Statement-based",
+    "prompt": "With reference to the Ways and Means Advances (WMA) facility, consider the following statements:\n1. It is available to both the Central and State governments to manage temporary mismatches in cash flow.\n2. The interest rate charged on WMA is equivalent to the RBI's repo rate, while overdrafts beyond the WMA limit attract a penal rate.\n3. Unlike ad hoc Treasury Bills, the WMA facility is not intended to be a source of financing the fiscal deficit.\n4. The advances under this facility must be repaid within a maximum period of three months.\nHow many of the statements given above are correct?",
+    "contextLines": [],
+    "options": [
+      {
+        "id": "A",
+        "text": "Only one"
+      },
+      {
+        "id": "B",
+        "text": "Only two"
+      },
+      {
+        "id": "C",
+        "text": "Only three"
+      },
+      {
+        "id": "D",
+        "text": "All four"
+      }
+    ],
+    "correctOptionId": "D",
+    "explanation": "All four statements are correct. Statement 1 is correct as the text states WMA is a temporary advance for the central government and is also available for state governments and UTs. Statement 2 is correct as the interest rate is the repo rate, but overdrafts are charged at 2% above the repo rate. Statement 3 is correct as the text explicitly mentions that WMAs are not a source of financing the fiscal deficit, unlike ad hoc Treasury Bills. Statement 4 is correct as the duration for repayment is within 3 months.",
+    "takeaway": "Ways and Means Advances (WMA) are a crucial short-term liquidity management tool for governments, distinct from deficit financing, with specific RBI-stipulated interest rates and repayment timelines.",
+    "evidenceExcerpt": "It is a temporary advance given by the RBI to the central government to cover any mismatch in receipts and payments. ... WMA is also available for state governments and Union Territories. ... Unlike ad hoc Treasury Bills, the instrument of WMAs is not a source of financing fiscal deficit. ... Interest rate on WMA is the RBI’s repo rate. However, interest on overdraft (amounts in excess of their WMA limits) is 2 % above the repo rate. ... It shall be fully paid off within 3 months from the date of making the WMAs.",
+    "qualityScore": 85,
+    "reviewNotes": "This is a comprehensive question covering all key aspects of WMA mentioned in the text. The 'How many correct?' format requires precise knowledge of each statement, making it a strong question.",
+    "source": "subject",
+    "year": 2025,
+    "exam": "PT365 Current Affairs 2025",
+    "questionNumber": 12,
+    "sourcePdf": "Economy PT 365 2026.pdf",
+    "sourcePage": 8,
+    "sourceTopic": "Banking and Monetary Policy",
+    "sourceSubtopic": "Payment Systems, RBI Advances, and Digital Initiatives",
+    "id": "ca-2025-d043a3c0eb20"
+  },
+  {
+    "subject": "Economy",
+    "difficulty": "Moderate",
+    "questionType": "Multiple-Choice",
+    "prompt": "With reference to the regulatory framework for non-bank Payment Aggregators (PAs) in India, which one of the following statements is correct?",
+    "contextLines": [],
+    "options": [
+      {
+        "id": "A",
+        "text": "They are primarily regulated by the Securities and Exchange Board of India due to their role in facilitating investment products."
+      },
+      {
+        "id": "B",
+        "text": "They require authorisation from the Reserve Bank of India under the provisions of the Payment and Settlement Systems Act, 2007."
+      },
+      {
+        "id": "C",
+        "text": "They must be incorporated as a not-for-profit company under the Companies Act, 2013, similar to Self-Regulatory Organisations."
+      },
+      {
+        "id": "D",
+        "text": "They are exempt from direct RBI authorisation as long as they partner with a scheduled commercial bank for settlements."
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Statement B is correct. The source text explicitly states that the new framework mandates non-bank PAs to obtain RBI authorisation under the Payment and Settlement Systems Act, 2007. Statement A is incorrect; the regulator for payment systems is the RBI, not SEBI. Statement C is incorrect; while PAs are incorporated under the Companies Act, 2013, there is no mention of a 'not-for-profit' requirement, which is a condition for SROs. Statement D is incorrect as the text mandates authorisation for non-bank PAs.",
+    "takeaway": "Non-bank Payment Aggregators are a critical part of the digital payments ecosystem and are directly regulated by the RBI under the Payment and Settlement Systems Act, 2007, requiring specific authorisation to operate.",
+    "evidenceExcerpt": "New framework mandates non-bank PAs to obtain RBI authorisation under the Payment and Settlement Systems Act, 2007. ... It is incorporated as a company under the Companies Act, 2013.",
+    "qualityScore": 85,
+    "reviewNotes": "This is a solid conceptual question. The distractors are well-crafted and plausible, testing the candidate's knowledge of the correct regulator (RBI vs. SEBI) and corporate structure (confusing with SROs), which are common areas of confusion.",
+    "source": "subject",
+    "year": 2025,
+    "exam": "PT365 Current Affairs 2025",
+    "questionNumber": 13,
+    "sourcePdf": "Economy PT 365 2026.pdf",
+    "sourcePage": 8,
+    "sourceTopic": "Banking and Monetary Policy",
+    "sourceSubtopic": "Payment Systems, RBI Advances, and Digital Initiatives",
+    "id": "ca-2025-40a439ac7dfa"
+  }
+]

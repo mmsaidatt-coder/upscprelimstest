@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice",
+      "prompt": "Consider the following wetlands in India:\n1. Keoladeo National Park\n2. Loktak Lake\n3. Chilika Lake\n\nHow many of the above wetlands are currently listed in the Montreux Record?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Montreux Record currently includes India's Keoladeo National Park and Loktak Lake. Chilika Lake was previously listed but was removed after successful conservation efforts.",
+      "takeaway": "Keoladeo National Park and Loktak Lake are the two Indian sites currently on the Montreux Record; Chilika Lake was removed.",
+      "evidenceExcerpt": "The Montreux Record currently includes India's Keoladeo National Park and Loktak Lake; Chilika Lake was removed after successful conservation."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Wetland City Accreditation (WCA) under the Ramsar Convention:\n1. It is a mandatory compliance mechanism for cities located in the vicinity of Ramsar sites.\n2. The accreditation granted to a city remains valid for a period of six years.\n3. The WCA system was formally approved at the 12th Conference of the Contracting Parties (COP12) to the Ramsar Convention.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The Wetland City Accreditation (WCA) is a voluntary system, not a mandatory compliance mechanism. Statement 2 is correct: The accreditation is valid for 6 years before requiring renewal. Statement 3 is correct: It was approved at COP12 in 2015.",
+      "takeaway": "The Wetland City Accreditation is a voluntary system approved at COP12 (2015) and is valid for 6 years.",
+      "evidenceExcerpt": "Wetland City Accreditation (WCA) is a voluntary system approved at COP12 (2015) that is valid for 6 years."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs regarding the Ramsar Convention:\n\n1. Country with the highest number of Ramsar sites globally : United Kingdom\n2. Country with the highest number of Ramsar sites in Asia : India\n3. Country hosting the largest Ramsar site in the world : Brazil\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Pair 1 is correctly matched: Globally, the United Kingdom has the highest number of Ramsar sites. Pair 2 is correctly matched: India has 96 Ramsar sites, which is the highest number in Asia. Pair 3 is correctly matched: Brazil's Rio Negro is the largest Ramsar site in the world.",
+      "takeaway": "The UK has the most Ramsar sites globally, India leads in Asia, and Brazil hosts the largest Ramsar site (Rio Negro).",
+      "evidenceExcerpt": "Details the Ramsar List, noting the UK has the most sites, Brazil's Rio Negro is the largest, and India has 96 (highest in Asia)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "Which of the following best describes the primary purpose of the 'Montreux Record' under the Ramsar Convention?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It is a register of wetland sites where changes in ecological character have occurred or are likely to occur as a result of human interference."
+        },
+        {
+          "id": "B",
+          "text": "It is a mandatory compliance mechanism that penalizes countries for failing to protect their internationally recognized wetlands."
+        },
+        {
+          "id": "C",
+          "text": "It is an inventory of the largest and most pristine wetlands globally that remain completely untouched by human activities."
+        },
+        {
+          "id": "D",
+          "text": "It is a voluntary accreditation system for cities that have taken exceptional steps to safeguard their urban wetlands."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "The Montreux Record is a register of wetland sites on the List of Wetlands of International Importance where changes in ecological character have occurred, are occurring, or are likely to occur as a result of human interference. It is not a penalizing mechanism, nor is it an inventory of pristine untouched wetlands. Option D describes the Wetland City Accreditation (WCA).",
+      "takeaway": "The Montreux Record specifically highlights Ramsar sites facing ecological threats due to human activities, serving as a tool to prioritize conservation attention.",
+      "evidenceExcerpt": "The Montreux Record lists wetlands facing ecological change due to human interference"
+    }
+  ]
+}

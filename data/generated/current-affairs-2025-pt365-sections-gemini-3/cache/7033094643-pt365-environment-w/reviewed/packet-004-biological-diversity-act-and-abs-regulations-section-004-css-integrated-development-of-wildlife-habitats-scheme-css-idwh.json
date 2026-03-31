@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Multiple-choice",
+      "prompt": "Consider the following fauna:\n1. Snow Leopard\n2. Asiatic Lion\n3. Gangetic River Dolphin\n4. Sloth Bear\nHow many of the above are currently included in the Species Recovery Programme under the Integrated Development of Wildlife Habitats (IDWH) Scheme?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The Snow Leopard, Asiatic Lion, and Gangetic River Dolphin are among the 22 species currently included in the Species Recovery Programme. The Sloth Bear (along with the Gharial) has only been recommended for inclusion and is not yet formally part of the 22 species.",
+      "takeaway": "The Species Recovery Programme under IDWH currently covers 22 critically endangered species. It is important to distinguish between species already covered and those recently recommended for inclusion, such as the Gharial and Sloth Bear.",
+      "evidenceExcerpt": "22 species are included, with Gharial and Sloth Bear recently recommended... 22 species currently included, such as Snow Leopard, Asiatic Lion, and Gangetic River Dolphin.",
+      "qualityScore": 88,
+      "reviewNotes": "Excellent UPSC-style 'How many of the above' question. Tests precise knowledge of species covered under a major government programme, distinguishing between current inclusions and recent recommendations."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Integrated Development of Wildlife Habitats (IDWH) Scheme:\n1. It is a Central Sector Scheme administered by the Ministry of Environment, Forest and Climate Change.\n2. It provides financial assistance for wildlife conservation exclusively within designated Protected Areas.\n3. Project Tiger and Project Elephant are key components of this scheme.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect: IDWH is a Centrally Sponsored Scheme, not a Central Sector Scheme. Statement 2 is incorrect: The scheme provides financial assistance for Protected Areas, wildlife outside protected areas, and recovery programmes for critically endangered species. Statement 3 is correct: Key components of the scheme include the Development of Wildlife Habitats, Project Tiger, and Project Elephant.",
+      "takeaway": "IDWH is a Centrally Sponsored Scheme that funds wildlife conservation both inside and outside Protected Areas, and integrates major initiatives like Project Tiger and Project Elephant.",
+      "evidenceExcerpt": "CSS-IDWH is a Centrally Sponsored Scheme under MoEFCC for wildlife protection. It provides financial assistance to State/UTs for Protected Areas, wildlife outside protected areas... Key components include Development of Wildlife Habitats, Project Tiger, and Project Elephant.",
+      "qualityScore": 85,
+      "reviewNotes": "Good test of scheme classification (Sector vs Sponsored) and scope (inside vs outside PAs), which are classic UPSC traps."
+    }
+  ],
+  "reviewerNotes": "Selected two questions that test different aspects of the CSS-IDWH scheme. The first tests the administrative structure and scope of the scheme, utilizing classic UPSC traps (Central Sector vs Centrally Sponsored, exclusively inside PAs). The second tests the specific species covered under the Species Recovery Programme using the recent 'How many of the above' format, effectively distinguishing between currently included and merely recommended species."
+}

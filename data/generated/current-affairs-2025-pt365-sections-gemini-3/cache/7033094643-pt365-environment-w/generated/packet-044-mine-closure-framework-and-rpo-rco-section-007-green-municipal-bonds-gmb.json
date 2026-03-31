@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "statement-based",
+      "prompt": "With reference to Municipal Bonds in India, consider the following statements:\n1. They are issued as convertible debt securities to attract retail investors.\n2. The issuing entities must be entrusted with functions under Article 243W of the Constitution of India.\n3. India's first certified Green Municipal Bond was issued under the Swachh Bharat Mission-Urban.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Municipal bonds are non-convertible debt securities. Statement 2 is correct: They are issued by municipal bodies or others established for such purposes and entrusted with functions under Article 243W of the Constitution. Statement 3 is correct: Ghaziabad Nagar Nigam pioneered India's first certified Green Municipal Bond issued under the Swachh Bharat Mission-Urban.",
+      "takeaway": "Municipal bonds are strictly non-convertible debt instruments tied to urban local bodies functioning under Article 243W. The first certified Green Municipal Bond was issued by Ghaziabad under SBM-U.",
+      "evidenceExcerpt": "Ghaziabad Nagar Nigam pioneered India's first certified GMB issued under Swachh Bharat Mission-Urban... Municipal bonds refer to non-convertible debt securities issued by municipal body or others established for such purposes and entrusted with functions under Article 243W of Constitution."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "statement-based",
+      "prompt": "Consider the following statements regarding India's first certified Green Municipal Bond (GMB):\n1. It was issued by the Indore Municipal Corporation to fund solid waste management projects.\n2. The underlying infrastructure project funded by the bond was developed under the Public-Private Hybrid Annuity Model (PPP-HAM).\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: India's first certified Green Municipal Bond was issued by the Ghaziabad Nagar Nigam (not Indore) to develop a Tertiary Sewage Treatment Plant (TSTP). Statement 2 is correct: The TSTP was developed under the Public-Private Hybrid Annuity Model (PPP-HAM).",
+      "takeaway": "Ghaziabad Nagar Nigam issued India's first certified GMB to fund a Tertiary Sewage Treatment Plant, utilizing the PPP-HAM execution model rather than a traditional EPC model.",
+      "evidenceExcerpt": "Ghaziabad Nagar Nigam pioneered India's first certified GMB issued under Swachh Bharat Mission-Urban, raising ₹150 crore for development of Tertiary Sewage Treatment Plant (TSTP). TSTP was developed under Public-Private Hybrid Annuity Model (PPP-HAM)."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "comparison-driven",
+      "prompt": "Which of the following best describes the fundamental difference between a standard Municipal Bond and a Green Municipal Bond in India?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Standard municipal bonds are issued by urban local bodies, whereas green municipal bonds are issued exclusively by the Union Ministry of Environment, Forest and Climate Change."
+        },
+        {
+          "id": "B",
+          "text": "Standard municipal bonds are non-convertible debt securities, whereas green municipal bonds are convertible equity instruments."
+        },
+        {
+          "id": "C",
+          "text": "Standard municipal bonds can finance a wide range of civic amenities, whereas green municipal bonds are specifically earmarked for climate mitigation, adaptation, and environment-friendly projects."
+        },
+        {
+          "id": "D",
+          "text": "Standard municipal bonds are developed under the PPP-HAM model, whereas green municipal bonds strictly follow the EPC model."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Option C is correct: The defining feature of a Green Bond is its end-use restriction. While standard municipal bonds can fund various functions under Article 243W, green bonds are specifically used to raise funds for climate mitigation, adaptation, and other environment-friendly projects. Both are non-convertible debt securities issued by municipal bodies.",
+      "takeaway": "The 'Green' in Green Municipal Bonds refers strictly to the ring-fencing of raised funds for environmental and climate-focused projects, distinguishing them from general-purpose municipal debt.",
+      "evidenceExcerpt": "Municipal bonds refer to non-convertible debt securities issued by municipal body... Green bonds are used to raise funds specifically for climate mitigation, adaptation and other environment friendly projects."
+    }
+  ]
+}

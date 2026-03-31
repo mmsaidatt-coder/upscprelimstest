@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Real Effective Exchange Rate (REER), consider the following statements:\n1. It is derived by adjusting the Nominal Effective Exchange Rate (NEER) for relative consumer prices.\n2. A lower REER indicates that the domestic currency is undervalued, which can potentially boost the country's exports.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: The REER is calculated by adjusting the NEER (the unadjusted weighted average rate at which one country's currency exchanges for a basket of multiple foreign currencies) for inflation differentials, typically using relative consumer prices. Statement 2 is correct: A lower REER implies that the domestic currency is relatively undervalued compared to trading partners, making domestic goods cheaper for foreign buyers and thus potentially boosting exports.",
+      "takeaway": "REER is a key indicator of a country's international competitiveness. An overvalued currency (higher REER) hurts exports, while an undervalued currency (lower REER) boosts them.",
+      "evidenceExcerpt": "REER is derived by adjusting the Nominal Effective Exchange Rate (NEER) for relative consumer prices; a lower REER indicates the currency is undervalued and can potentially boost exports.",
+      "qualityScore": 85,
+      "reviewNotes": "Tests a highly relevant macroeconomic concept. The statements are precise and directly supported by the source text."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-Statement",
+      "prompt": "Consider the following initiatives:\n1. Linking the Unified Payments Interface (UPI) with foreign payment systems\n2. Settlement of cross-border trade transactions through the Asian Clearing Union (ACU)\n3. Implementation of the SPECTRA Project\n\nHow many of the above are considered steps towards the internationalization of the Indian Rupee?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The internationalization of the Rupee involves increasing its use in cross-border transactions. Key steps include the RBI's Strategic Action Plan 2024-25, the SPECTRA Project (for streamlining ECBs and trade credits), linking UPI with foreign systems, and facilitating ACU settlements in Rupees. Therefore, all three initiatives are considered steps towards this goal.",
+      "takeaway": "Rupee internationalization is a multi-pronged strategy involving digital payment linkages (UPI), regional clearing mechanisms (ACU), and streamlined regulatory reporting (SPECTRA).",
+      "evidenceExcerpt": "Steps for Internationalization of Rupee include RBI's Strategic Action Plan 2024-25, SPECTRA Project, linking UPI, and ACU settlement.",
+      "qualityScore": 85,
+      "reviewNotes": "Adapted to the latest UPSC 'How many of the above' format. Effectively synthesizes multiple facts from the text into a single cohesive question."
+    }
+  ],
+  "reviewerNotes": "Selected 4 high-quality questions covering distinct concepts: Vostro/Nostro accounts, the SPECTRA Project, REER, and Rupee internationalization. Rewrote prompts and options to align with UPSC's formal tone and current formatting trends, including the 'How many of the above' structure for the final question."
+}

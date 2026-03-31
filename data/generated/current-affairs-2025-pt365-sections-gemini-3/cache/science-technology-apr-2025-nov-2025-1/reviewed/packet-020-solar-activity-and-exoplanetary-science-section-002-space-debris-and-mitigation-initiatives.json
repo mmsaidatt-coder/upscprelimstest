@@ -1,0 +1,98 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "The term 'Kessler Syndrome', sometimes mentioned in the news, refers to:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The physiological degradation of astronauts during prolonged deep space missions."
+        },
+        {
+          "id": "B",
+          "text": "A theoretical scenario where collisions in Earth orbit generate a cascading effect of space debris."
+        },
+        {
+          "id": "C",
+          "text": "The interference of solar flares with satellite communication networks."
+        },
+        {
+          "id": "D",
+          "text": "The accumulation of greenhouse gases in the upper atmosphere due to frequent rocket launches."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Kessler Syndrome is a theoretical scenario in which the density of objects in low Earth orbit is high enough that collisions between objects could cause a cascade, generating more space debris and potentially rendering certain orbits unusable.",
+      "takeaway": "The Kessler Syndrome highlights the severe long-term risks of accumulating space debris in Earth's orbit, emphasizing the need for mitigation initiatives.",
+      "evidenceExcerpt": "...contribute to Kessler Syndrome, a theoretical scenario where collisions generate more debris, making certain orbits unusable.",
+      "qualityScore": 90,
+      "reviewNotes": "Classic UPSC 'term seen in news' format. Distractors are plausible space-related phenomena."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-choice",
+      "prompt": "Consider the following initiatives:\n1. Project NETRA\n2. Zero Debris Charter\n3. ISRO System for Safe and Sustainable Operations Management (IS4OM)\n4. Inter-Agency Debris Coordination Committee (IADC)\n\nHow many of the above are Indian initiatives aimed at space sustainability and debris mitigation?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Project NETRA (Network for Space Object Tracking and Analysis) and IS4OM (ISRO System for Safe and Sustainable Operations Management) are Indian initiatives. The Zero Debris Charter and the Inter-Agency Debris Coordination Committee (IADC) are global initiatives. Therefore, only two of the listed initiatives are Indian.",
+      "takeaway": "It is important to distinguish between national efforts (like NETRA, IS4OM, and DFSM 2030) and global efforts (like IADC and Zero Debris Charter) in space debris mitigation.",
+      "evidenceExcerpt": "Initiatives taken to tackle Space Debris: Global: Inter-Agency Debris Coordination Committee (IADC)... Zero Debris Charter... India: Debris Free Space Missions (DFSM) 2030; ISRO System for Safe and Sustainable Operations Management (IS4OM); Project Network for Space Object Tracking and Analysis (NETRA).",
+      "qualityScore": 88,
+      "reviewNotes": "Uses the recent UPSC 'How many' pattern effectively to test categorization of national vs. international space initiatives."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding space debris:\n1. It encompasses all functional and non-functional man-made objects, including their fragments, in Earth orbit.\n2. India has set a target to achieve Debris Free Space Missions (DFSM) by the year 2030.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Space debris specifically includes all non-functional, man-made objects, including fragments and elements thereof, in Earth orbit. Functional satellites are not considered space debris. Statement 2 is correct: India's initiatives to tackle space debris include the Debris Free Space Missions (DFSM) with a target year of 2030.",
+      "takeaway": "Space debris is strictly defined as non-functional man-made objects and their fragments. India is actively pursuing the Debris Free Space Missions (DFSM) 2030 target to ensure space sustainability.",
+      "evidenceExcerpt": "SPACE DEBRIS... Includes all non-functional, man-made objects, including fragments and elements thereof, in Earth orbit... India: Debris Free Space Missions (DFSM) 2030",
+      "qualityScore": 85,
+      "reviewNotes": "Tests a subtle but important distinction in the definition of space debris, along with a factual target year for India."
+    }
+  ],
+  "reviewerNotes": "Selected 3 high-quality questions covering the core concepts of the text: the definition of Kessler Syndrome, the nuances of space debris definition alongside India's 2030 target, and a categorization of national versus global mitigation initiatives. Redundant questions were filtered out to ensure a diverse and comprehensive set."
+}

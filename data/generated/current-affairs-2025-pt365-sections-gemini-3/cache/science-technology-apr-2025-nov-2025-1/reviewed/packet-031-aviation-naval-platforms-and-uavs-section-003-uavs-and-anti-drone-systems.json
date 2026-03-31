@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Multiple-Statement",
+      "prompt": "Consider the following statements regarding 'Fiber Optic Drones':\n1. They achieve immunity to electronic warfare (EW) jamming by utilizing highly encrypted, frequency-hopping radio signals.\n2. They do not emit radio frequency signatures, making them immune to interception by conventional electronic warfare systems.\n3. The use of physical glass tube cables restricts their capacity for simultaneous communications on multiple wavelengths.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect: They achieve immunity to EW jamming by using physical glass tube cables instead of radio links, not through encrypted radio signals.\nStatement 2 is correct: Because they do not use radio links, they do not emit interceptable radio frequency signatures, making them immune to EW systems.\nStatement 3 is incorrect: Fiber optic cables actually allow for simultaneous communications on different wavelengths, along with faster speeds and longer distances.",
+      "takeaway": "Fiber optic drones replace traditional radio links with physical glass tube cables, offering immunity to electronic warfare, faster data speeds, and the ability to communicate simultaneously on multiple wavelengths.",
+      "evidenceExcerpt": "Fiber Optic Drones: Operated using long fiber optic cables instead of radio links... No radio link means they cannot be jammed or intercepted by EW systems. Fiber optic cables allow faster speeds, longer distances, and simultaneous communications on different wavelengths.",
+      "qualityScore": 88,
+      "reviewNotes": "Excellent conceptual question. It tests the underlying mechanism of fiber optic drones and their counter-intuitive advantages (simultaneous multi-wavelength communication)."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "With reference to emerging defence technologies, consider the following pairs:\n\nTechnology : Primary Characteristic\n1. Rudrastra : Hybrid vertical take-off and landing (VTOL) unmanned aerial vehicle\n2. Bhargavastra : 'Hard kill' anti-drone system designed to neutralize drone swarms\n3. Fiber Optic Drones : Unmanned systems operated via physical cables to prevent radio signal interception\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Pair 1 is correctly matched: Rudrastra is a Hybrid VTOL UAV equipped with precision-guided anti-personnel warheads.\nPair 2 is correctly matched: Bhargavastra is an indigenous 'hard kill' anti-drone system with a two-layer security system for drone swarms.\nPair 3 is correctly matched: Fiber optic drones use glass tube cables instead of radio links, making them immune to electronic warfare (EW) jamming and interception.",
+      "takeaway": "Rudrastra is a hybrid VTOL UAV with offensive payloads; Bhargavastra is a kinetic 'hard kill' anti-drone system; and Fiber Optic Drones use physical cables to bypass electronic warfare vulnerabilities.",
+      "evidenceExcerpt": "Rudrastra: A Hybrid Vertical Take-Off and Landing (VTOL) UAV... Equipped with precision-guided anti-personnel warheads. Bhargavastra: A low-cost, 'hard kill' anti-drone system designed to neutralize threats from drone swarms... Fiber Optic Drones: Operated using long fiber optic cables instead of radio links... No radio link means they cannot be jammed or intercepted by EW systems.",
+      "qualityScore": 85,
+      "reviewNotes": "A solid matching question that comprehensively covers the factual elements of the source text in a standard UPSC format."
+    }
+  ],
+  "reviewerNotes": "All three questions were retained and refined. The wording was adjusted to better match the formal tone of the UPSC Prelims. The distractors are plausible and directly test the core concepts of the source text."
+}

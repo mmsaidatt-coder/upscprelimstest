@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding government initiatives for ethanol blending in India:\n1. Under the National Policy on Biofuels, the target for 20% ethanol blending in petrol has been advanced to 2025-26.\n2. The PM JIVAN Yojana facilitates Second Generation (2G) ethanol projects.\n3. The Goods and Services Tax (GST) on ethanol meant for the Ethanol Blended Petrol (EBP) Programme has been reduced to 5%.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: The National Policy on Biofuels advanced the 20% blending target (E20) from 2030 to 2025-26. Statement 2 is correct: The PM JIVAN Yojana is specifically designed to facilitate Second Generation (2G) ethanol projects. Statement 3 is correct: The GST on ethanol meant for the EBP Programme was reduced from 18% to 5% to incentivize blending.",
+      "takeaway": "Key policy levers for India's ethanol ecosystem include advancing the E20 target to 2025-26, reducing GST to 5% for EBP ethanol, and supporting advanced 2G ethanol via the PM JIVAN Yojana.",
+      "evidenceExcerpt": "Target of 20% ethanol blending in petrol was advanced to 2025-26 from 2030 under the National Policy on Biofuels... Initiatives include PM JIVAN Yojana for 2G ethanol, Ethanol Interest Subvention Schemes, and GST reduction to 5%.",
+      "qualityScore": 85,
+      "reviewNotes": "Tests important policy targets and schemes directly grounded in the text. Modified to have 'All three' as the correct option for better variety across the set."
+    }
+  ],
+  "reviewerNotes": "Rejected Candidates 4 and 5 as they depend on facts not grounded in the source text (economic rationale of interest subvention and strategic advantage of 2G over 1G ethanol). Selected and refined Candidates 1, 2, and 3 to ensure UPSC-style wording and strict adherence to the provided text."
+}

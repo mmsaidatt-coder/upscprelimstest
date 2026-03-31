@@ -1,0 +1,41 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "History",
+      "difficulty": "Moderate",
+      "questionType": "Identification",
+      "prompt": "Consider the following names:",
+      "contextLines": [
+        "1. Adnan Abidi",
+        "2. Sanna Irshad Mattoo",
+        "3. Amit Dave",
+        "4. Mukhtar Khan"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "The source identifies Danish Siddiqui, Adnan Abidi, Sanna Irshad Mattoo, Amit Dave, Dar Yasin, and Mukhtar Khan as Indian photojournalists who have won the Pulitzer Prize.",
+      "takeaway": "Recent Indian Pulitzer wins have been heavily concentrated in the field of photojournalism.",
+      "evidenceExcerpt": "...and photojournalists Danish Siddiqui, Adnan Abidi, Sanna Irshad Mattoo, Amit Dave, Dar Yasin, and Mukhtar Khan",
+      "qualityScore": 85,
+      "reviewNotes": "Uses the modern UPSC 'How many' format to test specific knowledge of recent award winners mentioned in the text."
+    }
+  ],
+  "reviewerNotes": "The questions were rewritten to align with UPSC's current trend of multi-statement and 'how many' style questions. The content is strictly grounded in the provided text, focusing on the first Indian winner and the recent cluster of photojournalism winners."
+}

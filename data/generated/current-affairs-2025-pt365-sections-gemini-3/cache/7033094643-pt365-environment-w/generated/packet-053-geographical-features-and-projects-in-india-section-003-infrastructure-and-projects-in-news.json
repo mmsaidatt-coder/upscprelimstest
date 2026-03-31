@@ -1,0 +1,236 @@
+{
+  "questions": [
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Correct Pairs",
+      "prompt": "Consider the following pairs of infrastructure projects and the rivers they are built on: 1. Ranjit Sagar Dam : Ravi River 2. Etalin Hydroelectric Project : Subansiri River 3. Kaleshwaram Lift Irrigation Project : Godavari River. How many of the above pairs are correctly matched?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correct: Ranjit Sagar Dam (Thein Dam) is located on the Ravi River. Pair 2 is incorrect: The Etalin hydroelectric project is situated on the Dri and Tangon rivers, not the Subansiri. Pair 3 is correct: The Kaleshwaram Lift Irrigation Project is built on the Godavari River.",
+      "takeaway": "The Etalin hydroelectric project is located on the Dri and Tangon rivers in the Dibang Valley, Arunachal Pradesh.",
+      "evidenceExcerpt": "Ranjit Sagar Dam (Thein Dam) is located on the Ravi River... Etalin hydroelectric project is situated in the Dibang Valley, Arunachal Pradesh, on the Dri and Tangon rivers. Kaleshwaram Lift Irrigation Project (KLIP) in Telangana is the world's largest multi-stage lift irrigation project, built on the Godavari River.",
+      "contextLines": []
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding major infrastructure projects in India: 1. The Kaleshwaram Lift Irrigation Project is the world's largest multi-stage lift irrigation project built on the Godavari River. 2. The Ranjit Sagar Dam is situated on the Sutlej River near the Punjab-Jammu and Kashmir border. Which of the statements given above is/are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Kaleshwaram is the world's largest multi-stage lift irrigation project on the Godavari River in Telangana. Statement 2 is incorrect: Ranjit Sagar Dam (Thein Dam) is located on the Ravi River, not the Sutlej.",
+      "takeaway": "Ranjit Sagar Dam is built on the Ravi River, while Kaleshwaram is on the Godavari River.",
+      "evidenceExcerpt": "Ranjit Sagar Dam (Thein Dam) is located on the Ravi River near the Punjab-Jammu & Kashmir border... Kaleshwaram Lift Irrigation Project (KLIP) in Telangana is the world's largest multi-stage lift irrigation project, built on the Godavari River.",
+      "contextLines": []
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to recent infrastructure projects in India, consider the following statements: 1. The Etalin hydroelectric project is located on the Dri and Tangon rivers in Arunachal Pradesh. 2. The new Pamban Bridge in Tamil Nadu replaces a decommissioned suspension bridge to connect Rameswaram Island to the mainland. Which of the statements given above is/are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Etalin is in the Dibang Valley on the Dri and Tangon rivers. Statement 2 is incorrect: The new Pamban Bridge replaces a decommissioned cantilever bridge, not a suspension bridge.",
+      "takeaway": "The Pamban Bridge connects Rameswaram Island to mainland India and replaces an older cantilever bridge.",
+      "evidenceExcerpt": "Etalin hydroelectric project is situated in the Dibang Valley, Arunachal Pradesh, on the Dri and Tangon rivers... The new Pamban Bridge in Tamil Nadu replaces the original 2022-decommissioned cantilever bridge connecting Rameswaram Island to the mainland.",
+      "contextLines": []
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Sequence",
+      "prompt": "Arrange the following major infrastructure projects from North to South based on their geographical locations in India:\n1. Etalin Hydroelectric Project\n2. Kaleshwaram Lift Irrigation Project\n3. Pamban Bridge\n4. Ranjit Sagar Dam\n\nSelect the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "4 - 1 - 2 - 3"
+        },
+        {
+          "id": "B",
+          "text": "1 - 4 - 2 - 3"
+        },
+        {
+          "id": "C",
+          "text": "4 - 2 - 1 - 3"
+        },
+        {
+          "id": "D",
+          "text": "1 - 2 - 4 - 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Ranjit Sagar Dam is located near the Punjab-J&K border (Northwest India). The Etalin Hydroelectric Project is in Arunachal Pradesh (Northeast India, which is further south in latitude than the J&K/Punjab border). The Kaleshwaram Lift Irrigation Project is in Telangana (Peninsular India). The Pamban Bridge is in Tamil Nadu (Southernmost India). Therefore, the correct North to South sequence is 4-1-2-3.",
+      "takeaway": "Spatial awareness of major infrastructure projects is crucial. Ranjit Sagar is the northernmost among these, followed by Etalin, Kaleshwaram, and Pamban.",
+      "evidenceExcerpt": "Ranjit Sagar Dam (Thein Dam) is located on the Ravi River near the Punjab-Jammu & Kashmir border. Etalin hydroelectric project is situated in the Dibang Valley, Arunachal Pradesh... Kaleshwaram Lift Irrigation Project (KLIP) in Telangana... new Pamban Bridge in Tamil Nadu..."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Easy",
+      "questionType": "Multiple Choice",
+      "prompt": "Which of the following statements best describes the Kaleshwaram Lift Irrigation Project (KLIP), recently seen in the news?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It is a river interlinking project designed to transfer surplus water from the Godavari to the Krishna basin."
+        },
+        {
+          "id": "B",
+          "text": "It is the world's largest multi-stage lift irrigation project built on the Godavari River in Telangana."
+        },
+        {
+          "id": "C",
+          "text": "It is a major hydroelectric project situated in the Dibang Valley on the Dri and Tangon rivers."
+        },
+        {
+          "id": "D",
+          "text": "It is an irrigation project built on the Ravi River near the Punjab-Jammu & Kashmir border."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Kaleshwaram Lift Irrigation Project (KLIP) in Telangana is recognized globally as the world's largest multi-stage lift irrigation project, built on the Godavari River.",
+      "takeaway": "KLIP is a monumental infrastructure project in Telangana on the Godavari River, notable for its scale and multi-stage lift mechanism.",
+      "evidenceExcerpt": "Kaleshwaram Lift Irrigation Project (KLIP) in Telangana is the world's largest multi-stage lift irrigation project, built on the Godavari River."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice",
+      "prompt": "The \"Dri and Tangon\" rivers, recently in the news in the context of a major infrastructure project, are located in which of the following regions?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Kashmir Valley"
+        },
+        {
+          "id": "B",
+          "text": "Dibang Valley"
+        },
+        {
+          "id": "C",
+          "text": "Spiti Valley"
+        },
+        {
+          "id": "D",
+          "text": "Kullu Valley"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Dri and Tangon rivers are located in the Dibang Valley of Arunachal Pradesh, where the Etalin hydroelectric project is situated.",
+      "takeaway": "The Etalin hydroelectric project is a major infrastructure initiative located on the Dri and Tangon rivers in the Dibang Valley.",
+      "evidenceExcerpt": "Etalin hydroelectric project is situated in the Dibang Valley, Arunachal Pradesh, on the Dri and Tangon rivers."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Easy",
+      "questionType": "Multiple Choice",
+      "prompt": "The Ranjit Sagar Dam, also known as the Thein Dam, is strategically located on the Ravi River near the border of which of the following?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Punjab and Himachal Pradesh"
+        },
+        {
+          "id": "B",
+          "text": "Punjab and Haryana"
+        },
+        {
+          "id": "C",
+          "text": "Punjab and Jammu & Kashmir"
+        },
+        {
+          "id": "D",
+          "text": "Jammu & Kashmir and Himachal Pradesh"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The Ranjit Sagar Dam (Thein Dam) is located on the Ravi River near the border of Punjab and Jammu & Kashmir.",
+      "takeaway": "The Ranjit Sagar Dam is an important infrastructure project on the Ravi River, situated at the boundary between Punjab and Jammu & Kashmir.",
+      "evidenceExcerpt": "Ranjit Sagar Dam (Thein Dam) is located on the Ravi River near the Punjab-Jammu & Kashmir border."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice",
+      "prompt": "The original bridge connecting Rameswaram Island to mainland India, which was decommissioned in 2022 and is being replaced by the new Pamban Bridge, was primarily of which of the following types?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Suspension bridge"
+        },
+        {
+          "id": "B",
+          "text": "Cantilever bridge"
+        },
+        {
+          "id": "C",
+          "text": "Cable-stayed bridge"
+        },
+        {
+          "id": "D",
+          "text": "Arch bridge"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The new Pamban Bridge in Tamil Nadu replaces the original cantilever bridge that was decommissioned in 2022.",
+      "takeaway": "The original Pamban Bridge was a notable cantilever bridge, a significant engineering feat of its time, which is now being replaced.",
+      "evidenceExcerpt": "The new Pamban Bridge in Tamil Nadu replaces the original 2022-decommissioned cantilever bridge connecting Rameswaram Island to the mainland."
+    }
+  ]
+}

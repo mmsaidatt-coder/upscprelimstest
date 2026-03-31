@@ -1,0 +1,63 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-034-next-gen-battery-technologies-section-001-sodium-ion-battery-sib",
+    "claimType": "Factual",
+    "claimText": "A research team under the Department of Science and Technology (DST) has developed a Sodium-Ion Battery that can charge up to 80 percent in six minutes and lasts for over 3000 charge cycles.",
+    "evidenceExcerpt": "Developed by a DST team: charges to 80% in 6 minutes, lasts over 3000 charge cycles.",
+    "pageNumbers": [
+      68
+    ],
+    "examUse": "Statement-based question on recent indigenous technological advancements in energy storage.",
+    "distractorHooks": [
+      "Attributing the development to a foreign entity or private corporation instead of DST",
+      "Altering the charge time to 60 minutes or the capacity to 100 percent",
+      "Stating the battery lasts for less than 1000 cycles"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-034-next-gen-battery-technologies-section-001-sodium-ion-battery-sib",
+    "claimType": "Conceptual",
+    "claimText": "Sodium-Ion Batteries (SIBs) utilize sodium ions (Na+) instead of lithium ions (Li+) to carry electrical charge.",
+    "evidenceExcerpt": "Uses sodium ions (Na+) to carry charge instead of lithium ions (Li+).",
+    "pageNumbers": [
+      68
+    ],
+    "examUse": "Basic mechanism question or correct-pair matching for battery technologies.",
+    "distractorHooks": [
+      "Claiming SIBs use a combination of lithium and sodium ions",
+      "Stating SIBs use potassium or solid-state lithium for charge transport"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-034-next-gen-battery-technologies-section-001-sodium-ion-battery-sib",
+    "claimType": "Comparison",
+    "claimText": "Sodium-Ion Batteries generally have a lower energy density when compared to Lithium-ion batteries.",
+    "evidenceExcerpt": "Has lower energy density compared to Lithium-ion batteries.",
+    "pageNumbers": [
+      68
+    ],
+    "examUse": "Comparison question evaluating the trade-offs between Sodium-ion and Lithium-ion batteries.",
+    "distractorHooks": [
+      "Stating Sodium-Ion Batteries have a higher energy density than Lithium-ion batteries",
+      "Claiming the energy density of SIBs and Li-ion batteries is identical"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-034-next-gen-battery-technologies-section-001-sodium-ion-battery-sib",
+    "claimType": "Feature",
+    "claimText": "Sodium-Ion Batteries can be transported at zero voltage, which provides a higher safety profile by reducing fire risks.",
+    "evidenceExcerpt": "Higher safety profile: can be transported at zero voltage (fully discharged), which reduces fire risks.",
+    "pageNumbers": [
+      68
+    ],
+    "examUse": "Statement-based question on the advantages and safety features of Sodium-Ion Batteries.",
+    "distractorHooks": [
+      "Stating SIBs must be transported partially or fully charged to maintain battery health",
+      "Claiming SIBs have a higher fire risk during transport compared to Lithium-ion batteries"
+    ]
+  }
+]

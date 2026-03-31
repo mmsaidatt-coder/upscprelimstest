@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Lithium-ion (Li-ion) batteries:\n1. During charging and discharging, lithium ions move between the electrodes through an aqueous electrolyte.\n2. The negative electrode in these batteries is typically composed of graphite.\n3. They exhibit excellent performance with generally no memory effect compared to older rechargeable batteries.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: In Li-ion batteries, lithium ions move between a negative electrode and a positive electrode through a non-aqueous electrolyte, not an aqueous one. Statement 2 is correct: The negative electrode is typically composed of graphite, while the positive electrode consists of Lithium transitional metal oxides. Statement 3 is correct: Li-ion batteries offer high energy density, lightweight properties, and generally no memory effect, unlike older rechargeable batteries such as nickel-cadmium.",
+      "takeaway": "Lithium-ion batteries operate by moving lithium ions between a graphite negative electrode and a metal oxide positive electrode via a non-aqueous electrolyte. They are favored for their high energy density and lack of memory effect.",
+      "evidenceExcerpt": "In it, lithium ions move between a negative electrode (graphite) and a positive electrode (Li transitional metal oxides) through a non-aqueous electrolyte during charging and discharging. Benefits: High energy density, Lightweight and Lower Toxic Heavy Metals, Excellent performance with generally no memory effect.",
+      "qualityScore": 85,
+      "reviewNotes": "Good conceptual question testing the working mechanism and benefits of Li-ion batteries. The distractor in statement 1 (aqueous vs non-aqueous) is a classic UPSC trap."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice",
+      "prompt": "In the context of electronic waste management and recycling, the 'dual-mode (wet and dry)' technology recently supported by the Technology Development Board (TDB) is primarily associated with:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "the recovery of critical minerals from the black mass of used lithium-ion batteries."
+        },
+        {
+          "id": "B",
+          "text": "the segregation of heavy metals from discarded solar photovoltaic modules."
+        },
+        {
+          "id": "C",
+          "text": "the extraction of rare earth elements from end-of-life wind turbine magnets."
+        },
+        {
+          "id": "D",
+          "text": "the safe neutralization of highly acidic electrolytes in traditional lead-acid batteries."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "The Technology Development Board (TDB) has extended financial support for the commercialization of an indigenous dual-mode (wet and dry) black mass recovery technology. This technology is specifically designed to extract critical minerals like lithium, cobalt, and nickel from the black mass of end-of-life lithium-ion batteries.",
+      "takeaway": "Indigenous technological advancements in e-waste, such as the dual-mode wet and dry recovery systems, are critical for establishing a circular economy for lithium-ion batteries and securing domestic supplies of critical minerals.",
+      "evidenceExcerpt": "The Technology Development Board (TDB) is supporting indigenous dual-mode (wet and dry) black mass recovery technology.",
+      "qualityScore": 85,
+      "reviewNotes": "Excellent application-based question. The distractors are highly plausible as they all relate to renewable energy waste management, requiring precise knowledge of the specific technology."
+    }
+  ],
+  "reviewerNotes": "Selected three strong questions covering the working mechanism of Li-ion batteries, the definition of 'Black Mass', and the specific indigenous technology used for its recovery. The distractors were refined to ensure they are parallel and plausible, aligning well with UPSC standards."
+}

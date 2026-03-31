@@ -1,0 +1,265 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to advanced cancer vaccine technologies, consider the following statements:\n1. Oncolytic vaccines utilize oncolytic viruses to directly destroy cancer cells and trigger an anti-tumor immune response.\n2. Personalized mRNA cancer vaccines are formulated based on the genetic analysis of a patient's specific cancer cells.\n3. Enteromix is an example of a personalized mRNA vaccine currently under development.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Oncolytic vaccines use oncolytic viruses (OVs) to directly kill cancer cells and stimulate an anti-tumor immune response. Statement 2 is correct: Personalized mRNA vaccines are based on the genetic analysis of a patient's specific cancer cells. Statement 3 is incorrect: Enteromix is an oncolytic vaccine being developed by Russia, not a personalized mRNA vaccine.",
+      "takeaway": "Oncolytic vaccines use viruses to target cancer cells directly, while personalized mRNA vaccines are tailored to the genetic profile of an individual's tumor.",
+      "evidenceExcerpt": "Russia is developing oncolytic vaccine Enteromix and Personalized messenger RNA (mRNA) cancer vaccines... Oncolytic vaccine uses oncolytic viruses (OVs) to directly kill cancer cells and stimulate an anti-tumor immune response. Personalized mRNA vaccines are based on the genetic analysis of a patient's specific cancer cells."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding messenger RNA (mRNA) based vaccines:\n1. Standard mRNA vaccines deliver genetic material encapsulated in lipid nanoparticles to prompt the body to produce antigens.\n2. Unlike standard mRNA vaccines, self-amplifying mRNA (saRNA) vaccines instruct the body to replicate the mRNA.\n3. saRNA vaccines typically require higher doses of genetic material than standard mRNA vaccines to achieve a similar immune response.\n\nWhich of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: mRNA vaccines deliver genetic material, encapsulated in lipid nanoparticles, into the body to prompt protein (antigen) production. Statement 2 is correct: saRNA vaccines work by giving the body instructions to replicate the mRNA needed to create the desired antigen. Statement 3 is incorrect: Because saRNA replicates inside the body, it can potentially enhance the immune response with lower doses compared to existing standard mRNA vaccines.",
+      "takeaway": "Self-amplifying mRNA (saRNA) vaccines are an advancement over standard mRNA vaccines because they instruct the body to replicate the mRNA, allowing for efficacy at lower doses.",
+      "evidenceExcerpt": "mRNA delivers genetic material, encapsulated in lipid nanoparticles, into body to prompt protein production... saRNA vaccines work by giving the body instructions to replicate mRNA needed to create the desired antigen, potentially enhancing the immune response with lower doses compared to existing mRNA vaccines."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of vaccine technologies and their primary mechanism of action:\n1. Oncolytic vaccines : Using viruses to directly kill cancer cells and stimulate an immune response.\n2. saRNA vaccines : Instructing the body to replicate mRNA to create the desired antigen.\n3. Personalized mRNA vaccines : Delivering a universal cancer antigen encapsulated in lipid nanoparticles.\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: Oncolytic vaccines use oncolytic viruses to directly kill cancer cells. Pair 2 is correctly matched: saRNA vaccines instruct the body to replicate mRNA. Pair 3 is incorrectly matched: Personalized mRNA vaccines do not use a 'universal' cancer antigen; rather, they are based on the genetic analysis of a patient's specific cancer cells.",
+      "takeaway": "Personalized mRNA cancer vaccines are custom-built for individual patients based on their specific tumor genetics, distinguishing them from universal off-the-shelf vaccines.",
+      "evidenceExcerpt": "Oncolytic vaccine uses oncolytic viruses (OVs) to directly kill cancer cells... Personalized mRNA vaccines are based on the genetic analysis of a patient's specific cancer cells... saRNA vaccines work by giving the body instructions to replicate mRNA needed to create the desired antigen"
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Assertion-Reason",
+      "prompt": "Given below are two statements, one labelled as Assertion (A) and the other labelled as Reason (R):\n\nAssertion (A): Self-amplifying mRNA (saRNA) vaccines can potentially enhance the immune response using lower doses compared to standard mRNA vaccines.\nReason (R): saRNA vaccines provide instructions to the body to replicate the mRNA needed to create the desired antigen.\n\nIn the context of the above two statements, which one of the following is correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A)"
+        },
+        {
+          "id": "B",
+          "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A)"
+        },
+        {
+          "id": "C",
+          "text": "Assertion (A) is true but Reason (R) is false"
+        },
+        {
+          "id": "D",
+          "text": "Assertion (A) is false but Reason (R) is true"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Both statements are true. The reason saRNA vaccines are effective at lower doses is precisely because they include instructions that cause the mRNA to replicate itself inside the body, thereby producing more antigen from a smaller initial dose.",
+      "takeaway": "The self-amplifying nature of saRNA allows a small initial dose to multiply inside the host cells, leading to robust antigen production and immune response.",
+      "evidenceExcerpt": "saRNA vaccines work by giving the body instructions to replicate mRNA needed to create the desired antigen, potentially enhancing the immune response with lower doses compared to existing mRNA vaccines."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding recent developments in vaccine technology:\n1. Gennova Biopharmaceuticals is developing a self-amplifying mRNA (saRNA) vaccine candidate against the Nipah virus.\n2. saRNA vaccines work by delivering pre-formed antigens directly into the body to stimulate an immediate immune response.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Gennova Biopharmaceuticals is developing a saRNA vaccine candidate against the Nipah virus. Statement 2 is incorrect: saRNA vaccines do not deliver pre-formed antigens; instead, they deliver instructions (mRNA) that tell the body to replicate the mRNA and produce the desired antigen itself.",
+      "takeaway": "mRNA and saRNA vaccines do not contain pre-formed antigens or weakened viruses; they provide the genetic blueprint for the body's own cells to manufacture the antigen.",
+      "evidenceExcerpt": "saRNA vaccines work by giving the body instructions to replicate mRNA needed to create the desired antigen... Gennova Biopharmaceuticals is developing a saRNA vaccine candidate against the Nipah virus."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Comparative",
+      "prompt": "With reference to emerging vaccine technologies, which one of the following best describes the fundamental distinction between standard mRNA vaccines and self-amplifying mRNA (saRNA) vaccines?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Standard mRNA vaccines utilize lipid nanoparticles for delivery, whereas saRNA vaccines rely exclusively on viral vectors."
+        },
+        {
+          "id": "B",
+          "text": "Standard mRNA vaccines prompt the host cells to produce proteins, whereas saRNA vaccines additionally instruct the cells to multiply the introduced mRNA."
+        },
+        {
+          "id": "C",
+          "text": "Standard mRNA vaccines provide lifelong immunity through DNA integration, whereas saRNA vaccines offer temporary immunity without integration."
+        },
+        {
+          "id": "D",
+          "text": "Standard mRNA vaccines deliver pre-formed antigens, whereas saRNA vaccines deliver genetic instructions."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Standard mRNA vaccines deliver genetic material to prompt the body to produce proteins (antigens) but do not replicate inside the cell. In contrast, self-amplifying mRNA (saRNA) vaccines contain instructions that cause the body to replicate the mRNA itself, leading to higher antigen production from a smaller initial dose.",
+      "takeaway": "While standard mRNA is translated directly into proteins, saRNA includes replication machinery instructions, allowing the RNA to multiply inside host cells before translation.",
+      "evidenceExcerpt": "mRNA delivers genetic material, encapsulated in lipid nanoparticles, into body to prompt protein production... saRNA vaccines work by giving the body instructions to replicate mRNA needed to create the desired antigen"
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Application",
+      "prompt": "What is the primary therapeutic advantage of utilizing self-amplifying mRNA (saRNA) vaccines over conventional mRNA vaccines?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "They can be administered orally rather than through intramuscular injection."
+        },
+        {
+          "id": "B",
+          "text": "They elicit an enhanced immune response using substantially lower doses of genetic material."
+        },
+        {
+          "id": "C",
+          "text": "They bypass the host's cellular machinery to directly synthesize antibodies in the bloodstream."
+        },
+        {
+          "id": "D",
+          "text": "They are completely unaffected by thermal degradation, eliminating cold-chain requirements."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Because saRNA vaccines instruct the host's cells to replicate the mRNA, they can produce a large amount of the target antigen from a very small initial dose. This makes them highly efficient and potentially more effective at lower doses compared to standard mRNA vaccines.",
+      "takeaway": "The self-replicating nature of saRNA allows for dose-sparing, which is a major advantage for mass manufacturing and minimizing potential dose-related side effects.",
+      "evidenceExcerpt": "saRNA vaccines work by giving the body instructions to replicate mRNA needed to create the desired antigen, potentially enhancing the immune response with lower doses compared to existing mRNA vaccines."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "Oncolytic vaccines are increasingly being researched for cancer immunotherapy. Which one of the following statements best reflects their mode of action?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "They employ customized lipid nanoparticles to block the blood supply to rapidly dividing tumor cells."
+        },
+        {
+          "id": "B",
+          "text": "They use specialized viruses to directly lyse cancer cells while concurrently stimulating the host's anti-tumor immunity."
+        },
+        {
+          "id": "C",
+          "text": "They involve the extraction and genetic modification of a patient's T-cells to aggressively target tumor antigens."
+        },
+        {
+          "id": "D",
+          "text": "They introduce synthetic mRNA to repair the mutated DNA sequences responsible for uncontrolled cell growth."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Oncolytic vaccines utilize oncolytic viruses (OVs) that selectively infect and destroy (lyse) cancer cells. The destruction of these cells releases tumor antigens, which in turn stimulates a broader anti-tumor immune response by the body.",
+      "takeaway": "Oncolytic viruses have a dual mechanism: direct destruction of malignant cells and indirect activation of the immune system against the tumor.",
+      "evidenceExcerpt": "Oncolytic vaccine uses oncolytic viruses (OVs) to directly kill cancer cells and stimulate an anti-tumor immune response."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "Which one of the following best explains the concept of a 'personalized mRNA cancer vaccine'?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A vaccine that uses a patient's own weakened cancer cells to train the immune system."
+        },
+        {
+          "id": "B",
+          "text": "A vaccine tailored to the unique genetic mutations identified in an individual patient's tumor."
+        },
+        {
+          "id": "C",
+          "text": "A universal vaccine that adapts its mRNA sequence dynamically after entering the patient's bloodstream."
+        },
+        {
+          "id": "D",
+          "text": "A vaccine that genetically engineers a patient's bone marrow to produce cancer-resistant white blood cells."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Personalized mRNA cancer vaccines are custom-built for individual patients. They are formulated based on a detailed genetic analysis of the specific mutations present in that patient's cancer cells, ensuring the immune system targets the exact antigens unique to their tumor.",
+      "takeaway": "Unlike traditional vaccines that target universal pathogens, personalized cancer vaccines rely on genomic sequencing of an individual's tumor to create a bespoke treatment.",
+      "evidenceExcerpt": "Personalized messenger RNA (mRNA) cancer vaccines... Personalized mRNA vaccines are based on the genetic analysis of a patient's specific cancer cells."
+    }
+  ]
+}

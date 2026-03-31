@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the 'Phenome India Project (PI-Check)':\n\n1. It is an initiative launched by the Council of Scientific and Industrial Research (CSIR).\n2. It aims to establish a National Biobank based on the UK Biobank model.\n3. The project focuses on mapping phenotypes, which are observable characteristics determined solely by an individual's genotype.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The Phenome India Project (PI-Check) was launched by the Council of Scientific and Industrial Research (CSIR).\n\nStatement 2 is correct: Under this project, the National Biobank is established, which is based on the UK Biobank model customized for Indian diversity.\n\nStatement 3 is incorrect: A phenome is the entire set of phenotypes. Phenotypes are observable physical characteristics determined by both genotype and environmental influences, not solely by an individual's genotype.",
+      "takeaway": "The Phenome India Project by CSIR establishes a National Biobank based on the UK model to collect diverse health data, recognizing that phenotypes are shaped by both genes and the environment.",
+      "evidenceExcerpt": "The National Biobank, launched under the Phenome India Project (PI-Check) by CSIR, is based on the UK Biobank model customized for Indian diversity... A phenome is the entire set of phenotypes (observable physical characteristics determined by genotype and environment) in an organism.",
+      "qualityScore": 85,
+      "reviewNotes": "Good coverage of the factual and conceptual aspects of the project. The distractor in statement 3 uses a classic UPSC trap ('solely') to test conceptual clarity on genetics vs. environment."
+    }
+  ],
+  "reviewerNotes": "Selected two high-quality questions from the candidate set. The first question was rewritten to combine the factual elements (CSIR, UK Biobank model) with the conceptual definition of a phenotype, creating a robust statement-based question. The second question was retained and slightly polished to test the core objective of the National Biobank. A third question was omitted to avoid redundancy, as the source text is very brief and its key facts are fully covered by these two questions."
+}

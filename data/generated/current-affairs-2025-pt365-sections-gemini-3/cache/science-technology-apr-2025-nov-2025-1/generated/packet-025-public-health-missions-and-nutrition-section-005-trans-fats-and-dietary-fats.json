@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "conceptual",
+      "prompt": "The 'REPLACE Action Package', sometimes mentioned in the news, is an initiative launched by the:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Food and Agriculture Organization (FAO) to promote organic farming practices globally."
+        },
+        {
+          "id": "B",
+          "text": "World Health Organization (WHO) to eliminate industrially produced trans fats."
+        },
+        {
+          "id": "C",
+          "text": "United Nations Environment Programme (UNEP) to phase out single-use plastics."
+        },
+        {
+          "id": "D",
+          "text": "World Trade Organization (WTO) to replace distortionary agricultural subsidies."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The REPLACE Action Package is an initiative by the World Health Organization (WHO) aimed specifically at eliminating industrially produced trans fats from the global food supply.",
+      "takeaway": "The WHO's REPLACE Action Package is a targeted global public health intervention to eradicate industrially produced trans fats, which are linked to severe cardiovascular diseases.",
+      "evidenceExcerpt": "WHO's REPLACE Action Package aims to eliminate industrially produced trans fats globally."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "statement-based",
+      "prompt": "With reference to Trans-fatty acids (TFA), consider the following statements:\n1. They are unsaturated fatty acids that are exclusively produced industrially through the process of hydrogenation.\n2. Their consumption is associated with an increase in the levels of low-density lipoprotein (LDL) cholesterol.\n3. The Food Safety and Standards Authority of India (FSSAI) has capped the limit of trans fats in edible oils to 2%.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Trans-fatty acids are unsaturated fatty acids, but they are not exclusively produced industrially. They can also be found naturally in animal-source foods.\nStatement 2 is correct: Consumption of trans fats raises the level of bad cholesterol, known as low-density lipoprotein (LDL-c).\nStatement 3 is correct: India enforced limiting trans fats in oils to no more than 2% through the Food Safety and Standards Second Amendment Regulations, 2021.",
+      "takeaway": "Trans fats are unsaturated fatty acids that can be both industrially produced and naturally occurring. They raise LDL cholesterol, prompting India to limit their presence in edible oils to 2%.",
+      "evidenceExcerpt": "TFA are unsaturated fatty acids that can be industrially produced (via hydrogenation) or naturally found in animal-source foods. Raises the level of the bad cholesterol and low density lipoprotein-cholesterol (LDL-c)... India enforced limiting trans fats in oils to no more than 2 % through the Food Safety and Standards Second Amendment Regulations, 2021."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "statement-based",
+      "prompt": "Consider the following statements regarding the global elimination of trans fats:\n1. The World Health Organization's REPLACE Action Package targets the complete elimination of all forms of trans-fatty acids from the human diet.\n2. Several countries have been officially recognized by the WHO for successfully eliminating industrially produced trans fats.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The WHO's REPLACE Action Package specifically targets the elimination of 'industrially produced' trans fats globally, not naturally occurring trans fats found in animal-source foods.\nStatement 2 is correct: The WHO has officially recognized countries like Austria, Norway, Oman, and Singapore for their outstanding leadership in eliminating industrially produced trans fats.",
+      "takeaway": "The WHO's REPLACE initiative focuses strictly on industrially produced trans fats, and several nations have already achieved recognition for eliminating them.",
+      "evidenceExcerpt": "The WHO officially recognized four countries (Austria, Norway, Oman and Singapore) for their outstanding leadership in eliminating industrially produced trans fats... WHO's REPLACE Action Package aims to eliminate industrially produced trans fats globally."
+    }
+  ]
+}

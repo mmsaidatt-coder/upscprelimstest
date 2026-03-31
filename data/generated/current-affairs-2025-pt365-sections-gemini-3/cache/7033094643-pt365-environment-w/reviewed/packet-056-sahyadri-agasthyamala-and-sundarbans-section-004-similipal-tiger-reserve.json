@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Paragraph-based Identification",
+      "prompt": "Consider the following paragraph:\n\n\"Located in the Chottanagpur region, this protected area is recognized as a Biosphere Reserve under the UNESCO Man and the Biosphere (MAB) Programme. It is drained by rivers such as Burhabalanga and Salandi, and features prominent waterfalls like Joranda and Barehipani. The region is inhabited by tribal populations including the Kolha, Santhala, and Mankadia.\"\n\nWhich of the following protected areas is described in the paragraph given above?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Bhitarkanika National Park"
+        },
+        {
+          "id": "B",
+          "text": "Similipal Tiger Reserve"
+        },
+        {
+          "id": "C",
+          "text": "Palamau Tiger Reserve"
+        },
+        {
+          "id": "D",
+          "text": "Satkosia Tiger Reserve"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The paragraph describes the Similipal Tiger Reserve. It is located in the Mayurbhanj District of Odisha within the Chottanagpur region. The reserve features the Joranda and Barehipani waterfalls, is drained by rivers such as Burhabalanga and Salandi, and is home to tribes like the Kolha, Santhala, and Mankadia. It is also a recognized Biosphere Reserve under the UNESCO MAB Programme. Palamau is in Jharkhand, while Bhitarkanika and Satkosia are other protected areas in Odisha but do not match the given geographical and demographic features.",
+      "takeaway": "Similipal Tiger Reserve is a major protected area in the Chottanagpur region of Odisha, known for its distinct hydrology (Burhabalanga, Salandi rivers), waterfalls (Joranda, Barehipani), and tribal demographics (Kolha, Santhala, Mankadia).",
+      "evidenceExcerpt": "Location: Mayurbhanj District, Odisha in Chottanagpur region. Rivers: Burhabalanga, Palpala Bandan, Salandi, Kahairi, and Deo... Waterfalls: Joranda and Barehipani. Tribes Found: Kolha, Santhala, Bhumija... Note: Similipal is a Biosphere reserve under the UNESCO Man and the Biosphere (MAB) Programme.",
+      "qualityScore": 90,
+      "reviewNotes": "Excellent paragraph-based question. Distractors are well-chosen, representing other protected areas in the eastern region of India."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Similipal Tiger Reserve, consider the following statements:\n\n1. It is the largest National Park in Odisha.\n2. It is geographically located in the Dandakaranya region.\n3. It is recognized as a Biosphere Reserve under the UNESCO Man and the Biosphere (MAB) Programme.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Similipal Tiger Reserve was notified as a National Park, making it the largest in Odisha, surpassing Bhitarkanika. Statement 2 is incorrect: Similipal is located in the Mayurbhanj District of Odisha, which falls in the Chottanagpur region, not the Dandakaranya region. Statement 3 is correct: It is a recognized Biosphere Reserve under the UNESCO MAB Programme. Therefore, exactly two statements are correct.",
+      "takeaway": "Similipal Tiger Reserve is the largest National Park in Odisha, located in the Chottanagpur region, and holds the status of a Biosphere Reserve under the UNESCO MAB Programme.",
+      "evidenceExcerpt": "Odisha notified Similipal Tiger Reserve as National Park making it largest in Odisha, leaving behind Bhitarkanika. Location: Mayurbhanj District, Odisha in Chottanagpur region... Note: Similipal is a Biosphere reserve under the UNESCO Man and the Biosphere (MAB) Programme.",
+      "qualityScore": 85,
+      "reviewNotes": "Converted to the 'How many statements' format to align with recent UPSC trends. The distractor 'Dandakaranya' is highly plausible for Odisha geography."
+    }
+  ],
+  "reviewerNotes": "Selected the paragraph-based identification question and the statement-based question. Both test multiple facets of the Similipal Tiger Reserve (geography, hydrology, tribal demography, and institutional status) in a format highly consistent with recent UPSC Prelims trends. Distractors were adjusted to include plausible regional alternatives like Satkosia and Palamau."
+}

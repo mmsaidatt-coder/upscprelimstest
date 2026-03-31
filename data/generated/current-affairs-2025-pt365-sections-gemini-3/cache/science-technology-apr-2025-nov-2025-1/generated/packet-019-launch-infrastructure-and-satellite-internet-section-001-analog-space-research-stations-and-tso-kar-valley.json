@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Analog Space Research' in India:\n1. The initiative is spearheaded by the Indian National Space Promotion and Authorization Centre (IN-SPACe).\n2. Its primary objective is to simulate extraterrestrial environments to test human survival, health protocols, and equipment.\n3. Tso Kar Valley has been selected for this research because its high atmospheric pressure closely mimics Venus-like conditions.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "2 and 3 only"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: India's analog space research is led by ISRO's Human Space Flight Centre (HSFC), not IN-SPACe.\nStatement 2 is correct: Analog space research simulates extraterrestrial environments like the Moon and Mars to enable the testing of human survival, health protocols, and equipment.\nStatement 3 is incorrect: Tso Kar Valley was chosen for its Mars-like conditions, which include low atmospheric pressure, not high atmospheric pressure or Venus-like conditions.",
+      "takeaway": "Analog space research in India is led by ISRO's HSFC to prepare for human spaceflight by simulating extraterrestrial conditions on Earth.",
+      "evidenceExcerpt": "Led by: ISRO’s Human Space Flight Centre (HSFC)... Simulates extraterrestrial environments like the Moon and Mars. Enables testing of human survival, health protocols, and equipment... Why Tso Kar Valley was chosen? Mars-like conditions: High UV radiation, Low atmospheric pressure, Extreme cold and Saline permafrost."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of global Analog Space Research Stations and their respective locations:\n1. Mars Desert Research Station : United States\n2. Flashline Mars Arctic Station : Russia\n3. BIOS-3 : Canada\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Pair 1 is correctly matched: The Mars Desert Research Station is located in the US.\nPair 2 is incorrectly matched: The Flashline Mars Arctic Station is located in Canada, not Russia.\nPair 3 is incorrectly matched: BIOS-3 is a Russian research facility, not Canadian.",
+      "takeaway": "Prominent global analog space research stations include the Mars Desert Research Station (US), Flashline Mars Arctic Station (Canada), and BIOS-3 (Russia).",
+      "evidenceExcerpt": "Other similar research stations across the World: Mars Desert Research Station of the US, Flashline Mars Arctic Station of Canada, and BIOS-3 of Russia."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Feature-matching",
+      "prompt": "The Tso Kar Valley in Ladakh was recently selected for analog space research to simulate Mars-like conditions. Which of the following geographical and climatic characteristics of the valley contribute to its suitability for this purpose?\n1. High UV radiation\n2. Low atmospheric pressure\n3. Saline permafrost\n4. Extreme cold\n\nSelect the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1, 2 and 4 only"
+        },
+        {
+          "id": "B",
+          "text": "2, 3 and 4 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2, 3 and 4"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "All the given characteristics contribute to Tso Kar Valley's suitability for analog space research. The valley was chosen specifically because it offers Mars-like conditions, which include high UV radiation, low atmospheric pressure, extreme cold, and saline permafrost.",
+      "takeaway": "Tso Kar Valley's unique combination of high altitude, extreme cold, low atmospheric pressure, high UV radiation, and saline permafrost makes it an ideal terrestrial analog for the Martian environment.",
+      "evidenceExcerpt": "Why Tso Kar Valley was chosen? Mars-like conditions: High UV radiation, Low atmospheric pressure, Extreme cold and Saline permafrost."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Concept-Definition",
+      "prompt": "Which one of the following best describes the purpose of \"Analog Space Research\" undertaken by space agencies?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Conducting experiments on biological specimens under prolonged microgravity conditions in Low Earth Orbit"
+        },
+        {
+          "id": "B",
+          "text": "Simulating extraterrestrial environments on Earth to test human survival, health protocols, and mission equipment"
+        },
+        {
+          "id": "C",
+          "text": "Establishing high-altitude observatories to monitor near-Earth objects and space weather phenomena"
+        },
+        {
+          "id": "D",
+          "text": "Developing closed-loop life support systems exclusively for deep-sea exploration missions"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Analog space research involves simulating extraterrestrial environments (like those on the Moon or Mars) here on Earth. This enables space agencies to safely test human survival strategies, health protocols, and equipment before launching actual space missions.",
+      "takeaway": "Analog missions are Earth-based field tests in locations that have physical similarities to extreme space environments, allowing for the practical testing of spaceflight technologies and protocols.",
+      "evidenceExcerpt": "Simulates extraterrestrial environments like the Moon and Mars. Enables testing of human survival, health protocols, and equipment..."
+    }
+  ]
+}

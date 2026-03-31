@@ -1,0 +1,107 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Polity",
+      "difficulty": "Hard",
+      "questionType": "Multiple Choice",
+      "prompt": "Regarding the adjudication of inter-state water disputes in India, consider the following statements: 1. The Supreme Court possesses original jurisdiction to adjudicate disputes between states regarding river water sharing. 2. While the Supreme Court cannot adjudicate the original dispute, it can interpret the decisions of a Water Dispute Tribunal. 3. The Supreme Court may direct parties back to a tribunal for further clarification if needed. Which of the statements given above are correct?",
+      "contextLines": [
+        "Article 262... Exclusion of Courts: Leads to Inter-State River Water Disputes Act, 1956 -> Establish Tribunal.",
+        "Note: While the Supreme Court cannot adjudicate the original dispute, it can interpret the decisions of a tribunal, and may direct parties back to the tribunal for further clarification if needed."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect because Article 262 allows Parliament to exclude the jurisdiction of the Supreme Court in inter-state water disputes, and the ISWD Act, 1956 does so, meaning the Court lacks original jurisdiction. Statements 2 and 3 are correct; the Supreme Court retains the power to interpret tribunal decisions and can remit matters back to the tribunal for further clarification.",
+      "takeaway": "While Article 262 limits the Supreme Court's original jurisdiction in water disputes, the Court maintains a role in interpreting tribunal awards and ensuring procedural clarity.",
+      "evidenceExcerpt": "While the Supreme Court cannot adjudicate the original dispute, it can interpret the decisions of a tribunal, and may direct parties back to the tribunal for further clarification if needed.",
+      "qualityScore": 89,
+      "reviewNotes": "This question addresses a common misconception about the Supreme Court's jurisdiction in water disputes, based on the specific note in the text."
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Hard",
+      "questionType": "Multiple Choice",
+      "prompt": "With reference to the constitutional and legal framework for Inter-State Water Disputes (ISWD) in India, consider the following statements: 1. Article 262 of the Constitution empowers the Parliament to provide for the adjudication of disputes relating to inter-state rivers. 2. Entry 17 of the State List, which covers water supplies and irrigation, is subordinate to Entry 56 of the Union List. 3. The River Boards Act, 1956 was enacted by the Parliament specifically to establish tribunals for the adjudication of water disputes. Which of the statements given above are correct?",
+      "contextLines": [
+        "Article 262 of the Constitution: Grants Parliament's Power for: Adjudication of ISWD: Leads to River Boards Act, 1956 -> Establish River Boards. Exclusion of Courts: Leads to Inter-State River Water Disputes Act, 1956 -> Establish Tribunal.",
+        "7th Schedule: Entry 56 of Union List: Regulation and Development of Inter-State Rivers. Entry 17 of State List: Water Supplies, Irrigation, etc. (Note: This is subject to Entry 56 of List I)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct as Article 262 allows Parliament to provide for adjudication and exclude court jurisdiction. Statement 2 is correct; Entry 17 of the State List (Water supplies, irrigation) is explicitly subject to Entry 56 of the Union List (Regulation and development of inter-state rivers). Statement 3 is incorrect because the River Boards Act, 1956 was enacted to establish River Boards for consultation, whereas the Inter-State River Water Disputes Act, 1956 was enacted to establish Tribunals for adjudication.",
+      "takeaway": "Article 262 and the 7th Schedule entries define the power balance between the Union and States, with the Union List taking precedence in the regulation of inter-state rivers.",
+      "evidenceExcerpt": "Article 262... Adjudication of ISWD: Leads to River Boards Act, 1956 -> Establish River Boards. Exclusion of Courts: Leads to Inter-State River Water Disputes Act, 1956 -> Establish Tribunal. Entry 17 of State List... is subject to Entry 56 of List I.",
+      "qualityScore": 88,
+      "reviewNotes": "This question captures the subtle distinction between the two acts passed under Article 262 and the hierarchy of the 7th Schedule entries."
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice",
+      "prompt": "Which of the following features are proposed under the Inter-State River Water Disputes (Amendment) Bill, 2019? 1. Establishment of a single Inter-State River Water Disputes Tribunal with multiple benches. 2. Creation of a Dispute Resolution Committee (DRC) to resolve disputes amicably. 3. Setting a strict timeline for the completion of the tribunal's award. 4. Implementation of the National River Linking Project. Select the correct answer using the code given below:",
+      "contextLines": [
+        "Inter-State River Water Disputes (Amendment) Bill, 2019: Disputes Resolution Committee to resolve inter-state disputes amicably. Establishment of single Inter-State River Water Disputes Tribunal with multiple benches. Strict timeline for completion of award. Data bank at the central level for each river basin.",
+        "National River Linking Project: Transfer water from surplus region to deficit region potentially reducing inter-state water disputes."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "1, 2 and 3 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 4 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2, 3 and 4"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "The 2019 Amendment Bill focuses on institutional and procedural reforms, including a single Tribunal with multiple benches, a Dispute Resolution Committee (DRC), strict timelines for awards, and a central data bank. While the National River Linking Project is mentioned as a measure to resolve disputes, it is a separate project/initiative and not a feature of the 2019 Amendment Bill itself.",
+      "takeaway": "The 2019 Bill aims to streamline the adjudication process through institutional consolidation and time-bound awards rather than physical infrastructure projects.",
+      "evidenceExcerpt": "Inter-State River Water Disputes (Amendment) Bill, 2019: Disputes Resolution Committee... single Inter-State River Water Disputes Tribunal... Strict timeline... [Separate bullet] National River Linking Project.",
+      "qualityScore": 85,
+      "reviewNotes": "The question effectively distinguishes between legislative features and broader policy measures mentioned in the text."
+    }
+  ],
+  "reviewerNotes": "The questions cover fiscal federalism (revenue classification) and the legal/constitutional framework for inter-state water disputes. They distinguish between different legislative measures (2019 Amendment vs 2018 Draft Bill) and clarify the specific role of the Supreme Court under Article 262. All distractors are parallel and based on the provided text."
+}

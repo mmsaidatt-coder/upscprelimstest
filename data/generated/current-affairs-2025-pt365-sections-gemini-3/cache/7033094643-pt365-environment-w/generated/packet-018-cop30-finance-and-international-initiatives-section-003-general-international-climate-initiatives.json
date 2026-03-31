@@ -1,0 +1,207 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of international climate initiatives and their primary focus: 1. FINI : Developing investible pipelines for National Adaptation Plans 2. Open Coalition on Compliance Carbon Markets : Harmonizing carbon pricing across national borders 3. Belem Declaration for Green Industrialization : Decarbonizing heavy emitting industries. How many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Pair 1 is correctly matched: FINI (Fostering Investible National Implementation) aims to make National Adaptation Plans (NAPs) investible. Pair 2 is correctly matched: The Open Coalition on Compliance Carbon Markets aims to harmonize carbon pricing and integrity standards across national borders. Pair 3 is correctly matched: The Belem Declaration for Green Industrialization focuses on accelerating the decarbonization of heavy emitting industries and promoting green industrialization.",
+      "takeaway": "Recent international climate initiatives target specific niches: FINI for adaptation finance, the Open Coalition for compliance carbon market harmonization, and the Belem Declaration for heavy industry decarbonization.",
+      "evidenceExcerpt": "FINI (Fostering Investible National Implementation): Supported by IDB and GCF to make NAPs investible and develop USD 1 trillion in adaptation investment pipelines by 2028. Open Coalition on Compliance Carbon Markets: Initiative to harmonize carbon pricing and integrity standards across national borders... Belem Declaration for Green Industrialization: Accelerating decarbonization of heavy emitting industries..."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the 'Fostering Investible National Implementation (FINI)' initiative, consider the following statements: 1. It aims to develop a USD 1 trillion investment pipeline specifically for climate mitigation projects by 2028. 2. It is supported by the Inter-American Development Bank (IDB) and the Green Climate Fund (GCF). Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: FINI focuses on making National Adaptation Plans (NAPs) investible and aims to develop a USD 1 trillion pipeline for 'adaptation' investment, not mitigation. Statement 2 is correct: The initiative is supported by the Inter-American Development Bank (IDB) and the Green Climate Fund (GCF).",
+      "takeaway": "FINI is a targeted initiative to bridge the adaptation finance gap by creating investible pipelines for National Adaptation Plans (NAPs), backed by major climate finance institutions like the GCF.",
+      "evidenceExcerpt": "FINI (Fostering Investible National Implementation): Supported by IDB and GCF to make NAPs investible and develop USD 1 trillion in adaptation investment pipelines by 2028."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the 'Belem Declaration for Green Industrialization': 1. It is an international agreement aimed primarily at halting deforestation in the Amazon basin. 2. It focuses on promoting green industrialization and accelerating the decarbonization of heavy emitting industries. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: While the city of Belem is associated with Amazon conservation declarations (like the 2023 ACTO Belem Declaration), the specific 'Belem Declaration for Green Industrialization' is not primarily about halting deforestation. Statement 2 is correct: It specifically focuses on accelerating the decarbonization of heavy emitting industries and promoting green industrialization.",
+      "takeaway": "It is important to distinguish between different declarations signed in the same location; the Belem Declaration 'for Green Industrialization' targets heavy industry decarbonization rather than forest conservation.",
+      "evidenceExcerpt": "Belem Declaration for Green Industrialization: Accelerating decarbonization of heavy emitting industries and promoting green industrialization."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Comparison",
+      "prompt": "Consider the following international climate initiatives:\n1. Fostering Investible National Implementation (FINI)\n2. Open Coalition on Compliance Carbon Markets\n3. Belem Declaration for Green Industrialization\n\nWhich of the above initiatives is/are primarily directed towards 'climate adaptation' rather than 'climate mitigation' or 'emissions accounting'?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "FINI focuses on making National Adaptation Plans (NAPs) investible and developing adaptation investment pipelines. In contrast, the Open Coalition focuses on carbon markets and MRV (mitigation/accounting), while the Belem Declaration focuses on decarbonizing heavy industries (mitigation).",
+      "takeaway": "Distinguishing between adaptation and mitigation initiatives is crucial. FINI targets adaptation finance, whereas the Belem Declaration and Open Coalition target mitigation and carbon accounting.",
+      "evidenceExcerpt": "FINI... develop USD 1 trillion in adaptation investment pipelines... Open Coalition... harmonize carbon pricing... Belem Declaration... decarbonization of heavy emitting industries"
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Mechanism-Design",
+      "prompt": "With reference to international efforts to bridge the climate finance gap, the 'FINI' initiative, supported by the Green Climate Fund (GCF) and the Inter-American Development Bank (IDB), addresses which specific bottleneck in developing countries?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The lack of standardized Measurement, Reporting, and Verification (MRV) frameworks for voluntary carbon markets."
+        },
+        {
+          "id": "B",
+          "text": "The inability to convert National Adaptation Plans (NAPs) into structured, investible project pipelines."
+        },
+        {
+          "id": "C",
+          "text": "The absence of technology transfer mechanisms for decarbonizing heavy-emitting industries."
+        },
+        {
+          "id": "D",
+          "text": "The lack of harmonized cross-border carbon pricing to prevent carbon leakage."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The FINI (Fostering Investible National Implementation) initiative specifically aims to make National Adaptation Plans (NAPs) investible, addressing the bottleneck of translating broad adaptation strategies into bankable project pipelines.",
+      "takeaway": "FINI's core mechanism is transforming NAPs into investible pipelines to mobilize USD 1 trillion in adaptation finance by 2028.",
+      "evidenceExcerpt": "FINI (Fostering Investible National Implementation): Supported by IDB and GCF to make NAPs investible and develop USD 1 trillion in adaptation investment pipelines by 2028."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Institution-Function",
+      "prompt": "The establishment of robust 'Measurement, Reporting, and Verification (MRV)' practices is essential for the environmental integrity of global climate action. Which of the following recent initiatives explicitly aims to collaborate in defining best practices for MRV while harmonizing carbon pricing across national borders?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Belem Declaration for Green Industrialization"
+        },
+        {
+          "id": "B",
+          "text": "Open Coalition on Compliance Carbon Markets"
+        },
+        {
+          "id": "C",
+          "text": "Fostering Investible National Implementation (FINI)"
+        },
+        {
+          "id": "D",
+          "text": "Beyond Oil and Gas Alliance (BOGA)"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Open Coalition on Compliance Carbon Markets is an initiative designed to harmonize carbon pricing and integrity standards across national borders and collaborate in defining best practices for MRV.",
+      "takeaway": "The Open Coalition on Compliance Carbon Markets focuses on cross-border harmonization of carbon pricing, integrity standards, and MRV practices.",
+      "evidenceExcerpt": "Open Coalition on Compliance Carbon Markets: Initiative to harmonize carbon pricing and integrity standards across national borders and collaborate in defining best practices for MRV."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Concept-Application",
+      "prompt": "In the context of global climate action, which of the following initiatives is most directly aligned with the objective of reducing the carbon footprint of 'hard-to-abate' sectors such as steel, cement, and chemicals?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Fostering Investible National Implementation (FINI)"
+        },
+        {
+          "id": "B",
+          "text": "Open Coalition on Compliance Carbon Markets"
+        },
+        {
+          "id": "C",
+          "text": "Belem Declaration for Green Industrialization"
+        },
+        {
+          "id": "D",
+          "text": "Adaptation Fund Board (AFB) initiatives"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The Belem Declaration for Green Industrialization focuses on accelerating the decarbonization of heavy emitting industries (often referred to as hard-to-abate sectors) and promoting green industrialization.",
+      "takeaway": "The Belem Declaration targets the decarbonization of heavy industries, distinguishing it from initiatives focused on adaptation or carbon market harmonization.",
+      "evidenceExcerpt": "Belem Declaration for Green Industrialization: Accelerating decarbonization of heavy emitting industries and promoting green industrialization."
+    }
+  ]
+}

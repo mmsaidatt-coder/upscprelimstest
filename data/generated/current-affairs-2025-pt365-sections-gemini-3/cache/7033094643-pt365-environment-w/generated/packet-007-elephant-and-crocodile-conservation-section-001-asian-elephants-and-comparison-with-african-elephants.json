@@ -1,0 +1,149 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Asian Elephant (Elephas maximus):\n1. It has a gestation period of 22 months, which is the longest among mammals.\n2. Its herds are characterized by a matriarchal social structure.\n3. It is classified as 'Critically Endangered' on the IUCN Red List.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statements 1 and 2 are correct. Asian elephants have a matriarchal social structure and the longest gestation period in mammals at 22 months. Statement 3 is incorrect because they are classified as 'Endangered' (not Critically Endangered) on the IUCN Red List.",
+      "takeaway": "Asian Elephants are Endangered under IUCN, Schedule I under WPA, and Appendix I under CITES. They exhibit a matriarchal society and have a 22-month gestation period.",
+      "evidenceExcerpt": "Asian Elephants have a matriarchal social structure and the longest gestation period in mammals at 22 months.\n- Conservation Status of Asian Elephants: IUCN Endangered..."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Comparison",
+      "prompt": "Consider the following statements regarding the differences between Asian and African elephants:\n1. Asian elephants have a humped or convex back, whereas African elephants have a concave or dipped back.\n2. Asian elephants possess a twin-domed head, whereas African elephants have a rounded single dome.\n3. Both male and female Asian elephants have visible tusks, whereas only male African elephants possess them.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statements 1 and 2 are correct. Asian elephants feature a twin-domed head and a humped/convex back, while African elephants have a single dome and a concave back. Statement 3 is incorrect because only some male Asian elephants have visible tusks, whereas both male and female African elephants have larger tusks.",
+      "takeaway": "Morphological differences are key to distinguishing elephant species: Asian elephants have a twin-domed head, humped back, and only some males have tusks. African elephants have a single-domed head, dipped back, and tusks in both sexes.",
+      "evidenceExcerpt": "Asian elephants have a twin-domed head with a central indent and a humped/convex back, whereas African elephants have a rounded/flat single dome and a concave/dipped back.\n- Only some male Asian elephants have visible tusks, while both male and female African elephants have larger tusks."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to elephant conservation in India, consider the following statements:\n1. Project Elephant was launched in 1992 to protect elephants and their habitats.\n2. Elephant Reserves have been established across all states of India to ensure pan-India protection.\n3. The Asian Elephant is listed under Appendix I of CITES.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statements 1 and 3 are correct. Project Elephant was launched in 1992, and the species is listed under Appendix I of CITES. Statement 2 is incorrect because Elephant Reserves are currently spread across 14 major states, not all states.",
+      "takeaway": "Project Elephant (1992) operates in 14 major states with 33 Elephant Reserves. The species enjoys the highest level of protection (CITES Appendix I, WPA Schedule I).",
+      "evidenceExcerpt": "- Conservation Status of Asian Elephants: IUCN Endangered, WPA 1972 Schedule I, and CITES Appendix I.\n- Project Elephant was launched in 1992, and there are currently 33 Elephant Reserves across 14 major states."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Feature-matching",
+      "prompt": "Which of the following morphological features are characteristic of the Asian Elephant as compared to the African Elephant?\n1. Smaller overall body size\n2. Larger, rounded ears\n3. A twin-domed head with a central indent\n\nSelect the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Features 1 and 3 are correct. Asian elephants are smaller in size and possess a twin-domed head. Feature 2 is incorrect because Asian elephants have smaller rounded ears, not larger ones, compared to African elephants.",
+      "takeaway": "Asian elephants are generally smaller than their African counterparts and are distinguished by smaller rounded ears, a twin-domed head, and a humped back.",
+      "evidenceExcerpt": "Key differences from African elephants include smaller size, twin-domed head, smaller rounded ears, humped back, and tusks typically only visible in some males."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of morphological characteristics and the elephant species they primarily describe:\n\n1. Concave or dipped back profile : African Elephant\n2. Twin-domed head with a central indent : Asian Elephant\n3. Visible tusks in both males and females : Asian Elephant\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: African elephants have a concave or dipped back, whereas Asian elephants have a humped or convex back.\nPair 2 is correctly matched: Asian elephants possess a twin-domed head with a central indent, while African elephants have a rounded single dome.\nPair 3 is incorrectly matched: Both male and female African elephants have larger, visible tusks, whereas only some male Asian elephants have visible tusks.",
+      "takeaway": "Morphological differences between Asian and African elephants are distinct, particularly in their back profile (convex vs. concave), head shape (twin-domed vs. single dome), and tusk presence (males only vs. both sexes).",
+      "evidenceExcerpt": "Asian elephants have a twin-domed head with a central indent and a humped/convex back, whereas African elephants have a rounded/flat single dome and a concave/dipped back. Only some male Asian elephants have visible tusks, while both male and female African elephants have larger tusks."
+    }
+  ]
+}

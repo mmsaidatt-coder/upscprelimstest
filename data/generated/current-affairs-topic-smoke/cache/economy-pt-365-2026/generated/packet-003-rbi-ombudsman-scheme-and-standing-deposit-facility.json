@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "The 'Switch Auction' conducted by the Reserve Bank of India on behalf of the Government of India is a mechanism primarily aimed at:",
+      "options": [
+        {
+          "id": "A",
+          "text": "managing short-term liquidity in the banking system through repo and reverse repo operations."
+        },
+        {
+          "id": "B",
+          "text": "facilitating the government's disinvestment in public sector undertakings."
+        },
+        {
+          "id": "C",
+          "text": "managing the maturity profile of public debt by replacing short-term securities with longer-dated ones."
+        },
+        {
+          "id": "D",
+          "text": "intervening in the foreign exchange market to stabilize the currency."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The primary objective of a 'Switch Auction' is debt management. It allows the Government of India to manage its debt repayment schedule by converting its short-term liabilities (securities maturing soon) into long-term ones (securities with a later maturity date), thereby smoothing out the redemption pressure.",
+      "takeaway": "Switch Auctions are a tool for public debt management, not for day-to-day liquidity management or disinvestment. Their main purpose is to alter the maturity structure of government debt to ensure a sustainable repayment profile.",
+      "evidenceExcerpt": "Objective: To manage the maturity profile of public debt by replacing short-term securities with longer-dated ones. Mechanism: Market participants sell source securities to the Government of India and simultaneously buy destination securities at quoted prices.",
+      "contextLines": []
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Application-based",
+      "prompt": "Under the Reserve Bank of India's revised directions for Co-Lending Arrangements (CLA) between banks and Non-bank Financial Companies (NBFCs), which of the following is a correct stipulation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The NBFC partner is required to retain a minimum of 20% share of the individual loans on its books."
+        },
+        {
+          "id": "B",
+          "text": "A bank can claim Priority Sector Lending (PSL) status for the entire loan amount, provided the loan is originated by its NBFC partner."
+        },
+        {
+          "id": "C",
+          "text": "Each of the co-lending entities must maintain a minimum 10% share of the loans extended under the arrangement."
+        },
+        {
+          "id": "D",
+          "text": "The CLA is only permitted for lending to the agricultural sector to boost rural credit."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The revised directions for Co-Lending Arrangements explicitly state that each Regulated Entity (RE), which includes both the bank and the NBFC, must retain a minimum 10% share of the loans on their respective books. Option A is incorrect as the minimum share is 10%, not 20%. Option B is incorrect because each lender can claim PSL status only for its own share of the loan, not the entire amount. Option D is incorrect as the guidelines do not restrict the CLA to any specific sector.",
+      "takeaway": "The co-lending model is designed to facilitate joint lending by banks and NBFCs, with specific prudential norms like a minimum 10% risk retention for each partner and pro-rata classification of loans under Priority Sector Lending.",
+      "evidenceExcerpt": "Minimum share: Each RE to retain a minimum 10% share of the loans. ... Priority Sector Lending (PSL) status: Each lender can claim PSL status for its share under co-lending, if the loan qualifies as priority sector.",
+      "contextLines": []
+    }
+  ]
+}

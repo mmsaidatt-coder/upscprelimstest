@@ -1,0 +1,98 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Polity",
+      "difficulty": "Hard",
+      "questionType": "Multiple Choice",
+      "prompt": "In the context of recent judicial interpretations of Article 21 of the Constitution, consider the following statements:\n1. The right to rehabilitation is a fundamental right guaranteed under the Constitution of India.\n2. In land acquisition cases, the deprivation of livelihood cannot be sustained as a ground under Article 21 to challenge the acquisition.\nWhich of the statements given above is/are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: In the case of Estate Officer, Haryana Urban Development Authority vs landowners, the Supreme Court explicitly claimed that Rehabilitation is not a fundamental right. Statement 2 is correct: The Court further stated that the deprivation of livelihood under Article 21 is not a sustainable ground in land acquisition cases, limiting the scope of Article 21 in the specific context of state-led land acquisition.",
+      "takeaway": "Contrary to common perception, the Supreme Court has clarified that rehabilitation is not a fundamental right and Article 21 cannot be used to block land acquisition on the grounds of livelihood deprivation.",
+      "evidenceExcerpt": "In a recent judgement (Estate Officer, Haryana Urban Development Authority vs landowners), Supreme Court claimed that Rehabilitation is not a fundamental right. It further stated that Deprivation of livelihood under Article 21 is not a sustainable ground in land acquisition cases.",
+      "qualityScore": 92,
+      "reviewNotes": "This question targets a common misconception among aspirants regarding the expansive nature of Article 21, making it a high-quality distractor-based question.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Hard",
+      "questionType": "Multiple Choice",
+      "prompt": "With reference to the 'Right to Digital Access' in India, consider the following statements:\n1. The Supreme Court has recognized inclusive and meaningful digital access to e-governance as a fundamental right under Article 21.\n2. The 'principle of substantive equality' in digital transformation mandates that the State ensure digital infrastructure for vulnerable and marginalized populations.\n3. The right to access the internet was first recognized as a fundamental right under Article 19(1)(a) and Article 19(1)(g) in the Anuradha Bhasin case.\nWhich of the statements given above are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Statement 1 is correct: In the Amar Jain vs Union of India case, the Supreme Court held that inclusive digital access to e-governance and welfare delivery is part of the right to life and liberty under Article 21. Statement 2 is correct: The Court invoked the 'principle of substantive equality' to state that digital transformation must be inclusive and equitable, obliging the State to provide infrastructure to marginalized groups under Articles 14, 15, 21, and 38. Statement 3 is correct: In Anuradha Bhasin v. Union of India (2020), the Court recognized internet access as a fundamental right under Article 19(1)(a) (freedom of speech) and Article 19(1)(g) (right to practice any profession/trade).",
+      "takeaway": "While internet access was initially linked to Article 19, recent jurisprudence (Amar Jain case) has expanded its scope to Article 21 as a component of a dignified life.",
+      "evidenceExcerpt": "Recently, Supreme Court in Amar Jain vs Union of India and Ors judgment held that inclusive and meaningful digital access to e-governance and welfare delivery systems is a part of fundamental right to life and liberty... Invoking ‘principle of substantive equality’: Digital transformation must be both inclusive and equitable... Anuradha Bhasin v. Union of India (2020): Recognized Internet access as a Fundamental Right under Articles 19(1)(a) and 19(1)(g).",
+      "qualityScore": 89,
+      "reviewNotes": "This question effectively tests the evolution of digital rights from Article 19 to Article 21, a nuance highly relevant for UPSC.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice",
+      "prompt": "The Supreme Court recently directed the revision of digital KYC (Know Your Customer) norms to ensure inclusive digital access. This direction specifically aims to benefit which of the following categories of persons?\n1. Persons with facial disfiguration due to acid attacks.\n2. Persons with visual impairment.\n3. Persons residing in 'shadow areas' with no mobile connectivity.\nSelect the correct answer using the code given below:",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "In the Amar Jain judgment, the Supreme Court specifically directed the revision of digital KYC norms to enable persons with facial disfiguration due to acid attacks or visual impairment to access banking and e-governance services. While the judgment broadly discusses digital access for all marginalized populations, the specific direction for KYC revision was targeted at those with physical/sensory barriers to biometric or facial recognition systems. Statement 3 is not mentioned as a specific target for KYC norm revision in this context.",
+      "takeaway": "Substantive equality in the digital sphere requires modifying procedural norms like KYC to accommodate specific physical disabilities.",
+      "evidenceExcerpt": "Directed to revise digital KYC norms: To enable persons with facial disfiguration due to acid attacks or visual impairment to access banking and e-governance services. Under Rights of Persons with Disabilities Act, 2016, Court issued twenty directions to make eKYC process accessible to them.",
+      "qualityScore": 86,
+      "reviewNotes": "This question tests the application of the 'principle of substantive equality' through a specific policy directive mentioned in the text.",
+      "contextLines": []
+    }
+  ],
+  "reviewerNotes": "The selected questions cover the nuances of Article 21 (Digital Access vs. Rehabilitation) and the specific application of equality principles in governance. The 'Rehabilitation' question is particularly strong as it corrects a common student error. All questions are strictly grounded in the provided text from pages 030-031."
+}

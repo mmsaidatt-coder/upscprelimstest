@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Ways and Means Advances (WMA), consider the following statements:\n\n1. It is a statutory mechanism authorized under the Fiscal Responsibility and Budget Management (FRBM) Act, 2003.\n2. It is available to both the Central and State governments to bridge temporary mismatches in cash flows.\n3. The interest rate charged on these advances is the prevailing repo rate.\n4. The advances must be fully repaid within a maximum period of three months.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is incorrect: WMA is authorized by the Reserve Bank of India (RBI) Act, 1934, not the FRBM Act. Statement 2 is correct: WMA is a temporary advance provided by the RBI to both the Central government and state governments/Union Territories to cover receipt-payment mismatches. Statement 3 is correct: The interest rate on WMA is the RBI repo rate. Statement 4 is correct: WMAs must be fully paid off within 3 months.",
+      "takeaway": "WMA is a short-term liquidity tool authorized by the RBI Act 1934 for both Central and State governments, linked to the repo rate and requiring repayment within 3 months.",
+      "evidenceExcerpt": "Ways and Means Advances (WMA) are temporary advances by RBI to central and state governments to cover receipt-payment mismatches... Authorized by the RBI Act 1934, the interest rate is the repo rate... WMAs must be fully paid off within 3 months.",
+      "qualityScore": 88,
+      "reviewNotes": "Combined factual elements from multiple candidates to create a comprehensive, multi-statement question that tests statutory backing, eligibility, interest rate, and tenure. The FRBM trap is highly relevant for UPSC."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Applied Concept",
+      "prompt": "If the Reserve Bank of India (RBI) decides to tighten its monetary policy by raising the repo rate, what is the direct implication for governments utilizing the Ways and Means Advances (WMA) facility?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The maximum duration for which governments can hold WMA is proportionally reduced."
+        },
+        {
+          "id": "B",
+          "text": "The cost of bridging temporary receipt-payment mismatches for the government increases."
+        },
+        {
+          "id": "C",
+          "text": "The WMA facility becomes restricted exclusively to the Central Government."
+        },
+        {
+          "id": "D",
+          "text": "The interest rate on WMA overdrafts is decoupled from the repo rate to protect state finances."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The interest rate charged on standard WMA is pegged directly to the RBI's repo rate, and overdrafts are charged 2 percent above the repo rate. Therefore, any increase in the repo rate during monetary tightening directly increases the interest burden (cost of borrowing) for governments using WMA to bridge temporary cash flow mismatches. Options A, C, and D are incorrect as the duration (3 months), eligibility (Central and State governments), and the link to the repo rate remain unaffected by monetary policy tightening.",
+      "takeaway": "The cost of borrowing under the WMA facility is directly linked to the RBI's repo rate, meaning monetary policy tightening makes short-term government liquidity management more expensive.",
+      "evidenceExcerpt": "Interest rate on WMA is the RBI repo rate, and overdrafts are 2 percent above the repo rate.",
+      "qualityScore": 85,
+      "reviewNotes": "Excellent applied question that tests the candidate's understanding of how monetary policy changes affect government borrowing costs under WMA. The distractors are plausible but factually incorrect based on the source text."
+    }
+  ],
+  "reviewerNotes": "Selected two high-quality questions. The first is a comprehensive statement-based question covering the statutory, eligibility, and operational facts of WMA. The second is an applied concept question testing the relationship between monetary policy (repo rate) and WMA borrowing costs. Both strictly adhere to the provided source text and reflect UPSC standards."
+}

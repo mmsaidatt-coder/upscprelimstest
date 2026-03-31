@@ -1,0 +1,207 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "statement-based",
+      "prompt": "Consider the following statements regarding 'Bharat Gen':\n1. It is an indigenously developed AI-based Multimodal Large Language Model designed to support all 22 scheduled Indian languages.\n2. It is developed under the National Mission on Interdisciplinary Cyber-Physical Systems (NM-ICPS).\n3. The project is primarily funded by the Ministry of Electronics and Information Technology (MeitY).\nWhich of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Bharat Gen is India's first indigenously developed AI-based Multimodal LLM for all 22 scheduled Indian languages. Statement 2 is correct: It is developed under NM-ICPS. Statement 3 is incorrect: It is funded by the Department of Science and Technology (DST), not MeitY.",
+      "takeaway": "Bharat Gen is an indigenous multimodal LLM for 22 Indian languages, implemented by IIT Bombay under NM-ICPS with DST funding.",
+      "evidenceExcerpt": "Bharat Gen is India's first indigenously developed AI-based Multimodal LLM for all 22 scheduled Indian languages. Bharat Gen is developed under NM-ICPS and implemented through TIH at IIT Bombay with DST funding."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "correct-pair",
+      "prompt": "Consider the following pairs regarding recent Artificial Intelligence (AI) initiatives:\n\nInitiative : Purpose/Feature\n1. AIRAWAT : Common compute platform for AI research\n2. Bharat Gen : Indigenous Multimodal Large Language Model\n3. Bletchley Declaration : International agreement on frontier AI risks\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Pair 1 is correctly matched: AIRAWAT provides a common compute platform for AI research. Pair 2 is correctly matched: Bharat Gen is an indigenous Multimodal LLM. Pair 3 is correctly matched: The Bletchley Declaration establishes a shared understanding of frontier AI risks.",
+      "takeaway": "Familiarity with key AI initiatives like AIRAWAT (compute platform), Bharat Gen (indigenous LLM), and the Bletchley Declaration (global AI risk consensus) is essential for understanding India's and the world's AI ecosystem.",
+      "evidenceExcerpt": "Bharat Gen is India's first indigenously developed AI-based Multimodal LLM... AIRAWAT provides a common compute platform for AI research. Bletchley Declaration (2023) establishes a shared understanding of frontier AI risks..."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "statement-based",
+      "prompt": "With reference to the 'IndiaAI Mission', consider the following statements:\n1. It is implemented by the IndiaAI Independent Business Division (IBD).\n2. The implementing body operates under the Digital India Corporation of the Ministry of Electronics and Information Technology (MeitY).\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Both statements are correct. The IndiaAI Mission is implemented by the IndiaAI IBD, which functions under the Digital India Corporation of MeitY.",
+      "takeaway": "The IndiaAI Mission is a flagship initiative implemented by the IndiaAI IBD under the Digital India Corporation (MeitY).",
+      "evidenceExcerpt": "IndiaAI Mission is implemented by the IndiaAI IBD under Digital India Corporation (MeitY)."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "statement-based",
+      "prompt": "Consider the following statements regarding the 'Bletchley Declaration', recently seen in the news:\n1. It is a global consensus primarily focused on the regulation of cryptocurrency and decentralized finance.\n2. It was signed by 28 countries and the European Union to establish a shared understanding of frontier AI risks.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The Bletchley Declaration is focused on frontier AI risks, not cryptocurrency or decentralized finance. Statement 2 is correct: It was signed in 2023 by 28 countries and the EU to establish a shared understanding of the risks associated with frontier AI.",
+      "takeaway": "The Bletchley Declaration (2023) is a landmark international agreement on managing the risks of frontier AI, signed by 28 nations and the EU.",
+      "evidenceExcerpt": "Bletchley Declaration (2023) establishes a shared understanding of frontier AI risks, signed by 28 countries and the EU."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "Which of the following best describes the functional distinction between 'Bharat Gen' and 'AIRAWAT' within India's Artificial Intelligence (AI) ecosystem?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Bharat Gen serves as a hardware-based common compute infrastructure, whereas AIRAWAT is a software-based foundational model for Indian languages."
+        },
+        {
+          "id": "B",
+          "text": "Bharat Gen is an indigenous multimodal Large Language Model, whereas AIRAWAT provides a common compute platform for AI research."
+        },
+        {
+          "id": "C",
+          "text": "Bharat Gen is an international regulatory framework for AI, whereas AIRAWAT is a domestic initiative for AI hardware manufacturing."
+        },
+        {
+          "id": "D",
+          "text": "Bharat Gen is implemented by the Digital India Corporation, whereas AIRAWAT is managed by the Technology Innovation Hub at IIT Bombay."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Bharat Gen is an AI model (Multimodal LLM) designed for linguistic processing, whereas AIRAWAT is the underlying compute infrastructure (platform) that facilitates AI research.",
+      "takeaway": "While Bharat Gen is a Multimodal Large Language Model, AIRAWAT functions as a common compute platform dedicated to AI research.",
+      "evidenceExcerpt": "Bharat Gen is India's first indigenously developed AI-based Multimodal LLM... AIRAWAT provides a common compute platform for AI research."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding India's Artificial Intelligence (AI) ecosystem:\n\n1. The IndiaAI Mission is implemented by an independent business division under the Digital India Corporation.\n2. All indigenous AI foundational models, including Bharat Gen, are funded and implemented directly by the Ministry of Electronics and Information Technology (MeitY).\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The IndiaAI Mission is implemented by the IndiaAI IBD under Digital India Corporation (MeitY). Statement 2 is incorrect: Bharat Gen is developed under NM-ICPS and implemented through TIH at IIT Bombay with funding from the Department of Science and Technology (DST), demonstrating that AI initiatives span multiple ministries.",
+      "takeaway": "India's AI ecosystem is supported by multiple ministries; while the IndiaAI Mission falls under MeitY, Bharat Gen is funded by the DST.",
+      "evidenceExcerpt": "Bharat Gen is developed under NM-ICPS and implemented through TIH at IIT Bombay with DST funding. IndiaAI Mission is implemented by the IndiaAI IBD under Digital India Corporation (MeitY)."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding international Artificial Intelligence (AI) governance:\n\n1. The Bletchley Declaration is a global agreement signed by 28 countries and the European Union to establish a shared understanding of frontier AI risks.\n2. The Bletchley Declaration mandates the creation of a global common compute platform for AI research.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The Bletchley Declaration (2023) focuses on establishing a shared understanding of frontier AI risks. Statement 2 is incorrect: The creation of a common compute platform is a feature of India's domestic AIRAWAT initiative, not a mandate of the Bletchley Declaration.",
+      "takeaway": "The Bletchley Declaration is a landmark international agreement focused specifically on the risks associated with frontier AI models.",
+      "evidenceExcerpt": "Bletchley Declaration (2023) establishes a shared understanding of frontier AI risks, signed by 28 countries and the EU."
+    }
+  ]
+}

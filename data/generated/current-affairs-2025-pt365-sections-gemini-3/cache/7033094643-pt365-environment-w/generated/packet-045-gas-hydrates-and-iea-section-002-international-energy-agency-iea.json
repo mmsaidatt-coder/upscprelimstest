@@ -1,0 +1,236 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the International Energy Agency (IEA):\n1. It was established in 1974 primarily to ensure the security of global oil supplies.\n2. India is currently an associate member of the IEA.\n3. The IEA has more Association countries than full Member countries.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The IEA was founded in 1974 to ensure the security of oil supplies. Statement 2 is correct: India is an associate member of the IEA, not a full member. Statement 3 is incorrect: The IEA has 32 Member countries and 13 Association countries, meaning it has more full Member countries than Association countries.",
+      "takeaway": "The IEA was founded in 1974 for oil supply security. It consists of 32 Member countries and 13 Association countries, with India holding associate member status.",
+      "evidenceExcerpt": "The International Energy Agency (IEA), located in Paris, France, was founded in 1974 to ensure the security of oil supplies. It has 32 Member countries and 13 Association countries, with India being an associate member."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following conditions for a country to become a full member of the International Energy Agency (IEA):\n1. It must be a member of the Organisation for Economic Co-operation and Development (OECD).\n2. It must maintain crude oil reserves equivalent to 90 days of the previous year's total domestic consumption.\n3. It must have a demand restraint programme to reduce national oil consumption by up to 10%.\n\nHow many of the above are mandatory conditions for full membership in the IEA?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Condition 1 is correct: A country must be an OECD member to be eligible for full membership. Condition 2 is incorrect: The requirement is to maintain crude oil reserves equivalent to 90 days of the previous year's *net imports*, not total domestic consumption. Condition 3 is correct: A country must have a demand restraint programme to reduce oil consumption by up to 10%.",
+      "takeaway": "IEA full membership requires OECD membership, a 90-day reserve based on net imports (not consumption), and a 10% demand restraint capability.",
+      "evidenceExcerpt": "To be a full member, a country must be an OECD member, maintain crude oil reserves equivalent to 90 days of the previous year's net imports, and have a demand restraint programme to reduce oil consumption by up to 10%."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of Reports and their Publishing Organizations:\n1. World Energy Outlook : International Energy Agency\n2. Global Methane Tracker : United Nations Environment Programme\n3. Global EV Outlook : World Economic Forum\n\nHow many of the pairs given above are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Only pair 1 is correctly matched. The World Energy Outlook, Global Methane Tracker, and Global EV Outlook are all flagship publications of the International Energy Agency (IEA). Therefore, pairs 2 and 3 are incorrectly matched.",
+      "takeaway": "The International Energy Agency (IEA) publishes several flagship reports, including the World Energy Outlook, Global Methane Tracker, Delivering Sustainable Fuels, and Global EV Outlook.",
+      "evidenceExcerpt": "Flagship publications include the World Energy Outlook, Global Methane Tracker, Delivering Sustainable Fuels, and Global EV Outlook."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "The International Energy Agency (IEA) mandates its full member countries to maintain crude oil reserves equivalent to 90 days of the previous year's net imports. Which of the following best describes the primary rationale behind this specific membership criterion?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "To provide a coordinated buffer against physical disruptions in global oil supplies."
+        },
+        {
+          "id": "B",
+          "text": "To enable the agency to artificially regulate crude oil prices in opposition to oil cartels."
+        },
+        {
+          "id": "C",
+          "text": "To mandate a phased reduction in fossil fuel reliance among developed nations."
+        },
+        {
+          "id": "D",
+          "text": "To ensure member states have adequate domestic fuel for military contingencies."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "The IEA was founded in 1974 specifically to ensure the security of oil supplies. The 90-day reserve requirement is a strategic stockpile mechanism designed to provide a buffer against supply disruptions, aligning directly with this founding mandate.",
+      "takeaway": "The IEA's strategic reserve requirement is a supply-security mechanism designed to mitigate the impact of physical disruptions in global oil markets.",
+      "evidenceExcerpt": "The International Energy Agency (IEA)... was founded in 1974 to ensure the security of oil supplies... To be a full member, a country must... maintain crude oil reserves equivalent to 90 days of the previous year's net imports..."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the International Energy Agency (IEA):\n1. The IEA was originally established with a primary mandate to ensure the security of global oil supplies.\n2. The IEA's current flagship publications indicate that its tracking mechanisms are strictly limited to fossil fuel markets and crude oil reserves.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct, as the IEA was founded in 1974 to ensure the security of oil supplies. Statement 2 is incorrect because the IEA's flagship publications now include the Global EV Outlook and Delivering Sustainable Fuels, indicating a broader focus on the energy transition beyond just fossil fuels.",
+      "takeaway": "While the IEA was founded to secure oil supplies, its modern mandate has expanded to track the broader energy transition, including electric vehicles and sustainable fuels.",
+      "evidenceExcerpt": "The International Energy Agency (IEA)... was founded in 1974 to ensure the security of oil supplies... Flagship publications include the World Energy Outlook, Global Methane Tracker, Delivering Sustainable Fuels, and Global EV Outlook."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Applied",
+      "prompt": "A policymaker analyzing the global transition of the transportation sector towards alternative energy and the mitigation of fugitive emissions in the energy industry would most likely rely on which of the following pairs of reports published by the International Energy Agency (IEA)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Global EV Outlook and Global Methane Tracker"
+        },
+        {
+          "id": "B",
+          "text": "Global Environment Outlook and Delivering Sustainable Fuels"
+        },
+        {
+          "id": "C",
+          "text": "World Energy Transitions Outlook and Global Methane Tracker"
+        },
+        {
+          "id": "D",
+          "text": "Emissions Gap Report and Global EV Outlook"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "The Global EV Outlook tracks the transition of the transportation sector to electric vehicles, and the Global Methane Tracker monitors fugitive methane emissions. Both are flagship publications of the IEA. Reports like the Global Environment Outlook and Emissions Gap Report are published by UNEP.",
+      "takeaway": "The IEA publishes several flagship reports tracking the energy transition, notably the Global Methane Tracker, Delivering Sustainable Fuels, and the Global EV Outlook.",
+      "evidenceExcerpt": "Flagship publications include the World Energy Outlook, Global Methane Tracker, Delivering Sustainable Fuels, and Global EV Outlook."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Applied",
+      "prompt": "Country X consumed 100 million barrels of crude oil last year. It domestically produced 60 million barrels and imported 40 million barrels, with zero exports. If Country X wishes to become a full member of the International Energy Agency (IEA) and already meets the OECD membership criterion, what is the strategic crude oil reserve requirement it must fulfill under IEA rules?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Reserves equivalent to 90 days of its 100 million barrels total consumption."
+        },
+        {
+          "id": "B",
+          "text": "Reserves equivalent to 90 days of its 40 million barrels net imports."
+        },
+        {
+          "id": "C",
+          "text": "Reserves equivalent to 90 days of its 60 million barrels domestic production."
+        },
+        {
+          "id": "D",
+          "text": "Reserves equivalent to 10% of its total domestic consumption."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "To be a full member of the IEA, a country must maintain crude oil reserves equivalent to 90 days of the previous year's net imports, not its total domestic consumption or production. The 10% figure relates to a separate requirement for a demand restraint programme.",
+      "takeaway": "The IEA's 90-day strategic reserve requirement is calculated strictly on a country's net imports of crude oil, not its total domestic consumption.",
+      "evidenceExcerpt": "To be a full member, a country must be an OECD member, maintain crude oil reserves equivalent to 90 days of the previous year's net imports, and have a demand restraint programme to reduce oil consumption by up to 10%."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Institution-feature",
+      "prompt": "Which of the following mechanisms is a mandatory prerequisite for a country seeking full membership in the International Energy Agency (IEA)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A sovereign wealth fund dedicated to renewable energy investments."
+        },
+        {
+          "id": "B",
+          "text": "A demand restraint programme capable of reducing national oil consumption by up to 10%."
+        },
+        {
+          "id": "C",
+          "text": "A legally binding commitment to achieve net-zero carbon emissions by 2050."
+        },
+        {
+          "id": "D",
+          "text": "A domestic carbon pricing or cap-and-trade mechanism."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "To be a full member of the IEA, a country must have a demand restraint programme designed to reduce national oil consumption by up to 10%. The other options are not mandatory criteria for IEA membership.",
+      "takeaway": "Alongside OECD membership and a 90-day net import reserve, the IEA requires prospective full members to possess a demand restraint programme to cut oil consumption by up to 10% during emergencies.",
+      "evidenceExcerpt": "To be a full member, a country must... have a demand restraint programme to reduce oil consumption by up to 10%."
+    }
+  ]
+}

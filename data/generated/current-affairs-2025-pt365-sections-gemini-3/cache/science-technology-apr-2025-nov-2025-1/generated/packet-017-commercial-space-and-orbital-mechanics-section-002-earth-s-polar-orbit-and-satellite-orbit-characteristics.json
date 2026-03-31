@@ -1,0 +1,265 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding satellite orbits and space missions:\n1. The Fram2 mission is the first human spaceflight designed to cruise directly over Earth's Polar Regions.\n2. Launching a spacecraft into a polar orbit requires more fuel as it cannot harness the Earth's rotational speed.\n3. Sun-synchronous orbits (SSO) are positioned at altitudes exceeding 35,000 km to remain in sync with the Sun.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Fram2, launched via SpaceX Dragon, is the first human spaceflight over Earth's Polar Regions. Statement 2 is correct: Launching into polar orbits requires more fuel because the launch vehicle cannot harness the Earth's rotational speed. Statement 3 is incorrect: Sun-synchronous orbits (SSO) are situated at altitudes of 600-800 km, not exceeding 35,000 km.",
+      "takeaway": "Polar orbits require more fuel to reach because they do not benefit from the Earth's rotational velocity. Fram2 marks the first human spaceflight over the poles.",
+      "evidenceExcerpt": "Mission Fram2 launched via SpaceX Dragon will be the first human spaceflight over Earth's Polar Regions... Polar orbits are LEOs (200-1000 km) passing over poles; require greater fuel as they do not harness Earth's rotational speed... Sun-synchronous orbit (SSO) is 600-800 km; satellites are in sync with the Sun."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "How many of the following pairs of satellite orbits and their primary characteristics are correctly matched?\n1. Low Earth Orbit (LEO) : Altitude under 2000 km; hosts the International Space Station\n2. Medium Earth Orbit (MEO) : Altitude between 2,000 and 36,000 km; ideal for navigation satellites\n3. Geostationary Orbit (GEO) : Altitude of 35,786 km; flies above the poles matching Earth's rotation\nSelect the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: LEO is under 2000 km and hosts the ISS. Pair 2 is correctly matched: MEO ranges from 2,000 to 36,000 km and is ideal for navigation/GPS. Pair 3 is incorrectly matched: GEO is at 35,786 km and matches Earth's rotation, but it flies directly above the equator, not the poles.",
+      "takeaway": "Different orbits serve distinct purposes: LEO for space stations and observation, MEO for navigation, and GEO for continuous coverage over a specific equatorial region.",
+      "evidenceExcerpt": "Low Earth Orbit (LEO) is under 2000 km, ISS orbits here... MEO (2,000-36,000 km, navigation/GPS), and GEO (35,786 km, matches Earth's rotation, flies above equator)."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Assertion-Reason",
+      "prompt": "Given below are two statements, one labelled as Assertion (A) and the other labelled as Reason (R):\nAssertion (A): Launch vehicles placing satellites into polar orbits generally consume more fuel compared to those launching into equatorial orbits.\nReason (R): Polar orbits are situated at much higher altitudes than Geostationary Orbits, requiring greater escape velocity.\nIn the context of the statements above, which one of the following is correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both A and R are true and R is the correct explanation of A"
+        },
+        {
+          "id": "B",
+          "text": "Both A and R are true but R is not the correct explanation of A"
+        },
+        {
+          "id": "C",
+          "text": "A is true but R is false"
+        },
+        {
+          "id": "D",
+          "text": "A is false but R is true"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Assertion (A) is true: Launching into a polar orbit requires more fuel because the launch vehicle cannot harness the Earth's rotational speed, unlike equatorial launches. Reason (R) is false: Polar orbits are typically Low Earth Orbits (LEOs) at altitudes of 200-1000 km, which is much lower than Geostationary Orbits (GEO) situated at 35,786 km.",
+      "takeaway": "Polar orbits are low-altitude orbits (200-1000 km) but are fuel-intensive to reach because they do not benefit from the Earth's eastward rotational velocity.",
+      "evidenceExcerpt": "Polar orbits pass over the North and South Poles... at altitudes of 200-1000 km... Launching requires more fuel as it cannot harness Earth's rotational speed... GEO (35,786 km, matches Earth's rotation, flies above equator)."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding different types of Earth orbits:\n1. Satellites in Geostationary Orbit (GEO) match the Earth's rotational period.\n2. Medium Earth Orbit (MEO) is primarily utilized for weather and mapping satellites due to its proximity to the Earth's surface.\n3. Polar orbits pass over the North and South Poles with a deviation of up to 10 degrees.\nWhich of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: GEO satellites are situated at 35,786 km and match the Earth's rotational period, flying above the equator. Statement 2 is incorrect: MEO (2,000-36,000 km) is ideal for navigation/GPS satellites. It is Polar orbits (LEOs at 200-1000 km) that are primarily useful for weather and mapping. Statement 3 is correct: Polar orbits pass over the North and South Poles with up to 10 degrees of deviation.",
+      "takeaway": "Polar orbits (200-1000 km) are ideal for weather and mapping, while MEO (2,000-36,000 km) is best suited for navigation satellites like GPS.",
+      "evidenceExcerpt": "Polar orbits pass over the North and South Poles (up to 10 degrees deviation) at altitudes of 200-1000 km, useful for weather and mapping... MEO (2,000-36,000 km, navigation/GPS), and GEO (35,786 km, matches Earth's rotation, flies above equator)."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice",
+      "prompt": "A space agency plans to deploy an Earth observation satellite to capture images of the Earth's surface with consistent lighting conditions across different days. Based on orbital characteristics, which of the following orbits would be most appropriate for this mission?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Medium Earth Orbit (MEO)"
+        },
+        {
+          "id": "B",
+          "text": "Sun-synchronous Orbit (SSO)"
+        },
+        {
+          "id": "C",
+          "text": "Geostationary Orbit (GEO)"
+        },
+        {
+          "id": "D",
+          "text": "Equatorial Low Earth Orbit (LEO)"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Sun-synchronous orbits (SSO) operate at altitudes between 600-800 km and are synchronized with the Sun. This ensures that the satellite passes over a given point on Earth at the same local solar time, providing consistent lighting conditions which are ideal for Earth observation and imaging.",
+      "takeaway": "SSOs are specialized Low Earth Orbits that sync with the Sun, making them highly suitable for consistent Earth observation, weather forecasting, and reconnaissance.",
+      "evidenceExcerpt": "Sun-synchronous orbit (600-800 km, syncs with Sun)",
+      "contextLines": []
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice",
+      "prompt": "When planning a satellite launch for high-resolution global mapping, scientists often opt for a polar orbit. Which of the following operational constraints is an inherent characteristic of choosing this orbit over an equatorial orbit?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The satellite must be placed at an altitude exceeding 35,000 km to ensure the poles are within its field of view."
+        },
+        {
+          "id": "B",
+          "text": "The launch vehicle requires greater fuel expenditure because it cannot utilize the Earth's rotational velocity for an assist."
+        },
+        {
+          "id": "C",
+          "text": "The satellite will be restricted to observing only the polar regions and cannot map equatorial zones."
+        },
+        {
+          "id": "D",
+          "text": "The orbit will inherently match the Earth's rotational period, keeping the satellite stationary over a specific longitude."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Launching a spacecraft into a polar orbit requires more fuel because the launch vehicle cannot take advantage of the Earth's rotational speed. Equatorial launches typically launch eastward to harness this rotational boost, saving fuel.",
+      "takeaway": "Polar orbits pass over the poles and are excellent for global mapping, but they come with a fuel penalty during launch due to the lack of rotational assist from the Earth.",
+      "evidenceExcerpt": "Polar orbits pass over the North and South Poles (up to 10 degrees deviation) at altitudes of 200-1000 km, useful for weather and mapping. Launching requires more fuel as it cannot harness Earth's rotational speed.",
+      "contextLines": []
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice",
+      "prompt": "Consider the following statements comparing Medium Earth Orbit (MEO) and Geostationary Orbit (GEO):\n1. MEO is primarily utilized for navigation and GPS satellites, whereas GEO is positioned to match the Earth's rotational period.\n2. Satellites in GEO operate at a lower altitude compared to the standard operational range of MEO satellites.\nWhich of the statements given above is/are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct; MEO is ideal for navigation/GPS constellations, while GEO matches Earth's rotation to remain fixed over the equator. Statement 2 is incorrect; GEO is located at 35,786 km, which is higher than the standard operational range of MEO (2,000-36,000 km).",
+      "takeaway": "MEO (2,000-36,000 km) is the standard orbit for navigation constellations, while GEO (35,786 km) is used for satellites that need to remain fixed over a specific point on the equator.",
+      "evidenceExcerpt": "MEO (2,000-36,000 km, navigation/GPS), and GEO (35,786 km, matches Earth's rotation, flies above equator).",
+      "contextLines": []
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Multiple Choice",
+      "prompt": "The Fram2 mission, launched via SpaceX Dragon, represents a unique milestone in commercial space exploration because:",
+      "options": [
+        {
+          "id": "A",
+          "text": "It will be the first human spaceflight to navigate directly over the Earth's Polar Regions."
+        },
+        {
+          "id": "B",
+          "text": "It aims to deploy the first commercial navigation satellite constellation in Medium Earth Orbit."
+        },
+        {
+          "id": "C",
+          "text": "It is the first crewed spacecraft to operate exclusively in a Sun-synchronous orbit."
+        },
+        {
+          "id": "D",
+          "text": "It will test fuel-efficient launch mechanisms by maximizing the harness of Earth's rotational speed."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "The Fram2 mission is designed to be the first human spaceflight to cruise directly over Earth's Polar Regions, expanding the operational boundaries of crewed commercial spaceflight.",
+      "takeaway": "Commercial spaceflight is achieving new milestones, with Fram2 marking the first time a crewed mission will fly over the Earth's poles.",
+      "evidenceExcerpt": "Mission Fram2 launched via SpaceX Dragon will be the first human spaceflight over Earth's Polar Regions.",
+      "contextLines": []
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice",
+      "prompt": "The International Space Station (ISS) requires periodic resupply missions and crew rotations. Based on orbital characteristics, which of the following explains why the ISS is placed in Low Earth Orbit (LEO) rather than Medium Earth Orbit (MEO)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "LEO allows the ISS to remain stationary over a single ground control station for continuous communication."
+        },
+        {
+          "id": "B",
+          "text": "LEO operates at an altitude under 2000 km, making it significantly easier and more cost-effective to reach for frequent resupply missions."
+        },
+        {
+          "id": "C",
+          "text": "LEO is the only orbit that perfectly synchronizes with the Sun, providing uninterrupted solar power to the station."
+        },
+        {
+          "id": "D",
+          "text": "LEO avoids the Earth's gravitational pull entirely, reducing the need for orbital station-keeping maneuvers."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The ISS is hosted in LEO (under 2000 km), which is relatively close to Earth. This proximity facilitates easier and more fuel-efficient access for crew and cargo compared to higher orbits like MEO or GEO.",
+      "takeaway": "LEO's proximity to Earth (under 2000 km) makes it the practical choice for massive space stations like the ISS that require regular servicing and crew rotations.",
+      "evidenceExcerpt": "Other orbits include LEO (under 2000 km, ISS orbits here)...",
+      "contextLines": []
+    }
+  ]
+}

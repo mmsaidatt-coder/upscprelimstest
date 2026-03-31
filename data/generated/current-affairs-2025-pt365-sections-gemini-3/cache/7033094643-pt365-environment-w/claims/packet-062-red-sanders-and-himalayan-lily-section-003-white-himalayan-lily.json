@@ -1,0 +1,50 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-062-red-sanders-and-himalayan-lily-section-003-white-himalayan-lily",
+    "claimType": "Habitat/Distribution",
+    "claimText": "The White Himalayan Lily (Lilium polyphyllum) is a rare species native to the Himalayan region.",
+    "evidenceExcerpt": "Rare and fragrant lily species native to Himalayan region.",
+    "pageNumbers": [
+      132
+    ],
+    "examUse": "Statement-based question on the natural habitat of specific flora.",
+    "distractorHooks": [
+      "Native to the Western Ghats",
+      "Endemic to the Nilgiris",
+      "Native to the Andaman and Nicobar Islands"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-062-red-sanders-and-himalayan-lily-section-003-white-himalayan-lily",
+    "claimType": "Properties/Uses",
+    "claimText": "The White Himalayan Lily contains active chemical constituents like alkaloids and furocoumarins, and is used medicinally to treat conditions such as bronchitis and rheumatism.",
+    "evidenceExcerpt": "Rich in active chemical constituents like alkaloids and furocoumarins. Used for treating haematemesis, bronchitis, rheumatism, etc.",
+    "pageNumbers": [
+      132
+    ],
+    "examUse": "Statement-based question on the medicinal properties and chemical constituents of Himalayan flora.",
+    "distractorHooks": [
+      "Used primarily for timber",
+      "Lacks medicinal properties",
+      "Contains no alkaloids"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-062-red-sanders-and-himalayan-lily-section-003-white-himalayan-lily",
+    "claimType": "Conservation Status",
+    "claimText": "The IUCN conservation status of the White Himalayan Lily is Critically Endangered (CR).",
+    "evidenceExcerpt": "IUCN Status: Critically Endangered (CR).",
+    "pageNumbers": [
+      132
+    ],
+    "examUse": "Correct-pair or statement-based question matching species to their IUCN status.",
+    "distractorHooks": [
+      "Endangered (EN)",
+      "Vulnerable (VU)",
+      "Least Concern (LC)"
+    ]
+  }
+]

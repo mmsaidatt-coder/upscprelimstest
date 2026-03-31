@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Sodium-Ion Batteries (SIBs):\n1. They generally offer a higher energy density compared to conventional Lithium-ion batteries.\n2. They can be transported at zero voltage, which significantly minimizes fire risks.\n3. A recently developed indigenous SIB under the Department of Science and Technology can charge up to 80 percent in under ten minutes.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Sodium-Ion Batteries generally have a lower energy density compared to Lithium-ion batteries.\nStatement 2 is correct: SIBs have a higher safety profile because they can be transported at zero voltage (fully discharged), which reduces the risk of thermal runaway and fire.\nStatement 3 is correct: A research team under the Department of Science and Technology developed a super-fast charging SIB that charges up to 80% in six minutes and lasts over 3000 cycles.",
+      "takeaway": "Sodium-Ion Batteries trade off lower energy density for enhanced safety (zero-voltage transport) and rapid charging capabilities, making them a promising alternative to Lithium-ion batteries.",
+      "evidenceExcerpt": "A research team under the Department of Science and Technology developed a super-fast charging SIB that charges up to 80% in six minutes and lasts over 3000 cycles... They generally have lower energy density than Li-ion but offer better safety as they can be transported at zero voltage, reducing fire risks."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice",
+      "prompt": "Which of the following best describes the primary performance trade-off of Sodium-Ion Batteries (SIBs) when compared to conventional Lithium-ion batteries?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "SIBs offer enhanced safety during transport and rapid charging capabilities, but generally possess a lower energy density."
+        },
+        {
+          "id": "B",
+          "text": "SIBs provide a significantly higher energy density and longer cycle life, but require specialized high-voltage transport."
+        },
+        {
+          "id": "C",
+          "text": "SIBs utilize smaller charge carrier ions for faster charging, but suffer from a highly restricted charge cycle limit."
+        },
+        {
+          "id": "D",
+          "text": "SIBs completely eliminate fire risks by operating without an electrolyte, but can only be charged to a fraction of their capacity."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "SIBs use Na+ instead of Li+, allowing for super-fast charging (up to 80% in six minutes) and better safety (transportable at zero voltage). However, the fundamental trade-off is that they generally have a lower energy density than Lithium-ion batteries.",
+      "takeaway": "While Sodium-Ion Batteries currently lag behind Lithium-ion in overall energy density, they compensate with superior safety features, rapid charging capabilities, and a robust cycle life.",
+      "evidenceExcerpt": "A research team under the Department of Science and Technology developed a super-fast charging SIB that charges up to 80% in six minutes and lasts over 3000 cycles. SIBs use Na+ instead of Li+. They generally have lower energy density than Li-ion but offer better safety as they can be transported at zero voltage, reducing fire risks."
+    }
+  ]
+}

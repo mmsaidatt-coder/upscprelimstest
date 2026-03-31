@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Brown Dwarfs': 1. They are formed from the collapse of gas and dust clouds, similar to the formation of stars. 2. They possess sufficient mass to sustain the nuclear fusion of ordinary hydrogen in their cores. 3. They possess atmospheres that are similar to gas giants like Jupiter. 4. The occurrence of deuterium in them is a major characteristic that distinguishes them from planets. How many of the statements given above are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Brown dwarfs form like stars from collapsing gas and dust. Statement 2 is incorrect: They lack enough mass for sustained hydrogen fusion, which is why they are often called 'failed stars'. Statement 3 is correct: They have atmospheres similar to gas giants like Jupiter. Statement 4 is correct: A major difference between brown dwarfs and planets is their mass and the occurrence of deuterium (heavy hydrogen) in brown dwarfs.",
+      "takeaway": "Brown dwarfs are 'failed stars' that form from collapsing gas and dust but lack the mass for sustained hydrogen fusion. They contain deuterium, distinguishing them from planets.",
+      "evidenceExcerpt": "Brown dwarfs are celestial bodies that form like stars (from collapsing gas and dust) but lack enough mass for sustained hydrogen fusion... The major difference between brown dwarfs and planets is their mass and occurrence of deuterium...",
+      "contextLines": []
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the differences between planets and brown dwarfs, consider the following statements: 1. While planets typically form from the accretion of material in a debris disk, brown dwarfs form directly from collapsing gas and dust clouds. 2. Unlike planets, brown dwarfs contain deuterium (heavy hydrogen). Which of the statements given above is/are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Brown dwarfs form like stars (from collapsing gas and dust), unlike planets which typically form via accretion in a protoplanetary disk. Statement 2 is correct: The major difference between brown dwarfs and planets is their mass and the occurrence of deuterium (heavy hydrogen) in brown dwarfs.",
+      "takeaway": "The presence of deuterium and the star-like formation process (collapsing gas and dust) are key distinguishing features of brown dwarfs compared to planets.",
+      "evidenceExcerpt": "Brown dwarfs are celestial bodies that form like stars (from collapsing gas and dust)... The major difference between brown dwarfs and planets is their mass and occurrence of deuterium (heavy hydrogen) in brown dwarfs.",
+      "contextLines": []
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Applied",
+      "prompt": "While observing a newly discovered celestial body, astronomers note that it possesses an atmosphere similar to that of Jupiter. However, they classify it as a 'brown dwarf' rather than a gas giant planet. Based on the known characteristics of these bodies, which of the following is the primary reason for this classification?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The celestial body exhibits sustained nuclear fusion of ordinary hydrogen in its core."
+        },
+        {
+          "id": "B",
+          "text": "The celestial body contains a significant occurrence of deuterium (heavy hydrogen)."
+        },
+        {
+          "id": "C",
+          "text": "The celestial body lacks a solid rocky core, which is typically found in gas giants."
+        },
+        {
+          "id": "D",
+          "text": "The celestial body emits X-rays due to the accretion of surrounding planetary debris."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Brown dwarfs and gas giant planets can have similar atmospheres, making them difficult to distinguish visually. However, a major defining difference is that brown dwarfs contain deuterium (heavy hydrogen) and have a higher mass, whereas planets typically do not contain deuterium. Option A is incorrect because brown dwarfs lack the mass for sustained hydrogen fusion. Options C and D are not the primary distinguishing factors mentioned in the core definitions of brown dwarfs.",
+      "takeaway": "The presence of deuterium (heavy hydrogen) is a key chemical signature used by astronomers to differentiate brown dwarfs from massive gas giant planets.",
+      "evidenceExcerpt": "They are often referred to as 'failed stars' and have atmospheres similar to gas giants like Jupiter. The major difference between brown dwarfs and planets is their mass and occurrence of deuterium (heavy hydrogen) in brown dwarfs."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "statement-based",
+      "prompt": "With reference to the administrative and legal framework governing tribal areas in the Andaman and Nicobar Islands, consider the following statements:\n1. The local administration can utilize the Protection of Aboriginal Tribes Act, 1956 to unilaterally divert forest land, bypassing the consent requirements of the Forest Rights Act, 2006.\n2. The Tribal Councils in the region are vested with autonomous legislative and executive powers comparable to those in the Sixth Schedule areas.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The administration has cited the Protection of Aboriginal Tribes Act, 1956 (PAT) to bypass the Forest Rights Act, 2006 (FRA), which otherwise mandates Gram Sabha consent for forest land diversion. Statement 2 is incorrect: Tribal Councils in the Andaman and Nicobar Islands have limited advisory and executive powers, unlike the autonomous councils established under the Sixth Schedule of the Constitution.",
+      "takeaway": "The governance of tribal rights in the Andaman and Nicobar Islands features a legal conflict where the older PAT 1956 is used to circumvent the Gram Sabha consent mandated by the FRA 2006. Furthermore, local Tribal Councils lack the autonomy seen in Sixth Schedule areas.",
+      "evidenceExcerpt": "Tribal Councils in A&N Islands have limited advisory/executive powers, unlike Sixth Schedule autonomous councils. PAT 1956 allows unilateral forest land diversion, conflicting with FRA 2006's mandate for Gram Sabha consent."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "statement-based",
+      "prompt": "With reference to the Great Nicobar Island Project (GNIP) and its ecological context, consider the following statements:\n1. Galathea Bay, the proposed site for a transshipment port under the project, is a designated Ramsar Site.\n2. The bay serves as a key nesting habitat for the endangered Leatherback Sea Turtle.\n3. The project is being executed with the NITI Aayog serving as its nodal agency.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statements 1 and 2 are correct: Galathea Bay is a Ramsar Site and a crucial nesting site for the endangered Leatherback Sea Turtle. Statement 3 is incorrect: While the GNIP was conceived by the NITI Aayog, the Andaman and Nicobar Islands Integrated Development Corporation (ANIIDCO) serves as the nodal agency for its execution.",
+      "takeaway": "The Great Nicobar Island Project (GNIP) involves critical infrastructure like a transshipment port at Galathea Bay, an ecologically sensitive Ramsar Site known for Leatherback Sea Turtles. The project was conceived by NITI Aayog but is implemented by ANIIDCO.",
+      "evidenceExcerpt": "The GNIP is a massive Greenfield infrastructure project conceived by NITI Aayog, with ANIIDCO as the nodal agency. It includes a transshipment port at Galathea Bay... Galathea Bay is a Ramsar Site and nesting site for the Leatherback Sea Turtle."
+    }
+  ]
+}

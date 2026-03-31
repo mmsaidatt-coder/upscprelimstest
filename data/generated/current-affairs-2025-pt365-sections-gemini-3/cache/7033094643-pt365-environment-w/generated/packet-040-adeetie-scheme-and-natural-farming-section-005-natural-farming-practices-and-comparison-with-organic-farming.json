@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "Which of the following best describes the concept of 'Whapasa' in the context of Natural Farming?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A bio-stimulant prepared from cow dung and urine to enhance soil fertility."
+        },
+        {
+          "id": "B",
+          "text": "The practice of activating earthworms in the soil to facilitate water vapour condensation."
+        },
+        {
+          "id": "C",
+          "text": "A traditional method of deep plowing to aerate the soil before the monsoon."
+        },
+        {
+          "id": "D",
+          "text": "The application of a protective layer of dry leaves to prevent soil erosion."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Whapasa refers to activating earthworms in the soil for water vapour condensation. A bio-stimulant prepared from cow dung and urine refers to Jivamrit. The application of dry leaves refers to Mulching. Deep plowing is avoided in natural farming.",
+      "takeaway": "Whapasa is a key component of natural farming aimed at activating earthworms to aid in water vapour condensation, reducing the need for extensive irrigation.",
+      "evidenceExcerpt": "Whapasa refers to activating earthworms in the soil for water vapour condensation."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements comparing Natural Farming with Organic Farming:\n1. Organic farming permits the use of off-farm purchased inputs, whereas natural farming relies strictly on on-farm inputs.\n2. Both farming systems actively utilize vermicompost and mined minerals for soil nutrient correction.\n3. Natural farming emphasizes surface decomposition of biomass without plowing, whereas organic farming may involve conventional tillage.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Organic farming allows off-farm inputs, while natural farming relies strictly on on-farm inputs based on the Desi Cow. Statement 2 is incorrect: Natural farming does not allow the use of compost, vermicompost, or mined minerals for soil correction, unlike organic farming. Statement 3 is correct: Natural farming relies on surface decomposition rather than plowing.",
+      "takeaway": "A key distinction between Natural and Organic farming is that Natural Farming strictly avoids external inputs, including organic fertilizers like vermicompost, and relies on zero-tillage surface decomposition.",
+      "evidenceExcerpt": "Unlike Organic Farming, Natural Farming uses no external inputs, avoids compost/minerals for soil correction, and relies on surface decomposition rather than plowing."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "In the context of indigenous agricultural practices, consider the following pairs of Natural Farming components and their primary functions:\n1. Beejamrit : Seed treatment formulation\n2. Jivamrit : Bio-stimulant for soil\n3. Whapasa : Activating earthworms for moisture condensation\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "All three pairs are correctly matched. Beejamrit is used for seed treatment using cow dung, urine, and lime. Jivamrit acts as a bio-stimulant. Whapasa refers to activating earthworms in the soil for water vapour condensation.",
+      "takeaway": "Natural Farming relies on specific on-farm formulations: Beejamrit for seeds, Jivamrit for soil biology, and Whapasa for soil aeration and moisture management.",
+      "evidenceExcerpt": "Components include Beejamrit (seed treatment), Jivamrit (bio-stimulant), Mulching, and Whapasa (activating earthworms)."
+    }
+  ]
+}

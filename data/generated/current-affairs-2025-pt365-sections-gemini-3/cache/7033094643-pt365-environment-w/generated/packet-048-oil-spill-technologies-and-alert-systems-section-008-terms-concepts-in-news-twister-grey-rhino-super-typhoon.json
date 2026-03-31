@@ -1,0 +1,149 @@
+{
+  "questions": [
+    {
+      "subject": "Geography",
+      "difficulty": "Easy",
+      "questionType": "Correct-Pair",
+      "prompt": "Consider the following pairs of terms often seen in the news and their descriptions:\n\n1. Grey Rhino : A highly probable, high-impact systemic disruption that is often neglected.\n2. Twister : A violently spinning column of air formed by the collision of moist warm air and dry cold air.\n3. Super Typhoon : A tropical cyclone with maximum wind speed exceeding 185 kph.\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "All three pairs are correctly matched. A Grey Rhino is a highly probable, high-impact but neglected event. A Twister forms when moist, warm air collides with dry, cold air. A Super Typhoon is a tropical cyclone with maximum wind speeds exceeding 185 kph (or 100 knots).",
+      "takeaway": "Grey Rhino events are predictable and probable but ignored, unlike Black Swan events which are unpredictable. Twisters require the collision of contrasting air masses (warm/moist and cold/dry).",
+      "evidenceExcerpt": "TWISTER: Violently spinning (250 Miles/Hr), funnel-shaped columns of air stretching from dark thunderclouds to ground... Develop when moist and warm air collides with dry and cold air... GREY RHINO EVENT: Defined as highly probable, high impact but yet neglected systemic disruptions... SUPER TYPHOON: Tropical cyclone with maximum wind speed exceeding 185 kph or more than 100 knots."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to disaster management terminology, consider the following statements:\n\n1. A 'Grey Rhino' event is characterized by its low probability of occurrence but extremely high impact.\n2. A 'Black Swan' event is considered a random surprise that is inherently difficult to predict.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: A 'Grey Rhino' event is defined as a highly probable, high-impact threat that is often neglected, not a low-probability event. Statement 2 is correct: The text contrasts Grey Rhinos with Black Swan events, noting that the latter are unpredictable 'random surprises.'",
+      "takeaway": "While both Black Swan and Grey Rhino events have high impacts, Grey Rhinos are highly probable and predictable but neglected, whereas Black Swans are unpredictable random surprises.",
+      "evidenceExcerpt": "GREY RHINO EVENT: Defined as highly probable, high impact but yet neglected systemic disruptions. These are not random surprises (like Black Swan events)..."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Twisters':\n\n1. They are funnel-shaped columns of air that stretch from dark thunderclouds to the ground.\n2. They typically develop when a dry and warm air mass collides with a moist and cold air mass.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Twisters are violently spinning, funnel-shaped columns of air stretching from dark thunderclouds to the ground. Statement 2 is incorrect: They develop when moist and warm air collides with dry and cold air, not dry/warm and moist/cold.",
+      "takeaway": "The formation of a twister requires atmospheric instability, which is typically triggered when moist, warm air collides with dry, cold air.",
+      "evidenceExcerpt": "TWISTER: Violently spinning (250 Miles/Hr), funnel-shaped columns of air stretching from dark thunderclouds to ground... Develop when moist and warm air collides with dry and cold air..."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Application",
+      "prompt": "In the context of risk assessment and disaster management, which of the following situations best describes a 'Grey Rhino' event?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "An unprecedented and unpredictable technological failure causing a global financial crash."
+        },
+        {
+          "id": "B",
+          "text": "A well-documented, highly probable threat of a severe pandemic that policymakers largely ignore until it strikes."
+        },
+        {
+          "id": "C",
+          "text": "A localized, low-impact weather anomaly that occurs frequently during the monsoon season."
+        },
+        {
+          "id": "D",
+          "text": "A sudden volcanic eruption in a region that has been geologically inactive for millions of years."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A 'Grey Rhino' event is defined as a highly probable, high-impact systemic disruption that is neglected. Option B perfectly fits this description. Options A and D represent unpredictable 'Black Swan' events, while Option C describes a low-impact, routine event.",
+      "takeaway": "Grey Rhino events are highly probable, high-impact systemic disruptions that are neglected, distinguishing them from unpredictable Black Swan events.",
+      "evidenceExcerpt": "GREY RHINO EVENT: Defined as highly probable, high impact but yet neglected systemic disruptions. These are not random surprises (like Black Swan events)..."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "In meteorological classification, which of the following criteria is used to categorize a tropical cyclone specifically as a 'Super Typhoon'?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The storm system must originate in the extra-tropical regions and possess a cold core."
+        },
+        {
+          "id": "B",
+          "text": "The storm must produce a violently spinning funnel-shaped column of air over land."
+        },
+        {
+          "id": "C",
+          "text": "The maximum sustained wind speed of the cyclone must exceed 185 kilometers per hour."
+        },
+        {
+          "id": "D",
+          "text": "The cyclone must result from the collision of moist, warm air with dry, cold air over the ocean."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "A Super Typhoon is defined as a tropical cyclone with a maximum wind speed exceeding 185 kph (or more than 100 knots). Options B and D describe characteristics of a Twister.",
+      "takeaway": "A tropical cyclone is classified as a Super Typhoon when its maximum wind speed exceeds 185 kph or 100 knots.",
+      "evidenceExcerpt": "SUPER TYPHOON: Tropical cyclone with maximum wind speed exceeding 185 kph or more than 100 knots."
+    }
+  ]
+}

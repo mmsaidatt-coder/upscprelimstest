@@ -1,0 +1,178 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Chimeric Antigen Receptor T-cell (CAR-T) Therapy:\n1. It involves extracting and genetically modifying a patient's own T-cells to recognize and destroy cancer cells.\n2. It has been approved by the Central Drugs Standard Control Organisation (CDSCO) for the treatment of blood cancer.\n3. 'Antigen Escape', a major limitation of this therapy, occurs when the patient's immune system attacks and destroys the infused CAR-T cells.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: CAR-T therapy involves collecting a patient's own T-cells and genetically modifying them in a lab to add a Chimeric Antigen Receptor (CAR) to attack cancer cells.\nStatement 2 is correct: The CDSCO has approved Qartemi, a CAR T-cell therapy, specifically for treating blood cancer.\nStatement 3 is incorrect: 'Antigen Escape' does not refer to the immune system attacking the infused cells; rather, it is a phenomenon where the targeted tumors lose their specific antigens, allowing them to evade the modified T-cells.",
+      "takeaway": "CAR-T therapy is a personalized 'living drug' for blood cancer, but it faces challenges like Cytokine Release Syndrome and Antigen Escape (where tumors lose the antigens targeted by the therapy).",
+      "evidenceExcerpt": "CAR-T therapy involves collecting a patient's T cells, genetically modifying them in a lab to add a Chimeric Antigen Receptor (CAR), and infusing them back to attack cancer cells... CDSCO approved Qartemi, a CAR T-cell therapy for treating blood cancer... Challenges include Cytokine Release Syndrome (a systemic inflammatory response) and Antigen Escape (tumors lose targeted antigens)."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Assertion-Reason",
+      "prompt": "Given below are two statements, one labelled as Assertion (A) and the other as Reason (R):\n\nAssertion (A): CAR-T cell therapy can sometimes fail to provide long-term remission due to a phenomenon known as 'Antigen Escape'.\nReason (R): In Antigen Escape, the patient's body develops an autoimmune response against the genetically modified T-cells, leading to their rapid clearance.\n\nIn the context of the above two statements, which one of the following is correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both A and R are correct and R is the correct explanation of A"
+        },
+        {
+          "id": "B",
+          "text": "Both A and R are correct but R is not the correct explanation of A"
+        },
+        {
+          "id": "C",
+          "text": "A is correct but R is not correct"
+        },
+        {
+          "id": "D",
+          "text": "A is not correct but R is correct"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Assertion (A) is correct: Antigen Escape is a recognized challenge and limitation of CAR-T cell therapy that can allow cancer to evade treatment.\nReason (R) is incorrect: Antigen Escape refers to the tumor cells losing the specific targeted antigens, making them 'invisible' to the CAR-T cells. It is not an autoimmune response against the modified T-cells.",
+      "takeaway": "Antigen Escape is a tumor-driven evasion mechanism where cancer cells shed or mutate the surface proteins (antigens) that the CAR-T cells are engineered to target.",
+      "evidenceExcerpt": "Challenges include Cytokine Release Syndrome (a systemic inflammatory response) and Antigen Escape (tumors lose targeted antigens)."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "CAR-T cell therapy is frequently described as a 'living drug' in the context of cancer treatment. Which of the following best explains this characterization?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The therapy utilizes live attenuated viruses to continuously stimulate the patient's immune system against solid tumors."
+        },
+        {
+          "id": "B",
+          "text": "The treatment involves infusing genetically engineered living T-cells that actively recognize and attack cancer cells."
+        },
+        {
+          "id": "C",
+          "text": "The therapy relies on the continuous administration of biological enzymes extracted from living organisms."
+        },
+        {
+          "id": "D",
+          "text": "The treatment uses living stem cells derived from a healthy donor to replace the patient's cancerous bone marrow."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "CAR-T therapy is called a 'living drug' because it uses the patient's own living T-cells, which are genetically modified outside the body and then infused back into the patient to actively hunt and destroy cancer cells.",
+      "takeaway": "Unlike traditional chemical drugs, CAR-T therapy uses living, genetically modified immune cells to provide personalized, targeted treatment with the potential for long-term remission.",
+      "evidenceExcerpt": "CAR-T therapy involves collecting a patient's T cells, genetically modifying them in a lab to add a Chimeric Antigen Receptor (CAR), and infusing them back to attack cancer cells. It is a living drug offering long-term remission and personalized treatment."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements comparing Chimeric Antigen Receptor T-cell (CAR-T) therapy with traditional cancer treatments: 1. Unlike traditional chemotherapy that introduces synthetic chemicals to kill cancer cells, CAR-T therapy utilizes the patient's own genetically modified immune cells. 2. While traditional cancer treatments often require prolonged and continuous administration, CAR-T therapy is characterized by a relatively short treatment duration. 3. CAR-T therapy is primarily approved for the treatment of solid tumors, whereas traditional chemotherapy is restricted to blood cancers. How many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: CAR-T therapy involves genetically modifying the patient's own T-cells to attack cancer cells, unlike traditional chemotherapy which relies on chemical agents. Statement 2 is correct: CAR-T therapy has a short treatment duration of approximately 45 days and offers long-term remission. Statement 3 is incorrect: CAR-T therapies like Qartemi have been approved specifically for treating blood cancer, not solid tumors.",
+      "takeaway": "CAR-T therapy is a personalized 'living drug' with a short treatment duration (approx. 45 days) that offers long-term remission, currently approved for blood cancers.",
+      "evidenceExcerpt": "Patient's own T cells are genetically modified with CAR to recognize and attack cancer cells. Advantages include long-term remission, personalized treatment, and short treatment duration of approximately 45 days. CDSCO approved Qartemi, a CAR T-cell therapy for treating blood cancer."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Conceptual",
+      "prompt": "'Cytokine Release Syndrome' is frequently mentioned as a major challenge in the context of Chimeric Antigen Receptor T-cell (CAR-T) therapy. Which of the following best describes this condition?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A phenomenon where the patient's body produces antibodies that neutralize and destroy the infused CAR-T cells."
+        },
+        {
+          "id": "B",
+          "text": "A systemic inflammatory response triggered by the massive activation of immune cells during the treatment."
+        },
+        {
+          "id": "C",
+          "text": "A mechanism by which tumor cells shed their surface proteins to evade detection by the modified T-cells."
+        },
+        {
+          "id": "D",
+          "text": "An autoimmune reaction caused by the genetic modification of the patient's stem cells instead of T-cells."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Cytokine Release Syndrome (CRS) is a systemic inflammatory response that occurs as a severe adverse effect of CAR-T therapy when the modified immune cells are highly activated. Option C describes 'Antigen Escape', another distinct challenge where tumors lose targeted antigens.",
+      "takeaway": "While CAR-T therapy offers significant advantages, it poses severe challenges such as Cytokine Release Syndrome (a systemic inflammatory response) and Antigen Escape.",
+      "evidenceExcerpt": "Challenges include Cytokine Release Syndrome (a systemic inflammatory response) and Antigen Escape (tumors lose targeted antigens)."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of terms often seen in the news and their primary context: 1. Qartemi : A newly discovered targeted antigen for solid tumors 2. Antigen Escape : A mechanism by which cancer cells evade genetically modified immune cells 3. Cytokine Release Syndrome : A systemic inflammatory response associated with immunotherapy How many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is incorrect: Qartemi is a CAR-T cell therapy approved by CDSCO for treating blood cancer, not an antigen for solid tumors. Pair 2 is correct: Antigen Escape occurs when tumors lose targeted antigens, evading the therapy. Pair 3 is correct: Cytokine Release Syndrome is a systemic inflammatory response that poses a challenge during CAR-T therapy.",
+      "takeaway": "Qartemi is a CAR-T therapy for blood cancer. Major challenges of this therapy include Antigen Escape and Cytokine Release Syndrome.",
+      "evidenceExcerpt": "CDSCO approved Qartemi, a CAR T-cell therapy for treating blood cancer. Challenges include Cytokine Release Syndrome (a systemic inflammatory response) and Antigen Escape (tumors lose targeted antigens)."
+    }
+  ]
+}

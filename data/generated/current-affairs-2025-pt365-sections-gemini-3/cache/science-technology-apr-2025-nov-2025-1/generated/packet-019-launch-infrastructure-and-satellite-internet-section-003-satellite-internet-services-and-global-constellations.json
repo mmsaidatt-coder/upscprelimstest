@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of prominent satellite internet projects and their associated entities/countries:\n\n1. Project Kuiper : Amazon\n2. OneWeb : Eutelsat\n3. Qianfan constellation : China\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Project Kuiper is a satellite internet initiative by Amazon. OneWeb is operated by the French satellite operator Eutelsat. The Qianfan constellation is a planned Chinese low-Earth orbit satellite internet megaconstellation. Therefore, all three pairs are correctly matched.",
+      "takeaway": "Several global players are developing satellite internet megaconstellations, including Amazon (Project Kuiper), SpaceX (Starlink), Eutelsat (OneWeb), and China (Qianfan).",
+      "evidenceExcerpt": "Various prominent Satellite Internet projects: Project Kuiper: by Amazon, Starlink: Launched by SpaceX, OneWeb: By French satellite operator Eutelsat, Qianfan constellation: Planned Chinese low-Earth orbit satellite internet megaconstellation."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the infrastructure of Satellite Internet Services:\n\n1. It operates exclusively through space-based satellite constellations without requiring ground-based infrastructure.\n2. It requires a ground segment that includes satellite measurement and control networks as well as gateway stations.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect because satellite internet infrastructure does not operate exclusively in space; it requires a ground segment to route data. Statement 2 is correct as the ground segment includes satellite measurement and control networks, gateway stations, and other necessary terrestrial infrastructure.",
+      "takeaway": "Satellite internet infrastructure is a combination of a Space Segment (the satellite constellation) and a Ground Segment (gateway stations and control networks).",
+      "evidenceExcerpt": "Infrastructure: Generally includes three segments: Space Segment: It is mainly a constellation system... Ground segment: Includes satellite measurement and control networks, gateway stations, etc."
+    }
+  ]
+}

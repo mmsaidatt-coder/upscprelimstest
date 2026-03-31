@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Paragraph-based",
+      "prompt": "Consider the following paragraph:\n\nIt is an endangered carnivore resembling a small wolf. In India, its habitat is highly diverse, ranging from the Eastern and Western Ghats to the high-altitude regions of Ladakh. It primarily hunts during the early morning or late evening. Recently, it has made a notable comeback in the Kaziranga-Karbi Anglong Landscape.\n\nWhich one of the following species is best described by the passage given above?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Indian Wolf"
+        },
+        {
+          "id": "B",
+          "text": "Golden Jackal"
+        },
+        {
+          "id": "C",
+          "text": "Dhole"
+        },
+        {
+          "id": "D",
+          "text": "Striped Hyena"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The passage describes the Dhole (Asiatic Wild Dog).\n- It is an endangered carnivore that resembles a small wolf and exhibits crepuscular hunting behavior (hunting mainly in the early morning or late evening).\n- Its habitat in India is widespread, including the Eastern and Western Ghats, Assam, Meghalaya, West Bengal, and Ladakh.\n- It has recently made a comeback in Assam's Kaziranga-Karbi Anglong Landscape.",
+      "takeaway": "The Dhole is a highly adaptable, endangered carnivore found across diverse Indian landscapes, from the Ghats to Ladakh, and is known for its crepuscular hunting behavior.",
+      "evidenceExcerpt": "Dhole has made a comeback in Assam's Kaziranga-Karbi Anglong Landscape. It inhabits Eastern & Western Ghats, Assam, Meghalaya, West Bengal, Ladakh, etc. It is a carnivore resembling a small wolf, hunting mainly in the early morning or late evening.",
+      "qualityScore": 90,
+      "reviewNotes": "Classic UPSC paragraph-based species identification question. The distractors are all plausible Indian canids/hyenas, making the candidate rely on specific clues like the Kaziranga comeback and crepuscular hunting."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Dhole (Asiatic Wild Dog), consider the following statements:\n1. It is naturally found only in the Indian subcontinent.\n2. It is protected under Schedule I of the Wildlife (Protection) Act, 1972.\n3. It is listed in Appendix I of the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES).\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect: The Dhole is not endemic to the Indian subcontinent. Its habitat extends to several Southeast Asian countries, including Cambodia and Thailand.\nStatement 2 is correct: In India, the Dhole is highly protected and is listed under Schedule I of the Wildlife (Protection) Act, 1972.\nStatement 3 is incorrect: The Dhole is listed in Appendix II of CITES, not Appendix I. It is also classified as 'Endangered' on the IUCN Red List.",
+      "takeaway": "The Dhole is an endangered canid found across South and Southeast Asia. It receives the highest level of protection in India under WPA Schedule I, while its international trade is regulated under CITES Appendix II.",
+      "evidenceExcerpt": "Habitat includes Eastern & Western Ghats, Assam, Meghalaya, West Bengal, Ladakh, and countries like Cambodia, Nepal, Bhutan, Thailand... Conservation Status: WPA Schedule I, CITES Appendix II, IUCN Endangered.",
+      "qualityScore": 85,
+      "reviewNotes": "Uses the contemporary 'How many statements' format. Tests a mix of geographical distribution and specific conservation statuses, which is a staple in UPSC Prelims."
+    }
+  ],
+  "reviewerNotes": "Selected two questions that test different aspects of the Dhole. The first question uses the recent 'How many statements' format to test the geographical distribution and conservation status (WPA, CITES). The second question uses the classic paragraph-based species identification format, testing behavioral and habitat characteristics. Both are highly relevant for the UPSC Prelims Environment section."
+}

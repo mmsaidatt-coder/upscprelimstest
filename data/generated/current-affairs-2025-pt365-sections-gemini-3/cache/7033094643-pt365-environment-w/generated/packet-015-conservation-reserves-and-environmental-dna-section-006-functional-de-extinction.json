@@ -1,0 +1,149 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to 'Functional De-extinction', consider the following statements: 1. It aims to create exact genetic replicas of extinct species by extracting intact DNA from fossils. 2. Its primary objective is to revive the ecological roles and traits of extinct species in modern ecosystems. 3. CRISPR gene editing and genome mapping are among the key techniques used in this process. How many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Functional de-extinction focuses on reviving ecological roles and traits rather than creating exact genetic replicas of extinct species. Statements 2 and 3 are correct: The primary goal is to restore lost ecological functions, and it utilizes advanced biotechnology techniques such as CRISPR gene editing, cloning, and genome mapping.",
+      "takeaway": "Functional de-extinction creates proxy organisms that resemble extinct species to restore lost ecological functions, rather than perfect genetic clones.",
+      "evidenceExcerpt": "Functional de-extinction focuses on reviving the ecological roles and traits of extinct species rather than creating exact replicas. Revived organisms are not exact replicas but genetically engineered to closely resemble extinct species... Techniques used: CRISPR gene editing, cloning, and genome mapping."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding recent developments in 'Functional De-extinction': 1. The world's first successful functional de-extinction involved engineering grey wolf pups to carry traits of the extinct dire wolf. 2. The revived organisms in functional de-extinction are exact genetic replicas of the extinct species. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Colossal Biosciences engineered grey wolf pups with dire wolf traits, marking the first successful functional de-extinction. Statement 2 is incorrect: The revived organisms are not exact replicas but are genetically engineered to closely resemble the extinct species and fulfill their ecological roles.",
+      "takeaway": "Recent biotech advancements have moved de-extinction from theory to practice, using proxy species (like the grey wolf) to carry the traits of extinct relatives (like the dire wolf).",
+      "evidenceExcerpt": "A US biotech company, Colossal Biosciences, claims to have genetically engineered three grey wolf pups to carry traits of the extinct dire wolf, calling it world's first successful functional de-extinction... Revived organisms are not exact replicas but genetically engineered to closely resemble extinct species."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Multiple Choice",
+      "prompt": "Consider the following extinct species: 1. Wooly mammoth 2. Moa 3. Thylacine 4. Dodo. How many of the above are currently planned candidates for functional de-extinction initiatives?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "All four species listed are planned candidates for functional de-extinction. Biotechnology companies are targeting these specific iconic extinct species to restore their historical ecological roles using techniques like CRISPR and genome mapping.",
+      "takeaway": "Several iconic extinct species, including the wooly mammoth, moa, thylacine, and dodo, are targeted for functional de-extinction to restore lost biodiversity functions.",
+      "evidenceExcerpt": "Other planned candidates for functional de-extinction include the wooly mammoth, moa, thylacine, and dodo."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "Which of the following best describes the underlying mechanism and primary objective of 'Functional De-extinction'?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Extracting intact DNA from permafrost fossils to clone exact genetic replicas of extinct apex predators."
+        },
+        {
+          "id": "B",
+          "text": "Genetically engineering modern proxy species to express specific traits of extinct organisms to restore lost ecological functions."
+        },
+        {
+          "id": "C",
+          "text": "Selectively breeding closely related extant species over multiple generations to recreate the physical appearance of extinct species."
+        },
+        {
+          "id": "D",
+          "text": "Introducing non-native extant species into a degraded habitat to artificially mimic the ecological niche of a recently extinct species."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Functional de-extinction focuses on reviving the ecological roles and traits of extinct species rather than creating exact genetic replicas. It involves genetically engineering living species (proxy species) to closely resemble and function like extinct species. Option A refers to traditional de-extinction concepts. Option C refers to back-breeding. Option D refers to taxon substitution.",
+      "takeaway": "Functional de-extinction prioritizes ecological restoration over genetic purity, using tools like CRISPR to engineer proxy species to fill vacant ecological niches.",
+      "evidenceExcerpt": "It focuses on reviving ecological roles and traits of extinct species. Revived organisms are not exact replicas but genetically engineered to closely resemble extinct species..."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Concept-Identification",
+      "prompt": "In the context of biodiversity conservation, a biotech company recently engineered living grey wolf pups to carry traits of the extinct dire wolf. This approach, which uses techniques like CRISPR and genome mapping to make a living species closely resemble an extinct one, is an example of:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Back breeding"
+        },
+        {
+          "id": "B",
+          "text": "Taxon substitution"
+        },
+        {
+          "id": "C",
+          "text": "Functional de-extinction"
+        },
+        {
+          "id": "D",
+          "text": "Epigenetic reprogramming"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The scenario describes functional de-extinction, where a living species is engineered to carry the traits and fulfill the ecological role of an extinct species. Back breeding involves selective mating over generations. Taxon substitution involves introducing an existing species to fill a vacant niche. Epigenetic reprogramming alters gene expression without changing the DNA sequence, whereas functional de-extinction involves direct gene editing.",
+      "takeaway": "Functional de-extinction uses advanced biotechnology (CRISPR, cloning, genome mapping) to engineer proxy species, distinguishing it from traditional ecological or breeding methods.",
+      "evidenceExcerpt": "A US biotech company, Colossal Biosciences, claims to have genetically engineered three grey wolf pups to carry traits of the extinct dire wolf, calling it world's first successful functional de-extinction... Techniques used: CRISPR gene editing, cloning, and genome mapping."
+    }
+  ]
+}

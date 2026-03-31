@@ -1,0 +1,63 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-002-gm-crops-and-regulatory-framework-section-004-site-directed-nuclease-sdn-technology",
+    "claimType": "Conceptual",
+    "claimText": "SDN-1 technology involves site-directed mutagenesis without the use of a DNA sequence template.",
+    "evidenceExcerpt": "SDN-1 involves site-directed mutagenesis without a DNA sequence template.",
+    "pageNumbers": [
+      7
+    ],
+    "examUse": "Statement-based question distinguishing between different types of Site Directed Nuclease technologies.",
+    "distractorHooks": [
+      "Uses a DNA template",
+      "Involves insertion of large foreign DNA sequences"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-002-gm-crops-and-regulatory-framework-section-004-site-directed-nuclease-sdn-technology",
+    "claimType": "Conceptual",
+    "claimText": "SDN-2 technology utilizes a DNA sequence template to perform site-directed mutagenesis.",
+    "evidenceExcerpt": "SDN-2 uses a DNA sequence template for mutagenesis.",
+    "pageNumbers": [
+      7
+    ],
+    "examUse": "Correct-pair question matching SDN types to their specific mechanisms.",
+    "distractorHooks": [
+      "Does not use a template",
+      "Inserts large foreign DNA sequences"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-002-gm-crops-and-regulatory-framework-section-004-site-directed-nuclease-sdn-technology",
+    "claimType": "Conceptual",
+    "claimText": "SDN-3 technology involves the insertion of a gene or a large DNA sequence using a template.",
+    "evidenceExcerpt": "SDN-3 involves the insertion of a gene or large DNA sequence using a template.",
+    "pageNumbers": [
+      7
+    ],
+    "examUse": "Statement-based question on genetic engineering techniques and their definitions.",
+    "distractorHooks": [
+      "Mutagenesis without a template",
+      "Approved in India for general crops"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-002-gm-crops-and-regulatory-framework-section-004-site-directed-nuclease-sdn-technology",
+    "claimType": "Factual",
+    "claimText": "India's biosafety regulations have approved genome editing of SDN-1 and SDN-2 types for general crops.",
+    "evidenceExcerpt": "India's biosafety regulations have approved genome editing of SDN-1 and SDN-2 types for general crops.",
+    "pageNumbers": [
+      7
+    ],
+    "examUse": "Statement-based question on India's regulatory framework for genetically modified and genome-edited crops.",
+    "distractorHooks": [
+      "SDN-3 is approved for general crops",
+      "SDN-1 and SDN-2 are banned in India",
+      "Only SDN-1 is approved"
+    ]
+  }
+]

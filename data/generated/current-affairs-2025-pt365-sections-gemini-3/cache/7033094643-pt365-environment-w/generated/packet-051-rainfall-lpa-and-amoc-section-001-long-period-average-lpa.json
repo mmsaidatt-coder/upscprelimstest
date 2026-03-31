@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Long-Period Average (LPA) of rainfall:\n1. It is the average rainfall recorded over a specific region, typically calculated over a period of 30 to 50 years.\n2. The India Meteorological Department (IMD) currently uses the rainfall data from the period 1971 to 2020 as the baseline for calculating the LPA.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Both statements are correct. The Long-Period Average (LPA) refers to the average rainfall recorded over a specific region during a defined time interval, usually 30-50 years. The IMD currently uses rainfall data from 1971 to 2020 to calculate the LPA.",
+      "takeaway": "The LPA acts as a benchmark to measure quantitative rainfall deviations. The IMD periodically updates the baseline to reflect changing climatic conditions, currently utilizing the 1971-2020 period.",
+      "evidenceExcerpt": "Concept: It refers to the average rainfall recorded over a specific region during a defined time interval. Period: It is calculated over a long period, usually 30-50 years, with the IMD currently using rainfall data from 1971 to 2020."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs regarding the categorization of rainfall by the India Meteorological Department (IMD):\n\nRainfall Category : Percentage of Long-Period Average (LPA)\n1. Deficient : Less than 90%\n2. Normal : 96% to 104%\n3. Above Normal : 105% to 110%\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "All three pairs are correctly matched. According to the IMD, 'Deficient' rainfall is less than 90% of the LPA, 'Normal' rainfall is between 96% and 104%, and 'Above Normal' rainfall is between 105% and 110%.",
+      "takeaway": "The IMD categorizes monsoon performance into specific statistical bands based on the LPA to clearly communicate agricultural and hydrological risks, such as drought-like conditions when rainfall is deficient (<90%).",
+      "evidenceExcerpt": "Deficient: < 90% | Meaning: Drought-like conditions... Normal: 96% – 104% | Meaning: Ideal, expected rainfall... Above Normal rainfall is 105% to 110% of the LPA."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Long-Period Average (LPA) of rainfall in India, consider the following statements:\n1. The current LPA of rainfall, based on the 1971-2020 data, is 87 cm.\n2. A rainfall realization of 92% of the LPA is classified as 'Deficient' and indicates drought-like conditions.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct; the current LPA based on the 1971-2020 period is 87 cm. Statement 2 is incorrect; the IMD defines 'Deficient' rainfall as less than 90% of the LPA. Therefore, a realization of 92% does not fall into the 'Deficient' category.",
+      "takeaway": "Understanding the exact percentage thresholds used by the IMD is crucial. Deficient rainfall, which triggers drought-like condition warnings, strictly means rainfall below 90% of the 87 cm LPA baseline.",
+      "evidenceExcerpt": "The India Meteorological Department (IMD) has forecast ‘above normal’ rainfall — 105% of the long-period average (LPA) of 87 cm (1971-2020)... Deficient: < 90% | Meaning: Drought-like conditions."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Long-Period Average (LPA) used by the India Meteorological Department (IMD):\n1. The current LPA baseline is derived from a 50-year rainfall record.\n2. A rainfall realization of 106% of the LPA falls under the 'Above Normal' category.\n3. Any rainfall realization less than 96% of the LPA is classified as 'Deficient'.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The IMD currently uses rainfall data from the period 1971 to 2020 to calculate the LPA, which constitutes a 50-year record. Statement 2 is correct: The IMD categorizes 'Above Normal' rainfall as 105% to 110% of the LPA. Statement 3 is incorrect: 'Deficient' rainfall is defined as less than 90% of the LPA, not less than 96%. Rainfall between 96% and 104% is considered 'Normal'.",
+      "takeaway": "The LPA is calculated over a 30-50 year period (currently 1971-2020). Normal rainfall is 96-104% of the LPA, Above Normal is 105-110%, and Deficient is less than 90%.",
+      "evidenceExcerpt": "The India Meteorological Department (IMD) has forecast ‘above normal’ rainfall — 105% of the long-period average (LPA) of 87 cm (1971-2020)... Period: It is calculated over a long period, usually 30-50 years... Deficient: < 90% | Meaning: Drought-like conditions... Normal: 96% – 104%... Above Normal rainfall is 105% to 110% of the LPA."
+    }
+  ]
+}

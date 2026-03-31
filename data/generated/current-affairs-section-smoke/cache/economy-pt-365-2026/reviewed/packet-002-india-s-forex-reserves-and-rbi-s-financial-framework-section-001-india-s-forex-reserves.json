@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Applied",
+      "prompt": "The strategy of holding a significant portion of forex reserves in gold entails specific risks. In which of the following hypothetical scenarios would the disadvantages of this strategy be most pronounced for a central bank?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A period of sustained global stagflation, characterized by high inflation and low economic growth."
+        },
+        {
+          "id": "B",
+          "text": "A sudden, acute balance of payments crisis requiring immediate and large-scale intervention in the currency market."
+        },
+        {
+          "id": "C",
+          "text": "A coordinated devaluation of major reserve currencies against gold by leading central banks."
+        },
+        {
+          "id": "D",
+          "text": "A long-term trend of increasing geopolitical uncertainty driving investors towards safe-haven assets."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The source text highlights 'reduced liquidity' as a key risk of holding gold. During a sudden balance of payments crisis, a central bank needs to sell its reserves quickly (i.e., requires high liquidity) to defend its currency. The lower liquidity of gold compared to Foreign Currency Assets (like US Treasury bills) would be a significant disadvantage in such a scenario. In contrast, stagflation (A), geopolitical uncertainty (D), and currency devaluations against gold (C) are typically scenarios where gold's safe-haven and inflation-hedging properties are advantageous.",
+      "takeaway": "The suitability of a reserve asset depends on the specific economic conditions. While gold is a good store of value and hedge, its lower liquidity makes it less ideal for immediate crisis intervention compared to foreign currency assets.",
+      "evidenceExcerpt": "However, holding gold involves risks like reduced liquidity, zero yield, and high storage costs.",
+      "qualityScore": 90,
+      "reviewNotes": "This is an excellent application-based question. It requires the candidate to apply their knowledge of gold's properties to different macroeconomic scenarios, a hallmark of higher-order thinking tested by UPSC. The options are very well-designed, as three of them represent situations where holding gold would actually be beneficial."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "Which of the following best describes the primary financial trade-off for a central bank when it decides to increase the share of gold in its foreign exchange reserves relative to its Foreign Currency Assets (FCA)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Gaining a hedge against inflation while forgoing potential interest income and accepting lower liquidity."
+        },
+        {
+          "id": "B",
+          "text": "Increasing direct control over reserve assets while exposing the reserves to higher sovereign credit risk."
+        },
+        {
+          "id": "C",
+          "text": "Enhancing the portfolio's overall returns through speculative gains while accepting higher price volatility than currencies."
+        },
+        {
+          "id": "D",
+          "text": "Simplifying the management of reserves while reducing the overall diversification of the asset portfolio."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "The core trade-off involves exchanging the characteristics of Foreign Currency Assets (which typically earn interest and are highly liquid) for the characteristics of gold. The source states that gold serves as a hedge against inflation but has zero yield and reduced liquidity. Therefore, increasing gold holdings means sacrificing the regular income and immediate usability of FCAs for long-term value protection against inflation.",
+      "takeaway": "Central bank reserve management involves balancing the competing objectives of safety, liquidity, and return. Gold and foreign currency assets serve different strategic purposes within this framework, and their relative shares reflect the central bank's priorities and risk assessment.",
+      "evidenceExcerpt": "The RBI is increasing gold reserves for diversification... and as a hedge against inflation. However, holding gold involves risks like reduced liquidity, zero yield, and high storage costs.",
+      "qualityScore": 85,
+      "reviewNotes": "This is a strong conceptual question that accurately captures the trade-offs in reserve management. The options are well-constructed, with plausible distractors that test a clear understanding of the properties of different reserve assets. The wording is precise and aligns with UPSC standards."
+    }
+  ],
+  "reviewerNotes": "The selected set of three questions provides excellent coverage of the topic 'India's Forex Reserves'. The set includes a moderate conceptual question on trade-offs, a hard application-based question on risks in a crisis scenario, and an easy factual question on the components of the reserves. This mix of difficulty and question types is ideal. The first two candidate questions were of exceptional quality and were accepted without changes. A third question was drafted to test the fundamental knowledge of the components of forex reserves, rounding out the set."
+}

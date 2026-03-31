@@ -1,0 +1,70 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-018-global-missions-and-propulsion-systems-section-002-cryogenic-engine-technology",
+    "claimType": "Factual",
+    "claimText": "The CE20 is India's largest cryogenic engine, which powers the LVM3 upper stage and is qualified for the Gaganyaan missions.",
+    "evidenceExcerpt": "CE20 is India's largest cryogenic engine, qualified for Gaganyaan missions and powers the LVM3 upper stage.",
+    "pageNumbers": [
+      37,
+      38
+    ],
+    "examUse": "Statement-based question regarding the specifications and applications of the CE20 engine in India's space program.",
+    "distractorHooks": [
+      "CE20 is a semi-cryogenic engine",
+      "CE20 powers the lower stage of the PSLV",
+      "CE20 is not yet qualified for human spaceflight missions"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-018-global-missions-and-propulsion-systems-section-002-cryogenic-engine-technology",
+    "claimType": "Conceptual",
+    "claimText": "Cryogenic engines utilize both liquefied fuel and oxidizer at very low temperatures and are typically employed in the upper or last stage of a rocket.",
+    "evidenceExcerpt": "Cryogenic engines use liquefied fuel and oxidizer at very low temperatures, typically in the upper stage of a rocket.",
+    "pageNumbers": [
+      37,
+      38
+    ],
+    "examUse": "Statement-based question on the functioning and placement of cryogenic engines in launch vehicles.",
+    "distractorHooks": [
+      "Cryogenic engines are primarily used in the first stage of a rocket",
+      "Cryogenic engines use solid propellants",
+      "Cryogenic engines operate at extremely high temperatures before combustion"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-018-global-missions-and-propulsion-systems-section-002-cryogenic-engine-technology",
+    "claimType": "Conceptual",
+    "claimText": "Semi-cryogenic engines operate using a cryogenic oxidizer, such as Liquid Oxygen, combined with a hydrocarbon-based fuel, such as kerosene.",
+    "evidenceExcerpt": "Semi-cryogenic engines use a cryogenic oxidizer (like Liquid Oxygen) combined with a hydrocarbon fuel (like kerosene).",
+    "pageNumbers": [
+      37,
+      38
+    ],
+    "examUse": "Comparison question distinguishing between cryogenic and semi-cryogenic engine propellant compositions.",
+    "distractorHooks": [
+      "Semi-cryogenic engines use liquid hydrogen and liquid oxygen",
+      "Semi-cryogenic engines use a solid oxidizer with a cryogenic fuel",
+      "Semi-cryogenic engines do not use hydrocarbon fuels"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-018-global-missions-and-propulsion-systems-section-002-cryogenic-engine-technology",
+    "claimType": "Factual",
+    "claimText": "Hydrogen-oxygen combustion in cryogenic engines is considered eco-friendly because it emits only steam.",
+    "evidenceExcerpt": "Hydrogen-oxygen combustion in cryogenic engines is eco-friendly, emitting only steam.",
+    "pageNumbers": [
+      37,
+      38
+    ],
+    "examUse": "Statement-based question on the environmental impact and advantages of cryogenic propulsion.",
+    "distractorHooks": [
+      "Cryogenic engines emit high levels of carbon dioxide",
+      "Cryogenic engines release toxic nitrogen oxides during combustion",
+      "Cryogenic engines are less eco-friendly than solid rocket boosters"
+    ]
+  }
+]

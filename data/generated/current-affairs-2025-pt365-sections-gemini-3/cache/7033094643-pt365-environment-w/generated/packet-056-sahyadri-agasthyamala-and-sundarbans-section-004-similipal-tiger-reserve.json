@@ -1,0 +1,149 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Paragraph-based Identification",
+      "prompt": "Consider the following paragraph:\n\n\"It is located in the Chottanagpur region and is recognized as a Biosphere Reserve under the UNESCO Man and the Biosphere (MAB) Programme. The protected area is drained by rivers such as Burhabalanga and Salandi, and features prominent waterfalls like Joranda and Barehipani. It is inhabited by tribal populations including the Kolha, Santhala, and Mankadia.\"\n\nWhich of the following protected areas is described in the paragraph given above?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Bhitarkanika National Park"
+        },
+        {
+          "id": "B",
+          "text": "Similipal Tiger Reserve"
+        },
+        {
+          "id": "C",
+          "text": "Palamau Tiger Reserve"
+        },
+        {
+          "id": "D",
+          "text": "Valmiki Tiger Reserve"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The paragraph describes the Similipal Tiger Reserve. It is located in the Mayurbhanj District of Odisha within the Chottanagpur region. The reserve features the Joranda and Barehipani waterfalls, is drained by rivers such as Burhabalanga and Salandi, and is home to tribes like the Kolha, Santhala, and Mankadia. It is also a recognized Biosphere Reserve under the UNESCO MAB Programme.",
+      "takeaway": "Similipal Tiger Reserve is a major protected area in the Chottanagpur region of Odisha, known for its distinct hydrology (Burhabalanga, Salandi rivers), waterfalls (Joranda, Barehipani), and tribal demographics (Kolha, Santhala, Mankadia).",
+      "evidenceExcerpt": "Location: Mayurbhanj District, Odisha in Chottanagpur region. Rivers: Burhabalanga, Palpala Bandan, Salandi, Kahairi, and Deo... Waterfalls: Joranda and Barehipani. Tribes Found: Kolha, Santhala, Bhumija... Note: Similipal is a Biosphere reserve under the UNESCO Man and the Biosphere (MAB) Programme."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Similipal Tiger Reserve, consider the following statements:\n\n1. Its notification as a National Park makes it the largest National Park in Odisha, surpassing Bhitarkanika.\n2. It is geographically located in the Dandakaranya region of Odisha.\n3. It is recognized as a Biosphere Reserve under the UNESCO Man and the Biosphere (MAB) Programme.\n\nWhich of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Odisha notified Similipal Tiger Reserve as a National Park, making it the largest in Odisha and leaving behind Bhitarkanika. Statement 2 is incorrect: Similipal is located in the Mayurbhanj District of Odisha, which falls in the Chottanagpur region, not the Dandakaranya region. Statement 3 is correct: It is a recognized Biosphere Reserve under the UNESCO MAB Programme.",
+      "takeaway": "Similipal Tiger Reserve is the largest National Park in Odisha, located in the Chottanagpur region, and holds the status of a Biosphere Reserve under the UNESCO MAB Programme.",
+      "evidenceExcerpt": "Odisha notified Similipal Tiger Reserve as National Park making it largest in Odisha, leaving behind Bhitarkanika. Location: Mayurbhanj District, Odisha in Chottanagpur region... Note: Similipal is a Biosphere reserve under the UNESCO Man and the Biosphere (MAB) Programme."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the geographical and demographic features of Similipal Tiger Reserve:\n\n1. It is drained by the Burhabalanga, Salandi, and Deo rivers.\n2. The Joranda and Barehipani waterfalls are located within its boundaries.\n3. The reserve is exclusively inhabited by the Mankadia tribe, with no other tribal populations present.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "C",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statements 1 and 2 are correct: Similipal is drained by several rivers including the Burhabalanga, Salandi, and Deo, and it features the prominent Joranda and Barehipani waterfalls. Statement 3 is incorrect: The reserve is not exclusively inhabited by the Mankadia tribe; it is home to multiple tribes including the Kolha, Santhala, Bhumija, and Sahara.",
+      "takeaway": "Protected areas often host diverse indigenous populations. Similipal Tiger Reserve is home to several tribes such as the Kolha, Santhala, Bhumija, Mankadia, and Sahara, rather than being exclusive to any single group.",
+      "evidenceExcerpt": "Rivers: Burhabalanga, Palpala Bandan, Salandi, Kahairi, and Deo... Waterfalls: Joranda and Barehipani. Tribes Found: Kolha, Santhala, Bhumija... Inhabited by tribes including Kolha, Santhala, Mankadia, and Sahara."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Correct-Pair",
+      "prompt": "Consider the following pairs of geographical features and their associated protected areas in Odisha:\n\n1. Joranda Waterfall : Similipal Tiger Reserve\n2. Salandi River : Bhitarkanika National Park\n3. Chottanagpur region : Similipal Tiger Reserve\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched, as the Joranda waterfall is a prominent feature of the Similipal Tiger Reserve. Pair 2 is incorrectly matched; the Salandi river is part of the drainage system of Similipal, not Bhitarkanika. Pair 3 is correctly matched, as Similipal is geographically located in the Mayurbhanj District within the Chottanagpur region. Therefore, exactly two pairs are correctly matched.",
+      "takeaway": "Similipal Tiger Reserve is drained by rivers such as the Burhabalanga, Salandi, and Deo, and features the Joranda and Barehipani waterfalls.",
+      "evidenceExcerpt": "Location: Mayurbhanj District, Odisha in Chottanagpur region. Rivers: Burhabalanga, Palpala Bandan, Salandi, Kahairi, and Deo... Waterfalls: Joranda and Barehipani."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Multiple-Choice",
+      "prompt": "Consider the following tribal communities:\n\n1. Kolha\n2. Santhala\n3. Bhumija\n4. Mankadia\n\nHow many of the above communities are known to inhabit the Similipal Tiger Reserve?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "The Similipal Tiger Reserve, located in the Mayurbhanj District of Odisha, is home to a diverse demographic of tribal populations. According to the source material, the tribes found within the reserve include the Kolha, Santhala, Bhumija, Mankadia, and Sahara. Thus, all four listed communities inhabit the area.",
+      "takeaway": "Protected areas often host specific indigenous populations; Similipal is notably inhabited by the Kolha, Santhala, Bhumija, Mankadia, and Sahara tribes.",
+      "evidenceExcerpt": "Tribes Found: Kolha, Santhala, Bhumija...\n- Inhabited by tribes including Kolha, Santhala, Mankadia, and Sahara."
+    }
+  ]
+}

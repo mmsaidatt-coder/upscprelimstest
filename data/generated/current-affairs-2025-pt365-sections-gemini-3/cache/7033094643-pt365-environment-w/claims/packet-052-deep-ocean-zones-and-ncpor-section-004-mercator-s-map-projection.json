@@ -1,0 +1,47 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-052-deep-ocean-zones-and-ncpor-section-004-mercator-s-map-projection",
+    "claimType": "Conceptual",
+    "claimText": "The Mercator map projection is a conformal map that preserves local shapes and angles.",
+    "evidenceExcerpt": "Conformal map designed in 1569 that preserves local shapes and angles.",
+    "pageNumbers": [
+      108
+    ],
+    "examUse": "Statement-based question on the properties of map projections.",
+    "distractorHooks": [
+      "Preserves scale and area instead of shapes and angles",
+      "Distorts local shapes and angles"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-052-deep-ocean-zones-and-ncpor-section-004-mercator-s-map-projection",
+    "claimType": "Factual",
+    "claimText": "The Mercator projection distorts scale by enlarging landmasses near the poles and shrinking equatorial regions.",
+    "evidenceExcerpt": "Distorts scale by enlarging landmasses near the poles and shrinking equatorial regions.",
+    "pageNumbers": [
+      108
+    ],
+    "examUse": "Statement-based question on the limitations of the Mercator projection.",
+    "distractorHooks": [
+      "Enlarges equatorial regions and shrinks polar landmasses",
+      "Preserves scale perfectly across all latitudes"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-052-deep-ocean-zones-and-ncpor-section-004-mercator-s-map-projection",
+    "claimType": "Factual",
+    "claimText": "The African Union endorsed the Correct the Map campaign to replace the Mercator projection with the Equal Earth map.",
+    "evidenceExcerpt": "African Union endorsed the Correct the Map campaign to replace it with the Equal Earth map.",
+    "pageNumbers": [
+      108
+    ],
+    "examUse": "Factual statement in a question about map projection controversies or African Union initiatives.",
+    "distractorHooks": [
+      "Endorsed by the European Union or United Nations",
+      "Campaign aims to replace the Equal Earth map with the Mercator projection"
+    ]
+  }
+]

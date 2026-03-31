@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to 'Nanozymes', consider the following statements:\n1. They are naturally occurring biological enzymes extracted from extremophile microorganisms.\n2. They offer higher stability and lower production costs compared to natural enzymes.\n3. Certain metal-based nanozymes have been developed to treat abnormal blood clotting conditions.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Nanozymes are not naturally occurring biological enzymes; rather, they are synthetic nanomaterials that possess intrinsic enzyme-like properties.\nStatement 2 is correct: Compared to natural enzymes, nanozymes offer significant advantages, including high catalytic activity, low cost, and high stability.\nStatement 3 is correct: Researchers have developed artificial metal-based nanozymes (such as vanadium pentoxide) to treat abnormal blood clotting caused by conditions like pulmonary thromboembolism.",
+      "takeaway": "Nanozymes are synthetic nanomaterials with enzyme-like characteristics that overcome the limitations of natural enzymes, such as high cost and low stability, and have emerging medical applications.",
+      "evidenceExcerpt": "Nanozymes are nanomaterials with intrinsic enzyme-like properties. They offer advantages over natural enzymes, including high catalytic activity, low cost, and high stability. Researchers at IISc developed an artificial metal-based nanozyme (vanadium pentoxide or V2O5) to treat abnormal blood clotting caused by conditions like pulmonary thromboembolism (PTE).",
+      "qualityScore": 88,
+      "reviewNotes": "Good conceptual coverage of nanozymes. Statement 1 acts as a strong distractor by playing on the word 'enzymes'."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Application-based",
+      "prompt": "The term 'Vanadium pentoxide', sometimes mentioned in the news, is talked about in the context of:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "developing artificial nanozymes to treat abnormal blood clotting."
+        },
+        {
+          "id": "B",
+          "text": "manufacturing solid-state electrolytes for lithium-ion batteries."
+        },
+        {
+          "id": "C",
+          "text": "creating bio-sensors for detecting heavy metal contamination in groundwater."
+        },
+        {
+          "id": "D",
+          "text": "designing targeted drug delivery vehicles for cancer therapeutics."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Vanadium pentoxide (V2O5) was recently in the news because researchers at IISc developed an artificial metal-based nanozyme using this material. It is specifically designed to treat abnormal blood clotting caused by conditions like pulmonary thromboembolism (PTE).",
+      "takeaway": "Vanadium pentoxide (V2O5) can act as an artificial nanozyme with critical medical applications, specifically in addressing abnormal blood clotting.",
+      "evidenceExcerpt": "Researchers at IISc developed an artificial metal-based nanozyme (vanadium pentoxide or V2O5) to treat abnormal blood clotting caused by conditions like pulmonary thromboembolism (PTE).",
+      "qualityScore": 85,
+      "reviewNotes": "Classic UPSC 'recently in the news' format. Distractors are plausible scientific applications."
+    }
+  ],
+  "reviewerNotes": "Selected two questions that cover the core concepts of the text: the definition/advantages of nanozymes and the specific application of Vanadium pentoxide. Rewrote the prompts to closely mimic the tone and structure of actual UPSC Prelims questions."
+}

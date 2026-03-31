@@ -1,0 +1,81 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-017-commercial-space-and-orbital-mechanics-section-001-commercial-earth-observation-eo-satellite-constellation",
+    "claimType": "Factual",
+    "claimText": "The PixxelSpace India-led Consortium won the IN-SPACe proposal to build India's first fully indigenous commercial Earth Observation Satellite System (EOSS).",
+    "evidenceExcerpt": "PixxelSpace India-led Consortium won the IN-SPACe proposal to build India's first fully indigenous commercial Earth Observation Satellite System (EOSS) under the EO-PPP model.",
+    "pageNumbers": [
+      35
+    ],
+    "examUse": "Statement-based question identifying the entity responsible for India's first commercial EOSS.",
+    "distractorHooks": [
+      "ISRO building it independently",
+      "NSIL leading the consortium",
+      "Foreign space agency collaboration"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-017-commercial-space-and-orbital-mechanics-section-001-commercial-earth-observation-eo-satellite-constellation",
+    "claimType": "Conceptual",
+    "claimText": "Under the EO-PPP model, the private sector is responsible for designing, building, and operating the satellites, while the government provides strategic and technical support.",
+    "evidenceExcerpt": "EO-PPP model: Private sector designs, builds, operates; government provides strategic/technical support.",
+    "pageNumbers": [
+      35
+    ],
+    "examUse": "Statement-based question on the division of responsibilities in the EO-PPP model.",
+    "distractorHooks": [
+      "Government builds and operates while private sector funds",
+      "Private sector only provides launch services"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-017-commercial-space-and-orbital-mechanics-section-001-commercial-earth-observation-eo-satellite-constellation",
+    "claimType": "Factual",
+    "claimText": "India's first commercial EOSS constellation will consist of 12 satellites featuring panchromatic, multispectral, hyperspectral, and microwave SAR sensors.",
+    "evidenceExcerpt": "The constellation of 12 EO satellites will feature panchromatic, multispectral, hyperspectral, and microwave SAR sensors.",
+    "pageNumbers": [
+      35
+    ],
+    "examUse": "Feature-based question on the payload and size of the EOSS constellation.",
+    "distractorHooks": [
+      "Constellation of 24 satellites",
+      "Exclusively optical sensors without SAR",
+      "Lacks hyperspectral imaging capabilities"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-017-commercial-space-and-orbital-mechanics-section-001-commercial-earth-observation-eo-satellite-constellation",
+    "claimType": "Conceptual",
+    "claimText": "Earth Observation (EO) satellites are used for applications including disaster management, crop estimation, mineralogy mapping, and oceanography.",
+    "evidenceExcerpt": "EO satellite applications include disaster management, crop estimation, mineralogy mapping, and oceanography.",
+    "pageNumbers": [
+      35
+    ],
+    "examUse": "Application-based multiple-choice question on the uses of EO satellites.",
+    "distractorHooks": [
+      "Deep space exploration",
+      "Interplanetary communication",
+      "Global Positioning System (GPS) navigation"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-017-commercial-space-and-orbital-mechanics-section-001-commercial-earth-observation-eo-satellite-constellation",
+    "claimType": "Factual",
+    "claimText": "Dhruva Space's LEAP-1 mission and Pixxel's Firefly satellites were launched aboard the SpaceX NAOS Falcon 9 mission.",
+    "evidenceExcerpt": "Pixxel successfully launched three new Firefly satellites aboard the SpaceX NAOS Falcon 9 mission. Dhruva Space's LEAP-1 mission launched aboard SpaceX NAOS Falcon 9.",
+    "pageNumbers": [
+      35
+    ],
+    "examUse": "Correct-pair question matching private Indian space missions to their launch vehicles.",
+    "distractorHooks": [
+      "Launched by ISRO's PSLV",
+      "LEAP-1 is a mission by Agnikul Cosmos",
+      "Launched aboard LVM3"
+    ]
+  }
+]

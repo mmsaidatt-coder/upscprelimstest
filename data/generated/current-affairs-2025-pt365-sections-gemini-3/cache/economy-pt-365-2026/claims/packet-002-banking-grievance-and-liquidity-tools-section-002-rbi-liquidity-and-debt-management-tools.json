@@ -1,0 +1,77 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-002-banking-grievance-and-liquidity-tools-section-002-rbi-liquidity-and-debt-management-tools",
+    "claimType": "Conceptual",
+    "claimText": "The Standing Deposit Facility (SDF) allows the RBI to absorb liquidity from commercial banks without providing collateral.",
+    "evidenceExcerpt": "SDF absorbs liquidity from commercial banks without collateral",
+    "pageNumbers": [
+      7
+    ],
+    "examUse": "Statement-based question on the features of SDF compared to Reverse Repo.",
+    "distractorHooks": [
+      "SDF requires government securities as collateral",
+      "SDF injects liquidity into the banking system"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-002-banking-grievance-and-liquidity-tools-section-002-rbi-liquidity-and-debt-management-tools",
+    "claimType": "Factual",
+    "claimText": "The Standing Deposit Facility (SDF) has replaced the Fixed Rate Reverse Repo as the floor of the Liquidity Adjustment Facility (LAF) corridor.",
+    "evidenceExcerpt": "replaced the Fixed Rate Reverse Repo as the LAF floor.",
+    "pageNumbers": [
+      7
+    ],
+    "examUse": "Statement-based question on the structure of the LAF corridor.",
+    "distractorHooks": [
+      "Marginal Standing Facility (MSF) is the floor of the LAF corridor",
+      "Fixed Rate Reverse Repo remains the LAF floor"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-002-banking-grievance-and-liquidity-tools-section-002-rbi-liquidity-and-debt-management-tools",
+    "claimType": "Factual",
+    "claimText": "The Standing Deposit Facility (SDF) is operational every day, including weekends and holidays.",
+    "evidenceExcerpt": "SDF is available every day, including holidays and weekends.",
+    "pageNumbers": [
+      7
+    ],
+    "examUse": "Statement-based question on the operational availability of RBI liquidity tools.",
+    "distractorHooks": [
+      "SDF is only available on RBI working days",
+      "SDF is restricted to the last reporting Friday of the fortnight"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-002-banking-grievance-and-liquidity-tools-section-002-rbi-liquidity-and-debt-management-tools",
+    "claimType": "Conceptual",
+    "claimText": "Interest rates for the Variable Rate Reverse Repo (VRRR) are determined by market forces, unlike the fixed Reverse Repo Rate.",
+    "evidenceExcerpt": "VRRR interest rates are decided by the market, unlike the fixed Reverse Repo Rate.",
+    "pageNumbers": [
+      7
+    ],
+    "examUse": "Comparison question between VRRR and Fixed Reverse Repo mechanisms.",
+    "distractorHooks": [
+      "VRRR interest rates are fixed by the Monetary Policy Committee",
+      "VRRR rates are always pegged exactly to the Repo Rate"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-002-banking-grievance-and-liquidity-tools-section-002-rbi-liquidity-and-debt-management-tools",
+    "claimType": "Conceptual",
+    "claimText": "Switch Auctions are utilized to manage public debt maturity by replacing short-term government securities with longer-dated ones via the e-Kuber portal.",
+    "evidenceExcerpt": "Switch Auctions replace short-term government securities with longer-dated ones to manage debt maturity.",
+    "pageNumbers": [
+      7
+    ],
+    "examUse": "Concept definition or correct-pair question on RBI debt management tools.",
+    "distractorHooks": [
+      "Switch Auctions replace long-term securities with short-term ones",
+      "Switch Auctions are used to swap domestic currency for foreign exchange"
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "statement-based",
+      "prompt": "With reference to Municipal Bonds in India, consider the following statements:\n1. They are non-convertible debt securities issued by municipal bodies.\n2. The issuing entities are entrusted with functions under Article 243W of the Constitution of India.\n3. The funds raised through these bonds are exclusively earmarked for climate mitigation and adaptation projects.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Municipal bonds refer to non-convertible debt securities issued by municipal bodies or other entities established for such purposes.\nStatement 2 is correct: The issuing entities are entrusted with functions under Article 243W of the Constitution of India.\nStatement 3 is incorrect: Standard municipal bonds can be used to finance a wide range of civic amenities and infrastructure. It is specifically 'Green' municipal bonds that are used to raise funds exclusively for climate mitigation, adaptation, and other environment-friendly projects.",
+      "takeaway": "Municipal bonds are non-convertible debt securities linked to urban local bodies functioning under Article 243W. Green bonds are a specific subset of these bonds strictly ring-fenced for environmental projects.",
+      "evidenceExcerpt": "Municipal bonds refer to non-convertible debt securities issued by municipal body or others established for such purposes and entrusted with functions under Article 243W of Constitution. Green bonds are used to raise funds specifically for climate mitigation, adaptation and other environment friendly projects.",
+      "qualityScore": 85,
+      "reviewNotes": "Strong conceptual question that tests the constitutional backing of municipal bonds and effectively distinguishes standard municipal bonds from green municipal bonds."
+    }
+  ],
+  "reviewerNotes": "Selected two distinct questions. The first focuses on the conceptual and constitutional aspects of municipal bonds, while the second targets the factual specifics of India's first Green Municipal Bond and its execution model. Both have been formatted to match the UPSC 'How many statements are correct' pattern."
+}

@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Mercator map projection: 1. It is a conformal map projection that preserves local shapes and angles. 2. It accurately represents the relative geographical area of landmasses across all latitudes. 3. The African Union has endorsed the 'Correct the Map' campaign to replace it with the Equal Earth map. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The Mercator projection is a conformal map that preserves local shapes and angles. Statement 2 is incorrect: It distorts scale, making polar landmasses appear larger and equatorial regions smaller (e.g., Africa appears roughly the size of Greenland despite being 14 times larger). Statement 3 is correct: The African Union endorsed the Correct the Map campaign to replace it with alternatives like the Equal Earth map.",
+      "takeaway": "While the Mercator projection is useful for navigation due to its preservation of angles, its severe area distortion at high latitudes has led to campaigns for equal-area alternatives.",
+      "evidenceExcerpt": "Designed in 1569 by Gerardus Mercator, this conformal map preserves local shapes and angles but distorts scale, making polar landmasses appear larger and equatorial regions smaller... The African Union endorsed the Correct the Map campaign to replace it with alternatives like the Equal Earth map."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Assertion-Reason",
+      "prompt": "Given below are two statements, one labelled as Assertion (A) and the other as Reason (R):\n\nAssertion (A): On a standard Mercator map projection, Greenland appears to be roughly the same size as Africa, despite Africa being significantly larger.\nReason (R): The Mercator projection distorts scale by enlarging landmasses near the poles and shrinking equatorial regions in order to preserve local shapes and angles.\n\nIn the context of the above two statements, which one of the following is correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A)."
+        },
+        {
+          "id": "B",
+          "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A)."
+        },
+        {
+          "id": "C",
+          "text": "Assertion (A) is true but Reason (R) is false."
+        },
+        {
+          "id": "D",
+          "text": "Assertion (A) is false but Reason (R) is true."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Assertion (A) is true as Africa appears roughly the size of Greenland on a Mercator map, despite being 14 times larger. Reason (R) is also true and correctly explains Assertion (A), as the Mercator projection is a conformal map that preserves local shapes and angles at the cost of distorting scale, particularly enlarging polar regions and shrinking equatorial ones.",
+      "takeaway": "Conformal map projections like the Mercator mathematically must distort area (scale) to preserve local shapes and angles, leading to significant visual inflation of high-latitude landmasses.",
+      "evidenceExcerpt": "Designed in 1569 by Gerardus Mercator, this conformal map preserves local shapes and angles but distorts scale, making polar landmasses appear larger and equatorial regions smaller. For example, Africa appears roughly the size of Greenland despite being 14 times larger."
+    },
+    {
+      "subject": "Geography",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "The term 'conformal map', often used to describe the Mercator projection, implies that the map:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Maintains the true relative area of all landmasses across the globe."
+        },
+        {
+          "id": "B",
+          "text": "Preserves local shapes and angles, though it distorts the geographical scale."
+        },
+        {
+          "id": "C",
+          "text": "Represents the shortest distance between any two points as a straight line."
+        },
+        {
+          "id": "D",
+          "text": "Eliminates all distortions related to both size and direction simultaneously."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A conformal map projection, such as the Mercator projection, preserves local shapes and angles. However, it cannot preserve scale simultaneously, resulting in the distortion of the relative sizes of landmasses.",
+      "takeaway": "No flat map can perfectly represent a spherical Earth. Conformal maps prioritize the preservation of shapes and angles, which makes them useful for navigation but inaccurate for comparing land areas.",
+      "evidenceExcerpt": "...this conformal map preserves local shapes and angles but distorts scale, making polar landmasses appear larger and equatorial regions smaller."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the 'Correct the Map' campaign, consider the following statements:\n1. It is an initiative that has been endorsed by the African Union.\n2. It advocates for the adoption of the Mercator projection over the Equal Earth map to correct navigational inaccuracies.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The African Union has endorsed the 'Correct the Map' campaign. Statement 2 is incorrect: The campaign seeks to replace the Mercator projection with alternatives like the Equal Earth map, because the Mercator projection shrinks equatorial regions like Africa.",
+      "takeaway": "The 'Correct the Map' campaign aims to address the spatial biases of the Mercator projection by promoting equal-area projections like the Equal Earth map, which accurately depict the true size of continents like Africa.",
+      "evidenceExcerpt": "The African Union endorsed the Correct the Map campaign to replace it with alternatives like the Equal Earth map."
+    }
+  ]
+}

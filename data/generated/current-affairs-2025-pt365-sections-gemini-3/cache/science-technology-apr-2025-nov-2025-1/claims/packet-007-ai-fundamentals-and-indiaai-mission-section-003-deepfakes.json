@@ -1,0 +1,33 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-007-ai-fundamentals-and-indiaai-mission-section-003-deepfakes",
+    "claimType": "Concept",
+    "claimText": "Deepfakes are synthetic media created using deep learning techniques to manipulate video, photo, or audio recordings.",
+    "evidenceExcerpt": "Deepfakes use deep learning techniques to manipulate video, photo, or audio recordings.",
+    "pageNumbers": [
+      16
+    ],
+    "examUse": "Statement-based question identifying the underlying technology and scope of deepfakes.",
+    "distractorHooks": [
+      "Created using traditional CGI without AI",
+      "Limited only to video manipulation, excluding audio"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-007-ai-fundamentals-and-indiaai-mission-section-003-deepfakes",
+    "claimType": "Legislation",
+    "claimText": "The Take It Down Act is a legislation enacted by the United States to combat harmful deepfakes online.",
+    "evidenceExcerpt": "The US recently enacted the Take It Down Act to tackle harmful deepfakes online.",
+    "pageNumbers": [
+      16
+    ],
+    "examUse": "Correct-pair question matching the Take It Down Act to the United States or its objective of tackling deepfakes.",
+    "distractorHooks": [
+      "Enacted by the European Union",
+      "Enacted by India",
+      "Aims to regulate cryptocurrency"
+    ]
+  }
+]

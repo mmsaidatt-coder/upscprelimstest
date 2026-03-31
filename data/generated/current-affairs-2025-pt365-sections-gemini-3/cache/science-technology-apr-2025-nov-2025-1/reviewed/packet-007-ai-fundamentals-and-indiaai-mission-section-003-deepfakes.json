@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Term in News",
+      "prompt": "The 'Take It Down Act', recently seen in the news, is best described as:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A European Union directive aimed at regulating the monopolistic practices of big tech companies."
+        },
+        {
+          "id": "B",
+          "text": "A United States legislation enacted to tackle the spread of harmful deepfakes online."
+        },
+        {
+          "id": "C",
+          "text": "An international treaty framework for the immediate removal of hazardous space debris."
+        },
+        {
+          "id": "D",
+          "text": "A cybersecurity protocol adopted by the G20 to take down state-sponsored ransomware networks."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The 'Take It Down Act' is a piece of legislation recently enacted by the United States specifically designed to tackle the proliferation of harmful deepfakes on the internet.",
+      "takeaway": "Legislative measures against AI-manipulated media are evolving globally, with the US Take It Down Act serving as a prominent example of targeting harmful deepfakes.",
+      "evidenceExcerpt": "The US recently enacted the Take It Down Act to tackle harmful deepfakes online.",
+      "qualityScore": 85,
+      "reviewNotes": "Good 'Term in News' question with plausible distractors covering different domains of technology and international affairs."
+    }
+  ],
+  "reviewerNotes": "Both candidates were well-structured and aligned with UPSC patterns. Minor refinements were made to ensure clarity and parallel distractors."
+}

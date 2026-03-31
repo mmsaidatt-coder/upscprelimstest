@@ -1,0 +1,68 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-014-currency-management-and-remittances-section-001-currency-management-accounts-convertibility-and-internationalization",
+    "claimType": "Concept/Definition",
+    "claimText": "A Vostro account is a foreign bank's account held in a domestic bank in the domestic currency, whereas a Nostro account is a domestic bank's account held in a foreign bank in the foreign currency.",
+    "evidenceExcerpt": "A Vostro account is a foreign bank's account held in a domestic bank in the domestic currency (e.g., a US bank holding an INR account in SBI). A Nostro account is a domestic bank's account held in a foreign bank in the foreign currency.",
+    "pageNumbers": [
+      28,
+      29
+    ],
+    "examUse": "Correct-pair or statement-based question testing the distinction between Vostro and Nostro accounts.",
+    "distractorHooks": [
+      "Swapping the definitions of Vostro and Nostro accounts",
+      "Claiming a Vostro account is held in a foreign currency"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-014-currency-management-and-remittances-section-001-currency-management-accounts-convertibility-and-internationalization",
+    "claimType": "Fact/Policy",
+    "claimText": "In India, the rupee is fully convertible on the Current Account but only partially convertible on the Capital Account.",
+    "evidenceExcerpt": "In India, the Current Account is fully convertible, while the Capital Account is partially convertible.",
+    "pageNumbers": [
+      28,
+      29
+    ],
+    "examUse": "Statement-based question on the status of India's currency convertibility.",
+    "distractorHooks": [
+      "Claiming India has full Capital Account convertibility",
+      "Claiming the Current Account is only partially convertible"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-014-currency-management-and-remittances-section-001-currency-management-accounts-convertibility-and-internationalization",
+    "claimType": "Institution/Initiative",
+    "claimText": "The SPECTRA Project is a software platform designed to streamline the reporting and approval of External Commercial Borrowings (ECBs) and Trade Credits.",
+    "evidenceExcerpt": "The SPECTRA Project is a software platform designed to streamline External Commercial Borrowings (ECBs) and Trade Credits reporting and approval.",
+    "pageNumbers": [
+      28,
+      29
+    ],
+    "examUse": "Correct-pair or statement-based question identifying the specific purpose of the SPECTRA Project.",
+    "distractorHooks": [
+      "Claiming SPECTRA is a platform for domestic retail lending",
+      "Claiming SPECTRA is used for cryptocurrency regulation",
+      "Claiming SPECTRA is a direct tax filing portal"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-014-currency-management-and-remittances-section-001-currency-management-accounts-convertibility-and-internationalization",
+    "claimType": "Concept/Economic Indicator",
+    "claimText": "The Real Effective Exchange Rate (REER) is derived by adjusting the Nominal Effective Exchange Rate (NEER) for relative consumer prices, and a lower REER indicates an undervalued currency that can potentially boost exports.",
+    "evidenceExcerpt": "REER is derived by adjusting the Nominal Effective Exchange Rate (NEER) for relative consumer prices; a lower REER indicates the currency is undervalued and can potentially boost exports.",
+    "pageNumbers": [
+      28,
+      29
+    ],
+    "examUse": "Statement-based question on the relationship between REER, inflation adjustment, currency valuation, and export competitiveness.",
+    "distractorHooks": [
+      "Claiming a higher REER indicates an undervalued currency",
+      "Claiming a higher REER boosts exports",
+      "Claiming REER does not account for inflation or relative consumer prices"
+    ]
+  }
+]

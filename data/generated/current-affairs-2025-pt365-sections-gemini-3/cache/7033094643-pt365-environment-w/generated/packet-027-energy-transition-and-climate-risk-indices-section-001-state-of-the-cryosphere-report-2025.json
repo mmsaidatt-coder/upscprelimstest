@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the 'State of the Cryosphere Report':\n1. It is released by the United Nations Environment Programme (UNEP).\n2. The power and industry sectors have the highest coverage in the report.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The State of the Cryosphere Report is released by the International Cryosphere Climate Initiative (ICCI), not UNEP.\nStatement 2 is correct: Sector-wise, the power sector followed by the industry sector has the highest coverage in the report.",
+      "takeaway": "The State of the Cryosphere Report is published by the International Cryosphere Climate Initiative, with a major focus on the power and industry sectors.",
+      "evidenceExcerpt": "State of the Cryosphere Report 2025 - Released by: International Cryosphere Climate Initiative - Sector Wise Coverage: Power followed by industry sector have highest coverage."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice",
+      "prompt": "The 'State of the Cryosphere Report 2025' evaluates the impact of global emissions on Earth's snow and ice regions. Which of the following sectors receives the highest coverage in the report's sectoral analysis?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Maritime Transport and Shipping"
+        },
+        {
+          "id": "B",
+          "text": "Power and Industry"
+        },
+        {
+          "id": "C",
+          "text": "Agriculture and Land Use"
+        },
+        {
+          "id": "D",
+          "text": "Coastal Infrastructure and Tourism"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Despite the report's focus on the cryosphere (frozen ecosystems), its sector-wise analysis primarily targets the major sources of emissions driving cryosphere loss. The power sector, followed by the industry sector, has the highest coverage in the report.",
+      "takeaway": "The State of the Cryosphere Report 2025, released by the International Cryosphere Climate Initiative (ICCI), prominently analyzes the power and industry sectors due to their significant role in global emissions.",
+      "evidenceExcerpt": "Sector Wise Coverage: Power followed by industry sector have highest coverage."
+    }
+  ]
+}

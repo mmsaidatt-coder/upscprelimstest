@@ -1,0 +1,149 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to nanomaterials, consider the following statements: 1. Nanotechnology deals with the manipulation of materials typically in the size range of 1 to 100 micrometers. 2. At the nanoscale, the properties of a material become independent of its shape and surface characteristics. 3. Nanoparticles of certain metallic oxides are utilized in the cosmetics industry. How many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect: Nanotechnology involves working with materials at the nanoscale, which ranges from 1 to 100 nanometers (nm), not micrometers. Statement 2 is incorrect: At the nanoscale, materials exhibit unusual properties that specifically depend on their shape, size, surface characteristics, and inner structure. Statement 3 is correct: Cosmetics use nanoparticles of certain metallic oxides.",
+      "takeaway": "Nanoscale properties are distinct because they depend on physical dimensions (shape, size) and surface characteristics rather than just chemical composition. The scale is strictly 1 to 100 nanometers.",
+      "evidenceExcerpt": "Nanotechnology involves working with materials at the nanoscale (1 to 100 nm). At this scale, materials exhibit unusual properties depending on shape, size, and surface characteristics... Cosmetics use nanoparticles of certain metallic oxides."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Multiple-statement",
+      "prompt": "Nanotechnology has diverse applications across various sectors. Which of the following are recognized applications of nanotechnology? 1. Targeted drug delivery in healthcare 2. Development of nanofertilizers in agriculture 3. Manufacturing of nanostructured solar cells 4. Water purification systems Select the correct answer using the code given below.",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "3 and 4 only"
+        },
+        {
+          "id": "C",
+          "text": "1, 2 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2, 3 and 4"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "All the given applications are correct. Nanotechnology is widely applied in targeted drug delivery in health, nanofertilizers in agriculture, nanostructured solar cells in energy, and water purification in the environment.",
+      "takeaway": "Nanotechnology is a cross-cutting general-purpose technology with applications ranging from agriculture (nanofertilizers) to energy (solar cells) and environment (water purification).",
+      "evidenceExcerpt": "Applications include nanofertilizers in agriculture, targeted drug delivery in health, nanostructured solar cells in energy, and water purification in the environment."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the applications and concerns of nanotechnology, consider the following statements: 1. The application of nanotechnology in agriculture is currently limited to pesticide delivery, as nanofertilizers are yet to be developed. 2. A major environmental and health concern associated with nanotechnology is the potential toxicity of nanoparticles. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Nanotechnology has diverse applications in agriculture, which explicitly includes the development and use of nanofertilizers. Statement 2 is correct: A major concern associated with nanotechnology is the potential toxicity of nanoparticles to human health and the environment.",
+      "takeaway": "While nanotechnology offers advanced solutions like nanofertilizers and targeted drug delivery, the potential toxicity of nanoparticles remains a significant regulatory and health concern.",
+      "evidenceExcerpt": "Applications include nanofertilizers in agriculture... A major concern is the potential toxicity of nanoparticles."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the commercial and environmental implications of nanotechnology:\n\n1. The incorporation of metallic oxide nanoparticles in consumer products like cosmetics poses a potential toxicity risk.\n2. The properties of nanomaterials used in environmental applications, such as water purification, are determined exclusively by their size, irrespective of their surface characteristics.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct. Cosmetics utilize nanoparticles of certain metallic oxides, and a major recognized concern associated with nanotechnology is the potential toxicity of such nanoparticles. Statement 2 is incorrect. The properties of nanomaterials, whether used in water purification or other fields, depend on a combination of shape, size, surface characteristics, and inner structure, not exclusively on size.",
+      "takeaway": "While nanotechnology offers advanced solutions like water purification and enhanced cosmetics, the complex surface characteristics and structure of nanoparticles contribute to both their utility and their potential toxicity.",
+      "evidenceExcerpt": "Cosmetics use nanoparticles of certain metallic oxides... A major concern is the potential toxicity of nanoparticles... Nanomaterial properties depend on shape, size, surface characteristics, and inner structure."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Multiple-choice",
+      "prompt": "The unusual properties exhibited by materials at the nanoscale are dependent on which of the following factors?\n\n1. Size of the material\n2. Shape of the material\n3. Surface characteristics\n4. Inner structure\n\nSelect the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "B",
+          "text": "1, 2 and 4 only"
+        },
+        {
+          "id": "C",
+          "text": "2, 3 and 4 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2, 3 and 4"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "At the nanoscale (1 to 100 nm), materials exhibit unusual properties that are dependent on multiple physical and structural factors, specifically their shape, size, surface characteristics, and inner structure.",
+      "takeaway": "Nanoscale properties are multifaceted and depend on a combination of physical and structural characteristics, which distinguishes their behaviour from bulk materials.",
+      "evidenceExcerpt": "Nanomaterial properties depend on shape, size, surface characteristics, and inner structure."
+    }
+  ]
+}

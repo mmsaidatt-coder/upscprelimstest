@@ -1,0 +1,33 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-018-global-missions-and-propulsion-systems-section-004-hope-analog-mission",
+    "claimType": "Institution-Feature",
+    "claimText": "The Himalayan Outpost for Planetary Exploration (HOPE) is an analog mission inaugurated by ISRO in the Tso Kar Valley, Ladakh.",
+    "evidenceExcerpt": "ISRO inaugurated Himalayan Outpost for Planetary Exploration (HOPE) Analog Mission in Tso Kar Valley, Ladakh.",
+    "pageNumbers": [
+      38
+    ],
+    "examUse": "Statement-based question identifying the space agency and geographical location associated with the HOPE analog mission.",
+    "distractorHooks": [
+      "Attributing the mission to NASA, ESA, or Roscosmos instead of ISRO",
+      "Placing the mission in Spiti Valley, Thar Desert, or Antarctica instead of Tso Kar Valley, Ladakh",
+      "Confusing it with the UAE's Hope Mars Mission"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-018-global-missions-and-propulsion-systems-section-004-hope-analog-mission",
+    "claimType": "Factual",
+    "claimText": "The HOPE Analog Mission infrastructure includes interconnected Habitat and Utility modules designed for crew living, operations, and support systems.",
+    "evidenceExcerpt": "A specially designed Habitat Module for crew living and a Utility Module for operations and support systems which are interconnected for seamless workflow.",
+    "pageNumbers": [
+      38
+    ],
+    "examUse": "Statement-based question on the structural components and crew capabilities of the HOPE analog mission.",
+    "distractorHooks": [
+      "Claiming the mission is purely robotic with no crew habitat modules",
+      "Stating the modules are completely isolated from each other rather than interconnected"
+    ]
+  }
+]

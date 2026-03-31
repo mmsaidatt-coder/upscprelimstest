@@ -1,0 +1,207 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Global Reporting Initiative (GRI):\n1. It is an intergovernmental body established under the United Nations Environment Programme (UNEP).\n2. It launched the 'Integrity Matters Checklist' to align corporate climate disclosures with UN net-zero standards.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The Global Reporting Initiative (GRI) is a non-profit body established in 1997, not an intergovernmental body under UNEP. Statement 2 is correct: GRI launched the Integrity Matters Checklist, a UN-endorsed framework to align corporate climate disclosures with UN net-zero standards.",
+      "takeaway": "GRI is a non-profit organization (est. 1997) that sets sustainability reporting frameworks, recently launching the Integrity Matters Checklist.",
+      "evidenceExcerpt": "The Global Reporting Initiative (GRI) launched the Integrity Matters Checklist, a UN-endorsed framework designed to align corporate climate disclosures with the United Nations’ net-zero standards. Established: 1997... GRI was established in 1997 as a non-profit body setting sustainability reporting frameworks."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Net-Zero Banking Alliance:\n1. It was established under the United Nations Framework Convention on Climate Change (UNFCCC).\n2. Its primary objective was to encourage banks to reduce the carbon footprint of their loans and investments.\n3. The alliance was recently dissolved following the withdrawal of several member banks.\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: It was established in 2021 under the UN Environment Programme's Finance Initiative (UNEP FI), not the UNFCCC. Statement 2 is correct: It aimed to encourage banks to reduce the carbon footprint of their loans and investments. Statement 3 is correct: It has been dissolved after several member banks withdrew.",
+      "takeaway": "The Net-Zero Banking Alliance (UNEP FI) aimed to reduce the carbon footprint of bank loans and investments but was recently dissolved due to member withdrawals.",
+      "evidenceExcerpt": "Net-Zero Banking Alliance: It has been dissolved after several member banks withdrew. Established in 2021 under UN Environment Programme's Finance Initiative.\n- The Net-Zero Banking Alliance aimed to encourage banks to reduce the carbon footprint of their loans and investments."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "The 'Integrity Matters Checklist', recently seen in the news, is primarily associated with which of the following?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Aligning corporate climate disclosures with UN net-zero standards"
+        },
+        {
+          "id": "B",
+          "text": "Evaluating the ecological impact of deep-sea mining projects"
+        },
+        {
+          "id": "C",
+          "text": "Assessing the compliance of countries with the Kigali Amendment"
+        },
+        {
+          "id": "D",
+          "text": "Monitoring the implementation of the Kunming-Montreal Global Biodiversity Framework"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "The Integrity Matters Checklist was launched by the Global Reporting Initiative (GRI) as a UN-endorsed framework designed to align corporate climate disclosures with the United Nations’ net-zero standards.",
+      "takeaway": "The Integrity Matters Checklist is a tool for standardizing corporate climate disclosures against UN net-zero benchmarks.",
+      "evidenceExcerpt": "The Global Reporting Initiative (GRI) launched the Integrity Matters Checklist, a UN-endorsed framework designed to align corporate climate disclosures with the United Nations’ net-zero standards."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Assertion-Reason",
+      "prompt": "Given below are two statements, one labelled as Assertion (A) and the other labelled as Reason (R):\nAssertion (A): The Net-Zero Banking Alliance was recently dissolved.\nReason (R): It failed to secure endorsement from the UN Environment Programme's Finance Initiative (UNEP FI).\nIn the context of the above two statements, which one of the following is correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A)"
+        },
+        {
+          "id": "B",
+          "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A)"
+        },
+        {
+          "id": "C",
+          "text": "Assertion (A) is true but Reason (R) is false"
+        },
+        {
+          "id": "D",
+          "text": "Assertion (A) is false but Reason (R) is true"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Assertion (A) is true: The Net-Zero Banking Alliance has been dissolved. Reason (R) is false: It was actually established under the UNEP Finance Initiative in 2021. The dissolution occurred because several member banks withdrew, not due to a lack of UNEP FI endorsement.",
+      "takeaway": "The Net-Zero Banking Alliance was a UNEP FI initiative that dissolved due to the withdrawal of its member banks.",
+      "evidenceExcerpt": "Net-Zero Banking Alliance: It has been dissolved after several member banks withdrew. Established in 2021 under UN Environment Programme's Finance Initiative."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Application",
+      "prompt": "In the context of climate finance, what was the primary operational focus of the Net-Zero Banking Alliance?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Achieving net-zero greenhouse gas emissions across the physical branches and internal operations of member banks."
+        },
+        {
+          "id": "B",
+          "text": "Aligning the carbon footprint of member banks' lending and investment portfolios with net-zero emissions."
+        },
+        {
+          "id": "C",
+          "text": "Mandating member banks to allocate a fixed percentage of their annual profits to the Green Climate Fund."
+        },
+        {
+          "id": "D",
+          "text": "Establishing a unified global carbon pricing mechanism for all cross-border financial transactions."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Net-Zero Banking Alliance aimed to encourage banks to reduce the carbon footprint of their loans and investments (often referred to as 'financed emissions'). It did not merely focus on the banks' own operational emissions, nor did it mandate contributions to the Green Climate Fund or establish carbon pricing.",
+      "takeaway": "Climate finance initiatives for banks primarily target 'financed emissions'—the emissions generated by the projects and companies they lend to or invest in.",
+      "evidenceExcerpt": "The Net-Zero Banking Alliance aimed to encourage banks to reduce the carbon footprint of their loans and investments."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding international climate and sustainability frameworks:\n1. Unlike the Net-Zero Banking Alliance, which was convened under a United Nations programme, the Global Reporting Initiative (GRI) is an independent non-profit organization.\n2. Both the GRI and the Net-Zero Banking Alliance were established in the immediate aftermath of the 2015 Paris Agreement to standardize corporate climate disclosures.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The GRI is a non-profit body established in 1997, whereas the Net-Zero Banking Alliance was established under the UN Environment Programme's Finance Initiative (UNEP FI). Statement 2 is incorrect: The GRI was established in 1997, long before the 2015 Paris Agreement.",
+      "takeaway": "Understanding the origins and institutional backing of major climate frameworks helps distinguish independent non-profits (like GRI) from UN-convened initiatives (like those under UNEP FI).",
+      "evidenceExcerpt": "GRI was established in 1997 as a non-profit body setting sustainability reporting frameworks... Net-Zero Banking Alliance: ...Established in 2021 under UN Environment Programme's Finance Initiative."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Multiple Choice",
+      "prompt": "The 'Integrity Matters Checklist', launched by the Global Reporting Initiative (GRI), is primarily designed to address which of the following?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The lack of standardized carbon pricing mechanisms across international borders."
+        },
+        {
+          "id": "B",
+          "text": "The inconsistency between corporate climate disclosures and the United Nations’ net-zero standards."
+        },
+        {
+          "id": "C",
+          "text": "The failure of commercial banks to disclose the carbon footprint of their retail depositors."
+        },
+        {
+          "id": "D",
+          "text": "The absence of a legally binding treaty for mandatory corporate sustainability reporting."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Integrity Matters Checklist is a UN-endorsed framework specifically designed to align corporate climate disclosures with the United Nations’ net-zero standards, ensuring that corporate net-zero claims are credible and standardized.",
+      "takeaway": "The Integrity Matters Checklist serves as a bridge between voluntary corporate sustainability reporting and rigorous UN-backed net-zero standards.",
+      "evidenceExcerpt": "The Global Reporting Initiative (GRI) launched the Integrity Matters Checklist, a UN-endorsed framework designed to align corporate climate disclosures with the United Nations’ net-zero standards."
+    }
+  ]
+}

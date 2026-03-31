@@ -1,0 +1,35 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-030-cloud-seeding-aqi-and-aerosols-section-002-national-air-quality-index-aqi",
+    "claimType": "Factual",
+    "claimText": "The National Air Quality Index (AQI) classifies air quality into exactly six categories ranging from Good to Severe.",
+    "evidenceExcerpt": "AQI categorizes air quality into six ranges: Good (0-50), Satisfactory (51-100), Moderate (101-200), Poor (201-300), Very Poor (300-400), and Severe (>400).",
+    "pageNumbers": [
+      62
+    ],
+    "examUse": "Statement-based question testing the number of AQI categories and the highest severity level.",
+    "distractorHooks": [
+      "AQI has 8 categories",
+      "The highest category is Hazardous",
+      "AQI has 4 categories"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-030-cloud-seeding-aqi-and-aerosols-section-002-national-air-quality-index-aqi",
+    "claimType": "Factual",
+    "claimText": "The National Air Quality Index (AQI) monitors exactly eight pollutants: PM10, PM2.5, NO2, SO2, CO, O3, NH3, and Pb.",
+    "evidenceExcerpt": "Monitored Pollutants: PM10, PM2.5, NO2, SO2, CO, O3, NH3, Pb.",
+    "pageNumbers": [
+      62
+    ],
+    "examUse": "Multiple-choice question asking to identify which greenhouse gases or pollutants are NOT part of the AQI.",
+    "distractorHooks": [
+      "Carbon dioxide (CO2)",
+      "Methane (CH4)",
+      "Volatile Organic Compounds (VOCs)",
+      "Chlorofluorocarbons (CFCs)"
+    ]
+  }
+]

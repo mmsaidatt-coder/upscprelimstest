@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the 'Sunbird' rocket, recently mentioned in the news:\n1. It is a nuclear fusion-powered rocket that uses a combination of helium-3 and deuterium as fuel.\n2. It employs a Dual Direct Fusion Drive (DDFD) technology that generates both thrust and electricity.\n3. It is being jointly developed by the European Space Agency (ESA) and the Indian Space Research Organisation (ISRO).\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Sunbird is a nuclear fusion-based rocket powered by a combination of helium-3 and deuterium.\nStatement 2 is correct: It uses Dual Direct Fusion Drive (DDFD) technology to generate both thrust and electricity, which can significantly reduce interplanetary travel times.\nStatement 3 is incorrect: It is being developed by private entities Pulsar Fusion (UK) and Princeton Satellite Systems (USA), not by ESA and ISRO.",
+      "takeaway": "The Sunbird rocket represents an advancement in deep space propulsion, utilizing nuclear fusion (helium-3 and deuterium) via a Dual Direct Fusion Drive to simultaneously produce thrust and electrical power.",
+      "evidenceExcerpt": "SUNBIRD. Sunbird, a nuclear fusion powered rocket could help reach Pluto in just 4 years as per reports... A nuclear fusion-based rocket being developed by Pulsar Fusion (UK) and Princeton Satellite Systems (USA). Powered by Dual Direct Fusion Drive (DDFD) technology. Using helium-3 and deuterium, DDFD generates both thrust and electricity...",
+      "qualityScore": 88,
+      "reviewNotes": "Converted to the latest UPSC 'How many statements' format. The distractors are plausible and test the core facts about the Sunbird rocket."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "With reference to space technology, what is the primary characteristic of the 'Dual Direct Fusion Drive (DDFD)' technology, recently seen in the news?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It utilizes solar radiation pressure to propel spacecraft without the need for onboard fuel."
+        },
+        {
+          "id": "B",
+          "text": "It uses nuclear fusion to simultaneously generate both propulsion thrust and electrical power for the spacecraft."
+        },
+        {
+          "id": "C",
+          "text": "It relies on the radioactive decay of plutonium-238 to provide continuous electricity for planetary rovers."
+        },
+        {
+          "id": "D",
+          "text": "It employs liquid hydrogen and oxygen to achieve the highest possible thrust-to-weight ratio for launch vehicles."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Dual Direct Fusion Drive (DDFD) is a nuclear fusion-based technology. As demonstrated in the Sunbird rocket project, it uses helium-3 and deuterium to generate both thrust for propulsion and electricity for spacecraft systems, significantly reducing interplanetary travel times.",
+      "takeaway": "Unlike traditional chemical rockets or RTGs (which only provide electricity via radioactive decay), DDFD leverages nuclear fusion to provide a dual-purpose solution: high-speed propulsion and onboard electrical power.",
+      "evidenceExcerpt": "Powered by Dual Direct Fusion Drive (DDFD) technology. Using helium-3 and deuterium, DDFD generates both thrust and electricity...",
+      "qualityScore": 85,
+      "reviewNotes": "Refined the options to represent distinct, real-world space propulsion technologies (Solar sails, RTGs, Chemical propulsion) to make the distractors highly plausible and educational."
+    }
+  ],
+  "reviewerNotes": "Both questions were rewritten to align with UPSC standards. The first question was updated to the 'How many statements are correct' format, testing factual knowledge of the Sunbird rocket. The second question was refined to test the conceptual understanding of DDFD technology, with distractors representing other real-world space technologies (solar sails, RTGs, chemical propulsion) to ensure plausibility."
+}

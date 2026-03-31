@@ -1,0 +1,52 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-010-national-mission-and-secure-communication-section-003-quantum-information-scrambling",
+    "claimType": "Conceptual",
+    "claimText": "Quantum information scrambling distributes data across a quantum system through entanglement, hiding the information globally rather than erasing it.",
+    "evidenceExcerpt": "Quantum information scrambling distributes data among particles through entanglement, hiding it globally. Information is not erased",
+    "pageNumbers": [
+      21,
+      22
+    ],
+    "examUse": "Statement-based question on the definition and mechanism of quantum information scrambling.",
+    "distractorHooks": [
+      "Information is permanently erased during scrambling",
+      "Information is hidden locally rather than globally",
+      "Information is spread via classical encryption rather than entanglement"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-010-national-mission-and-secure-communication-section-003-quantum-information-scrambling",
+    "claimType": "Factual",
+    "claimText": "Information subjected to quantum scrambling becomes inaccessible to local measurements.",
+    "evidenceExcerpt": "Information is not erased but becomes inaccessible to local measurements.",
+    "pageNumbers": [
+      21,
+      22
+    ],
+    "examUse": "Statement-based question on the properties and measurement of scrambled quantum information.",
+    "distractorHooks": [
+      "Information remains accessible to local measurements",
+      "Information can be easily read by classical computers locally"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-010-national-mission-and-secure-communication-section-003-quantum-information-scrambling",
+    "claimType": "Factual",
+    "claimText": "Google's quantum processor, Willow, achieved a ~13,000x speed-up over classical supercomputers to detect the Quantum Echoes algorithm and prove information retention.",
+    "evidenceExcerpt": "Google's quantum processor Willow achieved a ~13,000x speed-up over classical supercomputers, detecting the Quantum Echoes algorithm to prove information retention.",
+    "pageNumbers": [
+      21,
+      22
+    ],
+    "examUse": "Correct-pair or statement-based question matching the Willow processor to Google or its achievement in quantum computing.",
+    "distractorHooks": [
+      "Willow is a classical supercomputer",
+      "Willow was developed by IBM or Microsoft",
+      "Willow proved that quantum information is permanently erased"
+    ]
+  }
+]

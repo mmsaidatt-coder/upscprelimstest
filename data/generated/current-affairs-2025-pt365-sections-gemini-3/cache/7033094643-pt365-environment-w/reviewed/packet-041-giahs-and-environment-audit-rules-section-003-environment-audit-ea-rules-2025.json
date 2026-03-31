@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Assertion-Reason",
+      "prompt": "Given below are two statements, one labelled as Assertion (A) and the other as Reason (R):\n\nAssertion (A): The Environment Audit (EA) Rules, 2025 mark a shift from a purely regulator-driven review to a hybrid compliance mechanism.\nReason (R): The rules introduce a Tier-2 Environment auditor-based mechanism to complement the traditional Tier-1 review by the Central and State Pollution Control Boards.\n\nIn the context of the above two statements, which one of the following is correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both Assertion (A) and Reason (R) are correct and Reason (R) is the correct explanation for Assertion (A)."
+        },
+        {
+          "id": "B",
+          "text": "Both Assertion (A) and Reason (R) are correct but Reason (R) is not the correct explanation for Assertion (A)."
+        },
+        {
+          "id": "C",
+          "text": "Assertion (A) is correct but Reason (R) is incorrect."
+        },
+        {
+          "id": "D",
+          "text": "Assertion (A) is incorrect but Reason (R) is correct."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Assertion (A) is correct: The 2025 rules transition the environmental audit framework from relying solely on regulators (as introduced in 1992 with statements to SPCBs) to a hybrid model involving independent auditors. Reason (R) is correct and provides the valid explanation for the Assertion: The new framework is explicitly designed as a Two-Tiered System, where Tier-1 retains the government regulator review (CPCB/SPCB) and Tier-2 introduces an Environment auditor-based mechanism.",
+      "takeaway": "The EA Rules 2025 establish a Two-Tiered System that integrates independent environment auditors (Tier-2) alongside traditional government regulators (Tier-1), creating a hybrid compliance model.",
+      "evidenceExcerpt": "Introduced initially in 1992 under the Environment (Protection) Rules, requiring annual environmental statements to SPCBs. Features a Two-Tiered System: Tier-1 (CPCB/SPCB review) and Tier-2 (Environment auditor-based mechanism).",
+      "qualityScore": 85,
+      "reviewNotes": "A strong analytical question that requires synthesizing the historical context (1992 SPCB review) with the new two-tiered framework to understand the 'hybrid' nature of the 2025 rules."
+    }
+  ],
+  "reviewerNotes": "Selected 3 distinct questions to ensure comprehensive coverage of the source text without overlapping concepts. Question 1 covers the statutory backing and institutional framework (EADA/Tiers). Question 2 tests the conceptual difference between EA and EIA alongside the historical origin. Question 3 is a higher-order analytical Assertion-Reason question evaluating the structural shift in the compliance mechanism. All questions have been rewritten to match UPSC Prelims standards with plausible distractors and precise wording."
+}

@@ -1,0 +1,107 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of sectors and their corresponding Foreign Direct Investment (FDI) entry routes in India:\n\n1. Insurance : Automatic Route\n2. Gambling : Government Route\n3. Atomic energy : Prohibited\n4. Telecom : Automatic Route\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [
+        "About 90% of FDI is under the Automatic Route (e.g., Agriculture, Telecom, Insurance).",
+        "The Government Route requires prior approval.",
+        "FDI is prohibited in lottery, gambling, chit funds, Nidhi companies, atomic energy, and railway operations."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "Only three pairs"
+        },
+        {
+          "id": "D",
+          "text": "All four pairs"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Pair 1 is correctly matched: FDI in Insurance is permitted under the Automatic Route. Pair 2 is incorrectly matched: FDI in gambling is strictly prohibited, not permitted under the Government Route. Pair 3 is correctly matched: FDI in atomic energy is strictly prohibited. Pair 4 is correctly matched: FDI in Telecom is permitted under the Automatic Route. Hence, exactly three pairs are correctly matched.",
+      "takeaway": "While most sectors fall under the Automatic Route, sensitive sectors like atomic energy, gambling, and lottery businesses are strictly prohibited from receiving any FDI.",
+      "evidenceExcerpt": "About 90% of FDI is under the Automatic Route (e.g., Agriculture, Telecom, Insurance)... FDI is prohibited in lottery, gambling, chit funds, Nidhi companies, atomic energy, and railway operations.",
+      "qualityScore": 90,
+      "reviewNotes": "Excellent application of the 'How many pairs' format. Tests both the automatic route examples and the prohibited sectors effectively."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the trends in India's Foreign Direct Investment (FDI) during 2024-25:\n\n1. The combined share of FDI inflows from Mauritius and the United States exceeded the share of FDI inflows from Singapore.\n2. The Services sector accounted for nearly one-fifth of the total FDI inflows into the country.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [
+        "Top FDI source countries in 2024-25 were Singapore (30%), Mauritius (17%), and the USA (11%), with the Services sector receiving the highest share (19%)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: In 2024-25, Singapore was the top source country for FDI inflows, accounting for 30%. The combined share of Mauritius (17%) and the USA (11%) was 28%, which is less than Singapore's share. Statement 2 is correct: The Services sector received the highest share of FDI inflows at 19%, which is nearly one-fifth (20%) of the total inflows.",
+      "takeaway": "Singapore remains the dominant source of FDI for India, significantly outpacing other major sources like Mauritius and the USA. The Services sector continues to be the primary magnet for foreign capital.",
+      "evidenceExcerpt": "Top FDI source countries in 2024-25 were Singapore (30%), Mauritius (17%), and the USA (11%), with the Services sector receiving the highest share (19%).",
+      "qualityScore": 88,
+      "reviewNotes": "Very UPSC-like analytical statement. Instead of just asking for the top country, it forces the candidate to evaluate the relative weight of the top three sources."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to Foreign Direct Investment (FDI) in India, consider the following statements:\n\n1. Net FDI is calculated by deducting only the outward FDI by Indian firms from the gross inward FDI flows.\n2. Under the automatic route, foreign investors do not require prior approval from either the Government of India or the Reserve Bank of India.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [
+        "Net FDI is the difference between inward FDI flows and outward FDI flows (repatriation plus outward FDI by Indian firms).",
+        "Approximately 90 percent of FDI in India is under the automatic route, which does not require prior RBI or Central Government approval."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Net FDI is the difference between inward FDI flows and outward FDI flows. Outward FDI flows include both the repatriation of capital by foreign investors and outward FDI by Indian firms, not just the latter. Statement 2 is correct: Approximately 90 percent of FDI in India is under the automatic route, which does not require prior RBI or Central Government approval.",
+      "takeaway": "Net FDI accounts for both outward FDI by domestic firms and the repatriation of capital by foreign investors. The automatic route bypasses the need for prior RBI and Government approval.",
+      "evidenceExcerpt": "Net FDI is the difference between inward FDI flows and outward FDI flows (repatriation plus outward FDI by Indian firms). Approximately 90 percent of FDI in India is under the automatic route, which does not require prior RBI or Central Government approval.",
+      "qualityScore": 85,
+      "reviewNotes": "Strong conceptual question. The distractor in statement 1 is subtle and tests the candidate's precise understanding of what constitutes outward flows in the context of Net FDI."
+    }
+  ],
+  "reviewerNotes": "Selected 4 high-quality questions that cover distinct aspects of the provided text: FDI entry routes and prohibited sectors, the conceptual definition of Net FDI, analytical trends of FDI inflows, and the statutory framework governing FDI. The questions have been refined to match the tone, complexity, and formatting of the UPSC CSE Prelims."
+}

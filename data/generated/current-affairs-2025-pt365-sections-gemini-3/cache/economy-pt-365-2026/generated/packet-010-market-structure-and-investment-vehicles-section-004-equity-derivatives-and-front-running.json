@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the financial markets, consider the following statements regarding 'Front Running': 1. It is a legal hedging strategy employed by institutional investors to mitigate portfolio risks. 2. It involves trading in securities based on advanced non-public information about an impending large transaction. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Front Running is an illegal market manipulation practice, not a legal hedging strategy. Statement 2 is correct: It involves purchasing a security based on advanced non-public information regarding an expected large transaction, which undermines market integrity.",
+      "takeaway": "Front running is an illegal practice that undermines market integrity by exploiting non-public information about large pending trades.",
+      "evidenceExcerpt": "Front Running is an illegal market manipulation practice where a security is purchased based on advanced non-public information regarding an expected large transaction, undermining market integrity."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Derivatives' in the financial markets: 1. They are financial instruments that possess an intrinsic value independent of any underlying asset. 2. Their underlying assets are restricted exclusively to equity shares and government securities. 3. Futures and Options are common examples of equity derivative products. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect: A derivative is a financial instrument whose value is derived from an underlying asset; it does not have independent intrinsic value. Statement 2 is incorrect: Underlying assets are not restricted to equity and government securities; they also include metals, commodities, and currencies. Statement 3 is correct: Futures and Options are the most commonly-traded equity derivatives products. Therefore, only one statement is correct.",
+      "takeaway": "Derivatives derive their value from various underlying assets (equity, metals, currencies), with Futures and Options being the most common equity derivatives.",
+      "evidenceExcerpt": "A Derivative is a financial instrument whose value is derived from an underlying asset like equity, metals, or currencies. Futures and Options are common equity derivatives."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Application",
+      "prompt": "Which of the following scenarios best illustrates the illegal market practice of 'Front Running'?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A corporate executive selling their shares just before the company releases a poor quarterly earnings report."
+        },
+        {
+          "id": "B",
+          "text": "A stockbroker executing personal buy orders for a stock just before placing a massive institutional buy order for the same stock."
+        },
+        {
+          "id": "C",
+          "text": "A group of traders colluding to buy and sell a stock among themselves to artificially inflate its trading volume."
+        },
+        {
+          "id": "D",
+          "text": "An algorithmic trader using high-speed networks to exploit minuscule price differences of a stock across two different exchanges."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Front running involves purchasing a security based on advanced non-public information regarding an expected large transaction. Option B perfectly illustrates this, where a broker uses the non-public knowledge of an impending massive institutional order to profit personally. Option A describes insider trading, Option C describes circular trading or wash sales, and Option D describes arbitrage.",
+      "takeaway": "Front running is a specific type of market manipulation where a party exploits advanced, non-public knowledge of a large pending transaction to trade for their own account ahead of that transaction.",
+      "evidenceExcerpt": "Front Running is an illegal market manipulation practice where a security is purchased based on advanced non-public information regarding an expected large transaction, undermining market integrity."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Concept-Mapping",
+      "prompt": "Derivative instruments derive their value from an underlying asset. Based on this mechanism, derivatives can theoretically be structured and traded in which of the following markets?\n1. Foreign Exchange Market\n2. Commodities Market\n3. Equity Market\n\nSelect the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Derivatives are financial instruments whose value is derived from underlying assets. These underlying assets can broadly include equities (traded in the Equity Market), metals and other physical goods (traded in the Commodities Market), and currencies (traded in the Foreign Exchange Market).",
+      "takeaway": "The underlying assets for derivatives are highly diverse and are not restricted to just corporate stocks; they extend to metals, agricultural products, and foreign currencies.",
+      "evidenceExcerpt": "A Derivative is a financial instrument whose value is derived from an underlying asset like equity, metals, or currencies."
+    }
+  ]
+}

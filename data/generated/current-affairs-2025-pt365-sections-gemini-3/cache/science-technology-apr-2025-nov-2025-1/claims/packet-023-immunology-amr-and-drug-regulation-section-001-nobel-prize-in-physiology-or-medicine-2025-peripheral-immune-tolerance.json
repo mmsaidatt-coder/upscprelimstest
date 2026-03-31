@@ -1,0 +1,83 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-023-immunology-amr-and-drug-regulation-section-001-nobel-prize-in-physiology-or-medicine-2025-peripheral-immune-tolerance",
+    "claimType": "Factual",
+    "claimText": "The 2025 Nobel Prize in Physiology or Medicine was awarded for discoveries concerning peripheral immune tolerance.",
+    "evidenceExcerpt": "Mary E. Brunkow, Fred Ramsdell and Shimon Sakaguchi have been awarded Nobel Prize in Physiology or Medicine 2025 for their discoveries concerning peripheral immune tolerance.",
+    "pageNumbers": [
+      46
+    ],
+    "examUse": "Statement-based question on recent Nobel prizes in science.",
+    "distractorHooks": [
+      "Central immune tolerance",
+      "mRNA vaccines",
+      "CRISPR-Cas9"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-023-immunology-amr-and-drug-regulation-section-001-nobel-prize-in-physiology-or-medicine-2025-peripheral-immune-tolerance",
+    "claimType": "Conceptual",
+    "claimText": "Central immune tolerance occurs in the thymus, where T cells are produced and trained.",
+    "evidenceExcerpt": "Central Tolerance happens in the thymus, a small gland in the lymphatic system that produces and trains T cells.",
+    "pageNumbers": [
+      46
+    ],
+    "examUse": "Correct-pair or statement-based question distinguishing central vs. peripheral tolerance.",
+    "distractorHooks": [
+      "Bone marrow",
+      "Spleen",
+      "Peripheral tolerance"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-023-immunology-amr-and-drug-regulation-section-001-nobel-prize-in-physiology-or-medicine-2025-peripheral-immune-tolerance",
+    "claimType": "Conceptual",
+    "claimText": "Peripheral immune tolerance relies on Regulatory T cells (Treg cells) to identify and stop self-reactive T cells from attacking the body's own tissues.",
+    "evidenceExcerpt": "Peripheral Tolerance uses Regulatory T cells (Treg cells) to identify self-reactive T cells and stop them from attacking our own tissues.",
+    "pageNumbers": [
+      46
+    ],
+    "examUse": "Statement-based question on the function of Treg cells or peripheral tolerance.",
+    "distractorHooks": [
+      "B cells",
+      "Macrophages",
+      "Central tolerance",
+      "Thymus"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-023-immunology-amr-and-drug-regulation-section-001-nobel-prize-in-physiology-or-medicine-2025-peripheral-immune-tolerance",
+    "claimType": "Factual",
+    "claimText": "The FOXP3 gene controls the development and function of regulatory T cells (Treg cells).",
+    "evidenceExcerpt": "Mary Brunkow and Fred Ramsdell discovered the FOXP3 gene, which controls the development and function of regulatory T cells.",
+    "pageNumbers": [
+      46
+    ],
+    "examUse": "Statement-based question on genetics of the immune system.",
+    "distractorHooks": [
+      "Controls B cells",
+      "Controls red blood cells",
+      "BRCA1 gene"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-023-immunology-amr-and-drug-regulation-section-001-nobel-prize-in-physiology-or-medicine-2025-peripheral-immune-tolerance",
+    "claimType": "Factual",
+    "claimText": "A mutation in the FOXP3 gene prevents the proper formation of regulatory T cells, leading to a rare autoimmune disease called IPEX.",
+    "evidenceExcerpt": "If there is a mutation in the FOXP3 gene, regulatory T cells do not form properly, causing a rare autoimmune disease called IPEX.",
+    "pageNumbers": [
+      46
+    ],
+    "examUse": "Correct-pair question (Disease vs. Gene mutation) or statement-based question on autoimmune diseases.",
+    "distractorHooks": [
+      "Immunodeficiency disease",
+      "Caused by viral infection",
+      "Mutation in BRCA gene"
+    ]
+  }
+]

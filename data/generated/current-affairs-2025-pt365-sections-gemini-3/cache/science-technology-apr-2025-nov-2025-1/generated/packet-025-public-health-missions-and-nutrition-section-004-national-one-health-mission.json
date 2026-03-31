@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the National One Health Mission (NOHM): 1. It is a multi-sectorial initiative integrating human, livestock, wildlife, and environmental health. 2. It is anchored by the Indian Council of Medical Research (ICMR) under the Office of the Principal Scientific Adviser. 3. Curbing Antimicrobial Resistance (AMR) is outside the purview of this mission as it is handled by a separate dedicated national action plan. How many of the above statements are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: NOHM is a multi-sectorial initiative integrating human, livestock, wildlife, and environmental health. Statement 2 is correct: The mission is anchored by the Indian Council of Medical Research (ICMR) under the Office of the Principal Scientific Adviser (PSA). Statement 3 is incorrect: Addressing Antimicrobial Resistance (AMR) is explicitly one of the critical needs addressed by the mission, alongside zoonotic risk mitigation and pandemic preparedness.",
+      "takeaway": "The National One Health Mission is a holistic approach anchored by ICMR under the PSA, explicitly targeting zoonotic risks, pandemic preparedness, and Antimicrobial Resistance (AMR).",
+      "evidenceExcerpt": "A multi-sectorial initiative integrating human, livestock, wildlife and environmental health... Nodal Agency: Anchored by Indian Council of Medical Research (ICMR) under Office of the Principal Scientific Adviser (PSA)... The mission addresses needs such as Zoonotic Risk Mitigation, Pandemic Preparedness, and curbing Antimicrobial Resistance (AMR).",
+      "contextLines": []
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the institutional framework of the National One Health Mission, consider the following statements: 1. The mission is directly anchored by the Ministry of Environment, Forest and Climate Change to emphasize wildlife and environmental health. 2. The National Institute of One Health, which serves as the anchor institution for the mission, is located in Nagpur. Which of the statements given above is/are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The mission is anchored by the Indian Council of Medical Research (ICMR) under the Office of the Principal Scientific Adviser (PSA), not the Ministry of Environment, Forest and Climate Change. Statement 2 is correct: The Anchor Institution is the National Institute of One Health, located in Nagpur.",
+      "takeaway": "The institutional framework of NOHM relies on ICMR under the PSA as the nodal agency, with the National Institute of One Health in Nagpur as the anchor institution.",
+      "evidenceExcerpt": "Nodal Agency: Anchored by Indian Council of Medical Research (ICMR) under Office of the Principal Scientific Adviser (PSA). Anchor Institution: National Institute of One Health, Nagpur.",
+      "contextLines": []
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "Which of the following best describes the core rationale behind the \"One Health\" approach recently institutionalized through the National One Health Mission (NOHM)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It seeks to merge the administrative functions of medical, veterinary, and environmental ministries into a single overarching department."
+        },
+        {
+          "id": "B",
+          "text": "It recognizes the interconnectedness of human, animal, and environmental health to strengthen coordinated surveillance and outbreak response."
+        },
+        {
+          "id": "C",
+          "text": "It aims to shift the primary focus of national healthcare funding from human curative medicine to wildlife conservation."
+        },
+        {
+          "id": "D",
+          "text": "It focuses exclusively on mitigating non-communicable diseases by improving environmental parameters like air and water quality."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The One Health approach is an integrated, unifying approach to balance and optimize the health of people, animals, and the environment. It is a multi-sectorial initiative integrating human, livestock, wildlife, and environmental health to strengthen coordinated surveillance, diagnostics, and outbreak response.",
+      "takeaway": "One Health represents a paradigm shift from isolated human health management to an integrated approach that actively recognizes the human-animal-environment interface.",
+      "evidenceExcerpt": "One Health is an integrated, unifying approach to balance and optimize the health of people, animals and the environment. A multi-sectorial initiative integrating human, livestock, wildlife and environmental health to strengthen coordinated surveillance, diagnostics and outbreak response."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-Statement",
+      "prompt": "The National One Health Mission (NOHM) is designed to address multiple interconnected public health challenges. Which of the following areas of intervention fall under the operational scope of this integrated approach?\n1. Curbing Antimicrobial Resistance (AMR)\n2. Zoonotic Risk Mitigation\n3. Coordinated diagnostics for wildlife and livestock\nSelect the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "The National One Health Mission addresses interconnected needs such as Zoonotic Risk Mitigation, Pandemic Preparedness, and curbing Antimicrobial Resistance (AMR). It also focuses on integrating human, livestock, wildlife, and environmental health to strengthen coordinated surveillance and diagnostics.",
+      "takeaway": "NOHM's scope extends beyond human pandemics to include AMR, zoonotic risks, and diagnostics across animal populations.",
+      "evidenceExcerpt": "A multi-sectorial initiative integrating human, livestock, wildlife and environmental health to strengthen coordinated surveillance, diagnostics and outbreak response... The mission addresses needs such as Zoonotic Risk Mitigation, Pandemic Preparedness, and curbing Antimicrobial Resistance (AMR)."
+    }
+  ]
+}

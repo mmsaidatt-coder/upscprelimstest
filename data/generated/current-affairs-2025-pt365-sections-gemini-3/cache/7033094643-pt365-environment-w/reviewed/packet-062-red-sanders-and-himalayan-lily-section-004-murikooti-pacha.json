@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Murikooti Pacha' (Red ivy plant), recently seen in the news:\n1. It is a tropical plant species endemic to the Indian subcontinent.\n2. It is traditionally known as 'Vranaropani' in Sanskrit literature.\n3. Its wound-healing properties are attributed to a natural compound called acteoside.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Murikooti Pacha is native to Southeast Asia and is found in other tropical regions, including India. It is not endemic to the Indian subcontinent.\nStatement 2 is correct: The plant is traditionally known as 'Vranaropani' in Sanskrit, reflecting its historical use as a wound healer.\nStatement 3 is correct: Indian researchers have harnessed its wound-healing potential, which is linked to 'acteoside', a natural compound known for its therapeutic properties.",
+      "takeaway": "Murikooti Pacha (Red ivy) is a tropical plant native to Southeast Asia. Known as 'Vranaropani' in Sanskrit, it contains acteoside, a compound with significant wound-healing potential.",
+      "evidenceExcerpt": "Indian researchers harnessed its wound-healing potential. Native to Southeast Asia, also found in other tropical regions including India. Red ivy plant, also known as Vranaropani in Sanskrit. Wound-healing pad containing, acteoside, a natural compound known for therapeutic potential.",
+      "qualityScore": 85,
+      "reviewNotes": "Upgraded Candidate 3 to a 3-statement 'How many' format, incorporating the active compound 'acteoside' to make it a comprehensive question on the species."
+    }
+  ],
+  "reviewerNotes": "Selected and refined Candidate 3 to match the recent UPSC 'How many statements are correct' format. Combined geographical distribution, traditional nomenclature, and scientific properties into a single, well-rounded question."
+}

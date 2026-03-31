@@ -1,0 +1,178 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding \"Transposable Elements\":\n1. They are extrachromosomal RNA sequences that transfer genetic information between cells.\n2. They make up more than half of the human genome.\n3. They are capable of altering gene expression by physically relocating within the genome.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Transposable elements (jumping genes) are DNA sequences, not extrachromosomal RNA, and they move from one location to another within the genome.\nStatement 2 is correct: More than 50% of the human genome is composed of transposable elements.\nStatement 3 is correct: Jumping genes affect gene expression and can cause mutations by cutting and pasting or copying themselves to new locations.",
+      "takeaway": "Transposable elements are DNA sequences that constitute over 50% of the human genome. They move across the genome, which can alter gene expression and induce mutations.",
+      "evidenceExcerpt": "Jumping Genes, or Transposable Elements, are DNA sequences that move across the genome, affecting gene expression by cutting and pasting or copying themselves. They can cause mutations and make up more than 50% of the human genome."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Conceptual",
+      "prompt": "With reference to genetics, what is \"LINE-1\", sometimes mentioned in the news?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A synthetic cloning vector utilized in recombinant DNA technology"
+        },
+        {
+          "id": "B",
+          "text": "A jumping gene that binds to cellular DNA during brief periods of cell division"
+        },
+        {
+          "id": "C",
+          "text": "A CRISPR-associated protein used for targeted gene editing"
+        },
+        {
+          "id": "D",
+          "text": "A specialized RNA molecule that transports amino acids to the ribosome"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "LINE-1 is a type of jumping gene (transposable element) that binds to cellular DNA during brief periods of cell division.",
+      "takeaway": "LINE-1 is a well-known example of a transposable element in the human genome, characterized by its ability to bind to cellular DNA during cell division.",
+      "evidenceExcerpt": "LINE-1 is a jumping gene that binds to cellular DNA during brief periods of cell division."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Assertion-Reason",
+      "prompt": "Given below are two statements, one labelled as Assertion (A) and the other as Reason (R): Assertion (A): The activity of transposable elements within a genome can lead to genetic mutations and alter gene expression. Reason (R): Transposable elements possess the ability to physically excise themselves and insert into new locations, or duplicate themselves across the genome. In the context of the above statements, which one of the following is correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both Assertion (A) and Reason (R) are correct and Reason (R) is the correct explanation for Assertion (A)."
+        },
+        {
+          "id": "B",
+          "text": "Both Assertion (A) and Reason (R) are correct but Reason (R) is not the correct explanation for Assertion (A)."
+        },
+        {
+          "id": "C",
+          "text": "Assertion (A) is correct but Reason (R) is incorrect."
+        },
+        {
+          "id": "D",
+          "text": "Assertion (A) is incorrect but Reason (R) is correct."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Assertion (A) is correct because jumping genes (transposable elements) can cause mutations and affect gene expression. Reason (R) is also correct and explains Assertion (A), as the mechanism of cutting and pasting or copying themselves to new locations is precisely what disrupts or alters the genetic sequence, leading to these mutations and changes in expression.",
+      "takeaway": "Transposable elements drive genetic variation and potential mutations by physically relocating or duplicating within the genome.",
+      "evidenceExcerpt": "Jumping Genes, or Transposable Elements, are DNA sequences that move across the genome, affecting gene expression by cutting and pasting or copying themselves. They can cause mutations"
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the transposable element 'LINE-1': 1. It is a synthetic cloning vector utilized to introduce foreign DNA into human cells. 2. It interacts with cellular DNA primarily during brief periods of cell division. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: LINE-1 is a naturally occurring jumping gene (transposable element) within the genome, not a synthetic cloning vector. Statement 2 is correct: LINE-1 binds to cellular DNA during brief periods of cell division.",
+      "takeaway": "LINE-1 is a naturally occurring transposable element that becomes active and binds to cellular DNA during cell division.",
+      "evidenceExcerpt": "LINE-1 is a jumping gene that binds to cellular DNA during brief periods of cell division."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Conceptual",
+      "prompt": "In the context of genomics, which of the following best describes the functional consequence of a 'cut and paste' transposable element mobilizing within a host cell?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It permanently exits the host genome to function as an independent extrachromosomal plasmid."
+        },
+        {
+          "id": "B",
+          "text": "It relocates to a new genomic position, potentially disrupting an existing gene sequence and causing a mutation."
+        },
+        {
+          "id": "C",
+          "text": "It degrades adjacent host genes to synthesize viral proteins for intercellular transport."
+        },
+        {
+          "id": "D",
+          "text": "It stabilizes the genome by repairing damaged DNA sequences during cell division."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Transposable elements (jumping genes) move across the genome by cutting and pasting themselves. When they insert into a new location, they can interrupt functional gene sequences, thereby affecting gene expression and causing mutations. They do not exit as plasmids, degrade adjacent genes for viral transport, or inherently repair DNA.",
+      "takeaway": "The 'cut and paste' mechanism of transposable elements involves physical relocation within the genome, which can disrupt normal gene function and induce mutations.",
+      "evidenceExcerpt": "Jumping Genes, or Transposable Elements, are DNA sequences that move across the genome, affecting gene expression by cutting and pasting or copying themselves. They can cause mutations"
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the composition and dynamics of the human genome: 1. Transposable elements constitute a minor fraction, accounting for less than 2 percent of the human genome. 2. Transposable elements can propagate by copying themselves to new locations within the genome. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Transposable elements make up more than 50% of the human genome, not a minor fraction. Statement 2 is correct: They move across the genome by either physically cutting and pasting or copying themselves to new locations.",
+      "takeaway": "Transposable elements are a major component of the human genome (over 50%) and can spread by copying themselves to new genomic locations.",
+      "evidenceExcerpt": "They move by either physically cutting and pasting or copying themselves to new locations. More than 50% of the human genome is composed of transposable elements."
+    }
+  ]
+}

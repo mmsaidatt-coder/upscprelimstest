@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding methane as a greenhouse gas:\n1. It has a shorter atmospheric lifespan but a higher warming potency over a 20-year period compared to carbon dioxide.\n2. Anthropogenic activities account for more than half of the total global methane emissions.\n3. Among natural sources, permafrost thawing is the largest contributor to global methane emissions.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Methane persists in the atmosphere for only 7-12 years (shorter than CO2) but is over 80 times more potent than CO2 over a 20-year period. Statement 2 is correct: 60% of methane emissions are human-driven (e.g., agriculture, fossil fuels, landfills). Statement 3 is incorrect: Wetlands, not permafrost thawing, constitute the largest natural source of methane emissions.",
+      "takeaway": "Methane is a highly potent but short-lived greenhouse gas. Human activities drive 60% of its emissions, while wetlands are the primary natural source.",
+      "evidenceExcerpt": "Methane is over 80 times more potent than CO2 over 20 years, but persists for only 7-12 years. 60% of emissions are human-driven (agriculture, fossil fuels, landfills), while wetlands are the largest natural source.",
+      "qualityScore": 88,
+      "reviewNotes": "Strong conceptual question comparing methane to CO2 and testing knowledge of its emission sources. The 'permafrost' distractor is highly plausible for UPSC aspirants."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Climate and Clean Air Coalition (CCAC), consider the following statements:\n1. It is an initiative convened within the United Nations Environment Programme (UNEP).\n2. It specifically targets short-lived climate pollutants such as black carbon, hydrofluorocarbons (HFCs), and tropospheric ozone.\n3. India is a founding member of this coalition.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The CCAC was founded in 2012 and is convened within UNEP. Statement 2 is correct: The coalition's mandate is to target short-lived climate pollutants (SLCPs), including methane, black carbon, HFCs, and tropospheric ozone. Statement 3 is incorrect: The CCAC was founded in 2012, but India joined the coalition later in 2019, not as a founding member.",
+      "takeaway": "The CCAC operates under UNEP to target short-lived climate pollutants (SLCPs). India is a member but joined in 2019.",
+      "evidenceExcerpt": "CCAC (founded 2012, convened within UNEP) targets short-lived climate pollutants: methane, black carbon, HFCs, and tropospheric ozone; India joined in 2019.",
+      "qualityScore": 85,
+      "reviewNotes": "Rewritten to match UPSC's standard statement-based format. The distractors are plausible and directly test the candidate's knowledge of India's involvement and the specific pollutants targeted."
+    }
+  ],
+  "reviewerNotes": "Selected three high-quality questions that cover distinct aspects of the source text: the CCAC's mandate and India's membership, the scientific properties and sources of methane, and India's specific emission profile alongside the Global Methane Status Report. Rewrote the prompts and options to strictly adhere to the UPSC 'How many statements are correct' format, ensuring distractors are plausible and explanations are tightly aligned with the source evidence."
+}

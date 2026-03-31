@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Species Identification",
+      "prompt": "Consider the following description of a plant species: 'It is a deciduous shrub well-adapted to cold, high-altitude areas. It acts as a pioneer species for soil improvement, wind and sand control, and water conservation. Recently, its seeds grown in Ladakh were part of experiments on board the International Space Station.' Which of the following species is described in the paragraph given above?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Sea Buckthorn"
+        },
+        {
+          "id": "B",
+          "text": "Himalayan Yew"
+        },
+        {
+          "id": "C",
+          "text": "Rhododendron"
+        },
+        {
+          "id": "D",
+          "text": "Juniper macropoda"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "The paragraph accurately describes Sea Buckthorn. It is a deciduous shrub/tree adapted to cold, high-altitude regions like Ladakh. It is ecologically significant as a pioneer species for soil and water conservation, and its seeds were recently flown by NASA's Crew-11 mission for ISS experiments.",
+      "takeaway": "Sea Buckthorn is ecologically vital in cold deserts for preventing soil erosion and has high nutritional/medicinal value, making it a subject of recent space experiments.",
+      "evidenceExcerpt": "Its seeds grown in Ladakh are part of experiments on board the International Space Station flown by NASA's Crew-11 mission. Deciduous shrub/tree; Well-adapted to live in cold areas of high altitude. Significance: Pioneer species for soil improvement, wind & sand control, and soil & water conservation"
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to 'Sea Buckthorn', consider the following statements: 1. It is an evergreen tree endemic to the tropical rainforests of the Western Ghats. 2. It acts as a pioneer species that aids in wind and sand control. 3. Its seeds have been utilized in experiments aboard the International Space Station. How many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: Sea Buckthorn is a deciduous shrub/tree well-adapted to cold areas of high altitude (such as Ladakh), not tropical rainforests. Statement 2 is correct: It serves as a pioneer species for soil improvement, wind and sand control, and soil and water conservation. Statement 3 is correct: Its seeds grown in Ladakh were part of experiments on board the International Space Station.",
+      "takeaway": "Sea Buckthorn is a deciduous, high-altitude plant known for its ecological utility as a pioneer species and its recent use in space research.",
+      "evidenceExcerpt": "Its seeds grown in Ladakh are part of experiments on board the International Space Station flown by NASA's Crew-11 mission. Deciduous shrub/tree; Well-adapted to live in cold areas of high altitude. Significance: Pioneer species for soil improvement, wind & sand control, and soil & water conservation"
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice",
+      "prompt": "Which of the following best describes the ecological rationale for utilizing Sea Buckthorn in the environmental restoration of cold, high-altitude regions like Ladakh?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It is an evergreen climax species that provides dense canopy cover to stabilize mature alpine forests."
+        },
+        {
+          "id": "B",
+          "text": "It is a deciduous pioneer species that improves soil quality and controls wind-blown sand."
+        },
+        {
+          "id": "C",
+          "text": "It is a deep-rooted invasive species introduced to aggressively outcompete water-depleting native flora."
+        },
+        {
+          "id": "D",
+          "text": "It is a parasitic shrub utilized as a biological control agent against herbivorous pests in cold deserts."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Sea Buckthorn is a deciduous shrub/tree well-adapted to cold, high-altitude areas. It is ecologically significant as a pioneer species for soil improvement, wind and sand control, and soil and water conservation, making it ideal for restoring degraded cold desert landscapes.",
+      "takeaway": "Sea Buckthorn acts as a pioneer species in cold deserts, meaning it is among the first to colonize barren environments, improving soil and controlling erosion to pave the way for other species.",
+      "evidenceExcerpt": "Deciduous shrub/tree; Well-adapted to live in cold areas of high altitude. Significance: Pioneer species for soil improvement, wind & sand control, and soil & water conservation"
+    }
+  ]
+}

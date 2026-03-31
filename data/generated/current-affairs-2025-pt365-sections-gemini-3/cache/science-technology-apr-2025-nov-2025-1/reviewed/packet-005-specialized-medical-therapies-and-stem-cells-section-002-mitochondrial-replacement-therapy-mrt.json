@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Applied Concept",
+      "prompt": "A couple seeks genetic counseling before planning a family. The father suffers from a known mitochondrial disease, while the mother has healthy mitochondria. If they conceive a child naturally, which of the following is the most scientifically accurate outcome regarding the transmission of the disease?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The child has a 50 percent chance of inheriting the disease due to random segregation of chromosomes."
+        },
+        {
+          "id": "B",
+          "text": "The child will not inherit the disease because mitochondrial DNA is exclusively transmitted through the maternal lineage."
+        },
+        {
+          "id": "C",
+          "text": "The child will inherit the disease but will remain an asymptomatic carrier throughout life."
+        },
+        {
+          "id": "D",
+          "text": "The child will inherit the disease as mitochondrial genetic defects are dominant over nuclear DNA."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Mitochondrial diseases are exclusively inherited from the child's mother. Because the sperm contributes virtually no mitochondria to the fertilized egg, the father's mitochondrial disease cannot be transmitted to the child. Since the mother in this scenario has healthy mitochondria, the child will not inherit the disease.",
+      "takeaway": "Mitochondria are inherited solely from the mother via the ovum, making mitochondrial diseases exclusively maternally inherited.",
+      "evidenceExcerpt": "Mitochondrial diseases are exclusively inherited from the child's mother.",
+      "qualityScore": 90,
+      "reviewNotes": "Excellent applied question that tests a core biological concept in a practical, clinical scenario, highly characteristic of UPSC Prelims."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the techniques used in Mitochondrial Replacement Therapy (MRT), consider the following statements:\n1. In Pronuclear Transfer (PNT), the transfer of genetic material is performed after the fertilization of the egg.\n2. In Maternal Spindles Transfer (MST), the transfer of genetic material is performed before the fertilization of the egg.\n3. Both techniques result in an embryo containing nuclear DNA from the parents and mitochondrial DNA from a donor.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: Pronuclear Transfer (PNT) is conducted after fertilization. Statement 2 is correct: Maternal Spindles Transfer (MST) is conducted before fertilization. Statement 3 is correct: Both are MRT techniques that combine the parents' nuclear material with a donor's healthy mitochondria to create a 'Three-Parent Baby', preventing the transmission of mitochondrial diseases.",
+      "takeaway": "MRT encompasses distinct techniques based on the timing of fertilization (PNT post-fertilization and MST pre-fertilization) to prevent maternal transmission of mitochondrial diseases.",
+      "evidenceExcerpt": "MRT combines parents' nuclear material with a donor's healthy mitochondria. The child born has three distinct genetic materials, termed a Three-Parent Baby. Techniques include Pronuclear Transfer (done after fertilization) and Maternal Spindles Transfer (done before fertilization).",
+      "qualityScore": 85,
+      "reviewNotes": "Strong factual question that tests the specific nuances of MRT techniques. The 'How many statements' format increases the difficulty appropriately."
+    }
+  ],
+  "reviewerNotes": "Selected 4 high-quality questions covering different dimensions of Mitochondrial Replacement Therapy (MRT) and mitochondrial biology. Rewrote the questions to align with current UPSC formats, including an applied concept question, a Statement-I/Statement-II question, and two 'How many statements are correct' questions. Distractors were refined to be highly plausible and scientifically rigorous."
+}

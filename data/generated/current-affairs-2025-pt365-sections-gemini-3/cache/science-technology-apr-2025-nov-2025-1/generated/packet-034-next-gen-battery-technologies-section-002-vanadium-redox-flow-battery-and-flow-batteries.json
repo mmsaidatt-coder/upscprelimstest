@@ -1,0 +1,125 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Multiple-Choice",
+      "prompt": "Consider the following battery systems:",
+      "contextLines": [
+        "1. Vanadium Redox",
+        "2. Zinc-Bromine",
+        "3. Iron-Salt",
+        "4. Nickel-Cadmium"
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Vanadium Redox, Zinc-Bromine, and Iron-Salt/Organic systems are types of flow batteries. Nickel-Cadmium is a conventional solid-electrode rechargeable battery, not a flow battery.",
+      "takeaway": "Major types of flow batteries include Vanadium Redox, Zinc-Bromine, and Iron-Salt systems.",
+      "evidenceExcerpt": "Types include Vanadium Redox, Zinc-Bromine, and Iron-Salt/Organic systems."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "With reference to the working mechanism of Vanadium Redox Flow Batteries (VRFB), which of the following statements is correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "They generate electricity through the physical combustion of vanadium in a sealed chamber."
+        },
+        {
+          "id": "B",
+          "text": "They use a solid-state electrolyte to facilitate the transfer of electrons between electrodes."
+        },
+        {
+          "id": "C",
+          "text": "They are powered by reduction-oxidation reactions involving two different liquid electrolytes passing ions through a porous membrane."
+        },
+        {
+          "id": "D",
+          "text": "They rely on the continuous consumption of porous membranes to sustain energy output."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Flow batteries, including VRFBs, are powered by reduction-oxidation (redox) reactions involving two different liquid electrolytes that pass ions through a porous membrane. They do not use solid-state electrolytes, nor do they consume the membrane or combust vanadium.",
+      "takeaway": "The core mechanism of a flow battery involves liquid electrolytes and a porous membrane facilitating redox reactions.",
+      "evidenceExcerpt": "Flow batteries are powered by redox reactions involving two different liquid electrolytes that pass ions through a porous membrane."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Flow Batteries:\n1. They generate power through reduction-oxidation reactions involving two different liquid electrolytes.\n2. They are generally unsuitable for grid-scale applications due to their reliance on highly flammable materials.\n3. Zinc-Bromine and Iron-Salt systems are prominent examples of flow battery technologies.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Flow batteries are powered by redox reactions involving two different liquid electrolytes. Statement 2 is incorrect: They are highly suitable for grid-scale applications and specifically do NOT use flammable or polluting materials. Statement 3 is correct: Types of flow batteries include Vanadium Redox, Zinc-Bromine, and Iron-Salt/Organic systems.",
+      "takeaway": "Flow batteries utilize liquid electrolytes and a porous membrane for safe, non-flammable, grid-scale energy storage. Examples include Vanadium Redox and Zinc-Bromine systems.",
+      "evidenceExcerpt": "Flow batteries are powered by redox reactions involving two different liquid electrolytes that pass ions through a porous membrane. They can store large amounts of energy for grid-scale applications and do not use flammable or polluting materials. Types include Vanadium Redox, Zinc-Bromine, and Iron-Salt/Organic systems."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the development of energy storage infrastructure in India, consider the following statements:\n1. India's first MWh-Scale Vanadium Redox Flow Battery (VRFB) was inaugurated at NTPC NETRA.\n2. The VRFB operates by passing ions through a porous membrane between two different liquid electrolytes.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: India's first MWh-Scale VRFB was recently inaugurated at NTPC NETRA. Statement 2 is correct: Flow batteries, including VRFBs, operate via redox reactions involving two different liquid electrolytes that pass ions through a porous membrane.",
+      "takeaway": "NTPC NETRA hosts India's first MWh-Scale VRFB, which utilizes a porous membrane and two liquid electrolytes to facilitate energy storage.",
+      "evidenceExcerpt": "India's largest and first MWh-Scale Vanadium Redox Flow Battery (VRFB) was inaugurated at NTPC NETRA. Flow batteries are powered by redox reactions involving two different liquid electrolytes that pass ions through a porous membrane."
+    }
+  ]
+}

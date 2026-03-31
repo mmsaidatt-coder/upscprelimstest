@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding cryogenic and semi-cryogenic engine technologies:\n1. A cryogenic engine utilizes both fuel and oxidizer in liquefied forms at very low temperatures.\n2. A semi-cryogenic engine employs a cryogenic oxidizer along with a hydrocarbon-based fuel.\n3. Cryogenic engines are primarily employed in the first stage of a launch vehicle to provide the initial maximum thrust.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: A cryogenic engine uses both cryogenic fuel and oxidizer, liquefied at very low temperatures. Statement 2 is correct: Semi-cryogenic engines combine the benefits of cryogenic and conventional engines by employing a cryogenic oxidizer (e.g., Liquid Oxygen) along with a hydrocarbon-based fuel (e.g., kerosene). Statement 3 is incorrect: Cryogenic engines are typically used in the last stage (or upper stage) of a rocket, not the first stage.",
+      "takeaway": "Cryogenic engines use liquefied fuel and oxidizer at very low temperatures for the upper stages of rockets, whereas semi-cryogenic engines substitute the cryogenic fuel with a hydrocarbon fuel like kerosene.",
+      "evidenceExcerpt": "A Cryogenic engine uses both cryogenic fuel and oxidizer, liquefied at a very low temperature. Used in the last stage (or upper stage) of a rocket. Semi-cryogenic engines combine the benefits of cryogenic and conventional engines, employing a cryogenic oxidizer (e.g., Liquid Oxygen), along with a hydrocarbon-based fuel (e.g., kerosene)."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the CE20 engine recently tested by ISRO, consider the following statements:\n1. It is India's largest cryogenic engine and is designed to power the upper stage of the LVM3 launch vehicle.\n2. It utilizes a combination of liquid oxygen and kerosene as its primary propellants.\n3. It has been officially qualified to be used in India's Gaganyaan missions.\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: CE20 is India's largest cryogenic engine and powers the LVM3 upper stage. Statement 3 is correct: It has been qualified for the Gaganyaan missions. Statement 2 is incorrect: The CE20 is a 'cryogenic engine', which means it uses both a cryogenic fuel and a cryogenic oxidizer (typically liquid hydrogen and liquid oxygen). A combination of liquid oxygen and kerosene is used in 'semi-cryogenic' engines, not cryogenic engines like the CE20.",
+      "takeaway": "The CE20 is India's largest cryogenic engine, qualified for human spaceflight (Gaganyaan), and powers the upper stage of the LVM3 using fully cryogenic propellants.",
+      "evidenceExcerpt": "CE20 is India's largest cryogenic engine, qualified for Gaganyaan missions and powers the LVM3 upper stage. A Cryogenic engine uses both cryogenic fuel and oxidizer... Semi-cryogenic engines... employing a cryogenic oxidizer (e.g., Liquid Oxygen), along with a hydrocarbon-based fuel (e.g., kerosene)."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Multiple Statement",
+      "prompt": "Consider the following statements regarding the propulsion systems used in launch vehicles:\n\n1. Cryogenic engines offer superior thrust and fuel efficiency compared to conventional engines, but require both the fuel and oxidizer to be maintained at extremely low temperatures.\n2. The combustion process in fully cryogenic engines is considered highly eco-friendly because the reaction between hydrogen and oxygen emits only steam.\n3. Semi-cryogenic engines maintain the same zero-carbon emission profile as fully cryogenic engines despite substituting liquid hydrogen with a hydrocarbon fuel like kerosene.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Cryogenic engines use both fuel and oxidizer liquefied at very low temperatures and provide advantages like superior thrust and fuel efficiency. Statement 2 is correct: Hydrogen-oxygen combustion in these engines is eco-friendly, emitting only steam. Statement 3 is incorrect: Semi-cryogenic engines utilize a hydrocarbon-based fuel (such as kerosene). The combustion of hydrocarbons inherently produces carbon emissions (like carbon dioxide), meaning they do not share the zero-carbon emission profile of a pure hydrogen-oxygen cryogenic engine.",
+      "takeaway": "While fully cryogenic engines (using liquid hydrogen and oxygen) emit only steam, semi-cryogenic engines introduce carbon emissions due to their reliance on hydrocarbon fuels like kerosene.",
+      "evidenceExcerpt": "A Cryogenic engine uses both cryogenic fuel and oxidizer, liquefied at a very low temperature... Semi-cryogenic engines combine the benefits of cryogenic and conventional engines, employing a cryogenic oxidizer (e.g., Liquid Oxygen), along with a hydrocarbon-based fuel (e.g., kerosene). Advantages: superior thrust, fuel efficiency, eco-friendly (emits only steam)."
+    }
+  ]
+}

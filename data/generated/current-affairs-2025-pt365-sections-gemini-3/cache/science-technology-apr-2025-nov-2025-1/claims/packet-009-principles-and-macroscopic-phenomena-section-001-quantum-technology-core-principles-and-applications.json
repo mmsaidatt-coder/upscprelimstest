@@ -1,0 +1,77 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-009-principles-and-macroscopic-phenomena-section-001-quantum-technology-core-principles-and-applications",
+    "claimType": "Factual",
+    "claimText": "A quantum is defined as the smallest possible discrete unit of any physical property.",
+    "evidenceExcerpt": "A quantum is the smallest possible discrete unit of any physical property.",
+    "pageNumbers": [
+      19
+    ],
+    "examUse": "Statement-based question on basic scientific definitions.",
+    "distractorHooks": [
+      "Confusing a quantum with an atom or an electron",
+      "Defining a quantum as a continuous wave rather than a discrete unit"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-009-principles-and-macroscopic-phenomena-section-001-quantum-technology-core-principles-and-applications",
+    "claimType": "Comparison",
+    "claimText": "Unlike a traditional binary bit which is restricted to states 0 or 1, a qubit can exist in a state representing 0, 1, or both simultaneously.",
+    "evidenceExcerpt": "While a Bit is restricted to states 0 or 1, a Qubit can exist in a state representing 0, 1, or both simultaneously.",
+    "pageNumbers": [
+      19
+    ],
+    "examUse": "Comparison question distinguishing classical computing from quantum computing.",
+    "distractorHooks": [
+      "Stating that qubits are restricted to either 0 or 1",
+      "Claiming that traditional bits can exist in multiple states simultaneously"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-009-principles-and-macroscopic-phenomena-section-001-quantum-technology-core-principles-and-applications",
+    "claimType": "Conceptual",
+    "claimText": "Superposition is the principle that allows a quantum particle to exist in multiple states at the same time until it is measured.",
+    "evidenceExcerpt": "Superposition is the ability of a quantum particle to be in multiple states at the same time until measured.",
+    "pageNumbers": [
+      19
+    ],
+    "examUse": "Correct-pair question matching quantum principles to their definitions.",
+    "distractorHooks": [
+      "Swapping the definition of superposition with entanglement",
+      "Stating that a particle remains in multiple states even after it is measured"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-009-principles-and-macroscopic-phenomena-section-001-quantum-technology-core-principles-and-applications",
+    "claimType": "Conceptual",
+    "claimText": "Quantum entanglement is a phenomenon where two particles are linked such that a change to one immediately affects the other, regardless of the distance between them.",
+    "evidenceExcerpt": "Entanglement links two particles so that changes to one immediately affect the other, regardless of distance.",
+    "pageNumbers": [
+      19
+    ],
+    "examUse": "Statement-based question on quantum phenomena and their spatial properties.",
+    "distractorHooks": [
+      "Stating that entanglement only works at microscopic distances",
+      "Claiming that changes in one entangled particle take time to affect the other based on the speed of light"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-009-principles-and-macroscopic-phenomena-section-001-quantum-technology-core-principles-and-applications",
+    "claimType": "Factual",
+    "claimText": "Practical applications of quantum technology include post-quantum cryptography, quantum key distribution, and quantum chemistry for drug development.",
+    "evidenceExcerpt": "Applications of quantum technology include post-quantum cryptography, quantum key distribution, and quantum chemistry for drug development.",
+    "pageNumbers": [
+      19
+    ],
+    "examUse": "Multiple-statement question on the practical applications of quantum technology.",
+    "distractorHooks": [
+      "Including classical RSA encryption as a quantum application",
+      "Stating that quantum technology has no application in chemistry or biology"
+    ]
+  }
+]

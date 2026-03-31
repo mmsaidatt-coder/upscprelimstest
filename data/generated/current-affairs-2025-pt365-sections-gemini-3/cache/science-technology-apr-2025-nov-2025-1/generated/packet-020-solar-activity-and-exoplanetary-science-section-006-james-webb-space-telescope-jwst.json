@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the James Webb Space Telescope (JWST):\n1. It is an orbiting infrared observatory developed jointly by NASA, the European Space Agency (ESA), and the Japan Aerospace Exploration Agency (JAXA).\n2. It orbits the Sun at the second Lagrange point (L2), approximately 1.5 million kilometers away from the Earth.\n3. It recently detected biosignatures on the exoplanet K2-18 b.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The JWST was launched jointly by NASA, the European Space Agency (ESA), and the Canadian Space Agency (not JAXA). Statement 2 is correct: It orbits the Sun at the second Lagrange point (L2), 1.5 million kilometers away from the Earth. Statement 3 is correct: Cambridge scientists recently discovered biosignatures on Exoplanet K2-18 b using the JWST.",
+      "takeaway": "JWST is an infrared observatory positioned at the L2 Lagrange point (orbiting the Sun) and was developed collaboratively by NASA, ESA, and the Canadian Space Agency.",
+      "evidenceExcerpt": "JAMES WEBB SPACE TELESCOPE (JWST). Cambridge Scientists discovered Biosignatures on Exoplanet K2-18 b, using James Webb Space Telescope (JWST)... Launched jointly by NASA, ESA and Canadian Space Agency. Type: Orbiting infrared observatory. Orbit: Orbits the Sun 1.5 million kilometers away from the Earth at second Lagrange point or L2."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the James Webb Space Telescope (JWST), consider the following statements:\n1. It primarily observes the universe in the ultraviolet and X-ray spectrums to detect distant galaxies.\n2. Instead of orbiting the Earth, it orbits the Sun at a distance of 1.5 million kilometers from the Earth.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The JWST is an orbiting infrared observatory, designed to view the universe in the infrared spectrum, not ultraviolet or X-ray. Statement 2 is correct: It is positioned at the second Lagrange point (L2), where it orbits the Sun at a distance of 1.5 million kilometers from the Earth.",
+      "takeaway": "Unlike the Hubble Space Telescope which orbits the Earth, the JWST orbits the Sun at the L2 point and is specifically designed to conduct infrared astronomy.",
+      "evidenceExcerpt": "Type: Orbiting infrared observatory. Orbit: Orbits the Sun 1.5 million kilometers away from the Earth at second Lagrange point or L2."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice",
+      "prompt": "Which of the following best describes the primary operational spectrum and the orbital position of the James Webb Space Telescope (JWST), which recently discovered biosignatures on the exoplanet K2-18 b?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Ultraviolet observatory orbiting the Earth at the first Lagrange point (L1)"
+        },
+        {
+          "id": "B",
+          "text": "Infrared observatory orbiting the Sun at the second Lagrange point (L2)"
+        },
+        {
+          "id": "C",
+          "text": "X-ray observatory orbiting the Earth in Low Earth Orbit (LEO)"
+        },
+        {
+          "id": "D",
+          "text": "Optical observatory orbiting the Sun at the second Lagrange point (L2)"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The James Webb Space Telescope (JWST) is an orbiting infrared observatory. It does not orbit the Earth; rather, it orbits the Sun at a distance of 1.5 million kilometers from the Earth at the second Lagrange point (L2).",
+      "takeaway": "JWST operates primarily in the infrared spectrum and is positioned at the Sun-Earth L2 point, enabling it to make significant discoveries such as detecting biosignatures on distant exoplanets.",
+      "evidenceExcerpt": "Type: Orbiting infrared observatory. Orbit: Orbits the Sun 1.5 million kilometers away from the Earth at second Lagrange point or L2."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Multiple Choice",
+      "prompt": "The recent discovery of biosignatures on the exoplanet K2-18 b was made possible by an orbiting observatory launched jointly by NASA, the European Space Agency (ESA), and the Canadian Space Agency. Which of the following observatories is being referred to?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Kepler Space Telescope"
+        },
+        {
+          "id": "B",
+          "text": "Transiting Exoplanet Survey Satellite (TESS)"
+        },
+        {
+          "id": "C",
+          "text": "James Webb Space Telescope (JWST)"
+        },
+        {
+          "id": "D",
+          "text": "Hubble Space Telescope"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "The James Webb Space Telescope (JWST), a joint mission by NASA, ESA, and the Canadian Space Agency, was recently used by Cambridge scientists to discover biosignatures on the exoplanet K2-18 b.",
+      "takeaway": "Major space observatories are often collaborative international efforts; JWST involves NASA, ESA, and the Canadian Space Agency, and is actively used for exoplanetary science.",
+      "evidenceExcerpt": "Cambridge Scientists discovered Biosignatures on Exoplanet K2-18 b, using James Webb Space Telescope (JWST)... Launched jointly by NASA, ESA and Canadian Space Agency."
+    }
+  ]
+}

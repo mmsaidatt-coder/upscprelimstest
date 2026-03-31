@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to Sustainable Aviation Fuel (SAF), consider the following statements:\n1. It can be blended up to 50% in conventional aviation turbine fuel.\n2. India has mandated a 1% SAF blending in jet fuel for all domestic and international flights starting from 2027.\n3. Wastewater treatment sludge can be utilized as a feedstock for its production.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: SAF can be blended up to 50% in conventional aviation turbine fuel (ATF). Statement 2 is incorrect: India has mandated a 1% SAF blending specifically in jet fuel sold to international airlines from 2027, not domestic flights. Statement 3 is correct: Raw materials for SAF include non-petroleum feedstocks such as corn grain, oil seeds, algae, agricultural residues, forestry residues, and wastewater treatment sludge.",
+      "takeaway": "SAF blending mandates in India currently target international flights starting in 2027. It is a versatile fuel that utilizes diverse non-petroleum feedstocks, including waste sludge, and can be blended up to 50% with conventional jet fuel.",
+      "evidenceExcerpt": "Can be blended up to 50% in conventional aviation turbine fuel (ATF or jet fuel). India mandated 1% SAF blending in jet fuel sold to international airlines from 2027. Raw material: Corn grain, Oil seeds, Algae, Agricultural residues, Forestry residues, Wastewater treatment sludge etc."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Multiple Choice",
+      "prompt": "Consider the following materials:\n1. Algae\n2. Wastewater treatment sludge\n3. Forestry residues\n4. Corn grain\n\nHow many of the above can be used as raw materials for the production of Sustainable Aviation Fuel (SAF)?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Sustainable Aviation Fuel (SAF) is an alternative fuel made entirely from non-petroleum feedstocks. Valid raw materials include corn grain, oil seeds, algae, agricultural residues, forestry residues, and wastewater treatment sludge.",
+      "takeaway": "SAF production relies on a wide variety of biological and waste-based feedstocks rather than fossil fuels, allowing for significant reductions in aviation emissions.",
+      "evidenceExcerpt": "An alternative fuel made from non-petroleum feedstocks... Raw material: Corn grain, Oil seeds, Algae, Agricultural residues, Forestry residues, Wastewater treatment sludge etc."
+    }
+  ]
+}

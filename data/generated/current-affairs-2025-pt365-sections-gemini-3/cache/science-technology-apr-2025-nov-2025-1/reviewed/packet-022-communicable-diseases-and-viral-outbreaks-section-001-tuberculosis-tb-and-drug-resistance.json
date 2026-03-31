@@ -1,0 +1,98 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the classification of Tuberculosis (TB):\n\n1. Drug-sensitive TB is characterized by a positive therapeutic response to medications such as isoniazid and rifampicin.\n2. The spread of a TB infection from the lungs to the spine is the primary clinical indicator of Extensively Drug-Resistant TB (XDR-TB).\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Drug-sensitive TB responds to standard first-line drugs like isoniazid and rifampicin. Statement 2 is incorrect: The spread of TB to the spine is known as Spinal TB (or Pott's disease), which is an anatomical classification (extrapulmonary). XDR-TB is a pharmacological classification based purely on the pathogen's resistance to both first-line and stronger second-line medicines, not on the anatomical site of infection.",
+      "takeaway": "Anatomical classifications of TB (Pulmonary vs. Extrapulmonary/Spinal) are distinct from pharmacological classifications (Drug-sensitive vs. MDR/XDR).",
+      "evidenceExcerpt": "Types include Pulmonary, Extrapulmonary, and Spinal TB (Pott's disease). Drug-sensitive TB responds to isoniazid and rifampicin. MDR-TB does not respond to these two, while XDR-TB resists even stronger medicines.",
+      "qualityScore": 89,
+      "reviewNotes": "Excellent conceptual trap that tests whether the candidate understands the difference between the site of infection (Spinal TB) and the drug resistance profile (XDR-TB)."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs regarding Tuberculosis (TB):\n\n1. Pott's disease : Tuberculosis affecting the spine\n2. MDR-TB : Resistance to isoniazid and rifampicin\n3. XDR-TB : Resistance to first-line drugs as well as stronger second-line medicines\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Pair 1 is correctly matched: Spinal TB is an extrapulmonary form of the disease, also known as Pott's disease. Pair 2 is correctly matched: Multi Drug Resistant TB (MDR-TB) does not respond to isoniazid and rifampicin, the two most effective first-line TB drugs. Pair 3 is correctly matched: Extensively Drug-Resistant TB (XDR-TB) resists both first-line drugs and stronger second-line medicines.",
+      "takeaway": "TB can affect the lungs (Pulmonary) or other organs like the spine (Pott's disease). Drug resistance ranges from MDR-TB (resistant to main first-line drugs) to XDR-TB (resistant to first-line and stronger second-line drugs).",
+      "evidenceExcerpt": "Types include Pulmonary, Extrapulmonary, and Spinal TB (Pott's disease). Drug-sensitive TB responds to isoniazid and rifampicin. MDR-TB does not respond to these two, while XDR-TB resists even stronger medicines.",
+      "qualityScore": 88,
+      "reviewNotes": "Rewritten to follow the standard UPSC 'How many pairs' format. The pairs directly test the terminology and definitions provided in the source text."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Tuberculosis (TB):\n\n1. It is an airborne disease caused by the bacterium Mycobacterium tuberculosis.\n2. The infection is strictly pulmonary and does not affect other organs of the human body.\n3. According to the WHO Global TB Report 2025, India's TB incidence has reduced by 21%.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: TB is an airborne disease caused by the bacterium Mycobacterium tuberculosis. Statement 2 is incorrect: While TB commonly affects the lungs (Pulmonary TB), it can also be extrapulmonary, affecting organs such as the spine (Spinal TB or Pott's disease). Statement 3 is correct: According to the WHO Global TB Report 2025, India's TB incidence has reduced by 21%.",
+      "takeaway": "TB is a bacterial airborne infection that can be pulmonary or extrapulmonary. India has made significant progress in reducing its TB incidence, as highlighted in the WHO Global TB Report 2025.",
+      "evidenceExcerpt": "According to the WHO Global TB Report 2025, India's TB incidence reduced by 21%. TB is an airborne disease caused by Mycobacterium tuberculosis. Types include Pulmonary, Extrapulmonary, and Spinal TB (Pott's disease).",
+      "qualityScore": 85,
+      "reviewNotes": "Refined the statements to make them sound more professional and aligned with UPSC standards. The 'strictly pulmonary' trap is a classic absolute statement distractor."
+    }
+  ],
+  "reviewerNotes": "Selected and refined three questions to cover the entirety of the source text. The questions test terminology (Pott's disease, MDR, XDR), factual data (WHO report, pathogen), and conceptual clarity (anatomical vs. pharmacological classification). Wording was adjusted to match the formal tone of UPSC Prelims."
+}

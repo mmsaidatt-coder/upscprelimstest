@@ -1,0 +1,109 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to India's greenhouse gas (GHG) emissions as per the 4th Biennial Update Report (BUR-4), consider the following statements:\n1. The Energy sector accounts for more than three-fourths of India's total GHG emissions.\n2. Methane is the second most abundant greenhouse gas emitted in India.\n3. The reported total GHG emissions are calculated by including the net carbon sink from the Land Use, Land-Use Change and Forestry (LULUCF) sector.\nHow many of the statements given above are correct?",
+      "contextLines": [
+        "India's 4th Biennial Update Report (BUR-4) notes total GHG emissions at 2,959 million tonnes of CO2 (excluding LULUCF), with the Energy sector contributing the highest (75.66%).",
+        "Carbon dioxide accounts for 80.53% of emissions, followed by Methane (13.32%)."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The Energy sector is the highest emitting sector, contributing 75.66% (which is more than three-fourths) of total GHG emissions. Statement 2 is correct: Carbon dioxide accounts for 80.53% of emissions, followed by Methane at 13.32%. Statement 3 is incorrect: The total GHG emissions of 2,959 million tonnes of CO2 are explicitly reported excluding LULUCF.",
+      "takeaway": "India's GHG emissions are heavily dominated by the Energy sector and Carbon dioxide. The BUR-4 reports total emissions excluding the LULUCF sector.",
+      "evidenceExcerpt": "India's 4th Biennial Update Report (BUR-4) notes total GHG emissions at 2,959 million tonnes of CO2 (excluding LULUCF), with the Energy sector contributing the highest (75.66%)... Carbon dioxide accounts for 80.53% of emissions, followed by Methane (13.32%).",
+      "qualityScore": 88,
+      "reviewNotes": "Excellent data interpretation question. Tests key statistics from BUR-4 without requiring exact memorization of numbers."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding market mechanisms for energy efficiency and emissions in India:\n1. The Perform, Achieve and Trade (PAT) Scheme aims to reduce specific energy consumption in energy-intensive industries.\n2. Under the PAT Scheme, industries that overachieve their targets are issued Renewable Energy Certificates (RECs).\n3. The Carbon Credit Trading Scheme (CCTS) covers direct emissions but excludes indirect emissions from purchased electricity.\nHow many of the statements given above are correct?",
+      "contextLines": [
+        "The Carbon Credit Trading Scheme (CCTS)... covers direct emissions (Scope 1) and indirect emissions from electricity/heat (Scope 2).",
+        "Other market mechanisms include the PAT Scheme and Renewable Energy Certificates (REC).",
+        "PAT Scheme reduces Specific Energy Consumption in energy-intensive industries via ESCerts."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The PAT Scheme reduces Specific Energy Consumption in energy-intensive industries. Statement 2 is incorrect: Industries are issued Energy Saving Certificates (ESCerts) under the PAT scheme, whereas RECs are a separate mechanism. Statement 3 is incorrect: CCTS covers both direct emissions (Scope 1) and indirect emissions from electricity/heat (Scope 2).",
+      "takeaway": "India utilizes multiple distinct market mechanisms: PAT for energy efficiency (ESCerts), REC for renewable energy obligations, and CCTS for broader carbon emission intensity reduction (Scope 1 and 2).",
+      "evidenceExcerpt": "CCTS covers direct emissions (Scope 1) and indirect emissions from electricity/heat (Scope 2)... Other market mechanisms include the PAT Scheme and Renewable Energy Certificates (REC). PAT Scheme reduces Specific Energy Consumption in energy-intensive industries via ESCerts.",
+      "qualityScore": 86,
+      "reviewNotes": "Combines multiple market mechanisms into a single question, testing the candidate's ability to distinguish between PAT, REC, and CCTS."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Carbon Credit Trading Scheme (CCTS) in India:\n1. It was notified under the Environment (Protection) Act, 1986.\n2. The Bureau of Energy Efficiency (BEE) acts as the administrator of the scheme.\n3. It operates as an intensity-based baseline-and-credit system.\nHow many of the statements given above are correct?",
+      "contextLines": [
+        "The Carbon Credit Trading Scheme (CCTS) is notified under the Energy Conservation Amendment Act, 2022.",
+        "It operates as an intensity-based baseline-and-credit system covering Scope 1 and Scope 2 emissions.",
+        "The Bureau of Energy Efficiency (BEE) is the administrator, and the Central Electricity Regulatory Commission (CERC) is the regulator."
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The CCTS is notified under the Energy Conservation Amendment Act, 2022, not the Environment (Protection) Act, 1986. Statement 2 is correct: The Bureau of Energy Efficiency (BEE) is the administrator, while the Central Electricity Regulatory Commission (CERC) is the regulator. Statement 3 is correct: It operates as an intensity-based baseline-and-credit system covering Scope 1 and Scope 2 emissions.",
+      "takeaway": "The Carbon Credit Trading Scheme (CCTS) is backed by the Energy Conservation Amendment Act, 2022. It is administered by BEE, regulated by CERC, and functions as an intensity-based baseline-and-credit system.",
+      "evidenceExcerpt": "The Carbon Credit Trading Scheme (CCTS) is notified under the Energy Conservation Amendment Act, 2022. It operates as an intensity-based baseline-and-credit system... The Bureau of Energy Efficiency (BEE) is the administrator, and the Central Electricity Regulatory Commission (CERC) is the regulator.",
+      "qualityScore": 85,
+      "reviewNotes": "Rewritten to standard UPSC 'How many statements' format. Tests crucial legislative and institutional facts."
+    }
+  ],
+  "reviewerNotes": "Selected 4 high-quality questions. Rewrote them to strictly follow the UPSC 'How many statements are correct' format where applicable. Ensured distractors are plausible and explanations are tightly coupled with the source text."
+}

@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the applications of Artificial Intelligence (AI) in biology, consider the following statements:\n\n1. AlphaGenome is primarily used to predict three-dimensional protein structures from amino acid sequences.\n2. AlphaFold is designed to predict how DNA mutations affect human health.\n3. C2S-SCALE is utilized to interpret complex biological interactions at the cellular level.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is incorrect: AlphaGenome predicts how DNA mutations affect health. Statement 2 is incorrect: AlphaFold predicts 3D protein structures from amino acid sequences. Statement 3 is correct: C2S-SCALE interprets complex biological interactions at the cellular level (understands the language of individual cells).",
+      "takeaway": "AI models have specific biological applications: AlphaFold for protein structures, AlphaGenome for DNA mutations, and C2S-SCALE for cellular interactions.",
+      "evidenceExcerpt": "AlphaGenome by Google DeepMind predicts how DNA mutations affect health. AlphaFold predicts 3D protein structures from amino acid sequences. C2S-SCALE by Google DeepMind and Yale understands the language of individual cells.",
+      "qualityScore": 85,
+      "reviewNotes": "Uses the modern UPSC 'How many statements' format and effectively tests the specific applications of different AI models by swapping the functions of AlphaGenome and AlphaFold."
+    }
+  ],
+  "reviewerNotes": "The candidate questions were well-aligned with the source text but had overlapping concepts. I rewrote them to ensure each question tests a distinct angle: Q1 focuses on the developers of the AI models, Q2 tests their specific biological applications using the 'How many statements' format, and Q3 uses the classic 'recently seen in the news' template to define BioEmu."
+}

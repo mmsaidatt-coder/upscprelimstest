@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-statement",
+      "prompt": "With reference to 'SODAR (Sonic Detection and Ranging)', consider the following statements:\n1. It operates by transmitting sound pulses to monitor the intensity and frequency of the returned signals.\n2. It is used to determine the wind profile and temperature structure of the lower atmosphere.\n3. It was developed indigenously by the Indian Space Research Organisation (ISRO).\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: SODAR works by sending sound pulses and subsequently monitoring the intensity and frequency of the returned signal.\nStatement 2 is correct: It specifically determines the lower-atmosphere wind profile and temperature structure, providing critical information on the height of temperature inversion, fog layer, and turbulence strength.\nStatement 3 is incorrect: It was developed by the Council of Scientific and Industrial Research (CSIR) - AMPRI, Bhopal, not by ISRO.",
+      "takeaway": "SODAR is an acoustic meteorological instrument developed by CSIR-AMPRI that uses sound pulses to profile the lower atmosphere, measuring parameters like wind, temperature inversions, fog layer height, and turbulence.",
+      "evidenceExcerpt": "Developed by CSIR-AMPRI, Bhopal. SODAR works by sending sound pulses and subsequently monitoring the intensity and frequency of the returned signal. Specifically, it determines the lower-atmosphere wind profile and temperature structure. Provides information on height of inversion, height of fog layer, strength of turbulence etc.",
+      "qualityScore": 85,
+      "reviewNotes": "The question effectively tests the working principle, application domain, and developing agency of SODAR. The distractor (ISRO instead of CSIR) is a classic UPSC trap for indigenous technologies."
+    }
+  ],
+  "reviewerNotes": "Selected and refined Candidate 1. Improved the statements to make two of them correct and one incorrect, creating a balanced 'Only two' answer. The distractor leverages ISRO, which is a highly plausible and common trap in UPSC questions regarding indigenous atmospheric or space-related technologies."
+}

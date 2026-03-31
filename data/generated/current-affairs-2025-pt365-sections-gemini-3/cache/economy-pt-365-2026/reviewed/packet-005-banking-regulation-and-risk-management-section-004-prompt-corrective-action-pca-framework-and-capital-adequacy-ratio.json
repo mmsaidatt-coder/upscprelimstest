@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Applied Concept",
+      "prompt": "If a commercial bank rapidly expands its portfolio of high-risk, uncollateralized loans without raising any additional capital, which of the following is the most likely outcome?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Its Capital Adequacy Ratio (CAR) will increase, reducing the likelihood of supervisory intervention."
+        },
+        {
+          "id": "B",
+          "text": "Its Capital Adequacy Ratio (CAR) will decrease, potentially triggering the Prompt Corrective Action (PCA) framework."
+        },
+        {
+          "id": "C",
+          "text": "Its total risk-weighted assets will decrease, improving its asset quality metrics."
+        },
+        {
+          "id": "D",
+          "text": "It will be shifted from the Prompt Corrective Action (PCA) framework to the Supervisory Action Framework (SAF)."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Capital Adequacy Ratio (CAR) is the ratio of total capital to total risk-weighted assets. If a bank issues high-risk loans, its total risk-weighted assets (the denominator) increase. Without a proportional increase in capital (the numerator), the CAR will mathematically decrease. Since CAR is a key monitoring area under the Prompt Corrective Action (PCA) framework, a declining CAR can trigger supervisory intervention by the RBI.",
+      "takeaway": "CAR is calculated as Capital divided by Risk-Weighted Assets. Taking on excessive risk without raising capital lowers the CAR, potentially triggering regulatory actions like PCA.",
+      "evidenceExcerpt": "Capital Adequacy Ratio (CAR), Asset Quality and Profitability are the key areas for monitoring. CAR is the ratio of total capital to total risk-weighted assets in percentage terms.",
+      "qualityScore": 88,
+      "reviewNotes": "Excellent applied question. It tests the candidate's understanding of the mathematical relationship behind CAR and its regulatory implications rather than just rote memorization."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Prompt Corrective Action (PCA) framework of the Reserve Bank of India:\n1. It is applicable to both commercial banks and Non-Banking Financial Companies (NBFCs).\n2. For Urban Co-operative Banks (UCBs), it has replaced the Supervisory Action Framework (SAF).\n3. Capital Adequacy Ratio (CAR) is the sole parameter monitored under this framework to initiate supervisory intervention.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The PCA framework applies to both banks (including Scheduled Commercial Banks and Urban Co-operative Banks) and NBFCs. Statement 2 is correct: The PCA framework for UCBs replaced the existing Supervisory Action Framework (SAF). Statement 3 is incorrect: The framework does not rely solely on CAR; Capital Adequacy Ratio (CAR), Asset Quality, and Profitability are the key areas for monitoring.",
+      "takeaway": "The PCA framework applies to banks and NBFCs, replacing the SAF for UCBs, and monitors CAR, Asset Quality, and Profitability.",
+      "evidenceExcerpt": "Applicability: It applies to both banks and NBFCs. Capital Adequacy Ratio (CAR), Asset Quality and Profitability are the key areas for monitoring... PCA framework for UCBs replaced the existing Supervisory Action Framework (SAF).",
+      "qualityScore": 85,
+      "reviewNotes": "Rewritten to use the 'How many of the above statements are correct?' format, which is the current UPSC standard. The distractors are plausible and test multiple facets of the PCA framework."
+    }
+  ],
+  "reviewerNotes": "Selected three strong questions covering the applicability of PCA, the applied mechanics of CAR, and the definition/terminology of CAR. Rewrote the statement-based questions to the modern 'How many statements are correct' format to align with recent UPSC trends."
+}

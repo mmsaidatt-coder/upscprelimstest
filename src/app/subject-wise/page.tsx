@@ -1,4 +1,11 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Subject Wise Practice — UPSCPRELIMSTEST",
+  description:
+    "Practice UPSC Prelims questions by subject — Polity, History, Economy, Geography, Environment, Science, and Current Affairs.",
+};
 
 export default function SubjectWisePage() {
   return (

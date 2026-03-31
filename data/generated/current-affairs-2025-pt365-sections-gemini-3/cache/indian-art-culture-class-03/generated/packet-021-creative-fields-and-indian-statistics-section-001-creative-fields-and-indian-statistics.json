@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "History",
+      "difficulty": "Hard",
+      "questionType": "Analytical",
+      "prompt": "Based on the statistical distribution of Indian cities in the UCCN as of 2025, which of the following statements is correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The number of cities recognized for Crafts and Folk Arts is equal to the number of cities recognized for Gastronomy."
+        },
+        {
+          "id": "B",
+          "text": "The field of Music accounts for exactly half of all Indian cities in the network."
+        },
+        {
+          "id": "C",
+          "text": "India has more cities recognized for Film than for Literature."
+        },
+        {
+          "id": "D",
+          "text": "The combined count of cities in Literature and Film exceeds the count in Music."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "According to the data: Music has 3 cities. Crafts and Folk Arts has 2 (Jaipur, Srinagar). Gastronomy has 2 (Hyderabad, Lucknow). Film has 1 (Mumbai). Literature has 1 (Kozhikode). Total cities = 9. Therefore, Crafts (2) equals Gastronomy (2).",
+      "takeaway": "Quantitative analysis of qualitative lists is a common way to test thoroughness.",
+      "evidenceExcerpt": "Music: 3, Crafts and Folk Arts: 2, Gastronomy: 2, Film: 1, Literature: 1... Lucknow: Becomes India's second City of Gastronomy, bringing the total to nine Indian cities.",
+      "contextLines": []
+    },
+    {
+      "subject": "History",
+      "difficulty": "Hard",
+      "questionType": "Conceptual",
+      "prompt": "Regarding the evolution of the UNESCO Creative Cities Network (UCCN) categories, which of the following best describes the 'Architecture' field introduced in 2025?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It focuses exclusively on the preservation of ancient monuments and UNESCO World Heritage sites."
+        },
+        {
+          "id": "B",
+          "text": "It recognizes cities that demonstrate a balance between exceptional architectural heritage and modern innovation."
+        },
+        {
+          "id": "C",
+          "text": "It is a sub-category under the 'Design' field specifically for sustainable urban planning."
+        },
+        {
+          "id": "D",
+          "text": "It is a temporary category created to celebrate the 20th anniversary of the UCCN."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "According to the UCCN field definitions, the Architecture field (new in 2025) recognizes cities with exceptional architectural heritage and innovation. It is a distinct field, not a sub-category or temporary designation.",
+      "takeaway": "The Architecture field is the newest addition to the UCCN (2025), emphasizing both historical heritage and innovative creative design.",
+      "evidenceExcerpt": "Architecture: New in 2025, recognising cities with exceptional architectural heritage and innovation.",
+      "contextLines": []
+    }
+  ]
+}

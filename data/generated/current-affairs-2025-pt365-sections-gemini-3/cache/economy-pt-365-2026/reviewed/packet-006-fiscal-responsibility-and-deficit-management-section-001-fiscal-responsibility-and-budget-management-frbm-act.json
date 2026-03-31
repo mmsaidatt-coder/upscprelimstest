@@ -1,0 +1,129 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements based on the targets and recent compliance of the Fiscal Responsibility and Budget Management (FRBM) framework:\n1. The framework implicitly limits the aggregate debt of all State Governments to 20% of the GDP.\n2. During the financial year 2020-21, the Central Government's debt alone breached the statutory debt limit prescribed for the General Government.\n3. A recent compliance review noted that unrealized tax revenues surged to over ₹21 trillion by FY23.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: The FRBM Act sets a general government debt limit of 60% of GDP, with the Central Government's debt capped at 40%. Since General Government Debt comprises Central and State government debts, this implicitly restricts aggregate State debt to 20% of GDP. Statement 2 is correct: The General Government debt limit is 60%. According to the CAG report, the Central Government's debt alone peaked at 61.38% in FY21, thereby breaching the General Government limit by itself. Statement 3 is correct: The CAG report highlighted that unrealized tax revenues surged to ₹21.30 trillion by FY23.",
+      "takeaway": "General Government Debt is the sum of Central and State debts. The FRBM Act's 60% general and 40% central limits implicitly cap state debt at 20%. The pandemic year FY21 saw central debt alone cross the 60% mark.",
+      "evidenceExcerpt": "Key targets include a fiscal deficit of 3% of GDP, general government debt limit of 60% (Central 40%)... The recent CAG report noted central government debt peaked at 61.38% in FY21, while unrealized tax revenues surged to 21.30 trillion by FY23.",
+      "qualityScore": 92,
+      "reviewNotes": "Excellent analytical question that requires candidates to deduce the 20% state limit and understand the magnitude of the FY21 debt breach."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Easy",
+      "questionType": "Multiple-choice",
+      "prompt": "The presentation of which of the following documents before the Parliament is mandated specifically by the Fiscal Responsibility and Budget Management (FRBM) Act, 2003?\n1. Macro-economic Framework Statement\n2. Medium Term Fiscal Policy Statement\n3. Fiscal Policy Strategy Statement\n4. Annual Financial Statement\n\nSelect the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1, 2 and 3 only"
+        },
+        {
+          "id": "B",
+          "text": "1 and 4 only"
+        },
+        {
+          "id": "C",
+          "text": "2, 3 and 4 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2, 3 and 4"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "The FRBM Act requires three statements to be laid before Parliament along with the Budget: the Macro-economic Framework Statement, the Medium Term Fiscal Policy Statement, and the Fiscal Policy Strategy Statement. The Annual Financial Statement is a constitutional requirement under Article 112, not a statutory mandate of the FRBM Act.",
+      "takeaway": "While the Annual Financial Statement is a constitutional requirement, the FRBM Act mandates three additional fiscal strategy and macroeconomic statements to accompany the Budget.",
+      "evidenceExcerpt": "Requires Macro-economic Framework, Medium Term Fiscal Policy, and Fiscal Policy Strategy statements with the Budget.",
+      "qualityScore": 88,
+      "reviewNotes": "Classic UPSC-style question testing the distinction between constitutional and statutory documents."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "The Fiscal Responsibility and Budget Management (FRBM) Act, 2003 was enacted primarily to foster \"inter-generational equity\" and macroeconomic stability. Which of the following mechanisms under the Act most directly operationalizes the objective of inter-generational equity?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Mandating the presentation of the Macro-economic Framework Statement to the Parliament"
+        },
+        {
+          "id": "B",
+          "text": "Capping the general government debt and the assumption of additional guarantees"
+        },
+        {
+          "id": "C",
+          "text": "Assigning the Comptroller and Auditor General (CAG) to conduct an annual compliance review"
+        },
+        {
+          "id": "D",
+          "text": "Removing the statutory targets for Revenue Deficit and Effective Revenue Deficit"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Inter-generational equity in fiscal policy implies that the current generation should not leave an unsustainable debt repayment burden on future generations. Capping the general government debt (at 60% of GDP) and limiting additional guarantees (at 0.5% of GDP) directly restrict the accumulation of liabilities that future generations would have to repay, thereby operationalizing the concept of inter-generational equity.",
+      "takeaway": "The core philosophy of the FRBM Act is inter-generational equity, which is practically enforced through strict quantitative limits on debt accumulation and contingent liabilities (guarantees).",
+      "evidenceExcerpt": "The FRBM Act, 2003 aims to foster inter-generational equity and macroeconomic stability... Key targets include a fiscal deficit of 3% of GDP, general government debt limit of 60% (Central 40%), and additional guarantees capped at 0.5% of GDP.",
+      "qualityScore": 86,
+      "reviewNotes": "Strong conceptual question linking the stated objective of the Act to its specific quantitative mechanisms."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Fiscal Responsibility and Budget Management (FRBM) Act, 2003:\n1. It mandates the Comptroller and Auditor General of India (CAG) to conduct an annual review of the government's compliance with the provisions of the Act.\n2. The 2018 amendment to the Act introduced the concept of Effective Revenue Deficit as a statutory target.\n3. It caps the assumption of additional guarantees by the Central Government in any financial year at 0.5% of GDP.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The FRBM Act mandates the CAG to conduct an annual compliance review. Statement 2 is incorrect: The 2018 amendment to the FRBM Act removed the targets for Revenue Deficit and Effective Revenue Deficit, rather than introducing them. Statement 3 is correct: The Act caps additional guarantees by the government at 0.5% of GDP.",
+      "takeaway": "The FRBM Act relies on the CAG for compliance reviews, caps additional guarantees at 0.5% of GDP, and its 2018 amendment removed the revenue deficit targets.",
+      "evidenceExcerpt": "FRBM Act mandates CAG to conduct an annual compliance review... Key targets include... additional guarantees capped at 0.5% of GDP. The 2018 amendment removed Revenue and Effective Revenue Deficit targets.",
+      "qualityScore": 85,
+      "reviewNotes": "Good coverage of institutional mandate, legislative amendments, and quantitative targets without overlapping with the debt limit question."
+    }
+  ],
+  "reviewerNotes": "Selected 4 questions. Q1 covers general provisions and amendments. Q2 covers statutory documents. Q3 is a high-quality analytical question on debt limits and CAG findings. Q4 tests the conceptual understanding of inter-generational equity in the context of the FRBM Act."
+}

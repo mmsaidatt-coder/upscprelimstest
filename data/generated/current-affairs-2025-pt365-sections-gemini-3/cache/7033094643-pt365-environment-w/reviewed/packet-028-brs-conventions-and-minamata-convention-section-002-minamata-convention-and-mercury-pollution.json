@@ -1,0 +1,98 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding mercury and its environmental impact:\n\n1. It is the only common metal that is liquid at room temperature.\n2. Coal-based thermal power plants and gold mining are among its major anthropogenic sources.\n3. The World Health Organization has established a safe threshold for human exposure to mercury.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Mercury is a naturally occurring heavy metal and the only common metal that is liquid at room temperature. Statement 2 is correct: Major anthropogenic sources of mercury emissions include coal-based thermal power plants and gold mining. Statement 3 is incorrect: There is no known safe level of mercury exposure for humans.",
+      "takeaway": "Mercury is a unique liquid metal at room temperature, primarily emitted by coal plants and gold mining. It is highly toxic, and there is no known safe level of exposure for humans.",
+      "evidenceExcerpt": "Mercury is the only common metal that is liquid at room temperature; anthropogenic sources include coal-based thermal power plants and gold mining... There is no known safe level of mercury exposure for humans.",
+      "qualityScore": 90,
+      "reviewNotes": "Excellent question that blends basic science (properties of mercury) with environmental pollution sources and health impacts. The third statement effectively tests a common misconception."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Minamata Convention:\n\n1. It is a legally binding treaty that entered into force in 2017.\n2. Its secretariat is supported by the United Nations Environment Programme (UNEP).\n3. India is a member of this convention.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: The Minamata Convention is a legally binding treaty that became effective in 2017. Statement 2 is correct: The convention operates with secretariat support from the United Nations Environment Programme (UNEP). Statement 3 is correct: India is a member of the Minamata Convention.",
+      "takeaway": "The Minamata Convention is a legally binding international treaty (effective 2017) supported by UNEP, aimed at protecting human health and the environment from mercury. India is a participating member.",
+      "evidenceExcerpt": "The Minamata Convention is a legally binding treaty (effective 2017) with UNEP secretariat support; India is a member.",
+      "qualityScore": 85,
+      "reviewNotes": "A standard UPSC-style statement question testing the foundational facts of an important environmental convention."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Hard",
+      "questionType": "Correct-Pair",
+      "prompt": "With reference to the outcomes of COP-6 to the Minamata Convention, consider the following pairs of mercury-related sources and their agreed regulatory actions:\n\n1. Mercury-based dental amalgams : Phase out by 2034\n2. Mercury-added skin-lightening products : Complete elimination\n3. Artisanal and small-scale gold mining : Strengthened action\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None of the pairs"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Pair 1 is correctly matched: COP-6 agreed to phase out mercury-based dental amalgams by 2034. Pair 2 is correctly matched: The convention agreed to eliminate mercury-added skin-lightening products. Pair 3 is correctly matched: COP-6 agreed to strengthen action on artisanal and small-scale gold mining (ASGM).",
+      "takeaway": "COP-6 of the Minamata Convention established specific targeted actions: phasing out dental amalgams by 2034, eliminating mercury-added skin-lightening products, and strengthening action on artisanal and small-scale gold mining.",
+      "evidenceExcerpt": "COP-6 to the Minamata Convention on Mercury agreed to phase out mercury-based dental amalgams by 2034, eliminate mercury-added skin-lightening products, and strengthen action on artisanal and small-scale gold mining (ASGM).",
+      "qualityScore": 85,
+      "reviewNotes": "A strong pair-matching question that aligns with recent UPSC trends, testing specific current affairs updates related to an environmental convention."
+    }
+  ],
+  "reviewerNotes": "Selected three questions that comprehensively cover the provided text without overlapping. Q1 focuses on the institutional framework of the Minamata Convention. Q2 tests the physical properties, anthropogenic sources, and health impacts of mercury. Q3 is a pair-matching question focusing on the recent COP-6 outcomes. All questions have been refined to match UPSC's current pattern, ensuring plausible distractors and strict adherence to the source text."
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-010-national-mission-and-secure-communication-section-001-quantum-key-distribution-qkd",
+    "claimType": "Conceptual",
+    "claimText": "Quantum Key Distribution (QKD) utilizes the principles of quantum mechanics to securely distribute encryption keys.",
+    "evidenceExcerpt": "QKD leverages quantum mechanics for secure encryption key distribution.",
+    "pageNumbers": [
+      21
+    ],
+    "examUse": "Statement-based question on the fundamental purpose and underlying principle of QKD.",
+    "distractorHooks": [
+      "Relies on complex mathematical algorithms rather than physical quantum states",
+      "Used exclusively for classical asymmetric key distribution"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-010-national-mission-and-secure-communication-section-001-quantum-key-distribution-qkd",
+    "claimType": "Mechanism",
+    "claimText": "Entanglement-based QKD can detect eavesdropping because any interception inherently disturbs the transmitted quantum states.",
+    "evidenceExcerpt": "Entanglement-based QKD detects eavesdropping because interception disturbs quantum states.",
+    "pageNumbers": [
+      21
+    ],
+    "examUse": "Statement-based question on the security features and physical mechanisms of quantum communication.",
+    "distractorHooks": [
+      "Eavesdropping goes undetected in quantum networks due to superposition",
+      "Interception perfectly clones the quantum state without causing any disturbance"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-010-national-mission-and-secure-communication-section-001-quantum-key-distribution-qkd",
+    "claimType": "Factual",
+    "claimText": "Entanglement-based QKD ensures secure key sharing even if the communication devices themselves are compromised.",
+    "evidenceExcerpt": "Entanglement-based QKD ensures secure key sharing even with compromised devices",
+    "pageNumbers": [
+      21
+    ],
+    "examUse": "Statement-based question testing the robustness and device-independent security of entanglement-based QKD.",
+    "distractorHooks": [
+      "Requires fully trusted and uncompromised endpoint devices to function securely",
+      "Fails completely if the communication devices are compromised"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-010-national-mission-and-secure-communication-section-001-quantum-key-distribution-qkd",
+    "claimType": "Application",
+    "claimText": "Free-space QKD operates without fibre optic cables, making it suitable for deployment in tough terrains and dense cities.",
+    "evidenceExcerpt": "Free-space QKD operates without fibre optics, making it suitable for tough terrains and dense cities.",
+    "pageNumbers": [
+      21
+    ],
+    "examUse": "Statement-based question on the infrastructure requirements and practical applications of Free-space QKD.",
+    "distractorHooks": [
+      "Requires specialized quantum fibre optic cables to prevent photon loss",
+      "Is unsuitable for dense urban environments due to atmospheric interference"
+    ]
+  }
+]

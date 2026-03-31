@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Multiple Choice",
+      "prompt": "In the context of quantum mechanics, which one of the following best describes the functional implication of 'measuring' a quantum particle?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It converts the discrete quantum units into continuous classical waves."
+        },
+        {
+          "id": "B",
+          "text": "It forces a particle in superposition to collapse into a single state."
+        },
+        {
+          "id": "C",
+          "text": "It permanently severs the entanglement link between two spatially separated particles."
+        },
+        {
+          "id": "D",
+          "text": "It enables the particle to exist in multiple states simultaneously."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "According to the principles of quantum mechanics, superposition is the ability of a quantum particle to be in multiple states at the same time 'until measured'. Therefore, the act of measurement forces the particle to collapse into a single definitive state, terminating its superposition.",
+      "takeaway": "Measurement fundamentally alters a quantum system by collapsing its superposition, forcing a qubit that could represent 0, 1, or both simultaneously into a single state.",
+      "evidenceExcerpt": "Superposition is the ability of a quantum particle to be in multiple states at the same time until measured.",
+      "qualityScore": 88,
+      "reviewNotes": "Tests conceptual clarity rather than rote memorization. The distractors are plausible and use quantum terminology effectively."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the principles and applications of quantum mechanics, consider the following statements: 1. It postulates that extremely small objects can simultaneously possess the characteristics of both particles and waves. 2. Quantum computing fundamentally relies on traditional binary bits to process information in multiple states simultaneously. 3. Post-quantum cryptography and quantum chemistry for drug development are among its practical applications. How many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Quantum mechanics explains how extremely small objects simultaneously have the characteristics of both particles and waves. Statement 2 is incorrect: Quantum computing uses qubits as basic units instead of binary bits. Traditional bits are restricted to 0 or 1, whereas qubits can exist in a state representing 0, 1, or both simultaneously. Statement 3 is correct: Practical applications of quantum technology include post-quantum cryptography, quantum key distribution, and quantum chemistry for drug development.",
+      "takeaway": "Quantum computing fundamentally differs from classical computing by using qubits instead of binary bits to process information.",
+      "evidenceExcerpt": "Quantum mechanics explains how extremely small objects simultaneously have the characteristics of both particles and waves... Quantum Computing uses qubits as basic units instead of binary bits... Applications of quantum technology include post-quantum cryptography, quantum key distribution, and quantum chemistry for drug development.",
+      "qualityScore": 85,
+      "reviewNotes": "Good coverage of basic principles and applications. Converted to the latest 'How many statements' format."
+    }
+  ],
+  "reviewerNotes": "Selected three high-quality questions covering wave-particle duality, applications, core definitions, and the conceptual implication of measurement. Rewrote prompts to strictly avoid control tokens and align with UPSC standards."
+}

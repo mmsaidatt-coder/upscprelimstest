@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Hard",
+      "questionType": "Conceptual",
+      "prompt": "Which of the following statements best explains the primary purpose of the Economic Capital Framework (ECF) adopted by the RBI?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "To provide a rule-based framework for assessing the RBI's capital adequacy and determining the quantum of surplus to be transferred to the government."
+        },
+        {
+          "id": "B",
+          "text": "To ensure a consistent and maximized annual dividend to the government to aid in fiscal consolidation."
+        },
+        {
+          "id": "C",
+          "text": "To replace the statutory provisions of the RBI Act, 1934 with a more flexible, committee-based approach to profit sharing."
+        },
+        {
+          "id": "D",
+          "text": "To primarily focus on increasing the returns from foreign currency assets to generate higher income for the RBI."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "The primary purpose of the ECF is to provide a transparent and structured methodology to determine the appropriate level of capital the RBI should hold to cover various risks (risk provisions). After setting aside these provisions from its income, the remaining amount is the transferable surplus. Therefore, it is a framework for assessing capital adequacy first, and then determining the surplus. It does not aim to 'maximize' the transfer (Option B), 'replace' the RBI Act (Option C), or dictate investment strategy (Option D).",
+      "takeaway": "The Economic Capital Framework (ECF) institutionalizes the process of surplus transfer by prioritizing the financial resilience of the RBI. The transferable surplus is a residual amount calculated after ensuring the central bank is adequately capitalized against potential risks.",
+      "evidenceExcerpt": "The ECF provides a methodology for determining the appropriate level of risk provisions and profit distribution under Section 47 of the RBI Act, 1934.",
+      "qualityScore": 90,
+      "reviewNotes": "This question was rewritten from the original candidate to be more conceptually challenging. The prompt was refined, and the options were crafted to be more nuanced and plausible distractors. The correct option precisely captures the dual objective of the ECF, while the incorrect options target common misconceptions about the RBI's surplus transfer."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the transfer of surplus from the Reserve Bank of India (RBI) to the Government of India, consider the following statements:\n\n1. The legal basis for the distribution of RBI's profits is provided under Section 47 of the RBI Act, 1934.\n2. The amount of surplus to be transferred is determined annually by the Bimal Jalan Committee.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct. The source material explicitly states that the Economic Capital Framework (ECF) provides a methodology for profit distribution under Section 47 of the RBI Act, 1934, which governs the allocation of the RBI's surplus profits. Statement 2 is incorrect. The Bimal Jalan Committee gave recommendations that led to the adoption of the ECF in 2019. The committee does not determine the surplus amount annually; the RBI does, using the methodology provided by the ECF.",
+      "takeaway": "It is crucial to distinguish between the legal provision (Section 47, RBI Act), the recommending body for the framework (Bimal Jalan Committee), and the operational framework itself (ECF) which guides the annual surplus transfer calculation.",
+      "evidenceExcerpt": "The ECF provides a methodology for determining the appropriate level of risk provisions and profit distribution under Section 47 of the RBI Act, 1934... adopted in 2019 following the recommendations of the Bimal Jalan Committee.",
+      "qualityScore": 85,
+      "reviewNotes": "This is a well-constructed question that tests two distinct and important facts related to the topic. The second statement is a classic UPSC-style distractor, confusing the role of a recommending committee with an executive body."
+    }
+  ],
+  "reviewerNotes": "Selected three questions covering different aspects of the topic: the legal/institutional framework, RBI's income sources, and the conceptual purpose of the ECF. Candidate 1 was retained as it was a strong, well-structured question. Candidate 2 was rewritten to be a standalone question, removing its direct reference to the 'passage' to better align with the UPSC style. Candidate 3 was selected over Candidate 4 to avoid conceptual overlap and was significantly rewritten to sharpen the prompt and create more nuanced distractors, elevating it to a high-quality conceptual question. Candidate 4 was rejected due to its similarity to the chosen Candidate 3."
+}

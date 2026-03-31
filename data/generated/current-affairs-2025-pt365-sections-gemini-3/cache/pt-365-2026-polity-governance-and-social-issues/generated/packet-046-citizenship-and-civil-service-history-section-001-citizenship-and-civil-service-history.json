@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Polity",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "Which of the following activities require special permission for an OCI cardholder in India, even though they are generally permitted all other activities?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inter-country adoption of Indian children"
+        },
+        {
+          "id": "B",
+          "text": "Undertaking research work"
+        },
+        {
+          "id": "C",
+          "text": "Investing in the National Pension Scheme"
+        },
+        {
+          "id": "D",
+          "text": "Purchasing residential property"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "According to the source, OCI cardholders can undertake all activities except research work, for which special permission is required from the Indian Mission/Post/FRRO concerned. They have parity with NRIs for adoption and NPS, and while they cannot buy agricultural land, residential property is generally allowed (though the restriction is specifically on agricultural land).",
+      "takeaway": "Research work is a restricted activity for OCI cardholders requiring specific prior permission.",
+      "evidenceExcerpt": "OCI Cardholders: All activities except research work for which special permission is required from Indian Mission/Post/ FRRO concerned.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Hard",
+      "questionType": "Comparative",
+      "prompt": "With reference to the administrative requirements for individuals of Indian origin visiting India, which of the following statements correctly distinguishes between a Person of Indian Origin (PIO) and an OCI cardholder?",
+      "options": [
+        {
+          "id": "A",
+          "text": "PIOs are entitled to a lifelong visa, whereas OCI cardholders must apply for a visa for every visit."
+        },
+        {
+          "id": "B",
+          "text": "OCI cardholders are required to register with local police if their stay exceeds 180 days, while PIOs are exempt."
+        },
+        {
+          "id": "C",
+          "text": "PIOs require a visa for visiting India, while OCI cardholders can visit without a visa for their entire life."
+        },
+        {
+          "id": "D",
+          "text": "Both PIOs and OCI cardholders are exempt from registration with local police regardless of the duration of their stay."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "According to the parameters, a PIO requires a visa for visiting India and must register with local police if the stay exceeds 180 days. In contrast, an OCI cardholder has a lifelong visa and is exempt from registration for any length of stay in India.",
+      "takeaway": "OCI status provides significantly greater ease of travel and residency in India compared to the PIO status.",
+      "evidenceExcerpt": "PIO: Does he/she require visa for visiting India? Yes. Is he/she required to register with local police authorities? Yes, if period of stay is for more than 180 days. OCI Cardholders: Can visit India without visa for life long. Is he/she required to register? No.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Mechanism-design",
+      "prompt": "The historical transition of the Indian Civil Services from a system of patronage to one based on open merit was consolidated through which of the following pairs of developments?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Charter Act of 1833 and the Cornwallis Code"
+        },
+        {
+          "id": "B",
+          "text": "Charter Act of 1853 and the Lord Macaulay Committee"
+        },
+        {
+          "id": "C",
+          "text": "Government of India Act 1858 and the Aitchison Commission"
+        },
+        {
+          "id": "D",
+          "text": "Indian Councils Act 1861 and the Lee Commission"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Charter Act of 1853 ended the East India Company's patronage in recruitment and mandated open competition. Subsequently, the Lord Macaulay Committee of 1854 recommended the specific merit-based competitive examination system to implement this mandate.",
+      "takeaway": "The 1853 Charter Act and the 1854 Macaulay Committee are the twin pillars that established the modern meritocratic civil service in India.",
+      "evidenceExcerpt": "Charter Act, 1853: Ended East India Company’s patronage in recruitment, enjoining recruitment to be through an open competition. Lord Macaulay Committee, 1854: Recommended a merit-based competitive examination system.",
+      "contextLines": []
+    },
+    {
+      "subject": "Polity",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "Which of the following best defines the legal status of a Non-Resident Indian (NRI) as compared to a Person of Indian Origin (PIO)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "An NRI is a foreign citizen of Indian ancestry, while a PIO is an Indian citizen living abroad."
+        },
+        {
+          "id": "B",
+          "text": "An NRI is an Indian citizen holding an Indian passport, while a PIO is a foreign citizen holding a foreign passport."
+        },
+        {
+          "id": "C",
+          "text": "Both NRIs and PIOs are Indian citizens, but only NRIs are allowed to hold Indian passports."
+        },
+        {
+          "id": "D",
+          "text": "NRIs are registered under Section 7A of the Citizenship Act, while PIOs are registered under Section 5."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "An NRI is an Indian citizen who resides outside India and holds an Indian passport. A PIO is a person who (or whose ancestors) was an Indian national but currently holds foreign citizenship and a foreign passport.",
+      "takeaway": "The primary distinction between NRI and PIO/OCI is citizenship and the passport held.",
+      "evidenceExcerpt": "Non-Resident Indian (NRI): Indian citizen who ordinarily residing outside India and holds an Indian Passport. Person of Indian Origin (PIO): ...presently holding another country’s citizenship/ nationality i.e. he/she holding foreign passport.",
+      "contextLines": []
+    }
+  ]
+}

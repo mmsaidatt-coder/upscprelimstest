@@ -1,0 +1,49 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-036-rare-earth-elements-and-nanotechnology-section-003-nanozymes",
+    "claimType": "Concept",
+    "claimText": "Nanozymes are nanomaterials that possess intrinsic enzyme-like properties.",
+    "evidenceExcerpt": "Nanozymes are nanomaterials with intrinsic enzyme-like properties.",
+    "pageNumbers": [
+      72
+    ],
+    "examUse": "Statement-based question defining nanozymes.",
+    "distractorHooks": [
+      "Biological enzymes without nanomaterial properties",
+      "Nanomaterials lacking catalytic activity"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-036-rare-earth-elements-and-nanotechnology-section-003-nanozymes",
+    "claimType": "Comparison",
+    "claimText": "Compared to natural enzymes, nanozymes offer advantages such as high stability, low cost, and high catalytic activity.",
+    "evidenceExcerpt": "They offer advantages over natural enzymes, including high catalytic activity, low cost, and high stability.",
+    "pageNumbers": [
+      72
+    ],
+    "examUse": "Comparison question evaluating the advantages of nanozymes over natural enzymes.",
+    "distractorHooks": [
+      "Nanozymes are less stable than natural enzymes",
+      "Nanozymes are more expensive to produce",
+      "Nanozymes have lower catalytic activity"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-036-rare-earth-elements-and-nanotechnology-section-003-nanozymes",
+    "claimType": "Application",
+    "claimText": "Vanadium pentoxide (V2O5) is an artificial metal-based nanozyme used to treat abnormal blood clotting conditions such as pulmonary thromboembolism.",
+    "evidenceExcerpt": "Researchers at IISc developed an artificial metal-based nanozyme (vanadium pentoxide or V2O5) to treat abnormal blood clotting caused by conditions like pulmonary thromboembolism (PTE).",
+    "pageNumbers": [
+      72
+    ],
+    "examUse": "Application-based question on the medical uses of specific nanozymes.",
+    "distractorHooks": [
+      "Used for cancer cell destruction",
+      "It is a naturally occurring biological enzyme",
+      "Used for water purification instead of medical treatment"
+    ]
+  }
+]

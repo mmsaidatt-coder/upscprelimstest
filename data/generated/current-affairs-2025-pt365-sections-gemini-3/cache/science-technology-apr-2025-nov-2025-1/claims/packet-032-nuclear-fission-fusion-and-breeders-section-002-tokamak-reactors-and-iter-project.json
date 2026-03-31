@@ -1,0 +1,102 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-032-nuclear-fission-fusion-and-breeders-section-002-tokamak-reactors-and-iter-project",
+    "claimType": "Factual",
+    "claimText": "ITER is a fusion energy project located in France that aims to demonstrate fusion as an abundant, safe, and carbon-free energy source.",
+    "evidenceExcerpt": "ITER is located in France and aims to demonstrate fusion as an abundant, safe, carbon-free energy source.",
+    "pageNumbers": [
+      64,
+      65
+    ],
+    "examUse": "Statement-based question on the location and fundamental purpose of the ITER project.",
+    "distractorHooks": [
+      "Located in the USA or Switzerland",
+      "Based on nuclear fission rather than fusion"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-032-nuclear-fission-fusion-and-breeders-section-002-tokamak-reactors-and-iter-project",
+    "claimType": "Factual",
+    "claimText": "India's contribution to the ITER project includes the manufacturing of the cryostat and cryolines.",
+    "evidenceExcerpt": "India manufactured the cryostat (chamber housing the tokamak) and cryolines (carrying liquid helium to cool magnets) for ITER.",
+    "pageNumbers": [
+      64,
+      65
+    ],
+    "examUse": "Statement-based question evaluating India's specific technological contributions to international mega-science projects.",
+    "distractorHooks": [
+      "India is only an observer and did not contribute hardware",
+      "India supplied the central magnet system or nuclear fuel"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-032-nuclear-fission-fusion-and-breeders-section-002-tokamak-reactors-and-iter-project",
+    "claimType": "Factual",
+    "claimText": "The Institute for Plasma Research in Ahmedabad is the lead Indian institution participating in the ITER project.",
+    "evidenceExcerpt": "The Institute for Plasma Research in Ahmedabad is the lead Indian institution participating in ITER.",
+    "pageNumbers": [
+      64,
+      65
+    ],
+    "examUse": "Institution-feature question identifying the nodal agency for India's fusion research and ITER participation.",
+    "distractorHooks": [
+      "Bhabha Atomic Research Centre (BARC)",
+      "Indian Space Research Organisation (ISRO)",
+      "Tata Institute of Fundamental Research (TIFR)"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-032-nuclear-fission-fusion-and-breeders-section-002-tokamak-reactors-and-iter-project",
+    "claimType": "Conceptual",
+    "claimText": "A Tokamak reactor works by creating and confining fusion plasma using strong magnetic fields.",
+    "evidenceExcerpt": "A Tokamak reactor works by creating and confining fusion plasma using strong magnetic fields.",
+    "pageNumbers": [
+      64,
+      65
+    ],
+    "examUse": "Conceptual question on the working principle of Tokamak reactors and magnetic confinement fusion.",
+    "distractorHooks": [
+      "Uses inertial confinement via high-powered lasers",
+      "Uses gravitational confinement",
+      "Relies on uncontrolled fission chain reactions"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-032-nuclear-fission-fusion-and-breeders-section-002-tokamak-reactors-and-iter-project",
+    "claimType": "Factual",
+    "claimText": "ADITYA is India's first indigenously designed domestic tokamak reactor.",
+    "evidenceExcerpt": "India's domestic tokamak research includes ADITYA (first indigenously designed), ADITYA-U, and SST-1.",
+    "pageNumbers": [
+      64,
+      65
+    ],
+    "examUse": "Statement-based question on the history and milestones of India's domestic nuclear fusion program.",
+    "distractorHooks": [
+      "APSARA was the first indigenous tokamak",
+      "SST-1 was the first indigenous tokamak",
+      "ADITYA is a fast breeder reactor"
+    ]
+  },
+  {
+    "id": "claim-006",
+    "sectionId": "packet-032-nuclear-fission-fusion-and-breeders-section-002-tokamak-reactors-and-iter-project",
+    "claimType": "Factual",
+    "claimText": "Major global tokamak reactors include JET in the UK, EAST in China, and KSTAR in South Korea.",
+    "evidenceExcerpt": "Major global tokamaks include JET (UK), EAST (China), KSTAR (South Korea), and JT-60SA (Japan/Europe).",
+    "pageNumbers": [
+      64,
+      65
+    ],
+    "examUse": "Correct-pair question matching international tokamak reactors to their respective host countries.",
+    "distractorHooks": [
+      "EAST is located in Japan",
+      "KSTAR is located in China",
+      "JET is located in the USA"
+    ]
+  }
+]

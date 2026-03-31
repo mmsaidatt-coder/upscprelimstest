@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Vehicle-to-Grid (V2G)' technology:\n\n1. It enables electric vehicles to act as decentralized energy storage systems.\n2. It improves grid stability by modulating power to reduce the impact of variable renewable energy.\n3. It supports demand response markets through the bi-directional flow of electricity between the vehicle and the grid.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: V2G technology enables EV batteries to send power back to the grid, allowing them to act as decentralized battery energy storage devices when not in use.\nStatement 2 is correct: It facilitates the integration of Renewable Energy (RE) and improves grid stability by modulating power to reduce the impact of variable RE.\nStatement 3 is correct: By allowing bi-directional power flow, V2G supports demand response markets, helping balance supply and demand across the grid.",
+      "takeaway": "V2G technology transforms electric vehicles into decentralized storage units that can feed power back to the grid, thereby aiding renewable energy integration and grid stability.",
+      "evidenceExcerpt": "Vehicle-to-Grid (V2G) technology enables EV batteries to send power back to the grid, acting as decentralized battery energy storage devices when not in use... V2G facilitates the integration of Renewable Energy (RE), supports demand response markets, and improves grid stability by modulating power to reduce the impact of variable RE.",
+      "qualityScore": 88,
+      "reviewNotes": "Converted to the latest UPSC 'How many statements are correct' format. Tests the core applications and benefits of V2G technology."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Conceptual",
+      "prompt": "In the context of power grid management, which one of the following best describes the primary function of 'Vehicle-to-Grid (V2G)' technology?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It restricts the charging of electric vehicles exclusively to off-grid solar and wind energy sources."
+        },
+        {
+          "id": "B",
+          "text": "It utilizes centralized grid-scale batteries to rapidly charge electric vehicles during low-demand periods."
+        },
+        {
+          "id": "C",
+          "text": "It enables electric vehicles to discharge stored energy back to the grid, acting as decentralized storage."
+        },
+        {
+          "id": "D",
+          "text": "It automatically disconnects electric vehicles from the grid during peak hours to prevent power surges."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Option C is correct: Vehicle-to-Grid (V2G) technology enables electric vehicle (EV) batteries to send power back to the grid. When not in use, these vehicles act as decentralized battery energy storage devices. This bi-directional flow allows EVs to discharge stored energy to the grid, supporting demand response markets and improving grid stability. Options A, B, and D describe incorrect mechanisms that do not represent V2G technology.",
+      "takeaway": "V2G technology allows electric vehicles to function as decentralized energy storage by enabling bi-directional power flow between the vehicle battery and the electrical grid.",
+      "evidenceExcerpt": "Vehicle-to-Grid (V2G) technology enables EV batteries to send power back to the grid, acting as decentralized battery energy storage devices when not in use.",
+      "qualityScore": 85,
+      "reviewNotes": "Refined the prompt to ask for the 'best description' of the technology, which is a common UPSC phrasing for emerging tech concepts. Distractors are plausible but clearly incorrect."
+    }
+  ],
+  "reviewerNotes": "Both questions were rewritten to align with UPSC standards. Candidate 1 was updated to the 'How many statements' format, covering the multiple grid-level benefits of V2G. Candidate 2 was refined into a 'best description' conceptual question with strong, parallel distractors."
+}

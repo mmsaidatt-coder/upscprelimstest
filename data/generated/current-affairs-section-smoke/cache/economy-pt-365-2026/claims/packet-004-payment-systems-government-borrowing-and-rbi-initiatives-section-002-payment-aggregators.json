@@ -1,0 +1,48 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-004-payment-systems-government-borrowing-and-rbi-initiatives-section-002-payment-aggregators",
+    "claimType": "Definition",
+    "claimText": "A Payment Aggregator is an entity that facilitates the aggregation of payments from customers to merchants.",
+    "evidenceExcerpt": "A Payment Aggregator (e.g., Paytm, Google Pay) is an entity that facilitates the aggregation of payments from customers to merchants.",
+    "pageNumbers": [
+      8
+    ],
+    "examUse": "This claim can be used in a statement-based question to test the fundamental understanding of what a Payment Aggregator does.",
+    "distractorHooks": [
+      "Confusing Payment Aggregators with Payment Gateways.",
+      "Misstating the direction of payment (e.g., from merchants to customers)."
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-004-payment-systems-government-borrowing-and-rbi-initiatives-section-002-payment-aggregators",
+    "claimType": "Regulatory Requirement",
+    "claimText": "A Payment Aggregator must be incorporated as a company under the Companies Act, 2013.",
+    "evidenceExcerpt": "It must be incorporated under the Companies Act, 2013...",
+    "pageNumbers": [
+      8
+    ],
+    "examUse": "This claim can be used in a statement-based question to check knowledge of the legal incorporation requirements for Payment Aggregators.",
+    "distractorHooks": [
+      "Mentioning an incorrect act, such as the Banking Regulation Act, 1949 or the RBI Act, 1934.",
+      "Using an incorrect year for the Companies Act, such as 1956."
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-004-payment-systems-government-borrowing-and-rbi-initiatives-section-002-payment-aggregators",
+    "claimType": "Regulatory Requirement",
+    "claimText": "Non-bank Payment Aggregators are required to obtain authorisation from the RBI under the Payment and Settlement Systems Act, 2007.",
+    "evidenceExcerpt": "...the new framework mandates that non-bank PAs obtain RBI authorisation under the Payment and Settlement Systems Act, 2007.",
+    "pageNumbers": [
+      8
+    ],
+    "examUse": "This claim is suitable for a statement-based question testing the specific regulatory framework for non-bank PAs, including the authorizing body and the relevant act.",
+    "distractorHooks": [
+      "Stating that all Payment Aggregators (including banks) need this specific authorisation.",
+      "Naming a different regulatory body like SEBI or the Ministry of Finance.",
+      "Citing an incorrect act, such as the Information Technology Act, 2000."
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Geography",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Chandragiri and Chalakkudy rivers, which are natural habitats for the recently discovered *Labeo* fish species:\n1. The Chandragiri River is a west-flowing interstate river originating from the Pattimala hills.\n2. The Chalakkudy River originates in the Anamalai Hills.\n3. Both rivers are part of the Eastern Ghats drainage system.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The Chandragiri River, which hosts *Labeo uru*, is a west-flowing interstate river originating from the Pattimala hills in Karnataka.\nStatement 2 is correct: The Chalakkudy river, the habitat of *Labeo chekida*, originates in the Anamalai Hills.\nStatement 3 is incorrect: Both rivers are part of the Western Ghats river systems, as the fish species found in them are endemic to the Western Ghats.",
+      "takeaway": "The Chandragiri River is a west-flowing river originating in the Pattimala hills, while the Chalakkudy River originates in the Anamalai Hills. Both are part of the Western Ghats river systems.",
+      "evidenceExcerpt": "Labeo uru is found in the Chandragiri River (originating from Pattimala hills, Karnataka). Labeo chekida inhabits the Chalakkudy river (originating in Anamalai Hills).\n- Labeo uru is found in the Chandragiri River, a west-flowing interstate river\n- Both are freshwater fish endemic to the Western Ghats river systems",
+      "qualityScore": 85,
+      "reviewNotes": "Excellent integration of current affairs (new species discovery) with static geography (river origins and flow directions). The Eastern Ghats distractor is highly plausible for candidates who vaguely remember the topic."
+    }
+  ],
+  "reviewerNotes": "Selected two questions. Q1 focuses on the biological and institutional aspects of the newly discovered species. Q2 integrates the current affairs discovery with static geography, testing the origin and flow direction of the specific rivers mentioned in the text. Both are formatted to match the latest UPSC 'How many statements' pattern."
+}

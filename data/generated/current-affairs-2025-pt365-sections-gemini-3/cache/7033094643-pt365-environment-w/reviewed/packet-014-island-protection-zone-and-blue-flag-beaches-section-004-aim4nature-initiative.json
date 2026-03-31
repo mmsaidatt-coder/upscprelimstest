@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the 'AIM4NatuRe' initiative, consider the following statements:\n1. It was launched by the United Nations Environment Programme (UNEP).\n2. It aligns with the Global Biodiversity Framework (GBF) target to restore at least 30 percent of degraded ecosystems by 2030.\n3. It is implemented as a part of the AIM4Forests Programme.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The AIM4NatuRe (Accelerating Innovative Monitoring for Nature Restoration) initiative was launched by the Food and Agriculture Organization (FAO), not the UNEP, to improve monitoring and reporting of global ecosystem restoration efforts.\nStatement 2 is correct: The initiative leverages cutting-edge technology to help restore at least 30% of degraded ecosystems by 2030, which is outlined in Target 2 of the Global Biodiversity Framework (GBF).\nStatement 3 is correct: AIM4NatuRe is a part of the FAO's AIM4Forests Programme, expanding its scope to provide a holistic approach to nature restoration monitoring.",
+      "takeaway": "AIM4NatuRe is an FAO initiative under the AIM4Forests Programme designed to monitor global ecosystem restoration, specifically supporting Target 2 of the Global Biodiversity Framework (30% restoration by 2030).",
+      "evidenceExcerpt": "AIM4NatuRe (Accelerating Innovative Monitoring for Nature Restoration) Launched by: The Food and Agriculture Organization (FAO) on Earth Day. Aim: To improve monitoring and reporting of global ecosystem restoration efforts... to restore at least 30% of degraded ecosystems by 2030, as outlined in Target 2 of the Global Biodiversity Framework (GBF). Part of FAO's AIM4Forests Programme.",
+      "qualityScore": 88,
+      "reviewNotes": "The question effectively tests the launching agency, the specific GBF target, and the parent programme. The use of UNEP as a distractor for an FAO initiative is a classic UPSC trap."
+    }
+  ],
+  "reviewerNotes": "Selected and refined the statement-based question. It covers the most testable facts about the AIM4NatuRe initiative (launching body, GBF alignment, and parent programme) using the standard UPSC 'How many statements are correct' format."
+}

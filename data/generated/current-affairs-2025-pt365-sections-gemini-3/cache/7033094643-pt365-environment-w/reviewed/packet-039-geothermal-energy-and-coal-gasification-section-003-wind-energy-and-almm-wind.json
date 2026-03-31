@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Approved List of Models and Manufacturers (ALMM) for Wind, consider the following statements:\n1. It was introduced by the Ministry of Power to replace the earlier wind turbine approval system.\n2. It mandates the sourcing of key wind turbine components from approved Indian suppliers.\n3. It enforces data localization requirements for wind energy projects.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The ALMM (Wind) framework was introduced by the Ministry of New and Renewable Energy (MNRE), not the Ministry of Power, by renaming the earlier RLMM system. Statement 2 is correct: The framework mandates sourcing key components from approved Indian suppliers to promote domestic manufacturing. Statement 3 is correct: ALMM (Wind) explicitly requires data localization.",
+      "takeaway": "The ALMM (Wind) framework by MNRE aims to boost domestic manufacturing by mandating the sourcing of key components from Indian suppliers and ensures security through data localization.",
+      "evidenceExcerpt": "MNRE updated its wind turbine approval system, renaming RLMM to Approved List of Models and Manufacturers (Wind) or ALMM (Wind). It mandates sourcing key components from approved Indian suppliers and data localization.",
+      "qualityScore": 88,
+      "reviewNotes": "Tests the nodal ministry and key provisions of the newly updated ALMM (Wind) framework. The swap of MNRE with the Ministry of Power is a classic UPSC distractor."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding India's wind energy sector:\n1. India currently ranks fourth globally in terms of installed wind power capacity.\n2. Wind energy accounts for more than ten percent of India's total electricity generation.\n3. The National Institute of Wind Energy (NIWE) estimates India's wind power potential to be over 1000 GW at 150 meters above ground level.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: India ranks 4th in the world for installed wind power capacity. Statement 2 is incorrect: Wind power contributes 4.69% to India's total electricity generation, which is significantly less than 10%. Statement 3 is correct: The National Institute of Wind Energy estimates India's wind potential at 1164 GW (which is over 1000 GW) at 150 meters above ground level.",
+      "takeaway": "India ranks 4th globally in installed wind capacity and has a massive potential of 1164 GW at 150m AGL, though its current contribution to total electricity is only around 4.69%.",
+      "evidenceExcerpt": "India ranks 4th globally in installed wind power capacity, contributing 4.69% to total electricity. Wind potential is 1164 GW at 150 meters above ground level by the National Institute of Wind Energy.",
+      "qualityScore": 85,
+      "reviewNotes": "Good factual question testing key statistics about India's wind energy profile. The distractors are plausible and align with UPSC's pattern of testing data awareness."
+    }
+  ],
+  "reviewerNotes": "Selected two questions that comprehensively cover the provided text. Question 1 focuses on India's wind energy statistics and potential, while Question 2 tests the nodal ministry and key provisions of the ALMM (Wind) policy. Both use the 'How many statements are correct?' format prevalent in recent UPSC Prelims. The remaining candidates were either too trivial or overlapped heavily with the selected ones."
+}

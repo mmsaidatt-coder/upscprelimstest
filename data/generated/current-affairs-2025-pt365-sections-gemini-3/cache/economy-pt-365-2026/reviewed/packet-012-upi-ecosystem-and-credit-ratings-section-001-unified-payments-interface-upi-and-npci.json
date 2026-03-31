@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Multiple-choice",
+      "prompt": "Consider the following countries:\n1. Bhutan\n2. France\n3. Namibia\n4. United Arab Emirates\n\nIn how many of the above countries has India's Unified Payments Interface (UPI) or RuPay system been deployed or adopted?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "NPCI International Payments Limited (NIPL) was incorporated in 2020 to deploy UPI and RuPay abroad. These systems have been successfully deployed or adopted in several countries, including Bhutan, France, and the United Arab Emirates (UAE). Furthermore, Namibia recently became the first African country to adopt the UPI system. Therefore, all four countries are correct.",
+      "takeaway": "The internationalization of India's digital public infrastructure is being spearheaded by NIPL, with successful deployments spanning Asia (Bhutan, UAE), Europe (France), and Africa (Namibia).",
+      "evidenceExcerpt": "Namibia became the first African country to adopt UPI... NIPL (incorporated 2020) deploys UPI/RuPay abroad in countries like Bhutan, France, UAE, etc.",
+      "qualityScore": 88,
+      "reviewNotes": "Excellent mapping/IR-style economy question. Highly relevant for UPSC Prelims given the recent push for UPI internationalization."
+    },
+    {
+      "subject": "Economy",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the National Payments Corporation of India (NPCI), consider the following statements:\n1. It is a not-for-profit company initiated by the Reserve Bank of India (RBI) and the Indian Banks' Association (IBA).\n2. It was established under the provisions of the Payment and Settlement Systems Act, 2007.\n3. NPCI International Payments Limited (NIPL) is a wholly-owned subsidiary of the RBI incorporated to deploy RuPay and UPI outside India.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: NPCI is a not-for-profit company initiated by the RBI and IBA.\nStatement 2 is correct: It was established under the Payment and Settlement Systems Act, 2007 to oversee retail payments in India.\nStatement 3 is incorrect: NIPL is a wholly-owned subsidiary of NPCI (not the RBI), incorporated in 2020 to deploy RuPay and UPI outside India.",
+      "takeaway": "NPCI is the umbrella organization for operating retail payments and settlement systems in India, backed by the PSS Act 2007. Its international arm, NIPL, is a wholly-owned subsidiary of NPCI.",
+      "evidenceExcerpt": "NIPL is a wholly owned subsidiary of NPCI incorporated in 2020 to deploy RuPay and UPI outside India. NPCI is a not-for-profit company initiated by RBI and IBA under the Payment and Settlement Systems Act, 2007.",
+      "qualityScore": 85,
+      "reviewNotes": "Strong institutional question. The distractor in statement 3 (RBI instead of NPCI) is a classic UPSC trap."
+    }
+  ],
+  "reviewerNotes": "Selected 4 high-quality questions covering the institutional framework of NPCI, technical and operational features of UPI, systems overseen by NPCI, and the internationalization of India's digital payment systems. All questions have been formatted to match the latest UPSC 'How many' pattern where appropriate."
+}

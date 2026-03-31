@@ -1,0 +1,36 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the State Health Regulatory Excellence Index (SHRESTH):\n\n1. It is a national initiative launched by the Union Ministry of Health and Family Welfare.\n2. It was proposed by the Central Drugs Standard Control Organisation (CDSCO).\n3. It aims to centralize the drug manufacturing approval process under the Union government to ensure uniform quality standards.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The State Health Regulatory Excellence Index (SHRESTH) is a national initiative launched by the Union Health Ministry.\n\nStatement 2 is correct: The initiative was proposed by the Central Drugs Standard Control Organisation (CDSCO).\n\nStatement 3 is incorrect: The initiative does not aim to centralize the drug approval process. Instead, its primary objective is to benchmark and strengthen state drug regulatory systems, driving improvements in the performance of state drug regulatory authorities across India to ensure drug safety and quality standards are consistently met.",
+      "takeaway": "The SHRESTH initiative, proposed by CDSCO and launched by the Union Health Ministry, focuses on benchmarking and strengthening state-level drug regulatory systems rather than centralizing regulatory powers.",
+      "evidenceExcerpt": "Union Health Ministry launched State Health Regulatory Excellence Index (SHRESTH), a national initiative to benchmark and strengthens state drug regulatory systems. Proposed by the CDSCO. Aim: To drive improvements in the performance of state drug regulatory authorities across India, ensuring drug safety and quality standards are consistently met.",
+      "qualityScore": 85,
+      "reviewNotes": "Converted the question to the contemporary 'How many statements are correct' format. The distractors are plausible, and the third statement effectively tests the conceptual understanding of the initiative's decentralized/benchmarking approach versus a centralized one."
+    }
+  ],
+  "reviewerNotes": "Selected and refined the statement-based question. Updated the format to match the latest UPSC pattern (Only one, Only two, etc.) and improved the phrasing of the third statement to make the distractor more plausible."
+}

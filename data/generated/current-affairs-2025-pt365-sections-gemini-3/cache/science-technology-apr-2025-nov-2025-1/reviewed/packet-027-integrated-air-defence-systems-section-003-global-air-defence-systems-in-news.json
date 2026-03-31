@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "statement-based",
+      "prompt": "With reference to global air defence systems recently in the news, consider the following statements:\n\n1. The Iron Dome and the Golden Dome are overlapping layers of Israel's multi-tiered missile defence architecture.\n2. The Golden Dome is an upcoming space-based system that relies on surveillance and interceptor satellites.\n3. The Arrow system is designed primarily for the short-range interception of unguided rockets.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "3 only"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: While the Iron Dome is an Israeli system, the Golden Dome is an upcoming system being developed by the United States.\nStatement 2 is correct: The Golden Dome is an upcoming US system that will utilize a network of surveillance and interceptor satellites.\nStatement 3 is incorrect: The Arrow system is a long-range air defence system developed by Israel. It is the Iron Dome that is designed for short-range interception.",
+      "takeaway": "Israel's multi-tiered defence includes the Iron Dome (short-range) and Arrow (long-range). The Golden Dome is a distinct, upcoming US satellite-based system.",
+      "evidenceExcerpt": "Israel's systems include Iron Dome (short range), David's Sling (short to medium/long), Arrow (long range)... USA's systems include... the upcoming Golden Dome (surveillance and interceptor satellites).",
+      "qualityScore": 88,
+      "reviewNotes": "Excellent conceptual question that plays on the similar nomenclature ('Dome') to test if the candidate actually knows the origin and nature of these systems."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "correct-pair",
+      "prompt": "Consider the following pairs of Air Defence Systems and the countries they belong to:\n\n1. Barak Magen : Israel\n2. HQ-9 : China\n3. Golden Dome : United States of America\n4. Arrow : Russia\n\nHow many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "Only three pairs"
+        },
+        {
+          "id": "D",
+          "text": "All four pairs"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Pair 1 is correctly matched: Barak Magen is an advanced naval air defence system developed by Israel.\nPair 2 is correctly matched: HQ-9 is a Chinese air defence system inspired by the Russian S-300.\nPair 3 is correctly matched: Golden Dome is an upcoming United States system utilizing surveillance and interceptor satellites.\nPair 4 is incorrectly matched: Arrow is a long-range air defence system belonging to Israel, not Russia.",
+      "takeaway": "Global air defence systems include Israel's Barak Magen (naval) and Arrow (long-range), China's HQ-9, and the USA's upcoming Golden Dome (satellite-based).",
+      "evidenceExcerpt": "Israel's systems include Iron Dome (short range), David's Sling (short to medium/long), Arrow (long range), and Barak Magen (advanced naval). USA's systems include... the upcoming Golden Dome (surveillance and interceptor satellites). China's HQ-9 system is inspired by the Russian S-300.",
+      "qualityScore": 85,
+      "reviewNotes": "Standard UPSC 'how many pairs' format. Tests factual knowledge of global defence systems without being overly obscure."
+    }
+  ],
+  "reviewerNotes": "Selected two strong questions. The first is a classic 'how many pairs' matching question that covers multiple countries. The second was heavily rewritten from Candidate 6 to include the Arrow system, creating a robust 3-statement question that tests the distinction between similarly named systems (Iron Dome vs. Golden Dome) and their operational ranges."
+}

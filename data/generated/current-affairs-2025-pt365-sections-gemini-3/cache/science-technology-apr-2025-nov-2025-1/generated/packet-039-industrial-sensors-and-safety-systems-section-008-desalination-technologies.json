@@ -1,0 +1,149 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding desalination technologies: 1. Thermal desalination is primarily utilized for brackish water, while membrane technology is predominantly used for seawater. 2. Low Temperature Thermal Desalination (LTTD) plants have been established in Lakshadweep to generate potable water from seawater. 3. The Nemmeli Desalination Plant in Tamil Nadu employs reverse osmosis, which is a type of membrane technology. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: The applications are swapped. Thermal technology is mainly used for seawater desalination, whereas membrane technology is mainly used for brackish water desalination. Statement 2 is correct: Low Temperature Thermal Desalination (LTTD) plants are deployed in Lakshadweep for seawater desalination. Statement 3 is correct: The Nemmeli Seawater Desalination Plant in Tamil Nadu operates on Reverse Osmosis, which pumps feedwater through semi-permeable membranes.",
+      "takeaway": "Thermal desalination relies on heating and condensing vapor (mainly for seawater), while membrane desalination filters dissolved solids through semi-permeable membranes (mainly for brackish water, though plants like Nemmeli use it for seawater).",
+      "evidenceExcerpt": "Thermal Technology: Heating of saline water and collecting the condensed vapor... Usage: Mainly for seawater desalination E.g., Low Temperature Thermal Desalination (LTTD) plants, Lakshadweep. Membrane Technology: Feedwater is pumped through semi-permeable membranes... Usage: Mainly for brackish water desalination E.g., Nemmeli Seawater Desalination Plant, Tamil Nadu, on Reverse Osmosis."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Correct-pair",
+      "prompt": "Consider the following pairs of desalination projects or technologies and their primary characteristics: 1. Low Temperature Thermal Desalination (LTTD) : Relies on heating saline water and collecting condensed vapor. 2. Nemmeli Desalination Plant : Utilizes semi-permeable membranes to filter out dissolved solids. 3. Lotus leaf-like solar evaporators : Utilizes hydrophilic graphene-based material to absorb and filter saline water. How many of the above pairs are correctly matched?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one pair"
+        },
+        {
+          "id": "B",
+          "text": "Only two pairs"
+        },
+        {
+          "id": "C",
+          "text": "All three pairs"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Pair 1 is correctly matched: LTTD is a thermal technology that heats saline water and collects the condensed vapor. Pair 2 is correctly matched: The Nemmeli plant uses Reverse Osmosis (membrane technology), which pumps feedwater through semi-permeable membranes. Pair 3 is incorrectly matched: The lotus leaf-like solar evaporators developed by IIT Bombay use a 'hydrophobic' (water-repelling) graphene-based material, not hydrophilic.",
+      "takeaway": "Recent advancements in desalination include IIT Bombay's development of hydrophobic Graphene-based lotus leaf-like solar evaporators. Conventional methods include thermal (LTTD) and membrane (Reverse Osmosis) technologies.",
+      "evidenceExcerpt": "Thermal Technology: Heating of saline water and collecting the condensed vapor... Membrane Technology: Feedwater is pumped through semi-permeable membranes... IIT Bombay developed hydrophobic Graphene-based lotus leaf-like solar evaporators for desalination."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Statement-based",
+      "prompt": "With reference to recent developments in water purification technologies, consider the following statements: 1. Hydrophobic graphene-based solar evaporators, mimicking lotus leaves, have been developed indigenously for water desalination. 2. In membrane desalination technology, feedwater is pumped through semi-permeable membranes rather than being heated to separate dissolved solids. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement 1 is correct: IIT Bombay has developed hydrophobic Graphene-based lotus leaf-like solar evaporators for desalination. Statement 2 is correct: Membrane technology differs from thermal technology by using pressure to pump feedwater through semi-permeable membranes to filter out dissolved solids, rather than heating the water.",
+      "takeaway": "Membrane desalination (like Reverse Osmosis) relies on pressure and semi-permeable membranes, distinguishing it from thermal desalination which relies on phase change (heating and condensation).",
+      "evidenceExcerpt": "Membrane Technology: Feedwater is pumped through semi-permeable membranes to filter out the dissolved solids... IIT Bombay developed hydrophobic Graphene-based lotus leaf-like solar evaporators for desalination."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Comparison",
+      "prompt": "Which of the following best describes the fundamental difference in the separation mechanism between Low Temperature Thermal Desalination (LTTD) and Reverse Osmosis (RO) as employed in Indian desalination projects?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "LTTD relies on the phase change of water through heating and condensation, whereas RO utilizes physical filtration by pumping feedwater through semi-permeable membranes."
+        },
+        {
+          "id": "B",
+          "text": "LTTD utilizes hydrophobic graphene-based materials to absorb saline water, whereas RO relies on the thermal evaporation of brackish water."
+        },
+        {
+          "id": "C",
+          "text": "LTTD is exclusively deployed for brackish water purification, whereas RO is designed solely for high-salinity seawater."
+        },
+        {
+          "id": "D",
+          "text": "LTTD employs chemical precipitation to remove dissolved solids, whereas RO uses electrical gradients to separate ions."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Thermal technologies like LTTD involve heating saline water and collecting the condensed vapor (distillate) to produce pure water. In contrast, membrane technologies like RO involve pumping feedwater through semi-permeable membranes to filter out dissolved solids.",
+      "takeaway": "Thermal desalination relies on phase change (evaporation and condensation), while membrane desalination relies on physical filtration through semi-permeable membranes without heating.",
+      "evidenceExcerpt": "Thermal Technology: Heating of saline water and collecting the condensed vapor (distillate) to produce pure water... Membrane Technology: Feedwater is pumped through semi-permeable membranes to filter out the dissolved solids."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Conceptual",
+      "prompt": "In the context of recent advancements in water purification, researchers have developed 'lotus leaf-like solar evaporators'. Which of the following best describes the primary scientific principle behind this technology?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It utilizes a hydrophilic surface to maximize the absorption of saline water for rapid boiling."
+        },
+        {
+          "id": "B",
+          "text": "It employs a hydrophobic graphene-based material that prevents complete wetting while facilitating solar-driven evaporation."
+        },
+        {
+          "id": "C",
+          "text": "It relies on semi-permeable membranes that filter out dissolved solids under high pressure."
+        },
+        {
+          "id": "D",
+          "text": "It uses low-temperature thermal condensation to freeze seawater and separate pure ice crystals."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The technology developed by IIT Bombay uses hydrophobic graphene-based solar evaporators that mimic the lotus leaf. The hydrophobic nature prevents the material from being completely wetted, allowing it to efficiently use solar energy to evaporate water.",
+      "takeaway": "Lotus leaf-like solar evaporators utilize hydrophobic graphene-based materials to facilitate efficient water desalination through solar evaporation.",
+      "evidenceExcerpt": "IIT Bombay developed hydrophobic Graphene-based lotus leaf-like solar evaporators for desalination."
+    }
+  ]
+}

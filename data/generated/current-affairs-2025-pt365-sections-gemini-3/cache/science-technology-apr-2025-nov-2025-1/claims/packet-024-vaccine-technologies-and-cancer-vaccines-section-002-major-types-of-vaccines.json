@@ -1,0 +1,98 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-024-vaccine-technologies-and-cancer-vaccines-section-002-major-types-of-vaccines",
+    "claimType": "Factual",
+    "claimText": "Live attenuated vaccines use weakened live pathogens to stimulate an immune response, such as the measles, mumps, and rubella (MMR) vaccine.",
+    "evidenceExcerpt": "Live attenuated vaccines use weakened live pathogens (e.g., MMR vaccine).",
+    "pageNumbers": [
+      48
+    ],
+    "examUse": "Correct-pair questions matching vaccine types with their mechanisms or examples.",
+    "distractorHooks": [
+      "Inactivated pathogens",
+      "Toxoids",
+      "Subunit proteins"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-024-vaccine-technologies-and-cancer-vaccines-section-002-major-types-of-vaccines",
+    "claimType": "Factual",
+    "claimText": "Inactivated vaccines utilize deactivated pathogens to generate immunity without causing the disease, with examples including Polio and Influenza vaccines.",
+    "evidenceExcerpt": "Inactivated vaccines use deactivated pathogens to create immunity without causing disease (e.g., Polio, Influenza).",
+    "pageNumbers": [
+      48
+    ],
+    "examUse": "Correct-pair or statement-based questions on vaccine mechanisms.",
+    "distractorHooks": [
+      "Weakened live pathogens",
+      "Recombinant DNA",
+      "Conjugate parts"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-024-vaccine-technologies-and-cancer-vaccines-section-002-major-types-of-vaccines",
+    "claimType": "Conceptual",
+    "claimText": "Toxoid vaccines target the toxic activity produced by bacteria rather than the bacteria itself, as seen in the Diphtheria vaccine.",
+    "evidenceExcerpt": "Toxoid vaccines target the toxic activity created by bacteria rather than the bacteria itself (e.g., Diphtheria).",
+    "pageNumbers": [
+      48
+    ],
+    "examUse": "Statement-based questions testing the specific mechanism of action of toxoid vaccines.",
+    "distractorHooks": [
+      "Targeting the bacterial cell wall",
+      "Using viral RNA",
+      "Using live attenuated bacteria"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-024-vaccine-technologies-and-cancer-vaccines-section-002-major-types-of-vaccines",
+    "claimType": "Factual",
+    "claimText": "Conjugate vaccines combine two specific parts of a pathogen to enhance the immune response, such as the ZyVac TCV for Typhoid.",
+    "evidenceExcerpt": "Conjugate vaccines use two specific parts of a pathogen to enhance immune response (e.g., ZyVac TCV for Typhoid).",
+    "pageNumbers": [
+      48
+    ],
+    "examUse": "Correct-pair questions matching vaccine types to their examples.",
+    "distractorHooks": [
+      "Whole-cell vaccines",
+      "Recombinant vaccines",
+      "Live attenuated vaccines"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-024-vaccine-technologies-and-cancer-vaccines-section-002-major-types-of-vaccines",
+    "claimType": "Factual",
+    "claimText": "Recombinant vaccines utilize a small piece of DNA from a pathogen to build immunity, with examples including Hepatitis B and HPV vaccines.",
+    "evidenceExcerpt": "Recombinant vaccines use a small piece of DNA from the pathogen (e.g., Hepatitis B, HPV).",
+    "pageNumbers": [
+      48
+    ],
+    "examUse": "Statement-based or correct-pair questions on recombinant technology applications.",
+    "distractorHooks": [
+      "Live attenuated viruses",
+      "Inactivated whole pathogens",
+      "Bacterial toxins"
+    ]
+  },
+  {
+    "id": "claim-006",
+    "sectionId": "packet-024-vaccine-technologies-and-cancer-vaccines-section-002-major-types-of-vaccines",
+    "claimType": "Conceptual",
+    "claimText": "DNA/RNA vaccines work by introducing genetic material from a pathogenic bacteria or virus directly into human cells.",
+    "evidenceExcerpt": "DNA/RNA Vaccine: Genetic material, either DNA or RNA, from the pathogenic bacteria or virus is introduced into the human cells.",
+    "pageNumbers": [
+      48
+    ],
+    "examUse": "Statement-based questions comparing genetic vaccines with traditional vaccines.",
+    "distractorHooks": [
+      "Introducing weakened whole viruses",
+      "Injecting bacterial toxins",
+      "Using deactivated pathogens"
+    ]
+  }
+]

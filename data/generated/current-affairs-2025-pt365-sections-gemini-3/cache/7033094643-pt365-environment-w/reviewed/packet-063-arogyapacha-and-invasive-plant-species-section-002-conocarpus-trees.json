@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Species Identification",
+      "prompt": "Consider the following description of a plant species:\n\nIt is an ornamental plant that provides a green canopy but is highly invasive. Often referred to as a 'green desert', it consumes excessive groundwater and produces allergenic pollen. Recently, a government-appointed panel recommended the Supreme Court to ban its plantation, following similar bans by some states.\n\nWhich of the following plant species is described in the paragraph given above?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Prosopis juliflora"
+        },
+        {
+          "id": "B",
+          "text": "Conocarpus"
+        },
+        {
+          "id": "C",
+          "text": "Lantana camara"
+        },
+        {
+          "id": "D",
+          "text": "Senna spectabilis"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Conocarpus is an invasive ornamental plant often referred to as a 'green desert' due to its high groundwater consumption and production of allergenic pollen. Due to its detrimental environmental and health impacts, states like Gujarat and Tamil Nadu have banned it, and a government-appointed panel has recommended a Supreme Court ban.",
+      "takeaway": "Conocarpus is an exotic invasive tree species that, despite providing a green canopy, harms local ecosystems by consuming excessive groundwater and causing respiratory allergies.",
+      "evidenceExcerpt": "Recently government-appointed panel recommended Supreme Court to ban Conocarpus. (Banned earlier by Gujarat and Tamil Nadu)... Ornamental plant provides green canopy... Invasive (also known as green desert); excessive groundwater consumption; as allergenic pollen, etc.",
+      "qualityScore": 90,
+      "reviewNotes": "Excellent species identification question. The distractors are all well-known invasive species in India, making it a highly plausible and challenging UPSC-style question."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the 'Conocarpus' tree, consider the following statements:\n\n1. It is native to the coastal areas of tropical America and parts of Africa.\n2. It is promoted under the Green India Mission for the ecological restoration of arid regions.\n3. It is an invasive species that adversely affects local groundwater tables.\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Conocarpus species are native to the coastal areas of tropical America, parts of West Africa, and the arid coastal zones of Somalia and Yemen.\nStatement 2 is incorrect: It is not promoted for ecological restoration; rather, it is an invasive species that has been banned by states like Gujarat and Tamil Nadu.\nStatement 3 is correct: It is known as a 'green desert' because it causes excessive groundwater consumption, adversely affecting local hydrology.",
+      "takeaway": "While some exotic species can survive in arid environments, they may do so by aggressively extracting deep groundwater, making them invasive and detrimental to local ecosystems.",
+      "evidenceExcerpt": "Banned earlier by Gujarat and Tamil Nadu... Has 2 species: One native to coastal areas of tropical America, and parts of West Africa. Other found in arid coastal zones of Somalia and Yemen... Invasive (also known as green desert); excessive groundwater consumption; as allergenic pollen, etc.",
+      "qualityScore": 88,
+      "reviewNotes": "Strong statement-based question. Statement 2 serves as an excellent distractor by presenting a plausible but false government initiative for a plant that provides a 'green canopy' in arid regions."
+    }
+  ],
+  "reviewerNotes": "Selected two high-quality questions. Q1 uses the classic paragraph-description format for species identification, while Q2 tests the origin and ecological impact using the contemporary 'How many statements' format. Both accurately reflect the provided source text."
+}

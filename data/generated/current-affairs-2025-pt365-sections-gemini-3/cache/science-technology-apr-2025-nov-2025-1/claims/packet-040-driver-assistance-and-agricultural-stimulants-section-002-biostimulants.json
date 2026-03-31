@@ -1,0 +1,62 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-040-driver-assistance-and-agricultural-stimulants-section-002-biostimulants",
+    "claimType": "Concept",
+    "claimText": "Biostimulants function by stimulating natural processes to benefit crop quality, independently of their nutrient content.",
+    "evidenceExcerpt": "Biostimulants stimulate natural processes to benefit crop quality independently of their nutrient content.",
+    "pageNumbers": [
+      78
+    ],
+    "examUse": "Statement-based question on the primary function of biostimulants.",
+    "distractorHooks": [
+      "Claiming biostimulants primarily function by providing essential macronutrients to the soil.",
+      "Stating that biostimulants are dependent on their nutrient content to improve crop quality."
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-040-driver-assistance-and-agricultural-stimulants-section-002-biostimulants",
+    "claimType": "Comparison",
+    "claimText": "Biostimulants differ from fertilizers as they do not supply nutrients directly, and they differ from pesticides as they do not control pests.",
+    "evidenceExcerpt": "They do not supply nutrients directly (unlike fertilizers) and do not control pests (unlike pesticides).",
+    "pageNumbers": [
+      78
+    ],
+    "examUse": "Comparison question distinguishing biostimulants from fertilizers and pesticides.",
+    "distractorHooks": [
+      "Asserting that biostimulants are a sub-category of chemical pesticides.",
+      "Claiming biostimulants act as direct nutrient suppliers similar to NPK fertilizers."
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-040-driver-assistance-and-agricultural-stimulants-section-002-biostimulants",
+    "claimType": "Regulatory Framework",
+    "claimText": "In India, biostimulants are regulated under the Fertiliser (Inorganic, Organic or Mixed) (Control) Order, 1985.",
+    "evidenceExcerpt": "They are regulated under the Fertiliser (Inorganic, Organic or Mixed) (Control) Order, 1985.",
+    "pageNumbers": [
+      78
+    ],
+    "examUse": "Statement-based question on the legal and regulatory framework governing agricultural inputs.",
+    "distractorHooks": [
+      "Regulated under the Insecticides Act, 1968.",
+      "Regulated under the Environment (Protection) Act, 1986."
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-040-driver-assistance-and-agricultural-stimulants-section-002-biostimulants",
+    "claimType": "Classification",
+    "claimText": "Humic acids, seaweed extracts, liquid manure composting, and beneficial bacteria and fungi are examples of biostimulants.",
+    "evidenceExcerpt": "Examples include humic acids, seaweed extracts, liquid manure composting, and beneficial bacteria and fungi.",
+    "pageNumbers": [
+      78
+    ],
+    "examUse": "Multiple-choice question identifying correct examples of biostimulants from a given list.",
+    "distractorHooks": [
+      "Including synthetic urea as a biostimulant.",
+      "Including chemical herbicides or fungicides as biostimulant examples."
+    ]
+  }
+]

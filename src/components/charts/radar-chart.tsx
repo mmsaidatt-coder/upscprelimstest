@@ -21,13 +21,13 @@ export function RadarChart({ data }: { data: RadarDatum[] }) {
 
   const angles = data.map((_, i) => (-Math.PI / 2) + (i * Math.PI * 2) / data.length);
   const polygonPoints = data
-    .map((item, i) => polarToCartesian(angles[i], 68 * (item.value / 100)))
+    .map((item, i) => polarToCartesian(angles[i]!, 68 * (item.value / 100)))
     .map((p) => `${p.x},${p.y}`)
     .join(" ");
 
   const levelPolygons = [25, 50, 75, 100].map((level) =>
     data
-      .map((_, i) => polarToCartesian(angles[i], 68 * (level / 100)))
+      .map((_, i) => polarToCartesian(angles[i]!, 68 * (level / 100)))
       .map((p) => `${p.x},${p.y}`)
       .join(" "),
   );
@@ -61,8 +61,8 @@ export function RadarChart({ data }: { data: RadarDatum[] }) {
         />
 
         {data.map((item, i) => {
-          const p = polarToCartesian(angles[i], 68 * (item.value / 100));
-          const lp = polarToCartesian(angles[i], 88);
+          const p = polarToCartesian(angles[i]!, 68 * (item.value / 100));
+          const lp = polarToCartesian(angles[i]!, 88);
           return (
             <g key={item.label}>
               <circle cx={p.x} cy={p.y} r="3.5" fill="var(--accent)" />

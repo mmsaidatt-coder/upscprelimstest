@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Hard",
+      "questionType": "Statement-based",
+      "prompt": "With reference to recent developments in the Indian Navy, consider the following statements:\n1. INS Arnala is India's first Anti-Submarine Warfare Shallow Water Craft (ASW-SWC).\n2. INS Arnala is propelled by a combination of a nuclear reactor and a steam turbine.\n3. INS Nistar is designed to serve as a 'Mother Ship' for Deep Submergence Rescue Vessels (DSRV).\n\nHow many of the statements given above are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: INS Arnala is India's first Anti-Submarine Warfare Shallow Water Craft (ASW-SWC).\nStatement 2 is incorrect: INS Arnala is the largest Indian Naval warship to be propelled by a Diesel Engine-Waterjet combination, not a nuclear reactor.\nStatement 3 is correct: INS Nistar serves as a 'Mother Ship' for Deep Submergence Rescue Vessels (DSRV) for deep sea saturation diving.",
+      "takeaway": "INS Arnala represents a significant upgrade in India's shallow water anti-submarine warfare capabilities, utilizing specialized Diesel Engine-Waterjet propulsion, while INS Nistar focuses on diving support and rescue.",
+      "evidenceExcerpt": "INS Arnala: India's first Anti-Submarine Warfare Shallow Water Craft (ASW-SWC). Largest Indian Naval warship to be propelled by a Diesel Engine-Waterjet combination. INS Nistar: First indigenously designed and constructed Diving Support Vessel... Will serve as 'Mother Ship' for the Deep Submergence Rescue Vessel (DSRV).",
+      "qualityScore": 88,
+      "reviewNotes": "Rewrote the second candidate to include both INS Arnala and INS Nistar, utilizing the recent UPSC 'How many statements' format. The propulsion distractor tests careful reading of technological features."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Identification",
+      "prompt": "Consider the following characteristics regarding an Indian naval vessel:\n1. It is India's first indigenously designed and constructed vessel of its specific class.\n2. It is designed to facilitate deep sea saturation diving up to a depth of 300 meters.\n3. It serves as a 'Mother Ship' for Deep Submergence Rescue Vessels (DSRV).\n\nWhich one of the following naval ships is best described by the characteristics given above?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "INS Arnala"
+        },
+        {
+          "id": "B",
+          "text": "INS Nistar"
+        },
+        {
+          "id": "C",
+          "text": "INS Dhruv"
+        },
+        {
+          "id": "D",
+          "text": "INS Sandhayak"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "INS Nistar is India's first indigenously designed and constructed Diving Support Vessel. It serves as a 'Mother Ship' for the Deep Submergence Rescue Vessel (DSRV) to facilitate deep sea saturation diving up to 300m.",
+      "takeaway": "INS Nistar enhances the Indian Navy's search and rescue capabilities by serving as a dedicated Mother Ship for DSRV operations.",
+      "evidenceExcerpt": "INS Nistar: First indigenously designed and constructed Diving Support Vessel... Will serve as 'Mother Ship' for the Deep Submergence Rescue Vessel (DSRV) for deep sea saturation diving up to 300m.",
+      "qualityScore": 85,
+      "reviewNotes": "A well-structured identification question that tests specific functional roles of indigenous naval vessels. Distractors are plausible Indian naval ships."
+    }
+  ],
+  "reviewerNotes": "Selected both candidates but heavily modified the second one to fit the contemporary UPSC 'How many statements are correct' format, integrating facts about both vessels to increase coverage and difficulty. The first candidate was retained as a solid identification question with minor wording improvements."
+}

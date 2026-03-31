@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the Metre Convention of 1875: 1. It was adopted to assure the international unification and improvement of the metric system. 2. It established the International Bureau of Weights and Measures (BIPM). 3. India is currently an observer state to the convention. Which of the statements given above is/are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 and 2 only"
+        },
+        {
+          "id": "B",
+          "text": "2 and 3 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 3 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statements 1 and 2 are correct. The Metre Convention of 1875 aims to assure the international unification and improvement of the metric system and created the International Bureau of Weights and Measures (BIPM) to develop and maintain a universal measurement system. Statement 3 is incorrect because India is a full member of the Metre Convention, not just an observer state.",
+      "takeaway": "The Metre Convention (1875) established the BIPM to maintain a universal measurement system, and India is a participating member.",
+      "evidenceExcerpt": "Includes convention and its annexed regulation to assure the international unification and improvement of the metric system. Created the International Bureau of Weights and Measures (BIPM) to develop and maintain a universal measurement system. India is a member.",
+      "contextLines": []
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Institution-feature",
+      "prompt": "Which of the following international bodies was specifically created by the Metre Convention of 1875 to develop and maintain a universal measurement system?",
+      "options": [
+        {
+          "id": "A",
+          "text": "International Organization for Standardization (ISO)"
+        },
+        {
+          "id": "B",
+          "text": "International Bureau of Weights and Measures (BIPM)"
+        },
+        {
+          "id": "C",
+          "text": "World Meteorological Organization (WMO)"
+        },
+        {
+          "id": "D",
+          "text": "International Electrotechnical Commission (IEC)"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Metre Convention of 1875 created the International Bureau of Weights and Measures (BIPM) to develop and maintain a universal measurement system. The other organizations (ISO, WMO, IEC) deal with different aspects of international standards and meteorology.",
+      "takeaway": "The BIPM is the specific intergovernmental organization established by the Metre Convention to oversee the metric system.",
+      "evidenceExcerpt": "Created the International Bureau of Weights and Measures (BIPM) to develop and maintain a universal measurement system.",
+      "contextLines": []
+    }
+  ]
+}

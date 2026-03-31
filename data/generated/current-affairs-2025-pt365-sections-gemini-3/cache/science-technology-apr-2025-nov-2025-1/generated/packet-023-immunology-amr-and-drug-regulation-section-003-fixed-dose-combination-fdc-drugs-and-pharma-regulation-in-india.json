@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Feature-matching",
+      "prompt": "Which of the following best describes the purpose of 'Schedule M' of the Drugs and Cosmetics Rules, 1945, often seen in the news?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It lists the essential medicines whose prices are capped by the National Pharmaceutical Pricing Authority."
+        },
+        {
+          "id": "B",
+          "text": "It prescribes the Good Manufacturing Practices (GMP) that pharmaceutical manufacturing units must follow."
+        },
+        {
+          "id": "C",
+          "text": "It contains the list of narcotic drugs and psychotropic substances regulated by the central government."
+        },
+        {
+          "id": "D",
+          "text": "It specifies the guidelines for conducting clinical trials for new drugs and vaccines in India."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Schedule M of the Drugs and Cosmetics Rules prescribes Good Manufacturing Practices (GMP) for pharmaceutical products in India, ensuring that products are consistently produced and controlled according to quality standards.",
+      "takeaway": "Schedule M is the specific legal provision under the Drugs and Cosmetics Rules that mandates Good Manufacturing Practices (GMP) for pharma companies.",
+      "evidenceExcerpt": "Good Manufacturing Practices (GMP): Schedule M of Drugs and Cosmetics Rules prescribes Good Manufacturing..."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the regulatory framework for pharmaceuticals in India, consider the following statements:\n1. The import, manufacture, distribution, and sale of drugs are governed by the Drugs and Cosmetics Act, 1940.\n2. The Central Drugs Standard Control Organisation (CDSCO) directly grants manufacturing licenses and conducts inspections for all drug manufacturing units across India.\n3. The National Pharmaceutical Pricing Authority (NPPA) functions as the National Regulatory Authority of India under the Directorate General of Health Services.\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct. Statement 2 is incorrect because State Drug Regulatory Authorities grant licenses and conduct inspections at the state level, not the CDSCO. Statement 3 is incorrect because the CDSCO (not NPPA) is the National Regulatory Authority under the Directorate General of Health Services; NPPA specifically enforces the Drugs (Prices Control) Order.",
+      "takeaway": "While CDSCO acts as the central nodal regulatory authority for drug approval, state-level bodies handle manufacturing licensing and inspections, and the NPPA manages drug pricing.",
+      "evidenceExcerpt": "Drugs and Cosmetics Act, 1940 & Drugs and Cosmetics Rules, 1945 governs import, manufacture, distribution, and sale of drugs and cosmetics in India. Central Drugs Standard Control Organisation (CDSCO) under Directorate General of Health Services, Ministry of Health & Family Welfare is National Regulatory Authority of India. National Pharmaceutical Pricing Authority (NPPA) enforces provisions of Drugs (Prices Control) Order... State Drug Regulatory Authorities grant licenses and conduct inspections at the state level."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Assertion-Reason",
+      "prompt": "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R):\n\nAssertion (A): Fixed-Dose Combination (FDC) drugs are often preferred in therapeutic treatments over administering multiple individual drugs separately.\nReason (R): FDCs improve patient compliance by reducing the overall pill burden and generally lower the cost of therapy.\n\nIn the context of the above two statements, which one of the following is correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A)."
+        },
+        {
+          "id": "B",
+          "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A)."
+        },
+        {
+          "id": "C",
+          "text": "Assertion (A) is true but Reason (R) is false."
+        },
+        {
+          "id": "D",
+          "text": "Assertion (A) is false but Reason (R) is true."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Both statements are true, and the reason correctly explains the assertion. FDCs combine one or more active ingredients into a single dose, which reduces the number of pills a patient must take. This convenience improves patient compliance, achieves better therapeutic outcomes, and reduces the overall cost of therapy.",
+      "takeaway": "The primary clinical rationale for FDCs is to simplify medication regimens, which directly enhances patient adherence to prescribed treatments.",
+      "evidenceExcerpt": "Why FDC drugs are Preferred? Better Therapeutic Outcomes, Improved Patient Compliance (Reduces the pill burden), Reduced Cost of Therapy."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice",
+      "prompt": "Under the New Drugs and Clinical Trials (NDCT) Rules, 2019, which of the following conditions mandates that a Fixed-Dose Combination (FDC) be legally treated as a 'new drug'?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "When it combines two or more unapproved active pharmaceutical ingredients for the first time."
+        },
+        {
+          "id": "B",
+          "text": "When it combines two or more drugs already approved for individual use in a fixed ratio."
+        },
+        {
+          "id": "C",
+          "text": "When it alters the delivery mechanism of a single previously approved active ingredient."
+        },
+        {
+          "id": "D",
+          "text": "When it is manufactured exclusively for export purposes without domestic clinical trials."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "According to the NDCT Rules, 2019, an FDC is legally classified as a 'new drug' when it combines two or more drugs that are already approved for individual use into a fixed ratio.",
+      "takeaway": "Even if individual components of a drug are already approved, combining them in a fixed ratio creates a new therapeutic profile, necessitating its regulation and approval as a 'new drug'.",
+      "evidenceExcerpt": "FDCs are considered new drug (under NDCT Rules, 2019) when it combines two or more drugs already approved for individual use in a fixed ratio."
+    }
+  ]
+}

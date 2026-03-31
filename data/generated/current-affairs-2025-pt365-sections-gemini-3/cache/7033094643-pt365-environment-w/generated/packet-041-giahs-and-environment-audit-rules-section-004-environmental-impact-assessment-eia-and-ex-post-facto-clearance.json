@@ -1,0 +1,91 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Environmental Clearance (EC) in India:\n1. An ex-post facto environmental clearance allows a project to continue operations without having obtained prior clearance before its commencement.\n2. The Supreme Court has completely prohibited the Central Government from granting ex-post facto environmental clearances to mining projects.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct. An ex-post facto EC allows a project proponent to continue operations without obtaining an EC prior to project commencement.\n\nStatement 2 is incorrect. The Supreme Court reviewed and overturned its earlier decision that had restrained the Centre from granting ex-post facto environmental clearance to mining projects or regularising actions contravening the 2006 EIA notification.",
+      "takeaway": "Ex-post facto environmental clearance allows projects to regularize operations that commenced without prior EC. The Supreme Court has permitted the Centre to grant such clearances for mining projects by overturning an earlier restraining order.",
+      "evidenceExcerpt": "The Supreme Court reviewed and overturned its May 2025 decision in Vanashakti v. Union of India, which had restrained the Centre from granting ex-post facto environmental clearance (EC) to mining projects or regularising actions contravening the 2006 EIA notification. An ex-post facto EC allows a project proponent to continue without obtaining an EC prior to project commencement."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Implication",
+      "prompt": "With reference to environmental governance in India, what is the practical implication of the Supreme Court's recent review of the Vanashakti v. Union of India judgement regarding mining projects?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It mandates the immediate closure and ecological restoration of all mining projects operating without prior environmental clearance."
+        },
+        {
+          "id": "B",
+          "text": "It permits the Central Government to consider regularising mining projects that commenced operations without prior environmental clearance."
+        },
+        {
+          "id": "C",
+          "text": "It transfers the authority to grant ex-post facto environmental clearances for mining from the Central Government to the respective State governments."
+        },
+        {
+          "id": "D",
+          "text": "It exempts all future mining projects of national importance from the mandatory requirements of the Environmental Impact Assessment notification."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The Supreme Court overturned its previous decision in Vanashakti v. Union of India, which had restrained the Centre from granting ex-post facto environmental clearance to mining projects. By lifting this restraint, the Court has practically allowed the Central Government to consider granting ex-post facto clearances, thereby regularising projects that initially contravened the 2006 EIA notification by starting without prior clearance.",
+      "takeaway": "The Supreme Court's reversal allows for the possibility of ex-post facto environmental clearances, enabling the regularisation of mining projects that commenced without prior clearance.",
+      "evidenceExcerpt": "The Supreme Court reviewed and overturned its May 2025 decision in Vanashakti v. Union of India, which had restrained the Centre from granting ex-post facto environmental clearance (EC) to mining projects or regularising actions contravening the 2006 EIA notification."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "Concept",
+      "prompt": "Which one of the following statements best describes the mechanism of an 'ex-post facto environmental clearance' in the context of India's Environmental Impact Assessment (EIA) framework?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "It is a final clearance granted to a project after its decommissioning to ensure the ecological restoration of the site."
+        },
+        {
+          "id": "B",
+          "text": "It allows a project proponent to continue operations despite having commenced the project without obtaining prior environmental clearance."
+        },
+        {
+          "id": "C",
+          "text": "It is a supplementary clearance required for projects that wish to expand their production capacity beyond the initially approved limits."
+        },
+        {
+          "id": "D",
+          "text": "It is an expedited clearance granted exclusively to strategic projects that are exempt from public consultation."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "An ex-post facto environmental clearance is a regulatory mechanism that allows a project to be regularised and continue its operations even if it failed to obtain the mandatory environmental clearance before the commencement of the project.",
+      "takeaway": "Ex-post facto clearance acts as a regularisation tool for projects that violated EIA norms by starting operations without prior approval.",
+      "evidenceExcerpt": "An ex-post facto EC allows a project proponent to continue without obtaining an EC prior to project commencement."
+    }
+  ]
+}

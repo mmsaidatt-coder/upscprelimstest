@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to Metal-Organic Frameworks (MOFs), consider the following statements: 1. They are composed of metal ions acting as joints and organic carbon-based molecules acting as links. 2. They are highly dense materials that exclusively form two-dimensional network structures. 3. The development of MOFs was awarded the 2025 Nobel Prize in Chemistry. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: MOFs are special materials made of metal ions acting as joints and organic carbon-based molecules acting as links. Statement 2 is incorrect: They form 1D, 2D, or 3D network structures and are highly porous due to the presence of cavities, not highly dense. Statement 3 is correct: The 2025 Nobel Prize in Chemistry was awarded for the development of MOFs.",
+      "takeaway": "MOFs are highly porous 1D, 2D, or 3D network structures made of metal ions (joints) and organic molecules (links), recognized by the 2025 Nobel Prize in Chemistry.",
+      "evidenceExcerpt": "The 2025 Nobel Prize in Chemistry was awarded for the development of Metal-Organic Frameworks (MOFs). MOFs are special materials made of metal ions (acting as joints) and organic carbon-based molecules (acting as links). They join through chemical bonds to form 1D, 2D, or 3D network structures. These structures contain cavities, making the material highly porous."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding Metal-Organic Frameworks (MOFs): 1. In their structural formation, organic carbon-based molecules act as joints while metal ions act as links. 2. They are capable of forming one-dimensional, two-dimensional, or three-dimensional network structures. Which of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is incorrect: In MOFs, metal ions act as joints and organic carbon-based molecules act as links, not the other way around. Statement 2 is correct: MOFs can form 1D, 2D, or 3D network structures through chemical bonds.",
+      "takeaway": "The structural integrity of MOFs relies on metal ions serving as joints connected by organic carbon-based links, allowing for versatile 1D, 2D, or 3D configurations.",
+      "evidenceExcerpt": "MOFs are special materials made of metal ions (acting as joints) and organic carbon-based molecules (acting as links). They join through chemical bonds to form 1D, 2D, or 3D network structures."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Assertion-Reason",
+      "prompt": "Given below are two statements: one is labelled as Assertion (A) and the other as Reason (R). Assertion (A): Metal-Organic Frameworks (MOFs) are characterized as highly porous materials. Reason (R): The chemical bonding between metal ions and organic molecules in MOFs forms network structures that contain internal cavities. In the light of the above statements, choose the most appropriate answer from the options given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both Assertion (A) and Reason (R) are correct and Reason (R) is the correct explanation for Assertion (A)"
+        },
+        {
+          "id": "B",
+          "text": "Both Assertion (A) and Reason (R) are correct but Reason (R) is not the correct explanation for Assertion (A)"
+        },
+        {
+          "id": "C",
+          "text": "Assertion (A) is correct but Reason (R) is incorrect"
+        },
+        {
+          "id": "D",
+          "text": "Assertion (A) is incorrect but Reason (R) is correct"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "MOFs are highly porous materials. This porosity is a direct structural consequence of their design, where metal ions (acting as joints) and organic carbon-based molecules (acting as links) join through chemical bonds to form network structures. These specific network structures contain cavities, which gives the material its highly porous nature. Therefore, the reason correctly explains the assertion.",
+      "takeaway": "The high porosity of Metal-Organic Frameworks (MOFs) is a direct result of the internal cavities formed by the chemical bonding between their metal joints and organic links.",
+      "evidenceExcerpt": "They join through chemical bonds to form 1D, 2D, or 3D network structures. These structures contain cavities, making the material highly porous."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Mechanism-Design",
+      "prompt": "Which one of the following best describes the primary structural mechanism that gives Metal-Organic Frameworks (MOFs) their characteristic high porosity?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "The random arrangement of isolated metal ions that repel each other to create microscopic voids"
+        },
+        {
+          "id": "B",
+          "text": "The formation of network structures with internal cavities through chemical bonds between metal joints and organic links"
+        },
+        {
+          "id": "C",
+          "text": "The exclusive formation of one-dimensional carbon chains that loosely pack together to allow gas permeation"
+        },
+        {
+          "id": "D",
+          "text": "The continuous degradation of organic carbon-based molecules that leaves behind empty metallic shells"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The high porosity of MOFs is achieved through their specific structural mechanism: metal ions act as joints and organic carbon-based molecules act as links. They join together through chemical bonds to form 1D, 2D, or 3D network structures that contain cavities, making the overall material highly porous.",
+      "takeaway": "MOFs derive their unique porous properties from deliberate network structures containing cavities, which are formed by bonding metal joints with organic links.",
+      "evidenceExcerpt": "MOFs are special materials made of metal ions (acting as joints) and organic carbon-based molecules (acting as links). They join through chemical bonds to form 1D, 2D, or 3D network structures. These structures contain cavities, making the material highly porous."
+    }
+  ]
+}

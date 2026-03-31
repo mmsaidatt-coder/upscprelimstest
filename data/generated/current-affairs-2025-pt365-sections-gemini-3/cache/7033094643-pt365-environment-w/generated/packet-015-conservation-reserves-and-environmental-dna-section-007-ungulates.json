@@ -1,0 +1,120 @@
+{
+  "questions": [
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding 'Ungulates' in the context of Indian wildlife:\n\n1. They are primarily herbivorous hoofed mammals that include species such as chital, sambar, and nilgai.\n2. India's first survey of ungulates was jointly conducted by the Zoological Survey of India (ZSI) and the National Tiger Conservation Authority (NTCA).\n3. Recent surveys have warned of a decline in their populations across the states of Odisha, Jharkhand, and Chhattisgarh.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Ungulates are hoofed mammals, primarily herbivores, including species like chital, antelopes, sambar, and nilgai.\nStatement 2 is incorrect: India's first survey of ungulates was conducted by the Wildlife Institute of India (WII) and the National Tiger Conservation Authority (NTCA), not the Zoological Survey of India (ZSI).\nStatement 3 is correct: The survey warned of a decline in ungulate populations in Odisha, Jharkhand, and Chhattisgarh.",
+      "takeaway": "Ungulates are hoofed herbivorous mammals (e.g., chital, sambar) surveyed for the first time by WII and NTCA, which noted population declines in specific eastern and central Indian states.",
+      "evidenceExcerpt": "Wildlife Institute of India and National Tiger Conservation Authority did India's first survey of ungulates (hoofed animals), warning of their decline in Odisha, Jharkhand, and Chhattisgarh. Characteristics: Primarily herbivores mammals including chital, antelopes, sambar, nilgai, etc."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "Assertion-Reason",
+      "prompt": "Given below are two statements, one labelled as Assertion (A) and the other labelled as Reason (R):\n\nAssertion (A): A decline in the population of ungulates can adversely affect the natural regeneration of forests and grasslands in India.\nReason (R): Ungulates play a vital role in seed dispersal, nutrient cycling, and maintaining soil health in these ecosystems.\n\nIn the context of the above two statements, which one of the following is correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both Statement-I and Statement-II are correct and Statement-II is the correct explanation for Statement-I"
+        },
+        {
+          "id": "B",
+          "text": "Both Statement-I and Statement-II are correct but Statement-II is not the correct explanation for Statement-I"
+        },
+        {
+          "id": "C",
+          "text": "Statement-I is correct but Statement-II is incorrect"
+        },
+        {
+          "id": "D",
+          "text": "Statement-I is incorrect but Statement-II is correct"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Assertion (A) is correct: A decline in ungulate populations negatively impacts forest and grassland regeneration. Reason (R) is also correct and provides the correct explanation for Assertion (A): Ungulates (such as chital, sambar, and nilgai) aid in forest and grassland regeneration specifically through ecological functions like seed dispersal, nutrient cycling, and maintaining soil health.",
+      "takeaway": "Beyond being a crucial prey base for apex predators like tigers, ungulates are ecologically significant for their role in seed dispersal, nutrient cycling, and soil health maintenance.",
+      "evidenceExcerpt": "Significance: Aid forest/grassland regeneration through seed dispersal; nutrient cycling; soil health."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Moderate",
+      "questionType": "statement-based",
+      "prompt": "Consider the following statements regarding the ecological and conservation profile of ungulates in India:\n\n1. The National Tiger Conservation Authority (NTCA) monitors ungulate populations primarily because they form the critical prey base for tigers.\n2. Recent surveys indicate that ungulate populations are uniformly increasing across the deciduous forests of Eastern and Central India.\n\nWhich of the statements given above is/are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1 only"
+        },
+        {
+          "id": "B",
+          "text": "2 only"
+        },
+        {
+          "id": "C",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "D",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: Ungulates are the primary prey species for tigers, which justifies the NTCA's involvement in India's first ungulate survey alongside the Wildlife Institute of India. Statement 2 is incorrect: The survey actually warned of a decline in ungulate populations in states like Odisha, Jharkhand, and Chhattisgarh.",
+      "takeaway": "The NTCA tracks ungulates due to their role as tiger prey. Recent data shows concerning declines in their populations in specific Eastern and Central Indian states.",
+      "evidenceExcerpt": "Wildlife Institute of India and National Tiger Conservation Authority did India's first survey of ungulates (hoofed animals), warning of their decline in Odisha, Jharkhand, and Chhattisgarh... Prey species for tigers."
+    },
+    {
+      "subject": "Environment",
+      "difficulty": "Easy",
+      "questionType": "how-many",
+      "prompt": "Consider the following species of mammals found in India:\n\n1. Chital\n2. Sambar\n3. Nilgai\n4. Antelope\n\nHow many of the above are classified as ungulates and serve as key prey species for tigers?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "Only three"
+        },
+        {
+          "id": "D",
+          "text": "All four"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "Ungulates are hoofed mammals that are primarily herbivores. Chital, antelopes, sambar, and nilgai are all examples of ungulates found in India and serve as important prey species for tigers.",
+      "takeaway": "Chital, antelopes, sambar, and nilgai are prominent examples of herbivorous hoofed mammals (ungulates) in Indian ecosystems.",
+      "evidenceExcerpt": "Characteristics: Primarily herbivores mammals including chital, antelopes, sambar, nilgai, etc.; Prey species for tigers."
+    }
+  ]
+}

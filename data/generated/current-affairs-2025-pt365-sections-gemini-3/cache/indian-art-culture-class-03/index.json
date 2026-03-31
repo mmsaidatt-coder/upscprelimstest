@@ -1,0 +1,1102 @@
+{
+  "pages": [
+    {
+      "pageNumber": 1,
+      "classification": "cover",
+      "questionQuota": 0,
+      "topic": "Indian Art & Culture",
+      "subtopic": "Cover Page",
+      "rationale": "This is the cover page of the document containing the title and date range. It has no content suitable for question generation.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 2,
+      "classification": "toc",
+      "questionQuota": 0,
+      "topic": "Indian Art & Culture",
+      "subtopic": "Table of Contents",
+      "rationale": "This page contains the table of contents, listing the topics covered in the document. It is not a source for factual questions.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 3,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Sculpture, Paintings and Other Forms of Art",
+      "subtopic": "Bhagavad Gita and Natyashastra in UNESCO MoW",
+      "rationale": "This page contains high-value information regarding the recent inclusion of the Bhagavad Gita and Natyashastra in UNESCO's Memory of the World Register, along with a list of previous Indian entries.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 4,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "UNESCO Memory of the World Programme",
+      "subtopic": "Institutional Framework",
+      "rationale": "Provides details on the genesis, objectives, and the role of the International Advisory Committee and IGNCA as the nodal agency in India.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 5,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "UNESCO Memory of the World Programme",
+      "subtopic": "Documentary Heritage Definition",
+      "rationale": "Defines documentary heritage and the criteria for selection (authenticity, outstanding universal value), which is useful for conceptual questions.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 6,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "UNESCO Memory of the World Programme",
+      "subtopic": "Registers and Committees",
+      "rationale": "Explains the functioning of the International Register and the selection criteria used by the Director-General of UNESCO.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 7,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "UNESCO Memory of the World Programme",
+      "subtopic": "Regional Inscription Statistics",
+      "rationale": "Provides a breakdown of inscriptions by region, allowing for comparative questions on the distribution of documentary heritage.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 8,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "UNESCO Memory of the World Programme",
+      "subtopic": "International Advisory Committee (IAC)",
+      "rationale": "Details the composition and specific responsibilities of the IAC in recommending items for inscription.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 9,
+      "classification": "content",
+      "questionQuota": 1,
+      "topic": "UNESCO Memory of the World Programme",
+      "subtopic": "IAC Sessions",
+      "rationale": "Lists specific dates and locations of IAC sessions; while factual, it is less likely to be a primary source for UPSC questions compared to content-rich pages.",
+      "confidence": 0.85
+    },
+    {
+      "pageNumber": 10,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "UNESCO Memory of the World Programme",
+      "subtopic": "Nomination Procedure",
+      "rationale": "Explains the rules for submitting nominations, including the role of Member States and the limits on proposals per cycle.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 11,
+      "classification": "content",
+      "questionQuota": 1,
+      "topic": "UNESCO Memory of the World Programme",
+      "subtopic": "Support and Implementation",
+      "rationale": "Describes the administrative support provided by the UNESCO Secretariat and the role of autonomous Regional and National Committees.",
+      "confidence": 0.85
+    },
+    {
+      "pageNumber": 12,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "UNESCO Memory of the World Programme",
+      "subtopic": "IGNCA and Regional Register",
+      "rationale": "Details the role of the Indira Gandhi National Centre for the Arts and lists India's specific entries in the Asia-Pacific Regional Register.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 13,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "India's Submissions to MoW Registers",
+      "subtopic": "Historical Manuscripts and Archives",
+      "rationale": "Contains a dense table of Indian inscriptions from 1997 to 2011, including the Rigveda and Shaiva manuscripts, with descriptions of their significance.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 14,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "India's Submissions to MoW Registers",
+      "subtopic": "Significant Manuscripts and Recent Additions",
+      "rationale": "Extremely dense page covering various manuscripts (Jain, Buddhist, Mughal) and the 2025 additions of Bhagavad Gita and Natyashastra. High potential for multiple statement-based questions.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 15,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "India's Submissions to MoW Registers",
+      "subtopic": "Tamil Medical Manuscript Collection",
+      "rationale": "Provides specific details on the Siddha and Ayurveda traditions documented in the IAS Tamil Medical Manuscript Collection.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 16,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "India's Submissions to MoW Registers",
+      "subtopic": "Śaiva Manuscripts of Pondicherry",
+      "rationale": "Offers detailed historical context on the Śaiva Siddhanta tradition and the significance of the manuscript collection in Pondicherry.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 17,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "India's Submissions to MoW Registers",
+      "subtopic": "The Rigveda",
+      "rationale": "Focuses on the Rigveda's inclusion in the register, its material (birch bark), and its foundational role in various Indian sciences and traditions.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 18,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "India's Submissions to MoW Registers",
+      "subtopic": "Tarikh-e-Khandan-e-Timuriyah",
+      "rationale": "Describes the 16th-century Mughal manuscript commissioned by Akbar, including details about the court artists and miniature paintings.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 19,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Buddhist Literature",
+      "subtopic": "Vimalaprabhā Manuscript",
+      "rationale": "Discusses a specific palm-leaf Buddhist commentary with significant links to astrology, astronomy, and Ayurveda, providing comparative details with the Abhidharmakosa.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 20,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "Jain Literature",
+      "subtopic": "Shantinatha Charitra",
+      "rationale": "Details a 14th-century Jain manuscript, its script, the life of the 16th Tirthankara, and specific artistic techniques like the use of mineral silver ink.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 21,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "Modern History",
+      "subtopic": "Dutch East India Company Archives",
+      "rationale": "Covers the UNESCO Memory of the World recognition of VOC archives, focusing on trade, treaties, and the Indian segment in Tamil Nadu.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 22,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "Modern History",
+      "subtopic": "Dutch Settlements in India",
+      "rationale": "Provides a geographical and chronological list of Dutch settlements in India and the surrounding region, useful for mapping-based questions.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 23,
+      "classification": "content",
+      "questionQuota": 5,
+      "topic": "Modern History",
+      "subtopic": "VOC Timeline and Trade",
+      "rationale": "Extremely dense page covering the timeline of Dutch arrival, first factories, Battle of Bedara, and the Anglo-Dutch Treaty of 1824. High potential for statement-based questions.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 24,
+      "classification": "content",
+      "questionQuota": 1,
+      "topic": "Modern History",
+      "subtopic": "Dutch Presence Summary",
+      "rationale": "A brief summary of key Dutch historical events and locations; mostly redundant with the previous page but contains specific dates.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 25,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Buddhist Literature",
+      "subtopic": "Gilgit Manuscripts",
+      "rationale": "Significant details on the oldest surviving Buddhist texts, including scripts (Gupta/Brahmi), materials (birch bark), and specific sutras like the Lotus Sutra.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 26,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "Buddhist Literature",
+      "subtopic": "Maitreyavyakarana",
+      "rationale": "Focuses on a specific 10th-century Pala-period manuscript regarding the future Buddha, including details on Kutila and Ranjana scripts.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 27,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Indian Philosophy",
+      "subtopic": "Abhinavagupta Manuscripts",
+      "rationale": "Covers the intellectual legacy of the 10th-century Kashmiri polymath Abhinavagupta and the non-theo-centric knowledge culture of Kashmir Shaivism.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 28,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "International Relations",
+      "subtopic": "Non-Aligned Movement (NAM) Archive",
+      "rationale": "Documents the 1961 Belgrade Summit and its UNESCO Memory of the World status, including the founding member nations.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 29,
+      "classification": "content",
+      "questionQuota": 1,
+      "topic": "Indian Literature",
+      "subtopic": "Bhagavad Gita Introduction",
+      "rationale": "Provides basic introductory facts about the Bhagavad Gita's structure and its placement within the Mahabharata.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 30,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Indian Philosophy",
+      "subtopic": "Bhagavad Gita Concepts",
+      "rationale": "Explores the philosophical synthesis of the Gita and defines core concepts like Dharma, Karma, Jnana, and Bhakti.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 31,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Indian Literature",
+      "subtopic": "Bhagavad Gita Features",
+      "rationale": "Detailed features of the Gita, including its dating, the three margas, and its specific influence on Sankaradeva in Assam.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 32,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "Indian Performing Arts",
+      "subtopic": "Natyashastra Basics",
+      "rationale": "Introduces the Natyashastra, its oral origins as Gandharvaveda, and its foundational definitions of drama and performance.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 33,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Indian Performing Arts",
+      "subtopic": "Natyashastra and Rasa Theory",
+      "rationale": "Connects the Natyashastra to Rasa theory and lists the classical dance forms that derive their tradition from this text.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 34,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Indian Performing Arts",
+      "subtopic": "Natyashastra Classification",
+      "rationale": "Highlights the Natyashastra as the 'Fifth Veda' and its role as the first text to classify Indian musical instruments.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 35,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "Cultural Heritage",
+      "subtopic": "UNESCO Memory of the World 2024",
+      "rationale": "Lists the 2024 inclusions in the Asia-Pacific register (Ramcharitmanas, Panchatantra, etc.) and their respective authors.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 36,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "Cultural Heritage",
+      "subtopic": "UNESCO Jikji Prize",
+      "rationale": "Explains the history of the Jikji book (oldest movable metal type) and the purpose of the UNESCO prize named after it.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 37,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "International Awards",
+      "subtopic": "UNESCO/Jikji Memory of the World Prize",
+      "rationale": "Contains specific details regarding the prize amount, funding source (Republic of Korea), and eligibility criteria for the Jikji Prize.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 38,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "UNESCO Creative Cities Network",
+      "subtopic": "Lucknow and Indian UCCN Cities",
+      "rationale": "High-density page featuring Lucknow's historical nicknames, specific architectural features (fish motif, lakhauri bricks), culinary techniques (Dum Pukht), and a comprehensive list of all Indian UCCN cities.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 39,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "UNESCO Creative Cities Network",
+      "subtopic": "UCCN Framework and Process",
+      "rationale": "Explains the application process involving the Ministry of Culture and lists the eight creative fields covered by the network.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 40,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "UNESCO Events",
+      "subtopic": "43rd General Conference and World Cities Day",
+      "rationale": "Provides factual data on the 43rd General Conference venue (Samarqand), the new Director-General, and the addition of 'Architecture' as a creative field.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 41,
+      "classification": "content",
+      "questionQuota": 1,
+      "topic": "UNESCO Creative Cities Network",
+      "subtopic": "Objectives and UN 2030 Agenda",
+      "rationale": "Focuses on the core objective of the UCCN in relation to sustainable urban development and the UN 2030 Agenda.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 42,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "UNESCO Creative Cities Network",
+      "subtopic": "Creative Fields Definitions",
+      "rationale": "Defines the eight creative fields, including the newly added Architecture field for 2025.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 43,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "UNESCO Creative Cities Network",
+      "subtopic": "Timeline of Indian City Designations",
+      "rationale": "Provides a chronological timeline of India's participation in UCCN, useful for sequence-based or matching questions.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 44,
+      "classification": "content",
+      "questionQuota": 1,
+      "topic": "UNESCO Creative Cities Network",
+      "subtopic": "Statistical Distribution in India",
+      "rationale": "Summarizes the distribution of Indian cities across creative fields, useful for identifying which fields have the most/least representation.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 45,
+      "classification": "cover",
+      "questionQuota": 0,
+      "topic": "Lucknow History",
+      "subtopic": "Introduction",
+      "rationale": "This is a section cover page with minimal text and no specific facts for question generation.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 46,
+      "classification": "content",
+      "questionQuota": 1,
+      "topic": "Lucknow History",
+      "subtopic": "Etymology and Origins",
+      "rationale": "Discusses the legendary origin of the name Lucknow linked to Lakshmana and its evolution from Lakhanpur.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 47,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "Ancient Indian History",
+      "subtopic": "16 Mahajanapadas Map",
+      "rationale": "Contains a map of the 16 Mahajanapadas and their major cities, which is a high-yield topic for UPSC geography/history questions.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 48,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "Medieval Indian History",
+      "subtopic": "Succession of Powers in Awadh",
+      "rationale": "Outlines the chronological succession of powers in the Awadh region from the Delhi Sultanate to the British Era.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 49,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "Medieval Indian History",
+      "subtopic": "15th Century Geopolitical Map",
+      "rationale": "Provides a map of South Asia in 1475 CE, identifying various sultanates and empires like the Sharqis and Bahmanis.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 50,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "Modern Indian History",
+      "subtopic": "Foundation of the Nawabi of Awadh",
+      "rationale": "Details the appointment of Saadat Khan (Burhan-ul-Mulk) and the establishment of the independent court in Faizabad.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 51,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "Modern Indian History",
+      "subtopic": "Battle of Buxar and Treaty of Allahabad",
+      "rationale": "Covers the impact of the Battle of Buxar and the subsequent Treaty of Allahabad on the administration of Awadh.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 52,
+      "classification": "content",
+      "questionQuota": 1,
+      "topic": "Modern Indian History",
+      "subtopic": "Shift of Capital to Lucknow",
+      "rationale": "Identifies Nawab Asaf-ud-Daula as the ruler who moved the capital from Faizabad to Lucknow in 1775.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 53,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "Indian Architecture",
+      "subtopic": "Monuments of Asaf-ud-Daula",
+      "rationale": "Describes the architectural significance of the Bara Imambara and the Rumi Darwaza.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 54,
+      "classification": "content",
+      "questionQuota": 1,
+      "topic": "Indian Architecture",
+      "subtopic": "UPSC Previous Year Question Analysis",
+      "rationale": "Presents a specific UPSC 2018 question regarding the materials used in Mughal and Awadhi architecture.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 55,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Modern Indian History",
+      "subtopic": "Awadh and the Treaty of 1801",
+      "rationale": "Contains specific details about the Subsidiary Alliance, territorial cessions (Rohilkhand and Doab), and the loss of sovereignty of Awadh.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 56,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "Modern Indian History",
+      "subtopic": "Annexation of Awadh (1856)",
+      "rationale": "Covers the pretext of maladministration for annexation and the appointment of Sir Henry Lawrence as chief commissioner.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 57,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Modern Indian History",
+      "subtopic": "1857 Rebellion in Awadh",
+      "rationale": "Identifies key figures like Birjis Qadra and Begum Hazrat Mahal, and British officers involved in the suppression of the rebellion.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 58,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "Modern Indian History",
+      "subtopic": "Administrative Reorganisation of United Provinces",
+      "rationale": "Provides chronological administrative changes and the merger of Agra and Oudh, relevant for provincial history questions.",
+      "confidence": 0.85
+    },
+    {
+      "pageNumber": 59,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Modern Indian History",
+      "subtopic": "Lucknow Session of INC 1916",
+      "rationale": "Highly significant for UPSC; covers the Lucknow Pact, the reunion of moderates and extremists, and the meeting of Gandhi, Nehru, and Jinnah.",
+      "confidence": 0.98
+    },
+    {
+      "pageNumber": 60,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "Modern Indian History",
+      "subtopic": "Khilafat Movement in Lucknow",
+      "rationale": "Discusses the objectives and the role of Lucknow as a base for the Khilafat movement and Hindu-Muslim unity.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 61,
+      "classification": "content",
+      "questionQuota": 1,
+      "topic": "Modern Indian History",
+      "subtopic": "Capital Status of Lucknow",
+      "rationale": "Briefly mentions the shift of the provincial seat from Allahabad to Lucknow in 1920.",
+      "confidence": 0.8
+    },
+    {
+      "pageNumber": 62,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "Modern Indian History",
+      "subtopic": "Kakori Conspiracy Case",
+      "rationale": "Lists the revolutionary leaders sentenced to death in the Kakori trial, a frequent topic in history exams.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 63,
+      "classification": "content",
+      "questionQuota": 1,
+      "topic": "Art & Culture",
+      "subtopic": "GI Tags of Lucknow",
+      "rationale": "Lists Chikankari and Zardozi as GI tags, useful for factual matching questions.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 64,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Art & Culture",
+      "subtopic": "Cultural Heritage of Lucknow",
+      "rationale": "Details architectural features (fish motif, lakhauri bricks) and intangible heritage like Kathak and Lucknowi cuisine.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 65,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Awards and Honours",
+      "subtopic": "Nobel Prize Categories and Bodies",
+      "rationale": "Lists the specific awarding bodies for each Nobel category, which is a high-yield factual area.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 66,
+      "classification": "content",
+      "questionQuota": 1,
+      "topic": "Awards and Honours",
+      "subtopic": "Nobel Prize PYQs",
+      "rationale": "Contains previous year questions which are useful for reference but less so for new question generation.",
+      "confidence": 0.85
+    },
+    {
+      "pageNumber": 67,
+      "classification": "content",
+      "questionQuota": 1,
+      "topic": "Awards and Honours",
+      "subtopic": "Nobel Prize PYQs",
+      "rationale": "Continuation of previous year questions regarding Nobel laureates.",
+      "confidence": 0.85
+    },
+    {
+      "pageNumber": 68,
+      "classification": "content",
+      "questionQuota": 1,
+      "topic": "Awards and Honours",
+      "subtopic": "Nobel Prize PYQs",
+      "rationale": "Continuation of previous year questions including location of the Peace Prize committee.",
+      "confidence": 0.85
+    },
+    {
+      "pageNumber": 69,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "Awards and Honours",
+      "subtopic": "Nobel Prize Rules and Indian Firsts",
+      "rationale": "Covers rules regarding posthumous awards, institutional awards (Peace), and the first Indian male and female laureates.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 70,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Awards and Honours",
+      "subtopic": "Indian Nobel Laureates",
+      "rationale": "Dense list of Indian winners, their specific fields, and the reasons for their awards; excellent for matching or statement-based questions.",
+      "confidence": 0.98
+    },
+    {
+      "pageNumber": 71,
+      "classification": "content",
+      "questionQuota": 1,
+      "topic": "Awards and Honours",
+      "subtopic": "Nobel Prize Practice MCQ",
+      "rationale": "A single practice question providing basic facts about the Nobel Foundation.",
+      "confidence": 0.8
+    },
+    {
+      "pageNumber": 72,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Awards and Honours",
+      "subtopic": "Nobel Prize Administration and History",
+      "rationale": "Provides detailed history of the Economic Sciences prize, the role of the Bank of Sweden, and the distinction between Oslo and Stockholm ceremonies.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 73,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "Awards and Honours",
+      "subtopic": "Nobel Prize Statutes",
+      "rationale": "Contains specific rules regarding the division and joint awarding of Nobel Prizes, which are factual details suitable for statement-based questions.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 74,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Awards and Honours",
+      "subtopic": "Nobel Peace Prize",
+      "rationale": "High-density page covering the 2025 winner, historical criteria, Indian winners, and specific rules on the transferability of the medal versus the title.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 75,
+      "classification": "content",
+      "questionQuota": 1,
+      "topic": "Awards and Honours",
+      "subtopic": "Nobel Prize in Literature",
+      "rationale": "Focuses on a single award winner and their works; limited scope for multiple questions but good for a single factual identification.",
+      "confidence": 0.85
+    },
+    {
+      "pageNumber": 76,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Awards and Honours",
+      "subtopic": "Padma Awards",
+      "rationale": "Dense content on the history, categories, eligibility criteria, and selection process of Padma Awards, which are frequent UPSC topics.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 77,
+      "classification": "content",
+      "questionQuota": 1,
+      "topic": "Awards and Honours",
+      "subtopic": "Gandhi Peace Prize",
+      "rationale": "Contains a specific MCQ regarding the jury of the Gandhi Peace Prize, providing one clear factual point.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 78,
+      "classification": "content",
+      "questionQuota": 1,
+      "topic": "Awards and Honours",
+      "subtopic": "Gandhi Peace Prize",
+      "rationale": "Provides context on Gita Press receiving the award, useful for current affairs context but low density.",
+      "confidence": 0.8
+    },
+    {
+      "pageNumber": 79,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Awards and Honours",
+      "subtopic": "Padma Award Committee",
+      "rationale": "Detailed information on the composition of the selection committee and specific eligibility rules (e.g., the 5-year gap rule).",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 80,
+      "classification": "content",
+      "questionQuota": 1,
+      "topic": "Awards and Honours",
+      "subtopic": "Padma Awards Protocol",
+      "rationale": "Explains the legal/protocol restrictions on using the award as a title, which is a specific constitutional/administrative fact.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 81,
+      "classification": "content",
+      "questionQuota": 1,
+      "topic": "Awards and Honours",
+      "subtopic": "Padma Awards MCQ",
+      "rationale": "A practice MCQ that reinforces facts about the awards but doesn't introduce much new dense content.",
+      "confidence": 0.85
+    },
+    {
+      "pageNumber": 82,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Awards and Honours",
+      "subtopic": "Major Dhyan Chand Khel Ratna Award",
+      "rationale": "Covers the highest sporting honour in India, including its history, eligibility, and biographical facts about Dhyan Chand.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 83,
+      "classification": "content",
+      "questionQuota": 1,
+      "topic": "Awards and Honours",
+      "subtopic": "Laureus World Sports Award",
+      "rationale": "Previous year UPSC question and explanation; useful for understanding the depth required for international sports awards.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 84,
+      "classification": "content",
+      "questionQuota": 1,
+      "topic": "Awards and Honours",
+      "subtopic": "Laureus World Sports Award",
+      "rationale": "Brief news snippet about specific winners; low density but provides current affairs context.",
+      "confidence": 0.8
+    },
+    {
+      "pageNumber": 85,
+      "classification": "content",
+      "questionQuota": 1,
+      "topic": "Sports",
+      "subtopic": "ICC World Test Championship",
+      "rationale": "Previous year question explanation regarding the points system (PCT) in cricket, which is a specific technical detail.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 86,
+      "classification": "unclear",
+      "questionQuota": 0,
+      "topic": "Sports",
+      "subtopic": "ICC World Test Championship",
+      "rationale": "Thin filler page with only a headline and date; no usable content for question generation.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 87,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "Sports",
+      "subtopic": "Summer Olympics",
+      "rationale": "Discusses the addition of new sports to the Olympic roster and the change in the Olympic motto, both relevant for prelims.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 88,
+      "classification": "content",
+      "questionQuota": 1,
+      "topic": "Sports",
+      "subtopic": "Olympic Motto",
+      "rationale": "Focuses specifically on the Latin terminology and the addition of 'together' to the Olympic motto.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 89,
+      "classification": "content",
+      "questionQuota": 1,
+      "topic": "Awards and Honours",
+      "subtopic": "Sports Awards Comparison",
+      "rationale": "UPSC 2022 question matching different sports awards to their objectives; good for comparative study.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 90,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Awards and Honours",
+      "subtopic": "Major Dhyan Chand Khel Ratna Award",
+      "rationale": "Duplicate of page 82 content; remains high signal for the specific award details and historical facts.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 91,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "National Sports Awards",
+      "subtopic": "Eligibility and Selection Process",
+      "rationale": "Details the eligibility criteria, nomination process, and the composition of the selection committee for National Sports Awards.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 92,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "National Sports Awards",
+      "subtopic": "National Sports Day",
+      "rationale": "Covers the significance of August 29, Major Dhyan Chand's birth anniversary, and the history of National Sports Day in India.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 93,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "National Sports Awards",
+      "subtopic": "Award Categories and Khel Ratna History",
+      "rationale": "Lists the six categories of awards and provides a dense historical background on the Major Dhyan Chand Khel Ratna Award and Dhyan Chand's career.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 94,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "National Sports Awards",
+      "subtopic": "Khel Ratna Winners and Records",
+      "rationale": "Contains specific factual milestones including the youngest winner, the first woman recipient, and the inaugural awardees of the Khel Ratna.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 95,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "National Sports Awards",
+      "subtopic": "Arjuna Award",
+      "rationale": "Explains the history, criteria, and inaugural recipients of the Arjuna Award, including the first woman winner.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 96,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "National Sports Awards",
+      "subtopic": "Dronacharya Award",
+      "rationale": "Focuses on the highest honour for coaches, its institution in 1985, and notable first recipients across different sports.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 97,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "National Sports Awards",
+      "subtopic": "Major Dhyan Chand Award",
+      "rationale": "Distinguishes the lifetime achievement award from the Khel Ratna, detailing its purpose and first recipients in 2002.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 98,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "National Sports Awards",
+      "subtopic": "Maulana Abul Kalam Azad (MAKA) Trophy",
+      "rationale": "Provides facts about India's oldest national sports award, its focus on university performance, and its first winner.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 99,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "National Sports Awards",
+      "subtopic": "Rashtriya Khel Protsahan Puraskar",
+      "rationale": "Details the award for sports promotion by organizations and corporates, including its four segments and inaugural winner.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 100,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "International Awards",
+      "subtopic": "Pulitzer Prize Overview",
+      "rationale": "Covers the history, establishment by Joseph Pulitzer, and the 2024 news context regarding the Pulitzer Prize.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 101,
+      "classification": "content",
+      "questionQuota": 1,
+      "topic": "International Awards",
+      "subtopic": "Pulitzer Prize Categories",
+      "rationale": "Provides a comprehensive list of the various categories in which the Pulitzer Prize is awarded.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 102,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "International Awards",
+      "subtopic": "Pulitzer Prize Letters and Drama",
+      "rationale": "Describes the specific criteria for the seven categories within letters, drama, and music for the Pulitzer Prize.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 103,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "International Awards",
+      "subtopic": "Indian Pulitzer Winners",
+      "rationale": "Lists notable Indian and Indian-origin individuals who have won the Pulitzer Prize across various years.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 104,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "International Awards",
+      "subtopic": "Gobind Behari Lal",
+      "rationale": "Detailed profile of the first Indian to win a Pulitzer, including his association with the Ghadar Party and Padma Bhushan.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 105,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "International Awards",
+      "subtopic": "Ramon Magsaysay Award",
+      "rationale": "Introduces the 'Nobel Prize of Asia' with significant current affairs regarding the first Indian organization to win in 2025.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 106,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "International Awards",
+      "subtopic": "Ramon Magsaysay Award Summary",
+      "rationale": "Summarizes the award categories, the awarding foundation, and the legacy of the 7th Philippine President.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 107,
+      "classification": "content",
+      "questionQuota": 1,
+      "topic": "International Awards",
+      "subtopic": "Magsaysay Award Practice Question",
+      "rationale": "Contains a sample practice question that reinforces key facts about the Ramon Magsaysay Award.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 108,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "International Awards",
+      "subtopic": "Magsaysay Award Winners and NGO Impact",
+      "rationale": "Details the first Indian recipient (Vinoba Bhave) and the specific achievements of the Educate Girls NGO.",
+      "confidence": 1
+    },
+    {
+      "pageNumber": 109,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Awards & Honors",
+      "subtopic": "Ramon Magsaysay Award",
+      "rationale": "Dense page covering the history, categories, and specific Indian recipients of the Ramon Magsaysay Award, including a significant update on the first Indian NGO recipient in 2025.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 110,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Awards & Honors",
+      "subtopic": "National Film Awards & Dadasaheb Phalke Award",
+      "rationale": "Provides institutional details on the National Film Awards and the specific history and components of the Dadasaheb Phalke Award.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 111,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "Awards & Honors",
+      "subtopic": "National Film Awards Eligibility",
+      "rationale": "Focuses on the administrative and eligibility criteria for the National Film Awards, including certification and jury independence.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 112,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Awards & Honors",
+      "subtopic": "Dadasaheb Phalke Award History",
+      "rationale": "Contains specific historical facts about the first recipient, the nature of the award, and recent winners, suitable for factual prelims questions.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 113,
+      "classification": "content",
+      "questionQuota": 1,
+      "topic": "Awards & Honors",
+      "subtopic": "71st National Film Award Winners",
+      "rationale": "Lists specific movie and actor winners; while factual, it is less conceptually dense than institutional history.",
+      "confidence": 0.85
+    },
+    {
+      "pageNumber": 114,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "Awards & Honors",
+      "subtopic": "International Booker Prize",
+      "rationale": "Introduces the International Booker Prize and highlights a specific recent win for a Kannada work.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 115,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Awards & Honors",
+      "subtopic": "The Booker Prize",
+      "rationale": "Details the history, sponsorship, and notable Indian winners of the original Booker Prize, distinguishing it from the International version.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 116,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "Awards & Honors",
+      "subtopic": "International Booker Prize 2022",
+      "rationale": "Focuses on the 2022 win by Geetanjali Shree, providing specific details about the work and the prize structure.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 117,
+      "classification": "content",
+      "questionQuota": 4,
+      "topic": "Awards & Honors",
+      "subtopic": "Booker vs International Booker Comparison",
+      "rationale": "High-signal comparative content that clearly distinguishes between the two prizes, ideal for statement-based UPSC questions.",
+      "confidence": 0.98
+    },
+    {
+      "pageNumber": 118,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "Awards & Honors",
+      "subtopic": "Rashtriya Vigyan Puraskar",
+      "rationale": "Covers the newly announced science awards and specific categories, including a mention of Jayant Narlikar's contribution to physics.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 119,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "Awards & Honors",
+      "subtopic": "Indira Gandhi Peace Prize",
+      "rationale": "Provides the basic objectives and the 2024 recipient of the Indira Gandhi Peace Prize.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 120,
+      "classification": "content",
+      "questionQuota": 2,
+      "topic": "Awards & Honors",
+      "subtopic": "Indira Gandhi Peace Prize Procedure",
+      "rationale": "Details the procedural aspects, jury composition, and decision-making process for the prize.",
+      "confidence": 0.9
+    },
+    {
+      "pageNumber": 121,
+      "classification": "content",
+      "questionQuota": 3,
+      "topic": "Awards & Honors",
+      "subtopic": "Indira Gandhi Peace Prize Administration",
+      "rationale": "Lists the specific entities allowed to make recommendations and the funding source, which are common areas for UPSC institutional questions.",
+      "confidence": 0.95
+    },
+    {
+      "pageNumber": 122,
+      "classification": "blank",
+      "questionQuota": 0,
+      "topic": "None",
+      "subtopic": "None",
+      "rationale": "Closing page with no educational content or facts.",
+      "confidence": 1
+    }
+  ]
+}

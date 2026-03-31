@@ -1,0 +1,207 @@
+{
+  "questions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the Axiom-4 (Ax-4) mission, consider the following statements: 1. It is a private astronaut mission to the International Space Station (ISS) conducted in collaboration with NASA and SpaceX. 2. The mission marked the first time an Indian astronaut travelled to space. 3. ISRO executed microgravity research involving cyanobacteria and tardigrades during this mission. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: Ax-4 is a private astronaut mission to the ISS by Axiom Space in collaboration with NASA and SpaceX. Statement 2 is incorrect: Group Captain Shubhanshu Shukla is the second Indian to travel to space (after Rakesh Sharma in 1984), though he is the first to board the ISS. Statement 3 is correct: ISRO executed microgravity research on the mission, including studies on cyanobacteria and tardigrades.",
+      "takeaway": "The Axiom-4 mission is a private mission to the ISS carrying the first Indian to board the ISS, where ISRO conducted specific microgravity biological experiments.",
+      "evidenceExcerpt": "Ax-4 is a 4th private astronaut mission, to the International Space Station (ISS), of private US Company Axiom Space in collaboration with NASA and SpaceX. Shubhanshu Shukla is the first Indian astronaut to board the ISS and only the second Indian to travel to space after Rakesh Sharma in 1984. Key Research and activities executed by ISRO: Crop growth, Cyanobacteria, Space Microalgae, Myogenesis, Tardigrades."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following space agencies: 1. Canadian Space Agency (CSA) 2. China National Space Administration (CNSA) 3. European Space Agency (ESA) 4. Indian Space Research Organisation (ISRO) 5. Japan Aerospace Exploration Agency (JAXA) How many of the above are key partners in the International Space Station (ISS) project?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only two"
+        },
+        {
+          "id": "B",
+          "text": "Only three"
+        },
+        {
+          "id": "C",
+          "text": "Only four"
+        },
+        {
+          "id": "D",
+          "text": "All five"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "The International Space Station (ISS) is a collaborative project partnered by five key space agencies: Europe (ESA), the USA (NASA), Japan (JAXA), Canada (CSA), and Russia (Roscosmos). China (CNSA) and India (ISRO) are not partners in the ISS project. Therefore, only three of the listed agencies (CSA, ESA, JAXA) are correct.",
+      "takeaway": "The ISS is partnered by ESA, NASA, JAXA, CSA, and Roscosmos. ISRO and CNSA operate independently of the ISS partnership.",
+      "evidenceExcerpt": "Key partners for ISS: Europe (ESA), the USA (NASA), Japan (JAXA), Canada (CSA) and Russia (Roscosmos)."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Statement-based",
+      "prompt": "With reference to the International Space Station (ISS) and India's space milestones, consider the following statements: 1. The ISS is a habitable artificial satellite positioned in Low Earth Orbit (LEO). 2. Rakesh Sharma became the first Indian astronaut to board the ISS during his 1984 spaceflight. 3. The ISS is a collaborative project that includes the Russian space agency, Roscosmos, as a key partner. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: The ISS is a habitable artificial satellite in Low Earth Orbit (LEO). Statement 2 is incorrect: Shubhanshu Shukla is the first Indian astronaut to board the ISS; Rakesh Sharma travelled to space in 1984 but did not board the ISS. Statement 3 is correct: Roscosmos (Russia) is one of the five key partners of the ISS.",
+      "takeaway": "The ISS operates in Low Earth Orbit (LEO) with Roscosmos as a key partner. Shubhanshu Shukla is the first Indian to board the ISS, distinguishing his milestone from Rakesh Sharma's 1984 spaceflight.",
+      "evidenceExcerpt": "Shubhanshu Shukla is the first Indian astronaut to board the ISS and only the second Indian to travel to space after Rakesh Sharma in 1984... About International Space Station (ISS): A habitable artificial satellite in Low Earth orbit (LEO). Key partners for ISS: Europe (ESA), the USA (NASA), Japan (JAXA), Canada (CSA) and Russia (Roscosmos)."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice",
+      "prompt": "During the Axiom-4 mission, the Indian Space Research Organisation (ISRO) executed various microgravity research experiments. Which of the following were included in these research activities? 1. Crop growth 2. Cyanobacteria 3. Myogenesis 4. Tardigrades Select the correct answer using the code given below:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "1, 2 and 3 only"
+        },
+        {
+          "id": "B",
+          "text": "2, 3 and 4 only"
+        },
+        {
+          "id": "C",
+          "text": "1 and 4 only"
+        },
+        {
+          "id": "D",
+          "text": "1, 2, 3 and 4"
+        }
+      ],
+      "correctOptionId": "D",
+      "explanation": "During the Axiom-4 mission, ISRO executed several microgravity research activities and experiments. These included studies on crop growth, cyanobacteria, space microalgae, myogenesis, and tardigrades.",
+      "takeaway": "ISRO's participation in the Axiom-4 mission involved significant biological microgravity research, including crop growth, cyanobacteria, myogenesis, and tardigrades.",
+      "evidenceExcerpt": "Key Research and activities executed by ISRO: Crop growth, Cyanobacteria, Space Microalgae, Myogenesis, Tardigrades."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding the orbital characteristics and research associated with the Axiom-4 mission: 1. The International Space Station (ISS) operates in a Low Earth Orbit (LEO), providing the microgravity environment utilized for biological experiments. 2. During the mission, the Indian Space Research Organisation (ISRO) conducted research exclusively focused on physical sciences and astrophysics. 3. The ISS is a collaborative project where India is recognized as one of the key partner agencies alongside NASA and Roscosmos. How many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Statement 1 is correct: The ISS is a habitable artificial satellite in Low Earth Orbit (LEO), which facilitates microgravity research. Statement 2 is incorrect: ISRO executed biological microgravity research, including crop growth, cyanobacteria, space microalgae, myogenesis, and tardigrades. Statement 3 is incorrect: The key partners for the ISS are Europe (ESA), the USA (NASA), Japan (JAXA), Canada (CSA), and Russia (Roscosmos); India is not a key partner.",
+      "takeaway": "The ISS operates in LEO and is partnered by five major space agencies (excluding ISRO), hosting private missions like Ax-4 for various microgravity research experiments.",
+      "evidenceExcerpt": "Key Research and activities executed by ISRO: Crop growth, Cyanobacteria, Space Microalgae, Myogenesis, Tardigrades. About International Space Station (ISS): A habitable artificial satellite in Low Earth orbit (LEO). Key partners for ISS: Europe (ESA), the USA (NASA), Japan (JAXA), Canada (CSA) and Russia (Roscosmos)."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Easy",
+      "questionType": "Assertion-Reason",
+      "prompt": "Statement-I: The Axiom-4 mission marked the first time an Indian astronaut boarded the International Space Station (ISS). Statement-II: Group Captain Shubhanshu Shukla became the first Indian citizen to travel to space during the Axiom-4 mission. Which one of the following is correct in respect of the above statements?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both Statement-I and Statement-II are correct and Statement-II is the correct explanation for Statement-I"
+        },
+        {
+          "id": "B",
+          "text": "Both Statement-I and Statement-II are correct and Statement-II is not the correct explanation for Statement-I"
+        },
+        {
+          "id": "C",
+          "text": "Statement-I is correct but Statement-II is incorrect"
+        },
+        {
+          "id": "D",
+          "text": "Statement-I is incorrect but Statement-II is correct"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "Statement-I is correct: Shubhanshu Shukla is the first Indian astronaut to board the ISS. Statement-II is incorrect: He is the second Indian to travel to space, after Rakesh Sharma, who traveled to space in 1984.",
+      "takeaway": "While Rakesh Sharma was the first Indian in space (1984), Shubhanshu Shukla achieved the milestone of being the first Indian to board the International Space Station.",
+      "evidenceExcerpt": "Shubhanshu Shukla is the first Indian astronaut to board the ISS and only the second Indian to travel to space after Rakesh Sharma in 1984."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Multiple Choice",
+      "prompt": "The Axiom-4 (Ax-4) mission, which recently carried an Indian astronaut to the International Space Station (ISS), is best characterized as:",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "A sovereign spaceflight mission conducted jointly by ISRO and Roscosmos."
+        },
+        {
+          "id": "B",
+          "text": "A private astronaut mission organized by a commercial entity in collaboration with NASA and SpaceX."
+        },
+        {
+          "id": "C",
+          "text": "An exclusive scientific expedition funded entirely by the five key partner agencies of the ISS."
+        },
+        {
+          "id": "D",
+          "text": "A lunar orbital docking mission aimed at establishing a new habitable artificial satellite."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Ax-4 is the 4th private astronaut mission to the ISS, organized by the private US company Axiom Space in collaboration with NASA and SpaceX. It is not a purely sovereign government mission, nor is it a lunar mission.",
+      "takeaway": "Axiom-4 highlights the growing role of private commercial entities (Axiom Space, SpaceX) in conducting crewed missions to the ISS in collaboration with government agencies like NASA.",
+      "evidenceExcerpt": "Ax-4 is a 4th private astronaut mission, to the International Space Station (ISS), of private US Company Axiom Space in collaboration with NASA and SpaceX."
+    }
+  ]
+}

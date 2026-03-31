@@ -1,0 +1,67 @@
+{
+  "acceptedQuestions": [
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Assertion-Reason",
+      "prompt": "Given below are two statements, one labelled as Assertion (A) and the other as Reason (R):\n\nAssertion (A): Space weather observatories are likely to record a higher incidence of X-class solar flares during the solar maximum phase.\nReason (R): The solar maximum marks the peak of the Sun's 11-year cycle, during which the overall frequency of solar flares increases.\n\nIn the context of the above two statements, which one of the following is correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Both Assertion (A) and Reason (R) are correct and Reason (R) is the correct explanation for Assertion (A)."
+        },
+        {
+          "id": "B",
+          "text": "Both Assertion (A) and Reason (R) are correct but Reason (R) is not the correct explanation for Assertion (A)."
+        },
+        {
+          "id": "C",
+          "text": "Assertion (A) is correct but Reason (R) is not correct."
+        },
+        {
+          "id": "D",
+          "text": "Assertion (A) is not correct but Reason (R) is correct."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "Assertion (A) is correct: X-class flares are the biggest and most intense category of solar flares. Reason (R) is correct: The solar maximum is the peak of the Sun's 11-year cycle, during which flares occur more frequently. Because the overall frequency of solar flares peaks during this phase, the probability and incidence of observing the most intense X-class flares also correspondingly increase, making R the correct explanation for A.",
+      "takeaway": "Solar flare frequency is directly tied to the 11-year solar cycle, peaking at the solar maximum, which increases the likelihood of all flare classes, including the most intense X-class.",
+      "evidenceExcerpt": "Classification: The biggest flares are known as \"X-class flares\"... Frequency: Flares occur more frequently during the solar maximum (peak of the 11-year solar cycle).",
+      "qualityScore": 88,
+      "reviewNotes": "Strong conceptual application of the text's facts. Tests the candidate's ability to link the classification of flares with their frequency cycle."
+    },
+    {
+      "subject": "Science",
+      "difficulty": "Moderate",
+      "questionType": "Statement-based",
+      "prompt": "Consider the following statements regarding solar phenomena:\n\n1. Coronal Mass Ejections (CMEs) are large expulsions of plasma and magnetic fields from the Sun's corona.\n2. The frequency of solar flares reaches its peak during the solar minimum of the Sun's 11-year cycle.\n3. The Chandrayaan-2 Lunar Orbiter made the first-ever observation of the effects of a CME on the Moon.\n\nHow many of the above statements are correct?",
+      "contextLines": [],
+      "options": [
+        {
+          "id": "A",
+          "text": "Only one"
+        },
+        {
+          "id": "B",
+          "text": "Only two"
+        },
+        {
+          "id": "C",
+          "text": "All three"
+        },
+        {
+          "id": "D",
+          "text": "None"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Statement 1 is correct: CMEs are large expulsions of plasma and magnetic fields from the Sun's corona. Statement 2 is incorrect: Solar flares occur more frequently during the solar maximum, which is the peak of the 11-year solar cycle, not the solar minimum. Statement 3 is correct: The Chandrayaan-2 Lunar Orbiter (CHACE-2) made the first-ever observation of the effects of a CME on the Moon.",
+      "takeaway": "Solar flares peak during the solar maximum of the 11-year cycle. CMEs involve the expulsion of plasma and magnetic fields, and Chandrayaan-2 made historic observations of their effects on the Moon.",
+      "evidenceExcerpt": "Flares occur more frequently during the solar maximum (peak of the 11-year solar cycle). Coronal Mass Ejections (CMEs): They are large expulsions of plasma and magnetic field from the Sun’s corona. Recently, Chandrayaan-2 Lunar Orbiter (CHACE-2) has made first-ever observation of effects of sun’s Coronal Mass Ejection (CME) on moon.",
+      "qualityScore": 85,
+      "reviewNotes": "Good coverage of the factual points in the text, formatted in the modern UPSC 'How many statements' style."
+    }
+  ],
+  "reviewerNotes": "Selected 3 distinct questions to comprehensively cover the short source text without introducing repetitive fact clusters. The questions span statement-based, assertion-reason, and comparison formats to test different cognitive levels."
+}

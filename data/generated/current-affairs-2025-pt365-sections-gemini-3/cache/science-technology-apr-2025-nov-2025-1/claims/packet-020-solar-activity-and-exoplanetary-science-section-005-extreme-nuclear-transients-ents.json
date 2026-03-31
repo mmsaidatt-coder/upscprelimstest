@@ -1,0 +1,47 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-020-solar-activity-and-exoplanetary-science-section-005-extreme-nuclear-transients-ents",
+    "claimType": "Factual",
+    "claimText": "Extreme Nuclear Transients (ENTs) occur when stars with masses at least three times greater than the Sun are torn apart by supermassive black holes.",
+    "evidenceExcerpt": "occur when stars with masses at least three times greater than that of the sun are torn apart by supermassive black holes.",
+    "pageNumbers": [
+      42
+    ],
+    "examUse": "Statement-based question on the definition and conditions of ENTs.",
+    "distractorHooks": [
+      "Stars smaller than the sun",
+      "Torn apart by neutron stars instead of supermassive black holes"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-020-solar-activity-and-exoplanetary-science-section-005-extreme-nuclear-transients-ents",
+    "claimType": "Conceptual",
+    "claimText": "During an Extreme Nuclear Transient, extreme tidal forces near a black hole's event horizon stretch and compress a star into a long, thin spaghetti-like shape.",
+    "evidenceExcerpt": "As a star nears a black hole's event horizon, extreme tidal forces stretch and compress the star into a long, thin spaghetti-like shape",
+    "pageNumbers": [
+      42
+    ],
+    "examUse": "Statement-based question on the mechanism of tidal disruption by black holes.",
+    "distractorHooks": [
+      "Magnetic forces causing the disruption",
+      "Compression into a dense sphere instead of stretching"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-020-solar-activity-and-exoplanetary-science-section-005-extreme-nuclear-transients-ents",
+    "claimType": "Factual",
+    "claimText": "The disruption of a massive star by a supermassive black hole during an ENT releases enormous amounts of electromagnetic energy.",
+    "evidenceExcerpt": "releasing enormous amounts of electromagnetic energy.",
+    "pageNumbers": [
+      42
+    ],
+    "examUse": "Statement-based question on the observable emissions of ENTs.",
+    "distractorHooks": [
+      "Releases only gravitational waves",
+      "Absorbs all surrounding electromagnetic energy"
+    ]
+  }
+]

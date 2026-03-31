@@ -1,0 +1,65 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-060-softshell-turtles-and-new-fish-species-section-003-labeo-uru-and-labeo-chekida",
+    "claimType": "Species/Endemism",
+    "claimText": "Labeo uru and Labeo chekida are newly discovered freshwater fish species endemic to the Western Ghats river systems.",
+    "evidenceExcerpt": "Both are freshwater fish endemic to the Western Ghats river systems",
+    "pageNumbers": [
+      128
+    ],
+    "examUse": "Statement-based question on endemism and habitat.",
+    "distractorHooks": [
+      "Endemic to Eastern Ghats",
+      "Marine fish species",
+      "Himalayan river systems"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-060-softshell-turtles-and-new-fish-species-section-003-labeo-uru-and-labeo-chekida",
+    "claimType": "Habitat/Geography",
+    "claimText": "Labeo uru is found in the Chandragiri River, a west-flowing interstate river originating from the Pattimala hills in Karnataka.",
+    "evidenceExcerpt": "Labeo uru is found in the Chandragiri River, a west-flowing interstate river",
+    "pageNumbers": [
+      128
+    ],
+    "examUse": "Correct-pair question matching species to their specific river habitats.",
+    "distractorHooks": [
+      "East-flowing river",
+      "Chalakkudy river",
+      "Originating in Anamalai Hills"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-060-softshell-turtles-and-new-fish-species-section-003-labeo-uru-and-labeo-chekida",
+    "claimType": "Habitat/Geography",
+    "claimText": "Labeo chekida inhabits the Chalakkudy river, which originates in the Anamalai Hills.",
+    "evidenceExcerpt": "Labeo chekida inhabits the Chalakkudy river formed in the Anamalai Hills",
+    "pageNumbers": [
+      128
+    ],
+    "examUse": "Correct-pair question matching species to their specific river habitats.",
+    "distractorHooks": [
+      "Chandragiri River",
+      "Pattimala hills",
+      "Eastern Ghats"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-060-softshell-turtles-and-new-fish-species-section-003-labeo-uru-and-labeo-chekida",
+    "claimType": "Institution/Discovery",
+    "claimText": "The discovery of Labeo uru and Labeo chekida was made by the ICAR-National Bureau of Fish Genetic Resources (NBFGR).",
+    "evidenceExcerpt": "Discovered by ICAR-National Bureau of Fish Genetic Resources (NBFGR)",
+    "pageNumbers": [
+      128
+    ],
+    "examUse": "Statement-based question on the discovering institution.",
+    "distractorHooks": [
+      "Zoological Survey of India (ZSI)",
+      "Wildlife Institute of India (WII)"
+    ]
+  }
+]

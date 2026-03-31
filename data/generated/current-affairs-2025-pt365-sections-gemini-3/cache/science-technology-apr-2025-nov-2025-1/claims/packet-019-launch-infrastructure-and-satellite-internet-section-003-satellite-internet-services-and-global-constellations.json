@@ -1,0 +1,77 @@
+[
+  {
+    "id": "claim-001",
+    "sectionId": "packet-019-launch-infrastructure-and-satellite-internet-section-003-satellite-internet-services-and-global-constellations",
+    "claimType": "Conceptual",
+    "claimText": "Satellite internet typically experiences higher latency than traditional wired broadband connections due to the physical distance data must travel to and from orbit.",
+    "evidenceExcerpt": "Satellite internet typically has higher latency compared to traditional wired connections due to the distance data must travel.",
+    "pageNumbers": [
+      40
+    ],
+    "examUse": "Statement-based question comparing latency of satellite internet vs. optical fiber/wired connections.",
+    "distractorHooks": [
+      "Satellite internet has lower latency than wired connections",
+      "Latency is unaffected by the distance to orbit"
+    ]
+  },
+  {
+    "id": "claim-002",
+    "sectionId": "packet-019-launch-infrastructure-and-satellite-internet-section-003-satellite-internet-services-and-global-constellations",
+    "claimType": "Factual",
+    "claimText": "Project Kuiper is a satellite internet project launched by Amazon.",
+    "evidenceExcerpt": "Project Kuiper: by Amazon",
+    "pageNumbers": [
+      40
+    ],
+    "examUse": "Correct-pair question matching satellite internet projects with their parent companies.",
+    "distractorHooks": [
+      "Project Kuiper is by SpaceX",
+      "Project Kuiper is by Google"
+    ]
+  },
+  {
+    "id": "claim-003",
+    "sectionId": "packet-019-launch-infrastructure-and-satellite-internet-section-003-satellite-internet-services-and-global-constellations",
+    "claimType": "Factual",
+    "claimText": "OneWeb is a satellite internet project operated by the French satellite operator Eutelsat.",
+    "evidenceExcerpt": "OneWeb: By French satellite operator Eutelsat",
+    "pageNumbers": [
+      40
+    ],
+    "examUse": "Correct-pair question matching satellite internet projects with their parent companies.",
+    "distractorHooks": [
+      "OneWeb is operated by NASA",
+      "OneWeb is a Chinese state-owned enterprise"
+    ]
+  },
+  {
+    "id": "claim-004",
+    "sectionId": "packet-019-launch-infrastructure-and-satellite-internet-section-003-satellite-internet-services-and-global-constellations",
+    "claimType": "Factual",
+    "claimText": "The Qianfan constellation is a planned Chinese low-Earth orbit (LEO) satellite internet megaconstellation.",
+    "evidenceExcerpt": "Qianfan constellation: Planned Chinese low-Earth orbit satellite internet megaconstellation.",
+    "pageNumbers": [
+      40
+    ],
+    "examUse": "Correct-pair question matching satellite constellations with their respective countries of origin.",
+    "distractorHooks": [
+      "Qianfan is a Japanese lunar mission",
+      "Qianfan is an Indian navigation satellite system"
+    ]
+  },
+  {
+    "id": "claim-005",
+    "sectionId": "packet-019-launch-infrastructure-and-satellite-internet-section-003-satellite-internet-services-and-global-constellations",
+    "claimType": "Conceptual",
+    "claimText": "The infrastructure of satellite internet relies on both a Space Segment, consisting of satellite constellations, and a Ground Segment, which includes gateway stations and control networks.",
+    "evidenceExcerpt": "Infrastructure: Generally includes three segments: Space Segment: It is mainly a constellation system... Ground segment: Includes satellite measurement and control networks, gateway stations, etc.",
+    "pageNumbers": [
+      40
+    ],
+    "examUse": "Statement-based question on the components required for satellite internet functionality.",
+    "distractorHooks": [
+      "Satellite internet operates entirely in space without ground infrastructure",
+      "Gateway stations are part of the space segment"
+    ]
+  }
+]
