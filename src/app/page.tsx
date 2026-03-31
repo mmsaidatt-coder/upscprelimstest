@@ -7,10 +7,19 @@ export default function Home() {
 
         {/* Hero Section */}
         <section className="pt-14 pb-16 sm:py-24 md:py-32 fade-up relative flex flex-col items-center">
-          <div className="flex justify-center mb-5">
+          <div className="flex justify-center mb-6">
             <span className="badge border border-[var(--border)] bg-[var(--background)] px-4 py-1.5 text-[10px] sm:text-xs font-bold uppercase tracking-widest text-[var(--muted)]">
               100% Free Practice Platform
             </span>
+          </div>
+
+          <div className="mb-10 sm:mb-12 flex justify-center w-full">
+            <Link
+              href="/app"
+              className="group relative inline-flex items-center justify-center rounded-[1.25rem] bg-[var(--accent)] px-10 py-5 sm:px-12 sm:py-6 text-lg sm:text-xl font-bold uppercase tracking-widest text-[#0e0e0e] transition-all hover:bg-[#b0f53b] hover:scale-[1.02] shadow-[0_0_40px_rgba(163,230,53,0.4)]"
+            >
+              Start practicing, it's all free
+            </Link>
           </div>
 
           <h1 className="heading text-center text-5xl sm:text-7xl md:text-8xl lg:text-[10rem] leading-[0.88] tracking-tight text-[var(--foreground)] mt-2">
@@ -23,15 +32,6 @@ export default function Home() {
           <p className="mt-6 sm:mt-8 text-center text-base sm:text-lg md:text-xl leading-7 sm:leading-8 text-[var(--muted)] max-w-xl mx-auto font-medium px-2">
             The smartest way to practice PYQs. Fast, focused sessions against real exam patterns.
           </p>
-
-          <div className="mt-8 sm:mt-12 flex justify-center w-full">
-            <Link
-              href="/app"
-              className="group relative inline-flex items-center justify-center rounded-[1.25rem] bg-[var(--accent)] px-10 py-5 sm:px-12 sm:py-6 text-lg sm:text-xl font-bold uppercase tracking-widest text-[#0e0e0e] transition-all hover:bg-[#b0f53b] hover:scale-[1.02] shadow-[0_0_40px_rgba(163,230,53,0.4)]"
-            >
-              Start practicing, it's all free
-            </Link>
-          </div>
 
           {/* Device Mockup */}
           <div className="mt-20 sm:mt-32 relative mx-auto w-full max-w-xs sm:max-w-sm flex justify-center fade-up" style={{ animationDelay: "200ms" }}>
