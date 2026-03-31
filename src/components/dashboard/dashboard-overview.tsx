@@ -66,8 +66,8 @@ export function DashboardOverview() {
         <p className="max-w-md text-[var(--muted)] mb-8 leading-7">
           Your personal student history, test analytics, and readiness signals require an account. Login to sync your practice data securely.
         </p>
-          <Link
-          href="/login?next=/"
+        <Link
+          href="/login?next=/app"
           className="rounded-lg bg-[var(--accent)] px-6 py-3 text-sm font-bold text-[var(--foreground)] hover:bg-[var(--accent)]/90 transition-colors uppercase tracking-widest"
         >
           Login or Sign up
