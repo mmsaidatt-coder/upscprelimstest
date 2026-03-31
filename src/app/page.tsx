@@ -1,158 +1,124 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="bg-blueprint-grid min-h-screen">
-      <div className="mx-auto max-w-6xl px-4 sm:px-6 pb-16 sm:pb-24">
-
-        {/* Hero Section */}
-        <section className="pt-14 pb-16 sm:py-24 md:py-32 fade-up relative flex flex-col items-center">
-          <div className="flex justify-center mb-6">
-            <span className="badge border border-[var(--border)] bg-[var(--background)] px-4 py-1.5 text-[10px] sm:text-xs font-bold uppercase tracking-widest text-[var(--muted)]">
-              100% Free Practice Platform
+    <div className="bg-[#121212] min-h-screen font-sans text-gray-100 flex flex-col">
+      {/* ── Navigation Header ── */}
+      <header className="w-full flex justify-between items-center py-5 px-6 sm:px-12 bg-[#1f1f1f] border-b border-[#333]">
+        <div className="flex items-center gap-2">
+          <Link href="/">
+            <span className="text-[1.3rem] font-display font-black tracking-wider text-white uppercase hover:text-[var(--accent)] transition-colors">
+              UPSCPT
             </span>
-          </div>
+          </Link>
+        </div>
+        <div>
+          <Link href="/login" className="text-sm font-semibold text-gray-300 hover:text-white transition-colors">
+            Login / Sign up
+          </Link>
+        </div>
+      </header>
 
-          <div className="mb-10 sm:mb-12 flex justify-center w-full">
-            <Link
-              href="/app"
-              className="group relative inline-flex items-center justify-center rounded-[1.25rem] bg-[var(--accent)] px-10 py-5 sm:px-12 sm:py-6 text-lg sm:text-xl font-bold uppercase tracking-widest text-[#0e0e0e] transition-all hover:bg-[#b0f53b] hover:scale-[1.02] shadow-[0_0_40px_rgba(163,230,53,0.4)]"
-            >
-              Start practicing, it's all free
-            </Link>
-          </div>
-
-          <h1 className="heading text-center text-5xl sm:text-7xl md:text-8xl lg:text-[10rem] leading-[0.88] tracking-tight text-[var(--foreground)] mt-2">
-            MASTER UPSC WITH<br />
-            <span className="text-[var(--accent)] drop-shadow-[0_0_15px_rgba(163,230,53,0.3)]">
-              REAL ANALYTICS
-            </span>
+      <main className="flex-1 w-full">
+        {/* ── Hero Section ── */}
+        <section className="bg-[#0f2e24] w-full py-24 px-4 sm:px-6 flex flex-col items-center justify-center border-b border-[#1f4a3a]">
+          <span className="text-emerald-400 text-sm md:text-base font-medium mb-6 uppercase tracking-wider">
+            100% free practice platform
+          </span>
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-black text-center text-white max-w-4xl tracking-tight leading-[1.15] mb-8 font-display">
+            Practice UPSC Prelims with real PYQs and detailed analytics
           </h1>
-
-          <p className="mt-6 sm:mt-8 text-center text-base sm:text-lg md:text-xl leading-7 sm:leading-8 text-[var(--muted)] max-w-xl mx-auto font-medium px-2">
-            The smartest way to practice PYQs. Fast, focused sessions against real exam patterns.
+          <p className="text-emerald-100/70 text-base md:text-lg text-center font-medium mb-12">
+            15,000+ questions | 12+ years of PYQs | Full-length mock tests
           </p>
-
-          {/* Device Mockup */}
-          <div className="mt-20 sm:mt-32 relative mx-auto w-full max-w-xs sm:max-w-sm flex justify-center fade-up" style={{ animationDelay: "200ms" }}>
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-3/4 h-3/4 bg-[var(--accent)]/10 blur-[100px] rounded-full pointer-events-none" />
-
-            <div className="relative w-full rounded-[3rem] border-[8px] border-[#2A2A2A] bg-[#111] shadow-2xl p-2 z-10 mx-auto transform hover:-translate-y-2 transition-transform duration-500">
-              <div className="absolute top-0 left-1/2 -translate-x-1/2 w-1/3 h-[24px] bg-[#2A2A2A] rounded-b-3xl z-20" />
-
-              <div className="rounded-[2.5rem] bg-[var(--background)] overflow-hidden h-[480px] sm:h-[600px] relative border border-[#333]">
-                <div className="p-5 pt-10 flex justify-between items-center bg-gradient-to-b from-[#1a1a1a] to-transparent">
-                  <div className="flex gap-2 items-center">
-                    <div className="w-8 h-8 rounded-full bg-[var(--border-light)]" />
-                    <div>
-                      <div className="text-xs text-[var(--muted)]">You</div>
-                      <div className="text-sm font-bold">UPSC Aspirant</div>
-                    </div>
-                  </div>
-                  <div className="w-8 h-8 rounded-lg bg-[var(--border-light)]" />
-                </div>
-
-                <div className="p-5 mt-2">
-                  <div className="flex justify-center mb-4">
-                    <span className="text-[var(--accent)] text-xs font-bold tracking-widest uppercase">Target Goal</span>
-                  </div>
-                  <div className="text-center font-display text-7xl sm:text-8xl text-white mb-6">115</div>
-
-                  <div className="space-y-3">
-                    {["A", "B", "C"].map((opt, i) => (
-                      <div
-                        key={opt}
-                        className={`h-14 w-full rounded-2xl border-2 flex items-center px-4 gap-4 ${
-                          i === 1
-                            ? "border-[var(--accent)] bg-[var(--accent)]/5 relative overflow-hidden"
-                            : "border-[var(--border-light)]"
-                        }`}
-                      >
-                        {i === 1 && <div className="absolute left-0 top-0 bottom-0 w-1 bg-[var(--accent)]" />}
-                        <div className={`w-7 h-7 rounded-full flex items-center justify-center text-sm font-bold ${i === 1 ? "bg-[var(--accent)] text-black" : "bg-[#2a2a2a]"}`}>{opt}</div>
-                        <div className="h-2 flex-1 bg-[#2a2a2a] rounded-full" />
-                      </div>
-                    ))}
-                  </div>
-                </div>
-                <div className="absolute -right-12 -bottom-12 w-48 h-48 bg-[#A78BFA]/20 blur-3xl rounded-full" />
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Feature Sections */}
-        <section className="py-12 sm:py-24 md:py-32 space-y-16 sm:space-y-32">
-
-          {/* Feature 1 */}
-          <div className="grid md:grid-cols-2 gap-8 sm:gap-12 items-center">
-            <div className="order-2 md:order-1 relative">
-              <div className="absolute inset-0 bg-[#A78BFA]/5 blur-3xl rounded-full translate-x-10" />
-              <div className="card-elevated p-6 sm:p-8 relative z-10 border-[#333] border-2">
-                <div className="flex justify-between items-start mb-8 sm:mb-12">
-                  <span className="text-[var(--accent)] font-display text-4xl">01</span>
-                  <div className="w-12 h-12 rounded-full border border-[#333] flex items-center justify-center text-xl">⏱️</div>
-                </div>
-                <h3 className="heading text-3xl sm:text-4xl mb-3">Exam Mode</h3>
-                <p className="text-[var(--muted)] text-base sm:text-lg">Timed tests with question palette, mark for review, option eliminator, and negative marking.</p>
-              </div>
-            </div>
-            <div className="order-1 md:order-2 md:pl-12">
-              <h2 className="heading text-4xl sm:text-5xl md:text-6xl mb-4 sm:mb-6 leading-none">PRESSURE <br /><span className="text-[var(--muted)]">TESTED</span></h2>
-              <p className="text-lg sm:text-xl text-[var(--muted)]">Build stamina and perfect your time management under real exam conditions.</p>
-            </div>
-          </div>
-
-          {/* Feature 2 */}
-          <div className="grid md:grid-cols-2 gap-8 sm:gap-12 items-center">
-            <div className="md:pr-12">
-              <h2 className="heading text-4xl sm:text-5xl md:text-6xl mb-4 sm:mb-6 leading-none">SMART <br /><span className="text-[var(--accent)]">ANALYTICS</span></h2>
-              <p className="text-lg sm:text-xl text-[var(--muted)]">Subject radar, pacing scatter, readiness band, and weakness heatmap to guide your study.</p>
-            </div>
-            <div className="relative">
-              <div className="absolute inset-0 bg-[var(--accent)]/5 blur-3xl rounded-full -translate-x-10" />
-              <div className="card-elevated p-6 sm:p-8 relative z-10 border-[var(--accent)]/30 border-2">
-                <div className="flex justify-between items-start mb-8 sm:mb-12">
-                  <span className="text-[var(--accent)] font-display text-4xl">02</span>
-                  <div className="w-12 h-12 rounded-full border border-[#333] bg-[var(--background)] flex items-center justify-center text-xl">📊</div>
-                </div>
-                <div className="grid grid-cols-2 gap-3 sm:gap-4 mb-5 sm:mb-6">
-                  <div className="panel p-3 sm:p-4 text-center border border-[#333]">
-                    <div className="text-3xl sm:text-4xl font-display text-[var(--foreground)]">114</div>
-                    <div className="text-xs uppercase tracking-wider text-[var(--muted)] mt-1">Score</div>
-                  </div>
-                  <div className="panel p-3 sm:p-4 text-center border border-[var(--accent)]/50 bg-[var(--accent)]/10">
-                    <div className="text-3xl sm:text-4xl font-display text-[var(--accent)]">68%</div>
-                    <div className="text-xs uppercase tracking-wider text-[var(--accent)] mt-1">Accuracy</div>
-                  </div>
-                </div>
-                <h3 className="heading text-3xl sm:text-4xl mb-2">Review Mode</h3>
-                <p className="text-[var(--muted)] text-base sm:text-lg">Identify exact weaknesses and save takeaways.</p>
-              </div>
-            </div>
-          </div>
-
-        </section>
-
-        {/* CTA */}
-        <section className="mt-4 sm:mt-20 py-16 sm:py-24 text-center relative z-10">
-          <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[var(--accent)]/5 -z-10 rounded-[3rem]" />
-          <h2 className="heading text-4xl sm:text-6xl md:text-8xl text-white mb-4 sm:mb-6">READY TO PRACTICE?</h2>
-          <p className="text-base sm:text-xl text-gray-400 max-w-2xl mx-auto mb-8 sm:mb-12 px-2">
-            Join other aspirants practicing PYQs, full-length tests, and subject-wise drills with actionable insights. 100% free forever.
-          </p>
-          <div className="flex justify-center">
+          
+          <div className="flex flex-col sm:flex-row gap-5">
             <Link
-              href="/app"
-              className="group relative rounded-[1rem] bg-[#000] w-full max-w-xs sm:w-auto px-8 sm:px-12 py-5 sm:py-6 text-lg sm:text-xl font-bold uppercase tracking-wider text-[var(--foreground)] transition-all hover:bg-[var(--background-secondary)] text-center"
+              href="/app/pyq"
+              className="bg-[#2d5a27] hover:bg-[#3d7a35] border border-[#4d8f44] text-white font-semibold py-4 px-8 rounded-xl transition-all shadow-[0_4px_14px_0_rgba(45,90,39,0.39)] hover:shadow-[0_6px_20px_rgba(45,90,39,0.23)] hover:-translate-y-[2px] text-center"
             >
-              <div className="absolute inset-0 rounded-[1rem] border-2 border-[var(--accent)] shadow-[0_0_20px_rgba(163,230,53,0.2)] group-hover:shadow-[0_0_40px_rgba(163,230,53,0.4)] transition-shadow" />
-              START PRACTICING
+              Start PYQ practice
+            </Link>
+            <Link
+              href="/app/flt"
+              className="bg-[#3b3b3b] hover:bg-[#4b4b4b] border border-[#555] text-white font-semibold py-4 px-8 rounded-xl transition-all shadow-md hover:shadow-lg hover:-translate-y-[2px] text-center"
+            >
+              Take a mock test
             </Link>
           </div>
         </section>
 
-      </div>
+        {/* ── Features Section ── */}
+        <section className="w-full max-w-5xl mx-auto py-24 px-4 sm:px-6">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-white mb-12 font-display">
+            Why aspirants switch to us
+          </h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {/* Card 1 */}
+            <div className="bg-[#2f2762] rounded-2xl p-8 border border-[#403682] transition-transform hover:-translate-y-2">
+              <h3 className="text-xl font-bold text-white mb-3">Real PYQ practice</h3>
+              <p className="text-indigo-200/80 mb-1">Last 12+ years, all papers</p>
+              <p className="text-indigo-200/80">Timed, exam-like</p>
+            </div>
+            
+            {/* Card 2 */}
+            <div className="bg-[#0b3b2c] rounded-2xl p-8 border border-[#145f48] transition-transform hover:-translate-y-2">
+              <h3 className="text-xl font-bold text-white mb-3">Smart analytics</h3>
+              <p className="text-emerald-200/80 mb-1">Subject-wise weakness</p>
+              <p className="text-emerald-200/80">Track improvement</p>
+            </div>
+            
+            {/* Card 3 */}
+            <div className="bg-[#4a1c0d] rounded-2xl p-8 border border-[#762b14] transition-transform hover:-translate-y-2">
+              <h3 className="text-xl font-bold text-white mb-3">100% free</h3>
+              <p className="text-orange-200/80 mb-1">No paywall, no trial</p>
+              <p className="text-orange-200/80">Full access always</p>
+            </div>
+          </div>
+        </section>
+
+        {/* ── Dashboard Preview Section ── */}
+        <section className="w-full max-w-6xl mx-auto pb-24 px-4 sm:px-6 flex flex-col items-center">
+          <h2 className="text-2xl sm:text-3xl font-bold text-center text-white mb-10 font-display">
+            See it in action
+          </h2>
+          
+          {/* Dashboard Image */}
+          <div className="w-full max-w-5xl rounded-2xl sm:rounded-[2rem] overflow-hidden border-2 border-[#333] shadow-2xl relative mb-16 bg-black">
+            <div className="absolute inset-0 bg-gradient-to-t from-[#121212]/80 via-transparent to-transparent pointer-events-none z-10" />
+            <Image 
+              src="/dashboard-preview.png"
+              alt="UPSC Analytics Dashboard Preview"
+              width={1400}
+              height={900}
+              className="w-full h-auto object-cover transform transition-transform duration-700 hover:scale-[1.02]"
+              priority
+            />
+          </div>
+
+          {/* Final CTA */}
+          <div className="flex flex-col items-center text-center">
+            <Link
+              href="/app"
+              className="bg-[#265e1b] hover:bg-[#327a24] text-white text-lg font-bold py-5 px-10 rounded-2xl transition-all mb-4 shadow-[0_0_30px_rgba(45,90,39,0.3)] hover:shadow-[0_0_40px_rgba(45,90,39,0.5)] hover:-translate-y-1 w-full sm:w-auto"
+            >
+              Start your first test now
+            </Link>
+            <p className="text-gray-400 italic text-sm md:text-base">
+              No signup required. Practice first, create account later.
+            </p>
+          </div>
+        </section>
+        
+      </main>
+      
+      {/* ── Footer ── */}
+      <footer className="w-full border-t border-[#222] py-8 text-center text-[#666] text-sm">
+        <p>Pattern: Hero + CTA + social proof + features + preview + final CTA. Every top landing page uses this.</p>
+        <p className="mt-2 text-[#444]">&copy; {new Date().getFullYear()} UPSCPT.</p>
+      </footer>
     </div>
   );
 }
