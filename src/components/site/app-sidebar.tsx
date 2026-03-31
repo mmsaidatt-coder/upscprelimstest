@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 
 const mainNavigation = [
-  { href: "/app", label: "Dashboard", icon: "📊", exact: true },
+  { href: "/", label: "Dashboard", icon: "📊", exact: true },
   { href: "/app/analytics/all", label: "Analytics", icon: "📈", matchPrefix: "/app/analytics" },
   { href: "/app/pyq", label: "PYQ", icon: "📚", exact: false },
   { href: "/app/notebook", label: "Notebook", icon: "📓", exact: false },

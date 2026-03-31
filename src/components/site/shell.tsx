@@ -11,12 +11,13 @@ export function Shell({ children }: { children: React.ReactNode }) {
   const isLoginRoute = pathname === "/login";
   const isExamRoute = pathname.startsWith("/app/exams/") || pathname.startsWith("/app/pyq/run");
   const isAppRoute = pathname.startsWith("/app");
+  const isSidebarRoute = pathname === "/" || (isAppRoute && !isExamRoute);
 
   if (isLoginRoute) {
     return <div className="min-h-screen">{children}</div>;
   }
 
-  if (isAppRoute && !isExamRoute) {
+  if (isSidebarRoute) {
     return (
       <div className="flex min-h-screen bg-[var(--background)] flex-col lg:flex-row">
         <AppSidebar />
