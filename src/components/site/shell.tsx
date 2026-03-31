@@ -21,7 +21,11 @@ export function Shell({ children }: { children: React.ReactNode }) {
     return (
       <div className="flex min-h-screen bg-[var(--background)] flex-col lg:flex-row">
         <AppSidebar />
-        <main className="flex-1 min-w-0">{children}</main>
+        <div className="flex-1 flex flex-col min-w-0">
+          {pathname === "/" && <SiteHeader />}
+          <main className="flex-1">{children}</main>
+          {pathname === "/" && <Footer />}
+        </div>
       </div>
     );
   }
