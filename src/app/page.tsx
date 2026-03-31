@@ -24,13 +24,12 @@ export default function Home() {
             The smartest way to practice PYQs. Fast, focused sessions against real exam patterns.
           </p>
 
-          <div className="mt-8 sm:mt-12 flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center w-full">
+          <div className="mt-8 sm:mt-12 flex justify-center w-full">
             <Link
               href="/app"
-              className="group relative rounded-[1rem] bg-[var(--background-secondary)] w-full sm:w-auto px-8 py-4 sm:py-5 text-base sm:text-lg font-bold uppercase tracking-wider text-[var(--foreground)] transition-all hover:bg-[var(--background)] text-center"
+              className="group relative inline-flex items-center justify-center rounded-[1.25rem] bg-[var(--accent)] px-10 py-5 sm:px-12 sm:py-6 text-lg sm:text-xl font-bold uppercase tracking-widest text-[#0e0e0e] transition-all hover:bg-[#b0f53b] hover:scale-[1.02] shadow-[0_0_40px_rgba(163,230,53,0.4)]"
             >
-              <div className="absolute inset-0 rounded-[1rem] border-2 border-[var(--accent)] shadow-[0_0_15px_rgba(163,230,53,0.15)] group-hover:shadow-[0_0_25px_rgba(163,230,53,0.3)] transition-shadow" />
-              Start Practicing
+              Start practicing, it's all free
             </Link>
           </div>
 
