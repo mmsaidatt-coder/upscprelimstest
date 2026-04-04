@@ -13,27 +13,12 @@ export function SiteHeader() {
           </span>
         </Link>
 
-        {/* Right: Profile / Settings */}
+        {/* Right: Auth */}
         <Link
-          href="/app/settings"
-          id="site-header-profile-btn"
-          aria-label="Profile and settings"
-          className="flex items-center justify-center h-9 w-9 rounded-full border border-[#333] bg-[#111] text-[var(--muted)] hover:text-[var(--foreground)] hover:border-[#444] transition-all"
+          href="/login"
+          className="text-sm font-semibold text-[var(--muted)] hover:text-white transition-colors"
         >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          >
-            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
-            <circle cx="12" cy="7" r="4" />
-          </svg>
+          Login / Sign up
         </Link>
       </div>
     </header>
