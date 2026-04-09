@@ -1,6 +1,6 @@
 import { createAdminClient } from "./admin";
 import { fetchAllPages } from "./fetch-all-pages";
-import type { ExamQuestion, Subject } from "@/lib/types";
+import type { ExamQuestion, Subject, PyqQuestion } from "@/lib/types";
 
 type DbQuestion = {
   id: string;
@@ -255,6 +255,85 @@ export async function fetchSearchablePyqQuestions(): Promise<SearchablePyqQuesti
     console.error(
       "Failed to fetch searchable PYQs:",
       error instanceof Error ? error.message : "Unknown error",
+    );
+    return [];
+  }
+}
+
+export async function fetchQuestionById(id: string): Promise<PyqQuestion | null> {
+  const supabase = createAdminClient();
+
+  try {
+    const { data, error } = await supabase
+      .from("questions")
+      .select(`
+        id,
+        subject,
+        difficulty,
+        prompt,
+        context_lines,
+        options,
+        correct_option_id,
+        explanation,
+        takeaway,
+        marks,
+        negative_marks,
+        year,
+        source_label,
+        topic,
+        sub_topic,
+        keywords
+      `)
+      .eq("id", id)
+      .single();
+
+    if (error || !data) {
+      console.error(
+        "Failed to fetch question by ID:",
+        error ? error.message : "Not found"
+      );
+      return null;
+    }
+
+    const examQ = toExamQuestion(data as DbQuestion);
+    return {
+      ...examQ,
+      year: data.year as number,
+      topics: [
+        data.topic,
+        data.sub_topic,
+        ...(data.keywords || []),
+      ].filter(Boolean) as string[],
+      sourceLabel: data.source_label as string | undefined,
+    };
+  } catch (error) {
+    console.error(
+      "Failed to fetch question by ID:",
+      error instanceof Error ? error.message : "Unknown error"
+    );
+    return null;
+  }
+}
+
+export async function fetchAllQuestionIds(): Promise<string[]> {
+  const supabase = createAdminClient();
+
+  try {
+    const data = await fetchAllPages<{ id: string }>({
+      runPage: async (from, to) =>
+        await supabase
+          .from("questions")
+          .select("id")
+          .eq("source", "pyq")
+          .order("id", { ascending: true })
+          .range(from, to),
+    });
+
+    return data.map((row) => row.id);
+  } catch (error) {
+    console.error(
+      "Failed to fetch all question IDs:",
+      error instanceof Error ? error.message : "Unknown error"
     );
     return [];
   }

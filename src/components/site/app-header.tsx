@@ -8,14 +8,11 @@ const appNavigation = [
 
 export function AppHeader() {
   return (
-    <header className="sticky top-0 z-40 border-b border-[#262626] bg-[#0e0e0e]/80 backdrop-blur-md">
+    <header className="sticky top-0 z-40 border-b border-[var(--border)] bg-[var(--background)]/80 backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
         <Link href="/" className="flex items-center gap-2.5 group">
-          <span className="text-xl font-display font-bold tracking-wider text-[var(--foreground)] group-hover:text-[var(--accent)] transition-colors">
-            UPSCPRELIMSTEST.COM
-          </span>
-          <span className="bg-[var(--accent)]/10 text-[var(--accent)] border border-[var(--accent)]/30 rounded px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-widest ml-2">
-            App
+          <span className="text-xl font-serif font-bold text-[var(--foreground)] group-hover:text-[var(--accent)] transition-colors">
+            UPSC Prelims Test
           </span>
         </Link>
 
@@ -24,7 +21,7 @@ export function AppHeader() {
             <Link
               key={item.href}
               href={item.href}
-              className="text-xs font-bold uppercase tracking-widest text-[var(--muted)] hover:text-white transition-colors"
+              className="text-xs font-bold uppercase tracking-widest text-[var(--muted)] hover:text-[var(--foreground)] transition-colors"
             >
               {item.label}
             </Link>

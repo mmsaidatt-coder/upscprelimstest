@@ -1,21 +1,21 @@
 @import "tailwindcss";
 
 :root {
-  --background: #0e0e0e;
-  --background-secondary: #1a1a1a;
-  --foreground: #ffffff;
-  --muted: #9ca3af;
-  --border: #333333;
-  --border-light: #262626;
-  --accent: #A3E635;
-  --accent-hover: #bef264;
-  --accent-soft: rgba(163, 230, 53, 0.1);
-  --accent-warm: #f59e0b;
+  --background: #FAF7F2;
+  --background-secondary: #FFFFFF;
+  --foreground: #1A1A1A;
+  --muted: #6B7280;
+  --border: #E5E0DA;
+  --border-light: #EDE9E3;
+  --accent: #C4784A;
+  --accent-hover: #B06838;
+  --accent-soft: rgba(196, 120, 74, 0.1);
+  --accent-warm: #C4784A;
   --danger: #ef4444;
   --success: #10b981;
-  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.5);
-  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5), 0 2px 4px -2px rgba(0, 0, 0, 0.5);
-  --shadow-glow: 0 0 20px rgba(163, 230, 53, 0.3);
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.06);
+  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+  --shadow-glow: 0 0 20px rgba(196, 120, 74, 0.15);
 }
 
 @theme inline {
@@ -33,13 +33,23 @@
 
 html {
   scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-manrope), system-ui, sans-serif;
-  min-height: 100vh;
+  min-height: 100dvh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Mobile: safe area insets for notch/home indicator devices */
+@supports (padding: env(safe-area-inset-bottom)) {
+  .safe-bottom {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
 }
 
 a,
@@ -50,19 +60,50 @@ button {
     color 150ms ease,
     opacity 150ms ease,
     box-shadow 150ms ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Minimum 44px touch targets on mobile */
+@media (pointer: coarse) {
+  button,
+  a,
+  select,
+  [role="button"] {
+    min-height: 44px;
+  }
+
+  input, textarea, select {
+    font-size: 16px; /* prevents iOS zoom on focus */
+  }
+}
+
+/* Smooth scrolling containers for mobile */
+.scroll-touch {
+  -webkit-overflow-scrolling: touch;
+  overflow-y: auto;
+}
+
+/* Hide scrollbar on horizontal tab bars */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
 }
 
 ::selection {
-  background: rgba(163, 230, 53, 0.2);
-  color: #A3E635;
+  background: rgba(196, 120, 74, 0.2);
+  color: #C4784A;
 }
 
-/* ── Custom Grid Background ─────────────────────────────────── */
-.bg-blueprint-grid {
-  background-size: 40px 40px;
-  background-image: 
-    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+/* ── Subtle Grid Background ────────────────────────────────── */
+.bg-blueprint-grid,
+.bg-warm-grid {
+  background-size: 48px 48px;
+  background-image:
+    linear-gradient(to right, rgba(0, 0, 0, 0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.035) 1px, transparent 1px);
 }
 
 /* ── Card ───────────────────────────────────────────────────── */
@@ -88,11 +129,10 @@ button {
 
 /* ── Typography ─────────────────────────────────────────────── */
 .heading {
-  font-family: var(--font-teko), var(--font-manrope), system-ui, sans-serif;
+  font-family: var(--font-fraunces), Georgia, serif;
   font-weight: 700;
-  letter-spacing: 0.02em;
+  letter-spacing: -0.01em;
   color: var(--foreground);
-  text-transform: uppercase;
 }
 
 .label {
@@ -114,11 +154,13 @@ button {
   font-weight: 600;
   color: var(--muted);
   background: var(--background-secondary);
+  border: 1px solid var(--border);
 }
 
 .badge-accent {
   background: var(--accent-soft);
   color: var(--accent);
+  border-color: transparent;
 }
 
 /* ── Fade-up animation ──────────────────────────────────────── */

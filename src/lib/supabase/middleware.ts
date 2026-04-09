@@ -30,21 +30,6 @@ export async function updateSession(request: NextRequest) {
     data: { user },
   } = await supabase.auth.getUser();
 
-  // Routes under /app that guests can access (test-taking + single-test result).
-  const publicAppRoutes = ["/app/pyq/run", "/app/pyq/sectional", "/app/exams/", "/app/attempts/", "/test/"];
-  const isPublicAppRoute = publicAppRoutes.some((prefix) =>
-    request.nextUrl.pathname.startsWith(prefix),
-  );
-
-  // Protect /app routes: redirect to /login if not authenticated.
-  // Guest-accessible test routes are exempted so anyone can take a test.
-  if (!user && request.nextUrl.pathname.startsWith("/app") && !isPublicAppRoute) {
-    const url = request.nextUrl.clone();
-    url.pathname = "/login";
-    url.searchParams.set("next", request.nextUrl.pathname);
-    return NextResponse.redirect(url);
-  }
-
   // Redirect logged-in users away from /login.
   if (user && request.nextUrl.pathname === "/login") {
     const url = request.nextUrl.clone();

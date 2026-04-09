@@ -1,0 +1,1362 @@
+[
+  {
+    "questionNumber": 1,
+    "questionText": "Which of the following can be the most logical, rational inference(s) from the above passage?\n1. Regulatory frameworks must adapt continuously to technological change.\n2. Rigid regulatory actions allow private technological power to operate without accountability.\n3. When it comes to technological change, market incentives may not always be aligned with public interest.",
+    "options": [
+      "1 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctOption": "c",
+    "explanation": "Statement (1) is valid as the passage states, 'challenge lies in the mismatch between the … technological change … regulatory institutions'. Statement (2) is not valid as the passage does not discuss the outcomes of rigid rule making. Statement (3) is valid as the passage states, 'frameworks that rely excessively on self-regulation assume that market incentives will align with public interest.'",
+    "subject": "CSAT",
+    "topic": "Reading Comprehension",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 2,
+    "questionText": "With reference to the above passage, the following assumptions have been made:\n1. Climate commitments lack credibility in the absence of reliable financial support mechanisms.\n2. Developmental needs and climate goals are inherently in tension for developing countries.\n3. Short-term or project-based climate finance is insufficient for sustaining long-term international cooperation.\n4. Climate finance arrangements influence political and relational outcomes beyond their monetary value.\nWhich of the above assumptions is/are valid?",
+    "options": [
+      "1 and 4 only",
+      "1, 3 and 4 only",
+      "2 and 3 only",
+      "1, 2, 3 and 4"
+    ],
+    "correctOption": "b",
+    "explanation": "Statement (1) is valid as the passage states, “Without predictable and adequate finance, climate commitments risk being perceived as aspirational rather than actionable.” This implies that credibility of commitments depends on reliable financial support. Statement (2) is not valid as the passage does not state or assume that developmental needs and climate goals are inherently in tension. The passage argues that climate action cannot be delinked from development priorities, not that the two are fundamentally conflicting. Statement (3) is valid as the passage notes that donor countries prefer “short-term or project-based funding” due to political pressures, and further argues that sustainable climate cooperation depends on fulfilling financial responsibilities. This assumes that short-term funding is insufficient for sustaining long-term cooperation. Statement (4) is valid as the passage explicitly states that financial flows “shape trust, credibility, and cooperation within the international system”, indicating that climate finance has political and relational implications beyond mere economic transfer.",
+    "subject": "CSAT",
+    "topic": "Reading Comprehension",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 3,
+    "questionText": "Which of the following is/are the most logical inference(s) that can be made from the above passage?\n1. Aggregate performance metrics may systematically conceal exclusion experienced by specific user groups.\n2. Centralized digital systems may amplify governance inefficiency by minimizing dependence on human discretion.\n3. Digitization can alter power relations between citizens and the State in unintended ways.\n4. Automated decision-making mechanisms are inherently more contestable than discretionary human judgment.",
+    "options": [
+      "1 and 3 only",
+      "1, 2 and 3 only",
+      "2 and 4 only",
+      "1, 3 and 4 only"
+    ],
+    "correctOption": "a",
+    "explanation": "Statement 1: Valid: The passage explicitly says exclusions remain invisible because performance is judged using aggregate success rates rather than user-level failures. This directly implies concealment of group-specific exclusion. Statement 2: Not Valid: The passage criticizes loss of human discretion and highlights systemic risks, but it does not claim this leads to greater inefficiency. Introducing risk or rigidity is not the same as amplifying inefficiency. Statement 3: Valid: The passage clearly states that digital infrastructure redistributes power between citizens and the State, often in unintended ways. Statement 4: Not Valid: The passage says automated systems are difficult to contest or reverse, which is the opposite of being more contestable than human judgment.",
+    "subject": "CSAT",
+    "topic": "Reading Comprehension",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 4,
+    "questionText": "With reference to the above passage, the following assumptions have been made:\n1. Repeated executive use of discretionary powers can alter democratic practice without formal legal change.\n2. Written constitutional safeguards alone are sufficient to preserve democratic resilience during crises.\nWhich of the above assumptions is/are valid?",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correctOption": "a",
+    "explanation": "Statement (1) is valid as the passage states that repeated reliance on exceptional powers can “normalize extraordinary governance” and “weaken institutional checks without any formal constitutional amendment.” Statement (2) is not valid as the passage explicitly argues that democratic resilience depends not only on written provisions but also on “restraint, proportionality, and accountability,” indicating that written safeguards alone are insufficient.",
+    "subject": "CSAT",
+    "topic": "Reading Comprehension",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 5,
+    "questionText": "A is the brother of B. C is the mother of A. D is the sister of C. E is the husband of D. F is the son of E.\nBased on the above information, consider the following statements:\nI. F is the cousin of A.\nII. B is the daughter of C.\nWhich of the above statement(s) is/are correct?",
+    "options": [
+      "I only",
+      "II only",
+      "Both I and II",
+      "Neither I nor II"
+    ],
+    "correctOption": "a",
+    "explanation": "Let us decode step by step: • A is brother of B → A is male, B is sibling (gender not specified). • C is mother of A → C is also mother of B. • D is sister of C → D is maternal aunt of A & B. • E is husband of D. • F is son of E → F is son of D & E. So: • A and F share maternal grandparents → cousins • Statement I → Correct • Statement II → B’s gender is not given → cannot conclude B is daughter. Only I is correct",
+    "subject": "CSAT",
+    "topic": "Logical Reasoning",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 6,
+    "questionText": "Let N be a 97-digit positive integer (in the decimal system).\nAll digits of N are 7, except the 53rd digit from the left, which is unknown.\nIf N is divisible by 11, find the 53rd digit.",
+    "options": [
+      "3",
+      "5",
+      "0",
+      "None of the above"
+    ],
+    "correctOption": "c",
+    "explanation": "Step 1: Use divisibility rule of 11. A number is divisible by 11 if: (Sum of digits in odd positions−Sum of digits in even positions) is 0 or a multiple of 11. Step 2: Understand digit positions • Total digits = 97 • Positions counted from the left • Since 97 is odd, odd positions = 49, even positions = 48 • The 53rd digit from the left → odd position. Step 3: Assign digit values. Let the unknown digit = x • All other digits = 7. Odd-position sum: = 48 × 7 + x. Even-position sum: = 48 × 7. Step 4: Apply divisibility condition (48 × 7 + x) − (48 × 7) = x. For divisibility by 11: x should be 0. Correct Answer: C. 7",
+    "subject": "CSAT",
+    "topic": "Quantitative Aptitude",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 7,
+    "questionText": "Let x, y, z be three distinct integers chosen from 1 to 15 (both inclusive).\nThey satisfy the following conditions:\n1. Exactly one of the three products xy, yz, zx is odd.\n2. The product xyz is a multiple of 8 but not a multiple of 16.\n3. The arithmetic mean of x and y is an integer.\n4. The arithmetic mean of x, y and z is also an integer.\nHow many such unordered triplets (x, y, z) are possible?",
+    "options": [
+      "8",
+      "6",
+      "10",
+      "14"
+    ],
+    "correctOption": "c",
+    "explanation": "A product is odd iff both numbers are odd. Exactly one of xy,yz,zx is odd ⇒ exactly two numbers are odd and one is even. ⇒ xyz is a multiple of 8 but not 16 ⇒ the total power of 2 in the product is exactly 3. Since there is only one even number, that number must contribute all three factors of 2. From 1 to 15, the only number with exactly 2^3 is: So the even number is 8, and the other two numbers are odd. ⇒ Mean of x and y: (x + y)/2 is an integer x + y is even ⇒ x and y have the same parity. Thus, x and y must be the two odd numbers, and z = 8. ⇒ Mean of x, y, z: (x + y + 8)/3 ∈ Z ⇒ x + y ≡ 1 (mod 3). ⇒ Count valid odd pairs. odd numbers from 1 to 15: 1, 3, 5, 9, 11, 13, 15. Valid sums ≡ 1 (mod 3): • (0,1) pairs 3 × 3 = 9 • (2, 2) pairs (2C2) = 1. Total valid pairs: 9 + 1 = 10. Final Answer correct option (c)",
+    "subject": "CSAT",
+    "topic": "Quantitative Aptitude",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 8,
+    "questionText": "The length of candle B is 3 times the length of candle A. The speed of burning of Candle B is 4 times the speed of burning of Candle A. A party begins with the lighting of these two candles. The party ends when the heights of these candles become equal. If the numerical value of length (in metre) of the burnt away portion of Candle A and the speed (in metre per hour) of its burning are same, how long, in hours, did the party continue ?",
+    "options": [
+      "1/2",
+      "1",
+      "1 1/4",
+      "1 1/2"
+    ],
+    "correctOption": "b",
+    "explanation": "Lets the length of candle A as LA. • The length of candle B as LB = 3LA (since candle B is 3 times the length of candle A). • The burning speed of candle A as sA. • The burning speed of candle B as sB = 4sA (since it's burning 4 times faster than candle A). Given, the numerical value of the length of the burnt portion of candle A is the same as its burning speed, which means after time t hours, LA – sA · t = LA – 8A t (since it burns its own height). Therefore, the length of time for which the candles burn is given by: LA = sA · t ⇒ t = LA / sA. At the time the party ends, the heights of both candles are the same. Equation for candle A: HA = LA – sA · t. Equation for candle B: HB = LB – sB · t = 3LA – 4sA · t. Since both heights are equal at time: LA – 8A · t = 3LA – 4sA · t. Simplifying this equation: LA – 8A · t = 3LA – 4sA · t. 4sA · t – sA · t = 3LA – LA. 3sA · t = 2LA ⇒ t = 2LA / 3sA. From our earlier result, t = LA / sA based on candle A's consumption and time relation, gives us: If both results should match, we equate: 2LA / 3sA = LA / sA. Therefore, we can confirm the provided condition that burning speeds are based on the total length burnt throughout the time: This results in a balanced value of time: 1 hour. Thus, the correct answer is 1 hour.",
+    "subject": "CSAT",
+    "topic": "Quantitative Aptitude",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 9,
+    "questionText": "Consider the following statements:\n1. Richa puts her timepiece on the table in such a way that at 6 P.M. hour hand points to West. Due to this minute hand will point in East direction at 3:00 P.M.\n2. Maya is facing east. She turned 120° in the clockwise direction and then 165° in the anti-clockwise direction. Now she is facing in South-East direction.\nWhich of the above statement(s) is/are correct?",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correctOption": "a",
+    "explanation": "1. In a normal orientation: 12 → North, 3 → East, 6 → South, 9 → West. Normally, at 6 PM, the hour hand points to 6, i.e., South. In the problem, at 6 PM the hour hand points West instead. That means: South is appearing as West. So the whole clock has been rotated so that South → West, i.e., the clock is rotated 90° clockwise. At 3: 00 PM, Minute hands point to 12. Normally 12 points to North. 2. Let clockwise be negative, anticlockwise be positive. Net rotation = −120°+165° = 45° anticlockwise, So overall she turns 45° anticlockwise from East. From East: 45° anticlockwise points between East and North (i.e., North-East). So she is not facing South - East.",
+    "subject": "CSAT",
+    "topic": "Logical Reasoning",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 10,
+    "questionText": "If ‘P’ percent of ‘m’ is same as ‘q’ percent of ‘n’ then what percent of ‘m’ is ‘r’ percent of ‘n’ ?",
+    "options": [
+      "rp/q",
+      "pq/r",
+      "qr/p",
+      "p/qr"
+    ],
+    "correctOption": "a",
+    "explanation": "Give P% of m = q% of n. (P/100)m = (q/100)n ⇒ n/m = p/q. Now, let r% of n = x% of m. (r/100)n = (x/100)m ⇒ x = r(n/m). Substitute: x = r(p/q) = rp/q. Final Confirmed answer (a) rp/q",
+    "subject": "CSAT",
+    "topic": "Quantitative Aptitude",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 11,
+    "questionText": "Which among the following is the most logical corollary to the above passage?",
+    "options": [
+      "Survival of democracies requires opposition to contest arbitraryness without rejecting constitutional procedures.",
+      "Electoral defeat weakens the legitimacy of opposition parties in democracies unless they adhere to constitutional decorum.",
+      "Moral framing of politics enhances accountability by intensifying political confrontation.",
+      "Institutional equilibrium depends primarily on the executive’s willingness to exercise restraint."
+    ],
+    "correctOption": "a",
+    "explanation": "Option (a) is correct as the passage argues that opposition sustains democracy by challenging executive authority within procedural limits and warns that framing politics purely as a moral struggle makes conflict irreconcilable. Option (b) is incorrect as the passage explicitly states that opposition legitimacy derives not merely from electoral performance. Option (c) is incorrect because the passage treats moral absolutism as a risk that undermines regulated disagreement, not as a source of accountability. Option (d) is incorrect as the passage emphasizes the opposition’s role and shared procedural acceptance, not executive restraint alone.",
+    "subject": "CSAT",
+    "topic": "Reading Comprehension",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 12,
+    "questionText": "Based on the passage above, which of the following would be the most valid implication for India’s metropolitan cities?",
+    "options": [
+      "Fuel efficiency improvements can drastically reduce congestion-induced environmental externalities in cities.",
+      "Expansion of road infrastructure is essential to offset economic losses caused by traffic congestion.",
+      "Traffic-related health impacts must be addressed independently of broader urban economic planning impacts.",
+      "To ensure future economic productivity, current urban transport plans must prioritize systemic congestion reduction."
+    ],
+    "correctOption": "d",
+    "explanation": "Option (a) is incorrect as the passage highlights congestion and logistics inefficiencies as systemic problems, not issues solvable through fuel efficiency. Option (b) is incorrect as the passage does not argue that road expansion resolves congestion-related harms; it emphasizes sustainability, not capacity addition alone. Option (c) is incorrect because the passage treats health, environment, and economic impacts as interlinked, not separable. Option (d) is correct as the passage links traffic congestion to reduced economic vitality, and concludes that establishing sustainable transport systems is imperative to address these interconnected effects.",
+    "subject": "CSAT",
+    "topic": "Reading Comprehension",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 13,
+    "questionText": "Which of the following best sums up the passage above?",
+    "options": [
+      "Natural farming offers a low-cost alternative to large- scale chemical agriculture by reviving traditional farming inputs.",
+      "When traditional wisdom, scientific validation and institutional support come together, natural farming can become feasible and transformative.",
+      "Gradual adoption of natural farming practices can reduce farmers’ risks from climate variability and rising costs.",
+      "Excessive reliance on chemical fertilizers has compelled farmers to explore environmentally sustainable cultivation methods."
+    ],
+    "correctOption": "c",
+    "explanation": "Option (a) is incorrect as the passage goes beyond cost reduction and revival of traditional inputs; it also emphasizes climate resilience, soil health, and confidence-building through phased adoption. Option (b) is incorrect as the passage highlights that adopting natural farming gradually (“one acre, one season”) doesnot helps farmers manage rising input costs, improve resilience to climate variability, and reduce long-term risks. Option (c) is correct because the passage mentions scientific validation or institutional support; these elements are introduced externally and are not derived from the given text. Option (d) is incorrect since it only reflects the problem of chemical dependence but does not capture the solution-oriented focus of natural farming and its gradual adoption stressed in the passage.",
+    "subject": "CSAT",
+    "topic": "Reading Comprehension",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 14,
+    "questionText": "With reference to the above passage, the following assumptions have been made:\n1. Current stock market valuations in the AI sector are driven more by expectations than present earnings.\n2. Investor behavior in financial markets is influenced by dominant narratives.\n3. Heavy investment in AI by leading companies signals long-term profitability.\n4. Market rallies may not accurately reflect overall economic fundamentals.\nWhich of the above assumptions is/are valid?",
+    "options": [
+      "1, 2, 3 and 4",
+      "1 and 3 only",
+      "2 and 3 only",
+      "1, 2 and 4 only"
+    ],
+    "correctOption": "d",
+    "explanation": "Statement (1) is valid as the passage states that the rally is driven by “the story and not because of the fundamentals in the business today,” implying expectations outweigh current earnings. Statement (2) is valid as the passage contrasts bulls and bears based on belief in an AI-led narrative, indicating investor behavior is shaped by prevailing stories. Statement (3) is not valid as the passage explicitly questions business fundamentals and does not assume that AI investments ensure long-term profitability. Statement (4) is valid as the passage notes that the rally is “predominantly led by a few companies” and disconnected from fundamentals, implying it may not reflect the broader market reality.",
+    "subject": "CSAT",
+    "topic": "Reading Comprehension",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 15,
+    "questionText": "Six persons A, B, C, D, E and F are sitting in a straight line facing North.\nThey are discussing an event that occurred on 15th August 2021, which was a Sunday.\nInformation given:\n1. A sits third to the right of the person who was born on Sunday.\n2. B sits immediately to the left of A.\n3. C was born on the same day of the week as 15th August 2021.\n4. D sits at one of the ends of the line.\n5. E sits immediately to the right of the person born on Sunday.\nConsider the following statements:\nI. C is sitting immediately to the left of A.\nII. E is sitting second from the left end.\nWhich of the above statement(s) is/are correct?",
+    "options": [
+      "I only",
+      "II only",
+      "Both I and II",
+      "Neither I nor II"
+    ],
+    "correctOption": "d",
+    "explanation": "• 15th August 2021 = Sunday → Person born on Sunday = C. • From (1): A is third to the right of C. • From (5): E is immediately right of C. So sequence around C: C – E – ? – A. Now B sits immediately left of A → B comes just before A. D sits at one end. Final correct order (left to right): D/F – C – E – B – A – D/F. ⇒ Both Statement I and II are not correct",
+    "subject": "CSAT",
+    "topic": "Logical Reasoning",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 16,
+    "questionText": "A question is followed by two statements I and II. Consider the Question and the Statements.\nQuestion: Is the positive two-digit integer P less than 40?\nStatement-I: The units digit of P is 6 more than the tens digit.\nStatement-II: P is 4 less than 4 times the unit’s digit.\nWhich one of the following is correct in respect of the above Question and the Statements?",
+    "options": [
+      "The Question can be answered by using one of the Statements alone, but cannot be answered using the other Statement alone.",
+      "The Question can be answered by using either Statement alone.",
+      "The Question can be answered by using both the Statements together, but cannot be answered using either Statement alone.",
+      "The Question cannot be answered even by using both the Statements together."
+    ],
+    "correctOption": "b",
+    "explanation": "Each statement alone is sufficient to answer the question. Given number (P) is 2 digit number. So, 0<P<100. So, Question is whether P<40. 1. let P = xy ⇒ y = x + 6. y can maximum be 9, in which case x would be 3 (P = 39 max) so P < 40 – Yes, sufficient. 2. let P = xy ⇒ 10x + y = 4y – 4 ⇒ 10x = 3y – 4. (x,y) = (2,8) is the only valid solution so N < 40 – Yes, sufficient",
+    "subject": "CSAT",
+    "topic": "Quantitative Aptitude",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 17,
+    "questionText": "Consider the following statements:\n1. A clock is set right at 1 pm. If it gains one minute an hour, the true time when the clock indicates 6 pm the same day, will be 55(6/61) min past 5 pm.\n2. Between 7 and 8 o'clock, the hands of a clock be in the same straight line but, not together at 5(5/11) min. past 7.\nWhich of the above statement(s) is/are correct?",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correctOption": "b",
+    "explanation": "Clock gains 1 min per hour, so in 60 min faulty clock shows 61 min. So indicated time: real time = 61:60. Indicated time elapsed from 1 pm to 6 pm = 5 hours = 300 min (indicated). Real time elapsed = 300 x 60/61 = 18000 /61 min = 295 + 5/61 min. Now, 295 min = 4 hr 55 min and remaining = 5/61. Hence time is 1 pm+ 4h 55 5/61 min = 5h 55 5/61 min. Hence time is 55 (5/61) min past 5 pm. 2. When the hands of the clock are in the same straight line but not together, they are 30 minute spaces apart. At 7 o'clock, they are 25 min. spaces apart. Minute hand will have to gain only 5 min. spaces. 55 min. spaces are gained in 60 min. 5 min. spaces are gained in (60/55 x 5) min = 5 (5/11) min. Hence, Required time = 5 (5/11) min. past 7.",
+    "subject": "CSAT",
+    "topic": "Quantitative Aptitude",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 18,
+    "questionText": "In a government nutrition scheme, the ratio of boys to girls enrolled in District A is 5 : 3.\nIn District B, the number of girls is 25% more than the number of girls in District A, while the number of boys is 20% less than the number of boys in District A.\nConsider the following statements:\nI. The ratio of boys to girls in District B is 4 : 3.\nII. The total number of students in District B is greater than the total number of students in District A.\nWhich of the above statement(s) is/are correct?",
+    "options": [
+      "I only",
+      "II only",
+      "Both I and II",
+      "Neither I nor II"
+    ],
+    "correctOption": "d",
+    "explanation": "Let boys : girls in District A = 5 : 3. Assume: • Boys = 5x • Girls = 3x. District B: • Girls = 3x + 25% of 3x = 3.75x • Boys = 5x − 20% of 5x = 4x. So ratio in B = 4 : 3.75 = 16 : 15, not 4 : 3. ⇒ Statement I is incorrect. Total in A = 8x. Total in B = 7.75x less than A. 7.75x < 8x → Statement II also. ⇒ Both incorrect. Answer: (d) Neither I nor II",
+    "subject": "CSAT",
+    "topic": "Quantitative Aptitude",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 19,
+    "questionText": "Consider the following statements and the conclusions given below:\nStatements B ≥ D ≥ S ≥ U ≤ M, J < P < U > F > V\nConclusions\nI. J ≤ M\nII. D > P\nWhich of the following is correct regarding the conclusions ?",
+    "options": [
+      "Only Conclusion I is true.",
+      "Only Conclusion II is true.",
+      "Either Conclusion I or II is true.",
+      "Neither Conclusion I nor II is true."
+    ],
+    "correctOption": "b",
+    "explanation": "On combining the statements, we get J ≤ P < U ≤ M, D ≥ S ≥ U > P. I. J ≤ M (False). II. D > P (True). Hence, only Conclusion II is true. Conclusion I : J ≤ M. From statement (2): J < P < U. From statement (1): U ≤ M. So, J ≤ M (False). Conclusion I is not true. Conclusion II: D > P. From statement (1): D ≥ U. From statement (2): P < U. So, D ≥ U > P ⇒ D > P. Conclusion II is true",
+    "subject": "CSAT",
+    "topic": "Logical Reasoning",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 20,
+    "questionText": "A question is followed by two statements I and II. Consider the Question and the Statements.\nQuestion: If P is a positive integer, then P³ has how many digits?\nStatement-I: P has 3 digits.\nStatement-II: P² has 5 digits.\nWhich one of the following is correct in respect of the above Question and the Statements?",
+    "options": [
+      "The Question can be answered by using one of the Statements alone, but cannot be answered using the other Statement alone.",
+      "The Question can be answered by using either Statement alone.",
+      "The Question can be answered by using both the Statements together, but cannot be answered using either Statement alone.",
+      "The Question cannot be answered even by using both the Statements together."
+    ],
+    "correctOption": "d",
+    "explanation": "Statement 1: P has 3 digits, hence P can be any number between 100 and 999. Number of digits in (100)^3 = 7, No of digits in (1000)^3 = 10, hence (999)^3 will have 9 digits. So, number of digits can be 7 or 8 or 9. Hence, can’t be exactly predicted. Hence 1 alone is not sufficient. Statement 2: P^2 has 5 digits, so smallest P is 100 as (100)^2 has 5 digits. Largest P would be close to 300 as (300)^2 = 90000 and has 5 digits. So, if P = 100, then, P^3 has 7 digits and if P = 300, then P^3 has 8 digits. Hence 2 alone is not sufficient. Combining both statements also, the number of digits could be 7 or 8. Hence the question cannot be answered by combining both the statements also.",
+    "subject": "CSAT",
+    "topic": "Quantitative Aptitude",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 21,
+    "questionText": "Based on the passage, which of the following can be validly inferred about India’s investment scenario?\n1. India’s relative macroeconomic stability reduces downside risk for conservative investors.\n2. Debt instruments in India currently offer returns comparable to long-term equity averages.\n3. Global political volatility has increased the relative attractiveness of Indian fixed-income assets.\n4. Strong corporate balance sheets eliminate default risk in Indian corporate debt markets.\n5. Diversified allocation of funds in Indian bonds can lower portfolio volatility without sharply reducing returns.\nWhich of the above statements is/are correct?",
+    "options": [
+      "1, 2 and 3 only",
+      "2, 3 and 5 only",
+      "1, 3 and 5 only",
+      "1, 2, 3 and 4 only"
+    ],
+    "correctOption": "c",
+    "explanation": "Statement (1) is valid as the passage emphasizes strong macro fundamentals, low inflation, and stable growth, implying reduced downside risk relative to volatile global markets. Statement (2) is not valid as the passage compares debt returns (7% government, 9–13% corporate) to safety and stability, not to historical long-term equity averages. Statement (3) is valid as the passage explicitly links global volatility from wars and political regime changes to India’s appeal as a destination for capital preservation. Statement (4) is not valid because while corporate balance sheets are described as strong, the passage does not assume or imply elimination of default risk. Statement (5) is valid as the recommendation to shift 40–50% capital into debt suggests a reduced volatility without proportionate sacrifice in returns.",
+    "subject": "CSAT",
+    "topic": "Reading Comprehension",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 22,
+    "questionText": "With reference to the above passage, the following assumptions have been made:\n1. Climate negotiations inevitably involve political choices because they distribute costs and benefits unevenly among countries.\n2. Standardized technical frameworks are sufficient to manage climate negotiations if applied uniformly across countries.\n3. Past patterns of emissions and development continue to shape present-day claims and expectations in climate diplomacy.\n4. Developing countries consider developmental priorities incompatible with undertaking climate mitigation responsibilities.\nWhich of the above assumptions is/are valid?",
+    "options": [
+      "1 and 3 only",
+      "1, 2 and 3 only",
+      "1, 3 and 4 only",
+      "1, 2, 3 and 4"
+    ],
+    "correctOption": "a",
+    "explanation": "Statement (1) is valid as the passage states that climate action has a “fundamentally distributive nature” and that technical framing obscures how “costs and opportunities” are allocated unevenly. This necessarily assumes that climate negotiations involve political choices. Statement (2) is not valid as the passage explicitly argues the opposite: “Efforts to depoliticize climate negotiations through standardized frameworks frequently fail because underlying inequalities remain unresolved.” Hence, technical frameworks alone are insufficient. Statement (3) is valid as the passage concludes that climate diplomacy requires “explicit engagement with historical responsibility and differential capacities.” This assumes that historical emissions and development trajectories influence current negotiation positions. Statement (4) is not valid as the passage does not suggest that developing countries reject mitigation commitments altogether. It only states that such commitments “cannot be isolated from development imperatives”, not that they are incompatible or unacceptable.",
+    "subject": "CSAT",
+    "topic": "Reading Comprehension",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 23,
+    "questionText": "Which one of the following statements best reflects the most logical, rational and practical suggestion implied by the passage?",
+    "options": [
+      "Geranium leaf waste, a mostly discarded byproduct, can be upcycled into a renewable fuel source.",
+      "The Geranium recycle process is low-cost and energy-efficient and so it is attractive to farmers.",
+      "Farmers across the country can plant Geranium and use it as natural fertilizer for crops.",
+      "Setting up geranium waste processing plants can help rejuvenate soils and enhance plant growth in India."
+    ],
+    "correctOption": "d",
+    "explanation": "Option (a) is incorrect as the passage discusses conversion of Geranium waste into biochar for soil improvement and carbon storage, not its use as a renewable fuel source. Option (b) is incorrect because the passage does not provide evidence that the process is low-cost or energy-efficient, nor does it specifically state that it is attractive to farmers. Option (c) is incorrect since the passage talks about utilizing existing Geranium waste, not encouraging farmers to cultivate Geranium specifically for fertilizer use. Option (d) is correct as the passage emphasizes that processing Geranium waste into biochar can improve soil quality, store carbon, reduce environmental impact, and enhance crop yields across India, making this the most logical and practical implication.",
+    "subject": "CSAT",
+    "topic": "Reading Comprehension",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 24,
+    "questionText": "Based on the information stated in the passage above, which of the following would the author be least likely to support as an organizational practice?",
+    "options": [
+      "Prioritizing ethics examinations primarily for newly recruited or early-career financial advisers.",
+      "Complementing ethics testing with firm-level interventions addressing patterns of normalized misconduct.",
+      "Relying on periodic ethics examinations as the principal deterrent against misconduct across all advisers.",
+      "Targeting organizational culture reforms in firms exhibiting repeated or clustered misconduct incidents."
+    ],
+    "correctOption": "c",
+    "explanation": "Option (c) is correct because the passage states that advisers with prior misconduct or working in high-misconduct firms are “often completely unaffected by the ethics exam” and that firm-level “contagion of misconduct” weakens ethics training. This implies exams alone are insufficient as a primary deterrent. Option (a) is incorrect as the passage explicitly notes that the least experienced advisers are most responsive to ethics testing. Option (b) is incorrect because the passage emphasizes firm-level contagion, implying support for broader interventions beyond individual testing. Option (d) is incorrect as addressing organizational culture directly aligns with the passage’s concern about misconduct being reinforced at the firm level.",
+    "subject": "CSAT",
+    "topic": "Reading Comprehension",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 25,
+    "questionText": "A cube is painted blue on all faces and then cut into 216 identical smaller cubes.\nIf all the small cubes having at most two face painted are removed, how many painted faces remain in the cubes left?",
+    "options": [
+      "8",
+      "24",
+      "56",
+      "120"
+    ],
+    "correctOption": "b",
+    "explanation": "• Cubes with at most two painted faces are removed • Only cubes with more than two painted faces remain • Only corner cubes have 3 painted faces • Number of corner cubes = 8 • Painted faces remaining: 8 × 3 = 24. Final confirmed answer (b) 24",
+    "subject": "CSAT",
+    "topic": "Logical Reasoning",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 26,
+    "questionText": "If six persons take six hours to paint six walls of equal area, how many hours will 8 persons take to paint 8 walls of equal area, provided both the sets of walls are identical?",
+    "options": [
+      "8",
+      "7",
+      "6",
+      "5"
+    ],
+    "correctOption": "c",
+    "explanation": "Given: 6 persons take 6 hours to paint 6 walls of equal area. To find: Time taken by 8 persons to paint 8 walls of equal area. Formula used: Work = Persons × Time. Walls painted are proportional to the work done. Calculation: Work done by 6 persons in 5 hours: ⇒ Work = 6 × 6 = 36. Each wall requires 36 ÷ 6 = 6 units of work. Work required for 8 walls: ⇒ Total work = 8 × 6 = 48. Time taken by 8 persons: ⇒ Time = Total work ÷ Persons ⇒ Time = 48 ÷ 8 ⇒ Time = 6 hours. The correct answer is option (c).",
+    "subject": "CSAT",
+    "topic": "Quantitative Aptitude",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 27,
+    "questionText": "Let N be the smallest positive integer such that:\n1. When N is divided by 12, the remainder is 7.\n2. When N is divided by 18, the remainder is 13.\n3. When N is divided by 30, the remainder is 25.\nWhat is the sum of the digits of the least such N?",
+    "options": [
+      "11",
+      "13",
+      "15",
+      "17"
+    ],
+    "correctOption": "b",
+    "explanation": "Given : N ≡ 7 (mod 12), N ≡ 13 (mod 18), N ≡ 25 (mod 30). Observe: 12 – 7 = 18 – 13 = 30 – 25 = 5. So, N + 5 is divisible by 13, 18, 30. LCM(12, 18, 30) = 180 ⇒ N + 5 = 180 ⇒ N = 175. Sum of digits: 1 + 7 + 5 = 13. Answer (13)",
+    "subject": "CSAT",
+    "topic": "Quantitative Aptitude",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 28,
+    "questionText": "A question is followed by two statements I and II. Consider the Question and the Statements.\nQuestion: Is 2ᵖ > 100?\nStatement-I: 2^√p = 8\nStatement-II: 1/2ᵖ < 0.01\nWhich one of the following is correct in respect of the above Question and the Statements?",
+    "options": [
+      "The Question can be answered by using one of the Statements alone, but cannot be answered using the other Statement alone.",
+      "The Question can be answered by using either Statement alone.",
+      "The Question can be answered by using both the Statements together, but cannot be answered using either Statement alone.",
+      "The Question cannot be answered even by using both the Statements together."
+    ],
+    "correctOption": "b",
+    "explanation": "Statement 1: on solving, we get p = 9, hence 2^p > 100. Hence sufficient. Statement 2: when we inverse the equation we get, 2^p > 100. Hence sufficient.",
+    "subject": "CSAT",
+    "topic": "Quantitative Aptitude",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 29,
+    "questionText": "A question is followed by two statements I and II. Consider the Question and the Statements.\nQuestion: If p and q are integers, is (√p)q an integer?\nStatement-I: √p is an integer\nStatement-II: √q is an integer\nWhich one of the following is correct in respect of the above Question and the Statements?",
+    "options": [
+      "The Question can be answered by using one of the Statements alone, but cannot be answered using the other Statement alone.",
+      "The Question can be answered by using either Statement alone.",
+      "The Question can be answered by using both the Statements together, but cannot be answered using either Statement alone.",
+      "The Question cannot be answered even by using both the Statements together."
+    ],
+    "correctOption": "a",
+    "explanation": "1 alone is sufficient to answer the question but not 2 alone. Statement 1: √p is an integer, hence (integer) integer is an integer, hence sufficient. Statement 2: √q is an integer, If p = q = 1, then answer is yes, but if p = 2 and q =1 , then it is not an integer. Hence not sufficient",
+    "subject": "CSAT",
+    "topic": "Quantitative Aptitude",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 30,
+    "questionText": "A person lives in a far off village which is almost two hours by bus. The villager's neighbour is a very powerful landlord who is trying to occupy the poor villager's land by force.\nYou are the District Magistrate and busy in a meeting called by a local minister. The villager has come all the way, by bus and on foot, to see you and give an application seeking protection from the powerful landlord.\nThe villager keeps on waiting outside the meeting hall for an hour. You come out of the meeting and are rushing to another meeting. The villager follows you to submit his application. What would you do?",
+    "options": [
+      "Tell him to wait for another two hours till you come back from your next meeting.",
+      "Tell him that the matter is actually to be dealt by a junior officer and that he should give the application to him.",
+      "Call one of your senior subordinate officers and ask him to solve the villager's problem.",
+      "Quickly take the application from him, ask him a few relevant questions regarding his problem and then proceed to the meeting."
+    ],
+    "correctOption": "d",
+    "explanation": "Here, we have two objectives to achieve at the same time. Firstly, we have to help the villager who has come from far off. Secondly, we have to reach the second meeting on time. Option (d) allows us to achieve both. Option (c) also achieves the same objectives though it means that the villager will have to wait for a little more time. Options (a) and (b) are wrong as, they will increase the troubles of the villager who might not be able to wait longer.",
+    "subject": "CSAT",
+    "topic": "Logical Reasoning",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 31,
+    "questionText": "With reference to the above passage, the following assumptions have been made:\n1. Complex socio-economic systems cannot be transformed through isolated or short-duration interventions.\n2. Leadership influence and governance design shape system-wide outcomes beyond individual policy measures.\n3. Changes in institutional behavior precede and enable measurable improvements in system performance.\n4. Quantifiable outputs alone are insufficient indicators of deep structural transformation.\n5. Broad participation in decision-making ensures successful agrifood system outcomes.\nWhich of the above assumptions is/are valid?",
+    "options": [
+      "1, 2 and 5 only",
+      "2, 3 and 4 only",
+      "1, 2, 3 and 4 only",
+      "1, 3, 4 and 5 only"
+    ],
+    "correctOption": "c",
+    "explanation": "Statement (1) is valid as the passage emphasizes long-term programmatic and investment cycles and the interconnectedness of agrifood systems, assuming that short-term or isolated actions are inadequate. Statement (2) is valid as the passage highlights the catalytic role of systems leaders and inclusive governance, implying leadership and governance structures influence outcomes at a systemic level. Statement (3) is valid because the passage treats intangible outputs such as changes in thinking, relationships, and agency as essential precursors to durable transformation, assuming behavioral and institutional change enables material outcomes. Statement (4) is valid as the passage explicitly argues that both tangible and intangible outputs are necessary, assuming measurable outputs alone do not capture transformational depth. Statement (5) is not valid as the passage supports inclusive governance but does not assume that participation by itself guarantees success; it is presented as an enabling condition, not a sufficient one.",
+    "subject": "CSAT",
+    "topic": "Reading Comprehension",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 32,
+    "questionText": "Based on the passage, the following statements have been proposed as policy implications for ensuring greater automation adoption in Indian agriculture:\n1. Automation policies should prioritize farm-level pilot projects that demonstrate consistent performance across multiple crop cycles.\n2. Government support should encourage rapid nationwide rollout of autonomous equipment to reduce hesitation among farmers.\n3. Automation technologies should be validated under real-world farming conditions before being promoted at scale.\n4. Risk-mitigation mechanisms, such as crop insurance incentives, should be provided to farmers experimenting with new automation technologies.\n5. Public policy should prove that labor-saving automation will always automatically improve farmers’ return on investment.\n6. Buyback, replacement, or performance-linked guarantee frameworks should be introduced to protect farmers from faulty autonomous equipment.\nWhich of the above statements are most valid practical implications?",
+    "options": [
+      "1, 2, 4 and 5 only",
+      "1, 3, 4 and 6 only",
+      "2, 3 and 5 only",
+      "1, 3, 5 and 6 only"
+    ],
+    "correctOption": "b",
+    "explanation": "Statement 1 is valid. The passage emphasizes farmer caution, limited crop cycles, and the need for proven effectiveness at the farm level, making pilot-based validation essential. Statement 2 is invalid. The passage explicitly warns against premature scaling, as earlier technologies overpromised and underdelivered. Statement 3 is valid. Real-world conditions are shown to differ from lab environments; hence validation before promotion is a logical implication. Statement 4 is valid. Risk versus reward is central to farmers’ hesitation, making insurance-based risk mitigation a practical policy response. Statement 5 is invalid. The passage clearly states that automation does not automatically improve ROI and can even increase effort. Statement 6 is valid. Since faulty or underperforming equipment affected ROI and trust, protection mechanisms like buybacks or guarantees are a rational policy implication.",
+    "subject": "CSAT",
+    "topic": "Reading Comprehension",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 33,
+    "questionText": "Based on the above passage, the following assumptions have been made:\n1. India’s maritime leadership in the Indian Ocean cannot be sustained through dominance or coercion alone.\n2. External powers operating in the Indian Ocean generally support India’s rise as a maritime power.\nWhich of the assumptions given above is/are valid?",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correctOption": "a",
+    "explanation": "Statement (1) is valid as the passage repeatedly emphasizes stewardship rather than hegemony, contested leadership, and partnerships grounded in mutual benefit, implying that dominance alone cannot sustain India’s maritime role. Statement (2) is not valid as the passage explicitly notes China’s assertive presence, conditional Western support, and divergent trajectories of the Global South, indicating the absence of uniform external support.",
+    "subject": "CSAT",
+    "topic": "Reading Comprehension",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 34,
+    "questionText": "Which one of the following statements best reflects the central idea conveyed by the passage?",
+    "options": [
+      "India’s maritime future depends on synchronizing naval capability, economic outreach, and regional diplomacy.",
+      "Strategic competition in the Indian Ocean limits the scope for any country’s maritime ambitions.",
+      "India’s maritime strategy seeks to balance ambition with realism through cooperative regional stewardship.",
+      "External geopolitical pressures are compelling India to recalibrate its traditional continental orientation."
+    ],
+    "correctOption": "c",
+    "explanation": "Option (c) is correct as it integrates all core elements of the passage: the necessity of maritime power, the contested environment, and the proposed path of stewardship, partnerships, and realism rather than dominance. Option (a) is incorrect because it captures important components (naval, economic, diplomatic) but misses the passage’s normative recommendation - ‘by pursuing stewardship rather than hegemony, by aligning economic power with naval reach, and by crafting partnerships grounded in mutual benefit rather than dominance.’ Option (b) is incorrect as the passage does not argue that competition constrains ambition altogether; instead, it suggests ambition must be pursued differently. Option (d) is incorrect because while geopolitical pressures are acknowledged, the passage frames India’s maritime turn as strategic and necessary, not merely reactive.",
+    "subject": "CSAT",
+    "topic": "Reading Comprehension",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 35,
+    "questionText": "Ram would take 15 days working 4 hours per day to complete a certain task whereas Shyam would take 8 days working 5 hours per day to complete the same task. They decide to work together to complete this task. Shyam agrees to work for double the number of hours per day as Ram, while Ram agrees to work for double the number of days as Shyam. If Ram works 2 hours per day, then the number of days Shyam will work is:",
+    "options": [
+      "4.5 days",
+      "5 days",
+      "6 days",
+      "8 days"
+    ],
+    "correctOption": "c",
+    "explanation": "First convert each person’s work information into hours of work per task. Ram: • 15 days × 4 hours/day = 60 hours to complete task → Rate = 1/60 task per hour. Shyam: • 8 days × 5 hours/day = 40 hours to complete task → Rate = 1/40 task per hour. Now apply the new working agreement: • Ram works 2 hours per day • Shyam works double Ram's hours per day → 4 hours/day • Ram works double Shyam's days. Let Shyam work for x days → Ram works 2x days. Work done. Ram’s total hours: 2 h/day×2x days = 4x hours, Work contribution: 4x/60 = x/15. Shyam’s total hours: 4 h/day×x days = 4x hours, Work contribution:, 4x/40 i.e. x/10. Total work = 1 task. x/15 + x/10 = 1, hence x = 6.",
+    "subject": "CSAT",
+    "topic": "Quantitative Aptitude",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 36,
+    "questionText": "In how many ways can 13 identical toys be placed into 4 distinct boxes such that no box is empty?",
+    "options": [
+      "220",
+      "165",
+      "286",
+      "455"
+    ],
+    "correctOption": "a",
+    "explanation": "This is a distribution of identical objects into distinct boxes with no box empty problem. Step 1: Identify parameters • Number of identical toys = 13 • Number of distinct boxes = 4 • Each box must have at least 1 toy. Step 2: Adjust for “no box empty”. Give 1 toy to each box first. Remaining toys 13 − 4 = 9. Now distribute 9 identical toys into 4 distinct boxes with no restriction. Step 3: Apply Stars and Bars formula. Number of ways: = (9+4−1C4–1 ) = (12C3). Correct Answer: (a) 220",
+    "subject": "CSAT",
+    "topic": "Quantitative Aptitude",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 37,
+    "questionText": "In a business P, Q and R had invested in the ratio of 3 : 5 : 8 but they all earned the same amount of profit at the end. If the profit is proportional to the amount as well as the duration of investment. What was the ratio of the duration of their investment?",
+    "options": [
+      "8 : 5 : 3",
+      "40 : 24 : 15",
+      "3 : 5 : 8",
+      "15 : 24 : 40"
+    ],
+    "correctOption": "b",
+    "explanation": "• Profit ∝ Investment × Time • Equal profit ⇒ Time ∝ 1/Investment. Given investment ratio: 3 : 5 : 8. So time ratio: 1/3 : 1/5 : 1/8. Multiply by LCM = 120. 40 : 24 : 15. (b) 40 : 24 : 15",
+    "subject": "CSAT",
+    "topic": "Quantitative Aptitude",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 38,
+    "questionText": "If in a certain code language, “GOD” is coded as 140 and “EVEN is coded as 1925, then how will “ANGEL” be coded in that language?",
+    "options": [
+      "1176",
+      "1232",
+      "1470",
+      "1362"
+    ],
+    "correctOption": "a",
+    "explanation": "GOD = sum of places = 420 divide by no. of alphabets in the letter. Hence 420/3 = 140, EVEN = 7700/4 = 1925, hence, ANGEL = 5880/5 = 1176",
+    "subject": "CSAT",
+    "topic": "Logical Reasoning",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 39,
+    "questionText": "Let N, x and y be positive integers such that N = x + y, 2 < x < 10 and 14 < y < 23. If N > 25, then how many distinct values are possible for N?",
+    "options": [
+      "7",
+      "6",
+      "8",
+      "3"
+    ],
+    "correctOption": "b",
+    "explanation": "Given • N = x + y • 2 < x < 10 ⇒ x = 3, 4, 5, 6, 7, 8, 9 • 14 < y < 23 ⇒ y = 15, 16,...,22 • N > 25. Minimum & maximum possible N • Minimum N = 3 + 15 = 18 • Maximum N = 9 + 12 = 31. We need value of N greater than 25, i.e: N = 26, 27, 28, 29, 30, 31. Each of these can be formed (e.g., 26 = 4 + 22, 31 = 9 + 22, etc). Count of distinct possible values 26, 27, 28, 29, 30, 31 ⇒ 6 values. Correct Answer (b) 6",
+    "subject": "CSAT",
+    "topic": "Quantitative Aptitude",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 40,
+    "questionText": "A question is followed by two statements I and II. Consider the Question and the Statements.\nQuestion: Six persons viz. A, B, C, D, E and F are sitting on a circular table for lunch, who among them sits immediate left of F (If all the persons are facing towards the centre)?\nStatements:\nI. A sits third of right of F. One person sits between A and C. E sits third to left of C.\nII. Only one person sits between E and D. F sits second to right of D. A sits third to left of F.\nWhich one of the following is correct in respect of the above Question and the Statements?",
+    "options": [
+      "The Question can be answered by using one of the Statements alone, but cannot be answered using the other Statement alone.",
+      "The Question can be answered by using either Statement alone.",
+      "The Question can be answered by using both the Statements together, but cannot be answered using either Statement alone.",
+      "The Question cannot be answered even by using both the Statements together."
+    ],
+    "correctOption": "c",
+    "explanation": "From Statement I, A, E, F, C or A, C, F, E. From Statement II, F, E, D, A. Now, from Statements I and II, F, E, D, A, B, C. Clearly, C sits to the immediate left of F. Hence, data in both the statements are required to answer the questions.",
+    "subject": "CSAT",
+    "topic": "Logical Reasoning",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 41,
+    "questionText": "Which of the following is the most logical inference that can be drawn from the above passage?",
+    "options": [
+      "Governments should prioritize reducing fiscal deficits even if growth-enhancing investments are delayed.",
+      "Borrowing can support economic growth only when public spending is efficiently allocated and executed.",
+      "Future economic shocks can be fully mitigated through aggressive public borrowing strategies.",
+      "Fiscal stress arises primarily due to inadequate revenue generation rather than expenditure choices."
+    ],
+    "correctOption": "b",
+    "explanation": "The passage emphasizes that borrowing is not inherently bad, but its success depends on quality, targeting, and efficient execution of expenditure, and that fiscal discipline is about how money is spent, not just reducing deficits. Option-wise check: (a) Incorrect – passage does not argue for deficit reduction at the cost of growth. (b) Correct – directly reflects the idea that borrowing aids growth only if spending is efficient and (b) well-executed. (c) Incorrect – mitigate shocks. passage warns that fiscal stress limits shock response; borrowing alone cannot fully. (d) Incorrect – passage focuses on spending quality, not primarily on revenue inadequacy. Most logical inference",
+    "subject": "CSAT",
+    "topic": "Reading Comprehension",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 42,
+    "questionText": "Based on the above passage, the following assumptions have been made:\n1. Traditional flood management approaches focused on major rivers are inadequate for emerging urban flood risks.\n2. Structural financial risk transfer mechanisms are a crucial part of building long-term resilience against urban flooding.\nWhich of the assumptions given above is/are valid?",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correctOption": "c",
+    "explanation": "Assumption 1 is valid. The passage contrasts traditional riverine flooding (Ganga–Brahmaputra) with the rising incidence of pluvial flooding in urban centres. It clearly implies that approaches focused mainly on major rivers are insufficient to address emerging urban flood risks driven by drainage failure and intense rainfall. Assumption 2 is valid. The passage states that the re/insurance sector can absorb financial losses and emphasizes the need for viable flood insurance solutions, supported by robust risk assessment and data. This implies that financial risk transfer mechanisms are an important component of long-term flood resilience, even though they must be complemented by broader stakeholder collaboration.",
+    "subject": "CSAT",
+    "topic": "Reading Comprehension",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 43,
+    "questionText": "Which one of the following statements best sums up the passage?",
+    "options": [
+      "Urban flooding in India is increasingly driven by climate variability and inadequate drainage systems.",
+      "Flood insurance markets must expand rapidly to cope with rising disaster-related financial losses.",
+      "India’s flood risk profile is evolving, requiring integrated urban resilience planning and advanced risk assessment.",
+      "Major river flooding remains the dominant challenge in India’s flood management strategy."
+    ],
+    "correctOption": "c",
+    "explanation": "Option (c) is correct as it captures the passage’s central argument: India’s flood risks are changing—especially in urban areas—necessitating coordinated mitigation, resilience-building, and sophisticated risk assessment across stakeholders. Option (a) is incorrect as it focuses narrowly on causes of urban flooding and misses the emphasis on insurance, resilience, and systemic planning. Option (b) is incorrect because the passage treats insurance as supportive, not sufficient or central. Option (d) is incorrect as the passage explicitly contrasts traditional riverine flooding with the rising significance of urban pluvial flooding.",
+    "subject": "CSAT",
+    "topic": "Reading Comprehension",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 44,
+    "questionText": "A question is followed by two statements I and II. Consider the Question and the Statements.\nQuestoin: Sonal's birthday is in which of the following month in a year?\nStatements:\nI. Sonal's mother correctly remembers that Sonal's birthday will come after January but not in the month which has 31days.\nII. Sonal's father correctly remember that Sonal's birthday will not come after March.\nWhich one of the following is correct in respect of the above Question and the Statements?",
+    "options": [
+      "The Question can be answered by using one of the Statements alone, but cannot be answered using the other Statement alone.",
+      "The Question can be answered by using either Statement alone.",
+      "The Question can be answered by using both the Statements together, but cannot be answered using either Statement alone.",
+      "The Question cannot be answered even by using both the Statements together."
+    ],
+    "correctOption": "c",
+    "explanation": "From Statement I. Months according to Sonal's mother = February, April, June, September, November. From Statement II, Months according to Sonal's father = January, February November. From Statements I and II, Sonal's birthday = February. Hence, the data in both the statements are necessary to answer the question.",
+    "subject": "CSAT",
+    "topic": "Logical Reasoning",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 45,
+    "questionText": "The score of 16 students in a mock test of 50 marks are as follows:\n38, 8 34, 14, 30, 4, 36, 22, 30, 34, 38, 8, 6, 4, 12, 18\n'What is the difference between their arithmetic mean and the median?",
+    "options": [
+      "2.0",
+      "1.6",
+      "1.0",
+      "None of above"
+    ],
+    "correctOption": "c",
+    "explanation": "Data (16 students): 38, 8, 34, 14, 30, 4, 36, 22, 30, 34, 38, 8, 6, 4, 12, 18. Arranged order: 4, 4, 6, 8, 8, 12, 14, 18, 22, 30, 30, 34, 34, 36, 38, 38. Median = (18 + 22) / 2 = 20. Sum = 336 ⇒ Mean = 336 / 16 = 21. Difference = 21 – 20 = 1.0. Answer 1.0",
+    "subject": "CSAT",
+    "topic": "Quantitative Aptitude",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 46,
+    "questionText": "A cube has six alphabets marked P, Q, R, S, T and U on its faces.\nThree views of the cube are shown below:\nWhat possible numbers can exist on the two faces marked A and B, respectively?",
+    "options": [
+      "Q and R",
+      "U and P",
+      "P and S",
+      "R and P"
+    ],
+    "correctOption": "a",
+    "explanation": "From positions I and II, common letter = P. From position I, (Clockwise) P S U. From position II, (Clockwise) P R Q. Looking at the first two figures we see that Q is opposite to U and R is opposite to S. The third figure tells us that T is opposite to P. Thus, the numbers A and B, which are adjacent to T could be any of the following four, U and S, S and Q, Q and R, and R and U. Out of these only Q and R are given in a option, so (a) is the right answer.",
+    "subject": "CSAT",
+    "topic": "Logical Reasoning",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 47,
+    "questionText": "A merchant can purchase some goods at a rate of ₹25 per item.\nThe selling price of the goods follows the following pattern:\nGoods Selling Price\n1st Good Rs. 3\n2nd Good Rs. 6\n3rd Good Rs. 9\nand so on.\nIf the merchant wants to make an overall profit of at least 32%, what is the minimum number of goods he should sell?",
+    "options": [
+      "18",
+      "20",
+      "24",
+      "28"
+    ],
+    "correctOption": "c",
+    "explanation": "Step 1: Cost Price (CP). Cost per good = ₹25. If he sells n goods: Total CP = 25n. Step 2: Selling Price (SP). Selling prices form an AP: 3,6,9,…,3n. Sum of SP for n goods: Total SP = 3(1+2+3+⋯+n) =3×n(n+1)/2. (3/2)n(n+1) - 25n ≥ 0.32. Solving, n ≥ 21. Hence nearest option is 24.",
+    "subject": "CSAT",
+    "topic": "Quantitative Aptitude",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 48,
+    "questionText": "6 different sweet varieties of counts 36, 180, 144, 108, 216, 72 were ordered for a particular occasion.\nThey need to be packed in such a way that:\n• Each box contains only one variety of sweet\n• The number of sweets in each box is the same\nWhat is the minimum number of boxes required?",
+    "options": [
+      "21",
+      "25",
+      "36",
+      "None of the above"
+    ],
+    "correctOption": "a",
+    "explanation": "To minimise the number of boxes, we must maximise the number of sweets per box. That means finding the HCF (GCD) of all given quantities. Step 1: Find HCF. HCF of (36,180,144,108,216,72) = 36. So, each box will contain 36 sweets. Step 2: Find total number of sweets. 36+180+144+108+216+72 = 756. Step 3: Number of boxes. 756/36 = 21. But each variety must be packed separately. So calculate boxes per variety: • 36 ÷ 36 = 1 • 180 ÷ 36 = 5 • 144 ÷ 36 = 4 • 108 ÷ 36 = 3 • 216 ÷ 36 = 6 • 72 ÷ 36 = 2. Total boxes = 1 + 5 + 4 + 3 + 6 + 2 = 21",
+    "subject": "CSAT",
+    "topic": "Quantitative Aptitude",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 49,
+    "questionText": "Let x, y, z be distinct natural numbers less than 40 such that x < y < z. What is the maximum possible value of the expression: |x−y|+|y−z|+ |z−x|",
+    "options": [
+      "72",
+      "76",
+      "77",
+      "None of these"
+    ],
+    "correctOption": "b",
+    "explanation": "x,y,z can be anything from 1 to 39. Hence ∣x−y∣+∣y−z∣+ ∣z−x∣ can be maximum if we take x = 1, y = 2 and z = 39. Then, |1–2| + |2–39| + |39–1| = 1+37+38 = 76",
+    "subject": "CSAT",
+    "topic": "Quantitative Aptitude",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 50,
+    "questionText": "A bus starts at 10 am and follows a fixed route every day.\nOn Day-1: The bus travelled at a constant speed of 40 km per hour and reached its destination 2 hours 30 minutes later than its scheduled arrival time.\nOn Day-2: The bus travelled:\n• Two-thirds of its route in half of its total scheduled travel time, and\n• The remaining part of the route at 40 km per hour to reach just on time.\nWhat is the scheduled arrival time of the bus?",
+    "options": [
+      "2:30 PM",
+      "3:00 PM",
+      "3:30 PM",
+      "2:50 PM"
+    ],
+    "correctOption": "b",
+    "explanation": "Let the usual time taken = t hours. Given, distance, d = 40 × (t + 2.5). Next day, 2d/3 of the distance covered in t/2 of the time. Remaining distance, d/3 = 40 × t/2 ⇒ d = 60t ⇒ 60t = 40t + 100 ⇒ t = 5 hours. The usual scheduled arrival time = 10 AM + 5 hrs = 3:00 PM",
+    "subject": "CSAT",
+    "topic": "Quantitative Aptitude",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 51,
+    "questionText": "According to the passage, which of the following represent potential challenges in fully utilising India’s hydrocarbon potential?\n1. Persistence of underexplored acreage despite regulatory simplification.\n2. Fragmented subsurface data limiting integrated geological interpretation.\n3. Overdependence on foreign capital restricting domestic exploration initiatives.\n4. Misalignment between advanced digital tools and local geological contexts.\n5. Insufficient cross-sector collaboration in exploration and energy transition efforts.\nWhich of the above statements are correct?",
+    "options": [
+      "1, 2 and 5 only",
+      "1, 2, 4 and 5 only",
+      "2, 3 and 4 only",
+      "1, 3, 4 and 5 only"
+    ],
+    "correctOption": "b",
+    "explanation": "Statement (1) is valid as the passage notes that India’s hydrocarbon potential remains “largely untapped” despite reforms. Statement (2) is valid as the passage stresses the need to move toward “integrated, data-rich subsurface intelligence.” Statement (3) is not valid as the passage does not suggest that foreign capital dependence constrains exploration. Statement (4) is valid as the passage cautions that technology must be “contextually relevant” to India’s geological diversity. Statement (5) is valid as the passage explicitly calls for deeper collaboration across multiple stakeholders.",
+    "subject": "CSAT",
+    "topic": "Reading Comprehension",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 52,
+    "questionText": "With reference to the above passage, the following assumptions have been made:\n1. Regulatory reforms cannot truly unlock hydrocarbon potential without parallel technological and institutional shifts.\n2. Advanced digital tools can meaningfully expand India’s energy options beyond hydrocarbons.\n3. Uniform technological solutions can be effectively applied across India’s diverse geological regions.\nWhich of the assumptions given above is/are valid?",
+    "options": [
+      "1 only",
+      "2 only",
+      "1 and 2 only",
+      "1, 2 and 3"
+    ],
+    "correctOption": "c",
+    "explanation": "Statement (1) is valid as the passage argues that despite reforms, urgent interventions, mindset change, and collaboration are required. Statement (2) is valid as AI and cloud tools are said to identify not only hydrocarbons but also carbon capture, geothermal energy, and low-impact alternatives. Statement (3) is not valid as the passage explicitly rejects uniform solutions, emphasizing contextually relevant approaches.",
+    "subject": "CSAT",
+    "topic": "Reading Comprehension",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 53,
+    "questionText": "Which one of the following statements best reflects the central idea conveyed by the passage?",
+    "options": [
+      "India’s upstream energy strategy is evolving through regulatory reform and selective adoption of digital exploration tools.",
+      "Advances in subsurface data analytics are redefining how India approaches resource discovery and energy planning.",
+      "India’s upstream energy transformation requires regulatory reform, advanced technology, and collaborative, context-specific innovation.",
+      "India is repositioning its hydrocarbon exploration framework to align with broader energy transition objectives."
+    ],
+    "correctOption": "c",
+    "explanation": "Option (c) is correct because it alone integrates all critical dimensions of the passage: policy reform, technology, mindset shift, sustainability, and ecosystem-wide collaboration tailored to India’s geology. Option (a) is incorrect as it is narrower and underplays the passage’s emphasis on sustainability, mindset change, and cross-sector collaboration. Option (b) is incorrect because it over-centers technology and data analytics, whereas the passage explicitly states that technology alone is insufficient. Option (d) is incorrect as it suggests a reframing limited to hydrocarbons and transition alignment, missing the emphasis on collaboration and context-specific solution design.",
+    "subject": "CSAT",
+    "topic": "Reading Comprehension",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 54,
+    "questionText": "Consider the following statements-\n1. × and – signs should be inter-changed to make the equation- 36 ÷ 2 × 12 + 3 – 6 = 24 correct.\n2. If 26(52)8 and 48(192)16 follows same pattern, then the value of A in A(175)14 is 25.\nWhich of the above statement(s) is/are correct?",
+    "options": [
+      "I only",
+      "II only",
+      "Both I and II",
+      "Neither I nor II"
+    ],
+    "correctOption": "a",
+    "explanation": "I ⇒ 36 ÷ 2 × 12 + 3 – 6 = 24. 36 ÷ 2 – 12 + 3 × 6 = 24. 18 – 12 + 18 = 24. 36 – 12 = 24. 24 = 24. I is correct. Statements 2 ⇒ 26(52)8 → (26×8)/4 = 52. 48(192)16 → (48×16)/4 = 192. A(175)14 → (A×14)/4 = 175. A = (145×4)/14 = (175×2)/7 = 25×2 = 50",
+    "subject": "CSAT",
+    "topic": "Quantitative Aptitude",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 55,
+    "questionText": "An analyst wants to determine the exact number of students who passed Mathematics in a competitive examination conducted by a state commission.\nThe examination had three subjects: Mathematics (M), Reasoning (R), and English (E). Every student appeared in at least one subject.\nConsider the following statements:\nStatements:\nI. The number of students who passed Mathematics and Reasoning together is 40 more than the number who passed Mathematics and English together.\nII. The number of students who passed Mathematics is 120 more than the number who passed both Reasoning and English together.\nIII. The number of students who passed all three subjects together is 50.\nWhich of the following is correct?",
+    "options": [
+      "Statement I alone is sufficient to answer the question.",
+      "Statements I and II together are sufficient, but neither alone is sufficient to answer the question.",
+      "Statements I, II, and III together are sufficient, but no two of them are sufficient to answer the question.",
+      "Question cannot be answered even by combining statements I , II and III together."
+    ],
+    "correctOption": "d",
+    "explanation": "Let • a: only M, b: only R, c: only E, d: M∩R only, e: M∩E only, f: R∩E only, g: M∩R∩E. Number who passed Mathematics = a+d+e+g. Now Statement 1: Number of students who passed Mathematics and Reasoning together is 40 more than the number who passed Mathematics and English together. (e+g) = 40 + (d+g) ⇒ e = 40 + d. Statement 2: The number of students who passed Mathematics is 120 more than the number who passed both Reasoning and English together. (a+e+d+g) = 120 + (f+g) ⇒ a+e+d = 120 +f. Statement 3: The number of students who passed all three subjects together is 50. g = 50. To find: value of (a+e+d+g). As g =50, a+e+d = 120+f and value of f cannot be determined. So I alone is not sufficient, I and II together are not sufficient, I, II and III together are also not sufficient to answer the question.",
+    "subject": "CSAT",
+    "topic": "Quantitative Aptitude",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 56,
+    "questionText": "Consider the following statements and conclusions:\nStatements:-\n1. All policymakers are bureaucrats.\n2. No bureaucrat is a businessperson.\n3. Some businesspersons are academicians.\n4. All academicians are researchers.\n5. Some researchers are policymakers.\nConclusions:\nI. Some researchers are not business-persons.\nII. No policymaker is a businessperson.\nIII. Some academicians are not policymakers.\nIV. Some researchers are bureaucrats.\nWhich of the above conclusions definitely follow from the given statements?",
+    "options": [
+      "Only I, II and IV",
+      "Only II and III",
+      "Only I, II and III",
+      "I, II, III and IV"
+    ],
+    "correctOption": "d",
+    "explanation": "1. Some researchers are not businesspersons. Some researchers policymakers bureaucrats not businesspersons. True. II. No policymaker is a businessperson. Policymakers Bureaucrats and no Bureaucrat is a Businessperson. True. III. Some academicians are not policymakers. Some academicians are businesspersons, and businesspersons policymakers. True. IV. Some researchers are bureaucrats. Some researchers policymakers - bureaucrats. True. Answer (d) I, II, III and IV",
+    "subject": "CSAT",
+    "topic": "Logical Reasoning",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 57,
+    "questionText": "Find the number of triangles in the figure given below.",
+    "options": [
+      "18",
+      "20",
+      "24",
+      "27"
+    ],
+    "correctOption": "c",
+    "explanation": "Given figure can be labelled as follows, Single triangles = ΔBCJ , ΔCDK, ΔKLQ, ΔLMQ, ΔFGM, ΔGHN, ΔNOI, ΔIJO, ΔAOB, ΔDEQ, ΔFEQ, ΔAOH< ΔGIP, ΔCIP, ΔCLP, ΔGLP = 16. Triangles formed with two triangles ΔKLM, ΔNIJ = 2. Triangles formed with four or more triangles = ΔKLM , ΔNIJ = 2. Triangles formed with four or more triangles = ΔABH, ΔDEF, ΔICG, ∴ Total number of triangles = 16 + 2 + 6 = 24",
+    "subject": "CSAT",
+    "topic": "Logical Reasoning",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 58,
+    "questionText": "In a class, students are assigned roll numbers from 1 to 140. All students with even roll numbers opted for basketball, all those whose roll numbers are divisible by 5 opted for tennis, and all those whose roll numbers are divisible by 3 opted for kabaddi. 'The number of students who did not opt for any of the three sports is",
+    "options": [
+      "102",
+      "38",
+      "98",
+      "42"
+    ],
+    "correctOption": "b",
+    "explanation": "C ∪ F ∪ B = C + F + B - (C ∩ F) - (F ∩ B) - (C ∩ B) + (C ∩ F ∩ B) = 70 + 28 + 46 - 14 - 9 - 23 + 4 = 102. 'The number of students who did not opt for any of the three sports' = 140 - (C ∪ F ∪ B) = 140 – 102 = 38",
+    "subject": "CSAT",
+    "topic": "Quantitative Aptitude",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 59,
+    "questionText": "How many of the integers 1, 2, 3, …, 118, 119, 120 are not divisible by any of 2, 3, 5 or 7?",
+    "options": [
+      "29",
+      "30",
+      "31",
+      "None of these"
+    ],
+    "correctOption": "d",
+    "explanation": "Total prime Numbers before 120, 2, 3, 5, 7, 11, 13, 17, 19, 23, 27, 31,37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113. Total = 30 Prime Num + 1 = 31 are the number which are not divisible by 2, 3, 5 or 7.",
+    "subject": "CSAT",
+    "topic": "Quantitative Aptitude",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 60,
+    "questionText": "If a three-digit number ‘abc’ has 2 factors (where a, b, c are digits), how many factors does the 6-digit number ‘abcabc’ have?",
+    "options": [
+      "16",
+      "24",
+      "18",
+      "30"
+    ],
+    "correctOption": "a",
+    "explanation": "To start with, ‘abcabc’ = ‘abc’ * 1001 or abc * 7 * 11 * 13 (This is a critical idea to remember). ‘abc’ has only two factors. Or, ‘abc’ has to be prime. Only a prime number can have exactly two factors. (This is in fact the definition of a prime number). So, ‘abcabc’ is a number like 101101 or 103103. ’abcabc’ can be broken as ‘abc’ * 7 * 11 * 13. Or, a p * 7 * 11 * 13 where p is a prime. As we have already seen, any number of the form p^a q^b r^c will have (a + 1) (b + 1) (c + 1) factors, where p, q, r are prime. So, p * 7 * 11 * 13 will have = (1 + 1) * (1 + 1) * (1 + 1) * (1 + 1) = 16 factors",
+    "subject": "CSAT",
+    "topic": "Quantitative Aptitude",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 61,
+    "questionText": "Which one of the following best captures the keynote emerging from the passage?",
+    "options": [
+      "Effective transformation balances data-driven decisions with sustained human-centered engagement.",
+      "Organizational change succeeds when employees understand tools and processes clearly.",
+      "Communication clarity is essential for aligning workforce behavior with transformation goals.",
+      "Inclusive change depends on integrating technology adoption with employee skill development."
+    ],
+    "correctOption": "a",
+    "explanation": "Option (a) is correct as it encapsulates the passage’s central emphasis: while data and tools matter, meaningful transformation is ultimately driven by human interaction, empathy, and shared understanding. Option (b) is incorrect because it focuses narrowly on understanding tools, missing the deeper emphasis on human connection and dialogue. Option (c) is incorrect as it overemphasizes communication clarity without capturing coaching, empathy, and inclusivity. It mentions ‘aligning workforce behaviour’ which is not the goal of the passage. Option (d) is incorrect because it reframes the passage as primarily about skill development rather than human-centered change processes.",
+    "subject": "CSAT",
+    "topic": "Reading Comprehension",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 62,
+    "questionText": "Which of the following are the most valid, logical, and practical implications from the passage?\n1. India must allow multiple licensed public-sector or joint-venture or private sector operators to execute reactor projects in parallel.\n2. Nuclear expansion targets should be aligned with demonstrated institutional execution capacity rather than headline capacity.\n3. Dedicated financing mechanisms for nuclear power should be created to reduce NPCIL’s dependence on annual budgetary competition.\n4. Project management and construction functions for nuclear projects should be made accountable and structurally decentralised.\n5. Foreign reactor partnerships should focus on technology transfer rather than emphasising turnkey delivery and execution risk-sharing.\nWhich of the above statements are correct?",
+    "options": [
+      "2, 3 and 4 only",
+      "1, 2 and 3 only",
+      "3, 4 and 5 only",
+      "1, 2, 3 and 4 only"
+    ],
+    "correctOption": "d",
+    "explanation": "Statement 1–Correct: The passage identifies the single-operator model as the core constraint, logically implying the need for multiple parallel operators. Statement 2–Correct: The gap between 100 GW targets and NPCIL’s limited, delayed execution shows targets must align with institutional capacity. Statement 3–Correct: NPCIL’s dependence on competing budgetary allocations implies the need for dedicated, ring-fenced financing mechanisms. Statement 4–Correct: Chronic delays and scale overload indicate the need for decentralised and accountable project execution structures. Statement 5–Incorrect: The passage highlights execution and capacity constraints, not technology gaps, making this implication unsupported.",
+    "subject": "CSAT",
+    "topic": "Reading Comprehension",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 63,
+    "questionText": "Based only on the data provided in the passage, which of the following statements can be validly inferred?\n1. Most public sector organizations currently lack the infrastructure prerequisites required for enterprise-wide AI deployment.\n2. The absence of unified data architecture is statistically more prevalent than the absence of cloud-based infrastructure in public sector organizations.\n3. Most governments that have adopted cloud infrastructure are able to track AI performance and measure return on AI investment.\n4. In more than half of public sector organizations, AI initiatives cannot be reliably evaluated for scale or value creation.\n5. Even among governments experimenting with AI, institutional mechanisms to justify scaling decisions are frequently missing.\nWhich of the above statements are correct?",
+    "options": [
+      "1 and 2 only",
+      "1 and 4 only",
+      "2 and 3 only",
+      "4 and 5 only"
+    ],
+    "correctOption": "d",
+    "explanation": "• Statement 1 – Incorrect: While 26% are cloud-based and more than half lack unified data warehouses, the passage does not define a single composite threshold for “infrastructure prerequisites.” This is a conflation inference. • Statement 2 – Incorrect: Absence of cloud infrastructure (around 74%) is more prevalent than absence of unified data architecture (just over 50%), contradicting the statement. • Statement 3 – Incorrect: The passage provides no linkage between cloud adoption and the ability to track AI performance or ROI. • Statement 4 – Correct: With half unable to track deployment and 52% unable to measure ROI, AI initiatives in over half of organizations cannot be reliably evaluated. • Statement 5 – Correct: The confinement of AI to isolated pilots due to weak metrics implies missing institutional mechanisms for scaling decisions.",
+    "subject": "CSAT",
+    "topic": "Reading Comprehension",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 64,
+    "questionText": "What is the ratio of the average production of Company X during the period 2008-2010 to the average production of Company Y during the same period?",
+    "options": [
+      "1:1",
+      "23: 25",
+      "15:17",
+      "27: 29"
+    ],
+    "correctOption": "b",
+    "explanation": "ratio = (25+50+40) / (35+40+50) = 23/25",
+    "subject": "CSAT",
+    "topic": "Quantitative Aptitude",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 65,
+    "questionText": "How many three-digit numbers are there that have the middle digit as sum of the first digit and the third digit?",
+    "options": [
+      "40",
+      "45",
+      "50",
+      "55"
+    ],
+    "correctOption": "b",
+    "explanation": "Three-digit number where middle digit = sum of first & third. Condition : b = a + c. Possible values: • a = 1 to 9 • c = 0 to 9 • b ≤ 9. Count all valid (a, c) pairs such that a + c ≤ 9. Total such number = 45. (b) 45",
+    "subject": "CSAT",
+    "topic": "Quantitative Aptitude",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 66,
+    "questionText": "A page is torn from a novel. The sum of the remaining page numbers is 18,276.\nWhat is the sum of the two page numbers on the torn page?",
+    "options": [
+      "271",
+      "193",
+      "125",
+      "None of these"
+    ],
+    "correctOption": "d",
+    "explanation": "Step 1: Key Observation. If a book has pages numbered from 1 to n, then: Sum of all pages = n(n+1)/2. If one page is torn, its two sides are consecutive numbers, say x and (x+1). So: n(n+1)/2−[x+(x+1)] = 18276 ⇒ n(n+1)/2−(2x+1) = 18276. Step 2: Nearest Triangular Number. Check triangular numbers around 18,276. 191×192/2 = 18336. Difference: 18336−18276 = 60. So, 2x + 1 = 60 ⇒ 2x = 59 ⇒ x = 29.5(not possible). Try next: 192×193/2 = 18528. 18528−18276 = 252. 2x + 1 = 252 ⇒ x = 125.5(not integer). Try earlier: 190 × 191/2 = 18145. 18276 − 18145 = 131. 2x + 1 = 131 ⇒ x = 65. Step 3: Torn Pages. Pages torn are: 65 and 66. Sum: 65 + 66 = 131. Correct Answer- (d)",
+    "subject": "CSAT",
+    "topic": "Quantitative Aptitude",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 67,
+    "questionText": "Consider the following statements:\n1. All administrators are graduates.\n2. Some graduates are economists.\n3. No economist is a politician.\n4. Some politicians are administrators.\nWhich of the conclusions given below definitely follow?\nI. Some administrators are not politicians.\nII. Some graduates are not politicians.\nIII. No administrator is a politician.\nIV. Some economists are graduates who are not politicians.\nSelect the correct answer using the codes given below:",
+    "options": [
+      "I and II only",
+      "II and III only",
+      "II, III and IV only",
+      "II and IV only"
+    ],
+    "correctOption": "d",
+    "explanation": "Some Graduates are not politicians and some economists are graduates who are not politicians.",
+    "subject": "CSAT",
+    "topic": "Logical Reasoning",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 68,
+    "questionText": "Old Rajendra School had 500 students in 2020. By 2025, due to online learning, number of students decreased to 350.\nStatements:\n1. The average annual decrease in the number of students over 5 years is 30 students per year.\n2. The percentage decrease in total students from 2020 to 2025 is 30%.\nWhich of the above statement(s) is/are correct?",
+    "options": [
+      "I only",
+      "II only",
+      "Both I and II",
+      "Neither I nor II"
+    ],
+    "correctOption": "c",
+    "explanation": "• First calculate the difference in total students, then divide by years for average decrease. • Percentage decrease = (decrease ÷ original) × 100.",
+    "subject": "CSAT",
+    "topic": "Quantitative Aptitude",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 69,
+    "questionText": "Let x be a real number such that 0 < x < 1.\nSetements:\nI. x² < x\nII. 1/x > x\nWhich of the statements given above is/are correct?",
+    "options": [
+      "I only",
+      "II only",
+      "Both I and II",
+      "Neither I nor II"
+    ],
+    "correctOption": "c",
+    "explanation": "Statement I: x^2 < x. Since 0 < x < 1, • Squaring a number between 0 and 1 makes it smaller • (example: (0.5^2 = 0.25 < 0.5). So, x^2 < x (Always true). Statement I is correct. Statement II : 1/x > x. For 0 < x < 1, • Reciprocal of x is greater than 1 • While x < 1. So, 1/x > x (Always true). Statement II correct. Final Answer : (c) Both I and II",
+    "subject": "CSAT",
+    "topic": "Quantitative Aptitude",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 70,
+    "questionText": "Consider the statement and the following assumptions and decide which of the assumption(s) is/are implicit in the statement.\nStatement : The largest domestic airlines corporation has announced new summer schedules in which more number of flights in trunk routes are introduced.\nAssumptions\nI. More number of passengers may travel by this airlines corporation during summer months in trunk routes.\nII. Other airlines companies may also increase the number of flights in all the sectors.\nSelect the correct answer using the codes given below:",
+    "options": [
+      "If only Assumption I is implicit",
+      "If only Assumption II is implicit",
+      "If either Assumption I or II is implicit",
+      "If neither Assumption I nor II is implicit"
+    ],
+    "correctOption": "a",
+    "explanation": "The increase would make no sense without passengers. Hence, Assumption I is implicit. Assumption II may be a probable reason but not a necessary one for the increase. Hence, II is invalid.",
+    "subject": "CSAT",
+    "topic": "Logical Reasoning",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 71,
+    "questionText": "Which of the following best captures the crux of the passage?",
+    "options": [
+      "Climate change should be managed through environmental policy frameworks",
+      "Separating ecology from politics obscures climate’s planetary nature",
+      "Political geoecology replaces sustainability as a governance model",
+      "Modern societies depend primarily on ecological resource extraction"
+    ],
+    "correctOption": "b",
+    "explanation": "(a) Incorrect: The passage criticizes treating climate change as a conventional environmental policy issue rather than endorsing it. (b) Correct: It captures the core argument that separating ecology from politics leads to misunderstanding climate change’s planetary nature. (c) Incorrect: The passage presents political geoecology as an analytical lens, not as a replacement governance model for sustainability. (d) Incorrect: While modern societies are linked to ecological systems, the passage’s focus is on political–ecological integration, not primary dependence on resource extraction.",
+    "subject": "CSAT",
+    "topic": "Reading Comprehension",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 72,
+    "questionText": "The passage suggests that prevailing land-use practices are resulting in __________.",
+    "options": [
+      "widespread ecological degradation that is simultaneously weakening the long-term resilience of agricultural systems",
+      "expansion-driven food production that offsets ecological stress through adaptive land and water management",
+      "intensifying pressure on soil and water resources that remains compatible with sustaining agricultural productivity",
+      "a reallocation of environmental stress between agricultural land and natural ecosystems without systemic decline"
+    ],
+    "correctOption": "a",
+    "explanation": "(a) Correct: The passage describes large-scale land degradation creating a vicious cycle that erodes soil, water availability, and the long-term resilience of agri-food systems. (b) Incorrect: While agricultural expansion is mentioned, the passage explicitly argues that it exacerbates ecological stress rather than offsetting it through adaptive management. (c) Incorrect: The passage states that pressure on soil and water resources is already undermining agriculture’s capacity, contradicting the claim of sustained productivity. (d) Incorrect: Environmental stress is not merely redistributed; the passage emphasizes systemic degradation affecting both farmlands and natural ecosystems.",
+    "subject": "CSAT",
+    "topic": "Reading Comprehension",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 73,
+    "questionText": "With reference to the passage above, the following assumptions have been made:\n1. Unsustainable agricultural practices are a primary driver of both land degradation and food system vulnerability.\n2. Increasing cultivated area can reduce the net productivity loss caused by soil and water degradation.\nWhich of the above assumptions is/are valid?",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correctOption": "a",
+    "explanation": "• Assumption 1 is valid: The passage explicitly links poor land-use management and agricultural expansion to widespread land degradation and to the weakening of agri-food system resilience, implying that unsustainable agricultural practices are a primary driver of both problems. • Assumption 2 is not valid: The passage states that agricultural expansion drives deforestation and further accelerates land degradation, thereby worsening productivity and resilience rather than compensating for losses caused by soil and water degradation.",
+    "subject": "CSAT",
+    "topic": "Reading Comprehension",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 74,
+    "questionText": "On which of the following days is English taught?",
+    "options": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Cannot be determined"
+    ],
+    "correctOption": "c",
+    "explanation": "Person Subject Day table: T Geography Tuesday, Q Chemistry Tuesday, R Maths Monday, V Physics Thursday, S Biology Friday, U History Wednesday, P English Wednesday",
+    "subject": "CSAT",
+    "topic": "Logical Reasoning",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 75,
+    "questionText": "Under a Yogi Government digital governance initiative, Officer X and Officer Y are appointed to verify land records.\n• Officer X can verify all records in 20 days.\n• Officer Y can verify the same work in 30 days.\nThey work together for some days. After that, Officer X alone completes the remaining work in 8 days.\nFor how many days did X and Y work together?",
+    "options": [
+      "8.2 days",
+      "9 days",
+      "7.2 days",
+      "None of the above"
+    ],
+    "correctOption": "c",
+    "explanation": "Daily work rates • X = 1/20 • Y = 1/30. Together: 1/20 + 1/30 = (3+2)/60 = 5/60 = 1/12. Step : 2 Work done by x alone in 8 days: 8 × 1/20 = 8/20 = 2/5. So, work done earlier together : 1 - 2/5 = 3/5. Step 3: Time worked together: (3/5) / (1/12) = (3/5) × 12 = 36/5 = 7.2 days. Answer : 7.2 days",
+    "subject": "CSAT",
+    "topic": "Quantitative Aptitude",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 76,
+    "questionText": "Raghav, a trainee orchard assistant, follows coded instructions given by his mentor Professor Arvind Malhotra.\nHe manages a basket using the following commands:\n• Command ‘1’ → Put one mango\n• Command ‘2’ → Put one orange\n• Command ‘3’ → Put one apple\n• Command ‘5’ → Take out one mango and one orange\nA long sequence of commands was issued during a training drill.\nQuestion:\nHow many oranges were present in the basket at the end of the drill?\nStatements\nI. The sequence of commands issued was:\n2 1 3 3 2 1 5 2 3 1 5 2 2 3 3 1 5 1 1 3 2 3 5\nII. At no point during the drill was the basket allowed to have a negative count of any fruits of any kind.\nSelect the correct answer using the codes given below:",
+    "options": [
+      "Statement I alone is sufficient to answer the question",
+      "Statement II alone is sufficient to answer the question",
+      "Both Statement I and Statement II together are sufficient",
+      "Either Statement I or Statement II alone is sufficient"
+    ],
+    "correctOption": "a",
+    "explanation": "Given Information (from Statement I). Commands: • 1 → +1 mango • 2 → +1 orange • 3 → +1 apple • 5 → −1 mango and −1 orange. Sequence: 2 1 3 3 2 1 5 2 3 1 5 2 2 3 3 1 5 1 1 3 2 3 5. What is asked? Number of ORANGES in the basket at the end. So we only track: • Command 2 (adds orange) • Command 5 (removes orange). All other commands are irrelevant. Step 1: Count all additions of oranges (Command 2). Scan the sequence and count 2: Positions of 2 → 1, 5, 8, 12, 13, 20. Total 2’s = 6. So, Oranges added = 6. Step 2: Count all removals of oranges (Command 5). Each 5 removes 1 orange. Positions of 5 → 7, 11, 17, 23. Total 5’s = 4. So, Oranges removed = 4. Step 3: Net oranges at the end. Final oranges=Added−Removed =6−4=2. Role of Statement II: “At no point was the basket allowed to have negative fruits.” • This only ensures the sequence is valid • It does not change counting • It gives no numerical value. Statement II is not required",
+    "subject": "CSAT",
+    "topic": "Logical Reasoning",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 77,
+    "questionText": "Consider the following Assertion and Reason.\nAssertion : 25% discount on the marked price of an item is more than the discount of 18% on the marked price of the same item and a subsequent (successive) discount of 7%.\nReason : The subsequent (successive) discount is on the discounted amount\nWhich one of the following is correct with respect to the above Assertion and Reason ?",
+    "options": [
+      "Both the assertion and the reason are individually true and the reason is a correct explanation of the assertion.",
+      "Both the assertion and the reason are individually true, but the reason is not a correct explanation of the assertion.",
+      "Assertion is true, but reason is false.",
+      "Assertion is false, but reason is true."
+    ],
+    "correctOption": "a",
+    "explanation": "25% discount on the marked price is more than an 18% discount followed by a 7% successive discount. Let Marked Price = 100. • Single discount 25%. Discount = 25 → Final Price = 75. • Successive discounts 18% and 7%. After 7% on 82 → Discount = 0.07 × 82 = 5.74. Total discount = 18 + 5.74 = 23.74%. So, 25% > 23.74%. Assertion is TRUE. Reason: The successive discount is on the discounted amount. This is factually correct and it explains why the second method gives a smaller overall discount. Reason is TRUE. Reason correctly explains the assertion",
+    "subject": "CSAT",
+    "topic": "Quantitative Aptitude",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 78,
+    "questionText": "Conclusions\nSome reds being black is a possibility.\nSome blue being red is a possibility.\nStatements\nI. All black are pink. Some red are pink. No blue is red.\nII. All black are pink. No red is pink. All blue are black.\nIII. Some black are pink. Some red are pink. No blue is red.\nIV. Some black are pink. Some red are pink. No pink is blue.\nV. Some black are pink. Some red are pink. All blues are black.\nSelect the correct answer using the codes given below:",
+    "options": [
+      "Only Statement I",
+      "Both Statements IV and V",
+      "Only Statement IV",
+      "Both Statements II and III"
+    ],
+    "correctOption": "b",
+    "explanation": "From Statement IV, Black Pink Red Blue. From Statement V, Black Blue Pink Red. Conclusions I. Some reds being black is a possibility. II. Some blue being red is a possibility.",
+    "subject": "CSAT",
+    "topic": "Logical Reasoning",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 79,
+    "questionText": "The owner of the famous Sapphire Vault hired four watchmen — Arnav, Bhavesh, Chirag, and Dev — to guard his precious gems.\nYet, a clever thief managed to steal some sapphires.\nWhile escaping, the thief encountered some watchmen one by one.\nTo each watchman, the thief gave:\n• Half of the sapphires he had at that moment, and\n• 3 sapphires more\nAfter meeting all four watchmen, the thief escaped with 2 sapphires remaining.\nQuestion: How many sapphires did the thief steal originally?\nStatements:\nI. The thief met all four watchmen one by one, giving sapphires in the same manner to each.\nII. At every stage, the thief had more than enough sapphires to give the required share.\nWhich one of the following is correct in respect of the above Question and the Statements?",
+    "options": [
+      "Statement I alone is sufficient to answer the question",
+      "Statement II alone is sufficient to answer the question",
+      "Both Statement I and Statement II together are sufficient to answer the question",
+      "Either Statement I or Statement II alone is sufficient to answer the question"
+    ],
+    "correctOption": "a",
+    "explanation": "Let the initial number of sapphires = x. Step 1: Work backwards (Reverse Method). After the 4th watchman, thief has 2 sapphires. Before giving to the 4th watchman: • He gave half + 3 • So remaining = 2. Let amount before meeting 4th watchman be a: a–(a/2)–3 = 2 ⇒ a = 10. Step 2: Before 3rd watchman. Let amount be b: b–(b/2)–3 = 10 ⇒ b = 26. Step 3: Before 2nd watchman. c–(c/2)–3 = 26 ⇒ c = 58. Step 4: Before 1st watchman (Original amount). x–(x/2)–3 = 58 ⇒ x = 122. Final Answer: The thief originally stole = 122 sapphires. Since this is not among the options, the correct answer is: Option [4] — None of these",
+    "subject": "CSAT",
+    "topic": "Quantitative Aptitude",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  },
+  {
+    "questionNumber": 80,
+    "questionText": "If A, B and C are sets, then A – (B – C) equals",
+    "options": [
+      "(A – B) ∪ (A ∩ C)",
+      "(A – B) – C",
+      "(A – B) ∩ (A – C)",
+      "(A – B) ∪ (A – C)"
+    ],
+    "correctOption": "a",
+    "explanation": "A – (B – C) = A – (B ∩ C) = A ∩ (B ∩ C) = A ∩ (B ∩ C) = (A ∩ B) ∪ (A ∩ C) = (A ∩ B) ∪ (A ∩ C). Correct Answer (a)",
+    "subject": "CSAT",
+    "topic": "Quantitative Aptitude",
+    "difficulty_rationale": "Moderate",
+    "year": 2024,
+    "source_label": "Anubhav_CSAT-1-SET-C-QP"
+  }
+]

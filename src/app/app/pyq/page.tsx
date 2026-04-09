@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { fetchYearCounts, fetchSubjectCounts, fetchTotalCount } from "@/lib/supabase/questions";
+import { PyqTabsView } from "@/components/pyq-tabs-view";
 
 export const dynamic = "force-dynamic";
 export const revalidate = 0;
@@ -33,143 +34,41 @@ export default async function PyqWorkspacePage() {
   }
 
   return (
-    <div className="mx-auto max-w-6xl space-y-6 px-4 py-8 sm:px-6">
+    <div className="mx-auto max-w-6xl space-y-4 px-3 py-5 sm:space-y-6 sm:px-6 sm:py-8">
       {/* Header */}
-      <div className="card p-6">
-        <p className="text-sm font-semibold text-[var(--accent)]">PYQ library</p>
-        <h1 className="heading mt-2 text-2xl md:text-3xl">
+      <div className="card p-4 sm:p-6">
+        <p className="text-xs font-semibold text-[var(--accent)] sm:text-sm">PYQ library</p>
+        <h1 className="heading mt-1.5 text-xl sm:mt-2 sm:text-2xl md:text-3xl">
           {totalCount} Previous Year Questions
         </h1>
-        <p className="mt-2 max-w-lg text-sm leading-6 text-[var(--muted)]">
+        <p className="mt-1.5 max-w-lg text-xs leading-5 text-[var(--muted)] sm:mt-2 sm:text-sm sm:leading-6">
           Choose a year, pick a subject, or build a custom session.
         </p>
 
-        <div className="mt-5 flex flex-wrap gap-2">
+        <div className="mt-4 flex flex-wrap gap-2 sm:mt-5">
           <Link
             href="/app/pyq/run?limit=25"
-            className="rounded-lg bg-[var(--accent)] px-4 py-2 text-sm font-medium text-white hover:bg-[var(--accent-hover)]"
+            className="rounded-lg bg-[var(--accent)] px-3.5 py-2 text-xs font-medium text-white hover:bg-[var(--accent-hover)] sm:px-4 sm:text-sm"
           >
             Mixed 25Q
           </Link>
           <Link
             href="/app/pyq/run?limit=50"
-            className="rounded-lg border border-[var(--border)] px-4 py-2 text-sm font-medium text-[var(--foreground)] hover:bg-[var(--background-secondary)]"
+            className="rounded-lg border border-[var(--border)] px-3.5 py-2 text-xs font-medium text-[var(--foreground)] hover:bg-[var(--background-secondary)] sm:px-4 sm:text-sm"
           >
             Mixed 50Q
           </Link>
           <Link
             href="/app/pyq/run?limit=100"
-            className="rounded-lg border border-[var(--border)] px-4 py-2 text-sm font-medium text-[var(--foreground)] hover:bg-[var(--background-secondary)]"
+            className="rounded-lg border border-[var(--border)] px-3.5 py-2 text-xs font-medium text-[var(--foreground)] hover:bg-[var(--background-secondary)] sm:px-4 sm:text-sm"
           >
             Full 100Q
           </Link>
         </div>
       </div>
 
-      {/* Year + Subject */}
-      <div className="grid gap-4 lg:grid-cols-2">
-        <div className="card p-5">
-          <p className="text-sm font-semibold text-[var(--foreground)]">Year wise</p>
-          <p className="mt-1 text-xs text-[var(--muted)]">
-            Full-year papers as timed sessions.
-          </p>
-          <div className="mt-4 grid gap-2 sm:grid-cols-2">
-            {yearCounts.map((row) => (
-              <Link
-                key={row.year}
-                href={`/app/pyq/run?year=${row.year}&limit=100`}
-                className="rounded-lg border border-[var(--border)] p-3.5 hover:bg-[var(--background-secondary)]"
-              >
-                <p className="text-xs text-[var(--muted)]">{row.count} questions</p>
-                <p className="mt-1 text-xl font-bold text-[var(--foreground)]">{row.year}</p>
-              </Link>
-            ))}
-          </div>
-        </div>
-
-        <div className="card p-5">
-          <p className="text-sm font-semibold text-[var(--foreground)]">Subject wise</p>
-          <p className="mt-1 text-xs text-[var(--muted)]">
-            Isolate a subject for targeted drilling.
-          </p>
-          <div className="mt-4 grid gap-2 sm:grid-cols-2">
-            {subjectCounts.map((row) => (
-              <Link
-                key={row.subject}
-                href={`/app/pyq/run?subject=${encodeURIComponent(row.subject)}&limit=25`}
-                className="rounded-lg border border-[var(--border)] p-3.5 hover:bg-[var(--background-secondary)]"
-              >
-                <p className="text-xs text-[var(--muted)]">{row.count} questions</p>
-                <p className="mt-1 text-sm font-semibold text-[var(--foreground)]">{row.subject}</p>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </div>
-
-      {/* Custom session */}
-      <div className="card p-5">
-        <p className="text-sm font-semibold text-[var(--foreground)]">Custom session</p>
-        <p className="mt-1 text-xs text-[var(--muted)]">
-          Combine year + subject filters with your question count.
-        </p>
-
-        <form
-          action="/app/pyq/run"
-          method="get"
-          className="mt-4 grid gap-3 sm:grid-cols-4"
-        >
-          <label className="space-y-1.5">
-            <span className="label">Year</span>
-            <select
-              name="year"
-              defaultValue=""
-              className="w-full rounded-lg border border-[var(--border)] bg-white px-3 py-2 text-sm text-[var(--foreground)] outline-none focus:border-[var(--accent)]"
-            >
-              <option value="">All years</option>
-              {yearCounts.map((row) => (
-                <option key={row.year} value={row.year}>{row.year}</option>
-              ))}
-            </select>
-          </label>
-
-          <label className="space-y-1.5">
-            <span className="label">Subject</span>
-            <select
-              name="subject"
-              defaultValue=""
-              className="w-full rounded-lg border border-[var(--border)] bg-white px-3 py-2 text-sm text-[var(--foreground)] outline-none focus:border-[var(--accent)]"
-            >
-              <option value="">All subjects</option>
-              {subjectCounts.map((row) => (
-                <option key={row.subject} value={row.subject}>
-                  {row.subject} ({row.count})
-                </option>
-              ))}
-            </select>
-          </label>
-
-          <label className="space-y-1.5">
-            <span className="label">Questions</span>
-            <select
-              name="limit"
-              defaultValue="25"
-              className="w-full rounded-lg border border-[var(--border)] bg-white px-3 py-2 text-sm text-[var(--foreground)] outline-none focus:border-[var(--accent)]"
-            >
-              {[10, 25, 50, 100].map((v) => (
-                <option key={v} value={String(v)}>{v}</option>
-              ))}
-            </select>
-          </label>
-
-          <button
-            type="submit"
-            className="mt-5 h-fit rounded-lg bg-[var(--accent)] px-4 py-2 text-sm font-medium text-white hover:bg-[var(--accent-hover)] sm:mt-6"
-          >
-            Start session
-          </button>
-        </form>
-      </div>
+      {/* Tabbed Content */}
+      <PyqTabsView yearCounts={yearCounts} subjectCounts={subjectCounts} />
     </div>
   );
 }

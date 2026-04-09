@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
-import { getAttempts } from "@/lib/storage";
+import { getSyncedAttempts } from "@/lib/storage";
 import type { AttemptRecord, Subject } from "@/lib/types";
 import { subjectColorMap, formatDuration } from "@/lib/exam";
 
@@ -90,8 +90,20 @@ export function AnalyticsView({ subjectSlug }: { subjectSlug: string }) {
   const isKnownSlug = subjectSlug in SLUG_TO_SUBJECT;
 
   useEffect(() => {
-    setAttempts(getAttempts());
-    setHydrated(true);
+    let active = true;
+
+    async function loadAttempts() {
+      const synced = await getSyncedAttempts();
+      if (!active) return;
+      setAttempts(synced.attempts);
+      setHydrated(true);
+    }
+
+    void loadAttempts();
+
+    return () => {
+      active = false;
+    };
   }, []);
 
   const stats = useMemo(() => computeStats(attempts, subjectFilter), [attempts, subjectFilter]);
@@ -119,7 +131,7 @@ export function AnalyticsView({ subjectSlug }: { subjectSlug: string }) {
         <p className="text-6xl">🧭</p>
         <h1 className="heading text-2xl">Unknown subject</h1>
         <p className="text-sm text-[var(--muted)] max-w-sm">
-          That subject slug doesn't exist. Pick one below.
+          That subject slug does not exist. Pick one below.
         </p>
         <div className="flex flex-wrap gap-2 justify-center mt-2">
           {SUBJECT_SLUGS.map((s) => (
@@ -147,10 +159,10 @@ export function AnalyticsView({ subjectSlug }: { subjectSlug: string }) {
   }
 
   return (
-    <div className="space-y-8">
+    <div className="space-y-5 sm:space-y-8">
       {/* Header */}
       <div>
-        <div className="flex flex-wrap items-center gap-3 mb-2">
+        <div className="flex flex-wrap items-center gap-2 mb-2 sm:gap-3">
           <span
             className="rounded-full px-3 py-1 text-xs font-bold uppercase tracking-widest"
             style={{
@@ -162,10 +174,10 @@ export function AnalyticsView({ subjectSlug }: { subjectSlug: string }) {
             Analytics
           </span>
           {/* Subject switcher */}
-          <div className="flex flex-wrap gap-1.5">
+          <div className="flex flex-wrap gap-1 sm:gap-1.5">
             <Link
               href="/analytics/all"
-              className={`rounded-full px-3 py-1 text-xs font-semibold transition-colors ${
+              className={`rounded-full px-2.5 py-1 text-[11px] font-semibold transition-colors sm:px-3 sm:text-xs ${
                 subjectFilter === "all"
                   ? "bg-[var(--foreground)] text-[var(--background)]"
                   : "border border-[var(--border)] text-[var(--muted)] hover:text-[var(--foreground)]"
@@ -177,7 +189,7 @@ export function AnalyticsView({ subjectSlug }: { subjectSlug: string }) {
               <Link
                 key={s.slug}
                 href={`/analytics/${s.slug}`}
-                className={`rounded-full px-3 py-1 text-xs font-semibold transition-colors ${
+                className={`rounded-full px-2.5 py-1 text-[11px] font-semibold transition-colors sm:px-3 sm:text-xs ${
                   subjectToSlug(s.label as Subject) === subjectSlug
                     ? "text-[var(--background)]"
                     : "border border-[var(--border)] text-[var(--muted)] hover:text-[var(--foreground)]"
@@ -194,12 +206,12 @@ export function AnalyticsView({ subjectSlug }: { subjectSlug: string }) {
           </div>
         </div>
 
-        <h1 className="heading text-3xl md:text-4xl mt-4">
+        <h1 className="heading text-2xl mt-3 sm:text-3xl sm:mt-4 md:text-4xl">
           {displayLabel}
           <span className="text-[var(--muted)]"> Performance</span>
         </h1>
         <p className="mt-2 text-sm text-[var(--muted)]">
-          Data from your local practice sessions — updated after every test.
+          Data from your saved practice sessions — updated after every test.
         </p>
       </div>
 
@@ -221,7 +233,7 @@ export function AnalyticsView({ subjectSlug }: { subjectSlug: string }) {
                 ? "/app/pyq/run?limit=25"
                 : `/app/pyq/run?subject=${encodeURIComponent(subjectFilter as string)}&limit=25`
             }
-            className="rounded-lg bg-[var(--accent)] px-5 py-2.5 text-sm font-semibold text-black hover:bg-[var(--accent)]/90 transition-colors"
+            className="rounded-lg bg-[var(--accent)] px-5 py-2.5 text-sm font-semibold text-white hover:bg-[var(--accent)]/90 transition-colors"
           >
             Start a session →
           </Link>
@@ -268,7 +280,7 @@ export function AnalyticsView({ subjectSlug }: { subjectSlug: string }) {
                 className="flex items-center justify-between rounded-lg bg-[var(--background-secondary)] px-4 py-3"
               >
                 <div>
-                  <p className="text-sm font-medium text-[var(--foreground)] truncate max-w-[240px]">
+                  <p className="text-sm font-medium text-[var(--foreground)] truncate max-w-[180px] sm:max-w-[240px]">
                     {attempt.testTitle}
                   </p>
                   <p className="text-xs text-[var(--muted)] mt-0.5">
@@ -316,7 +328,7 @@ export function AnalyticsView({ subjectSlug }: { subjectSlug: string }) {
         <div>
           <p className="font-medium text-[var(--foreground)]">Bookmark this page</p>
           <p className="mt-0.5">
-            This URL always shows your {displayLabel.toLowerCase()} performance — bookmark it and it'll still work tomorrow.
+            This URL always shows your {displayLabel.toLowerCase()} performance. Bookmark it and it will still work tomorrow.
           </p>
         </div>
       </div>

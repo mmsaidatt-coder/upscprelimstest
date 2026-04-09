@@ -11,9 +11,11 @@ const SEARCHABLE_PYQ_SELECT = `
 
 export async function GET(req: NextRequest) {
   const { searchParams } = new URL(req.url);
-  const page = Math.max(1, Number(searchParams.get("page") ?? "0"));
-  const limit = Math.min(200, Math.max(1, Number(searchParams.get("limit") ?? "0")));
-  const paginated = page > 0 && limit > 0;
+  const rawPage = searchParams.get("page");
+  const rawLimit = searchParams.get("limit");
+  const paginated = rawPage !== null && rawLimit !== null;
+  const page = Math.max(1, Number(rawPage ?? "1"));
+  const limit = Math.min(200, Math.max(1, Number(rawLimit ?? "50")));
 
   try {
     const supabase = createAdminClient();

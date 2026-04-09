@@ -34,13 +34,13 @@ export default async function SectionalTestPage({
           
           {/* Pill Badge */}
           <div className="flex justify-center mb-6 z-10 relative">
-            <span className="rounded-full border border-[#333] bg-[#0e0e0e] px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-[var(--muted)] tracking-wider">
+            <span className="rounded-full border border-[var(--border)] bg-[var(--background)] px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-[var(--muted)] tracking-wider">
               SECTIONAL TEST
             </span>
           </div>
 
           <h1 className="heading text-5xl md:text-7xl lg:text-8xl text-[var(--foreground)] mt-2 mb-6 transition-all relative z-10">
-            YEAR <span className="text-[var(--accent)] drop-shadow-[0_0_15px_rgba(163,230,53,0.3)]">
+            YEAR <span className="text-[var(--accent)] drop-shadow-sm">
               {year}
             </span>
           </h1>
@@ -55,7 +55,7 @@ export default async function SectionalTestPage({
           {SUBJECTS.map((subject) => (
             <div
               key={subject}
-              className="group relative flex flex-col rounded-[1rem] bg-[var(--background-secondary)] p-6 border-2 border-[#262626] transition-all hover:bg-[var(--background)] hover:border-[#333] hover:shadow-[0_0_30px_rgba(0,0,0,0.5)] animate-in fade-in zoom-in duration-300"
+              className="group relative flex flex-col rounded-[1rem] bg-[var(--background-secondary)] p-6 border-2 border-[var(--border)] transition-all hover:bg-[var(--background)] hover:border-[var(--border)] hover:shadow-[0_0_30px_rgba(0,0,0,0.5)] animate-in fade-in zoom-in duration-300"
             >
               {/* Subject Heading */}
               <div className="text-center mb-6 mt-2 relative min-h-[48px] flex items-center justify-center">
@@ -69,7 +69,7 @@ export default async function SectionalTestPage({
               <div className="flex flex-col gap-3 w-full mt-auto relative z-10">
                  <Link 
                    href={`/app/pyq/run?year=${year}&subject=${encodeURIComponent(subject)}&limit=100`} 
-                   className="flex items-center justify-center w-full py-2.5 rounded-lg bg-[var(--accent)]/10 text-[var(--accent)] border border-[var(--accent)]/30 text-xs font-bold uppercase tracking-widest hover:bg-[var(--accent)] hover:text-black hover:border-[var(--accent)] transition-all shadow-inner"
+                   className="flex items-center justify-center w-full py-2.5 rounded-lg bg-[var(--accent)]/10 text-[var(--accent)] border border-[var(--accent)]/30 text-xs font-bold uppercase tracking-widest hover:bg-[var(--accent)] hover:text-white hover:border-[var(--accent)] transition-all shadow-inner"
                  >
                    Start Test
                  </Link>
@@ -82,7 +82,7 @@ export default async function SectionalTestPage({
         <div className="mt-16 text-center relative z-10">
           <Link
             href="/pyq"
-            className="inline-flex items-center justify-center h-12 px-6 rounded-lg bg-[#1a1a1a] text-[var(--muted)] border border-[#333] text-sm font-bold uppercase tracking-wider leading-tight hover:text-white hover:border-[#555] hover:bg-[#222] transition-all"
+            className="inline-flex items-center justify-center h-12 px-6 rounded-lg bg-[var(--background-secondary)] text-[var(--muted)] border border-[var(--border)] text-sm font-bold uppercase tracking-wider leading-tight hover:text-[var(--foreground)] hover:border-[var(--accent)] hover:bg-[#F0EBE4] transition-all"
           >
             ← Back to PYQ Library
           </Link>

@@ -2,9 +2,18 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Platform — UPSCPRELIMSTEST",
+  title: "Platform Features — Exam Mode, Review & Analytics",
   description:
-    "One product, three interfaces: exam mode with real timer pressure, review mode with explanations, and analytics to track your progress.",
+    "Three interfaces for UPSC Prelims preparation: timed exam mode with palette navigation & negative marking, review mode with explanations, and analytics with subject radar and readiness tracking.",
+  alternates: {
+    canonical: "https://upscprelimstest.com/platform",
+  },
+  openGraph: {
+    title: "Platform Features — Exam Mode, Review & Analytics",
+    description:
+      "UPSC Prelims practice platform with exam simulation, review mode, and performance analytics.",
+    url: "https://upscprelimstest.com/platform",
+  },
 };
 
 const pillars = [
@@ -25,9 +34,9 @@ const pillars = [
 export default function PlatformPage() {
   return (
     <div className="mx-auto max-w-6xl px-4 sm:px-6">
-      <section className="py-16">
-        <p className="text-sm font-semibold text-[var(--accent)]">Platform</p>
-        <h1 className="heading mt-3 max-w-2xl text-3xl md:text-4xl">
+      <section className="py-10 sm:py-16">
+        <p className="text-xs font-semibold text-[var(--accent)] sm:text-sm">Platform</p>
+        <h1 className="heading mt-2 max-w-2xl text-2xl sm:mt-3 sm:text-3xl md:text-4xl">
           One product, three interfaces, zero wasted motion
         </h1>
         <p className="mt-4 max-w-xl text-sm leading-7 text-[var(--muted)]">

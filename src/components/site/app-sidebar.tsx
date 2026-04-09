@@ -3,17 +3,17 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
-import { 
-  Target, 
-  BookOpenText, 
-  FileEdit, 
-  FolderOpen, 
-  PencilRuler, 
-  Newspaper, 
-  LineChart, 
-  Bookmark, 
+import {
+  Target,
+  BookOpenText,
+  FileEdit,
+  FolderOpen,
+  PencilRuler,
+  Newspaper,
+  LineChart,
+  Bookmark,
   ChevronRight,
-  User
+  User,
 } from "lucide-react";
 
 // ── Navigation structure ──────────────────────────────────────────────────────
@@ -95,8 +95,6 @@ function HamburgerIcon({ open }: { open: boolean }) {
   );
 }
 
-
-
 // ── NavLinks component (shared between desktop & mobile) ──────────────────────
 
 function NavLinks({
@@ -118,10 +116,8 @@ function NavLinks({
     return group.children.some((child) => isItemActive(child));
   }
 
-  // Track which groups are expanded
   const [expandedGroups, setExpandedGroups] = useState<Record<string, boolean>>({});
 
-  // Auto-expand a group if a child route is active
   useEffect(() => {
     const autoExpand: Record<string, boolean> = {};
     mainNavigation.forEach((entry) => {
@@ -147,28 +143,26 @@ function NavLinks({
 
             return (
               <div key={entry.label}>
-                {/* Group header button */}
                 <button
                   onClick={() => toggleGroup(entry.label)}
                   title={collapsed ? entry.label : undefined}
                   className={`group flex w-full items-center gap-3.5 rounded-xl px-3.5 py-3 text-[15px] font-semibold transition-all ${
                     active
-                      ? "text-[var(--accent)]"
-                      : "text-[var(--muted)] hover:bg-[var(--background-secondary)] hover:text-[var(--foreground)]"
+                      ? "text-[#C4784A]"
+                      : "text-[#6B7280] hover:bg-[#F0EBE4] hover:text-[#1A1A1A]"
                   } ${collapsed ? "justify-center px-2" : ""}`}
                 >
-                  <span className={`shrink-0 flex items-center justify-center transition-transform ${active && !collapsed ? 'scale-110' : ''}`}>{entry.icon}</span>
+                  <span className={`shrink-0 flex items-center justify-center transition-transform ${active && !collapsed ? "scale-110" : ""}`}>{entry.icon}</span>
                   {!collapsed && (
                     <>
                       <span className="flex-1 truncate text-left">{entry.label}</span>
-                      <ChevronRight className={`w-4 h-4 shrink-0 transition-transform duration-200 ${open ? "rotate-90 text-[var(--foreground)]" : "text-[var(--muted)]"}`} />
+                      <ChevronRight className={`w-4 h-4 shrink-0 transition-transform duration-200 ${open ? "rotate-90 text-[#1A1A1A]" : "text-[#9CA3AF]"}`} />
                     </>
                   )}
                 </button>
 
-                {/* Children */}
                 {!collapsed && open && (
-                  <div className="ml-5 mt-1 space-y-1 border-l-2 border-[#262626] pl-3 py-1">
+                  <div className="ml-5 mt-1 space-y-1 border-l-2 border-[#E5E0DA] pl-3 py-1">
                     {entry.children.map((child) => {
                       const childActive = isItemActive(child);
                       return (
@@ -178,11 +172,11 @@ function NavLinks({
                           onClick={onClick}
                           className={`flex items-center gap-3 rounded-lg px-3 py-2.5 text-[14px] font-medium transition-all ${
                             childActive
-                              ? "bg-[var(--accent)]/10 text-[var(--accent)] shadow-sm"
-                              : "text-[var(--muted)] hover:bg-[var(--background-secondary)] hover:text-[var(--foreground)]"
+                              ? "bg-[#C4784A]/10 text-[#C4784A] shadow-sm"
+                              : "text-[#6B7280] hover:bg-[#F0EBE4] hover:text-[#1A1A1A]"
                           }`}
                         >
-                          <span className={`shrink-0 flex items-center justify-center transition-transform ${childActive ? 'scale-110' : ''}`}>{child.icon}</span>
+                          <span className={`shrink-0 flex items-center justify-center transition-transform ${childActive ? "scale-110" : ""}`}>{child.icon}</span>
                           <span className="truncate">{child.label}</span>
                         </Link>
                       );
@@ -190,7 +184,6 @@ function NavLinks({
                   </div>
                 )}
 
-                {/* Collapsed tooltip-style children visible on hover — show icons only */}
                 {collapsed && open && (
                   <div className="mt-1 space-y-1">
                     {entry.children.map((child) => {
@@ -203,8 +196,8 @@ function NavLinks({
                           title={child.label}
                           className={`flex justify-center items-center rounded-lg px-2 py-2 text-sm font-medium transition-all ${
                             childActive
-                              ? "bg-[var(--accent)]/10 text-[var(--accent)] shadow-sm"
-                              : "text-[var(--muted)] hover:bg-[var(--background-secondary)] hover:text-[var(--foreground)]"
+                              ? "bg-[#C4784A]/10 text-[#C4784A] shadow-sm"
+                              : "text-[#6B7280] hover:bg-[#F0EBE4] hover:text-[#1A1A1A]"
                           }`}
                         >
                           <span className="flex items-center justify-center">{child.icon}</span>
@@ -217,7 +210,6 @@ function NavLinks({
             );
           }
 
-          // Regular nav item
           const item = entry as NavItem;
           const active = isItemActive(item);
           return (
@@ -228,11 +220,11 @@ function NavLinks({
               title={collapsed ? item.label : undefined}
               className={`group flex items-center gap-3.5 rounded-xl px-3.5 py-3 text-[15px] font-semibold transition-all ${
                 active
-                  ? "bg-[var(--accent)]/10 text-[var(--accent)] shadow-sm"
-                  : "text-[var(--muted)] hover:bg-[var(--background-secondary)] hover:text-[var(--foreground)]"
+                  ? "bg-[#C4784A]/10 text-[#C4784A] shadow-sm"
+                  : "text-[#6B7280] hover:bg-[#F0EBE4] hover:text-[#1A1A1A]"
               } ${collapsed ? "justify-center px-2" : ""}`}
             >
-              <span className={`shrink-0 flex items-center justify-center transition-transform ${active && !collapsed ? 'scale-110' : ''}`}>{item.icon}</span>
+              <span className={`shrink-0 flex items-center justify-center transition-transform ${active && !collapsed ? "scale-110" : ""}`}>{item.icon}</span>
               {!collapsed && <span className="truncate">{item.label}</span>}
             </Link>
           );
@@ -249,8 +241,12 @@ export function AppSidebar() {
   const [collapsed, setCollapsed] = useState(false);
 
   useEffect(() => {
-    const stored = localStorage.getItem("sidebar-collapsed");
-    if (stored === "true") setCollapsed(true);
+    const timeout = window.setTimeout(() => {
+      const stored = localStorage.getItem("sidebar-collapsed");
+      if (stored === "true") setCollapsed(true);
+    }, 0);
+
+    return () => window.clearTimeout(timeout);
   }, []);
 
   function toggleCollapsed() {
@@ -263,23 +259,23 @@ export function AppSidebar() {
   return (
     <>
       {/* ── Mobile top bar ──────────────────────────────────────────── */}
-      <header className="lg:hidden sticky top-0 z-40 flex h-14 items-center justify-between border-b border-[#262626] bg-[#0e0e0e]/95 px-4 backdrop-blur-sm">
+      <header className="lg:hidden sticky top-0 z-40 flex h-14 items-center justify-between border-b border-[#E5E0DA] bg-[#FAF7F2]/95 px-4 backdrop-blur-md safe-bottom">
         <Link href="/" className="flex items-center gap-2">
-          <span className="text-[1.1rem] font-display font-extrabold tracking-widest text-[var(--foreground)] uppercase">
+          <span className="text-[1.1rem] font-serif font-bold text-[#1A1A1A]">
             UPSCPT
           </span>
         </Link>
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-3">
           <Link
             href="/app/settings"
-            className="flex h-8 w-8 items-center justify-center rounded-full border border-[#333] bg-[#111] text-[var(--muted)] hover:text-[var(--foreground)] transition-colors"
+            className="flex h-10 w-10 items-center justify-center rounded-full border border-[#E0DBD4] bg-white text-[#6B7280] hover:text-[#1A1A1A] transition-colors"
             aria-label="Settings"
           >
             <User className="w-4 h-4" />
           </Link>
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
-            className="flex h-9 w-9 items-center justify-center rounded-lg border border-[#333] bg-[#111] text-[var(--muted)] hover:text-[var(--foreground)] transition-colors"
+            className="flex h-10 w-10 items-center justify-center rounded-lg border border-[#E0DBD4] bg-white text-[#6B7280] hover:text-[#1A1A1A] transition-colors"
             aria-label={mobileOpen ? "Close menu" : "Open menu"}
           >
             <HamburgerIcon open={mobileOpen} />
@@ -289,16 +285,23 @@ export function AppSidebar() {
 
       {/* ── Mobile drawer ───────────────────────────────────────────── */}
       {mobileOpen && (
-        <div className="fixed inset-0 z-30 flex lg:hidden">
+        <div className="fixed inset-0 z-50 flex lg:hidden" role="dialog" aria-modal="true">
           <div
-            className="fixed inset-0 bg-black/60 backdrop-blur-sm"
+            className="fixed inset-0 bg-black/30 backdrop-blur-sm animate-in fade-in duration-200"
             onClick={() => setMobileOpen(false)}
           />
-          <div className="relative flex w-64 max-w-[80vw] flex-col bg-[#0e0e0e] shadow-xl">
-            <div className="flex h-14 items-center border-b border-[var(--border)] px-5">
-              <span className="text-sm font-display font-bold tracking-widest text-[var(--accent)] uppercase">
+          <div className="relative flex w-72 max-w-[85vw] flex-col bg-[#FAF7F2] shadow-2xl animate-in slide-in-from-left duration-200">
+            <div className="flex h-14 items-center justify-between border-b border-[#E5E0DA] px-5">
+              <span className="text-sm font-serif font-bold text-[#C4784A]">
                 Menu
               </span>
+              <button
+                onClick={() => setMobileOpen(false)}
+                className="flex h-8 w-8 items-center justify-center rounded-lg text-[#6B7280] hover:text-[#1A1A1A] hover:bg-[#F0EBE4] transition-colors"
+                aria-label="Close menu"
+              >
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round"><line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" /></svg>
+              </button>
             </div>
             <NavLinks collapsed={false} onClick={() => setMobileOpen(false)} />
           </div>
@@ -307,19 +310,19 @@ export function AppSidebar() {
 
       {/* ── Desktop sidebar ─────────────────────────────────────────── */}
       <aside
-        className={`hidden lg:flex flex-col border-r border-[#262626] bg-[#0e0e0e] transition-all duration-300 ease-in-out ${
+        className={`hidden lg:flex flex-col border-r border-[#E5E0DA] bg-[#FAF7F2] transition-all duration-300 ease-in-out ${
           collapsed ? "w-16" : "w-60"
         }`}
       >
         {/* Logo + hamburger toggle row */}
         <div
-          className={`flex h-16 shrink-0 items-center border-b border-[#1a1a1a] ${
+          className={`flex h-16 shrink-0 items-center border-b border-[#E5E0DA] ${
             collapsed ? "justify-center px-0" : "justify-between px-5"
           }`}
         >
           {!collapsed && (
             <Link href="/" className="flex items-center gap-2 group">
-              <span className="text-[1.3rem] font-display font-black tracking-wider text-[var(--foreground)] group-hover:text-[var(--accent)] transition-colors">
+              <span className="text-[1.3rem] font-serif font-bold text-[#1A1A1A] group-hover:text-[#C4784A] transition-colors">
                 UPSCPT
               </span>
             </Link>
@@ -327,7 +330,7 @@ export function AppSidebar() {
 
           <button
             onClick={toggleCollapsed}
-            className={`flex h-8 w-8 items-center justify-center rounded-lg text-[var(--muted)] hover:bg-[var(--background-secondary)] hover:text-[var(--foreground)] transition-colors ${
+            className={`flex h-8 w-8 items-center justify-center rounded-lg text-[#6B7280] hover:bg-[#F0EBE4] hover:text-[#1A1A1A] transition-colors ${
               collapsed ? "mx-auto" : ""
             }`}
             aria-label={collapsed ? "Expand sidebar" : "Collapse sidebar"}
@@ -339,11 +342,11 @@ export function AppSidebar() {
         <NavLinks collapsed={collapsed} />
 
         {/* Bottom: Profile / Settings */}
-        <div className="shrink-0 border-t border-[#1a1a1a] p-3">
+        <div className="shrink-0 border-t border-[#E5E0DA] p-3">
           <Link
             href="/app/settings"
             title={collapsed ? "Profile / Settings" : undefined}
-            className={`flex items-center gap-3.5 rounded-xl px-3 py-3 text-[15px] font-semibold text-[var(--muted)] hover:bg-[var(--background-secondary)] hover:text-[var(--foreground)] transition-all ${
+            className={`flex items-center gap-3.5 rounded-xl px-3 py-3 text-[15px] font-semibold text-[#6B7280] hover:bg-[#F0EBE4] hover:text-[#1A1A1A] transition-all ${
               collapsed ? "justify-center px-2" : ""
             }`}
           >

@@ -10,10 +10,10 @@ import {
 
 
 // ─── Constants ─────────────────────────────────────────────────────────────────
-const ACCENT = "#a3e635";
+const ACCENT = "#C4784A";
 const YEARS = [2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014];
 const BAR_COLORS = [
-  "#a3e635","#34d399","#60a5fa","#f472b6","#fb923c",
+  "#C4784A","#34d399","#60a5fa","#f472b6","#fb923c",
   "#facc15","#a78bfa","#2dd4bf","#f87171","#818cf8",
   "#4ade80","#38bdf8","#e879f9","#fbbf24",
 ];
@@ -180,17 +180,17 @@ type Question = {
 // ─── Helpers ──────────────────────────────────────────────────────────────────
 function getTotal(t: TopicRow) { return Object.values(t.years).reduce((a, b) => a + b, 0); }
 function heatColor(v: number, max: number): { bg: string; fg: string } {
-  if (max === 0 || v === 0) return { bg: "#111", fg: "#444" };
+  if (max === 0 || v === 0) return { bg: "#EDE9E3", fg: "#9CA3AF" };
   const i = v / max;
-  const bg = i < 0.25 ? "#1a3a1a" : i < 0.5 ? "#2a5c1a" : i < 0.75 ? "#3d8020" : "#a3e635";
-  const fg = i >= 0.75 ? "#000" : "#999";
+  const bg = i < 0.25 ? "#E8D5C4" : i < 0.5 ? "#D4A574" : i < 0.75 ? "#C4784A" : "#9A5A32";
+  const fg = i >= 0.5 ? "#fff" : "#6B7280";
   return { bg, fg };
 }
 
 // ─── Sub-components ────────────────────────────────────────────────────────────
 function Section({ title, subtitle, children }: { title: string; subtitle?: string; children: React.ReactNode }) {
   return (
-    <div className="rounded-xl bg-[var(--background-secondary)] border border-[#262626] p-5 sm:p-6">
+    <div className="rounded-xl bg-[var(--background-secondary)] border border-[var(--border)] p-5 sm:p-6">
       <p className="text-sm font-bold uppercase tracking-wider text-[var(--foreground)]">{title}</p>
       {subtitle && <p className="text-xs text-[var(--muted)] mt-0.5 mb-4">{subtitle}</p>}
       {!subtitle && <div className="mb-4" />}
@@ -201,7 +201,7 @@ function Section({ title, subtitle, children }: { title: string; subtitle?: stri
 
 function KpiCard({ label, value, sub }: { label: string; value: string | number; sub: string }) {
   return (
-    <div className="rounded-xl bg-[var(--background-secondary)] border border-[#262626] p-4 sm:p-5">
+    <div className="rounded-xl bg-[var(--background-secondary)] border border-[var(--border)] p-4 sm:p-5">
       <p className="text-[10px] font-bold uppercase tracking-widest text-[var(--muted)]">{label}</p>
       <p className="text-2xl sm:text-3xl font-display font-bold mt-2 text-[var(--accent)]">{value}</p>
       <p className="text-xs text-[var(--muted)] mt-1">{sub}</p>
@@ -212,7 +212,7 @@ function KpiCard({ label, value, sub }: { label: string; value: string | number;
 function CustomTooltip({ active, payload }: { active?: boolean; payload?: { name: string; value: number }[] }) {
   if (!active || !payload?.length || !payload[0]) return null;
   return (
-    <div className="rounded-xl bg-[#1a1a1a] border border-[#333] px-4 py-3 shadow-xl text-sm min-w-[140px]">
+    <div className="rounded-xl bg-[var(--background-secondary)] border border-[var(--border)] px-4 py-3 shadow-xl text-sm min-w-[140px]">
       <p className="text-[10px] font-bold uppercase tracking-wider text-[var(--muted)] mb-1">{payload[0].name}</p>
       <p className="font-bold text-[var(--accent)]">{payload[0].value} Questions</p>
     </div>
@@ -258,7 +258,11 @@ function TopicDrawer({
   }, [topic, year, subject]);
 
   useEffect(() => {
-    fetchTopicQuestions();
+    const timeout = window.setTimeout(() => {
+      void fetchTopicQuestions();
+    }, 0);
+
+    return () => window.clearTimeout(timeout);
   }, [fetchTopicQuestions]);
 
   // Close on Escape
@@ -277,9 +281,9 @@ function TopicDrawer({
       />
 
       {/* Drawer panel */}
-      <div className="fixed inset-y-0 right-0 z-50 w-full max-w-2xl flex flex-col bg-[#0d0d0d] border-l border-[#262626] shadow-2xl animate-in slide-in-from-right duration-300">
+      <div className="fixed inset-y-0 right-0 z-50 w-full max-w-2xl flex flex-col bg-[#0d0d0d] border-l border-[var(--border)] shadow-2xl animate-in slide-in-from-right duration-300">
         {/* Header */}
-        <div className="flex items-start justify-between p-5 border-b border-[#1e1e1e]" style={{ borderLeftColor: barColor, borderLeftWidth: 4 }}>
+        <div className="flex items-start justify-between p-5 border-b border-[var(--border)]" style={{ borderLeftColor: barColor, borderLeftWidth: 4 }}>
           <div>
             <p className="text-[10px] font-bold uppercase tracking-widest text-[var(--muted)]">{subject} · PYQ Questions</p>
             <h2 className="text-lg font-display font-bold text-[var(--foreground)] mt-1">
@@ -291,7 +295,7 @@ function TopicDrawer({
           </div>
           <button
             onClick={onClose}
-            className="ml-4 mt-1 rounded-lg p-2 text-[var(--muted)] hover:text-white hover:bg-[#1e1e1e] transition-all"
+            className="ml-4 mt-1 rounded-lg p-2 text-[var(--muted)] hover:text-[var(--foreground)] hover:bg-[#1e1e1e] transition-all"
           >
             <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
               <path d="M4 4l10 10M14 4L4 14" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
@@ -324,11 +328,11 @@ function TopicDrawer({
               return (
                 <div
                   key={q.id}
-                  className="rounded-xl border border-[#1e1e1e] bg-[#111] overflow-hidden transition-all"
+                  className="rounded-xl border border-[var(--border)] bg-white overflow-hidden transition-all"
                 >
                   {/* Question header */}
                   <button
-                    className="w-full text-left px-4 py-4 flex items-start gap-3 hover:bg-[#161616] transition-colors"
+                    className="w-full text-left px-4 py-4 flex items-start gap-3 hover:bg-[var(--background)] transition-colors"
                     onClick={() => setExpandedQ(isExpanded ? null : q.id)}
                   >
                     <span
@@ -364,7 +368,7 @@ function TopicDrawer({
 
                   {/* Expanded view */}
                   {isExpanded && (
-                    <div className="border-t border-[#1e1e1e] px-4 pb-4 pt-3 space-y-3">
+                    <div className="border-t border-[var(--border)] px-4 pb-4 pt-3 space-y-3">
                       {/* Full question */}
                       <p className="text-xs font-semibold text-[var(--foreground)] leading-relaxed whitespace-pre-wrap">{q.prompt.replace(/^\d+\.\s*/, '')}</p>
                       
@@ -377,13 +381,13 @@ function TopicDrawer({
                               key={opt.id}
                               className={`flex items-start gap-2.5 rounded-lg px-3 py-2.5 text-xs transition-all ${
                                 isCorrect
-                                  ? "bg-[#a3e635]/10 border border-[#a3e635]/30 text-[#a3e635]"
-                                  : "bg-[#161616] border border-[#222] text-[var(--muted)]"
+                                  ? "bg-[#C4784A]/10 border border-[#C4784A]/30 text-[#C4784A]"
+                                  : "bg-[var(--background)] border border-[#222] text-[var(--muted)]"
                               }`}
                             >
-                              <span className={`font-bold flex-shrink-0 ${isCorrect ? "text-[#a3e635]" : "text-[#555]"}`}>({opt.id})</span>
+                              <span className={`font-bold flex-shrink-0 ${isCorrect ? "text-[#C4784A]" : "text-[#555]"}`}>({opt.id})</span>
                               <span className="leading-relaxed">{opt.text}</span>
-                              {isCorrect && <span className="ml-auto flex-shrink-0 text-[#a3e635]">✓</span>}
+                              {isCorrect && <span className="ml-auto flex-shrink-0 text-[#C4784A]">✓</span>}
                             </div>
                           );
                         })}
@@ -438,7 +442,7 @@ function TopicDrawer({
         </div>
 
         {/* Footer */}
-        <div className="p-4 border-t border-[#1e1e1e]">
+        <div className="p-4 border-t border-[var(--border)]">
           <Link
             href={`/app/pyq/run?subject=${encodeURIComponent(subject)}&limit=25`}
             className="flex items-center justify-center w-full py-2.5 rounded-lg text-xs font-bold uppercase tracking-widest transition-all"
@@ -464,22 +468,30 @@ function SubjectAnalyseDashboard() {
 
   useEffect(() => {
     let active = true;
-    setLoadingMatrix(true);
-    fetch(`/api/subject-blueprint?subject=${encodeURIComponent(subject)}`)
-      .then(res => res.json())
-      .then(data => {
-        if (active && data.topics?.length > 0) {
-          setTopics(data.topics);
-        }
-        setLoadingMatrix(false);
-      })
-      .catch(() => { setLoadingMatrix(false); });
-    return () => { active = false; };
+    const timeout = window.setTimeout(() => {
+      setLoadingMatrix(true);
+      fetch(`/api/subject-blueprint?subject=${encodeURIComponent(subject)}`)
+        .then(res => res.json())
+        .then(data => {
+          if (active && data.topics?.length > 0) {
+            setTopics(data.topics);
+          }
+          if (active) setLoadingMatrix(false);
+        })
+        .catch(() => {
+          if (active) setLoadingMatrix(false);
+        });
+    }, 0);
+
+    return () => {
+      active = false;
+      window.clearTimeout(timeout);
+    };
   }, [subject]);
 
   const [selectedTopic, setSelectedTopic] = useState<string | null>(null);
   const [selectedYear, setSelectedYear] = useState<number | null>(null);
-  const [selectedBarColor, setSelectedBarColor] = useState<string>(BAR_COLORS[0] ?? "#a3e635");
+  const [selectedBarColor, setSelectedBarColor] = useState<string>(BAR_COLORS[0] ?? "#C4784A");
 
   // Derived ──────────────────────────────────────────
   const sortedTopics = [...topics].sort((a, b) => getTotal(b) - getTotal(a));
@@ -497,7 +509,7 @@ function SubjectAnalyseDashboard() {
 
   const handleBarClick = (data: unknown, index: number) => {
     const d = data as { topic: string };
-    setSelectedBarColor(BAR_COLORS[index % BAR_COLORS.length] ?? "#a3e635");
+    setSelectedBarColor(BAR_COLORS[index % BAR_COLORS.length] ?? "#C4784A");
     setSelectedYear(null);
     setSelectedTopic(d.topic);
   };
@@ -509,7 +521,7 @@ function SubjectAnalyseDashboard() {
         {/* ── Header ──────────────────────────────────────────────────────── */}
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
           <div>
-            <span className="rounded-full border border-[#333] bg-[#0e0e0e] px-3 py-1 text-[10px] font-bold uppercase tracking-widest text-[var(--muted)]">
+            <span className="rounded-full border border-[var(--border)] bg-[var(--background)] px-3 py-1 text-[10px] font-bold uppercase tracking-widest text-[var(--muted)]">
               Subject Analysis
             </span>
             <h1 className="heading text-3xl sm:text-4xl md:text-5xl text-[var(--foreground)] mt-3">
@@ -524,7 +536,7 @@ function SubjectAnalyseDashboard() {
               <select
                 value={subject}
                 onChange={e => router.push(`/pyq/subject-analyse?subject=${encodeURIComponent(e.target.value)}`)}
-                className="appearance-none rounded-lg border border-[#333] bg-[#0e0e0e] pl-4 pr-9 py-2.5 text-sm font-bold text-[var(--foreground)] outline-none focus:border-[var(--accent)] transition-colors cursor-pointer"
+                className="appearance-none rounded-lg border border-[var(--border)] bg-[var(--background)] pl-4 pr-9 py-2.5 text-sm font-bold text-[var(--foreground)] outline-none focus:border-[var(--accent)] transition-colors cursor-pointer"
               >
                 {SUBJECTS.map(s => <option key={s} value={s}>{s}</option>)}
               </select>
@@ -532,7 +544,7 @@ function SubjectAnalyseDashboard() {
                 <path d="M2 4l4 4 4-4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
             </div>
-            <Link href="/pyq" className="rounded-lg border border-[#333] bg-[#1a1a1a] px-4 py-2.5 text-xs font-bold uppercase tracking-wider text-[var(--muted)] hover:text-white hover:border-[#555] transition-all">
+            <Link href="/pyq" className="rounded-lg border border-[var(--border)] bg-[var(--background-secondary)] px-4 py-2.5 text-xs font-bold uppercase tracking-wider text-[var(--muted)] hover:text-[var(--foreground)] hover:border-[var(--accent)] transition-all">
               ← PYQ
             </Link>
           </div>
@@ -580,7 +592,7 @@ function SubjectAnalyseDashboard() {
                     if (!active || !payload?.length || !payload[0]) return null;
                     const d = payload[0].payload;
                     return (
-                      <div className="rounded-xl bg-[#1a1a1a] border border-[#333] px-4 py-3 shadow-xl text-sm">
+                      <div className="rounded-xl bg-[var(--background-secondary)] border border-[var(--border)] px-4 py-3 shadow-xl text-sm">
                         <p className="text-[10px] font-bold uppercase tracking-wider text-[var(--muted)] mb-1">{d.topic}</p>
                         <p className="font-bold text-[var(--accent)]">{d.total} Questions (2014–2025)</p>
                         <p className="text-[10px] text-[var(--muted)] mt-1">Click to browse questions →</p>
@@ -651,7 +663,7 @@ function SubjectAnalyseDashboard() {
                       className="cursor-pointer hover:bg-white/[0.02] transition-colors"
                       onClick={() => {
                         const idx = sortedTopics.findIndex(s => s.topic === t.topic);
-                        setSelectedBarColor(BAR_COLORS[idx % BAR_COLORS.length] ?? "#a3e635");
+                        setSelectedBarColor(BAR_COLORS[idx % BAR_COLORS.length] ?? "#C4784A");
                         setSelectedYear(null);
                         setSelectedTopic(t.topic);
                       }}
@@ -676,7 +688,7 @@ function SubjectAnalyseDashboard() {
                                 if (v === 0) return;
                                 e.stopPropagation();
                                 const idx = sortedTopics.findIndex(s => s.topic === t.topic);
-                                setSelectedBarColor(BAR_COLORS[idx % BAR_COLORS.length] ?? "#a3e635");
+                                setSelectedBarColor(BAR_COLORS[idx % BAR_COLORS.length] ?? "#C4784A");
                                 setSelectedYear(y);
                                 setSelectedTopic(t.topic);
                               }}

@@ -30,7 +30,9 @@
       "Bash(npx vercel:*)",
       "Bash(find /Users/mani/Desktop/upscprelimstest -maxdepth 1 -type f \\\\\\( -name \".env*\" -o -name \"*.config.*\" \\\\\\) 2>/dev/null | head -20)",
       "Bash(find:*)",
-      "Bash(grep:*)"
+      "Bash(grep:*)",
+      "Bash(vercel --yes)",
+      "Bash(vercel deploy:*)"
     ]
   }
 }

@@ -55,8 +55,8 @@ export function NotebookClient() {
   }
 
   return (
-    <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6">
-      <div className="flex flex-wrap items-start justify-between gap-4">
+    <div className="mx-auto max-w-6xl px-3 py-5 sm:px-6 sm:py-8">
+      <div className="flex flex-wrap items-start justify-between gap-3 sm:gap-4">
         <div>
           <p className="text-sm font-semibold text-[var(--accent)]">Notebook</p>
           <h1 className="heading mt-2 text-2xl">Your revision layer</h1>

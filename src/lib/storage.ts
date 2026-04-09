@@ -4,6 +4,11 @@ const ATTEMPTS_KEY = "upscprelimstest.attempts";
 const NOTEBOOK_KEY = "upscprelimstest.notebook";
 const STORAGE_EVENT = "upscprelimstest:storage-change";
 
+export type SyncedAttempts = {
+  attempts: AttemptRecord[];
+  isAuthenticated: boolean;
+};
+
 function canUseStorage() {
   return typeof window !== "undefined";
 }
@@ -94,6 +99,7 @@ export function saveAttempt(attempt: AttemptRecord) {
   const next = [attempt, ...attempts].slice(0, 30);
   window.localStorage.setItem(ATTEMPTS_KEY, JSON.stringify(next));
   emitStorageChange();
+  void syncAttemptToCloud(attempt).catch(() => undefined);
 }
 
 export function getAttemptById(id: string) {
@@ -116,4 +122,109 @@ export function saveNotebookEntry(entry: NotebookEntry) {
   const next = [entry, ...deduped].slice(0, 300);
   window.localStorage.setItem(NOTEBOOK_KEY, JSON.stringify(next));
   emitStorageChange();
+}
+
+function persistAttempts(attempts: AttemptRecord[]) {
+  if (!canUseStorage()) {
+    return;
+  }
+
+  window.localStorage.setItem(ATTEMPTS_KEY, JSON.stringify(attempts.slice(0, 30)));
+}
+
+function mergeAttempts(
+  localAttempts: AttemptRecord[],
+  cloudAttempts: AttemptRecord[],
+) {
+  const byId = new Map<string, AttemptRecord>();
+
+  for (const attempt of cloudAttempts) {
+    byId.set(attempt.id, attempt);
+  }
+  for (const attempt of localAttempts) {
+    byId.set(attempt.id, attempt);
+  }
+
+  return Array.from(byId.values()).sort(
+    (left, right) =>
+      new Date(right.completedAt).getTime() - new Date(left.completedAt).getTime(),
+  );
+}
+
+function isAttemptRecord(value: unknown): value is AttemptRecord {
+  return (
+    Boolean(value) &&
+    typeof value === "object" &&
+    !Array.isArray(value) &&
+    typeof (value as Partial<AttemptRecord>).id === "string" &&
+    typeof (value as Partial<AttemptRecord>).testSlug === "string" &&
+    typeof (value as Partial<AttemptRecord>).completedAt === "string" &&
+    Array.isArray((value as Partial<AttemptRecord>).questionReviews)
+  );
+}
+
+async function fetchCloudAttempts() {
+  const response = await fetch("/api/attempts", { cache: "no-store" });
+  if (response.status === 401) {
+    return null;
+  }
+  if (!response.ok) {
+    throw new Error("Could not fetch cloud attempts");
+  }
+
+  const data: unknown = await response.json();
+  if (
+    !data ||
+    typeof data !== "object" ||
+    !("attempts" in data) ||
+    !Array.isArray((data as { attempts: unknown }).attempts)
+  ) {
+    return [];
+  }
+
+  return (data as { attempts: unknown[] }).attempts.filter(isAttemptRecord);
+}
+
+async function syncAttemptToCloud(attempt: AttemptRecord) {
+  if (!canUseStorage()) {
+    return;
+  }
+
+  const response = await fetch("/api/attempts", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ attempt }),
+  });
+
+  if (response.status === 401) {
+    return;
+  }
+
+  if (!response.ok) {
+    throw new Error("Could not sync attempt");
+  }
+}
+
+export async function getSyncedAttempts(): Promise<SyncedAttempts> {
+  const localAttempts = getAttempts();
+
+  try {
+    const cloudAttempts = await fetchCloudAttempts();
+    if (cloudAttempts === null) {
+      return { attempts: localAttempts, isAuthenticated: false };
+    }
+
+    await Promise.allSettled(
+      localAttempts.slice(0, 30).map((attempt) => syncAttemptToCloud(attempt)),
+    );
+
+    const refreshedCloudAttempts = (await fetchCloudAttempts()) ?? cloudAttempts;
+    const attempts = mergeAttempts(localAttempts, refreshedCloudAttempts);
+    persistAttempts(attempts);
+    return { attempts, isAuthenticated: true };
+  } catch {
+    return { attempts: localAttempts, isAuthenticated: false };
+  }
 }

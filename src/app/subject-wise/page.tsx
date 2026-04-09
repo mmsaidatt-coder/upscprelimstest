@@ -2,9 +2,18 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Subject Wise Practice — UPSCPRELIMSTEST",
+  title: "UPSC Subject-wise Practice — Polity, History, Economy & More",
   description:
-    "Practice UPSC Prelims questions by subject — Polity, History, Economy, Geography, Environment, Science, and Current Affairs.",
+    "Practice UPSC Prelims questions by subject — focused drills for Polity, History, Economy, Geography, Environment, Science & Technology, and Current Affairs. Timed sessions with detailed analytics.",
+  alternates: {
+    canonical: "https://upscprelimstest.com/subject-wise",
+  },
+  openGraph: {
+    title: "UPSC Subject-wise Practice — Polity, History, Economy & More",
+    description:
+      "Subject-wise UPSC Prelims practice with focused drills and analytics.",
+    url: "https://upscprelimstest.com/subject-wise",
+  },
 };
 
 export default function SubjectWisePage() {

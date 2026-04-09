@@ -1,5 +1,6 @@
 import type { NextRequest } from "next/server";
 import { NextResponse } from "next/server";
+import { updateSession } from "@/lib/supabase/middleware";
 
 export function middleware(request: NextRequest) {
   const host = request.headers.get("host") ?? "";
@@ -12,7 +13,7 @@ export function middleware(request: NextRequest) {
     return NextResponse.redirect(url, 308);
   }
 
-  return NextResponse.next();
+  return updateSession(request);
 }
 
 export const config = {

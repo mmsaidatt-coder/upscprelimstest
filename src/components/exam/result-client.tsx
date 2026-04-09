@@ -6,7 +6,12 @@ import { PacingChart } from "@/components/charts/pacing-chart";
 import { RadarChart } from "@/components/charts/radar-chart";
 import { tests } from "@/data/tests";
 import { formatDuration, formatSeconds, subjectColorMap } from "@/lib/exam";
-import { getAttempts, getNotebookEntries, saveNotebookEntry, subscribeToStorage } from "@/lib/storage";
+import {
+  getNotebookEntries,
+  getSyncedAttempts,
+  saveNotebookEntry,
+  subscribeToStorage,
+} from "@/lib/storage";
 import type { AttemptRecord, NotebookEntry } from "@/lib/types";
 
 function createNotebookId() {
@@ -26,7 +31,7 @@ function GuestBanner() {
       <div className="mt-3 flex gap-2">
         <Link
           href="/login"
-          className="rounded-lg bg-[var(--accent)] px-4 py-2 text-xs font-bold text-black hover:opacity-90"
+          className="rounded-lg bg-[var(--accent)] px-4 py-2 text-xs font-bold text-white hover:opacity-90"
         >
           Sign in
         </Link>
@@ -45,15 +50,29 @@ export function ResultClient({ attemptId }: { attemptId: string }) {
   const [hydrated, setHydrated] = useState(false);
   const [attempts, setAttempts] = useState<AttemptRecord[]>([]);
   const [notebookEntries, setNotebookEntries] = useState<NotebookEntry[]>([]);
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
 
   useEffect(() => {
-    const hydrate = () => {
+    let active = true;
+
+    const hydrate = async () => {
+      const synced = await getSyncedAttempts();
+      if (!active) return;
       setHydrated(true);
-      setAttempts(getAttempts());
+      setAttempts(synced.attempts);
+      setIsAuthenticated(synced.isAuthenticated);
       setNotebookEntries(getNotebookEntries());
     };
-    hydrate();
-    return subscribeToStorage(hydrate);
+
+    void hydrate();
+    const unsubscribe = subscribeToStorage(() => {
+      void hydrate();
+    });
+
+    return () => {
+      active = false;
+      unsubscribe();
+    };
   }, []);
 
   const attempt = useMemo(
@@ -77,8 +96,7 @@ export function ResultClient({ attemptId }: { attemptId: string }) {
     return null;
   }, [attempt, test]);
 
-  // Guest = no prior test history beyond this attempt (stored only in localStorage from this session).
-  const isGuest = hydrated && attempts.length <= 1;
+  const isGuest = hydrated && !isAuthenticated;
 
   if (!hydrated) {
     return (
@@ -117,13 +135,13 @@ export function ResultClient({ attemptId }: { attemptId: string }) {
   const saveToNotebook = (entry: NotebookEntry) => saveNotebookEntry(entry);
 
   return (
-    <div className="mx-auto max-w-6xl space-y-6 px-4 py-8 sm:px-6">
+    <div className="mx-auto max-w-6xl space-y-4 px-3 py-5 sm:space-y-6 sm:px-6 sm:py-8">
       {/* Hero */}
-      <div className="card p-6">
-        <div className="flex flex-wrap items-start justify-between gap-4">
-          <div className="max-w-lg">
-            <p className="text-sm font-semibold text-[var(--accent)]">Result</p>
-            <h1 className="heading mt-2 text-2xl md:text-3xl">{attempt.testTitle}</h1>
+      <div className="card p-4 sm:p-6">
+        <div className="flex flex-wrap items-start justify-between gap-3 sm:gap-4">
+          <div className="max-w-lg min-w-0 flex-1">
+            <p className="text-xs font-semibold text-[var(--accent)] sm:text-sm">Result</p>
+            <h1 className="heading mt-1.5 text-xl sm:mt-2 sm:text-2xl md:text-3xl">{attempt.testTitle}</h1>
             <p className="mt-2 text-sm leading-6 text-[var(--muted)]">
               {attempt.grading === "ungraded" ? (
                 <>Ungraded. {attempt.attemptedCount}/{attempt.questionReviews.length} attempted.</>
@@ -138,19 +156,19 @@ export function ResultClient({ attemptId }: { attemptId: string }) {
           </div>
 
           {attempt.score !== null ? (
-            <div className="rounded-xl bg-[var(--foreground)] px-5 py-4 text-white">
-              <p className="text-[11px] font-semibold uppercase tracking-wider text-white/60">Score</p>
-              <p className="mt-1 text-3xl font-bold">
-                {attempt.score}<span className="text-base text-white/50">/{scoreDenominator}</span>
+            <div className="rounded-xl bg-[var(--foreground)] px-4 py-3 text-white sm:px-5 sm:py-4">
+              <p className="text-[10px] font-semibold uppercase tracking-wider text-white/60 sm:text-[11px]">Score</p>
+              <p className="mt-0.5 text-2xl font-bold sm:mt-1 sm:text-3xl">
+                {attempt.score}<span className="text-sm text-white/50 sm:text-base">/{scoreDenominator}</span>
               </p>
               {attempt.percentileEstimate !== null && (
                 <p className="mt-1 text-xs text-white/60">{attempt.percentileEstimate} percentile</p>
               )}
             </div>
           ) : (
-            <div className="rounded-xl bg-[var(--foreground)] px-5 py-4 text-white">
-              <p className="text-[11px] font-semibold uppercase tracking-wider text-white/60">Status</p>
-              <p className="mt-1 text-2xl font-bold">Ungraded</p>
+            <div className="rounded-xl bg-[var(--foreground)] px-4 py-3 text-white sm:px-5 sm:py-4">
+              <p className="text-[10px] font-semibold uppercase tracking-wider text-white/60 sm:text-[11px]">Status</p>
+              <p className="mt-0.5 text-xl font-bold sm:mt-1 sm:text-2xl">Ungraded</p>
               <p className="mt-1 text-xs text-white/60">No answer key yet</p>
             </div>
           )}
@@ -205,10 +223,10 @@ export function ResultClient({ attemptId }: { attemptId: string }) {
       </div>
 
       {/* Charts */}
-      <div className="grid gap-4 xl:grid-cols-3">
+      <div className="grid gap-3 sm:gap-4 xl:grid-cols-3">
         <RadarChart data={radarData} />
         <PacingChart data={paceData} />
-        <div className="card p-5">
+        <div className="card p-4 sm:p-5">
           <p className="text-sm font-semibold text-[var(--foreground)]">Subject breakdown</p>
           {subjectRank.length ? (
             <div className="mt-4 space-y-3">
@@ -246,11 +264,11 @@ export function ResultClient({ attemptId }: { attemptId: string }) {
         <p className="label">Review mode</p>
         <h2 className="heading mt-2 text-xl">Question-by-question review</h2>
 
-        <div className="mt-4 space-y-3">
+        <div className="mt-3 space-y-2 sm:mt-4 sm:space-y-3">
           {attempt.questionReviews.map((review, index) => (
             <details key={review.questionId} open={index === 0} className="card overflow-hidden">
-              <summary className="cursor-pointer p-5">
-                <div className="flex flex-wrap items-start justify-between gap-3">
+              <summary className="cursor-pointer p-3 sm:p-5">
+                <div className="flex flex-wrap items-start justify-between gap-2 sm:gap-3">
                   <div>
                     <div className="flex flex-wrap items-center gap-2">
                       <span className="badge rounded-md px-2 py-0.5 text-[11px]">Q{index + 1}</span>
@@ -288,7 +306,7 @@ export function ResultClient({ attemptId }: { attemptId: string }) {
                 </div>
               </summary>
 
-              <div className="border-t border-[var(--border)] px-5 pb-5 pt-4">
+              <div className="border-t border-[var(--border)] px-3 pb-4 pt-3 sm:px-5 sm:pb-5 sm:pt-4">
                 {review.contextLines?.length ? (
                   <div className="mb-4 rounded-lg bg-[var(--background-secondary)] p-4">
                     {review.contextLines.map((line) => (

@@ -11,9 +11,8 @@ import {
   formatDuration,
   subjectColorMap,
 } from "@/lib/exam";
-import { getAttempts, getNotebookEntries, subscribeToStorage } from "@/lib/storage";
+import { getNotebookEntries, getSyncedAttempts, subscribeToStorage } from "@/lib/storage";
 import type { AttemptRecord, NotebookEntry } from "@/lib/types";
-import { createClient } from "@/lib/supabase/client";
 
 export function DashboardOverview() {
   const [attempts, setAttempts] = useState<AttemptRecord[]>([]);
@@ -32,46 +31,33 @@ export function DashboardOverview() {
   const [hydrated, setHydrated] = useState(false);
 
   useEffect(() => {
-    const supabase = createClient();
-    supabase.auth.getUser().then(({ data }) => {
-      setIsAuthenticated(!!data.user);
-    });
+    let active = true;
 
-    const hydrate = () => {
+    const hydrate = async () => {
+      const synced = await getSyncedAttempts();
+      if (!active) return;
       setHydrated(true);
-      setAttempts(getAttempts());
+      setAttempts(synced.attempts);
+      setIsAuthenticated(synced.isAuthenticated);
       setNotebookEntries(getNotebookEntries());
     };
 
-    hydrate();
-    return subscribeToStorage(hydrate);
+    void hydrate();
+    const unsubscribe = subscribeToStorage(() => {
+      void hydrate();
+    });
+
+    return () => {
+      active = false;
+      unsubscribe();
+    };
   }, []);
 
-  if (!hydrated || isAuthenticated === null) {
+  if (!hydrated) {
     return (
       <section className="grid gap-4 lg:grid-cols-[1.2fr_0.8fr]">
         <div className="card h-[250px] animate-pulse bg-[var(--background-secondary)]"></div>
         <div className="card h-[250px] animate-pulse bg-[var(--background-secondary)]"></div>
-      </section>
-    );
-  }
-
-  if (!isAuthenticated) {
-    return (
-      <section className="card flex flex-col items-center justify-center p-12 text-center border-dashed border-[var(--border)] bg-transparent">
-        <div className="flex h-16 w-16 items-center justify-center rounded-full bg-[var(--background-secondary)] mb-6 text-2xl">
-          🔒
-        </div>
-        <h2 className="heading text-3xl mb-3">Login to view dashboard</h2>
-        <p className="max-w-md text-[var(--muted)] mb-8 leading-7">
-          Your personal student history, test analytics, and readiness signals require an account. Login to sync your practice data securely.
-        </p>
-        <Link
-          href="/login?next=/app"
-          className="rounded-lg bg-[var(--accent)] px-6 py-3 text-sm font-bold text-[var(--foreground)] hover:bg-[var(--accent)]/90 transition-colors uppercase tracking-widest"
-        >
-          Login or Sign up
-        </Link>
       </section>
     );
   }
@@ -79,18 +65,36 @@ export function DashboardOverview() {
   // Fresh state
   if (!latestAttempt) {
     const firstTest = tests[0]!;
+    const isGuest = !isAuthenticated;
+    const summaryCards = isGuest
+      ? [
+          { label: "Access", value: "Open", note: "Start tests immediately" },
+          { label: "History", value: "Local", note: "Sign in to sync later" },
+          { label: "Exam mode", value: "On", note: "Timer + negative marking live" },
+        ]
+      : [
+          { label: "Daily streak", value: "0", note: "Starts after first session" },
+          { label: "Notebook", value: "0", note: "Save high-signal takeaways" },
+          { label: "Exam mode", value: "On", note: "Timer + negative marking live" },
+        ];
+
     return (
-      <section className="grid gap-4 lg:grid-cols-[1.2fr_0.8fr]">
-        <div className="card p-6">
-          <p className="text-sm font-semibold text-[var(--accent)]">Welcome</p>
-          <h1 className="heading mt-2 text-2xl md:text-3xl">
-            Your dashboard starts empty on purpose.
-          </h1>
-          <p className="mt-3 max-w-lg text-sm leading-6 text-[var(--muted)]">
-            Take your first test and the app will unlock readiness signals,
-            pacing diagnostics, and a personal notebook.
+      <section className="grid gap-3 sm:gap-4 lg:grid-cols-[1.2fr_0.8fr]">
+        <div className="card p-4 sm:p-6">
+          <p className="text-xs font-semibold text-[var(--accent)] sm:text-sm">
+            {isGuest ? "Open practice" : "Welcome"}
           </p>
-          <div className="mt-5 flex gap-3">
+          <h1 className="heading mt-1.5 text-xl sm:mt-2 sm:text-2xl md:text-3xl">
+            {isGuest
+              ? "Start a test without login."
+              : "Your dashboard starts empty on purpose."}
+          </h1>
+          <p className="mt-2 max-w-lg text-sm leading-6 text-[var(--muted)] sm:mt-3">
+            {isGuest
+              ? "Take mocks and PYQs now. Sign in only when you want to save history, sync across devices, and build long-term analytics."
+              : "Take your first test and the app will unlock readiness signals, pacing diagnostics, and a personal notebook."}
+          </p>
+          <div className="mt-5 flex flex-wrap gap-3">
             <Link
               href={`/app/exams/${firstTest.slug}`}
               className="rounded-lg bg-[var(--accent)] px-4 py-2 text-sm font-medium text-white hover:bg-[var(--accent-hover)]"
@@ -103,15 +107,19 @@ export function DashboardOverview() {
             >
               PYQ library
             </Link>
+            {isGuest ? (
+              <Link
+                href="/login?next=/app"
+                className="rounded-lg border border-[var(--border)] px-4 py-2 text-sm font-medium text-[var(--muted)] hover:bg-[var(--background-secondary)] hover:text-[var(--foreground)]"
+              >
+                Sign in to save history
+              </Link>
+            ) : null}
           </div>
         </div>
 
         <div className="grid gap-3 sm:grid-cols-3 lg:grid-cols-1">
-          {[
-            { label: "Daily streak", value: "0", note: "Starts after first session" },
-            { label: "Notebook", value: "0", note: "Save high-signal takeaways" },
-            { label: "Exam mode", value: "On", note: "Timer + negative marking live" },
-          ].map((item) => (
+          {summaryCards.map((item) => (
             <div key={item.label} className="card p-4">
               <p className="text-xs text-[var(--muted)]">{item.label}</p>
               <p className="mt-1 text-2xl font-bold text-[var(--foreground)]">{item.value}</p>
@@ -184,13 +192,13 @@ export function DashboardOverview() {
       : latestScoredAttempt.gradedTotalMarks;
 
   return (
-    <section className="space-y-6">
-      <div className="grid gap-4 lg:grid-cols-[1.2fr_0.8fr]">
-        <div className="card p-6">
-          <div className="flex flex-wrap items-start justify-between gap-4">
-            <div className="max-w-lg">
-              <p className="text-sm font-semibold text-[var(--accent)]">Latest result</p>
-              <h1 className="heading mt-2 text-2xl">
+    <section className="space-y-4 sm:space-y-6">
+      <div className="grid gap-3 sm:gap-4 lg:grid-cols-[1.2fr_0.8fr]">
+        <div className="card p-4 sm:p-6">
+          <div className="flex flex-wrap items-start justify-between gap-3 sm:gap-4">
+            <div className="max-w-lg min-w-0 flex-1">
+              <p className="text-xs font-semibold text-[var(--accent)] sm:text-sm">Latest result</p>
+              <h1 className="heading mt-1.5 text-xl sm:mt-2 sm:text-2xl">
                 {latestScoredAttempt.testTitle}
               </h1>
               <p className="mt-2 text-sm leading-6 text-[var(--muted)]">
@@ -208,15 +216,15 @@ export function DashboardOverview() {
               </p>
             </div>
 
-            <div className="rounded-xl bg-[var(--foreground)] px-5 py-4 text-white">
-              <p className="text-[11px] font-semibold uppercase tracking-wider text-white/60">
+            <div className="rounded-xl bg-[var(--foreground)] px-4 py-3 text-white sm:px-5 sm:py-4">
+              <p className="text-[10px] font-semibold uppercase tracking-wider text-white/60 sm:text-[11px]">
                 Score
               </p>
-              <p className="mt-1 text-3xl font-bold">
+              <p className="mt-0.5 text-2xl font-bold sm:mt-1 sm:text-3xl">
                 {latestScoredAttempt.score}
-                <span className="text-base text-white/50">/{scoreDenominator}</span>
+                <span className="text-sm text-white/50 sm:text-base">/{scoreDenominator}</span>
               </p>
-              <p className="mt-1 text-xs text-white/60">
+              <p className="mt-0.5 text-[10px] text-white/60 sm:mt-1 sm:text-xs">
                 {formatDuration(latestScoredAttempt.durationSeconds)}
               </p>
             </div>
@@ -242,11 +250,11 @@ export function DashboardOverview() {
         </div>
       </div>
 
-      <div className="grid gap-4 xl:grid-cols-3">
+      <div className="grid gap-3 sm:gap-4 xl:grid-cols-3">
         <RadarChart data={radarData} />
         <PacingChart data={paceData} />
 
-        <div className="card p-5">
+        <div className="card p-4 sm:p-5">
           <p className="text-sm font-semibold text-[var(--foreground)]">Weak areas</p>
           <p className="mt-1 text-xs text-[var(--muted)]">
             Prioritize subjects with low accuracy.

@@ -194,16 +194,16 @@ const MOCK_DATA: Record<number, YearData> = {
 const YEARS = Object.keys(MOCK_DATA).map(Number).sort((a, b) => b - a);
 
 // ─── Color Palette ───────────────────────────────────────────────────────────
-const ACCENT = "#a3e635";
-const SUBJECT_COLORS = ["#a3e635","#34d399","#60a5fa","#f472b6","#fb923c","#a78bfa","#fbbf24"];
-const PIE_COLORS = { static: "#60a5fa", current: "#f472b6", integrated: "#a3e635" };
-const ERROR_COLORS = ["#f87171","#fb923c","#fbbf24","#a3e635"];
+const ACCENT = "#C4784A";
+const SUBJECT_COLORS = ["#C4784A","#34d399","#60a5fa","#f472b6","#fb923c","#a78bfa","#fbbf24"];
+const PIE_COLORS = { static: "#60a5fa", current: "#f472b6", integrated: "#C4784A" };
+const ERROR_COLORS = ["#f87171","#fb923c","#fbbf24","#C4784A"];
 
 // ─── Custom Tooltip ───────────────────────────────────────────────────────────
 function CustomTooltip({ active, payload, label }: { active?: boolean; payload?: Array<{value: number; name?: string; color?: string;}> ; label?: string }) {
   if (!active || !payload?.length) return null;
   return (
-    <div className="rounded-xl bg-[#1a1a1a] border border-[#333] px-4 py-3 shadow-xl text-sm">
+    <div className="rounded-xl bg-[var(--background-secondary)] border border-[var(--border)] px-4 py-3 shadow-xl text-sm">
       {label && <p className="text-[var(--muted)] font-bold mb-1 uppercase tracking-wider text-[10px]">{label}</p>}
       {payload.map((p, i) => (
         <p key={i} style={{ color: p.color ?? ACCENT }} className="font-semibold">
@@ -217,7 +217,7 @@ function CustomTooltip({ active, payload, label }: { active?: boolean; payload?:
 // ─── KPI Card ─────────────────────────────────────────────────────────────────
 function KpiCard({ label, value, sub }: { label: string; value: string | number; sub: string }) {
   return (
-    <div className="rounded-xl bg-[var(--background-secondary)] border border-[#262626] p-5 hover:border-[#444] transition-all">
+    <div className="rounded-xl bg-[var(--background-secondary)] border border-[var(--border)] p-5 hover:border-[var(--accent)]/40 transition-all">
       <p className="text-[10px] font-bold uppercase tracking-widest text-[var(--muted)]">{label}</p>
       <p className="text-3xl font-display font-bold mt-2 text-[var(--accent)]">{value}</p>
       <p className="text-xs text-[var(--muted)] mt-1">{sub}</p>
@@ -228,7 +228,7 @@ function KpiCard({ label, value, sub }: { label: string; value: string | number;
 // ─── Section Wrapper ──────────────────────────────────────────────────────────
 function Section({ title, subtitle, children }: { title: string; subtitle?: string; children: React.ReactNode }) {
   return (
-    <div className="rounded-xl bg-[var(--background-secondary)] border border-[#262626] p-6">
+    <div className="rounded-xl bg-[var(--background-secondary)] border border-[var(--border)] p-6">
       <p className="text-base font-bold uppercase tracking-wider text-[var(--foreground)]">{title}</p>
       {subtitle && <p className="text-xs text-[var(--muted)] mt-1 mb-4">{subtitle}</p>}
       {!subtitle && <div className="mb-4" />}
@@ -240,12 +240,12 @@ function Section({ title, subtitle, children }: { title: string; subtitle?: stri
 // ─── Heatmap Cell ─────────────────────────────────────────────────────────────
 function HeatCell({ value, max }: { value: number; max: number }) {
   const intensity = max > 0 ? value / max : 0;
-  const bg = intensity < 0.2 ? "#1a1a1a"
-    : intensity < 0.4 ? "#1e3a1e"
-    : intensity < 0.6 ? "#2a5c1a"
-    : intensity < 0.8 ? "#4a8a1a"
-    : "#a3e635";
-  const text = intensity > 0.6 ? "#000" : "#aaa";
+  const bg = intensity < 0.2 ? "#EDE9E3"
+    : intensity < 0.4 ? "#E8D5C4"
+    : intensity < 0.6 ? "#D4A574"
+    : intensity < 0.8 ? "#C4784A"
+    : "#9A5A32";
+  const text = intensity > 0.6 ? "#fff" : "#6B7280";
   return (
     <div
       className="w-full h-9 rounded flex items-center justify-center text-xs font-bold transition-all cursor-default"
@@ -326,12 +326,12 @@ function AnalyseDashboard() {
         {/* ── Page Header ─────────────────────────────────────────────────── */}
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
           <div>
-            <span className="rounded-full border border-[#333] bg-[#0e0e0e] px-3 py-1 text-[10px] font-bold uppercase tracking-widest text-[var(--muted)]">
+            <span className="rounded-full border border-[var(--border)] bg-[var(--background)] px-3 py-1 text-[10px] font-bold uppercase tracking-widest text-[var(--muted)]">
               QP Analysis
             </span>
             <h1 className="heading text-4xl md:text-5xl text-[var(--foreground)] mt-3">
               PYQ ANALYSIS{" "}
-              <span className="text-[var(--accent)] drop-shadow-[0_0_15px_rgba(163,230,53,0.3)]">
+              <span className="text-[var(--accent)] drop-shadow-sm">
                 DASHBOARD
               </span>
             </h1>
@@ -347,7 +347,7 @@ function AnalyseDashboard() {
               <select
                 value={selectedYear}
                 onChange={(e) => setSelectedYear(Number(e.target.value))}
-                className="appearance-none rounded-lg border border-[#333] bg-[#0e0e0e] pl-4 pr-9 py-2.5 text-sm font-bold text-[var(--foreground)] outline-none focus:border-[var(--accent)] transition-colors cursor-pointer"
+                className="appearance-none rounded-lg border border-[var(--border)] bg-[var(--background)] pl-4 pr-9 py-2.5 text-sm font-bold text-[var(--foreground)] outline-none focus:border-[var(--accent)] transition-colors cursor-pointer"
               >
                 {YEARS.map((y) => (
                   <option key={y} value={y}>{y}</option>
@@ -362,7 +362,7 @@ function AnalyseDashboard() {
             </div>
             <Link
               href="/pyq"
-              className="rounded-lg border border-[#333] bg-[#1a1a1a] px-4 py-2.5 text-xs font-bold uppercase tracking-wider text-[var(--muted)] hover:text-white hover:border-[#555] transition-all"
+              className="rounded-lg border border-[var(--border)] bg-[var(--background-secondary)] px-4 py-2.5 text-xs font-bold uppercase tracking-wider text-[var(--muted)] hover:text-[var(--foreground)] hover:border-[var(--accent)] transition-all"
             >
               ← PYQ
             </Link>
@@ -398,7 +398,7 @@ function AnalyseDashboard() {
                     if (!active || !payload?.length || !payload[0]) return null;
                     const d = payload[0].payload;
                     return (
-                      <div className="rounded-xl bg-[#1a1a1a] border border-[#333] px-4 py-3 shadow-xl text-sm">
+                      <div className="rounded-xl bg-[var(--background-secondary)] border border-[var(--border)] px-4 py-3 shadow-xl text-sm">
                         <p className="text-[10px] font-bold uppercase tracking-wider text-[var(--muted)] mb-1">{d.fullSubject}</p>
                         <p className="font-bold text-[var(--accent)]">{d.count} Questions</p>
                       </div>
@@ -476,9 +476,9 @@ function AnalyseDashboard() {
                         : intensity < 0.35 ? "#1a3a1a"
                         : intensity < 0.55 ? "#275c1a"
                         : intensity < 0.75 ? "#3d8020"
-                        : "#a3e635";
+                        : "#C4784A";
                       const fg = intensity > 0.65 ? "#000" : "#999";
-                      const ring = y === selectedYear ? "2px solid #a3e635" : "none";
+                      const ring = y === selectedYear ? "2px solid #C4784A" : "none";
                       return (
                         <td key={y} className="px-[2px] py-[3px]">
                           <div

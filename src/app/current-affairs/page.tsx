@@ -6,9 +6,18 @@ import {
 } from "@/lib/current-affairs";
 
 export const metadata: Metadata = {
-  title: "Current Affairs Repository — UPSCPRELIMSTEST",
+  title: "UPSC Current Affairs Practice Tests — PT365 Repository",
   description:
-    "Take subject-wise current-affairs tests built from the reviewed PT365 repository across Environment, Economy, History, Polity, Science, Geography, and more.",
+    "Practice UPSC Prelims current affairs with subject-wise tests from the PT365 repository. Covers Environment, Economy, History, Polity, Science, Geography — timed sessions with analytics.",
+  alternates: {
+    canonical: "https://upscprelimstest.com/current-affairs",
+  },
+  openGraph: {
+    title: "UPSC Current Affairs Practice Tests — PT365 Repository",
+    description:
+      "Subject-wise current affairs practice for UPSC Prelims from the PT365 repository.",
+    url: "https://upscprelimstest.com/current-affairs",
+  },
 };
 
 export default async function CurrentAffairsPage() {
@@ -22,14 +31,14 @@ export default async function CurrentAffairsPage() {
           <div className="absolute top-1/2 left-1/2 -z-10 h-64 w-64 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[var(--accent)]/10 blur-[80px] pointer-events-none" />
 
           <div className="mb-6 flex justify-center">
-            <span className="rounded-full border border-[#333] bg-[#0e0e0e] px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-[var(--muted)]">
+            <span className="rounded-full border border-[var(--border)] bg-[var(--background)] px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-[var(--muted)]">
               Current affairs repository
             </span>
           </div>
 
           <h1 className="heading mt-2 mb-6 text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-[var(--foreground)]">
             SUBJECT-WISE{" "}
-            <span className="text-[var(--accent)] drop-shadow-[0_0_15px_rgba(163,230,53,0.3)]">
+            <span className="text-[var(--accent)] drop-shadow-sm">
               CURRENT AFFAIRS
             </span>
           </h1>
@@ -62,7 +71,7 @@ export default async function CurrentAffairsPage() {
             return (
               <div
                 key={section.subject}
-                className="group relative flex h-full flex-col gap-5 rounded-[1rem] border-2 border-[#262626] bg-[var(--background-secondary)] p-6 transition-all hover:border-[#333] hover:bg-[var(--background)] hover:shadow-[0_0_30px_rgba(0,0,0,0.45)]"
+                className="group relative flex h-full flex-col gap-5 rounded-[1rem] border-2 border-[var(--border)] bg-[var(--background-secondary)] p-6 transition-all hover:border-[var(--border)] hover:bg-[var(--background)] hover:shadow-[0_0_30px_rgba(0,0,0,0.45)]"
               >
                 <div className="absolute inset-x-6 top-0 h-px bg-gradient-to-r from-transparent via-[var(--accent)]/50 to-transparent opacity-0 transition-opacity group-hover:opacity-100" />
 
@@ -94,13 +103,13 @@ export default async function CurrentAffairsPage() {
                 <div className="mx-auto grid w-full max-w-[520px] grid-cols-2 gap-3 pt-1">
                   <Link
                     href={`/app/exams/${buildCurrentAffairsExamSlug(section.subject, 25)}`}
-                    className="flex min-h-14 items-center justify-center rounded-xl border border-[#333] bg-[#181818] px-4 py-3 text-xs font-bold uppercase tracking-[0.2em] text-[var(--muted)] transition-all hover:border-[#555] hover:bg-[#222] hover:text-white"
+                    className="flex min-h-14 items-center justify-center rounded-xl border border-[var(--border)] bg-white px-4 py-3 text-xs font-bold uppercase tracking-[0.2em] text-[var(--muted)] transition-all hover:border-[var(--accent)] hover:bg-[#F0EBE4] hover:text-[var(--foreground)]"
                   >
                     25Q test
                   </Link>
                   <Link
                     href={`/app/exams/${buildCurrentAffairsExamSlug(section.subject, 50)}`}
-                    className="flex min-h-14 items-center justify-center rounded-xl border border-[var(--accent)]/30 bg-[var(--accent)]/10 px-4 py-3 text-xs font-bold uppercase tracking-[0.2em] text-[var(--accent)] transition-all hover:border-[var(--accent)] hover:bg-[var(--accent)] hover:text-black"
+                    className="flex min-h-14 items-center justify-center rounded-xl border border-[var(--accent)]/30 bg-[var(--accent)]/10 px-4 py-3 text-xs font-bold uppercase tracking-[0.2em] text-[var(--accent)] transition-all hover:border-[var(--accent)] hover:bg-[var(--accent)] hover:text-white"
                   >
                     50Q test
                   </Link>

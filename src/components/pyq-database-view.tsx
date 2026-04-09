@@ -54,7 +54,6 @@ export function PyqDatabaseView() {
 
   useEffect(() => {
     let active = true;
-    setLoading(true);
     fetch("/api/pyq/database")
       .then((res) => res.json())
       .then((data) => {
@@ -80,7 +79,8 @@ export function PyqDatabaseView() {
 
   // Reset pagination when filters change
   useEffect(() => {
-    setPage(1);
+    const timeout = window.setTimeout(() => setPage(1), 0);
+    return () => window.clearTimeout(timeout);
   }, [searchQuery, selectedSubject, selectedYear]);
 
   // Instantaneous Client-Side Filtering
@@ -131,18 +131,18 @@ export function PyqDatabaseView() {
   return (
     <div className="w-full animate-in fade-in duration-500">
       {/* ── Filter Bar ────────────────────────────────────────────── */}
-      <div className="flex flex-col md:flex-row items-center gap-3 mb-6 bg-[var(--background-secondary)] p-4 rounded-xl border border-[#262626] sticky top-4 z-20 shadow-xl">
+      <div className="flex flex-col gap-2.5 mb-5 bg-[var(--background-secondary)] p-3 rounded-xl border border-[var(--border)] sticky top-14 z-20 shadow-md sm:sticky sm:top-4 sm:p-4 sm:gap-3 md:flex-row md:items-center sm:mb-6">
         {/* Search */}
         <div className="relative flex-1 w-full">
           <input
             type="text"
-            placeholder="Search keywords, topics, or question text..."
-            className="w-full bg-[#111] border border-[#333] rounded-lg py-3 pl-11 pr-4 text-sm font-medium text-[var(--foreground)] placeholder-[#555] focus:outline-none focus:border-[var(--accent)] transition-all"
+            placeholder="Search keywords, topics..."
+            className="w-full bg-white border border-[var(--border)] rounded-lg py-2.5 pl-10 pr-4 text-sm font-medium text-[var(--foreground)] placeholder-[var(--muted)] focus:outline-none focus:border-[var(--accent)] transition-all sm:py-3 sm:pl-11"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
           />
           <svg
-            className="absolute left-4 top-1/2 -translate-y-1/2 text-[#555]"
+            className="absolute left-4 top-1/2 -translate-y-1/2 text-[var(--muted)]"
             width="18"
             height="18"
             viewBox="0 0 24 24"
@@ -158,7 +158,7 @@ export function PyqDatabaseView() {
           {searchQuery && (
             <button 
               onClick={() => setSearchQuery("")}
-              className="absolute right-4 top-1/2 -translate-y-1/2 text-[#555] hover:text-white"
+              className="absolute right-4 top-1/2 -translate-y-1/2 text-[var(--muted)] hover:text-[var(--foreground)]"
             >
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
             </button>
@@ -166,9 +166,9 @@ export function PyqDatabaseView() {
         </div>
 
         {/* Filters */}
-        <div className="flex flex-wrap items-center gap-3 w-full md:w-auto">
+        <div className="grid grid-cols-2 gap-2 w-full md:flex md:w-auto md:gap-3">
           <select
-            className="flex-1 md:flex-none appearance-none bg-[#111] border border-[#333] rounded-lg py-3 pl-4 pr-10 text-sm font-semibold text-[var(--foreground)] outline-none focus:border-[var(--accent)] transition-all cursor-pointer"
+            className="w-full md:w-auto appearance-none bg-white border border-[var(--border)] rounded-lg py-2.5 pl-3 pr-8 text-sm font-semibold text-[var(--foreground)] outline-none focus:border-[var(--accent)] transition-all cursor-pointer sm:py-3 sm:pl-4 sm:pr-10"
             value={selectedSubject}
             onChange={(e) => setSelectedSubject(e.target.value)}
           >
@@ -177,7 +177,7 @@ export function PyqDatabaseView() {
             ))}
           </select>
           <select
-            className="flex-1 md:flex-none appearance-none bg-[#111] border border-[#333] rounded-lg py-3 pl-4 pr-10 text-sm font-semibold text-[var(--foreground)] outline-none focus:border-[var(--accent)] transition-all cursor-pointer"
+            className="w-full md:w-auto appearance-none bg-white border border-[var(--border)] rounded-lg py-2.5 pl-3 pr-8 text-sm font-semibold text-[var(--foreground)] outline-none focus:border-[var(--accent)] transition-all cursor-pointer sm:py-3 sm:pl-4 sm:pr-10"
             value={selectedYear}
             onChange={(e) => setSelectedYear(e.target.value)}
           >
@@ -199,14 +199,14 @@ export function PyqDatabaseView() {
         {loading ? (
           // Skeletons
           Array.from({ length: 5 }).map((_, i) => (
-            <div key={i} className="rounded-xl border border-[#262626] bg-[#111] h-24 animate-pulse"></div>
+            <div key={i} className="rounded-xl border border-[var(--border)] bg-white h-24 animate-pulse"></div>
           ))
         ) : error ? (
           <div className="p-10 text-center border border-red-500/30 rounded-xl bg-red-500/10 text-red-400">
             <p>Error loading database: {error}</p>
           </div>
         ) : displayedQuestions.length === 0 ? (
-          <div className="p-20 text-center flex flex-col items-center border border-[#262626] rounded-xl bg-[var(--background-secondary)]">
+          <div className="p-20 text-center flex flex-col items-center border border-[var(--border)] rounded-xl bg-[var(--background-secondary)]">
             <span className="text-4xl mb-3">🔍</span>
             <p className="font-bold text-lg text-[var(--foreground)]">No matches found</p>
             <p className="text-sm text-[var(--muted)] mt-1">Try adjusting your filters or search terms.</p>
@@ -224,16 +224,16 @@ export function PyqDatabaseView() {
             return (
               <div
                 key={q.id}
-                className="rounded-xl border border-[#262626] bg-[var(--background-secondary)] overflow-hidden transition-all shadow-sm hover:border-[#444]"
+                className="rounded-xl border border-[var(--border)] bg-[var(--background-secondary)] overflow-hidden transition-all shadow-sm hover:border-[var(--accent)]/40"
               >
                 {/* Header (Clickable) */}
                 <button
-                  className="w-full text-left px-4 sm:px-5 py-4 flex items-start gap-4 hover:bg-[#111] transition-colors"
+                  className="w-full text-left px-3 py-3 flex items-start gap-3 hover:bg-white transition-colors sm:px-5 sm:py-4 sm:gap-4"
                   onClick={() => setExpandedQ(isExpanded ? null : q.id)}
                 >
                   <span
                     className="flex-shrink-0 text-xs font-bold rounded-lg w-8 h-8 flex items-center justify-center mt-1"
-                    style={{ background: "#222", color: "#888", border: "1px solid #333" }}
+                    style={{ background: "#F0EBE4", color: "#6B7280", border: "1px solid #E5E0DA" }}
                   >
                     {idx + 1}
                   </span>
@@ -243,19 +243,19 @@ export function PyqDatabaseView() {
                       
                       {q.topic && (
                         <>
-                          <span className="text-xs text-[#444]">•</span>
+                          <span className="text-xs text-[var(--muted)]">•</span>
                           <span className="text-xs font-bold uppercase tracking-wider text-[var(--accent)]">{q.topic}</span>
                         </>
                       )}
 
                       {q.question_type && (
-                        <span className="text-[10px] font-bold uppercase tracking-wide px-1.5 py-0.5 rounded-sm bg-[#1e1e1e] text-[#818cf8] ml-2">
+                        <span className="text-[10px] font-bold uppercase tracking-wide px-1.5 py-0.5 rounded-sm bg-[#EDE9E3] text-[#7C6A5B] ml-2">
                           {q.question_type}
                         </span>
                       )}
                     </div>
                     
-                    <p className="text-[15px] font-medium text-[var(--foreground)] leading-snug line-clamp-2">
+                    <p className="text-[13px] font-medium text-[var(--foreground)] leading-snug line-clamp-2 sm:text-[15px]">
                       {q.prompt.replace(/^\d+\.\s*/, '')}
                     </p>
                   </div>
@@ -269,23 +269,23 @@ export function PyqDatabaseView() {
 
                 {/* Expanded Details */}
                 {isExpanded && (
-                  <div className="border-t border-[#262626] px-4 sm:px-5 pb-5 pt-4 space-y-4 bg-[#0d0d0d]">
+                  <div className="border-t border-[var(--border)] px-3 pb-4 pt-3 space-y-3 bg-[#F5F1EB] sm:px-5 sm:pb-5 sm:pt-4 sm:space-y-4">
                     <p className="text-sm text-[var(--foreground)] leading-relaxed whitespace-pre-wrap">{q.prompt.replace(/^\d+\.\s*/, '')}</p>
                     
                     {/* Options */}
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                    <div className="grid grid-cols-1 gap-1.5 sm:grid-cols-2 sm:gap-2">
                       {opts.map((opt) => {
                         const isCorrect = q.correct_option_id?.toUpperCase() === opt.id?.toUpperCase();
                         return (
                           <div
                             key={opt.id}
-                            className={`flex items-start gap-3 rounded-lg px-4 py-3 text-sm transition-all ${
+                            className={`flex items-start gap-2.5 rounded-lg px-3 py-2.5 text-[13px] transition-all sm:gap-3 sm:px-4 sm:py-3 sm:text-sm ${
                               isCorrect
                                 ? "bg-[var(--accent)]/10 border border-[var(--accent)]/30 text-[var(--accent)]"
-                                : "bg-[#161616] border border-[#222] text-[var(--muted)]"
+                                : "bg-white border border-[var(--border)] text-[var(--muted)]"
                             }`}
                           >
-                            <span className={`font-bold flex-shrink-0 ${isCorrect ? "text-[var(--accent)]" : "text-[#555]"}`}>({opt.id})</span>
+                            <span className={`font-bold flex-shrink-0 ${isCorrect ? "text-[var(--accent)]" : "text-[var(--muted)]"}`}>({opt.id})</span>
                             <span className="leading-relaxed">{opt.text}</span>
                             {isCorrect && <span className="ml-auto flex-shrink-0 font-bold">✓</span>}
                           </div>
@@ -294,11 +294,11 @@ export function PyqDatabaseView() {
                     </div>
                     
                     {!q.correct_option_id && (
-                      <p className="text-xs text-[#555]">Answer key not yet available.</p>
+                      <p className="text-xs text-[var(--muted)]">Answer key not yet available.</p>
                     )}
 
                     {/* Metadata Grid */}
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6 pt-6 border-t border-[#1e1e1e]">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6 pt-6 border-t border-[var(--border)]">
                       
                       {/* Left Col: Keywords & Concepts */}
                       <div className="space-y-4">
@@ -313,7 +313,7 @@ export function PyqDatabaseView() {
                             <p className="text-[10px] font-bold uppercase tracking-widest text-[var(--muted)] mb-1.5">Key Terms</p>
                             <div className="flex flex-wrap gap-1.5">
                               {q.keywords.map((kw) => (
-                                <span key={kw} className="text-[11px] font-medium px-2.5 py-1 rounded-full bg-[#1a2a1a] text-[#6ee7b7] border border-[#2a4a2a]">{kw}</span>
+                                <span key={kw} className="text-[11px] font-medium px-2.5 py-1 rounded-full bg-[#E8F5E9] text-[#2E7D32] border border-[#C8E6C9]">{kw}</span>
                               ))}
                             </div>
                           </div>
@@ -323,7 +323,7 @@ export function PyqDatabaseView() {
                             <p className="text-[10px] font-bold uppercase tracking-widest text-[var(--muted)] mb-1.5">Concepts Tested</p>
                             <div className="flex flex-wrap gap-1.5">
                               {q.concepts.map((c) => (
-                                <span key={c} className="text-[11px] font-medium px-2.5 py-1 rounded-full bg-[#1a1a2a] text-[#818cf8] border border-[#2a2a4a]">{c}</span>
+                                <span key={c} className="text-[11px] font-medium px-2.5 py-1 rounded-full bg-[#EDE7F6] text-[#5E35B1] border border-[#D1C4E9]">{c}</span>
                               ))}
                             </div>
                           </div>
@@ -353,11 +353,11 @@ export function PyqDatabaseView() {
                           </div>
                         )}
                         {q.mnemonic_hint && (
-                          <div className="mt-2 rounded-lg bg-[#1a1500] border border-[#facc15]/30 p-4 shadow-sm">
-                            <p className="text-[10px] font-bold uppercase tracking-widest text-[#facc15] mb-1.5 flex items-center gap-1.5">
+                          <div className="mt-2 rounded-lg bg-[#FFF8E1] border border-[#FFE082] p-4 shadow-sm">
+                            <p className="text-[10px] font-bold uppercase tracking-widest text-[#F57F17] mb-1.5 flex items-center gap-1.5">
                               <span>💡</span> Memory Tip
                             </p>
-                            <p className="text-sm text-[#fde68a] leading-relaxed">{q.mnemonic_hint}</p>
+                            <p className="text-sm text-[#5D4037] leading-relaxed">{q.mnemonic_hint}</p>
                           </div>
                         )}
                       </div>
@@ -372,10 +372,10 @@ export function PyqDatabaseView() {
       </div>
 
       {hasMore && !loading && (
-        <div className="py-8 flex justify-center border-t border-[#262626]">
+        <div className="py-8 flex justify-center border-t border-[var(--border)]">
           <button
             onClick={() => setPage((p) => p + 1)}
-            className="rounded-full bg-[var(--background-secondary)] border border-[#333] px-6 py-2.5 text-xs font-bold uppercase tracking-widest text-[var(--foreground)] hover:bg-[#222] hover:border-[#555] hover:text-[var(--accent)] transition-all shadow-xl"
+            className="rounded-full bg-[var(--background-secondary)] border border-[var(--border)] px-6 py-2.5 text-xs font-bold uppercase tracking-widest text-[var(--foreground)] hover:bg-[#F0EBE4] hover:border-[var(--accent)] hover:text-[var(--accent)] transition-all shadow-xl"
           >
             Load 50 More
           </button>

@@ -12,30 +12,26 @@ export function Shell({ children }: { children: React.ReactNode }) {
   const isLoginRoute = pathname === "/login";
   const isExamRoute = pathname.startsWith("/app/exams/") || pathname.startsWith("/app/pyq/run");
   const isAppRoute = pathname.startsWith("/app");
-  const isSidebarRoute = pathname === "/" || (isAppRoute && !isExamRoute);
+  const isSidebarRoute = isAppRoute && !isExamRoute;
 
   if (isLoginRoute) {
-    return <div className="min-h-screen">{children}</div>;
+    return <div className="min-h-dvh">{children}</div>;
   }
 
-  if (isSidebarRoute) {
+  if (pathname === "/" || isSidebarRoute) {
     return (
-      <div className="flex min-h-screen bg-[var(--background)] flex-col lg:flex-row">
+      <div className="flex min-h-dvh bg-[#FAF7F2] flex-col lg:flex-row">
         <AppSidebar />
         <div className="flex-1 flex flex-col min-w-0">
-          {/* Desktop top bar — only for /app routes, not the landing page */}
-          {isAppRoute && <AppTopBar />}
-          {/* Landing page uses the marketing header */}
-          {pathname === "/" && <SiteHeader />}
+          <AppTopBar />
           <main className="flex-1">{children}</main>
-          {pathname === "/" && <Footer />}
         </div>
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-dvh">
       {isExamRoute ? <MinimalHeader /> : <SiteHeader />}
       <main>{children}</main>
       {!isExamRoute ? <Footer /> : null}

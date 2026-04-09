@@ -1,9 +1,18 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Pricing — UPSCPRELIMSTEST",
+  title: "Pricing — Free UPSC Prelims Practice Platform",
   description:
-    "Free UPSC Prelims practice with 1200+ PYQs, exam mode, analytics, and notebook. Pro and Institute plans coming soon.",
+    "Start practicing UPSC Prelims for free — 1,200+ PYQs, exam-grade simulations, analytics, and notebook. Pro and Institute plans coming soon.",
+  alternates: {
+    canonical: "https://upscprelimstest.com/pricing",
+  },
+  openGraph: {
+    title: "Pricing — Free UPSC Prelims Practice Platform",
+    description:
+      "Free UPSC Prelims practice with full access to PYQs, mock tests, and analytics. No paywall.",
+    url: "https://upscprelimstest.com/pricing",
+  },
 };
 
 const plans = [
@@ -33,9 +42,9 @@ const plans = [
 export default function PricingPage() {
   return (
     <div className="mx-auto max-w-6xl px-4 sm:px-6">
-      <section className="py-16">
-        <p className="text-sm font-semibold text-[var(--accent)]">Pricing</p>
-        <h1 className="heading mt-3 text-3xl md:text-4xl">
+      <section className="py-10 sm:py-16">
+        <p className="text-xs font-semibold text-[var(--accent)] sm:text-sm">Pricing</p>
+        <h1 className="heading mt-2 text-2xl sm:mt-3 sm:text-3xl md:text-4xl">
           Start free, upgrade when ready
         </h1>
         <p className="mt-4 max-w-lg text-sm leading-7 text-[var(--muted)]">

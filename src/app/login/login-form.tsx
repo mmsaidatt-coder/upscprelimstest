@@ -6,10 +6,36 @@ import { createClient } from "@/lib/supabase/client";
 
 type AuthMode = "login" | "signup";
 
+function getSafeNextPath(rawNext: string | null) {
+  if (!rawNext || !rawNext.startsWith("/") || rawNext.startsWith("//")) {
+    return "/app";
+  }
+
+  try {
+    const url = new URL(rawNext, "https://upscprelimstest.local");
+    return `${url.pathname}${url.search}${url.hash}`;
+  } catch {
+    return "/app";
+  }
+}
+
+function getAppOrigin() {
+  const configuredOrigin = process.env.NEXT_PUBLIC_APP_URL ?? process.env.NEXT_PUBLIC_SITE_URL;
+  if (configuredOrigin) {
+    try {
+      return new URL(configuredOrigin).origin;
+    } catch {
+      // Fall back to the runtime origin below.
+    }
+  }
+
+  return window.location.origin;
+}
+
 export function LoginForm() {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const nextPath = searchParams.get("next") ?? "/app";
+  const nextPath = getSafeNextPath(searchParams.get("next"));
 
   const [mode, setMode] = useState<AuthMode>("login");
   const [email, setEmail] = useState("");
@@ -29,10 +55,13 @@ export function LoginForm() {
     setError(null);
 
     if (mode === "signup") {
+      const callbackUrl = new URL("/auth/callback", getAppOrigin());
+      callbackUrl.searchParams.set("next", nextPath);
+
       const { error: signUpError } = await supabase.auth.signUp({
         email,
         password,
-        options: { emailRedirectTo: `${window.location.origin}/auth/callback?next=${nextPath}` },
+        options: { emailRedirectTo: callbackUrl.toString() },
       });
       if (signUpError) {
         setError(signUpError.message);
@@ -61,10 +90,13 @@ export function LoginForm() {
   const handleGoogleAuth = async () => {
     setLoading(true);
     setError(null);
+    const callbackUrl = new URL("/auth/callback", getAppOrigin());
+    callbackUrl.searchParams.set("next", nextPath);
+
     const { error: oauthError } = await supabase.auth.signInWithOAuth({
       provider: "google",
       options: {
-        redirectTo: `${window.location.origin}/auth/callback?next=${nextPath}`,
+        redirectTo: callbackUrl.toString(),
       },
     });
     if (oauthError) {
@@ -74,15 +106,14 @@ export function LoginForm() {
   };
 
   return (
-    <div className="bg-blueprint-grid w-full min-h-screen flex items-center justify-center px-4 py-12 relative overflow-hidden">
+    <div className="bg-warm-grid w-full min-h-dvh flex items-center justify-center px-4 py-8 relative overflow-hidden bg-[var(--background)] sm:py-12">
       <div className="w-full max-w-md relative z-10 transition-all duration-500 fade-up">
-        {/* Decorative background blur */}
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-[var(--accent)]/5 blur-[100px] rounded-full pointer-events-none" />
-        
-        <div className="relative card-elevated border-2 border-[#262626] bg-[#0e0e0e]/95 backdrop-blur-md rounded-[2rem] p-8 sm:p-12 shadow-[0_0_50px_rgba(0,0,0,0.8)]">
-          <div className="text-center mb-8">
-            <h1 className="heading text-3xl sm:text-4xl text-[var(--foreground)] tracking-wide">
-              {mode === "login" ? "WELCOME BACK" : "CREATE ACCOUNT"}
+
+        <div className="relative rounded-2xl border border-[var(--border)] bg-white p-6 shadow-[0_8px_30px_rgba(0,0,0,0.08)] sm:rounded-[2rem] sm:p-12">
+          <div className="text-center mb-6 sm:mb-8">
+            <h1 className="heading text-2xl text-[var(--foreground)] sm:text-4xl">
+              {mode === "login" ? "Welcome back" : "Create account"}
             </h1>
             <p className="mt-3 text-sm sm:text-base text-[var(--muted)] font-medium">
               {mode === "login"
@@ -95,7 +126,7 @@ export function LoginForm() {
             type="button"
             onClick={handleGoogleAuth}
             disabled={loading}
-            className="flex w-full items-center justify-center gap-3 rounded-xl border border-[#333] bg-white px-4 py-3.5 text-sm font-bold tracking-wide text-black hover:bg-gray-100 disabled:opacity-50 transition-all shadow-sm hover:shadow-md hover:-translate-y-0.5"
+            className="flex w-full items-center justify-center gap-3 rounded-xl border border-[var(--border)] bg-white px-4 py-3.5 text-sm font-bold tracking-wide text-[var(--foreground)] hover:bg-[#F5F0EB] disabled:opacity-50 transition-all shadow-sm hover:shadow-md hover:-translate-y-0.5"
           >
           <svg viewBox="0 0 24 24" className="h-4.5 w-4.5" aria-hidden="true">
             <path
@@ -119,9 +150,9 @@ export function LoginForm() {
         </button>
 
           <div className="my-8 flex items-center gap-4">
-            <div className="h-px flex-1 bg-[#333]" />
-            <span className="text-xs uppercase tracking-widest text-[#666] font-bold">or</span>
-            <div className="h-px flex-1 bg-[#333]" />
+            <div className="h-px flex-1 bg-[var(--border)]" />
+            <span className="text-xs uppercase tracking-widest text-[var(--muted)] font-bold">or</span>
+            <div className="h-px flex-1 bg-[var(--border)]" />
           </div>
 
           <form onSubmit={handleEmailAuth} className="space-y-5">
@@ -132,7 +163,7 @@ export function LoginForm() {
                 required
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className="w-full rounded-xl border border-[#333] bg-[#161616] px-4 py-3 text-sm text-white outline-none focus:border-[var(--accent)] hover:border-[#444] transition-colors focus:ring-1 focus:ring-[var(--accent)] placeholder-[#555]"
+                className="w-full rounded-xl border border-[var(--border)] bg-[var(--background)] px-4 py-3 text-sm text-[var(--foreground)] outline-none focus:border-[var(--accent)] hover:border-[var(--accent)]/50 transition-colors focus:ring-1 focus:ring-[var(--accent)] placeholder-[var(--muted)]"
                 placeholder="you@example.com"
               />
             </div>
@@ -145,13 +176,13 @@ export function LoginForm() {
                 minLength={6}
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                className="w-full rounded-xl border border-[#333] bg-[#161616] px-4 py-3 text-sm text-white outline-none focus:border-[var(--accent)] hover:border-[#444] transition-colors focus:ring-1 focus:ring-[var(--accent)] placeholder-[#555]"
+                className="w-full rounded-xl border border-[var(--border)] bg-[var(--background)] px-4 py-3 text-sm text-[var(--foreground)] outline-none focus:border-[var(--accent)] hover:border-[var(--accent)]/50 transition-colors focus:ring-1 focus:ring-[var(--accent)] placeholder-[var(--muted)]"
                 placeholder="At least 6 characters"
               />
             </div>
 
             {error && (
-              <p className="rounded-lg border border-red-500/30 bg-red-500/10 px-4 py-3 text-sm text-red-400 font-medium">
+              <p className="rounded-lg border border-red-500/30 bg-red-500/10 px-4 py-3 text-sm text-red-600 font-medium">
                 {error}
               </p>
             )}
@@ -159,7 +190,7 @@ export function LoginForm() {
             <button
               type="submit"
               disabled={loading}
-              className="mt-2 w-full rounded-xl bg-[var(--accent)] px-4 py-3.5 text-[15px] font-bold uppercase tracking-widest text-black hover:bg-[#b0f53b] disabled:opacity-50 transition-all shadow-[0_0_20px_rgba(163,230,53,0.2)] hover:shadow-[0_0_30px_rgba(163,230,53,0.4)] hover:-translate-y-0.5"
+              className="mt-2 w-full rounded-xl bg-[var(--accent)] px-4 py-3.5 text-[15px] font-bold text-white hover:bg-[var(--accent-hover)] disabled:opacity-50 transition-all hover:-translate-y-0.5"
             >
               {loading ? "Please wait..." : mode === "login" ? "Log in" : "Sign up"}
             </button>
@@ -172,7 +203,7 @@ export function LoginForm() {
                 <button
                   type="button"
                   onClick={() => { setMode("signup"); setError(null); }}
-                  className="font-bold text-[var(--accent)] hover:text-[#b0f53b] transition-colors hover:underline"
+                  className="font-bold text-[var(--accent)] hover:text-[var(--accent-hover)] transition-colors hover:underline"
                 >
                   Sign up
                 </button>
@@ -183,7 +214,7 @@ export function LoginForm() {
                 <button
                   type="button"
                   onClick={() => { setMode("login"); setError(null); }}
-                  className="font-bold text-[var(--accent)] hover:text-[#b0f53b] transition-colors hover:underline"
+                  className="font-bold text-[var(--accent)] hover:text-[var(--accent-hover)] transition-colors hover:underline"
                 >
                   Log in
                 </button>

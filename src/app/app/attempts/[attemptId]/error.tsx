@@ -28,7 +28,7 @@ export default function AttemptError({
         </button>
         <Link
           href="/app"
-          className="rounded-lg border border-[var(--border)] px-5 py-2.5 text-sm font-medium text-[var(--foreground)] hover:border-[#555]"
+          className="rounded-lg border border-[var(--border)] px-5 py-2.5 text-sm font-medium text-[var(--foreground)] hover:border-[var(--accent)]"
         >
           Back to dashboard
         </Link>

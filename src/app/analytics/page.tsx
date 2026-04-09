@@ -2,9 +2,18 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Analytics — UPSCPRELIMSTEST",
+  title: "UPSC Prelims Analytics — Subject-wise Performance Tracking",
   description:
-    "Track your UPSC Prelims readiness by subject. Bookmarkable performance pages for Polity, History, Economy, Geography, Environment, Science, and Current Affairs.",
+    "Track your UPSC Prelims readiness with subject-wise analytics for Polity, History, Economy, Geography, Environment, Science & Current Affairs. Radar charts, pacing analysis, and readiness bands.",
+  alternates: {
+    canonical: "https://upscprelimstest.com/analytics",
+  },
+  openGraph: {
+    title: "UPSC Prelims Analytics — Subject-wise Performance Tracking",
+    description:
+      "Track UPSC Prelims performance by subject with radar charts, pacing analysis, and readiness bands.",
+    url: "https://upscprelimstest.com/analytics",
+  },
 };
 
 const SUBJECTS = [
@@ -32,7 +41,7 @@ export default function AnalyticsPage() {
 
         <Link
           href="/analytics/all"
-          className="mt-6 inline-flex rounded-lg bg-[var(--accent)] px-5 py-2.5 text-sm font-medium text-black hover:bg-[var(--accent)]/90 transition-colors"
+          className="mt-6 inline-flex rounded-lg bg-[var(--accent)] px-5 py-2.5 text-sm font-medium text-white hover:bg-[var(--accent)]/90 transition-colors"
         >
           Open analytics →
         </Link>

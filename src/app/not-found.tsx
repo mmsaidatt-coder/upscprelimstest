@@ -8,7 +8,7 @@ export default function NotFound() {
       </p>
       <h1 className="heading mt-3 text-4xl text-[var(--foreground)] md:text-5xl">
         Page not{" "}
-        <span className="text-[var(--accent)] drop-shadow-[0_0_15px_rgba(163,230,53,0.3)]">
+        <span className="italic text-[var(--accent)]">
           found
         </span>
       </h1>
@@ -18,13 +18,13 @@ export default function NotFound() {
       <div className="mt-8 flex items-center gap-3">
         <Link
           href="/"
-          className="rounded-lg bg-[var(--accent)] px-5 py-2.5 text-sm font-medium text-white hover:bg-[var(--accent-hover)]"
+          className="rounded-full bg-[var(--accent)] px-5 py-2.5 text-sm font-bold text-white hover:bg-[var(--accent-hover)]"
         >
           Go home
         </Link>
         <Link
           href="/app"
-          className="rounded-lg border border-[var(--border)] px-5 py-2.5 text-sm font-medium text-[var(--foreground)] hover:border-[#555]"
+          className="rounded-full border border-[var(--border)] px-5 py-2.5 text-sm font-bold text-[var(--foreground)] hover:border-[var(--accent)]"
         >
           Open app
         </Link>
