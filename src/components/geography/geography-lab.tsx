@@ -1064,7 +1064,7 @@ export function GeographyLab() {
               <FeatureInfoPanel feature={selectedFeature} onClose={() => { setSelectedFeature(null); setShowPanel(false); }} />
             )}
 
-            {mode === "explore" && !selectedStateData && !selectedFeature && !["Rivers", "Himalayas", "Passes", "Protected Areas"].includes(activeFilter) && (
+            {mode === "explore" && !selectedStateData && !selectedFeature && !["Rivers", "Himalayas", "Peninsular", "Passes", "Protected Areas"].includes(activeFilter) && (
               <div className="text-center py-8">
                 <div className="w-10 h-10 rounded-xl bg-[#F3F4F6] flex items-center justify-center mx-auto mb-3">
                   <MapPin className="w-5 h-5 text-[#D1D5DB]" />
