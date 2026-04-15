@@ -252,7 +252,7 @@ export function IndiaMap({
       center: [82, 22],
       zoom: 4.3,
       minZoom: 3.5,
-      maxZoom: 10,
+      maxZoom: 15,
       maxBounds: [
         [60, 5],
         [100, 40],
