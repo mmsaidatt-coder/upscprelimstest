@@ -1221,6 +1221,26 @@ export function IndiaMap({
           map.setFilter(id, ["in", ["get", "name"], ["literal", himalayanRangeNames]] as any);
         }
       });
+    } else if (activeFilter === "Peninsular") {
+      const peninsularRangeNames = [
+        "Western Ghats", "Eastern Ghats", "Aravalli", "Vindhya", "Satpura",
+      ];
+      // Show peaks that are NOT in Himalayan ranges
+      peakLayers.forEach((id) => {
+        if (map.getLayer(id)) {
+          map.setFilter(id, [
+            "all",
+            ["==", ["get", "type"], "peak"],
+            ["!", ["in", ["get", "range"], ["literal", HIMALAYAN_RANGES]]],
+            ...peakExclusion,
+          ] as any);
+        }
+      });
+      rangeLayers.forEach((id) => {
+        if (map.getLayer(id)) {
+          map.setFilter(id, ["in", ["get", "name"], ["literal", peninsularRangeNames]] as any);
+        }
+      });
     } else if (activeFilter === "Passes") {
       // Show only passes (all ranges), hide range polylines
       peakLayers.forEach((id) => {

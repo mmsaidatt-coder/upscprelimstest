@@ -555,27 +555,41 @@ export function GeographyLab() {
       return filteredRivers.map(r => ({ name: r.name, detail: `L${r.level}`, kind: "river" as const }));
     }
     if (activeFilter === "Himalayas") {
-      // Only genuinely Himalayan / North-Eastern ranges — exclude Peninsular/Deccan ranges
       const HIMALAYAN_RANGE_NAMES = new Set([
         "Greater Himalayas", "Shivalik Hills", "Karakoram",
         "Pir Panjal", "Ladakh Range", "Zaskar Range", "Patkai Range",
         "Garo Hills", "Khasi Hills", "Jaintia Hills",
       ]);
+      const HIMALAYAN_PEAK_RANGES = new Set([
+        "Himalayas", "Great Himalayas", "Greater Himalayas", "Lesser Himalayas",
+        "Karakoram", "Pir Panjal", "Ladakh", "Ladakh Range", "Zaskar", "Zaskar Range",
+        "Shivalik", "Shivalik Hills", "Patkai",
+      ]);
       const ranges = MOUNTAIN_RANGES.features
         .filter((m: any) => HIMALAYAN_RANGE_NAMES.has(m.properties.name))
-        .map((m: any) => ({
-          name: m.properties.name,
-          detail: "Range",
-          kind: "range" as const,
-        }));
+        .map((m: any) => ({ name: m.properties.name, detail: "Range", kind: "range" as const }));
       const peaks = MOUNTAINS.features
-        .filter((m: any) => m.properties.type === "peak")
+        .filter((m: any) => m.properties.type === "peak" && HIMALAYAN_PEAK_RANGES.has(m.properties.range))
         .sort((a: any, b: any) => (b.properties.elevation ?? 0) - (a.properties.elevation ?? 0))
-        .map((m: any) => ({
-          name: m.properties.name,
-          detail: `${m.properties.elevation}m`,
-          kind: "peak" as const,
-        }));
+        .map((m: any) => ({ name: m.properties.name, detail: `${m.properties.elevation}m`, kind: "peak" as const }));
+      return [...ranges, ...peaks];
+    }
+    if (activeFilter === "Peninsular") {
+      const PENINSULAR_RANGE_NAMES = new Set([
+        "Western Ghats", "Eastern Ghats", "Aravalli", "Vindhya", "Satpura",
+      ]);
+      const HIMALAYAN_PEAK_RANGES = new Set([
+        "Himalayas", "Great Himalayas", "Greater Himalayas", "Lesser Himalayas",
+        "Karakoram", "Pir Panjal", "Ladakh", "Ladakh Range", "Zaskar", "Zaskar Range",
+        "Shivalik", "Shivalik Hills", "Patkai",
+      ]);
+      const ranges = MOUNTAIN_RANGES.features
+        .filter((m: any) => PENINSULAR_RANGE_NAMES.has(m.properties.name))
+        .map((m: any) => ({ name: m.properties.name, detail: "Range", kind: "range" as const }));
+      const peaks = MOUNTAINS.features
+        .filter((m: any) => m.properties.type === "peak" && !HIMALAYAN_PEAK_RANGES.has(m.properties.range))
+        .sort((a: any, b: any) => (b.properties.elevation ?? 0) - (a.properties.elevation ?? 0))
+        .map((m: any) => ({ name: m.properties.name, detail: `${m.properties.elevation}m`, kind: "peak" as const }));
       return [...ranges, ...peaks];
     }
     if (activeFilter === "Passes") {
@@ -744,8 +758,8 @@ export function GeographyLab() {
     setLayers({
       stateBorders: true,
       rivers: filter === "Rivers" || filter === "All",
-      mountains: filter === "Himalayas" || filter === "Passes" || filter === "All",
-      ranges: filter === "Himalayas" || filter === "All",
+      mountains: filter === "Himalayas" || filter === "Peninsular" || filter === "Passes" || filter === "All",
+      ranges: filter === "Himalayas" || filter === "Peninsular" || filter === "All",
       parks: filter === "Protected Areas" || filter === "All",
       stateLabels: filter === "Passes",
     });
@@ -807,6 +821,7 @@ export function GeographyLab() {
           { key: "All", label: "All", icon: <Globe className="w-3 h-3" /> },
           { key: "Rivers", label: "Rivers", icon: <Droplets className="w-3 h-3" /> },
           { key: "Himalayas", label: "Himalayas", icon: <Mountain className="w-3 h-3" /> },
+          { key: "Peninsular", label: "Peninsular", icon: <Mountain className="w-3 h-3" /> },
           { key: "Passes", label: "Passes", icon: <MapIcon className="w-3 h-3" /> },
           { key: "Protected Areas", label: "Parks", icon: <TreePine className="w-3 h-3" /> },
         ].map((f) => (
