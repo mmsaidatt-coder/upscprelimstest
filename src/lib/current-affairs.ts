@@ -88,9 +88,14 @@ function mapRepoQuestionToExamQuestion(question: CurrentAffairsRepoQuestion): Ex
 }
 
 const loadCurrentAffairsQuestions = cache(async () => {
-  const raw = await readFile(CURRENT_AFFAIRS_REPO_PATH, "utf8");
-  const parsed = JSON.parse(raw) as CurrentAffairsRepoQuestion[];
-  return parsed;
+  try {
+    const raw = await readFile(CURRENT_AFFAIRS_REPO_PATH, "utf8");
+    const parsed = JSON.parse(raw) as CurrentAffairsRepoQuestion[];
+    return parsed;
+  } catch {
+    // File not present in this environment (e.g. Vercel build without local data/)
+    return [] as CurrentAffairsRepoQuestion[];
+  }
 });
 
 export function buildCurrentAffairsExamSlug(subject: Subject, size: (typeof CURRENT_AFFAIRS_TEST_SIZES)[number]) {

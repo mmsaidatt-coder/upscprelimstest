@@ -9,6 +9,7 @@ import {
   FileEdit,
   FolderOpen,
   PencilRuler,
+  Globe,
   Newspaper,
   LineChart,
   Bookmark,
@@ -49,6 +50,7 @@ const mainNavigation: NavEntry[] = [
       { href: "/app/flt", label: "FLT", icon: <FileEdit className="w-4 h-4" strokeWidth={2} />, matchPrefix: "/app/flt" },
       { href: "/app/subject-wise", label: "Subject Wise", icon: <FolderOpen className="w-4 h-4" strokeWidth={2} />, matchPrefix: "/app/subject-wise" },
       { href: "/app/design-paper", label: "Design Paper", icon: <PencilRuler className="w-4 h-4" strokeWidth={2} />, matchPrefix: "/app/design-paper" },
+      { href: "/app/geography", label: "Geography Lab", icon: <Globe className="w-4 h-4" strokeWidth={2} />, matchPrefix: "/app/geography" },
     ],
   },
   {

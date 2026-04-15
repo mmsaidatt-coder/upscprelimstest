@@ -1410,7 +1410,25 @@
     "topic": "Energy",
     "difficulty_rationale": "",
     "year": 2024,
-    "source_label": "001. SFG-2026-Level-2-Test-16_321166-QP-Eng"
+    "source_label": "001. SFG-2026-Level-2-Test-16_321166-QP-Eng",
+    "sub_topic": "Nuclear Energy Applications",
+    "keywords": [
+      "Radioisotope Thermoelectric Generators",
+      "Plutonium-238",
+      "Space Exploration",
+      "Radioactive Decay",
+      "Thermocouples"
+    ],
+    "concepts": [
+      "Radioactive decay vs Nuclear fission",
+      "Spacecraft power systems",
+      "Energy conversion in extreme environments"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "Medium",
+    "difficulty": "Medium",
+    "ncert_class": "N/A",
+    "mnemonic_hint": "Remember 'RTG is Decay, not Fission'—it uses the heat of decay, not the splitting of atoms."
   },
   {
     "questionNumber": 42,
@@ -1427,7 +1445,24 @@
     "topic": "Nuclear",
     "difficulty_rationale": "",
     "year": 2024,
-    "source_label": "001. SFG-2026-Level-2-Test-16_321166-QP-Eng"
+    "source_label": "001. SFG-2026-Level-2-Test-16_321166-QP-Eng",
+    "sub_topic": "Nuclear Fusion Technology",
+    "keywords": [
+      "Greenwald limit",
+      "Tokamak",
+      "Plasma density",
+      "Nuclear fusion",
+      "EAST reactor"
+    ],
+    "concepts": [
+      "Plasma confinement",
+      "Fusion reactor stability"
+    ],
+    "question_type": "Direct Factual",
+    "importance": "Medium",
+    "difficulty": "Hard",
+    "ncert_class": "N/A",
+    "mnemonic_hint": "Think of Greenwald as the 'Green Light' limit for plasma density in a Tokamak; go past it, and the plasma crashes."
   },
   {
     "questionNumber": 43,
@@ -1444,7 +1479,27 @@
     "topic": "Biotechnology",
     "difficulty_rationale": "",
     "year": 2024,
-    "source_label": "001. SFG-2026-Level-2-Test-16_321166-QP-Eng"
+    "source_label": "001. SFG-2026-Level-2-Test-16_321166-QP-Eng",
+    "sub_topic": "Microbiology and Antimicrobial Agents",
+    "keywords": [
+      "Antibiotics",
+      "Bacteria",
+      "Fungi",
+      "Viral Infections",
+      "Penicillin",
+      "Ofloxacin",
+      "Antibiotic Resistance"
+    ],
+    "concepts": [
+      "Mechanism of action of antibiotics",
+      "Distinction between bacterial and viral infections",
+      "Biological origin of antibiotics"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Remember 'B-A-V': Bacteria-Antibiotics-Valid, but Viruses-Antibiotics-Void."
   },
   {
     "questionNumber": 44,
@@ -1461,7 +1516,26 @@
     "topic": "Biotechnology",
     "difficulty_rationale": "",
     "year": 2024,
-    "source_label": "001. SFG-2026-Level-2-Test-16_321166-QP-Eng"
+    "source_label": "001. SFG-2026-Level-2-Test-16_321166-QP-Eng",
+    "sub_topic": "Genetic Engineering and Gene Silencing",
+    "keywords": [
+      "RNA interference",
+      "Gene silencing",
+      "mRNA",
+      "Innate immune response",
+      "Biotechnology"
+    ],
+    "concepts": [
+      "RNAi mechanism",
+      "Targeted drug delivery",
+      "Plant defense mechanisms",
+      "Post-transcriptional gene regulation"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Remember 'RNAi' as 'RNA-Interference' which acts like a 'Genetic Mute Button' for viruses, parasites, and disease-causing genes."
   },
   {
     "questionNumber": 45,
@@ -1478,7 +1552,25 @@
     "topic": "Environment",
     "difficulty_rationale": "",
     "year": 2024,
-    "source_label": "001. SFG-2026-Level-2-Test-16_321166-QP-Eng"
+    "source_label": "001. SFG-2026-Level-2-Test-16_321166-QP-Eng",
+    "sub_topic": "International Environmental Conventions and Trade Regulations",
+    "keywords": [
+      "Guggul",
+      "CITES",
+      "Appendix II",
+      "Biodiversity Conservation",
+      "Ayurvedic Medicine"
+    ],
+    "concepts": [
+      "CITES Appendix Classification",
+      "Sustainable Trade of Medicinal Plants",
+      "Flora of Arid Regions"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "N/A",
+    "mnemonic_hint": "Remember 'G-R-A-I-N': Guggul is Resin-producing, Arid-dwelling, India-opposed (the ban), and Not-banned (Appendix II allows controlled trade)."
   },
   {
     "questionNumber": 46,
@@ -1495,7 +1587,24 @@
     "topic": "Quantitative Aptitude",
     "difficulty_rationale": "",
     "year": 2024,
-    "source_label": "001. SFG-2026-Level-2-Test-16_321166-QP-Eng"
+    "source_label": "001. SFG-2026-Level-2-Test-16_321166-QP-Eng",
+    "sub_topic": "Number Systems - Prime Numbers and Unit Digits",
+    "keywords": [
+      "Prime Numbers",
+      "Unit Digit",
+      "Product of Primes",
+      "Number Theory"
+    ],
+    "concepts": [
+      "Properties of Prime Numbers",
+      "Modular Arithmetic",
+      "Systematic Enumeration"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 8",
+    "mnemonic_hint": "Exclude 5 immediately to avoid a unit digit of 5, then systematically multiply the remaining primes (3, 7, 11, 13) to test the unit digits."
   },
   {
     "questionNumber": 47,
@@ -1512,7 +1621,23 @@
     "topic": "Quantitative Aptitude",
     "difficulty_rationale": "",
     "year": 2024,
-    "source_label": "001. SFG-2026-Level-2-Test-16_321166-QP-Eng"
+    "source_label": "001. SFG-2026-Level-2-Test-16_321166-QP-Eng",
+    "sub_topic": "Partnership",
+    "keywords": [
+      "Investment",
+      "Profit Sharing Ratio",
+      "Capital",
+      "Time Period"
+    ],
+    "concepts": [
+      "Ratio and Proportion",
+      "Partnership Profit Distribution"
+    ],
+    "question_type": "Direct Factual",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 8",
+    "mnemonic_hint": "Remember 'P = C × T' (Profit equals Capital times Time) to balance the ratio equation."
   },
   {
     "questionNumber": 48,
@@ -1529,7 +1654,24 @@
     "topic": "Quantitative Aptitude",
     "difficulty_rationale": "",
     "year": 2024,
-    "source_label": "001. SFG-2026-Level-2-Test-16_321166-QP-Eng"
+    "source_label": "001. SFG-2026-Level-2-Test-16_321166-QP-Eng",
+    "sub_topic": "Percentage Change and Successive Increase",
+    "keywords": [
+      "Percentage",
+      "Successive Increase",
+      "Quantitative Aptitude",
+      "CSAT"
+    ],
+    "concepts": [
+      "Percentage Calculation",
+      "Relative Comparison",
+      "Successive Percentage Change"
+    ],
+    "question_type": "Direct Factual",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 8",
+    "mnemonic_hint": "Remember the 'Base Shift' rule: when comparing Z to X, always divide by the value of X, not the original base."
   },
   {
     "questionNumber": 49,
@@ -1546,7 +1688,26 @@
     "topic": "Reading Comprehension",
     "difficulty_rationale": "",
     "year": 2024,
-    "source_label": "001. SFG-2026-Level-2-Test-16_321166-QP-Eng"
+    "source_label": "001. SFG-2026-Level-2-Test-16_321166-QP-Eng",
+    "sub_topic": "Inference-based Reading Comprehension",
+    "keywords": [
+      "Volatile organic compounds",
+      "Ground-level ozone",
+      "Biogenic emissions",
+      "Air pollution",
+      "Logical inference"
+    ],
+    "concepts": [
+      "Atmospheric chemistry",
+      "Environmental pollution",
+      "Critical reasoning",
+      "Deceptive environmental indicators"
+    ],
+    "question_type": "Direct Factual",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "N/A",
+    "mnemonic_hint": "Remember 'Clear Skies, Hidden Lies': Just because the summer sky looks clear doesn't mean the ozone isn't near."
   },
   {
     "questionNumber": 50,
@@ -1563,6 +1724,24 @@
     "topic": "Reading Comprehension",
     "difficulty_rationale": "",
     "year": 2024,
-    "source_label": "001. SFG-2026-Level-2-Test-16_321166-QP-Eng"
+    "source_label": "001. SFG-2026-Level-2-Test-16_321166-QP-Eng",
+    "sub_topic": "Inference and Assumption Analysis",
+    "keywords": [
+      "Reading Comprehension",
+      "Logical Deduction",
+      "Air Pollution",
+      "Biogenic VOCs",
+      "Ozone Levels"
+    ],
+    "concepts": [
+      "Critical Reasoning",
+      "Assumption Identification",
+      "Contextual Interpretation"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "N/A",
+    "mnemonic_hint": "Always stick to the text: if the passage doesn't mention the cause (climate change), don't assume it's the culprit."
   }
 ]

@@ -26,7 +26,7 @@ if (activeKeys.length === 0) {
 
 console.log(`🔑 Loaded ${activeKeys.length} distinct API Key(s). Initializing Key Pool Scheduler...`);
 
-const MODEL_NAME = "gemini-3.1-pro-preview";
+const MODEL_NAME = "gemini-flash-lite-latest";
 
 const safetySettings = [
   { category: HarmCategory.HARM_CATEGORY_HATE_SPEECH, threshold: HarmBlockThreshold.BLOCK_NONE },

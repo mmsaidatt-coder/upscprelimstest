@@ -30,6 +30,8 @@ export type ExamQuestion = {
   takeaway?: string;
   marks: number;
   negativeMarks: number;
+  /** PYQ year (e.g. 2024, 2025). Null/undefined for non-PYQ questions. */
+  year?: number | null;
 };
 
 export type ExamTest = {
@@ -114,4 +116,12 @@ export type PyqQuestion = ExamQuestion & {
   year: number;
   topics: string[];
   sourceLabel?: string;
+};
+
+export type BookmarkEntry = {
+  questionId: string;
+  subject: Subject;
+  prompt: string;
+  year?: number | null;
+  savedAt: string;
 };

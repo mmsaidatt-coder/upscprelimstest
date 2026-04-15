@@ -5,7 +5,7 @@ This document provides a comprehensive overview of the architecture, logic, and 
 ---
 
 ## 1. Overview
-**UPSC Prelims Test** is a high-performance practice platform designed to simulate the UPSC Civil Services Preliminary Examination. It combines a marketing frontend with a sophisticated, authenticated exam application that provides deep analytics and a searchable database of 1,203+ enriched Previous Year Questions (PYQs) from 2014 to 2025.
+**UPSC Prelims Test** is a high-performance practice platform designed to simulate the UPSC Civil Services Preliminary Examination. It combines a marketing frontend with a practice application that provides deep analytics, a searchable database of 1,200+ enriched Previous Year Questions (PYQs) from 2014 to 2025, and a larger 10,000+ AI-enriched practice bank for dynamic mock generation.
 
 ---
 
@@ -26,10 +26,11 @@ The application is built using a modern, serverless architecture that prioritize
 
 ## 3. Core Logic & Features
 
-### 3.1. PYQ Enrichment & Restoration
-One of the platform's unique selling points is its **100% restored PYQ database**.
+### 3.1. Question Bank Expansion & Restoration
+One of the platform's unique selling points is its **restored PYQ database plus larger generated practice bank**.
 - **Problem**: Original OCR of scanned UPSC papers often resulted in garbled text, merged options, and missing academic context.
-- **Solution**: An automated pipeline using the **Gemini 3.1 Pro Preview** and **Gemini 1.5 Flash** models was developed to reconstruct all 1,203 questions to 100% accuracy.
+- **Solution**: Automated Gemini-assisted pipelines were developed to reconstruct the 1,200+ PYQ set and generate additional AI-enriched practice material.
+- **Expanded Bank**: The repository includes about 8,500 mapped full-length-test questions in `data/pipeline-output/` plus 1,147 PT365 current-affairs questions in `data/generated/current-affairs-2025-pt365-sections-gemini-3/`.
 - **Metadata Enriched**: Each question now includes the following structured data:
   - `subject`, `topic`, `sub_topic`
   - `keywords` & `concepts`

@@ -11,8 +11,9 @@ export function Shell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const isLoginRoute = pathname === "/login";
   const isExamRoute = pathname.startsWith("/app/exams/") || pathname.startsWith("/app/pyq/run");
+  const isGeographyRoute = pathname.startsWith("/app/geography");
   const isAppRoute = pathname.startsWith("/app");
-  const isSidebarRoute = isAppRoute && !isExamRoute;
+  const isSidebarRoute = isAppRoute && !isExamRoute && !isGeographyRoute;
 
   if (isLoginRoute) {
     return <div className="min-h-dvh">{children}</div>;
@@ -28,6 +29,10 @@ export function Shell({ children }: { children: React.ReactNode }) {
         </div>
       </div>
     );
+  }
+
+  if (isGeographyRoute) {
+    return <div className="min-h-dvh">{children}</div>;
   }
 
   return (

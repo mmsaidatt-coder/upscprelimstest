@@ -163,6 +163,35 @@ button {
   border-color: transparent;
 }
 
+/* ── MapLibre tooltip overrides ─────────────────────────────── */
+.geo-tooltip .maplibregl-popup-content {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  padding: 6px 10px;
+  font-family: var(--font-manrope), system-ui, sans-serif;
+  font-size: 12px;
+  color: #1A1A1A;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+.geo-tooltip .maplibregl-popup-tip {
+  border-top-color: rgba(255, 255, 255, 0.92);
+}
+
+/* ── MapLibre navigation controls ──────────────────────────── */
+.maplibregl-ctrl-group {
+  border-radius: 10px !important;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.6) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06) !important;
+  backdrop-filter: blur(12px);
+}
+.maplibregl-ctrl-group button {
+  width: 32px !important;
+  height: 32px !important;
+}
+
 /* ── Fade-up animation ──────────────────────────────────────── */
 .fade-up {
   animation: fade-up 400ms ease both;

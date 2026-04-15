@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     template: "%s | upscprelimstest.com",
   },
   description:
-    "Free UPSC Prelims practice platform with 1,200+ previous year questions from 2014–2025. Exam-grade simulations, timed tests, negative marking, detailed analytics, and subject-wise drills.",
+    "Free UPSC Prelims practice platform with 1,200+ previous year questions from 2014–2025 and 10,000+ total AI-enriched practice questions. Exam-grade simulations, timed tests, negative marking, analytics, and subject-wise drills.",
   metadataBase: new URL("https://upscprelimstest.com"),
   alternates: {
     canonical: "/",
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
     title:
       "UPSC Prelims Practice — Free PYQ Tests & Mock Exams | upscprelimstest.com",
     description:
-      "Free UPSC Prelims practice with 1,200+ PYQs, exam-grade simulations, and analytics-led preparation.",
+      "Free UPSC Prelims practice with 1,200+ PYQs, 10,000+ total practice questions, exam-grade simulations, and analytics-led preparation.",
     url: "https://upscprelimstest.com",
     siteName: "UPSC Prelims Test",
     type: "website",
@@ -84,7 +84,7 @@ export const metadata: Metadata = {
     title:
       "UPSC Prelims Practice — Free PYQ Tests & Mock Exams",
     description:
-      "1,200+ UPSC Prelims PYQs from 2014–2025. Timed tests, negative marking, analytics. 100% free.",
+      "1,200+ UPSC Prelims PYQs from 2014–2025 plus 10,000+ total practice questions. Timed tests, negative marking, analytics. 100% free.",
     images: ["/og-image.png"],
   },
   robots: {

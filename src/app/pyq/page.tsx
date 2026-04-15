@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { PyqTabs } from "@/components/pyq/pyq-tabs";
-import { FaqJsonLd } from "@/components/seo/json-ld";
+import { FaqJsonLd, CourseJsonLd } from "@/components/seo/json-ld";
 
 export const metadata: Metadata = {
   title:
@@ -46,6 +46,7 @@ export default function PyqPage() {
   return (
     <div className="bg-blueprint-grid min-h-[calc(100vh-4rem)]">
       <FaqJsonLd faqs={PYQ_FAQS} />
+      <CourseJsonLd />
       <div className="mx-auto max-w-6xl px-4 sm:px-6 py-10 sm:py-20 md:py-28 fade-up">
         <PyqTabs />
       </div>

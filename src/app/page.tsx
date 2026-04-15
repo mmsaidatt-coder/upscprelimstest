@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title:
     "UPSC Prelims Practice — Free PYQ Tests & Mock Exams | upscprelimstest.com",
   description:
-    "Free UPSC Prelims practice platform with 1,200+ previous year questions from 2014–2025. Timed exam simulations, negative marking, subject-wise drills, and analytics. No paywall, no signup required.",
+    "Free UPSC Prelims practice platform with 1,200+ previous year questions from 2014–2025 and 10,000+ total AI-enriched practice questions. Timed simulations, negative marking, subject-wise drills, and analytics. No paywall, no signup required.",
   alternates: {
     canonical: "https://upscprelimstest.com",
   },
@@ -16,7 +16,7 @@ const HOME_FAQS = [
   {
     question: "What is UPSC Prelims Test?",
     answer:
-      "UPSC Prelims Test is a free online platform for practicing UPSC Civil Services Preliminary Examination questions. It offers 1,200+ previous year questions from 2014 to 2025, full-length mock tests, subject-wise drills, and detailed performance analytics.",
+      "UPSC Prelims Test is a free online platform for practicing UPSC Civil Services Preliminary Examination questions. It offers 1,200+ previous year questions from 2014 to 2025, a larger AI-enriched practice bank for mock generation, subject-wise drills, and detailed performance analytics.",
   },
   {
     question: "How many UPSC previous year questions are available?",
@@ -58,9 +58,9 @@ export default function Home() {
             </h1>
 
             <p className="mb-8 max-w-lg text-base leading-relaxed text-[#6B7280] sm:mb-10 sm:text-lg">
-              1,200+ previous year questions from the last 12&nbsp;years.
-              Timed, exam-like sessions with detailed analytics to sharpen
-              your preparation.
+              1,200+ previous year questions and a 10,000+ question practice
+              bank. Timed, exam-like sessions with detailed analytics to
+              sharpen your preparation.
             </p>
 
             {/* CTAs */}
@@ -83,7 +83,7 @@ export default function Home() {
             <div className="flex flex-wrap gap-6 sm:gap-10">
               {[
                 { value: "1,200+", label: "questions from PYQs" },
-                { value: "12+", label: "years of papers" },
+                { value: "10,000+", label: "practice-bank questions" },
                 { value: "100%", label: "free, no paywall" },
               ].map((stat) => (
                 <div key={stat.label}>

@@ -5,6 +5,7 @@ import {
   fetchQuestionById,
   fetchAllQuestionIds,
 } from "@/lib/supabase/questions";
+import { BookmarkButton } from "@/components/bookmark-button";
 
 // Generate static routes for every single question in the database at build time.
 export async function generateStaticParams() {
@@ -94,6 +95,15 @@ export default async function QuestionPage({
                 {question.difficulty}
               </span>
             )}
+            <BookmarkButton
+              questionId={question.id}
+              subject={question.subject}
+              prompt={question.prompt}
+              year={question.year}
+              variant="pill"
+              size="md"
+              className="ml-auto"
+            />
           </header>
 
           {/* Question Stem */}

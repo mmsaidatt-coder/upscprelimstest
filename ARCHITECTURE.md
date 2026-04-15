@@ -47,7 +47,7 @@ Current architecture of upscprelimstest.com — a UPSC Prelims practice platform
 | `/app/exams/[slug]` | Timed exam runner | `src/data/tests.ts` (static) |
 | `/app/pyq` | PYQ library — year/subject/custom sessions | Supabase `questions` table |
 | `/app/pyq/run?year=&subject=&limit=` | Dynamic PYQ drill | Supabase `questions` table |
-| `/app/pyq/import` | Image upload → question extraction | Gemini Vision API |
+| `/app/pyq/import` | Authenticated image upload → question extraction | Gemini Vision API |
 | `/app/attempts/[attemptId]` | Post-exam results with charts and review | localStorage |
 | `/app/notebook` | Saved takeaways with subject filter | localStorage |
 
@@ -55,7 +55,7 @@ Current architecture of upscprelimstest.com — a UPSC Prelims practice platform
 
 | Route | Method | Purpose |
 |-------|--------|---------|
-| `/api/pyq/import` | POST | Multipart image upload → Gemini extraction |
+| `/api/pyq/import` | POST | Authenticated multipart image upload → Gemini extraction |
 
 ---
 
@@ -93,6 +93,7 @@ Current architecture of upscprelimstest.com — a UPSC Prelims practice platform
 ### Database Functions
 - `save_attempt(p_attempt, p_answers)` — Atomic insert of attempt + answers
 - `get_attempt_subject_metrics(p_attempt_id)` — Computed subject stats
+- `get_custom_exam_question_ids(p_mode, p_size, p_subject)` — Database-side UUID sampling for generated custom exams
 
 ---
 
@@ -141,19 +142,22 @@ CSV files → import-pyq-csv.ts → Supabase `questions` table
 
 Static FLT tests live in `src/data/tests.ts` and bypass Supabase entirely.
 
-### Attempts (current — localStorage)
+Dynamic custom sessions use `fetchCustomExamSession()` in `src/lib/supabase/questions.ts`. The fast path calls `get_custom_exam_question_ids()` so Postgres does the random sampling across `pyq`, `custom`, and `flt`; the app then fetches only the selected payloads in 200-row chunks. A 5-minute cached, paginated app-side UUID/subject sampler remains as a migration-safe fallback.
+
+### Attempts (current — localStorage first, cloud sync when authenticated)
 ```
 ExamRunner → buildAttemptRecord() → saveAttempt() [localStorage]
+                                          ↓
+                                    /api/attempts POST [Supabase sync for authenticated users]
                                           ↓
                                     ResultClient reads from localStorage
                                     DashboardOverview reads from localStorage
 ```
 
-### Attempts (target — Supabase, not yet wired)
+### Attempts (database support)
 ```
-ExamRunner → buildAttemptRecord() → save_attempt RPC [Supabase]
-                                          ↓
-                                    Server queries from attempts + attempt_answers tables
+/api/attempts GET/POST → attempts + attempt_answers tables
+save_attempt RPC remains available in the database schema but the app route currently performs validated upserts directly.
 ```
 
 ### Notebook (current — localStorage)
@@ -173,7 +177,8 @@ ResultClient → saveNotebookEntry() [localStorage]
 4. `/auth/callback` exchanges code for session cookie
 5. `middleware.ts` runs on every request:
    - Refreshes Supabase session
-   - Redirects unauthenticated `/app` requests to `/login`
+   - Redirects logged-in users away from `/login`
+   - Redirects unauthenticated account/admin app routes such as `/app/settings` and `/app/pyq/import` to `/login?next=...`
    - Redirects `www.` to apex domain
 
 ---
@@ -182,7 +187,9 @@ ResultClient → saveNotebookEntry() [localStorage]
 
 - Full marketing site (7 pages)
 - Auth: signup, login, Google OAuth, session management
-- 100 real UPSC 2025 PYQs with answer keys in Supabase
+- 1,200+ restored PYQs from 2014–2025 in Supabase
+- 8,500+ mapped FLT/custom questions and 1,147 PT365 current-affairs questions available for the expanded practice bank
+- Dynamic custom exam generator for mixed, single-subject, and UPSC-ratio FLT sessions
 - PYQ library: year-wise, subject-wise, custom session builder
 - Timed exam runner with palette, elimination, marking, highlighting
 - Post-exam results with radar + pacing charts
@@ -193,12 +200,11 @@ ResultClient → saveNotebookEntry() [localStorage]
 
 ## What's Incomplete / Placeholder
 
-- **Attempts stored in localStorage** — not yet wired to Supabase `save_attempt` RPC
+- **Attempts are localStorage-first** — cloud sync is wired through `/api/attempts`, while the `save_attempt` RPC is not used by the app route
 - **Notebook stored in localStorage** — not yet wired to Supabase `notebook_entries`
-- **Only 2025 PYQs loaded** — years 2012-2024 not yet imported
-- **No explanations** — questions have answer keys but no rationale text
-- **Static FLTs only** — one demo GS Mini Mock; no real FLTs in Supabase
-- **No mobile optimization** — exam runner designed for desktop
+- **Docs still need periodic refresh** — this file may lag fast-moving ingestion scripts unless updated with each data/API change
+- **Explanations are uneven** — many generated/custom questions include explanations, but legacy PYQ coverage can still be sparse
+- **Static FLTs still exist** — one demo GS Mini Mock remains in `src/data/tests.ts`; expanded FLT-style practice now comes from the dynamic custom generator
 - **PYQ image importer UI** — exists but workflow is CLI-based in practice
 - **Pro/Institute pricing** — placeholder, no payment integration
 - **Benchmarking** — no cross-user percentile data

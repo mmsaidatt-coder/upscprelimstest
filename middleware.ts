@@ -12,7 +12,7 @@ export async function middleware(request: NextRequest) {
     return NextResponse.redirect(url, 308);
   }
 
-  // Supabase session refresh + auth guard for /app routes.
+  // Supabase session refresh + auth guard for account/admin app routes.
   return updateSession(request);
 }
 

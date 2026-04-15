@@ -1,1 +1,3447 @@
-[]
+[
+  {
+    "questionNumber": 1,
+    "questionText": "Consider the following statements:\nStatement I:\nDeveloped nations typically have higher tax-to-GDP ratios than developing nations.\nStatement II:\nDeveloped nations have broader tax bases and more efficient tax administration systems.\nWhich one of the following is correct in respect of the above Statements?",
+    "options": [
+      "Both Statement I and Statement II are correct and Statement II is the correct explanation for Statement I",
+      "Both Statement I and Statement II are correct and Statement II is not the correct explanation for Statement I",
+      "Statement I is correct but Statement II is incorrect",
+      "Statement I is incorrect but Statement II is correct"
+    ],
+    "correctOption": "A",
+    "explanation": "The tax-to-GDP ratio is a country's tax revenue in relation to the size of its economy. Developed countries generally have higher ratios due to larger formal sectors and more efficient tax collection systems. Both statements are correct and statement II explains statement I.",
+    "subject": "Economics",
+    "topic": "Taxation",
+    "difficulty_rationale": "Moderate; requires understanding of macroeconomic indicators and structural differences between economies.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Tax Structure and Fiscal Policy",
+    "keywords": [
+      "Tax-to-GDP ratio",
+      "Fiscal capacity",
+      "Tax administration",
+      "Formal economy",
+      "Developed vs Developing economies"
+    ],
+    "concepts": [
+      "Fiscal Policy",
+      "Taxation Efficiency",
+      "Economic Development Indicators"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Think 'B-E-T': Broader base and Efficient administration leads to higher Tax-to-GDP."
+  },
+  {
+    "questionNumber": 2,
+    "questionText": "What does a GDP deflator value of 1 indicate?",
+    "options": [
+      "The nominal GDP is higher than the real GDP",
+      "The nominal GDP is lower than the real GDP",
+      "The nominal GDP is equal to the real GDP",
+      "The nominal GDP and the real GDP are unaffected"
+    ],
+    "correctOption": "C",
+    "explanation": "The GDP deflator measures the change in the overall price level of all final goods and services produced domestically. A value of 1 (or 100) indicates that nominal GDP equals real GDP, meaning no change in the price level compared to the base year.",
+    "subject": "Economics",
+    "topic": "National Income Accounting",
+    "difficulty_rationale": "Moderate; requires conceptual clarity on GDP deflator and nominal vs real GDP.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "GDP Deflator and Price Indices",
+    "keywords": [
+      "GDP Deflator",
+      "Nominal GDP",
+      "Real GDP",
+      "Base Year",
+      "Price Level"
+    ],
+    "concepts": [
+      "National Income Accounting",
+      "Inflation Measurement"
+    ],
+    "question_type": "Direct Factual",
+    "importance": "High",
+    "difficulty": "Easy",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Think of the Deflator as a fraction: Nominal over Real; if they are the same, the fraction equals 1."
+  },
+  {
+    "questionNumber": 3,
+    "questionText": "Consider the following pairs:\nType of Technical Progress | Description\nI. Capital-augmenting | Use of advanced machinery\nII. Labour-augmenting | Skilling through education and training\nIII. Learning-by-doing | Productivity gains from experience\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      "Only one",
+      "Only two",
+      "All the three",
+      "None"
+    ],
+    "correctOption": "C",
+    "explanation": "Technical progress is categorized into capital-augmenting (improving capital productivity), labour-augmenting (improving worker productivity), and learning-by-doing (productivity gains from experience). All three pairs are correctly matched.",
+    "subject": "Economics",
+    "topic": "Economic Growth",
+    "difficulty_rationale": "Easy; direct application of definitions.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Theories of Economic Growth and Technical Progress",
+    "keywords": [
+      "Capital-augmenting",
+      "Labour-augmenting",
+      "Learning-by-doing",
+      "Total Factor Productivity",
+      "Technical Progress"
+    ],
+    "concepts": [
+      "Endogenous Growth Theory",
+      "Production Function",
+      "Human Capital Formation"
+    ],
+    "question_type": "Match the Following",
+    "importance": "Medium",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Think 'C-M' (Capital-Machinery), 'L-E' (Labour-Education), and 'L-E' (Learning-Experience)."
+  },
+  {
+    "questionNumber": 4,
+    "questionText": "A positive Net Primary Income from the Rest of the World (ROW) indicates:",
+    "options": [
+      "the country is importing more goods and services than it is exporting",
+      "total incomes earned from abroad exceeds what is paid to the ROW",
+      "the country’s capital account is in surplus",
+      "the country’s fiscal deficit is financed by external borrowings"
+    ],
+    "correctOption": "B",
+    "explanation": "Net Primary Income from the Rest of the World (NFIA) includes net compensation of employees, net property income, and net entrepreneurial income. A positive value increases the country's Gross National Product (GNP).",
+    "subject": "Economics",
+    "topic": "National Income Accounting",
+    "difficulty_rationale": "Moderate; requires understanding of the components of NFIA and its impact on GNP.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Net Factor Income from Abroad (NFIA)",
+    "keywords": [
+      "Net Primary Income",
+      "Rest of the World",
+      "GNP",
+      "National Income Accounting",
+      "Factor Income"
+    ],
+    "concepts": [
+      "Gross National Product (GNP)",
+      "Net Factor Income from Abroad (NFIA)"
+    ],
+    "question_type": "Direct Factual",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Think of NFIA as 'Net Foreign Income Advantage': If it's positive, you have an advantage because you earned more from abroad than you paid out."
+  },
+  {
+    "questionNumber": 5,
+    "questionText": "Consider the following statements:\nStatement I:\nA high capital-output ratio indicates lower efficiency of capital in producing output.\nStatement II:\nWhen the capital-output ratio is high, more units of capital are required to produce each additional unit of output.\nWhich one of the following is correct in respect of the above Statements?",
+    "options": [
+      "Both Statement I and Statement II are correct and Statement II is the correct explanation for Statement I",
+      "Both Statement I and Statement II are correct but Statement II is not the correct explanation for Statement I",
+      "Statement I is correct but Statement II is incorrect",
+      "Statement I is incorrect but Statement II is correct"
+    ],
+    "correctOption": "A",
+    "explanation": "The capital-output ratio (COR) measures the amount of capital required to produce a unit of output. A higher ratio indicates lower efficiency. Both statements are correct and statement II explains statement I.",
+    "subject": "Economics",
+    "topic": "Economic Growth",
+    "difficulty_rationale": "Moderate; requires understanding of capital efficiency indicators.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Capital Formation and Economic Growth",
+    "keywords": [
+      "Capital-Output Ratio",
+      "Economic Efficiency",
+      "Investment",
+      "Productivity"
+    ],
+    "concepts": [
+      "Capital-Output Ratio (COR)",
+      "Efficiency of Capital"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Think of COR as a 'Cost of Output Ratio': the higher the cost (capital) to get one unit of output, the less efficient the process is."
+  },
+  {
+    "questionNumber": 6,
+    "questionText": "With reference to the Indian economy, which one of the following occupations belongs to the primary sector?",
+    "options": [
+      "Mining of minerals and ores",
+      "Brick making",
+      "Sugar production from raw sugarcane",
+      "Manufacturing of plastic chairs"
+    ],
+    "correctOption": "A",
+    "explanation": "The primary sector involves the extraction and harvesting of natural products (agriculture, dairy, fishing, forestry). The secondary sector involves manufacturing, and the tertiary sector involves services.",
+    "subject": "Economics",
+    "topic": "Sectors of the Economy",
+    "difficulty_rationale": "Easy; fundamental classification of economic sectors.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Classification of Economic Activities",
+    "keywords": [
+      "Primary Sector",
+      "Extraction",
+      "Natural Resources",
+      "Economic Sectors"
+    ],
+    "concepts": [
+      "Primary Sector Definition",
+      "Sectoral Classification of Economy"
+    ],
+    "question_type": "Direct Factual",
+    "importance": "High",
+    "difficulty": "Easy",
+    "ncert_class": "Class 10",
+    "mnemonic_hint": "Think of the Primary sector as the 'First' step: if you have to extract it directly from the Earth (mining, farming, fishing), it is Primary."
+  },
+  {
+    "questionNumber": 7,
+    "questionText": "Priya is setting up a food processing unit in her village under a government self-employment scheme. She needs to invest in fixed capital assets to ensure smooth and long-term functioning of her business.\nWhich of the following would be considered fixed capital investments?\nI. Purchase of machinery\nII. Purchasing land for setting factory\nIII. Purchase of raw materials\nIV. Purchase of vehicles for delivery of product\nSelect the correct answer using the code given below:",
+    "options": [
+      "I, II and III only",
+      "I, II and IV only",
+      "I, III and IV only",
+      "II, III and IV only"
+    ],
+    "correctOption": "B",
+    "explanation": "Fixed capital includes assets used for more than one accounting period (machinery, land, vehicles). Raw materials are current assets, not fixed capital.",
+    "subject": "Economics",
+    "topic": "Capital Assets",
+    "difficulty_rationale": "Moderate; requires distinguishing between fixed and current assets.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Classification of Capital Assets",
+    "keywords": [
+      "Fixed Capital",
+      "Working Capital",
+      "Capital Assets",
+      "Economics",
+      "Self-employment"
+    ],
+    "concepts": [
+      "Fixed Capital vs Working Capital",
+      "Accounting Period Assets"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "Medium",
+    "difficulty": "Easy",
+    "ncert_class": "Class 9",
+    "mnemonic_hint": "Remember 'FIX-IT' for Fixed Capital: Factory, Infrastructure, X-tra (machinery/vehicles), and Investments in Land."
+  },
+  {
+    "questionNumber": 8,
+    "questionText": "Consider the following:\nI. Decrease in Cash Reserve Ratio\nII. Increase in Statutory Liquidity Ratio\nIII. Decrease in lending operations by banks\nIV. Decrease in Reverse Repo Rate\nHow many of the above factors are most likely to reduce the Money Multiplier in the Indian economy?",
+    "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All the four"
+    ],
+    "correctOption": "B",
+    "explanation": "A decrease in CRR increases the money multiplier. An increase in SLR reduces funds for lending, decreasing the money multiplier. Decreasing lending operations reduces the money multiplier. An increase in the reverse repo rate reduces the money multiplier.",
+    "subject": "Economics",
+    "topic": "Monetary Policy",
+    "difficulty_rationale": "Hard; requires understanding the mechanics of monetary policy tools and their impact on the money multiplier.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Money Supply and Credit Creation",
+    "keywords": [
+      "Money Multiplier",
+      "CRR",
+      "SLR",
+      "Reverse Repo Rate",
+      "Credit Creation"
+    ],
+    "concepts": [
+      "Credit Multiplier Effect",
+      "Monetary Policy Transmission",
+      "Liquidity Management"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Hard",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Think of the Money Multiplier as a 'leaky bucket': anything that forces banks to hold more cash (higher SLR) or discourages lending (lower lending/higher reverse repo) shrinks the multiplier."
+  },
+  {
+    "questionNumber": 9,
+    "questionText": "If the Reserve Bank of India calls for decrease in the Statutory Liquidity Ratio (SLR), it may most likely lead to:",
+    "options": [
+      "higher risk-weighted capital requirements for all priority sector loans",
+      "decrease in the liquidity with banks, potentially reducing their capacity to lend to the public",
+      "decline in the lending rates by the scheduled commercial banks",
+      "increase in the repo rate as a counter-balancing monetary policy measure"
+    ],
+    "correctOption": "C",
+    "explanation": "SLR is a minimum percentage of deposits that banks must maintain in liquid assets. It is fixed by the RBI and used to regulate inflation and liquidity.",
+    "subject": "Economics",
+    "topic": "Monetary Policy",
+    "difficulty_rationale": "Moderate; requires understanding the role of SLR.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Instruments of Monetary Policy",
+    "keywords": [
+      "Statutory Liquidity Ratio",
+      "Liquidity",
+      "Monetary Policy",
+      "Lending Rates",
+      "RBI"
+    ],
+    "concepts": [
+      "Credit Creation",
+      "Banking Regulation",
+      "Liquidity Management"
+    ],
+    "question_type": "Direct Factual",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Lower SLR means banks have more 'Free' cash to 'Lend' at lower rates."
+  },
+  {
+    "questionNumber": 10,
+    "questionText": "Consider the following statements:\nI. The Gross Domestic Product (GDP) of a country includes the ‘income from abroad’.\nII. Private Remittances and Interest on External Loans form the part of Gross National Product (GNP).\nIII. Gross value added (GVA) includes the value of all goods and services produced in an economy after deducting the input costs.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "I only",
+      "I and II only",
+      "II only",
+      "II and III only"
+    ],
+    "correctOption": "D",
+    "explanation": "GNP includes 'income from abroad' (remittances, interest, grants). GVA adds up the value of goods and services produced after deducting input costs. Statement I is incorrect, II and III are correct.",
+    "subject": "Economics",
+    "topic": "National Income Accounting",
+    "difficulty_rationale": "Moderate; requires understanding the definitions of GNP and GVA.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "National Income Aggregates",
+    "keywords": [
+      "GDP",
+      "GNP",
+      "GVA",
+      "Net Factor Income from Abroad",
+      "Remittances"
+    ],
+    "concepts": [
+      "Difference between Domestic and National Product",
+      "Calculation of Gross Value Added",
+      "Components of NFIA"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Remember 'GNP' as 'Gross National Plus' (includes income from abroad), while 'GDP' is strictly 'Gross Domestic Product' (within borders)."
+  },
+  {
+    "questionNumber": 11,
+    "questionText": "With reference to “Off budget borrowing”, consider the following statements:\nI. These loans are taken by the public sector institutions on the behalf of the Central Government.\nII. The liability of such loans formally lies with the Centre.\nIII. The State owned enterprises can raise money through off budget borrowing.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "I only",
+      "I and III only",
+      "II only",
+      "II and III only"
+    ],
+    "correctOption": "B",
+    "explanation": "Off-budget borrowings are loans taken by public sector institutions on behalf of the government to fulfill expenditure needs. They are not included in the fiscal deficit calculation.",
+    "subject": "Economics",
+    "topic": "Fiscal Policy",
+    "difficulty_rationale": "Moderate; requires understanding of off-budget borrowing and fiscal deficit.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Public Debt and Fiscal Deficit",
+    "keywords": [
+      "Off-budget borrowing",
+      "Fiscal Deficit",
+      "Public Sector Undertakings",
+      "Government Liabilities"
+    ],
+    "concepts": [
+      "Fiscal Responsibility and Budget Management (FRBM) Act",
+      "Extra-budgetary resources",
+      "Public Debt Management"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Think of 'Off-budget' as 'Off-the-books'—the government uses PSUs as a proxy to borrow money so it doesn't show up on their own balance sheet."
+  },
+  {
+    "questionNumber": 12,
+    "questionText": "Which one of the following is correct with reference to the Engel's Law?",
+    "options": [
+      "Increase in income leads to decrease in expenditure on recreation",
+      "Increase in income leads to decrease in percentage of income spent on food",
+      "Economic growth contributes to increase in expenditure on non food items",
+      "Economic growth leads to structural changes in consumption patterns"
+    ],
+    "correctOption": "B",
+    "explanation": "Engel's Law states that the percentage of income allocated for food purchases decreases as income rises. A decreasing Engel coefficient indicates economic growth.",
+    "subject": "Economics",
+    "topic": "Economic Theory",
+    "difficulty_rationale": "Easy; application of a standard economic law.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Consumption Patterns and Income Elasticity",
+    "keywords": [
+      "Engel's Law",
+      "Engel Coefficient",
+      "Income Elasticity of Demand",
+      "Consumption Expenditure"
+    ],
+    "concepts": [
+      "Engel's Law",
+      "Income Effect on Food Consumption"
+    ],
+    "question_type": "Direct Factual",
+    "importance": "Medium",
+    "difficulty": "Easy",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Think 'Engel is Full': As your wallet gets full, the percentage spent on food gets smaller."
+  },
+  {
+    "questionNumber": 13,
+    "questionText": "Consider the following statements with reference to the composition of the Reserve Bank of India (RBI):\nI. The non Official Directors on the Central Board of the RBI include government officials.\nII. The Board for Financial Supervision (BFS) exercises integrated supervision over commercial banks, financial institutions and non-banking financial intermediaries.\nIII. Members of the Local Boards of the RBI are appointed by the Central Government for a term of four years.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "I only",
+      "I and II only",
+      "II only",
+      "I, II and III"
+    ],
+    "correctOption": "D",
+    "explanation": "The RBI is governed by a Central Board of Directors. The Board for Financial Supervision (BFS) exercises integrated supervision over financial institutions. The RBI has four Local Boards.",
+    "subject": "Economics",
+    "topic": "Banking System",
+    "difficulty_rationale": "Moderate; requires knowledge of RBI's organizational structure.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "RBI Governance and Organizational Structure",
+    "keywords": [
+      "Reserve Bank of India",
+      "Central Board of Directors",
+      "Board for Financial Supervision",
+      "Local Boards",
+      "Banking Regulation"
+    ],
+    "concepts": [
+      "RBI Organizational Structure",
+      "Financial Supervision Framework",
+      "Statutory Appointments"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Remember 'BFS' as 'Big Financial Supervisor' for integrated oversight, and note that Local Boards have a 4-year term (like a 4-legged table)."
+  },
+  {
+    "questionNumber": 14,
+    "questionText": "Consider the following statements with regard to the inflation targeting in India:\nI. It is mandated under the RBI Act, 1934.\nII. It is determined in consultation between the Reserve Bank of India (RBI) and the Central Government.\nIII. It is determined on the terms of Consumer Price Index (CPI).\nIV. It is revised after every quarter.\nWhich of the statements given above are correct?",
+    "options": [
+      "I and II only",
+      "I, II and III only",
+      "II, III and IV only",
+      "I, III and IV only"
+    ],
+    "correctOption": "B",
+    "explanation": "Inflation targeting is a monetary policy framework. The target is set in consultation between the RBI and the Government. The target is subject to review every five years, not necessarily every five years as a fixed rule for all tools.",
+    "subject": "Economics",
+    "topic": "Monetary Policy",
+    "difficulty_rationale": "Moderate; requires knowledge of India's inflation targeting framework.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Inflation Targeting Framework",
+    "keywords": [
+      "RBI Act 1934",
+      "Monetary Policy Committee",
+      "CPI-Combined",
+      "Inflation Targeting"
+    ],
+    "concepts": [
+      "Monetary Policy Framework",
+      "Price Stability",
+      "Statutory Mandate"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Remember '5-5-CPI': 5-year review cycle, 5% target (midpoint), and CPI as the anchor."
+  },
+  {
+    "questionNumber": 15,
+    "questionText": "In an economy, the situation of Fiscal Drag occurs when:",
+    "options": [
+      "rising government spending leads to inflation, reducing the real value of tax collections",
+      "higher incomes push individuals into higher tax brackets, reducing the overall growth in consumption",
+      "fiscal deficit crowds out private investment through higher interest rates",
+      "taxation fails to keep pace with inflation, leading to widening fiscal imbalances"
+    ],
+    "correctOption": "B",
+    "explanation": "Fiscal drag occurs when inflation or income growth pushes taxpayers into higher tax brackets, increasing government revenue without changing tax rates.",
+    "subject": "Economics",
+    "topic": "Taxation",
+    "difficulty_rationale": "Moderate; requires understanding of fiscal drag.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Direct and Indirect Taxes",
+    "keywords": [
+      "Fiscal Drag",
+      "Tax Brackets",
+      "Progressive Taxation",
+      "Disposable Income",
+      "Inflation"
+    ],
+    "concepts": [
+      "Progressive Tax Structure",
+      "Bracket Creep",
+      "Fiscal Policy"
+    ],
+    "question_type": "Direct Factual",
+    "importance": "Medium",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Think of 'Fiscal Drag' as a 'Tax Magnet' that pulls your income into a higher bracket as you earn more, dragging down your extra spending money."
+  },
+  {
+    "questionNumber": 16,
+    "questionText": "With reference to the Marginal Standing Facility (MSF), consider the following statements:\nI. It allows scheduled commercial banks to borrow overnight funds from the RBI.\nII. It is typically set at a slightly higher premium than the prevailing repo rate.\nIII. It can be given against the mortgage of Treasury bills.\nHow many of the statements given above are correct?",
+    "options": [
+      "Only one",
+      "Only two",
+      "All the three",
+      "None"
+    ],
+    "correctOption": "C",
+    "explanation": "The Marginal Standing Facility (MSF) is an emergency borrowing rate for banks. The rate is set at a premium over the repo rate. Loans are extended against collateral of approved government securities.",
+    "subject": "Economics",
+    "topic": "Monetary Policy",
+    "difficulty_rationale": "Moderate; requires knowledge of MSF.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Liquidity Adjustment Facility and Policy Rates",
+    "keywords": [
+      "Marginal Standing Facility",
+      "RBI",
+      "Repo Rate",
+      "Scheduled Commercial Banks",
+      "Government Securities"
+    ],
+    "concepts": [
+      "Monetary Policy Framework",
+      "Liquidity Management",
+      "Collateralized Lending"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Think of MSF as 'Most Special Funding'—it is the emergency window that costs a bit more (premium) than the standard Repo rate."
+  },
+  {
+    "questionNumber": 17,
+    "questionText": "Consider the following statements:\nStatement I:\nWith a rise in interest rates in the USA, the RBI is likely to increase domestic interest rates.\nStatement II:\nA rise in USA interest rates leads to capital outflows from developing countries like India.\nWhich one of the following is correct in respect of the above statements?",
+    "options": [
+      "Both Statement I and Statement II are correct and Statement II explains Statement I",
+      "Both Statement I and Statement II are correct but Statement II does not explain Statement I",
+      "Statement I is correct but Statement II is incorrect",
+      "Statement I is incorrect but Statement II is correct"
+    ],
+    "correctOption": "A",
+    "explanation": "When the US Federal Reserve increases interest rates, capital may flow out of India. The RBI may raise domestic interest rates to maintain investor confidence and support rupee stability.",
+    "subject": "Economics",
+    "topic": "Monetary Policy",
+    "difficulty_rationale": "Moderate; requires understanding of international capital flows.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "External Sector and Monetary Policy Transmission",
+    "keywords": [
+      "Interest Rate Parity",
+      "Capital Flight",
+      "RBI Monetary Policy",
+      "US Federal Reserve",
+      "Currency Depreciation"
+    ],
+    "concepts": [
+      "Capital Account Convertibility",
+      "Monetary Policy Transmission",
+      "Exchange Rate Stability"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "US Rates UP, Capital OUT; RBI Rates UP, Rupee STAYS."
+  },
+  {
+    "questionNumber": 18,
+    "questionText": "Consider the following statements with reference to the inflation:\nI. It indicates lower aggregate demand and comparatively higher supply.\nII. In the short run, it is associated with a boost in investment.\nIII. It can make exportable items less competitive in the international markets.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "I and III only",
+      "I and II only",
+      "II only",
+      "II and III only"
+    ],
+    "correctOption": "D",
+    "explanation": "Inflation has multi-dimensional effects. It can boost investment in the short run, negatively impact exports, and redistribute wealth from creditors to debtors.",
+    "subject": "Economics",
+    "topic": "Inflation",
+    "difficulty_rationale": "Moderate; requires understanding the effects of inflation.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Effects of Inflation on Economy",
+    "keywords": [
+      "Aggregate Demand",
+      "Investment",
+      "Export Competitiveness",
+      "Macroeconomic Indicators"
+    ],
+    "concepts": [
+      "Inflationary Dynamics",
+      "Short-run vs Long-run Economic Impact",
+      "Trade Balance"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Remember 'I-E-I': Inflation Increases investment (short-run), Erodes export competitiveness, and Increases aggregate demand (not decreases)."
+  },
+  {
+    "questionNumber": 19,
+    "questionText": "The Reserve Bank of India is often referred to as the ‘lender of last resort’ in the Indian banking system. Which of the following statements best explains this role?\nI. It provides emergency liquidity assistance to commercial banks facing short-term liquidity crises.\nII. It guarantees deposits of account holders during banking failures.\nIII. It ensures that commercial banks always have access to capital markets during a crisis.\nSelect the correct answer using the code given below:",
+    "options": [
+      "I only",
+      "II and III only",
+      "I and II only",
+      "III only"
+    ],
+    "correctOption": "A",
+    "explanation": "The RBI acts as the 'lender of last resort' by providing funds to banks during liquidity shortages. Deposit insurance is handled by the DICGC.",
+    "subject": "Economics",
+    "topic": "Banking System",
+    "difficulty_rationale": "Moderate; requires understanding of RBI's functions.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Functions of Reserve Bank of India",
+    "keywords": [
+      "Lender of Last Resort",
+      "Liquidity Crisis",
+      "Commercial Banks",
+      "DICGC",
+      "Monetary Policy"
+    ],
+    "concepts": [
+      "Central Banking Functions",
+      "Financial Stability",
+      "Deposit Insurance"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Remember 'LOLR' (Lender of Last Resort) as the 'Liquidity Oxygen for Last-ditch Relief' for banks."
+  },
+  {
+    "questionNumber": 20,
+    "questionText": "With reference to the Immediate Payment Service (IMPS), consider the following statements:\nI. It enables fast and real-time interbank electronic fund transfers.\nII. It has uniform transaction charges for all banks depending on the transaction amount.\nIII. IMPS transactions can be sent and received anytime including on holidays.\nWhich of the statements given above are correct?",
+    "options": [
+      "I and II only",
+      "II and III only",
+      "I and III only",
+      "I, II and III"
+    ],
+    "correctOption": "C",
+    "explanation": "IMPS enables real-time interbank fund transfers 24x7. Charges vary by bank. PAN is not a procedural requirement for IMPS.",
+    "subject": "Economics",
+    "topic": "Payment Systems",
+    "difficulty_rationale": "Moderate; requires knowledge of payment systems.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Digital Payment Infrastructure",
+    "keywords": [
+      "IMPS",
+      "Interbank Transfer",
+      "Digital Payments",
+      "NPCI",
+      "Electronic Fund Transfer"
+    ],
+    "concepts": [
+      "Real-time Gross Settlement",
+      "Retail Payment Systems",
+      "Banking Transaction Fees"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "N/A",
+    "mnemonic_hint": "Remember 'IMPS' as 'Instant Money, Perpetual Service'—it works 24/7, but banks set their own price tags."
+  },
+  {
+    "questionNumber": 21,
+    "questionText": "Which one of the following situations will not be treated as a Non-Performing Asset (NPA) as per the RBI guidelines?",
+    "options": [
+      "If interest on a term loan remains overdue for more than 90 days",
+      "A cash credit account has remained 'out of order' for more than 90 days",
+      "A farmer’s loan for a short-duration crop remains unpaid for two consecutive crop seasons",
+      "A bill remains overdue for a period of more than 60 days in the case of bills purchased and discounted"
+    ],
+    "correctOption": "D",
+    "explanation": "A Non-Performing Asset (NPA) is a loan where principal or interest is overdue for more than 90 days. Specific criteria apply to term loans, overdrafts, and agricultural advances.",
+    "subject": "Economics",
+    "topic": "Banking System",
+    "difficulty_rationale": "Moderate; requires knowledge of NPA classification.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Asset Classification and NPA Norms",
+    "keywords": [
+      "Non-Performing Asset",
+      "RBI Guidelines",
+      "Out of Order",
+      "Agricultural Advances",
+      "Term Loan"
+    ],
+    "concepts": [
+      "Banking Regulation",
+      "Asset Quality",
+      "Agricultural Credit Norms"
+    ],
+    "question_type": "Direct Factual",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Remember '90 days for business, but crops need two seasons' to distinguish standard NPA rules from agricultural exceptions."
+  },
+  {
+    "questionNumber": 22,
+    "questionText": "Consider the following statements with reference to the Capital Adequacy Ratio (CAR):\nI. It is an indicator of how well a bank can meet its obligations.\nII. The Reserve Bank of India (RBI) is the authority responsible for establishing the norms for banks to maintain their CAR.\nIII. The Indian scheduled commercial banks are required to maintain a CAR higher than stipulated by the Basel III norms.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "I only",
+      "I and II only",
+      "II only",
+      "I, II and III"
+    ],
+    "correctOption": "D",
+    "explanation": "The Capital Adequacy Ratio (CAR) measures a bank's capital relative to its risk-weighted assets. Indian scheduled commercial banks are required to maintain a CAR of 9% as per RBI norms.",
+    "subject": "Economics",
+    "topic": "Banking System",
+    "difficulty_rationale": "Moderate; requires knowledge of banking regulations.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Banking Regulation and Capital Adequacy",
+    "keywords": [
+      "Capital Adequacy Ratio",
+      "Basel III Norms",
+      "RBI",
+      "Scheduled Commercial Banks",
+      "Risk-Weighted Assets"
+    ],
+    "concepts": [
+      "Capital Adequacy Ratio (CAR)",
+      "Basel III Framework",
+      "Banking Supervision"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Remember 'CAR-9': Capital Adequacy Ratio is the bank's safety cushion, and India keeps it at 9% to stay safer than the Basel minimum."
+  },
+  {
+    "questionNumber": 23,
+    "questionText": "With reference to the Indian economy, consider the following statements:\nI. The State Bank of India was formed in 1949 by merging the three Presidency banks in India.\nII. The first phase of bank nationalization took place under the Prime Ministership of Morarji Desai.\nIII. The Narasimham Committee I (1991) recommended discontinuing the practice of directed lending and branch licensing.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "I only",
+      "III only",
+      "I and II only",
+      "II and III only"
+    ],
+    "correctOption": "B",
+    "explanation": "The State Bank of India originated from the Bank of Calcutta (1806). Banks were nationalized in 1969 and 1980. The Narasimham Committee made recommendations for banking sector reforms.",
+    "subject": "Economics",
+    "topic": "Banking System",
+    "difficulty_rationale": "Moderate; requires knowledge of banking history in India.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Evolution of Banking in India",
+    "keywords": [
+      "State Bank of India",
+      "Bank Nationalization",
+      "Narasimham Committee",
+      "Banking Sector Reforms",
+      "Presidency Banks"
+    ],
+    "concepts": [
+      "History of Indian Banking",
+      "Banking Sector Liberalization",
+      "Directed Credit Programs"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Hard",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Remember 'SBI-1955' (Imperial Bank merger) and 'Indira-1969' (Nationalization) to debunk the false statements."
+  },
+  {
+    "questionNumber": 24,
+    "questionText": "Consider the following statements regarding the Intercreditor Agreement:\nI. It is part of the ‘Sashakt’ plan to address the problem of resolving bad loans.\nII. It was formulated under the aegis of the Indian Banks' Association.\nIII. It is aimed at the resolution of loan accounts with a size of ₹50 crore and above.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "I and II only",
+      "III only",
+      "II and III only",
+      "I, II and III"
+    ],
+    "correctOption": "D",
+    "explanation": "The intercreditor agreement is part of the 'Sashakt' plan for resolving bad loans of ₹50 crore and above. It was a recommendation of the Sunil Mehta Committee.",
+    "subject": "Economics",
+    "topic": "Banking System",
+    "difficulty_rationale": "Moderate; requires knowledge of banking sector reforms.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Non-Performing Assets (NPA) Resolution Mechanisms",
+    "keywords": [
+      "Intercreditor Agreement",
+      "Sashakt Plan",
+      "Sunil Mehta Committee",
+      "Bad Loans",
+      "Indian Banks' Association"
+    ],
+    "concepts": [
+      "Banking Sector Reforms",
+      "Stressed Asset Resolution",
+      "Credit Management"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "Medium",
+    "difficulty": "Medium",
+    "ncert_class": "N/A",
+    "mnemonic_hint": "Remember 'Sashakt' (Strong) as the 50-crore shield: Sunil Mehta's plan to make banks strong against bad loans."
+  },
+  {
+    "questionNumber": 25,
+    "questionText": "Which of the following are among the key functions of the Financial Services Institutions Bureau (FSIB)?\nI. Recommending appointments of Whole-Time Directors in Public Sector Banks (PSBs)\nII. Issuing monetary policy directions to Public Sector Financial Institutions\nIII. Advising the government on Board-level management structure of Financial Institutions\nIV. Preparing advisory input for training and development in PSBs\nSelect the correct answer using the code below:",
+    "options": [
+      "I, III and IV only",
+      "I, II, and III only",
+      "II, III and IV only",
+      "I, II and IV only"
+    ],
+    "correctOption": "A",
+    "explanation": "The Financial Services Institutions Bureau (FSIB) identifies talent for senior positions in government-owned financial institutions. It does not deal with monetary policy.",
+    "subject": "Economics",
+    "topic": "Banking System",
+    "difficulty_rationale": "Moderate; requires knowledge of FSIB.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Financial Institutions and Regulatory Bodies",
+    "keywords": [
+      "FSIB",
+      "Public Sector Banks",
+      "Whole-Time Directors",
+      "Financial Governance",
+      "Appointments"
+    ],
+    "concepts": [
+      "Corporate Governance in PSBs",
+      "Institutional Appointments",
+      "Separation of Monetary Policy and Personnel Management"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "N/A",
+    "mnemonic_hint": "Think of FSIB as the 'Headhunter' for banks: it picks the 'Heads' (Directors) and 'Brains' (Management structure), but never touches the 'Money' (Monetary Policy)."
+  },
+  {
+    "questionNumber": 26,
+    "questionText": "With reference to the balance sheet of a commercial bank in India, consider the following:\nI. Loans and advances\nII. Bills discounted and purchased\nIII. Time deposits\nIV. Borrowings\nV. Lending money at call to other banks\nHow many of the above are included as liabilities of a commercial bank?",
+    "options": [
+      "Only two",
+      "Only three",
+      "Only four",
+      "All the five"
+    ],
+    "correctOption": "A",
+    "explanation": "Commercial banks accept deposits and extend loans. Assets include loans, investments, and cash. Liabilities include demand and time deposits, and borrowings.",
+    "subject": "Economics",
+    "topic": "Banking System",
+    "difficulty_rationale": "Moderate; requires understanding of bank balance sheets.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Balance Sheet of Commercial Banks",
+    "keywords": [
+      "Commercial Bank",
+      "Balance Sheet",
+      "Liabilities",
+      "Assets",
+      "Time Deposits"
+    ],
+    "concepts": [
+      "Bank Balance Sheet Structure",
+      "Assets vs Liabilities in Banking"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Remember 'L-A-B': Liabilities are what the bank owes (deposits/borrowings), while Assets are what the bank owns (loans/advances)."
+  },
+  {
+    "questionNumber": 27,
+    "questionText": "In the context of corporate finance, a company’s Interest Coverage Ratio (ICR) falling below one implies:",
+    "options": [
+      "the company does not face any potential default risk",
+      "the company has zero debt on its balance sheet",
+      "the company’s current earnings are insufficient to cover interest expenses",
+      "the company’s equity has exceeded its liabilities"
+    ],
+    "correctOption": "C",
+    "explanation": "The Interest Coverage Ratio (ICR) measures a company's ability to pay interest on its debt using its earnings before interest and taxes (EBIT).",
+    "subject": "Economics",
+    "topic": "Corporate Finance",
+    "difficulty_rationale": "Moderate; requires understanding of financial ratios.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Financial Ratios and Solvency Analysis",
+    "keywords": [
+      "Interest Coverage Ratio",
+      "EBIT",
+      "Corporate Debt",
+      "Solvency",
+      "Financial Health"
+    ],
+    "concepts": [
+      "Debt Servicing Capacity",
+      "Financial Leverage"
+    ],
+    "question_type": "Direct Factual",
+    "importance": "Medium",
+    "difficulty": "Easy",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Think of ICR as a 'Safety Net': If the ratio is below 1, the net has a hole, and you cannot catch your interest payments."
+  },
+  {
+    "questionNumber": 28,
+    "questionText": "Consider the following statements with regard to Urban Cooperative Banks (UCBs) in India:\nI. They can lend only for non-agricultural purposes.\nII. They are under the supervision of the Reserve Bank of India (RBI).\nIII. Deposits in UCBs are not covered under deposit insurance.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "I and III only",
+      "II only",
+      "II and III only",
+      "I and II only"
+    ],
+    "correctOption": "B",
+    "explanation": "Urban Cooperative Banks (UCBs) cater to the non-agricultural sector. The Banking Regulation Act, 1949 was amended in 2020 to give RBI more control over UCBs. Deposits are insured by DICGC.",
+    "subject": "Economics",
+    "topic": "Banking System",
+    "difficulty_rationale": "Moderate; requires knowledge of UCB regulations.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Cooperative Banking Structure",
+    "keywords": [
+      "Urban Cooperative Banks",
+      "RBI Supervision",
+      "DICGC",
+      "Banking Regulation Act",
+      "Deposit Insurance"
+    ],
+    "concepts": [
+      "Regulatory Framework of Cooperative Banks",
+      "Deposit Insurance and Credit Guarantee Corporation (DICGC)",
+      "Banking Regulation (Amendment) Act 2020"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Remember 'RBI-DIC': RBI regulates the banks, and DICGC covers the deposits."
+  },
+  {
+    "questionNumber": 29,
+    "questionText": "Consider the following statements with reference to the Neo Banks:\nI. They are online-only financial technology companies.\nII. They accept deposits and offer lending products on their own books.\nIII. They are given operational license by the Reserve Bank of India (RBI).\nWhich of the statements given above is/are correct?",
+    "options": [
+      "I only",
+      "I and II only",
+      "II only",
+      "II and III only"
+    ],
+    "correctOption": "A",
+    "explanation": "Neo banks are online-only financial technology companies. They cannot accept deposits or offer lending products on their own books. They are not licensed by the Ministry of Finance.",
+    "subject": "Economics",
+    "topic": "Banking System",
+    "difficulty_rationale": "Moderate; requires knowledge of fintech.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Digital Banking and Financial Technology",
+    "keywords": [
+      "Neo Banks",
+      "Fintech",
+      "RBI Licensing",
+      "Digital Banking",
+      "Financial Inclusion"
+    ],
+    "concepts": [
+      "Banking Regulation",
+      "Digital Financial Services",
+      "Non-Banking Financial Entities"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "N/A",
+    "mnemonic_hint": "NEO is 'No-Own': No license, No deposits, No own books—just a digital bridge."
+  },
+  {
+    "questionNumber": 30,
+    "questionText": "Consider the following statements with reference to the Security and Exchange Board of India (SEBI):\nI. It is a statutory body.\nII. It overlooks registration and regulation of venture capital funds.\nIII. It has quasi–legislative powers.\nIV. The Securities Appellate Tribunal (SAT) hears appeals against SEBI’s decisions.\nHow many of the statements given above are correct?",
+    "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All the four"
+    ],
+    "correctOption": "D",
+    "explanation": "SEBI was set up in 1988 and given statutory powers in 1992. It regulates the securities market, has quasi-legislative and quasi-judicial powers, and is supported by the SAT.",
+    "subject": "Economics",
+    "topic": "Financial Markets",
+    "difficulty_rationale": "Moderate; requires knowledge of SEBI.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Regulatory Bodies in Financial Markets",
+    "keywords": [
+      "SEBI",
+      "Statutory Body",
+      "Securities Appellate Tribunal",
+      "Venture Capital Funds",
+      "Quasi-legislative powers"
+    ],
+    "concepts": [
+      "Regulatory Framework of Indian Capital Markets",
+      "Powers and Functions of SEBI",
+      "Appellate Mechanism in Financial Regulation"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Remember 'SEBI' as 'Statutory, Executive, Binding, Independent' to recall its legal status and regulatory reach."
+  },
+  {
+    "questionNumber": 31,
+    "questionText": "With reference to the Foreign Institutional Investment (FII) in India, consider the following statements:\nI. They are limited to a maximum of 15% of the company's paid-up capital.\nII. The Reserve Bank of India along with Securities Exchange Board of India enforces the sectoral caps for different sectors of FIIs.\nIII. They primarily make investments in debentures and government bonds.\nWhich of the statements given above is / are not correct?",
+    "options": [
+      "I and II only",
+      "II and III only",
+      "I only",
+      "I, II and III"
+    ],
+    "correctOption": "C",
+    "explanation": "FIIs are permitted to invest in Indian companies, with specific limits. Sectoral caps are defined in the FDI policy. FIIs primarily make portfolio investments in listed securities.",
+    "subject": "Economics",
+    "topic": "Financial Markets",
+    "difficulty_rationale": "Moderate; requires knowledge of FII regulations.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Foreign Portfolio Investment (FPI) and Regulatory Framework",
+    "keywords": [
+      "Foreign Institutional Investment",
+      "FII",
+      "Sectoral Caps",
+      "Paid-up Capital",
+      "Portfolio Investment"
+    ],
+    "concepts": [
+      "Capital Account Convertibility",
+      "Regulatory oversight of SEBI and RBI",
+      "Foreign Investment Policy"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Hard",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Remember 'FII is for Portfolio, FDI is for Control'—FIIs don't cap at 15% and don't manage sectoral caps like FDI does."
+  },
+  {
+    "questionNumber": 32,
+    "questionText": "Consider the following statements with reference to the difference between the Non-Banking Financial Company (NBFC) and the banks:\nI. Unlike banks, the NBFCs cannot accept demand deposits.\nII. Both are generally considered as part of the payment and settlement system.\nIII. Unlike banks, NBFCs cannot issue cheques drawn on themselves.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "I and II only",
+      "III only",
+      "I and III only",
+      "I, II and III"
+    ],
+    "correctOption": "C",
+    "explanation": "NBFCs are financial institutions that perform intermediation but are prohibited from accepting demand deposits. They are not part of the payment and settlement infrastructure.",
+    "subject": "Economics",
+    "topic": "Banking System",
+    "difficulty_rationale": "Moderate; requires understanding of NBFCs.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Non-Banking Financial Companies (NBFCs) vs Banks",
+    "keywords": [
+      "NBFC",
+      "Demand Deposits",
+      "Payment and Settlement System",
+      "Cheque Issuance",
+      "Financial Intermediation"
+    ],
+    "concepts": [
+      "Banking Regulation",
+      "Monetary Policy Transmission",
+      "Financial Infrastructure"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Remember 'D-P-C': NBFCs lack Demand deposits, Payment system access, and Cheque issuance."
+  },
+  {
+    "questionNumber": 33,
+    "questionText": "Consider the following:\nI. BHIM\nII. NEFT\nIII. IMPS\nIV. RuPay\nV. Fastag\nHow many of the above retail payment and settlement systems are under National Payments Corporation of India (NPCI)?",
+    "options": [
+      "Only two",
+      "Only three",
+      "Only four",
+      "All the five"
+    ],
+    "correctOption": "C",
+    "explanation": "NPCI manages retail payment systems like BHIM, IMPS, RuPay, and NETC. NEFT is developed by the RBI.",
+    "subject": "Economics",
+    "topic": "Payment Systems",
+    "difficulty_rationale": "Moderate; requires knowledge of NPCI products.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Retail Payment Systems and NPCI",
+    "keywords": [
+      "NPCI",
+      "Retail Payments",
+      "Digital India",
+      "Financial Inclusion"
+    ],
+    "concepts": [
+      "Payment and Settlement Systems Act, 2007",
+      "Role of RBI in Payment Systems",
+      "Digital Payment Infrastructure"
+    ],
+    "question_type": "Direct Factual",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "N/A",
+    "mnemonic_hint": "Remember 'B-I-R-F' (BHIM, IMPS, RuPay, Fastag) are NPCI's children, while NEFT is the RBI's own creation."
+  },
+  {
+    "questionNumber": 34,
+    "questionText": "Consider the following pairs:\nType of Unified Payment Interface (UPI) | Feature\nI. UPI One World | Enables foreign visitors to make secure, cash-free transactions\nII. UPI Lite | Allows low-value wallet transactions in offline mode\nIII. UPI 2.0 | Allows customers to link their overdraft (OD) account with UPI\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      "Only one",
+      "Only two",
+      "All the three",
+      "None"
+    ],
+    "correctOption": "C",
+    "explanation": "UPI is a real-time payment system. UPI One World, UPI Lite, and UPI 2.0 are features/products of the UPI ecosystem.",
+    "subject": "Economics",
+    "topic": "Payment Systems",
+    "difficulty_rationale": "Moderate; requires knowledge of UPI.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Digital Payment Infrastructure",
+    "keywords": [
+      "UPI",
+      "NPCI",
+      "Digital Payments",
+      "Financial Inclusion"
+    ],
+    "concepts": [
+      "UPI Ecosystem",
+      "Digital Financial Services"
+    ],
+    "question_type": "Match the Following",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "N/A",
+    "mnemonic_hint": "Remember 'OW-L-2': One World for visitors, Lite for low-value, 2.0 for overdraft."
+  },
+  {
+    "questionNumber": 35,
+    "questionText": "Consider the following statements with reference to the Asset Reconstruction Companies (ARCs):\nI. They are regulated under the SARFAESI Act, 2002.\nII. They can take over only secured debts that have been classified as non-performing assets.\nIII. They have to maintain a capital adequacy ratio of 15% of their risk-weighted assets.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "I only",
+      "I and II only",
+      "II only",
+      "I, II and III"
+    ],
+    "correctOption": "D",
+    "explanation": "ARCs are registered under the RBI and regulated under the SARFAESI Act. They take over non-performing assets. They must maintain a capital adequacy ratio of 15%.",
+    "subject": "Economics",
+    "topic": "Banking System",
+    "difficulty_rationale": "Moderate; requires knowledge of ARCs.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Non-Banking Financial Intermediaries",
+    "keywords": [
+      "Asset Reconstruction Companies",
+      "SARFAESI Act",
+      "Non-Performing Assets",
+      "Capital Adequacy Ratio",
+      "RBI Regulation"
+    ],
+    "concepts": [
+      "Bad Bank Mechanism",
+      "Financial Sector Regulation",
+      "Risk-Weighted Assets"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Remember 'ARC-15': Asset Reconstruction Companies need 15% capital to fix the bad debt mess."
+  },
+  {
+    "questionNumber": 36,
+    "questionText": "Which one of the following brings out the Consumer Price Index (CPI) for Rural Labourers (RL) and Agricultural Labourers (AL)?",
+    "options": [
+      "Office of Chief Economic Advisor",
+      "National Statistics Office",
+      "Labour Bureau",
+      "National Statistical Commission"
+    ],
+    "correctOption": "C",
+    "explanation": "The Labour Bureau, under the Ministry of Labour & Employment, collects and disseminates labour and price statistics, including CPI-AL.",
+    "subject": "Economics",
+    "topic": "Inflation",
+    "difficulty_rationale": "Moderate; requires knowledge of labour statistics.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Price Indices and Inflation Measurement",
+    "keywords": [
+      "Consumer Price Index",
+      "Labour Bureau",
+      "Agricultural Labourers",
+      "Rural Labourers",
+      "Ministry of Labour and Employment"
+    ],
+    "concepts": [
+      "Inflation Measurement",
+      "Labour Statistics",
+      "CPI Variants"
+    ],
+    "question_type": "Direct Factual",
+    "importance": "High",
+    "difficulty": "Easy",
+    "ncert_class": "Class 11",
+    "mnemonic_hint": "Think 'Labour' for 'Labourers': The Labour Bureau handles the CPI for the working class (AL/RL)."
+  },
+  {
+    "questionNumber": 37,
+    "questionText": "With reference to government of India, consider the following pairs:\nDepartment | Function\nI. Department of Economic Affairs | Preparation of the Union Budget\nII. Department of Investment and Public Asset Management | Facilitation of the Foreign Direct Investment (FDI)\nIII. Department for Promotion of Industry and Internal Trade | Management of disinvestment in Central Public Sector Enterprises (CPSE's)\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      "Only one",
+      "Only two",
+      "All the three",
+      "None"
+    ],
+    "correctOption": "A",
+    "explanation": "The Department of Economic Affairs (DEA) manages economic policies. DIPAM deals with disinvestment. DPIIT is under the Ministry of Commerce and Industry.",
+    "subject": "Economics",
+    "topic": "Government Departments",
+    "difficulty_rationale": "Moderate; requires knowledge of government departments.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Functions of Ministries and Departments",
+    "keywords": [
+      "Union Budget",
+      "DIPAM",
+      "DPIIT",
+      "Disinvestment",
+      "FDI"
+    ],
+    "concepts": [
+      "Fiscal Policy",
+      "Industrial Policy",
+      "Government Budgeting"
+    ],
+    "question_type": "Match the Following",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Remember 'DIPAM' for Disinvestment (D-D) and 'DEA' for Budget (DEA-Budgeting)."
+  },
+  {
+    "questionNumber": 38,
+    "questionText": "Consider the following statements with reference to Angel Investors:\nI. They are equity investors.\nII. They generally provide interest free loans.\nIII. They are regulated by the Securities and Exchange Board of India.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "I, II and III",
+      "I and II only",
+      "III only",
+      "II and III only"
+    ],
+    "correctOption": "A",
+    "explanation": "Angel investors are equity investors. They do not provide loans. Angel funds are regulated by SEBI under AIF regulations.",
+    "subject": "Economics",
+    "topic": "Financial Markets",
+    "difficulty_rationale": "Moderate; requires knowledge of angel investment.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Venture Capital and Angel Investing",
+    "keywords": [
+      "Angel Investors",
+      "Equity Financing",
+      "SEBI",
+      "Alternative Investment Funds",
+      "Startup Funding"
+    ],
+    "concepts": [
+      "Equity vs Debt Financing",
+      "Regulatory Framework for AIFs",
+      "Startup Ecosystem"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "ANGEL: Always Negotiate Growth Equity, Loans are not their game."
+  },
+  {
+    "questionNumber": 39,
+    "questionText": "Consider the following statements:\nStatement I:\nDuring an economic recession, the government generally increases the tax rates.\nStatement II:\nExpansionary monetary policies generally tend to boost aggregate demand in the economy.\nWhich one of the following is correct in respect of the above Statements?",
+    "options": [
+      "Both Statement I and Statement II are correct and Statement II is the correct explanation for Statement I",
+      "Both Statement I and Statement II are correct and Statement II is not the correct explanation for Statement I",
+      "Statement I is correct but Statement II is incorrect",
+      "Statement I is incorrect but Statement II is correct"
+    ],
+    "correctOption": "D",
+    "explanation": "During a recession, governments typically use expansionary fiscal policy (increasing spending, reducing taxes). Expansionary policy stimulates growth by increasing aggregate demand.",
+    "subject": "Economics",
+    "topic": "Fiscal Policy",
+    "difficulty_rationale": "Moderate; requires understanding of recession and fiscal policy.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Fiscal and Monetary Policy Interventions",
+    "keywords": [
+      "Economic Recession",
+      "Expansionary Policy",
+      "Aggregate Demand",
+      "Fiscal Policy",
+      "Monetary Policy"
+    ],
+    "concepts": [
+      "Counter-cyclical Fiscal Policy",
+      "Aggregate Demand Management",
+      "Economic Stimulus"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "In a recession, think 'RE-TAX': REcession means cut TAXes to boost demand, not increase them."
+  },
+  {
+    "questionNumber": 40,
+    "questionText": "Consider the following:\nI. The government implementing a Universal Basic Income scheme for all citizens\nII. A significant fall in interest rates on personal loans by major public sector banks\nIII. Sharp increase in export earnings due to global commodity boom\nHow many of the above factors can lead to an increase in demand-pull inflation?",
+    "options": [
+      "Only one",
+      "Only two",
+      "All the three",
+      "None"
+    ],
+    "correctOption": "C",
+    "explanation": "Demand-pull inflation arises from rapid growth in aggregate demand. Universal Basic Income, decreased interest rates, and increased export earnings can all contribute to demand-pull inflation.",
+    "subject": "Economics",
+    "topic": "Inflation",
+    "difficulty_rationale": "Moderate; requires understanding of inflation drivers.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Causes of Inflation",
+    "keywords": [
+      "Demand-pull inflation",
+      "Aggregate demand",
+      "Universal Basic Income",
+      "Monetary policy",
+      "Export earnings"
+    ],
+    "concepts": [
+      "Macroeconomic equilibrium",
+      "Monetary transmission mechanism",
+      "Fiscal stimulus"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Think of 'D-I-E': Demand-pull inflation rises with Disposable income (UBI), Interest rate cuts, and Export booms."
+  },
+  {
+    "questionNumber": 41,
+    "questionText": "Consider the following statements with reference to the 16th Finance Commission:\nI. It will make recommendations for the period 2026–2031.\nII. It is required to recommend performance-based incentives for states in areas like power sector reforms and urban finance.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "I only",
+      "II only",
+      "Both I and II",
+      "Neither I nor II"
+    ],
+    "correctOption": "C",
+    "explanation": "The Finance Commission is a constitutional body under Article 280. It recommends the distribution of tax revenues between the Centre and states. The 16th Finance Commission will cover 2026-2031.",
+    "subject": "Economics",
+    "topic": "Fiscal Policy",
+    "difficulty_rationale": "Moderate; requires knowledge of the Finance Commission.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Finance Commission",
+    "keywords": [
+      "16th Finance Commission",
+      "Article 280",
+      "Fiscal Federalism",
+      "Tax Devolution"
+    ],
+    "concepts": [
+      "Constitutional Bodies",
+      "Centre-State Financial Relations",
+      "Fiscal Policy"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 11",
+    "mnemonic_hint": "Think of the 16th FC as the 'Sweet 16' that sets the fiscal roadmap for the next 5 years (2026-31)."
+  },
+  {
+    "questionNumber": 42,
+    "questionText": "Consider the following statements:\nI. Fiscal Deficit reflects the overall borrowing requirement of the government.\nII. Revenue Deficit implies that the government is unable to meet its day-to-day expenses from its revenue receipts.\nIII. Primary Deficit indicates the government’s total fiscal burden including interest payments on past loans.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "I and III only",
+      "II and III only",
+      "III only",
+      "I and II only"
+    ],
+    "correctOption": "D",
+    "explanation": "Government deficits occur when expenditure exceeds revenue. A fiscal deficit is total expenditure minus total revenue (excluding borrowings). A revenue deficit is revenue receipts minus revenue expenditure.",
+    "subject": "Economics",
+    "topic": "Fiscal Policy",
+    "difficulty_rationale": "Moderate; requires understanding of government deficits.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Budgetary Deficits and Components",
+    "keywords": [
+      "Fiscal Deficit",
+      "Revenue Deficit",
+      "Primary Deficit",
+      "Government Borrowing"
+    ],
+    "concepts": [
+      "Fiscal Policy Framework",
+      "Public Finance Management"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Remember 'Primary = Fiscal - Interest': Primary deficit removes the burden of past interest, leaving only the current fiscal effort."
+  },
+  {
+    "questionNumber": 43,
+    "questionText": "Which of the following form the part of the Capital expenditure of the Government of India?\nI. Purchase of machinery\nII. Borrowings from the Reserve Bank of India\nIII. Interest payments\nIV. Investment in public sector enterprises\nSelect the correct answer using the code given below:",
+    "options": [
+      "II and III only",
+      "I and II only",
+      "III and IV only",
+      "I and IV only"
+    ],
+    "correctOption": "D",
+    "explanation": "The Capital Budget includes capital receipts and payments. Capital receipts include market loans and external loans. Capital payments include expenditure on assets and investments.",
+    "subject": "Economics",
+    "topic": "Fiscal Policy",
+    "difficulty_rationale": "Moderate; requires understanding of the government budget.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Budgetary Components: Capital Budget",
+    "keywords": [
+      "Capital Expenditure",
+      "Capital Receipts",
+      "Fiscal Policy",
+      "Public Investment"
+    ],
+    "concepts": [
+      "Capital Budgeting",
+      "Government Expenditure Classification"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Think 'CAP-EX': Capital Expenditure creates Assets or reduces Liabilities (like machinery and investments), while interest and borrowings are Revenue/Financial items."
+  },
+  {
+    "questionNumber": 44,
+    "questionText": "Consider the following:\nI. Inter-Regulatory Technical Group (IR-TG)\nII. Technical Group on financial inclusion and financial literacy\nIII. Inter Regulatory Forum for Monitoring Financial Conglomerates (IRF-FC)\nHow many of the above groups are under the Financial Stability and Development Council (FSDC)?",
+    "options": [
+      "Only one",
+      "Only two",
+      "All the three",
+      "None"
+    ],
+    "correctOption": "C",
+    "explanation": "The FSDC is an apex forum chaired by the Finance Minister. It includes various working groups for inter-regulatory coordination, financial inclusion, and monitoring financial conglomerates.",
+    "subject": "Economics",
+    "topic": "Financial Markets",
+    "difficulty_rationale": "Moderate; requires knowledge of FSDC.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Financial Regulatory Bodies and Coordination Mechanisms",
+    "keywords": [
+      "FSDC",
+      "Financial Stability",
+      "Inter-Regulatory Coordination",
+      "Financial Conglomerates",
+      "Financial Inclusion"
+    ],
+    "concepts": [
+      "Institutional Framework of Indian Financial System",
+      "Regulatory Oversight and Inter-agency Cooperation"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Hard",
+    "ncert_class": "N/A",
+    "mnemonic_hint": "Remember 'FSDC' as the 'FIT' council: Financial inclusion, Inter-regulatory coordination, and Technical monitoring of conglomerates."
+  },
+  {
+    "questionNumber": 45,
+    "questionText": "Consider the following pairs:\nType of Good | Example\nI. Intermediate | Copper used for making utensils\nII. Consumption | School Uniform\nIII. Capital | Wooden tables\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      "Only one",
+      "Only two",
+      "All the three",
+      "None"
+    ],
+    "correctOption": "C",
+    "explanation": "Intermediate goods are used as inputs for production. Final goods are categorized into consumption goods and capital goods.",
+    "subject": "Economics",
+    "topic": "National Income Accounting",
+    "difficulty_rationale": "Moderate; requires understanding of types of goods.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Classification of Goods",
+    "keywords": [
+      "Intermediate Goods",
+      "Consumption Goods",
+      "Capital Goods",
+      "National Income"
+    ],
+    "concepts": [
+      "Production Boundary",
+      "Final vs Intermediate Goods",
+      "Fixed Assets"
+    ],
+    "question_type": "Match the Following",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Think 'ICC': Intermediate (Input), Consumption (Consumer), Capital (Creation/Tool)."
+  },
+  {
+    "questionNumber": 46,
+    "questionText": "A rightward shift in the supply curve of a good indicates which of the following?",
+    "options": [
+      "An increase in the price of the good, leading to more quantity supplied",
+      "An improvement in technology, leading to more supply of goods",
+      "A reduction in demand, causing producers to increase output",
+      "A rise in consumer income, prompting producers to increase supply"
+    ],
+    "correctOption": "B",
+    "explanation": "A change in supply shifts the supply curve. Factors like technology, number of sellers, and input prices cause this shift.",
+    "subject": "Economics",
+    "topic": "Market Dynamics",
+    "difficulty_rationale": "Moderate; requires understanding of supply and demand.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Determinants of Supply",
+    "keywords": [
+      "Supply Curve",
+      "Rightward Shift",
+      "Market Dynamics",
+      "Technological Advancement"
+    ],
+    "concepts": [
+      "Law of Supply",
+      "Shift vs Movement along the supply curve"
+    ],
+    "question_type": "Direct Factual",
+    "importance": "High",
+    "difficulty": "Easy",
+    "ncert_class": "Class 11",
+    "mnemonic_hint": "Remember 'RIGHT is BRIGHT': A rightward shift means the market is brighter due to better technology or lower costs, increasing supply."
+  },
+  {
+    "questionNumber": 47,
+    "questionText": "Which one of the following commodities is currently under the Goods and Services Tax (GST) regime?",
+    "options": [
+      "Natural gas",
+      "Petroleum crude",
+      "Electricity supply",
+      "Resale of used Electric Vehicles (EVs) by businesses"
+    ],
+    "correctOption": "D",
+    "explanation": "GST is a tax on goods and services. Certain goods like petroleum products are excluded. GST is levied on the resale of used electric vehicles.",
+    "subject": "Economics",
+    "topic": "Taxation",
+    "difficulty_rationale": "Moderate; requires knowledge of GST.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "GST Exemptions and Scope",
+    "keywords": [
+      "GST",
+      "Indirect Taxation",
+      "Petroleum Products",
+      "Electric Vehicles",
+      "Taxable Goods"
+    ],
+    "concepts": [
+      "GST Council",
+      "Exclusion of Petroleum from GST",
+      "Taxation on Second-hand Goods"
+    ],
+    "question_type": "Direct Factual",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Remember 'PET-E' (Petroleum, Electricity, Tobacco) are often kept outside GST, while used goods are taxed to prevent revenue leakage."
+  },
+  {
+    "questionNumber": 48,
+    "questionText": "Consider the following statements:\nStatement I:\nPer capita income is considered as a more accurate measure of a nation's economic progress.\nStatement II:\nPer capita income estimates the distribution of wealth across the population in a nation.\nWhich one of the following is correct in respect of the above statements?",
+    "options": [
+      "Both Statement I and Statement II are correct and Statement II explains Statement I",
+      "Both Statement I and Statement II are correct but Statement II does not explain Statement I",
+      "Statement I is correct but Statement II is incorrect",
+      "Statement I is incorrect but Statement II is correct"
+    ],
+    "correctOption": "A",
+    "explanation": "Per capita income accounts for population size and is a better indicator of standard of living than GDP. Both statements are correct and statement II explains statement I.",
+    "subject": "Economics",
+    "topic": "Economic Growth",
+    "difficulty_rationale": "Moderate; requires understanding of economic indicators.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "National Income Accounting",
+    "keywords": [
+      "Per Capita Income",
+      "Economic Progress",
+      "Wealth Distribution",
+      "Standard of Living"
+    ],
+    "concepts": [
+      "Economic Indicators",
+      "GDP vs Per Capita Income",
+      "Income Inequality"
+    ],
+    "question_type": "Assertion-Reason",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Think of 'PCI' as 'Per Capita Indicator'—it divides the national pie by the people, but remember it hides the slices' sizes (inequality)."
+  },
+  {
+    "questionNumber": 49,
+    "questionText": "With reference to the Equalisation Levy, consider the following statements.\nI. It is a direct tax levied on online transactions.\nII. Any income which is chargeable to the equalisation levy is exempted from income tax.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "I only",
+      "II only",
+      "Both I and II",
+      "Neither I nor II"
+    ],
+    "correctOption": "C",
+    "explanation": "The Equalisation Levy is a direct tax on online transactions made to non-residents. It is being abolished from April 1, 2025.",
+    "subject": "Economics",
+    "topic": "Taxation",
+    "difficulty_rationale": "Moderate; requires knowledge of current tax policies.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Digital Taxation and Equalisation Levy",
+    "keywords": [
+      "Equalisation Levy",
+      "Digital Economy",
+      "Direct Tax",
+      "Non-resident E-commerce",
+      "Income Tax Act"
+    ],
+    "concepts": [
+      "Digital Services Tax",
+      "Base Erosion and Profit Shifting (BEPS)",
+      "Taxation of Cross-border Digital Transactions"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "N/A",
+    "mnemonic_hint": "Think of 'E-L' as 'E-commerce Levy'—it targets the digital giants (non-residents) to ensure they pay their fair share before they exit the tax net in 2025."
+  },
+  {
+    "questionNumber": 50,
+    "questionText": "Consider the following statements with reference to the borrowing powers of the Central and State Governments in India:\nStatement I:\nA State Government must obtain prior approval from the Central Government before raising any new loans, if it has outstanding borrowings from the Centre.\nStatement II:\nThe Financial Regulation and Budgetary Management Act, 2003, restricts the Centre from lending to States that breach fiscal deficit targets.\nWhich one of the following is correct in respect of the above statements?",
+    "options": [
+      "Both Statement I and Statement II are correct and Statement II explains Statement–I",
+      "Both Statement I and Statement II are correct but Statement II does not explain Statement I",
+      "Statement I is correct but Statement II is incorrect",
+      "Statement I is incorrect but Statement II is correct"
+    ],
+    "correctOption": "C",
+    "explanation": "Article 293(3) requires the consent of the Central Government for states to raise loans if they have outstanding loans from the Centre. The FRBM Act does not directly restrict the Centre's ability to lend to states.",
+    "subject": "Economics",
+    "topic": "Fiscal Policy",
+    "difficulty_rationale": "Moderate; requires knowledge of constitutional provisions and the FRBM Act.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Borrowing Powers of States",
+    "keywords": [
+      "Article 293",
+      "Fiscal Federalism",
+      "FRBM Act",
+      "State Borrowing",
+      "Central Consent"
+    ],
+    "concepts": [
+      "Constitutional provisions for state debt",
+      "Fiscal responsibility and budget management",
+      "Centre-State financial relations"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Hard",
+    "ncert_class": "Class 11",
+    "mnemonic_hint": "Remember '293 Consent': If you owe the Centre money, you need their 'consent' to borrow more."
+  },
+  {
+    "questionNumber": 51,
+    "questionText": "Consider the following statements with reference to India’s external debt:\nI. Short-term debt constitutes the major part in India's external debt.\nII. Currency and deposits form the largest component of external debt.\nIII. Majority of India’s external debt is denominated in Indian Rupee.\nHow many of the above statements are correct?",
+    "options": [
+      "Only one",
+      "Only two",
+      "All the three",
+      "None"
+    ],
+    "correctOption": "D",
+    "explanation": "India's external debt is predominantly long-term. Loans are the largest component. The US dollar denominated debt is the largest component.",
+    "subject": "Economics",
+    "topic": "External Sector",
+    "difficulty_rationale": "Moderate; requires knowledge of external debt data.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "External Debt Composition",
+    "keywords": [
+      "External Debt",
+      "Long-term debt",
+      "Currency denomination",
+      "External Sector",
+      "Balance of Payments"
+    ],
+    "concepts": [
+      "Composition of External Debt",
+      "Debt Sustainability",
+      "Currency Risk in External Debt"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Remember 'LUD': Long-term (duration), US Dollar (currency), Debt/Loans (component) are the dominant features of India's external debt."
+  },
+  {
+    "questionNumber": 52,
+    "questionText": "The process of generating new money to fund a government's budget deficit is commonly referred to as:",
+    "options": [
+      "Open market operations",
+      "Monetization of fiscal deficit",
+      "Fiscal consolidation",
+      "Deficit financing through Treasury Bill auctions"
+    ],
+    "correctOption": "B",
+    "explanation": "Monetised deficit is the purchase of government bonds by the central bank to finance government spending, which increases the money supply.",
+    "subject": "Economics",
+    "topic": "Fiscal Policy",
+    "difficulty_rationale": "Moderate; requires understanding of debt monetisation.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Deficit Financing and Monetary Policy",
+    "keywords": [
+      "Monetization of fiscal deficit",
+      "Central Bank",
+      "Money Supply",
+      "Government Bonds",
+      "Budget Deficit"
+    ],
+    "concepts": [
+      "Fiscal-Monetary Interface",
+      "Inflationary Impact of Deficit Financing"
+    ],
+    "question_type": "Direct Factual",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Think of 'Monetization' as 'Money-tization'—the Central Bank literally prints money to buy the government's debt."
+  },
+  {
+    "questionNumber": 53,
+    "questionText": "Consider the following items:\nI. Deposits in NBFCs\nII. Investment in shares and debentures\nIII. Contribution to pension funds\nIV. Investment in real estate\nHow many of the above are a part of household financial savings?",
+    "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All the four"
+    ],
+    "correctOption": "C",
+    "explanation": "Household financial savings include currency, deposits, insurance, and provident funds. Physical savings include real estate and machinery.",
+    "subject": "Economics",
+    "topic": "Savings and Investment",
+    "difficulty_rationale": "Moderate; requires understanding of household savings.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Household Financial Savings vs Physical Savings",
+    "keywords": [
+      "NBFCs",
+      "Financial Savings",
+      "Physical Savings",
+      "Household Sector"
+    ],
+    "concepts": [
+      "Classification of Household Savings",
+      "Financial Assets vs Physical Assets"
+    ],
+    "question_type": "Direct Factual",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Think 'F-I-P': Financial savings are F-inancial (deposits, shares, pension), while Physical assets are Property (real estate)."
+  },
+  {
+    "questionNumber": 54,
+    "questionText": "Consider the following statements:\nStatement I:\nEquity financing is considered as a capital receipt for a corporate company.\nStatement II:\nEquity financing involves borrowing which is a liability for the company.\nWhich one of the following is correct in respect of the above statements?",
+    "options": [
+      "Both Statement I and Statement II are correct and Statement II explains Statement I",
+      "Both Statement I and Statement II are correct but Statement II does not explain Statement I",
+      "Statement I is correct but Statement II is incorrect",
+      "Statement I is incorrect but Statement II is correct"
+    ],
+    "correctOption": "C",
+    "explanation": "Equity finance involves raising capital by selling shares. It does not involve borrowing or debt obligations.",
+    "subject": "Economics",
+    "topic": "Corporate Finance",
+    "difficulty_rationale": "Moderate; requires understanding of equity vs debt financing.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Capital Structure and Financing",
+    "keywords": [
+      "Equity Financing",
+      "Capital Receipt",
+      "Corporate Finance",
+      "Liability",
+      "Debt vs Equity"
+    ],
+    "concepts": [
+      "Capital Receipts",
+      "Equity vs Debt Financing"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "Medium",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Equity is ownership (no debt), Debt is borrowing (liability); remember 'Equity = Ownership, Debt = Duty'."
+  },
+  {
+    "questionNumber": 55,
+    "questionText": "Which one of the following statements is correct with reference to the Treasury Bills?",
+    "options": [
+      "They are interest offering securities.",
+      "They offer high returns as their interest rates are linked to prevailing inflation rates.",
+      "State Governments can issue treasury bills for raising funds for their developmental programmes.",
+      "Both Non-Resident Indians (NRIs) and Overseas Citizens of India (OCIs) can invest directly in the treasury bills."
+    ],
+    "correctOption": "D",
+    "explanation": "Government securities are tradable instruments. Treasury bills are short-term money market instruments. The Central Government issues both T-bills and bonds, while State Governments issue only bonds.",
+    "subject": "Economics",
+    "topic": "Financial Markets",
+    "difficulty_rationale": "Moderate; requires knowledge of government securities.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Money Market Instruments",
+    "keywords": [
+      "Treasury Bills",
+      "Government Securities",
+      "Money Market",
+      "Central Government",
+      "Fiscal Policy"
+    ],
+    "concepts": [
+      "Short-term debt instruments",
+      "Sovereign debt issuance",
+      "Money market vs Capital market"
+    ],
+    "question_type": "Direct Factual",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Remember 'T-Bills are Central-only': T-Bills are issued by the Center (C), not the States (S)."
+  },
+  {
+    "questionNumber": 56,
+    "questionText": "Consider the following pairs:\nType of Unemployment | Example\nI. Open Unemployment | A graduate youth unable to find a job despite applying\nII. Disguised Unemployment | A textile worker is jobless due to automation\nIII. Structural Unemployment | Five people are working on a farm that only needs two\nIV. Underemployment | An engineer working as a data entry operator\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All the four"
+    ],
+    "correctOption": "B",
+    "explanation": "Open unemployment is visible joblessness. Disguised unemployment occurs when more people are engaged in a task than needed. Structural unemployment arises from fundamental changes in the economy. Underemployment occurs when roles do not match skills.",
+    "subject": "Economics",
+    "topic": "Unemployment",
+    "difficulty_rationale": "Moderate; requires understanding of types of unemployment.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Types of Unemployment",
+    "keywords": [
+      "Open Unemployment",
+      "Disguised Unemployment",
+      "Structural Unemployment",
+      "Underemployment",
+      "Labor Market"
+    ],
+    "concepts": [
+      "Frictional Unemployment",
+      "Cyclical Unemployment",
+      "Mismatch of Skills",
+      "Marginal Productivity of Labor"
+    ],
+    "question_type": "Match the Following",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 11",
+    "mnemonic_hint": "Think 'D-S-U': Disguised is surplus (too many), Structural is shift (tech/economy), Under is under-utilized (skill mismatch)."
+  },
+  {
+    "questionNumber": 57,
+    "questionText": "Consider the following statements with reference to the short selling:\nI. It is the practice of selling a stock which the seller does not own at the time of trade.\nII. Unlike institutional investors, the retail investors are not allowed to short sell.\nIII. Naked short selling is not permitted in the Indian securities market.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "I, II and III",
+      "I and II only",
+      "II only",
+      "I and III only"
+    ],
+    "correctOption": "D",
+    "explanation": "Short selling is selling a stock the seller does not own. Naked short selling is not permitted in India.",
+    "subject": "Economics",
+    "topic": "Financial Markets",
+    "difficulty_rationale": "Moderate; requires knowledge of securities market regulations.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Stock Market Instruments and Regulations",
+    "keywords": [
+      "Short Selling",
+      "Naked Short Selling",
+      "Securities Market",
+      "SEBI Regulations",
+      "Institutional Investors"
+    ],
+    "concepts": [
+      "Market Mechanics",
+      "Regulatory Framework of SEBI",
+      "Investment Strategies"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Remember 'Naked is Naughty': Naked short selling is banned in India because it creates artificial supply without actual ownership."
+  },
+  {
+    "questionNumber": 58,
+    "questionText": "Consider the following:\nI. Lower inflation rate\nII. Higher fiscal deficit\nIII. Lower interest rate\nHow many of the above factors contribute to higher bond yield?",
+    "options": [
+      "Only one",
+      "Only two",
+      "All the three",
+      "None"
+    ],
+    "correctOption": "A",
+    "explanation": "Bond yields are influenced by inflation and interest rates. High inflation increases bond yields. A high fiscal deficit can increase bond yields.",
+    "subject": "Economics",
+    "topic": "Financial Markets",
+    "difficulty_rationale": "Moderate; requires understanding of bond markets.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Bond Market Dynamics",
+    "keywords": [
+      "Bond Yield",
+      "Fiscal Deficit",
+      "Inflation",
+      "Interest Rate",
+      "Government Securities"
+    ],
+    "concepts": [
+      "Inverse relationship between bond prices and yields",
+      "Impact of fiscal policy on sovereign debt",
+      "Monetary policy transmission"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Hard",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Think of 'F-I-R': Fiscal deficit, Inflation, and Rates all push yields up when they rise."
+  },
+  {
+    "questionNumber": 59,
+    "questionText": "The Negotiated Dealing System-Order Matching (NDS-OM) system is a/an:",
+    "options": [
+      "electronic platform run by the Reserve Bank of India (RBI) for buying and selling government securities in the secondary market",
+      "web portal launched by SEBI for regulating mutual fund investments",
+      "digital payment interface developed by NPCI for interbank settlements",
+      "tax-filing system developed by the Ministry of Finance for tracking direct tax collections"
+    ],
+    "correctOption": "A",
+    "explanation": "NDS-OM is an electronic system for buying and selling government securities. Only certain institutions can be members.",
+    "subject": "Economics",
+    "topic": "Financial Markets",
+    "difficulty_rationale": "Moderate; requires knowledge of NDS-OM.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Government Securities Market",
+    "keywords": [
+      "NDS-OM",
+      "Reserve Bank of India",
+      "Government Securities",
+      "Secondary Market",
+      "Financial Infrastructure"
+    ],
+    "concepts": [
+      "Monetary Policy Operations",
+      "Debt Market Infrastructure"
+    ],
+    "question_type": "Direct Factual",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Think of NDS-OM as the 'Negotiated Dealing System for Official Money'—it's where the big players trade government debt under RBI's watch."
+  },
+  {
+    "questionNumber": 60,
+    "questionText": "Consider the following statements:\nStatement I:\nInflation-Indexed Bonds protect investors from the uncertainty of inflation.\nStatement II:\nInflation-Indexed Bonds are linked to a fixed nominal interest rate.\nWhich one of the following is correct in respect of the above statements?",
+    "options": [
+      "Both statement I and statement II are correct and statement II explains statement I.",
+      "Both statement I and statement II are correct but statement II does not explain statement I.",
+      "Statement I is correct but statement II is incorrect.",
+      "Statement I is incorrect but statement II is correct."
+    ],
+    "correctOption": "C",
+    "explanation": "Inflation-Indexed Bonds (IIBs) protect investors from inflation. The principal or interest is adjusted for inflation.",
+    "subject": "Economics",
+    "topic": "Financial Markets",
+    "difficulty_rationale": "Moderate; requires knowledge of bond types.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Government Securities and Debt Instruments",
+    "keywords": [
+      "Inflation-Indexed Bonds",
+      "Nominal Interest Rate",
+      "Purchasing Power",
+      "Fixed Income Securities"
+    ],
+    "concepts": [
+      "Inflation Hedging",
+      "Real vs Nominal Interest Rates"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "IIBs are 'Inflation-Adjusted' not 'Fixed-Nominal'—think of them as a rubber band that stretches with inflation to keep your money's value steady."
+  },
+  {
+    "questionNumber": 61,
+    "questionText": "With reference to Credit Rating Agencies, consider the following statements:\nI. They assign ratings based on the borrower's ability to make timely repayment of loans.\nII. They do not evaluate individual consumers.\nIII. Credit ratings serve as guarantees between the rating agency and the investor.\nWhich of the statements given above are correct?",
+    "options": [
+      "I and II only",
+      "II and III only",
+      "I and III only",
+      "I, II and III"
+    ],
+    "correctOption": "A",
+    "explanation": "Credit Rating Agencies (CRAs) evaluate the creditworthiness of large borrowers. They do not evaluate individual consumers.",
+    "subject": "Economics",
+    "topic": "Financial Markets",
+    "difficulty_rationale": "Moderate; requires knowledge of CRAs.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Credit Rating Agencies (CRAs)",
+    "keywords": [
+      "Creditworthiness",
+      "Financial Markets",
+      "Debt Instruments",
+      "SEBI",
+      "Default Risk"
+    ],
+    "concepts": [
+      "Credit Risk Assessment",
+      "Financial Intermediation",
+      "Regulatory Oversight"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "CRAs are 'Scorecards for Debt', not 'Guarantees for Wealth'—they assess the risk, they don't insure the loss."
+  },
+  {
+    "questionNumber": 62,
+    "questionText": "With reference to the Convertible bonds, consider the following statements:\nI. They are hybrid securities that possess the characteristics of both debt and equity.\nII. They typically offer a lower coupon rate compared to similar non-convertible bonds.\nIII. Like regular bonds, they come with a maturity date and pay interest to investors.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "I, II and III",
+      "I and II only",
+      "III only",
+      "II and III only"
+    ],
+    "correctOption": "A",
+    "explanation": "Convertible bonds combine features of debt and equity. They offer a lower coupon rate than non-convertible bonds.",
+    "subject": "Economics",
+    "topic": "Financial Markets",
+    "difficulty_rationale": "Moderate; requires knowledge of bond types.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Capital Market Instruments",
+    "keywords": [
+      "Convertible Bonds",
+      "Coupon Rate",
+      "Hybrid Securities",
+      "Debt-Equity Mix"
+    ],
+    "concepts": [
+      "Financial Instruments",
+      "Corporate Finance",
+      "Bond Valuation"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Think of 'Convertible' as a 'Transformer'—it starts as a debt-bot (bond) but can transform into an equity-bot (stock) for a lower interest price."
+  },
+  {
+    "questionNumber": 63,
+    "questionText": "Which one of the following is/are not a capital market instrument?\nI. Equity shares\nII. Debentures\nIII. Treasury bills\nIV. Bonds\nV. Preference shares\nSelect the correct answer using the code given below:",
+    "options": [
+      "I and II only",
+      "III only",
+      "II, IV and V only",
+      "III and V only"
+    ],
+    "correctOption": "B",
+    "explanation": "The capital market deals with long-term investments. Equity shares, debentures, bonds, and preference shares are capital market instruments. T-bills are money market instruments.",
+    "subject": "Economics",
+    "topic": "Financial Markets",
+    "difficulty_rationale": "Moderate; requires understanding of capital vs money markets.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Money Market vs Capital Market",
+    "keywords": [
+      "Capital Market",
+      "Money Market",
+      "Treasury Bills",
+      "Equity Shares",
+      "Financial Instruments"
+    ],
+    "concepts": [
+      "Long-term vs Short-term financial instruments",
+      "Classification of Financial Markets"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Easy",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Remember 'T-Bills are T-iny' (short-term) and belong to the Money Market, while everything else is for the long-haul Capital Market."
+  },
+  {
+    "questionNumber": 64,
+    "questionText": "Consider the following statements with reference to the Real Estate Investment Trusts (REITs) and Infrastructure Investment Trusts (InvITs):\nI. Both are regulated by Securities and Exchange Board of India (SEBI).\nII. Both allow small investors to participate in income-generating assets through units traded on stock exchanges.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "I only",
+      "II only",
+      "Both I and II",
+      "Neither I nor II"
+    ],
+    "correctOption": "C",
+    "explanation": "REITs invest in commercial real estate, while InvITs focus on infrastructure projects. Both are regulated by SEBI.",
+    "subject": "Economics",
+    "topic": "Financial Markets",
+    "difficulty_rationale": "Moderate; requires knowledge of REITs and InvITs.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Alternative Investment Funds",
+    "keywords": [
+      "REITs",
+      "InvITs",
+      "SEBI",
+      "Financial Markets",
+      "Investment Vehicles"
+    ],
+    "concepts": [
+      "Capital Market Instruments",
+      "Regulatory Framework of Financial Markets"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Easy",
+    "ncert_class": "N/A",
+    "mnemonic_hint": "Think of 'RI' as 'Regulated Investments'—both REITs and InvITs are regulated by SEBI to allow small investors to pool money."
+  },
+  {
+    "questionNumber": 65,
+    "questionText": "What are Exchange Traded Funds (ETFs)?",
+    "options": [
+      "Mutual funds that are sold only to institutional investors and cannot be traded on stock exchanges",
+      "Investment funds that invest only in government securities and are redeemed at face value",
+      "Funds that invest in multiple securities and are traded on stock exchanges like individual stocks",
+      "Fixed-income instruments issued by the Reserve Bank of India that provide guaranteed returns"
+    ],
+    "correctOption": "C",
+    "explanation": "An Exchange-Traded Fund (ETF) is an investment fund traded on stock exchanges. ETF prices change throughout the trading day.",
+    "subject": "Economics",
+    "topic": "Financial Markets",
+    "difficulty_rationale": "Moderate; requires knowledge of ETFs.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Capital Markets and Investment Instruments",
+    "keywords": [
+      "Exchange Traded Funds",
+      "Stock Exchange",
+      "Investment Funds",
+      "Financial Markets"
+    ],
+    "concepts": [
+      "Market Liquidity",
+      "Portfolio Diversification",
+      "Equity Trading"
+    ],
+    "question_type": "Direct Factual",
+    "importance": "High",
+    "difficulty": "Easy",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Think of ETF as 'Exchange-Traded-Flexible'—it trades like a stock but holds a basket of assets like a fund."
+  },
+  {
+    "questionNumber": 66,
+    "questionText": "Consider the following information:\nMarket | Primary focus | Participant\nI. Bond Market | Short-term borrowing and lending | Institutional investor\nII. Stock Market | Equity investment and trading | Non-Resident Indian\nIII. Forex Market | Currency exchange | Commercial banks\nIn how many of the above rows is the given information correctly matched?",
+    "options": [
+      "Only one",
+      "Only two",
+      "All the three",
+      "None"
+    ],
+    "correctOption": "B",
+    "explanation": "The bond market is for long-term capital. The stock market is for equity securities. The forex market is for currencies.",
+    "subject": "Economics",
+    "topic": "Financial Markets",
+    "difficulty_rationale": "Moderate; requires understanding of financial markets.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Types of Financial Markets",
+    "keywords": [
+      "Bond Market",
+      "Stock Market",
+      "Forex Market",
+      "Capital Market",
+      "Institutional Investors"
+    ],
+    "concepts": [
+      "Debt vs Equity Markets",
+      "Foreign Exchange Market Operations",
+      "Maturity profiles of financial instruments"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Bonds are for the Long-haul (Long-term), Stocks are for Equity (Ownership), and Forex is for Foreign cash."
+  },
+  {
+    "questionNumber": 67,
+    "questionText": "Consider the following statements with reference to Cess and Surcharge:\nI. Both the terms are mentioned in the Constitution of India.\nII. Both are levied by the Union Government and are shared with the States.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "I only",
+      "II only",
+      "Both I and II",
+      "Neither I nor II"
+    ],
+    "correctOption": "A",
+    "explanation": "Cess is a tax on tax for a specific purpose. Surcharge is charged on income taxes paid. Both are levied by the Central Government.",
+    "subject": "Economics",
+    "topic": "Taxation",
+    "difficulty_rationale": "Moderate; requires understanding of cess and surcharge.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Fiscal Policy and Union Taxes",
+    "keywords": [
+      "Cess",
+      "Surcharge",
+      "Divisible Pool",
+      "Article 270",
+      "Article 271"
+    ],
+    "concepts": [
+      "Fiscal Federalism",
+      "Taxation Structure in India",
+      "Divisibility of Taxes between Centre and States"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Cess and Surcharge are 'Centre's exclusive club'—they stay with the Union and never share with the States."
+  },
+  {
+    "questionNumber": 68,
+    "questionText": "Consider the following statements:\nI. Fiscal drag occurs when expiring tax cuts and automatic spending cuts happen together.\nII. Fiscal cliff increases government tax revenue without actually increasing tax rates.\nIII. Fiscal dominance occurs when central banks use their monetary powers to support the prices of government securities.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "I and III only",
+      "II and III only",
+      "I and II only",
+      "III only"
+    ],
+    "correctOption": "D",
+    "explanation": "Fiscal drag occurs when inflation or income growth pushes taxpayers into higher tax brackets. The fiscal cliff refers to economic contraction due to tax cuts expiring and reduced spending.",
+    "subject": "Economics",
+    "topic": "Fiscal Policy",
+    "difficulty_rationale": "Moderate; requires understanding of fiscal concepts.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Fiscal Policy Concepts and Monetary-Fiscal Interaction",
+    "keywords": [
+      "Fiscal Drag",
+      "Fiscal Cliff",
+      "Fiscal Dominance",
+      "Tax Brackets",
+      "Monetary Policy"
+    ],
+    "concepts": [
+      "Fiscal Policy",
+      "Monetary Policy",
+      "Inflationary Impact on Taxation"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Hard",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Drag is the tax bracket creep, Cliff is the spending leap, Dominance is the Central Bank in the Treasury's keep."
+  },
+  {
+    "questionNumber": 69,
+    "questionText": "Consider the following pairs:\nType of Money | Characteristic\nI. Hard Currency | Widely accepted as a form of payment for goods\nII. Soft currency | Most stable type of currency\nIII. Hot Money | Continuously shifts among countries with low interest rates\nIV. Dear money | Affects export competitiveness\nHow many of the above pairs are correctly matched?",
+    "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All the four"
+    ],
+    "correctOption": "C",
+    "explanation": "Hard currency is stable and widely accepted. Soft currency is unstable. Hot money moves between markets for higher interest rates. Dear money is hard-to-borrow funds.",
+    "subject": "Economics",
+    "topic": "External Sector",
+    "difficulty_rationale": "Moderate; requires understanding of currency types.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Types of Currency and Monetary Policy",
+    "keywords": [
+      "Hard Currency",
+      "Soft Currency",
+      "Hot Money",
+      "Dear Money",
+      "Exchange Rates"
+    ],
+    "concepts": [
+      "Currency Stability",
+      "Capital Flows",
+      "Monetary Policy"
+    ],
+    "question_type": "Match the Following",
+    "importance": "High",
+    "difficulty": "Hard",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Think of 'Hot' money as a 'Hot Potato' that investors quickly toss between countries seeking the highest interest rates."
+  },
+  {
+    "questionNumber": 70,
+    "questionText": "With reference to inventory of a company, which one of the following is correct?",
+    "options": [
+      "It is classified as a capital asset on a company's balance sheet.",
+      "It is recorded as an intangible asset as it cannot be sold or converted into cash directly.",
+      "A lower inventory turnover ratio indicates strong sales with inadequate inventory stocking.",
+      "It is not subject to depreciation on the balance sheet, unlike fixed assets."
+    ],
+    "correctOption": "D",
+    "explanation": "Inventory is a current asset. Inventory turnover ratio measures efficiency. Depreciation applies to long-term tangible assets, not inventory.",
+    "subject": "Economics",
+    "topic": "Corporate Finance",
+    "difficulty_rationale": "Moderate; requires understanding of accounting concepts.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Balance Sheet Analysis and Asset Classification",
+    "keywords": [
+      "Inventory",
+      "Current Assets",
+      "Inventory Turnover Ratio",
+      "Depreciation",
+      "Balance Sheet"
+    ],
+    "concepts": [
+      "Asset Classification",
+      "Financial Ratio Analysis",
+      "Accounting Principles"
+    ],
+    "question_type": "Direct Factual",
+    "importance": "Medium",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Remember 'Inventory is Current' because it moves quickly, unlike fixed assets that stay put and depreciate."
+  },
+  {
+    "questionNumber": 71,
+    "questionText": "Consider the following items:\nI. Land\nII. Stocks\nIII. Patents\nIV. Computer software\nHow many of the above are excluded from accounting of depreciation?",
+    "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All the four"
+    ],
+    "correctOption": "B",
+    "explanation": "Depreciation is the gradual decrease in the value of assets. Land and goodwill do not qualify for depreciation.",
+    "subject": "Economics",
+    "topic": "Corporate Finance",
+    "difficulty_rationale": "Moderate; requires understanding of depreciation.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Asset Valuation and Accounting Standards",
+    "keywords": [
+      "Depreciation",
+      "Fixed Assets",
+      "Intangible Assets",
+      "Accounting Standards"
+    ],
+    "concepts": [
+      "Depreciation of Tangible Assets",
+      "Amortization of Intangible Assets",
+      "Non-depreciable Assets"
+    ],
+    "question_type": "Direct Factual",
+    "importance": "Medium",
+    "difficulty": "Medium",
+    "ncert_class": "Class 11",
+    "mnemonic_hint": "Remember 'Land is Grand' (it never loses value) and 'Goodwill is a Skill' (it is intangible and amortized, not depreciated)."
+  },
+  {
+    "questionNumber": 72,
+    "questionText": "Consider the following statements with reference to Cash Management Bills (CMBs) and Ways and Means Advances (WMA):\nI. The CMBs are subscribed through Treasury bill auctions, whereas, the WMA are granted in the form of loans by the Reserve Bank of India (RBI).\nII. Both can be used to fund the fiscal deficit of the government.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "I only",
+      "II only",
+      "Both I and II",
+      "Neither I nor II"
+    ],
+    "correctOption": "A",
+    "explanation": "Cash Management Bills (CMBs) meet temporary cash flow mismatches. Ways and Means Advances (WMA) are facilities for the Centre and States to borrow from the RBI.",
+    "subject": "Economics",
+    "topic": "Fiscal Policy",
+    "difficulty_rationale": "Moderate; requires knowledge of government borrowing.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Government Borrowing and Cash Management",
+    "keywords": [
+      "Cash Management Bills",
+      "Ways and Means Advances",
+      "RBI",
+      "Fiscal Deficit",
+      "Treasury Bills"
+    ],
+    "concepts": [
+      "Temporary Cash Flow Mismatch",
+      "Government Securities",
+      "Monetary Policy Operations"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "CMBs are 'Bills' for short-term cash, while WMA is a 'Loan' from the RBI to bridge the gap."
+  },
+  {
+    "questionNumber": 73,
+    "questionText": "Consider the following statements with reference to the Debt Service Coverage Ratio (DSCR):\nI. It is a credit metric that indicates a company’s ability to cover its annual principal and interest obligations.\nII. It includes all the existing debt an individual or company is paying and the additional loans they seek.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "I only",
+      "II only",
+      "Both I and II",
+      "Neither I nor II"
+    ],
+    "correctOption": "C",
+    "explanation": "The Debt Service Coverage Ratio (DSCR) indicates a company's ability to cover its debt obligations using operating cash flow.",
+    "subject": "Economics",
+    "topic": "Corporate Finance",
+    "difficulty_rationale": "Moderate; requires understanding of financial ratios.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Financial Ratios and Debt Management",
+    "keywords": [
+      "Debt Service Coverage Ratio",
+      "DSCR",
+      "Credit Metric",
+      "Operating Cash Flow",
+      "Debt Obligations"
+    ],
+    "concepts": [
+      "Corporate Solvency",
+      "Debt Servicing Capacity",
+      "Financial Analysis"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "Medium",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "DSCR is the 'Debt Service Cover Ratio'—think of it as a 'Debt Safety Check' to see if your cash flow can cover your loan payments."
+  },
+  {
+    "questionNumber": 74,
+    "questionText": "In the context of Goods and Services Tax (GST), the term ‘Reverse Charge Mechanism’ refers to:",
+    "options": [
+      "system where the GST is refunded to exporters for zero-rated supplies",
+      "option to pay GST before the beginning of the financial year",
+      "one-time waiver on penalty of the tax defaulters",
+      "scenario in which the liability to pay GST shifts to the recipient of goods or services instead of the supplier"
+    ],
+    "correctOption": "D",
+    "explanation": "Reverse Charge means the recipient of goods or services is liable to pay tax. It applies to both goods and services.",
+    "subject": "Economics",
+    "topic": "Taxation",
+    "difficulty_rationale": "Moderate; requires knowledge of GST.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Indirect Tax Structure",
+    "keywords": [
+      "GST",
+      "Reverse Charge Mechanism",
+      "Tax Liability",
+      "Indirect Taxation"
+    ],
+    "concepts": [
+      "Tax Compliance",
+      "Supply Chain Taxation"
+    ],
+    "question_type": "Direct Factual",
+    "importance": "High",
+    "difficulty": "Easy",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Think of 'Reverse' as 'Recipient'—the tax burden reverses direction from the supplier to the recipient."
+  },
+  {
+    "questionNumber": 75,
+    "questionText": "Consider the following pairs:\nCurve | Related to\nI. Lorenz Curve | Tax rate and Tax revenue\nII. Phillips Curve | Inflation and Unemployment\nIII. Kuznets Curve | Economic growth and Inequality\nIV. Laffer Curve | Income inequality\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All the four"
+    ],
+    "correctOption": "B",
+    "explanation": "The Lorenz curve measures income inequality. The Phillips curve shows the relationship between inflation and unemployment. The Kuznets curve shows the relationship between economic growth and inequality. The Laffer curve shows the relationship between tax rates and revenue.",
+    "subject": "Economics",
+    "topic": "Economic Theory",
+    "difficulty_rationale": "Moderate; requires understanding of economic curves.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Economic Curves and Indicators",
+    "keywords": [
+      "Lorenz Curve",
+      "Phillips Curve",
+      "Kuznets Curve",
+      "Laffer Curve",
+      "Income Inequality"
+    ],
+    "concepts": [
+      "Income Distribution",
+      "Macroeconomic Trade-offs",
+      "Fiscal Policy",
+      "Economic Development"
+    ],
+    "question_type": "Match the Following",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Remember 'L-I-P-K': Lorenz for Inequality, Phillips for Inflation, Kuznets for growth-Inequality, and Laffer for tax-Level."
+  },
+  {
+    "questionNumber": 76,
+    "questionText": "Consider the following statements regarding the Marginal Cost of Funds-Based Lending Rate (MCLR):\nI. It is the maximum interest rate that can be levied by financial institutions.\nII. It is determined by the Reserve Bank of India.\nIII. It is reviewed and published for different maturities every month.\nIV. An increase in the MCLR can lead to an increase in interest rates on loans.\nWhich of the statements given above are correct?",
+    "options": [
+      "I and II only",
+      "III and IV only",
+      "II, III and IV only",
+      "I, III and IV only"
+    ],
+    "correctOption": "B",
+    "explanation": "MCLR is the minimum lending rate for banks. It is determined internally by each bank. It responds to changes in the repo rate.",
+    "subject": "Economics",
+    "topic": "Banking System",
+    "difficulty_rationale": "Moderate; requires knowledge of MCLR.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Monetary Policy and Banking Regulations",
+    "keywords": [
+      "MCLR",
+      "Lending Rates",
+      "Reserve Bank of India",
+      "Banking System",
+      "Repo Rate"
+    ],
+    "concepts": [
+      "Internal Benchmarking of Lending Rates",
+      "Monetary Policy Transmission",
+      "Bank Interest Rate Structure"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "MCLR is the 'Minimum Cost' for Lending, set by the 'Bank' (not RBI) to 'Monthly' adjust rates."
+  },
+  {
+    "questionNumber": 77,
+    "questionText": "Consider the following pairs:\nCapital Market Activity | Description\nI. Arbitrage | Asset is bought in one market and sold in another for a higher price\nII. Insider trading | Artificially inflating a stock's price through misleading claims\nIII. Front running | Selling borrowed stocks to profit from price drops\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      "Only one",
+      "Only two",
+      "All the three",
+      "None"
+    ],
+    "correctOption": "A",
+    "explanation": "Arbitrage is buying an asset in one market and selling it in another for a higher price. Insider trading is the malpractice of trading based on secret information.",
+    "subject": "Economics",
+    "topic": "Financial Markets",
+    "difficulty_rationale": "Moderate; requires understanding of market practices.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Financial Market Malpractices and Mechanisms",
+    "keywords": [
+      "Arbitrage",
+      "Insider Trading",
+      "Front Running",
+      "Capital Market",
+      "Stock Manipulation"
+    ],
+    "concepts": [
+      "Market Efficiency",
+      "Regulatory Compliance in Securities Market",
+      "Trading Malpractices"
+    ],
+    "question_type": "Match the Following",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Remember 'A-B-S' for Arbitrage (Asset Bought-Sold), 'I-S' for Insider (Information Secret), and 'F-P' for Front-running (First-Positioning)."
+  },
+  {
+    "questionNumber": 78,
+    "questionText": "Consider the following statements with reference to price ceilings:\nI. It sets a maximum amount a seller is permitted to charge for a product.\nII. It is typically applied to staples such as food and energy products.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "I only",
+      "II only",
+      "Both I and II",
+      "Neither I nor II"
+    ],
+    "correctOption": "C",
+    "explanation": "Price ceilings are maximum prices set by the government. Price floors are minimum prices set by the government.",
+    "subject": "Economics",
+    "topic": "Market Dynamics",
+    "difficulty_rationale": "Moderate; requires understanding of price controls.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Price Controls and Market Intervention",
+    "keywords": [
+      "Price Ceiling",
+      "Market Equilibrium",
+      "Government Intervention",
+      "Staple Goods"
+    ],
+    "concepts": [
+      "Price Mechanism",
+      "Market Regulation",
+      "Supply and Demand"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Easy",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Think of a 'Ceiling' as the top limit you cannot go above, and a 'Floor' as the bottom limit you cannot go below."
+  },
+  {
+    "questionNumber": 79,
+    "questionText": "What is a ‘head-count ratio’?",
+    "options": [
+      "It is the proportion of people whose income always remains above the average standard of living in an economy",
+      "It is the proportion of people whose income is insufficient to meet the minimum basic needs such as food, clothing and shelter",
+      "It is the percentage of the population living below the national poverty line.",
+      "It is the ratio of the average income of the richest 20 percent to the average income to that of the poorest 20 percent."
+    ],
+    "correctOption": "C",
+    "explanation": "Poverty estimation in India has historically relied on consumption expenditure. The headcount ratio is a measure of poverty.",
+    "subject": "Economics",
+    "topic": "Poverty",
+    "difficulty_rationale": "Moderate; requires knowledge of poverty estimation.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Poverty Estimation and Measurement",
+    "keywords": [
+      "Head-count ratio",
+      "Poverty line",
+      "Consumption expenditure",
+      "Poverty measurement"
+    ],
+    "concepts": [
+      "Poverty Line Estimation",
+      "Poverty Indices"
+    ],
+    "question_type": "Direct Factual",
+    "importance": "High",
+    "difficulty": "Easy",
+    "ncert_class": "Class 11",
+    "mnemonic_hint": "Think of a 'Head-count' as a 'line-count'—it is simply the percentage of heads (people) counted below the poverty line."
+  },
+  {
+    "questionNumber": 80,
+    "questionText": "With reference to poverty estimation in India, consider the following pairs:\nCommittee | Recommendation\nI. Alagh Committee | Fixed poverty line on the basis of of nutritional requirements\nII. Lakdawala Committee | Shift from Uniform Reference Period (URP) based estimates\nIII. Tendulkar Committee | State specific poverty line using state specific prices\nIV. Rangarajan Committee | Poverty line considering specific protein and fat requirements\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All the four"
+    ],
+    "correctOption": "B",
+    "explanation": "The NITI Aayog is responsible for poverty measurement. Various committees like Alagh, Lakdawala, and Tendulkar have provided methodologies for poverty estimation.",
+    "subject": "Economics",
+    "topic": "Poverty",
+    "difficulty_rationale": "Moderate; requires knowledge of poverty committees.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Poverty Estimation Committees",
+    "keywords": [
+      "Alagh Committee",
+      "Lakdawala Committee",
+      "Tendulkar Committee",
+      "Rangarajan Committee",
+      "Poverty Line",
+      "Nutritional Requirements"
+    ],
+    "concepts": [
+      "Poverty Estimation Methodology",
+      "Uniform Reference Period (URP)",
+      "Mixed Reference Period (MRP)",
+      "Calorie-based Poverty Line"
+    ],
+    "question_type": "Match the Following",
+    "importance": "High",
+    "difficulty": "Hard",
+    "ncert_class": "Class 11",
+    "mnemonic_hint": "Remember ALTR: Alagh (Calories), Lakdawala (State-specific), Tendulkar (MRP), Rangarajan (Balanced Diet)."
+  },
+  {
+    "questionNumber": 81,
+    "questionText": "Consider the following activities:\nI. Production of cereals for own consumption\nII. Free education by government\nIII. A retail store selling groceries\nIV. Volunteering for an NGO\nHow many of the above are categorised as market activities?",
+    "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All the four"
+    ],
+    "correctOption": "B",
+    "explanation": "Economic activities are divided into market and non-market activities. Production for own consumption is a non-market activity. Government services are considered market activities.",
+    "subject": "Economics",
+    "topic": "National Income Accounting",
+    "difficulty_rationale": "Moderate; requires understanding of economic activities.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Classification of Economic Activities",
+    "keywords": [
+      "Market Activities",
+      "Non-market Activities",
+      "National Income",
+      "Economic Production"
+    ],
+    "concepts": [
+      "Market vs Non-market production",
+      "Economic activity classification"
+    ],
+    "question_type": "Direct Factual",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 9",
+    "mnemonic_hint": "Market activities involve money or profit; non-market activities are for self-use or social service."
+  },
+  {
+    "questionNumber": 82,
+    "questionText": "Consider the following statements:\nI. People not working but seeking or available for work\nII. People neither working nor seeking for work\nIII. People working or being engaged in an economic activity\nWhich of the above fall under the labour force?",
+    "options": [
+      "II only",
+      "I and II only",
+      "I and III only",
+      "III only"
+    ],
+    "correctOption": "C",
+    "explanation": "The labour force consists of employed and unemployed individuals. People who are neither working nor seeking work are outside the labour force.",
+    "subject": "Economics",
+    "topic": "Labour Market",
+    "difficulty_rationale": "Moderate; requires understanding of labour force concepts.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Labour Force Participation Rate (LFPR)",
+    "keywords": [
+      "Labour Force",
+      "Unemployment",
+      "Economic Activity",
+      "Workforce"
+    ],
+    "concepts": [
+      "Labour Force Definition",
+      "Employment Status Classification"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 11",
+    "mnemonic_hint": "Remember 'L = E + U': Labour force equals Employed plus Unemployed; those not seeking work are 'Out' of the loop."
+  },
+  {
+    "questionNumber": 83,
+    "questionText": "Consider the following statements:\nStatement I:\nCurrent daily status is considered as a most comprehensive measure of unemployment during a week.\nStatement II:\nCurrent daily status takes into account the day-to-day changes in the week as against the current weekly status where only one status is recorded for the whole week.\nWhich one of the following is correct in respect of the above statements?",
+    "options": [
+      "Both Statement I and Statement II are correct and Statement II explains Statement I",
+      "Both Statement I and Statement II are correct but Statement II does not explain Statement I",
+      "Statement I is correct but Statement II is not correct",
+      "Statement I is not correct but Statement II is correct"
+    ],
+    "correctOption": "A",
+    "explanation": "The NSSO uses UPSS and CWS for classifying working status. The current daily status provides a detailed picture of employment.",
+    "subject": "Economics",
+    "topic": "Labour Market",
+    "difficulty_rationale": "Moderate; requires knowledge of labour statistics.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Unemployment Measurement Indicators",
+    "keywords": [
+      "Current Daily Status",
+      "Current Weekly Status",
+      "NSSO",
+      "Unemployment",
+      "Labour Force Survey"
+    ],
+    "concepts": [
+      "Employment Status Classification",
+      "Labour Market Dynamics"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Daily is Detailed: CDS captures the day-to-day fluctuations that CWS misses by averaging the week."
+  },
+  {
+    "questionNumber": 84,
+    "questionText": "Consider the following statements:\nI. Tax buoyancy refers to the responsiveness of tax revenue growth to changes in GDP.\nII. Tax elasticity refers to changes in tax revenue in response to changes in tax rate.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "I only",
+      "II only",
+      "Both I and II",
+      "Neither I nor II"
+    ],
+    "correctOption": "C",
+    "explanation": "Tax buoyancy is the responsiveness of tax revenue growth to GDP growth. Tax elasticity is the responsiveness of tax revenue to changes in tax rates.",
+    "subject": "Economics",
+    "topic": "Taxation",
+    "difficulty_rationale": "Moderate; requires understanding of tax concepts.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Taxation Structure and Indicators",
+    "keywords": [
+      "Tax Buoyancy",
+      "Tax Elasticity",
+      "GDP Growth",
+      "Fiscal Policy",
+      "Tax Revenue"
+    ],
+    "concepts": [
+      "Tax Buoyancy",
+      "Tax Elasticity"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Buoyancy is 'Broad' (GDP growth), Elasticity is 'Exact' (Tax rate changes)."
+  },
+  {
+    "questionNumber": 85,
+    "questionText": "Consider the following statements with reference to the cascading effect in an economy:\nI. It is associated with the disproportionate rise in prices due to increase in taxes.\nII. It occurs when there is tax on tax.\nIII. It generally leads to an inflationary effect in an economy.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "I, II and III",
+      "I and III only",
+      "II only",
+      "II and III only"
+    ],
+    "correctOption": "A",
+    "explanation": "The cascading effect occurs when tax imposition leads to a disproportionate rise in prices. It is a 'tax on tax'.",
+    "subject": "Economics",
+    "topic": "Taxation",
+    "difficulty_rationale": "Moderate; requires understanding of the cascading effect.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Indirect Taxation and Tax Structure",
+    "keywords": [
+      "Cascading Effect",
+      "Tax on Tax",
+      "Inflation",
+      "Indirect Taxes",
+      "Value Added Tax"
+    ],
+    "concepts": [
+      "Taxation Principles",
+      "Economic Inflationary Pressures"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Easy",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Think of a 'Cascade' waterfall: each level of tax flows down and adds to the next, creating a 'Tax-on-Tax' splash."
+  },
+  {
+    "questionNumber": 86,
+    "questionText": "Consider the following pairs:\nFinancial Instrument | Feature\nI. Certificate of Deposit | Used by banks mainly to manage their own short-term liquidity needs\nII. Commercial Paper | Secured instrument issued by primary dealers to meet long-term funding needs\nIII. Promissory Note | A written note by one party to pay a specified sum to another party at a future date\nIV. Participatory Note | Derivative instruments used by foreign investors to invest in India\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      "Only one",
+      "Only two",
+      "Only three",
+      "All the four"
+    ],
+    "correctOption": "C",
+    "explanation": "Certificates of Deposit (CDs) are issued by banks. Commercial Paper (CP) is an unsecured promissory note. Promissory notes are written promises to pay. Participatory notes are for foreign investors.",
+    "subject": "Economics",
+    "topic": "Financial Markets",
+    "difficulty_rationale": "Moderate; requires knowledge of financial instruments.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Money Market Instruments",
+    "keywords": [
+      "Certificate of Deposit",
+      "Commercial Paper",
+      "Promissory Note",
+      "Participatory Note",
+      "Liquidity Management"
+    ],
+    "concepts": [
+      "Money Market",
+      "Debt Instruments",
+      "Foreign Portfolio Investment"
+    ],
+    "question_type": "Match the Following",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Remember 'CP is Unsecured' (CPU) and 'CDs are for Banks' (CD-Bank) to distinguish short-term debt instruments."
+  },
+  {
+    "questionNumber": 87,
+    "questionText": "Which of the following statements is/ are correct with reference to the National Small Savings Fund (NSSF)?\nI. It encompasses collections from Postal deposits and Kisan Vikas Patra (KVP).\nII. Parliamentary approval is not required to withdraw funds from the NSSF.\nIII. The Reserve Bank of India fixes the interest rates of NSSF on a quarterly basis.\nSelect the correct answer using the code given below:",
+    "options": [
+      "I and II only",
+      "II and III only",
+      "I and III only",
+      "I, II and III"
+    ],
+    "correctOption": "A",
+    "explanation": "The National Small Savings Fund (NSSF) comprises collections from small savings schemes. Parliamentary approval is not required for withdrawals.",
+    "subject": "Economics",
+    "topic": "Fiscal Policy",
+    "difficulty_rationale": "Moderate; requires knowledge of NSSF.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Small Savings Schemes and Public Account of India",
+    "keywords": [
+      "National Small Savings Fund",
+      "NSSF",
+      "Public Account",
+      "Postal Deposits",
+      "Kisan Vikas Patra"
+    ],
+    "concepts": [
+      "Public Account of India",
+      "Government Borrowing",
+      "Fiscal Management"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "NSSF is like a 'Public Pocket'—it stays in the Public Account, so it doesn't need Parliament's permission to open it."
+  },
+  {
+    "questionNumber": 88,
+    "questionText": "Consider the following statements with reference to the ‘Effective Revenue Deficit’:\nI. It is the difference between revenue deficit and the interest paid to outstanding loans.\nII. It was introduced by amending the Fiscal Responsibility and Budget Management (FRBM) Act, 2003.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "I only",
+      "II only",
+      "Both I and II",
+      "Neither I nor II"
+    ],
+    "correctOption": "B",
+    "explanation": "Effective Revenue Deficit is the difference between revenue deficit and grants-in-aid for the creation of capital assets.",
+    "subject": "Economics",
+    "topic": "Fiscal Policy",
+    "difficulty_rationale": "Moderate; requires understanding of fiscal indicators.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Fiscal Deficit Indicators",
+    "keywords": [
+      "Effective Revenue Deficit",
+      "FRBM Act",
+      "Capital Assets",
+      "Fiscal Policy"
+    ],
+    "concepts": [
+      "Fiscal Responsibility and Budget Management Act",
+      "Revenue Deficit Components",
+      "Capital Expenditure vs Revenue Expenditure"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Remember 'ERD = RD - Grants for Capital': Think of it as the 'Effective' way to remove the 'Capital' burden from the 'Revenue' deficit."
+  },
+  {
+    "questionNumber": 89,
+    "questionText": "Consider the following statements:\nStatement I:\nThe proportional tax system acts as an automatic stabiliser in an economy.\nStatement II:\nProportional taxes reduce the marginal propensity to consume out of income.\nWhich one of the following is correct in respect of the above statements?",
+    "options": [
+      "Both Statement I and Statement II are correct and Statement II explains Statement I",
+      "Both Statement I and Statement II are correct but Statement II does not explain Statement I",
+      "Statement I is correct but Statement II is not correct",
+      "Statement I is not correct but Statement II is correct"
+    ],
+    "correctOption": "A",
+    "explanation": "A proportional tax assesses the same tax rate on everyone. It acts as an automatic stabilizer.",
+    "subject": "Economics",
+    "topic": "Taxation",
+    "difficulty_rationale": "Moderate; requires understanding of tax types.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Fiscal Policy and Automatic Stabilizers",
+    "keywords": [
+      "Proportional Tax",
+      "Automatic Stabilizer",
+      "Marginal Propensity to Consume",
+      "Fiscal Policy",
+      "Disposable Income"
+    ],
+    "concepts": [
+      "Automatic Stabilizers in Macroeconomics",
+      "Impact of Taxation on Aggregate Demand",
+      "Disposable Income and Consumption Function"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Think of proportional taxes as a 'shock absorber'—they automatically shrink the tax bill when income drops, keeping consumption steadier."
+  },
+  {
+    "questionNumber": 90,
+    "questionText": "Consider the following statements:\nI. Deflation is a general decline in prices for goods and services.\nII. Disinflation is the rate of inflation at a slower rate.\nIII. Stagflation is a cycle of slow growth and a high unemployment rate accompanied by inflation.\nIV. Reflation is a deliberate action of the government to increase the rate of inflation to stimulate the economy.\nWhich of the statements given above are correct?",
+    "options": [
+      "I, II, III and IV",
+      "I, II and III only",
+      "II, III and IV only",
+      "I and IV only"
+    ],
+    "correctOption": "A",
+    "explanation": "Deflation is a decline in prices. Disinflation is a slower rate of inflation. Stagflation is slow growth with high unemployment and inflation. Reflation is deliberate action to increase inflation.",
+    "subject": "Economics",
+    "topic": "Inflation",
+    "difficulty_rationale": "Moderate; requires understanding of inflation concepts.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Types of Inflation and Price Fluctuations",
+    "keywords": [
+      "Deflation",
+      "Disinflation",
+      "Stagflation",
+      "Reflation",
+      "Price Level"
+    ],
+    "concepts": [
+      "Macroeconomic Indicators",
+      "Monetary Policy Impacts"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Easy",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Remember 'D-D-S-R': Deflation (Down), Disinflation (Decelerating), Stagflation (Stagnant growth + inflation), Reflation (Reviving)."
+  },
+  {
+    "questionNumber": 91,
+    "questionText": "Consider the following statements:\nStatement I:\nA fiscal deficit financed through government borrowing may not necessarily lead to higher aggregate demand.\nStatement II:\nAs per the Ricardian Equivalence proposition, private individuals anticipate future tax liabilities and therefore increase their savings to prepare for it.\nWhich one of the following is correct in respect of the above statements?",
+    "options": [
+      "Both Statement I and Statement II are correct and Statement II explains Statement I",
+      "Both Statement I and Statement II are correct but Statement II does not explain Statement I",
+      "Statement I is correct but Statement II is not correct",
+      "Statement I is not correct but Statement II is correct"
+    ],
+    "correctOption": "A",
+    "explanation": "Ricardian Equivalence suggests that government borrowing does not affect aggregate demand. Fiscal deficit is the gap between expenditure and receipts.",
+    "subject": "Economics",
+    "topic": "Fiscal Policy",
+    "difficulty_rationale": "Moderate; requires understanding of economic theories.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Fiscal Policy and Macroeconomic Theory",
+    "keywords": [
+      "Fiscal Deficit",
+      "Ricardian Equivalence",
+      "Aggregate Demand",
+      "Government Borrowing",
+      "Savings"
+    ],
+    "concepts": [
+      "Ricardian Equivalence Hypothesis",
+      "Crowding Out Effect",
+      "Fiscal Policy Transmission"
+    ],
+    "question_type": "Assertion-Reason",
+    "importance": "High",
+    "difficulty": "Hard",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Think of 'Ricardian Equivalence' as 'Rational Saving': if the government borrows today, people save today to pay the tax bill tomorrow, keeping demand flat."
+  },
+  {
+    "questionNumber": 92,
+    "questionText": "Why is the value of the tax multiplier generally negative in macroeconomic analysis?",
+    "options": [
+      "An increase in taxes leads to an increase in the proportion of savings",
+      "An increase in taxes reduces disposable income and thereby consumption",
+      "A negative tax multiplier is associated with higher liquidity in the economy",
+      "Tax cuts always lead to budget surpluses"
+    ],
+    "correctOption": "B",
+    "explanation": "The tax multiplier refers to the effect of a change in taxes on national income. A tax cut increases disposable income and aggregate demand.",
+    "subject": "Economics",
+    "topic": "Fiscal Policy",
+    "difficulty_rationale": "Moderate; requires understanding of multipliers.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Fiscal Multipliers",
+    "keywords": [
+      "Tax Multiplier",
+      "Disposable Income",
+      "Aggregate Demand",
+      "Fiscal Policy",
+      "Consumption Function"
+    ],
+    "concepts": [
+      "Multiplier Effect",
+      "Keynesian Economics",
+      "Disposable Income Dynamics"
+    ],
+    "question_type": "Direct Factual",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Tax is a 'Taker': Higher taxes take away disposable income, leading to lower consumption and a negative multiplier effect."
+  },
+  {
+    "questionNumber": 93,
+    "questionText": "Which of the following statements are correct with reference to the Depository Receipts (DRs)?\nI. Global Depository Receipts (GDRs) are financial instruments that can be used to invest in stocks of a foreign company.\nII. Indian Depository Receipts (IDR) are issued by a depository bank in India and represent shares of a foreign company.\nSelect the correct answer using the code given below:",
+    "options": [
+      "I only",
+      "II only",
+      "Both I and II",
+      "Neither I nor II"
+    ],
+    "correctOption": "C",
+    "explanation": "GDRs allow investment in foreign company stocks. IDRs are certificates issued by a depository bank in India representing shares of a foreign company.",
+    "subject": "Economics",
+    "topic": "Financial Markets",
+    "difficulty_rationale": "Moderate; requires knowledge of depository receipts.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Capital Markets and Foreign Investment",
+    "keywords": [
+      "Depository Receipts",
+      "GDR",
+      "IDR",
+      "Foreign Investment",
+      "Financial Instruments"
+    ],
+    "concepts": [
+      "International Capital Markets",
+      "Cross-border Securities Trading"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "GDR is Global (Foreign stocks for investors), IDR is Indian (Foreign shares for Indian investors)."
+  },
+  {
+    "questionNumber": 94,
+    "questionText": "Consider the following pairs:\nType of Economy | Description\nI. Shadow economy | Includes both illegal activities and unreported income\nII. Circular economy | Emphasizes repairing, refurbishing and recycling existing materials\nIII. Gig economy | Relies heavily on temporary and part-time positions\nHow many of the pairs given above are correctly matched?",
+    "options": [
+      "Only one",
+      "Only two",
+      "All the three",
+      "None"
+    ],
+    "correctOption": "C",
+    "explanation": "The shadow economy includes illegal activities and unreported income. The circular economy emphasizes reusing and recycling. The gig economy relies on temporary positions.",
+    "subject": "Economics",
+    "topic": "Economic Concepts",
+    "difficulty_rationale": "Moderate; requires understanding of economic models.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Types of Economic Systems",
+    "keywords": [
+      "Shadow economy",
+      "Circular economy",
+      "Gig economy",
+      "Unreported income",
+      "Sustainability"
+    ],
+    "concepts": [
+      "Informal Sector",
+      "Sustainable Development",
+      "Labor Market Dynamics"
+    ],
+    "question_type": "Match the Following",
+    "importance": "High",
+    "difficulty": "Easy",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Think 'SCG': Shadow (Hidden/Illegal), Circular (Recycle/Loop), Gig (Temporary/Task-based)."
+  },
+  {
+    "questionNumber": 95,
+    "questionText": "Consider the following statements:\nStatement I:\nAn increase in the price of coffee is likely to increase the demand for tea.\nStatement II:\nCoffee and tea are substitute goods.\nWhich one of the following is correct in respect of the above statements?",
+    "options": [
+      "Both Statement I and Statement II are correct and Statement II explains Statement –I",
+      "Both Statement I and Statement II are correct but Statement II does not explain Statement I",
+      "Statement I is correct but Statement II is incorrect",
+      "Statement I is incorrect but Statement II is correct"
+    ],
+    "correctOption": "A",
+    "explanation": "Substitute goods are used in place of each other. Complementary goods are consumed together.",
+    "subject": "Economics",
+    "topic": "Market Dynamics",
+    "difficulty_rationale": "Moderate; requires understanding of types of goods.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Demand and Supply Analysis",
+    "keywords": [
+      "Substitute Goods",
+      "Demand Elasticity",
+      "Market Dynamics",
+      "Price Effect"
+    ],
+    "concepts": [
+      "Law of Demand",
+      "Cross-Price Elasticity of Demand"
+    ],
+    "question_type": "Assertion-Reason",
+    "importance": "High",
+    "difficulty": "Easy",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Think 'S' for Substitute: If the price of one Substitute Soars, the demand for the other Skyrockets."
+  },
+  {
+    "questionNumber": 96,
+    "questionText": "Consider the following statements with reference to the practices in the share market:\nI. Wash trading is the practice of artificially inflating the price of a security by spreading false or misleading information.\nII. Pump and dump is the practice of simultaneously buying and selling the same security to create artificial trading activity.\nIII. Front running is the illegal practice of purchasing security based on advanced non-public information.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "I, II and III",
+      "I and II only",
+      "III only",
+      "II and III only"
+    ],
+    "correctOption": "C",
+    "explanation": "Wash trading is simultaneously buying and selling the same security. Pump and dump is artificially inflating the price of a security.",
+    "subject": "Economics",
+    "topic": "Financial Markets",
+    "difficulty_rationale": "Moderate; requires understanding of market malpractices.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Market Manipulation and Malpractices",
+    "keywords": [
+      "Wash Trading",
+      "Pump and Dump",
+      "Front Running",
+      "Share Market",
+      "Securities Market"
+    ],
+    "concepts": [
+      "Market Manipulation",
+      "Insider Trading",
+      "Regulatory Compliance"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Remember 'W-S' (Wash-Same) for buying/selling the same, and 'P-I' (Pump-Inflate) for price inflation."
+  },
+  {
+    "questionNumber": 97,
+    "questionText": "An overheating economy is typically characterised by:",
+    "options": [
+      "rising unemployment and falling inflation",
+      "low demand and excess production capacity",
+      "high inflation and an unemployment rate that is below the normal rate",
+      "shrinking fiscal deficit due to low tax revenues"
+    ],
+    "correctOption": "C",
+    "explanation": "An overheated economy has high inflation and low unemployment. Rising inflation is a sign of an overheated economy.",
+    "subject": "Economics",
+    "topic": "Economic Concepts",
+    "difficulty_rationale": "Moderate; requires understanding of economic cycles.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Business Cycles and Macroeconomic Indicators",
+    "keywords": [
+      "Overheating Economy",
+      "Inflation",
+      "Unemployment Rate",
+      "Aggregate Demand"
+    ],
+    "concepts": [
+      "Phillips Curve",
+      "Output Gap",
+      "Macroeconomic Stability"
+    ],
+    "question_type": "Direct Factual",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Think of a 'Hot Pot': When it boils over (Overheating), the pressure (Inflation) is high and the space inside is tight (Low Unemployment)."
+  },
+  {
+    "questionNumber": 98,
+    "questionText": "Consider the following statements with reference to the Additional Tier 1 (AT1) bonds:\nI. They are perpetual debt instruments issued by banks to raise money and build up their core equity capital.\nII. The bank issuing these bonds can redeem them or repay investors after a specified period.\nIII. They are regulated by the Reserve Bank of India (RBI).\nWhich of the statements given above is/are correct?",
+    "options": [
+      "I, II and III",
+      "I and II only",
+      "II only",
+      "II and III only"
+    ],
+    "correctOption": "A",
+    "explanation": "AT1 bonds are perpetual debt instruments used by banks to augment their core equity base. They are high-risk instruments.",
+    "subject": "Economics",
+    "topic": "Banking System",
+    "difficulty_rationale": "Moderate; requires knowledge of banking instruments.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Capital Adequacy and Basel Norms",
+    "keywords": [
+      "AT1 Bonds",
+      "Perpetual Debt",
+      "Basel III Norms",
+      "Tier 1 Capital",
+      "RBI Regulation"
+    ],
+    "concepts": [
+      "Capital Adequacy Ratio",
+      "Financial Instruments",
+      "Banking Regulation"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "N/A",
+    "mnemonic_hint": "Remember 'AT1' as 'Always Tier-1'—they are perpetual, high-risk, and help banks meet core capital requirements."
+  },
+  {
+    "questionNumber": 99,
+    "questionText": "Which of the statements given above is/are correct?\nI. A negative output gap generally indicates a lack of demand for goods and services in an economy.\nII. A positive output gap can spur inflation in an economy.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "I only",
+      "II only",
+      "Both I and II",
+      "Neither I nor II"
+    ],
+    "correctOption": "C",
+    "explanation": "An output gap is the difference between actual and potential output. A negative output gap indicates a lack of demand. A positive output gap indicates high demand.",
+    "subject": "Economics",
+    "topic": "Economic Concepts",
+    "difficulty_rationale": "Moderate; requires understanding of output gap.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Macroeconomic Indicators and Business Cycles",
+    "keywords": [
+      "Output Gap",
+      "Potential GDP",
+      "Inflationary Pressure",
+      "Aggregate Demand"
+    ],
+    "concepts": [
+      "Negative Output Gap",
+      "Positive Output Gap",
+      "Demand-Pull Inflation"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Think of a 'Negative' gap as a 'Negative' demand (recessionary) and a 'Positive' gap as 'Positive' pressure (inflationary)."
+  },
+  {
+    "questionNumber": 100,
+    "questionText": "Consider the following statements:\nStatement I:\nEnvironmental externalities are often not factored in the overall cost of a product.\nStatement II:\nInherent cost of the ecosystem services generally don’t form part of the overall invoicing for the product.\nWhich one of the following is correct in respect of the above statements?",
+    "options": [
+      "Both Statement I and Statement II are correct and Statement II explains Statement I",
+      "Both Statement I and Statement II are correct but Statement II does not explain Statement I",
+      "Statement I is correct but Statement II is not correct",
+      "Statement I is not correct but Statement II is correct"
+    ],
+    "correctOption": "A",
+    "explanation": "Environmental externalities are negative consequences of human activity on nature. They are often not factored into the cost of products.",
+    "subject": "Economics",
+    "topic": "Environmental Economics",
+    "difficulty_rationale": "Moderate; requires understanding of externalities.",
+    "year": 2024,
+    "source_label": "Test 03 (V7703) 03 August 2025 QP  @Ramramjii21",
+    "sub_topic": "Market Failures and Environmental Accounting",
+    "keywords": [
+      "Environmental Externalities",
+      "Ecosystem Services",
+      "Market Failure",
+      "Cost-Benefit Analysis"
+    ],
+    "concepts": [
+      "Negative Externalities",
+      "Natural Capital Accounting",
+      "Market Price vs Social Cost"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Think of 'Hidden Costs': Externalities are the 'hidden' environmental bills that the product's price tag forgets to include."
+  }
+]

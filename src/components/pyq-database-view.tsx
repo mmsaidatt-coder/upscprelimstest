@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useMemo } from "react";
 import Link from "next/link";
+import { BookmarkButton } from "@/components/bookmark-button";
 
 // Shared type for the fetched question
 export type Question = {
@@ -259,6 +260,14 @@ export function PyqDatabaseView() {
                       {q.prompt.replace(/^\d+\.\s*/, '')}
                     </p>
                   </div>
+                  <BookmarkButton
+                    questionId={q.id}
+                    subject={q.subject}
+                    prompt={q.prompt}
+                    year={q.year}
+                    size="sm"
+                    className="flex-shrink-0 mt-1"
+                  />
                   <svg
                     className={`flex-shrink-0 text-[var(--muted)] mt-2 transition-transform duration-300 ${isExpanded ? "rotate-180" : ""}`}
                     width="18" height="18" viewBox="0 0 24 24" fill="none"

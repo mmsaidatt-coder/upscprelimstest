@@ -1,0 +1,62 @@
+# Smithery.ai MCP Server Registry Configuration
+# https://smithery.ai/docs/config
+
+startCommand:
+  type: http
+  url: https://upscprelimstest.com/api/mcp
+
+name: upsc-prelims-test
+description: >
+  UPSC Civil Services Preliminary Examination practice platform with 1,200+ previous year
+  questions (2014-2025) and a 10,000+ total AI-enriched practice bank. Search PYQs,
+  analyze subject/topic patterns, get year breakdowns, and access enriched metadata including
+  topics, keywords, concepts, and difficulty ratings.
+
+version: 1.0.0
+
+tools:
+  - name: search_questions
+    description: >
+      Search and filter the UPSC Prelims PYQ bank (1,200+ questions, 2014-2025).
+      Filter by subject, year, or keyword. Returns questions with full metadata.
+
+  - name: get_subject_blueprint
+    description: >
+      Topic-by-year question count matrix for a subject. Shows which topics appeared
+      in which years and how frequently.
+
+  - name: get_year_analysis
+    description: >
+      Breakdown of a specific year's paper — questions per subject, topics covered,
+      overall composition.
+
+  - name: get_platform_info
+    description: >
+      Platform overview — PYQ data, larger custom practice bank, subjects, years, features,
+      and practice session links.
+
+resources:
+  - name: UPSC Prelims Syllabus
+    uri: upsc://syllabus
+    description: Complete syllabus taxonomy with all 7 subjects and key topic areas.
+
+  - name: Available Years
+    uri: upsc://years
+    description: Year-by-year question counts from the database.
+
+  - name: Subject Distribution
+    uri: upsc://subjects
+    description: Subject-wise question count breakdown.
+
+prompts:
+  - name: study-plan
+    description: Generate a focused study plan for a subject based on PYQ frequency analysis.
+
+  - name: year-comparison
+    description: Compare question patterns across two exam years.
+
+  - name: topic-deep-dive
+    description: Deep analysis of a specific topic with question patterns and practice advice.
+
+  - name: mock-test-strategy
+    description: Pre-test strategy briefing before attempting a year's paper.

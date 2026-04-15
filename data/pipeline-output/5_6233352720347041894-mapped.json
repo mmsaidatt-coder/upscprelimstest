@@ -1,1 +1,1535 @@
-[]
+[
+  {
+    "questionNumber": 1,
+    "questionText": "Friedmann equations:",
+    "options": [
+      "They are a set of equations in physical cosmology that govern the expansion of space in homogeneous and isotropic models of the universe within the context of general relativity.",
+      "They were first derived by Alexander Friedmann in 1922 from Einstein's field equations of gravitation. According to the equations, the Universe isn't static. It either expands or contracts depending on the rate of expansion and the contents of the Universe.",
+      "The Friedmann equation derived from Newtonian mechanics accounts only for the gravity contribution to energy and neglects the pressure contribution to the total energy.",
+      "All of the above"
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "Cosmology and General Relativity",
+    "keywords": [
+      "Friedmann equations",
+      "General Relativity",
+      "Expansion of the Universe",
+      "Alexander Friedmann",
+      "Einstein's field equations"
+    ],
+    "concepts": [
+      "Cosmological expansion",
+      "Homogeneous and isotropic universe",
+      "Newtonian vs Relativistic gravity"
+    ],
+    "question_type": "Direct Factual",
+    "importance": "Low",
+    "difficulty": "Hard",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Think of 'Friedmann' as 'Fried-Man' who cooked up the recipe for an expanding universe using Einstein's ingredients."
+  },
+  {
+    "questionNumber": 2,
+    "questionText": "Consider the following statements regarding the Chandrasekhar limit:",
+    "options": [
+      "The Chandrasekhar limit is the maximum mass of a stable white dwarf star.",
+      "The Chandrasekhar value for a white dwarf star is generally considered to be 1.4 solar masses.",
+      "Before reaching a white dwarf state, stars first lose mass by shedding their outer layers.",
+      "All of the above"
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "Stellar Evolution",
+    "keywords": [
+      "Chandrasekhar limit",
+      "White dwarf",
+      "Solar mass",
+      "Stellar evolution"
+    ],
+    "concepts": [
+      "Stellar life cycle",
+      "Electron degeneracy pressure"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "Medium",
+    "difficulty": "Medium",
+    "ncert_class": "Class 11",
+    "mnemonic_hint": "Remember '1.4' as the 'Chandrasekhar Ceiling'—the maximum weight a white dwarf can hold before collapsing."
+  },
+  {
+    "questionNumber": 3,
+    "questionText": "Gravitational lensing occurs when:",
+    "options": [
+      "A massive celestial body causes a sufficient curvature of spacetime for the path of light around it to be visibly bent.",
+      "The body causing the light to curve is called a gravitational lens.",
+      "Gravitational lensing probes the distribution of matter in galaxies and clusters of galaxies.",
+      "All of the above"
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "General Relativity and Astrophysics",
+    "keywords": [
+      "Gravitational Lensing",
+      "Spacetime Curvature",
+      "General Relativity",
+      "Dark Matter"
+    ],
+    "concepts": [
+      "General Theory of Relativity",
+      "Gravitational Potential",
+      "Cosmological Probes"
+    ],
+    "question_type": "Direct Factual",
+    "importance": "Medium",
+    "difficulty": "Easy",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Think of a 'Lens' as a 'Bend' in the 'Space-time' fabric caused by a 'Massive' object."
+  },
+  {
+    "questionNumber": 4,
+    "questionText": "Consider the following statements regarding Tidal Disruption Events (TDE):",
+    "options": [
+      "TDE occur when a star passes too close to a compact object, such as a supermassive black hole.",
+      "When a black hole swallows approaching stars, it shreds them into strands like spaghetti.",
+      "A jet of light particles is emitted, appearing as an intensely bright flash of light due to Doppler boosting.",
+      "All of the above"
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "Space Science and Astronomy",
+    "keywords": [
+      "Tidal Disruption Events",
+      "Supermassive Black Hole",
+      "Spaghettification",
+      "Doppler Boosting",
+      "Astrophysics"
+    ],
+    "concepts": [
+      "Gravitational Tidal Forces",
+      "Black Hole Accretion",
+      "Relativistic Jets"
+    ],
+    "question_type": "Direct Factual",
+    "importance": "Medium",
+    "difficulty": "Medium",
+    "ncert_class": "N/A",
+    "mnemonic_hint": "Remember 'TDE' as 'Tidal Destruction Ejection': Tidal forces destroy the star, and the black hole ejects a bright light."
+  },
+  {
+    "questionNumber": 5,
+    "questionText": "Nanotechnology can be used for:",
+    "options": [
+      "Multimodal imaging and synergistic phototherapy to destroy cancer cells.",
+      "Water purification using nanoscopic materials such as carbon nanotubes and alumina fibers.",
+      "Electrospinning to produce a novel fabric that offers high-performance protection against electromagnetic interference.",
+      "All of the above"
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "Applications of Nanotechnology",
+    "keywords": [
+      "Nanotechnology",
+      "Cancer therapy",
+      "Water purification",
+      "Electromagnetic interference",
+      "Carbon nanotubes"
+    ],
+    "concepts": [
+      "Nanomedicine",
+      "Nanomaterials in environmental remediation",
+      "Nanotechnology in material science"
+    ],
+    "question_type": "Direct Factual",
+    "importance": "High",
+    "difficulty": "Easy",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Think of 'NANO' as 'N-ew A-pplications N-early O-mnipresent'—covering health, water, and tech."
+  },
+  {
+    "questionNumber": 6,
+    "questionText": "Consider the following statements regarding Nanorobotics:",
+    "options": [
+      "It is a mechanical or electromechanical device that can design and build nanorobots ranging in size from 0.1 to 10 micrometres.",
+      "The first useful applications of nanomachines may be in nanomedicines.",
+      "Earlier nanites have been tested for water purification purposes.",
+      "All of the above"
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "Nanotechnology Applications",
+    "keywords": [
+      "Nanorobotics",
+      "Nanomedicine",
+      "Nanomachines",
+      "Water Purification",
+      "Nanites"
+    ],
+    "concepts": [
+      "Nanoscale Engineering",
+      "Biomedical Nanotechnology",
+      "Environmental Remediation"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "Medium",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Think 'NANO': Nanomedicine, Applications in water, Nanites, and Operations at micro-scale."
+  },
+  {
+    "questionNumber": 7,
+    "questionText": "Consider the following statements regarding Liquid nano urea:",
+    "options": [
+      "It is sprayed directly on the leaves and gets absorbed by the plant.",
+      "Liquid nano urea has a shelf life of a year and is not likely to undergo ‘caking’.",
+      "The Indian Farmers Fertiliser Cooperative Limited (IFFCO) has developed and patented nano urea liquid technology.",
+      "All of the above"
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "Nano-Fertilizers and Agricultural Technology",
+    "keywords": [
+      "Liquid nano urea",
+      "IFFCO",
+      "Agriculture",
+      "Fertilizer efficiency",
+      "Nano-technology"
+    ],
+    "concepts": [
+      "Foliar application of fertilizers",
+      "Nano-biotechnology in agriculture",
+      "Sustainable farming practices"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Easy",
+    "ncert_class": "N/A",
+    "mnemonic_hint": "Remember 'L-I-F-E': Leaves (foliar), IFFCO (developer), Fertilizer (nano), Extended shelf-life."
+  },
+  {
+    "questionNumber": 8,
+    "questionText": "Consider the following statements regarding Quasars:",
+    "options": [
+      "Quasars are a subclass of Active Galactic Nuclei (AGNs), extremely luminous galactic cores.",
+      "They are powered by a supermassive black hole feeding on humongous quantities of gas.",
+      "They are amongst the most luminous objects in the known Universe.",
+      "All of the above"
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "Space Technology and Astronomy",
+    "keywords": [
+      "Quasars",
+      "Active Galactic Nuclei",
+      "Supermassive Black Hole",
+      "Luminosity"
+    ],
+    "concepts": [
+      "Galactic Evolution",
+      "Accretion Disks",
+      "High-Energy Astrophysics"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "Medium",
+    "difficulty": "Easy",
+    "ncert_class": "Class 11",
+    "mnemonic_hint": "Think of a Q-U-A-S-A-R as a 'QUickly Accreting Supermassive Active Region'."
+  },
+  {
+    "questionNumber": 9,
+    "questionText": "Consider the following statements regarding Rogue planets:",
+    "options": [
+      "Rogue planets are cosmic objects that have masses similar to the planets in the Solar System but do not orbit a star.",
+      "Astronomers have discovered at least 70 new rogue planets in the Milky Way galaxy.",
+      "Rogue planets are directly detectable by sensitive cameras on large telescopes in the few million years after their formation.",
+      "All of the above"
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "Exoplanets and Celestial Bodies",
+    "keywords": [
+      "Rogue planets",
+      "Interstellar planets",
+      "Milky Way",
+      "Astronomy"
+    ],
+    "concepts": [
+      "Planetary formation",
+      "Direct imaging of exoplanets",
+      "Gravitational ejection"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "Medium",
+    "difficulty": "Medium",
+    "ncert_class": "Class 11",
+    "mnemonic_hint": "Think of 'Rogue' as 'Roaming'—planets that roam the galaxy alone without a stellar parent."
+  },
+  {
+    "questionNumber": 10,
+    "questionText": "Consider the following statements regarding Small Modular Reactors (SMRs) and Microreactors:",
+    "options": [
+      "SMRs have a power capacity of up to 300 MW(e) per unit.",
+      "SMRs have reduced fuel requirements compared to conventional plants.",
+      "Microreactors are 100 to 1,000 times smaller than conventional nuclear reactors.",
+      "All of the above"
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "Nuclear Energy Technologies",
+    "keywords": [
+      "Small Modular Reactors",
+      "Microreactors",
+      "Nuclear Power",
+      "Energy Efficiency",
+      "SMR"
+    ],
+    "concepts": [
+      "Nuclear Reactor Scaling",
+      "Modular Construction",
+      "Energy Density"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "N/A",
+    "mnemonic_hint": "SMRs are 'Small, Modular, and Rapid'—300 MW is the magic limit for their modular design."
+  },
+  {
+    "questionNumber": 11,
+    "questionText": "Consider the following statements regarding radioactive materials:",
+    "options": [
+      "Polonium-210 (Po-210) is a radioactive material that occurs naturally in the Earth’s crust.",
+      "Carbon-14 is the longest-lived radioactive isotope of carbon.",
+      "Americium-241 is the most common form of Americium.",
+      "All of the above"
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "Radioactive Isotopes and Applications",
+    "keywords": [
+      "Polonium-210",
+      "Carbon-14",
+      "Americium-241",
+      "Radioactivity",
+      "Isotopes"
+    ],
+    "concepts": [
+      "Radioactive decay",
+      "Isotopic properties",
+      "Nuclear science"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "Medium",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Remember 'PAC': Polonium (naturally occurring), Americium (common smoke detector isotope), Carbon-14 (long-lived dating tool)."
+  },
+  {
+    "questionNumber": 12,
+    "questionText": "Consider the following statements regarding Thorium:",
+    "options": [
+      "Thorium is a naturally occurring radioactive metal found at trace levels in soil, rocks, water, plants and animals.",
+      "Thorium alone cannot be directly used as nuclear fuel in a reactor.",
+      "Monazite resources are found in Odisha, Andhra Pradesh, Tamil Nadu, Kerala, West Bengal, and Jharkhand.",
+      "All of the above"
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "Nuclear Energy Resources",
+    "keywords": [
+      "Thorium",
+      "Monazite",
+      "Nuclear Fuel Cycle",
+      "Radioactive elements"
+    ],
+    "concepts": [
+      "Fissile vs Fertile materials",
+      "Indian Nuclear Power Programme",
+      "Distribution of mineral resources in India"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Remember 'T-M-O' for Thorium: Thorium is fertile (not fissile), Monazite is the source, and Odisha/coastal states are the hubs."
+  },
+  {
+    "questionNumber": 13,
+    "questionText": "Consider the following statements regarding nuclear reactors:",
+    "options": [
+      "Nuclear reactors use uranium fuel rods containing pellets of fissionable material to create energy through fission.",
+      "Criticality is the normal operating condition of a nuclear reactor, in which nuclear fuel sustains a fission chain reaction.",
+      "A reactor achieves criticality when each fission releases a sufficient number of neutrons to sustain an ongoing series of nuclear reactions.",
+      "All of the above"
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "Nuclear Energy and Reactor Physics",
+    "keywords": [
+      "Nuclear Reactor",
+      "Fission",
+      "Criticality",
+      "Chain Reaction",
+      "Uranium"
+    ],
+    "concepts": [
+      "Nuclear Fission Process",
+      "Reactor Criticality State"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "Medium",
+    "difficulty": "Easy",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Remember 'C-C-S': Criticality means Chain-reaction Sustained."
+  },
+  {
+    "questionNumber": 14,
+    "questionText": "Consider the following statements regarding the Rosalind Franklin rover:",
+    "options": [
+      "The Rosalind Franklin is a planned robotic Mars rover, part of the international ExoMars programme.",
+      "ExoMars is a joint endeavour between the European Space Agency (ESA) and Russia's Roscosmos agency.",
+      "The rover’s intended landing site is a vast plain called Oxia Planum.",
+      "All of the above"
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "Space Exploration Missions",
+    "keywords": [
+      "Rosalind Franklin rover",
+      "ExoMars",
+      "ESA",
+      "Roscosmos",
+      "Oxia Planum"
+    ],
+    "concepts": [
+      "International Space Cooperation",
+      "Mars Exploration",
+      "Planetary Science"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "Medium",
+    "difficulty": "Medium",
+    "ncert_class": "N/A",
+    "mnemonic_hint": "Remember 'REO': Rosalind (rover), ExoMars (program), Oxia (landing site)."
+  },
+  {
+    "questionNumber": 15,
+    "questionText": "Consider the following statements regarding Coronal Mass Ejections (CMEs):",
+    "options": [
+      "CMEs are large expulsions of plasma and magnetic fields from the Sun’s corona.",
+      "CMEs are capable of disrupting radio waves which can result in a radio blackout.",
+      "Solar storms have no direct impact on humans on Earth’s surface.",
+      "All of the above"
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "Solar Phenomena and Space Weather",
+    "keywords": [
+      "Coronal Mass Ejections",
+      "Solar Corona",
+      "Radio Blackout",
+      "Space Weather",
+      "Plasma"
+    ],
+    "concepts": [
+      "Solar Activity",
+      "Geomagnetic Storms",
+      "Impact of Solar Flares on Earth's Atmosphere"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 11",
+    "mnemonic_hint": "Remember 'CME' as 'Corona's Magnetic Ejection'—it's a solar sneeze that disrupts our radio breeze."
+  },
+  {
+    "questionNumber": 16,
+    "questionText": "Consider the following statements regarding the James Webb Space Telescope (JWST):",
+    "options": [
+      "JWST is the world’s premier space science observatory developed by NASA.",
+      "It primarily studies the universe in the infrared.",
+      "It sits at the Earth-Sun L2 Lagrange Point at a distance of 1.5 million km from Earth.",
+      "All of the above"
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "Space Technology and Observatories",
+    "keywords": [
+      "James Webb Space Telescope",
+      "Infrared Astronomy",
+      "Lagrange Point L2",
+      "NASA",
+      "Space Exploration"
+    ],
+    "concepts": [
+      "Space-based Observatories",
+      "Lagrange Points",
+      "Infrared Spectrum Analysis"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Easy",
+    "ncert_class": "N/A",
+    "mnemonic_hint": "Remember 'JWST' as 'Just Watch Space Through' infrared at L2."
+  },
+  {
+    "questionNumber": 17,
+    "questionText": "Consider the following statements regarding Dark matter:",
+    "options": [
+      "Dark matter makes up around 85 per cent of the matter in the known universe.",
+      "Dark matter is completely invisible as it doesn't interact with light.",
+      "Particles that make up Dark matter do not have a charge.",
+      "All of the above"
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "Cosmology and Dark Matter",
+    "keywords": [
+      "Dark Matter",
+      "Universe Composition",
+      "Electromagnetic Interaction",
+      "Subatomic Particles"
+    ],
+    "concepts": [
+      "Composition of the Universe",
+      "Properties of Dark Matter",
+      "Non-baryonic matter"
+    ],
+    "question_type": "Direct Factual",
+    "importance": "Medium",
+    "difficulty": "Medium",
+    "ncert_class": "Class 11",
+    "mnemonic_hint": "Remember 'D-I-N': Dark matter is Invisible, Non-interacting with light, and has no charge."
+  },
+  {
+    "questionNumber": 18,
+    "questionText": "Consider the following statements regarding launch vehicles:",
+    "options": [
+      "PSLV is designed mainly to deliver the “earth-observation” or “remote-sensing” satellites.",
+      "GSLV is designed mainly to deliver the satellites to the highly elliptical Geosynchronous Transfer Orbit (GTO).",
+      "GSLV Mk-III is configured as a three-stage vehicle with two solid strap-on motors.",
+      "All of the above"
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "Space Technology and Launch Vehicles",
+    "keywords": [
+      "PSLV",
+      "GSLV",
+      "GSLV Mk-III",
+      "Geosynchronous Transfer Orbit",
+      "Remote Sensing"
+    ],
+    "concepts": [
+      "Launch Vehicle Architecture",
+      "Orbital Mechanics",
+      "ISRO Satellite Launch Capabilities"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "N/A",
+    "mnemonic_hint": "Remember 'P-E-R' (PSLV-Earth-Remote) and 'G-G-T' (GSLV-Geosynchronous-Transfer) to distinguish their primary missions."
+  },
+  {
+    "questionNumber": 19,
+    "questionText": "Consider the following statements regarding space stations:",
+    "options": [
+      "A space station is a spacecraft capable of supporting crew members, designed to remain in space for an extended period of time.",
+      "Tiangong space station is China's new permanent space station.",
+      "The Tiangong space station is being independently built by China.",
+      "All of the above"
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "International Space Stations and Space Exploration",
+    "keywords": [
+      "Tiangong",
+      "Space Station",
+      "China National Space Administration",
+      "Low Earth Orbit"
+    ],
+    "concepts": [
+      "Space Infrastructure",
+      "International Space Cooperation",
+      "Orbital Habitats"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "Medium",
+    "difficulty": "Easy",
+    "ncert_class": "N/A",
+    "mnemonic_hint": "Think of 'Tiangong' as 'Tian-Gone' to space, China's solo home in the sky."
+  },
+  {
+    "questionNumber": 20,
+    "questionText": "Consider the following statements regarding exoplanets:",
+    "options": [
+      "An exoplanet is any planet beyond our solar system.",
+      "Exoplanets are composed of a variety of elements, and some exoplanets have been found to have similar compositions to the planets in our solar system.",
+      "Exoplanets come in a wide range of sizes, from small rocky planets similar to Earth to large gas giants similar to Jupiter.",
+      "All of the above"
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "Exoplanets and Space Exploration",
+    "keywords": [
+      "Exoplanets",
+      "Solar System",
+      "Gas Giants",
+      "Astronomy"
+    ],
+    "concepts": [
+      "Definition of Exoplanets",
+      "Planetary Composition and Classification"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "Medium",
+    "difficulty": "Easy",
+    "ncert_class": "Class 6",
+    "mnemonic_hint": "Think of EXO as 'Extra-Solar'—anything outside our home solar system is an exoplanet."
+  },
+  {
+    "questionNumber": 21,
+    "questionText": "What is the correct sequence of stellar evolution for an average star?",
+    "options": [
+      "Stellar Nebula, Red Giant, Planetary Nebula and White Dwarf.",
+      "Stellar Nebula, Planetary Nebula, Red Giant and White Dwarf.",
+      "Stellar Nebula, White Dwarf, Red Giant and Planetary Nebula.",
+      "Stellar Nebula, Red Giant, White Dwarf and Planetary Nebula."
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "Stellar Evolution",
+    "keywords": [
+      "Stellar Nebula",
+      "Red Giant",
+      "Planetary Nebula",
+      "White Dwarf",
+      "Stellar Life Cycle"
+    ],
+    "concepts": [
+      "Life cycle of stars",
+      "Stellar nucleosynthesis",
+      "Post-main sequence evolution"
+    ],
+    "question_type": "Direct Factual",
+    "importance": "Medium",
+    "difficulty": "Easy",
+    "ncert_class": "Class 11",
+    "mnemonic_hint": "Remember 'SN-RG-PN-WD': Super Novae Rarely Get Past New Worlds Daily."
+  },
+  {
+    "questionNumber": 22,
+    "questionText": "Consider the following statements regarding the Lucy Mission:",
+    "options": [
+      "It was launched by the National Aeronautics and Space Administration (NASA) in 2021.",
+      "It is the first spacecraft launched to explore the Trojan asteroids.",
+      "The mission is named after the fossilised skeleton of an early human ancestor.",
+      "All of the above"
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "Space Missions and Exploration",
+    "keywords": [
+      "Lucy Mission",
+      "NASA",
+      "Trojan asteroids",
+      "Space exploration"
+    ],
+    "concepts": [
+      "Solar System Exploration",
+      "Asteroid Belt Dynamics",
+      "Planetary Science"
+    ],
+    "question_type": "Direct Factual",
+    "importance": "High",
+    "difficulty": "Easy",
+    "ncert_class": "N/A",
+    "mnemonic_hint": "Think of 'Lucy' as the 'Human Ancestor' who went on a 'Trojan Horse' ride through space to visit the asteroids."
+  },
+  {
+    "questionNumber": 23,
+    "questionText": "Consider the following statements regarding Neutron Stars:",
+    "options": [
+      "A Neutron Star is the collapsed core of a massive Supergiant Star.",
+      "Neutron stars are incredibly dense - similar to the density of an atomic nucleus.",
+      "Neutron star collisions are one of the universe’s main sources of heavy elements like gold and uranium.",
+      "All of the above"
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "Stellar Evolution and Nucleosynthesis",
+    "keywords": [
+      "Neutron Stars",
+      "Supernova",
+      "R-process nucleosynthesis",
+      "Stellar Remnants",
+      "Heavy Elements"
+    ],
+    "concepts": [
+      "Stellar Evolution",
+      "Nucleosynthesis",
+      "Degenerate Matter"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "Medium",
+    "difficulty": "Easy",
+    "ncert_class": "Class 11",
+    "mnemonic_hint": "Think of a Neutron star as a 'Cosmic Gold Mine'—it is a dense core that crashes to create heavy metals."
+  },
+  {
+    "questionNumber": 24,
+    "questionText": "The Giant-Impact theory explains:",
+    "options": [
+      "The formation of the Moon.",
+      "The formation of the Sun.",
+      "The formation of the Earth.",
+      "The formation of the Milky Way."
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "Origin and Evolution of the Earth and Moon",
+    "keywords": [
+      "Giant-Impact Theory",
+      "Theia",
+      "Moon Formation",
+      "Planetary Science"
+    ],
+    "concepts": [
+      "Theia Impact",
+      "Accretion Theory",
+      "Lunar Origin"
+    ],
+    "question_type": "Direct Factual",
+    "importance": "Medium",
+    "difficulty": "Easy",
+    "ncert_class": "Class 11",
+    "mnemonic_hint": "Think of the Moon as a 'Giant' piece of Earth that broke off during a massive 'Impact'."
+  },
+  {
+    "questionNumber": 25,
+    "questionText": "Consider the following statements regarding NASA-ISRO SAR (NISAR):",
+    "options": [
+      "NISAR is a Low Earth Orbit (LEO) observatory jointly developed by NASA and ISRO.",
+      "It consists of both L-band and S-band synthetic aperture radar (SAR) instruments.",
+      "NISAR will be the first satellite mission to use two different radar frequencies to measure changes in our planet’s surface.",
+      "All of the above"
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "Space Technology and International Collaborations",
+    "keywords": [
+      "NISAR",
+      "NASA",
+      "ISRO",
+      "Synthetic Aperture Radar",
+      "L-band",
+      "S-band"
+    ],
+    "concepts": [
+      "Earth Observation Satellites",
+      "Remote Sensing Technology",
+      "International Space Cooperation"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "N/A",
+    "mnemonic_hint": "Remember 'NISAR' as 'NASA-ISRO SAR'—where the 'L' and 'S' in the name stand for the L-band and S-band radars it carries."
+  },
+  {
+    "questionNumber": 26,
+    "questionText": "Consider the following pairs of Earth orbits and their applications:",
+    "options": [
+      "Low Earth Orbit (LEO): Communication and remote sensing satellite systems.",
+      "Geosynchronous Orbit (GSO): Consistent position over a single longitude.",
+      "Geostationary Orbit (GEO): Telecommunications and Earth observation.",
+      "All of the above"
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "Satellite Orbits and Applications",
+    "keywords": [
+      "Low Earth Orbit",
+      "Geosynchronous Orbit",
+      "Geostationary Orbit",
+      "Satellite Communication",
+      "Remote Sensing"
+    ],
+    "concepts": [
+      "Orbital Mechanics",
+      "Satellite Positioning",
+      "Telecommunications Infrastructure"
+    ],
+    "question_type": "Direct Factual",
+    "importance": "High",
+    "difficulty": "Easy",
+    "ncert_class": "Class 11",
+    "mnemonic_hint": "LEO is Low (close/fast), GSO is Geosynchronous (syncs with Earth's rotation), and GEO is Geostationary (fixed point in the sky)."
+  },
+  {
+    "questionNumber": 27,
+    "questionText": "Consider the following statements regarding black holes:",
+    "options": [
+      "A 'stationary limit' is a surface around the outside of a rotating black hole.",
+      "The 'event horizon' is a surface that exists closer to the black hole.",
+      "The ergosphere lies just outside the event horizon of a rotating black hole.",
+      "All of the above"
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "Black Hole Anatomy",
+    "keywords": [
+      "Black Hole",
+      "Ergosphere",
+      "Event Horizon",
+      "Stationary Limit",
+      "Rotating Black Hole"
+    ],
+    "concepts": [
+      "General Relativity",
+      "Kerr Black Hole Geometry"
+    ],
+    "question_type": "Direct Factual",
+    "importance": "Medium",
+    "difficulty": "Hard",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Remember 'S-E-E': Stationary limit is outer, Ergosphere is middle, Event horizon is inner."
+  },
+  {
+    "questionNumber": 28,
+    "questionText": "Consider the following statements regarding Indian satellites:",
+    "options": [
+      "‘EDUSAT’ is India’s first thematic satellite dedicated exclusively to educational services.",
+      "The Indian National Satellite System (INSAT/GSAT) is one of the largest domestic communication satellite systems in the Asia-Pacific region.",
+      "INSAT has been a major catalyst for the expansion of television coverage in India.",
+      "All of the above"
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "Indian Space Programme and Satellite Systems",
+    "keywords": [
+      "EDUSAT",
+      "INSAT",
+      "GSAT",
+      "Communication Satellites",
+      "Space Technology"
+    ],
+    "concepts": [
+      "Satellite Applications in Education",
+      "Domestic Communication Satellite Infrastructure",
+      "Role of Space Technology in Mass Media"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "Medium",
+    "difficulty": "Easy",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Remember 'E-I-I': EDUSAT for Education, INSAT for Infrastructure (Communication), and INSAT for Information (TV coverage)."
+  },
+  {
+    "questionNumber": 29,
+    "questionText": "Consider the following international space treaties:",
+    "options": [
+      "Outer Space Treaty, 1967",
+      "Rescue Agreement of 1968",
+      "Liability Convention of 1972",
+      "All of the above"
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "International Space Law and Governance",
+    "keywords": [
+      "Outer Space Treaty",
+      "Space Law",
+      "International Treaties",
+      "UNCOPUOS"
+    ],
+    "concepts": [
+      "Space Governance",
+      "International Legal Frameworks for Outer Space"
+    ],
+    "question_type": "Direct Factual",
+    "importance": "Medium",
+    "difficulty": "Easy",
+    "ncert_class": "N/A",
+    "mnemonic_hint": "Remember 'ORL' for the chronological order: Outer Space (1967), Rescue (1968), Liability (1972)."
+  },
+  {
+    "questionNumber": 30,
+    "questionText": "Consider the following statements regarding LUX-ZEPLIN (LZ):",
+    "options": [
+      "It is a next-generation dark matter experiment.",
+      "It is located at the Sanford Underground Research Facility.",
+      "It utilises a two-phase time projection chamber (TPC), containing seven active tonnes of liquid xenon.",
+      "All of the above"
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "Space Science and Particle Physics",
+    "keywords": [
+      "LUX-ZEPLIN",
+      "Dark Matter",
+      "Sanford Underground Research Facility",
+      "Liquid Xenon",
+      "Time Projection Chamber"
+    ],
+    "concepts": [
+      "Dark Matter Detection",
+      "Particle Physics Experiments",
+      "Underground Laboratory Research"
+    ],
+    "question_type": "Direct Factual",
+    "importance": "Medium",
+    "difficulty": "Medium",
+    "ncert_class": "N/A",
+    "mnemonic_hint": "Remember 'LZ-Xenon-Deep': LZ is the experiment, Xenon is the medium, and it is buried Deep underground."
+  },
+  {
+    "questionNumber": 31,
+    "questionText": "Consider the following Indian satellites and their applications in Disaster Management:",
+    "options": [
+      "Radar Imaging Satellite-2B (RISAT-2B)",
+      "Earth Observation Satellite-3 (EOS-3)",
+      "Indian National Satellite-3D Repeat (INSAT-3DR)",
+      "All of the above"
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "Space Technology and Disaster Management",
+    "keywords": [
+      "RISAT-2B",
+      "EOS-3",
+      "INSAT-3DR",
+      "ISRO",
+      "Disaster Management"
+    ],
+    "concepts": [
+      "Remote Sensing Satellites",
+      "Meteorological Satellites",
+      "Synthetic Aperture Radar (SAR)",
+      "Disaster Risk Reduction"
+    ],
+    "question_type": "Direct Factual",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "N/A",
+    "mnemonic_hint": "Remember 'R-E-I' for Disaster: Radar (RISAT) for imaging, Earth (EOS) for observation, and INSAT for weather monitoring."
+  },
+  {
+    "questionNumber": 32,
+    "questionText": "Consider the following statements regarding constellations:",
+    "options": [
+      "Constellations are groupings of stars that were imagined to form conspicuous configurations of objects or creatures in the sky.",
+      "Stars and constellations stay in approximately the same spot for many years.",
+      "Cassiopeia, Cepheus, Draco, Ursa Major and Ursa Minor are some of the constellations that can be seen all year long in the northern hemisphere.",
+      "All of the above"
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "Celestial Bodies and Star Patterns",
+    "keywords": [
+      "Constellations",
+      "Northern Hemisphere",
+      "Celestial Sphere",
+      "Ursa Major"
+    ],
+    "concepts": [
+      "Stellar configurations",
+      "Apparent motion of stars",
+      "Circumpolar constellations"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "Medium",
+    "difficulty": "Easy",
+    "ncert_class": "Class 6",
+    "mnemonic_hint": "Remember 'C-C-D-U-U' for the northern sky: Cassiopeia, Cepheus, Draco, Ursa Major, and Ursa Minor."
+  },
+  {
+    "questionNumber": 33,
+    "questionText": "Consider the following statements regarding the Multi-Angle Imager for Aerosols (MAIA) mission:",
+    "options": [
+      "MAIA is a joint mission between NASA and the Italian Space Agency ASI.",
+      "It will be able to collect measurements of sunlight reflecting off airborne particles.",
+      "The mission will investigate the health impacts of air pollution in the world’s most populated cities.",
+      "All of the above"
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "Space Missions and Environmental Monitoring",
+    "keywords": [
+      "MAIA",
+      "NASA",
+      "ASI",
+      "Aerosols",
+      "Air Pollution",
+      "Public Health"
+    ],
+    "concepts": [
+      "Remote Sensing",
+      "Atmospheric Science",
+      "Environmental Health Impact"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "Medium",
+    "difficulty": "Medium",
+    "ncert_class": "N/A",
+    "mnemonic_hint": "MAIA: Monitoring Aerosols, Investigating Air-health (NASA + Italian Agency)."
+  },
+  {
+    "questionNumber": 34,
+    "questionText": "Consider the following statements regarding Nuclear Fission and Nuclear Fusion:",
+    "options": [
+      "Nuclear Fission occurs when a neutron strikes a larger atom, forcing it to excite and split into two smaller atoms.",
+      "The source of energy of the sun is nuclear fusion.",
+      "Nuclear fission power plants have the disadvantage of generating unstable nuclei which remain radioactive for millions of years.",
+      "All of the above"
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "Nuclear Energy Processes",
+    "keywords": [
+      "Nuclear Fission",
+      "Nuclear Fusion",
+      "Radioactive Waste",
+      "Stellar Energy"
+    ],
+    "concepts": [
+      "Nuclear Binding Energy",
+      "Radioactive Decay",
+      "Chain Reaction"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Easy",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Fission is 'Division' (splitting atoms), Fusion is 'Union' (combining atoms to make the Sun shine)."
+  },
+  {
+    "questionNumber": 35,
+    "questionText": "Consider the following statements regarding Cordy Gold Nanoparticles (Cor-AuNPs):",
+    "options": [
+      "Cor-AuNPs are derived from the synthesis of the extracts of Cordyceps militaris and gold salts.",
+      "These nanoparticles add bioactive components to the synthesis of gold nanoparticles for better penetration.",
+      "These biosynthesized nanogold particles can be used in the development of therapeutic drugs.",
+      "All of the above"
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "Nanotechnology in Medicine",
+    "keywords": [
+      "Cordy Gold Nanoparticles",
+      "Cordyceps militaris",
+      "Nanomedicine",
+      "Biosynthesis",
+      "Gold salts"
+    ],
+    "concepts": [
+      "Green Synthesis of Nanoparticles",
+      "Bioactive Nanocarriers",
+      "Therapeutic Drug Delivery"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "Medium",
+    "difficulty": "Medium",
+    "ncert_class": "N/A",
+    "mnemonic_hint": "Think 'C-G-T': Cordyceps + Gold = Therapeutic potential."
+  },
+  {
+    "questionNumber": 36,
+    "questionText": "Consider the following statements regarding nuclear reactors:",
+    "options": [
+      "Pressurised-Water Reactor (PWR) utilises ordinary water as both coolant and moderator.",
+      "Pressurised Heavy Water Reactor (PHWR) generally uses natural uranium oxide as fuel.",
+      "Fast Breeder Reactor (FBR) is a type of nuclear reactor that produces more nuclear fuels than it consumes.",
+      "All of the above"
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "Nuclear Reactor Technologies",
+    "keywords": [
+      "Pressurised-Water Reactor",
+      "Pressurised Heavy Water Reactor",
+      "Fast Breeder Reactor",
+      "Nuclear Fuel Cycle",
+      "Moderator"
+    ],
+    "concepts": [
+      "Nuclear Fission",
+      "Reactor Coolants and Moderators",
+      "Breeding Ratio in Nuclear Reactors"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Remember 'PHWR-Natural' (PHWR uses natural uranium) and 'FBR-Breeds' (FBR creates more fuel than it uses)."
+  },
+  {
+    "questionNumber": 37,
+    "questionText": "Consider the following statements regarding a Total Solar Eclipse:",
+    "options": [
+      "A Total Solar Eclipse happens when the Moon passes between the Sun and Earth, completely blocking the face of the Sun.",
+      "The solar corona becomes visible during totality.",
+      "The Diamond Ring Effect is created by the single jewel of light from the Sun.",
+      "All of the above"
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "Solar Eclipses and Celestial Phenomena",
+    "keywords": [
+      "Total Solar Eclipse",
+      "Solar Corona",
+      "Diamond Ring Effect",
+      "Syzygy"
+    ],
+    "concepts": [
+      "Orbital Mechanics",
+      "Solar Atmosphere"
+    ],
+    "question_type": "Direct Factual",
+    "importance": "Medium",
+    "difficulty": "Easy",
+    "ncert_class": "Class 6",
+    "mnemonic_hint": "Remember 'S-M-E' (Sun-Moon-Earth) for the alignment and 'Corona-Diamond' for the visual highlights of a total eclipse."
+  },
+  {
+    "questionNumber": 38,
+    "questionText": "Consider the following statements regarding Dark Sky Reserve:",
+    "options": [
+      "A Dark Sky Reserve is public or private land with a distinguished nocturnal environment and starry nights that have been developed responsibly to prevent light pollution.",
+      "The Department of Science and Technology will set up India’s first Dark Sky Reserve at Ladakh’s Hanle.",
+      "The primary objective of the proposed Dark Sky Reserve is to promote astronomy tourism in a sustainable and environment-friendly manner.",
+      "All of the above"
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "Dark Sky Reserves and Light Pollution",
+    "keywords": [
+      "Dark Sky Reserve",
+      "Hanle",
+      "Ladakh",
+      "Light Pollution",
+      "Astronomy Tourism",
+      "Department of Science and Technology"
+    ],
+    "concepts": [
+      "Environmental Conservation",
+      "Light Pollution Mitigation",
+      "Astro-tourism",
+      "Scientific Infrastructure"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "N/A",
+    "mnemonic_hint": "Remember 'HALO': Hanle, Astronomy, Ladakh, Observatory—the first Dark Sky Reserve."
+  },
+  {
+    "questionNumber": 39,
+    "questionText": "Consider the following statements regarding Nanomicelles:",
+    "options": [
+      "Nanomicelles are ultramicroscopic structures used in the treatment of diseases.",
+      "They have a hydrophilic outer shell and a hydrophobic exterior.",
+      "Nanomicelles are an emerging platform in targeted therapy and are being used for cancer treatment.",
+      "All of the above"
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "Nanotechnology in Medicine",
+    "keywords": [
+      "Nanomicelles",
+      "Targeted Drug Delivery",
+      "Hydrophilic",
+      "Hydrophobic",
+      "Cancer Therapy"
+    ],
+    "concepts": [
+      "Nanotechnology applications in healthcare",
+      "Amphiphilic molecular structure",
+      "Targeted drug delivery systems"
+    ],
+    "question_type": "Direct Factual",
+    "importance": "Medium",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Think of a 'Nano-Micelle' as a 'Hydro-Phobic-Philic' sandwich: water-loving outside, oil-loving inside, carrying medicine to the target."
+  },
+  {
+    "questionNumber": 40,
+    "questionText": "Consider the following statements regarding nanotechnology applications in agriculture:",
+    "options": [
+      "Crop production through the use of nano herbicides/nano pesticides and nanomaterials to control the viral and fungal diseases of plants.",
+      "It helps in precision farming.",
+      "The degradation of the nanomaterials and/or nanocomposites under environmental conditions may cause nanotoxicity.",
+      "All of the above"
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "Nanotechnology in Agriculture",
+    "keywords": [
+      "Nanotechnology",
+      "Precision Farming",
+      "Nanotoxicity",
+      "Nano-pesticides",
+      "Sustainable Agriculture"
+    ],
+    "concepts": [
+      "Applications of Nanotechnology in Crop Protection",
+      "Environmental Impact of Nanomaterials",
+      "Precision Agriculture Techniques"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Think 'P-E-D': Precision farming, Environmental toxicity, and Disease control are the three pillars of Nano-Agri."
+  },
+  {
+    "questionNumber": 41,
+    "questionText": "Nanoflakes of a material called hematene extracted from iron ore have been found capable of:",
+    "options": [
+      "Withstanding and acting as shields from high laser intensities.",
+      "Protecting sensitive optical equipment from light-induced damage.",
+      "Being ferromagnetic like a common magnet.",
+      "All of the above"
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "Nanotechnology and Advanced Materials",
+    "keywords": [
+      "Hematene",
+      "Nanoflakes",
+      "Iron Ore",
+      "Optical Shielding",
+      "Ferromagnetism"
+    ],
+    "concepts": [
+      "Nanomaterials",
+      "Optical Limiting",
+      "Magnetic Properties of Nanostructures"
+    ],
+    "question_type": "Direct Factual",
+    "importance": "Medium",
+    "difficulty": "Medium",
+    "ncert_class": "N/A",
+    "mnemonic_hint": "Think of 'Hematene' as a 'Heavy-duty' shield: it blocks lasers, protects optics, and holds magnetic power."
+  },
+  {
+    "questionNumber": 42,
+    "questionText": "Consider the following statements regarding the Artemis Accords:",
+    "options": [
+      "The Artemis Accords are a set of non-legally binding principles to guide sustainable civil space exploration.",
+      "NASA established the Artemis Accords in 2020 together with seven other founding member nations.",
+      "The Republic of India became the 27th nation to sign the Artemis Accords.",
+      "All of the above"
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "International Space Cooperation",
+    "keywords": [
+      "Artemis Accords",
+      "NASA",
+      "Space Exploration",
+      "International Relations",
+      "ISRO"
+    ],
+    "concepts": [
+      "Space Diplomacy",
+      "Sustainable Space Exploration",
+      "International Space Law"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "N/A",
+    "mnemonic_hint": "Think of 'ARTEMIS' as 'A-R-T-E-M-I-S': All-countries, Rules-non-binding, Twenty-seven-members, Exploration-Moon, International-Space-cooperation."
+  },
+  {
+    "questionNumber": 43,
+    "questionText": "Consider the following statements regarding the Standard Model of Particle Physics:",
+    "options": [
+      "The Standard Model of Particle Physics is scientists’ current best theory to describe the most basic building blocks of the universe.",
+      "The Standard Model explains three of the four fundamental forces that govern the universe: electromagnetism, the strong nuclear force, and the weak force.",
+      "It explains how the entire Universe is built from just twelve matter particles called fermions.",
+      "All of the above"
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "Particle Physics and Fundamental Forces",
+    "keywords": [
+      "Standard Model",
+      "Fermions",
+      "Fundamental Forces",
+      "Subatomic Particles"
+    ],
+    "concepts": [
+      "Quantum Field Theory",
+      "Elementary Particles",
+      "Electroweak Interaction",
+      "Strong Nuclear Force"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "Medium",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Remember 'SEW' for the forces: Strong, Electromagnetism, and Weak (Gravity is the odd one out)."
+  },
+  {
+    "questionNumber": 44,
+    "questionText": "Consider the following statements regarding Lagrange points:",
+    "options": [
+      "Lagrange points are positions in space where objects sent there tend to stay put.",
+      "There are five special points where a small mass can orbit in a constant pattern with two larger masses.",
+      "Of the five Lagrange points, three are unstable and two are stable.",
+      "All of the above"
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "Space Exploration and Celestial Mechanics",
+    "keywords": [
+      "Lagrange points",
+      "Orbital mechanics",
+      "Gravitational equilibrium",
+      "L1 to L5 points"
+    ],
+    "concepts": [
+      "Gravitational interaction of three bodies",
+      "Orbital stability",
+      "Centrifugal force in rotating reference frames"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 11",
+    "mnemonic_hint": "Remember 'L1-L5' as 'L1-L3 are unstable (like a balancing act) and L4-L5 are stable (like a cozy nest) where objects stay put.'"
+  },
+  {
+    "questionNumber": 45,
+    "questionText": "Consider the following statements regarding Aditya L1:",
+    "options": [
+      "Aditya L1 shall be the first space based Indian mission to study the Sun.",
+      "Using the special vantage point L1, four payloads directly view the Sun and the remaining three payloads carry out in-situ studies.",
+      "A satellite placed in the halo orbit around the L1 point has the major advantage of continuously viewing the Sun without any occultation/eclipses.",
+      "All of the above"
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "Space Missions",
+    "keywords": [
+      "Aditya L1",
+      "Lagrange Point 1",
+      "ISRO",
+      "Solar Observation",
+      "Halo Orbit"
+    ],
+    "concepts": [
+      "Lagrangian Points",
+      "Space-based Solar Astronomy",
+      "In-situ vs Remote Sensing Payloads"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "N/A",
+    "mnemonic_hint": "Remember 'L1-SUN': L1 is the Location, 1st mission, 4 payloads view, 3 in-situ, No-occultation."
+  },
+  {
+    "questionNumber": 46,
+    "questionText": "Consider the following statements regarding JT-60SA:",
+    "options": [
+      "JT-60SA is a joint initiative between the European Union and Japan.",
+      "It comprises a doughnut-shaped “tokamak” vessel set to contain the swirling plasma.",
+      "JT-60SA is a forerunner for the under-construction International Thermonuclear Experimental Reactor (ITER).",
+      "All of the above"
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "Nuclear Fusion Technology",
+    "keywords": [
+      "JT-60SA",
+      "Tokamak",
+      "ITER",
+      "Nuclear Fusion",
+      "Plasma"
+    ],
+    "concepts": [
+      "Magnetic Confinement Fusion",
+      "International Scientific Collaboration"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "N/A",
+    "mnemonic_hint": "Think of 'JT' as 'Joint Team' (Japan-EU) working on a 'Tokamak' to prepare for the 'ITER' future."
+  },
+  {
+    "questionNumber": 47,
+    "questionText": "Consider the following statements regarding gravitational waves:",
+    "options": [
+      "Gravitational waves originate from the most violent and energetic events in the cosmos.",
+      "LIGO, a laser interferometer tool, is designed to detect gravitational waves.",
+      "LIGO-India will be an addition to the already existing facilities of this type.",
+      "All of the above"
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "Gravitational Waves and LIGO-India Project",
+    "keywords": [
+      "Gravitational Waves",
+      "LIGO",
+      "Interferometer",
+      "Astrophysics",
+      "LIGO-India"
+    ],
+    "concepts": [
+      "General Relativity",
+      "Space-time ripples",
+      "Laser Interferometry"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 11",
+    "mnemonic_hint": "Remember 'LIGO' as 'Light Interferes, Gravity Oscillates' to recall its detection mechanism."
+  },
+  {
+    "questionNumber": 48,
+    "questionText": "Consider the following statements regarding gravitational waves:",
+    "options": [
+      "They are ripples in the fabric of spacetime caused by the most energetic events in the cosmos.",
+      "Higher-frequency gravitational waves come from smaller pairs of black holes zipping around each other rapidly.",
+      "India’s Giant Metrewave Radio Telescope (GMRT, Pune) played a vital role in providing evidence for low-frequency gravitational waves.",
+      "All of the above"
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "Gravitational Waves and Pulsar Timing Arrays",
+    "keywords": [
+      "Gravitational Waves",
+      "Spacetime",
+      "GMRT",
+      "Pulsar Timing Arrays",
+      "Astrophysics"
+    ],
+    "concepts": [
+      "General Relativity",
+      "Cosmic Energetic Events",
+      "Radio Astronomy"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "Class 12",
+    "mnemonic_hint": "Think of 'GMRT' as the 'Gravity-Meter Radio Telescope' that listens to the cosmic hum of spacetime ripples."
+  },
+  {
+    "questionNumber": 49,
+    "questionText": "ISRO's mission objectives for the Chandrayaan-3 mission are:",
+    "options": [
+      "Engineering and implementing a lander to land safely and softly on the surface of the Moon.",
+      "Observing and demonstrating the rover's driving capabilities on the Moon.",
+      "Conducting and observing experiments on the materials available on the lunar surface.",
+      "All of the above"
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "Space Missions",
+    "keywords": [
+      "Chandrayaan-3",
+      "ISRO",
+      "Lunar Exploration",
+      "Soft Landing",
+      "Rover"
+    ],
+    "concepts": [
+      "Lunar Surface Exploration",
+      "Spacecraft Engineering",
+      "In-situ Scientific Analysis"
+    ],
+    "question_type": "Direct Factual",
+    "importance": "High",
+    "difficulty": "Easy",
+    "ncert_class": "N/A",
+    "mnemonic_hint": "Remember 'L-D-E': Land safely, Drive the rover, Experiment on lunar soil."
+  },
+  {
+    "questionNumber": 50,
+    "questionText": "Consider the following statements regarding the Gaganyaan program:",
+    "options": [
+      "The Government of India has approved two unmanned missions and one manned mission as part of the Gaganyaan program.",
+      "A modified version of ISRO’s most-reliable rocket, LVM3, is the launching vehicle of the Gaganyaan Mission.",
+      "India and France joined forces for India’s ambitious human spaceflight initiative named Gaganyaan.",
+      "All of the above"
+    ],
+    "correctOption": null,
+    "year": 2024,
+    "source_label": "5_6233352720347041894",
+    "sub_topic": "Human Spaceflight Programme",
+    "keywords": [
+      "Gaganyaan",
+      "ISRO",
+      "LVM3",
+      "Human Spaceflight",
+      "International Collaboration"
+    ],
+    "concepts": [
+      "Space Exploration",
+      "Launch Vehicle Technology",
+      "International Space Cooperation"
+    ],
+    "question_type": "Multiple Statement",
+    "importance": "High",
+    "difficulty": "Medium",
+    "ncert_class": "N/A",
+    "mnemonic_hint": "Remember 'G-L-F': Gaganyaan uses LVM3 and partners with France (CNES)."
+  }
+]

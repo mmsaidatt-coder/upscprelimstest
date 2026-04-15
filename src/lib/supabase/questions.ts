@@ -1,6 +1,8 @@
+import { unstable_cache } from "next/cache";
 import { createAdminClient } from "./admin";
 import { fetchAllPages } from "./fetch-all-pages";
 import type { ExamQuestion, Subject, PyqQuestion } from "@/lib/types";
+import type { SupabaseClient } from "@supabase/supabase-js";
 
 type DbQuestion = {
   id: string;
@@ -46,6 +48,11 @@ type CountSubjectRow = {
   subject: string;
 };
 
+type CustomQuestionMeta = {
+  id: string;
+  subject: string;
+};
+
 const EXAM_QUESTION_SELECT = `
   id,
   subject,
@@ -80,6 +87,25 @@ const SEARCHABLE_PYQ_SELECT = `
   ncert_class
 `;
 
+const CUSTOM_EXAM_SOURCES = ["pyq", "custom", "flt"];
+
+const getCachedCustomQuestionMeta = unstable_cache(
+  async () => {
+    const supabase = createAdminClient();
+    return await fetchAllPages<CustomQuestionMeta>({
+      runPage: async (from, to) =>
+        await supabase
+          .from("questions")
+          .select("id, subject")
+          .in("source", CUSTOM_EXAM_SOURCES)
+          .order("id", { ascending: true })
+          .range(from, to),
+    });
+  },
+  ["custom-exam-question-meta-v1"],
+  { revalidate: 300 },
+);
+
 function toExamQuestion(row: DbQuestion): ExamQuestion {
   return {
     id: row.id,
@@ -100,6 +126,7 @@ function toExamQuestion(row: DbQuestion): ExamQuestion {
     takeaway: row.takeaway ?? undefined,
     marks: Number(row.marks),
     negativeMarks: Number(row.negative_marks),
+    year: row.year ?? null,
   };
 }
 
@@ -337,4 +364,135 @@ export async function fetchAllQuestionIds(): Promise<string[]> {
     );
     return [];
   }
+}
+
+export type CustomTestMode = "single_subject" | "mixed" | "upsc_flt";
+
+export interface CustomTestConfig {
+  mode: CustomTestMode;
+  size: number;
+  subject?: Subject;
+}
+
+async function fetchCustomExamQuestionIdsWithMetadataFallback(
+  config: CustomTestConfig,
+) {
+  let allMeta: CustomQuestionMeta[];
+  try {
+    allMeta = await getCachedCustomQuestionMeta();
+  } catch (error) {
+    console.error(
+      "Failed to fetch custom exam metadata:",
+      error instanceof Error ? error.message : "Unknown error",
+    );
+    return [];
+  }
+
+  if (!allMeta.length) return [];
+
+  // Group by Subject
+  const subjectMap = new Map<string, string[]>();
+  for (const m of allMeta) {
+    if (!subjectMap.has(m.subject)) subjectMap.set(m.subject, []);
+    subjectMap.get(m.subject)!.push(m.id);
+  }
+
+  let selectedIds: string[] = [];
+
+  if (config.mode === "single_subject" && config.subject) {
+    const available = shuffle(subjectMap.get(config.subject) || []);
+    selectedIds = available.slice(0, config.size);
+  } else if (config.mode === "mixed") {
+    const allIds = shuffle(allMeta.map((m) => m.id));
+    selectedIds = allIds.slice(0, config.size);
+  } else if (config.mode === "upsc_flt") {
+    const distribution: Record<string, number> = {
+      History: 0.18,
+      Geography: 0.15,
+      Polity: 0.15,
+      Economy: 0.15,
+      Environment: 0.15,
+      Science: 0.07,
+      "Current Affairs": 0.15,
+    };
+
+    for (const [subj, percentage] of Object.entries(distribution)) {
+      const allocCount = Math.round(percentage * config.size);
+      const available = shuffle(subjectMap.get(subj) || []);
+      selectedIds.push(...available.slice(0, allocCount));
+    }
+
+    selectedIds = shuffle(selectedIds);
+    if (selectedIds.length > config.size) {
+      selectedIds = selectedIds.slice(0, config.size);
+    } else if (selectedIds.length < config.size) {
+      const padding = config.size - selectedIds.length;
+      const selectedIdSet = new Set(selectedIds);
+      const remaining = shuffle(
+        allMeta.map((m) => m.id).filter((id) => !selectedIdSet.has(id)),
+      );
+      selectedIds.push(...remaining.slice(0, padding));
+    }
+  }
+
+  if (!selectedIds.length) return [];
+
+  return selectedIds;
+}
+
+async function fetchCustomExamQuestionIds(
+  supabase: SupabaseClient,
+  config: CustomTestConfig,
+) {
+  const { data, error } = await supabase
+    .rpc("get_custom_exam_question_ids", {
+      p_mode: config.mode,
+      p_size: config.size,
+      p_subject: config.subject ?? null,
+    });
+
+  if (error) {
+    console.warn(
+      "Falling back to app-side custom exam sampling:",
+      error.message,
+    );
+    return fetchCustomExamQuestionIdsWithMetadataFallback(config);
+  }
+
+  const selectedIds = Array.isArray(data)
+    ? data
+        .map((row) => (typeof row?.id === "string" ? row.id : null))
+        .filter((id): id is string => Boolean(id))
+    : [];
+  if (selectedIds.length) return selectedIds;
+
+  return fetchCustomExamQuestionIdsWithMetadataFallback(config);
+}
+
+export async function fetchCustomExamSession(config: CustomTestConfig): Promise<ExamQuestion[]> {
+  const supabase = createAdminClient();
+  const selectedIds = await fetchCustomExamQuestionIds(supabase, config);
+
+  if (!selectedIds.length) return [];
+
+  // 2. Safely fetch only the randomly targeted full payloads using single efficient network call
+  let finalQuestions: DbQuestion[] = [];
+  const CHUNK_SIZE = 200;
+
+  for (let i = 0; i < selectedIds.length; i += CHUNK_SIZE) {
+    const chunk = selectedIds.slice(i, i + CHUNK_SIZE);
+    const { data: chunkData, error: chunkError } = await supabase
+      .from("questions")
+      .select(EXAM_QUESTION_SELECT)
+      .in("id", chunk);
+
+    if (chunkError) {
+      console.error("Failed to fetch custom exam chunk:", chunkError.message);
+      return [];
+    }
+
+    if (chunkData) finalQuestions.push(...chunkData);
+  }
+
+  return shuffle(finalQuestions.map(toExamQuestion));
 }

@@ -1,6 +1,7 @@
 import crypto from "node:crypto";
 import { NextResponse } from "next/server";
 import { createAdminClient } from "@/lib/supabase/admin";
+import { createClient } from "@/lib/supabase/server";
 import type { PyqQuestion, QuestionOption, Subject } from "@/lib/types";
 
 export const runtime = "nodejs";
@@ -86,6 +87,15 @@ const extractedQuestionsJsonSchema = {
 
 function errorResponse(message: string, status = 400) {
   return NextResponse.json({ error: message }, { status });
+}
+
+async function getAuthenticatedUser() {
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+
+  return user;
 }
 
 function isExtractedQuestionsResponse(value: unknown): value is ExtractedQuestionsResponse {
@@ -363,6 +373,11 @@ function toPyqQuestion({
 
 export async function POST(request: Request) {
   try {
+    const user = await getAuthenticatedUser();
+    if (!user) {
+      return errorResponse("Not authenticated.", 401);
+    }
+
     let formData: FormData;
     try {
       formData = await request.formData();

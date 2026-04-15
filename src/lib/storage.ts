@@ -1,7 +1,8 @@
-import type { AttemptRecord, NotebookEntry } from "@/lib/types";
+import type { AttemptRecord, BookmarkEntry, NotebookEntry } from "@/lib/types";
 
 const ATTEMPTS_KEY = "upscprelimstest.attempts";
 const NOTEBOOK_KEY = "upscprelimstest.notebook";
+const BOOKMARKS_KEY = "upscprelimstest.bookmarks";
 const STORAGE_EVENT = "upscprelimstest:storage-change";
 
 export type SyncedAttempts = {
@@ -204,6 +205,148 @@ async function syncAttemptToCloud(attempt: AttemptRecord) {
 
   if (!response.ok) {
     throw new Error("Could not sync attempt");
+  }
+}
+
+// ── Bookmarks ───────────────────────────────────────────────
+
+let _bookmarksCache: BookmarkEntry[] | null = null;
+let _bookmarksRaw: string | null | undefined = undefined;
+
+export function getBookmarks(): BookmarkEntry[] {
+  if (!canUseStorage()) return [];
+  const raw = window.localStorage.getItem(BOOKMARKS_KEY);
+  if (raw === _bookmarksRaw && _bookmarksCache) return _bookmarksCache;
+  _bookmarksRaw = raw;
+  _bookmarksCache = parseStoredValue<BookmarkEntry>(BOOKMARKS_KEY);
+  return _bookmarksCache;
+}
+
+export function isBookmarked(questionId: string): boolean {
+  return getBookmarks().some((b) => b.questionId === questionId);
+}
+
+function invalidateBookmarksCache() {
+  _bookmarksCache = null;
+  _bookmarksRaw = undefined;
+}
+
+export function toggleBookmark(entry: BookmarkEntry): boolean {
+  if (!canUseStorage()) return false;
+
+  const existing = getBookmarks();
+  const alreadyBookmarked = existing.some((b) => b.questionId === entry.questionId);
+
+  if (alreadyBookmarked) {
+    const next = existing.filter((b) => b.questionId !== entry.questionId);
+    window.localStorage.setItem(BOOKMARKS_KEY, JSON.stringify(next));
+    invalidateBookmarksCache();
+    emitStorageChange();
+    void deleteBookmarkFromCloud(entry.questionId).catch(() => undefined);
+    return false; // removed
+  }
+
+  const next = [entry, ...existing].slice(0, 500);
+  window.localStorage.setItem(BOOKMARKS_KEY, JSON.stringify(next));
+  invalidateBookmarksCache();
+  emitStorageChange();
+  void syncBookmarksToCloud([entry]).catch(() => undefined);
+  return true; // added
+}
+
+export function removeBookmark(questionId: string): void {
+  if (!canUseStorage()) return;
+
+  const next = getBookmarks().filter((b) => b.questionId !== questionId);
+  window.localStorage.setItem(BOOKMARKS_KEY, JSON.stringify(next));
+  invalidateBookmarksCache();
+  emitStorageChange();
+  void deleteBookmarkFromCloud(questionId).catch(() => undefined);
+}
+
+function persistBookmarks(bookmarks: BookmarkEntry[]) {
+  if (!canUseStorage()) return;
+  window.localStorage.setItem(BOOKMARKS_KEY, JSON.stringify(bookmarks.slice(0, 500)));
+  invalidateBookmarksCache();
+}
+
+async function fetchCloudBookmarks(): Promise<BookmarkEntry[] | null> {
+  const response = await fetch("/api/bookmarks", { cache: "no-store" });
+  if (response.status === 401) return null;
+  if (!response.ok) throw new Error("Could not fetch cloud bookmarks");
+
+  const data: unknown = await response.json();
+  if (
+    !data ||
+    typeof data !== "object" ||
+    !("bookmarks" in data) ||
+    !Array.isArray((data as { bookmarks: unknown }).bookmarks)
+  ) {
+    return [];
+  }
+
+  return (data as { bookmarks: BookmarkEntry[] }).bookmarks;
+}
+
+async function syncBookmarksToCloud(bookmarks: BookmarkEntry[]) {
+  if (!canUseStorage() || !bookmarks.length) return;
+
+  const response = await fetch("/api/bookmarks", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ bookmarks }),
+  });
+
+  if (response.status === 401) return;
+  if (!response.ok) throw new Error("Could not sync bookmarks");
+}
+
+async function deleteBookmarkFromCloud(questionId: string) {
+  if (!canUseStorage()) return;
+
+  const response = await fetch("/api/bookmarks", {
+    method: "DELETE",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ questionId }),
+  });
+
+  if (response.status === 401) return;
+  if (!response.ok) throw new Error("Could not delete cloud bookmark");
+}
+
+function mergeBookmarks(local: BookmarkEntry[], cloud: BookmarkEntry[]): BookmarkEntry[] {
+  const byId = new Map<string, BookmarkEntry>();
+
+  for (const b of cloud) byId.set(b.questionId, b);
+  for (const b of local) byId.set(b.questionId, b);
+
+  return Array.from(byId.values())
+    .sort((a, b) => new Date(b.savedAt).getTime() - new Date(a.savedAt).getTime())
+    .slice(0, 500);
+}
+
+export async function getSyncedBookmarks(): Promise<{ bookmarks: BookmarkEntry[]; isAuthenticated: boolean }> {
+  const localBookmarks = getBookmarks();
+
+  try {
+    const cloudBookmarks = await fetchCloudBookmarks();
+    if (cloudBookmarks === null) {
+      return { bookmarks: localBookmarks, isAuthenticated: false };
+    }
+
+    // Push local bookmarks to cloud
+    if (localBookmarks.length) {
+      await syncBookmarksToCloud(localBookmarks).catch(() => undefined);
+    }
+
+    // Re-fetch to get the merged set from the server
+    const refreshed = (await fetchCloudBookmarks()) ?? cloudBookmarks;
+    const merged = mergeBookmarks(localBookmarks, refreshed);
+    persistBookmarks(merged);
+    emitStorageChange();
+    return { bookmarks: merged, isAuthenticated: true };
+  } catch {
+    return { bookmarks: localBookmarks, isAuthenticated: false };
   }
 }
 

@@ -5,6 +5,7 @@ import { startTransition, useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { buildAttemptRecord, formatSeconds } from "@/lib/exam";
 import { saveAttempt } from "@/lib/storage";
+import { BookmarkButton } from "@/components/bookmark-button";
 import type { ExamTest, QuestionOption } from "@/lib/types";
 
 function createAttemptId() {
@@ -303,17 +304,27 @@ export function ExamRunner({ test }: { test: ExamTest }) {
                 </span>
               </div>
 
-              <button
-                type="button"
-                onClick={toggleReviewMark}
-                className={`rounded-lg px-3 py-1.5 text-xs font-semibold ${
-                  isMarked
-                    ? "bg-violet-100 text-violet-700"
-                    : "border border-[var(--border)] text-[var(--muted)]"
-                }`}
-              >
-                {isMarked ? "Marked" : "Mark for review"}
-              </button>
+              <div className="flex items-center gap-2">
+                <BookmarkButton
+                  questionId={currentQuestion.id}
+                  subject={currentQuestion.subject}
+                  prompt={currentQuestion.prompt}
+                  year={currentQuestion.year}
+                  variant="pill"
+                  size="md"
+                />
+                <button
+                  type="button"
+                  onClick={toggleReviewMark}
+                  className={`rounded-lg px-3 py-1.5 text-xs font-semibold ${
+                    isMarked
+                      ? "bg-violet-100 text-violet-700"
+                      : "border border-[var(--border)] text-[var(--muted)]"
+                  }`}
+                >
+                  {isMarked ? "Marked" : "Mark for review"}
+                </button>
+              </div>
             </div>
 
             {/* Question lines */}
@@ -504,11 +515,11 @@ export function ExamRunner({ test }: { test: ExamTest }) {
       <div className="fixed bottom-0 left-0 right-0 z-40 border-t border-[var(--border)] bg-[var(--background-secondary)]/95 backdrop-blur-md sm:hidden" style={{ paddingBottom: 'env(safe-area-inset-bottom, 0px)' }}>
         {/* Row 1: Secondary actions */}
         <div className="flex items-center justify-between border-b border-[var(--border)]/50 px-3 py-1.5">
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-1.5">
             <button
               type="button"
               onClick={toggleReviewMark}
-              className={`flex h-8 items-center gap-1.5 rounded-full px-3 text-[11px] font-bold transition-colors ${
+              className={`flex h-8 items-center gap-1.5 rounded-full px-2.5 text-[11px] font-bold transition-colors ${
                 isMarked
                   ? "bg-violet-100 text-violet-700"
                   : "text-[var(--muted)]"
@@ -517,11 +528,18 @@ export function ExamRunner({ test }: { test: ExamTest }) {
               <svg width="14" height="14" viewBox="0 0 24 24" fill={isMarked ? "currentColor" : "none"} stroke="currentColor" strokeWidth="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" /></svg>
               {isMarked ? "Marked" : "Mark"}
             </button>
+            <BookmarkButton
+              questionId={currentQuestion.id}
+              subject={currentQuestion.subject}
+              prompt={currentQuestion.prompt}
+              year={currentQuestion.year}
+              size="sm"
+            />
             <button
               type="button"
               onClick={clearResponse}
               disabled={!hasAnswer}
-              className="flex h-8 items-center gap-1 rounded-full px-3 text-[11px] font-bold text-[var(--muted)] disabled:opacity-30"
+              className="flex h-8 items-center gap-1 rounded-full px-2.5 text-[11px] font-bold text-[var(--muted)] disabled:opacity-30"
             >
               <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M3 6h18" /><path d="M8 6V4h8v2" /></svg>
               Clear
