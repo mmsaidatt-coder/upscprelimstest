@@ -1074,11 +1074,11 @@ export function GeographyLab() {
               </div>
             )}
 
-            {mode === "explore" && !selectedStateData && !selectedFeature && ["Rivers", "Himalayas", "Passes", "Protected Areas"].includes(activeFilter) && (
+            {mode === "explore" && !selectedStateData && !selectedFeature && ["Rivers", "Himalayas", "Peninsular", "Passes", "Protected Areas"].includes(activeFilter) && (
               <div className="flex flex-col h-[calc(100dvh-8rem)]">
                 <div className="flex items-center justify-between mb-3 shrink-0">
                   <div>
-                    <h3 className="text-sm font-bold text-[#1A1A1A]">{activeFilter}</h3>
+                    <h3 className="text-sm font-bold text-[#1A1A1A]">{activeFilter === "Peninsular" ? "Peninsular Mountains" : activeFilter}</h3>
                     <p className="text-[10px] text-[#9CA3AF] mt-0.5">{displayFeaturesList.length} items</p>
                   </div>
                   {(hiddenRivers.size > 0 || hiddenPeaks.size > 0) && (
@@ -1089,9 +1089,11 @@ export function GeographyLab() {
                 </div>
                 <div className="flex-1 overflow-y-auto -mx-1">
                   {/* Section header for Ranges */}
-                  {activeFilter === "Himalayas" && (
+                  {(activeFilter === "Himalayas" || activeFilter === "Peninsular") && (
                     <div className="flex items-center justify-between mb-1">
-                      <p className="px-2 pt-1 pb-1 text-[9px] font-bold text-[#92400E] uppercase tracking-wider">Mountain Ranges</p>
+                      <p className={`px-2 pt-1 pb-1 text-[9px] font-bold uppercase tracking-wider ${
+                        activeFilter === "Peninsular" ? "text-[#166534]" : "text-[#92400E]"
+                      }`}>Mountain Ranges</p>
                       {selectedRanges.size > 0 && (
                         <button
                           onClick={() => setSelectedRanges(new Set())}
@@ -1103,10 +1105,11 @@ export function GeographyLab() {
                     </div>
                   )}
                   {displayFeaturesList
-                    .filter(r => !(activeFilter === "Himalayas") || r.kind === "range")
+                    .filter(r => !(activeFilter === "Himalayas" || activeFilter === "Peninsular") || r.kind === "range")
                     .map(r => {
                       const isSpotlit = selectedRanges.has(r.name);
                       const isRange = r.kind === "range";
+                      const isPeninsular = activeFilter === "Peninsular";
                       return (
                     <button
                       key={r.name}
@@ -1120,9 +1123,9 @@ export function GeographyLab() {
                       }}
                       className={`w-full flex items-center gap-2.5 px-2 py-1.5 rounded-lg transition-all text-left group ${
                         isSpotlit
-                          ? "bg-amber-50 border border-amber-200 shadow-sm"
+                          ? isPeninsular ? "bg-green-50 border border-green-200 shadow-sm" : "bg-amber-50 border border-amber-200 shadow-sm"
                           : isRange
-                          ? "border border-transparent hover:bg-[#FFFBEB] cursor-pointer"
+                          ? isPeninsular ? "border border-transparent hover:bg-green-50 cursor-pointer" : "border border-transparent hover:bg-[#FFFBEB] cursor-pointer"
                           : "border border-transparent hover:bg-[#FAF7F2]"
                       }`}
                     >
@@ -1132,7 +1135,11 @@ export function GeographyLab() {
                             type="checkbox"
                             checked={isSpotlit}
                             readOnly
-                            className="peer appearance-none w-4 h-4 border-2 border-[#92400E] rounded-[3px] bg-white checked:bg-[#92400E] checked:border-[#92400E] transition-all cursor-pointer"
+                            className={`peer appearance-none w-4 h-4 border-2 rounded-[3px] bg-white transition-all cursor-pointer ${
+                              isPeninsular
+                                ? "border-[#166534] checked:bg-[#166534] checked:border-[#166534]"
+                                : "border-[#92400E] checked:bg-[#92400E] checked:border-[#92400E]"
+                            }`}
                           />
                           <Check className="absolute w-2.5 h-2.5 text-white opacity-0 peer-checked:opacity-100 pointer-events-none" />
                         </div>
@@ -1154,24 +1161,32 @@ export function GeographyLab() {
                       )}
                       <div className="flex-1 min-w-0">
                         <span className={`text-xs font-medium truncate block transition-colors ${
-                          isSpotlit ? "text-amber-700 font-semibold" :
-                          isRange ? "text-[#1A1A1A] group-hover:text-amber-700" :
-                          "text-[#1A1A1A] group-hover:text-[#92400E]"
+                          isSpotlit
+                            ? isPeninsular ? "text-green-700 font-semibold" : "text-amber-700 font-semibold"
+                            : isRange
+                            ? isPeninsular ? "text-[#1A1A1A] group-hover:text-green-700" : "text-[#1A1A1A] group-hover:text-amber-700"
+                            : "text-[#1A1A1A] group-hover:text-[#92400E]"
                         }`}>{r.name}</span>
                       </div>
                       <span className={`text-[9px] tabular-nums shrink-0 ${
-                        isSpotlit ? "text-amber-600 font-medium" : "text-[#9CA3AF]"
+                        isSpotlit
+                          ? isPeninsular ? "text-green-600 font-medium" : "text-amber-600 font-medium"
+                          : "text-[#9CA3AF]"
                       }`}>{r.detail}</span>
-                      {isRange && isSpotlit && <div className="w-1.5 h-1.5 rounded-full bg-amber-400 shrink-0 animate-pulse" />}
+                      {isRange && isSpotlit && <div className={`w-1.5 h-1.5 rounded-full shrink-0 animate-pulse ${isPeninsular ? "bg-green-400" : "bg-amber-400"}`} />}
                     </button>
                   );})}
                   {/* Section header for Peaks */}
-                  {activeFilter === "Himalayas" && (
-                    <p className="px-2 pt-3 pb-1 text-[9px] font-bold text-[#1E40AF] uppercase tracking-wider">Individual Peaks</p>
+                  {(activeFilter === "Himalayas" || activeFilter === "Peninsular") && displayFeaturesList.some(r => r.kind === "peak") && (
+                    <p className={`px-2 pt-3 pb-1 text-[9px] font-bold uppercase tracking-wider ${
+                      activeFilter === "Peninsular" ? "text-[#166534]" : "text-[#1E40AF]"
+                    }`}>Individual Peaks</p>
                   )}
-                  {activeFilter === "Himalayas" && displayFeaturesList
+                  {(activeFilter === "Himalayas" || activeFilter === "Peninsular") && displayFeaturesList
                     .filter(r => r.kind === "peak")
-                    .map(r => (
+                    .map(r => {
+                      const isPeninsular = activeFilter === "Peninsular";
+                      return (
                     <label key={r.name} className="flex items-center gap-2.5 px-2 py-1.5 rounded-lg hover:bg-[#FAF7F2] cursor-pointer transition-colors group">
                       <div className="relative flex items-center justify-center w-3.5 h-3.5 shrink-0">
                          <input
@@ -1183,18 +1198,24 @@ export function GeographyLab() {
                              else newHidden.add(r.name);
                              setHiddenPeaks(newHidden);
                            }}
-                           className="peer appearance-none w-3.5 h-3.5 border border-[#D1D5DB] rounded-sm bg-white checked:bg-[#1E40AF] checked:border-[#1E40AF] transition-all cursor-pointer"
+                           className={`peer appearance-none w-3.5 h-3.5 border border-[#D1D5DB] rounded-sm bg-white transition-all cursor-pointer ${
+                             isPeninsular
+                               ? "checked:bg-[#166534] checked:border-[#166534]"
+                               : "checked:bg-[#1E40AF] checked:border-[#1E40AF]"
+                           }`}
                          />
                          <Check className="absolute w-2.5 h-2.5 text-white opacity-0 peer-checked:opacity-100 pointer-events-none" />
                       </div>
                       <div className="flex-1 min-w-0">
-                        <span className="text-xs font-medium text-[#1A1A1A] group-hover:text-[#1E40AF] transition-colors truncate block">{r.name}</span>
+                        <span className={`text-xs font-medium transition-colors truncate block ${
+                          isPeninsular ? "text-[#1A1A1A] group-hover:text-[#166534]" : "text-[#1A1A1A] group-hover:text-[#1E40AF]"
+                        }`}>{r.name}</span>
                       </div>
                       <span className="text-[9px] text-[#9CA3AF] tabular-nums shrink-0">{r.detail}</span>
                     </label>
-                  ))}
-                  {/* For non-Himalayas filters, render normally */}
-                  {activeFilter !== "Himalayas" && displayFeaturesList.length === 0 && (
+                  );})}
+                  {/* Empty state */}
+                  {(activeFilter !== "Himalayas" && activeFilter !== "Peninsular") && displayFeaturesList.length === 0 && (
                     <div className="text-center py-6 text-xs text-[#9CA3AF]">
                       No items match these filters.
                     </div>
