@@ -1896,7 +1896,7 @@ function buildGenerationPrompt({
   existingPrompts: string[];
 }) {
   return [
-    `You are generating UPSC CSE Prelims-quality current-affairs MCQs from Vision IAS source material.`,
+    `You are generating UPSC CSE Prelims-quality current-affairs MCQs from study material.`,
     `Generation round: ${roundLabel}`,
     "",
     "Internal workflow:",
