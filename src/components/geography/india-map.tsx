@@ -55,6 +55,12 @@ type IndiaMapProps = {
   layers: LayerVisibility;
   /** Names of the focused mountain ranges (spotlight mode) */
   selectedRanges?: string[];
+  /** Cross-layer intersect mode */
+  intersectMode?: boolean;
+  intersectFocusName?: string | null;
+  intersectFocusType?: "river" | "park";
+  intersectingParkNames?: string[];
+  intersectingRangeNames?: string[];
   onStateClick: (name: string) => void;
   onStateHover: (name: string | null) => void;
   onFeatureClick?: (properties: any) => void;
@@ -149,6 +155,11 @@ export function IndiaMap({
   hiddenRivers = [],
   hiddenPeaks = [],
   selectedRanges = [],
+  intersectMode = false,
+  intersectFocusName = null,
+  intersectFocusType,
+  intersectingParkNames = [],
+  intersectingRangeNames = [],
   onStateClick,
   onStateHover,
   onFeatureClick,
@@ -854,6 +865,61 @@ export function IndiaMap({
             },
           });
 
+          // ── Cross-layer intersect highlights (initially hidden) ──
+          // Yellow/amber glow around parks that intersect the focused feature
+          map.addLayer({
+            id: "park-intersect-glow",
+            type: "circle",
+            source: "parks",
+            filter: ["in", ["get", "name"], ["literal", []]],
+            paint: {
+              "circle-radius": 17,
+              "circle-color": "#FBBF24",
+              "circle-opacity": 0.35,
+              "circle-blur": 0.6,
+            },
+          });
+          // Solid amber dot for intersecting parks
+          map.addLayer({
+            id: "park-intersect-dot",
+            type: "circle",
+            source: "parks",
+            filter: ["in", ["get", "name"], ["literal", []]],
+            paint: {
+              "circle-radius": 7,
+              "circle-color": "#FBBF24",
+              "circle-stroke-color": "#FFFFFF",
+              "circle-stroke-width": 2,
+              "circle-opacity": 1,
+            },
+          });
+          // Amber glow along mountain ranges that intersect the focused river
+          map.addLayer({
+            id: "range-intersect-glow",
+            type: "line",
+            source: "mountain-ranges",
+            filter: ["in", ["get", "name"], ["literal", []]],
+            paint: {
+              "line-color": "#FBBF24",
+              "line-width": 12,
+              "line-opacity": 0.3,
+              "line-blur": 5,
+            },
+          });
+          // Crisp amber dashed line for intersecting ranges
+          map.addLayer({
+            id: "range-intersect-line",
+            type: "line",
+            source: "mountain-ranges",
+            filter: ["in", ["get", "name"], ["literal", []]],
+            paint: {
+              "line-color": "#D97706",
+              "line-width": 2.5,
+              "line-opacity": 0.95,
+              "line-dasharray": [6, 3],
+            },
+          });
+
           // ── State labels ──
           const labelFeatures = Object.entries(STATE_CENTROIDS).map(
             ([name, coords]) => ({
@@ -1426,6 +1492,96 @@ export function IndiaMap({
       });
     }
   }, [activeFilter, mapReady]);
+
+  // ── Cross-layer intersect mode visuals ──────────────────────────────
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map || !mapReady) return;
+
+    const parkNames = intersectingParkNames;
+    const rangeNames = intersectingRangeNames;
+
+    if (intersectMode && intersectFocusName) {
+      // Dim non-selected rivers; the focused river stays bright
+      if (intersectFocusType === "river") {
+        map.setPaintProperty("rivers-line", "line-opacity", [
+          "case", ["==", ["get", "name"], intersectFocusName], 0.95, 0.05,
+        ] as any);
+        map.setPaintProperty("rivers-glow", "line-opacity", [
+          "case", ["==", ["get", "name"], intersectFocusName], 0.4, 0.02,
+        ] as any);
+        map.setPaintProperty("rivers-line", "line-color", [
+          "case",
+          ["==", ["get", "name"], intersectFocusName], "#1565C0",
+          "#94A3B8",
+        ] as any);
+        map.setPaintProperty("rivers-line", "line-width", [
+          "case",
+          ["==", ["get", "name"], intersectFocusName], 3.2,
+          ["interpolate", ["linear"], ["get", "level"], 1, 1.0, 2, 0.7, 3, 0.5, 4, 0.35, 5, 0.25],
+        ] as any);
+      }
+
+      // Dim all existing park markers
+      map.setPaintProperty("park-dots", "circle-opacity", 0.07);
+      map.setPaintProperty("park-glow", "circle-opacity", 0.03);
+      if (map.getLayer("park-labels")) {
+        map.setPaintProperty("park-labels", "text-opacity", 0.12);
+      }
+
+      // Show intersecting parks with amber glow
+      map.setFilter("park-intersect-glow", ["in", ["get", "name"], ["literal", parkNames]] as any);
+      map.setFilter("park-intersect-dot", ["in", ["get", "name"], ["literal", parkNames]] as any);
+
+      // Dim all existing range markers
+      map.setPaintProperty("mountain-range-band", "line-opacity", 0.02);
+      map.setPaintProperty("mountain-range-line", "line-opacity", 0.06);
+      map.setPaintProperty("mountain-range-symbols", "icon-opacity", 0.06);
+
+      // Show intersecting ranges with amber glow
+      map.setFilter("range-intersect-glow", ["in", ["get", "name"], ["literal", rangeNames]] as any);
+      map.setFilter("range-intersect-line", ["in", ["get", "name"], ["literal", rangeNames]] as any);
+
+    } else {
+      // ── Reset to normal ──
+      map.setPaintProperty("rivers-line", "line-opacity", [
+        "case",
+        ["boolean", ["feature-state", "selected"], false], 1.0,
+        ["interpolate", ["linear"], ["get", "level"], 1, 1.0, 3, 0.9, 5, 0.75],
+      ] as any);
+      map.setPaintProperty("rivers-glow", "line-opacity", 0.35);
+      map.setPaintProperty("rivers-line", "line-color", [
+        "case",
+        ["boolean", ["feature-state", "selected"], false], "#C4784A",
+        ["interpolate", ["linear"], ["get", "level"], 1, "#1E40AF", 2, "#1D4ED8", 3, "#2563EB", 4, "#3B82F6", 5, "#60A5FA"],
+      ] as any);
+      map.setPaintProperty("rivers-line", "line-width", [
+        "case",
+        ["boolean", ["feature-state", "selected"], false], 3.5,
+        ["interpolate", ["linear"], ["get", "level"], 1, 2.2, 2, 1.6, 3, 1.1, 4, 0.8, 5, 0.6],
+      ] as any);
+
+      map.setPaintProperty("park-dots", "circle-opacity", 1);
+      map.setPaintProperty("park-glow", "circle-opacity", 0.15);
+      if (map.getLayer("park-labels")) {
+        map.setPaintProperty("park-labels", "text-opacity", 1);
+      }
+
+      map.setFilter("park-intersect-glow", ["in", ["get", "name"], ["literal", []]] as any);
+      map.setFilter("park-intersect-dot", ["in", ["get", "name"], ["literal", []]] as any);
+
+      // Only restore range opacities if spotlight is not also active
+      if (!selectedRanges || selectedRanges.length === 0) {
+        map.setPaintProperty("mountain-range-band", "line-opacity", 0.07);
+        map.setPaintProperty("mountain-range-line", "line-opacity", 0.45);
+        map.setPaintProperty("mountain-range-symbols", "icon-opacity", 0.5);
+      }
+
+      map.setFilter("range-intersect-glow", ["in", ["get", "name"], ["literal", []]] as any);
+      map.setFilter("range-intersect-line", ["in", ["get", "name"], ["literal", []]] as any);
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [intersectMode, intersectFocusName, intersectFocusType, intersectingParkNames, intersectingRangeNames, mapReady]);
 
   // Cinematic Camera Pan on Basin Change
   useEffect(() => {

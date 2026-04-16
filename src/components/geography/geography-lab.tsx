@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback, useMemo } from "react";
+import { useState, useEffect, useCallback, useMemo, useRef } from "react";
 import Link from "next/link";
 import {
   Map as MapIcon,
@@ -26,8 +26,13 @@ import {
   Globe,
   Palette,
   Satellite,
+  ArrowUpDown,
+  ArrowDown,
+  ArrowRight,
+  Share2,
 } from "lucide-react";
 import { IndiaMap, type MapMode, type LayerVisibility, type BaseMapStyle } from "@/components/geography/india-map";
+import { computeRiverIntersections, computeParkIntersections, type IntersectResult } from "@/lib/geo-intersections";
 import {
   STATE_BY_NAME,
   INDIA_STATES,
@@ -41,7 +46,7 @@ import {
   type StateMemory,
   type MapQuizQuestion,
 } from "@/data/india-states";
-import { generateFeatureQuizQuestion, MOUNTAINS, MOUNTAIN_RANGES, NATIONAL_PARKS } from "@/data/india-geo-features";
+import { generateFeatureQuizQuestion, RIVERS, MOUNTAINS, MOUNTAIN_RANGES, NATIONAL_PARKS } from "@/data/india-geo-features";
 
 // ── Mode pill (segmented control) ────────────────────────────────────────────────
 
@@ -454,6 +459,35 @@ function FeatureInfoPanel({ feature, onClose }: { feature: any; onClose: () => v
   );
 }
 
+// ── Coordinate lookup for spatial sorting ────────────────────────────────────────
+
+/** Returns [lng, lat] for a feature by name+kind, or null if not found. */
+function getFeatureCoords(name: string, kind: string): [number, number] | null {
+  if (kind === "peak" || kind === "pass") {
+    const f = MOUNTAINS.features.find(m => m.properties.name === name);
+    return f ? (f.geometry.coordinates as [number, number]) : null;
+  }
+  if (kind === "park") {
+    const f = NATIONAL_PARKS.features.find(m => m.properties.name === name);
+    return f ? (f.geometry.coordinates as [number, number]) : null;
+  }
+  if (kind === "range") {
+    const f = MOUNTAIN_RANGES.features.find(m => m.properties.name === name);
+    if (!f) return null;
+    const coords = f.geometry.coordinates;
+    const mid = coords[Math.floor(coords.length / 2)];
+    return mid ? (mid as [number, number]) : null;
+  }
+  if (kind === "river") {
+    const f = (RIVERS as any).features.find((m: any) => m.properties.name === name);
+    if (!f) return null;
+    const coords = f.geometry.coordinates;
+    const mid = coords[Math.floor(coords.length / 2)];
+    return mid ? (mid as [number, number]) : null;
+  }
+  return null;
+}
+
 // ── Main component ───────────────────────────────────────────────────────────────
 
 export function GeographyLab() {
@@ -487,6 +521,16 @@ export function GeographyLab() {
   /** Set of range names currently in spotlight mode */
   const [selectedRanges, setSelectedRanges] = useState<Set<string>>(new Set());
 
+  // Intersect mode
+  const [intersectMode, setIntersectMode] = useState(false);
+  const [intersectResults, setIntersectResults] = useState<IntersectResult | null>(null);
+  /** All raw GeoJSON features from the highres rivers file (for intersection computation) */
+  const riversAllFeaturesRef = useRef<any[]>([]);
+
+  // Spatial sort state
+  const [spatialSortDir, setSpatialSortDir] = useState<"ns" | "ew" | null>(null);
+  const [spatialSelection, setSpatialSelection] = useState<Set<string>>(new Set());
+
   // Quiz state
   const [quizDeck, setQuizDeck] = useState<"states" | "rivers" | "mountains" | "parks" | null>(null);
   const [quizQuestion, setQuizQuestion] = useState<MapQuizQuestion | null>(null);
@@ -514,6 +558,8 @@ export function GeographyLab() {
       .then(res => res.json())
       .then(data => {
          if (!isMounted) return;
+         // Store all raw features for intersection computation
+         riversAllFeaturesRef.current = data.features;
          const uniqueRivers = new Map<string, any>();
          data.features.forEach((f: any) => {
            const p = f.properties;
@@ -603,6 +649,36 @@ export function GeographyLab() {
     }
     return [];
   }, [activeFilter, filteredRivers]);
+
+  // Spatial sort: compute sorted selected items and their coordinates for the map line
+  const spatialSortedItems = useMemo(() => {
+    if (!spatialSortDir || spatialSelection.size === 0) return [];
+    const selected = displayFeaturesList
+      .filter(item => spatialSelection.has(item.name))
+      .map(item => {
+        const coords = getFeatureCoords(item.name, item.kind);
+        return { ...item, coords };
+      })
+      .filter((item): item is typeof item & { coords: [number, number] } => item.coords !== null);
+
+    selected.sort((a, b) => {
+      if (spatialSortDir === "ns") return b.coords[1] - a.coords[1]; // North (higher lat) first
+      return b.coords[0] - a.coords[0]; // East (higher lng) first
+    });
+    return selected;
+  }, [spatialSortDir, spatialSelection, displayFeaturesList]);
+
+  // Coordinate line for the map overlay (only selected items, in sorted order)
+  const spatialSortLine = useMemo<[number, number][]>(() => {
+    return spatialSortedItems.map(item => item.coords);
+  }, [spatialSortedItems]);
+
+  // Rank lookup: item name → 1-based rank in spatial sort
+  const spatialRankMap = useMemo(() => {
+    const map = new Map<string, number>();
+    spatialSortedItems.forEach((item, i) => map.set(item.name, i + 1));
+    return map;
+  }, [spatialSortedItems]);
 
   // Mode changes
   useEffect(() => {
@@ -710,6 +786,39 @@ export function GeographyLab() {
     const topFeature = propsList[0];
 
     if (mode === "explore") {
+      // ── Intersect mode: compute cross-layer results ──
+      if (intersectMode && topFeature) {
+        const category: "river" | "park" | undefined =
+          topFeature._category === "river" ? "river"
+          : topFeature._category === "park" ? "park"
+          : undefined;
+
+        if (category === "river" && topFeature.name) {
+          const { parks, ranges } = computeRiverIntersections(
+            topFeature.name,
+            riversAllFeaturesRef.current,
+            NATIONAL_PARKS.features as any[],
+            MOUNTAIN_RANGES.features as any[]
+          );
+          setIntersectResults({ focusName: topFeature.name, focusType: "river", parks, ranges, rivers: [] });
+          setShowPanel(true);
+          return;
+        }
+
+        if (category === "park" && topFeature.name) {
+          const parkFeature = (NATIONAL_PARKS.features as any[]).find(
+            (f: any) => f.properties.name === topFeature.name
+          );
+          const coord = parkFeature?.geometry?.coordinates as [number, number] | undefined;
+          const { rivers } = coord
+            ? computeParkIntersections(coord, riversAllFeaturesRef.current)
+            : { rivers: [] };
+          setIntersectResults({ focusName: topFeature.name, focusType: "park", parks: [], ranges: [], rivers });
+          setShowPanel(true);
+          return;
+        }
+      }
+
       setSelectedState(null);
       setSelectedFeature(topFeature);
       setShowPanel(true);
@@ -735,7 +844,7 @@ export function GeographyLab() {
         setIncorrectState(topFeature.name || null);
       }
     }
-  }, [mode, quizQuestion, quizFeedback]);
+  }, [mode, quizQuestion, quizFeedback, intersectMode]);
 
   const handleNextQuestion = useCallback(() => {
     setCorrectState(null);
@@ -754,7 +863,11 @@ export function GeographyLab() {
 
   const setTaxonomyFilter = useCallback((filter: string) => {
     setActiveFilter(filter);
-    setSelectedRanges(new Set()); // clear spotlight when switching filter
+    setSelectedRanges(new Set());
+    setSpatialSortDir(null);
+    setSpatialSelection(new Set());
+    setIntersectMode(false);
+    setIntersectResults(null);
     setLayers({
       stateBorders: true,
       rivers: filter === "Rivers" || filter === "All",
@@ -804,6 +917,25 @@ export function GeographyLab() {
           >
             <Layers className="w-4 h-4" />
           </button>
+          {/* Intersect toggle — only visible in explore mode with a feature filter */}
+          {mode === "explore" && ["Rivers", "Protected Areas"].includes(activeFilter) && (
+            <button
+              onClick={() => {
+                setIntersectMode((prev) => {
+                  if (prev) setIntersectResults(null);
+                  return !prev;
+                });
+              }}
+              className={`rounded-lg p-1.5 transition-colors ${
+                intersectMode
+                  ? "bg-amber-100 text-amber-600 ring-1 ring-amber-300"
+                  : "text-[#9CA3AF] hover:text-[#1A1A1A]"
+              }`}
+              title="Intersect mode — click a river or park to see what it crosses"
+            >
+              <Share2 className="w-4 h-4" />
+            </button>
+          )}
           {(mode !== "explore" || selectedState) && (
             <button
               onClick={() => setShowPanel(!showPanel)}
@@ -993,6 +1125,11 @@ export function GeographyLab() {
             hiddenPeaks={Array.from(hiddenPeaks)}
             layers={layers}
             selectedRanges={Array.from(selectedRanges)}
+            intersectMode={intersectMode}
+            intersectFocusName={intersectResults?.focusName ?? null}
+            intersectFocusType={intersectResults?.focusType}
+            intersectingParkNames={intersectResults?.parks.map((p) => p.name) ?? []}
+            intersectingRangeNames={intersectResults?.ranges.map((r) => r.name) ?? []}
             onStateClick={handleStateClick}
             onStateHover={handleStateHover}
             onFeatureClick={handleFeatureClick}
@@ -1074,17 +1211,221 @@ export function GeographyLab() {
               </div>
             )}
 
-            {mode === "explore" && !selectedStateData && !selectedFeature && ["Rivers", "Himalayas", "Peninsular", "Passes", "Protected Areas"].includes(activeFilter) && (
-              <div className="flex flex-col h-[calc(100dvh-8rem)]">
-                <div className="flex items-center justify-between mb-3 shrink-0">
-                  <div>
-                    <h3 className="text-sm font-bold text-[#1A1A1A]">{activeFilter === "Peninsular" ? "Peninsular Mountains" : activeFilter}</h3>
-                    <p className="text-[10px] text-[#9CA3AF] mt-0.5">{displayFeaturesList.length} items</p>
+            {/* ── Intersect results panel ──────────────────────────────── */}
+            {mode === "explore" && intersectMode && intersectResults && !selectedStateData && !selectedFeature && (
+              <div className="animate-in fade-in slide-in-from-right-4 duration-200 space-y-3">
+                <div className="flex items-start justify-between gap-2">
+                  <div className="flex items-center gap-2">
+                    <div className="w-7 h-7 rounded-lg bg-amber-100 flex items-center justify-center shrink-0">
+                      <Share2 className="w-3.5 h-3.5 text-amber-600" />
+                    </div>
+                    <div>
+                      <p className="text-[9px] font-bold uppercase tracking-widest text-amber-600">Intersect</p>
+                      <h3 className="text-base font-bold text-[#1A1A1A] font-serif leading-tight">{intersectResults.focusName}</h3>
+                    </div>
                   </div>
-                  {(hiddenRivers.size > 0 || hiddenPeaks.size > 0) && (
-                    <button onClick={() => { setHiddenRivers(new Set()); setHiddenPeaks(new Set()); }} className="text-[10px] text-[#C4784A] hover:underline font-semibold">
-                      Reset
-                    </button>
+                  <button
+                    onClick={() => { setIntersectResults(null); setIntersectMode(false); }}
+                    className="rounded-md p-1 text-[#9CA3AF] hover:text-[#1A1A1A] hover:bg-[#F0EBE4] transition-colors shrink-0"
+                  >
+                    <X className="w-3.5 h-3.5" />
+                  </button>
+                </div>
+
+                <div className="flex items-center gap-1.5 rounded-lg bg-amber-50 border border-amber-200/60 px-2.5 py-2">
+                  {intersectResults.focusType === "river"
+                    ? <Droplets className="w-3.5 h-3.5 text-blue-600 shrink-0" />
+                    : <TreePine className="w-3.5 h-3.5 text-emerald-600 shrink-0" />}
+                  <p className="text-xs text-[#4B5563]">
+                    {intersectResults.focusType === "river"
+                      ? "Parks & ranges this river passes through"
+                      : "Rivers that flow near this park"}
+                  </p>
+                </div>
+
+                {intersectResults.focusType === "river" && (
+                  <>
+                    <div>
+                      <p className="text-[9px] font-bold uppercase tracking-wider text-[#9CA3AF] mb-1.5">
+                        Protected Areas <span className="text-amber-600">({intersectResults.parks.length})</span>
+                      </p>
+                      {intersectResults.parks.length === 0 ? (
+                        <p className="text-xs text-[#9CA3AF] italic px-1">None detected along this river</p>
+                      ) : (
+                        <div className="space-y-1">
+                          {intersectResults.parks.map((park) => {
+                            const catColor = park.category === "TR"
+                              ? "bg-amber-50 text-amber-700 border-amber-200"
+                              : park.category === "BR"
+                              ? "bg-purple-50 text-purple-700 border-purple-200"
+                              : park.category === "WLS"
+                              ? "bg-cyan-50 text-cyan-700 border-cyan-200"
+                              : "bg-emerald-50 text-emerald-700 border-emerald-200";
+                            const catLabel = park.category === "TR" ? "Tiger Reserve"
+                              : park.category === "BR" ? "Biosphere Reserve"
+                              : park.category === "WLS" ? "Wildlife Sanctuary"
+                              : "National Park";
+                            return (
+                              <div key={park.name} className="flex items-center gap-2 rounded-lg bg-[#FAFAF9] border border-[#E5E0DA]/60 px-2.5 py-2">
+                                <span className="w-2 h-2 rounded-full bg-amber-400 shrink-0" />
+                                <div className="flex-1 min-w-0">
+                                  <p className="text-xs font-semibold text-[#1A1A1A] truncate">{park.name}</p>
+                                  <p className="text-[10px] text-[#9CA3AF]">{park.state}</p>
+                                </div>
+                                <span className={`text-[9px] font-bold px-1.5 py-0.5 rounded border shrink-0 ${catColor}`}>
+                                  {catLabel}
+                                </span>
+                              </div>
+                            );
+                          })}
+                        </div>
+                      )}
+                    </div>
+
+                    <div>
+                      <p className="text-[9px] font-bold uppercase tracking-wider text-[#9CA3AF] mb-1.5">
+                        Mountain Ranges <span className="text-amber-600">({intersectResults.ranges.length})</span>
+                      </p>
+                      {intersectResults.ranges.length === 0 ? (
+                        <p className="text-xs text-[#9CA3AF] italic px-1">No ranges intersect this river</p>
+                      ) : (
+                        <div className="space-y-1">
+                          {intersectResults.ranges.map((range) => (
+                            <div key={range.name} className="flex items-center gap-2 rounded-lg bg-[#FAFAF9] border border-[#E5E0DA]/60 px-2.5 py-2">
+                              <Mountain className="w-3.5 h-3.5 text-amber-600 shrink-0" />
+                              <p className="text-xs font-semibold text-[#1A1A1A]">{range.name}</p>
+                            </div>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                  </>
+                )}
+
+                {intersectResults.focusType === "park" && (
+                  <div>
+                    <p className="text-[9px] font-bold uppercase tracking-wider text-[#9CA3AF] mb-1.5">
+                      Nearby Rivers <span className="text-amber-600">({intersectResults.rivers.length})</span>
+                    </p>
+                    {intersectResults.rivers.length === 0 ? (
+                      <p className="text-xs text-[#9CA3AF] italic px-1">No rivers detected near this park</p>
+                    ) : (
+                      <div className="space-y-1">
+                        {intersectResults.rivers.map((river) => (
+                          <div key={river} className="flex items-center gap-2 rounded-lg bg-[#FAFAF9] border border-[#E5E0DA]/60 px-2.5 py-2">
+                            <Droplets className="w-3.5 h-3.5 text-blue-500 shrink-0" />
+                            <p className="text-xs font-semibold text-[#1A1A1A]">{river}</p>
+                          </div>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                )}
+
+                <p className="text-[10px] text-[#9CA3AF] text-center pt-1">Click another feature to update</p>
+              </div>
+            )}
+
+            {/* ── Intersect prompt (mode on, no result yet) ── */}
+            {mode === "explore" && intersectMode && !intersectResults && !selectedStateData && !selectedFeature && (
+              <div className="flex flex-col items-center justify-center py-10 text-center space-y-3 animate-in fade-in duration-300">
+                <div className="w-12 h-12 rounded-2xl bg-amber-100 flex items-center justify-center">
+                  <Share2 className="w-6 h-6 text-amber-500" />
+                </div>
+                <div>
+                  <h3 className="text-sm font-bold text-[#1A1A1A] mb-1">Intersect Mode Active</h3>
+                  <p className="text-xs text-[#9CA3AF] leading-relaxed max-w-[220px]">
+                    Click any <span className="font-semibold text-blue-600">river</span> or{" "}
+                    <span className="font-semibold text-emerald-600">park</span> on the map to see
+                    what it geographically crosses.
+                  </p>
+                </div>
+                <button
+                  onClick={() => setIntersectMode(false)}
+                  className="text-xs text-[#9CA3AF] hover:text-[#1A1A1A] transition-colors underline underline-offset-2"
+                >
+                  Cancel
+                </button>
+              </div>
+            )}
+
+            {/* ── Normal feature list ── */}
+            {mode === "explore" && !intersectMode && !selectedStateData && !selectedFeature && ["Rivers", "Himalayas", "Peninsular", "Passes", "Protected Areas"].includes(activeFilter) && (
+              <div className="flex flex-col h-[calc(100dvh-8rem)]">
+                <div className="shrink-0 mb-3 space-y-2">
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <h3 className="text-sm font-bold text-[#1A1A1A]">{activeFilter === "Peninsular" ? "Peninsular Mountains" : activeFilter}</h3>
+                      <p className="text-[10px] text-[#9CA3AF] mt-0.5">{displayFeaturesList.length} items</p>
+                    </div>
+                    <div className="flex items-center gap-1.5">
+                      {(hiddenRivers.size > 0 || hiddenPeaks.size > 0) && (
+                        <button onClick={() => { setHiddenRivers(new Set()); setHiddenPeaks(new Set()); }} className="text-[10px] text-[#C4784A] hover:underline font-semibold">
+                          Reset
+                        </button>
+                      )}
+                      <button
+                        onClick={() => {
+                          if (spatialSortDir) {
+                            setSpatialSortDir(null);
+                            setSpatialSelection(new Set());
+                          } else {
+                            setSpatialSortDir("ns");
+                            setSpatialSelection(new Set());
+                          }
+                        }}
+                        className={`flex items-center gap-1 px-2 py-1 rounded-lg text-[10px] font-semibold transition-all ${
+                          spatialSortDir
+                            ? "bg-[#C4784A] text-white shadow-sm"
+                            : "text-[#6B7280] hover:text-[#1A1A1A] hover:bg-[#F3F4F6] border border-[#E5E0DA]"
+                        }`}
+                        title="Spatial Sort — select items and sort by position"
+                      >
+                        <ArrowUpDown className="w-3 h-3" />
+                        <span className="hidden sm:inline">Sort</span>
+                      </button>
+                    </div>
+                  </div>
+
+                  {/* Spatial sort direction bar */}
+                  {spatialSortDir && (
+                    <div className="flex items-center gap-1.5 bg-[#FAF7F2] rounded-lg border border-[#E5E0DA]/80 p-1 animate-in slide-in-from-top-2 fade-in duration-200">
+                      <div className="flex items-center rounded-md bg-white shadow-sm border border-[#E5E0DA]/50 p-0.5">
+                        <button
+                          onClick={() => setSpatialSortDir("ns")}
+                          className={`flex items-center gap-1 px-2 py-1 rounded text-[10px] font-bold transition-all ${
+                            spatialSortDir === "ns"
+                              ? "bg-[#C4784A] text-white"
+                              : "text-[#9CA3AF] hover:text-[#1A1A1A]"
+                          }`}
+                        >
+                          <ArrowDown className="w-2.5 h-2.5" /> N→S
+                        </button>
+                        <button
+                          onClick={() => setSpatialSortDir("ew")}
+                          className={`flex items-center gap-1 px-2 py-1 rounded text-[10px] font-bold transition-all ${
+                            spatialSortDir === "ew"
+                              ? "bg-[#C4784A] text-white"
+                              : "text-[#9CA3AF] hover:text-[#1A1A1A]"
+                          }`}
+                        >
+                          <ArrowRight className="w-2.5 h-2.5" /> E→W
+                        </button>
+                      </div>
+                      <span className="text-[9px] text-[#9CA3AF] flex-1">
+                        {spatialSelection.size === 0
+                          ? "Check items to sort"
+                          : `${spatialSelection.size} selected`}
+                      </span>
+                      {spatialSelection.size > 0 && (
+                        <button
+                          onClick={() => setSpatialSelection(new Set())}
+                          className="text-[9px] font-semibold text-[#C4784A] hover:text-[#92400E] transition-colors"
+                        >
+                          Clear
+                        </button>
+                      )}
+                    </div>
                   )}
                 </div>
                 <div className="flex-1 overflow-y-auto -mx-1">
