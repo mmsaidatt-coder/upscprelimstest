@@ -9,7 +9,7 @@ const LLMS_TXT = `# UPSC Prelims Test
 - URL: https://upscprelimstest.com
 - Type: Educational technology platform for Indian civil services exam preparation
 - Coverage: UPSC CSE Prelims GS Paper I (2014–2025)
-- Questions: 1,200+ PYQs with AI-enriched metadata plus a 10,000+ question practice bank from custom FLTs and PT365 current affairs
+- Questions: 1,200+ PYQs with AI-enriched metadata plus a 10,000+ question practice bank from custom FLTs and current affairs
 - Subjects: Polity, History, Economy, Geography, Environment, Science, Current Affairs
 - Features: Timed exam mode, negative marking (⅓), question palette, mark-for-review, analytics
 - Auth: Google OAuth and email/password via Supabase

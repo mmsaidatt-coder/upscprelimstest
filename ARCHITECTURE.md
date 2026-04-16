@@ -26,7 +26,6 @@ Current architecture of upscprelimstest.com — a UPSC Prelims practice platform
 |-------|---------|
 | `/` | Landing page with features and CTA |
 | `/platform` | Three-mode architecture overview |
-| `/pricing` | Free / Pro / Institute tiers |
 | `/pyq` | PYQ practice landing |
 | `/flt` | FLT series landing |
 | `/subject-wise` | Subject practice landing |
@@ -188,7 +187,7 @@ ResultClient → saveNotebookEntry() [localStorage]
 - Full marketing site (7 pages)
 - Auth: signup, login, Google OAuth, session management
 - 1,200+ restored PYQs from 2014–2025 in Supabase
-- 8,500+ mapped FLT/custom questions and 1,147 PT365 current-affairs questions available for the expanded practice bank
+- 8,500+ mapped FLT/custom questions and 1,147 current-affairs questions available for the expanded practice bank
 - Dynamic custom exam generator for mixed, single-subject, and UPSC-ratio FLT sessions
 - PYQ library: year-wise, subject-wise, custom session builder
 - Timed exam runner with palette, elimination, marking, highlighting

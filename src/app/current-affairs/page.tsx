@@ -6,16 +6,16 @@ import {
 } from "@/lib/current-affairs";
 
 export const metadata: Metadata = {
-  title: "UPSC Current Affairs Practice Tests — PT365 Repository",
+  title: "UPSC Current Affairs Practice Tests — Subject-wise Repository",
   description:
-    "Practice UPSC Prelims current affairs with subject-wise tests from the PT365 repository. Covers Environment, Economy, History, Polity, Science, Geography — timed sessions with analytics.",
+    "Practice UPSC Prelims current affairs with subject-wise tests from our curated repository. Covers Environment, Economy, History, Polity, Science, Geography — timed sessions with analytics.",
   alternates: {
     canonical: "https://upscprelimstest.com/current-affairs",
   },
   openGraph: {
-    title: "UPSC Current Affairs Practice Tests — PT365 Repository",
+    title: "UPSC Current Affairs Practice Tests — Subject-wise Repository",
     description:
-      "Subject-wise current affairs practice for UPSC Prelims from the PT365 repository.",
+      "Subject-wise current affairs practice for UPSC Prelims from our curated repository.",
     url: "https://upscprelimstest.com/current-affairs",
   },
 };
@@ -44,7 +44,7 @@ export default async function CurrentAffairsPage() {
           </h1>
           <p className="mt-2 max-w-3xl text-lg md:text-xl font-medium text-[var(--muted)]">
             Launch repository-backed current-affairs tests grouped by subject bucket. Each card is
-            still part of the same PT365 current-affairs bank, only organized into focused tracks
+            still part of the same current-affairs bank, only organized into focused tracks
             such as Polity, Economy, History, Science, and a general current-affairs bucket.
           </p>
 

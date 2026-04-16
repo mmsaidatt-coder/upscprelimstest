@@ -17,7 +17,7 @@ const supabase = createClient(supabaseUrl, supabaseKey, {
     auth: { persistSession: false, autoRefreshToken: false }
 });
 
-const CA_FILE = path.join(process.cwd(), 'data', 'generated', 'current-affairs-2025-pt365-sections-gemini-3', 'final-questions.json');
+const CA_FILE = path.join(process.cwd(), 'data', 'generated', 'current-affairs-2025-sections-gemini-3', 'final-questions.json');
 
 async function syncTopics(allExtractedTopics: string[]): Promise<Record<string, string>> {
     const normalizedTopicMap = new Map<string, string>();
@@ -93,7 +93,7 @@ async function main() {
             explanation: q.explanation || null,
             takeaway: q.takeaway || null,
             year: q.year || 2025,
-            source_label: q.exam || 'PT365 Current Affairs 2025',
+            source_label: q.exam || 'Current Affairs 2025',
             
             topic: generatedTopicStr,
             sub_topic: q.sourceSubtopic || q.sub_topic || null,

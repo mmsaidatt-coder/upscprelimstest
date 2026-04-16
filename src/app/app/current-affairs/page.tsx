@@ -12,7 +12,7 @@ export default function CurrentAffairsAppPage() {
           Current Affairs Bank
         </h1>
         <p className="mt-1.5 max-w-lg text-xs leading-5 text-[var(--muted)] sm:mt-2 sm:text-sm sm:leading-6">
-          Master the latest events and UPSC-relevant news. Tap into our curated database of over 1,100+ PT365 and contemporary issues designed to mirror the actual exam weightage.
+          Master the latest events and UPSC-relevant news. Tap into our curated database of over 1,100+ current-affairs and contemporary issues designed to mirror the actual exam weightage.
         </p>
       </div>
 
@@ -39,7 +39,7 @@ export default function CurrentAffairsAppPage() {
           <div>
             <div className="text-3xl mb-3">📰</div>
             <h2 className="heading text-xl mb-2">Sectional Practice</h2>
-            <p className="text-sm text-[var(--muted)]">A robust 50-question session covering a broad range of PT365 topics.</p>
+            <p className="text-sm text-[var(--muted)]">A robust 50-question session covering a broad range of current-affairs topics.</p>
           </div>
           <div className="mt-6 flex flex-col gap-2">
              <Link

@@ -83,7 +83,7 @@ type Args = {
 
 function parseArgs(argv: string[]): Args {
   const result: Args = {
-    outDir: path.resolve(process.cwd(), "data", "generated", "current-affairs-2025-pt365-sections-gemini-3"),
+    outDir: path.resolve(process.cwd(), "data", "generated", "current-affairs-2025-sections-gemini-3"),
     bundleDir: "content-bundles",
   };
 
@@ -102,7 +102,7 @@ function parseArgs(argv: string[]): Args {
         "Usage: npx tsx scripts/export-structured-content-bundles.ts [options]",
         "",
         "Options:",
-        "  --out-dir <path>     Generated batch directory with cache/ (default: current-affairs-2025-pt365-sections-gemini-3)",
+        "  --out-dir <path>     Generated batch directory with cache/ (default: current-affairs-2025-sections-gemini-3)",
         "  --bundle-dir <name>  Relative directory name under out-dir for content bundles (default: content-bundles)",
       ].join("\n"));
       process.exit(0);

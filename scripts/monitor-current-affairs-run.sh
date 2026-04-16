@@ -86,7 +86,7 @@ run_check() {
     previous_state="$(read_state)"
     if [[ "$previous_state" != "complete" ]]; then
       append_log "$message"
-      notify "PT365 Batch Complete" "$message"
+      notify "Current Affairs Batch Complete" "$message"
       write_state "complete"
     fi
     return 0
@@ -99,7 +99,7 @@ run_check() {
     previous_state="$(read_state)"
     if [[ "$previous_state" != "stopped" ]]; then
       append_log "$message"
-      notify "PT365 Batch Stopped" "$message"
+      notify "Current Affairs Batch Stopped" "$message"
       write_state "stopped"
     fi
     return 0
@@ -108,7 +108,7 @@ run_check() {
   local message
   message="Batch active. $(latest_cache_progress)"
   append_log "$message"
-  notify "PT365 Batch Update" "$message"
+  notify "Current Affairs Batch Update" "$message"
   write_state "active"
 }
 

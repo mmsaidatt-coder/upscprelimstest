@@ -577,8 +577,8 @@ const OCR_PAGE_SCHEMA = {
 
 function parseArgs(argv: string[]): Args {
   const result: Args = {
-    inputDir: "/Users/mani/Desktop/pt365",
-    outDir: path.resolve(process.cwd(), "data", "generated", "current-affairs-2025-pt365"),
+    inputDir: "/Users/mani/Desktop/current-affairs",
+    outDir: path.resolve(process.cwd(), "data", "generated", "current-affairs-2025"),
     year: 2025,
     indexModel: "gemini-3-flash-preview",
     generateModel: "gemini-3.1-pro-preview",
@@ -625,7 +625,7 @@ function parseArgs(argv: string[]): Args {
         "Usage: npx tsx scripts/generate-current-affairs-bank.ts [options]",
         "",
         "Options:",
-        "  --input-dir <path>           Directory with source PDFs (default: /Users/mani/Desktop/pt365)",
+        "  --input-dir <path>           Directory with source PDFs (default: /Users/mani/Desktop/current-affairs)",
         "  --out-dir <path>             Output directory under the repo",
         "  --year <number>              Current-affairs year tag (default: 2025)",
         "  --index-model <name>         Gemini model for PDF/page indexing",
@@ -1085,7 +1085,7 @@ async function ocrPageWithGemini(
 
   const imageBuffer = await renderPageImage(pdf.filePath, page.pageNumber);
   const prompt = [
-    `OCR and clean this PT365 PDF page from "${pdf.pdfLabel}".`,
+    `OCR and clean this current-affairs PDF page from "${pdf.pdfLabel}".`,
     "",
     "Requirements:",
     "- Extract all meaningful text from the page, including text inside charts, tables, sidebars, captions, labels, and callout boxes.",
@@ -1481,7 +1481,7 @@ function buildTopicPacketPrompt(pdf: ExtractedPdf, contentPages: IndexedPage[]) 
   }));
 
   return [
-    `You are grouping OCRed PT365 pages from "${pdf.pdfLabel}" into single-topic packets for UPSC CSE Prelims question generation.`,
+    `You are grouping OCRed current-affairs pages from "${pdf.pdfLabel}" into single-topic packets for UPSC CSE Prelims question generation.`,
     "",
     "Goal:",
     "- group the pages into coherent micro-topic packets",
@@ -1645,7 +1645,7 @@ function formatPacketPages(pageNumbers: number[]) {
 
 function buildSectionPrompt(packet: TopicPacket, packetText: string) {
   return [
-    "You are extracting section-level study blocks from a PT365 topic packet.",
+    "You are extracting section-level study blocks from a current-affairs topic packet.",
     "",
     "Goal:",
     "- split the packet into the smallest coherent UPSC-examinable sections",
@@ -2517,7 +2517,7 @@ async function main() {
             ...reviewedQuestion,
             source: "subject" as const,
             year: args.year,
-            exam: `PT365 Current Affairs ${args.year}`,
+            exam: `Current Affairs ${args.year}`,
             questionNumber: globalQuestionNumber,
             sourcePdf: extracted.fileName,
             sourcePages: section.pageNumbers,

@@ -361,7 +361,7 @@ function createMcpServer() {
 
 ## Subjects Covered (1,200+ PYQs from 2014–2025)
 
-The web app also contains a larger 10,000+ question practice bank built from custom FLTs and PT365 current affairs. The MCP PYQ tools below query the previous-year-question subset unless a tool explicitly says otherwise.
+The web app also contains a larger 10,000+ question practice bank built from custom FLTs and current-affairs questions. The MCP PYQ tools below query the previous-year-question subset unless a tool explicitly says otherwise.
 
 ### 1. Polity
 Constitutional framework, Parliament & Legislature, Judiciary & Courts, Fundamental Rights & Duties, DPSPs, Constitutional Bodies (Election Commission, CAG, UPSC), Federalism, Governance & Policy, Elections & Representation, Constitutional Amendments.

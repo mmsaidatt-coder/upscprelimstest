@@ -80,7 +80,7 @@ Schema defined in `supabase/migrations/` (001: initial schema, 002: PYQ metadata
 ### Routing
 
 **Marketing pages** (public, server components):
-- `/`, `/platform`, `/pricing`, `/flt`, `/subject-wise`, `/analytics`, `/pyq`
+- `/`, `/platform`, `/flt`, `/subject-wise`, `/analytics`, `/pyq`
 - `/pyq/analyse` — Year-wise PYQ analysis dashboard (Recharts, mock data)
 - `/pyq/subject-analyse` — Subject-wise topic breakdown (Recharts, mock data + live API)
 - `/pyq/sectional` — Sectional PYQ analysis
@@ -251,7 +251,7 @@ UI/UX changes, styling, layout, new marketing pages, auth flow changes — **non
 The platform recently underwent a massive ML-driven overhaul natively expanding the test-bank from 1,200 PYQs to over 10,847 fully AI-enriched Database questions!
 
 ### 1. Database Expansion
-- Over **8,500 Full-Length Test questions** and **1,147 PT365 Current Affairs** questions were completely structurally modeled and pushed to the Supabase `questions` database table with the exact `source='custom'` tag.
+- Over **8,500 Full-Length Test questions** and **1,147 Current Affairs** questions were completely structurally modeled and pushed to the Supabase `questions` database table with the exact `source='custom'` tag.
 - Over **5,872 of these questions** passed a rigorous background AI "Hyper-Audit" (located in `scripts/hyper-audit.ts`), guaranteeing pristine mathematical JSON structures, factual grounding, and aligned explanations natively.
 
 ### 2. Custom Test Generator Engine

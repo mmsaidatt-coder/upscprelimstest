@@ -7,7 +7,7 @@ import type { ExamQuestion, ExamTest, Subject } from "@/lib/types";
 
 const CURRENT_AFFAIRS_REPO_PATH = path.join(
   process.cwd(),
-  "data/generated/current-affairs-2025-pt365-sections-gemini-3/final-questions.json",
+  "data/generated/current-affairs-2025-sections-gemini-3/final-questions.json",
 );
 
 const CURRENT_AFFAIRS_TEST_SIZES = [25, 50] as const;
@@ -151,7 +151,7 @@ export async function getCurrentAffairsTestBySlug(slug: string): Promise<ExamTes
     slug,
     title: `Current Affairs Repository · ${subject}`,
     tagline: `Sectional drill from the reviewed ${subject} current-affairs bank`,
-    description: `${selected.length}-question timed session built from the repository-backed PT365 current-affairs set.`,
+    description: `${selected.length}-question timed session built from the repository-backed current-affairs set.`,
     durationMinutes,
     difficultyLabel: `${selected.length}Q · Repository`,
     questions: selected,
