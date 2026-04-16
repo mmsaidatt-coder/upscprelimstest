@@ -286,7 +286,7 @@ export function ExamRunner({ test }: { test: ExamTest }) {
         </div>
       </div>
 
-      <div className="grid gap-4 xl:grid-cols-[minmax(0,1fr)_320px] sm:gap-5">
+      <div className="grid gap-4 lg:grid-cols-[minmax(0,1fr)_320px] sm:gap-5">
         {/* Question area */}
         <div className="space-y-5">
           <div className="card p-3.5 sm:p-5">
@@ -416,7 +416,7 @@ export function ExamRunner({ test }: { test: ExamTest }) {
             </div>
 
             {/* Action buttons — desktop only */}
-            <div className="mt-5 hidden flex-wrap gap-2 sm:flex">
+            <div className="mt-5 hidden flex-wrap gap-2 lg:flex">
               <button
                 type="button"
                 onClick={clearResponse}
@@ -453,7 +453,7 @@ export function ExamRunner({ test }: { test: ExamTest }) {
         </div>
 
         {/* Sidebar — desktop only */}
-        <aside className="hidden xl:block space-y-4 xl:sticky xl:top-20 xl:self-start">
+        <aside className="hidden lg:block space-y-4 lg:sticky lg:top-20 lg:self-start">
           <div className="card p-4">
             <p className="text-sm font-semibold text-[var(--foreground)]">Progress</p>
             <div className="mt-3 grid grid-cols-3 gap-2">
@@ -511,8 +511,8 @@ export function ExamRunner({ test }: { test: ExamTest }) {
         </aside>
       </div>
 
-      {/* ── Mobile bottom action bar ─────────────────────────────── */}
-      <div className="fixed bottom-0 left-0 right-0 z-40 border-t border-[var(--border)] bg-[var(--background-secondary)]/95 backdrop-blur-md sm:hidden" style={{ paddingBottom: 'env(safe-area-inset-bottom, 0px)' }}>
+      {/* ── Mobile/tablet bottom action bar ─────────────────────────────── */}
+      <div className="fixed bottom-0 left-0 right-0 z-40 border-t border-[var(--border)] bg-[var(--background-secondary)]/95 backdrop-blur-md lg:hidden" style={{ paddingBottom: 'env(safe-area-inset-bottom, 0px)' }}>
         {/* Row 1: Secondary actions */}
         <div className="flex items-center justify-between border-b border-[var(--border)]/50 px-3 py-1.5">
           <div className="flex items-center gap-1.5">
