@@ -55,12 +55,21 @@ type IndiaMapProps = {
   layers: LayerVisibility;
   /** Names of the focused mountain ranges (spotlight mode) */
   selectedRanges?: string[];
+  /** Ordered [lng,lat] points to draw the spatial-sort route line */
+  spatialSortLine?: [number, number][];
   /** Cross-layer intersect mode */
   intersectMode?: boolean;
   intersectFocusName?: string | null;
   intersectFocusType?: "river" | "park";
   intersectingParkNames?: string[];
   intersectingRangeNames?: string[];
+  /** Show Tropic of Cancer (23.5°N) and Indian Standard Meridian (82.5°E) */
+  showGridLines?: boolean;
+  /** Lock crosshair [lng, lat] — draws lat/lng axis lines through this point */
+  lockPoint?: [number, number] | null;
+  /** When true, next map click fires onLockPoint instead of normal select */
+  lockMode?: boolean;
+  onLockPoint?: (point: [number, number]) => void;
   onStateClick: (name: string) => void;
   onStateHover: (name: string | null) => void;
   onFeatureClick?: (properties: any) => void;
@@ -155,11 +164,16 @@ export function IndiaMap({
   hiddenRivers = [],
   hiddenPeaks = [],
   selectedRanges = [],
+  spatialSortLine = [],
   intersectMode = false,
   intersectFocusName = null,
   intersectFocusType,
   intersectingParkNames = [],
   intersectingRangeNames = [],
+  showGridLines = false,
+  lockPoint = null,
+  lockMode = false,
+  onLockPoint,
   onStateClick,
   onStateHover,
   onFeatureClick,
@@ -175,6 +189,8 @@ export function IndiaMap({
   const onFeatureClickRef = useRef(onFeatureClick);
   const disableStateSelectionRef = useRef(disableStateSelection);
   const modeRef = useRef(mode);
+  const lockModeRef = useRef(lockMode);
+  const onLockPointRef = useRef(onLockPoint);
 
   useEffect(() => {
     onStateClickRef.current = onStateClick;
@@ -182,7 +198,9 @@ export function IndiaMap({
     onFeatureClickRef.current = onFeatureClick;
     disableStateSelectionRef.current = disableStateSelection;
     modeRef.current = mode;
-  }, [onStateClick, onStateHover, onFeatureClick, disableStateSelection, mode]);
+    lockModeRef.current = lockMode;
+    onLockPointRef.current = onLockPoint;
+  }, [onStateClick, onStateHover, onFeatureClick, disableStateSelection, mode, lockMode, onLockPoint]);
 
   // ── Initialize map ──────────────────────────────────────────────────
   useEffect(() => {
@@ -951,6 +969,246 @@ export function IndiaMap({
             },
           });
 
+          // ── Spatial Sort: route line + numbered markers ──
+          map.addSource("spatial-sort-line", {
+            type: "geojson",
+            data: { type: "FeatureCollection", features: [] },
+          });
+          map.addSource("spatial-sort-points", {
+            type: "geojson",
+            data: { type: "FeatureCollection", features: [] },
+          });
+
+          // Outer glow behind dashed line
+          map.addLayer({
+            id: "spatial-sort-glow",
+            type: "line",
+            source: "spatial-sort-line",
+            paint: {
+              "line-color": "#C4784A",
+              "line-width": 10,
+              "line-opacity": 0.18,
+              "line-blur": 6,
+            },
+          });
+          // Dashed directional line
+          map.addLayer({
+            id: "spatial-sort-dash",
+            type: "line",
+            source: "spatial-sort-line",
+            paint: {
+              "line-color": "#C4784A",
+              "line-width": 2,
+              "line-opacity": 0.9,
+              "line-dasharray": [4, 3],
+            },
+          });
+          // Arrow chevrons along the line
+          map.addLayer({
+            id: "spatial-sort-arrows",
+            type: "symbol",
+            source: "spatial-sort-line",
+            layout: {
+              "symbol-placement": "line",
+              "symbol-spacing": 60,
+              "text-field": "▸",
+              "text-size": 13,
+              "text-font": ["Open Sans Regular"],
+              "text-rotation-alignment": "map",
+              "text-keep-upright": false,
+            },
+            paint: {
+              "text-color": "#C4784A",
+              "text-opacity": 0.9,
+            },
+          });
+          // Rank number circles at each point
+          map.addLayer({
+            id: "spatial-sort-circles",
+            type: "circle",
+            source: "spatial-sort-points",
+            paint: {
+              "circle-radius": 9,
+              "circle-color": "#C4784A",
+              "circle-stroke-color": "#fff",
+              "circle-stroke-width": 2,
+              "circle-opacity": 0.95,
+            },
+          });
+          // Rank number labels
+          map.addLayer({
+            id: "spatial-sort-labels",
+            type: "symbol",
+            source: "spatial-sort-points",
+            layout: {
+              "text-field": ["get", "rank"],
+              "text-size": 10,
+              "text-font": ["Open Sans Bold"],
+              "text-anchor": "center",
+              "text-allow-overlap": true,
+              "icon-allow-overlap": true,
+            },
+            paint: {
+              "text-color": "#fff",
+              "text-opacity": 1,
+            },
+          });
+
+          // ── Grid Lines: Tropic of Cancer + Indian Standard Meridian ──
+          map.addSource("grid-lines", {
+            type: "geojson",
+            data: {
+              type: "FeatureCollection",
+              features: [
+                {
+                  type: "Feature",
+                  properties: { lineType: "toc", label: "TROPIC OF CANCER  23.5°N" },
+                  geometry: { type: "LineString", coordinates: [[60.0, 23.5], [100.0, 23.5]] },
+                },
+                {
+                  type: "Feature",
+                  properties: { lineType: "ism", label: "INDIAN STANDARD MERIDIAN  82.5°E" },
+                  geometry: { type: "LineString", coordinates: [[82.5, 4.0], [82.5, 40.0]] },
+                },
+              ],
+            },
+          });
+
+          // Tropic of Cancer — warm amber dashed
+          map.addLayer({
+            id: "grid-toc-glow",
+            type: "line",
+            source: "grid-lines",
+            filter: ["==", ["get", "lineType"], "toc"],
+            layout: { visibility: "none" },
+            paint: { "line-color": "#F59E0B", "line-width": 10, "line-opacity": 0.12, "line-blur": 5 },
+          });
+          map.addLayer({
+            id: "grid-toc-line",
+            type: "line",
+            source: "grid-lines",
+            filter: ["==", ["get", "lineType"], "toc"],
+            layout: { visibility: "none" },
+            paint: { "line-color": "#D97706", "line-width": 1.5, "line-dasharray": [10, 5], "line-opacity": 0.9 },
+          });
+          map.addLayer({
+            id: "grid-toc-label",
+            type: "symbol",
+            source: "grid-lines",
+            filter: ["==", ["get", "lineType"], "toc"],
+            layout: {
+              visibility: "none",
+              "symbol-placement": "line",
+              "text-field": ["get", "label"],
+              "text-font": ["Open Sans Regular"],
+              "text-size": 10,
+              "text-letter-spacing": 0.1,
+              "symbol-spacing": 500,
+            },
+            paint: {
+              "text-color": "#92400E",
+              "text-halo-color": "rgba(255,255,255,0.92)",
+              "text-halo-width": 1.5,
+            },
+          });
+
+          // Indian Standard Meridian — teal/green dashed
+          map.addLayer({
+            id: "grid-ism-glow",
+            type: "line",
+            source: "grid-lines",
+            filter: ["==", ["get", "lineType"], "ism"],
+            layout: { visibility: "none" },
+            paint: { "line-color": "#10B981", "line-width": 10, "line-opacity": 0.12, "line-blur": 5 },
+          });
+          map.addLayer({
+            id: "grid-ism-line",
+            type: "line",
+            source: "grid-lines",
+            filter: ["==", ["get", "lineType"], "ism"],
+            layout: { visibility: "none" },
+            paint: { "line-color": "#059669", "line-width": 1.5, "line-dasharray": [10, 5], "line-opacity": 0.9 },
+          });
+          map.addLayer({
+            id: "grid-ism-label",
+            type: "symbol",
+            source: "grid-lines",
+            filter: ["==", ["get", "lineType"], "ism"],
+            layout: {
+              visibility: "none",
+              "symbol-placement": "line",
+              "text-field": ["get", "label"],
+              "text-font": ["Open Sans Regular"],
+              "text-size": 10,
+              "text-letter-spacing": 0.1,
+              "symbol-spacing": 500,
+            },
+            paint: {
+              "text-color": "#065F46",
+              "text-halo-color": "rgba(255,255,255,0.92)",
+              "text-halo-width": 1.5,
+            },
+          });
+
+          // ── Lock Crosshair: horizontal + vertical axis lines ──
+          map.addSource("lock-h-line", { type: "geojson", data: { type: "FeatureCollection", features: [] } });
+          map.addSource("lock-v-line", { type: "geojson", data: { type: "FeatureCollection", features: [] } });
+          map.addSource("lock-point-src", { type: "geojson", data: { type: "FeatureCollection", features: [] } });
+
+          // Horizontal glow + line
+          map.addLayer({
+            id: "lock-h-glow",
+            type: "line",
+            source: "lock-h-line",
+            paint: { "line-color": "#6366F1", "line-width": 14, "line-opacity": 0.10, "line-blur": 6 },
+          });
+          map.addLayer({
+            id: "lock-h-line-layer",
+            type: "line",
+            source: "lock-h-line",
+            paint: { "line-color": "#6366F1", "line-width": 1.5, "line-dasharray": [6, 3], "line-opacity": 0.75 },
+          });
+
+          // Vertical glow + line
+          map.addLayer({
+            id: "lock-v-glow",
+            type: "line",
+            source: "lock-v-line",
+            paint: { "line-color": "#8B5CF6", "line-width": 14, "line-opacity": 0.10, "line-blur": 6 },
+          });
+          map.addLayer({
+            id: "lock-v-line-layer",
+            type: "line",
+            source: "lock-v-line",
+            paint: { "line-color": "#8B5CF6", "line-width": 1.5, "line-dasharray": [6, 3], "line-opacity": 0.75 },
+          });
+
+          // Crosshair marker — outer ring
+          map.addLayer({
+            id: "lock-point-ring",
+            type: "circle",
+            source: "lock-point-src",
+            paint: {
+              "circle-radius": 18,
+              "circle-color": "rgba(99,102,241,0)",
+              "circle-stroke-color": "#6366F1",
+              "circle-stroke-width": 2,
+              "circle-stroke-opacity": 0.8,
+            },
+          });
+          // Crosshair marker — inner dot
+          map.addLayer({
+            id: "lock-point-dot",
+            type: "circle",
+            source: "lock-point-src",
+            paint: {
+              "circle-radius": 5,
+              "circle-color": "#6366F1",
+              "circle-stroke-color": "#fff",
+              "circle-stroke-width": 2,
+            },
+          });
+
           setMapReady(true);
         }
       } catch (err) {
@@ -1005,12 +1263,14 @@ export function IndiaMap({
           ? `<strong>${name}</strong><br/><span style="color:#6B7280;font-size:11px">${stateData.capital} &middot; ${stateData.type}</span>`
           : `<strong>${name}</strong>`;
         popupRef.current?.setLngLat(e.lngLat).setHTML(tooltipHtml).addTo(map);
-      } else if (!disableStateSelectionRef.current && hoveredId !== null) {
-        // Clear state hover if not hovering state
+      } else if (hoveredId !== null) {
+        // Clear state hover if not hovering state or if selection is disabled
         map.setFeatureState({ source: "states", id: hoveredId }, { hover: false });
         hoveredId = null;
         onStateHoverRef.current(null);
       }
+
+
 
       // Check parks/mountains/rivers/ranges for their tooltips
       const parkHits = map.getLayer("park-dots")
@@ -1057,8 +1317,23 @@ export function IndiaMap({
       }
     });
 
+    map.on("mouseout", () => {
+      if (hoveredId !== null) {
+        map.setFeatureState({ source: "states", id: hoveredId }, { hover: false });
+        hoveredId = null;
+        onStateHoverRef.current(null);
+      }
+      popupRef.current?.remove();
+    });
+
     // ── Click ──
     map.on("click", (e) => {
+      // Lock mode: set crosshair, skip feature/state selection
+      if (lockModeRef.current && onLockPointRef.current) {
+        onLockPointRef.current([e.lngLat.lng, e.lngLat.lat]);
+        return;
+      }
+
       // Create a 20px bounding box for ultra touch-friendly hit detection
       const bbox: [maplibregl.PointLike, maplibregl.PointLike] = [
         [e.point.x - 20, e.point.y - 20],
@@ -1611,6 +1886,98 @@ export function IndiaMap({
       });
     }
   }, [riverBasin, mapReady]);
+
+  // ── Spatial Sort: update route line and numbered markers ─────────────────
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map || !mapReady) return;
+
+    const lineSource = map.getSource("spatial-sort-line") as maplibregl.GeoJSONSource | undefined;
+    const pointSource = map.getSource("spatial-sort-points") as maplibregl.GeoJSONSource | undefined;
+    if (!lineSource || !pointSource) return;
+
+    if (spatialSortLine.length >= 2) {
+      // Route line
+      lineSource.setData({
+        type: "FeatureCollection",
+        features: [{
+          type: "Feature",
+          properties: {},
+          geometry: { type: "LineString", coordinates: spatialSortLine },
+        }],
+      });
+      // Numbered point markers
+      pointSource.setData({
+        type: "FeatureCollection",
+        features: spatialSortLine.map((coord, i) => ({
+          type: "Feature",
+          properties: { rank: String(i + 1) },
+          geometry: { type: "Point", coordinates: coord },
+        })),
+      });
+    } else {
+      // Clear when fewer than 2 points selected
+      lineSource.setData({ type: "FeatureCollection", features: [] });
+      pointSource.setData({ type: "FeatureCollection", features: [] });
+    }
+  }, [spatialSortLine, mapReady]);
+
+  // ── Grid Lines visibility ────────────────────────────────────────────
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map || !mapReady) return;
+    const vis = (id: string, v: boolean) => {
+      if (map.getLayer(id)) map.setLayoutProperty(id, "visibility", v ? "visible" : "none");
+    };
+    const on = showGridLines;
+    vis("grid-toc-glow", on);
+    vis("grid-toc-line", on);
+    vis("grid-toc-label", on);
+    vis("grid-ism-glow", on);
+    vis("grid-ism-line", on);
+    vis("grid-ism-label", on);
+  }, [showGridLines, mapReady]);
+
+  // ── Lock crosshair: update axis lines + marker ───────────────────────
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map || !mapReady) return;
+
+    const hSrc = map.getSource("lock-h-line") as maplibregl.GeoJSONSource | undefined;
+    const vSrc = map.getSource("lock-v-line") as maplibregl.GeoJSONSource | undefined;
+    const pSrc = map.getSource("lock-point-src") as maplibregl.GeoJSONSource | undefined;
+    if (!hSrc || !vSrc || !pSrc) return;
+
+    if (!lockPoint) {
+      const empty = { type: "FeatureCollection" as const, features: [] };
+      hSrc.setData(empty);
+      vSrc.setData(empty);
+      pSrc.setData(empty);
+      return;
+    }
+
+    const [lng, lat] = lockPoint;
+
+    hSrc.setData({
+      type: "FeatureCollection",
+      features: [{ type: "Feature", properties: {}, geometry: { type: "LineString", coordinates: [[60.0, lat], [100.0, lat]] } }],
+    });
+    vSrc.setData({
+      type: "FeatureCollection",
+      features: [{ type: "Feature", properties: {}, geometry: { type: "LineString", coordinates: [[lng, 4.0], [lng, 40.0]] } }],
+    });
+    pSrc.setData({
+      type: "FeatureCollection",
+      features: [{ type: "Feature", properties: {}, geometry: { type: "Point", coordinates: [lng, lat] } }],
+    });
+  }, [lockPoint, mapReady]);
+
+  // ── Lock mode: change cursor ─────────────────────────────────────────
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map || !mapReady) return;
+    map.getCanvas().style.cursor = lockMode ? "crosshair" : "";
+  }, [lockMode, mapReady]);
 
   return (
     <div ref={containerRef} className="w-full h-full min-h-[400px]" />

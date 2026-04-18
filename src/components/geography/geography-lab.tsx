@@ -30,6 +30,9 @@ import {
   ArrowDown,
   ArrowRight,
   Share2,
+  Grid3x3,
+  LocateFixed,
+  ScanLine,
 } from "lucide-react";
 import { IndiaMap, type MapMode, type LayerVisibility, type BaseMapStyle } from "@/components/geography/india-map";
 import { computeRiverIntersections, computeParkIntersections, type IntersectResult } from "@/lib/geo-intersections";
@@ -488,6 +491,92 @@ function getFeatureCoords(name: string, kind: string): [number, number] | null {
   return null;
 }
 
+// ── Major Indian cities for Lat/Lng Lock alignment ───────────────────────────────
+
+const MAJOR_CITIES: { name: string; coords: [number, number] }[] = [
+  { name: "Delhi", coords: [77.2, 28.6] },
+  { name: "Mumbai", coords: [72.8, 19.1] },
+  { name: "Chennai", coords: [80.3, 13.1] },
+  { name: "Kolkata", coords: [88.4, 22.6] },
+  { name: "Bangalore", coords: [77.6, 13.0] },
+  { name: "Hyderabad", coords: [78.5, 17.4] },
+  { name: "Ahmedabad", coords: [72.6, 23.0] },
+  { name: "Pune", coords: [73.9, 18.5] },
+  { name: "Jaipur", coords: [75.8, 27.0] },
+  { name: "Lucknow", coords: [80.9, 26.8] },
+  { name: "Bhopal", coords: [77.4, 23.3] },
+  { name: "Patna", coords: [85.1, 25.6] },
+  { name: "Bhubaneswar", coords: [85.8, 20.3] },
+  { name: "Nagpur", coords: [79.1, 21.1] },
+  { name: "Varanasi", coords: [83.0, 25.3] },
+  { name: "Agra", coords: [78.0, 27.2] },
+  { name: "Surat", coords: [72.8, 21.2] },
+  { name: "Amritsar", coords: [74.9, 31.6] },
+  { name: "Jodhpur", coords: [73.0, 26.3] },
+  { name: "Visakhapatnam", coords: [83.3, 17.7] },
+  { name: "Kochi", coords: [76.3, 10.0] },
+  { name: "Coimbatore", coords: [77.0, 11.0] },
+  { name: "Mysuru", coords: [76.6, 12.3] },
+  { name: "Raipur", coords: [81.6, 21.3] },
+  { name: "Ranchi", coords: [85.3, 23.4] },
+  { name: "Guwahati", coords: [91.7, 26.2] },
+  { name: "Chandigarh", coords: [76.8, 30.7] },
+  { name: "Dehradun", coords: [78.0, 30.3] },
+  { name: "Shimla", coords: [77.2, 31.1] },
+  { name: "Srinagar", coords: [74.8, 34.1] },
+  { name: "Leh", coords: [77.6, 34.2] },
+  { name: "Thiruvananthapuram", coords: [77.0, 8.5] },
+  { name: "Port Blair", coords: [92.7, 11.7] },
+  { name: "Gangtok", coords: [88.6, 27.3] },
+  { name: "Shillong", coords: [91.9, 25.6] },
+  { name: "Imphal", coords: [93.9, 24.8] },
+  { name: "Dispur (Assam)", coords: [91.8, 26.1] },
+  { name: "Itanagar", coords: [93.6, 27.1] },
+  { name: "Agartala", coords: [91.3, 23.8] },
+  { name: "Aizawl", coords: [92.7, 23.7] },
+  { name: "Kohima", coords: [94.1, 25.7] },
+  { name: "Allahabad", coords: [81.8, 25.4] },
+  { name: "Meerut", coords: [77.7, 28.98] },
+];
+
+type AlignedFeature = { name: string; featureType: string; coords: [number, number]; diff: number };
+
+function findAlignedFeatures(lat: number, lng: number, tol = 0.5) {
+  const sameLat: AlignedFeature[] = [];
+  const sameLng: AlignedFeature[] = [];
+
+  // Cities
+  for (const c of MAJOR_CITIES) {
+    const dLat = Math.abs(c.coords[1] - lat);
+    const dLng = Math.abs(c.coords[0] - lng);
+    if (dLat <= tol) sameLat.push({ name: c.name, featureType: "city", coords: c.coords, diff: dLat });
+    if (dLng <= tol) sameLng.push({ name: c.name, featureType: "city", coords: c.coords, diff: dLng });
+  }
+
+  // National Parks / Reserves
+  for (const f of (NATIONAL_PARKS as any).features) {
+    const [fLng, fLat] = f.geometry.coordinates as [number, number];
+    const dLat = Math.abs(fLat - lat);
+    const dLng = Math.abs(fLng - lng);
+    if (dLat <= tol) sameLat.push({ name: f.properties.name, featureType: "park", coords: [fLng, fLat], diff: dLat });
+    if (dLng <= tol) sameLng.push({ name: f.properties.name, featureType: "park", coords: [fLng, fLat], diff: dLng });
+  }
+
+  // Mountain peaks
+  for (const f of (MOUNTAINS as any).features) {
+    const [fLng, fLat] = f.geometry.coordinates as [number, number];
+    const dLat = Math.abs(fLat - lat);
+    const dLng = Math.abs(fLng - lng);
+    if (dLat <= tol) sameLat.push({ name: f.properties.name, featureType: f.properties.type ?? "peak", coords: [fLng, fLat], diff: dLat });
+    if (dLng <= tol) sameLng.push({ name: f.properties.name, featureType: f.properties.type ?? "peak", coords: [fLng, fLat], diff: dLng });
+  }
+
+  sameLat.sort((a, b) => a.diff - b.diff);
+  sameLng.sort((a, b) => a.diff - b.diff);
+
+  return { sameLat, sameLng };
+}
+
 // ── Main component ───────────────────────────────────────────────────────────────
 
 export function GeographyLab() {
@@ -524,6 +613,11 @@ export function GeographyLab() {
   // Intersect mode
   const [intersectMode, setIntersectMode] = useState(false);
   const [intersectResults, setIntersectResults] = useState<IntersectResult | null>(null);
+
+  // Grid Lines + Lock tool
+  const [showGridLines, setShowGridLines] = useState(false);
+  const [lockMode, setLockMode] = useState(false);
+  const [lockPoint, setLockPoint] = useState<[number, number] | null>(null);
   /** All raw GeoJSON features from the highres rivers file (for intersection computation) */
   const riversAllFeaturesRef = useRef<any[]>([]);
 
@@ -543,6 +637,7 @@ export function GeographyLab() {
   // Side panel state for mobile
   const [showPanel, setShowPanel] = useState(false);
   const [showLayers, setShowLayers] = useState(false);
+  const [showRiverFilterSheet, setShowRiverFilterSheet] = useState(false);
 
   // Load memory
   useEffect(() => {
@@ -645,7 +740,9 @@ export function GeographyLab() {
         .map((m: any) => ({ name: m.properties.name, detail: `${m.properties.elevation}m`, kind: "pass" as const }));
     }
     if (activeFilter === "Protected Areas") {
-      return NATIONAL_PARKS.features.map((m: any) => ({ name: m.properties.name, detail: m.properties.category, kind: "park" as const }));
+      return NATIONAL_PARKS.features
+        .map((m: any) => ({ name: m.properties.name, detail: m.properties.category, kind: "park" as const }))
+        .sort((a, b) => a.name.localeCompare(b.name));
     }
     return [];
   }, [activeFilter, filteredRivers]);
@@ -861,6 +958,16 @@ export function GeographyLab() {
 
   const handleStateHover = useCallback((_name: string | null) => {}, []);
 
+  const handleLockPoint = useCallback((point: [number, number]) => {
+    setLockPoint(point);
+    setLockMode(false); // auto-exit lock-mode after placing pin
+  }, []);
+
+  const alignedFeatures = useMemo(() => {
+    if (!lockPoint) return null;
+    return findAlignedFeatures(lockPoint[1], lockPoint[0]);
+  }, [lockPoint]);
+
   const setTaxonomyFilter = useCallback((filter: string) => {
     setActiveFilter(filter);
     setSelectedRanges(new Set());
@@ -883,34 +990,44 @@ export function GeographyLab() {
   return (
     <div className="flex flex-col h-dvh overflow-hidden bg-[#FAF7F2] relative">
       {/* ── Top bar — compact glass strip ─────────────────────── */}
-      <div className="absolute top-3 left-3 right-3 z-40 flex items-center justify-between gap-2">
-        {/* Left: back + title */}
-        <div className="flex items-center gap-1.5 bg-white/85 backdrop-blur-xl rounded-xl shadow-lg shadow-black/[0.04] border border-white/60 px-2.5 py-2">
+      <div className="absolute top-2 sm:top-3 left-2 right-2 sm:left-3 sm:right-3 z-40 flex items-center justify-between gap-2">
+        {/* Left: back + title (compact on mobile) */}
+        <div className="flex items-center gap-1 sm:gap-1.5 bg-white/85 backdrop-blur-xl rounded-xl shadow-lg shadow-black/[0.04] border border-white/60 px-1.5 sm:px-2.5 py-1.5 sm:py-2 min-w-0">
           <Link
             href="/app"
-            className="w-7 h-7 rounded-lg flex items-center justify-center text-[#9CA3AF] hover:text-[#1A1A1A] hover:bg-[#F0EBE4] transition-colors"
+            className="w-8 h-8 sm:w-7 sm:h-7 rounded-lg flex items-center justify-center text-[#9CA3AF] hover:text-[#1A1A1A] hover:bg-[#F0EBE4] transition-colors shrink-0"
             title="Back to dashboard"
           >
             <ChevronLeft className="w-4 h-4" />
           </Link>
-          <div className="w-6 h-6 rounded-md bg-[#C4784A]/10 flex items-center justify-center">
+          <div className="w-6 h-6 rounded-md bg-[#C4784A]/10 flex items-center justify-center shrink-0">
             <Globe className="w-3.5 h-3.5 text-[#C4784A]" />
           </div>
-          <span className="text-sm font-bold text-[#1A1A1A] hidden sm:block">Geography Lab</span>
+          <span className="text-sm font-bold text-[#1A1A1A] hidden md:block">Geography Lab</span>
         </div>
 
-        {/* Center: mode switcher (segmented control) */}
-        <div className="flex items-center bg-white/85 backdrop-blur-xl rounded-xl shadow-lg shadow-black/[0.04] border border-white/60 p-1">
+        {/* Center: mode switcher (desktop only — on mobile, it's in the bottom tab bar) */}
+        <div className="hidden sm:flex items-center bg-white/85 backdrop-blur-xl rounded-xl shadow-lg shadow-black/[0.04] border border-white/60 p-1">
           <ModePill active={mode === "explore"} icon={<Eye className="w-3.5 h-3.5" />} label="Explore" onClick={() => setMode("explore")} />
           <ModePill active={mode === "quiz"} icon={<Crosshair className="w-3.5 h-3.5" />} label="Quiz" onClick={() => setMode("quiz")} />
           <ModePill active={mode === "review"} icon={<Brain className="w-3.5 h-3.5" />} label="Review" onClick={() => setMode("review")} />
         </div>
 
-        {/* Right: layer toggle + panel toggle */}
-        <div className="flex items-center gap-1 bg-white/85 backdrop-blur-xl rounded-xl shadow-lg shadow-black/[0.04] border border-white/60 px-1.5 py-1.5">
+        {/* Right: action icons (layers, intersect, filters, info) */}
+        <div className="flex items-center gap-0.5 sm:gap-1 bg-white/85 backdrop-blur-xl rounded-xl shadow-lg shadow-black/[0.04] border border-white/60 px-1 sm:px-1.5 py-1 sm:py-1.5">
+          {/* River filter shortcut on mobile */}
+          {activeFilter === "Rivers" && (
+            <button
+              onClick={() => setShowRiverFilterSheet(true)}
+              className="sm:hidden w-9 h-9 rounded-lg flex items-center justify-center text-[#C4784A] hover:bg-[#C4784A]/10 transition-colors"
+              title="River filters"
+            >
+              <Droplets className="w-4 h-4" />
+            </button>
+          )}
           <button
             onClick={() => setShowLayers(!showLayers)}
-            className={`rounded-lg p-1.5 transition-colors ${
+            className={`w-9 h-9 sm:w-auto sm:h-auto rounded-lg sm:p-1.5 flex items-center justify-center transition-colors ${
               showLayers ? "bg-[#C4784A]/10 text-[#C4784A]" : "text-[#9CA3AF] hover:text-[#1A1A1A]"
             }`}
             title="Toggle layers"
@@ -926,7 +1043,7 @@ export function GeographyLab() {
                   return !prev;
                 });
               }}
-              className={`rounded-lg p-1.5 transition-colors ${
+              className={`w-9 h-9 sm:w-auto sm:h-auto rounded-lg sm:p-1.5 flex items-center justify-center transition-colors ${
                 intersectMode
                   ? "bg-amber-100 text-amber-600 ring-1 ring-amber-300"
                   : "text-[#9CA3AF] hover:text-[#1A1A1A]"
@@ -936,10 +1053,10 @@ export function GeographyLab() {
               <Share2 className="w-4 h-4" />
             </button>
           )}
-          {(mode !== "explore" || selectedState) && (
+          {(mode !== "explore" || selectedState || selectedFeature) && (
             <button
               onClick={() => setShowPanel(!showPanel)}
-              className="lg:hidden rounded-lg p-1.5 text-[#9CA3AF] hover:text-[#1A1A1A] transition-colors"
+              className="lg:hidden w-9 h-9 sm:w-auto sm:h-auto rounded-lg sm:p-1.5 flex items-center justify-center text-[#9CA3AF] hover:text-[#1A1A1A] transition-colors"
             >
               <Info className="w-4 h-4" />
             </button>
@@ -948,32 +1065,35 @@ export function GeographyLab() {
       </div>
 
       {/* ── Taxonomy Filters — pill strip ── */}
-      <div className="absolute top-16 left-3 z-30 flex items-center gap-1 bg-white/80 backdrop-blur-xl rounded-xl shadow-lg shadow-black/[0.04] border border-white/60 p-1 overflow-x-auto scrollbar-hide pointer-events-auto">
-        {[
-          { key: "All", label: "All", icon: <Globe className="w-3 h-3" /> },
-          { key: "Rivers", label: "Rivers", icon: <Droplets className="w-3 h-3" /> },
-          { key: "Himalayas", label: "Himalayas", icon: <Mountain className="w-3 h-3" /> },
-          { key: "Peninsular", label: "Peninsular", icon: <Mountain className="w-3 h-3" /> },
-          { key: "Passes", label: "Passes", icon: <MapIcon className="w-3 h-3" /> },
-          { key: "Protected Areas", label: "Parks", icon: <TreePine className="w-3 h-3" /> },
-        ].map((f) => (
-          <button
-            key={f.key}
-            onClick={() => setTaxonomyFilter(f.key)}
-            className={`flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-xs font-semibold whitespace-nowrap transition-all duration-150 ${
-              activeFilter === f.key
-                ? "bg-[#C4784A] text-white shadow-sm"
-                : "text-[#6B7280] hover:text-[#1A1A1A] hover:bg-white/60"
-            }`}
-          >
-            {f.icon}
-            {f.label}
-          </button>
-        ))}
+      <div className="absolute top-[3.25rem] sm:top-16 left-0 right-0 sm:left-3 sm:right-auto z-30 pointer-events-none">
+        <div className="flex items-center gap-1 bg-white/80 backdrop-blur-xl sm:rounded-xl shadow-lg shadow-black/[0.04] border-y sm:border border-white/60 p-1 overflow-x-auto scrollbar-hide pointer-events-auto mx-2 sm:mx-0 rounded-xl">
+          {[
+            { key: "All", label: "All", icon: <Globe className="w-3 h-3" /> },
+            { key: "Rivers", label: "Rivers", icon: <Droplets className="w-3 h-3" /> },
+            { key: "Himalayas", label: "Himalayas", icon: <Mountain className="w-3 h-3" /> },
+            { key: "Peninsular", label: "Peninsular", icon: <Mountain className="w-3 h-3" /> },
+            { key: "Passes", label: "Passes", icon: <MapIcon className="w-3 h-3" /> },
+            { key: "Protected Areas", label: "Parks", icon: <TreePine className="w-3 h-3" /> },
+          ].map((f) => (
+            <button
+              key={f.key}
+              onClick={() => setTaxonomyFilter(f.key)}
+              className={`flex items-center gap-1.5 px-3 py-2 sm:px-2.5 sm:py-1.5 rounded-lg text-xs font-semibold whitespace-nowrap transition-all duration-150 shrink-0 ${
+                activeFilter === f.key
+                  ? "bg-[#C4784A] text-white shadow-sm"
+                  : "text-[#6B7280] hover:text-[#1A1A1A] hover:bg-white/60"
+              }`}
+            >
+              {f.icon}
+              {f.label}
+            </button>
+          ))}
+        </div>
       </div>
 
+      {/* ── Rivers filter — inline on desktop, bottom sheet on mobile ── */}
       {activeFilter === "Rivers" && (
-        <div className="absolute top-[6.5rem] left-3 z-30 pointer-events-auto">
+        <div className="hidden sm:block absolute top-[6.5rem] left-3 z-30 pointer-events-auto">
           {showRiverConfig ? (
             <div className="flex items-center gap-3 bg-white/85 backdrop-blur-xl p-2.5 pr-3 rounded-xl border border-white/60 shadow-lg shadow-black/[0.04] animate-in slide-in-from-top-2 fade-in duration-200">
               <div className="flex items-center gap-2 min-w-[10rem]">
@@ -1019,9 +1139,77 @@ export function GeographyLab() {
         </div>
       )}
 
+      {/* ── Mobile river filter bottom sheet ── */}
+      {activeFilter === "Rivers" && showRiverFilterSheet && (
+        <>
+          <div
+            className="sm:hidden fixed inset-0 z-40 bg-black/20 animate-in fade-in duration-200"
+            onClick={() => setShowRiverFilterSheet(false)}
+          />
+          <div className="sm:hidden fixed bottom-0 left-0 right-0 z-50 bg-white rounded-t-2xl shadow-[0_-4px_30px_rgba(0,0,0,0.08)] animate-in slide-in-from-bottom-4 duration-200 pb-[max(1rem,env(safe-area-inset-bottom))]">
+            <div className="w-10 h-1 bg-[#D1D5DB] rounded-full mx-auto mt-3 mb-2" />
+            <div className="px-4 pb-2 flex items-center justify-between">
+              <div className="flex items-center gap-2">
+                <Droplets className="w-4 h-4 text-[#C4784A]" />
+                <h3 className="text-sm font-bold text-[#1A1A1A]">River Filters</h3>
+              </div>
+              <button
+                onClick={() => setShowRiverFilterSheet(false)}
+                className="rounded-md p-1.5 text-[#9CA3AF] hover:text-[#1A1A1A]"
+              >
+                <X className="w-4 h-4" />
+              </button>
+            </div>
+            <div className="px-4 py-3 space-y-4">
+              <div>
+                <div className="flex items-center justify-between mb-2">
+                  <label className="text-[11px] font-bold text-[#6B7280] uppercase tracking-wider">Detail Level</label>
+                  <span className="text-xs font-bold text-[#C4784A] tabular-nums">Level {riverLevel}</span>
+                </div>
+                <input
+                  type="range" min="1" max="5"
+                  value={riverLevel}
+                  onChange={(e) => setRiverLevel(Number(e.target.value))}
+                  className="w-full accent-[#C4784A] h-2"
+                />
+                <div className="flex justify-between text-[10px] text-[#9CA3AF] mt-1 px-0.5">
+                  <span>Major</span>
+                  <span>All</span>
+                </div>
+              </div>
+              <div>
+                <label className="text-[11px] font-bold text-[#6B7280] uppercase tracking-wider block mb-2">Basin</label>
+                <select
+                  value={riverBasin}
+                  onChange={(e) => setRiverBasin(e.target.value)}
+                  className="w-full bg-[#FAF7F2] border border-[#E5E0DA] rounded-lg px-3 py-2.5 text-sm font-semibold text-[#1A1A1A] focus:outline-none focus:border-[#C4784A]"
+                >
+                  <option value="All">All Basins</option>
+                  <option value="Ganga Basin">Ganga</option>
+                  <option value="Indus Basin">Indus</option>
+                  <option value="Brahmaputra Basin">Brahmaputra</option>
+                  <option value="Godavari Basin">Godavari</option>
+                  <option value="Krishna Basin">Krishna</option>
+                  <option value="Narmada Basin">Narmada</option>
+                  <option value="Mahanadi Basin">Mahanadi</option>
+                  <option value="Kaveri Basin">Kaveri</option>
+                  <option value="Peninsular Rivers">Peninsular</option>
+                </select>
+              </div>
+              <button
+                onClick={() => setShowRiverFilterSheet(false)}
+                className="w-full rounded-xl bg-[#C4784A] text-white text-sm font-semibold py-3 hover:bg-[#B06838] active:scale-[0.98] transition-all"
+              >
+                Done
+              </button>
+            </div>
+          </div>
+        </>
+      )}
+
       {/* ── Layer controls — compact floating card ──────────────── */}
       {showLayers && (
-        <div className="absolute bottom-4 left-3 z-40 bg-white/90 backdrop-blur-xl rounded-xl shadow-lg shadow-black/[0.06] border border-white/60 p-2.5 animate-in slide-in-from-bottom-4 fade-in duration-200 w-[max-content] max-w-[calc(100vw-1.5rem)]">
+        <div className="absolute bottom-[5rem] sm:bottom-4 left-3 right-3 sm:right-auto z-40 bg-white/95 backdrop-blur-xl rounded-xl shadow-lg shadow-black/[0.06] border border-white/60 p-2.5 animate-in slide-in-from-bottom-4 fade-in duration-200 sm:w-[max-content] sm:max-w-[calc(100vw-1.5rem)]">
           {/* Base map toggle */}
           <div className="flex items-center gap-1 rounded-lg bg-[#F3F4F6] p-0.5 mb-2">
             <button
@@ -1057,6 +1245,35 @@ export function GeographyLab() {
             <LayerToggle icon={<Mountain className="w-3 h-3" />} label="Ranges" active={layers.ranges} onToggle={() => toggleLayer("ranges")} />
             <LayerToggle icon={<TreePine className="w-3 h-3" />} label="Parks" active={layers.parks} onToggle={() => toggleLayer("parks")} />
             <LayerToggle icon={<Tags className="w-3 h-3" />} label="Labels" active={layers.stateLabels} onToggle={() => toggleLayer("stateLabels")} />
+          </div>
+
+          {/* Grid Lines + Lock tool */}
+          <div className="mt-2 pt-2 border-t border-[#E5E0DA]/60">
+            <p className="text-[9px] font-bold text-[#9CA3AF] uppercase tracking-wider mb-1.5">Reference Tools</p>
+            <div className="flex gap-1">
+              <LayerToggle icon={<Grid3x3 className="w-3 h-3" />} label="Grid Lines" active={showGridLines} onToggle={() => setShowGridLines(g => !g)} />
+              <LayerToggle
+                icon={<LocateFixed className="w-3 h-3" />}
+                label={lockMode ? "Click map…" : lockPoint ? "Lock ✓" : "Lat/Lng Lock"}
+                active={lockMode || !!lockPoint}
+                onToggle={() => {
+                  if (lockPoint) { setLockPoint(null); setLockMode(false); }
+                  else setLockMode(l => !l);
+                }}
+              />
+            </div>
+            {showGridLines && (
+              <div className="mt-1.5 space-y-1">
+                <div className="flex items-center gap-1.5 text-[10px] text-[#92400E]">
+                  <span className="inline-block w-5 border-t-2 border-dashed border-[#D97706]" />
+                  Tropic of Cancer — 23.5°N
+                </div>
+                <div className="flex items-center gap-1.5 text-[10px] text-[#065F46]">
+                  <span className="inline-block w-5 border-t-2 border-dashed border-[#059669]" />
+                  Indian Standard Meridian — 82.5°E
+                </div>
+              </div>
+            )}
           </div>
         </div>
       )}
@@ -1125,19 +1342,38 @@ export function GeographyLab() {
             hiddenPeaks={Array.from(hiddenPeaks)}
             layers={layers}
             selectedRanges={Array.from(selectedRanges)}
+            spatialSortLine={spatialSortLine}
             intersectMode={intersectMode}
             intersectFocusName={intersectResults?.focusName ?? null}
             intersectFocusType={intersectResults?.focusType}
             intersectingParkNames={intersectResults?.parks.map((p) => p.name) ?? []}
             intersectingRangeNames={intersectResults?.ranges.map((r) => r.name) ?? []}
+            showGridLines={showGridLines}
+            lockPoint={lockPoint}
+            lockMode={lockMode}
+            onLockPoint={handleLockPoint}
             onStateClick={handleStateClick}
             onStateHover={handleStateHover}
             onFeatureClick={handleFeatureClick}
           />
 
+          {/* ── Lock mode instruction banner ── */}
+          {lockMode && (
+            <div className="absolute top-3 left-1/2 -translate-x-1/2 z-30 flex items-center gap-2 rounded-full bg-[#6366F1] px-4 py-2 shadow-lg animate-in fade-in zoom-in-95 duration-200">
+              <ScanLine className="w-3.5 h-3.5 text-white shrink-0" />
+              <span className="text-[11px] font-semibold text-white whitespace-nowrap">Click anywhere to lock the axis</span>
+              <button
+                onClick={() => setLockMode(false)}
+                className="ml-1 rounded-full bg-white/20 p-0.5 hover:bg-white/30 transition-colors"
+              >
+                <X className="w-3 h-3 text-white" />
+              </button>
+            </div>
+          )}
+
           {/* ── Floating map legend ── */}
           {activeFilter === "Protected Areas" && (
-            <div className="absolute bottom-14 right-3 z-20 bg-white/90 backdrop-blur-xl rounded-lg shadow-lg shadow-black/[0.04] border border-white/60 px-3 py-2 space-y-1.5 animate-in fade-in duration-200">
+            <div className="absolute bottom-[5.5rem] sm:bottom-14 left-3 sm:left-auto sm:right-3 z-20 bg-white/90 backdrop-blur-xl rounded-lg shadow-lg shadow-black/[0.04] border border-white/60 px-3 py-2 space-y-1.5 animate-in fade-in duration-200">
               <p className="text-[9px] font-bold text-[#9CA3AF] uppercase tracking-wider">Legend</p>
               {[
                 { color: "#16A34A", label: "National Park" },
@@ -1154,7 +1390,7 @@ export function GeographyLab() {
           )}
 
           {(activeFilter === "Himalayas" || activeFilter === "Passes") && (
-            <div className="absolute bottom-14 right-3 z-20 bg-white/90 backdrop-blur-xl rounded-lg shadow-lg shadow-black/[0.04] border border-white/60 px-3 py-2 space-y-1.5 animate-in fade-in duration-200">
+            <div className="absolute bottom-[5.5rem] sm:bottom-14 left-3 sm:left-auto sm:right-3 z-20 bg-white/90 backdrop-blur-xl rounded-lg shadow-lg shadow-black/[0.04] border border-white/60 px-3 py-2 space-y-1.5 animate-in fade-in duration-200">
               <p className="text-[9px] font-bold text-[#9CA3AF] uppercase tracking-wider">Legend</p>
               {[
                 { color: "#D97706", label: "Mountain Peak" },
@@ -1191,6 +1427,96 @@ export function GeographyLab() {
               >
                 <X className="w-4 h-4" />
               </button>
+            )}
+
+            {/* ── Lat/Lng Lock panel ── */}
+            {lockPoint && alignedFeatures && (
+              <div className="animate-in fade-in duration-200">
+                <div className="flex items-center justify-between mb-3">
+                  <div className="flex items-center gap-2">
+                    <div className="w-7 h-7 rounded-lg bg-[#EEF2FF] flex items-center justify-center">
+                      <ScanLine className="w-3.5 h-3.5 text-[#6366F1]" />
+                    </div>
+                    <div>
+                      <p className="text-xs font-bold text-[#1A1A1A]">Lat / Lng Lock</p>
+                      <p className="text-[10px] text-[#6B7280] font-mono">
+                        {lockPoint[1].toFixed(2)}°N, {lockPoint[0].toFixed(2)}°E
+                      </p>
+                    </div>
+                  </div>
+                  <button
+                    onClick={() => { setLockPoint(null); setLockMode(false); }}
+                    className="rounded-md p-1 text-[#9CA3AF] hover:text-[#1A1A1A] hover:bg-[#F0EBE4] transition-colors"
+                  >
+                    <X className="w-3.5 h-3.5" />
+                  </button>
+                </div>
+
+                {/* Same Latitude */}
+                <div className="mb-3">
+                  <div className="flex items-center gap-1.5 mb-2">
+                    <span className="inline-block w-4 border-t-2 border-dashed border-[#6366F1]" />
+                    <p className="text-[10px] font-bold text-[#6366F1] uppercase tracking-wider">
+                      Same Latitude (~{lockPoint[1].toFixed(1)}°N)
+                    </p>
+                  </div>
+                  {alignedFeatures.sameLat.length === 0 ? (
+                    <p className="text-[11px] text-[#9CA3AF] italic px-1">No major features at this latitude</p>
+                  ) : (
+                    <div className="space-y-1">
+                      {alignedFeatures.sameLat.slice(0, 12).map((f, i) => (
+                        <div key={i} className="flex items-center justify-between rounded-lg px-2 py-1 hover:bg-[#F9F5FF] transition-colors">
+                          <div className="flex items-center gap-2 min-w-0">
+                            <span className="text-[10px] shrink-0">
+                              {f.featureType === "city" ? "🏙️" : f.featureType === "park" ? "🌿" : f.featureType === "pass" ? "🏔️" : "⛰️"}
+                            </span>
+                            <span className="text-[11px] font-medium text-[#1A1A1A] truncate">{f.name}</span>
+                          </div>
+                          <span className="text-[9px] text-[#9CA3AF] font-mono shrink-0 ml-1">
+                            {f.coords[1].toFixed(1)}°N
+                          </span>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </div>
+
+                {/* Same Longitude */}
+                <div>
+                  <div className="flex items-center gap-1.5 mb-2">
+                    <span className="inline-block w-4 border-l-2 border-dashed border-[#8B5CF6] h-4" />
+                    <p className="text-[10px] font-bold text-[#8B5CF6] uppercase tracking-wider">
+                      Same Longitude (~{lockPoint[0].toFixed(1)}°E)
+                    </p>
+                  </div>
+                  {alignedFeatures.sameLng.length === 0 ? (
+                    <p className="text-[11px] text-[#9CA3AF] italic px-1">No major features at this longitude</p>
+                  ) : (
+                    <div className="space-y-1">
+                      {alignedFeatures.sameLng.slice(0, 12).map((f, i) => (
+                        <div key={i} className="flex items-center justify-between rounded-lg px-2 py-1 hover:bg-[#F5F3FF] transition-colors">
+                          <div className="flex items-center gap-2 min-w-0">
+                            <span className="text-[10px] shrink-0">
+                              {f.featureType === "city" ? "🏙️" : f.featureType === "park" ? "🌿" : f.featureType === "pass" ? "🏔️" : "⛰️"}
+                            </span>
+                            <span className="text-[11px] font-medium text-[#1A1A1A] truncate">{f.name}</span>
+                          </div>
+                          <span className="text-[9px] text-[#9CA3AF] font-mono shrink-0 ml-1">
+                            {f.coords[0].toFixed(1)}°E
+                          </span>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </div>
+
+                <button
+                  onClick={() => setLockMode(true)}
+                  className="mt-3 w-full flex items-center justify-center gap-1.5 rounded-lg border border-[#E5E0DA] px-3 py-1.5 text-[11px] font-semibold text-[#6B7280] hover:bg-[#FAF7F2] hover:text-[#1A1A1A] transition-colors"
+                >
+                  <LocateFixed className="w-3 h-3" /> Click new location
+                </button>
+              </div>
             )}
 
             {mode === "explore" && selectedStateData && (
@@ -1374,15 +1700,15 @@ export function GeographyLab() {
                             setSpatialSelection(new Set());
                           }
                         }}
-                        className={`flex items-center gap-1 px-2 py-1 rounded-lg text-[10px] font-semibold transition-all ${
+                        className={`flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-[11px] font-bold transition-all ${
                           spatialSortDir
                             ? "bg-[#C4784A] text-white shadow-sm"
-                            : "text-[#6B7280] hover:text-[#1A1A1A] hover:bg-[#F3F4F6] border border-[#E5E0DA]"
+                            : "text-[#C4784A] bg-[#C4784A]/10 hover:bg-[#C4784A]/20 border border-[#C4784A]/30"
                         }`}
                         title="Spatial Sort — select items and sort by position"
                       >
-                        <ArrowUpDown className="w-3 h-3" />
-                        <span className="hidden sm:inline">Sort</span>
+                        <ArrowUpDown className="w-3.5 h-3.5" />
+                        <span>Sort</span>
                       </button>
                     </div>
                   </div>
@@ -1652,6 +1978,31 @@ export function GeographyLab() {
       {showPanel && (
         <div className="lg:hidden fixed inset-0 z-40 bg-black/20" onClick={() => setShowPanel(false)} />
       )}
+
+      {/* ── Mobile bottom tab bar — mode switcher ─────────────── */}
+      <div className="sm:hidden fixed bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-xl border-t border-[#E5E0DA] pb-[env(safe-area-inset-bottom)]">
+        <div className="flex items-center justify-around px-2 py-1.5">
+          {[
+            { key: "explore" as const, icon: <Eye className="w-5 h-5" />, label: "Explore" },
+            { key: "quiz" as const, icon: <Crosshair className="w-5 h-5" />, label: "Quiz" },
+            { key: "review" as const, icon: <Brain className="w-5 h-5" />, label: "Review" },
+          ].map((tab) => {
+            const active = mode === tab.key;
+            return (
+              <button
+                key={tab.key}
+                onClick={() => setMode(tab.key)}
+                className={`flex flex-col items-center justify-center gap-0.5 flex-1 py-1.5 rounded-lg transition-all active:scale-95 ${
+                  active ? "text-[#C4784A]" : "text-[#9CA3AF]"
+                }`}
+              >
+                <span className={active ? "" : ""}>{tab.icon}</span>
+                <span className="text-[10px] font-semibold">{tab.label}</span>
+              </button>
+            );
+          })}
+        </div>
+      </div>
 
       {flashState === "incorrect" && (
         <div className="fixed inset-0 z-50 pointer-events-none bg-red-500/15 animate-in fade-in duration-100" />
