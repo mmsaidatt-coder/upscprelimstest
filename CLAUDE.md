@@ -80,7 +80,7 @@ Schema defined in `supabase/migrations/` (001: initial schema, 002: PYQ metadata
 ### Routing
 
 **Marketing pages** (public, server components):
-- `/`, `/platform`, `/pricing`, `/flt`, `/subject-wise`, `/analytics`, `/pyq`
+- `/`, `/platform`, `/flt`, `/subject-wise`, `/analytics`, `/pyq`
 - `/pyq/analyse` — Year-wise PYQ analysis dashboard (Recharts, mock data)
 - `/pyq/subject-analyse` — Subject-wise topic breakdown (Recharts, mock data + live API)
 - `/pyq/sectional` — Sectional PYQ analysis
