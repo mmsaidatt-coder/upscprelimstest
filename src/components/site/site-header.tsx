@@ -100,7 +100,15 @@ export function SiteHeader() {
           </span>
         </Link>
 
-        <HeaderAccountLink />
+        <div className="flex items-center gap-6">
+          <Link
+            href="/feedback"
+            className="text-sm font-semibold text-[var(--muted)] hover:text-[var(--accent)] transition-colors shrink-0"
+          >
+            Feedback
+          </Link>
+          <HeaderAccountLink />
+        </div>
       </div>
     </header>
   );

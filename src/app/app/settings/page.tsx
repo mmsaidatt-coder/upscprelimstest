@@ -12,11 +12,13 @@ type AccountProfile = {
   provider: string | null;
   createdAt: string | null;
   lastSignInAt: string | null;
+  anonymousName: string | null;
 };
 
 type ProfileRow = {
   display_name: string | null;
   avatar_url: string | null;
+  anonymous_name: string | null;
 };
 
 function readMetadataString(
@@ -82,6 +84,7 @@ function buildAccountProfile(user: User, profile: ProfileRow | null): AccountPro
     provider: getProvider(user),
     createdAt: user.created_at ?? null,
     lastSignInAt: user.last_sign_in_at ?? null,
+    anonymousName: profile?.anonymous_name ?? null,
   };
 }
 
@@ -106,7 +109,7 @@ export default function SettingsPage() {
 
       const { data: profile } = await supabase
         .from("profiles")
-        .select("display_name, avatar_url")
+        .select("display_name, avatar_url, anonymous_name")
         .eq("id", data.user.id)
         .maybeSingle<ProfileRow>();
 
@@ -149,6 +152,29 @@ export default function SettingsPage() {
         </section>
       </div>
     );
+  }
+
+  // We should import updateAnonymousName somehow, but we are inside a client component and standard forms can post to server actions 
+  // imported directly. However, we didn't import it at the top. Let's do it via native fetch or by importing.
+  // Actually, we can just do a supabase call directly here since it's a client component, or use an action. Let's do supabase call directly for simplicity as the RLS is set up.
+
+  async function handleUpdateAnonymousName(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    const formData = new FormData(e.currentTarget);
+    const newName = formData.get("anonymous_name") as string;
+    
+    // Quick inline update
+    const supabase = createClient();
+    const { data: { user } } = await supabase.auth.getUser();
+    if (user && newName.trim()) {
+      const { error } = await supabase.from("profiles").update({ anonymous_name: newName.trim() }).eq("id", user.id);
+      if (!error) {
+        setAccountProfile(prev => prev ? { ...prev, anonymousName: newName.trim() } : null);
+        alert("Anonymous name updated successfully!");
+      } else {
+        alert("Failed to update anonymous name. It might be taken.");
+      }
+    }
   }
 
   return (
@@ -200,6 +226,29 @@ export default function SettingsPage() {
             </div>
           ))}
         </div>
+      </section>
+
+      <section className="card p-4 border border-[var(--border)] sm:p-6">
+        <h2 className="text-base font-bold text-[var(--foreground)] sm:text-lg">Community Forum Profile</h2>
+        <p className="mt-2 text-sm leading-6 text-[var(--muted)] mb-5">
+          By default, you are anonymous on the community forum. You can set a unique anonymous name to build a reputation without revealing your real identity.
+        </p>
+        <form onSubmit={handleUpdateAnonymousName} className="flex flex-col sm:flex-row items-end gap-4">
+          <div className="w-full sm:flex-1 space-y-2">
+            <label htmlFor="anonymous_name" className="text-xs uppercase tracking-widest text-[var(--muted)] font-medium">Anonymous Name</label>
+            <input 
+              type="text" 
+              name="anonymous_name" 
+              id="anonymous_name" 
+              defaultValue={accountProfile?.anonymousName || ""} 
+              placeholder="e.g. UPSC_Ninja" 
+              className="w-full bg-[var(--background-secondary)] px-4 py-3 rounded-lg border border-[var(--border)] focus:border-[var(--accent)] outline-none"
+            />
+          </div>
+          <button type="submit" className="w-full sm:w-auto bg-[var(--accent)] text-white px-6 py-3 rounded-lg font-bold hover:bg-[var(--accent-hover)] transition-colors">
+            Save
+          </button>
+        </form>
       </section>
 
       <section className="card p-4 border border-[var(--border)] sm:p-6">

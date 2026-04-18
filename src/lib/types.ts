@@ -125,3 +125,39 @@ export type BookmarkEntry = {
   year?: number | null;
   savedAt: string;
 };
+
+export type Community = {
+  id: string;
+  slug: string;
+  name: string;
+  description: string;
+  createdBy: string | null;
+  createdAt: string;
+};
+
+export type CommunityPost = {
+  id: string;
+  communityId: string;
+  userId: string | null;
+  title: string;
+  content: string;
+  createdAt: string;
+  // Computed/Joined fields
+  authorName?: string;
+  communityName?: string;
+  communitySlug?: string;
+  upvotes: number;
+  commentCount: number;
+};
+
+export type CommunityComment = {
+  id: string;
+  postId: string;
+  userId: string | null;
+  parentId: string | null;
+  content: string;
+  createdAt: string;
+  // Computed/Joined fields
+  authorName?: string;
+  upvotes: number;
+};

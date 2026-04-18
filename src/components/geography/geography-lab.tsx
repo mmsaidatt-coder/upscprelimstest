@@ -1429,6 +1429,71 @@ export function GeographyLab() {
                   )}
                 </div>
                 <div className="flex-1 overflow-y-auto -mx-1">
+                  {spatialSortDir ? (
+                    /* ── SPATIAL SORT MODE ── */
+                    <>
+                      {spatialSortedItems.length > 0 && (
+                        <p className="px-2 pt-1 pb-1.5 text-[9px] font-bold uppercase tracking-wider text-[#C4784A]">
+                          {spatialSortDir === "ns" ? "North → South" : "East → West"}
+                        </p>
+                      )}
+                      {(() => {
+                        const unselected = displayFeaturesList.filter(r => !spatialSelection.has(r.name));
+                        const rows: { name: string; detail: string; kind: string; divider?: boolean }[] = [
+                          ...spatialSortedItems,
+                          ...(spatialSortedItems.length > 0 && unselected.length > 0
+                            ? [{ name: "__divider__", detail: "", kind: "divider", divider: true }]
+                            : []),
+                          ...unselected,
+                        ];
+                        return rows.map(r => {
+                          if (r.divider) {
+                            return <div key="__divider__" className="my-2 mx-2 border-t border-dashed border-[#E5E0DA]" />;
+                          }
+                          const rank = spatialRankMap.get(r.name);
+                          const isChecked = spatialSelection.has(r.name);
+                          return (
+                            <button
+                              key={r.name}
+                              onClick={() => {
+                                const s = new Set(spatialSelection);
+                                if (s.has(r.name)) s.delete(r.name); else s.add(r.name);
+                                setSpatialSelection(s);
+                              }}
+                              className={`w-full flex items-center gap-2 px-2 py-1.5 rounded-lg transition-all text-left group ${
+                                isChecked
+                                  ? "bg-[#C4784A]/[0.06] border border-[#C4784A]/20"
+                                  : "border border-transparent hover:bg-[#FAF7F2]"
+                              }`}
+                            >
+                              <div className="relative flex items-center justify-center w-3.5 h-3.5 shrink-0">
+                                <input type="checkbox" checked={isChecked} readOnly
+                                  className="peer appearance-none w-3.5 h-3.5 border-2 rounded-[3px] bg-white border-[#C4784A] checked:bg-[#C4784A] checked:border-[#C4784A] transition-all cursor-pointer"
+                                />
+                                <Check className="absolute w-2.5 h-2.5 text-white opacity-0 peer-checked:opacity-100 pointer-events-none" />
+                              </div>
+                              {rank != null && (
+                                <span className="w-5 h-5 rounded-full bg-[#C4784A] text-white text-[10px] font-bold flex items-center justify-center shrink-0 tabular-nums">
+                                  {rank}
+                                </span>
+                              )}
+                              <div className="flex-1 min-w-0">
+                                <span className={`text-xs font-medium truncate block transition-colors ${
+                                  isChecked ? "text-[#C4784A] font-semibold" : "text-[#1A1A1A] group-hover:text-[#C4784A]"
+                                }`}>{r.name}</span>
+                              </div>
+                              <span className="text-[9px] text-[#9CA3AF] tabular-nums shrink-0">{r.detail}</span>
+                            </button>
+                          );
+                        });
+                      })()}
+                      {displayFeaturesList.length === 0 && (
+                        <div className="text-center py-6 text-xs text-[#9CA3AF]">No items to sort.</div>
+                      )}
+                    </>
+                  ) : (
+                    /* ── NORMAL MODE ── */
+                    <>
                   {/* Section header for Ranges */}
                   {(activeFilter === "Himalayas" || activeFilter === "Peninsular") && (
                     <div className="flex items-center justify-between mb-1">
@@ -1560,6 +1625,8 @@ export function GeographyLab() {
                     <div className="text-center py-6 text-xs text-[#9CA3AF]">
                       No items match these filters.
                     </div>
+                  )}
+                    </>
                   )}
                 </div>
               </div>

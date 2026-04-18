@@ -15,6 +15,8 @@ import {
   Bookmark,
   ChevronRight,
   User,
+  MessageSquarePlus,
+  Users,
 } from "lucide-react";
 
 // ── Navigation structure ──────────────────────────────────────────────────────
@@ -70,6 +72,18 @@ const mainNavigation: NavEntry[] = [
     label: "Bookmarks",
     icon: <Bookmark className="w-5 h-5 flex-shrink-0" strokeWidth={2.2} />,
     matchPrefix: "/app/bookmarks",
+  } as NavItem,
+  {
+    href: "/app/forum",
+    label: "Community Forum",
+    icon: <Users className="w-5 h-5 flex-shrink-0" strokeWidth={2.2} />,
+    matchPrefix: "/app/forum",
+  } as NavItem,
+  {
+    href: "/feedback",
+    label: "Feedback",
+    icon: <MessageSquarePlus className="w-5 h-5 flex-shrink-0" strokeWidth={2.2} />,
+    matchPrefix: "/feedback",
   } as NavItem,
 ];
 
