@@ -3,13 +3,23 @@ import type { MetadataRoute } from "next";
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: [
-      // Default: allow all public pages, block app routes
+      // Let crawlers read page-level noindex directives. Blocking /app here
+      // would prevent those directives from being seen and can leave bare URLs
+      // in search results.
       {
         userAgent: "*",
         allow: "/",
-        disallow: ["/app", "/api/account", "/api/attempts"],
+        disallow: [
+          "/api/account",
+          "/api/attempts",
+          "/api/bookmarks",
+          "/api/feedback",
+          "/api/pyq/import",
+          "/auth/",
+        ],
       },
-      // AI search bots — explicitly welcome, point to public APIs and content
+      // AI search/retrieval crawlers may access public pages and the public
+      // machine-readable question APIs. Sensitive/user-specific APIs stay out.
       ...[
         "GPTBot",
         "ChatGPT-User",
@@ -32,10 +42,20 @@ export default function robots(): MetadataRoute.Robots {
           "/api/subject-blueprint",
           "/api/topic-questions",
         ],
-        disallow: ["/app", "/api/account", "/api/attempts", "/api/pyq/import"],
+        disallow: [
+          "/api/account",
+          "/api/attempts",
+          "/api/bookmarks",
+          "/api/feedback",
+          "/api/pyq/import",
+          "/auth/",
+        ],
       })),
     ],
-    sitemap: "https://upscprelimstest.com/sitemap.xml",
-    host: "https://upscprelimstest.com",
+    sitemap: [
+      "https://upscprelimstest.com/sitemap.xml",
+      "https://upscprelimstest.com/question/sitemap.xml",
+    ],
+    host: "upscprelimstest.com",
   };
 }
