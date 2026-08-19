@@ -1,13 +1,10 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { fetchAllPages } from "@/lib/supabase/fetch-all-pages";
-import type { SearchablePyqQuestion } from "@/lib/supabase/questions";
-
-const SEARCHABLE_PYQ_SELECT = `
-  id, prompt, options, correct_option_id, year, subject,
-  topic, sub_topic, keywords, question_type, concepts,
-  importance, difficulty_rationale, mnemonic_hint, ncert_class
-`;
+import {
+  SEARCHABLE_PYQ_SELECT,
+  type SearchablePyqQuestion,
+} from "@/lib/supabase/questions";
 
 export async function GET(req: NextRequest) {
   const { searchParams } = new URL(req.url);

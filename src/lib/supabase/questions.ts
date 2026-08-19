@@ -1,4 +1,5 @@
 import { unstable_cache } from "next/cache";
+import { cache } from "react";
 import { createAdminClient } from "./admin";
 import { fetchAllPages } from "./fetch-all-pages";
 import type { ExamQuestion, Subject, PyqQuestion } from "@/lib/types";
@@ -36,6 +37,7 @@ export type SearchablePyqQuestion = {
   difficulty_rationale?: string | null;
   mnemonic_hint?: string | null;
   ncert_class?: string | null;
+  updated_at: string;
 };
 
 type CountYearRow = {
@@ -69,7 +71,7 @@ const EXAM_QUESTION_SELECT = `
   source_label
 `;
 
-const SEARCHABLE_PYQ_SELECT = `
+export const SEARCHABLE_PYQ_SELECT = `
   id,
   prompt,
   options,
@@ -84,7 +86,8 @@ const SEARCHABLE_PYQ_SELECT = `
   importance,
   difficulty_rationale,
   mnemonic_hint,
-  ncert_class
+  ncert_class,
+  updated_at
 `;
 
 const CUSTOM_EXAM_SOURCES = ["pyq", "custom", "flt"];
@@ -264,20 +267,24 @@ export async function fetchTotalCount(): Promise<number> {
   return count ?? 0;
 }
 
-export async function fetchSearchablePyqQuestions(): Promise<SearchablePyqQuestion[]> {
+const getCachedSearchablePyqQuestions = cache(async () => {
   const supabase = createAdminClient();
 
+  return await fetchAllPages<SearchablePyqQuestion>({
+    runPage: async (from, to) =>
+      await supabase
+        .from("questions")
+        .select(SEARCHABLE_PYQ_SELECT)
+        .eq("source", "pyq")
+        .order("year", { ascending: false })
+        .order("id", { ascending: true })
+        .range(from, to),
+  });
+});
+
+export async function fetchSearchablePyqQuestions(): Promise<SearchablePyqQuestion[]> {
   try {
-    return await fetchAllPages<SearchablePyqQuestion>({
-      runPage: async (from, to) =>
-        await supabase
-          .from("questions")
-          .select(SEARCHABLE_PYQ_SELECT)
-          .eq("source", "pyq")
-          .order("year", { ascending: false })
-          .order("id", { ascending: true })
-          .range(from, to),
-    });
+    return await getCachedSearchablePyqQuestions();
   } catch (error) {
     console.error(
       "Failed to fetch searchable PYQs:",
@@ -287,13 +294,12 @@ export async function fetchSearchablePyqQuestions(): Promise<SearchablePyqQuesti
   }
 }
 
-export async function fetchQuestionById(id: string): Promise<PyqQuestion | null> {
+const getCachedQuestionById = cache(async (id: string) => {
   const supabase = createAdminClient();
 
-  try {
-    const { data, error } = await supabase
-      .from("questions")
-      .select(`
+  const { data, error } = await supabase
+    .from("questions")
+    .select(`
         id,
         subject,
         difficulty,
@@ -309,30 +315,42 @@ export async function fetchQuestionById(id: string): Promise<PyqQuestion | null>
         source_label,
         topic,
         sub_topic,
-        keywords
+        keywords,
+        concepts,
+        question_type,
+        importance,
+        difficulty_rationale,
+        mnemonic_hint,
+        ncert_class
       `)
-      .eq("id", id)
-      .single();
+    .eq("source", "pyq")
+    .eq("id", id)
+    .single();
 
-    if (error || !data) {
-      console.error(
-        "Failed to fetch question by ID:",
-        error ? error.message : "Not found"
-      );
-      return null;
-    }
+  if (error || !data) return null;
 
-    const examQ = toExamQuestion(data as DbQuestion);
-    return {
-      ...examQ,
-      year: data.year as number,
-      topics: [
-        data.topic,
-        data.sub_topic,
-        ...(data.keywords || []),
-      ].filter(Boolean) as string[],
-      sourceLabel: data.source_label as string | undefined,
-    };
+  const examQ = toExamQuestion(data as DbQuestion);
+  return {
+    ...examQ,
+    year: data.year as number,
+    topics: [data.topic, data.sub_topic, ...(data.keywords || [])].filter(
+      Boolean,
+    ) as string[],
+    primaryTopic: data.topic ?? undefined,
+    subTopic: data.sub_topic ?? undefined,
+    concepts: data.concepts ?? undefined,
+    questionType: data.question_type ?? undefined,
+    importance: data.importance ?? undefined,
+    difficultyRationale: data.difficulty_rationale ?? undefined,
+    mnemonicHint: data.mnemonic_hint ?? undefined,
+    ncertClass: data.ncert_class ?? undefined,
+    sourceLabel: data.source_label as string | undefined,
+  } satisfies PyqQuestion;
+});
+
+export async function fetchQuestionById(id: string): Promise<PyqQuestion | null> {
+  try {
+    return await getCachedQuestionById(id);
   } catch (error) {
     console.error(
       "Failed to fetch question by ID:",
@@ -343,20 +361,9 @@ export async function fetchQuestionById(id: string): Promise<PyqQuestion | null>
 }
 
 export async function fetchAllQuestionIds(): Promise<string[]> {
-  const supabase = createAdminClient();
-
   try {
-    const data = await fetchAllPages<{ id: string }>({
-      runPage: async (from, to) =>
-        await supabase
-          .from("questions")
-          .select("id")
-          .eq("source", "pyq")
-          .order("id", { ascending: true })
-          .range(from, to),
-    });
-
-    return data.map((row) => row.id);
+    const questions = await fetchSearchablePyqQuestions();
+    return questions.map((question) => question.id).sort();
   } catch (error) {
     console.error(
       "Failed to fetch all question IDs:",
@@ -495,4 +502,39 @@ export async function fetchCustomExamSession(config: CustomTestConfig): Promise<
   }
 
   return shuffle(finalQuestions.map(toExamQuestion));
+}
+
+export type QuestionSitemapEntry = {
+  id: string;
+  updated_at: string;
+};
+
+// Only questions that render a full answer + explanation are indexable — the
+// question page marks the rest `noindex`, so listing them in the sitemap would
+// send Google a contradictory signal. Both filters run in Postgres so the
+// sitemap never pulls explanation bodies over the wire.
+export async function fetchIndexableQuestionSitemapEntries(): Promise<
+  QuestionSitemapEntry[]
+> {
+  try {
+    const supabase = createAdminClient();
+
+    return await fetchAllPages<QuestionSitemapEntry>({
+      runPage: async (from, to) =>
+        await supabase
+          .from("questions")
+          .select("id, updated_at")
+          .eq("source", "pyq")
+          .not("correct_option_id", "is", null)
+          .not("explanation", "is", null)
+          .order("id", { ascending: true })
+          .range(from, to),
+    });
+  } catch (error) {
+    console.error(
+      "Failed to fetch question sitemap entries:",
+      error instanceof Error ? error.message : "Unknown error",
+    );
+    return [];
+  }
 }

@@ -1,7 +1,10 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { fetchAllPages } from "@/lib/supabase/fetch-all-pages";
-import type { SearchablePyqQuestion } from "@/lib/supabase/questions";
+import {
+  SEARCHABLE_PYQ_SELECT,
+  type SearchablePyqQuestion,
+} from "@/lib/supabase/questions";
 import { SUBJECT_MAP } from "@/lib/subject-map";
 import type { Subject } from "@/lib/types";
 
@@ -81,7 +84,7 @@ export async function GET(req: NextRequest) {
       runPage: async (from, to) => {
         let query = supabase
           .from("questions")
-          .select("id, prompt, options, correct_option_id, year, subject, topic, sub_topic, keywords, question_type, concepts, importance, difficulty_rationale, mnemonic_hint, ncert_class")
+          .select(SEARCHABLE_PYQ_SELECT)
           .eq("source", "pyq")
           .eq("subject", dbSubject);
 
