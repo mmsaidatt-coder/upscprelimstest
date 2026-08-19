@@ -2,14 +2,15 @@ import { NextResponse } from "next/server";
 
 const LLMS_TXT = `# UPSC Prelims Test
 
-> Free UPSC Civil Services Preliminary Examination practice platform with 1,200+ previous year questions (2014–2025), 10,000+ total AI-enriched practice questions, timed exam simulations, subject-wise drills, and performance analytics.
+> Free independent UPSC Civil Services Preliminary Examination practice platform with 1,199 solved previous-year questions (2014–2025), official 2026 paper links, 10,000+ total practice questions, timed simulations, subject drills, and performance analytics.
 
 ## Platform
 
 - URL: https://upscprelimstest.com
 - Type: Educational technology platform for Indian civil services exam preparation
-- Coverage: UPSC CSE Prelims GS Paper I (2014–2025)
-- Questions: 1,200+ PYQs with AI-enriched metadata plus a 10,000+ question practice bank from custom FLTs and current affairs
+- Solved coverage: UPSC CSE Prelims GS Paper I (2014–2025)
+- Current official papers: UPSC-hosted 2026 GS Paper I and Paper II PDFs at https://upscprelimstest.com/pyq/2026; independent answer review is pending
+- Questions: 1,199 solved PYQs with AI-assisted metadata plus a 10,000+ question practice bank from custom FLTs and current affairs
 - Subjects: Polity, History, Economy, Geography, Environment, Science, Current Affairs
 - Features: Timed exam mode, negative marking (⅓), question palette, mark-for-review, analytics
 - Auth: Google OAuth and email/password via Supabase
@@ -21,7 +22,7 @@ All APIs return JSON. Base URL: https://upscprelimstest.com
 
 ### GET /api/pyq/database
 Fetch the full PYQ question bank or paginate through it.
-- No params: returns all 1,200+ questions
+- No params: returns the full current bank of 1,199 solved questions
 - ?page=1&limit=50: paginated response with \`hasMore\` flag
 - Response fields per question: id, prompt, options, correct_option_id, year, subject, topic, sub_topic, keywords, question_type, concepts, importance, difficulty_rationale, mnemonic_hint, ncert_class
 - No authentication required
@@ -38,12 +39,6 @@ Fetch questions for a specific topic within a subject.
 - topic (required): topic name (matched against enriched topic/sub_topic/keywords)
 - year (optional): filter to a specific year
 - Returns: up to 40 questions with full metadata
-- No authentication required
-
-### POST /api/subject-insights
-AI-generated strategic analysis for a subject using Gemini.
-- Body: { subject, topicData, totalQuestions }
-- Returns: { verdict, focusTopics, avoidTopics, studyTip, trendInsight, difficultyRating, predictedNextYear }
 - No authentication required
 
 ### GET /api/attempts
@@ -88,6 +83,17 @@ Each question in the database follows this structure:
 5. Environment — Ecology, Biodiversity, Protected areas, Climate change, Pollution, International conventions
 6. Science — Space tech, Biotech, Defence, Nuclear, IT, Health, Chemistry, Physics
 7. Current Affairs — International relations, Government schemes, Awards, Social issues
+
+## Public Evidence Pages
+
+- PYQ library: https://upscprelimstest.com/pyq
+- Official 2026 paper links: https://upscprelimstest.com/pyq/2026
+- Solved year hubs: https://upscprelimstest.com/pyq/{YEAR} for 2014–2025
+- Data-derived paper analysis: https://upscprelimstest.com/pyq/{YEAR}/analysis for 2014–2025
+- Subject hubs: https://upscprelimstest.com/pyq/subject/{SUBJECT_SLUG}
+- Canonical topic analyses: https://upscprelimstest.com/pyq/topic/{SUBJECT_SLUG}/{TOPIC_SLUG}
+- Solved question pages: https://upscprelimstest.com/question/{QUESTION_ID}
+- Source, enrichment, and corrections methodology: https://upscprelimstest.com/methodology
 
 ## Practice Modes
 

@@ -197,7 +197,7 @@ The platform exposes a complete agent-facing layer alongside the human UI. These
 |---|---|---|
 | `/llms.txt` | `src/app/llms.txt/route.ts` | Markdown discovery file — describes platform, all APIs, question schema, MCP server config, practice modes |
 | `/.well-known/agent.json` | `src/app/.well-known/agent.json/route.ts` | A2A agent card — skills, auth requirements, MCP protocol endpoint, example prompts |
-| `/api/openapi.json` | `src/app/api/openapi.json/route.ts` | OpenAPI 3.1 spec — machine-readable docs for all 4 public API endpoints with full `PyqQuestion` schema |
+| `/api/openapi.json` | `src/app/api/openapi.json/route.ts` | OpenAPI 3.1 spec — machine-readable docs for all 3 public API endpoints with full `PyqQuestion` schema |
 
 ### MCP Server
 

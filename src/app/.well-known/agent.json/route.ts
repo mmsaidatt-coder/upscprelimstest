@@ -4,7 +4,7 @@ const AGENT_CARD = {
   schema_version: "1.0",
   name: "UPSC Prelims Test",
   description:
-    "Free UPSC Civil Services Preliminary Examination practice platform with 1,200+ previous year questions (2014–2025) and a 10,000+ total AI-enriched practice bank. Provides timed exam simulations, subject-wise drills, topic-level analytics, dynamic mock generation, and question metadata across Polity, History, Economy, Geography, Environment, Science, and Current Affairs.",
+    "Free UPSC Civil Services Preliminary Examination practice platform with 1,199 solved previous-year questions (2014–2025), official 2026 paper links, and a 10,000+ total AI-enriched practice bank. Provides timed simulations, subject drills, data-derived analysis, and question metadata across seven subjects.",
   url: "https://upscprelimstest.com",
   provider: {
     organization: "UPSC Prelims Test",
@@ -22,7 +22,7 @@ const AGENT_CARD = {
       id: "fetch-pyq-database",
       name: "Fetch PYQ Question Bank",
       description:
-        "Retrieve the 1,200+ UPSC Prelims previous year questions with full metadata including topic, keywords, concepts, difficulty, and correct answers. Supports pagination.",
+        "Retrieve 1,199 solved UPSC Prelims previous-year questions with metadata including topic, keywords, concepts, difficulty, and correct answers. Supports pagination.",
       tags: ["upsc", "pyq", "questions", "education", "exam"],
       examples: [
         "Get all UPSC Prelims previous year questions",
@@ -52,18 +52,6 @@ const AGENT_CARD = {
         "Get questions on Fundamental Rights from Polity",
         "Find UPSC questions about Climate Change",
         "Show Banking & Monetary policy questions from Economy",
-      ],
-    },
-    {
-      id: "subject-insights",
-      name: "AI Subject Analysis",
-      description:
-        "Generate strategic AI analysis for a UPSC subject including focus topics, trends, difficulty rating, and predictions. Powered by Gemini.",
-      tags: ["upsc", "ai", "analysis", "strategy", "predictions"],
-      examples: [
-        "What are the most important topics for Geography in UPSC?",
-        "Give me a strategic analysis of the Environment section",
-        "Predict trending UPSC Prelims topics for next year",
       ],
     },
     {

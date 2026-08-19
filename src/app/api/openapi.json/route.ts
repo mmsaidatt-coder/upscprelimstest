@@ -6,7 +6,7 @@ const OPENAPI_SPEC = {
     title: "UPSC Prelims Test API",
     version: "1.0.0",
     description:
-      "Public API for the UPSC Prelims Test platform. Provides access to the 1,200+ previous year question bank (2014–2025) with AI-enriched metadata, subject blueprints, topic-level drills, and AI-generated strategic insights. The web app also includes a larger 10,000+ question practice bank for dynamic mock generation. Designed for both human clients and autonomous AI agents.",
+      "Public API for the UPSC Prelims Test platform. Provides access to 1,199 solved previous-year questions (2014–2025) with AI-enriched metadata, subject blueprints, topic-level drills, and AI-generated strategic insights. The web app also includes a larger 10,000+ question practice bank for dynamic mock generation. Designed for both human clients and autonomous AI agents.",
     contact: {
       name: "UPSC Prelims Test",
       url: "https://upscprelimstest.com",
@@ -25,7 +25,7 @@ const OPENAPI_SPEC = {
         summary:
           "Fetch the full UPSC Prelims PYQ question bank or a paginated subset",
         description:
-          "Returns previous year questions from the UPSC Civil Services Preliminary Examination (2014–2025). Without pagination parameters, returns all 1,200+ questions. With page and limit parameters, returns a paginated subset. Each question includes the prompt, options, correct answer, year, subject, and AI-enriched metadata (topic, keywords, concepts, difficulty rationale, mnemonic hint). Use this endpoint to build study plans, analyze question patterns, or power practice sessions.",
+          "Returns 1,199 solved previous-year questions from the UPSC Civil Services Preliminary Examination (2014–2025). Without pagination parameters, returns the full current PYQ bank. With page and limit parameters, returns a paginated subset. Each question includes the prompt, options, correct answer, year, subject, and AI-enriched metadata (topic, keywords, concepts, difficulty rationale, mnemonic hint).",
         parameters: [
           {
             name: "page",
@@ -203,95 +203,6 @@ const OPENAPI_SPEC = {
             },
           },
           "400": { description: "Invalid subject parameter" },
-        },
-      },
-    },
-    "/api/subject-insights": {
-      post: {
-        operationId: "getSubjectInsights",
-        summary:
-          "Generate AI-powered strategic analysis for a UPSC Prelims subject",
-        description:
-          "Uses Gemini AI to analyze question frequency data and generate strategic insights including focus topics, topics to deprioritize, study tips, trend analysis, difficulty rating, and predictions for the next exam. Requires topic frequency data as input. Best used after fetching data from /api/subject-blueprint.",
-        requestBody: {
-          required: true,
-          content: {
-            "application/json": {
-              schema: {
-                type: "object",
-                required: ["subject", "topicData", "totalQuestions"],
-                properties: {
-                  subject: {
-                    type: "string",
-                    description: "Subject name",
-                  },
-                  topicData: {
-                    type: "array",
-                    description:
-                      "Array of { topic, total } sorted by frequency. Get this from /api/subject-blueprint.",
-                    items: {
-                      type: "object",
-                      properties: {
-                        topic: { type: "string" },
-                        total: { type: "integer" },
-                      },
-                    },
-                  },
-                  totalQuestions: {
-                    type: "integer",
-                    description:
-                      "Total number of questions for this subject across all years",
-                  },
-                },
-              },
-            },
-          },
-        },
-        responses: {
-          "200": {
-            description: "AI insights generated successfully",
-            content: {
-              "application/json": {
-                schema: {
-                  type: "object",
-                  properties: {
-                    verdict: {
-                      type: "string",
-                      description:
-                        "One-sentence summary of the subject's character in UPSC Prelims",
-                    },
-                    focusTopics: {
-                      type: "array",
-                      items: { type: "string" },
-                      description: "Top 3 topics to focus on",
-                    },
-                    avoidTopics: {
-                      type: "array",
-                      items: { type: "string" },
-                      description: "Topics that can be deprioritized",
-                    },
-                    studyTip: {
-                      type: "string",
-                      description: "Actionable study tip",
-                    },
-                    trendInsight: {
-                      type: "string",
-                      description: "Recent trend observation",
-                    },
-                    difficultyRating: {
-                      type: "string",
-                      enum: ["Easy", "Moderate", "Hard"],
-                    },
-                    predictedNextYear: {
-                      type: "string",
-                      description:
-                        "Topic or theme most likely to appear in the next exam",
-                    },
-                  },
-                },
-              },
-            },
-          },
         },
       },
     },
