@@ -47,11 +47,14 @@ type IndiaMapProps = {
   memory: Record<string, StateMemory>;
   selectedFeatureName?: string | null;
   disableStateSelection?: boolean;
+  prioritizeStateSelection?: boolean;
+  hideStudyLabels?: boolean;
   activeFilter?: string;
   riverLevel?: number;
   riverBasin: string;
   hiddenRivers?: string[];
   hiddenPeaks?: string[];
+  hiddenParks?: string[];
   layers: LayerVisibility;
   /** Names of the focused mountain ranges (spotlight mode) */
   selectedRanges?: string[];
@@ -158,11 +161,14 @@ export function IndiaMap({
   layers,
   selectedFeatureName,
   disableStateSelection = false,
+  prioritizeStateSelection = false,
+  hideStudyLabels = false,
   activeFilter = "All",
   riverLevel,
   riverBasin,
   hiddenRivers = [],
   hiddenPeaks = [],
+  hiddenParks = [],
   selectedRanges = [],
   spatialSortLine = [],
   intersectMode = false,
@@ -188,6 +194,7 @@ export function IndiaMap({
   const onStateHoverRef = useRef(onStateHover);
   const onFeatureClickRef = useRef(onFeatureClick);
   const disableStateSelectionRef = useRef(disableStateSelection);
+  const prioritizeStateSelectionRef = useRef(prioritizeStateSelection);
   const modeRef = useRef(mode);
   const lockModeRef = useRef(lockMode);
   const onLockPointRef = useRef(onLockPoint);
@@ -197,10 +204,11 @@ export function IndiaMap({
     onStateHoverRef.current = onStateHover;
     onFeatureClickRef.current = onFeatureClick;
     disableStateSelectionRef.current = disableStateSelection;
+    prioritizeStateSelectionRef.current = prioritizeStateSelection;
     modeRef.current = mode;
     lockModeRef.current = lockMode;
     onLockPointRef.current = onLockPoint;
-  }, [onStateClick, onStateHover, onFeatureClick, disableStateSelection, mode, lockMode, onLockPoint]);
+  }, [onStateClick, onStateHover, onFeatureClick, disableStateSelection, prioritizeStateSelection, mode, lockMode, onLockPoint]);
 
   // ── Initialize map ──────────────────────────────────────────────────
   useEffect(() => {
@@ -210,7 +218,6 @@ export function IndiaMap({
       container: containerRef.current,
       style: {
         version: 8,
-        glyphs: "https://demotiles.maplibre.org/font/{fontstack}/{range}.pbf",
         sources: {
           // High-resolution satellite imagery — shows real greenery (forests),
           // deserts, water, and terrain with photographic fidelity (maxzoom 19)
@@ -1339,6 +1346,15 @@ export function IndiaMap({
         [e.point.x - 20, e.point.y - 20],
         [e.point.x + 20, e.point.y + 20]
       ];
+
+      // State-recall questions must win over nearby river and mountain hitboxes.
+      if (prioritizeStateSelectionRef.current && !disableStateSelectionRef.current) {
+        const stateFeature = queryState(e.lngLat);
+        if (stateFeature?.properties?.st_nm) {
+          onStateClickRef.current(stateFeature.properties.st_nm as string);
+          return;
+        }
+      }
       
       // 1. Intercept physical feature clicks first
       // Include labels as hit targets so clicking text works!
@@ -1411,7 +1427,6 @@ export function IndiaMap({
       map.remove();
       mapRef.current = null;
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // ── Sync selected/correct/incorrect states ──────────────────────────
@@ -1453,7 +1468,6 @@ export function IndiaMap({
       });
 
       // Use match expression on feature ID
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       const colorExpr = ["match", ["id"], ...colorStops, "rgba(100,100,100,0.25)"] as any;
 
       map.setPaintProperty("state-fill", "fill-color", colorExpr);
@@ -1468,7 +1482,6 @@ export function IndiaMap({
         const color = r ? REGION_COLORS[r].fill : "#FAF7F2";
         colorStops.push(name, color);
       });
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       const colorExpr = ["match", ["get", "st_nm"], ...colorStops, "#FAF7F2"] as any;
       map.setPaintProperty("state-fill", "fill-color", colorExpr);
       map.setPaintProperty("state-fill", "fill-opacity", 0.5);
@@ -1527,6 +1540,22 @@ export function IndiaMap({
     setVis(["park-dots", "park-labels", "park-glow"], layers.parks);
     setVis(["state-label-text"], layers.stateLabels);
   }, [layers, mapReady]);
+
+  // During active quiz questions, keep the geography visible without printing the answer.
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map || !mapReady) return;
+
+    const setVis = (id: string, visible: boolean) => {
+      if (map.getLayer(id)) map.setLayoutProperty(id, "visibility", visible ? "visible" : "none");
+    };
+
+    setVis("rivers-labels", layers.rivers && !hideStudyLabels);
+    setVis("mountain-labels", layers.mountains && !hideStudyLabels);
+    setVis("range-labels", layers.ranges && !hideStudyLabels);
+    setVis("park-labels", layers.parks && !hideStudyLabels);
+    setVis("state-label-text", layers.stateLabels && !hideStudyLabels);
+  }, [hideStudyLabels, layers, mapReady]);
 
   // ── Filter mountains/ranges by taxonomy ──
   useEffect(() => {
@@ -1612,6 +1641,17 @@ export function IndiaMap({
       });
     }
   }, [activeFilter, hiddenPeaks, mapReady]);
+
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map || !mapReady) return;
+    const filter = hiddenParks.length > 0
+      ? ["!", ["in", ["get", "name"], ["literal", hiddenParks]]]
+      : null;
+    ["park-dots", "park-labels", "park-glow"].forEach((id) => {
+      if (map.getLayer(id)) map.setFilter(id, filter as any);
+    });
+  }, [hiddenParks, mapReady]);
 
   // Sync selected feature name to river/mountain/park highlight filter
   useEffect(() => {
@@ -1738,7 +1778,6 @@ export function IndiaMap({
     }
 
     if (map.getLayer("rivers-line")) {
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       map.setFilter("rivers-line", filterArray as any);
       map.setFilter("rivers-glow", filterArray as any);
       map.setFilter("rivers-hitbox", filterArray as any);
@@ -1896,30 +1935,24 @@ export function IndiaMap({
     const pointSource = map.getSource("spatial-sort-points") as maplibregl.GeoJSONSource | undefined;
     if (!lineSource || !pointSource) return;
 
-    if (spatialSortLine.length >= 2) {
-      // Route line
-      lineSource.setData({
+    // A route needs two points, but one selected item should still show rank 1.
+    lineSource.setData(spatialSortLine.length >= 2 ? {
         type: "FeatureCollection",
         features: [{
           type: "Feature",
           properties: {},
           geometry: { type: "LineString", coordinates: spatialSortLine },
         }],
-      });
-      // Numbered point markers
-      pointSource.setData({
+      } : { type: "FeatureCollection", features: [] });
+
+    pointSource.setData(spatialSortLine.length >= 1 ? {
         type: "FeatureCollection",
         features: spatialSortLine.map((coord, i) => ({
           type: "Feature",
           properties: { rank: String(i + 1) },
           geometry: { type: "Point", coordinates: coord },
         })),
-      });
-    } else {
-      // Clear when fewer than 2 points selected
-      lineSource.setData({ type: "FeatureCollection", features: [] });
-      pointSource.setData({ type: "FeatureCollection", features: [] });
-    }
+      } : { type: "FeatureCollection", features: [] });
   }, [spatialSortLine, mapReady]);
 
   // ── Grid Lines visibility ────────────────────────────────────────────

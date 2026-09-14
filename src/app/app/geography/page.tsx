@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { GeographyLab } from "@/components/geography/geography-lab";
 
 export const metadata: Metadata = {
-  title: "Geography Lab — UPSC Prelims Test",
+  title: "India Field Atlas | UPSC Geography Practice",
   description:
-    "Interactive India atlas with explore, quiz, and spaced-repetition review modes. Master Indian geography for UPSC Prelims.",
+    "Explore India through interactive rivers, mountain systems, passes, protected areas, map quizzes, and spaced repetition for UPSC Prelims.",
 };
 
 export default function GeographyPage() {

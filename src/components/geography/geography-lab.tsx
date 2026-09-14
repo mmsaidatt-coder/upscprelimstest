@@ -33,6 +33,7 @@ import {
   Grid3x3,
   LocateFixed,
   ScanLine,
+  Search,
 } from "lucide-react";
 import { IndiaMap, type MapMode, type LayerVisibility, type BaseMapStyle } from "@/components/geography/india-map";
 import { computeRiverIntersections, computeParkIntersections, type IntersectResult } from "@/lib/geo-intersections";
@@ -66,11 +67,13 @@ function ModePill({
 }) {
   return (
     <button
+      type="button"
       onClick={onClick}
-      className={`flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-xs font-semibold transition-all duration-150 ${
+      aria-pressed={active}
+      className={`flex min-h-10 items-center gap-2 border px-3 font-mono text-[10px] font-bold uppercase tracking-[0.12em] transition-colors ${
         active
-          ? "bg-[#C4784A] text-white shadow-sm"
-          : "text-[#6B7280] hover:text-[#1A1A1A]"
+          ? "border-[#ef5c49] bg-[#ef5c49] text-[#151a16]"
+          : "border-transparent text-[#a6aaa1] hover:border-[#465047] hover:text-[#f0ece3]"
       }`}
     >
       {icon}
@@ -94,11 +97,13 @@ function LayerToggle({
 }) {
   return (
     <button
+      type="button"
       onClick={onToggle}
-      className={`flex items-center gap-1 rounded-md px-2 py-1.5 text-[11px] font-semibold transition-all ${
+      aria-pressed={active}
+      className={`flex min-h-9 items-center gap-1.5 border px-2.5 text-[11px] font-semibold transition-colors ${
         active
-          ? "bg-[#C4784A]/10 text-[#C4784A]"
-          : "text-[#9CA3AF] hover:text-[#6B7280] hover:bg-[#F3F4F6]"
+          ? "border-[#c2382e]/30 bg-[#c2382e]/10 text-[#a92f28]"
+          : "border-transparent text-[#71776f] hover:border-[#c8c1b5] hover:text-[#182019]"
       }`}
     >
       {icon}
@@ -111,11 +116,11 @@ function LayerToggle({
 
 function StatPill({ icon, value, label }: { icon: React.ReactNode; value: string | number; label: string }) {
   return (
-    <div className="flex items-center gap-1.5 rounded-lg bg-[#FAF7F2] px-2.5 py-1.5 border border-[#E5E0DA]/50">
-      <span className="text-[#C4784A]">{icon}</span>
+    <div className="flex flex-1 items-center gap-2 border border-[#d2cabd] bg-[#f8f4eb] px-2.5 py-2">
+      <span className="text-[#c2382e]">{icon}</span>
       <div>
-        <p className="text-xs font-bold text-[#1A1A1A] leading-none tabular-nums">{value}</p>
-        <p className="text-[9px] text-[#9CA3AF] uppercase tracking-wider">{label}</p>
+        <p className="text-xs font-bold leading-none tabular-nums text-[#182019]">{value}</p>
+        <p className="mt-1 font-mono text-[8px] uppercase tracking-[0.12em] text-[#71776f]">{label}</p>
       </div>
     </div>
   );
@@ -134,27 +139,29 @@ function StateInfoPanel({
     <div className="animate-in slide-in-from-right-4 fade-in duration-200 space-y-3">
       <div className="flex items-start justify-between gap-2">
         <div>
-          <p className="text-[10px] font-bold uppercase tracking-widest text-[#C4784A]">
+          <p className="text-[10px] font-bold uppercase tracking-widest text-[#c2382e]">
             {REGION_COLORS[state.region].label}
           </p>
-          <h3 className="text-lg font-bold text-[#1A1A1A] mt-0.5 font-serif">{state.name}</h3>
-          <p className="text-xs text-[#6B7280] mt-0.5">
+          <h3 className="text-lg font-bold text-[#182019] mt-0.5 font-serif">{state.name}</h3>
+          <p className="text-xs text-[#646a62] mt-0.5">
             {state.type === "UT" ? "Union Territory" : "State"} · {state.area.toLocaleString()} km²
           </p>
         </div>
         <button
+          type="button"
+          aria-label={`Close ${state.name} details`}
           onClick={onClose}
-          className="rounded-md p-1 text-[#9CA3AF] hover:text-[#1A1A1A] hover:bg-[#F0EBE4] transition-colors"
+          className="rounded-md p-1 text-[#71776f] hover:text-[#182019] hover:bg-[#e8e3d9] transition-colors"
         >
           <X className="w-3.5 h-3.5" />
         </button>
       </div>
 
-      <div className="flex items-center gap-2 rounded-lg bg-[#FAF7F2] px-2.5 py-2 border border-[#E5E0DA]/50">
-        <MapPin className="w-3.5 h-3.5 text-[#C4784A] shrink-0" />
+      <div className="flex items-center gap-2 rounded-lg bg-[#f8f4eb] px-2.5 py-2 border border-[#c8c1b5]/50">
+        <MapPin className="w-3.5 h-3.5 text-[#c2382e] shrink-0" />
         <div>
-          <p className="text-[9px] text-[#9CA3AF] uppercase tracking-wider">Capital</p>
-          <p className="text-xs font-semibold text-[#1A1A1A]">{state.capital}</p>
+          <p className="text-[9px] text-[#71776f] uppercase tracking-wider">Capital</p>
+          <p className="text-xs font-semibold text-[#182019]">{state.capital}</p>
         </div>
       </div>
 
@@ -162,7 +169,7 @@ function StateInfoPanel({
         <div>
           <div className="flex items-center gap-1.5 mb-1.5">
             <Droplets className="w-3 h-3 text-[#2563EB]" />
-            <p className="text-[9px] font-bold text-[#9CA3AF] uppercase tracking-wider">Rivers</p>
+            <p className="text-[9px] font-bold text-[#71776f] uppercase tracking-wider">Rivers</p>
           </div>
           <div className="flex flex-wrap gap-1">
             {state.majorRivers.map((r) => (
@@ -178,7 +185,7 @@ function StateInfoPanel({
         <div>
           <div className="flex items-center gap-1.5 mb-1.5">
             <Mountain className="w-3 h-3 text-[#92400E]" />
-            <p className="text-[9px] font-bold text-[#9CA3AF] uppercase tracking-wider">Mountains</p>
+            <p className="text-[9px] font-bold text-[#71776f] uppercase tracking-wider">Mountains</p>
           </div>
           <div className="flex flex-wrap gap-1">
             {state.mountainRanges.map((m) => (
@@ -194,7 +201,7 @@ function StateInfoPanel({
         <div>
           <div className="flex items-center gap-1.5 mb-1.5">
             <TreePine className="w-3 h-3 text-[#16A34A]" />
-            <p className="text-[9px] font-bold text-[#9CA3AF] uppercase tracking-wider">National Parks</p>
+            <p className="text-[9px] font-bold text-[#71776f] uppercase tracking-wider">National Parks</p>
           </div>
           <div className="flex flex-wrap gap-1">
             {state.nationalParks.map((p) => (
@@ -210,9 +217,9 @@ function StateInfoPanel({
         <div>
           <div className="flex items-center gap-1.5 mb-1.5">
             <MapIcon className="w-3 h-3 text-[#D97706]" />
-            <p className="text-[9px] font-bold text-[#9CA3AF] uppercase tracking-wider">Borders</p>
+            <p className="text-[9px] font-bold text-[#71776f] uppercase tracking-wider">Borders</p>
           </div>
-          <p className="text-xs text-[#6B7280] leading-relaxed">{state.neighbors.join(", ")}</p>
+          <p className="text-xs text-[#646a62] leading-relaxed">{state.neighbors.join(", ")}</p>
         </div>
       )}
 
@@ -220,12 +227,12 @@ function StateInfoPanel({
         <div>
           <div className="flex items-center gap-1.5 mb-1.5">
             <Zap className="w-3 h-3 text-[#D97706]" />
-            <p className="text-[9px] font-bold text-[#9CA3AF] uppercase tracking-wider">Key Facts</p>
+            <p className="text-[9px] font-bold text-[#71776f] uppercase tracking-wider">Key Facts</p>
           </div>
           <ul className="space-y-1.5">
             {state.keyFacts.map((fact, i) => (
-              <li key={i} className="flex items-start gap-1.5 text-xs text-[#4B5563] leading-relaxed">
-                <span className="mt-1.5 h-1 w-1 rounded-full bg-[#C4784A] shrink-0" />
+              <li key={i} className="flex items-start gap-1.5 text-xs text-[#454c46] leading-relaxed">
+                <span className="mt-1.5 h-1 w-1 rounded-full bg-[#c2382e] shrink-0" />
                 {fact}
               </li>
             ))}
@@ -265,13 +272,15 @@ function QuizPanel({
         <StatPill icon={<Crosshair className="w-3.5 h-3.5" />} value={total} label="Total" />
       </div>
 
-      <div className="rounded-xl bg-[#FAF7F2] border border-[#E5E0DA]/50 p-3">
-        <p className="text-[9px] font-bold text-[#C4784A] uppercase tracking-wider mb-1">
-          {question.type === "identify" ? "Find on Map" : question.type.charAt(0).toUpperCase() + question.type.slice(1)}
+      <div className="border border-[#c8c1b5] bg-[#f8f4eb] p-3.5">
+        <p className="text-[9px] font-bold text-[#c2382e] uppercase tracking-wider mb-1">
+          {question.type === "identify" || question.type === "identify_feature"
+            ? "Find on map"
+            : question.type.charAt(0).toUpperCase() + question.type.slice(1)}
         </p>
-        <p className="text-sm font-semibold text-[#1A1A1A] leading-snug">{question.prompt}</p>
+        <p className="text-sm font-semibold text-[#182019] leading-snug">{question.prompt}</p>
         {question.type === "identify" && !feedback && (
-          <p className="text-[11px] text-[#9CA3AF] mt-1.5 flex items-center gap-1">
+          <p className="text-[11px] text-[#71776f] mt-1.5 flex items-center gap-1">
             <Crosshair className="w-3 h-3" />
             Click the correct state on the map
           </p>
@@ -284,7 +293,7 @@ function QuizPanel({
             <button
               key={opt}
               onClick={() => onAnswer(opt)}
-              className="w-full text-left rounded-lg bg-white border border-[#E5E0DA]/50 px-3 py-2.5 text-xs font-medium text-[#4B5563] hover:bg-[#FAF7F2] hover:border-[#C4784A]/30 hover:text-[#1A1A1A] transition-all active:scale-[0.98]"
+              className="min-h-12 w-full border border-[#c8c1b5] bg-[#fffdf8] px-3 text-left text-sm font-medium text-[#454c46] transition-colors hover:border-[#c2382e] hover:bg-[#f8f4eb] hover:text-[#182019] active:scale-[0.98]"
             >
               {opt}
             </button>
@@ -294,7 +303,7 @@ function QuizPanel({
 
       {feedback && (
         <div
-          className={`rounded-xl border p-3 animate-in fade-in slide-in-from-bottom-2 duration-200 ${
+          className={`border p-3 animate-in fade-in slide-in-from-bottom-2 duration-200 ${
             feedback.correct
               ? "bg-[#F0FDF4] border-[#BBF7D0]"
               : "bg-[#FEF2F2] border-[#FECACA]"
@@ -310,10 +319,10 @@ function QuizPanel({
               {feedback.correct ? "Correct!" : "Incorrect"}
             </p>
           </div>
-          <p className="text-xs text-[#6B7280]">{feedback.message}</p>
+          <p className="text-xs text-[#646a62]">{feedback.message}</p>
           <button
             onClick={onNext}
-            className="mt-2 flex items-center gap-1 rounded-lg bg-[#C4784A] px-3 py-1.5 text-xs font-semibold text-white hover:bg-[#B06838] transition-colors"
+            className="mt-3 flex min-h-10 items-center gap-1 bg-[#c2382e] px-3 text-xs font-semibold text-white transition-colors hover:bg-[#a92f28]"
           >
             Next
             <ChevronRight className="w-3.5 h-3.5" />
@@ -340,8 +349,8 @@ function ReviewPanel({ memory }: { memory: Record<string, StateMemory> }) {
   return (
     <div className="space-y-3">
       <div>
-        <h3 className="text-sm font-bold text-[#1A1A1A]">Memory Map</h3>
-        <p className="text-[11px] text-[#6B7280]">Track your geographic mastery</p>
+        <h3 className="text-sm font-bold text-[#182019]">State memory</h3>
+        <p className="text-[11px] text-[#646a62]">Recall strength from state quiz answers</p>
       </div>
 
       <div className="grid grid-cols-4 gap-1.5">
@@ -357,13 +366,13 @@ function ReviewPanel({ memory }: { memory: Record<string, StateMemory> }) {
           <p className="text-lg font-bold text-[#D97706] tabular-nums">{weak.length}</p>
           <p className="text-[9px] text-[#B45309] font-semibold">Fading</p>
         </div>
-        <div className="rounded-lg bg-[#F3F4F6] p-2 text-center">
-          <p className="text-lg font-bold text-[#9CA3AF] tabular-nums">{unstudied.length}</p>
-          <p className="text-[9px] text-[#9CA3AF] font-semibold">New</p>
+        <div className="rounded-lg bg-[#e8e3d9] p-2 text-center">
+          <p className="text-lg font-bold text-[#71776f] tabular-nums">{unstudied.length}</p>
+          <p className="text-[9px] text-[#71776f] font-semibold">New</p>
         </div>
       </div>
 
-      <div className="flex flex-wrap gap-x-3 gap-y-1 rounded-lg bg-[#FAF7F2] border border-[#E5E0DA]/50 px-2.5 py-2">
+      <div className="flex flex-wrap gap-x-3 gap-y-1 rounded-lg bg-[#f8f4eb] border border-[#c8c1b5]/50 px-2.5 py-2">
         {[
           { color: "rgba(16,185,129,0.5)", label: "Strong" },
           { color: "rgba(59,130,246,0.5)", label: "Moderate" },
@@ -373,7 +382,7 @@ function ReviewPanel({ memory }: { memory: Record<string, StateMemory> }) {
         ].map((item) => (
           <div key={item.label} className="flex items-center gap-1">
             <span className="w-2.5 h-2.5 rounded-sm shrink-0" style={{ background: item.color }} />
-            <span className="text-[10px] text-[#6B7280]">{item.label}</span>
+            <span className="text-[10px] text-[#646a62]">{item.label}</span>
           </div>
         ))}
       </div>
@@ -386,7 +395,7 @@ function ReviewPanel({ memory }: { memory: Record<string, StateMemory> }) {
           <div className="space-y-0.5">
             {weak.map((s) => (
               <div key={s.name} className="flex items-center justify-between rounded-md bg-[#FEF2F2] px-2.5 py-1.5">
-                <span className="text-xs text-[#4B5563]">{s.name}</span>
+                <span className="text-xs text-[#454c46]">{s.name}</span>
                 <span className="text-[10px] text-[#DC2626] font-semibold tabular-nums">
                   {Math.round(getMemoryStrength(memory[s.name]) * 100)}%
                 </span>
@@ -410,14 +419,16 @@ function FeatureInfoPanel({ feature, onClose }: { feature: any; onClose: () => v
     <div className="animate-in slide-in-from-right-4 fade-in duration-200 space-y-3">
       <div className="flex items-start justify-between gap-2">
         <div>
-          <p className="text-[10px] font-bold uppercase tracking-widest text-[#C4784A]">
+          <p className="text-[10px] font-bold uppercase tracking-widest text-[#c2382e]">
             {isRiver ? "River" : isMountain ? (feature.type === "peak" ? "Peak" : "Pass") : "National Park"}
           </p>
-          <h3 className="text-lg font-bold text-[#1A1A1A] mt-0.5 font-serif">{feature.name}</h3>
+          <h3 className="text-lg font-bold text-[#182019] mt-0.5 font-serif">{feature.name}</h3>
         </div>
         <button
+          type="button"
+          aria-label={`Close ${feature.name} details`}
           onClick={onClose}
-          className="rounded-md p-1 text-[#9CA3AF] hover:text-[#1A1A1A] hover:bg-[#F0EBE4] transition-colors"
+          className="rounded-md p-1 text-[#71776f] hover:text-[#182019] hover:bg-[#e8e3d9] transition-colors"
         >
           <X className="w-3.5 h-3.5" />
         </button>
@@ -425,35 +436,35 @@ function FeatureInfoPanel({ feature, onClose }: { feature: any; onClose: () => v
 
       <div className="flex flex-col gap-1.5">
         {isRiver && (
-          <div className="flex items-center gap-2 rounded-lg bg-[#FAF7F2] px-2.5 py-2 border border-[#E5E0DA]/50">
+          <div className="flex items-center gap-2 rounded-lg bg-[#f8f4eb] px-2.5 py-2 border border-[#c8c1b5]/50">
             <Droplets className="w-3.5 h-3.5 text-[#2563EB] shrink-0" />
             <div>
-              <p className="text-[9px] text-[#9CA3AF] uppercase tracking-wider">Basin</p>
-              <p className="text-xs font-semibold text-[#1A1A1A]">{feature.basin || "Unknown"}</p>
+              <p className="text-[9px] text-[#71776f] uppercase tracking-wider">Basin</p>
+              <p className="text-xs font-semibold text-[#182019]">{feature.basin || "Unknown"}</p>
             </div>
           </div>
         )}
         {isMountain && (
-          <div className="flex items-center gap-2 rounded-lg bg-[#FAF7F2] px-2.5 py-2 border border-[#E5E0DA]/50">
+          <div className="flex items-center gap-2 rounded-lg bg-[#f8f4eb] px-2.5 py-2 border border-[#c8c1b5]/50">
             <Mountain className="w-3.5 h-3.5 text-[#92400E] shrink-0" />
             <div>
-              <p className="text-[9px] text-[#9CA3AF] uppercase tracking-wider">Elevation</p>
-              <p className="text-xs font-semibold text-[#1A1A1A]">{feature.elevation} m</p>
+              <p className="text-[9px] text-[#71776f] uppercase tracking-wider">Elevation</p>
+              <p className="text-xs font-semibold text-[#182019]">{feature.elevation} m</p>
             </div>
           </div>
         )}
         {isPark && (
-          <div className="flex items-center gap-2 rounded-lg bg-[#FAF7F2] px-2.5 py-2 border border-[#E5E0DA]/50">
+          <div className="flex items-center gap-2 rounded-lg bg-[#f8f4eb] px-2.5 py-2 border border-[#c8c1b5]/50">
             <TreePine className="w-3.5 h-3.5 text-[#16A34A] shrink-0" />
             <div>
-              <p className="text-[9px] text-[#9CA3AF] uppercase tracking-wider">Location</p>
-              <p className="text-xs font-semibold text-[#1A1A1A]">{feature.state}{feature.unesco ? " · UNESCO" : ""}</p>
+              <p className="text-[9px] text-[#71776f] uppercase tracking-wider">Location</p>
+              <p className="text-xs font-semibold text-[#182019]">{feature.state}{feature.unesco ? " · UNESCO" : ""}</p>
             </div>
           </div>
         )}
 
         {feature.description && (
-          <div className="text-xs text-[#4B5563] leading-relaxed border-t border-[#E5E0DA]/50 pt-2 mt-1">
+          <div className="text-xs text-[#454c46] leading-relaxed border-t border-[#c8c1b5]/50 pt-2 mt-1">
             {feature.description}
           </div>
         )}
@@ -463,6 +474,29 @@ function FeatureInfoPanel({ feature, onClose }: { feature: any; onClose: () => v
 }
 
 // ── Coordinate lookup for spatial sorting ────────────────────────────────────────
+
+type AtlasFeatureListItem = {
+  name: string;
+  detail: string;
+  kind: "river" | "range" | "peak" | "pass" | "park";
+  coords?: [number, number];
+};
+
+/** Picks a stable label/sort point from the longest line in a river geometry. */
+function getRiverRepresentativePoint(geometry: any): { coords: [number, number]; weight: number } | null {
+  const lines: number[][][] = geometry?.type === "LineString"
+    ? [geometry.coordinates]
+    : geometry?.type === "MultiLineString"
+      ? geometry.coordinates
+      : [];
+  const longest = lines.reduce<number[][]>(
+    (best, line) => (line.length > best.length ? line : best),
+    []
+  );
+  const midpoint = longest[Math.floor(longest.length / 2)];
+  if (!midpoint || midpoint.length < 2) return null;
+  return { coords: [midpoint[0]!, midpoint[1]!], weight: longest.length };
+}
 
 /** Returns [lng, lat] for a feature by name+kind, or null if not found. */
 function getFeatureCoords(name: string, kind: string): [number, number] | null {
@@ -586,27 +620,28 @@ export function GeographyLab() {
   const [highlightedState, setHighlightedState] = useState<string | null>(null);
   const [correctState, setCorrectState] = useState<string | null>(null);
   const [incorrectState, setIncorrectState] = useState<string | null>(null);
-  const [memory, setMemory] = useState<Record<string, StateMemory>>({});
+  const [memory, setMemory] = useState<Record<string, StateMemory>>(() => loadMemory());
 
   // Layers & base map
-  const [baseMap, setBaseMap] = useState<BaseMapStyle>("physical");
+  const [baseMap, setBaseMap] = useState<BaseMapStyle>("clean");
   const [layers, setLayers] = useState<LayerVisibility>({
     stateBorders: true,
-    rivers: true,
+    rivers: false,
     mountains: false,
     ranges: false,
     parks: false,
-    stateLabels: false,
+    stateLabels: true,
   });
-  const [activeFilter, setActiveFilter] = useState<string>("Rivers");
-  const [riverLevel, setRiverLevel] = useState<number>(5);
+  const [activeFilter, setActiveFilter] = useState<string>("All");
+  const [riverLevel, setRiverLevel] = useState<number>(3);
   const [riverBasin, setRiverBasin] = useState<string>("All");
-  const [showRiverConfig, setShowRiverConfig] = useState<boolean>(true);
+  const [showRiverConfig, setShowRiverConfig] = useState<boolean>(false);
   
   // River specific interactive states
   const [riversData, setRiversData] = useState<any[]>([]);
   const [hiddenRivers, setHiddenRivers] = useState<Set<string>>(new Set());
   const [hiddenPeaks, setHiddenPeaks] = useState<Set<string>>(new Set());
+  const [hiddenParks, setHiddenParks] = useState<Set<string>>(new Set());
   /** Set of range names currently in spotlight mode */
   const [selectedRanges, setSelectedRanges] = useState<Set<string>>(new Set());
 
@@ -637,12 +672,10 @@ export function GeographyLab() {
   // Side panel state for mobile
   const [showPanel, setShowPanel] = useState(false);
   const [showLayers, setShowLayers] = useState(false);
+  const [showMobileIndex, setShowMobileIndex] = useState(false);
   const [showRiverFilterSheet, setShowRiverFilterSheet] = useState(false);
-
-  // Load memory
-  useEffect(() => {
-    setMemory(loadMemory());
-  }, []);
+  const [featureQuery, setFeatureQuery] = useState("");
+  const [stateQuery, setStateQuery] = useState("");
 
   // Fetch rivers data for sidebar checklist
   useEffect(() => {
@@ -658,11 +691,21 @@ export function GeographyLab() {
          const uniqueRivers = new Map<string, any>();
          data.features.forEach((f: any) => {
            const p = f.properties;
-           if (p.name && !uniqueRivers.has(p.name)) {
-             uniqueRivers.set(p.name, p);
+           if (!p.name) return;
+           const candidate = getRiverRepresentativePoint(f.geometry);
+           const existing = uniqueRivers.get(p.name);
+           if (!existing) {
+             uniqueRivers.set(p.name, {
+               ...p,
+               _coords: candidate?.coords,
+               _coordWeight: candidate?.weight ?? 0,
+             });
+           } else if (candidate && candidate.weight > existing._coordWeight) {
+             existing._coords = candidate.coords;
+             existing._coordWeight = candidate.weight;
            }
          });
-         setRiversData(Array.from(uniqueRivers.values()));
+         setRiversData(Array.from(uniqueRivers.values(), ({ _coordWeight: _unused, ...river }) => river));
       })
       .catch(err => console.error("Could not fetch rivers", err));
       
@@ -691,9 +734,14 @@ export function GeographyLab() {
     "Pir Panjal", "Ladakh Range", "Zaskar Range", "Patkai Range",
   ], []);
 
-  const displayFeaturesList = useMemo(() => {
+  const displayFeaturesList = useMemo<AtlasFeatureListItem[]>(() => {
     if (activeFilter === "Rivers") {
-      return filteredRivers.map(r => ({ name: r.name, detail: `L${r.level}`, kind: "river" as const }));
+      return filteredRivers.map(r => ({
+        name: r.name,
+        detail: `L${r.level}`,
+        kind: "river" as const,
+        coords: r._coords as [number, number] | undefined,
+      }));
     }
     if (activeFilter === "Himalayas") {
       const HIMALAYAN_RANGE_NAMES = new Set([
@@ -747,13 +795,38 @@ export function GeographyLab() {
     return [];
   }, [activeFilter, filteredRivers]);
 
+  const visibleFeaturesList = useMemo(() => {
+    const query = featureQuery.trim().toLocaleLowerCase();
+    if (!query) return displayFeaturesList;
+    return displayFeaturesList.filter((item) =>
+      `${item.name} ${item.detail}`.toLocaleLowerCase().includes(query)
+    );
+  }, [displayFeaturesList, featureQuery]);
+
+  const matchingStates = useMemo(() => {
+    const query = stateQuery.trim().toLocaleLowerCase();
+    if (!query) return [];
+    return INDIA_STATES.filter((state) =>
+      `${state.name} ${state.capital} ${state.region}`.toLocaleLowerCase().includes(query)
+    ).slice(0, 6);
+  }, [stateQuery]);
+
+  const openStateFromSearch = useCallback((name: string) => {
+    setActiveFilter("All");
+    setSelectedFeature(null);
+    setSelectedState(name);
+    setShowMobileIndex(false);
+    setShowPanel(true);
+    setStateQuery("");
+  }, []);
+
   // Spatial sort: compute sorted selected items and their coordinates for the map line
   const spatialSortedItems = useMemo(() => {
     if (!spatialSortDir || spatialSelection.size === 0) return [];
     const selected = displayFeaturesList
       .filter(item => spatialSelection.has(item.name))
       .map(item => {
-        const coords = getFeatureCoords(item.name, item.kind);
+        const coords = item.coords ?? getFeatureCoords(item.name, item.kind);
         return { ...item, coords };
       })
       .filter((item): item is typeof item & { coords: [number, number] } => item.coords !== null);
@@ -777,9 +850,13 @@ export function GeographyLab() {
     return map;
   }, [spatialSortedItems]);
 
-  // Mode changes
-  useEffect(() => {
-    if (mode === "quiz") {
+  const changeMode = useCallback((nextMode: MapMode) => {
+    setMode(nextMode);
+    setShowMobileIndex(false);
+    setShowLayers(false);
+
+    if (nextMode === "quiz") {
+      setShowPanel(false);
       setQuizDeck(null);
       setQuizQuestion(null);
       setQuizScore(0);
@@ -791,7 +868,8 @@ export function GeographyLab() {
       setCorrectState(null);
       setIncorrectState(null);
     }
-    if (mode === "explore") {
+    if (nextMode === "explore") {
+      setShowPanel(false);
       setQuizDeck(null);
       setQuizQuestion(null);
       setQuizFeedback(null);
@@ -799,7 +877,13 @@ export function GeographyLab() {
       setIncorrectState(null);
       setSelectedFeature(null);
     }
-  }, [mode]);
+    if (nextMode === "review") {
+      setShowPanel(true);
+      setQuizDeck(null);
+      setQuizQuestion(null);
+      setQuizFeedback(null);
+    }
+  }, []);
 
   const startQuizForDeck = useCallback((deck: "states" | "rivers" | "mountains" | "parks") => {
     setQuizDeck(deck);
@@ -807,9 +891,24 @@ export function GeographyLab() {
     setQuizStreak(0);
     setQuizTotal(0);
     setQuizFeedback(null);
+    setShowPanel(true);
     if (deck === "states") {
+      setActiveFilter("All");
+      setLayers({ stateBorders: true, rivers: false, mountains: false, ranges: false, parks: false, stateLabels: false });
       setQuizQuestion(generateQuizQuestion());
     } else {
+      if (deck === "rivers") {
+        setActiveFilter("Rivers");
+        setRiverBasin("All");
+        setRiverLevel(3);
+        setLayers({ stateBorders: true, rivers: true, mountains: false, ranges: false, parks: false, stateLabels: false });
+      } else if (deck === "mountains") {
+        setActiveFilter("All");
+        setLayers({ stateBorders: true, rivers: false, mountains: true, ranges: false, parks: false, stateLabels: false });
+      } else {
+        setActiveFilter("Protected Areas");
+        setLayers({ stateBorders: true, rivers: false, mountains: false, ranges: false, parks: true, stateLabels: false });
+      }
       const singular = deck.replace(/s$/, "") as "river" | "mountain" | "park";
       setQuizQuestion(generateFeatureQuizQuestion(singular));
     }
@@ -970,6 +1069,11 @@ export function GeographyLab() {
 
   const setTaxonomyFilter = useCallback((filter: string) => {
     setActiveFilter(filter);
+    setFeatureQuery("");
+    setShowMobileIndex(false);
+    setShowPanel(false);
+    setSelectedState(null);
+    setSelectedFeature(null);
     setSelectedRanges(new Set());
     setSpatialSortDir(null);
     setSpatialSelection(new Set());
@@ -977,58 +1081,74 @@ export function GeographyLab() {
     setIntersectResults(null);
     setLayers({
       stateBorders: true,
-      rivers: filter === "Rivers" || filter === "All",
-      mountains: filter === "Himalayas" || filter === "Peninsular" || filter === "Passes" || filter === "All",
-      ranges: filter === "Himalayas" || filter === "Peninsular" || filter === "All",
-      parks: filter === "Protected Areas" || filter === "All",
-      stateLabels: filter === "Passes",
+      rivers: filter === "Rivers",
+      mountains: filter === "Himalayas" || filter === "Peninsular" || filter === "Passes",
+      ranges: filter === "Himalayas" || filter === "Peninsular",
+      parks: filter === "Protected Areas",
+      stateLabels: filter === "All" || filter === "Passes",
     });
   }, []);
 
   const selectedStateData = selectedState ? STATE_BY_NAME[selectedState] : null;
 
   return (
-    <div className="flex flex-col h-dvh overflow-hidden bg-[#FAF7F2] relative">
-      {/* ── Top bar — compact glass strip ─────────────────────── */}
-      <div className="absolute top-2 sm:top-3 left-2 right-2 sm:left-3 sm:right-3 z-40 flex items-center justify-between gap-2">
-        {/* Left: back + title (compact on mobile) */}
-        <div className="flex items-center gap-1 sm:gap-1.5 bg-white/85 backdrop-blur-xl rounded-xl shadow-lg shadow-black/[0.04] border border-white/60 px-1.5 sm:px-2.5 py-1.5 sm:py-2 min-w-0">
+    <div className="geography-workspace relative flex h-dvh flex-col overflow-hidden bg-[#151a16]">
+      {/* Atlas header */}
+      <div className="absolute left-2 right-2 top-2 z-40 flex items-center justify-between gap-2 sm:left-3 sm:right-3 sm:top-3">
+        <div className="geo-chrome flex min-w-0 items-center border border-[#394239] bg-[#171d18]/95 p-1.5 text-[#eee9df] shadow-[0_18px_50px_rgba(7,10,8,0.24)] backdrop-blur-xl">
           <Link
             href="/app"
-            className="w-8 h-8 sm:w-7 sm:h-7 rounded-lg flex items-center justify-center text-[#9CA3AF] hover:text-[#1A1A1A] hover:bg-[#F0EBE4] transition-colors shrink-0"
+            aria-label="Back to dashboard"
+            className="flex h-9 w-9 shrink-0 items-center justify-center border-r border-[#394239] text-[#a6aaa1] transition-colors hover:bg-[#222a23] hover:text-[#eee9df]"
             title="Back to dashboard"
           >
             <ChevronLeft className="w-4 h-4" />
           </Link>
-          <div className="w-6 h-6 rounded-md bg-[#C4784A]/10 flex items-center justify-center shrink-0">
-            <Globe className="w-3.5 h-3.5 text-[#C4784A]" />
+          <div className="ml-2 flex h-8 w-8 shrink-0 items-center justify-center bg-[#ef5c49]/10">
+            <Globe className="h-4 w-4 text-[#ef5c49]" />
           </div>
-          <span className="text-sm font-bold text-[#1A1A1A] hidden md:block">Geography Lab</span>
+          <div className="min-w-0 px-2.5">
+            <p className="truncate text-xs font-semibold tracking-[-0.02em] text-[#eee9df] sm:text-sm">India Field Atlas</p>
+            <p className="hidden font-mono text-[8px] font-bold uppercase tracking-[0.18em] text-[#818981] sm:block">UPSC geography</p>
+          </div>
         </div>
 
-        {/* Center: mode switcher (desktop only — on mobile, it's in the bottom tab bar) */}
-        <div className="hidden sm:flex items-center bg-white/85 backdrop-blur-xl rounded-xl shadow-lg shadow-black/[0.04] border border-white/60 p-1">
-          <ModePill active={mode === "explore"} icon={<Eye className="w-3.5 h-3.5" />} label="Explore" onClick={() => setMode("explore")} />
-          <ModePill active={mode === "quiz"} icon={<Crosshair className="w-3.5 h-3.5" />} label="Quiz" onClick={() => setMode("quiz")} />
-          <ModePill active={mode === "review"} icon={<Brain className="w-3.5 h-3.5" />} label="Review" onClick={() => setMode("review")} />
+        <div className="geo-chrome hidden items-center border border-[#394239] bg-[#171d18]/95 p-1 shadow-[0_18px_50px_rgba(7,10,8,0.24)] backdrop-blur-xl sm:flex">
+          <ModePill active={mode === "explore"} icon={<Eye className="w-3.5 h-3.5" />} label="Explore" onClick={() => changeMode("explore")} />
+          <ModePill active={mode === "quiz"} icon={<Crosshair className="w-3.5 h-3.5" />} label="Quiz" onClick={() => changeMode("quiz")} />
+          <ModePill active={mode === "review"} icon={<Brain className="w-3.5 h-3.5" />} label="Review" onClick={() => changeMode("review")} />
         </div>
 
-        {/* Right: action icons (layers, intersect, filters, info) */}
-        <div className="flex items-center gap-0.5 sm:gap-1 bg-white/85 backdrop-blur-xl rounded-xl shadow-lg shadow-black/[0.04] border border-white/60 px-1 sm:px-1.5 py-1 sm:py-1.5">
-          {/* River filter shortcut on mobile */}
-          {activeFilter === "Rivers" && (
+        <div className="geo-chrome flex items-center border border-[#394239] bg-[#171d18]/95 p-1 shadow-[0_18px_50px_rgba(7,10,8,0.24)] backdrop-blur-xl">
+          {mode === "explore" ? (
             <button
+              type="button"
+              onClick={() => setShowMobileIndex(true)}
+              aria-label="Open map index"
+              className="flex h-10 w-10 items-center justify-center text-[#a6aaa1] transition-colors hover:bg-[#222a23] hover:text-[#eee9df] sm:hidden"
+            >
+              <MapIcon className="h-4 w-4" />
+            </button>
+          ) : null}
+          {/* River filter shortcut on mobile */}
+          {mode === "explore" && activeFilter === "Rivers" && (
+            <button
+              type="button"
               onClick={() => setShowRiverFilterSheet(true)}
-              className="sm:hidden w-9 h-9 rounded-lg flex items-center justify-center text-[#C4784A] hover:bg-[#C4784A]/10 transition-colors"
+              aria-label="Open river filters"
+              className="flex h-10 w-10 items-center justify-center text-[#ef5c49] transition-colors hover:bg-[#222a23] sm:hidden"
               title="River filters"
             >
               <Droplets className="w-4 h-4" />
             </button>
           )}
           <button
+            type="button"
             onClick={() => setShowLayers(!showLayers)}
-            className={`w-9 h-9 sm:w-auto sm:h-auto rounded-lg sm:p-1.5 flex items-center justify-center transition-colors ${
-              showLayers ? "bg-[#C4784A]/10 text-[#C4784A]" : "text-[#9CA3AF] hover:text-[#1A1A1A]"
+            aria-label="Map layers and reference tools"
+            aria-pressed={showLayers}
+            className={`flex h-10 w-10 items-center justify-center transition-colors ${
+              showLayers ? "bg-[#ef5c49] text-[#151a16]" : "text-[#a6aaa1] hover:bg-[#222a23] hover:text-[#eee9df]"
             }`}
             title="Toggle layers"
           >
@@ -1037,26 +1157,32 @@ export function GeographyLab() {
           {/* Intersect toggle — only visible in explore mode with a feature filter */}
           {mode === "explore" && ["Rivers", "Protected Areas"].includes(activeFilter) && (
             <button
+              type="button"
               onClick={() => {
                 setIntersectMode((prev) => {
                   if (prev) setIntersectResults(null);
                   return !prev;
                 });
               }}
-              className={`w-9 h-9 sm:w-auto sm:h-auto rounded-lg sm:p-1.5 flex items-center justify-center transition-colors ${
+              aria-label="Find geographic intersections"
+              aria-pressed={intersectMode}
+              className={`flex h-10 w-10 items-center justify-center transition-colors ${
                 intersectMode
-                  ? "bg-amber-100 text-amber-600 ring-1 ring-amber-300"
-                  : "text-[#9CA3AF] hover:text-[#1A1A1A]"
+                  ? "bg-[#ef5c49] text-[#151a16]"
+                  : "text-[#a6aaa1] hover:bg-[#222a23] hover:text-[#eee9df]"
               }`}
-              title="Intersect mode — click a river or park to see what it crosses"
+              title="Find what a river or park crosses"
             >
               <Share2 className="w-4 h-4" />
             </button>
           )}
-          {(mode !== "explore" || selectedState || selectedFeature) && (
+          {(mode !== "explore" || selectedState || selectedFeature || ["Rivers", "Himalayas", "Peninsular", "Passes", "Protected Areas"].includes(activeFilter)) && (
             <button
+              type="button"
               onClick={() => setShowPanel(!showPanel)}
-              className="lg:hidden w-9 h-9 sm:w-auto sm:h-auto rounded-lg sm:p-1.5 flex items-center justify-center text-[#9CA3AF] hover:text-[#1A1A1A] transition-colors"
+              aria-label={showPanel ? "Close atlas information" : "Open atlas information"}
+              aria-expanded={showPanel}
+              className="flex h-10 w-10 items-center justify-center text-[#a6aaa1] transition-colors hover:bg-[#222a23] hover:text-[#eee9df] lg:hidden"
             >
               <Info className="w-4 h-4" />
             </button>
@@ -1064,11 +1190,11 @@ export function GeographyLab() {
         </div>
       </div>
 
-      {/* ── Taxonomy Filters — pill strip ── */}
-      <div className="absolute top-[3.25rem] sm:top-16 left-0 right-0 sm:left-3 sm:right-auto z-30 pointer-events-none">
-        <div className="flex items-center gap-1 bg-white/80 backdrop-blur-xl sm:rounded-xl shadow-lg shadow-black/[0.04] border-y sm:border border-white/60 p-1 overflow-x-auto scrollbar-hide pointer-events-auto mx-2 sm:mx-0 rounded-xl">
+      {/* Map index */}
+      {mode === "explore" && <div className="pointer-events-none absolute left-0 right-0 top-[3.25rem] z-30 hidden sm:left-3 sm:right-auto sm:top-16 sm:block">
+        <div className="geo-chrome mx-2 flex items-center overflow-x-auto border border-[#394239] bg-[#171d18]/94 p-1 shadow-[0_18px_50px_rgba(7,10,8,0.22)] backdrop-blur-xl scrollbar-hide pointer-events-auto sm:mx-0">
           {[
-            { key: "All", label: "All", icon: <Globe className="w-3 h-3" /> },
+            { key: "All", label: "States", icon: <Globe className="w-3 h-3" /> },
             { key: "Rivers", label: "Rivers", icon: <Droplets className="w-3 h-3" /> },
             { key: "Himalayas", label: "Himalayas", icon: <Mountain className="w-3 h-3" /> },
             { key: "Peninsular", label: "Peninsular", icon: <Mountain className="w-3 h-3" /> },
@@ -1077,11 +1203,13 @@ export function GeographyLab() {
           ].map((f) => (
             <button
               key={f.key}
+              type="button"
               onClick={() => setTaxonomyFilter(f.key)}
-              className={`flex items-center gap-1.5 px-3 py-2 sm:px-2.5 sm:py-1.5 rounded-lg text-xs font-semibold whitespace-nowrap transition-all duration-150 shrink-0 ${
+              aria-pressed={activeFilter === f.key}
+              className={`flex min-h-10 shrink-0 items-center gap-1.5 border px-3 font-mono text-[9px] font-bold uppercase tracking-[0.1em] whitespace-nowrap transition-colors ${
                 activeFilter === f.key
-                  ? "bg-[#C4784A] text-white shadow-sm"
-                  : "text-[#6B7280] hover:text-[#1A1A1A] hover:bg-white/60"
+                  ? "border-[#ef5c49] bg-[#ef5c49] text-[#151a16]"
+                  : "border-transparent text-[#a6aaa1] hover:border-[#465047] hover:text-[#eee9df]"
               }`}
             >
               {f.icon}
@@ -1089,27 +1217,80 @@ export function GeographyLab() {
             </button>
           ))}
         </div>
-      </div>
+      </div>}
+
+      {mode === "explore" && showMobileIndex ? (
+        <>
+          <div className="fixed inset-0 z-40 bg-black/45 sm:hidden" onClick={() => setShowMobileIndex(false)} />
+          <div role="dialog" aria-modal="true" aria-labelledby="atlas-index-title" className="fixed bottom-0 left-0 right-0 z-50 bg-[#f2ede3] pb-[max(1rem,env(safe-area-inset-bottom))] shadow-[0_-18px_60px_rgba(7,10,8,0.28)] sm:hidden">
+            <div className="mx-auto mb-2 mt-3 h-1 w-10 rounded-full bg-[#b6aea2]" />
+            <div className="flex items-center justify-between px-4 pb-3">
+              <div>
+                <p className="font-mono text-[9px] font-bold uppercase tracking-[0.16em] text-[#c2382e]">Study layer</p>
+                <h2 id="atlas-index-title" className="mt-1 text-xl font-semibold tracking-[-0.04em] text-[#182019]">Map index</h2>
+              </div>
+              <button type="button" aria-label="Close map index" onClick={() => setShowMobileIndex(false)} className="flex h-11 w-11 items-center justify-center text-[#71776f] hover:text-[#182019]">
+                <X className="h-4 w-4" />
+              </button>
+            </div>
+            <div className="px-4 pb-3">
+              <label className="relative block">
+                <span className="sr-only">Find a state or capital</span>
+                <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-[#71776f]" />
+                <input type="search" value={stateQuery} onChange={(event) => setStateQuery(event.target.value)} placeholder="Find a state or capital" className="min-h-12 w-full border border-[#c8c1b5] bg-[#f8f4eb] pl-10 pr-3 text-base text-[#182019] placeholder:text-[#8c918a] focus:border-[#c2382e] focus:outline-none" />
+              </label>
+              {matchingStates.length > 0 ? (
+                <div className="border-x border-b border-[#c8c1b5] bg-[#f8f4eb]">
+                  {matchingStates.map((state) => (
+                    <button key={state.name} type="button" onClick={() => openStateFromSearch(state.name)} className="flex min-h-11 w-full items-center justify-between border-b border-[#d7d1c6] px-3 text-left last:border-b-0 hover:bg-[#e8e3d9]">
+                      <span className="text-sm font-semibold text-[#182019]">{state.name}</span>
+                      <span className="text-xs text-[#71776f]">{state.capital}</span>
+                    </button>
+                  ))}
+                </div>
+              ) : null}
+            </div>
+            <div className="border-t border-[#c8c1b5] px-4">
+              {[
+                { key: "All", label: "States", icon: <Globe className="h-4 w-4" /> },
+                { key: "Rivers", label: "Rivers", icon: <Droplets className="h-4 w-4" /> },
+                { key: "Himalayas", label: "Himalayas", icon: <Mountain className="h-4 w-4" /> },
+                { key: "Peninsular", label: "Peninsular systems", icon: <Mountain className="h-4 w-4" /> },
+                { key: "Passes", label: "Passes", icon: <MapIcon className="h-4 w-4" /> },
+                { key: "Protected Areas", label: "Protected areas", icon: <TreePine className="h-4 w-4" /> },
+              ].map((item, index) => (
+                <button key={item.key} type="button" aria-pressed={activeFilter === item.key} onClick={() => setTaxonomyFilter(item.key)} className={`flex min-h-12 w-full items-center gap-3 border-b border-[#c8c1b5] text-left ${activeFilter === item.key ? "text-[#c2382e]" : "text-[#182019]"}`}>
+                  <span className="w-5 font-mono text-[9px] font-bold text-[#c2382e]">0{index + 1}</span>
+                  <span className="text-[#71776f]">{item.icon}</span>
+                  <span className="text-sm font-semibold">{item.label}</span>
+                  {activeFilter === item.key ? <Check className="ml-auto h-4 w-4" /> : null}
+                </button>
+              ))}
+            </div>
+          </div>
+        </>
+      ) : null}
 
       {/* ── Rivers filter — inline on desktop, bottom sheet on mobile ── */}
-      {activeFilter === "Rivers" && (
+      {mode === "explore" && activeFilter === "Rivers" && (
         <div className="hidden sm:block absolute top-[6.5rem] left-3 z-30 pointer-events-auto">
           {showRiverConfig ? (
-            <div className="flex items-center gap-3 bg-white/85 backdrop-blur-xl p-2.5 pr-3 rounded-xl border border-white/60 shadow-lg shadow-black/[0.04] animate-in slide-in-from-top-2 fade-in duration-200">
+            <div className="geo-chrome flex items-center gap-3 border border-[#394239] bg-[#171d18]/94 p-2.5 pr-3 text-[#eee9df] shadow-[0_18px_50px_rgba(7,10,8,0.22)] backdrop-blur-xl animate-in slide-in-from-top-2 fade-in duration-200">
               <div className="flex items-center gap-2 min-w-[10rem]">
-                <label className="text-[10px] font-bold text-[#9CA3AF] uppercase tracking-wider shrink-0">Lvl</label>
+                <label className="shrink-0 font-mono text-[9px] font-bold uppercase tracking-[0.14em] text-[#a6aaa1]">Detail</label>
                 <input
                   type="range" min="1" max="5"
                   value={riverLevel} onChange={(e) => setRiverLevel(Number(e.target.value))}
-                  className="w-24 accent-[#C4784A]"
+                  className="w-24 accent-[#ef5c49]"
                 />
-                <span className="text-xs font-bold text-[#C4784A] tabular-nums w-4">{riverLevel}</span>
+                <span className="w-4 text-xs font-bold tabular-nums text-[#ef5c49]">{riverLevel}</span>
               </div>
-              <div className="w-px h-5 bg-[#E5E0DA]" />
+              <div className="h-5 w-px bg-[#394239]" />
               <select
                 value={riverBasin}
                 onChange={(e) => setRiverBasin(e.target.value)}
-                className="bg-transparent border-none text-xs font-semibold text-[#1A1A1A] focus:outline-none cursor-pointer pr-4"
+                aria-label="River basin"
+                className="cursor-pointer border-none bg-[#171d18] pr-4 text-xs font-semibold text-[#eee9df] focus:outline-none"
               >
                 <option value="All">All Basins</option>
                 <option value="Ganga Basin">Ganga</option>
@@ -1122,40 +1303,43 @@ export function GeographyLab() {
                 <option value="Kaveri Basin">Kaveri</option>
                 <option value="Peninsular Rivers">Peninsular</option>
               </select>
-              <button onClick={() => setShowRiverConfig(false)} className="text-[#9CA3AF] hover:text-[#1A1A1A] transition-colors p-0.5">
+              <button type="button" aria-label="Close river filters" onClick={() => setShowRiverConfig(false)} className="p-1 text-[#a6aaa1] transition-colors hover:text-[#eee9df]">
                 <X className="w-3.5 h-3.5" />
               </button>
             </div>
           ) : (
             <button
+              type="button"
               onClick={() => setShowRiverConfig(true)}
-              className="flex items-center gap-1.5 bg-white/85 backdrop-blur-xl px-3 py-1.5 rounded-xl border border-white/60 shadow-lg shadow-black/[0.04] text-xs font-semibold text-[#1A1A1A] hover:bg-white/95 transition-colors"
+              className="geo-chrome flex min-h-10 items-center gap-2 border border-[#394239] bg-[#171d18]/94 px-3 font-mono text-[9px] font-bold uppercase tracking-[0.12em] text-[#eee9df] shadow-[0_18px_50px_rgba(7,10,8,0.22)] backdrop-blur-xl transition-colors hover:border-[#59645a]"
             >
-              <Droplets className="w-3.5 h-3.5 text-[#C4784A]" />
-              Filters
-              <ChevronDown className="w-3 h-3 text-[#9CA3AF]" />
+              <Droplets className="h-3.5 w-3.5 text-[#ef5c49]" />
+              River filters
+              <ChevronDown className="h-3 w-3 text-[#a6aaa1]" />
             </button>
           )}
         </div>
       )}
 
       {/* ── Mobile river filter bottom sheet ── */}
-      {activeFilter === "Rivers" && showRiverFilterSheet && (
+      {mode === "explore" && activeFilter === "Rivers" && showRiverFilterSheet && (
         <>
           <div
-            className="sm:hidden fixed inset-0 z-40 bg-black/20 animate-in fade-in duration-200"
+            className="fixed inset-0 z-40 bg-black/45 sm:hidden animate-in fade-in duration-200"
             onClick={() => setShowRiverFilterSheet(false)}
           />
-          <div className="sm:hidden fixed bottom-0 left-0 right-0 z-50 bg-white rounded-t-2xl shadow-[0_-4px_30px_rgba(0,0,0,0.08)] animate-in slide-in-from-bottom-4 duration-200 pb-[max(1rem,env(safe-area-inset-bottom))]">
-            <div className="w-10 h-1 bg-[#D1D5DB] rounded-full mx-auto mt-3 mb-2" />
+          <div role="dialog" aria-modal="true" aria-labelledby="river-filter-title" className="fixed bottom-0 left-0 right-0 z-50 bg-[#f2ede3] shadow-[0_-18px_60px_rgba(7,10,8,0.28)] sm:hidden animate-in slide-in-from-bottom-4 duration-200 pb-[max(1rem,env(safe-area-inset-bottom))]">
+            <div className="mx-auto mb-2 mt-3 h-1 w-10 rounded-full bg-[#b6aea2]" />
             <div className="px-4 pb-2 flex items-center justify-between">
               <div className="flex items-center gap-2">
-                <Droplets className="w-4 h-4 text-[#C4784A]" />
-                <h3 className="text-sm font-bold text-[#1A1A1A]">River Filters</h3>
+                <Droplets className="h-4 w-4 text-[#c2382e]" />
+                <h3 id="river-filter-title" className="text-sm font-bold text-[#182019]">River filters</h3>
               </div>
               <button
+                type="button"
+                aria-label="Close river filters"
                 onClick={() => setShowRiverFilterSheet(false)}
-                className="rounded-md p-1.5 text-[#9CA3AF] hover:text-[#1A1A1A]"
+                className="p-2 text-[#71776f] hover:text-[#182019]"
               >
                 <X className="w-4 h-4" />
               </button>
@@ -1163,26 +1347,27 @@ export function GeographyLab() {
             <div className="px-4 py-3 space-y-4">
               <div>
                 <div className="flex items-center justify-between mb-2">
-                  <label className="text-[11px] font-bold text-[#6B7280] uppercase tracking-wider">Detail Level</label>
-                  <span className="text-xs font-bold text-[#C4784A] tabular-nums">Level {riverLevel}</span>
+                  <label className="font-mono text-[10px] font-bold uppercase tracking-[0.14em] text-[#646a62]">Detail level</label>
+                  <span className="text-xs font-bold tabular-nums text-[#c2382e]">Level {riverLevel}</span>
                 </div>
                 <input
                   type="range" min="1" max="5"
                   value={riverLevel}
                   onChange={(e) => setRiverLevel(Number(e.target.value))}
-                  className="w-full accent-[#C4784A] h-2"
+                  className="h-2 w-full accent-[#c2382e]"
                 />
-                <div className="flex justify-between text-[10px] text-[#9CA3AF] mt-1 px-0.5">
+                <div className="flex justify-between text-[10px] text-[#71776f] mt-1 px-0.5">
                   <span>Major</span>
                   <span>All</span>
                 </div>
               </div>
               <div>
-                <label className="text-[11px] font-bold text-[#6B7280] uppercase tracking-wider block mb-2">Basin</label>
+                <label className="mb-2 block font-mono text-[10px] font-bold uppercase tracking-[0.14em] text-[#646a62]">Basin</label>
                 <select
                   value={riverBasin}
                   onChange={(e) => setRiverBasin(e.target.value)}
-                  className="w-full bg-[#FAF7F2] border border-[#E5E0DA] rounded-lg px-3 py-2.5 text-sm font-semibold text-[#1A1A1A] focus:outline-none focus:border-[#C4784A]"
+                  aria-label="River basin"
+                  className="w-full border border-[#c8c1b5] bg-[#f8f4eb] px-3 py-2.5 text-sm font-semibold text-[#182019] focus:border-[#c2382e] focus:outline-none"
                 >
                   <option value="All">All Basins</option>
                   <option value="Ganga Basin">Ganga</option>
@@ -1197,8 +1382,9 @@ export function GeographyLab() {
                 </select>
               </div>
               <button
+                type="button"
                 onClick={() => setShowRiverFilterSheet(false)}
-                className="w-full rounded-xl bg-[#C4784A] text-white text-sm font-semibold py-3 hover:bg-[#B06838] active:scale-[0.98] transition-all"
+                className="w-full bg-[#c2382e] py-3 text-sm font-semibold text-white transition-colors hover:bg-[#a92f28] active:scale-[0.98]"
               >
                 Done
               </button>
@@ -1209,32 +1395,39 @@ export function GeographyLab() {
 
       {/* ── Layer controls — compact floating card ──────────────── */}
       {showLayers && (
-        <div className="absolute bottom-[5rem] sm:bottom-4 left-3 right-3 sm:right-auto z-40 bg-white/95 backdrop-blur-xl rounded-xl shadow-lg shadow-black/[0.06] border border-white/60 p-2.5 animate-in slide-in-from-bottom-4 fade-in duration-200 sm:w-[max-content] sm:max-w-[calc(100vw-1.5rem)]">
+        <div role="dialog" aria-label="Map settings" className="absolute bottom-[5rem] left-3 right-3 z-40 border border-[#c8c1b5] bg-[#f2ede3]/98 p-3 shadow-[0_18px_60px_rgba(7,10,8,0.24)] backdrop-blur-xl sm:bottom-4 sm:right-auto sm:w-[max-content] sm:max-w-[calc(100vw-1.5rem)] animate-in slide-in-from-bottom-4 fade-in duration-200">
           {/* Base map toggle */}
-          <div className="flex items-center gap-1 rounded-lg bg-[#F3F4F6] p-0.5 mb-2">
+          <p className="mb-2 font-mono text-[9px] font-bold uppercase tracking-[0.16em] text-[#646a62]">Map style</p>
+          <div className="mb-3 flex items-center gap-1 border border-[#d7d1c6] bg-[#e8e3d9] p-1">
             <button
+              type="button"
               onClick={() => setBaseMap("physical")}
-              className={`flex items-center gap-1 px-2.5 py-1 rounded-md text-[11px] font-semibold transition-all ${
-                baseMap === "physical" ? "bg-white text-[#1A1A1A] shadow-sm" : "text-[#9CA3AF]"
+              aria-pressed={baseMap === "physical"}
+              className={`flex min-h-9 items-center gap-1 px-2.5 text-[11px] font-semibold transition-colors ${
+                baseMap === "physical" ? "bg-[#182019] text-[#f5f1e8]" : "text-[#71776f] hover:text-[#182019]"
               }`}
             >
               <Globe className="w-3 h-3" /> Terrain
             </button>
             <button
+              type="button"
               onClick={() => setBaseMap("satellite")}
-              className={`flex items-center gap-1 px-2.5 py-1 rounded-md text-[11px] font-semibold transition-all ${
-                baseMap === "satellite" ? "bg-white text-[#1A1A1A] shadow-sm" : "text-[#9CA3AF]"
+              aria-pressed={baseMap === "satellite"}
+              className={`flex min-h-9 items-center gap-1 px-2.5 text-[11px] font-semibold transition-colors ${
+                baseMap === "satellite" ? "bg-[#182019] text-[#f5f1e8]" : "text-[#71776f] hover:text-[#182019]"
               }`}
             >
               <Satellite className="w-3 h-3" /> Satellite
             </button>
             <button
+              type="button"
               onClick={() => setBaseMap("clean")}
-              className={`flex items-center gap-1 px-2.5 py-1 rounded-md text-[11px] font-semibold transition-all ${
-                baseMap === "clean" ? "bg-white text-[#1A1A1A] shadow-sm" : "text-[#9CA3AF]"
+              aria-pressed={baseMap === "clean"}
+              className={`flex min-h-9 items-center gap-1 px-2.5 text-[11px] font-semibold transition-colors ${
+                baseMap === "clean" ? "bg-[#182019] text-[#f5f1e8]" : "text-[#71776f] hover:text-[#182019]"
               }`}
             >
-              <Palette className="w-3 h-3" /> Political
+              <Palette className="w-3 h-3" /> Atlas
             </button>
           </div>
 
@@ -1248,8 +1441,8 @@ export function GeographyLab() {
           </div>
 
           {/* Grid Lines + Lock tool */}
-          <div className="mt-2 pt-2 border-t border-[#E5E0DA]/60">
-            <p className="text-[9px] font-bold text-[#9CA3AF] uppercase tracking-wider mb-1.5">Reference Tools</p>
+          <div className="mt-3 border-t border-[#d7d1c6] pt-3">
+            <p className="mb-1.5 font-mono text-[9px] font-bold uppercase tracking-[0.16em] text-[#646a62]">Reference tools</p>
             <div className="flex gap-1">
               <LayerToggle icon={<Grid3x3 className="w-3 h-3" />} label="Grid Lines" active={showGridLines} onToggle={() => setShowGridLines(g => !g)} />
               <LayerToggle
@@ -1266,11 +1459,11 @@ export function GeographyLab() {
               <div className="mt-1.5 space-y-1">
                 <div className="flex items-center gap-1.5 text-[10px] text-[#92400E]">
                   <span className="inline-block w-5 border-t-2 border-dashed border-[#D97706]" />
-                  Tropic of Cancer — 23.5°N
+                  Tropic of Cancer, 23.5°N
                 </div>
                 <div className="flex items-center gap-1.5 text-[10px] text-[#065F46]">
                   <span className="inline-block w-5 border-t-2 border-dashed border-[#059669]" />
-                  Indian Standard Meridian — 82.5°E
+                  Indian Standard Meridian, 82.5°E
                 </div>
               </div>
             )}
@@ -1283,43 +1476,46 @@ export function GeographyLab() {
         {/* Map area */}
         <div className="flex-1 relative">
           {mode === "quiz" && !quizDeck && (
-            <div className="absolute inset-0 z-50 bg-gradient-to-b from-black/70 via-black/50 to-black/70 backdrop-blur-sm flex items-center justify-center p-4">
+            <div role="dialog" aria-modal="true" aria-labelledby="quiz-deck-title" className="absolute inset-0 z-50 flex items-center justify-center bg-[#101411]/85 p-4 backdrop-blur-sm">
               <div className="w-full max-w-md animate-in zoom-in-95 fade-in duration-300">
                 <div className="text-center mb-6">
-                  <div className="w-12 h-12 rounded-2xl bg-[#C4784A]/20 flex items-center justify-center mx-auto mb-3">
-                    <Crosshair className="w-6 h-6 text-[#C4784A]" />
+                  <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center border border-[#ef5c49]/40 bg-[#ef5c49]/10">
+                    <Crosshair className="h-6 w-6 text-[#ef5c49]" />
                   </div>
-                  <h2 className="text-2xl font-serif font-bold text-white mb-1">Choose Your Quiz</h2>
-                  <p className="text-sm text-white/50">Test your geography knowledge</p>
+                  <p className="font-mono text-[9px] font-bold uppercase tracking-[0.18em] text-[#ef5c49]">Map recall</p>
+                  <h2 id="quiz-deck-title" className="mt-3 text-3xl font-semibold tracking-[-0.05em] text-[#eee9df]">Choose a quiz deck</h2>
+                  <p className="mt-2 text-sm text-[#a6aaa1]">Recall locations without printed map labels.</p>
                 </div>
 
                 <div className="space-y-2">
                   {[
-                    { id: "states", title: "States & Capitals", icon: <MapPin className="w-5 h-5" />, desc: "28 States and 8 Union Territories", accent: "text-blue-400" },
-                    { id: "rivers", title: "River Networks", icon: <Droplets className="w-5 h-5" />, desc: "Himalayan & Peninsular drainage basins", accent: "text-cyan-400" },
-                    { id: "mountains", title: "Peaks & Passes", icon: <Mountain className="w-5 h-5" />, desc: "Mountain peaks and strategic passes", accent: "text-amber-400" },
-                    { id: "parks", title: "Protected Areas", icon: <TreePine className="w-5 h-5" />, desc: "National Parks and Biosphere Reserves", accent: "text-emerald-400" },
+                    { id: "states", title: "State recall", icon: <MapPin className="w-5 h-5" />, desc: "Locations, capitals, neighbours, and key facts", accent: "text-blue-300" },
+                    { id: "rivers", title: "River systems", icon: <Droplets className="w-5 h-5" />, desc: "Himalayan and Peninsular drainage basins", accent: "text-cyan-300" },
+                    { id: "mountains", title: "Peaks and passes", icon: <Mountain className="w-5 h-5" />, desc: "Mountain peaks and strategic passes", accent: "text-amber-300" },
+                    { id: "parks", title: "Protected areas", icon: <TreePine className="w-5 h-5" />, desc: "National parks and biosphere reserves", accent: "text-emerald-300" },
                   ].map((deck) => (
                     <button
                       key={deck.id}
+                      type="button"
                       onClick={() => startQuizForDeck(deck.id as any)}
-                      className="group w-full flex items-center gap-4 rounded-xl bg-white/10 border border-white/10 px-4 py-3.5 text-left transition-all hover:bg-white/20 hover:border-white/20 active:scale-[0.98]"
+                      className="group flex min-h-16 w-full items-center gap-4 border border-[#394239] bg-[#171d18]/90 px-4 py-3.5 text-left transition-colors hover:border-[#59645a] hover:bg-[#222a23] active:scale-[0.98]"
                     >
                       <div className={`${deck.accent} shrink-0`}>{deck.icon}</div>
                       <div className="flex-1 min-w-0">
-                        <h3 className="text-sm font-bold text-white">{deck.title}</h3>
-                        <p className="text-xs text-white/40 mt-0.5 truncate">{deck.desc}</p>
+                        <h3 className="text-sm font-bold text-[#eee9df]">{deck.title}</h3>
+                        <p className="mt-0.5 truncate text-xs text-[#818981]">{deck.desc}</p>
                       </div>
-                      <ChevronRight className="w-4 h-4 text-white/20 group-hover:text-white/50 transition-colors shrink-0" />
+                      <ChevronRight className="h-4 w-4 shrink-0 text-[#59645a] transition-colors group-hover:text-[#ef5c49]" />
                     </button>
                   ))}
                 </div>
 
                 <button
-                  onClick={() => setMode("explore")}
-                  className="w-full mt-4 text-center text-xs text-white/30 hover:text-white/50 transition-colors py-2"
+                  type="button"
+                  onClick={() => changeMode("explore")}
+                  className="mt-4 w-full py-3 text-center font-mono text-[9px] font-bold uppercase tracking-[0.14em] text-[#818981] transition-colors hover:text-[#eee9df]"
                 >
-                  Back to Explore
+                  Return to explore
                 </button>
               </div>
             </div>
@@ -1335,11 +1531,14 @@ export function GeographyLab() {
             memory={memory}
             selectedFeatureName={selectedFeature?.name || null}
             disableStateSelection={activeFilter !== "All"}
+            prioritizeStateSelection={mode === "quiz" && quizDeck === "states"}
+            hideStudyLabels={mode === "quiz" && !quizFeedback}
             activeFilter={activeFilter}
             riverLevel={riverLevel}
             riverBasin={riverBasin}
             hiddenRivers={Array.from(hiddenRivers)}
             hiddenPeaks={Array.from(hiddenPeaks)}
+            hiddenParks={Array.from(hiddenParks)}
             layers={layers}
             selectedRanges={Array.from(selectedRanges)}
             spatialSortLine={spatialSortLine}
@@ -1374,7 +1573,7 @@ export function GeographyLab() {
           {/* ── Floating map legend ── */}
           {activeFilter === "Protected Areas" && (
             <div className="absolute bottom-[5.5rem] sm:bottom-14 left-3 sm:left-auto sm:right-3 z-20 bg-white/90 backdrop-blur-xl rounded-lg shadow-lg shadow-black/[0.04] border border-white/60 px-3 py-2 space-y-1.5 animate-in fade-in duration-200">
-              <p className="text-[9px] font-bold text-[#9CA3AF] uppercase tracking-wider">Legend</p>
+              <p className="text-[9px] font-bold text-[#71776f] uppercase tracking-wider">Legend</p>
               {[
                 { color: "#16A34A", label: "National Park" },
                 { color: "#F59E0B", label: "Tiger Reserve" },
@@ -1383,7 +1582,7 @@ export function GeographyLab() {
               ].map((item) => (
                 <div key={item.label} className="flex items-center gap-2">
                   <span className="w-2.5 h-2.5 rounded-full shrink-0 border border-white" style={{ background: item.color }} />
-                  <span className="text-[11px] text-[#4B5563]">{item.label}</span>
+                  <span className="text-[11px] text-[#454c46]">{item.label}</span>
                 </div>
               ))}
             </div>
@@ -1391,14 +1590,14 @@ export function GeographyLab() {
 
           {(activeFilter === "Himalayas" || activeFilter === "Passes") && (
             <div className="absolute bottom-[5.5rem] sm:bottom-14 left-3 sm:left-auto sm:right-3 z-20 bg-white/90 backdrop-blur-xl rounded-lg shadow-lg shadow-black/[0.04] border border-white/60 px-3 py-2 space-y-1.5 animate-in fade-in duration-200">
-              <p className="text-[9px] font-bold text-[#9CA3AF] uppercase tracking-wider">Legend</p>
+              <p className="text-[9px] font-bold text-[#71776f] uppercase tracking-wider">Legend</p>
               {[
                 { color: "#D97706", label: "Mountain Peak" },
                 { color: "#3B82F6", label: "Mountain Pass" },
               ].map((item) => (
                 <div key={item.label} className="flex items-center gap-2">
                   <span className="w-2.5 h-2.5 rounded-full shrink-0 border border-white" style={{ background: item.color }} />
-                  <span className="text-[11px] text-[#4B5563]">{item.label}</span>
+                  <span className="text-[11px] text-[#454c46]">{item.label}</span>
                 </div>
               ))}
             </div>
@@ -1407,23 +1606,30 @@ export function GeographyLab() {
 
         {/* ── Side panel / Bottom sheet ── */}
         <div
+          role={showPanel ? "dialog" : "complementary"}
+          aria-modal={showPanel ? true : undefined}
+          aria-label="Atlas information"
           className={`
-            shrink-0 overflow-y-auto bg-white/95 backdrop-blur-xl
+            shrink-0 overflow-y-auto border-[#c8c1b5] bg-[#f2ede3]/98 text-[#182019] backdrop-blur-xl
             ${
               showPanel
-                ? "fixed bottom-0 left-0 right-0 z-50 h-[60dvh] rounded-t-2xl shadow-[0_-4px_30px_rgba(0,0,0,0.08)] lg:h-auto lg:rounded-none lg:shadow-none lg:relative lg:inset-auto lg:w-80 lg:border-l lg:border-[#E5E0DA]/50 animate-in slide-in-from-bottom-8 lg:slide-in-from-right duration-200"
-                : "hidden lg:block lg:w-80 lg:border-l lg:border-[#E5E0DA]/50 lg:relative"
+                ? "fixed bottom-0 left-0 right-0 z-50 h-[72dvh] border-t shadow-[0_-18px_60px_rgba(7,10,8,0.25)] lg:relative lg:inset-auto lg:h-auto lg:w-[22rem] lg:border-l lg:border-t-0 lg:shadow-none animate-in slide-in-from-bottom-8 lg:slide-in-from-right duration-200"
+                : "hidden lg:relative lg:block lg:w-[22rem] lg:border-l"
             }
           `}
         >
           {showPanel && (
-            <div className="lg:hidden w-10 h-1 bg-[#D1D5DB] rounded-full mx-auto mt-3 mb-1" />
+            <div className="mx-auto mb-1 mt-3 h-1 w-10 rounded-full bg-[#b6aea2] lg:hidden" />
           )}
-          <div className="p-4 lg:p-5 lg:pt-16 space-y-5 pb-16">
-            {showPanel && (
+          <div className="space-y-5 p-4 pb-20 lg:p-6 lg:pb-16 lg:pt-20">
+            {showPanel && !(
+              mode === "explore" &&
+              (selectedStateData || selectedFeature || (intersectMode && intersectResults) || lockPoint)
+            ) && (
               <button
                 onClick={() => setShowPanel(false)}
-                className="lg:hidden absolute top-4 right-4 rounded-lg p-1.5 text-[#9CA3AF] hover:text-[#1A1A1A] hover:bg-[#F0EBE4] transition-colors z-10"
+                aria-label="Close atlas information"
+                className="absolute right-4 top-4 z-10 p-2 text-[#71776f] transition-colors hover:bg-[#e8e3d9] hover:text-[#182019] lg:hidden"
               >
                 <X className="w-4 h-4" />
               </button>
@@ -1438,15 +1644,17 @@ export function GeographyLab() {
                       <ScanLine className="w-3.5 h-3.5 text-[#6366F1]" />
                     </div>
                     <div>
-                      <p className="text-xs font-bold text-[#1A1A1A]">Lat / Lng Lock</p>
-                      <p className="text-[10px] text-[#6B7280] font-mono">
+                      <p className="text-xs font-bold text-[#182019]">Lat / Lng Lock</p>
+                      <p className="text-[10px] text-[#646a62] font-mono">
                         {lockPoint[1].toFixed(2)}°N, {lockPoint[0].toFixed(2)}°E
                       </p>
                     </div>
                   </div>
                   <button
+                    type="button"
+                    aria-label="Close coordinate study"
                     onClick={() => { setLockPoint(null); setLockMode(false); }}
-                    className="rounded-md p-1 text-[#9CA3AF] hover:text-[#1A1A1A] hover:bg-[#F0EBE4] transition-colors"
+                    className="rounded-md p-1 text-[#71776f] hover:text-[#182019] hover:bg-[#e8e3d9] transition-colors"
                   >
                     <X className="w-3.5 h-3.5" />
                   </button>
@@ -1461,7 +1669,7 @@ export function GeographyLab() {
                     </p>
                   </div>
                   {alignedFeatures.sameLat.length === 0 ? (
-                    <p className="text-[11px] text-[#9CA3AF] italic px-1">No major features at this latitude</p>
+                    <p className="text-[11px] text-[#71776f] italic px-1">No major features at this latitude</p>
                   ) : (
                     <div className="space-y-1">
                       {alignedFeatures.sameLat.slice(0, 12).map((f, i) => (
@@ -1470,9 +1678,9 @@ export function GeographyLab() {
                             <span className="text-[10px] shrink-0">
                               {f.featureType === "city" ? "🏙️" : f.featureType === "park" ? "🌿" : f.featureType === "pass" ? "🏔️" : "⛰️"}
                             </span>
-                            <span className="text-[11px] font-medium text-[#1A1A1A] truncate">{f.name}</span>
+                            <span className="text-[11px] font-medium text-[#182019] truncate">{f.name}</span>
                           </div>
-                          <span className="text-[9px] text-[#9CA3AF] font-mono shrink-0 ml-1">
+                          <span className="text-[9px] text-[#71776f] font-mono shrink-0 ml-1">
                             {f.coords[1].toFixed(1)}°N
                           </span>
                         </div>
@@ -1490,7 +1698,7 @@ export function GeographyLab() {
                     </p>
                   </div>
                   {alignedFeatures.sameLng.length === 0 ? (
-                    <p className="text-[11px] text-[#9CA3AF] italic px-1">No major features at this longitude</p>
+                    <p className="text-[11px] text-[#71776f] italic px-1">No major features at this longitude</p>
                   ) : (
                     <div className="space-y-1">
                       {alignedFeatures.sameLng.slice(0, 12).map((f, i) => (
@@ -1499,9 +1707,9 @@ export function GeographyLab() {
                             <span className="text-[10px] shrink-0">
                               {f.featureType === "city" ? "🏙️" : f.featureType === "park" ? "🌿" : f.featureType === "pass" ? "🏔️" : "⛰️"}
                             </span>
-                            <span className="text-[11px] font-medium text-[#1A1A1A] truncate">{f.name}</span>
+                            <span className="text-[11px] font-medium text-[#182019] truncate">{f.name}</span>
                           </div>
-                          <span className="text-[9px] text-[#9CA3AF] font-mono shrink-0 ml-1">
+                          <span className="text-[9px] text-[#71776f] font-mono shrink-0 ml-1">
                             {f.coords[0].toFixed(1)}°E
                           </span>
                         </div>
@@ -1512,7 +1720,7 @@ export function GeographyLab() {
 
                 <button
                   onClick={() => setLockMode(true)}
-                  className="mt-3 w-full flex items-center justify-center gap-1.5 rounded-lg border border-[#E5E0DA] px-3 py-1.5 text-[11px] font-semibold text-[#6B7280] hover:bg-[#FAF7F2] hover:text-[#1A1A1A] transition-colors"
+                  className="mt-3 w-full flex items-center justify-center gap-1.5 rounded-lg border border-[#c8c1b5] px-3 py-1.5 text-[11px] font-semibold text-[#646a62] hover:bg-[#f8f4eb] hover:text-[#182019] transition-colors"
                 >
                   <LocateFixed className="w-3 h-3" /> Click new location
                 </button>
@@ -1528,12 +1736,49 @@ export function GeographyLab() {
             )}
 
             {mode === "explore" && !selectedStateData && !selectedFeature && !["Rivers", "Himalayas", "Peninsular", "Passes", "Protected Areas"].includes(activeFilter) && (
-              <div className="text-center py-8">
-                <div className="w-10 h-10 rounded-xl bg-[#F3F4F6] flex items-center justify-center mx-auto mb-3">
-                  <MapPin className="w-5 h-5 text-[#D1D5DB]" />
+              <div className="py-2">
+                <p className="font-mono text-[9px] font-bold uppercase tracking-[0.18em] text-[#c2382e]">Map study</p>
+                <h2 className="mt-4 text-3xl font-semibold leading-[1.05] tracking-[-0.05em] text-[#182019]">Trace systems. Recall locations.</h2>
+                <p className="mt-4 text-sm leading-6 text-[#646a62]">Start with a state, follow a physical system, or test what you can place without labels.</p>
+                <div className="mt-6">
+                  <label className="relative block">
+                    <span className="sr-only">Find a state or capital</span>
+                    <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-[#71776f]" />
+                    <input type="search" value={stateQuery} onChange={(event) => setStateQuery(event.target.value)} placeholder="Find a state or capital" className="min-h-11 w-full border border-[#c8c1b5] bg-[#f8f4eb] pl-10 pr-3 text-sm text-[#182019] placeholder:text-[#8c918a] focus:border-[#c2382e] focus:outline-none" />
+                  </label>
+                  {matchingStates.length > 0 ? (
+                    <div className="border-x border-b border-[#c8c1b5] bg-[#f8f4eb]">
+                      {matchingStates.map((state) => (
+                        <button key={state.name} type="button" onClick={() => openStateFromSearch(state.name)} className="flex min-h-10 w-full items-center justify-between border-b border-[#d7d1c6] px-3 text-left last:border-b-0 hover:bg-[#e8e3d9]">
+                          <span className="text-sm font-semibold text-[#182019]">{state.name}</span>
+                          <span className="text-xs text-[#71776f]">{state.capital}</span>
+                        </button>
+                      ))}
+                    </div>
+                  ) : null}
                 </div>
-                <h3 className="text-sm font-semibold text-[#1A1A1A] mb-1">Select a state</h3>
-                <p className="text-xs text-[#9CA3AF]">Click on the map to explore details</p>
+                <div className="mt-7 border-t border-[#c8c1b5]">
+                  {[
+                    { number: "01", label: "Trace a river system", filter: "Rivers", icon: <Droplets className="h-4 w-4" /> },
+                    { number: "02", label: "Compare mountain ranges", filter: "Himalayas", icon: <Mountain className="h-4 w-4" /> },
+                    { number: "03", label: "Study protected areas", filter: "Protected Areas", icon: <TreePine className="h-4 w-4" /> },
+                  ].map((item) => (
+                    <button
+                      key={item.number}
+                      type="button"
+                      onClick={() => setTaxonomyFilter(item.filter)}
+                      className="group flex min-h-14 w-full items-center gap-3 border-b border-[#c8c1b5] text-left text-[#182019] transition-colors hover:bg-[#e8e3d9]"
+                    >
+                      <span className="font-mono text-[9px] font-bold text-[#c2382e]">{item.number}</span>
+                      <span className="text-[#71776f] group-hover:text-[#c2382e]">{item.icon}</span>
+                      <span className="text-sm font-semibold">{item.label}</span>
+                      <ChevronRight className="ml-auto h-4 w-4 text-[#8c918a] group-hover:text-[#c2382e]" />
+                    </button>
+                  ))}
+                </div>
+                <p className="mt-6 flex items-center gap-2 font-mono text-[9px] font-bold uppercase tracking-[0.12em] text-[#71776f]">
+                  <MapPin className="h-3.5 w-3.5 text-[#c2382e]" /> Select any state for its field notes
+                </p>
               </div>
             )}
 
@@ -1547,12 +1792,12 @@ export function GeographyLab() {
                     </div>
                     <div>
                       <p className="text-[9px] font-bold uppercase tracking-widest text-amber-600">Intersect</p>
-                      <h3 className="text-base font-bold text-[#1A1A1A] font-serif leading-tight">{intersectResults.focusName}</h3>
+                      <h3 className="text-base font-bold text-[#182019] font-serif leading-tight">{intersectResults.focusName}</h3>
                     </div>
                   </div>
                   <button
                     onClick={() => { setIntersectResults(null); setIntersectMode(false); }}
-                    className="rounded-md p-1 text-[#9CA3AF] hover:text-[#1A1A1A] hover:bg-[#F0EBE4] transition-colors shrink-0"
+                    className="rounded-md p-1 text-[#71776f] hover:text-[#182019] hover:bg-[#e8e3d9] transition-colors shrink-0"
                   >
                     <X className="w-3.5 h-3.5" />
                   </button>
@@ -1562,7 +1807,7 @@ export function GeographyLab() {
                   {intersectResults.focusType === "river"
                     ? <Droplets className="w-3.5 h-3.5 text-blue-600 shrink-0" />
                     : <TreePine className="w-3.5 h-3.5 text-emerald-600 shrink-0" />}
-                  <p className="text-xs text-[#4B5563]">
+                  <p className="text-xs text-[#454c46]">
                     {intersectResults.focusType === "river"
                       ? "Parks & ranges this river passes through"
                       : "Rivers that flow near this park"}
@@ -1572,11 +1817,11 @@ export function GeographyLab() {
                 {intersectResults.focusType === "river" && (
                   <>
                     <div>
-                      <p className="text-[9px] font-bold uppercase tracking-wider text-[#9CA3AF] mb-1.5">
+                      <p className="text-[9px] font-bold uppercase tracking-wider text-[#71776f] mb-1.5">
                         Protected Areas <span className="text-amber-600">({intersectResults.parks.length})</span>
                       </p>
                       {intersectResults.parks.length === 0 ? (
-                        <p className="text-xs text-[#9CA3AF] italic px-1">None detected along this river</p>
+                        <p className="text-xs text-[#71776f] italic px-1">None detected along this river</p>
                       ) : (
                         <div className="space-y-1">
                           {intersectResults.parks.map((park) => {
@@ -1592,11 +1837,11 @@ export function GeographyLab() {
                               : park.category === "WLS" ? "Wildlife Sanctuary"
                               : "National Park";
                             return (
-                              <div key={park.name} className="flex items-center gap-2 rounded-lg bg-[#FAFAF9] border border-[#E5E0DA]/60 px-2.5 py-2">
+                              <div key={park.name} className="flex items-center gap-2 rounded-lg bg-[#f8f4eb] border border-[#c8c1b5]/60 px-2.5 py-2">
                                 <span className="w-2 h-2 rounded-full bg-amber-400 shrink-0" />
                                 <div className="flex-1 min-w-0">
-                                  <p className="text-xs font-semibold text-[#1A1A1A] truncate">{park.name}</p>
-                                  <p className="text-[10px] text-[#9CA3AF]">{park.state}</p>
+                                  <p className="text-xs font-semibold text-[#182019] truncate">{park.name}</p>
+                                  <p className="text-[10px] text-[#71776f]">{park.state}</p>
                                 </div>
                                 <span className={`text-[9px] font-bold px-1.5 py-0.5 rounded border shrink-0 ${catColor}`}>
                                   {catLabel}
@@ -1609,17 +1854,17 @@ export function GeographyLab() {
                     </div>
 
                     <div>
-                      <p className="text-[9px] font-bold uppercase tracking-wider text-[#9CA3AF] mb-1.5">
+                      <p className="text-[9px] font-bold uppercase tracking-wider text-[#71776f] mb-1.5">
                         Mountain Ranges <span className="text-amber-600">({intersectResults.ranges.length})</span>
                       </p>
                       {intersectResults.ranges.length === 0 ? (
-                        <p className="text-xs text-[#9CA3AF] italic px-1">No ranges intersect this river</p>
+                        <p className="text-xs text-[#71776f] italic px-1">No ranges intersect this river</p>
                       ) : (
                         <div className="space-y-1">
                           {intersectResults.ranges.map((range) => (
-                            <div key={range.name} className="flex items-center gap-2 rounded-lg bg-[#FAFAF9] border border-[#E5E0DA]/60 px-2.5 py-2">
+                            <div key={range.name} className="flex items-center gap-2 rounded-lg bg-[#f8f4eb] border border-[#c8c1b5]/60 px-2.5 py-2">
                               <Mountain className="w-3.5 h-3.5 text-amber-600 shrink-0" />
-                              <p className="text-xs font-semibold text-[#1A1A1A]">{range.name}</p>
+                              <p className="text-xs font-semibold text-[#182019]">{range.name}</p>
                             </div>
                           ))}
                         </div>
@@ -1630,17 +1875,17 @@ export function GeographyLab() {
 
                 {intersectResults.focusType === "park" && (
                   <div>
-                    <p className="text-[9px] font-bold uppercase tracking-wider text-[#9CA3AF] mb-1.5">
+                    <p className="text-[9px] font-bold uppercase tracking-wider text-[#71776f] mb-1.5">
                       Nearby Rivers <span className="text-amber-600">({intersectResults.rivers.length})</span>
                     </p>
                     {intersectResults.rivers.length === 0 ? (
-                      <p className="text-xs text-[#9CA3AF] italic px-1">No rivers detected near this park</p>
+                      <p className="text-xs text-[#71776f] italic px-1">No rivers detected near this park</p>
                     ) : (
                       <div className="space-y-1">
                         {intersectResults.rivers.map((river) => (
-                          <div key={river} className="flex items-center gap-2 rounded-lg bg-[#FAFAF9] border border-[#E5E0DA]/60 px-2.5 py-2">
+                          <div key={river} className="flex items-center gap-2 rounded-lg bg-[#f8f4eb] border border-[#c8c1b5]/60 px-2.5 py-2">
                             <Droplets className="w-3.5 h-3.5 text-blue-500 shrink-0" />
-                            <p className="text-xs font-semibold text-[#1A1A1A]">{river}</p>
+                            <p className="text-xs font-semibold text-[#182019]">{river}</p>
                           </div>
                         ))}
                       </div>
@@ -1648,7 +1893,7 @@ export function GeographyLab() {
                   </div>
                 )}
 
-                <p className="text-[10px] text-[#9CA3AF] text-center pt-1">Click another feature to update</p>
+                <p className="text-[10px] text-[#71776f] text-center pt-1">Click another feature to update</p>
               </div>
             )}
 
@@ -1659,8 +1904,8 @@ export function GeographyLab() {
                   <Share2 className="w-6 h-6 text-amber-500" />
                 </div>
                 <div>
-                  <h3 className="text-sm font-bold text-[#1A1A1A] mb-1">Intersect Mode Active</h3>
-                  <p className="text-xs text-[#9CA3AF] leading-relaxed max-w-[220px]">
+                  <h3 className="text-sm font-bold text-[#182019] mb-1">Intersect Mode Active</h3>
+                  <p className="text-xs text-[#71776f] leading-relaxed max-w-[220px]">
                     Click any <span className="font-semibold text-blue-600">river</span> or{" "}
                     <span className="font-semibold text-emerald-600">park</span> on the map to see
                     what it geographically crosses.
@@ -1668,7 +1913,7 @@ export function GeographyLab() {
                 </div>
                 <button
                   onClick={() => setIntersectMode(false)}
-                  className="text-xs text-[#9CA3AF] hover:text-[#1A1A1A] transition-colors underline underline-offset-2"
+                  className="text-xs text-[#71776f] hover:text-[#182019] transition-colors underline underline-offset-2"
                 >
                   Cancel
                 </button>
@@ -1677,16 +1922,17 @@ export function GeographyLab() {
 
             {/* ── Normal feature list ── */}
             {mode === "explore" && !intersectMode && !selectedStateData && !selectedFeature && ["Rivers", "Himalayas", "Peninsular", "Passes", "Protected Areas"].includes(activeFilter) && (
-              <div className="flex flex-col h-[calc(100dvh-8rem)]">
+              <div className="flex min-h-full flex-col">
                 <div className="shrink-0 mb-3 space-y-2">
                   <div className="flex items-center justify-between">
                     <div>
-                      <h3 className="text-sm font-bold text-[#1A1A1A]">{activeFilter === "Peninsular" ? "Peninsular Mountains" : activeFilter}</h3>
-                      <p className="text-[10px] text-[#9CA3AF] mt-0.5">{displayFeaturesList.length} items</p>
+                      <p className="font-mono text-[9px] font-bold uppercase tracking-[0.16em] text-[#c2382e]">Atlas index</p>
+                      <h3 className="mt-2 text-2xl font-semibold tracking-[-0.04em] text-[#182019]">{activeFilter === "Peninsular" ? "Peninsular systems" : activeFilter}</h3>
+                      <p className="mt-1 text-[10px] text-[#71776f]">{visibleFeaturesList.length} of {displayFeaturesList.length} shown</p>
                     </div>
                     <div className="flex items-center gap-1.5">
-                      {(hiddenRivers.size > 0 || hiddenPeaks.size > 0) && (
-                        <button onClick={() => { setHiddenRivers(new Set()); setHiddenPeaks(new Set()); }} className="text-[10px] text-[#C4784A] hover:underline font-semibold">
+                      {(hiddenRivers.size > 0 || hiddenPeaks.size > 0 || hiddenParks.size > 0) && (
+                        <button type="button" onClick={() => { setHiddenRivers(new Set()); setHiddenPeaks(new Set()); setHiddenParks(new Set()); }} className="text-[10px] text-[#c2382e] hover:underline font-semibold">
                           Reset
                         </button>
                       )}
@@ -1702,10 +1948,10 @@ export function GeographyLab() {
                         }}
                         className={`flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-[11px] font-bold transition-all ${
                           spatialSortDir
-                            ? "bg-[#C4784A] text-white shadow-sm"
-                            : "text-[#C4784A] bg-[#C4784A]/10 hover:bg-[#C4784A]/20 border border-[#C4784A]/30"
+                            ? "bg-[#c2382e] text-white shadow-sm"
+                            : "text-[#c2382e] bg-[#c2382e]/10 hover:bg-[#c2382e]/20 border border-[#c2382e]/30"
                         }`}
-                        title="Spatial Sort — select items and sort by position"
+                        title="Spatial sort. Select features and compare position."
                       >
                         <ArrowUpDown className="w-3.5 h-3.5" />
                         <span>Sort</span>
@@ -1713,16 +1959,33 @@ export function GeographyLab() {
                     </div>
                   </div>
 
+                  <label className="relative block">
+                    <span className="sr-only">Search {activeFilter}</span>
+                    <Search className="pointer-events-none absolute left-3 top-1/2 h-3.5 w-3.5 -translate-y-1/2 text-[#71776f]" />
+                    <input
+                      type="search"
+                      value={featureQuery}
+                      onChange={(event) => setFeatureQuery(event.target.value)}
+                      placeholder={`Search ${activeFilter.toLocaleLowerCase()}`}
+                      className="min-h-11 w-full border border-[#c8c1b5] bg-[#f8f4eb] pl-9 pr-9 text-sm text-[#182019] placeholder:text-[#8c918a] focus:border-[#c2382e] focus:outline-none"
+                    />
+                    {featureQuery ? (
+                      <button type="button" aria-label="Clear search" onClick={() => setFeatureQuery("")} className="absolute right-1 top-1/2 flex h-9 w-9 -translate-y-1/2 items-center justify-center text-[#71776f] hover:text-[#182019]">
+                        <X className="h-3.5 w-3.5" />
+                      </button>
+                    ) : null}
+                  </label>
+
                   {/* Spatial sort direction bar */}
                   {spatialSortDir && (
-                    <div className="flex items-center gap-1.5 bg-[#FAF7F2] rounded-lg border border-[#E5E0DA]/80 p-1 animate-in slide-in-from-top-2 fade-in duration-200">
-                      <div className="flex items-center rounded-md bg-white shadow-sm border border-[#E5E0DA]/50 p-0.5">
+                    <div className="flex items-center gap-1.5 bg-[#f8f4eb] rounded-lg border border-[#c8c1b5]/80 p-1 animate-in slide-in-from-top-2 fade-in duration-200">
+                      <div className="flex items-center rounded-md bg-white shadow-sm border border-[#c8c1b5]/50 p-0.5">
                         <button
                           onClick={() => setSpatialSortDir("ns")}
                           className={`flex items-center gap-1 px-2 py-1 rounded text-[10px] font-bold transition-all ${
                             spatialSortDir === "ns"
-                              ? "bg-[#C4784A] text-white"
-                              : "text-[#9CA3AF] hover:text-[#1A1A1A]"
+                              ? "bg-[#c2382e] text-white"
+                              : "text-[#71776f] hover:text-[#182019]"
                           }`}
                         >
                           <ArrowDown className="w-2.5 h-2.5" /> N→S
@@ -1731,14 +1994,14 @@ export function GeographyLab() {
                           onClick={() => setSpatialSortDir("ew")}
                           className={`flex items-center gap-1 px-2 py-1 rounded text-[10px] font-bold transition-all ${
                             spatialSortDir === "ew"
-                              ? "bg-[#C4784A] text-white"
-                              : "text-[#9CA3AF] hover:text-[#1A1A1A]"
+                              ? "bg-[#c2382e] text-white"
+                              : "text-[#71776f] hover:text-[#182019]"
                           }`}
                         >
                           <ArrowRight className="w-2.5 h-2.5" /> E→W
                         </button>
                       </div>
-                      <span className="text-[9px] text-[#9CA3AF] flex-1">
+                      <span className="text-[9px] text-[#71776f] flex-1">
                         {spatialSelection.size === 0
                           ? "Check items to sort"
                           : `${spatialSelection.size} selected`}
@@ -1746,7 +2009,7 @@ export function GeographyLab() {
                       {spatialSelection.size > 0 && (
                         <button
                           onClick={() => setSpatialSelection(new Set())}
-                          className="text-[9px] font-semibold text-[#C4784A] hover:text-[#92400E] transition-colors"
+                          className="text-[9px] font-semibold text-[#c2382e] hover:text-[#92400E] transition-colors"
                         >
                           Clear
                         </button>
@@ -1759,12 +2022,12 @@ export function GeographyLab() {
                     /* ── SPATIAL SORT MODE ── */
                     <>
                       {spatialSortedItems.length > 0 && (
-                        <p className="px-2 pt-1 pb-1.5 text-[9px] font-bold uppercase tracking-wider text-[#C4784A]">
+                        <p className="px-2 pt-1 pb-1.5 text-[9px] font-bold uppercase tracking-wider text-[#c2382e]">
                           {spatialSortDir === "ns" ? "North → South" : "East → West"}
                         </p>
                       )}
                       {(() => {
-                        const unselected = displayFeaturesList.filter(r => !spatialSelection.has(r.name));
+                        const unselected = visibleFeaturesList.filter(r => !spatialSelection.has(r.name));
                         const rows: { name: string; detail: string; kind: string; divider?: boolean }[] = [
                           ...spatialSortedItems,
                           ...(spatialSortedItems.length > 0 && unselected.length > 0
@@ -1774,47 +2037,49 @@ export function GeographyLab() {
                         ];
                         return rows.map(r => {
                           if (r.divider) {
-                            return <div key="__divider__" className="my-2 mx-2 border-t border-dashed border-[#E5E0DA]" />;
+                            return <div key="__divider__" className="my-2 mx-2 border-t border-dashed border-[#c8c1b5]" />;
                           }
                           const rank = spatialRankMap.get(r.name);
                           const isChecked = spatialSelection.has(r.name);
                           return (
-                            <button
+                            <label
                               key={r.name}
-                              onClick={() => {
+                              className={`w-full flex cursor-pointer items-center gap-2 px-2 py-1.5 rounded-lg transition-all text-left group ${
+                                isChecked
+                                  ? "bg-[#c2382e]/[0.06] border border-[#c2382e]/20"
+                                  : "border border-transparent hover:bg-[#f8f4eb]"
+                              }`}
+                            >
+                              <div className="relative flex items-center justify-center w-3.5 h-3.5 shrink-0">
+                                <input
+                                  type="checkbox"
+                                  checked={isChecked}
+                                  onChange={() => {
                                 const s = new Set(spatialSelection);
                                 if (s.has(r.name)) s.delete(r.name); else s.add(r.name);
                                 setSpatialSelection(s);
                               }}
-                              className={`w-full flex items-center gap-2 px-2 py-1.5 rounded-lg transition-all text-left group ${
-                                isChecked
-                                  ? "bg-[#C4784A]/[0.06] border border-[#C4784A]/20"
-                                  : "border border-transparent hover:bg-[#FAF7F2]"
-                              }`}
-                            >
-                              <div className="relative flex items-center justify-center w-3.5 h-3.5 shrink-0">
-                                <input type="checkbox" checked={isChecked} readOnly
-                                  className="peer appearance-none w-3.5 h-3.5 border-2 rounded-[3px] bg-white border-[#C4784A] checked:bg-[#C4784A] checked:border-[#C4784A] transition-all cursor-pointer"
+                                  className="peer appearance-none w-3.5 h-3.5 border-2 rounded-[3px] bg-white border-[#c2382e] checked:bg-[#c2382e] checked:border-[#c2382e] transition-all cursor-pointer"
                                 />
                                 <Check className="absolute w-2.5 h-2.5 text-white opacity-0 peer-checked:opacity-100 pointer-events-none" />
                               </div>
                               {rank != null && (
-                                <span className="w-5 h-5 rounded-full bg-[#C4784A] text-white text-[10px] font-bold flex items-center justify-center shrink-0 tabular-nums">
+                                <span className="w-5 h-5 rounded-full bg-[#c2382e] text-white text-[10px] font-bold flex items-center justify-center shrink-0 tabular-nums">
                                   {rank}
                                 </span>
                               )}
                               <div className="flex-1 min-w-0">
                                 <span className={`text-xs font-medium truncate block transition-colors ${
-                                  isChecked ? "text-[#C4784A] font-semibold" : "text-[#1A1A1A] group-hover:text-[#C4784A]"
+                                  isChecked ? "text-[#c2382e] font-semibold" : "text-[#182019] group-hover:text-[#c2382e]"
                                 }`}>{r.name}</span>
                               </div>
-                              <span className="text-[9px] text-[#9CA3AF] tabular-nums shrink-0">{r.detail}</span>
-                            </button>
+                              <span className="text-[9px] text-[#71776f] tabular-nums shrink-0">{r.detail}</span>
+                            </label>
                           );
                         });
                       })()}
-                      {displayFeaturesList.length === 0 && (
-                        <div className="text-center py-6 text-xs text-[#9CA3AF]">No items to sort.</div>
+                      {visibleFeaturesList.length === 0 && (
+                        <div className="text-center py-6 text-xs text-[#71776f]">No items to sort.</div>
                       )}
                     </>
                   ) : (
@@ -1829,36 +2094,29 @@ export function GeographyLab() {
                       {selectedRanges.size > 0 && (
                         <button
                           onClick={() => setSelectedRanges(new Set())}
-                          className="flex items-center gap-1 text-[9px] font-semibold text-[#C4784A] hover:text-[#92400E] transition-colors mr-1"
+                          className="flex items-center gap-1 text-[9px] font-semibold text-[#c2382e] hover:text-[#92400E] transition-colors mr-1"
                         >
                           <X className="w-2.5 h-2.5" /> Clear
                         </button>
                       )}
                     </div>
                   )}
-                  {displayFeaturesList
+                  {visibleFeaturesList
                     .filter(r => !(activeFilter === "Himalayas" || activeFilter === "Peninsular") || r.kind === "range")
                     .map(r => {
                       const isSpotlit = selectedRanges.has(r.name);
                       const isRange = r.kind === "range";
                       const isPeninsular = activeFilter === "Peninsular";
+                      const hiddenSet = r.kind === "river" ? hiddenRivers : r.kind === "park" ? hiddenParks : hiddenPeaks;
                       return (
-                    <button
+                    <label
                       key={r.name}
-                      onClick={() => {
-                        if (isRange) {
-                          const newSet = new Set(selectedRanges);
-                          if (newSet.has(r.name)) newSet.delete(r.name);
-                          else newSet.add(r.name);
-                          setSelectedRanges(newSet);
-                        }
-                      }}
-                      className={`w-full flex items-center gap-2.5 px-2 py-1.5 rounded-lg transition-all text-left group ${
+                      className={`w-full flex cursor-pointer items-center gap-2.5 px-2 py-1.5 rounded-lg transition-all text-left group ${
                         isSpotlit
                           ? isPeninsular ? "bg-green-50 border border-green-200 shadow-sm" : "bg-amber-50 border border-amber-200 shadow-sm"
                           : isRange
                           ? isPeninsular ? "border border-transparent hover:bg-green-50 cursor-pointer" : "border border-transparent hover:bg-[#FFFBEB] cursor-pointer"
-                          : "border border-transparent hover:bg-[#FAF7F2]"
+                          : "border border-transparent hover:bg-[#f8f4eb]"
                       }`}
                     >
                       {isRange ? (
@@ -1866,7 +2124,12 @@ export function GeographyLab() {
                           <input
                             type="checkbox"
                             checked={isSpotlit}
-                            readOnly
+                            onChange={() => {
+                              const newSet = new Set(selectedRanges);
+                              if (newSet.has(r.name)) newSet.delete(r.name);
+                              else newSet.add(r.name);
+                              setSelectedRanges(newSet);
+                            }}
                             className={`peer appearance-none w-4 h-4 border-2 rounded-[3px] bg-white transition-all cursor-pointer ${
                               isPeninsular
                                 ? "border-[#166534] checked:bg-[#166534] checked:border-[#166534]"
@@ -1879,14 +2142,16 @@ export function GeographyLab() {
                         <div className="relative flex items-center justify-center w-3.5 h-3.5 shrink-0">
                           <input
                             type="checkbox"
-                            checked={!hiddenRivers.has(r.name)}
+                            checked={!hiddenSet.has(r.name)}
                             onChange={(e) => {
-                              const newHidden = new Set(hiddenRivers);
+                              const newHidden = new Set(hiddenSet);
                               if (e.target.checked) newHidden.delete(r.name);
                               else newHidden.add(r.name);
-                              setHiddenRivers(newHidden);
+                              if (r.kind === "river") setHiddenRivers(newHidden);
+                              else if (r.kind === "park") setHiddenParks(newHidden);
+                              else setHiddenPeaks(newHidden);
                             }}
-                            className="peer appearance-none w-3.5 h-3.5 border border-[#D1D5DB] rounded-sm bg-white checked:bg-[#92400E] checked:border-[#92400E] transition-all cursor-pointer"
+                            className="peer appearance-none w-3.5 h-3.5 border border-[#b6aea2] rounded-sm bg-white checked:bg-[#92400E] checked:border-[#92400E] transition-all cursor-pointer"
                           />
                           <Check className="absolute w-2.5 h-2.5 text-white opacity-0 peer-checked:opacity-100 pointer-events-none" />
                         </div>
@@ -1896,30 +2161,30 @@ export function GeographyLab() {
                           isSpotlit
                             ? isPeninsular ? "text-green-700 font-semibold" : "text-amber-700 font-semibold"
                             : isRange
-                            ? isPeninsular ? "text-[#1A1A1A] group-hover:text-green-700" : "text-[#1A1A1A] group-hover:text-amber-700"
-                            : "text-[#1A1A1A] group-hover:text-[#92400E]"
+                            ? isPeninsular ? "text-[#182019] group-hover:text-green-700" : "text-[#182019] group-hover:text-amber-700"
+                            : "text-[#182019] group-hover:text-[#92400E]"
                         }`}>{r.name}</span>
                       </div>
                       <span className={`text-[9px] tabular-nums shrink-0 ${
                         isSpotlit
                           ? isPeninsular ? "text-green-600 font-medium" : "text-amber-600 font-medium"
-                          : "text-[#9CA3AF]"
+                          : "text-[#71776f]"
                       }`}>{r.detail}</span>
                       {isRange && isSpotlit && <div className={`w-1.5 h-1.5 rounded-full shrink-0 animate-pulse ${isPeninsular ? "bg-green-400" : "bg-amber-400"}`} />}
-                    </button>
+                    </label>
                   );})}
                   {/* Section header for Peaks */}
-                  {(activeFilter === "Himalayas" || activeFilter === "Peninsular") && displayFeaturesList.some(r => r.kind === "peak") && (
+                  {(activeFilter === "Himalayas" || activeFilter === "Peninsular") && visibleFeaturesList.some(r => r.kind === "peak") && (
                     <p className={`px-2 pt-3 pb-1 text-[9px] font-bold uppercase tracking-wider ${
                       activeFilter === "Peninsular" ? "text-[#166534]" : "text-[#1E40AF]"
                     }`}>Individual Peaks</p>
                   )}
-                  {(activeFilter === "Himalayas" || activeFilter === "Peninsular") && displayFeaturesList
+                  {(activeFilter === "Himalayas" || activeFilter === "Peninsular") && visibleFeaturesList
                     .filter(r => r.kind === "peak")
                     .map(r => {
                       const isPeninsular = activeFilter === "Peninsular";
                       return (
-                    <label key={r.name} className="flex items-center gap-2.5 px-2 py-1.5 rounded-lg hover:bg-[#FAF7F2] cursor-pointer transition-colors group">
+                    <label key={r.name} className="flex items-center gap-2.5 px-2 py-1.5 rounded-lg hover:bg-[#f8f4eb] cursor-pointer transition-colors group">
                       <div className="relative flex items-center justify-center w-3.5 h-3.5 shrink-0">
                          <input
                            type="checkbox"
@@ -1930,7 +2195,7 @@ export function GeographyLab() {
                              else newHidden.add(r.name);
                              setHiddenPeaks(newHidden);
                            }}
-                           className={`peer appearance-none w-3.5 h-3.5 border border-[#D1D5DB] rounded-sm bg-white transition-all cursor-pointer ${
+                           className={`peer appearance-none w-3.5 h-3.5 border border-[#b6aea2] rounded-sm bg-white transition-all cursor-pointer ${
                              isPeninsular
                                ? "checked:bg-[#166534] checked:border-[#166534]"
                                : "checked:bg-[#1E40AF] checked:border-[#1E40AF]"
@@ -1940,15 +2205,15 @@ export function GeographyLab() {
                       </div>
                       <div className="flex-1 min-w-0">
                         <span className={`text-xs font-medium transition-colors truncate block ${
-                          isPeninsular ? "text-[#1A1A1A] group-hover:text-[#166534]" : "text-[#1A1A1A] group-hover:text-[#1E40AF]"
+                          isPeninsular ? "text-[#182019] group-hover:text-[#166534]" : "text-[#182019] group-hover:text-[#1E40AF]"
                         }`}>{r.name}</span>
                       </div>
-                      <span className="text-[9px] text-[#9CA3AF] tabular-nums shrink-0">{r.detail}</span>
+                      <span className="text-[9px] text-[#71776f] tabular-nums shrink-0">{r.detail}</span>
                     </label>
                   );})}
                   {/* Empty state */}
-                  {(activeFilter !== "Himalayas" && activeFilter !== "Peninsular") && displayFeaturesList.length === 0 && (
-                    <div className="text-center py-6 text-xs text-[#9CA3AF]">
+                  {(activeFilter !== "Himalayas" && activeFilter !== "Peninsular") && visibleFeaturesList.length === 0 && (
+                    <div className="text-center py-6 text-xs text-[#71776f]">
                       No items match these filters.
                     </div>
                   )}
@@ -1980,7 +2245,7 @@ export function GeographyLab() {
       )}
 
       {/* ── Mobile bottom tab bar — mode switcher ─────────────── */}
-      <div className="sm:hidden fixed bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-xl border-t border-[#E5E0DA] pb-[env(safe-area-inset-bottom)]">
+      <div className="sm:hidden fixed bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-xl border-t border-[#c8c1b5] pb-[env(safe-area-inset-bottom)]">
         <div className="flex items-center justify-around px-2 py-1.5">
           {[
             { key: "explore" as const, icon: <Eye className="w-5 h-5" />, label: "Explore" },
@@ -1991,9 +2256,9 @@ export function GeographyLab() {
             return (
               <button
                 key={tab.key}
-                onClick={() => setMode(tab.key)}
+                onClick={() => changeMode(tab.key)}
                 className={`flex flex-col items-center justify-center gap-0.5 flex-1 py-1.5 rounded-lg transition-all active:scale-95 ${
-                  active ? "text-[#C4784A]" : "text-[#9CA3AF]"
+                  active ? "text-[#c2382e]" : "text-[#71776f]"
                 }`}
               >
                 <span className={active ? "" : ""}>{tab.icon}</span>

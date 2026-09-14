@@ -1,4 +1,4 @@
-// ── India States & UTs — UPSC-relevant geographic data ─────────────────────────
+// ── India States & UTs: UPSC-relevant geographic data ─────────────────────────
 // Region colors designed for dark map background (saturated pastels)
 
 export type PhysicalRegion =
@@ -54,8 +54,8 @@ export const INDIA_STATES: StateData[] = [
     mountainRanges: ["Saddle Peak"],
     nationalParks: ["Campbell Bay NP", "Mahatma Gandhi Marine NP", "Mount Harriet NP", "Rani Jhansi Marine NP", "Saddle Peak NP"],
     keyFacts: [
-      "Only active volcano in India — Barren Island",
-      "Indira Point — southernmost point of India",
+      "Only active volcano in India: Barren Island",
+      "Indira Point: southernmost point of India",
       "Home to Jarawa and Sentinelese tribes",
       "Separated by Ten Degree Channel",
     ],
@@ -74,9 +74,9 @@ export const INDIA_STATES: StateData[] = [
     nationalParks: ["Sri Venkateswara NP", "Rajiv Gandhi NP (Rishi Valley)"],
     keyFacts: [
       "Longest coastline among all states (974 km)",
-      "Tirupati — richest temple in the world",
+      "Tirupati: richest temple in the world",
       "Kuchipudi classical dance originated here",
-      "Major rice producing state (Rice Bowl of India — shared with Tamil Nadu)",
+      "Major rice producing state (Rice Bowl of India: shared with Tamil Nadu)",
     ],
   },
   {
@@ -92,10 +92,10 @@ export const INDIA_STATES: StateData[] = [
     mountainRanges: ["Eastern Himalayas", "Mishmi Hills", "Patkai Range"],
     nationalParks: ["Namdapha NP", "Mouling NP"],
     keyFacts: [
-      "Easternmost state — first to see sunrise in India",
+      "Easternmost state: first to see sunrise in India",
       "Largest state in Northeast India",
       "Home to 26 major tribes and over 100 sub-tribes",
-      "Tawang Monastery — largest in India, 2nd largest Buddhist monastery in world",
+      "Tawang Monastery: largest in India, 2nd largest Buddhist monastery in world",
     ],
   },
   {
@@ -111,8 +111,8 @@ export const INDIA_STATES: StateData[] = [
     mountainRanges: ["Karbi Anglong Hills", "North Cachar Hills"],
     nationalParks: ["Kaziranga NP", "Manas NP", "Dibru-Saikhowa NP", "Nameri NP", "Orang NP"],
     keyFacts: [
-      "Kaziranga — one-horned rhinoceros (UNESCO World Heritage)",
-      "Majuli — largest river island in the world",
+      "Kaziranga: one-horned rhinoceros (UNESCO World Heritage)",
+      "Majuli: largest river island in the world",
       "Largest tea-producing state in India",
       "Gateway to Northeast India",
     ],
@@ -130,10 +130,10 @@ export const INDIA_STATES: StateData[] = [
     mountainRanges: [],
     nationalParks: ["Valmiki NP"],
     keyFacts: [
-      "Nalanda — oldest university in the world",
-      "Bodh Gaya — where Buddha attained enlightenment (UNESCO)",
+      "Nalanda: oldest university in the world",
+      "Bodh Gaya: where Buddha attained enlightenment (UNESCO)",
       "Birthplace of Jainism (Mahavira) and Buddhism (near Bodh Gaya)",
-      "Chhath Puja — unique sun worship festival",
+      "Chhath Puja: unique sun worship festival",
     ],
   },
   {
@@ -151,7 +151,7 @@ export const INDIA_STATES: StateData[] = [
     keyFacts: [
       "Planned city designed by Le Corbusier",
       "Joint capital of Punjab and Haryana",
-      "Capitol Complex — UNESCO World Heritage Site",
+      "Capitol Complex: UNESCO World Heritage Site",
     ],
   },
   {
@@ -167,8 +167,8 @@ export const INDIA_STATES: StateData[] = [
     mountainRanges: ["Maikal Range", "Satpura Range"],
     nationalParks: ["Indravati NP", "Kanger Valley NP", "Guru Ghasidas NP"],
     keyFacts: [
-      "Rich in mineral resources — iron ore, coal, bauxite",
-      "Chitrakote Falls — widest waterfall in India (Niagara of India)",
+      "Rich in mineral resources: iron ore, coal, bauxite",
+      "Chitrakote Falls: widest waterfall in India (Niagara of India)",
       "Dense Sal forests and tribal population",
       "Carved out of Madhya Pradesh in 2000",
     ],
@@ -189,7 +189,7 @@ export const INDIA_STATES: StateData[] = [
       "Merged into single UT in 2020 (formerly two separate UTs)",
       "Former Portuguese colony until 1961",
       "Diu is an island; Daman and Silvassa on the mainland",
-      "Major tribal population — Warli, Kokna, Dhodia",
+      "Major tribal population: Warli, Kokna, Dhodia",
     ],
   },
   {
@@ -205,9 +205,9 @@ export const INDIA_STATES: StateData[] = [
     mountainRanges: ["Delhi Ridge (Aravalli extension)"],
     nationalParks: [],
     keyFacts: [
-      "National capital — seat of all three branches of government",
-      "Red Fort, Qutub Minar, Humayun's Tomb — UNESCO sites",
-      "Delhi Ridge — northernmost extension of the Aravalli Range",
+      "National capital: seat of all three branches of government",
+      "Red Fort, Qutub Minar, Humayun's Tomb: UNESCO sites",
+      "Delhi Ridge: northernmost extension of the Aravalli Range",
       "Most densely populated UT",
     ],
   },
@@ -227,7 +227,7 @@ export const INDIA_STATES: StateData[] = [
       "Smallest state by area",
       "Highest per-capita income among Indian states",
       "Former Portuguese colony (liberated 1961)",
-      "Old Goa churches — UNESCO World Heritage",
+      "Old Goa churches: UNESCO World Heritage",
     ],
   },
   {
@@ -245,8 +245,8 @@ export const INDIA_STATES: StateData[] = [
     keyFacts: [
       "Only home of Asiatic Lion (Gir)",
       "Longest coastline in India (1,600 km)",
-      "Rann of Kutch — largest salt desert in the world",
-      "Statue of Unity — tallest statue in the world (182m)",
+      "Rann of Kutch: largest salt desert in the world",
+      "Statue of Unity: tallest statue in the world (182m)",
     ],
   },
   {
@@ -263,7 +263,7 @@ export const INDIA_STATES: StateData[] = [
     nationalParks: ["Sultanpur NP", "Kalesar NP"],
     keyFacts: [
       "Surrounds Delhi on three sides",
-      "Kurukshetra — Mahabharata battlefield",
+      "Kurukshetra: Mahabharata battlefield",
       "Major contributor to Green Revolution",
       "Shares capital Chandigarh with Punjab",
     ],
@@ -281,7 +281,7 @@ export const INDIA_STATES: StateData[] = [
     mountainRanges: ["Great Himalayas", "Pir Panjal", "Dhauladhar", "Shivalik"],
     nationalParks: ["Great Himalayan NP (UNESCO)", "Pin Valley NP", "Khirganga NP"],
     keyFacts: [
-      "Great Himalayan NP — UNESCO World Heritage Site",
+      "Great Himalayan NP: UNESCO World Heritage Site",
       "All 5 rivers of Punjab originate from or flow through HP",
       "Rohtang Pass connects Kullu to Lahaul-Spiti",
       "Apple state of India (largest producer)",
@@ -301,8 +301,8 @@ export const INDIA_STATES: StateData[] = [
     nationalParks: ["Dachigam NP", "Hemis NP", "Kishtwar NP", "Salim Ali NP"],
     keyFacts: [
       "Reorganized as UT in 2019 (Ladakh separated)",
-      "Dal Lake — iconic houseboat tourism",
-      "Pashmina wool — finest cashmere in the world",
+      "Dal Lake: iconic houseboat tourism",
+      "Pashmina wool: finest cashmere in the world",
       "Pir Panjal Range separates Jammu from Kashmir Valley",
     ],
   },
@@ -320,9 +320,9 @@ export const INDIA_STATES: StateData[] = [
     nationalParks: ["Hemis NP"],
     keyFacts: [
       "Created as UT in 2019 (carved from J&K)",
-      "Highest motorable pass — Umlingla (19,024 ft)",
-      "Pangong Tso Lake — extends into China",
-      "Siachen Glacier — highest battlefield in the world",
+      "Highest motorable pass: Umlingla (19,024 ft)",
+      "Pangong Tso Lake: extends into China",
+      "Siachen Glacier: highest battlefield in the world",
     ],
   },
   {
@@ -357,9 +357,9 @@ export const INDIA_STATES: StateData[] = [
     mountainRanges: ["Chota Nagpur Plateau", "Rajmahal Hills", "Parasnath Hills"],
     nationalParks: ["Betla NP"],
     keyFacts: [
-      "Carved from Bihar in 2000 — mineral rich",
-      "Chota Nagpur Plateau — rich in coal, iron, mica",
-      "Parasnath Hill — highest in Jharkhand, Jain pilgrimage",
+      "Carved from Bihar in 2000: mineral rich",
+      "Chota Nagpur Plateau: rich in coal, iron, mica",
+      "Parasnath Hill: highest in Jharkhand, Jain pilgrimage",
       "40% of India's mineral reserves",
     ],
   },
@@ -377,8 +377,8 @@ export const INDIA_STATES: StateData[] = [
     nationalParks: ["Bandipur NP", "Nagarahole NP", "Bannerghatta NP", "Kudremukh NP", "Anshi NP"],
     keyFacts: [
       "IT capital of India (Bengaluru)",
-      "Hampi — ruins of Vijayanagara Empire (UNESCO)",
-      "Jog Falls — second-highest plunge waterfall in India",
+      "Hampi: ruins of Vijayanagara Empire (UNESCO)",
+      "Jog Falls: second-highest plunge waterfall in India",
       "Largest producer of coffee and silk in India",
     ],
   },
@@ -396,7 +396,7 @@ export const INDIA_STATES: StateData[] = [
     nationalParks: ["Periyar NP", "Silent Valley NP", "Eravikulam NP", "Anamudi Shola NP", "Mathikettan Shola NP"],
     keyFacts: [
       "First state to achieve 100% literacy (1991)",
-      "Backwaters — extensive inland waterway network",
+      "Backwaters: extensive inland waterway network",
       "Spice Garden of India",
       "Highest HDI among Indian states",
     ],
@@ -414,10 +414,10 @@ export const INDIA_STATES: StateData[] = [
     mountainRanges: ["Vindhya Range", "Satpura Range", "Maikal Hills"],
     nationalParks: ["Kanha NP", "Bandhavgarh NP", "Pench NP", "Satpura NP", "Panna NP", "Sanjay NP"],
     keyFacts: [
-      "Largest state by area (after Rajasthan — 2nd)",
-      "Tiger State of India — most tigers",
+      "Largest state by area (after Rajasthan: 2nd)",
+      "Tiger State of India: most tigers",
       "Narmada flows westward (exception to peninsular rivers)",
-      "Khajuraho temples, Sanchi Stupa, Bhimbetka caves — UNESCO sites",
+      "Khajuraho temples, Sanchi Stupa, Bhimbetka caves: UNESCO sites",
     ],
   },
   {
@@ -434,7 +434,7 @@ export const INDIA_STATES: StateData[] = [
     nationalParks: ["Sanjay Gandhi NP", "Tadoba NP", "Navegaon NP", "Chandoli NP"],
     keyFacts: [
       "Financial capital of India (Mumbai)",
-      "Ajanta & Ellora Caves — UNESCO World Heritage",
+      "Ajanta & Ellora Caves: UNESCO World Heritage",
       "Largest economy among Indian states",
       "Western Ghats called Sahyadri in Maharashtra",
     ],
@@ -452,9 +452,9 @@ export const INDIA_STATES: StateData[] = [
     mountainRanges: ["Patkai Range", "Naga Hills"],
     nationalParks: ["Keibul Lamjao NP", "Sirohi NP"],
     keyFacts: [
-      "Keibul Lamjao — only floating national park in the world",
-      "Loktak Lake — largest freshwater lake in NE India",
-      "Sangai deer (dancing deer) — found only here",
+      "Keibul Lamjao: only floating national park in the world",
+      "Loktak Lake: largest freshwater lake in NE India",
+      "Sangai deer (dancing deer): found only here",
       "Polo originated in Manipur",
     ],
   },
@@ -471,9 +471,9 @@ export const INDIA_STATES: StateData[] = [
     mountainRanges: ["Khasi Hills", "Garo Hills", "Jaintia Hills"],
     nationalParks: ["Balpakram NP", "Nokrek NP"],
     keyFacts: [
-      "Wettest place on Earth — Mawsynram & Cherrapunji",
+      "Wettest place on Earth: Mawsynram & Cherrapunji",
       "Abode of Clouds (Meghalaya means 'abode of clouds')",
-      "Living root bridges — bioengineering marvel",
+      "Living root bridges: bioengineering marvel",
       "Matrilineal society (Khasi and Garo tribes)",
     ],
   },
@@ -493,7 +493,7 @@ export const INDIA_STATES: StateData[] = [
       "Second most literate state (after Kerala)",
       "International border with Myanmar and Bangladesh",
       "Bamboo flowering triggers rat floods (Mautam cycle)",
-      "Blue Mountain (Phawngpui) — highest peak",
+      "Blue Mountain (Phawngpui): highest peak",
     ],
   },
   {
@@ -509,10 +509,10 @@ export const INDIA_STATES: StateData[] = [
     mountainRanges: ["Naga Hills", "Patkai Range"],
     nationalParks: ["Intanki NP"],
     keyFacts: [
-      "Hornbill Festival — 'Festival of Festivals'",
+      "Hornbill Festival: 'Festival of Festivals'",
       "Home to 16 major Naga tribes",
-      "Dzukou Valley — Valley of Flowers of the Northeast",
-      "Kohima — site of pivotal WWII battle (Battle of Kohima)",
+      "Dzukou Valley: Valley of Flowers of the Northeast",
+      "Kohima: site of pivotal WWII battle (Battle of Kohima)",
     ],
   },
   {
@@ -528,10 +528,10 @@ export const INDIA_STATES: StateData[] = [
     mountainRanges: ["Eastern Ghats"],
     nationalParks: ["Bhitarkanika NP", "Simlipal NP"],
     keyFacts: [
-      "Konark Sun Temple — UNESCO World Heritage",
-      "Chilika Lake — largest brackish water lagoon in India",
+      "Konark Sun Temple: UNESCO World Heritage",
+      "Chilika Lake: largest brackish water lagoon in India",
       "Olive Ridley turtle nesting at Gahirmatha",
-      "Jagannath Temple, Puri — one of Char Dham",
+      "Jagannath Temple, Puri: one of Char Dham",
     ],
   },
   {
@@ -549,7 +549,7 @@ export const INDIA_STATES: StateData[] = [
     keyFacts: [
       "Former French colony (until 1954)",
       "4 non-contiguous districts across 3 states",
-      "Auroville — international township for human unity",
+      "Auroville: international township for human unity",
       "Karaikal, Mahe, Yanam are its other regions",
     ],
   },
@@ -567,9 +567,9 @@ export const INDIA_STATES: StateData[] = [
     nationalParks: [],
     keyFacts: [
       "Land of Five Rivers (Punj = five, Ab = water)",
-      "Granary of India — largest wheat producer",
-      "Golden Temple, Amritsar — holiest Sikh shrine",
-      "Jallianwala Bagh — site of 1919 massacre",
+      "Granary of India: largest wheat producer",
+      "Golden Temple, Amritsar: holiest Sikh shrine",
+      "Jallianwala Bagh: site of 1919 massacre",
     ],
   },
   {
@@ -586,9 +586,9 @@ export const INDIA_STATES: StateData[] = [
     nationalParks: ["Ranthambore NP", "Sariska NP", "Desert NP", "Keoladeo Ghana NP (UNESCO)", "Mukundra Hills NP"],
     keyFacts: [
       "Largest state by area (342,239 sq km)",
-      "Thar Desert — largest desert in India",
-      "Aravalli Range — oldest fold mountains in the world",
-      "Keoladeo NP (Bharatpur) — UNESCO World Heritage, major bird sanctuary",
+      "Thar Desert: largest desert in India",
+      "Aravalli Range: oldest fold mountains in the world",
+      "Keoladeo NP (Bharatpur): UNESCO World Heritage, major bird sanctuary",
     ],
   },
   {
@@ -604,7 +604,7 @@ export const INDIA_STATES: StateData[] = [
     mountainRanges: ["Eastern Himalayas"],
     nationalParks: ["Khangchendzonga NP (UNESCO)"],
     keyFacts: [
-      "Khangchendzonga — 3rd highest peak in the world (8,586m)",
+      "Khangchendzonga: 3rd highest peak in the world (8,586m)",
       "First fully organic state in India",
       "Merged with India in 1975 (was a monarchy)",
       "Least populous state in India",
@@ -623,10 +623,10 @@ export const INDIA_STATES: StateData[] = [
     mountainRanges: ["Western Ghats (Nilgiris)", "Eastern Ghats", "Cardamom Hills", "Palani Hills"],
     nationalParks: ["Mudumalai NP", "Guindy NP", "Gulf of Mannar NP", "Indira Gandhi NP", "Mukurthi NP"],
     keyFacts: [
-      "Oldest living classical language — Tamil",
-      "Group of Monuments at Mahabalipuram — UNESCO",
-      "Great Living Chola Temples — UNESCO",
-      "Nilgiri Mountain Railway — UNESCO (part of Mountain Railways of India)",
+      "Oldest living classical language: Tamil",
+      "Group of Monuments at Mahabalipuram: UNESCO",
+      "Great Living Chola Temples: UNESCO",
+      "Nilgiri Mountain Railway: UNESCO (part of Mountain Railways of India)",
     ],
   },
   {
@@ -642,10 +642,10 @@ export const INDIA_STATES: StateData[] = [
     mountainRanges: ["Deccan Plateau"],
     nationalParks: ["Kasu Brahmananda Reddy NP", "Mrugavani NP", "Mahavir Harina Vanasthali NP"],
     keyFacts: [
-      "Newest state — formed in 2014 (carved from Andhra Pradesh)",
+      "Newest state: formed in 2014 (carved from Andhra Pradesh)",
       "Hyderabad is joint capital with AP (until 2024)",
-      "IT hub — Cyberabad (HITEC City)",
-      "Charminar, Golconda Fort — historic landmarks",
+      "IT hub: Cyberabad (HITEC City)",
+      "Charminar, Golconda Fort: historic landmarks",
     ],
   },
   {
@@ -662,9 +662,9 @@ export const INDIA_STATES: StateData[] = [
     nationalParks: ["Clouded Leopard NP", "Rajbari NP"],
     keyFacts: [
       "Bordered by Bangladesh on three sides",
-      "Ujjayanta Palace — former royal palace",
+      "Ujjayanta Palace: former royal palace",
       "Second smallest state in NE India",
-      "Natural gas reserves — significant producer",
+      "Natural gas reserves: significant producer",
     ],
   },
   {
@@ -681,8 +681,8 @@ export const INDIA_STATES: StateData[] = [
     nationalParks: ["Dudhwa NP"],
     keyFacts: [
       "Most populous state in India (200M+)",
-      "Taj Mahal (Agra), Fatehpur Sikri — UNESCO sites",
-      "Prayagraj — confluence (Sangam) of Ganga, Yamuna, Saraswati",
+      "Taj Mahal (Agra), Fatehpur Sikri: UNESCO sites",
+      "Prayagraj: confluence (Sangam) of Ganga, Yamuna, Saraswati",
       "Maximum Lok Sabha seats (80)",
     ],
   },
@@ -699,9 +699,9 @@ export const INDIA_STATES: StateData[] = [
     mountainRanges: ["Great Himalayas", "Shivalik", "Lesser Himalayas"],
     nationalParks: ["Jim Corbett NP", "Nanda Devi NP (UNESCO)", "Valley of Flowers NP (UNESCO)", "Rajaji NP", "Gangotri NP", "Govind NP"],
     keyFacts: [
-      "Dev Bhoomi — Land of Gods",
-      "Jim Corbett — first national park of India (1936)",
-      "Valley of Flowers & Nanda Devi — UNESCO World Heritage",
+      "Dev Bhoomi: Land of Gods",
+      "Jim Corbett: first national park of India (1936)",
+      "Valley of Flowers & Nanda Devi: UNESCO World Heritage",
       "Char Dham: Badrinath, Kedarnath, Gangotri, Yamunotri",
     ],
   },
@@ -718,9 +718,9 @@ export const INDIA_STATES: StateData[] = [
     mountainRanges: ["Darjeeling Himalayas"],
     nationalParks: ["Sundarbans NP (UNESCO)", "Neora Valley NP", "Singalila NP", "Buxa NP", "Gorumara NP", "Jaldapara NP"],
     keyFacts: [
-      "Sundarbans — largest mangrove forest in the world (UNESCO)",
-      "Darjeeling Himalayan Railway — UNESCO World Heritage",
-      "Cultural capital of India — Kolkata",
+      "Sundarbans: largest mangrove forest in the world (UNESCO)",
+      "Darjeeling Himalayan Railway: UNESCO World Heritage",
+      "Cultural capital of India: Kolkata",
       "Kolkata (Calcutta) was capital of British India until 1911",
     ],
   },
@@ -744,9 +744,9 @@ export type QuizQuestionType = "identify" | "identify_feature" | "capital" | "ri
 export type MapQuizQuestion = {
   type: QuizQuestionType;
   prompt: string;
-  /** For "identify" — the correct state name to click */
+  /** For "identify": the correct state name to click */
   correctState?: string;
-  /** For "identify_feature" — the correct feature properties to match */
+  /** For "identify_feature": the correct feature properties to match */
   correctFeature?: any;
   options?: string[];
   correctOption?: string;
@@ -866,7 +866,8 @@ export type StateMemory = {
   incorrect: number;
   lastReviewed: number; // timestamp
   interval: number; // days until next review
-  ease: number; // 1.3 – 3.0
+  ease: number; // 1.3 to 3.0
+  lastCorrect?: boolean;
 };
 
 const STORAGE_KEY = "geography-memory";
@@ -891,14 +892,14 @@ export function updateMemory(
   stateName: string,
   wasCorrect: boolean
 ): Record<string, StateMemory> {
-  const existing = memory[stateName] ?? {
+  const existing = { ...(memory[stateName] ?? {
     state: stateName,
     correct: 0,
     incorrect: 0,
     lastReviewed: Date.now(),
     interval: 1,
     ease: 2.5,
-  };
+  }) };
 
   const now = Date.now();
 
@@ -912,6 +913,7 @@ export function updateMemory(
     existing.interval = 1;
   }
   existing.lastReviewed = now;
+  existing.lastCorrect = wasCorrect;
 
   return { ...memory, [stateName]: existing };
 }
@@ -921,6 +923,9 @@ export function getMemoryStrength(mem: StateMemory | undefined): number {
   if (!mem) return 0;
   const daysSince = (Date.now() - mem.lastReviewed) / (1000 * 60 * 60 * 24);
   const ratio = daysSince / mem.interval;
-  // Exponential decay
-  return Math.max(0, Math.min(1, Math.exp(-0.5 * ratio)));
+  const decay = Math.exp(-0.5 * ratio);
+  const attempts = mem.correct + mem.incorrect;
+  const accuracy = attempts > 0 ? mem.correct / attempts : 0;
+  const latestWeight = mem.lastCorrect === false ? 0.18 : 1;
+  return Math.max(0, Math.min(1, decay * accuracy * latestWeight));
 }

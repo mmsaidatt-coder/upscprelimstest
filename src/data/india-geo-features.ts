@@ -32,7 +32,7 @@ export const RIVERS: FeatureCollection<LineString, RiverProps> = {
     { type: "Feature", properties: { name: "Mahi", type: "major", length: 583, basin: "Peninsular" }, geometry: { type: "LineString", coordinates: [[74.90, 22.60], [74.50, 23.60], [74.00, 23.90], [73.50, 23.50], [73.20, 23.00], [72.80, 22.30]] } },
     { type: "Feature", properties: { name: "Damodar", type: "tributary", length: 592, basin: "Ganga" }, geometry: { type: "LineString", coordinates: [[84.80, 23.90], [85.50, 23.70], [86.50, 23.60], [87.50, 23.20], [88.00, 22.80], [88.20, 22.30]] } },
     { type: "Feature", properties: { name: "Subarnarekha", type: "major", length: 395, basin: "Peninsular" }, geometry: { type: "LineString", coordinates: [[85.30, 23.30], [86.00, 22.80], [86.80, 22.30], [87.50, 21.50]] } },
-    { type: "Feature", properties: { name: "Pennar", type: "major", length: 597, basin: "Peninsular" }, geometry: { type: "LineString", coordinates: [[77.60, 13.40], [78.20, 14.50], [79.20, 14.60], [80.10, 14.60]] } },
+    { type: "Feature", properties: { name: "Penner", type: "major", length: 597, basin: "Peninsular" }, geometry: { type: "LineString", coordinates: [[77.60, 13.40], [78.20, 14.50], [79.20, 14.60], [80.10, 14.60]] } },
     { type: "Feature", properties: { name: "Vaigai", type: "major", length: 258, basin: "Peninsular" }, geometry: { type: "LineString", coordinates: [[77.40, 9.60], [78.10, 9.90], [78.60, 9.50], [79.00, 9.30]] } },
     { type: "Feature", properties: { name: "Periyar", type: "major", length: 244, basin: "Peninsular" }, geometry: { type: "LineString", coordinates: [[77.20, 9.30], [76.90, 9.60], [76.50, 10.10], [76.20, 10.20]] } },
     { type: "Feature", properties: { name: "Teesta", type: "tributary", length: 414, basin: "Brahmaputra" }, geometry: { type: "LineString", coordinates: [[88.60, 28.00], [88.50, 27.00], [88.70, 26.50], [89.00, 26.00], [89.70, 25.40]] } },
@@ -233,9 +233,9 @@ export function generateFeatureQuizQuestion(
   const props = feature.properties as any;
   
   let promptText = "";
-  if (category === "river") promptText = `Find River: ${props.name}`;
-  else if (category === "mountain") promptText = `Find: ${props.name} ${props.type === "peak" ? "Peak" : "Pass"}`;
-  else if (category === "park") promptText = `Find: ${props.name}`;
+  if (category === "river") promptText = `Locate the ${props.name} River`;
+  else if (category === "mountain") promptText = `Locate ${props.name} ${props.type === "peak" ? "Peak" : "Pass"}`;
+  else if (category === "park") promptText = `Locate ${props.name}`;
 
   return {
     type: "identify_feature",
