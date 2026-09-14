@@ -43,7 +43,7 @@ function createMcpServer() {
 
   mcp.tool(
     "search_questions",
-    "Search and filter the UPSC Prelims previous year question bank (1,200+ questions from 2014–2025). " +
+    "Search and filter the UPSC Prelims previous-year question bank (1,199 solved questions from 2014–2025). " +
       "Returns questions with full metadata: prompt, options, correct answer, subject, topic, keywords, concepts, " +
       "difficulty rationale, mnemonic hints, and NCERT class references. " +
       "Use this to find specific questions, analyze patterns, or build practice sessions. " +
@@ -359,7 +359,7 @@ function createMcpServer() {
           mimeType: "text/markdown",
           text: `# UPSC Prelims GS Paper I — Syllabus & Subject Index
 
-## Subjects Covered (1,200+ PYQs from 2014–2025)
+## Subjects Covered (1,199 solved PYQs from 2014–2025)
 
 The web app also contains a larger 10,000+ question practice bank built from custom FLTs and current-affairs questions. The MCP PYQ tools below query the previous-year-question subset unless a tool explicitly says otherwise.
 

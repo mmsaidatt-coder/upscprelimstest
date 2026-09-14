@@ -1,11 +1,40 @@
-import { Metadata } from "next";
+import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
   fetchQuestionById,
   fetchAllQuestionIds,
+  fetchSearchablePyqQuestions,
 } from "@/lib/supabase/questions";
 import { BookmarkButton } from "@/components/bookmark-button";
+import { BreadcrumbJsonLd } from "@/components/seo/breadcrumb-json-ld";
+import { JsonLd } from "@/components/seo/json-ld";
+import {
+  compactPrompt,
+  MIN_INDEXABLE_YEAR_SUBJECT_QUESTIONS,
+  SUBJECT_SLUGS,
+} from "@/lib/seo/pyq-seo";
+import type { PyqQuestion } from "@/lib/types";
+
+const baseUrl = "https://upscprelimstest.com";
+const officialPapersUrl =
+  "https://www.upsc.gov.in/examinations/previous-question-papers";
+
+export const revalidate = 86400;
+
+function truncate(value: string, maxLength: number) {
+  if (value.length <= maxLength) return value;
+  return `${value.slice(0, maxLength - 1).trim()}…`;
+}
+
+function buildQuestionTitle(question: PyqQuestion) {
+  const focus =
+    question.subTopic ??
+    question.primaryTopic ??
+    question.topics[0] ??
+    compactPrompt(question.prompt, 38);
+  return truncate(`UPSC ${question.year} ${question.subject} PYQ: ${focus} — Answer`, 68);
+}
 
 // Generate static routes for every single question in the database at build time.
 export async function generateStaticParams() {
@@ -26,18 +55,12 @@ export async function generateMetadata({
     return { title: "Question Not Found" };
   }
 
-  // Create a highly relevant SEO title based on year, subject, and prompt snippet
-  const snippet =
-    question.prompt.length > 50
-      ? question.prompt.substring(0, 50) + "..."
-      : question.prompt;
-      
-  const yearText = question.year ? ` ${question.year}` : "";
-  const title = `UPSC Prelims${yearText} ${question.subject} Question: ${snippet}`;
-  
-  const description = `Practice this UPSC PYQ on ${
-    question.subject
-  }. Question: ${snippet}. See the full question, options, correct answer, and explanation.`;
+  const title = buildQuestionTitle(question);
+  const topic = question.subTopic ?? question.primaryTopic ?? question.subject;
+  const description = truncate(
+    `Solve this UPSC Prelims ${question.year} ${question.subject} PYQ on ${topic}. Review all options, the correct answer, explanation, and syllabus context.`,
+    158,
+  );
 
   return {
     title,
@@ -50,6 +73,10 @@ export async function generateMetadata({
       description,
       url: `https://upscprelimstest.com/question/${id}`,
       type: "article",
+    },
+    robots: {
+      index: Boolean(question.correctOptionId && question.explanation),
+      follow: true,
     },
   };
 }
@@ -67,21 +94,91 @@ export default async function QuestionPage({
   }
 
   const yearLabel = question.year ? `UPSC ${question.year}` : "UPSC PYQ";
+  const subjectSlug =
+    SUBJECT_SLUGS[question.subject as keyof typeof SUBJECT_SLUGS] ??
+    question.subject.toLowerCase().replaceAll(" ", "-");
+  const allQuestions = await fetchSearchablePyqQuestions();
+  const relatedQuestions = allQuestions
+    .filter(
+      (candidate) =>
+        candidate.id !== question.id &&
+        candidate.subject === question.subject &&
+        (candidate.topic === question.primaryTopic || candidate.year === question.year),
+    )
+    .sort((a, b) => {
+      const aTopicMatch = a.topic === question.primaryTopic ? 1 : 0;
+      const bTopicMatch = b.topic === question.primaryTopic ? 1 : 0;
+      return bTopicMatch - aTopicMatch || (b.year ?? 0) - (a.year ?? 0);
+    })
+    .slice(0, 8);
+  const yearSubjectCount = allQuestions.filter(
+    (candidate) =>
+      candidate.year === question.year && candidate.subject === question.subject,
+  ).length;
+  const correctOption = question.options.find(
+    (option) => option.id === question.correctOptionId,
+  );
+  const canonical = `${baseUrl}/question/${id}`;
+  const title = buildQuestionTitle(question);
 
   return (
     <div className="bg-blueprint-grid min-h-[calc(100vh-4rem)]">
+      <BreadcrumbJsonLd
+        items={[
+          { name: "Home", url: baseUrl },
+          { name: "UPSC PYQ", url: `${baseUrl}/pyq` },
+          {
+            name: `${question.subject} PYQ`,
+            url: `${baseUrl}/pyq/subject/${subjectSlug}`,
+          },
+          { name: `${yearLabel} question`, url: canonical },
+        ]}
+      />
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": ["WebPage", "LearningResource"],
+          name: title,
+          url: canonical,
+          learningResourceType: "Solved previous year question",
+          educationalLevel: "Competitive examination",
+          inLanguage: "en-IN",
+          isAccessibleForFree: true,
+          isBasedOn: officialPapersUrl,
+          about: [
+            { "@type": "Thing", name: "UPSC Civil Services Preliminary Examination" },
+            { "@type": "Thing", name: question.subject },
+            ...(question.primaryTopic
+              ? [{ "@type": "Thing", name: question.primaryTopic }]
+              : []),
+          ],
+          mainEntity: {
+            "@type": "Question",
+            text: question.prompt,
+            acceptedAnswer: correctOption
+              ? {
+                  "@type": "Answer",
+                  text: `${correctOption.id}. ${correctOption.text}${question.explanation ? ` — ${question.explanation}` : ""}`,
+                }
+              : undefined,
+          },
+          provider: { "@id": `${baseUrl}/#organization` },
+        }}
+      />
       <div className="mx-auto max-w-4xl px-4 py-10 sm:px-6 sm:py-20">
         
         {/* Breadcrumbs for SEO and navigation */}
-        <nav className="mb-8 flex items-center text-xs font-bold uppercase tracking-widest text-[var(--muted)]">
+        <nav className="mb-8 flex flex-wrap items-center text-xs font-bold uppercase tracking-widest text-[var(--muted)]">
           <Link href="/" className="hover:text-[var(--accent)] transition-colors">Home</Link>
           <span className="mx-2 opacity-50">/</span>
           <Link href="/pyq" className="hover:text-[var(--accent)] transition-colors">PYQ</Link>
           <span className="mx-2 opacity-50">/</span>
-          <span className="text-[var(--foreground)]">{question.subject}</span>
+          <Link href={`/pyq/subject/${subjectSlug}`} className="text-[var(--foreground)] hover:text-[var(--accent)]">
+            {question.subject}
+          </Link>
         </nav>
 
-        <article className="rounded-[1.5rem] bg-[var(--background-secondary)] border border-[var(--border)] p-6 sm:p-10 shadow-2xl relative overflow-hidden">
+        <article className="reading-paper relative overflow-hidden border border-[var(--border)] bg-[var(--background-secondary)] p-6 shadow-[0_34px_90px_rgba(4,7,5,0.28)] sm:p-10">
           {/* Header Metadata */}
           <header className="mb-8 flex flex-wrap items-center gap-3">
             <span className="rounded-full border border-[var(--accent)] bg-[var(--accent)]/10 px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-[var(--accent)]">
@@ -108,7 +205,7 @@ export default async function QuestionPage({
 
           {/* Question Stem */}
           <div className="mb-10 text-[var(--foreground)]">
-            <h1 className="text-xl sm:text-2xl leading-relaxed font-medium">
+            <h1 className="whitespace-pre-line text-xl font-medium leading-relaxed sm:text-2xl">
               {question.prompt}
             </h1>
             {question.contextLines && question.contextLines.length > 0 && (
@@ -142,7 +239,7 @@ export default async function QuestionPage({
                   }`}>
                     {opt.id}
                   </div>
-                  <div className={`text-sm sm:text-base ${isCorrect ? "text-green-50" : "text-[var(--muted)]"}`}>
+                  <div className={`text-sm sm:text-base ${isCorrect ? "font-semibold text-green-800" : "text-[var(--muted)]"}`}>
                     {opt.text}
                   </div>
                   {isCorrect && (
@@ -161,8 +258,7 @@ export default async function QuestionPage({
               <h3 className="mb-4 text-sm font-bold uppercase tracking-widest text-[var(--accent)]">
                 Explanation
               </h3>
-              <div className="prose prose-invert max-w-none text-sm sm:text-base text-[var(--muted)] leading-relaxed">
-                {/* Since explanations might have basic formatting, we render it safely. In a real app involving markdown, use a markdown renderer. */}
+              <div className="max-w-none text-sm sm:text-base text-[var(--muted)] leading-relaxed">
                 {question.explanation.split('\n').map((para, i) => (
                   <p key={i} className="mb-2 last:mb-0">{para}</p>
                 ))}
@@ -180,7 +276,89 @@ export default async function QuestionPage({
               ))}
             </div>
           )}
+
+          <aside className="mt-10 rounded-2xl border border-[var(--border)] bg-[var(--background)] p-5">
+            <h2 className="text-sm font-bold uppercase tracking-widest text-[var(--foreground)]">
+              Source and answer status
+            </h2>
+            <dl className="mt-4 grid gap-4 text-sm sm:grid-cols-2">
+              <div>
+                <dt className="text-xs font-bold uppercase tracking-wider text-[var(--muted)]">Question source</dt>
+                <dd className="mt-1 text-[var(--foreground)]">
+                  {question.sourceLabel ?? `UPSC Civil Services Prelims ${question.year}`}
+                </dd>
+              </div>
+              <div>
+                <dt className="text-xs font-bold uppercase tracking-wider text-[var(--muted)]">Study aid status</dt>
+                <dd className="mt-1 text-[var(--foreground)]">Independent answer and AI-assisted classification</dd>
+              </div>
+              {question.ncertClass ? (
+                <div>
+                  <dt className="text-xs font-bold uppercase tracking-wider text-[var(--muted)]">NCERT pointer</dt>
+                  <dd className="mt-1 text-[var(--foreground)]">{question.ncertClass}</dd>
+                </div>
+              ) : null}
+              {question.difficultyRationale ? (
+                <div>
+                  <dt className="text-xs font-bold uppercase tracking-wider text-[var(--muted)]">Difficulty context</dt>
+                  <dd className="mt-1 text-[var(--foreground)]">{question.difficultyRationale}</dd>
+                </div>
+              ) : null}
+            </dl>
+            <p className="mt-5 text-xs leading-6 text-[var(--muted)]">
+              The explanation and metadata are independent preparation aids, not
+              an official UPSC answer key. Check the{" "}
+              <a href={officialPapersUrl} target="_blank" rel="noreferrer" className="font-semibold text-[var(--accent)] hover:underline">
+                official UPSC paper archive
+              </a>{" "}
+              and read our{" "}
+              <Link href="/methodology" className="font-semibold text-[var(--accent)] hover:underline">
+                methodology
+              </Link>.
+            </p>
+          </aside>
         </article>
+
+        {relatedQuestions.length ? (
+          <section className="mt-12">
+            <div className="flex flex-wrap items-end justify-between gap-3">
+              <div>
+                <h2 className="heading text-3xl text-[var(--foreground)] sm:text-4xl">
+                  Related {question.subject} PYQs
+                </h2>
+                <p className="mt-2 text-sm text-[var(--muted)]">
+                  Continue with questions from the same topic or exam year.
+                </p>
+              </div>
+              <Link
+                href={
+                  yearSubjectCount >= MIN_INDEXABLE_YEAR_SUBJECT_QUESTIONS
+                    ? `/pyq/${question.year}/${subjectSlug}`
+                    : `/pyq/subject/${subjectSlug}`
+                }
+                className="text-sm font-bold text-[var(--accent)] hover:underline"
+              >
+                View all {question.year} {question.subject} questions
+              </Link>
+            </div>
+            <div className="mt-6 grid gap-3 sm:grid-cols-2">
+              {relatedQuestions.map((related) => (
+                <Link
+                  key={related.id}
+                  href={`/question/${related.id}`}
+                  className="rounded-xl border border-[var(--border)] bg-[var(--background-secondary)] p-5 transition-colors hover:border-[var(--accent)]"
+                >
+                  <p className="text-xs font-bold uppercase tracking-wider text-[var(--accent)]">
+                    UPSC {related.year}{related.topic ? ` · ${related.topic}` : ""}
+                  </p>
+                  <p className="mt-2 text-sm leading-6 text-[var(--foreground)]">
+                    {compactPrompt(related.prompt, 150)}
+                  </p>
+                </Link>
+              ))}
+            </div>
+          </section>
+        ) : null}
 
         {/* Global CTA */}
         <section className="mt-12 text-center fade-up">
@@ -192,8 +370,8 @@ export default async function QuestionPage({
               Don&apos;t just read questions. Take a full timed test with negative marking and detailed analytics to see where you stand.
             </p>
             <Link 
-              href={`/app/pyq/run?subject=${encodeURIComponent(question.subject)}&limit=50`}
-               className="rounded-full bg-[var(--accent)] px-8 py-4 text-sm font-bold uppercase tracking-widest text-white transition-colors hover:bg-[#86bf2c]"
+              href={`/test/pyq-${subjectSlug}-50`}
+               className="action-primary"
             >
               Start {question.subject} Test Now
             </Link>
