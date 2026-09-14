@@ -48,3 +48,23 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 .env*.local
+
+# raw geodata downloads + intermediates (regenerate via scripts/, never ship)
+*.zip
+*.bak
+hotosm_ind_waterways_lines_geojson.geojson
+rivers-filtered.geojson
+kaveri.json
+
+# local scratch scripts (one-off DB/geo probes, not part of the app)
+/scratch.ts
+/check-db-sources.ts
+/count-ca.ts
+/test-parks.ts
+/test_osm.js
+/algorithms_stitch_rivers.js
+/scripts/_temp_inspect_db.mjs
+
+# tooling state
+supabase/.temp/
+.claude/worktrees/

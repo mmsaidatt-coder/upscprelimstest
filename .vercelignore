@@ -1,7 +1,12 @@
 /data/
 /scripts/
+.claude/
+.vercel/
+supabase/.temp/
 *.csv
 *.zip
+*.traineddata
+*.bak
 hotosm_ind_waterways_lines_geojson.geojson
 rivers-filtered.geojson
 .next/
