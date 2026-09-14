@@ -2,24 +2,26 @@ import Link from "next/link";
 
 export function MinimalHeader() {
   return (
-    <header className="sticky top-0 z-40 border-b border-[var(--border)] bg-[var(--background)]/95 backdrop-blur-md">
-      <div className="mx-auto flex h-14 max-w-6xl items-center justify-between px-4 sm:px-6">
-        <Link
-          href="/app"
-          className="flex items-center gap-2.5 group"
-        >
-          {/* Logo mark */}
-          <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-[var(--accent)] text-sm font-bold text-white sm:h-9 sm:w-9 sm:text-base">
-            U
+    <header className="sticky top-0 z-40 border-b border-[var(--border)] bg-[color:rgba(27,33,28,0.96)] backdrop-blur-xl">
+      <div className="mx-auto flex h-14 max-w-[96rem] items-center justify-between px-4 sm:h-16 sm:px-6 lg:px-10">
+        <Link href="/app" className="group flex items-center gap-3" aria-label="Exit exam mode">
+          <span className="font-mono text-sm font-bold tracking-[-0.08em] text-[var(--foreground)] sm:text-base">
+            UPSC
           </span>
-          <span className="text-base font-serif font-bold text-[var(--foreground)] group-hover:text-[var(--accent)] transition-colors sm:text-lg">
-            <span className="sm:hidden">UPSCPT</span>
-            <span className="hidden sm:inline">UPSC Prelims Test</span>
+          <span className="h-6 w-px bg-[var(--accent)]" />
+          <span className="font-mono text-[8px] font-bold uppercase leading-[1.3] tracking-[0.2em] text-[var(--muted)] sm:text-[9px]">
+            Prelims
+            <br />
+            Test
           </span>
         </Link>
-        <span className="inline-flex items-center rounded-full border border-[var(--border)] bg-[var(--background-secondary)] px-3 py-1 text-[11px] font-semibold uppercase tracking-wider text-[var(--muted)] sm:text-xs">
-          Exam mode
-        </span>
+
+        <div className="flex items-center gap-3">
+          <span className="signal-dot" aria-hidden="true" />
+          <span className="font-mono text-[9px] font-bold uppercase tracking-[0.2em] text-[var(--muted)] sm:text-[10px]">
+            Exam mode
+          </span>
+        </div>
       </div>
     </header>
   );

@@ -151,7 +151,7 @@ function NavLinks({
 
   return (
     <div className="flex-1 overflow-y-auto py-5">
-      <nav className="space-y-1.5 px-3">
+      <nav className="space-y-1 px-3">
         {mainNavigation.map((entry) => {
           if (isGroup(entry)) {
             const active = isGroupActive(entry);
@@ -162,23 +162,23 @@ function NavLinks({
                 <button
                   onClick={() => toggleGroup(entry.label)}
                   title={collapsed ? entry.label : undefined}
-                  className={`group flex w-full items-center gap-3.5 rounded-xl px-3.5 py-3 text-[15px] font-semibold transition-all ${
+                  className={`group flex w-full items-center gap-3.5 border-l-2 px-3.5 py-3 font-mono text-[10px] font-bold uppercase tracking-[0.12em] transition-all ${
                     active
-                      ? "text-[#C4784A]"
-                      : "text-[#6B7280] hover:bg-[#F0EBE4] hover:text-[#1A1A1A]"
+                      ? "border-[var(--accent)] bg-[var(--accent-soft)] text-[var(--foreground)]"
+                      : "border-transparent text-[var(--muted)] hover:bg-[var(--background-tertiary)] hover:text-[var(--foreground)]"
                   } ${collapsed ? "justify-center px-2" : ""}`}
                 >
                   <span className={`shrink-0 flex items-center justify-center transition-transform ${active && !collapsed ? "scale-110" : ""}`}>{entry.icon}</span>
                   {!collapsed && (
                     <>
                       <span className="flex-1 truncate text-left">{entry.label}</span>
-                      <ChevronRight className={`w-4 h-4 shrink-0 transition-transform duration-200 ${open ? "rotate-90 text-[#1A1A1A]" : "text-[#9CA3AF]"}`} />
+                      <ChevronRight className={`w-4 h-4 shrink-0 transition-transform duration-200 ${open ? "rotate-90 text-[var(--foreground)]" : "text-[var(--muted)]"}`} />
                     </>
                   )}
                 </button>
 
                 {!collapsed && open && (
-                  <div className="ml-5 mt-1 space-y-1 border-l-2 border-[#E5E0DA] pl-3 py-1">
+                  <div className="ml-5 mt-1 space-y-1 border-l border-[var(--border)] pl-3 py-1">
                     {entry.children.map((child) => {
                       const childActive = isItemActive(child);
                       return (
@@ -186,10 +186,10 @@ function NavLinks({
                           key={child.href}
                           href={child.href}
                           onClick={onClick}
-                          className={`flex items-center gap-3 rounded-lg px-3 py-2.5 text-[14px] font-medium transition-all ${
+                          className={`flex items-center gap-3 px-3 py-2.5 text-[12px] font-medium transition-all ${
                             childActive
-                              ? "bg-[#C4784A]/10 text-[#C4784A] shadow-sm"
-                              : "text-[#6B7280] hover:bg-[#F0EBE4] hover:text-[#1A1A1A]"
+                              ? "bg-[var(--accent-soft)] text-[var(--foreground)]"
+                              : "text-[var(--muted)] hover:bg-[var(--background-tertiary)] hover:text-[var(--foreground)]"
                           }`}
                         >
                           <span className={`shrink-0 flex items-center justify-center transition-transform ${childActive ? "scale-110" : ""}`}>{child.icon}</span>
@@ -210,10 +210,10 @@ function NavLinks({
                           href={child.href}
                           onClick={onClick}
                           title={child.label}
-                          className={`flex justify-center items-center rounded-lg px-2 py-2 text-sm font-medium transition-all ${
+                          className={`flex justify-center items-center px-2 py-2 text-sm font-medium transition-all ${
                             childActive
-                              ? "bg-[#C4784A]/10 text-[#C4784A] shadow-sm"
-                              : "text-[#6B7280] hover:bg-[#F0EBE4] hover:text-[#1A1A1A]"
+                              ? "bg-[var(--accent-soft)] text-[var(--accent)]"
+                              : "text-[var(--muted)] hover:bg-[var(--background-tertiary)] hover:text-[var(--foreground)]"
                           }`}
                         >
                           <span className="flex items-center justify-center">{child.icon}</span>
@@ -234,10 +234,10 @@ function NavLinks({
               href={item.href}
               onClick={onClick}
               title={collapsed ? item.label : undefined}
-              className={`group flex items-center gap-3.5 rounded-xl px-3.5 py-3 text-[15px] font-semibold transition-all ${
+              className={`group flex items-center gap-3.5 border-l-2 px-3.5 py-3 font-mono text-[10px] font-bold uppercase tracking-[0.12em] transition-all ${
                 active
-                  ? "bg-[#C4784A]/10 text-[#C4784A] shadow-sm"
-                  : "text-[#6B7280] hover:bg-[#F0EBE4] hover:text-[#1A1A1A]"
+                  ? "border-[var(--accent)] bg-[var(--accent-soft)] text-[var(--foreground)]"
+                  : "border-transparent text-[var(--muted)] hover:bg-[var(--background-tertiary)] hover:text-[var(--foreground)]"
               } ${collapsed ? "justify-center px-2" : ""}`}
             >
               <span className={`shrink-0 flex items-center justify-center transition-transform ${active && !collapsed ? "scale-110" : ""}`}>{item.icon}</span>
@@ -275,23 +275,23 @@ export function AppSidebar() {
   return (
     <>
       {/* ── Mobile top bar ──────────────────────────────────────────── */}
-      <header className="lg:hidden sticky top-0 z-40 flex h-14 items-center justify-between border-b border-[#E5E0DA] bg-[#FAF7F2]/95 px-4 backdrop-blur-md safe-bottom">
+      <header className="lg:hidden sticky top-0 z-40 flex h-14 items-center justify-between border-b border-[var(--border)] bg-[var(--background)]/95 px-4 backdrop-blur-xl safe-bottom">
         <Link href="/" className="flex items-center gap-2">
-          <span className="text-[1.1rem] font-serif font-bold text-[#1A1A1A]">
-            UPSCPT
+          <span className="font-mono text-base font-bold tracking-[-0.08em] text-[var(--foreground)]">
+            UPSC
           </span>
         </Link>
         <div className="flex items-center gap-3">
           <Link
             href="/app/settings"
-            className="flex h-10 w-10 items-center justify-center rounded-full border border-[#E0DBD4] bg-white text-[#6B7280] hover:text-[#1A1A1A] transition-colors"
+            className="flex h-10 w-10 items-center justify-center border border-[var(--border)] bg-[var(--background-secondary)] text-[var(--muted)] hover:text-[var(--foreground)] transition-colors"
             aria-label="Settings"
           >
             <User className="w-4 h-4" />
           </Link>
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
-            className="flex h-10 w-10 items-center justify-center rounded-lg border border-[#E0DBD4] bg-white text-[#6B7280] hover:text-[#1A1A1A] transition-colors"
+            className="flex h-10 w-10 items-center justify-center border border-[var(--border)] bg-[var(--background-secondary)] text-[var(--muted)] hover:text-[var(--foreground)] transition-colors"
             aria-label={mobileOpen ? "Close menu" : "Open menu"}
           >
             <HamburgerIcon open={mobileOpen} />
@@ -306,14 +306,14 @@ export function AppSidebar() {
             className="fixed inset-0 bg-black/30 backdrop-blur-sm animate-in fade-in duration-200"
             onClick={() => setMobileOpen(false)}
           />
-          <div className="relative flex w-72 max-w-[85vw] flex-col bg-[#FAF7F2] shadow-2xl animate-in slide-in-from-left duration-200">
-            <div className="flex h-14 items-center justify-between border-b border-[#E5E0DA] px-5">
-              <span className="text-sm font-serif font-bold text-[#C4784A]">
-                Menu
+          <div className="relative flex w-72 max-w-[85vw] flex-col bg-[var(--background)] shadow-2xl animate-in slide-in-from-left duration-200">
+            <div className="flex h-14 items-center justify-between border-b border-[var(--border)] px-5">
+              <span className="font-mono text-[10px] font-bold uppercase tracking-[0.2em] text-[var(--accent)]">
+                Navigation
               </span>
               <button
                 onClick={() => setMobileOpen(false)}
-                className="flex h-8 w-8 items-center justify-center rounded-lg text-[#6B7280] hover:text-[#1A1A1A] hover:bg-[#F0EBE4] transition-colors"
+                className="flex h-8 w-8 items-center justify-center text-[var(--muted)] hover:text-[var(--foreground)] hover:bg-[var(--background-tertiary)] transition-colors"
                 aria-label="Close menu"
               >
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round"><line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" /></svg>
@@ -326,27 +326,27 @@ export function AppSidebar() {
 
       {/* ── Desktop sidebar ─────────────────────────────────────────── */}
       <aside
-        className={`hidden lg:flex flex-col border-r border-[#E5E0DA] bg-[#FAF7F2] transition-all duration-300 ease-in-out ${
+        className={`hidden lg:flex flex-col border-r border-[var(--border)] bg-[var(--background)] transition-all duration-300 ease-in-out ${
           collapsed ? "w-16" : "w-60"
         }`}
       >
         {/* Logo + hamburger toggle row */}
         <div
-          className={`flex h-16 shrink-0 items-center border-b border-[#E5E0DA] ${
+          className={`flex h-16 shrink-0 items-center border-b border-[var(--border)] ${
             collapsed ? "justify-center px-0" : "justify-between px-5"
           }`}
         >
           {!collapsed && (
             <Link href="/" className="flex items-center gap-2 group">
-              <span className="text-[1.3rem] font-serif font-bold text-[#1A1A1A] group-hover:text-[#C4784A] transition-colors">
-                UPSCPT
+              <span className="font-mono text-lg font-bold tracking-[-0.08em] text-[var(--foreground)] group-hover:text-[var(--accent)] transition-colors">
+                UPSC
               </span>
             </Link>
           )}
 
           <button
             onClick={toggleCollapsed}
-            className={`flex h-8 w-8 items-center justify-center rounded-lg text-[#6B7280] hover:bg-[#F0EBE4] hover:text-[#1A1A1A] transition-colors ${
+            className={`flex h-8 w-8 items-center justify-center text-[var(--muted)] hover:bg-[var(--background-tertiary)] hover:text-[var(--foreground)] transition-colors ${
               collapsed ? "mx-auto" : ""
             }`}
             aria-label={collapsed ? "Expand sidebar" : "Collapse sidebar"}
@@ -358,11 +358,11 @@ export function AppSidebar() {
         <NavLinks collapsed={collapsed} />
 
         {/* Bottom: Profile / Settings */}
-        <div className="shrink-0 border-t border-[#E5E0DA] p-3">
+        <div className="shrink-0 border-t border-[var(--border)] p-3">
           <Link
             href="/app/settings"
             title={collapsed ? "Profile / Settings" : undefined}
-            className={`flex items-center gap-3.5 rounded-xl px-3 py-3 text-[15px] font-semibold text-[#6B7280] hover:bg-[#F0EBE4] hover:text-[#1A1A1A] transition-all ${
+            className={`flex items-center gap-3.5 px-3 py-3 font-mono text-[10px] font-bold uppercase tracking-[0.12em] text-[var(--muted)] hover:bg-[var(--background-tertiary)] hover:text-[var(--foreground)] transition-all ${
               collapsed ? "justify-center px-2" : ""
             }`}
           >

@@ -115,6 +115,14 @@ export type NotebookEntry = {
 export type PyqQuestion = ExamQuestion & {
   year: number;
   topics: string[];
+  primaryTopic?: string;
+  subTopic?: string;
+  concepts?: string[];
+  questionType?: string;
+  importance?: string;
+  difficultyRationale?: string;
+  mnemonicHint?: string;
+  ncertClass?: string;
   sourceLabel?: string;
 };
 

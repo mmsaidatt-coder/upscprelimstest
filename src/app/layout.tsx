@@ -1,9 +1,9 @@
 import type { Metadata, Viewport } from "next";
-import { Fraunces, JetBrains_Mono, Manrope, Teko } from "next/font/google";
+import { JetBrains_Mono, Manrope } from "next/font/google";
+import Script from "next/script";
 import { Shell } from "@/components/site/shell";
 import {
   WebSiteJsonLd,
-  OrganizationJsonLd,
   EducationalOrganizationJsonLd,
 } from "@/components/seo/json-ld";
 import "./globals.css";
@@ -13,59 +13,39 @@ const manrope = Manrope({
   subsets: ["latin"],
 });
 
-const fraunces = Fraunces({
-  variable: "--font-fraunces",
-  subsets: ["latin"],
-});
-
 const jetbrainsMono = JetBrains_Mono({
   variable: "--font-jetbrains-mono",
   subsets: ["latin"],
 });
 
-const teko = Teko({
-  variable: "--font-teko",
-  subsets: ["latin"],
-});
+const GOOGLE_TAG_ID = "G-QBDYLT8GD9";
+const googleVerification = process.env.GOOGLE_SITE_VERIFICATION;
+const bingVerification = process.env.BING_SITE_VERIFICATION;
 
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   maximumScale: 1,
   viewportFit: "cover",
-  themeColor: "#FAF7F2",
+  themeColor: "#1B211C",
 };
 
 export const metadata: Metadata = {
   title: {
     default:
       "UPSC Prelims Practice — Free PYQ Tests & Mock Exams | upscprelimstest.com",
-    template: "%s | upscprelimstest.com",
+    template: "%s",
   },
   description:
-    "Free UPSC Prelims practice platform with 1,200+ previous year questions from 2014–2025 and 10,000+ total AI-enriched practice questions. Exam-grade simulations, timed tests, negative marking, analytics, and subject-wise drills.",
+    "Free UPSC Prelims practice with 1,199 solved PYQs from 2014–2025, official 2026 paper links, and 10,000+ total practice questions. Timed tests, negative marking, analytics, and subject drills.",
   metadataBase: new URL("https://upscprelimstest.com"),
-  alternates: {
-    canonical: "/",
-  },
-  keywords: [
-    "UPSC Prelims",
-    "UPSC PYQ",
-    "UPSC previous year questions",
-    "UPSC mock test",
-    "UPSC practice",
-    "IAS prelims",
-    "civil services exam",
-    "UPSC test series",
-    "free UPSC test",
-    "UPSC 2025",
-    "UPSC 2026",
-  ],
+  applicationName: "UPSC Prelims Test",
+  category: "education",
   openGraph: {
     title:
       "UPSC Prelims Practice — Free PYQ Tests & Mock Exams | upscprelimstest.com",
     description:
-      "Free UPSC Prelims practice with 1,200+ PYQs, 10,000+ total practice questions, exam-grade simulations, and analytics-led preparation.",
+      "Free UPSC Prelims practice with 1,199 solved PYQs, official 2026 paper links, 10,000+ total practice questions, and analytics-led preparation.",
     url: "https://upscprelimstest.com",
     siteName: "UPSC Prelims Test",
     type: "website",
@@ -84,7 +64,7 @@ export const metadata: Metadata = {
     title:
       "UPSC Prelims Practice — Free PYQ Tests & Mock Exams",
     description:
-      "1,200+ UPSC Prelims PYQs from 2014–2025 plus 10,000+ total practice questions. Timed tests, negative marking, analytics. 100% free.",
+      "1,199 solved UPSC Prelims PYQs from 2014–2025 plus official 2026 paper links and 10,000+ total practice questions. Free timed tests and analytics.",
     images: ["/og-image.png"],
   },
   robots: {
@@ -99,8 +79,10 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    // Add your Google Search Console verification code here after setup
-    // google: "your-verification-code",
+    ...(googleVerification ? { google: googleVerification } : {}),
+    ...(bingVerification
+      ? { other: { "msvalidate.01": bingVerification } }
+      : {}),
   },
 };
 
@@ -111,11 +93,22 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Script
+        src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_TAG_ID}`}
+        strategy="afterInteractive"
+      />
+      <Script id="google-tag" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', '${GOOGLE_TAG_ID}');
+        `}
+      </Script>
       <body
-        className={`${manrope.variable} ${fraunces.variable} ${jetbrainsMono.variable} ${teko.variable} antialiased`}
+        className={`${manrope.variable} ${jetbrainsMono.variable} antialiased`}
       >
         <WebSiteJsonLd />
-        <OrganizationJsonLd />
         <EducationalOrganizationJsonLd />
         <Shell>{children}</Shell>
       </body>

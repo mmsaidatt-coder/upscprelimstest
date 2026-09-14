@@ -328,7 +328,7 @@ function TopicDrawer({
               return (
                 <div
                   key={q.id}
-                  className="rounded-xl border border-[var(--border)] bg-white overflow-hidden transition-all"
+                  className="rounded-xl border border-[var(--border)] bg-[var(--background-secondary)] overflow-hidden transition-all"
                 >
                   {/* Question header */}
                   <button
@@ -660,7 +660,7 @@ function SubjectAnalyseDashboard() {
                   return (
                     <tr
                       key={t.topic}
-                      className="cursor-pointer hover:bg-white/[0.02] transition-colors"
+                      className="cursor-pointer hover:bg-[var(--background-secondary)]/[0.02] transition-colors"
                       onClick={() => {
                         const idx = sortedTopics.findIndex(s => s.topic === t.topic);
                         setSelectedBarColor(BAR_COLORS[idx % BAR_COLORS.length] ?? "#C4784A");

@@ -37,7 +37,7 @@ export default async function CurrentAffairsPage() {
           </div>
 
           <h1 className="heading mt-2 mb-6 text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-[var(--foreground)]">
-            SUBJECT-WISE{" "}
+            UPSC SUBJECT-WISE{" "}
             <span className="text-[var(--accent)] drop-shadow-sm">
               CURRENT AFFAIRS
             </span>
@@ -103,7 +103,7 @@ export default async function CurrentAffairsPage() {
                 <div className="mx-auto grid w-full max-w-[520px] grid-cols-2 gap-3 pt-1">
                   <Link
                     href={`/app/exams/${buildCurrentAffairsExamSlug(section.subject, 25)}`}
-                    className="flex min-h-14 items-center justify-center rounded-xl border border-[var(--border)] bg-white px-4 py-3 text-xs font-bold uppercase tracking-[0.2em] text-[var(--muted)] transition-all hover:border-[var(--accent)] hover:bg-[#F0EBE4] hover:text-[var(--foreground)]"
+                    className="flex min-h-14 items-center justify-center rounded-xl border border-[var(--border)] bg-[var(--background-secondary)] px-4 py-3 text-xs font-bold uppercase tracking-[0.2em] text-[var(--muted)] transition-all hover:border-[var(--accent)] hover:bg-[var(--background-tertiary)] hover:text-[var(--foreground)]"
                   >
                     25Q test
                   </Link>

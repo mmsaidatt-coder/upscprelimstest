@@ -1,39 +1,46 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { UserRound } from "lucide-react";
+
+const pageNames: Record<string, string> = {
+  "/app": "Command centre",
+  "/app/pyq": "Previous papers",
+  "/app/flt": "Full-length tests",
+  "/app/subject-wise": "Subject drills",
+  "/app/design-paper": "Design a paper",
+  "/app/current-affairs": "Current affairs",
+  "/app/analytics": "Performance analytics",
+  "/app/bookmarks": "Saved questions",
+  "/app/forum": "Community forum",
+  "/app/settings": "Profile settings",
+};
 
 export function AppTopBar() {
-  return (
-    <header className="sticky top-0 z-30 hidden lg:flex h-14 items-center justify-between border-b border-[#E5E0DA] bg-[#FAF7F2]/95 backdrop-blur-sm px-6">
-      {/* Left: Logo / Brand */}
-      <Link href="/" className="flex items-center gap-2 group shrink-0">
-        <span className="text-sm font-serif font-bold tracking-wide text-[#1A1A1A] leading-none group-hover:text-[#C4784A] transition-colors">
-          <span className="hidden xl:inline">UPSC Prelims Test</span>
-          <span className="xl:hidden">UPSCPT</span>
-        </span>
-      </Link>
+  const pathname = usePathname();
+  const exact = pageNames[pathname];
+  const prefix = Object.keys(pageNames)
+    .sort((a, b) => b.length - a.length)
+    .find((key) => pathname.startsWith(`${key}/`));
+  const pageName = exact ?? (prefix ? pageNames[prefix] : "Study workspace");
 
-      {/* Right: Profile / Settings */}
+  return (
+    <header className="sticky top-0 z-30 hidden h-16 items-center justify-between border-b border-[var(--border)] bg-[color:rgba(27,33,28,0.93)] px-6 backdrop-blur-xl lg:flex">
+      <div className="flex items-center gap-3">
+        <span className="signal-dot" />
+        <span className="font-mono text-[10px] font-bold uppercase tracking-[0.2em] text-[var(--muted)]">
+          {pageName}
+        </span>
+      </div>
+
       <Link
         href="/app/settings"
         id="app-top-bar-profile-btn"
         aria-label="Profile and settings"
-        className="flex items-center justify-center h-9 w-9 rounded-full border border-[#E0DBD4] bg-white text-[#6B7280] hover:text-[#1A1A1A] hover:border-[#C4784A]/40 transition-all"
+        className="flex h-10 w-10 items-center justify-center border border-[var(--border)] text-[var(--muted)] hover:border-[var(--foreground)] hover:text-[var(--foreground)]"
       >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="16"
-          height="16"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        >
-          <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
-          <circle cx="12" cy="7" r="4" />
-        </svg>
+        <UserRound className="h-4 w-4" strokeWidth={1.7} />
       </Link>
     </header>
   );

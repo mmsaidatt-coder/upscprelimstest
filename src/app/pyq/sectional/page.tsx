@@ -82,7 +82,7 @@ export default async function SectionalTestPage({
         <div className="mt-16 text-center relative z-10">
           <Link
             href="/app/pyq"
-            className="inline-flex items-center justify-center h-12 px-6 rounded-lg bg-[var(--background-secondary)] text-[var(--muted)] border border-[var(--border)] text-sm font-bold uppercase tracking-wider leading-tight hover:text-[var(--foreground)] hover:border-[var(--accent)] hover:bg-[#F0EBE4] transition-all"
+            className="inline-flex items-center justify-center h-12 px-6 rounded-lg bg-[var(--background-secondary)] text-[var(--muted)] border border-[var(--border)] text-sm font-bold uppercase tracking-wider leading-tight hover:text-[var(--foreground)] hover:border-[var(--accent)] hover:bg-[var(--background-tertiary)] transition-all"
           >
             ← Back to PYQ Library
           </Link>

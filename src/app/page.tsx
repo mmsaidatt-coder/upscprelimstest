@@ -1,27 +1,36 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import {
+  ArrowDown,
+  ArrowRight,
+  BarChart3,
+  BookOpenText,
+  Check,
+  Clock3,
+  FileText,
+  Layers3,
+  MoveUpRight,
+} from "lucide-react";
 import { FaqJsonLd } from "@/components/seo/json-ld";
+import { FaqSection } from "@/components/seo/faq-section";
 
 export const metadata: Metadata = {
-  title:
-    "UPSC Prelims Practice — Free PYQ Tests & Mock Exams | upscprelimstest.com",
+  title: "UPSC Prelims Practice | Free PYQs and Mock Tests",
   description:
-    "Free UPSC Prelims practice platform with 1,200+ previous year questions from 2014–2025 and 10,000+ total AI-enriched practice questions. Timed simulations, negative marking, subject-wise drills, and analytics. No paywall, no signup required.",
-  alternates: {
-    canonical: "https://upscprelimstest.com",
-  },
+    "Free UPSC Prelims practice with 1,199 solved PYQs from 2014 to 2025, official 2026 papers, and 10,000+ practice questions. Timed tests, subject practice, and analytics.",
+  alternates: { canonical: "https://upscprelimstest.com" },
 };
 
 const HOME_FAQS = [
   {
     question: "What is UPSC Prelims Test?",
     answer:
-      "UPSC Prelims Test is a free online platform for practicing UPSC Civil Services Preliminary Examination questions. It offers 1,200+ previous year questions from 2014 to 2025, a larger AI-enriched practice bank for mock generation, subject-wise drills, and detailed performance analytics.",
+      "UPSC Prelims Test is a free independent practice platform with 1,199 solved General Studies Paper I questions from 2014 to 2025, official 2026 paper links, a larger mock bank, subject practice, and performance analytics.",
   },
   {
     question: "How many UPSC previous year questions are available?",
     answer:
-      "Over 1,200 questions from 12 years (2014–2025) of UPSC Prelims papers, covering all GS subjects — Polity, History, Economy, Geography, Environment, Science & Technology, and Current Affairs.",
+      "The solved library has 1,199 questions from 12 General Studies Paper I papers covering 2014 to 2025. It includes Polity, History, Economy, Geography, Environment, Science, and Current Affairs. Official 2026 GS Paper I and CSAT PDF links are also available.",
   },
   {
     question: "Is the platform completely free?",
@@ -29,406 +38,315 @@ const HOME_FAQS = [
       "Yes. There is no paywall, no trial period, and no signup required to start practicing. Full access to all questions, analytics, and features is completely free.",
   },
   {
-    question:
-      "Does the practice test simulate real UPSC Prelims exam conditions?",
+    question: "Does the practice test simulate real UPSC Prelims exam conditions?",
     answer:
-      "Yes. Every session includes a countdown timer, UPSC-standard negative marking (⅓ deduction for wrong answers), question palette navigation, and mark-for-review functionality — exactly like the real examination.",
+      "Yes. Every session includes a countdown timer, one third negative marking, question map navigation, and a save for review option. The flow reflects the core conditions of the real examination.",
   },
 ];
 
-export default function Home() {
+const practiceModes = [
+  {
+    number: "01",
+    title: "Past papers",
+    eyebrow: "Twelve years of GS Paper I",
+    description:
+      "Work through solved questions by year. Notice repeated themes, changing language, and the logic behind each answer.",
+    href: "/pyq",
+    cta: "Browse past papers",
+    icon: BookOpenText,
+  },
+  {
+    number: "02",
+    title: "Mock exam",
+    eyebrow: "100 questions in 120 minutes",
+    description:
+      "Rehearse the full paper with a timer, negative marking, review flags, and the subject balance of the real exam.",
+    href: "/free-upsc-prelims-mock-test",
+    cta: "Start a mock",
+    icon: FileText,
+  },
+  {
+    number: "03",
+    title: "Subject practice",
+    eyebrow: "One subject at a time",
+    description:
+      "Focus on one subject, find weak concepts, and improve through short, repeatable sessions.",
+    href: "/subject-wise",
+    cta: "Choose a subject",
+    icon: Layers3,
+  },
+];
+
+const subjects = ["Polity", "History", "Economy", "Geography", "Environment", "Science", "Current Affairs"];
+
+function ExamStage() {
   return (
-    <div className="min-h-screen bg-[#FAF7F2] bg-warm-grid">
-      <FaqJsonLd faqs={HOME_FAQS} />
-      {/* ── Hero ────────────────────────────────────────────────────── */}
-      <section className="mx-auto max-w-7xl px-4 pb-16 pt-8 sm:px-6 sm:pb-28 sm:pt-16">
-        <div className="grid grid-cols-1 items-start gap-10 lg:grid-cols-5 lg:gap-16">
-          {/* Left: Copy */}
-          <div className="lg:col-span-3">
-            <span className="mb-4 inline-block text-xs font-semibold uppercase tracking-[0.2em] text-[#9CA3AF] sm:mb-6">
-              &mdash;&ensp;Free UPSC Prelims Practice
-            </span>
+    <div className="relative mx-auto w-full max-w-[43rem] lg:mr-0">
+      <div className="relative border border-[var(--border)] bg-[var(--background-secondary)] p-4 shadow-[0_45px_100px_rgba(3,6,4,0.35)] sm:p-7">
+        <div className="flex items-center justify-between border-b border-[var(--border)] pb-4 font-mono text-[9px] font-bold uppercase tracking-[0.16em] text-[var(--muted)]">
+          <span>GS Paper I practice</span>
+          <span className="flex items-center gap-2 text-[var(--foreground)]">
+            <span className="signal-dot" /> 01:17:42
+          </span>
+        </div>
 
-            <h1 className="mb-6 font-serif text-[2.5rem] font-bold leading-[1.08] text-[#1A1A1A] sm:mb-8 sm:text-6xl md:text-7xl lg:text-[5.5rem]">
-              Practice like
-              <br />
-              the real
-              <br />
-              <span className="italic text-[#C4784A]">exam.</span>
-            </h1>
-
-            <p className="mb-8 max-w-lg text-base leading-relaxed text-[#6B7280] sm:mb-10 sm:text-lg">
-              1,200+ previous year questions and a 10,000+ question practice
-              bank. Timed, exam-like sessions with detailed analytics to
-              sharpen your preparation.
-            </p>
-
-            {/* CTAs */}
-            <div className="mb-10 flex flex-col gap-3 sm:mb-14 sm:flex-row sm:gap-4">
-              <Link
-                href="/app/pyq"
-                className="rounded-full bg-[#C4784A] px-8 py-4 text-center text-base font-bold text-white transition-colors hover:bg-[#B06838]"
-              >
-                Start PYQ Practice
-              </Link>
-              <Link
-                href="/app/exams/gs-mini-mock-01"
-                className="rounded-full border-2 border-[#1A1A1A] px-8 py-4 text-center text-base font-bold text-[#1A1A1A] transition-colors hover:bg-[#1A1A1A] hover:text-white"
-              >
-                Take a Mock Test
-              </Link>
+        <div className="grid sm:grid-cols-[1fr_5.5rem]">
+          <div className="py-7 sm:pr-7">
+            <div className="flex items-center gap-2 font-mono text-[9px] font-bold uppercase tracking-[0.16em] text-[var(--accent)]">
+              <span>Question 42</span>
+              <span aria-hidden="true" className="signal-dot !h-1 !w-1 !shadow-none" />
+              <span>Polity</span>
             </div>
+            <p className="mt-6 text-[15px] font-medium leading-7 text-[var(--foreground)] sm:text-base">
+              Consider the following statements about Fundamental Rights:
+            </p>
+            <ol className="mt-4 space-y-2 text-sm leading-6 text-[var(--muted-strong)]">
+              <li>1. Article 14 guarantees equality before law.</li>
+              <li>2. Article 19 protects six freedoms.</li>
+              <li>3. Article 21 protects life and personal liberty.</li>
+            </ol>
+            <p className="mt-4 text-sm text-[var(--foreground)]">Which statements are correct?</p>
 
-            {/* Stats */}
-            <div className="flex flex-wrap gap-6 sm:gap-10">
-              {[
-                { value: "1,200+", label: "questions from PYQs" },
-                { value: "10,000+", label: "practice-bank questions" },
-                { value: "100%", label: "free, no paywall" },
-              ].map((stat) => (
-                <div key={stat.label}>
-                  <div className="font-serif text-xl font-bold text-[#1A1A1A] sm:text-2xl">
-                    {stat.value}
-                  </div>
-                  <div className="text-xs font-medium text-[#9CA3AF] sm:text-sm">
-                    {stat.label}
-                  </div>
+            <div className="mt-6 grid gap-2">
+              {["1 only", "1 and 2 only", "2 and 3 only", "1, 2 and 3"].map((option, index) => (
+                <div
+                  key={option}
+                  className={`flex min-h-12 items-center gap-3 border px-4 text-sm ${
+                    index === 3
+                      ? "border-[var(--accent)] bg-[var(--accent-soft)] text-[var(--foreground)]"
+                      : "border-[var(--border)] text-[var(--muted)]"
+                  }`}
+                >
+                  <span className={`flex h-5 w-5 items-center justify-center rounded-full border font-mono text-[8px] ${index === 3 ? "border-[var(--accent)] bg-[var(--accent)] text-white" : "border-[var(--muted)]"}`}>
+                    {index === 3 ? <Check className="h-3 w-3" strokeWidth={3} /> : String.fromCharCode(65 + index)}
+                  </span>
+                  {option}
                 </div>
               ))}
             </div>
           </div>
 
-          {/* Right: Exam question mockup (dark card) */}
-          <div className="lg:col-span-2">
-            <div className="rounded-2xl bg-[#1C1C1C] p-5 text-white shadow-2xl sm:rounded-3xl sm:p-7">
-              <div className="mb-6 flex items-center justify-between">
-                <span className="text-[11px] font-semibold uppercase tracking-[0.15em] text-[#888]">
-                  Question 42 / 100
+          <div className="hidden border-l border-[var(--border)] py-7 pl-5 sm:block">
+            <p className="font-mono text-[8px] font-bold uppercase tracking-[0.16em] text-[var(--muted)]">Question map</p>
+            <div className="mt-4 grid grid-cols-2 gap-2">
+              {Array.from({ length: 12 }, (_, index) => (
+                <span
+                  key={index}
+                  className={`flex h-8 w-8 items-center justify-center border font-mono text-[9px] ${
+                    index === 5
+                      ? "border-[var(--accent)] bg-[var(--accent)] text-white"
+                      : index < 5
+                        ? "border-[var(--foreground)] text-[var(--foreground)]"
+                        : "border-[var(--border)] text-[var(--muted)]"
+                  }`}
+                >
+                  {index + 37}
                 </span>
-                <span className="text-[11px] font-semibold uppercase tracking-[0.15em] text-[#888]">
-                  PYQ 2023
-                </span>
-              </div>
-
-              <p className="mb-5 text-[15px] leading-relaxed text-[#E5E7EB]">
-                Consider the following statements about the Fundamental Rights
-                enshrined in the Indian Constitution:
-              </p>
-
-              <div className="mb-4 space-y-1 text-sm text-[#C8C8C8]">
-                <p>1. Article 14 guarantees equality before law</p>
-                <p>2. Article 19 provides six freedoms</p>
-                <p>3. Article 21 ensures right to life and liberty</p>
-              </div>
-
-              <p className="mb-5 text-sm text-[#E5E7EB]">
-                Which of the above is/are correct?
-              </p>
-
-              <div className="space-y-2.5">
-                {[
-                  "1 only",
-                  "1 and 2 only",
-                  "2 and 3 only",
-                  "1, 2 and 3",
-                ].map((opt, i) => (
-                  <div
-                    key={opt}
-                    className={`flex items-center gap-3 rounded-xl border px-4 py-3 text-sm ${
-                      i === 3
-                        ? "border-[#C4784A] bg-[#C4784A]/10 text-white"
-                        : "border-[var(--border)] text-[#999]"
-                    }`}
-                  >
-                    <div
-                      className={`flex h-4 w-4 shrink-0 items-center justify-center rounded-full border-2 ${
-                        i === 3 ? "border-[#C4784A]" : "border-[var(--accent)]"
-                      }`}
-                    >
-                      {i === 3 && (
-                        <div className="h-2 w-2 rounded-full bg-[#C4784A]" />
-                      )}
-                    </div>
-                    <span>
-                      {String.fromCharCode(65 + i)}) {opt}
-                    </span>
-                  </div>
-                ))}
-              </div>
-
-              <div className="mt-6 flex justify-between border-t border-[var(--border)] pt-4">
-                <span className="text-[11px] uppercase tracking-wider text-[var(--muted)]">
-                  Previous
-                </span>
-                <span className="text-[11px] font-semibold uppercase tracking-wider text-[#C4784A]">
-                  Mark for Review
-                </span>
-                <span className="text-[11px] uppercase tracking-wider text-white">
-                  Next &rarr;
-                </span>
-              </div>
+              ))}
             </div>
+          </div>
+        </div>
+
+        <div className="flex items-center justify-between border-t border-[var(--border)] pt-4 font-mono text-[9px] font-bold uppercase tracking-[0.14em]">
+          <span className="text-[var(--muted)]">Save for review</span>
+          <span className="flex items-center gap-2 text-[var(--foreground)]">Next question <ArrowRight className="h-3.5 w-3.5 text-[var(--accent)]" /></span>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default function Home() {
+  return (
+    <div className="min-h-screen bg-[var(--background)]">
+      <FaqJsonLd faqs={HOME_FAQS} />
+
+      <section className="editorial-grid relative min-h-[calc(100svh-4rem)] overflow-hidden border-b border-[var(--border)]">
+        <div className="page-shell grid min-h-[calc(100svh-4rem)] gap-16 pb-16 pt-14 sm:pt-20 lg:grid-cols-[0.92fr_1.08fr] lg:items-center lg:gap-16 lg:pb-24 lg:pt-20">
+          <div className="relative z-10 fade-up">
+            <p className="editorial-kicker">UPSC Prelims practice</p>
+            <h1 className="display-title mt-9">
+              Study what repeats.
+              <br />
+              <em>Master what changes.</em>
+            </h1>
+            <p className="body-copy mt-8 max-w-xl">
+              Work through past papers, take realistic mock exams, and strengthen one subject at a time. Each session shows you what to improve next.
+            </p>
+            <div className="mt-9 flex flex-col gap-3 sm:flex-row">
+              <Link href="/app/pyq/run?limit=25" className="action-primary">
+                Start 25 questions <ArrowRight className="h-4 w-4" />
+              </Link>
+              <Link href="/pyq" className="action-secondary">
+                Browse past papers
+              </Link>
+            </div>
+
+            <div className="mt-14 flex items-center gap-4 text-[var(--muted)]">
+              <ArrowDown className="h-4 w-4 text-[var(--accent)]" />
+              <span className="font-mono text-[9px] font-bold uppercase tracking-[0.18em]">See how practice works</span>
+            </div>
+          </div>
+
+          <div className="relative z-10 pb-8 lg:pb-0">
+            <ExamStage />
           </div>
         </div>
       </section>
 
-      {/* ── Practice Modes ──────────────────────────────────────────── */}
-      <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-28">
-        <div className="grid grid-cols-1 items-start gap-10 lg:grid-cols-2 lg:gap-16">
-          {/* Left: Copy */}
-          <div>
-            <span className="mb-4 inline-block text-xs font-semibold uppercase tracking-[0.2em] text-[#9CA3AF]">
-              &mdash;&ensp;How It Works
-            </span>
-            <h2 className="mb-5 font-serif text-3xl font-bold leading-[1.1] text-[#1A1A1A] sm:mb-6 sm:text-5xl">
-              Choose your mode.
-              <br />
-              Practice under real conditions.
-            </h2>
-            <p className="mb-8 max-w-md text-base leading-relaxed text-[#6B7280] sm:mb-10 sm:text-lg">
-              Year-wise PYQs, subject drills, or full-length mocks &mdash;
-              every session mirrors the actual UPSC prelims experience with
-              timed questions and negative marking.
-            </p>
+      <section className="border-b border-[var(--border)]">
+        <div className="page-shell grid divide-y divide-[var(--border)] sm:grid-cols-2 sm:divide-x sm:divide-y-0 lg:grid-cols-4">
+          {[
+            ["1,199", "Solved PYQs"],
+            ["12 years", "2014 to 2025"],
+            ["10,000+", "Practice questions"],
+            ["Free", "No paywall"],
+          ].map(([value, label], index) => (
+            <div key={label} className="px-1 py-7 sm:px-6 lg:py-9">
+              <p className="font-mono text-[9px] font-bold uppercase tracking-[0.18em] text-[var(--muted)]">0{index + 1} · {label}</p>
+              <p className="mt-3 text-2xl font-semibold tracking-[-0.04em] text-[var(--foreground)] sm:text-3xl">{value}</p>
+            </div>
+          ))}
+        </div>
+      </section>
 
-            {/* Subject pills */}
-            <div className="flex flex-wrap gap-2">
-              {[
-                "Polity",
-                "History",
-                "Economy",
-                "Geography",
-                "Environment",
-                "Science",
-                "Current Affairs",
-              ].map((s) => (
-                <span
-                  key={s}
-                  className="rounded-full border border-[#E0DBD4] bg-white px-4 py-2 text-sm font-medium text-[#1A1A1A]"
+      <section className="page-shell py-20 sm:py-28 lg:py-36">
+        <div className="grid gap-10 lg:grid-cols-[0.42fr_1fr] lg:gap-20">
+          <div>
+            <p className="editorial-kicker">Practice modes</p>
+            <h2 className="heading mt-8 text-4xl sm:text-5xl lg:text-6xl">
+              Choose how you want to train.
+            </h2>
+          </div>
+
+          <div className="border-t border-[var(--border)]">
+            {practiceModes.map((mode) => {
+              const Icon = mode.icon;
+              return (
+                <Link
+                  key={mode.number}
+                  href={mode.href}
+                  className="group grid gap-5 border-b border-[var(--border)] py-8 sm:grid-cols-[3rem_1fr_auto] sm:items-start sm:gap-8 sm:py-10"
                 >
-                  {s}
-                </span>
+                  <span className="index-number">{mode.number}</span>
+                  <span>
+                    <span className="flex items-center gap-3">
+                      <Icon className="h-5 w-5 text-[var(--accent)]" strokeWidth={1.6} />
+                      <span className="font-mono text-[9px] font-bold uppercase tracking-[0.2em] text-[var(--muted)]">{mode.eyebrow}</span>
+                    </span>
+                    <span className="mt-4 block text-3xl font-semibold tracking-[-0.045em] text-[var(--foreground)] sm:text-4xl">{mode.title}</span>
+                    <span className="mt-4 block max-w-xl text-sm leading-7 text-[var(--muted)]">{mode.description}</span>
+                    <span className="mt-5 inline-flex items-center gap-2 font-mono text-[9px] font-bold uppercase tracking-[0.18em] text-[var(--foreground)] sm:hidden">
+                      {mode.cta} <ArrowRight className="h-3.5 w-3.5 text-[var(--accent)]" />
+                    </span>
+                  </span>
+                  <span className="hidden h-12 w-12 items-center justify-center border border-[var(--border)] text-[var(--muted)] transition-all group-hover:border-[var(--accent)] group-hover:bg-[var(--accent)] group-hover:text-white sm:flex">
+                    <MoveUpRight className="h-5 w-5 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+                  </span>
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      <section className="border-y border-[var(--border)] bg-[var(--ink)]">
+        <div className="page-shell grid gap-14 py-20 sm:py-28 lg:grid-cols-[0.88fr_1.12fr] lg:items-center lg:gap-24 lg:py-36">
+          <div className="relative border border-[var(--border)] bg-[var(--background-secondary)] p-5 sm:p-8">
+            <div className="flex items-center justify-between">
+              <div>
+                <p className="font-mono text-[9px] font-bold uppercase tracking-[0.18em] text-[var(--muted)]">Last 10 attempts</p>
+                <p className="mt-3 text-4xl font-semibold tracking-[-0.06em] text-[var(--foreground)]">102.5</p>
+              </div>
+              <BarChart3 className="h-6 w-6 text-[var(--accent)]" strokeWidth={1.5} />
+            </div>
+            <div className="mt-10 flex h-48 items-end gap-2 border-b border-l border-[var(--border)] px-4 pt-4">
+              {[39, 52, 46, 65, 58, 72, 68, 79, 75, 88].map((height, index) => (
+                <div key={index} className="group flex h-full flex-1 items-end">
+                  <div
+                    className={`w-full transition-all duration-500 ${index === 9 ? "bg-[var(--accent)]" : "bg-[var(--border)] group-hover:bg-[var(--muted)]"}`}
+                    style={{ height: `${height}%` }}
+                  />
+                </div>
+              ))}
+            </div>
+            <div className="mt-6 grid grid-cols-3 gap-3">
+              {[["Accuracy", "76%"], ["Attempted", "84"], ["Streak", "12d"]].map(([label, value]) => (
+                <div key={label} className="border-l border-[var(--border)] pl-3">
+                  <p className="font-mono text-[8px] uppercase tracking-[0.13em] text-[var(--muted)]">{label}</p>
+                  <p className="mt-2 text-xl font-semibold text-[var(--foreground)]">{value}</p>
+                </div>
               ))}
             </div>
           </div>
 
-          {/* Right: Step cards */}
-          <div className="space-y-5">
-            {[
-              {
-                step: "01",
-                title: "Choose Your Focus",
-                desc: "Pick a year, subject, or topic. Or launch a full-length mock that covers the entire syllabus.",
-              },
-              {
-                step: "02",
-                title: "Practice Under Pressure",
-                desc: "Timed sessions with UPSC-style negative marking. No hints, no shortcuts \u2014 exactly like exam day.",
-              },
-              {
-                step: "03",
-                title: "Review & Improve",
-                desc: "See your score, review every question, identify weak subjects, and track improvement over time.",
-              },
-            ].map((item) => (
-              <div
-                key={item.step}
-                className="rounded-2xl border border-[#E5E0DA] bg-white p-6"
+          <div>
+            <p className="editorial-kicker">Clear feedback</p>
+            <h2 className="heading mt-8 text-4xl sm:text-5xl lg:text-6xl">
+              Make the next session count.
+            </h2>
+            <p className="body-copy mt-7 max-w-xl">
+              See where marks are gained and lost. Review accuracy, pace, negative marking, and individual questions after every attempt.
+            </p>
+            <Link href="/analytics" className="action-secondary mt-9">
+              View performance <ArrowRight className="h-4 w-4" />
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="page-shell py-20 sm:py-28 lg:py-36">
+        <div className="grid gap-12 lg:grid-cols-[0.68fr_1fr] lg:gap-24">
+          <div>
+            <p className="editorial-kicker">Subject practice</p>
+            <h2 className="heading mt-8 text-4xl sm:text-5xl">Build one subject at a time.</h2>
+            <p className="body-copy mt-6 max-w-md">
+              Practice one subject across years. See which concepts return, how questions evolve, and where your preparation needs work.
+            </p>
+          </div>
+          <div className="grid border-t border-[var(--border)] sm:grid-cols-2">
+            {subjects.map((subject, index) => (
+              <Link
+                key={subject}
+                href={`/pyq/subject/${subject.toLowerCase().replaceAll(" ", "-")}`}
+                className={`group flex min-h-28 items-center border-b border-[var(--border)] px-2 py-6 sm:px-6 ${index % 2 === 0 ? "sm:border-r" : ""}`}
               >
-                <div className="flex items-start gap-4">
-                  <span className="mt-0.5 text-sm font-bold text-[#C4784A]">
-                    {item.step}
-                  </span>
-                  <div>
-                    <h3 className="mb-1 text-lg font-bold text-[#1A1A1A]">
-                      {item.title}
-                    </h3>
-                    <p className="text-sm leading-relaxed text-[#6B7280]">
-                      {item.desc}
-                    </p>
-                  </div>
-                </div>
-              </div>
+                <span className="index-number mr-5">0{index + 1}</span>
+                <span className="text-xl font-semibold tracking-[-0.035em] text-[var(--foreground)]">{subject}</span>
+                <ArrowRight className="ml-auto h-4 w-4 text-[var(--muted)] transition-transform group-hover:translate-x-1 group-hover:text-[var(--accent)]" />
+              </Link>
             ))}
           </div>
         </div>
       </section>
 
-      {/* ── Analytics / Track ───────────────────────────────────────── */}
-      <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-28">
-        <div className="grid grid-cols-1 items-start gap-10 lg:grid-cols-2 lg:gap-16">
-          {/* Left: Copy + feature cards */}
+      <section className="border-y border-[var(--border)]">
+        <div className="page-shell grid gap-12 py-20 sm:py-28 lg:grid-cols-[0.78fr_1fr] lg:gap-24">
           <div>
-            <span className="mb-4 inline-block text-xs font-semibold uppercase tracking-[0.2em] text-[#9CA3AF]">
-              &mdash;&ensp;Track Your Progress
-            </span>
-            <h2 className="mb-5 font-serif text-3xl font-bold leading-[1.1] text-[#1A1A1A] sm:mb-6 sm:text-5xl">
-              Know where you stand.
-              <br />
-              Compound over time.
-            </h2>
-            <p className="mb-8 max-w-md text-base leading-relaxed text-[#6B7280] sm:text-lg">
-              Every test builds your profile. See which subjects need work,
-              track your score trajectory, and watch your accuracy improve
-              test after test.
-            </p>
-
-            <div className="space-y-4">
-              <div className="rounded-2xl border border-[#E5E0DA] bg-white p-5">
-                <h4 className="mb-1 text-base font-bold text-[#1A1A1A]">
-                  Subject Analysis
-                </h4>
-                <p className="text-sm text-[#6B7280]">
-                  See accuracy for Polity, History, Economy, Geography,
-                  Science, Environment &mdash; pinpoint your gaps.
-                </p>
-              </div>
-              <div className="rounded-2xl border border-[#E5E0DA] bg-white p-5">
-                <h4 className="mb-1 text-base font-bold text-[#1A1A1A]">
-                  Score Trajectory
-                </h4>
-                <p className="text-sm text-[#6B7280]">
-                  Track mock-test scores over time. See readiness bands and
-                  know when you&rsquo;re cutoff-ready.
-                </p>
-              </div>
-            </div>
+            <p className="editorial-kicker">Question standards</p>
+            <h2 className="heading mt-8 text-4xl sm:text-5xl">Know where every question comes from.</h2>
           </div>
-
-          {/* Right: Dark dashboard mockup */}
-          <div className="rounded-2xl bg-[#1C1C1C] p-5 shadow-2xl sm:rounded-3xl sm:p-7">
-            <div className="mb-5 text-[11px] font-semibold uppercase tracking-[0.15em] text-[#888]">
-              Performance Dashboard
+          <div className="grid gap-8 sm:grid-cols-2">
+            <div>
+              <Clock3 className="h-5 w-5 text-[var(--accent)]" />
+              <h3 className="mt-6 text-xl font-semibold text-[var(--foreground)]">Source clarity</h3>
+              <p className="mt-3 text-sm leading-7 text-[var(--muted)]">Every solved paper shows its year, source, answer status, and review method.</p>
             </div>
-
-            {/* Score cards */}
-            <div className="mb-6 grid grid-cols-3 gap-2 sm:gap-3">
-              <div className="rounded-xl bg-[#262626] p-4">
-                <div className="mb-1 text-[11px] text-[#888]">Target</div>
-                <div className="font-serif text-2xl font-bold text-white">
-                  115
-                </div>
-              </div>
-              <div className="rounded-xl border border-[#C4784A]/30 bg-[#C4784A]/10 p-4">
-                <div className="mb-1 text-[11px] text-[#C4784A]">Average</div>
-                <div className="font-serif text-2xl font-bold text-[#C4784A]">
-                  102.5
-                </div>
-              </div>
-              <div className="rounded-xl bg-[#262626] p-4">
-                <div className="mb-1 text-[11px] text-[#888]">Accuracy</div>
-                <div className="font-serif text-2xl font-bold text-white">
-                  76%
-                </div>
-              </div>
+            <div>
+              <BarChart3 className="h-5 w-5 text-[var(--accent)]" />
+              <h3 className="mt-6 text-xl font-semibold text-[var(--foreground)]">Meaningful topic groups</h3>
+              <p className="mt-3 text-sm leading-7 text-[var(--muted)]">Topic groups appear only when several questions reveal a useful pattern across years.</p>
             </div>
-
-            {/* Chart bars */}
-            <div className="mb-6 rounded-xl bg-[#262626] p-5">
-              <div className="mb-4 text-[11px] text-[#888]">
-                Score Progression (Last 10)
-              </div>
-              <div className="flex h-28 items-end gap-2">
-                {[40, 55, 45, 70, 65, 80, 75, 90, 85, 102].map((h, i) => (
-                  <div
-                    key={i}
-                    className="flex-1 rounded-t-sm transition-all duration-700"
-                    style={{
-                      height: `${h}%`,
-                      backgroundColor: i === 9 ? "#C4784A" : "#3a3a3a",
-                    }}
-                  />
-                ))}
-              </div>
-            </div>
-
-            {/* Subject accuracy bars */}
-            <div className="space-y-4">
-              {[
-                { subject: "Polity", score: 85, color: "#10b981" },
-                { subject: "Economics", score: 78, color: "#C4784A" },
-                { subject: "Environment", score: 55, color: "#eab308" },
-                { subject: "History", score: 45, color: "#ef4444" },
-              ].map((s) => (
-                <div key={s.subject}>
-                  <div className="mb-1.5 flex justify-between text-xs">
-                    <span className="text-[#888]">{s.subject}</span>
-                    <span className="font-bold" style={{ color: s.color }}>
-                      {s.score}%
-                    </span>
-                  </div>
-                  <div className="h-1.5 w-full overflow-hidden rounded-full bg-[#333]">
-                    <div
-                      className="h-full rounded-full"
-                      style={{
-                        width: `${s.score}%`,
-                        backgroundColor: s.color,
-                      }}
-                    />
-                  </div>
-                </div>
-              ))}
-            </div>
+            <Link href="/methodology" className="action-secondary sm:col-span-2 sm:justify-self-start">
+              See how questions are reviewed <ArrowRight className="h-4 w-4" />
+            </Link>
           </div>
         </div>
       </section>
 
-      {/* ── Final CTA ───────────────────────────────────────────────── */}
-      <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-28">
-        <div className="mx-auto max-w-2xl text-center">
-          <h2 className="mb-5 font-serif text-4xl font-bold leading-[1.06] text-[#1A1A1A] sm:mb-6 sm:text-6xl md:text-7xl">
-            Start with one
-            <br />
-            <span className="italic text-[#C4784A]">test today.</span>
-          </h2>
-          <p className="mx-auto mb-8 max-w-md text-base text-[#6B7280] sm:mb-10 sm:text-lg">
-            No signup needed. Pick a year, take the test, see where you stand.
-          </p>
-          <Link
-            href="/app"
-            className="inline-block rounded-full bg-[#C4784A] px-8 py-4 text-base font-bold text-white transition-colors hover:bg-[#B06838] sm:px-10 sm:py-5 sm:text-lg"
-          >
-            Start your first test
-          </Link>
-          <p className="mt-4 text-sm text-[#9CA3AF]">
-            No paywall. No trial period. Full access, always.
-          </p>
-        </div>
+      <section className="page-shell py-20 sm:py-28">
+        <FaqSection title="Before you begin" faqs={HOME_FAQS} />
       </section>
-
-      {/* ── Footer ──────────────────────────────────────────────────── */}
-      <footer className="border-t border-[#E5E0DA]">
-        <div className="mx-auto flex max-w-7xl flex-col gap-4 px-4 py-8 sm:px-6 sm:flex-row sm:items-center sm:justify-between">
-          <div>
-            <span className="font-serif text-sm font-bold text-[#1A1A1A]">
-              UPSC Prelims Test
-            </span>
-            <span className="block text-xs text-[#9CA3AF]">
-              Practice like the exam. Review like a strategist.
-            </span>
-          </div>
-          <nav className="flex gap-5 text-sm text-[#6B7280]">
-            <Link
-              href="/app/pyq"
-              className="transition-colors hover:text-[#1A1A1A]"
-            >
-              PYQ Practice
-            </Link>
-            <Link
-              href="/app"
-              className="transition-colors hover:text-[#1A1A1A]"
-            >
-              Dashboard
-            </Link>
-            <Link
-              href="/login"
-              className="transition-colors hover:text-[#1A1A1A]"
-            >
-              Login
-            </Link>
-          </nav>
-        </div>
-      </footer>
     </div>
   );
 }

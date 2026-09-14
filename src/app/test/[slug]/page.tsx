@@ -114,17 +114,37 @@ export async function generateMetadata({
 
   if (isPyq) {
     const rest = slug.replace(/^pyq-?/, "") || "mixed";
-    const { year, subject } = parsePyqSlug(rest);
+    const { year, subject, limit } = parsePyqSlug(rest);
     const label = [year, subject ?? "Mixed"].filter(Boolean).join(" · ");
     return {
-      title: `PYQ ${label} — UPSCPRELIMSTEST`,
-      description: `Start your UPSC Prelims PYQ drill: ${label}`,
+      title: `UPSC Prelims ${label} PYQ Test — Free ${limit}Q Practice`,
+      description: `Start a free UPSC Prelims PYQ test for ${label}. Timed ${limit}-question practice with negative marking and instant review.`,
+      robots: { index: false, follow: true },
+      alternates: {
+        canonical: `https://upscprelimstest.com/test/${slug}`,
+      },
+      openGraph: {
+        title: `UPSC Prelims ${label} PYQ Test`,
+        description: `Free timed PYQ practice for ${label} with negative marking and instant review.`,
+        url: `https://upscprelimstest.com/test/${slug}`,
+      },
     };
   }
 
   return {
-    title: `Test — UPSCPRELIMSTEST`,
-    description: "Start your UPSC Prelims practice test.",
+    title: "Free UPSC Prelims Practice Test",
+    description:
+      "Start a free UPSC Prelims practice test with timer, negative marking, and instant review.",
+    robots: { index: false, follow: true },
+    alternates: {
+      canonical: `https://upscprelimstest.com/test/${slug}`,
+    },
+    openGraph: {
+      title: "Free UPSC Prelims Practice Test",
+      description:
+        "Timed UPSC Prelims practice with negative marking and instant review.",
+      url: `https://upscprelimstest.com/test/${slug}`,
+    },
   };
 }
 

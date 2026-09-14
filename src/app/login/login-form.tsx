@@ -110,7 +110,7 @@ export function LoginForm() {
       <div className="w-full max-w-md relative z-10 transition-all duration-500 fade-up">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-[var(--accent)]/5 blur-[100px] rounded-full pointer-events-none" />
 
-        <div className="relative rounded-2xl border border-[var(--border)] bg-white p-6 shadow-[0_8px_30px_rgba(0,0,0,0.08)] sm:rounded-[2rem] sm:p-12">
+        <div className="relative rounded-2xl border border-[var(--border)] bg-[var(--background-secondary)] p-6 shadow-[0_8px_30px_rgba(0,0,0,0.08)] sm:rounded-[2rem] sm:p-12">
           <div className="text-center mb-6 sm:mb-8">
             <h1 className="heading text-2xl text-[var(--foreground)] sm:text-4xl">
               {mode === "login" ? "Welcome back" : "Create account"}
@@ -126,7 +126,7 @@ export function LoginForm() {
             type="button"
             onClick={handleGoogleAuth}
             disabled={loading}
-            className="flex w-full items-center justify-center gap-3 rounded-xl border border-[var(--border)] bg-white px-4 py-3.5 text-sm font-bold tracking-wide text-[var(--foreground)] hover:bg-[#F5F0EB] disabled:opacity-50 transition-all shadow-sm hover:shadow-md hover:-translate-y-0.5"
+            className="flex w-full items-center justify-center gap-3 rounded-xl border border-[var(--border)] bg-[var(--background-secondary)] px-4 py-3.5 text-sm font-bold tracking-wide text-[var(--foreground)] hover:bg-[var(--background-tertiary)] disabled:opacity-50 transition-all shadow-sm hover:shadow-md hover:-translate-y-0.5"
           >
           <svg viewBox="0 0 24 24" className="h-4.5 w-4.5" aria-hidden="true">
             <path

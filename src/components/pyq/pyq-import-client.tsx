@@ -93,7 +93,7 @@ export function PyqImportClient({
             value={year}
             onChange={(event) => setYear(event.target.value)}
             inputMode="numeric"
-            className="w-full rounded-[1.2rem] border border-black/10 bg-white/75 px-4 py-3 text-sm font-semibold text-[var(--foreground)]"
+            className="w-full rounded-[1.2rem] border border-black/10 bg-[var(--background-secondary)]/75 px-4 py-3 text-sm font-semibold text-[var(--foreground)]"
             placeholder="2023"
           />
         </label>
@@ -105,7 +105,7 @@ export function PyqImportClient({
           <input
             value={topics}
             onChange={(event) => setTopics(event.target.value)}
-            className="w-full rounded-[1.2rem] border border-black/10 bg-white/75 px-4 py-3 text-sm font-semibold text-[var(--foreground)]"
+            className="w-full rounded-[1.2rem] border border-black/10 bg-[var(--background-secondary)]/75 px-4 py-3 text-sm font-semibold text-[var(--foreground)]"
             placeholder="Polity, Fundamental Rights"
           />
         </label>
@@ -119,7 +119,7 @@ export function PyqImportClient({
           <select
             value={mode}
             onChange={(event) => setMode(event.target.value as ImportMode)}
-            className="w-full rounded-[1.2rem] border border-black/10 bg-white/75 px-4 py-3 text-sm font-semibold text-[var(--foreground)]"
+            className="w-full rounded-[1.2rem] border border-black/10 bg-[var(--background-secondary)]/75 px-4 py-3 text-sm font-semibold text-[var(--foreground)]"
           >
             <option value="gemini_vision">{formatModeLabel("gemini_vision")}</option>
             <option value="vision_ocr" disabled={!envStatus.hasVisionKey}>
@@ -142,7 +142,7 @@ export function PyqImportClient({
             accept="image/png,image/jpeg"
             multiple
             onChange={(event) => setFiles(Array.from(event.target.files ?? []))}
-            className="block w-full rounded-[1.2rem] border border-black/10 bg-white/75 px-4 py-3 text-sm font-semibold text-[var(--foreground)] file:mr-4 file:rounded-full file:border-0 file:bg-[var(--foreground)] file:px-4 file:py-2 file:text-sm file:font-semibold file:text-[var(--background-soft)]"
+            className="block w-full rounded-[1.2rem] border border-black/10 bg-[var(--background-secondary)]/75 px-4 py-3 text-sm font-semibold text-[var(--foreground)] file:mr-4 file:rounded-full file:border-0 file:bg-[var(--foreground)] file:px-4 file:py-2 file:text-sm file:font-semibold file:text-[var(--background-soft)]"
           />
           <p className="text-xs leading-6 text-[var(--muted)]">
             Tip: upload clear, un-cropped pages. Works best with one paper per image.
@@ -150,7 +150,7 @@ export function PyqImportClient({
         </label>
       </div>
 
-      <label className="flex flex-wrap items-center justify-between gap-3 rounded-[1.6rem] border border-black/10 bg-white/75 p-5">
+      <label className="flex flex-wrap items-center justify-between gap-3 rounded-[1.6rem] border border-black/10 bg-[var(--background-secondary)]/75 p-5">
         <div>
           <p className="text-sm font-semibold text-[var(--foreground)]">Overwrite duplicates</p>
           <p className="mt-1 text-sm leading-7 text-[var(--muted)]">
@@ -208,7 +208,7 @@ export function PyqImportClient({
         </button>
         <Link
           href="/app/pyq"
-          className="rounded-full border border-black/10 bg-white/70 px-6 py-4 text-sm font-semibold text-[var(--foreground)] hover:bg-white/80"
+          className="rounded-full border border-black/10 bg-[var(--background-secondary)]/70 px-6 py-4 text-sm font-semibold text-[var(--foreground)] hover:bg-[var(--background-secondary)]/80"
         >
           Back
         </Link>

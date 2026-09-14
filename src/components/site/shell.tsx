@@ -10,7 +10,11 @@ import { SiteHeader } from "@/components/site/site-header";
 export function Shell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const isLoginRoute = pathname === "/login";
-  const isExamRoute = pathname.startsWith("/app/exams/") || pathname.startsWith("/app/pyq/run");
+  const isExamRoute =
+    pathname.startsWith("/app/exams/") ||
+    pathname.startsWith("/app/pyq/run") ||
+    pathname.startsWith("/app/design-paper/run") ||
+    pathname.startsWith("/test/");
   const isGeographyRoute = pathname.startsWith("/app/geography");
   const isAppRoute = pathname.startsWith("/app");
   const isSidebarRoute = isAppRoute && !isExamRoute && !isGeographyRoute;
@@ -19,13 +23,13 @@ export function Shell({ children }: { children: React.ReactNode }) {
     return <div className="min-h-dvh">{children}</div>;
   }
 
-  if (pathname === "/" || isSidebarRoute) {
+  if (isSidebarRoute) {
     return (
-      <div className="flex min-h-dvh bg-[#FAF7F2] flex-col lg:flex-row">
+      <div className="flex min-h-dvh flex-col bg-[var(--background)] lg:flex-row">
         <AppSidebar />
         <div className="flex-1 flex flex-col min-w-0">
           <AppTopBar />
-          <main className="flex-1">{children}</main>
+          <main className="site-main flex-1">{children}</main>
         </div>
       </div>
     );
@@ -36,9 +40,9 @@ export function Shell({ children }: { children: React.ReactNode }) {
   }
 
   return (
-    <div className="min-h-dvh">
+    <div className="min-h-dvh bg-[var(--background)]">
       {isExamRoute ? <MinimalHeader /> : <SiteHeader />}
-      <main>{children}</main>
+      <main className="site-main">{children}</main>
       {!isExamRoute ? <Footer /> : null}
     </div>
   );

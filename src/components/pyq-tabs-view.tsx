@@ -44,8 +44,8 @@ export function PyqTabsView({
                   sm:px-4 sm:text-sm sm:gap-2
                   ${
                     isActive
-                      ? "bg-white text-[var(--accent)] shadow-sm border border-[var(--border)]"
-                      : "text-[var(--muted)] hover:text-[var(--foreground)] hover:bg-white/50"
+                      ? "bg-[var(--background-secondary)] text-[var(--accent)] shadow-sm border border-[var(--border)]"
+                      : "text-[var(--muted)] hover:text-[var(--foreground)] hover:bg-[var(--background-secondary)]/50"
                   }
                 `}
               >
@@ -87,7 +87,7 @@ function YearPanel({ yearCounts }: { yearCounts: YearRow[] }) {
           <Link
             key={row.year}
             href={`/app/pyq/run?year=${row.year}&limit=100`}
-            className="group relative rounded-xl border border-[var(--border)] bg-white p-4 transition-all hover:border-[var(--accent)] hover:shadow-md"
+            className="group relative rounded-xl border border-[var(--border)] bg-[var(--background-secondary)] p-4 transition-all hover:border-[var(--accent)] hover:shadow-md"
           >
             <p className="text-xs font-medium text-[var(--muted)] group-hover:text-[var(--accent)] transition-colors">
               {row.count} questions
@@ -117,7 +117,7 @@ function SubjectPanel({ subjectCounts }: { subjectCounts: SubjectRow[] }) {
           <Link
             key={row.subject}
             href={`/app/pyq/run?subject=${encodeURIComponent(row.subject)}&limit=25`}
-            className="group relative rounded-xl border border-[var(--border)] bg-white p-4 transition-all hover:border-[var(--accent)] hover:shadow-md"
+            className="group relative rounded-xl border border-[var(--border)] bg-[var(--background-secondary)] p-4 transition-all hover:border-[var(--accent)] hover:shadow-md"
           >
             <p className="text-xs font-medium text-[var(--muted)] group-hover:text-[var(--accent)] transition-colors">
               {row.count} questions
@@ -157,7 +157,7 @@ function CustomPanel({
           <select
             name="year"
             defaultValue=""
-            className="w-full rounded-xl border border-[var(--border)] bg-white px-4 py-3 text-sm font-medium text-[var(--foreground)] outline-none focus:border-[var(--accent)] transition-colors"
+            className="w-full rounded-xl border border-[var(--border)] bg-[var(--background-secondary)] px-4 py-3 text-sm font-medium text-[var(--foreground)] outline-none focus:border-[var(--accent)] transition-colors"
           >
             <option value="">All years</option>
             {yearCounts.map((row) => (
@@ -175,7 +175,7 @@ function CustomPanel({
           <select
             name="subject"
             defaultValue=""
-            className="w-full rounded-xl border border-[var(--border)] bg-white px-4 py-3 text-sm font-medium text-[var(--foreground)] outline-none focus:border-[var(--accent)] transition-colors"
+            className="w-full rounded-xl border border-[var(--border)] bg-[var(--background-secondary)] px-4 py-3 text-sm font-medium text-[var(--foreground)] outline-none focus:border-[var(--accent)] transition-colors"
           >
             <option value="">All subjects</option>
             {subjectCounts.map((row) => (
@@ -193,7 +193,7 @@ function CustomPanel({
           <select
             name="limit"
             defaultValue="25"
-            className="w-full rounded-xl border border-[var(--border)] bg-white px-4 py-3 text-sm font-medium text-[var(--foreground)] outline-none focus:border-[var(--accent)] transition-colors"
+            className="w-full rounded-xl border border-[var(--border)] bg-[var(--background-secondary)] px-4 py-3 text-sm font-medium text-[var(--foreground)] outline-none focus:border-[var(--accent)] transition-colors"
           >
             {[10, 25, 50, 100].map((v) => (
               <option key={v} value={String(v)}>

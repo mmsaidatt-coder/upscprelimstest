@@ -226,7 +226,7 @@ export function ExamRunner({ test }: { test: ExamTest }) {
   const hasAnswer = Boolean(answers[currentQuestion.id]);
 
   return (
-    <div className="mx-auto max-w-6xl px-3 py-4 sm:px-6 sm:py-6">
+    <div className="exam-workspace mx-auto min-h-[calc(100dvh-3.5rem)] max-w-6xl px-3 py-4 sm:min-h-[calc(100dvh-4rem)] sm:px-6 sm:py-6">
       {/* ── Mobile sticky header ─────────────────────────────────── */}
       <div className="sticky top-14 z-30 -mx-3 mb-3 bg-[var(--background)]/95 backdrop-blur-md sm:hidden">
         {/* Progress bar */}
@@ -548,7 +548,7 @@ export function ExamRunner({ test }: { test: ExamTest }) {
           <button
             type="button"
             onClick={() => setShowMobilePalette(true)}
-            className="flex h-8 items-center gap-1.5 rounded-full border border-[var(--border)] bg-white px-2.5 text-[11px] font-bold text-[var(--foreground)]"
+            className="flex h-8 items-center gap-1.5 rounded-full border border-[var(--border)] bg-[var(--background-secondary)] px-2.5 text-[11px] font-bold text-[var(--foreground)]"
           >
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><rect x="3" y="3" width="7" height="7" /><rect x="14" y="3" width="7" height="7" /><rect x="3" y="14" width="7" height="7" /><rect x="14" y="14" width="7" height="7" /></svg>
             {attemptedCount}/{totalQuestions}
@@ -561,7 +561,7 @@ export function ExamRunner({ test }: { test: ExamTest }) {
             type="button"
             onClick={() => goToQuestion(Math.max(0, currentIndex - 1))}
             disabled={currentIndex === 0}
-            className="flex h-12 flex-1 items-center justify-center gap-1.5 rounded-xl border border-[var(--border)] bg-white text-sm font-semibold text-[var(--foreground)] disabled:opacity-25 active:scale-[0.97] transition-transform"
+            className="flex h-12 flex-1 items-center justify-center gap-1.5 rounded-xl border border-[var(--border)] bg-[var(--background-secondary)] text-sm font-semibold text-[var(--foreground)] disabled:opacity-25 active:scale-[0.97] transition-transform"
           >
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round"><polyline points="15 18 9 12 15 6" /></svg>
             Prev
@@ -571,7 +571,7 @@ export function ExamRunner({ test }: { test: ExamTest }) {
             <button
               type="button"
               onClick={() => goToQuestion(currentIndex + 1)}
-              className="flex h-12 flex-[2] items-center justify-center gap-1.5 rounded-xl bg-[var(--foreground)] text-sm font-bold text-white active:scale-[0.97] transition-transform"
+              className="flex h-12 flex-[2] items-center justify-center gap-1.5 rounded-xl bg-[var(--foreground)] text-sm font-bold text-[var(--background-secondary)] active:scale-[0.97] transition-transform"
             >
               Next
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round"><polyline points="9 18 15 12 9 6" /></svg>

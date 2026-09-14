@@ -1,21 +1,27 @@
 @import "tailwindcss";
 
 :root {
-  --background: #FAF7F2;
-  --background-secondary: #FFFFFF;
-  --foreground: #1A1A1A;
-  --muted: #6B7280;
-  --border: #E5E0DA;
-  --border-light: #EDE9E3;
-  --accent: #C4784A;
-  --accent-hover: #B06838;
-  --accent-soft: rgba(196, 120, 74, 0.1);
-  --accent-warm: #C4784A;
-  --danger: #ef4444;
-  --success: #10b981;
-  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.06);
-  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
-  --shadow-glow: 0 0 20px rgba(196, 120, 74, 0.15);
+  color-scheme: dark;
+  --background: #1b211c;
+  --background-secondary: #222923;
+  --background-tertiary: #283029;
+  --background-soft: #283029;
+  --foreground: #e7e2d8;
+  --muted: #a6aaa1;
+  --muted-strong: #c2c3ba;
+  --border: #394139;
+  --border-light: #2d352e;
+  --accent: #ef5c49;
+  --accent-hover: #ff725d;
+  --accent-soft: rgba(239, 92, 73, 0.12);
+  --accent-warm: #ef5c49;
+  --danger: #ff756f;
+  --success: #8ec09b;
+  --warning: #e8bd71;
+  --ink: #111512;
+  --shadow-sm: 0 1px 0 rgba(255, 255, 255, 0.025);
+  --shadow: 0 28px 70px rgba(5, 8, 6, 0.22);
+  --shadow-glow: 0 0 60px rgba(239, 92, 73, 0.09);
 }
 
 @theme inline {
@@ -27,48 +33,529 @@
   --color-danger: var(--danger);
   --color-success: var(--success);
   --font-sans: var(--font-manrope);
-  --font-serif: var(--font-fraunces);
+  --font-serif: var(--font-manrope);
   --font-mono: var(--font-jetbrains-mono);
-  --font-display: var(--font-teko);
+  --font-display: var(--font-manrope);
 }
 
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
 html {
   scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
+  background: var(--background);
 }
 
 body {
-  background: var(--background);
+  min-height: 100dvh;
+  margin: 0;
+  overflow-x: hidden;
+  background:
+    radial-gradient(circle at 82% 3%, rgba(239, 92, 73, 0.055), transparent 24rem),
+    var(--background);
   color: var(--foreground);
   font-family: var(--font-manrope), system-ui, sans-serif;
-  min-height: 100dvh;
+  font-feature-settings: "ss01" 1, "ss02" 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Mobile: safe area insets for notch/home indicator devices */
-@supports (padding: env(safe-area-inset-bottom)) {
-  .safe-bottom {
-    padding-bottom: env(safe-area-inset-bottom);
-  }
+a,
+button,
+input,
+select,
+textarea,
+summary {
+  -webkit-tap-highlight-color: transparent;
 }
 
 a,
 button {
   transition:
-    background-color 150ms ease,
-    border-color 150ms ease,
-    color 150ms ease,
-    opacity 150ms ease,
-    box-shadow 150ms ease;
-  -webkit-tap-highlight-color: transparent;
+    background-color 220ms ease,
+    border-color 220ms ease,
+    color 220ms ease,
+    opacity 220ms ease,
+    box-shadow 220ms ease,
+    transform 220ms ease;
 }
 
-/* Minimum 44px touch targets on mobile */
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+input,
+textarea,
+select {
+  color: var(--foreground);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+::selection {
+  background: var(--accent);
+  color: #fff8f2;
+}
+
+/* ── Shared editorial foundation ───────────────────────────── */
+.site-main {
+  position: relative;
+  isolation: isolate;
+}
+
+.site-main::before {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  content: "";
+  opacity: 0.018;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.8'/%3E%3C/svg%3E");
+}
+
+.page-shell {
+  width: min(100% - 2rem, 90rem);
+  margin-inline: auto;
+}
+
+.editorial-kicker,
+.label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  color: var(--muted);
+  font-family: var(--font-jetbrains-mono), monospace;
+  font-size: 0.66rem;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.editorial-kicker::before {
+  width: 0.38rem;
+  height: 0.38rem;
+  flex: 0 0 auto;
+  border-radius: 999px;
+  content: "";
+  background: var(--accent);
+}
+
+.signal-dot {
+  display: inline-block;
+  width: 0.38rem;
+  height: 0.38rem;
+  border-radius: 999px;
+  background: var(--accent);
+  box-shadow: 0 0 0 5px var(--accent-soft);
+}
+
+.display-title {
+  max-width: 13ch;
+  margin: 0;
+  color: var(--foreground);
+  font-size: clamp(3rem, 8vw, 8rem);
+  font-weight: 620;
+  line-height: 0.91;
+  letter-spacing: -0.075em;
+  text-wrap: balance;
+}
+
+.display-title em {
+  color: var(--accent);
+  font-style: normal;
+}
+
+.heading {
+  color: var(--foreground);
+  font-family: var(--font-manrope), system-ui, sans-serif;
+  font-weight: 620;
+  line-height: 1.04;
+  letter-spacing: -0.045em;
+  text-wrap: balance;
+}
+
+.body-copy {
+  color: var(--muted);
+  font-size: clamp(0.95rem, 1.4vw, 1.1rem);
+  line-height: 1.85;
+}
+
+.hairline {
+  border-color: var(--border);
+}
+
+.editorial-rule {
+  width: 100%;
+  height: 1px;
+  background: var(--border);
+}
+
+.index-number {
+  color: var(--accent);
+  font-family: var(--font-jetbrains-mono), monospace;
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+}
+
+/* ── Background fields ─────────────────────────────────────── */
+.bg-blueprint-grid,
+.bg-warm-grid {
+  background-color: var(--background);
+  background-size: 72px 72px;
+  background-image:
+    linear-gradient(to right, rgba(231, 226, 216, 0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(231, 226, 216, 0.035) 1px, transparent 1px);
+  background-position: -1px -1px;
+}
+
+.editorial-grid {
+  background-image: linear-gradient(to right, transparent calc(50% - 1px), rgba(231, 226, 216, 0.035) 50%, transparent calc(50% + 1px));
+}
+
+/* ── Surfaces ──────────────────────────────────────────────── */
+.card,
+.card-elevated,
+.panel {
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.022), transparent 72%), var(--background-secondary);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  box-shadow: var(--shadow-sm);
+}
+
+.card-elevated {
+  box-shadow: var(--shadow);
+}
+
+.mesh-card {
+  background:
+    linear-gradient(145deg, rgba(239, 92, 73, 0.06), transparent 46%),
+    linear-gradient(320deg, rgba(231, 226, 216, 0.025), transparent 55%),
+    var(--background-secondary);
+  border: 1px solid var(--border);
+}
+
+/* The runner intentionally switches to a warm paper palette for long reading. */
+.exam-workspace {
+  --background: #e8e3d9;
+  --background-secondary: #f4f0e7;
+  --background-tertiary: #ded8cd;
+  --background-soft: #ded8cd;
+  --foreground: #182019;
+  --muted: #646a62;
+  --muted-strong: #454c46;
+  --border: #c8c1b5;
+  --border-light: #d7d1c6;
+  --accent: #c2382e;
+  --accent-hover: #a92f28;
+  --accent-soft: rgba(194, 56, 46, 0.1);
+  --ink: #ffffff;
+  color-scheme: light;
+  background: var(--background);
+  color: var(--foreground);
+}
+
+.exam-workspace .card,
+.exam-workspace .panel {
+  background: var(--background-secondary);
+  box-shadow: none;
+}
+
+.exam-workspace .action-primary {
+  color: #fff;
+}
+
+.reading-paper {
+  --background: #e8e3d9;
+  --background-secondary: #f5f1e8;
+  --background-tertiary: #ded8cd;
+  --foreground: #182019;
+  --muted: #626860;
+  --muted-strong: #454c46;
+  --border: #c8c1b5;
+  --border-light: #d7d1c6;
+  --accent: #c2382e;
+  --accent-hover: #a92f28;
+  --accent-soft: rgba(194, 56, 46, 0.1);
+  --ink: #ffffff;
+  color-scheme: light;
+  color: var(--foreground);
+}
+
+/* Immersive atlas chrome with paper-based study panels. */
+.geography-workspace {
+  --geo-chrome: #171d18;
+  --geo-chrome-raised: #222a23;
+  --geo-line: #394239;
+  --geo-paper: #f2ede3;
+  --geo-paper-raised: #f8f4eb;
+  --geo-paper-line: #c8c1b5;
+  --geo-ink: #182019;
+  --geo-muted: #646a62;
+  --geo-accent: #ef5c49;
+  color-scheme: light;
+}
+
+.geography-workspace button:focus-visible,
+.geography-workspace a:focus-visible,
+.geography-workspace input:focus-visible,
+.geography-workspace select:focus-visible {
+  outline: 3px solid #ef5c49;
+  outline-offset: 2px;
+}
+
+.geography-workspace .maplibregl-map {
+  background: #d8d2c7;
+}
+
+.geography-workspace .maplibregl-ctrl-group {
+  overflow: hidden;
+  border: 1px solid var(--geo-line);
+  border-radius: 0;
+  background: rgba(23, 29, 24, 0.94);
+  box-shadow: 0 12px 35px rgba(7, 10, 8, 0.2);
+}
+
+.geography-workspace .maplibregl-ctrl-group button {
+  width: 42px;
+  height: 42px;
+  border-color: var(--geo-line);
+}
+
+.geography-workspace .maplibregl-ctrl-group button + button {
+  border-top: 1px solid var(--geo-line);
+}
+
+.geography-workspace .maplibregl-ctrl-icon {
+  filter: invert(92%) sepia(6%) saturate(201%) hue-rotate(355deg) brightness(98%);
+}
+
+.geography-workspace .maplibregl-ctrl-attrib {
+  max-width: min(76vw, 40rem);
+  border: 1px solid rgba(57, 66, 57, 0.65);
+  border-radius: 0;
+  background: rgba(23, 29, 24, 0.9);
+  color: #a6aaa1;
+  font-size: 9px;
+  line-height: 1.35;
+  backdrop-filter: blur(12px);
+}
+
+.geography-workspace .maplibregl-ctrl-attrib a {
+  color: #eee9df;
+}
+
+.geography-workspace .maplibregl-popup-content {
+  border: 1px solid var(--geo-line);
+  border-radius: 0;
+  background: rgba(23, 29, 24, 0.96);
+  color: #eee9df;
+  box-shadow: 0 18px 50px rgba(7, 10, 8, 0.24);
+}
+
+@media (max-width: 640px) {
+  .geography-workspace .maplibregl-ctrl-bottom-right {
+    bottom: calc(4.5rem + env(safe-area-inset-bottom)) !important;
+  }
+
+  .geography-workspace .maplibregl-ctrl-attrib {
+    max-width: 13rem;
+    padding: 2px 5px;
+    font-size: 7px;
+  }
+}
+
+.card-interactive {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-interactive::after {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  content: "";
+  background: var(--accent);
+  transition: width 320ms ease;
+}
+
+.card-interactive:hover {
+  border-color: color-mix(in srgb, var(--accent) 45%, var(--border));
+  transform: translateY(-2px);
+}
+
+.card-interactive:hover::after {
+  width: 100%;
+}
+
+.badge,
+.badge-accent {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  min-height: 1.65rem;
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  padding: 0.28rem 0.58rem;
+  color: var(--muted);
+  background: transparent;
+  font-family: var(--font-jetbrains-mono), monospace;
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.badge-accent {
+  border-color: color-mix(in srgb, var(--accent) 45%, transparent);
+  color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.action-primary,
+.action-secondary {
+  display: inline-flex;
+  min-height: 3.25rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  border: 1px solid var(--accent);
+  border-radius: 2px;
+  padding: 0.85rem 1.25rem;
+  font-family: var(--font-jetbrains-mono), monospace;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.action-primary {
+  background: var(--accent);
+  color: var(--ink);
+}
+
+/* Filled accent controls use dark ink on the bright editorial red. */
+.bg-\[var\(--accent\)\].text-white {
+  color: var(--ink);
+}
+
+.hover\:bg-\[var\(--accent\)\].hover\:text-white:hover {
+  color: var(--ink);
+}
+
+.action-primary:hover {
+  border-color: var(--accent-hover);
+  background: var(--accent-hover);
+  transform: translateY(-2px);
+}
+
+.action-secondary {
+  border-color: var(--border);
+  background: transparent;
+  color: var(--foreground);
+}
+
+.action-secondary:hover {
+  border-color: var(--foreground);
+  background: rgba(231, 226, 216, 0.04);
+  transform: translateY(-2px);
+}
+
+/* ── MapLibre overrides ────────────────────────────────────── */
+.geo-tooltip .maplibregl-popup-content {
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  padding: 7px 11px;
+  background: rgba(27, 33, 28, 0.94);
+  color: var(--foreground);
+  font-family: var(--font-manrope), system-ui, sans-serif;
+  font-size: 12px;
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(14px);
+}
+
+.geo-tooltip .maplibregl-popup-tip {
+  border-top-color: rgba(27, 33, 28, 0.94);
+}
+
+.maplibregl-ctrl-group {
+  overflow: hidden;
+  border: 1px solid var(--border) !important;
+  border-radius: 3px !important;
+  box-shadow: var(--shadow-sm) !important;
+  backdrop-filter: blur(12px);
+}
+
+.maplibregl-ctrl-group button {
+  width: 34px !important;
+  height: 34px !important;
+}
+
+/* ── Motion ────────────────────────────────────────────────── */
+.fade-up {
+  animation: fade-up 720ms cubic-bezier(0.2, 0.75, 0.25, 1) both;
+}
+
+.reveal-line {
+  animation: reveal-line 900ms cubic-bezier(0.2, 0.75, 0.25, 1) both;
+  transform-origin: left;
+}
+
+.float-slow {
+  animation: float-slow 7s ease-in-out infinite;
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes reveal-line {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+/* ── Responsive ergonomics ─────────────────────────────────── */
+@supports (padding: env(safe-area-inset-bottom)) {
+  .safe-bottom { padding-bottom: env(safe-area-inset-bottom); }
+}
+
+.scroll-touch {
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+
 @media (pointer: coarse) {
   button,
   a,
@@ -77,138 +564,32 @@ button {
     min-height: 44px;
   }
 
-  input, textarea, select {
-    font-size: 16px; /* prevents iOS zoom on focus */
+  input,
+  textarea,
+  select {
+    font-size: 16px;
   }
 }
 
-/* Smooth scrolling containers for mobile */
-.scroll-touch {
-  -webkit-overflow-scrolling: touch;
-  overflow-y: auto;
-}
+@media (max-width: 640px) {
+  .page-shell { width: min(100% - 1.5rem, 90rem); }
 
-/* Hide scrollbar on horizontal tab bars */
-.scrollbar-hide {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-.scrollbar-hide::-webkit-scrollbar {
-  display: none;
-}
-
-::selection {
-  background: rgba(196, 120, 74, 0.2);
-  color: #C4784A;
-}
-
-/* ── Subtle Grid Background ────────────────────────────────── */
-.bg-blueprint-grid,
-.bg-warm-grid {
-  background-size: 48px 48px;
-  background-image:
-    linear-gradient(to right, rgba(0, 0, 0, 0.035) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(0, 0, 0, 0.035) 1px, transparent 1px);
-}
-
-/* ── Card ───────────────────────────────────────────────────── */
-.card {
-  background: var(--background-secondary);
-  border: 1px solid var(--border);
-  border-radius: 16px;
-  box-shadow: var(--shadow-sm);
-}
-
-.card-elevated {
-  background: var(--background);
-  border: 1px solid var(--border);
-  border-radius: 16px;
-  box-shadow: var(--shadow);
-}
-
-/* ── Subtle highlight panel ─────────────────────────────────── */
-.panel {
-  background: var(--background-secondary);
-  border-radius: 12px;
-}
-
-/* ── Typography ─────────────────────────────────────────────── */
-.heading {
-  font-family: var(--font-fraunces), Georgia, serif;
-  font-weight: 700;
-  letter-spacing: -0.01em;
-  color: var(--foreground);
-}
-
-.label {
-  font-size: 0.75rem;
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: var(--muted);
-}
-
-/* ── Badge ──────────────────────────────────────────────────── */
-.badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.375rem;
-  border-radius: 9999px;
-  padding: 0.25rem 0.625rem;
-  font-size: 0.75rem;
-  font-weight: 600;
-  color: var(--muted);
-  background: var(--background-secondary);
-  border: 1px solid var(--border);
-}
-
-.badge-accent {
-  background: var(--accent-soft);
-  color: var(--accent);
-  border-color: transparent;
-}
-
-/* ── MapLibre tooltip overrides ─────────────────────────────── */
-.geo-tooltip .maplibregl-popup-content {
-  background: rgba(255, 255, 255, 0.92);
-  backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.6);
-  border-radius: 10px;
-  padding: 6px 10px;
-  font-family: var(--font-manrope), system-ui, sans-serif;
-  font-size: 12px;
-  color: #1A1A1A;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-}
-.geo-tooltip .maplibregl-popup-tip {
-  border-top-color: rgba(255, 255, 255, 0.92);
-}
-
-/* ── MapLibre navigation controls ──────────────────────────── */
-.maplibregl-ctrl-group {
-  border-radius: 10px !important;
-  overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, 0.6) !important;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06) !important;
-  backdrop-filter: blur(12px);
-}
-.maplibregl-ctrl-group button {
-  width: 32px !important;
-  height: 32px !important;
-}
-
-/* ── Fade-up animation ──────────────────────────────────────── */
-.fade-up {
-  animation: fade-up 400ms ease both;
-}
-
-@keyframes fade-up {
-  from {
-    opacity: 0;
-    transform: translateY(8px);
+  .editorial-grid {
+    background-image: linear-gradient(to right, transparent calc(50% - 1px), rgba(231, 226, 216, 0.045) 50%, transparent calc(50% + 1px));
   }
-  to {
-    opacity: 1;
-    transform: translateY(0);
+
+  .maplibregl-ctrl-bottom-right,
+  .maplibregl-ctrl-bottom-left {
+    bottom: calc(4rem + env(safe-area-inset-bottom)) !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
   }
 }

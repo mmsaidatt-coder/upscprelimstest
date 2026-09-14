@@ -1,20 +1,22 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { PyqTabs } from "@/components/pyq/pyq-tabs";
-import { FaqJsonLd, CourseJsonLd } from "@/components/seo/json-ld";
+import { FaqJsonLd } from "@/components/seo/json-ld";
+import { FaqSection } from "@/components/seo/faq-section";
+import { PYQ_YEARS, SUBJECT_SLUGS } from "@/lib/seo/pyq-seo";
 
 export const metadata: Metadata = {
   title:
-    "UPSC Previous Year Questions (PYQ) 2014–2025 — Free Practice | upscprelimstest.com",
+    "UPSC PYQ 2014–2026 — Solved Papers & Official 2026 PDFs",
   description:
-    "Practice 1,200+ UPSC Prelims previous year questions from 2014 to 2025. Drill by year or subject — Polity, History, Economy, Geography, Environment, Science & Current Affairs. Free, timed, exam-like sessions.",
+    "Practice 1,199 solved UPSC Prelims questions from 2014–2025, or download the official 2026 GS Paper I and CSAT PDFs. Free year- and subject-wise PYQs.",
   alternates: {
     canonical: "https://upscprelimstest.com/pyq",
   },
   openGraph: {
-    title: "UPSC Previous Year Questions (PYQ) 2014–2025 — Free Practice",
+    title: "UPSC PYQ 2014–2026 — Solved Papers & Official 2026 PDFs",
     description:
-      "Practice 1,200+ UPSC Prelims PYQs from the last 12 years. Choose by year or subject. Timed sessions with analytics.",
+      "Practice 1,199 solved PYQs from 2014–2025 and access UPSC-hosted 2026 GS Paper I and CSAT PDFs.",
     url: "https://upscprelimstest.com/pyq",
   },
 };
@@ -23,7 +25,7 @@ const PYQ_FAQS = [
   {
     question: "How many UPSC Prelims previous year questions are available?",
     answer:
-      "We have over 1,200 previous year questions spanning from 2014 to 2025, covering all subjects — Polity, History, Economy, Geography, Environment, Science & Technology, and Current Affairs.",
+      "The solved bank has 1,199 General Studies Paper I questions from 2014 to 2025. The 2026 page currently links to the official UPSC-hosted GS Paper I and CSAT PDFs while independent answer review is pending.",
   },
   {
     question: "Can I practice UPSC PYQs subject-wise?",
@@ -38,17 +40,22 @@ const PYQ_FAQS = [
   {
     question: "Is the UPSC PYQ practice platform free?",
     answer:
-      "Completely free. No paywall, no trial period. Full access to all 1,200+ questions, analytics, and features — always.",
+      "Yes. The 1,199 solved questions, paper links, practice sessions, and core analytics are available without a paywall.",
   },
 ];
 
-export default function PyqPage() {
+export default async function PyqPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ q?: string }>;
+}) {
+  const { q } = await searchParams;
+
   return (
     <div className="bg-blueprint-grid min-h-[calc(100vh-4rem)]">
       <FaqJsonLd faqs={PYQ_FAQS} />
-      <CourseJsonLd />
       <div className="mx-auto max-w-6xl px-4 sm:px-6 py-10 sm:py-20 md:py-28 fade-up">
-        <PyqTabs />
+        <PyqTabs initialQuery={q?.slice(0, 120) ?? ""} />
       </div>
 
       {/* SEO-visible content for crawlers — years and subjects listed as text */}
@@ -57,15 +64,15 @@ export default function PyqPage() {
           UPSC PRELIMS PYQ YEARS
         </h2>
         <p className="text-sm text-[var(--muted)] mb-4 max-w-2xl">
-          Practice original UPSC Civil Services Preliminary Examination
-          questions from the following years. Each year&apos;s paper contains
-          100 questions with 2-hour time limit and ⅓ negative marking.
+          Browse solved General Studies Paper I questions from 2014–2025, plus
+          official UPSC-hosted Paper I and Paper II PDFs for 2026 while our
+          independent answer review is pending.
         </p>
         <div className="flex flex-wrap gap-2 mb-12">
-          {Array.from({ length: 12 }, (_, i) => 2025 - i).map((year) => (
+          {PYQ_YEARS.map((year) => (
             <Link
               key={year}
-              href={`/app/pyq/run?year=${year}&limit=100`}
+              href={`/pyq/${year}`}
               className="rounded-full border border-[var(--border)] bg-[var(--background-secondary)] px-4 py-2 text-sm font-medium text-[var(--foreground)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition-colors"
             >
               UPSC {year}
@@ -93,13 +100,18 @@ export default function PyqPage() {
           ].map((subject) => (
             <Link
               key={subject}
-              href={`/app/pyq/run?subject=${encodeURIComponent(subject)}&limit=50`}
+              href={`/pyq/subject/${
+                SUBJECT_SLUGS[
+                  (subject === "Science & Tech" ? "Science" : subject) as keyof typeof SUBJECT_SLUGS
+                ]
+              }`}
               className="rounded-full border border-[var(--border)] bg-[var(--background-secondary)] px-4 py-2 text-sm font-medium text-[var(--foreground)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition-colors"
             >
               {subject}
             </Link>
           ))}
         </div>
+        <FaqSection title="UPSC PYQ practice questions" faqs={PYQ_FAQS} />
       </section>
     </div>
   );
