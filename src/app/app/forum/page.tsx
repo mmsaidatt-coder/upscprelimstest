@@ -44,7 +44,7 @@ export default async function ForumPage({
 
       {q ? (
         <div>
-          <h2 className="text-xl font-bold mb-4">Search Results for "{q}"</h2>
+          <h2 className="text-xl font-bold mb-4">Search Results for &quot;{q}&quot;</h2>
           {matchingCommunities.length > 0 ? (
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {matchingCommunities.map((c) => (
@@ -59,7 +59,7 @@ export default async function ForumPage({
               ))}
             </div>
           ) : (
-            <p className="text-muted py-8 text-center bg-white/50 rounded-2xl">No communities found. Why not create one?</p>
+            <p className="text-muted py-8 text-center bg-[var(--background-secondary)]/50 rounded-2xl">No communities found. Why not create one?</p>
           )}
         </div>
       ) : (
@@ -74,7 +74,7 @@ export default async function ForumPage({
                 ))}
               </div>
             ) : (
-              <p className="text-muted py-16 text-center bg-white/60 rounded-2xl card border border-dashed border-border/70 text-[15px] font-medium shadow-sm">
+              <p className="text-muted py-16 text-center bg-[var(--background-secondary)]/60 rounded-2xl card border border-dashed border-border/70 text-[15px] font-medium shadow-sm">
                 No posts yet. Be the first to start a discussion!
               </p>
             )}
@@ -82,7 +82,7 @@ export default async function ForumPage({
 
           {/* Sidebar */}
           <div className="lg:w-[340px] shrink-0 space-y-6">
-            <div className="panel border border-border bg-white/80 p-6 shadow-sm rounded-2xl">
+            <div className="panel border border-border bg-[var(--background-secondary)]/80 p-6 shadow-sm rounded-2xl">
               <h3 className="font-bold text-[17px] mb-5 text-foreground">Explore Communities</h3>
               {popularCommunities.length > 0 ? (
                 <div className="space-y-3">

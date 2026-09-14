@@ -76,7 +76,7 @@ export default function SubmitPostPage({ params }: { params: Promise<{ slug: str
               required
               maxLength={300}
               placeholder="An interesting title"
-              className="w-full bg-white px-4 py-3 rounded-xl border border-border focus:border-accent focus:ring-1 focus:ring-accent outline-none transition-all font-medium"
+              className="w-full bg-[var(--background-secondary)] px-4 py-3 rounded-xl border border-border focus:border-accent focus:ring-1 focus:ring-accent outline-none transition-all font-medium"
             />
           </div>
 
@@ -90,7 +90,7 @@ export default function SubmitPostPage({ params }: { params: Promise<{ slug: str
               required
               rows={8}
               placeholder="What are your thoughts?"
-              className="w-full bg-white px-4 py-3 rounded-xl border border-border focus:border-accent focus:ring-1 focus:ring-accent outline-none transition-all resize-y"
+              className="w-full bg-[var(--background-secondary)] px-4 py-3 rounded-xl border border-border focus:border-accent focus:ring-1 focus:ring-accent outline-none transition-all resize-y"
             />
           </div>
 

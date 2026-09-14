@@ -54,7 +54,7 @@ export default function CreateCommunityPage() {
               name="name"
               required
               placeholder="e.g., General GS Discussions"
-              className="w-full bg-white px-4 py-3 rounded-xl border border-border focus:border-accent focus:ring-1 focus:ring-accent outline-none transition-all"
+              className="w-full bg-[var(--background-secondary)] px-4 py-3 rounded-xl border border-border focus:border-accent focus:ring-1 focus:ring-accent outline-none transition-all"
             />
           </div>
 
@@ -72,7 +72,7 @@ export default function CreateCommunityPage() {
                 required
                 pattern="^[a-z0-9-]+$"
                 placeholder="gs-general"
-                className="flex-1 bg-white px-4 py-3 rounded-xl border border-border focus:border-accent focus:ring-1 focus:ring-accent outline-none transition-all"
+                className="flex-1 bg-[var(--background-secondary)] px-4 py-3 rounded-xl border border-border focus:border-accent focus:ring-1 focus:ring-accent outline-none transition-all"
               />
             </div>
           </div>
@@ -88,7 +88,7 @@ export default function CreateCommunityPage() {
               required
               rows={4}
               placeholder="A place to discuss General Studies paper."
-              className="w-full bg-white px-4 py-3 rounded-xl border border-border focus:border-accent focus:ring-1 focus:ring-accent outline-none transition-all resize-none"
+              className="w-full bg-[var(--background-secondary)] px-4 py-3 rounded-xl border border-border focus:border-accent focus:ring-1 focus:ring-accent outline-none transition-all resize-none"
             />
           </div>
 

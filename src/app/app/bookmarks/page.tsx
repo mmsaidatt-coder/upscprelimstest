@@ -115,7 +115,7 @@ export default function BookmarksPage() {
                 placeholder="Search bookmarks..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full rounded-xl border border-[var(--border)] bg-white py-2.5 pl-10 pr-9 text-sm font-medium text-[var(--foreground)] placeholder-[var(--muted)] focus:outline-none focus:border-[var(--accent)] transition-colors"
+                className="w-full rounded-xl border border-[var(--border)] bg-[var(--background-secondary)] py-2.5 pl-10 pr-9 text-sm font-medium text-[var(--foreground)] placeholder-[var(--muted)] focus:outline-none focus:border-[var(--accent)] transition-colors"
               />
               {searchQuery && (
                 <button

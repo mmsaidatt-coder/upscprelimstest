@@ -63,7 +63,7 @@ export function UsernameBanner() {
           onChange={(e) => setValue(e.target.value)}
           placeholder="e.g. aspirant_2026"
           maxLength={30}
-          className="rounded-xl border border-border bg-white px-4 py-2.5 text-sm font-medium focus:border-accent focus:outline-none focus:ring-1 focus:ring-accent"
+          className="rounded-xl border border-border bg-[var(--background-secondary)] px-4 py-2.5 text-sm font-medium focus:border-accent focus:outline-none focus:ring-1 focus:ring-accent"
         />
         <button
           type="submit"

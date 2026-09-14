@@ -27,7 +27,7 @@ export function GlobalSearch() {
         type="text"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
-        className="w-full text-base py-4 pl-12 pr-4 bg-white/50 backdrop-blur-md border border-border/80 rounded-2xl shadow-sm outline-none focus:bg-white focus:ring-2 focus:ring-accent/20 focus:border-accent transition-all"
+        className="w-full text-base py-4 pl-12 pr-4 bg-[var(--background-secondary)]/50 backdrop-blur-md border border-border/80 rounded-2xl shadow-sm outline-none focus:bg-[var(--background-secondary)] focus:ring-2 focus:ring-accent/20 focus:border-accent transition-all"
         placeholder="Search communities, topics, or posts..."
       />
       <button 

@@ -1,8 +1,7 @@
 "use client"
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { MessageSquarePlus, Lightbulb, Bug, ChevronUp, Loader2 } from "lucide-react";
-import { createClient } from "@/lib/supabase/client";
 
 type Feedback = {
   id: string;
@@ -27,14 +26,7 @@ export default function FeedbackPage() {
   const [submitting, setSubmitting] = useState(false);
   const [authError, setAuthError] = useState("");
 
-  const supabase = createClient();
-
-  useEffect(() => {
-    fetchFeedbacks();
-  }, []);
-
-  const fetchFeedbacks = async () => {
-    setLoading(true);
+  const fetchFeedbacks = useCallback(async () => {
     try {
       const res = await fetch("/api/feedback?sort=top");
       const json = await res.json();
@@ -45,7 +37,13 @@ export default function FeedbackPage() {
       console.error(e);
     }
     setLoading(false);
-  };
+  }, []);
+
+  useEffect(() => {
+    // Initial client fetch synchronizes the page with the feedback API.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    fetchFeedbacks();
+  }, [fetchFeedbacks]);
 
   const handleVote = async (id: string, currentUpvotes: number) => {
     // Optimistic UI update
@@ -136,7 +134,7 @@ export default function FeedbackPage() {
 
         {/* Form Modal/Inline */}
         {showForm && (
-          <div className="mb-10 rounded-2xl border border-border bg-white p-6 shadow-sm sm:p-8">
+          <div className="mb-10 rounded-2xl border border-border bg-[var(--background-secondary)] p-6 shadow-sm sm:p-8">
             <h2 className="mb-6 font-serif text-2xl font-bold text-foreground">Submit Feedback</h2>
             
             <form onSubmit={handleSubmit} className="flex flex-col gap-5">
@@ -235,7 +233,7 @@ export default function FeedbackPage() {
             </div>
           ) : (
             filteredFeedbacks.map((f) => (
-              <div key={f.id} className="group flex gap-4 rounded-2xl border border-border bg-white p-5 shadow-sm transition-shadow hover:shadow-md">
+              <div key={f.id} className="group flex gap-4 rounded-2xl border border-border bg-[var(--background-secondary)] p-5 shadow-sm transition-shadow hover:shadow-md">
                 
                 {/* Upvote Column */}
                 <div className="flex flex-col items-center">

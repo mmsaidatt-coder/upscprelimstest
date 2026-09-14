@@ -21,7 +21,7 @@ export default async function CommunityPage({ params }: { params: Promise<{ slug
 
   return (
     <div className="space-y-8 fade-up">
-      <div className="panel border border-border bg-white/80 p-6 sm:p-8 rounded-2xl shadow-sm text-center sm:text-left">
+      <div className="panel border border-border bg-[var(--background-secondary)]/80 p-6 sm:p-8 rounded-2xl shadow-sm text-center sm:text-left">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-6">
           <div>
             <h1 className="heading text-3xl sm:text-4xl font-bold mb-2 text-foreground">{community.name}</h1>
@@ -48,8 +48,8 @@ export default async function CommunityPage({ params }: { params: Promise<{ slug
             ))}
           </div>
         ) : (
-          <div className="text-center py-20 px-4 bg-white/60 rounded-2xl border border-dashed border-border/70 shadow-sm flex flex-col items-center">
-            <h3 className="text-2xl font-bold mb-3 text-foreground">It's quiet in here...</h3>
+          <div className="text-center py-20 px-4 bg-[var(--background-secondary)]/60 rounded-2xl border border-dashed border-border/70 shadow-sm flex flex-col items-center">
+            <h3 className="text-2xl font-bold mb-3 text-foreground">It&apos;s quiet in here...</h3>
             <p className="text-muted text-[16px] max-w-sm mb-8">Be the first to create a post in {community.name}!</p>
             <Link
               href={`/app/forum/c/${community.slug}/submit`}

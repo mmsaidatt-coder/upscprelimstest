@@ -44,7 +44,7 @@ export function CommentForm({ postId, slug }: { postId: string; slug: string }) 
         value={content}
         onChange={(e) => setContent(e.target.value)}
         placeholder="What are your thoughts?"
-        className="w-full bg-white px-4 py-3 rounded-xl border border-border focus:border-accent focus:ring-1 focus:ring-accent outline-none transition-all resize-y mb-3"
+        className="w-full bg-[var(--background-secondary)] px-4 py-3 rounded-xl border border-border focus:border-accent focus:ring-1 focus:ring-accent outline-none transition-all resize-y mb-3"
       />
       <div className="flex justify-end">
         <button
