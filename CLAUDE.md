@@ -10,7 +10,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - **Import PYQs:** `npm run import-pyq` (runs `tsx scripts/import-pyq-csv.ts`)
 - **Generate current affairs:** `npm run generate-current-affairs` (runs `tsx scripts/generate-current-affairs-bank.ts`)
 - **Run any script:** `npx tsx scripts/<name>.ts` (scripts are excluded from tsconfig)
-- **Deploy:** `vercel deploy --prod`
+- **Deploy:** `vercel deploy --prod` — the Vercel project is **not** connected to GitHub. Production ships from the local working directory, so pushing to `main` deploys nothing; run this from the repo root after pushing.
 
 No test framework is configured. Node.js >= 20 required.
 
@@ -22,7 +22,7 @@ No test framework is configured. Node.js >= 20 required.
 - Recharts v3 for data visualizations on marketing/analysis pages
 - `@modelcontextprotocol/sdk` — MCP server for AI agent interoperability
 - `zod` v4 — Schema validation (used by MCP tools)
-- Fonts: Manrope (sans), Fraunces (serif), JetBrains Mono (mono), Teko (display headings) via `next/font/google`
+- Fonts: Manrope (all text and headings), JetBrains Mono (numerals, timers, badges) via `next/font/google`
 - Path alias: `@/*` maps to `./src/*`
 
 ### TypeScript Strictness
@@ -80,10 +80,25 @@ Schema defined in `supabase/migrations/` (001: initial schema, 002: PYQ metadata
 ### Routing
 
 **Marketing pages** (public, server components):
-- `/`, `/platform`, `/flt`, `/subject-wise`, `/analytics`, `/pyq`
+- `/`, `/platform`, `/flt`, `/subject-wise`, `/analytics`, `/pyq`, `/current-affairs`, `/about`, `/methodology`, `/feedback`, `/design-paper`
+- `/free-upsc-prelims-mock-test` — Primary paid-intent SEO landing page
+- `/analytics/[subject]` — Per-subject analytics view
 - `/pyq/analyse` — Year-wise PYQ analysis dashboard (Recharts, mock data)
 - `/pyq/subject-analyse` — Subject-wise topic breakdown (Recharts, mock data + live API)
 - `/pyq/sectional` — Sectional PYQ analysis
+- `/question/[id]` — Indexable single-question page
+- `/test/[slug]` — Public test landing page
+
+**Programmatic SEO hubs** (server components, one page per real data slice; every URL appears in the sitemap):
+- `/pyq/[year]` — All questions from one exam year
+- `/pyq/[year]/[subject]` — Year × subject slice
+- `/pyq/[year]/analysis` — Paper breakdown for that year
+- `/pyq/subject/[subject]` — Subject hub across all years
+- `/pyq/topic/[subject]/[topic]` — Canonical topic page (gated by `isIndexableCanonicalTopic`)
+
+Client pages that cannot export `metadata` get it from a sibling `layout.tsx`
+(`analytics/[subject]`, `pyq/analyse`, `pyq/sectional`, `pyq/subject-analyse`,
+`design-paper`, `feedback`, `login`, `app`).
 
 **Auth routes:**
 - `/login`, `/auth/callback`
@@ -93,20 +108,27 @@ Schema defined in `supabase/migrations/` (001: initial schema, 002: PYQ metadata
 - `/app/exams/[slug]` — Timed exam from static data (`src/data/tests.ts`)
 - `/app/attempts/[attemptId]` — Post-exam results with charts and review
 - `/app/notebook` — Saved takeaways with subject filter
+- `/app/bookmarks` — Saved questions
 - `/app/pyq` — PYQ library with tabbed UI (Year Wise, Subject Wise, Custom Session, Search Bank)
 - `/app/pyq/import` — Image upload form for PYQ extraction via Gemini
 - `/app/pyq/run?year=&subject=&limit=` — Timed PYQ session (`force-dynamic`)
 - `/app/pyq/sectional` — Sectional/topic-wise drills
+- `/app/geography` — Geography Lab: interactive India map (MapLibre) with layer and measurement tools
+- `/app/forum`, `/app/forum/create`, `/app/forum/c/[slug]`, `/app/forum/c/[slug]/[postId]`, `/app/forum/c/[slug]/submit` — Community forum
+- `/app/design-paper`, `/app/design-paper/run` — Custom paper builder and its runner
+- `/app/analytics`, `/app/analytics/[subject]`, `/app/flt`, `/app/subject-wise`, `/app/current-affairs` — In-app mirrors of the marketing surfaces
 - `/app/settings` — User profile and account settings
 
 **API routes** (`src/app/api/`):
 - `account` (GET) — Fetch current authenticated user's display name and email
 - `attempts` (GET/POST) — Fetch user's attempt history / save a new attempt to Supabase
+- `bookmarks` (GET/POST/DELETE) — User's saved questions
+- `feedback` (GET/POST) + `feedback/[id]/vote` (POST) — Feedback board and upvotes
 - `pyq/import` (POST) — Authenticated Image→question extraction via Gemini, upserts to Supabase
 - `pyq/database` (GET) — Fetch PYQ database with optional pagination (`?page=&limit=`)
 - `subject-blueprint` (GET) — Topic→year question count matrix for a subject
 - `topic-questions` (GET) — Questions for a specific topic (3-tier lookup: enriched→keywords→text search)
-- `subject-insights` (POST) — AI-generated subject analysis via Gemini
+- `subject-insights` (POST) — AI-generated subject analysis via Gemini. Currently broken and deliberately **not** advertised in `llms.txt`, `agent.json`, or `openapi.json` — leave it undocumented until it is fixed
 - `openapi.json` (GET) — OpenAPI 3.1 specification for all public APIs
 - `mcp` (GET/POST/DELETE) — Model Context Protocol server endpoint
 
@@ -133,6 +155,12 @@ Schema defined in `supabase/migrations/` (001: initial schema, 002: PYQ metadata
 4. `buildAttemptRecord()` computes scores, subject metrics, grading status, readiness band
 5. `saveAttempt()` writes to localStorage (and syncs to Supabase for authenticated users)
 6. Redirects to `/app/attempts/[attemptId]` for results + review
+
+The runner root carries `.exam-workspace`, which flips the token set to the light
+paper palette (see Design System). Everything inside it reads `var(--background)`
+/ `var(--foreground)` as usual, so components need no dark/light branching —
+but any hard-coded Tailwind color inside the runner will fight the paper theme.
+(There is one such leak today: the Mark button's `bg-violet-100 text-violet-700`.)
 
 **Mobile exam UX (dedicated design):**
 - Sticky progress bar + info row below MinimalHeader (`top-14`)
@@ -248,14 +276,55 @@ UI/UX changes, styling, layout, new marketing pages, auth flow changes — **non
 
 ## Design System
 
-- Warm earthy light theme via CSS custom properties in `globals.css`
-- Key colors: `--background: #FAF7F2` (warm cream), `--foreground: #1A1A1A`, `--accent: #C4784A` (terracotta), `--border: #E5E0DA`, `--muted: #6B7280`, `--danger: #ef4444`, `--success: #10b981`
-- Utility classes: `.card`, `.card-elevated`, `.panel`, `.heading`, `.label`, `.badge`, `.badge-accent`, `.fade-up`, `.bg-blueprint-grid`, `.bg-warm-grid`
-- `.heading` uses Teko font, uppercase, 700 weight, letter-spacing
-- Large border-radius (`rounded-2xl`, `rounded-3xl`, `rounded-[2rem]`) for premium feel
+Two coordinated palettes, both defined as CSS custom properties in `globals.css`.
+The site chrome is dark; the surfaces people *read* on are light paper. Changing
+one without the other is the most common way to break the look.
+
+**Dark chrome (`:root`, `color-scheme: dark`)** — every marketing page, the app
+shell, sidebar, dashboards and forum:
+- `--background: #1b211c` (deep green-black), `--background-secondary: #222923`, `--background-tertiary`/`--background-soft: #283029`
+- `--foreground: #e7e2d8`, `--muted: #a6aaa1`, `--muted-strong: #c2c3ba`
+- `--border: #394139`, `--border-light: #2d352e`
+- `--accent: #ef5c49` (coral red), `--accent-hover: #ff725d`, `--accent-soft: rgba(239,92,73,0.12)`
+- `--danger: #ff756f`, `--success: #8ec09b`, `--warning: #e8bd71`, `--ink: #111512`
+- `--shadow-sm`, `--shadow` (0 28px 70px), `--shadow-glow`
+
+**Light paper (`.exam-workspace`, `.reading-paper`, `color-scheme: light`)** —
+the exam runner and long-form reading surfaces re-declare the same token names
+so child components need no changes:
+- `--background: #e8e3d9`, `--background-secondary: #f4f0e7`/`#f5f1e8`, `--background-tertiary: #ded8cd`
+- `--foreground: #182019`, `--muted: #646a62`, `--border: #c8c1b5`
+- `--accent: #c2382e` (deeper red — the coral does not carry on paper), `--ink: #ffffff`
+
+`.geography-workspace` runs both at once via its own `--geo-*` scale: dark chrome
+(`--geo-chrome: #171d18`) around a light map (`--geo-paper: #f2ede3`).
+
+**Typography** — two fonts only, both via `next/font/google`: **Manrope** for all
+text and headings, **JetBrains Mono** for numerals, timers, scores, and badges.
+(Teko and Fraunces were removed in the design refresh.)
+- `.heading` — Manrope 620, `line-height: 1.04`, `letter-spacing: -0.045em`, `text-wrap: balance`. Not uppercase.
+- `.display-title` — `clamp(3rem, 8vw, 8rem)`, weight 620, `line-height: 0.91`, `letter-spacing: -0.075em`, `max-width: 13ch`
+
+**Shape** — sharp, not soft. `.card`, `.card-elevated`, `.panel` use a **3px**
+radius with a 1px `--border` hairline and a faint 145° white gradient wash;
+`.badge-accent` uses 2px, mono, uppercase, `0.1em` tracking.
+
+> ⚠️ Inconsistency to fix, not copy: many components still carry Tailwind
+> `rounded-lg`/`rounded-xl`/`rounded-2xl` from the earlier soft look (112 / 90 / 52
+> uses). New work should follow the 2–3px system radius. Pill shapes
+> (`rounded-full`) remain correct for chips and icon buttons.
+
+**Utility classes** — `.card`, `.card-elevated`, `.panel`, `.mesh-card`,
+`.heading`, `.display-title`, `.label`, `.badge`, `.badge-accent`,
+`.action-primary`, `.action-secondary`, `.body-copy`, `.editorial-grid`,
+`.editorial-kicker`, `.editorial-rule`, `.hairline`, `.index-number`,
+`.page-shell` (`min(100% - 2rem, 90rem)`), `.reveal-line`, `.fade-up`,
+`.float-slow`, `.signal-dot`, `.safe-bottom`, `.scroll-touch`, `.scrollbar-hide`,
+`.bg-blueprint-grid`, `.bg-warm-grid`.
+
 - Subject colors mapped in `subjectColorMap` in `src/lib/exam.ts`
-- Tailwind v4 theme bridge in `globals.css` (`@theme inline` block maps CSS vars to Tailwind tokens)
-- Icons: Lucide React (`lucide-react`)
+- Tailwind v4 theme bridge in `globals.css` (`@theme inline` maps CSS vars to Tailwind tokens)
+- Icons: Lucide React (`lucide-react`) — a few inline SVGs remain in the exam runner
 
 ### Mobile-First Responsive Design
 
